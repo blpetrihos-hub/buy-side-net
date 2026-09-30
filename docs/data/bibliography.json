@@ -250,5 +250,26 @@
     "supports": [
       "siemens_furnas_itaipu_fsc_2023"
     ]
+  },
+  {
+    "id": "bnamericas_siemens_eletrobras_53mn_2024",
+    "type": "journalism",
+    "chicago": "BNamericas. “Spotlight: The Siemens Energy-Eletrobras contracts worth US$53mn.” 10 September 2024.",
+    "url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
+    "annotation": "Multi-contract Siemens Energy supply to Eletrobras totaling more than R$300mn (US$53mn): Grajaú GIS, Imperatriz FSC, breakers, HVDC DGA. One-sided allied package.",
+    "supports": [
+      "siemens_eletrobras_grid_pkg_2024",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "cnnbrasil_siemens_eletrobras_2024",
+    "type": "journalism",
+    "chicago": "Reuters / CNN Brasil. “Siemens Energy assina contratos de R$ 300 mi com Eletrobras para modernizar transmissão.” 4 September 2024.",
+    "url": "https://www.cnnbrasil.com.br/economia/negocios/siemens-energy-assina-contratos-de-r-300-mi-com-eletrobras-para-modernizar-transmissao/",
+    "annotation": "Confirms Siemens Energy contracts valued at more than R$300 million for Eletrobras transmission revitalization through 2027.",
+    "supports": [
+      "siemens_eletrobras_grid_pkg_2024"
+    ]
   }
 ]

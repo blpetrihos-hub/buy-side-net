@@ -25,10 +25,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "bnamericas_siemens_furnas_2023",
-    "note": "Cycle 16 logged siemens_furnas_itaipu_fsc_2023 as one_sided allied Siemens Energy FSC package (>R$1bn / ~US$199.87mn). Prior ANEEL Lote 1 RAP exclude remains. Still hunting a U.S.–PRC equipment unit pair.",
-    "evidence_url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
-    "quote": "contract value exceeds R$ 1 billion"
+    "source_id": "bnamericas_siemens_eletrobras_53mn_2024",
+    "note": "Cycle 17 logged siemens_eletrobras_grid_pkg_2024 (>R$300mn / ~US$53mn multi-contract allied package). Cycle 16 Furnas FSC one-sided remains. Still hunting a U.S.–PRC equipment unit pair.",
+    "evidence_url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
+    "quote": "The supply of equipment and solutions totals more than 300mn reais (US$53mn)"
   },
   {
     "id": "hunt_cl_power_equip",
@@ -587,5 +587,36 @@
     "note": "One-sided allied (German Siemens Energy). BNamericas/Siemens Energy release: contract exceeds R$1 billion for FSC revitalization; Reuters reprint (Global Banking & Finance) states ~R$1bn = US$199.87mn at $1=5.0033 BRL (10 May 2023). No PRC bidder or competing unit price on the pages. Package EPC, not a converter/transformer unit price—off the U.S. median.",
     "evidence_url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
     "quote": "Scheduled for delivery in 2026, the contract value exceeds R$ 1 billion. … nine series banks will be replaced, totaling 9,945 MVAr of reactive power, along more than 800 kilometers of transmission line"
+  },
+  {
+    "id": "siemens_eletrobras_grid_pkg_2024",
+    "lane": "commanding_heights",
+    "spec_class": "power_equipment",
+    "evidence": "one_sided",
+    "country": "Brazil",
+    "buyer": "Eletrobras (multi-state transmission modernization)",
+    "seller_us": "Siemens Energy",
+    "seller_prc": "",
+    "city": "Rio de Janeiro",
+    "lat": -22.9068,
+    "lon": -43.1729,
+    "geo_note": "Buyer HQ city pin (Rio de Janeiro). Package spans Grajaú (RJ)",
+    "price_year": "Imperatriz (MA)",
+    "spec": "and breaker sites in MA/PA/MT/RO.",
+    "unit": "2024",
+    "currency": "Multi-contract grid package: Grajaú GIS modernization, Imperatriz FSC, 46×245 kV + 9×550 kV breakers, HVDC transformer DGA monitors",
+    "fx_usd": null,
+    "fx_date": "USD",
+    "us_price": 1.0,
+    "prc_price": null,
+    "us_price_usd": 53000000.0,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "",
+    "on_scoreboard": false,
+    "source_id": "allied",
+    "note": "no",
+    "evidence_url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
+    "quote": "The supply of equipment and solutions totals more than 300mn reais (US$53mn) and covers several states in the country."
   }
 ]
