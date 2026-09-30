@@ -298,10 +298,15 @@ function addFullscreenControl(leafletMap) {
   leafletMap.addControl(new Fullscreen());
 }
 
+const CARTO_BASEMAP_KEY = "cb1_32m3_1_44dc754e68375e8ab5208497";
+
 function renderMap(rows) {
   if (!map) {
     map = L.map("map").setView([-15, -50], 3);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    const tiles =
+      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=" +
+      encodeURIComponent(CARTO_BASEMAP_KEY);
+    L.tileLayer(tiles, {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: "abcd",
