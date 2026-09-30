@@ -1,10 +1,10 @@
 {
   "id": "hunt_icbc_rate",
   "retrieved": "2026-09-30",
-  "source_id": "oecd_cirr_usd_202412",
-  "url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
+  "source_id": "dfc_finance_faqs",
+  "url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
   "price_year": "2024",
   "evidence": "hunt",
-  "quote": "",
-  "note": "CIRR one-sided logged. Still need matched PRC public all-in for same borrower class."
+  "quote": "Generally, the interest rate is a fixed base rate provided by U.S. Treasury plus a risk premium. … Direct Loan Fixed Treasury + To be negotiated",
+  "note": "Dry pass #2 this batch on finance. No named LatAm numeric all-in. Rotating to commanding_heights."
 }

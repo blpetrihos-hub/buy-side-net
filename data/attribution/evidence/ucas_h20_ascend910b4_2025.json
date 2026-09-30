@@ -1,0 +1,10 @@
+{
+  "id": "ucas_h20_ascend910b4_2025",
+  "retrieved": "2026-09-30",
+  "source_id": "ccgp_ucas_h20_ascend_2025",
+  "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
+  "price_year": "2025",
+  "evidence": "proxy",
+  "quote": "GPU服务器 … DELL PowerEdge XE9680 … 6 … 1288970 … NVIDIA HGX H20 8-GPU … AI推理服务器 … KunTai A924 … 4 … 1106500 … 8*Ascend 910B4",
+  "note": "Proxy: same award, different 8-GPU server SKUs. Not a per-chip pair."
+}
