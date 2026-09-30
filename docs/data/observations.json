@@ -25,10 +25,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "comprasnet_cotacao_460112",
-    "note": "ComprasNet pass 2026-09-30: opened RelatorioCotacao 460112 (Dispensa 135/2021, autotransformador above 1 kVA, Bagé-RS). Winner HECKLER CATTO & HECKLER at R$275; all listed suppliers Brazilian domestic brands. No U.S. or PRC comparable bid on that award. Still hunting a 2021–2026 transformer/turbine/HVDC/inverter award with a non-PRC vs PRC pair.",
-    "evidence_url": "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112",
-    "quote": "Valor do menor lance: R$ 275,00. Fornecedor: HECKLER, CATTO & HECKLER LTDA. Objeto: Aquisição de autotransformador."
+    "source_id": "stategrid_aneel_lote1_2023",
+    "note": "ANEEL Transmission Auction 2/2023 Lote 1 won by State Grid Brazil Holding at RAP R$1,936,529,074.68 (39.9% discount). RAP is an annual concession revenue bid, not a transformer/turbine/HVDC converter unit price. Still hunting a buy-side equipment pair.",
+    "evidence_url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
+    "quote": ""
   },
   {
     "id": "hunt_cl_power_equip",
@@ -370,5 +370,36 @@
     "note": "EXCLUDE — not a buy-side price. ICIJ published journalism reports ICBC London wired about $1.3 billion in “emergency cash” for Huawei after the U.S. indictment. Headline loan/wire size is an event, not an all-in rate. Cited from the public article only; no leaked record set used.",
     "evidence_url": "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
     "quote": "That morning, the officers wired $1.3 billion from Huawei’s ICBC account in London to its account in Shenzhen."
+  },
+  {
+    "id": "aneel_state_grid_rap_2023",
+    "lane": "commanding_heights",
+    "spec_class": "power_equipment",
+    "evidence": "exclude",
+    "country": "Brazil",
+    "buyer": "ANEEL transmission concession (Lote 1, Auction 2/2023)",
+    "seller_us": "",
+    "seller_prc": "State Grid Brazil Holding",
+    "city": "São Paulo",
+    "lat": -23.5505,
+    "lon": -46.6333,
+    "geo_note": "Auction held at B3 São Paulo; project links Graça Aranha (MA)–Silvânia (GO). Pin is auction city.",
+    "price_year": "2023",
+    "spec": "800 kV HVDC UHVDC transmission system concession RAP (not equipment unit price)",
+    "unit": "",
+    "currency": "BRL",
+    "fx_usd": null,
+    "fx_date": "",
+    "us_price": null,
+    "prc_price": 1936529074.68,
+    "us_price_usd": null,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "stategrid_aneel_lote1_2023",
+    "note": "EXCLUDE — RAP (Receita Anual Permitida) is a concession revenue bid, not a buy-side equipment unit price for transformers/converters. Logged from State Grid Brazil Holding release and Agência Brasil.",
+    "evidence_url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
+    "quote": "Com lance de R$ 1.936.529.074,68, com deságio de 39,90% … State Grid Brazil Holding arrematou o Lote 1 … 800 kV … Graça Aranha (MA) e Silvânia (GO)."
   }
 ]

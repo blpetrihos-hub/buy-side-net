@@ -84,3 +84,18 @@
   url: "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/"
   annotation: "Published article on the ~$1.3 billion London-to-Shenzhen wire. Coded exclude (event/size, not an all-in rate). Public page only; no leak files."
   supports: ["icbc_huawei_wire_2019"]
+
+- id: stategrid_aneel_lote1_2023
+  type: official
+  chicago: "State Grid Brazil Holding. “State Grid arremata Sistema de Transmissão de Ultra-Alta Tensão no Leilão da Aneel.” 22 December 2023."
+  url: "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/"
+  annotation: "State Grid wins ANEEL Auction 2/2023 Lote 1 at RAP R$1.936bn (39.9% discount) for 800 kV HVDC Graça Aranha–Silvânia. RAP is not an equipment unit price; coded exclude."
+  supports: ["aneel_state_grid_rap_2023", "hunt_br_power_equip"]
+
+- id: agenciabrasil_aneel_leilao_2023
+  type: journalism
+  chicago: "Albuquerque, Flávia. “Leilão de Transmissão termina com três lotes arrematados, diz Aneel.” Agência Brasil, 15 December 2023."
+  url: "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/leilao-de-transmissao-termina-com-tres-lotes-arrematados-diz-aneel"
+  annotation: "Confirms State Grid Lote 1 RAP ~R$1.936bn and other lots. Context for exclude row; not a U.S.–PRC equipment unit pair."
+  supports: ["aneel_state_grid_rap_2023"]
+
