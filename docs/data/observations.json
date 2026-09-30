@@ -56,10 +56,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "lenergy_cen_chile_ofertas_2024",
-    "note": "CEN Chile published economic offers Nov 2024 for Parinas S/E package: Elecnor USD 97.68m vs PowerChina USD 67.98m. Logged as allied paired row cen_parinas_elecnor_powerchina_2024. Still hunting a U.S.-seller equipment unit pair.",
-    "evidence_url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
-    "quote": ""
+    "source_id": "cne_rex_7_parinas_2025",
+    "note": "Cycle 15 upgraded cen_parinas_elecnor_powerchina_2024 with CNE Rex 7 award (PowerChina USD 67.98m matching bid). Still hunting a U.S.-seller equipment unit pair.",
+    "evidence_url": "https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348",
+    "quote": "Ampliación en S/E Parinas (NTR ATAT) … PowerChina Ltd. Agencia Chile … 58.068.464,10"
   },
   {
     "id": "hunt_mx_power_equip",
@@ -428,10 +428,10 @@
     "gap": 0.304024,
     "us_side": "allied",
     "on_scoreboard": false,
-    "source_id": "lenergy_cen_chile_ofertas_2024",
-    "note": "Same CEN Chile tender package, published economic offers (Latin Energy Group / Energía Estratégica, 19 Nov 2024). Elecnor (Spanish, allied) USD 97,675,794 vs PowerChina USD 67,980,000. Allied pair—off the U.S. median. Award acta was scheduled after offer publication; prices are the published bids for the identical works description.",
-    "evidence_url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
-    "quote": "Elecnor: Amp S/E Parinas … USD 97.675.794. Powerchina: Amp S/E Parinas … USD 67.980.000."
+    "source_id": "cne_rex_7_parinas_2025",
+    "note": "UPGRADED — CNE Resolución Exenta Nº 7 (8 Jan 2025) Informe Técnico awards PowerChina Ltd. Agencia Chile Amp S/E Parinas (NTR ATAT) at USD 58,068,464.10 plus Amp S/E Parinas 500/220 kV (IM) at USD 9,911,535.90 (sum USD 67,980,000), matching the Nov 2024 published bid. Competing Elecnor package bid USD 97,675,794 from Latin Energy Group offer sheet (same tender). Allied Spanish Elecnor vs PRC PowerChina—off the U.S. median.",
+    "evidence_url": "https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348",
+    "quote": "Ampliación en S/E Parinas (NTR ATAT) … PowerChina Ltd. Agencia Chile … 58.068.464,10 … Ampliación en S/E Parinas 500 kV (IM) y 200 kV (IM) … PowerChina Ltd. Agencia Chile … 9.911.535,90"
   },
   {
     "id": "fenb65_brazil_china_mkt_20230925",
