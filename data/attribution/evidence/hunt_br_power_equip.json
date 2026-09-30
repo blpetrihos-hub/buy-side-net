@@ -1,10 +1,10 @@
 {
   "id": "hunt_br_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "comprasnet_cotacao_460112",
-  "url": "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112",
-  "price_year": "2021",
+  "source_id": "stategrid_aneel_lote1_2023",
+  "url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
+  "price_year": "2023",
   "evidence": "hunt",
-  "quote": "Valor do menor lance: R$ 275,00. Fornecedor: HECKLER, CATTO & HECKLER LTDA. Objeto: Aquisição de autotransformador.",
-  "note": "Dry pass. Domestic Brazilian suppliers only; no U.S./PRC matched pair on this ComprasNet award."
+  "quote": "",
+  "note": "ANEEL Lote 1 is RAP, not a unit equipment pair. Continue hunt."
 }

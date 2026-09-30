@@ -1,9 +1,9 @@
 updated: 2026-09-30
-cycle: 7
+cycle: 13
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Brazil ANEEL OR utility transformer OR HVDC award China versus ABB OR Siemens unit price 2021..2026
-next_row_id: hunt_br_power_equip
+next_query: Mexico CFE OR CompraNet transformador potencia OR HVDC Siemens OR GE versus China unit price 2022..2026
+next_row_id: hunt_mx_power_equip
 dry_streak: 0
 remote: present
 seen_urls:
@@ -19,8 +19,17 @@ seen_urls:
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5360645/index.html
 - https://www.icij.org/investigations/china-capital/about-china-capital-investigation-icbc/
 - https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/
+- https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/
+- https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/leilao-de-transmissao-termina-com-tres-lotes-arrematados-diz-aneel
+- https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/
+- https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/
+- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm
+- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html
+- https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf
+- https://criticalstrategicmetals.com/minerals/niobium/price/
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.
 - 2026-09-30 | commanding_heights | power_equipment | CompraNet México transformador OR turbina OR inversor adjudicación 2021..2026 precio | DOF 12 Dec 2024 CFE aviso has measure-transformer package and WASION meters vs Schweitzer boards on different SKUs; no same-spec U.S.–PRC unit pair. Opened second basket rail_telecom_process.
 - 2026-09-30 | icbc_finance | all_in_rate | ICIJ China Capital ICBC Huawei London wire OR public EXIM DFC all-in loan rate Latin America | Published ICIJ pages describe the $1.3B Huawei wire (exclude) but no matched ICBC/policy-bank vs EXIM/DFC all-in rate. Leak set not searched or parsed. Rotated back to commanding_heights power_equipment.
+- 2026-09-30 | commanding_heights | power_equipment | Brazil ANEEL OR utility transformer OR HVDC award China versus ABB OR Siemens unit price 2021..2026 | State Grid Lote 1 win is RAP R$1.936bn for 800 kV HVDC concession—not a converter/transformer unit price vs ABB/Siemens.

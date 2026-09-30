@@ -122,5 +122,91 @@
     "supports": [
       "icbc_huawei_wire_2019"
     ]
+  },
+  {
+    "id": "stategrid_aneel_lote1_2023",
+    "type": "official",
+    "chicago": "State Grid Brazil Holding. “State Grid arremata Sistema de Transmissão de Ultra-Alta Tensão no Leilão da Aneel.” 22 December 2023.",
+    "url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
+    "annotation": "State Grid wins ANEEL Auction 2/2023 Lote 1 at RAP R$1.936bn (39.9% discount) for 800 kV HVDC Graça Aranha–Silvânia. RAP is not an equipment unit price; coded exclude.",
+    "supports": [
+      "aneel_state_grid_rap_2023",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "agenciabrasil_aneel_leilao_2023",
+    "type": "journalism",
+    "chicago": "Albuquerque, Flávia. “Leilão de Transmissão termina com três lotes arrematados, diz Aneel.” Agência Brasil, 15 December 2023.",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/leilao-de-transmissao-termina-com-tres-lotes-arrematados-diz-aneel",
+    "annotation": "Confirms State Grid Lote 1 RAP ~R$1.936bn and other lots. Context for exclude row; not a U.S.–PRC equipment unit pair.",
+    "supports": [
+      "aneel_state_grid_rap_2023"
+    ]
+  },
+  {
+    "id": "lenergy_cen_chile_ofertas_2024",
+    "type": "journalism",
+    "chicago": "Latin Energy Group / Energía Estratégica. “Coordinador de Chile reveló las ofertas económicas de una nueva licitación de transmisión.” 19 November 2024.",
+    "url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
+    "annotation": "Published CEN Chile economic offers for Amp S/E Parinas package: Elecnor USD 97.68m vs PowerChina USD 67.98m. Allied paired row; not a U.S. seller.",
+    "supports": [
+      "cen_parinas_elecnor_powerchina_2024",
+      "hunt_cl_power_equip"
+    ]
+  },
+  {
+    "id": "vanadiumprice_fenb_20230925",
+    "type": "journalism",
+    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 25 September 2023.” 25 September 2023.",
+    "url": "https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/",
+    "annotation": "Brazilian FeNb65 230–235k CNY/t at Qinghe/Liaoning/Shanghai. One-sided allied quote; domestic lines on the sheet are 60-A/60-B, not FeNb65.",
+    "supports": [
+      "fenb65_brazil_china_mkt_20230925",
+      "hunt_fenb_araxa"
+    ]
+  },
+  {
+    "id": "ccgp_sysu_atlas900_2024",
+    "type": "official",
+    "chicago": "中山大学 / 中国政府采购网. “中山大学国产智能计算系统采购项目 … 中标结果公告.” 27 December 2024.",
+    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm",
+    "annotation": "Award: Huawei Atlas 900 A3 SuperPoD, CNY 23,989,000 per set to 北明软件. One-sided PRC system price; not a USD/chip observation.",
+    "supports": [
+      "atlas900_a3_superpod_sysu_2024",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20241227",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 27 December 2024.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.1893 CNY on 2024-12-27. FX for atlas900_a3_superpod_sysu_2024.",
+    "supports": [
+      "atlas900_a3_superpod_sysu_2024"
+    ]
+  },
+  {
+    "id": "oecd_cirr_usd_202412",
+    "type": "official",
+    "chicago": "Organisation for Economic Co-operation and Development. “Commercial Interest Reference Rates (CIRRs).” Paris, 6 December 2024 (Credendo-hosted PDF mirror).",
+    "url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
+    "annotation": "USD CIRR 5-year maturity tier 5.23% for 15 Dec 2024–14 Jan 2025. One-sided U.S. schedule rate for exim_cirr_usd_5y_202412; not a named LatAm loan.",
+    "supports": [
+      "exim_cirr_usd_5y_202412",
+      "hunt_icbc_rate"
+    ]
+  },
+  {
+    "id": "csm_niobium_price_hub",
+    "type": "journalism",
+    "chicago": "Critical and Strategic Metals Hub. “Niobium Price.” Accessed 30 September 2026.",
+    "url": "https://criticalstrategicmetals.com/minerals/niobium/price/",
+    "annotation": "States FeNb spot roughly $40–60/kg Nb and current 45–70 $/kg Nb under CBMM-managed pricing. Exclude as undated range context, not a matched buy-side pair.",
+    "supports": [
+      "csm_fenb_range_context",
+      "hunt_fenb_araxa"
+    ]
   }
 ]

@@ -2,13 +2,13 @@
   "generated_from": "buy-side observations codebook",
   "caption": "Score a pair only when both prices are public and the specification matches. A lower PRC price is the asymmetry. Hunt pins are places still missing a number. Nothing here is a recommendation.",
   "meta": {
-    "n_rows": 12,
+    "n_rows": 18,
     "counts": {
-      "paired": 1,
+      "paired": 2,
       "proxy": 2,
-      "one_sided": 1,
+      "one_sided": 4,
       "hunt": 7,
-      "exclude": 1,
+      "exclude": 3,
       "scored": 0
     }
   },
@@ -22,7 +22,10 @@
     "proxy_one_sided": [
       "efe_crrc_emu_2023",
       "fenb_china_mkt_202309",
-      "h20_ascend910b_2024"
+      "h20_ascend910b_2024",
+      "fenb65_brazil_china_mkt_20230925",
+      "atlas900_a3_superpod_sysu_2024",
+      "exim_cirr_usd_5y_202412"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -34,7 +37,9 @@
       "hunt_latam_rail_telecom"
     ],
     "exclude": [
-      "icbc_huawei_wire_2019"
+      "icbc_huawei_wire_2019",
+      "aneel_state_grid_rap_2023",
+      "csm_fenb_range_context"
     ]
   }
 }
