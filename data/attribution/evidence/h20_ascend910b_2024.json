@@ -1,0 +1,10 @@
+{
+  "id": "h20_ascend910b_2024",
+  "retrieved": "2026-09-30",
+  "source_id": "reuters_nvidia_h20_huawei_2024",
+  "url": "https://finance.yahoo.com/news/exclusive-nvidia-cuts-china-prices-033402278.html",
+  "price_year": "2024",
+  "evidence": "proxy",
+  "quote": "Server distributors in China are selling the H20 at prices around 100,000 yuan per card … distributors are selling the Huawei 910B at above 120,000 yuan per card.",
+  "note": "UNVERIFIED press proxy. Anonymous sources. Ascend stored at published floor of 120,000 yuan."
+}

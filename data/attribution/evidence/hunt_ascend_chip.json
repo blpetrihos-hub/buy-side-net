@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-09-30",
-  "source_id": "",
-  "url": "",
-  "price_year": "",
+  "source_id": "reuters_nvidia_h20_huawei_2024",
+  "url": "https://finance.yahoo.com/news/exclusive-nvidia-cuts-china-prices-033402278.html",
+  "price_year": "2024",
   "evidence": "hunt",
   "quote": "",
-  "note": "Seed hunt. H20 or export-article H100 versus Ascend 910B/910C, USD per chip, one calendar year."
+  "note": "Proxy row h20_ascend910b_2024 logged from press. Still hunting a document-backed same-year USD/chip pair."
 }

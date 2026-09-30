@@ -80,5 +80,26 @@
     "supports": [
       "fenb_china_mkt_202309"
     ]
+  },
+  {
+    "id": "reuters_nvidia_h20_huawei_2024",
+    "type": "journalism",
+    "chicago": "Potkin, Fanny. “Exclusive: Nvidia cuts China prices in Huawei chip fight, sources say.” Reuters, 24 May 2024. Yahoo Finance reprint.",
+    "url": "https://finance.yahoo.com/news/exclusive-nvidia-cuts-china-prices-033402278.html",
+    "annotation": "Press-only distributor quotes: H20 around 100,000 yuan/card; Ascend 910B above 120,000 yuan/card. UNVERIFIED proxy for h20_ascend910b_2024. Anonymous sources; no contract document.",
+    "supports": [
+      "h20_ascend910b_2024",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20240524",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 24 May 2024.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5360645/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.1102 CNY on 2024-05-24. FX for h20_ascend910b_2024.",
+    "supports": [
+      "h20_ascend910b_2024"
+    ]
   }
 ]
