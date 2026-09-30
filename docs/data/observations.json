@@ -87,10 +87,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "dof_cfe_adjudicacion_2024_12_12",
-    "note": "CompraNet/CFE DOF pass 2026-09-30: DOF 12 Dec 2024 awards Transformadores de Medida (CFE-0001-CAAAT-0002-2024) package MXN 82,710,826.49 to Equipos para Redes Eléctricas del Centro; medium-voltage meters to WASION (PRC-linked) at MXN 28,914,979 package; PCyM boards to Schweitzer (U.S.) and others. Different SKUs on the same aviso—no matched U.S.–PRC unit price for the same transformer/turbine/HVDC/inverter spec. Still hunting a same-spec pair.",
-    "evidence_url": "https://dof.gob.mx/nota_detalle.php?codigo=5745128&fecha=12%2F12%2F2024",
-    "quote": "Adquisición de Transformadores de Medida … Equipos para Redes Eléctricas del Centro … $82,710,826.49 … Adquisición de Medidores de Media Tensión … WASION … $28,914,979.00 M.N."
+    "source_id": "sidof_cfe_excitacion_tm_2025",
+    "note": "Cycle 14 SIDOF aviso (31 Jul 2025 gazette of Dec 2024 fallo): CFE-0001-CAAAT-0117-2024 excitation transformers for CTE Presidente Adolfo López Mateos awarded to Transformadores Monterrey at MXN 50,647,935.60 (partida única). Mexican domestic seller; no U.S. or PRC bidder on the aviso. Prior DOF 12 Dec 2024 measure-transformer/meter/PCyM packages also lacked a same-spec U.S.–PRC unit pair. Still hunting.",
+    "evidence_url": "https://sidof.segob.gob.mx/notas/docFuente/5764297",
+    "quote": "No. CFE-0001-CAAAT-0117-2024, para la Adquisición de Transformadores de Excitación para la Central Termoeléctrica Presidente Adolfo López Mateos … Transformadores Monterrey, S.A. de C.V. … $ 50,647,935.60 M.N. … El fallo se emitió el 11 de diciembre de 2024."
   },
   {
     "id": "hunt_fenb_araxa",

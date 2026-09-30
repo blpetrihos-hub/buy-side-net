@@ -141,3 +141,10 @@
   annotation: "States FeNb spot roughly $40–60/kg Nb and current 45–70 $/kg Nb under CBMM-managed pricing. Exclude as undated range context, not a matched buy-side pair."
   supports: ["csm_fenb_range_context", "hunt_fenb_araxa"]
 
+- id: sidof_cfe_excitacion_tm_2025
+  type: official
+  chicago: "Comisión Federal de Electricidad, CFE Generación VI EPS. “Aviso múltiple de adjudicación de contratos” (CFE-0001-CAAAT-0117-2024, transformadores de excitación). Sistema de Difusión Oficial / SIDOF nota 5764297, gazette date 31 July 2025 (fallo 11 December 2024)."
+  url: "https://sidof.segob.gob.mx/notas/docFuente/5764297"
+  annotation: "CFE awards excitation transformers for CTE Presidente Adolfo López Mateos to Transformadores Monterrey at MXN 50,647,935.60. Mexican domestic seller; no U.S./PRC bidder named. Documents Mexico power-equipment dry pass."
+  supports: ["hunt_mx_power_equip"]
+

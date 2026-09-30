@@ -1,10 +1,10 @@
 {
   "id": "hunt_mx_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "dof_cfe_adjudicacion_2024_12_12",
-  "url": "https://dof.gob.mx/nota_detalle.php?codigo=5745128&fecha=12%2F12%2F2024",
+  "source_id": "sidof_cfe_excitacion_tm_2025",
+  "url": "https://sidof.segob.gob.mx/notas/docFuente/5764297",
   "price_year": "2024",
   "evidence": "hunt",
-  "quote": "Adquisición de Transformadores de Medida … Equipos para Redes Eléctricas del Centro … $82,710,826.49 … Adquisición de Medidores de Media Tensión … WASION … $28,914,979.00 M.N.",
-  "note": "Dry pass #3 on power_equipment. Package awards without a same-spec U.S.–PRC unit pair."
+  "quote": "No. CFE-0001-CAAAT-0117-2024, para la Adquisición de Transformadores de Excitación para la Central Termoeléctrica Presidente Adolfo López Mateos … Transformadores Monterrey, S.A. de C.V. … $ 50,647,935.60 M.N. … El fallo se emitió el 11 de diciembre de 2024.",
+  "note": "Dry pass. Mexican domestic Transformadores Monterrey package award; no U.S. or PRC bidder named on the aviso. No same-spec pair."
 }
