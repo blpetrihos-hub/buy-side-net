@@ -166,19 +166,11 @@ function renderCountryStrip(rows) {
     .join("");
 }
 
-function listItem(row) {
-  const gapBit = row.gap != null ? ` · ${fmtPct(row.gap)}` : "";
-  return (
-    `<li><button type="button" data-id="${row.id}">` +
-    `<strong>${row.id}</strong>` +
-    `<span class="meta">${LANE_LABEL[row.lane] || row.lane} · ${row.evidence}${gapBit}` +
-    (row.country ? ` · ${row.country}` : "") +
-    `</span></button></li>`
-  );
-}
-
 function renderLists(rows) {
-  const scored = rows.filter((r) => r.on_scoreboard);
+  // Scored U.S. median pairs, plus allied paired pins (off median but on the map).
+  const scored = rows.filter(
+    (r) => r.on_scoreboard || r.evidence === "paired"
+  );
   const proxy = rows.filter((r) => r.evidence === "proxy" || r.evidence === "one_sided");
   const hunt = rows.filter((r) => r.evidence === "hunt");
   $("listScored").innerHTML = scored.length
@@ -194,6 +186,21 @@ function renderLists(rows) {
   document.querySelectorAll(".side-list button").forEach((btn) => {
     btn.addEventListener("click", () => focusRow(btn.getAttribute("data-id")));
   });
+}
+
+function listItem(row) {
+  const gapBit = row.gap != null ? ` · ${fmtPct(row.gap)}` : "";
+  const alliedBit =
+    row.evidence === "paired" && row.us_side === "allied" && !row.on_scoreboard
+      ? " · allied, off U.S. median"
+      : "";
+  return (
+    `<li><button type="button" data-id="${row.id}">` +
+    `<strong>${row.id}</strong>` +
+    `<span class="meta">${LANE_LABEL[row.lane] || row.lane} · ${row.evidence}${gapBit}${alliedBit}` +
+    (row.country ? ` · ${row.country}` : "") +
+    `</span></button></li>`
+  );
 }
 
 function focusRow(id) {
