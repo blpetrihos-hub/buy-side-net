@@ -1,9 +1,9 @@
 updated: 2026-09-30
-cycle: 3
-active_lane: commanding_heights
-active_basket: rail_telecom_process
-next_query: Latin America railway OR telecom OR process equipment tender award China versus Siemens OR GE price 2021..2026
-next_row_id: hunt_latam_rail_telecom
+cycle: 4
+active_lane: niobium
+active_basket: fenb_std
+next_query: China ferroniobium FeNb65 Brazilian versus domestic 60-A market price CNY/ton September 2023
+next_row_id: hunt_fenb_araxa
 dry_streak: 0
 remote: present
 seen_urls:
@@ -11,6 +11,8 @@ seen_urls:
 - https://news.solarbe.com/202212/20/363300.html
 - https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul
 - https://dof.gob.mx/nota_detalle.php?codigo=5745128&fecha=12%2F12%2F2024
+- https://www.bnamericas.com/en/features/crrc-wins-sao-paulo-subway-rolling-stock-auction
+- https://mtt.gob.cl/efe-adjudica-licitacion-para-la-mayor-compra-de-trenes-en-su-historia/
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.

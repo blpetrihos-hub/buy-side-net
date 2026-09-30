@@ -1,10 +1,10 @@
 {
   "id": "hunt_latam_rail_telecom",
   "retrieved": "2026-09-30",
-  "source_id": "",
-  "url": "",
-  "price_year": "",
+  "source_id": "bnamericas_sp_metro_crrc_2024",
+  "url": "https://www.bnamericas.com/en/features/crrc-wins-sao-paulo-subway-rolling-stock-auction",
+  "price_year": "2024",
   "evidence": "hunt",
   "quote": "",
-  "note": "Seed hunt for second commanding_heights basket after three dry passes on power_equipment."
+  "note": "Still open for a U.S.-seller pair. Allied SP metro pair and Chile EFE one-sided logged as separate rows."
 }

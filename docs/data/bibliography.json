@@ -38,5 +38,26 @@
     "supports": [
       "hunt_mx_power_equip"
     ]
+  },
+  {
+    "id": "bnamericas_sp_metro_crrc_2024",
+    "type": "journalism",
+    "chicago": "BNamericas. “CRRC wins São Paulo subway rolling stock auction.” 30 December 2024.",
+    "url": "https://www.bnamericas.com/en/features/crrc-wins-sao-paulo-subway-rolling-stock-auction",
+    "annotation": "Same-auction bids: CRRC 3.10bn BRL (US$500mn) vs Alstom 3.12bn BRL for 44 São Paulo Metro trainsets (Lines 2 and 3). Allied pair, not a U.S. seller. Supports sp_metro_crrc_alstom_2024.",
+    "supports": [
+      "sp_metro_crrc_alstom_2024",
+      "hunt_latam_rail_telecom"
+    ]
+  },
+  {
+    "id": "mtt_efe_trenes_2023",
+    "type": "official",
+    "chicago": "Ministerio de Transportes y Telecomunicaciones (Chile). “EFE adjudica licitación para la mayor compra de trenes en su historia.” 11 August 2023.",
+    "url": "https://mtt.gob.cl/efe-adjudica-licitacion-para-la-mayor-compra-de-trenes-en-su-historia/",
+    "annotation": "EFE awards 32 EMUs to CRRC Sifang/Temoinsa for US$171.36 million (Melipilla and Batuco). One-sided PRC price; no non-PRC bid on the page. Supports efe_crrc_emu_2023.",
+    "supports": [
+      "efe_crrc_emu_2023"
+    ]
   }
 ]
