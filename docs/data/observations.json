@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_sysu_atlas900_2024",
-    "note": "Cycle 11 logged atlas900_a3_superpod_sysu_2024 as one_sided PRC cluster award (not USD/chip). Prior H20/910B press proxy remains. Still hunting document-backed USD/chip pair.",
-    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm",
-    "quote": ""
+    "source_id": "ccgp_wust_atlas800t_2024",
+    "note": "Cycle 19 logged atlas800t_a2_wust_2024 as one_sided PRC Atlas 800T A2 system award (CNY 2.002m/system). Prior Atlas 900 A3 SuperPoD and H20/910B proxy remain. Still hunting document-backed USD/chip pair.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
+    "quote": "规格型号Atlas 800T A2（核心产品）等 数量：10套 … 中标（成交）金额：2002.280000(万元)"
   },
   {
     "id": "hunt_icbc_rate",
@@ -649,5 +649,36 @@
     "note": "One-sided PRC. XD Changbian company release (11 Sep 2024): awarded 16 ±400 kV converter transformers at CNY 834 million for CET/State Grid Brazil Northeast UHVDC. Unit = package/16 = CNY 52,125,000. FX: PBOC central parity 1 USD = 7.0925 CNY on 2024-09-06 (nearest cited official parity to award announcement week). No U.S. seller quote on the page—off the median.",
     "evidence_url": "http://www.xdcb.com.cn/info/1020/2061.htm",
     "quote": "共中标16台±400千伏换流变压器，中标金额达8.34亿元。"
+  },
+  {
+    "id": "atlas800t_a2_wust_2024",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "Wuhan University of Science and Technology",
+    "seller_us": "",
+    "seller_prc": "Huawei (via Shanghai Hello / 哈啰普惠)",
+    "city": "Wuhan",
+    "lat": 30.5928,
+    "lon": 114.3055,
+    "geo_note": "Buyer campus area, Wuhan (Qingshan District).",
+    "price_year": "2024",
+    "spec": "Huawei Atlas 800T A2 domestic compute servers — 10 systems (core product); system price, not per-chip",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.13889661,
+    "fx_date": "2024-12-03",
+    "us_price": null,
+    "prc_price": 2002280.0,
+    "us_price_usd": null,
+    "prc_price_usd": 278109.89,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "ccgp_wust_atlas800t_2024",
+    "note": "One-sided PRC. CCGP award notice 3 Dec 2024: Wuhan University of Science and Technology domestic compute platform — Huawei Atlas 800T A2, 10 sets, total CNY 20,022,800 (CNY 2,002,280 per system). Unit is USD/system, not USD/chip — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.1996 CNY on 2024-12-03.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
+    "quote": "中标（成交）金额：2002.280000(万元) … 品牌（如有）：华为（核心产品）等 规格型号Atlas 800T A2（核心产品）等 数量：10套（核心产品）等"
   }
 ]
