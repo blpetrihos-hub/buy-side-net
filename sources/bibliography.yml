@@ -1,0 +1,9 @@
+# Canonical citations for the site bibliography tab.
+# Every codebook source_id must appear here.
+
+- id: methods_clock
+  type: methods
+  chicago: "William & Mary GIAS Futures Group, Team 2. Buy-side price net methods. Fall 2026."
+  url: ""
+  annotation: "Internal methods clock (2026–2036). Price observations may be dated 2021–2026 when that is the award or quote year. Not a source for a price."
+  supports: ["methods"]

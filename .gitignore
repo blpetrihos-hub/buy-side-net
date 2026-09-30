@@ -1,0 +1,17 @@
+# Office lock / temp files
+~$*
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
