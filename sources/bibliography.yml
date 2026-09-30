@@ -99,3 +99,10 @@
   annotation: "Confirms State Grid Lote 1 RAP ~R$1.936bn and other lots. Context for exclude row; not a U.S.–PRC equipment unit pair."
   supports: ["aneel_state_grid_rap_2023"]
 
+- id: lenergy_cen_chile_ofertas_2024
+  type: journalism
+  chicago: "Latin Energy Group / Energía Estratégica. “Coordinador de Chile reveló las ofertas económicas de una nueva licitación de transmisión.” 19 November 2024."
+  url: "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/"
+  annotation: "Published CEN Chile economic offers for Amp S/E Parinas package: Elecnor USD 97.68m vs PowerChina USD 67.98m. Allied paired row; not a U.S. seller."
+  supports: ["cen_parinas_elecnor_powerchina_2024", "hunt_cl_power_equip"]
+

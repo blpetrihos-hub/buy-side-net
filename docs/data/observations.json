@@ -56,10 +56,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "chilecompra_utem_inversor_5251_23",
-    "note": "ChileCompra/Mercado Público pass via todolicitaciones mirror of UTEM Macul licitación 5251-23-L124: Fronius Symo 15 kW on-grid inverter awarded at CLP 3,280,000 to SOCIEDAD COMERCIAL E INDUSTRIAL BRAUER S.A. Austrian brand via Chilean reseller; no PRC comparable bid on that award. Still hunting a utility-scale transformer/turbine/HVDC/inverter pair.",
-    "evidence_url": "https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul",
-    "quote": "Inversor On grid Trifásico 15kw FRONIUS SYMO … Proveedor: SOCIEDAD COMERCIAL E INDUSTRIAL BRAUER S A. Monto Unitario $ 3.280.000."
+    "source_id": "lenergy_cen_chile_ofertas_2024",
+    "note": "CEN Chile published economic offers Nov 2024 for Parinas S/E package: Elecnor USD 97.68m vs PowerChina USD 67.98m. Logged as allied paired row cen_parinas_elecnor_powerchina_2024. Still hunting a U.S.-seller equipment unit pair.",
+    "evidence_url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
+    "quote": ""
   },
   {
     "id": "hunt_mx_power_equip",
@@ -401,5 +401,36 @@
     "note": "EXCLUDE — RAP (Receita Anual Permitida) is a concession revenue bid, not a buy-side equipment unit price for transformers/converters. Logged from State Grid Brazil Holding release and Agência Brasil.",
     "evidence_url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
     "quote": "Com lance de R$ 1.936.529.074,68, com deságio de 39,90% … State Grid Brazil Holding arrematou o Lote 1 … 800 kV … Graça Aranha (MA) e Silvânia (GO)."
+  },
+  {
+    "id": "cen_parinas_elecnor_powerchina_2024",
+    "lane": "commanding_heights",
+    "spec_class": "power_equipment",
+    "evidence": "paired",
+    "country": "Chile",
+    "buyer": "CEN Chile transmission works — Amp S/E Parinas (NTR ATAT + 500/220 kV IM)",
+    "seller_us": "Elecnor",
+    "seller_prc": "PowerChina",
+    "city": "Santiago",
+    "lat": -33.4489,
+    "lon": -70.6693,
+    "geo_note": "Buyer/process HQ city (Santiago / CEN). Parinas S/E is in northern Chile; pin is process city until project coords are cited.",
+    "price_year": "2024",
+    "spec": "Amp S/E Parinas (NTR ATAT) + Amp S/E Parinas 500 kV (IM) and 220 kV (IM) works package",
+    "unit": "USD/package",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2024-11-19",
+    "us_price": 97675794.0,
+    "prc_price": 67980000.0,
+    "us_price_usd": 97675794.0,
+    "prc_price_usd": 67980000.0,
+    "gap": 0.304024,
+    "us_side": "allied",
+    "on_scoreboard": false,
+    "source_id": "lenergy_cen_chile_ofertas_2024",
+    "note": "Same CEN Chile tender package, published economic offers (Latin Energy Group / Energía Estratégica, 19 Nov 2024). Elecnor (Spanish, allied) USD 97,675,794 vs PowerChina USD 67,980,000. Allied pair—off the U.S. median. Award acta was scheduled after offer publication; prices are the published bids for the identical works description.",
+    "evidence_url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
+    "quote": "Elecnor: Amp S/E Parinas … USD 97.675.794. Powerchina: Amp S/E Parinas … USD 67.980.000."
   }
 ]
