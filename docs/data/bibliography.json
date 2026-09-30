@@ -197,5 +197,16 @@
       "exim_cirr_usd_5y_202412",
       "hunt_icbc_rate"
     ]
+  },
+  {
+    "id": "csm_niobium_price_hub",
+    "type": "journalism",
+    "chicago": "Critical and Strategic Metals Hub. “Niobium Price.” Accessed 30 September 2026.",
+    "url": "https://criticalstrategicmetals.com/minerals/niobium/price/",
+    "annotation": "States FeNb spot roughly $40–60/kg Nb and current 45–70 $/kg Nb under CBMM-managed pricing. Exclude as undated range context, not a matched buy-side pair.",
+    "supports": [
+      "csm_fenb_range_context",
+      "hunt_fenb_araxa"
+    ]
   }
 ]
