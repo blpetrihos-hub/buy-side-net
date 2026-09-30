@@ -59,7 +59,11 @@ function fmtMoney(n, unit) {
 }
 
 function pinColor(row) {
-  if (!row.on_scoreboard || row.gap == null) return COLORS.unscored;
+  // Scored U.S. pairs and allied paired pins both use gap colors; allied stay off the median.
+  const pairedWithGap =
+    row.evidence === "paired" && row.gap != null && !Number.isNaN(row.gap);
+  if (!row.on_scoreboard && !pairedWithGap) return COLORS.unscored;
+  if (row.gap == null || Number.isNaN(row.gap)) return COLORS.unscored;
   if (row.gap > 0) return COLORS.prc_cheaper;
   if (row.gap < 0) return COLORS.us_cheaper;
   return COLORS.tie;

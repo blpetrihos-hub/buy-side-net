@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
   "retrieved": "2026-09-30",
-  "source_id": "",
-  "url": "",
-  "price_year": "",
+  "source_id": "vanadiumprice_fenb_20230928",
+  "url": "https://vanadiumprice.com/2023/09/28/china-ferroniobium-market-prices-on-28-september-2023/",
+  "price_year": "2023",
   "evidence": "hunt",
   "quote": "",
-  "note": "Seed hunt. Standard-grade FeNb USD/kg at CBMM HQ pin. Not a scored sale until both sides quote the same year and unit."
+  "note": "Still hunting a same-grade FeNb65 USD/kg pair with a U.S. seller. Proxy row fenb_china_mkt_202309 logged separately."
 }

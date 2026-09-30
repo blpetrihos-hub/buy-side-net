@@ -42,3 +42,17 @@
   url: "https://mtt.gob.cl/efe-adjudica-licitacion-para-la-mayor-compra-de-trenes-en-su-historia/"
   annotation: "EFE awards 32 EMUs to CRRC Sifang/Temoinsa for US$171.36 million (Melipilla and Batuco). One-sided PRC price; no non-PRC bid on the page. Supports efe_crrc_emu_2023."
   supports: ["efe_crrc_emu_2023"]
+
+- id: vanadiumprice_fenb_20230928
+  type: journalism
+  chicago: "VanadiumPrice.com. “China Ferroniobium Market Prices On 28 September 2023.” 28 September 2023."
+  url: "https://vanadiumprice.com/2023/09/28/china-ferroniobium-market-prices-on-28-september-2023/"
+  annotation: "Trade-press China-market quotes: Brazilian FeNb65 230–235k CNY/t and Chinese 60-A 280–300k CNY/t. Spec grades differ; treated as UNVERIFIED proxy. FX from PBOC central parity same day."
+  supports: ["fenb_china_mkt_202309", "hunt_fenb_araxa"]
+
+- id: pboc_cny_20230928
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 28 September 2023."
+  url: "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5082479/index.html"
+  annotation: "PBOC central parity 1 USD = 7.1798 CNY on 2023-09-28. FX for fenb_china_mkt_202309."
+  supports: ["fenb_china_mkt_202309"]
