@@ -14,3 +14,10 @@
   url: "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112"
   annotation: "Opened for the Brazil power-equipment hunt. Small autotransformer award (Bagé-RS); lowest lance R$275 to a Brazilian firm. No U.S. or PRC bidder named. Documents a ComprasNet family pass without a matched pair."
   supports: ["hunt_br_power_equip"]
+
+- id: chilecompra_utem_inversor_5251_23
+  type: official
+  chicago: "Universidad Tecnológica Metropolitana. “Mat. Electricos Inversor Biblioteca Campus Macul,” licitación 5251-23-L124 (adjudicada). Mercado Público / ChileCompra; mirror at TodoLicitaciones."
+  url: "https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul"
+  annotation: "Opened for the Chile power-equipment hunt. Fronius 15 kW inverter at CLP 3,280,000. No PRC bidder on this award. Documents a ChileCompra-family pass without a matched U.S.–PRC pair."
+  supports: ["hunt_cl_power_equip"]

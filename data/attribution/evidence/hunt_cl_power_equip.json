@@ -1,10 +1,10 @@
 {
   "id": "hunt_cl_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "",
-  "url": "",
-  "price_year": "",
+  "source_id": "chilecompra_utem_inversor_5251_23",
+  "url": "https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul",
+  "price_year": "2024",
   "evidence": "hunt",
-  "quote": "",
-  "note": "Seed hunt. ChileCompra for a 2021–2026 power-equipment award with a comparable non-PRC bid. No price yet."
+  "quote": "Inversor On grid Trifásico 15kw FRONIUS SYMO … Proveedor: SOCIEDAD COMERCIAL E INDUSTRIAL BRAUER S A. Monto Unitario $ 3.280.000.",
+  "note": "Dry pass. Small campus inverter award; Fronius via Chilean reseller; no PRC/U.S. matched pair."
 }
