@@ -229,5 +229,26 @@
       "cen_parinas_elecnor_powerchina_2024",
       "hunt_cl_power_equip"
     ]
+  },
+  {
+    "id": "bnamericas_siemens_furnas_2023",
+    "type": "journalism",
+    "chicago": "BNamericas / Siemens Energy. “Siemens Energy wins major contract to revitalize one of the most important interconnections in Brazil.” 11 May 2023.",
+    "url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
+    "annotation": "Furnas awards Siemens Energy turnkey FSC revitalization on Itaberá–Ivaiporã; contract exceeds R$1 billion. Supports one-sided allied row siemens_furnas_itaipu_fsc_2023.",
+    "supports": [
+      "siemens_furnas_itaipu_fsc_2023",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "reuters_siemens_eletrobras_2023",
+    "type": "journalism",
+    "chicago": "Fucuchima, Leticia. “Siemens Energy signs $200 million deal with Brazil’s Eletrobras to upgrade transmission line.” Reuters, 10 May 2023. Global Banking & Finance reprint.",
+    "url": "https://www.globalbankingandfinance.com/siemens-energy-signs-200-million-deal-with-brazils-eletrobras-to-upgrade-transmission-line/",
+    "annotation": "States project worth some 1 billion reais (US$199.87 million) at $1 = 5.0033 reais. USD figure used for siemens_furnas_itaipu_fsc_2023.",
+    "supports": [
+      "siemens_furnas_itaipu_fsc_2023"
+    ]
   }
 ]

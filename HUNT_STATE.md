@@ -1,9 +1,9 @@
 updated: 2026-09-30
-cycle: 15
+cycle: 16
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Siemens Energy Eletrobras OR Furnas transmission modernization contract Brazil value 2023..2024 versus China
-next_row_id: siemens_furnas_itaipu_fsc_2023
+next_query: Siemens Energy Eletrobras Grajaú OR Imperatriz OR circuit breaker contracts Brazil R$300 million 2024
+next_row_id: siemens_eletrobras_grid_pkg_2024
 dry_streak: 0
 remote: present
 seen_urls:
@@ -29,6 +29,8 @@ seen_urls:
 - https://criticalstrategicmetals.com/minerals/niobium/price/
 - https://sidof.segob.gob.mx/notas/docFuente/5764297
 - https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348
+- https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil
+- https://www.globalbankingandfinance.com/siemens-energy-signs-200-million-deal-with-brazils-eletrobras-to-upgrade-transmission-line/
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.

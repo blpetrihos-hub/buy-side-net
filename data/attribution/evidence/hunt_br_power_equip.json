@@ -1,10 +1,10 @@
 {
   "id": "hunt_br_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "stategrid_aneel_lote1_2023",
-  "url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
+  "source_id": "bnamericas_siemens_furnas_2023",
+  "url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
   "price_year": "2023",
   "evidence": "hunt",
-  "quote": "",
-  "note": "ANEEL Lote 1 is RAP, not a unit equipment pair. Continue hunt."
+  "quote": "contract value exceeds R$ 1 billion",
+  "note": "Logged Siemens Furnas one-sided allied package. Still hunting U.S.–PRC same-spec equipment unit pair."
 }

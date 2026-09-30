@@ -25,10 +25,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "stategrid_aneel_lote1_2023",
-    "note": "ANEEL Transmission Auction 2/2023 Lote 1 won by State Grid Brazil Holding at RAP R$1,936,529,074.68 (39.9% discount). RAP is an annual concession revenue bid, not a transformer/turbine/HVDC converter unit price. Still hunting a buy-side equipment pair.",
-    "evidence_url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
-    "quote": ""
+    "source_id": "bnamericas_siemens_furnas_2023",
+    "note": "Cycle 16 logged siemens_furnas_itaipu_fsc_2023 as one_sided allied Siemens Energy FSC package (>R$1bn / ~US$199.87mn). Prior ANEEL Lote 1 RAP exclude remains. Still hunting a U.S.–PRC equipment unit pair.",
+    "evidence_url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
+    "quote": "contract value exceeds R$ 1 billion"
   },
   {
     "id": "hunt_cl_power_equip",
@@ -556,5 +556,36 @@
     "note": "EXCLUDE — Critical Strategic Metals Hub states ferroniobium “roughly $40–60/kg Nb” and a current spot range “45–70 $/kg Nb (ferroniobium)” under private CBMM pricing. Broad undated range, not a matched U.S.–PRC buy-side quote for the same year/unit. Context only.",
     "evidence_url": "https://criticalstrategicmetals.com/minerals/niobium/price/",
     "quote": "Current spot pricing is in the range of 45-70 $/kg Nb (ferroniobium). Ferroniobium trades at roughly $40-60/kg Nb content."
+  },
+  {
+    "id": "siemens_furnas_itaipu_fsc_2023",
+    "lane": "commanding_heights",
+    "spec_class": "power_equipment",
+    "evidence": "one_sided",
+    "country": "Brazil",
+    "buyer": "Eletrobras Furnas (Itaberá–Ivaiporã interconnection)",
+    "seller_us": "Siemens Energy",
+    "seller_prc": "",
+    "city": "São Paulo",
+    "lat": -23.5505,
+    "lon": -46.6333,
+    "geo_note": "Buyer/operator HQ region pin (São Paulo); line runs Itaberá (SP)–Ivaiporã (PR) from Itaipu corridor.",
+    "price_year": "2023",
+    "spec": "Turnkey replacement of 9 fixed series capacitor (FSC) banks totaling 9,945 MVAr on >800 km Itaberá–Ivaiporã transmission line",
+    "unit": "USD/package",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2023-05-10",
+    "us_price": 199870000.0,
+    "prc_price": null,
+    "us_price_usd": 199870000.0,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "allied",
+    "on_scoreboard": false,
+    "source_id": "bnamericas_siemens_furnas_2023",
+    "note": "One-sided allied (German Siemens Energy). BNamericas/Siemens Energy release: contract exceeds R$1 billion for FSC revitalization; Reuters reprint (Global Banking & Finance) states ~R$1bn = US$199.87mn at $1=5.0033 BRL (10 May 2023). No PRC bidder or competing unit price on the pages. Package EPC, not a converter/transformer unit price—off the U.S. median.",
+    "evidence_url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
+    "quote": "Scheduled for delivery in 2026, the contract value exceeds R$ 1 billion. … nine series banks will be replaced, totaling 9,945 MVAr of reactive power, along more than 800 kilometers of transmission line"
   }
 ]
