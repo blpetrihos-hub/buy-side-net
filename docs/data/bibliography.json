@@ -184,7 +184,8 @@
     "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html",
     "annotation": "PBOC central parity 1 USD = 7.1893 CNY on 2024-12-27. FX for atlas900_a3_superpod_sysu_2024.",
     "supports": [
-      "atlas900_a3_superpod_sysu_2024"
+      "atlas900_a3_superpod_sysu_2024",
+      "ustc_suzhou_hgx_h20_2024"
     ]
   },
   {
