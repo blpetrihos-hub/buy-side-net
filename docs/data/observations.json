@@ -56,10 +56,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "cne_rex_7_parinas_2025",
-    "note": "Cycle 15 upgraded cen_parinas_elecnor_powerchina_2024 with CNE Rex 7 award (PowerChina USD 67.98m matching bid). Still hunting a U.S.-seller equipment unit pair.",
-    "evidence_url": "https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348",
-    "quote": "Ampliación en S/E Parinas (NTR ATAT) … PowerChina Ltd. Agencia Chile … 58.068.464,10"
+    "source_id": "cen_acta_adjudicacion_2024_11_22",
+    "note": "Cycle 23 logged cen_fengfan_g03_2024 as one_sided PRC (USD 43.03m). Parinas allied pair remains. Still hunting a U.S.-seller equipment unit pair.",
+    "evidence_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
+    "quote": "OA_G03 … CHANGSHU FENGFAN … 43.032.859,00"
   },
   {
     "id": "hunt_mx_power_equip",
@@ -711,5 +711,36 @@
     "note": "One-sided PRC. Barbados Parliament Resolution Schedule (2022): Export-Import Bank of China loan approx BBD 256.6m / RMB 815.5m at 2% per annum, 20-year term, 60-month grace, 0.25% commitment fee, 0.25% management fee. PMO remarks (18 Feb 2022) also state 2%. Public parliamentary terms—not a matched U.S. EXIM/DFC all-in for the same borrower class. Off the finance median until paired.",
     "evidence_url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
     "quote": "Interest rate: 2% per annum. … Lender: Export – Import Bank of China. … Amount: Approximately BBD 256 600 000, Renminbi 815 500 000."
+  },
+  {
+    "id": "cen_fengfan_g03_2024",
+    "lane": "commanding_heights",
+    "spec_class": "power_equipment",
+    "evidence": "one_sided",
+    "country": "Chile",
+    "buyer": "CEN Chile transmission works — OA_G03 (Nueva Zaldívar–Likanantai + Taltal/Kimal/Monte Mina)",
+    "seller_us": "",
+    "seller_prc": "Changshu Fengfan Power Equipment",
+    "city": "Santiago",
+    "lat": -33.4489,
+    "lon": -70.6693,
+    "geo_note": "Buyer/process HQ city (Santiago / CEN). Works are in northern Chile; pin is process city until project coords are cited.",
+    "price_year": "2024",
+    "spec": "CEN OA_G03 package: Aumento capacidad línea 2x220 kV Nueva Zaldívar–Likanantai; Amp S/E Taltal (NTR ATMT); Amp S/E Kimal 220 kV (IM); Amp S/E Monte Mina 220 kV (IM)",
+    "unit": "USD/package",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2024-11-22",
+    "us_price": null,
+    "prc_price": 43032859.0,
+    "us_price_usd": null,
+    "prc_price_usd": 43032859.0,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "cen_acta_adjudicacion_2024_11_22",
+    "note": "One-sided PRC. CEN Acta de Adjudicación 22 Nov 2024 awards OA_G03 to Changshu Fengfan Power Equipment Co. Ltd at USD 43,032,859.00. Fengfan SSE filing (2024-089) states USD 43.033m EPC. No U.S. seller bid on the same group in the opened acta—off the U.S. median.",
+    "evidence_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
+    "quote": "OA_G03 … CHANGSHU FENGFAN POWER EQUIPMENT CO.LTD … 43.032.859,00"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "id": "hunt_cl_power_equip",
+  "id": "cen_fengfan_g03_2024",
   "retrieved": "2026-09-30",
   "source_id": "cen_acta_adjudicacion_2024_11_22",
   "url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
   "price_year": "2024",
-  "evidence": "hunt",
-  "quote": "OA_G03 … CHANGSHU FENGFAN … 43.032.859,00",
-  "note": "Logged Fengfan G03 one-sided. Still hunting U.S.-seller unit pair."
+  "evidence": "one_sided",
+  "quote": "OA_G03 … CHANGSHU FENGFAN POWER EQUIPMENT CO.LTD … 43.032.859,00",
+  "note": "One-sided PRC package award. No U.S. seller on this group."
 }

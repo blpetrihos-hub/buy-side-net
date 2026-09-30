@@ -364,5 +364,27 @@
     "supports": [
       "hunt_icbc_rate"
     ]
+  },
+  {
+    "id": "cen_acta_adjudicacion_2024_11_22",
+    "type": "official",
+    "chicago": "Coordinador Eléctrico Nacional (Chile). “Acta de Adjudicación” — Licitación obras de ampliación Decreto Exento Nº4/2024 / DE 200/2022 / art. 157. 22 November 2024.",
+    "url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
+    "annotation": "Awards OA_G03 to Changshu Fengfan at USD 43,032,859; also lists PowerChina Parinas OA_G15 at USD 67,980,000 and Elecnor Ancoa–Charrúa at USD 106,349,606.",
+    "supports": [
+      "cen_fengfan_g03_2024",
+      "hunt_cl_power_equip",
+      "cen_parinas_elecnor_powerchina_2024"
+    ]
+  },
+  {
+    "id": "fengfan_sse_chile_g03_2024",
+    "type": "official",
+    "chicago": "常熟风范电力设备股份有限公司. “关于智利第4号/2024号豁免法令扩建工程G03组中标的公告,” 公告编号 2024-089. 上海证券报, 26 November 2024.",
+    "url": "https://paper.cnstock.com/html/2024-11/26/content_1997973.htm",
+    "annotation": "Issuer confirms G03 EPC award at USD 43.033 million and links CEN acta PDF.",
+    "supports": [
+      "cen_fengfan_g03_2024"
+    ]
   }
 ]

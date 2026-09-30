@@ -1,10 +1,10 @@
 updated: 2026-09-30
-cycle: 22
-active_lane: commanding_heights
-active_basket: power_equipment
-next_query: Chile CEN Changshu Fengfan OR Fengfan G03 Nueva Zaldívar Likanantai award USD 2024
-next_row_id: cen_fengfan_g03_2024
-dry_streak: 1
+cycle: 23
+active_lane: ai_chips
+active_basket: usd_per_chip
+next_query: CCGP USTC OR UCAS NVIDIA HGX H20 server award CNY unit price 2024..2025
+next_row_id: ustc_suzhou_hgx_h20_2024
+dry_streak: 0
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -42,6 +42,8 @@ seen_urls:
 - https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf
 - https://pmo.gov.bb/2022/02/18/road-rehabilitation-in-the-scotland-district-in-the-works/
 - https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf
+- https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf
+- https://paper.cnstock.com/html/2024-11/26/content_1997973.htm
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.
