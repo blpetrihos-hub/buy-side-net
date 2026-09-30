@@ -183,3 +183,17 @@
   annotation: "Confirms Siemens Energy contracts valued at more than R$300 million for Eletrobras transmission revitalization through 2027."
   supports: ["siemens_eletrobras_grid_pkg_2024"]
 
+- id: xdcb_brazil_ne_uhv_2024
+  type: official
+  chicago: "常州西电变压器有限责任公司 (XD Changbian). “再添新绩 西电常变成功中标巴西东北部特高压项目.” 11 September 2024."
+  url: "http://www.xdcb.com.cn/info/1020/2061.htm"
+  annotation: "Awards 16 ±400 kV converter transformers at CNY 834 million for Brazil Northeast ±800 kV UHVDC package 2. One-sided PRC unit price after /16."
+  supports: ["xdcb_brazil_ne_uhv_ct_2024", "hunt_br_power_equip"]
+
+- id: pboc_cny_20240906
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 6 September 2024."
+  url: "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5450684/index.html"
+  annotation: "PBOC central parity 1 USD = 7.0925 CNY on 2024-09-06. FX for xdcb_brazil_ne_uhv_ct_2024."
+  supports: ["xdcb_brazil_ne_uhv_ct_2024"]
+

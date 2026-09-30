@@ -1,10 +1,10 @@
 {
   "id": "hunt_br_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "bnamericas_siemens_eletrobras_53mn_2024",
-  "url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
+  "source_id": "xdcb_brazil_ne_uhv_2024",
+  "url": "http://www.xdcb.com.cn/info/1020/2061.htm",
   "price_year": "2024",
   "evidence": "hunt",
-  "quote": "The supply of equipment and solutions totals more than 300mn reais (US$53mn)",
-  "note": "Logged Siemens multi-contract one-sided. Still hunting U.S.–PRC unit pair."
+  "quote": "共中标16台±400千伏换流变压器，中标金额达8.34亿元。",
+  "note": "Logged XD Changbian one-sided PRC converter-transformer unit. Still hunting U.S.–PRC same-spec pair."
 }

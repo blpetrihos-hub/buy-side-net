@@ -25,10 +25,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "bnamericas_siemens_eletrobras_53mn_2024",
-    "note": "Cycle 17 logged siemens_eletrobras_grid_pkg_2024 (>R$300mn / ~US$53mn multi-contract allied package). Cycle 16 Furnas FSC one-sided remains. Still hunting a U.S.–PRC equipment unit pair.",
-    "evidence_url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
-    "quote": "The supply of equipment and solutions totals more than 300mn reais (US$53mn)"
+    "source_id": "xdcb_brazil_ne_uhv_2024",
+    "note": "Cycle 18 logged xdcb_brazil_ne_uhv_ct_2024 as one_sided PRC: 16 × ±400 kV converter transformers at CNY 834m (~USD 7.35m/unit). Siemens one-sided packs remain. Still hunting a U.S.–PRC same-spec unit pair.",
+    "evidence_url": "http://www.xdcb.com.cn/info/1020/2061.htm",
+    "quote": "共中标16台±400千伏换流变压器，中标金额达8.34亿元。"
   },
   {
     "id": "hunt_cl_power_equip",
@@ -618,5 +618,36 @@
     "note": "no",
     "evidence_url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
     "quote": "The supply of equipment and solutions totals more than 300mn reais (US$53mn) and covers several states in the country."
+  },
+  {
+    "id": "xdcb_brazil_ne_uhv_ct_2024",
+    "lane": "commanding_heights",
+    "spec_class": "power_equipment",
+    "evidence": "one_sided",
+    "country": "Brazil",
+    "buyer": "China Electric Power Equipment / State Grid Brazil Northeast UHVDC (Graça Aranha–Silvânia)",
+    "seller_us": "",
+    "seller_prc": "XD Changbian (西电常变)",
+    "city": "Changzhou",
+    "lat": 31.8107,
+    "lon": 119.974,
+    "geo_note": "Seller plant city (Changzhou XD Transformer). Project terminals Graça Aranha (MA)–Silvânia (GO).",
+    "price_year": "2024",
+    "spec": "16 × ±400 kV converter transformers for Brazil Northeast ±800 kV UHVDC (package 2)",
+    "unit": "USD/transformer",
+    "currency": "CNY",
+    "fx_usd": 0.14099401,
+    "fx_date": "2024-09-06",
+    "us_price": null,
+    "prc_price": 52125000.0,
+    "us_price_usd": null,
+    "prc_price_usd": 7349312.65,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "xdcb_brazil_ne_uhv_2024",
+    "note": "One-sided PRC. XD Changbian company release (11 Sep 2024): awarded 16 ±400 kV converter transformers at CNY 834 million for CET/State Grid Brazil Northeast UHVDC. Unit = package/16 = CNY 52,125,000. FX: PBOC central parity 1 USD = 7.0925 CNY on 2024-09-06 (nearest cited official parity to award announcement week). No U.S. seller quote on the page—off the median.",
+    "evidence_url": "http://www.xdcb.com.cn/info/1020/2061.htm",
+    "quote": "共中标16台±400千伏换流变压器，中标金额达8.34亿元。"
   }
 ]
