@@ -113,3 +113,17 @@
   annotation: "Brazilian FeNb65 230–235k CNY/t at Qinghe/Liaoning/Shanghai. One-sided allied quote; domestic lines on the sheet are 60-A/60-B, not FeNb65."
   supports: ["fenb65_brazil_china_mkt_20230925", "hunt_fenb_araxa"]
 
+- id: ccgp_sysu_atlas900_2024
+  type: official
+  chicago: "中山大学 / 中国政府采购网. “中山大学国产智能计算系统采购项目 … 中标结果公告.” 27 December 2024."
+  url: "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm"
+  annotation: "Award: Huawei Atlas 900 A3 SuperPoD, CNY 23,989,000 per set to 北明软件. One-sided PRC system price; not a USD/chip observation."
+  supports: ["atlas900_a3_superpod_sysu_2024", "hunt_ascend_chip"]
+
+- id: pboc_cny_20241227
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 27 December 2024."
+  url: "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html"
+  annotation: "PBOC central parity 1 USD = 7.1893 CNY on 2024-12-27. FX for atlas900_a3_superpod_sysu_2024."
+  supports: ["atlas900_a3_superpod_sysu_2024"]
+
