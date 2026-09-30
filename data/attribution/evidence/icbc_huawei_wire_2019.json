@@ -1,0 +1,10 @@
+{
+  "id": "icbc_huawei_wire_2019",
+  "retrieved": "2026-09-30",
+  "source_id": "icij_huawei_icbc_wire",
+  "url": "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
+  "price_year": "2019",
+  "evidence": "exclude",
+  "quote": "That morning, the officers wired $1.3 billion from Huawei’s ICBC account in London to its account in Shenzhen.",
+  "note": "Exclude. Wire size is not an all-in rate. Public ICIJ article only; no leak files."
+}

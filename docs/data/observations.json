@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "",
-    "note": "unknown",
-    "evidence_url": "",
-    "quote": ""
+    "source_id": "icij_china_capital_about",
+    "note": "Opened ICIJ published China Capital pages (about page + Huawei London wire story). Those articles describe a $1.3 billion emergency cash transfer (an event, not an all-in rate) and do not publish a matched ICBC/policy-bank vs EXIM/DFC all-in rate for the same borrower class. Did not search for, download, or parse any leaked ICBC record set. Still hunting public loan terms.",
+    "evidence_url": "https://www.icij.org/investigations/china-capital/about-china-capital-investigation-icbc/",
+    "quote": "China Capital reveals that in early 2019 … transferring a staggering $1.3 billion in “emergency cash” for the tech giant."
   },
   {
     "id": "hunt_latam_rail_telecom",
@@ -339,5 +339,36 @@
     "note": "UNVERIFIED proxy. Reuters (via Yahoo reprint), 24 May 2024, anonymous supply-chain sources: H20 “around 100,000 yuan per card”; Huawei 910B “above 120,000 yuan per card.” Stored 120,000 as the published floor for the PRC side. Press-only; no contract document. FX: PBOC central parity 1 USD = 7.1102 CNY on 2024-05-24. Off the median. No pin (market quote, no buyer site).",
     "evidence_url": "https://finance.yahoo.com/news/exclusive-nvidia-cuts-china-prices-033402278.html",
     "quote": "Server distributors in China are selling the H20 at prices around 100,000 yuan per card … distributors are selling the Huawei 910B at above 120,000 yuan per card."
+  },
+  {
+    "id": "icbc_huawei_wire_2019",
+    "lane": "icbc_finance",
+    "spec_class": "all_in_rate",
+    "evidence": "exclude",
+    "country": "United Kingdom",
+    "buyer": "Huawei",
+    "seller_us": "",
+    "seller_prc": "ICBC London",
+    "city": "London",
+    "lat": 51.5055,
+    "lon": -0.0754,
+    "geo_note": "ICBC London area (London Bridge vicinity per ICIJ article). Pin marks the published event location, not a priced loan.",
+    "price_year": "2019",
+    "spec": "Emergency cash transfer / wire (not an interest rate)",
+    "unit": "",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2019-01",
+    "us_price": null,
+    "prc_price": null,
+    "us_price_usd": null,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "icij_huawei_icbc_wire",
+    "note": "EXCLUDE — not a buy-side price. ICIJ published journalism reports ICBC London wired about $1.3 billion in “emergency cash” for Huawei after the U.S. indictment. Headline loan/wire size is an event, not an all-in rate. Cited from the public article only; no leaked record set used.",
+    "evidence_url": "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
+    "quote": "That morning, the officers wired $1.3 billion from Huawei’s ICBC account in London to its account in Shenzhen."
   }
 ]

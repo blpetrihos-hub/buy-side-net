@@ -2,13 +2,13 @@
   "generated_from": "buy-side observations codebook",
   "caption": "Score a pair only when both prices are public and the specification matches. A lower PRC price is the asymmetry. Hunt pins are places still missing a number. Nothing here is a recommendation.",
   "meta": {
-    "n_rows": 11,
+    "n_rows": 12,
     "counts": {
       "paired": 1,
       "proxy": 2,
       "one_sided": 1,
       "hunt": 7,
-      "exclude": 0,
+      "exclude": 1,
       "scored": 0
     }
   },
@@ -33,6 +33,8 @@
       "hunt_icbc_rate",
       "hunt_latam_rail_telecom"
     ],
-    "exclude": []
+    "exclude": [
+      "icbc_huawei_wire_2019"
+    ]
   }
 }
