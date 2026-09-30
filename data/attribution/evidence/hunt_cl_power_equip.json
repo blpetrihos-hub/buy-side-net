@@ -1,10 +1,10 @@
 {
   "id": "hunt_cl_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "lenergy_cen_chile_ofertas_2024",
-  "url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
+  "source_id": "cne_rex_7_parinas_2025",
+  "url": "https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348",
   "price_year": "2024",
   "evidence": "hunt",
-  "quote": "",
-  "note": "Allied Parinas pair logged separately. Still hunting U.S.-seller unit pair."
+  "quote": "Ampliación en S/E Parinas (NTR ATAT) … PowerChina Ltd. Agencia Chile … 58.068.464,10",
+  "note": "Parinas award confirmed. Still hunting U.S.-seller unit pair on power_equipment."
 }

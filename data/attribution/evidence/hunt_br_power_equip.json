@@ -1,10 +1,10 @@
 {
   "id": "hunt_br_power_equip",
   "retrieved": "2026-09-30",
-  "source_id": "stategrid_aneel_lote1_2023",
-  "url": "https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/",
-  "price_year": "2023",
+  "source_id": "xdcb_brazil_ne_uhv_2024",
+  "url": "http://www.xdcb.com.cn/info/1020/2061.htm",
+  "price_year": "2024",
   "evidence": "hunt",
-  "quote": "",
-  "note": "ANEEL Lote 1 is RAP, not a unit equipment pair. Continue hunt."
+  "quote": "共中标16台±400千伏换流变压器，中标金额达8.34亿元。",
+  "note": "Logged XD Changbian one-sided PRC converter-transformer unit. Still hunting U.S.–PRC same-spec pair."
 }

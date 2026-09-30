@@ -208,5 +208,110 @@
       "csm_fenb_range_context",
       "hunt_fenb_araxa"
     ]
+  },
+  {
+    "id": "sidof_cfe_excitacion_tm_2025",
+    "type": "official",
+    "chicago": "Comisión Federal de Electricidad, CFE Generación VI EPS. “Aviso múltiple de adjudicación de contratos” (CFE-0001-CAAAT-0117-2024, transformadores de excitación). Sistema de Difusión Oficial / SIDOF nota 5764297, gazette date 31 July 2025 (fallo 11 December 2024).",
+    "url": "https://sidof.segob.gob.mx/notas/docFuente/5764297",
+    "annotation": "CFE awards excitation transformers for CTE Presidente Adolfo López Mateos to Transformadores Monterrey at MXN 50,647,935.60. Mexican domestic seller; no U.S./PRC bidder named. Documents Mexico power-equipment dry pass.",
+    "supports": [
+      "hunt_mx_power_equip"
+    ]
+  },
+  {
+    "id": "cne_rex_7_parinas_2025",
+    "type": "official",
+    "chicago": "Comisión Nacional de Energía (Chile). Resolución Exenta Nº 7, 8 January 2025 — Informe Técnico de adjudicación de obras de ampliación (Decretos Exentos N° 185/2021, N° 200/2022, N° 4/2024). Mirror via Coordinador Eléctrico Nacional cartas download.",
+    "url": "https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348",
+    "annotation": "Awards PowerChina Ltd. Agencia Chile Amp S/E Parinas (NTR ATAT) USD 58,068,464.10 and Amp S/E Parinas 500/220 kV (IM) USD 9,911,535.90. Confirms the Nov 2024 published PowerChina bid; Elecnor competing bid from offer sheet.",
+    "supports": [
+      "cen_parinas_elecnor_powerchina_2024",
+      "hunt_cl_power_equip"
+    ]
+  },
+  {
+    "id": "bnamericas_siemens_furnas_2023",
+    "type": "journalism",
+    "chicago": "BNamericas / Siemens Energy. “Siemens Energy wins major contract to revitalize one of the most important interconnections in Brazil.” 11 May 2023.",
+    "url": "https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil",
+    "annotation": "Furnas awards Siemens Energy turnkey FSC revitalization on Itaberá–Ivaiporã; contract exceeds R$1 billion. Supports one-sided allied row siemens_furnas_itaipu_fsc_2023.",
+    "supports": [
+      "siemens_furnas_itaipu_fsc_2023",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "reuters_siemens_eletrobras_2023",
+    "type": "journalism",
+    "chicago": "Fucuchima, Leticia. “Siemens Energy signs $200 million deal with Brazil’s Eletrobras to upgrade transmission line.” Reuters, 10 May 2023. Global Banking & Finance reprint.",
+    "url": "https://www.globalbankingandfinance.com/siemens-energy-signs-200-million-deal-with-brazils-eletrobras-to-upgrade-transmission-line/",
+    "annotation": "States project worth some 1 billion reais (US$199.87 million) at $1 = 5.0033 reais. USD figure used for siemens_furnas_itaipu_fsc_2023.",
+    "supports": [
+      "siemens_furnas_itaipu_fsc_2023"
+    ]
+  },
+  {
+    "id": "bnamericas_siemens_eletrobras_53mn_2024",
+    "type": "journalism",
+    "chicago": "BNamericas. “Spotlight: The Siemens Energy-Eletrobras contracts worth US$53mn.” 10 September 2024.",
+    "url": "https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn",
+    "annotation": "Multi-contract Siemens Energy supply to Eletrobras totaling more than R$300mn (US$53mn): Grajaú GIS, Imperatriz FSC, breakers, HVDC DGA. One-sided allied package.",
+    "supports": [
+      "siemens_eletrobras_grid_pkg_2024",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "cnnbrasil_siemens_eletrobras_2024",
+    "type": "journalism",
+    "chicago": "Reuters / CNN Brasil. “Siemens Energy assina contratos de R$ 300 mi com Eletrobras para modernizar transmissão.” 4 September 2024.",
+    "url": "https://www.cnnbrasil.com.br/economia/negocios/siemens-energy-assina-contratos-de-r-300-mi-com-eletrobras-para-modernizar-transmissao/",
+    "annotation": "Confirms Siemens Energy contracts valued at more than R$300 million for Eletrobras transmission revitalization through 2027.",
+    "supports": [
+      "siemens_eletrobras_grid_pkg_2024"
+    ]
+  },
+  {
+    "id": "xdcb_brazil_ne_uhv_2024",
+    "type": "official",
+    "chicago": "常州西电变压器有限责任公司 (XD Changbian). “再添新绩 西电常变成功中标巴西东北部特高压项目.” 11 September 2024.",
+    "url": "http://www.xdcb.com.cn/info/1020/2061.htm",
+    "annotation": "Awards 16 ±400 kV converter transformers at CNY 834 million for Brazil Northeast ±800 kV UHVDC package 2. One-sided PRC unit price after /16.",
+    "supports": [
+      "xdcb_brazil_ne_uhv_ct_2024",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20240906",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 6 September 2024.",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5450684/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.0925 CNY on 2024-09-06. FX for xdcb_brazil_ne_uhv_ct_2024.",
+    "supports": [
+      "xdcb_brazil_ne_uhv_ct_2024"
+    ]
+  },
+  {
+    "id": "ccgp_wust_atlas800t_2024",
+    "type": "official",
+    "chicago": "武汉科技大学 / 中国政府采购网. “武汉科技大学2024年超长期特别国债-国产算力平台采购项目中标公告.” 3 December 2024.",
+    "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
+    "annotation": "Award: Huawei Atlas 800T A2, 10 systems, total CNY 20,022,800 to Shanghai Hello. One-sided PRC system price; not USD/chip.",
+    "supports": [
+      "atlas800t_a2_wust_2024",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20241203",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 3 December 2024.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5524809/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.1996 CNY on 2024-12-03. FX for atlas800t_a2_wust_2024.",
+    "supports": [
+      "atlas800t_a2_wust_2024"
+    ]
   }
 ]
