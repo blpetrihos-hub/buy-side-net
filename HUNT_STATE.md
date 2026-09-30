@@ -1,9 +1,9 @@
 updated: 2026-09-30
-cycle: 24
-active_lane: ai_chips
-active_basket: usd_per_chip
-next_query: CCGP UCAS NVIDIA HGX H20 versus Ascend 910B server award same tender CNY 2025
-next_row_id: ucas_h20_ascend910b4_2025
+cycle: 25
+active_lane: niobium
+active_basket: fenb_std
+next_query: CBMM OR FeNb65 US OR Europe buyer invoice OR contract USD/kg versus China domestic quote 2023..2026
+next_row_id: hunt_fenb_araxa
 dry_streak: 0
 remote: present
 seen_urls:
@@ -45,6 +45,8 @@ seen_urls:
 - https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf
 - https://paper.cnstock.com/html/2024-11/26/content_1997973.htm
 - https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm
+- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm
+- https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025100917214239675/index.html
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.

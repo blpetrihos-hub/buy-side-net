@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_ustc_suzhou_h20_2024",
-    "note": "Cycle 24 logged ustc_suzhou_hgx_h20_2024 as one_sided Nvidia HGX H20 system award (CNY 1.18m/system). Still hunting document-backed USD/chip U.S.–PRC pair.",
-    "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
-    "quote": "风虎云龙 HGX H20 … 5台 … 中标（成交）金额：590.0000000（万元）"
+    "source_id": "ccgp_ucas_h20_ascend_2025",
+    "note": "Cycle 25 logged ucas_h20_ascend910b4_2025 as proxy (same award, H20 8-GPU server vs Ascend 910B4 8-GPU server). Still hunting document-backed same-spec USD/chip pair.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
+    "quote": "NVIDIA HGX H20 8-GPU … 1288970 … 8*Ascend 910B4 … 1106500"
   },
   {
     "id": "hunt_icbc_rate",
@@ -773,5 +773,36 @@
     "note": "One-sided U.S.-seller (Nvidia HGX H20) China award. CCGP 27 Dec 2024: CNY 5,900,000 total for 5 servers. Unit-price cell also shows 5,900,000 (equals package total—CCGP quirk); per-system = total/5 = CNY 1,180,000. Unit is USD/system, not USD/chip. FX: PBOC 1 USD = 7.1893 CNY on 2024-12-27. Off the usd_per_chip median.",
     "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
     "quote": "中标（成交）金额：590.0000000（万元） … 风虎云龙 HGX H20 … 数量：5台 … 货物单价(元)：￥5,900,000.00"
+  },
+  {
+    "id": "ucas_h20_ascend910b4_2025",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "proxy",
+    "country": "China",
+    "buyer": "University of Chinese Academy of Sciences (data & scientific computing platform)",
+    "seller_us": "Nvidia (Dell PowerEdge XE9680 + HGX H20 8-GPU)",
+    "seller_prc": "Huawei Ascend 910B4 (KunTai A924 8-GPU)",
+    "city": "Beijing",
+    "lat": 40.4086,
+    "lon": 116.6808,
+    "geo_note": "Buyer Huairou campus area (Yanqi Lake), Beijing.",
+    "price_year": "2025",
+    "spec": "Same CCGP award: Dell XE9680 with NVIDIA HGX H20 8-GPU SXM vs KunTai A924 with 8× Ascend 910B4 — full servers, not per-chip; platforms differ (proxy)",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.14054419,
+    "fx_date": "2025-09-26",
+    "us_price": 1288970.0,
+    "prc_price": 1106500.0,
+    "us_price_usd": 181157.24,
+    "prc_price_usd": 155512.14,
+    "gap": 0.141563,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "ccgp_ucas_h20_ascend_2025",
+    "note": "UNVERIFIED proxy only as matched buy-side gap. Same 26 Sep 2025 CCGP award to Ronglian: Dell PowerEdge XE9680 with NVIDIA HGX H20 8-GPU at CNY 1,288,970 each (6 units) vs KunTai A924 with 8× Ascend 910B4 at CNY 1,106,500 each (4 units). Different server platforms/SKUs—not a same-spec chip pair—so evidence=proxy and unit=USD/system (off usd_per_chip median). FX: PBOC central parity 1 USD = 7.1152 CNY on 2025-09-26.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
+    "quote": "GPU服务器 … DELL PowerEdge XE9680 … 6 … 1288970 … NVIDIA HGX H20 8-GPU … AI推理服务器 … KunTai A924 … 4 … 1106500 … 8*Ascend 910B4"
   }
 ]

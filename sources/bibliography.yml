@@ -267,3 +267,17 @@
   url: "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm"
   annotation: "Award CNY 5.9m for 5 风虎云龙 HGX H20 servers to Shanghai Fenghu. One-sided Nvidia system price (per-system derived as total/5)."
   supports: ["ustc_suzhou_hgx_h20_2024", "hunt_ascend_chip"]
+
+- id: ccgp_ucas_h20_ascend_2025
+  type: official
+  chicago: "中国科学院大学 / 中国政府采购网. “数据与科学计算平台智算设备采购项目中标公告.” 26 September 2025."
+  url: "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm"
+  annotation: "Same award: Dell XE9680 + HGX H20 8-GPU at CNY 1,288,970 and KunTai A924 + 8× Ascend 910B4 at CNY 1,106,500. Proxy system comparison for ucas_h20_ascend910b4_2025."
+  supports: ["ucas_h20_ascend910b4_2025", "hunt_ascend_chip"]
+
+- id: pboc_cny_20250926
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 26 September 2025."
+  url: "https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025100917214239675/index.html"
+  annotation: "PBOC central parity 1 USD = 7.1152 CNY on 2025-09-26. FX for ucas_h20_ascend910b4_2025."
+  supports: ["ucas_h20_ascend910b4_2025"]

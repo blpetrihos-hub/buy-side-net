@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-09-30",
-  "source_id": "ccgp_ustc_suzhou_h20_2024",
-  "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
-  "price_year": "2024",
+  "source_id": "ccgp_ucas_h20_ascend_2025",
+  "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
+  "price_year": "2025",
   "evidence": "hunt",
-  "quote": "风虎云龙 HGX H20 … 5台 … 中标（成交）金额：590.0000000（万元）",
-  "note": "Logged H20 system one-sided. Still hunting USD/chip pair."
+  "quote": "NVIDIA HGX H20 8-GPU … 1288970 … 8*Ascend 910B4 … 1106500",
+  "note": "Logged H20 vs Ascend server proxy. Still hunting USD/chip same-spec pair."
 }
