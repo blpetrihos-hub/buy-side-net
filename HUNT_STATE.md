@@ -1,9 +1,9 @@
 updated: 2026-09-30
-cycle: 11
-active_lane: icbc_finance
-active_basket: all_in_rate
-next_query: OECD CIRR USD December 2024 OR EXIM commercial interest reference rate published schedule
-next_row_id: hunt_icbc_rate
+cycle: 12
+active_lane: commanding_heights
+active_basket: power_equipment
+next_query: Critical Strategic Metals OR CBMM ferroniobium USD/kg Nb content range 2024 context exclude
+next_row_id: hunt_fenb_araxa
 dry_streak: 0
 remote: present
 seen_urls:
@@ -25,6 +25,7 @@ seen_urls:
 - https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/
 - https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html
+- https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.

@@ -186,5 +186,16 @@
     "supports": [
       "atlas900_a3_superpod_sysu_2024"
     ]
+  },
+  {
+    "id": "oecd_cirr_usd_202412",
+    "type": "official",
+    "chicago": "Organisation for Economic Co-operation and Development. “Commercial Interest Reference Rates (CIRRs).” Paris, 6 December 2024 (Credendo-hosted PDF mirror).",
+    "url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
+    "annotation": "USD CIRR 5-year maturity tier 5.23% for 15 Dec 2024–14 Jan 2025. One-sided U.S. schedule rate for exim_cirr_usd_5y_202412; not a named LatAm loan.",
+    "supports": [
+      "exim_cirr_usd_5y_202412",
+      "hunt_icbc_rate"
+    ]
   }
 ]

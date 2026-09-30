@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "icij_china_capital_about",
-    "note": "Opened ICIJ published China Capital pages (about page + Huawei London wire story). Those articles describe a $1.3 billion emergency cash transfer (an event, not an all-in rate) and do not publish a matched ICBC/policy-bank vs EXIM/DFC all-in rate for the same borrower class. Did not search for, download, or parse any leaked ICBC record set. Still hunting public loan terms.",
-    "evidence_url": "https://www.icij.org/investigations/china-capital/about-china-capital-investigation-icbc/",
-    "quote": "China Capital reveals that in early 2019 … transferring a staggering $1.3 billion in “emergency cash” for the tech giant."
+    "source_id": "oecd_cirr_usd_202412",
+    "note": "Cycle 12 logged exim_cirr_usd_5y_202412 as one_sided U.S. schedule CIRR (not a named LatAm loan). Still hunting public ICBC/policy-bank vs EXIM/DFC all-in rate for the same borrower class, 2021–2026.",
+    "evidence_url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
+    "quote": ""
   },
   {
     "id": "hunt_latam_rail_telecom",
@@ -494,5 +494,36 @@
     "note": "One-sided PRC. CCGP award notice 27 Dec 2024: Atlas 900 A3 SuperPoD at CNY 23,989,000 per set. Unit is USD/system (cluster), not USD/chip — off the usd_per_chip median and evidence=one_sided. FX: PBOC central parity 1 USD = 7.1893 CNY on 2024-12-27.",
     "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm",
     "quote": "高性能智能计算集群 华为 Atlas 900 A3 SuperPoD 1套 单价 23,989,000.00 元"
+  },
+  {
+    "id": "exim_cirr_usd_5y_202412",
+    "lane": "icbc_finance",
+    "spec_class": "all_in_rate",
+    "evidence": "one_sided",
+    "country": "",
+    "buyer": "OECD Arrangement / EXIM-eligible export credit (schedule, not a named LatAm borrower)",
+    "seller_us": "U.S. EXIM / OECD CIRR (USD)",
+    "seller_prc": "",
+    "city": "",
+    "lat": null,
+    "lon": null,
+    "geo_note": "",
+    "price_year": "2024",
+    "spec": "USD CIRR, 5-year government-bond maturity tier (OECD schedule 15 Dec 2024–14 Jan 2025)",
+    "unit": "percent",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2024-12-15",
+    "us_price": 5.23,
+    "prc_price": null,
+    "us_price_usd": 5.23,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "oecd_cirr_usd_202412",
+    "note": "One-sided U.S. schedule rate. OECD CIRR PDF (Credendo mirror of oecd.org cirrs.pdf), USD row for 5-year maturity bond = 5.23% for the 15-12-2024 column. This is a published minimum for official export-credit support, not a closed LatAm loan to a named borrower, so evidence=one_sided and off the finance median until matched to a same-class PRC all-in rate.",
+    "evidence_url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
+    "quote": "US Dollar … 5 5.23 4.91 (15-12-2024 / 15-11-2024 columns)."
   }
 ]
