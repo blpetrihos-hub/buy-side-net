@@ -25,10 +25,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "",
-    "note": "unknown",
-    "evidence_url": "",
-    "quote": ""
+    "source_id": "comprasnet_cotacao_460112",
+    "note": "ComprasNet pass 2026-09-30: opened RelatorioCotacao 460112 (Dispensa 135/2021, autotransformador above 1 kVA, Bagé-RS). Winner HECKLER CATTO & HECKLER at R$275; all listed suppliers Brazilian domestic brands. No U.S. or PRC comparable bid on that award. Still hunting a 2021–2026 transformer/turbine/HVDC/inverter award with a non-PRC vs PRC pair.",
+    "evidence_url": "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112",
+    "quote": "Valor do menor lance: R$ 275,00. Fornecedor: HECKLER, CATTO & HECKLER LTDA. Objeto: Aquisição de autotransformador."
   },
   {
     "id": "hunt_cl_power_equip",

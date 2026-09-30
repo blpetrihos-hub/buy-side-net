@@ -1,5 +1,5 @@
 id,lane,spec_class,evidence,country,buyer,seller_us,seller_prc,city,lat,lon,geo_note,price_year,spec,unit,currency,fx_usd,fx_date,us_price,prc_price,us_price_usd,prc_price_usd,gap,us_side,on_scoreboard,source_id,note
-hunt_br_power_equip,commanding_heights,power_equipment,hunt,Brazil,,,,,,,,,power_equipment,,,,USD,,,,,,,no,,unknown
+hunt_br_power_equip,commanding_heights,power_equipment,hunt,Brazil,,,,,,,,,power_equipment,,,,USD,,,,,,,no,comprasnet_cotacao_460112,"ComprasNet pass 2026-09-30: opened RelatorioCotacao 460112 (Dispensa 135/2021, autotransformador above 1 kVA, Bagé-RS). Winner HECKLER CATTO & HECKLER at R$275; all listed suppliers Brazilian domestic brands. No U.S. or PRC comparable bid on that award. Still hunting a 2021–2026 transformer/turbine/HVDC/inverter award with a non-PRC vs PRC pair."
 hunt_cl_power_equip,commanding_heights,power_equipment,hunt,Chile,,,,,,,,,power_equipment,,,,USD,,,,,,,no,,unknown
 hunt_mx_power_equip,commanding_heights,power_equipment,hunt,Mexico,,,,,,,,,power_equipment,,,,USD,,,,,,,no,,unknown
 hunt_fenb_araxa,niobium,fenb_std,hunt,Brazil,,CBMM,,Araxá,-19.5902,-46.9406,CBMM headquarters area,,,,USD/kg,USD,,,,,,,,no,allied,no

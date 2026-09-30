@@ -8,5 +8,15 @@
     "supports": [
       "methods"
     ]
+  },
+  {
+    "id": "comprasnet_cotacao_460112",
+    "type": "official",
+    "chicago": "Brasil. Ministério da Defesa / Compras.gov.br. “Dispensa Eletrônica nº 135/2021 — Aquisição de autotransformador.” Relatório de classificação de fornecedores, cotação 460112. 25–30 November 2021.",
+    "url": "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112",
+    "annotation": "Opened for the Brazil power-equipment hunt. Small autotransformer award (Bagé-RS); lowest lance R$275 to a Brazilian firm. No U.S. or PRC bidder named. Documents a ComprasNet family pass without a matched pair.",
+    "supports": [
+      "hunt_br_power_equip"
+    ]
   }
 ]
