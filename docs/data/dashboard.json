@@ -2,11 +2,11 @@
   "generated_from": "buy-side observations codebook",
   "caption": "Score a pair only when both prices are public and the specification matches. A lower PRC price is the asymmetry. Hunt pins are places still missing a number. Nothing here is a recommendation.",
   "meta": {
-    "n_rows": 24,
+    "n_rows": 25,
     "counts": {
       "paired": 2,
       "proxy": 2,
-      "one_sided": 10,
+      "one_sided": 11,
       "hunt": 7,
       "exclude": 3,
       "scored": 0
@@ -31,7 +31,8 @@
       "xdcb_brazil_ne_uhv_ct_2024",
       "atlas800t_a2_wust_2024",
       "eximbank_china_barbados_scotland_2022",
-      "cen_fengfan_g03_2024"
+      "cen_fengfan_g03_2024",
+      "ustc_suzhou_hgx_h20_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",

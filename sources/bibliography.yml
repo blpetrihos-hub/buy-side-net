@@ -260,3 +260,10 @@
   url: "https://paper.cnstock.com/html/2024-11/26/content_1997973.htm"
   annotation: "Issuer confirms G03 EPC award at USD 43.033 million and links CEN acta PDF."
   supports: ["cen_fengfan_g03_2024"]
+
+- id: ccgp_ustc_suzhou_h20_2024
+  type: official
+  chicago: "中国科学技术大学苏州高等研究院 / 中国政府采购网. “深度学习高性能服务器项目中标公告.” 27 December 2024."
+  url: "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm"
+  annotation: "Award CNY 5.9m for 5 风虎云龙 HGX H20 servers to Shanghai Fenghu. One-sided Nvidia system price (per-system derived as total/5)."
+  supports: ["ustc_suzhou_hgx_h20_2024", "hunt_ascend_chip"]

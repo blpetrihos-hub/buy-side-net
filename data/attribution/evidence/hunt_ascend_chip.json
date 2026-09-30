@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-09-30",
-  "source_id": "ccgp_wust_atlas800t_2024",
-  "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
+  "source_id": "ccgp_ustc_suzhou_h20_2024",
+  "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
   "price_year": "2024",
   "evidence": "hunt",
-  "quote": "规格型号Atlas 800T A2（核心产品）等 数量：10套 … 中标（成交）金额：2002.280000(万元)",
-  "note": "Logged Atlas 800T A2 system award (not per-chip). Still hunting document-backed USD/chip U.S.–PRC pair."
+  "quote": "风虎云龙 HGX H20 … 5台 … 中标（成交）金额：590.0000000（万元）",
+  "note": "Logged H20 system one-sided. Still hunting USD/chip pair."
 }

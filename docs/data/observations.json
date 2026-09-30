@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_wust_atlas800t_2024",
-    "note": "Cycle 19 logged atlas800t_a2_wust_2024 as one_sided PRC Atlas 800T A2 system award (CNY 2.002m/system). Prior Atlas 900 A3 SuperPoD and H20/910B proxy remain. Still hunting document-backed USD/chip pair.",
-    "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
-    "quote": "规格型号Atlas 800T A2（核心产品）等 数量：10套 … 中标（成交）金额：2002.280000(万元)"
+    "source_id": "ccgp_ustc_suzhou_h20_2024",
+    "note": "Cycle 24 logged ustc_suzhou_hgx_h20_2024 as one_sided Nvidia HGX H20 system award (CNY 1.18m/system). Still hunting document-backed USD/chip U.S.–PRC pair.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
+    "quote": "风虎云龙 HGX H20 … 5台 … 中标（成交）金额：590.0000000（万元）"
   },
   {
     "id": "hunt_icbc_rate",
@@ -742,5 +742,36 @@
     "note": "One-sided PRC. CEN Acta de Adjudicación 22 Nov 2024 awards OA_G03 to Changshu Fengfan Power Equipment Co. Ltd at USD 43,032,859.00. Fengfan SSE filing (2024-089) states USD 43.033m EPC. No U.S. seller bid on the same group in the opened acta—off the U.S. median.",
     "evidence_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
     "quote": "OA_G03 … CHANGSHU FENGFAN POWER EQUIPMENT CO.LTD … 43.032.859,00"
+  },
+  {
+    "id": "ustc_suzhou_hgx_h20_2024",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "USTC Suzhou Institute for Advanced Study",
+    "seller_us": "Nvidia (HGX H20 via Shanghai Fenghu / 风虎云龙)",
+    "seller_prc": "",
+    "city": "Suzhou",
+    "lat": 31.2989,
+    "lon": 120.5853,
+    "geo_note": "Buyer campus area, Suzhou Dushu Lake higher-education district.",
+    "price_year": "2024",
+    "spec": "Deep-learning high-performance server — 风虎云龙 HGX H20 (5 systems); system price, not per-chip",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.1390956,
+    "fx_date": "2024-12-27",
+    "us_price": 1180000.0,
+    "prc_price": null,
+    "us_price_usd": 164132.81,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "ccgp_ustc_suzhou_h20_2024",
+    "note": "One-sided U.S.-seller (Nvidia HGX H20) China award. CCGP 27 Dec 2024: CNY 5,900,000 total for 5 servers. Unit-price cell also shows 5,900,000 (equals package total—CCGP quirk); per-system = total/5 = CNY 1,180,000. Unit is USD/system, not USD/chip. FX: PBOC 1 USD = 7.1893 CNY on 2024-12-27. Off the usd_per_chip median.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
+    "quote": "中标（成交）金额：590.0000000（万元） … 风虎云龙 HGX H20 … 数量：5台 … 货物单价(元)：￥5,900,000.00"
   }
 ]
