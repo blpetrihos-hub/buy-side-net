@@ -211,3 +211,17 @@
   annotation: "PBOC central parity 1 USD = 7.1996 CNY on 2024-12-03. FX for atlas800t_a2_wust_2024."
   supports: ["atlas800t_a2_wust_2024"]
 
+
+- id: dfc_financing_terms
+  type: official
+  chicago: "U.S. International Development Finance Corporation. “Financing Terms and Processes.” Accessed 30 September 2026."
+  url: "https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes"
+  annotation: "States DFC interest is a negotiated spread over the base cost of funds; no numeric LatAm all-in. Documents finance-lane dry pass."
+  supports: ["hunt_icbc_rate"]
+
+- id: dfc_laad_pis_9000104743
+  type: official
+  chicago: "U.S. International Development Finance Corporation. “Public Information Summary — LAAD Americas N.V. (Loan 2),” project 9000104743."
+  url: "https://www.dfc.gov/sites/default/files/media/documents/9000104743.pdf"
+  annotation: "DFC $30m on-lending facility for LatAm agri SMEs (Colombia, Mexico, Peru, and others). Loan size only; no interest rate published."
+  supports: ["hunt_icbc_rate"]

@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "oecd_cirr_usd_202412",
-    "note": "Cycle 12 logged exim_cirr_usd_5y_202412 as one_sided U.S. schedule CIRR (not a named LatAm loan). Still hunting public ICBC/policy-bank vs EXIM/DFC all-in rate for the same borrower class, 2021–2026.",
-    "evidence_url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
-    "quote": ""
+    "source_id": "dfc_financing_terms",
+    "note": "Cycle 20: DFC Financing Terms page states interest is a negotiated spread over base cost of funds; LAAD Americas N.V. Public Information Summary (9000104743) lists $30m LatAm agri on-lending with no interest rate. Still hunting a named public all-in vs PRC policy-bank rate, 2021–2026.",
+    "evidence_url": "https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes",
+    "quote": "Interest Rate a negotiated spread over the base cost of funds"
   },
   {
     "id": "hunt_latam_rail_telecom",
