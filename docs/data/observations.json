@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "dfc_financing_terms",
-    "note": "Cycle 20: DFC Financing Terms page states interest is a negotiated spread over base cost of funds; LAAD Americas N.V. Public Information Summary (9000104743) lists $30m LatAm agri on-lending with no interest rate. Still hunting a named public all-in vs PRC policy-bank rate, 2021–2026.",
-    "evidence_url": "https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes",
-    "quote": "Interest Rate a negotiated spread over the base cost of funds"
+    "source_id": "barbados_parliament_eximbank_scotland_2022",
+    "note": "Cycle 21 logged eximbank_china_barbados_scotland_2022 as one_sided PRC concessional 2% (Parliament Schedule). Prior CIRR one-sided and DFC dry remain. Still hunting matched U.S. EXIM/DFC named LatAm all-in for same borrower class.",
+    "evidence_url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
+    "quote": "Interest rate: 2% per annum."
   },
   {
     "id": "hunt_latam_rail_telecom",
@@ -680,5 +680,36 @@
     "note": "One-sided PRC. CCGP award notice 3 Dec 2024: Wuhan University of Science and Technology domestic compute platform — Huawei Atlas 800T A2, 10 sets, total CNY 20,022,800 (CNY 2,002,280 per system). Unit is USD/system, not USD/chip — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.1996 CNY on 2024-12-03.",
     "evidence_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
     "quote": "中标（成交）金额：2002.280000(万元) … 品牌（如有）：华为（核心产品）等 规格型号Atlas 800T A2（核心产品）等 数量：10套（核心产品）等"
+  },
+  {
+    "id": "eximbank_china_barbados_scotland_2022",
+    "lane": "icbc_finance",
+    "spec_class": "all_in_rate",
+    "evidence": "one_sided",
+    "country": "Barbados",
+    "buyer": "Government of Barbados",
+    "seller_us": "",
+    "seller_prc": "Export-Import Bank of China",
+    "city": "Bridgetown",
+    "lat": 13.0975,
+    "lon": -59.6145,
+    "geo_note": "Borrower capital (Bridgetown). Scotland District roads are elsewhere on the island; pin is process/capital city.",
+    "price_year": "2022",
+    "spec": "China Eximbank government concessional loan — Scotland District Road Rehabilitation Project (RMB-denominated)",
+    "unit": "percent",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2022-04-22",
+    "us_price": null,
+    "prc_price": 2.0,
+    "us_price_usd": null,
+    "prc_price_usd": 2.0,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "barbados_parliament_eximbank_scotland_2022",
+    "note": "One-sided PRC. Barbados Parliament Resolution Schedule (2022): Export-Import Bank of China loan approx BBD 256.6m / RMB 815.5m at 2% per annum, 20-year term, 60-month grace, 0.25% commitment fee, 0.25% management fee. PMO remarks (18 Feb 2022) also state 2%. Public parliamentary terms—not a matched U.S. EXIM/DFC all-in for the same borrower class. Off the finance median until paired.",
+    "evidence_url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
+    "quote": "Interest rate: 2% per annum. … Lender: Export – Import Bank of China. … Amount: Approximately BBD 256 600 000, Renminbi 815 500 000."
   }
 ]

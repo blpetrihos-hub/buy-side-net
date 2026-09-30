@@ -333,5 +333,26 @@
     "supports": [
       "hunt_icbc_rate"
     ]
+  },
+  {
+    "id": "barbados_parliament_eximbank_scotland_2022",
+    "type": "official",
+    "chicago": "Parliament of Barbados. Resolution approving borrowing of approximately BBD 256,600,000 from the Export-Import Bank of China for the Scotland District Road Rehabilitation Project (Schedule of terms). 2022.",
+    "url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
+    "annotation": "Public schedule: China Eximbank RMB loan at 2% per annum, 20 years, 60-month grace. One-sided PRC all-in component for eximbank_china_barbados_scotland_2022.",
+    "supports": [
+      "eximbank_china_barbados_scotland_2022",
+      "hunt_icbc_rate"
+    ]
+  },
+  {
+    "id": "barbados_pmo_scotland_eximbank_2022",
+    "type": "official",
+    "chicago": "Prime Minister’s Office (Barbados). “Road rehabilitation in the Scotland District in the works.” 18 February 2022.",
+    "url": "https://pmo.gov.bb/2022/02/18/road-rehabilitation-in-the-scotland-district-in-the-works/",
+    "annotation": "PM Mottley states EXIM Bank of China framework loan at 2% over 20 years for Scotland District roads. Corroborates Parliament schedule rate.",
+    "supports": [
+      "eximbank_china_barbados_scotland_2022"
+    ]
   }
 ]

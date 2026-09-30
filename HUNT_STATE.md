@@ -1,10 +1,10 @@
 updated: 2026-09-30
-cycle: 20
+cycle: 21
 active_lane: icbc_finance
 active_basket: all_in_rate
-next_query: Barbados OR Guyana China Eximbank concessional loan interest rate Parliament OR PMO 2021..2026
-next_row_id: eximbank_china_barbados_scotland_2022
-dry_streak: 1
+next_query: DFC Finance FAQs OR EXIM Bank United States named Latin America direct loan interest rate percent 2021..2026
+next_row_id: hunt_icbc_rate
+dry_streak: 0
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -39,6 +39,8 @@ seen_urls:
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5524809/index.html
 - https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes
 - https://www.dfc.gov/sites/default/files/media/documents/9000104743.pdf
+- https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf
+- https://pmo.gov.bb/2022/02/18/road-rehabilitation-in-the-scotland-district-in-the-works/
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.

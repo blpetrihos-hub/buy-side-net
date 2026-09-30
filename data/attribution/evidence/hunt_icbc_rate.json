@@ -1,10 +1,10 @@
 {
   "id": "hunt_icbc_rate",
   "retrieved": "2026-09-30",
-  "source_id": "dfc_financing_terms",
-  "url": "https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes",
-  "price_year": "2024",
+  "source_id": "barbados_parliament_eximbank_scotland_2022",
+  "url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
+  "price_year": "2022",
   "evidence": "hunt",
-  "quote": "Interest Rate a negotiated spread over the base cost of funds",
-  "note": "Dry pass. DFC terms page and LAAD Americas PIS disclose loan size but no numeric all-in rate for a named LatAm borrower."
+  "quote": "Interest rate: 2% per annum.",
+  "note": "Logged Barbados Eximbank 2% one-sided. Still need U.S. EXIM/DFC named LatAm all-in match."
 }
