@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Methods · Where the PRC price is the lower bid</title>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
+    <h1>Where the PRC price is the lower bid</h1>
+    <p class="sub">Matched buy-side prices from the 30 September pitches. A gap is a measurement. The page does not recommend a response.</p>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="methods.html" aria-current="page">Methods</a>
+      <a href="bibliography.html">Bibliography</a>
+    </nav>
+  </div>
+</header>
+<main class="page">
+  <h2>What this measures</h2>
+  <p>
+    This site is a net assessment of <strong>matched buy-side prices</strong>: what a buyer pays
+    on a U.S. (or, when flagged, allied) offer versus what that buyer pays on a PRC offer for
+    the same specification. A lower matched PRC buy-side price is the asymmetry. The page does
+    not recommend a policy, publish a threat index, or blend a goods gap with a finance gap.
+  </p>
+  <p>
+    The clock is <strong>2026–2036</strong>. Price observations may be dated 2021–2026 when that
+    is the award or quote year. Mandate: U.S. and PRC capabilities in Latin America and, for the
+    chip and finance lanes, the markets those pitches already named.
+  </p>
+
+  <h2>Four first baskets</h2>
+  <ul>
+    <li><code>commanding_heights</code> / <code>power_equipment</code> — Latin American awards for transformers, turbines, HVDC, or inverters.</li>
+    <li><code>niobium</code> / <code>fenb_std</code> — standard-grade ferroniobium, USD per kg.</li>
+    <li><code>ai_chips</code> / <code>usd_per_chip</code> — Nvidia export SKU versus Huawei Ascend SKU, USD per chip, one calendar year.</li>
+    <li><code>icbc_finance</code> / <code>all_in_rate</code> — all-in interest rate or spread; tenor within two years; public terms only.</li>
+  </ul>
+
+  <h2>Match rule</h2>
+  <p>A row scores when all of these hold:</p>
+  <ul>
+    <li><code>evidence</code> is <code>paired</code></li>
+    <li>both USD prices are present</li>
+    <li>same <code>spec_class</code>, same <code>price_year</code>, same buyer (or named market), same <code>unit</code></li>
+    <li><code>us_side</code> is <code>us</code></li>
+    <li>FX is 1 because the quote was USD, or <code>fx_usd</code> and <code>fx_date</code> cite a public rate on the price date</li>
+  </ul>
+  <p>
+    Formula after USD conversion:
+    <code>gap = (us_price_usd − prc_price_usd) / us_price_usd</code>.
+    Positive gap means the PRC offer is cheaper for the buyer. The build script recomputes
+    <code>on_scoreboard</code>; a hand-typed yes cannot put a bad row on the median.
+  </p>
+  <p>
+    Allied pairs (<code>us_side=allied</code>) can appear on the map but do not set the U.S. median.
+    CBMM versus a PRC ferroniobium offer is allied until a U.S. seller is in the pair.
+  </p>
+
+  <h2>FX rule</h2>
+  <p>
+    Prefer quotes already in USD. Otherwise convert with a public rate on the price date
+    (Fed H.10, IMF, or a named central bank) and store both <code>fx_usd</code> and
+    <code>fx_date</code>. Never invent a rate.
+  </p>
+
+  <h2>What stays off the median</h2>
+  <ul>
+    <li>Proxy, one-sided, hunt, and exclude rows</li>
+    <li>Press-only figures marked UNVERIFIED</li>
+    <li>Pitch-deck color (market share, Ascend revenue projections, loan sizes without a rate)</li>
+    <li>Allied pairs</li>
+    <li>Finance gaps on the goods board, and goods gaps on the finance board</li>
+    <li>Any leaked ICBC internal record set — finance uses published articles and public loan terms only</li>
+  </ul>
+
+  <h2>Evidence classes</h2>
+  <ul>
+    <li><code>paired</code> — both prices, match rules hold</li>
+    <li><code>one_sided</code> — one price; off the median</li>
+    <li><code>proxy</code> — list price, mismatched spec or year, revenue, market share, loan size, or press number not yet confirmed</li>
+    <li><code>hunt</code> — named search with no price yet</li>
+    <li><code>exclude</code> — not a buy-side price</li>
+  </ul>
+
+  <h2>Geography</h2>
+  <p>
+    Pin the project site when the source names it. Otherwise pin the buyer HQ or the seller HQ
+    and say which in <code>geo_note</code>. No coordinates for a project the source does not locate.
+    Those rows stay on the lists without a pin.
+  </p>
+</main>
+</body>
+</html>

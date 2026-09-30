@@ -1,0 +1,10 @@
+{
+  "id": "hunt_br_power_equip",
+  "retrieved": "2026-09-30",
+  "source_id": "comprasnet_cotacao_460112",
+  "url": "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112",
+  "price_year": "2021",
+  "evidence": "hunt",
+  "quote": "Valor do menor lance: R$ 275,00. Fornecedor: HECKLER, CATTO & HECKLER LTDA. Objeto: Aquisição de autotransformador.",
+  "note": "Dry pass. Domestic Brazilian suppliers only; no U.S./PRC matched pair on this ComprasNet award."
+}

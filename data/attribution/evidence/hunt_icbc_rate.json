@@ -1,0 +1,10 @@
+{
+  "id": "hunt_icbc_rate",
+  "retrieved": "2026-09-30",
+  "source_id": "icij_china_capital_about",
+  "url": "https://www.icij.org/investigations/china-capital/about-china-capital-investigation-icbc/",
+  "price_year": "",
+  "evidence": "hunt",
+  "quote": "China Capital reveals that in early 2019 … transferring a staggering $1.3 billion in “emergency cash” for the tech giant.",
+  "note": "Published about-page opened. No matched all-in rate vs EXIM/DFC. Leak set not requested or parsed. Exclude row logged for the wire event."
+}
