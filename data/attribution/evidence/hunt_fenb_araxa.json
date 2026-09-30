@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
   "retrieved": "2026-09-30",
-  "source_id": "vanadiumprice_fenb_20230928",
-  "url": "https://vanadiumprice.com/2023/09/28/china-ferroniobium-market-prices-on-28-september-2023/",
+  "source_id": "vanadiumprice_fenb_20230925",
+  "url": "https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/",
   "price_year": "2023",
   "evidence": "hunt",
   "quote": "",
-  "note": "Still hunting a same-grade FeNb65 USD/kg pair with a U.S. seller. Proxy row fenb_china_mkt_202309 logged separately."
+  "note": "One-sided FeNb65 logged. Still hunting U.S.-seller same-grade pair."
 }
