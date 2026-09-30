@@ -1,10 +1,10 @@
 updated: 2026-09-30
-cycle: 21
-active_lane: icbc_finance
-active_basket: all_in_rate
-next_query: DFC Finance FAQs OR EXIM Bank United States named Latin America direct loan interest rate percent 2021..2026
-next_row_id: hunt_icbc_rate
-dry_streak: 0
+cycle: 22
+active_lane: commanding_heights
+active_basket: power_equipment
+next_query: Chile CEN Changshu Fengfan OR Fengfan G03 Nueva Zaldívar Likanantai award USD 2024
+next_row_id: cen_fengfan_g03_2024
+dry_streak: 1
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -41,6 +41,7 @@ seen_urls:
 - https://www.dfc.gov/sites/default/files/media/documents/9000104743.pdf
 - https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf
 - https://pmo.gov.bb/2022/02/18/road-rehabilitation-in-the-scotland-district-in-the-works/
+- https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.
@@ -49,3 +50,4 @@ misses:
 - 2026-09-30 | commanding_heights | power_equipment | Brazil ANEEL OR utility transformer OR HVDC award China versus ABB OR Siemens unit price 2021..2026 | State Grid Lote 1 win is RAP R$1.936bn for 800 kV HVDC concession—not a converter/transformer unit price vs ABB/Siemens.
 - 2026-09-30 | commanding_heights | power_equipment | Mexico CFE OR CompraNet transformador potencia OR HVDC Siemens OR GE versus China unit price 2022..2026 | SIDOF CFE-0001-CAAAT-0117-2024 awards excitation transformers (CTE López Mateos) to Transformadores Monterrey at MXN 50,647,935.60 — Mexican domestic; no U.S./PRC bidder or same-spec pair on the aviso.
 - 2026-09-30 | icbc_finance | all_in_rate | DFC OR EXIM Bank named Latin America loan all-in interest rate versus China EXIM OR ICBC 2021..2026 | DFC Financing Terms: interest is a negotiated Treasury+spread; LAAD Americas PIS shows $30m size with no rate. No named LatAm all-in vs PRC policy bank on opened pages.
+- 2026-09-30 | icbc_finance | all_in_rate | DFC Finance FAQs OR EXIM Bank United States named Latin America direct loan interest rate percent 2021..2026 | DFC FAQs: Direct Loan = Treasury + negotiated premium; no named LatAm numeric all-in on opened pages. Rotated to commanding_heights power_equipment.

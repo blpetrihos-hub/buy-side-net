@@ -354,5 +354,15 @@
     "supports": [
       "eximbank_china_barbados_scotland_2022"
     ]
+  },
+  {
+    "id": "dfc_finance_faqs",
+    "type": "official",
+    "chicago": "U.S. International Development Finance Corporation. “DFC Finance Program FAQs.” PDF via DFC Forms portal. Accessed 30 September 2026.",
+    "url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
+    "annotation": "Direct Loan interest = fixed Treasury base + negotiated risk premium. No published LatAm borrower all-in percent. Documents finance dry pass.",
+    "supports": [
+      "hunt_icbc_rate"
+    ]
   }
 ]

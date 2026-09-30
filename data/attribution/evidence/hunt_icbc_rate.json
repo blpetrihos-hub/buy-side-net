@@ -1,10 +1,10 @@
 {
   "id": "hunt_icbc_rate",
   "retrieved": "2026-09-30",
-  "source_id": "barbados_parliament_eximbank_scotland_2022",
-  "url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
-  "price_year": "2022",
+  "source_id": "dfc_finance_faqs",
+  "url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
+  "price_year": "2024",
   "evidence": "hunt",
-  "quote": "Interest rate: 2% per annum.",
-  "note": "Logged Barbados Eximbank 2% one-sided. Still need U.S. EXIM/DFC named LatAm all-in match."
+  "quote": "Generally, the interest rate is a fixed base rate provided by U.S. Treasury plus a risk premium. … Direct Loan Fixed Treasury + To be negotiated",
+  "note": "Dry pass #2 this batch on finance. No named LatAm numeric all-in. Rotating to commanding_heights."
 }

@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "barbados_parliament_eximbank_scotland_2022",
-    "note": "Cycle 21 logged eximbank_china_barbados_scotland_2022 as one_sided PRC concessional 2% (Parliament Schedule). Prior CIRR one-sided and DFC dry remain. Still hunting matched U.S. EXIM/DFC named LatAm all-in for same borrower class.",
-    "evidence_url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
-    "quote": "Interest rate: 2% per annum."
+    "source_id": "dfc_finance_faqs",
+    "note": "Cycle 22: DFC Finance FAQs restate Direct Loan rate as fixed Treasury + negotiated risk premium—no numeric LatAm all-in. Barbados 2% PRC one-sided remains. Rotating to commanding_heights power_equipment after second finance dry this batch.",
+    "evidence_url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
+    "quote": "Generally, the interest rate is a fixed base rate provided by U.S. Treasury plus a risk premium. … Direct Loan Fixed Treasury + To be negotiated"
   },
   {
     "id": "hunt_latam_rail_telecom",
