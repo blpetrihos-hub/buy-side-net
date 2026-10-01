@@ -1780,5 +1780,221 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "siemens_axia_20251027",
+    "type": "official",
+    "chicago": "Siemens Energy. “AXIA Energia, Brazil: Modernizing Brazil’s Power Grid – A milestone in efficiency and reliability.” 27 October 2025.",
+    "url": "https://www.siemens-energy.com/global/en/home/references/axia-energia-brazil-power-grid-modernization.html",
+    "annotation": "Company primary AXIA/Chesf substation retrofit case. Supports siemens_axia_chesf_retrofit_2025.",
+    "supports": [
+      "siemens_axia_chesf_retrofit_2025",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "siemens_axia_chesf_retrofit_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "econojournal_invap_cnea_20240313",
+    "type": "press",
+    "chicago": "Deza, Nicolás. “INVAP trabajará con la CNEA para impulsar exportaciones nucleares vinculadas al reactor CAREM.” EconoJournal, 13 March 2024.",
+    "url": "https://econojournal.com.ar/energia/invap-cnea-carem-exportar/",
+    "annotation": "Spanish trade press on INVAP–CNEA CAREM export MoU. UNVERIFIED proxy for invap_cnea_carem_mou_2024.",
+    "supports": [
+      "invap_cnea_carem_mou_2024",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "hunt_energy_fission_smr",
+      "invap_cnea_carem_mou_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "worldbank_elsalvador_geo_20250328",
+    "type": "official",
+    "chicago": "World Bank. “World Bank and El Salvador Promote Geothermal Energy for Sustainable and Inclusive Development.” 28 March 2025.",
+    "url": "https://www.worldbank.org/en/news/press-release/2025/03/26/banco-mundial-el-salvador-impulsan-energia-geotermica-desarrollo-sostenible-inclusivo",
+    "annotation": "IBRD Board approval notice for Chinameca geothermal. Supports lageo_chinameca_wb_2025.",
+    "supports": [
+      "lageo_chinameca_wb_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "lageo_chinameca_wb_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "techint_saddn_project",
+    "type": "official",
+    "chicago": "Techint Engineering & Construction. “SADDN.” Company project page (accessed 1 October 2026).",
+    "url": "https://www.techint.com/en/our-projects/saddn",
+    "annotation": "Company primary SADDN EPC scope page. Supports techint_saddn_epc_chile.",
+    "supports": [
+      "techint_saddn_epc_chile",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "techint_saddn_epc_chile"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "portonave_electric_equip_20250110",
+    "type": "official",
+    "chicago": "Portonave. “Portonave invests $87.8 million in 100% electric equipment.” 10 January 2025.",
+    "url": "https://www.portonave.com.br/en/todas-as-noticias/portonave-invests-usd87-8-million-in-100-electric-equipment",
+    "annotation": "Terminal primary announcement naming ZPMC STS OEM. Supports zpmc_portonave_sts_2025.",
+    "supports": [
+      "zpmc_portonave_sts_2025",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_portonave_sts_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "reuters_ganfeng_mariana_20250212",
+    "type": "press",
+    "chicago": "Raszewski, Eliana, and Daina Beth Solomon. “China’s Ganfeng starts lithium production at Argentina’s Mariana project.” Reuters, 12 February 2025.",
+    "url": "https://www.reuters.com/markets/commodities/chinas-ganfeng-starts-lithium-production-argentinas-mariana-project-2025-02-12/",
+    "annotation": "Wire press citing Ganfeng Mariana start. UNVERIFIED proxy for ganfeng_mariana_production_2025.",
+    "supports": [
+      "ganfeng_mariana_production_2025",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "ganfeng_mariana_production_2025",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ictsi_rio_brasil_20251215",
+    "type": "official",
+    "chicago": "International Container Terminal Services, Inc. “ICTSI to invest R$948 million to expand, modernize Rio Brasil Terminal.” 15 December 2025.",
+    "url": "https://ictsi.com/press-releases/ictsi-invest-r948-million-expand-modernize-rio-brasil-terminal",
+    "annotation": "Operator primary Rio Brasil expansion announcement. Supports ictsi_rio_brasil_expansion_2025.",
+    "supports": [
+      "ictsi_rio_brasil_expansion_2025",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "ictsi_rio_brasil_expansion_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "gs_inima_atacama_project",
+    "type": "official",
+    "chicago": "GS Inima. “Atacama Desalination Plant.” Company project page (accessed 1 October 2026).",
+    "url": "https://inima.com/en/project/atacama/",
+    "annotation": "Company primary Atacama desal EPC+O&M page. Supports gs_inima_atacama_desal_chile.",
+    "supports": [
+      "gs_inima_atacama_desal_chile",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "gs_inima_atacama_desal_chile",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "nrocc_montego_bay_perimeter",
+    "type": "official",
+    "chicago": "National Road Operating and Constructing Company Limited (NROCC). “Montego Bay Perimeter Road Project.” Project page (accessed 1 October 2026).",
+    "url": "https://www.h2kjamaica.com.jm/montego-bay-project",
+    "annotation": "Jamaican executing-agency primary notice of CHEC Design-Build contract. Supports chec_montego_bay_perimeter_jamaica.",
+    "supports": [
+      "chec_montego_bay_perimeter_jamaica",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "chec_montego_bay_perimeter_jamaica",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "appian_baiyin_mvv_20250402",
+    "type": "official",
+    "chicago": "Appian Capital Advisory. “EXIT: Appian completes sale of MVV to Baiyin Nonferrous for US$420 million.” 2 April 2025.",
+    "url": "https://appiancapitaladvisory.com/exit-appian-completes-sale-of-mvv-to-baiyin-nonferrous-for-us420-million/",
+    "annotation": "Seller primary completion notice for Baiyin Serrote/MVV acquisition. Supports baiyin_serrote_mvv_brazil_2025.",
+    "supports": [
+      "baiyin_serrote_mvv_brazil_2025",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "baiyin_serrote_mvv_brazil_2025",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "worldcement_holcim_comacsa_20240809",
+    "type": "press",
+    "chicago": "Gardner, Evie. “Holcim enters Peru’s construction market with the acquisition of Comacsa and Mixercon.” World Cement, 9 August 2024.",
+    "url": "https://www.worldcement.com/the-americas/09082024/holcim-enters-perus-construction-market-with-the-acquisition-of-comacsa-and-mixercon/",
+    "annotation": "Trade press on Holcim Comacsa/Mixercon entry; USD 100m UNVERIFIED proxy. Supports holcim_comacsa_mixercon_peru_2024.",
+    "supports": [
+      "holcim_comacsa_mixercon_peru_2024",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "holcim_comacsa_mixercon_peru_2024",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "caf_medellin_santiago_20241209",
+    "type": "official",
+    "chicago": "CAF. “CAF to supply metro units in Colombia and Chile.” 9 December 2024.",
+    "url": "https://www.cafmobility.com/en/press-room/caf-to-supply-metro-units-colombia-and-chile/",
+    "annotation": "Company primary Medellín/Santiago metro award notice. Supports caf_medellin_santiago_metro_2024.",
+    "supports": [
+      "caf_medellin_santiago_metro_2024",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "caf_medellin_santiago_metro_2024",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
