@@ -3096,5 +3096,59 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "sacyr_coquimbo_20260414",
+    "type": "official",
+    "chicago": "Sacyr. “Sacyr Water formalizes award for Chile’s first concessioned desalination plant.” 14 April 2026.",
+    "url": "https://sacyr.com/en/-/formalizacion-adjudicacion-desladora-coquimbo-sacyr-agua",
+    "annotation": "Company primary Coquimbo desal concession award. Supports sacyr_coquimbo_desal_2026.",
+    "supports": [
+      "sacyr_coquimbo_desal_2026",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "sacyr_coquimbo_desal_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cbmm_xno_facility_opening_pdf",
+    "type": "official",
+    "chicago": "CBMM. “CBMM inaugurates world’s largest Niobium anode production facility dedicated to producing Echion’s leading XNO® technology.” Press release PDF, November 2024.",
+    "url": "https://cbmm.com/-/media/cbmm/media-center/noticias-internas/nova-planta-xno/press_release_eng_cbmm-facility-opening.pdf",
+    "annotation": "Company primary XNO anode plant inauguration. Supports cbmm_echion_xno_araxa_2024.",
+    "supports": [
+      "cbmm_echion_xno_araxa_2024",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "cbmm_echion_xno_araxa_2024",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "primicias_ccecc_quinto_puente_20260603",
+    "type": "press",
+    "chicago": "Primicias. “Empresa china, la elegida para construir tramo 1A del Quinto Puente, por USD 115,9 millones.” 3 June 2026.",
+    "url": "https://www.primicias.ec/guayaquil/empresa-china-elegida-construccion-quinto-puente-contrato-millonario-sercop-guayas-daniel-noboa-roberto-luque-puertos-guayaquil-124411/",
+    "annotation": "Ecuador press on MIT/Sercop CCECC Quinto Puente 1A award. Supports ccecc_quinto_puente_1a_2026 (UNVERIFIED value).",
+    "supports": [
+      "ccecc_quinto_puente_1a_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "ccecc_quinto_puente_1a_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

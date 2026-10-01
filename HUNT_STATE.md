@@ -1,60 +1,81 @@
 updated: 2026-10-01
-cycle: 15
+cycle: 16
 remote: present
-active_layer: infrastructure
-active_subcategory: rail
-next_query: Cycle 16 shuffle_seed=20261016; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-16 shuffled_order)
+active_layer: resources
+active_subcategory: water
+next_query: Cycle 17 shuffle_seed=20261017; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-17 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261015
+shuffle_seed: 20261016
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- infrastructure/rail
-- resources/balsa
-- infrastructure/engineering_epc
-- infrastructure/port_cranes
-- energy/wind
-- infrastructure/building_materials
-- resources/graphite
-- energy/power_plants_grid
-- resources/copper
-- infrastructure/bridges_roads
-- resources/nickel
 - resources/water
-- energy/fission_smr
-- infrastructure/port_ownership
-- resources/lithium
-- energy/solar
-- energy/other_renewables
 - resources/niobium
+- infrastructure/engineering_epc
+- resources/graphite
+- infrastructure/port_ownership
+- resources/balsa
+- energy/wind
+- infrastructure/bridges_roads
+- energy/solar
+- resources/nickel
+- infrastructure/port_cranes
+- infrastructure/rail
+- resources/lithium
+- energy/other_renewables
+- resources/copper
+- energy/fission_smr
+- energy/power_plants_grid
+- infrastructure/building_materials
 
 rows_found_this_cycle:
-  infrastructure/rail: 0
-  resources/balsa: 0
-  infrastructure/engineering_epc: 1
-  infrastructure/port_cranes: 1
-  energy/wind: 0
-  infrastructure/building_materials: 0
+  resources/water: 1
+  resources/niobium: 1
+  infrastructure/engineering_epc: 0
   resources/graphite: 0
-  energy/power_plants_grid: 0
-  resources/copper: 0
-  infrastructure/bridges_roads: 0
-  resources/nickel: 2
-  resources/water: 0
-  energy/fission_smr: 0
   infrastructure/port_ownership: 0
-  resources/lithium: 0
+  resources/balsa: 0
+  energy/wind: 0
+  infrastructure/bridges_roads: 1
   energy/solar: 0
+  resources/nickel: 0
+  infrastructure/port_cranes: 0
+  infrastructure/rail: 0
+  resources/lithium: 0
   energy/other_renewables: 0
-  resources/niobium: 0
+  resources/copper: 0
+  energy/fission_smr: 0
+  energy/power_plants_grid: 0
+  infrastructure/building_materials: 0
+
+coverage_cumulative:
+  # Active (non-archived, non-exclude) observation counts after cycle 16
+  infrastructure/port_ownership: 12
+  infrastructure/port_cranes: 13
+  infrastructure/rail: 11
+  infrastructure/bridges_roads: 12
+  infrastructure/building_materials: 9
+  infrastructure/engineering_epc: 14
+  resources/niobium: 7
+  resources/lithium: 12
+  resources/copper: 11
+  resources/nickel: 10
+  resources/graphite: 8
+  resources/balsa: 7
+  resources/water: 10
+  energy/fission_smr: 7
+  energy/solar: 10
+  energy/wind: 11
+  energy/power_plants_grid: 18
+  energy/other_renewables: 10
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 15
@@ -485,6 +506,12 @@ misses:
 #   Thin fills: nickel, port_cranes, engineering_epc.
 #   Equal-budget misses: rail, balsa, wind, building_materials, graphite, power_plants_grid, copper,
 #   bridges_roads, water, fission_smr, port_ownership, lithium, solar, other_renewables, niobium.
+
+# Cycle 16 (seed 20261016): 3 sourced rows; hits on water (Sacyr Coquimbo desal USD 318m),
+#   niobium (CBMM/Echion XNO anode plant Araxá), bridges_roads (CCECC Quinto Puente 1A USD 115.9m proxy).
+#   Thin fills: niobium, water, bridges_roads.
+#   Equal-budget misses: engineering_epc, graphite, port_ownership, balsa, wind, solar, nickel,
+#   port_cranes, rail, lithium, other_renewables, copper, fission_smr, power_plants_grid, building_materials.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).

@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 226,
+    "n_rows": 229,
     "counts": {
-      "total": 226,
-      "active": 171,
+      "total": 229,
+      "active": 174,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 31,
+      "proxy": 32,
       "exclude": 5,
-      "documented": 139,
-      "on_map": 160
+      "documented": 141,
+      "on_map": 163
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 5,
-        "prc": 25,
+        "prc": 26,
         "allied": 34,
-        "n": 64
+        "n": 65
       },
       "usd": {
         "us": 170000000.0,
@@ -131,16 +131,16 @@
       "counts": {
         "us": 9,
         "prc": 14,
-        "allied": 33,
-        "n": 56
+        "allied": 35,
+        "n": 58
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
         "prc": 2010442290.0,
         "prc_n": 8,
-        "allied": 13836936427.2,
-        "allied_n": 11
+        "allied": 14154936427.2,
+        "allied_n": 12
       },
       "matched_gaps": {
         "n": 0,
@@ -240,8 +240,8 @@
       "counts": {
         "us": 4,
         "prc": 22,
-        "allied": 40,
-        "n": 66
+        "allied": 41,
+        "n": 67
       },
       "usd": {
         "us": 550000000.0,
@@ -265,7 +265,7 @@
         "resources": {
           "us": 3,
           "prc": 4,
-          "allied": 15
+          "allied": 16
         }
       }
     },
@@ -274,16 +274,16 @@
       "counts": {
         "us": 6,
         "prc": 6,
-        "allied": 15,
-        "n": 27
+        "allied": 16,
+        "n": 28
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
         "prc": 448154809.0,
         "prc_n": 4,
-        "allied": 425000000.0,
-        "allied_n": 1
+        "allied": 743000000.0,
+        "allied_n": 2
       },
       "by_layer": {
         "energy": {
@@ -299,7 +299,7 @@
         "resources": {
           "us": 2,
           "prc": 0,
-          "allied": 8
+          "allied": 9
         }
       }
     },
@@ -418,9 +418,9 @@
       "country": "Ecuador",
       "counts": {
         "us": 3,
-        "prc": 4,
+        "prc": 5,
         "allied": 2,
-        "n": 9
+        "n": 10
       },
       "usd": {
         "us": 26797120.0,
@@ -438,7 +438,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 1
         },
         "resources": {
@@ -807,7 +807,10 @@
       "sedgman_colossus_epcm_2026",
       "zpmc_tecon_rio_grande_2026",
       "centaurus_jaguar_bndes_loi_2026",
-      "centaurus_glencore_offtake_jaguar_2026"
+      "centaurus_glencore_offtake_jaguar_2026",
+      "sacyr_coquimbo_desal_2026",
+      "cbmm_echion_xno_araxa_2024",
+      "ccecc_quinto_puente_1a_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
