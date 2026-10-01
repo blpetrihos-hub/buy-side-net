@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 46
+cycle: 47
 active_lane: icbc_finance
 active_basket: all_in_rate
-next_query: China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US
+next_query: Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US
 next_row_id: hunt_icbc_rate
-dry_streak: 0
+dry_streak: 1
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -86,7 +86,11 @@ seen_urls:
 - http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html
 - https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html
 - https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html
+- https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/
+- https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/
+- https://www.guyanastandard.com/2023/04/25/govt-presents-house-with-concessional-loan-agreement-for-us192m-phase-2-ecd-road-project/
 misses:
+- 2026-10-01 | icbc_finance | all_in_rate | China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US | Opened Guyana DPI and Newsroom ECD Phase 2 Eximbank framework (Dec 2022): US$192m / later Nat'l Assembly presentation RMB 1,384,580,867.13 — size and concessional label only; no interest rate, tenor, or fees on opened pages. Phase I AidData 2% is 2017 commitment (outside 2021–2026 new-row window). Barbados 2% PRC one-sided remains unpaired.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR ChinaMAE OR university 国产AI计算卡 Ascend 910B OR 910C OR 910_4 card award unit price 2026 versus Nvidia H20 GPU加速卡 card award | Opened Zijingshan Lab domestic compute-unit tender (ChinaMAE): 8-card+4-card systems, CNY 1.55m budget; names existing H20/V100 but no card-level H20 or Ascend 910B/910C unit price. Award mirrors redact prices. dry_streak 3 — rotating to icbc_finance all_in_rate.
 - 2026-10-01 | ai_chips | usd_per_chip | university OR CCGP award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C card | Opened SUSTech-JC-2026-00149 reprint: 2× Nvidia H100 at CNY 247,500/card — off-spec (H100 procurement, not H20; not an export-rules article). Not added as a row. No H20 card-level award opened this cycle.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award | Opened Huangshan GGZY HJACG2026G096 contract (16 Sep 2026) and award (7 Sep 2026): HTML shows CloudStor 640H50 server only (CNY 2.355m; package CNY 4.748m)—no H20 card unit price. Login-walled aggregator H20 CNY 178k/card snippets not used. Still unpaired vs HUST Ascend 910_4_1.

@@ -541,3 +541,17 @@
   url: "https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html"
   annotation: "Opened for ai_chips hunt. Domestic 8-card/4-card compute units, CNY 1.55m budget; mentions existing H20/V100 for mixed training. No H20 or Ascend 910B/910C card unit price. Dry pass before lane rotate."
   supports: ["hunt_ascend_chip"]
+
+- id: guyana_dpi_ecd_eximbank_2022
+  type: official
+  chicago: "Department of Public Information, Guyana. “US$192 Million Phase 2 East Coast Road Project…” 30 December 2022."
+  url: "https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/"
+  annotation: "Opened for icbc_finance hunt. Eximbank ECD Phase 2 framework US$192m — size and concessional label only; no interest rate. Documents a dry pass."
+  supports: ["hunt_icbc_rate"]
+
+- id: guyana_newsroom_ecd_eximbank_2022
+  type: journalism
+  chicago: "News Room Guyana. “ECD road upgrade to continue with US$192 million loan from Chinese Government.” 30 December 2022."
+  url: "https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/"
+  annotation: "Corroborates DPI: Eximbank of China provides the US$192m ECD Phase 2 loan; no rate published."
+  supports: ["hunt_icbc_rate"]
