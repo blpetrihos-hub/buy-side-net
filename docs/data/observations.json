@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "grenada_estimates_exim_china_2022",
-    "note": "Cycle 48 dry (dry_streak 2): opened Grenada Estimates 2022 PDF (https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf) — EXIM China St. George's Airport/MBIA CNY 461m at fixed 2% but contracted January 2017 (outside 2021–2026 new-row window). Not added. Next: US EXIM Guyana Gas-to-Energy 4% press terms.",
-    "evidence_url": "https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf",
-    "quote": "EXIM China- St.George's Airport Runway & Road Upgrade … Loan of CNY461M contracted in January 2017, fixed interest rate of 2%, repayment 21.03.2023-21.03.2038"
+    "source_id": "guyana_dpi_exim_gte_4pct_2025",
+    "note": "Cycle 49: logged exim_us_guyana_gte_2025 as UNVERIFIED proxy (DPI/Stabroek: U.S. EXIM Guyana Gas-to-Energy fixed 4%, 15y). Press/borrower remarks — not EXIM schedule PDF. dry_streak 3 on finance (proxy does not reset) — rotating to commanding_heights power_equipment. Barbados 2% 2022 PRC one-sided remains unpaired same-year.",
+    "evidence_url": "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/",
+    "quote": "the 4 per cent interest rate is highly competitive, given global market conditions"
   },
   {
     "id": "hunt_latam_rail_telecom",
@@ -1362,5 +1362,36 @@
     "note": "UNVERIFIED proxy. Mysteel 15 Sep 2026 Ascend price note (mobile page opened): 910C “由约 9 万元升至 11 万元以上” — stored CNY 110,000 as the published floor of “11万元以上.” Same note cites Ascend 950DT indicative above CNY 250,000/chip and 950PR above CNY 80,000 — those SKUs not stored as this row. Press/channel indicative; no contract/award document. Off the usd_per_chip median. FX: CFETS/PBOC central parity 1 USD = 6.7670 CNY on 2026-09-15 (China News / 中新经纬 reprint).",
     "evidence_url": "https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html",
     "quote": "910C（由约 9 万元升至 11 万元以上，涨幅 22%）"
+  },
+  {
+    "id": "exim_us_guyana_gte_2025",
+    "lane": "icbc_finance",
+    "spec_class": "all_in_rate",
+    "evidence": "proxy",
+    "country": "Guyana",
+    "buyer": "Government of Guyana (Ministry of Finance)",
+    "seller_us": "Export-Import Bank of the United States",
+    "seller_prc": "",
+    "city": "Georgetown",
+    "lat": 6.8013,
+    "lon": -58.1551,
+    "geo_note": "Borrower capital (Georgetown). Gas-to-Energy plant is at Wales, West Bank Demerara; pin is process/capital city.",
+    "price_year": "2025",
+    "spec": "U.S. EXIM Bank direct loan — Guyana Gas-to-Energy (natural gas separation + 300 MW CCGT + pipeline services)",
+    "unit": "percent",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2025-01-03",
+    "us_price": 4.0,
+    "prc_price": null,
+    "us_price_usd": 4.0,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "guyana_dpi_exim_gte_4pct_2025",
+    "note": "UNVERIFIED proxy. Guyana DPI (3 Jan 2025) quotes VP Jagdeo that the U.S. EXIM Gas-to-Energy loan carries a 4 per cent interest rate; Stabroek News (11 Jan 2025) reports fixed 4% over 15 years / 30 semi-annual installments beginning 1 May 2031, citing the same remarks. Official EXIM.gov approval/signing pages state ~USD 527m size and CTEP context but do not print the rate. Press/borrower remarks only — not a published EXIM schedule PDF — so evidence=proxy and off the finance median until document-backed or paired to a same-year PRC all-in.",
+    "evidence_url": "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/",
+    "quote": "In addressing these concerns, the general secretary pointed out that the 4 per cent interest rate is highly competitive, given global market conditions. … The multi million loan from US EXIM-Bank will aid the construction of a natural gas separation plant, a 300 MW combined cycle gas turbine power plant and services related to the gas supply pipeline."
   }
 ]

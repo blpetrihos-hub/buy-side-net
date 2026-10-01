@@ -562,3 +562,24 @@
   url: "https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf"
   annotation: "Opened for icbc_finance hunt. Debt table: EXIM China MBIA/St George airport CNY 461m at 2% contracted Jan 2017 — outside 2021–2026 new-row window. Documents a dry pass."
   supports: ["hunt_icbc_rate"]
+
+- id: guyana_dpi_exim_gte_4pct_2025
+  type: journalism
+  chicago: "Department of Public Information, Guyana. “Financial benefits of gas-to-energy project far outweighs debt servicing costs – Jagdeo highlights.” 3 January 2025."
+  url: "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/"
+  annotation: "Borrower-side press: VP Jagdeo states U.S. EXIM Gas-to-Energy loan at 4% interest. UNVERIFIED proxy support for exim_us_guyana_gte_2025 (no EXIM schedule PDF opened)."
+  supports: ["exim_us_guyana_gte_2025", "hunt_icbc_rate"]
+
+- id: stabroek_exim_guyana_gte_2025
+  type: journalism
+  chicago: "Stabroek News. “Guyana, US EXIM Bank ink ‘game changer’ US$527m pact.” 11 January 2025."
+  url: "https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/"
+  annotation: "Corroborates fixed 4% over 15 years / 30 semi-annual installments from 1 May 2031 for U.S. EXIM Guyana GtE loan, quoting VP Jagdeo. Press-only; supports proxy row."
+  supports: ["exim_us_guyana_gte_2025"]
+
+- id: exim_gov_guyana_gte_approval_2024
+  type: official
+  chicago: "Export-Import Bank of the United States. “Board of Directors Approves More Than $526 Million for Guyanese Energy Project.” 26 December 2024."
+  url: "https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy"
+  annotation: "Official EXIM approval of ~USD 527m Guyana Gas-to-Energy financing under CTEP. Confirms size/project; does not publish the interest rate on the opened page."
+  supports: ["exim_us_guyana_gte_2025"]
