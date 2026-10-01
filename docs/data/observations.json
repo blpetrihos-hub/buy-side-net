@@ -56,10 +56,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "sma_diego_almagro_sur_2021",
-    "note": "Cycle 56 opened SMA press release (3 Feb 2021): 46 MVPS / Sunny Central 4600 for Colbún Diego de Almagro Sur 220 MW (Atacama) — MW and equipment count only; no contract price or USD/MW. Huawei Arinos string one-sided (USD 21,793.76/MW_ac) remains unpaired (also string vs central). Still hunting a non-PRC inverter award with a unit price.",
-    "evidence_url": "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert",
-    "quote": "SMA is supplying 46 Medium Voltage Power Station for the 220 megawatt Diego de Almagro Sur PV power plant in the Atacama Desert in Chile."
+    "source_id": "ge_vernova_transelec_sync_2024",
+    "note": "Cycle 58 opened GE Vernova (12 Jul 2024): Transelec Ana María + Monte Mina — four synchronous condensers + 220 kV GIS substations; commercial operation ~2027 — no contract price or USD/unit. Kimal XD converter-station one-sided remains unpaired. dry_streak 3 — rotating to niobium fenb_std.",
+    "evidence_url": "https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability",
+    "quote": "GE Vernova Inc. (NYSE: GEV) announced today that it has secured an order with Transelec Holdings Rentas Ltd… to deliver synchronous condensers and high-voltage substation for the Ana Maria and Monte Mina substation projects in Northern Chile."
   },
   {
     "id": "hunt_mx_power_equip",

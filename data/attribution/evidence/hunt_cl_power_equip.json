@@ -1,10 +1,10 @@
 {
   "id": "hunt_cl_power_equip",
   "retrieved": "2026-10-01",
-  "source_id": "sma_diego_almagro_sur_2021",
-  "url": "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert",
-  "price_year": "2021",
+  "source_id": "ge_vernova_transelec_sync_2024",
+  "url": "https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability",
+  "price_year": "2024",
   "evidence": "hunt",
-  "quote": "SMA is supplying 46 Medium Voltage Power Station for the 220 megawatt Diego de Almagro Sur PV power plant in the Atacama Desert in Chile.",
-  "note": "Dry pass. Scope and MW confirmed; no contract value or per-MW price on the SMA page. Canal Solar mirror also omits price."
+  "quote": "GE Vernova Inc. (NYSE: GEV) announced today that it has secured an order with Transelec Holdings Rentas Ltd… to deliver synchronous condensers and high-voltage substation for the Ana Maria and Monte Mina substation projects in Northern Chile.",
+  "note": "Dry pass. Scope confirmed (4 sync condensers + 220 kV GIS); no contract value on the GE Vernova page. Rotating to niobium after dry_streak 3."
 }

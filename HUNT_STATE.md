@@ -1,12 +1,13 @@
 updated: 2026-10-01
-cycle: 57
-active_lane: commanding_heights
-active_basket: power_equipment
-next_query: Chile OR Brazil Hitachi Energy OR Siemens Energy OR GE Vernova HVDC OR converter station OR STATCOM award USD unit OR package 2021..2026 versus China XD Kimal
-next_row_id: hunt_cl_power_equip
-dry_streak: 2
+cycle: 58
+active_lane: niobium
+active_basket: fenb_std
+next_query: CBMM OR \"ferroniobium\" OR FeNb65 list OR contract OR invoice USD/kg Nb OR FeNb Europe OR US OR Brazil 2024..2026 public filing NOT paywall versus China Mysteel OR SMM
+next_row_id: hunt_fenb_araxa
+dry_streak: 0
 remote: present
 seen_urls:
+- https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability
 - https://www.cnnbrasil.com.br/infra/siemens-energy-e-terranova-fecham-contrato-de-100-milhoes-para-data-center/
 - https://megawhat.uol.com.br/economia-e-politica/empresas/siemens-energy-fecha-contrato-de-r-100-milhoes-para-data-centers-da-terranova/
 - https://www.federalreserve.gov/releases/h10/20260323/

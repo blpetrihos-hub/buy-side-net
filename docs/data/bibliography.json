@@ -972,5 +972,15 @@
     "supports": [
       "siemens_terranova_gis_xfmr_2026"
     ]
+  },
+  {
+    "id": "ge_vernova_transelec_sync_2024",
+    "type": "journalism",
+    "chicago": "GE Vernova Inc. “GE Vernova to supply synchronous condensers equipment to help improve grid stability in Northern Chile.” Press release, 12 July 2024.",
+    "url": "https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability",
+    "annotation": "Opened for U.S.-seller HVDC/grid-equipment hunt vs Kimal XD. Confirms Transelec Ana María + Monte Mina: four sync condensers + 220 kV GIS; no contract price. Documents a dry pass; rotates lane after dry_streak 3.",
+    "supports": [
+      "hunt_cl_power_equip"
+    ]
   }
 ]
