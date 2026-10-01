@@ -1219,10 +1219,12 @@
   - hunt_energy_wind
 - id: cmoc_brazil_nb_p_page
   type: official
-  chicago: CMOC Group Limited. “Brazil - niobium and phosphate.” Company page. Accessed 1 October 2026.
+  chicago: CMOC Group Limited. “Brazil - niobium and phosphate.” Company business page. Accessed 1 October
+    2026.
   url: https://en.cmoc.com/html/Business/BRA-Nb-P/
-  annotation: Company primary description of Catalão NML niobium ownership/production. Supports cmoc_catalao_niobium_br.
+  annotation: Company primary 2025 Catalão niobium production disclosure. Supports cmoc_catalao_nb_prod_2025.
   supports:
+  - cmoc_catalao_nb_prod_2025
   - cmoc_catalao_niobium_br
   - hunt_fenb_araxa
   - hunt_res_nickel
@@ -2008,3 +2010,56 @@
   supports:
   - powerchina_guayepo_iii_colombia_2025
   - hunt_energy_solar
+- id: apmt_suape_20260309
+  type: official
+  chicago: APM Terminals. “APM Terminals Suape enters final construction phase as USD 47 million in equipment
+    arrives on site.” 9 March 2026.
+  url: https://www.apmterminals.com/en/news/news-releases/2026/260309-APMTerminals-Suape-enters-final-construction-phase
+  annotation: Company primary Suape terminal investment/progress notice. Supports apm_suape_brazil_2026.
+  supports:
+  - apm_suape_brazil_2026
+  - hunt_infra_port_ownership
+- id: chec_americas_fourth_bridge
+  type: official
+  chicago: CHEC Americas. “Projects” (Fourth Bridge over the Panama Canal entry). Accessed 1 October 2026.
+  url: https://www.checamerica.com/projects/
+  annotation: Company project listing for Fourth Bridge. Supports chec_fourth_bridge_panama.
+  supports:
+  - chec_fourth_bridge_panama
+  - hunt_infra_bridges_roads
+- id: graphcoa_jordania_area_c
+  type: official
+  chicago: Graphcoa. “Área C – Grafite Jordânia.” Company project page. Accessed 1 October 2026.
+  url: https://graphcoa.com/area-c-grafite-jordania
+  annotation: Company primary Jordânia graphite project description. Supports graphcoa_jordania_mg.
+  supports:
+  - graphcoa_jordania_mg
+  - hunt_res_graphite
+- id: fqm_taca_taca_202602
+  type: official
+  chicago: First Quantum Minerals Ltd. “First Quantum Files Taca Taca 43-101 Technical Report” (NR 26-06).
+    February 2026.
+  url: https://www.first-quantum.com/wp-content/uploads/2026/02/NR-26-06-First-Quantum-Files-Taca-Taca-43-101-Technical-Report-FINAL.pdf
+  annotation: Company primary Taca Taca technical-report filing notice. Supports fqm_taca_taca_argentina_2026.
+  supports:
+  - fqm_taca_taca_argentina_2026
+  - hunt_res_copper
+- id: apmt_suape_sany_20240605
+  type: official
+  chicago: APM Terminals. “APM Terminals ramps up capacity with agreements for 240 pieces of container
+    handling equipment.” 5 June 2024.
+  url: https://www.apmterminals.com/en/suape/news/news/2024/240605-apm-terminals-ramps-up-capacity
+  annotation: Company primary Sany Suape crane/equipment agreement. Supports sany_apmt_suape_sts_rtg_2026
+    (USD 47m on companion Mar 2026 arrival release).
+  supports:
+  - sany_apmt_suape_sts_rtg_2026
+  - hunt_infra_port_cranes
+- id: rio_altoandinos_20250523
+  type: official
+  chicago: Rio Tinto. “Rio Tinto confirmed as preferred partner on world-class Salares Altoandinos lithium
+    project.” 23 May 2025.
+  url: https://www.riotinto.com/en/news/releases/2025/rio-tinto-confirmed-as-preferred-partner-on-world-class-salares-altoandinos-lithium-project
+  annotation: Company primary ENAMI preferred-partner announcement. Supports rio_altoandinos_enami_2025.
+  supports:
+  - rio_altoandinos_enami_2025
+  - hunt_res_lithium
