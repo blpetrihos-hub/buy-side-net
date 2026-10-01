@@ -1378,3 +1378,143 @@
   supports:
   - graphex_south_star_brazil_offtake_2023
   - hunt_res_graphite
+- id: prnewswire_marangatu_20240610
+  type: official
+  chicago: Canadian Solar Inc. / Recurrent Energy. “Recurrent Energy and SPIC Inaugurate 446 MWp Solar
+    Complex in Brazil.” PR Newswire, 10 June 2024.
+  url: https://www.prnewswire.com/news-releases/recurrent-energy-and-spic-inaugurate-446-mwp-solar-complex-in-brazil-302167837.html
+  annotation: Company primary inauguration notice for Marangatu SPIC/Recurrent Brazil. Supports spic_recurrent_marangatu_br_2024.
+  supports:
+  - spic_recurrent_marangatu_br_2024
+  - hunt_energy_solar
+- id: powerchina_6j_sangaban_20250527
+  type: official
+  chicago: 中国电建水电六局 (POWERCHINA Hydroelectric Bureau 6). “【制造安装公司】公司收到秘鲁圣加旺项目业主感谢信.” 27 May 2025.
+  url: http://6j.powerchina.cn/col/col4463/art/2025/art_28b686f9144945ee879752c8e5a67f57.html
+  annotation: Company primary notice of San Gabán III Peru full commercial generation. Supports powerchina_san_gaban_iii_peru_2025.
+  supports:
+  - powerchina_san_gaban_iii_peru_2025
+  - hunt_energy_other_renewables
+- id: dpworld_callao_20240621
+  type: official
+  chicago: DP World. “Peruvian Trade Set for Boost as DP World Completes $400m Callao Port Expansion.”
+    21 June 2024.
+  url: https://www.dpworld.com/en/news/peruvian-trade-set-for-boost-as-dp-world-completes-400m-callao-port-expansion
+  annotation: Company primary Callao South Terminal expansion completion notice. Supports dpworld_callao_bicentennial_2024.
+  supports:
+  - dpworld_callao_bicentennial_2024
+  - hunt_infra_port_ownership
+- id: acciona_los_cabos_desal_page
+  type: official
+  chicago: ACCIONA. “ACCIONA to build and operate Los Cabos desalination plant in Mexico.” Company news
+    release.
+  url: https://www.acciona.com/updates/news/acciona-build-operate-cabos-desalination-plant-mexico
+  annotation: Company primary Los Cabos desalination PPP notice. Supports acciona_los_cabos_desal_mexico.
+  supports:
+  - acciona_los_cabos_desal_mexico
+  - hunt_res_water
+- id: wnn_meitner_acr300_20260710
+  type: journalism
+  chicago: World Nuclear News. “Argentina announces privately-financed SMR plan.” 10 July 2026.
+  url: https://www.world-nuclear-news.org/articles/argentina-announces-privately-financed-smr-plan
+  annotation: Industry journalism on Meitner ACR-300 Atucha proposal. Supports meitner_acr300_atucha_2026
+    (UNVERIFIED proxy).
+  supports:
+  - meitner_acr300_atucha_2026
+  - hunt_energy_fission_smr
+- id: goldwind_brazil_spic_20250123
+  type: official
+  chicago: Goldwind. “Goldwind Writes New Chapter in Brazil.” 23 January 2025.
+  url: https://www.goldwind.com/en/news/focus-1116679091689538560
+  annotation: Company primary SPIC Brasil GWH182 turbine supply notice. Supports goldwind_spic_touros_br_2025.
+  supports:
+  - goldwind_spic_touros_br_2025
+  - hunt_energy_wind
+- id: riotinto_rincon_20241212
+  type: official
+  chicago: Rio Tinto. “Rio Tinto to invest $2.5 billion to expand Rincon lithium project capacity to 60,000
+    tonnes per year.” 12 December 2024.
+  url: https://www.riotinto.com/en/news/releases/2024/rio-tinto-to-invest-2_5-billion-to-expand-rincon-lithium-project-capacity-to-60000-tonnes-per-year
+  annotation: Company primary Rincon expansion investment approval. Supports rio_tinto_rincon_expansion_2024.
+  supports:
+  - rio_tinto_rincon_expansion_2024
+  - hunt_res_lithium
+- id: siemens_line4_20260715
+  type: official
+  chicago: Siemens Mobility. “Siemens to Digitalize São Paulo’s Metro Line 4-Yellow Extension.” 15 July
+    2026.
+  url: https://press.siemens.com/global/en/pressrelease/siemens-digitalize-sao-paulos-metro-line-4-yellow-extension
+  annotation: Company primary Line 4-Yellow CBTC award notice. Supports siemens_sp_line4_cbtc_2026.
+  supports:
+  - siemens_sp_line4_cbtc_2026
+  - hunt_latam_rail_telecom
+- id: railwaygazette_salvador_crrc_20260717
+  type: journalism
+  chicago: Railway Gazette International. “CRRC wins Salvador metro train order.” 17 July 2026.
+  url: https://www.railwaygazette.com/metro-metro-categories/2026/07/17/crrc-wins-salvador-metro-train-order/
+  annotation: Industry journalism on CRRC Salvador metro award. Supports crrc_salvador_metro_2026 (UNVERIFIED
+    proxy pending contract signature).
+  supports:
+  - crrc_salvador_metro_2026
+  - hunt_latam_rail_telecom
+- id: appian_graphcoa_20250409
+  type: official
+  chicago: Appian Capital Advisory / Minera Brasil. “Graphcoa’s new graphite plant boosts energy transition
+    in Brazil.” 9 April 2025.
+  url: https://appiancapitaladvisory.com/graphcoas-new-graphite-plant-boosts-energy-transition-in-brazil/
+  annotation: Investor/company interview on Graphcoa Boa Sorte graphite start-up. Supports graphcoa_boa_sorte_bahia_2024.
+  supports:
+  - graphcoa_boa_sorte_bahia_2024
+  - hunt_res_graphite
+- id: people_daily_crbc_ecuador_20250218
+  type: journalism
+  chicago: 人民日报 (People’s Daily), via Guangdong Department of Commerce. “中企承建厄瓜多尔公路项目惠及超10万民众.” 18 February
+    2025.
+  url: https://com.gd.gov.cn/zcqggfwpt/tzjy/content/post_4669445.html
+  annotation: State journalism on CRBC Ecuador highway completion. Supports crbc_ecuador_quininde_highway_2023
+    (UNVERIFIED proxy).
+  supports:
+  - crbc_ecuador_quininde_highway_2023
+  - hunt_infra_bridges_roads
+- id: gmexico_4q25_tia_maria
+  type: official
+  chicago: Grupo México. “Fourth Quarter 2025 Report” (English). Tía María project update. 2025.
+  url: https://www.gmexico.com/GMDocs/Home/Eng/4th_Quarter_2025_Report.pdf
+  annotation: Company primary Tía María construction/budget update. Supports southern_copper_tia_maria_2025.
+  supports:
+  - southern_copper_tia_maria_2025
+  - hunt_res_copper
+- id: holcim_pacasmayo_20251216
+  type: official
+  chicago: Holcim. “Holcim to acquire majority stake in Cementos Pacasmayo.” Media release, December 2025.
+  url: https://www.holcim.com/media/media-releases/holcim-to-acquire-majority-stake-cementos-pacasmayo
+  annotation: Company primary Pacasmayo majority-stake acquisition notice. Supports holcim_pacasmayo_peru_2025.
+  supports:
+  - holcim_pacasmayo_peru_2025
+  - hunt_infra_building_materials
+- id: centaurus_jaguar_lease_20251010
+  type: official
+  chicago: Centaurus Metals Limited. “Jaguar Nickel Project Mining Lease Granted.” ASX announcement, 10
+    October 2025.
+  url: https://www.centaurus.com.au/site/pdf/621b42c5-21e4-4c49-b7e2-dc2ae304ffc2/Jaguar-Nickel-Project-Mining-Lease-Granted.pdf?Platform=ListPage
+  annotation: Company primary Jaguar Mining Lease grant notice. Supports centaurus_jaguar_nickel_lease_2025.
+  supports:
+  - centaurus_jaguar_nickel_lease_2025
+  - hunt_res_nickel
+- id: santosbrasil_zpmc_20260112
+  type: official
+  chicago: Santos Brasil. “Novos guindastes de operação remota chegam ao Tecon Santos.” 12 January 2026.
+  url: https://www.santosbrasil.com.br/v2021/noticia/novos-guindastes-de-operacao-remota-chegam-ao-tecon-santos
+  annotation: Terminal operator primary notice of ZPMC STS/RTG delivery. Supports zpmc_santos_brasil_sts_rtg_2026.
+  supports:
+  - zpmc_santos_brasil_sts_rtg_2026
+  - hunt_infra_port_cranes
+- id: fluor_toromocho_expansion_page
+  type: official
+  chicago: Fluor Corporation. “Toromocho Expansion Project — Fluor EPCM Project in Peru.” Company project
+    page. Accessed 1 October 2026.
+  url: https://www.fluor.com/projects/toromocho-expansion-project
+  annotation: Company primary Toromocho Expansion EPCm project description. Supports fluor_toromocho_expansion_peru.
+  supports:
+  - fluor_toromocho_expansion_peru
+  - hunt_infra_engineering_epc
