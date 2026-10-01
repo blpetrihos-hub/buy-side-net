@@ -25,40 +25,42 @@
 
 <main class="dash-map">
   <section class="map-hero">
-    <div id="map"></div>
     <div class="map-legend-bar" id="mapLegend"></div>
-    <button type="button" class="panel-toggle" id="panelToggle" aria-expanded="false" aria-controls="filterOverlay">Filters</button>
-    <aside class="filter-overlay" id="filterOverlay" hidden>
-      <div class="overlay-head">
-        <strong>Filters</strong>
-        <button type="button" class="overlay-close" id="overlayClose" aria-label="Close filters">×</button>
-      </div>
-      <div class="layer-toggles" id="layerToggles"></div>
-      <label class="ctl">Subcategory
-        <select id="subcategory"><option value="all">All subcategories</option></select>
-      </label>
-      <label class="ctl">Country
-        <select id="country"><option value="all">All countries</option></select>
-      </label>
-      <label class="ctl">Evidence
-        <select id="evidence">
-          <option value="all">All classes</option>
-          <option value="paired">Paired</option>
-          <option value="one_sided">One-sided</option>
-          <option value="documented">Documented</option>
-          <option value="proxy">Proxy</option>
-          <option value="hunt">Hunt</option>
-        </select>
-      </label>
-      <label class="ctl">Side
-        <select id="side">
-          <option value="all">All sides</option>
-          <option value="us">U.S.</option>
-          <option value="prc">PRC</option>
-          <option value="allied">Allied / other</option>
-        </select>
-      </label>
-    </aside>
+    <div class="map-stage">
+      <div id="map"></div>
+      <button type="button" class="panel-toggle" id="panelToggle" aria-expanded="false" aria-controls="filterOverlay">Filters</button>
+      <aside class="filter-overlay" id="filterOverlay" hidden>
+        <div class="overlay-head">
+          <strong>Filters</strong>
+          <button type="button" class="overlay-close" id="overlayClose" aria-label="Close filters">×</button>
+        </div>
+        <div class="layer-toggles" id="layerToggles"></div>
+        <label class="ctl">Subcategory
+          <select id="subcategory"><option value="all">All subcategories</option></select>
+        </label>
+        <label class="ctl">Country
+          <select id="country"><option value="all">All countries</option></select>
+        </label>
+        <label class="ctl">Evidence
+          <select id="evidence">
+            <option value="all">All classes</option>
+            <option value="paired">Paired</option>
+            <option value="one_sided">One-sided</option>
+            <option value="documented">Documented</option>
+            <option value="proxy">Proxy</option>
+            <option value="hunt">Hunt</option>
+          </select>
+        </label>
+        <label class="ctl">Side
+          <select id="side">
+            <option value="all">All sides</option>
+            <option value="us">U.S.</option>
+            <option value="prc">PRC</option>
+            <option value="allied">Allied / other</option>
+          </select>
+        </label>
+      </aside>
+    </div>
   </section>
 
   <section class="below-map">
