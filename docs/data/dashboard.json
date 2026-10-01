@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 244,
+    "n_rows": 248,
     "counts": {
-      "total": 244,
-      "active": 189,
+      "total": 248,
+      "active": 193,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
       "proxy": 38,
       "exclude": 5,
-      "documented": 150,
-      "on_map": 178
+      "documented": 154,
+      "on_map": 182
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 5,
-        "prc": 27,
-        "allied": 38,
-        "n": 70
+        "prc": 28,
+        "allied": 40,
+        "n": 73
       },
       "usd": {
         "us": 170000000.0,
@@ -131,16 +131,16 @@
       "counts": {
         "us": 10,
         "prc": 14,
-        "allied": 39,
-        "n": 63
+        "allied": 40,
+        "n": 64
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
         "prc": 2010442290.0,
         "prc_n": 8,
-        "allied": 15350936427.2,
-        "allied_n": 14
+        "allied": 25087950427.2,
+        "allied_n": 15
       },
       "matched_gaps": {
         "n": 0,
@@ -177,16 +177,16 @@
       "counts": {
         "us": 2,
         "prc": 8,
-        "allied": 11,
-        "n": 21
+        "allied": 12,
+        "n": 22
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
         "prc": 1107321329.76,
         "prc_n": 4,
-        "allied": 5552936427.2,
-        "allied_n": 5
+        "allied": 15289950427.2,
+        "allied_n": 6
       },
       "by_layer": {
         "energy": {
@@ -202,7 +202,7 @@
         "resources": {
           "us": 0,
           "prc": 5,
-          "allied": 6
+          "allied": 7
         }
       }
     },
@@ -239,9 +239,9 @@
       "country": "Brazil",
       "counts": {
         "us": 5,
-        "prc": 24,
-        "allied": 49,
-        "n": 78
+        "prc": 25,
+        "allied": 50,
+        "n": 80
       },
       "usd": {
         "us": 550000000.0,
@@ -259,8 +259,8 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 10,
-          "allied": 14
+          "prc": 11,
+          "allied": 15
         },
         "resources": {
           "us": 4,
@@ -390,8 +390,8 @@
       "counts": {
         "us": 0,
         "prc": 0,
-        "allied": 2,
-        "n": 2
+        "allied": 3,
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -410,7 +410,7 @@
         "infrastructure": {
           "us": 0,
           "prc": 0,
-          "allied": 1
+          "allied": 2
         }
       }
     },
@@ -825,7 +825,11 @@
       "ausenco_jervois_smp_epcm_2026",
       "dpworld_santos_r16bn_2025",
       "rio_tinto_rincon_financing_2026",
-      "graphcoa_jordania_dfs_capex_2026"
+      "graphcoa_jordania_dfs_capex_2026",
+      "vicuna_rigi_peelp_2026",
+      "alstom_santo_domingo_l2_2026",
+      "sany_hgt_aracruz_2026",
+      "hgt_aracruz_jv_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -2433,3 +2433,43 @@
   supports:
   - rio_tinto_rincon_financing_2026
   - hunt_res_lithium
+- id: boletin_vicuna_rigi_1154_2026
+  type: government
+  chicago: Argentina. Ministerio de Economía. “Resolución 1154/2026” (RIGI PEELP — Vicuña). Boletín Oficial,
+    30 July 2026.
+  url: https://www.boletinoficial.gob.ar/detalleAviso/primera/345167/20260730
+  annotation: Official Gazette approval of Vicuña RIGI PEELP and USD 9.737bn investment plan. Supports
+    vicuna_rigi_peelp_2026.
+  supports:
+  - vicuna_rigi_peelp_2026
+  - hunt_res_copper
+- id: alstom_santo_domingo_l2_20260402
+  type: company
+  chicago: Alstom. “Alstom delivers the first trains for the extension of Line 2 of the Santo Domingo
+    Metro.” 2 April 2026.
+  url: https://www.alstom.com/press-releases-news/2026/4/alstom-delivers-first-trains-extension-line-2-santo-domingo-metro
+  annotation: Company primary delivery notice for eight Metropolis trains (Santo Domingo L2). Supports
+    alstom_santo_domingo_l2_2026.
+  supports:
+  - alstom_santo_domingo_l2_2026
+  - hunt_latam_rail_telecom
+- id: sany_hgt_aracruz_20260710
+  type: company
+  chicago: SANY Marine. “SANY Marine Signs Record South American Port Equipment Order with HGT.” 10 July
+    2026.
+  url: https://www.sanyglobal.com/press_releases/4881/
+  annotation: Company primary 6 STS + 20 RTG order with HGT. Supports sany_hgt_aracruz_2026.
+  supports:
+  - sany_hgt_aracruz_2026
+  - hunt_infra_port_cranes
+- id: hgt_aracruz_imetame_2026
+  type: company
+  chicago: Hanseatic Global Terminals. “Hanseatic Global Terminals, Grupo Imetame and SANY Sign Agreement
+    of major equipment for the new terminal in Aracruz.” 2026.
+  url: https://www.hanseaticglobalterminals.com/en/hgt/press/HGTGrupoImetameAgreement.html
+  annotation: Company primary HGT–Imetame Aracruz JV + SANY equipment agreement. Supports hgt_aracruz_jv_2026
+    (and context for sany_hgt_aracruz_2026).
+  supports:
+  - hgt_aracruz_jv_2026
+  - sany_hgt_aracruz_2026
+  - hunt_infra_port_ownership
