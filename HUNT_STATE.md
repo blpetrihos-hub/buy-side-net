@@ -1,60 +1,83 @@
 updated: 2026-10-01
-cycle: 39
+cycle: 40
 remote: present
 active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 40 shuffle_seed=20261040; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-40 shuffled_order)
+active_subcategory: rail
+next_query: Cycle 41 shuffle_seed=20261041; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-41 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261039
+shuffle_seed: 20261040
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- energy/wind
-- resources/lithium
-- resources/graphite
-- infrastructure/port_cranes
-- infrastructure/building_materials
-- energy/other_renewables
 - infrastructure/bridges_roads
+- resources/nickel
+- resources/lithium
+- energy/solar
+- energy/other_renewables
+- resources/water
+- resources/balsa
+- infrastructure/port_cranes
+- energy/fission_smr
+- resources/niobium
+- infrastructure/building_materials
+- infrastructure/port_ownership
+- resources/graphite
+- infrastructure/engineering_epc
+- resources/copper
+- energy/wind
 - energy/power_plants_grid
 - infrastructure/rail
-- resources/nickel
-- resources/water
-- resources/niobium
-- infrastructure/port_ownership
-- energy/fission_smr
-- energy/solar
-- resources/copper
-- resources/balsa
-- infrastructure/engineering_epc
 
 rows_found_this_cycle:
-  energy/wind: 0
-  resources/lithium: 1
-  resources/graphite: 0
-  infrastructure/port_cranes: 0
-  infrastructure/building_materials: 0
-  energy/other_renewables: 0
   infrastructure/bridges_roads: 1
-  energy/power_plants_grid: 0
-  infrastructure/rail: 2
   resources/nickel: 0
-  resources/water: 0
-  resources/niobium: 0
-  infrastructure/port_ownership: 0
-  energy/fission_smr: 0
-  energy/solar: 0
-  resources/copper: 1
+  resources/lithium: 0
+  energy/solar: 1
+  energy/other_renewables: 1
+  resources/water: 1
   resources/balsa: 0
+  infrastructure/port_cranes: 0
+  energy/fission_smr: 1
+  resources/niobium: 1
+  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 0
+  resources/graphite: 1
   infrastructure/engineering_epc: 0
+  resources/copper: 0
+  energy/wind: 2
+  energy/power_plants_grid: 0
+  infrastructure/rail: 0
+
+coverage_cumulative:
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 40
+  # Also: cosco_chancay_port_2024 Phase I USD 1.3bn value fill; filled lat/lon for
+  # Ciranda, XDCB NE UHV, WITS balsa trade flows, Jinko Brazil imports (cmoc_argus price series still blank).
+  infrastructure/port_ownership: 20
+  infrastructure/port_cranes: 25
+  infrastructure/rail: 21
+  infrastructure/bridges_roads: 22
+  infrastructure/building_materials: 19
+  infrastructure/engineering_epc: 19
+  resources/niobium: 15
+  resources/lithium: 21
+  resources/copper: 19
+  resources/nickel: 16
+  resources/graphite: 14
+  resources/balsa: 11
+  resources/water: 17
+  energy/fission_smr: 14
+  energy/solar: 19
+  energy/wind: 17
+  energy/power_plants_grid: 23
+  energy/other_renewables: 24
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 39
@@ -974,6 +997,16 @@ misses:
 #   Thin fills: rail, copper.
 #   Equal-budget misses: wind, graphite, port_cranes, building_materials, other_renewables,
 #   power_plants_grid, nickel, water, niobium, port_ownership, fission_smr, solar, balsa, engineering_epc.
+
+# Cycle 40 (seed 20261040): 9 new sourced rows (+1 Chancay Phase I USD value fill; +9 lat/lon fills);
+#   hits on bridges_roads (CAF Salvador–Itaparica up to USD 150m), solar (Ganfeng Mariana solar USD 190m),
+#   other_renewables (BYD Brazil BESS factory up to R$500m), water (Sacyr Antofagasta reuse ~USD 292m),
+#   fission_smr (INB–Westinghouse fuel-cycle coop), niobium (Codemig–CBMM renewal to 2070),
+#   graphite (Graphcoa→Allied Graphite U.S. anode offtake path), wind (Nordex Ecuador 112 MW;
+#   WEG/Statkraft Seabra 7 MW / Petrobras R$130m).
+#   Thin fills: water, fission_smr, niobium, graphite, wind.
+#   Equal-budget misses: nickel, lithium, balsa, port_cranes, building_materials, port_ownership
+#   (value fill only), engineering_epc, copper, power_plants_grid, rail.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
