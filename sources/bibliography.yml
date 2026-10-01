@@ -2322,3 +2322,66 @@
   supports:
   - hitachi_trivia_sp_metro_power_2026
   - hunt_latam_rail_telecom
+- id: worley_st_george_araxa_20260507
+  type: company
+  chicago: Worley. “Worley to help advance St George’s niobium and rare earths project in Brazil.” 7 May
+    2026.
+  url: https://www.worley.com/en/insights/our-news/resources/2026/st-george-niobium-rare-earths-brazil-araxa-project
+  annotation: Company primary feasibility-adviser award for Araxá Nb-REE. Supports worley_st_george_araxa_2026.
+  supports:
+  - worley_st_george_araxa_2026
+  - hunt_infra_engineering_epc
+- id: aes_andes_pampas_cristales_20250730
+  type: company
+  chicago: AES Andes. “AES Andes starts construction on 1,325 MW of renewables, accelerating the energy
+    transition.” 30 July 2025.
+  url: https://www.aesandes.com/en/press-release/aes-andes-starts-construction-1325-mw-renewables-accelerating-energy-transition
+  annotation: Company primary construction-start notice for Pampas/Cristales hybrid+BESS package. Supports
+    aes_andes_pampas_cristales_2025.
+  supports:
+  - aes_andes_pampas_cristales_2025
+  - hunt_energy_other_renewables
+- id: jervois_smp_fid_20251125
+  type: company
+  chicago: Jervois. “São Miguel Paulista Restart Project Investment Approval.” 25 November 2025.
+  url: https://jervoisglobal.com/wp-content/uploads/2025/12/SMP-investment-decision-External-vf_.pdf
+  annotation: Company primary SMP restart investment approval. Supports jervois_smp_restart_2025.
+  supports:
+  - jervois_smp_restart_2025
+  - hunt_res_nickel
+- id: engie_assu_sol_20260223
+  type: company
+  chicago: ENGIE Brasil. “Assú Sol Photovoltaic Complex, ENGIE’s largest solar energy asset worldwide,
+    now operating at full commercial capacity.” 23 February 2026.
+  url: https://www.engie.com.br/en/imprensa/press-releases/assu-sol-photovoltaic-complex-engies-largest-solar-energy-asset-worldwide-now-operating-at-full-commercial-capacity/
+  annotation: Company primary full commercial operation notice for Assú Sol. Supports engie_assu_sol_2026.
+  supports:
+  - engie_assu_sol_2026
+  - hunt_energy_solar
+- id: ndb_serra_da_palmeira_2025
+  type: mdb
+  chicago: New Development Bank. “Serra da Palmeira Wind Power Project.” Project page / public disclosure
+    summary. Financing approval 17 September 2025.
+  url: https://www.ndb.int/project/serra-da-palmeira-wind-power-project/
+  annotation: MDB primary project page for CTG Serra da Palmeira 648 MW wind. Supports ctg_serra_da_palmeira_2025.
+  supports:
+  - ctg_serra_da_palmeira_2025
+  - hunt_energy_wind
+- id: hmt_multirio_zpmc_20260623
+  type: press
+  chicago: HMT News. “Multiterminais Adds STS Cranes at Rio Terminal.” 23 June 2026.
+  url: https://hmt-news.com/multiterminais-adds-sts-cranes-at-rio-terminal/
+  annotation: Trade press naming ZPMC OEM and ~R$110m MultiRio STS package. Supports zpmc_multirio_sts_2026
+    (UNVERIFIED OEM vs Multiterminais primary).
+  supports:
+  - zpmc_multirio_sts_2026
+  - hunt_infra_port_cranes
+- id: sgq_araxa_completion_20250227
+  type: company
+  chicago: St George Mining Limited. “Completion of Araxá niobium-REE Project Acquisition” (investor presentation
+    / ASX). 27 February 2025.
+  url: https://announcements.asx.com.au/asxpdf/20250227/pdf/06g19b7r1qbpf3.pdf
+  annotation: ASX primary completion materials with staged US$21m cash consideration. Supports st_george_araxa_nb_2025.
+  supports:
+  - st_george_araxa_nb_2025
+  - hunt_fenb_araxa
