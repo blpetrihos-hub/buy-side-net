@@ -2705,3 +2705,41 @@
   supports:
   - cuh_arizaro_argentum_175m_2025
   - hunt_res_lithium
+- id: grenergy_byd_central_oasis_20260326
+  type: company
+  chicago: Grenergy. “Grenergy acquires 2.6 GWh of batteries from BYD Energy Storage for Central Oasis.”
+    26 March 2026.
+  url: https://grenergy.eu/wp-content/uploads/2026/03/pr-grenergy-acquires-2-6-gwh-of-batteries-from-byd-energy-storage-for-central-oasis-v5.pdf
+  annotation: Company primary on BYD 2.6 GWh Central Oasis Chile BESS supply. Supports byd_grenergy_central_oasis_2026.
+  supports:
+  - byd_grenergy_central_oasis_2026
+  - hunt_energy_other_renewables
+- id: south_star_bndes_finep_20250616
+  type: company
+  chicago: South Star Battery Metals Corp. “South Star Battery Metals Announces Selection by BNDES and
+    FINEP for Strategic Minerals Funding Program, Maiden Shipment of Flake Graphite from the Santa Cruz
+    Mine and Operational Update.” 16 June 2025.
+  url: https://southstarbatterymetals.com/wp-content/uploads/2025/06/STS_06_2025_-Producer_R1.pdf
+  annotation: Company primary on BNDES/FINEP strategic-minerals selection for Santa Cruz graphite. Supports
+    south_star_bndes_finep_select_2025.
+  supports:
+  - south_star_bndes_finep_select_2025
+  - hunt_res_graphite
+- id: kalmar_lechman_ech_20260428
+  type: company
+  chicago: Kalmar Corporation. “Kalmar secured an order of electric empty container handlers from Lechman
+    Terminais.” 28 April 2026.
+  url: https://www.globenewswire.com/news-release/2026/04/28/3282217/0/en/Kalmar-secured-an-order-of-electric-empty-container-handlers-from-Lechman-Terminais.html
+  annotation: Company primary on Kalmar electric empty handlers for Lechman Brazil. Supports kalmar_lechman_ech_2026.
+  supports:
+  - kalmar_lechman_ech_2026
+  - hunt_infra_port_cranes
+- id: nfc_raura_completion_20260420
+  type: company
+  chicago: China Nonferrous Metal Industry’s Foreign Engineering and Construction Co., Ltd. (中色股份). “关于全资子公司收购
+    Raura 公司股权涉及矿业权投资的进展公告” (Announcement 2026-018). 20 April 2026.
+  url: https://static.cninfo.com.cn/finalpage/2026-04-20/1225124242.PDF
+  annotation: CNINFO company primary on NFC Metal Raura Peru closing / USD 105.92m. Supports nfc_raura_peru_2026.
+  supports:
+  - nfc_raura_peru_2026
+  - hunt_res_copper
