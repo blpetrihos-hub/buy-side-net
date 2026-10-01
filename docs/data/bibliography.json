@@ -982,5 +982,26 @@
     "supports": [
       "hunt_cl_power_equip"
     ]
+  },
+  {
+    "id": "vanadiumprice_fenb_20240523",
+    "type": "journalism",
+    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 23 May 2024.” 23 May 2024.",
+    "url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
+    "annotation": "Same-day trade-press quotes: Brazilian FeNb65 235–238k CNY/t and Chinese 60-A 300–320k CNY/t. Spec grades differ; UNVERIFIED proxy for fenb_br_vs_cn_20240523.",
+    "supports": [
+      "fenb_br_vs_cn_20240523",
+      "hunt_fenb_araxa"
+    ]
+  },
+  {
+    "id": "pboc_cny_20240523",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 23 May 2024.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5359978/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.1098 CNY on 2024-05-23. FX for fenb_br_vs_cn_20240523.",
+    "supports": [
+      "fenb_br_vs_cn_20240523"
+    ]
   }
 ]

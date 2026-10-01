@@ -1,12 +1,14 @@
 updated: 2026-10-01
-cycle: 58
+cycle: 59
 active_lane: niobium
 active_basket: fenb_std
-next_query: CBMM OR \"ferroniobium\" OR FeNb65 list OR contract OR invoice USD/kg Nb OR FeNb Europe OR US OR Brazil 2024..2026 public filing NOT paywall versus China Mysteel OR SMM
+next_query: CBMM OR Anglo American OR \"ferroniobium\" FeNb65 contract OR list OR invoice USD/kg same-grade versus China FeNb65 NOT 60-A 2024..2026 public NOT paywall
 next_row_id: hunt_fenb_araxa
-dry_streak: 0
+dry_streak: 1
 remote: present
 seen_urls:
+- https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/
+- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5359978/index.html
 - https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability
 - https://www.cnnbrasil.com.br/infra/siemens-energy-e-terranova-fecham-contrato-de-100-milhoes-para-data-center/
 - https://megawhat.uol.com.br/economia-e-politica/empresas/siemens-energy-fecha-contrato-de-r-100-milhoes-para-data-centers-da-terranova/
@@ -108,6 +110,7 @@ seen_urls:
 - https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/
 - https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
 misses:
+- 2026-10-01 | commanding_heights | power_equipment | Chile OR Brazil Hitachi Energy OR Siemens Energy OR GE Vernova HVDC OR converter station OR STATCOM award USD unit OR package 2021..2026 versus China XD Kimal | Opened GE Vernova (12 Jul 2024) Transelec Ana María/Monte Mina sync condensers + 220 kV GIS — no contract price. Garabi already dry. dry_streak 3 — rotating to niobium fenb_std.
 - 2026-10-01 | commanding_heights | power_equipment | Brazil Siemens Energy OR Hitachi Energy OR GE Vernova OR WEG power transformer award unit price R$ OR USD 2024..2026 versus China XD WAVE4 OR XD NE | Opened CNN/Megawhat Siemens Energy–Terranova Campinas: GIS+2×150 MVA package floor R$100m logged as one_sided allied USD/package 2026 — not same unit/year as WAVE4 USD/transformer 2025, so does not reset dry_streak (now 2).
 - 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile OR Mexico SMA OR GE OR Siemens OR Fronius utility string OR central inverter award USD OR R$ OR CLP per MW 2021..2026 versus Huawei Arinos | Opened SMA (3 Feb 2021) Diego de Almagro Sur / Colbún: 46 MVPS Sunny Central 4600 for 220 MW — no contract price. Spec also central vs Arinos string. dry_streak 1.
 - 2026-10-01 | commanding_heights | power_equipment | Mexico CompraNet OR CFE DOF transformador potencia OR inversor Siemens OR GE OR Prolec versus China OR WASION OR Huawei unit price 2021..2026 | Opened SIDOF CFE-0001-CAAAT-0054-2025 Transformadores FSUE convocatoria: schedule only, no fallo amounts or sellers on the page. dry_streak 2.

@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
   "retrieved": "2026-10-01",
-  "source_id": "cmoc_ar_2025_fenb_argus",
-  "url": "https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf",
-  "price_year": "2025",
+  "source_id": "vanadiumprice_fenb_20240523",
+  "url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
+  "price_year": "2024",
   "evidence": "hunt",
-  "quote": "",
-  "note": "Cycle 31: CMOC/Argus USD 48.68/kg Nb (2025) proxy logged. No public CBMM list/invoice found. Rotating lane for next batch."
+  "quote": "Brazilian FeNb FeNb65 235000-238000; Ferroniobium 60-A 300000-320000 CNY/Ton Cash with tax.",
+  "note": "Logged fenb_br_vs_cn_20240523 proxy (grades differ). Still hunting document-backed same-grade FeNb65 buy-side pair."
 }

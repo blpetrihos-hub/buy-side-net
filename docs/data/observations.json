@@ -118,10 +118,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "cmoc_ar_2025_fenb_argus",
-    "note": "Cycle 31 logged cmoc_argus_fenb_kgNb_2025 as proxy: CMOC 2025 annual report cites Argus ferroniobium average USD 48.68/kg Nb for 2025 (USD 46.46/kg Nb for 2024)—market assessment, not a CBMM invoice. Cycle 30 Mysteel Brazil vs domestic proxy remains. Still hunting document-backed same-grade FeNb65 buy-side pair (U.S. or allied vs PRC).",
-    "evidence_url": "https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf",
-    "quote": ""
+    "source_id": "vanadiumprice_fenb_20240523",
+    "note": "Cycle 59 logged fenb_br_vs_cn_20240523 as UNVERIFIED proxy: VanadiumPrice 23 May 2024 Brazilian FeNb65 235–238k CNY/t vs Chinese 60-A 300–320k CNY/t (grades differ). Still no public CBMM list/invoice. Proxy does not reset dry_streak.",
+    "evidence_url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
+    "quote": "Brazilian FeNb FeNb65 235000-238000; Ferroniobium 60-A 300000-320000 CNY/Ton Cash with tax."
   },
   {
     "id": "hunt_ascend_chip",
@@ -1517,5 +1517,36 @@
     "note": "One-sided allied (German Siemens Energy). CNN Brasil (15 Mar 2026): contrato superior a R$100 milhões for Terranova Campinas GIS 300 MW + two 440/34.5 kV 150 MVA transformers; Megawhat (16 Mar 2026) restates R$100 milhões and local Jundiaí manufacture (CNN also notes manufacture in Jundiaí and China). Stored as R$100,000,000 package floor (“superior a”). FX: Fed H.10 Brazil real 5.2661 per USD on 2026-03-16 (nearest H.10 business day to the 15 Mar Sunday signing coverage). GIS+transformer package — not a single-SKU USD/transformer vs WAVE4 UHV. Off the U.S. median.",
     "evidence_url": "https://www.cnnbrasil.com.br/infra/siemens-energy-e-terranova-fecham-contrato-de-100-milhoes-para-data-center/",
     "quote": "A alemã Siemens Energy assinou um contrato superior a R$ 100 milhões com a Terranova… subestação com isolamento a gás (GIS…) com capacidade de 300 MW e a instalação de dois transformadores de 440/34,5 kV e 150 MVA cada"
+  },
+  {
+    "id": "fenb_br_vs_cn_20240523",
+    "lane": "niobium",
+    "spec_class": "fenb_std",
+    "evidence": "proxy",
+    "country": "China",
+    "buyer": "China FeNb spot market (trade-press sheet)",
+    "seller_us": "Brazilian FeNb65 (CBMM-origin trade quotes)",
+    "seller_prc": "Chinese domestic FeNb 60-A producers",
+    "city": "",
+    "lat": null,
+    "lon": null,
+    "geo_note": "No pin — China-market trade-press sheet; not a named mill or buyer site.",
+    "price_year": "2024",
+    "spec": "Brazilian FeNb65 vs Chinese FeNb 60-A — midpoints of same-day VanadiumPrice ranges",
+    "unit": "USD/kg",
+    "currency": "CNY",
+    "fx_usd": 0.14065093,
+    "fx_date": "2024-05-23",
+    "us_price": 236.5,
+    "prc_price": 310.0,
+    "us_price_usd": 33.263946,
+    "prc_price_usd": 43.601789,
+    "gap": -0.310782,
+    "us_side": "allied",
+    "on_scoreboard": false,
+    "source_id": "vanadiumprice_fenb_20240523",
+    "note": "UNVERIFIED proxy. VanadiumPrice 23 May 2024: Brazilian FeNb65 235000–238000 CNY/Ton midpoint 236500 CNY/t (= 236.5 CNY/kg) vs Chinese 60-A 300000–320000 CNY/Ton midpoint 310000 CNY/t (= 310 CNY/kg). Spec grades differ (65 vs 60-A), so evidence=proxy and off the median. FX: PBOC central parity 1 USD = 7.1098 CNY on 2024-05-23.",
+    "evidence_url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
+    "quote": "Ferroniobium 60-A 300000-320000; Brazilian FeNb FeNb65 235000-238000 CNY/Ton Cash with tax."
   }
 ]
