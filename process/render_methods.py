@@ -38,7 +38,7 @@ def main() -> None:
     meta = yaml.safe_load(SRC.read_text(encoding="utf-8")) or {}
     site = meta.get("site") or {}
     method = meta.get("method") or {}
-    title = site.get("title", "Commanding heights of Latin America")
+    title = site.get("title", "Commanding Heights of Latin America")
     subtitle = site.get("subtitle", "")
 
     blocks: list[str] = []

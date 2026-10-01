@@ -182,7 +182,7 @@ def jump_nav(labels: dict[str, str]) -> str:
 def main() -> None:
     meta = load_meta()
     site = site_meta(meta)
-    site_title = site.get("title", "Commanding heights of Latin America")
+    site_title = site.get("title", "Commanding Heights of Latin America")
     subtitle = site.get(
         "subtitle",
         "PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy.",

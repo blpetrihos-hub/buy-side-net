@@ -428,7 +428,7 @@ def main() -> None:
     geo = meta.get("geography") or {}
     dashboard = {
         "generated_from": "commanding-heights codebook",
-        "title": site.get("title", "Commanding heights of Latin America"),
+        "title": site.get("title", "Commanding Heights of Latin America"),
         "subtitle": site.get("subtitle", ""),
         "caption": site.get(
             "caption",

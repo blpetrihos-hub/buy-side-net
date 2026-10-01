@@ -1,4 +1,4 @@
-# BRIEF — Commanding heights of Latin America
+# BRIEF — Commanding Heights of Latin America
 
 Successor to the buy-side price-net brief. Workspace repo: `buy-side-net`. GitHub Pages from `docs/` on `main`. Live: https://blpetrihos-hub.github.io/buy-side-net/
 
@@ -126,9 +126,11 @@ Do **not** always start with the same layer. At the start of every hunt cycle:
 
 1. Take the fixed list of 18 subcategories (below).
 2. Shuffle it with a **logged RNG seed** (record `shuffle_seed` in `HUNT_STATE.md`). Use a deterministic shuffle (e.g. Python `random.Random(seed).shuffle(list)`).
-3. Work through the shuffled order. Give each subcategory an **equal time box** in that cycle (`budget_per_subcategory` in `HUNT_STATE.md` — wall-clock or query slots; same integer for every subcategory).
-4. When a subcategory’s budget is exhausted, move to the next item in the shuffled list even if more sources remain.
-5. Record `rows_found_this_cycle` (and cumulative coverage) **per subcategory** so coverage can be checked over time. Prefer filling empty subcategories, but do not skip a subcategory’s time box.
+3. Work through the shuffled order. Give each subcategory an **equal base budget** / time box in that cycle (`budget_per_subcategory` in `HUNT_STATE.md` — wall-clock or query slots; same integer for every subcategory).
+4. **Side balance:** Within each subcategory’s time box, spend at least **one-third** of the budget specifically on U.S. investors and firms — SEC EDGAR, DFC and U.S. EXIM project pages, USTDA, U.S. company releases and investor decks, U.S. embassy and Commerce notices, plus Spanish- and Portuguese-language coverage of U.S. firms. Log `rows_by_side_this_cycle` (us / prc / allied / other) for the cycle.
+5. When a subcategory’s base budget is exhausted, move to the next item in the shuffled list even if more sources remain.
+6. **Thin-subcategory top-up:** After the shuffled pass, recompute active-row counts and give the **3 subcategories with the fewest active rows** one extra **half-budget** each (`thin_topup` in `HUNT_STATE.md`). Recompute which three are thinnest every cycle.
+7. Record `rows_found_this_cycle` (and cumulative coverage) **per subcategory** so coverage can be checked over time. Prefer filling empty subcategories, but do not skip a subcategory’s time box.
 
 Canonical subcategory list (shuffle this; do not change membership without a codebook update):
 
@@ -157,13 +159,22 @@ After a dry pass inside a subcategory’s time box: record the miss, then contin
 
 ```
 shuffle_seed: <integer>
-budget_per_subcategory: <equal budget, e.g. queries or minutes>
+budget_per_subcategory: <equal base budget, e.g. queries or minutes>
 shuffled_order:
 - infrastructure/port_ownership
 - ...
 rows_found_this_cycle:
   infrastructure/port_ownership: <n>
   ...
+rows_by_side_this_cycle:
+  us: <n>
+  prc: <n>
+  allied: <n>
+  other: <n>
+thin_topup:
+  budget: <half of budget_per_subcategory>
+  subcategories:  # 3 fewest active rows; recompute each cycle
+  - ...
 coverage_cumulative:
   infrastructure/port_ownership: <n active+hunt upgrades with sources across cycles>
   ...

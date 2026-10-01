@@ -3,18 +3,24 @@ cycle: 40
 remote: present
 active_layer: infrastructure
 active_subcategory: rail
-next_query: Cycle 41 shuffle_seed=20261041; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_query: Cycle 41 shuffle_seed=20261041; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico).
 next_row_id: (follow cycle-41 shuffled_order)
 dry_streak: 0
 
-# Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
-# logged seed, works through it with equal per-subcategory budgets, and records
-# rows found per subcategory for coverage checks over time.
+# Per-cycle shuffle (BRIEF.md):
+# (1) Seeded shuffle of all 18 subcategories; equal base budget per subcategory.
+# (2) Side balance: within each subcategory time box, spend ≥1/3 of the budget on
+#     U.S. investors/firms (SEC EDGAR, DFC, U.S. EXIM, USTDA, U.S. company releases
+#     and investor decks, U.S. embassy/Commerce notices, plus Spanish/Portuguese
+#     coverage of U.S. firms); log rows_by_side_this_cycle.
+# (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
+#     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
 shuffle_seed: 20261040
 budget_per_subcategory: 1_source_family_min
-# Equal time box: at least one opened public source family (or documented miss)
-# per subcategory before moving on. Same budget for every subcategory.
+# Equal base time box: at least one opened public source family (or documented miss)
+# per subcategory before moving on. Same base budget for every subcategory.
+# Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
 - infrastructure/bridges_roads
@@ -55,6 +61,20 @@ rows_found_this_cycle:
   energy/wind: 2
   energy/power_plants_grid: 0
   infrastructure/rail: 0
+
+# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
+# Cycle 40 predated this field — left unset rather than backfilled.
+rows_by_side_this_cycle:
+  us: unset
+  prc: unset
+  allied: unset
+  other: unset
+
+# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
+# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories: []
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 40
