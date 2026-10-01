@@ -430,5 +430,26 @@
       "usgs_fenb_us_unit_2024",
       "hunt_fenb_araxa"
     ]
+  },
+  {
+    "id": "vanadiumprice_fenb_20241230",
+    "type": "journalism",
+    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 30 December 2024.” 30 December 2024.",
+    "url": "https://vanadiumprice.com/2024/12/30/china-ferroniobium-market-prices-on-30-december-2024/",
+    "annotation": "Domestic FeNb 60-A 300–320k CNY/t cash with tax; 60-B 250–260k; Brazilian FeNb65 blank. UNVERIFIED trade press for fenb60a_china_mkt_20241230.",
+    "supports": [
+      "fenb60a_china_mkt_20241230",
+      "hunt_fenb_araxa"
+    ]
+  },
+  {
+    "id": "pboc_cny_20241230",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 30 December 2024.",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5547082/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.1889 CNY on 2024-12-30. FX for fenb60a_china_mkt_20241230.",
+    "supports": [
+      "fenb60a_china_mkt_20241230"
+    ]
   }
 ]
