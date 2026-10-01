@@ -2743,3 +2743,91 @@
   supports:
   - nfc_raura_peru_2026
   - hunt_res_copper
+- id: efe_santiago_batuco_20250825
+  type: government
+  chicago: EFE Trenes de Chile. “EFE firma contrato de obras superficiales del Tren Santiago–Batuco, el
+    más grande en su historia.” 25 August 2025.
+  url: https://www.efe.cl/efe-firma-contrato-de-obras-superficiales-del-tren-santiago-batuco-el-mas-grande-en-su-historia/
+  annotation: Official EFE award notice for CRCC Gran Andes USD 470m Santiago–Batuco surface works. Supports
+    crcc_efe_santiago_batuco_2025.
+  supports:
+  - crcc_efe_santiago_batuco_2025
+  - hunt_latam_rail_telecom
+- id: invest_minas_graph_plus_20241003
+  type: government
+  chicago: Invest Minas. “Investimento privado de R$ 200 milhões para extração de grafite é anunciado
+    na Exposibram 2024.” 3 October 2024.
+  url: https://investminas.mg.gov.br/2024/10/03/governo-anuncia-investimento-privado-superior-a-r-200-milhoes-na-exposibram-2024/
+  annotation: State investment agency primary on Graph+/New Mining >R$200m Santa Maria do Salto graphite
+    plant. Supports graph_plus_santa_maria_salto_2024.
+  supports:
+  - graph_plus_santa_maria_salto_2024
+  - hunt_res_graphite
+- id: a3_composites_ecuador_balsa
+  type: company
+  chicago: 3A Composites Core Materials. “Production site in Ecuador.” Accessed 1 October 2026.
+  url: https://www.3accorematerials.com/en/we-care/Ecuador
+  annotation: Company primary on Plantabal FSC plantation balsa operations in Ecuador. Supports plantabal_3a_ecuador_presence.
+  supports:
+  - plantabal_3a_ecuador_presence
+  - hunt_res_balsa
+- id: ird_cdpnb_smr_gt_202601
+  type: government
+  chicago: Instituto de Radioproteção e Dosimetria (IRD/CNEN). “Publicada no DOU a criação de Grupo Técnico
+    para avaliar infraestrutura nacional para pequenos reatores.” January 2026.
+  url: https://www.gov.br/ird/pt-br/assuntos/noticias/noticias-2026/publicada-no-dou-a-criacao-de-grupo-tecnico-para-avaliar-infraestrutura-nacional-para-pequenos-reatores
+  annotation: Official Brazilian nuclear authority notice on CDPNB SMR/MMR infrastructure technical group.
+    Supports brazil_cdpnb_smr_gt_2026.
+  supports:
+  - brazil_cdpnb_smr_gt_2026
+  - hunt_energy_fission_smr
+- id: cerro_verde_meia2_202602
+  type: company
+  chicago: Sociedad Minera Cerro Verde. “Senace aprueba Segunda Modificación del Estudio de Impacto Ambiental
+    y Social de Cerro Verde tras rigurosa evaluación técnica.” February 2026.
+  url: https://www.cerroverde.pe/senace-aprueba-segunda-modificacion-del-estudio-de-impacto-ambiental-y-social-de-cerro-verde-tras-rigurosa-evaluacion-tecnica-296
+  annotation: Company primary on Senace second MEIA approval and ~USD 2.1bn Cerro Verde plan to 2053.
+    Supports fcx_cerro_verde_meia2_2100m_2026.
+  supports:
+  - fcx_cerro_verde_meia2_2100m_2026
+  - hunt_res_copper
+- id: mef_matarani_adenda_20251106
+  type: government
+  chicago: Ministerio de Economía y Finanzas del Perú. “Gobierno garantiza inversión privada de US$ 700
+    millones para modernizar el Puerto de Matarani y potenciar el sur del país.” 6 November 2025.
+  url: https://www.gob.pe/institucion/mef/noticias/1283181-gobierno-garantiza-inversion-privada-de-us-700-millones-para-modernizar-el-puerto-de-matarani-y-potenciar-el-sur-del-pais
+  annotation: Official MEF notice on TISUR Matarani concession adenda and ~USD 700m private expansion.
+    Supports tisur_matarani_adenda_700m_2025.
+  supports:
+  - tisur_matarani_adenda_700m_2025
+  - hunt_infra_port_ownership
+- id: anda_ilopango_china_20260521
+  type: government
+  chicago: Administración Nacional de Acueductos y Alcantarillados (ANDA). “Presidente de ANDA y Embajador
+    de la República Popular China verifican el 90% de avance en la construcción de la nueva Planta Potabilizadora
+    de Ilopango.” 21 May 2026.
+  url: https://www.anda.gob.sv/verifican-avance-en-la-construccion-de-la-nueva-planta-potabilizadora-de-ilopango/
+  annotation: Official ANDA notice on PRC-cooperated Ilopango potabilization plant progress. Supports
+    anda_ilopango_china_water_2026 (value proxy).
+  supports:
+  - anda_ilopango_china_water_2026
+  - hunt_res_water
+- id: celec_coca_codo_20260408
+  type: government
+  chicago: CELEC EP / Hidronación. “La recepción de Coca Codo Sinclair fue aprobada por la Corte Internacional
+    de Arbitraje de la Cámara de Comercio Internacional.” 8 April 2026.
+  url: https://www.celec.gob.ec/hidronacion/uncategorized/la-recepcion-de-coca-codo-sinclair-fue-aprobada-por-la-corte-internacional-de-arbitraje-de-la-camara-de-comercio-internacional/
+  annotation: Official CELEC bulletin on ICC award, Sinohydro settlement, and PowerChina O&M/risk transfer
+    for Coca Codo Sinclair. Supports powerchina_coca_codo_om_2026.
+  supports:
+  - powerchina_coca_codo_om_2026
+  - hunt_br_power_equip
+- id: votorantim_nobres_cuiaba_20250804
+  type: company
+  chicago: Votorantim Cimentos. “We announced R$330 million investment to expand and modernize Cuiabá
+    and Nobres plants in Brazil.” 4 August 2025.
+  url: https://www.votorantimcimentos.com/news/we-announced-r330-million-investment-to-expand-and-modernize-cuiaba-and-nobres-plants-in-brazil/
+  annotation: Company primary on R$330m Nobres/Cuiabá cement expansions. Supports votorantim_nobres_cuiaba_330m_2025.
+  supports:
+  - votorantim_nobres_cuiaba_330m_2025
+  - hunt_infra_building_materials
