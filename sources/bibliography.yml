@@ -3355,3 +3355,66 @@
   supports:
   - jinko_bess_amanecer_500m_2025
   - hunt_energy_other_renewables
+- id: bloomberg_linea_brn_pnp_20260617
+  type: trade_press
+  chicago: Durão, Mariana, and Annie Lee. “Brazilian Nickel busca investidor-âncora para mina de US$ 1,4
+    bilhão no Piauí.” Bloomberg Línea, 17 June 2026.
+  url: https://www.bloomberglinea.com.br/negocios/brazilian-nickel-busca-investidor-ancora-para-mina-de-us-14-bilhao-no-piaui/
+  annotation: CFO interview stating Piauí Nickel CAPEX USD 1.4bn. Supports brazilian_nickel_pnp_capex_1p4bn_2026.
+  supports:
+  - brazilian_nickel_pnp_capex_1p4bn_2026
+  - hunt_res_nickel
+- id: holcim_mx_macuspana_20240213
+  type: company
+  chicago: Holcim México. “Con una inversión de 55 mdd, Holcim México fortalece su presencia en Tabasco
+    con nueva unidad de molienda.” 13 February 2024.
+  url: https://www.holcim.com.mx/con-una-inversion-de-55-mdd-holcim-mexico-fortalece-su-presencia-en-tabasco-con-nueva-unidad-de
+  annotation: Company release on Macuspana grind unit USD 55m. Supports holcim_macuspana_grind_55m_2024.
+  supports:
+  - holcim_macuspana_grind_55m_2024
+  - hunt_infra_building_materials
+- id: epoca_powerchina_intrepid_20230526
+  type: trade_press
+  chicago: Reuters. “Pontoon e PowerChina fecham acordo em energia solar no Brasil.” Época Negócios, 26
+    May 2023.
+  url: https://epocanegocios.globo.com/futuro-da-industria/noticia/2023/05/pontoon-e-powerchina-fecham-acordo-em-energia-solar-no-brasil.ghtml
+  annotation: Reuters/Época on PowerChina Intrepid/Mauriti R$1.8bn EPC. Supports powerchina_intrepid_mauriti_1p8bn_2023.
+  supports:
+  - powerchina_intrepid_mauriti_1p8bn_2023
+  - hunt_energy_solar
+- id: stgm_asx_aud60m_20260617
+  type: company
+  chicago: St George Mining Limited. “St George Secures A$60 Million to Accelerate Development of the
+    World-Class Rare Earths-Niobium Araxá Project.” ASX release, 17 June 2026.
+  url: https://www.stgm.com.au/pdf/daec3170-d1c5-4743-b8f8-3c6c12f7dd90/Platform/ListPage/A60M-secured-for-Araxa-Rare-EarthsNiobium-Project.pdf
+  annotation: ASX placement A$60m for Araxá Nb-REE. Supports st_george_araxa_raise_aud60m_2026.
+  supports:
+  - st_george_araxa_raise_aud60m_2026
+  - hunt_fenb_araxa
+- id: forbes_ec_aima_balsa_spain_20260508
+  type: trade_press
+  chicago: Villanueva, Julissa. “La balsa ecuatoriana conquista la industria eólica mundial.” Forbes Ecuador,
+    8 May 2026.
+  url: https://www.forbes.com.ec/negocios/la-balsa-ecuatoriana-conquista-industria-eolica-mundial-n90920
+  annotation: Forbes Ecuador citing AIMA destination shares incl. Spain 5.08%. Supports aima_ecuador_balsa_mfr_spain_2025.
+  supports:
+  - aima_ecuador_balsa_mfr_spain_2025
+  - hunt_res_balsa
+- id: elcomercio_powerchina_chancay_rail_20260114
+  type: trade_press
+  chicago: Medrano Marin, Hernán. “Dan luz verde a tren que unirá el puerto de Chancay con zona central
+    del Perú.” El Comercio (Peru), 14 January 2026.
+  url: https://elcomercio.pe/lima/sucesos/dan-luz-verde-a-tren-que-unira-el-puerto-de-chancay-con-zona-central-del-peru-de-que-trata-y-que-impacto-tendra-noticia/
+  annotation: Spanish press on PowerChina Chancay–Sierra Central rail USD 420m. Supports powerchina_chancay_sierra_rail_2026.
+  supports:
+  - powerchina_chancay_sierra_rail_2026
+  - hunt_latam_rail_telecom
+- id: razon_icave_fase2_20260126
+  type: trade_press
+  chicago: La Razón. “Hutchison Ports ICAVE arranca Fase II en Veracruz con inversión superior a 4,500
+    millones de pesos.” 26 January 2026.
+  url: https://www.razon.com.mx/negocios/2026/01/26/hutchison-ports-icave-arranca-fase-ii-en-veracruz-con-inversion-superior-a-4500-millones-de-pesos/
+  annotation: Press on ICAVE Veracruz Phase II >MXN 4.5bn. Supports hutchison_icave_fase2_4500m_mxn_2026.
+  supports:
+  - hutchison_icave_fase2_4500m_mxn_2026
+  - hunt_infra_port_ownership
