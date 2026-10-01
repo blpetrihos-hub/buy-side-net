@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 42
+cycle: 43
 remote: present
 active_layer: resources
-active_subcategory: nickel
-next_query: Cycle 43 shuffle_seed=20261043; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (14), niobium/graphite/fission_smr (15).
-next_row_id: (follow cycle-43 shuffled_order)
+active_subcategory: graphite
+next_query: Cycle 44 shuffle_seed=20261044; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (15), niobium/fission_smr (16), then nickel/water (~17).
+next_row_id: (follow cycle-44 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,51 +16,93 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261042
+shuffle_seed: 20261043
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- resources/copper
-- resources/lithium
 - resources/nickel
-- infrastructure/building_materials
-- infrastructure/port_ownership
 - energy/other_renewables
-- energy/wind
-- resources/water
-- resources/graphite
-- infrastructure/port_cranes
+- resources/lithium
 - infrastructure/rail
-- energy/power_plants_grid
-- infrastructure/engineering_epc
-- resources/niobium
-- resources/balsa
-- energy/solar
-- energy/fission_smr
+- infrastructure/port_ownership
+- resources/water
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- energy/wind
 - infrastructure/bridges_roads
+- energy/fission_smr
+- energy/solar
+- resources/niobium
+- resources/graphite
+- resources/balsa
+- infrastructure/engineering_epc
+- energy/power_plants_grid
+- resources/copper
 
 rows_found_this_cycle:
-  resources/copper: 1
-  resources/lithium: 1
-  resources/nickel: 1
-  infrastructure/building_materials: 1
-  infrastructure/port_ownership: 1
-  energy/other_renewables: 0
-  energy/wind: 0
+  resources/nickel: 0
+  energy/other_renewables: 1
+  resources/lithium: 2
+  infrastructure/rail: 2
+  infrastructure/port_ownership: 0
   resources/water: 0
-  resources/graphite: 0
+  infrastructure/building_materials: 0
   infrastructure/port_cranes: 0
-  infrastructure/rail: 0
-  energy/power_plants_grid: 0
-  infrastructure/engineering_epc: 0
-  resources/niobium: 0
-  resources/balsa: 2
-  energy/solar: 1
-  energy/fission_smr: 0
+  energy/wind: 1
   infrastructure/bridges_roads: 0
+  energy/fission_smr: 1
+  energy/solar: 0
+  resources/niobium: 1
+  resources/graphite: 1
+  resources/balsa: 0
+  infrastructure/engineering_epc: 0
+  energy/power_plants_grid: 1
+  resources/copper: 0
+
+coverage_cumulative:
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 43
+  # (+ thin_topup: Plantabal 2025 planting; Graphcoa Boa Sorte→Urbix U.S. export)
+  infrastructure/port_ownership: 21
+  infrastructure/port_cranes: 25
+  infrastructure/rail: 23
+  infrastructure/bridges_roads: 22
+  infrastructure/building_materials: 20
+  infrastructure/engineering_epc: 20
+  resources/niobium: 16
+  resources/lithium: 24
+  resources/copper: 20
+  resources/nickel: 17
+  resources/graphite: 17
+  resources/balsa: 15
+  resources/water: 17
+  energy/fission_smr: 16
+  energy/solar: 21
+  energy/wind: 19
+  energy/power_plants_grid: 24
+  energy/other_renewables: 26
+
+# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
+rows_by_side_this_cycle:
+  us: 6
+  prc: 1
+  allied: 5
+  other: 0
+
+# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
+# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
+# Post-pass thinnest: balsa (14), then tie at 16 among niobium/graphite/fission_smr
+# (prefer graphite + fission among the tie per BRIEF thin push).
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
+  # Hits: Plantabal 2025 planting 2,951 ha; Graphcoa Boa Sorte→Urbix U.S. export.
+  # Miss: fission_smr (workshop already in shuffled pass).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 42
@@ -83,25 +125,6 @@ coverage_cumulative:
   energy/wind: 18
   energy/power_plants_grid: 23
   energy/other_renewables: 25
-
-# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
-rows_by_side_this_cycle:
-  us: 3
-  prc: 1
-  allied: 4
-  other: 0
-
-# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
-# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: balsa (12), then tie at 15 among niobium/graphite/fission_smr.
-thin_topup:
-  budget: 0.5_source_family_min
-  subcategories:
-  - resources/balsa
-  - resources/graphite
-  - energy/fission_smr
-  # Hits: WITS Ecuador HS 440723 2025 China/US pair (China row evidence=paired).
-  # Misses: graphite, fission_smr.
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 41
@@ -1114,6 +1137,18 @@ misses:
 #   rows_by_side: us 3 / prc 1 / allied 4 / other 0.
 #   Equal-budget misses: other_renewables, wind, water, graphite, port_cranes, rail,
 #   power_plants_grid, engineering_epc, niobium, balsa (shuffled; filled in thin), fission_smr, bridges_roads.
+
+# Cycle 43 (seed 20261043): 12 sourced rows (10 shuffled + 2 thin_topup);
+#   shuffled: other_renewables (AES Andes Solar III hub >USD 1.3bn us), lithium (EXIM Argentina
+#   Build the Future up to USD 7bn us; Ganfeng LAR debt USD 130m prc), rail (Mota-Engil
+#   Querétaro–Irapuato Tramo I ~EUR 290m + Tramo II ~EUR 820m), wind (Vestas Emma Peru 72 MW OEM),
+#   fission_smr (Argentina FIRST LAC workshop us), niobium (St George–REAlloys U.S. offtake MoU),
+#   graphite (South Star Santa Cruz restart), power_plants_grid (EXIM Guyana GtE ~USD 527m us).
+#   Thin_topup (balsa/graphite/fission_smr): Plantabal 2025 planting 2,951 ha; Graphcoa Boa Sorte
+#   →Urbix U.S. export path; fission thin miss.
+#   rows_by_side: us 6 / prc 1 / allied 5 / other 0.
+#   Equal-budget misses: nickel, port_ownership, water, building_materials, port_cranes,
+#   bridges_roads, solar, balsa (shuffled; filled in thin), engineering_epc, copper.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
