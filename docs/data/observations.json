@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "chinamae_hust_ascend910_2026",
-    "note": "Cycle 36 logged hust_ascend910_card_2026 as one_sided PRC: Huawei Ascend 910_4_1 (64G HCCS) at CNY 112,437.50/chip (May 2026 award; package/8). Still hunting same-calendar-year Nvidia H20 USD/chip for a scored pair.",
-    "evidence_url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
-    "quote": "Ascend 910_4_1 64G缓存 HCCS版 … 8张 … ¥ 899,500.00"
+    "source_id": "smm_h20_8gpu_module_20260903",
+    "note": "Cycle 37 logged h20_96g_smm_module_202609 as UNVERIFIED proxy (~CNY 175,000/chip from SMM 8-GPU module flash). Cycle 36 HUST Ascend 910_4_1 one-sided card award remains. Still hunting document-backed same-calendar-year H20 vs Ascend USD/chip pair.",
+    "evidence_url": "https://news.smm.cn/news/104094410",
+    "quote": "H20 96G八卡模组现货对外出售，报价140万元/套，折合单卡约17.5万元"
   },
   {
     "id": "hunt_icbc_rate",
@@ -1145,5 +1145,36 @@
     "note": "One-sided PRC. ChinaMAE reprint of HUST HW20260172 award (14 May 2026): Huawei Ascend 910_4_1 64G HCCS, 8 cards, package CNY 899,500 → CNY 112,437.50/card. HUST solicitation (30 Apr 2026) confirms 8 cards and ceiling CNY 112,500/card. Unit is USD/chip (cards, not a server SKU). No Nvidia H20 price on the award — off the median until paired. FX: CFETS/PBOC central parity 1 USD = 6.8401 CNY on 2026-05-14 (Sina reprint of the official announcement).",
     "evidence_url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
     "quote": "成交金额：人民币捌拾玖万玖仟伍佰元整（¥ 899,500.00） … 品牌：华为 … Ascend 910_4_1 64G缓存 HCCS版 … 数量： 8张"
+  },
+  {
+    "id": "h20_96g_smm_module_202609",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "proxy",
+    "country": "China",
+    "buyer": "China accelerator market",
+    "seller_us": "Nvidia (H20 96G)",
+    "seller_prc": "",
+    "city": "",
+    "lat": null,
+    "lon": null,
+    "geo_note": "No pin — SMM channel flash for South China; no named buyer site.",
+    "price_year": "2026",
+    "spec": "Nvidia H20 96G — implied per-chip from 8-GPU module spot (CNY 1.40m/set ÷ 8)",
+    "unit": "USD/chip",
+    "currency": "CNY",
+    "fx_usd": 0.1474774,
+    "fx_date": "2026-09-03",
+    "us_price": 175000.0,
+    "prc_price": null,
+    "us_price_usd": 25808.54,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "smm_h20_8gpu_module_20260903",
+    "note": "UNVERIFIED proxy. SMM 3 Sep 2026 flash: South China 2× new H20 96G 8-GPU modules at CNY 1,400,000/set, “折合单卡约17.5万元” (CNY 175,000/chip). Press-only channel spot; no contract/award document. Off the usd_per_chip median. FX: PBOC central parity 1 USD = 6.7807 CNY on 2026-09-03. Same calendar year as hust_ascend910_card_2026 but different buyer class/evidence — not a scored pair.",
+    "evidence_url": "https://news.smm.cn/news/104094410",
+    "quote": "华南地区出现2套全新H20 96G八卡模组现货对外出售，报价140万元/套，折合单卡约17.5万元"
   }
 ]

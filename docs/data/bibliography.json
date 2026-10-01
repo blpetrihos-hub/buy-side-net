@@ -620,5 +620,26 @@
     "supports": [
       "hust_ascend910_card_2026"
     ]
+  },
+  {
+    "id": "smm_h20_8gpu_module_20260903",
+    "type": "journalism",
+    "chicago": "上海有色网 (SMM). “【SMM算力快讯】华南H20八卡模组现货报140万元/套.” 3 September 2026.",
+    "url": "https://news.smm.cn/news/104094410",
+    "annotation": "Press flash: H20 96G 8-GPU module CNY 1.40m/set (~CNY 175k/chip). UNVERIFIED proxy for h20_96g_smm_module_202609.",
+    "supports": [
+      "h20_96g_smm_module_202609",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20260903",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 3 September 2026.",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026090309002323677/index.html",
+    "annotation": "PBOC central parity 1 USD = 6.7807 CNY on 2026-09-03. FX for h20_96g_smm_module_202609.",
+    "supports": [
+      "h20_96g_smm_module_202609"
+    ]
   }
 ]
