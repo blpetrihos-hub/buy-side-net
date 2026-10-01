@@ -2682,5 +2682,95 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "prensa_panama_cpo_app_20260114",
+    "type": "press",
+    "chicago": "Mojica, Yaritza. “MOP adjudica segunda APP del país para la rehabilitación de la Carretera Panamericana Oeste por $312 millones.” La Prensa (Panamá), 14 January 2026.",
+    "url": "https://www.prensa.com/sociedad/mop-adjudica-segunda-app-del-pais-para-la-rehabilitacion-de-la-carretera-panamericana-oeste-por-312-millones/",
+    "annotation": "Press report of MOP Panamericana Oeste APP award to Mexican consortium. Supports mop_panama_panamericana_oeste_2026 (UNVERIFIED value).",
+    "supports": [
+      "mop_panama_panamericana_oeste_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "mop_panama_panamericana_oeste_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "appian_ifc_em_fund_20251022",
+    "type": "official",
+    "chicago": "Appian Capital Advisory. “Appian and IFC partner in new US$1 billion critical minerals and metals fund for emerging markets.” 22 October 2025.",
+    "url": "https://appiancapitaladvisory.com/appian-and-ifc-partner-in-new-us1-billion-critical-minerals-and-metals-fund-for-emerging-markets/",
+    "annotation": "Company primary on IFC-anchored EM fund; first investment Santa Rita. Supports ifc_appian_santa_rita_fund_2025.",
+    "supports": [
+      "ifc_appian_santa_rita_fund_2025",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "hunt_res_nickel",
+      "ifc_appian_santa_rita_fund_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "konecranes_yucatan_esp7_20260113",
+    "type": "official",
+    "chicago": "Konecranes. “Yucatán deep-water port places order for two Konecranes Gottwald ESP.7 Mobile Harbor Cranes.” 13 January 2026.",
+    "url": "https://www.konecranes.com/press-releases/yucatan-deep-water-port-places-order-for-two-konecranes-gottwald-esp7-mobile-harbor-cranes",
+    "annotation": "Company primary MHC order for APM Yucatán/Progreso. Supports konecranes_yucatan_progreso_2026.",
+    "supports": [
+      "konecranes_yucatan_progreso_2026",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "konecranes_yucatan_progreso_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "boletin_oficial_res_1153_2026",
+    "type": "official",
+    "chicago": "Argentina. Ministerio de Economía. “Resolución 1153/2026” (RIGI adhesión — Liex S.A. Sucursal Dedicada / Proyecto Tres Quebradas). Boletín Oficial de la República Argentina, 29 July 2026.",
+    "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/345075/20260729",
+    "annotation": "Official RIGI approval for Liex 3Q DLE expansion; USD 594.136m computable assets. Supports zijin_liex_tres_quebradas_rigi_2026.",
+    "supports": [
+      "zijin_liex_tres_quebradas_rigi_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "hunt_res_lithium",
+      "zijin_liex_tres_quebradas_rigi_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "worley_diablillos_lntp_20260827",
+    "type": "official",
+    "chicago": "Worley. “Worley to advance next phase of AbraSilver’s Diablillos Silver‑Gold project in Argentina.” 27 August 2026.",
+    "url": "https://www.worley.com/en/insights/our-news/resources/2026/abrasilver-diablillos-silver-gold-project-argentina",
+    "annotation": "Company primary LNTP award for Diablillos bridging phase. Supports worley_diablillos_abrasilver_2026.",
+    "supports": [
+      "worley_diablillos_abrasilver_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "worley_diablillos_abrasilver_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
