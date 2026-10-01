@@ -937,6 +937,14 @@ misses:
 #   Equal-budget misses: graphite, wind, niobium, port_ownership, power_plants_grid, engineering_epc,
 #   water, fission_smr, balsa, nickel, rail.
 
+# Cycle 35 (seed 20261035): 6 new sourced rows (+1 Graphcoa CAPEX refresh); hits on building_materials
+#   (CBB Mejillones USD 42m; Cruz Azul Hidalgo USD 383m), power_plants_grid (Hitachi Brazil +USD 70m),
+#   wind (Goldwind FINAME >470 MW), other_renewables (Jinko BESS Amanecer USD 500m),
+#   niobium (CBMM 2026 spend R$2bn). Graphite: refreshed Jordânia to EIA-cited R$621.76m / USD 120m.
+#   Thin fills: niobium, building_materials.
+#   Equal-budget misses: port_cranes, copper, engineering_epc, bridges_roads, solar, rail, lithium,
+#   fission_smr, nickel, water, port_ownership, balsa.
+
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
 # Hunt retargeted to LatAm graphite mining/processing/anode chains; logged South Star,
