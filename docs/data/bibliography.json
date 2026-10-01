@@ -3150,5 +3150,41 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "econojournal_nuclearis_n1_2026",
+    "type": "press",
+    "chicago": "EconoJournal. “Nuclearis avanza hacia el licenciamiento de su microrreactor nuclear de diseño argentino.” 2026.",
+    "url": "https://econojournal.com.ar/energia/nuclearis-microrreactor-argentino/",
+    "annotation": "Trade press interview on Nuclearis N1 US patent/NRC path and FOAK CAPEX estimate. Supports nuclearis_n1_smr_2026 (UNVERIFIED value).",
+    "supports": [
+      "nuclearis_n1_smr_2026",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "hunt_energy_fission_smr",
+      "nuclearis_n1_smr_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "hitachi_trivia_trens_202601",
+    "type": "official",
+    "chicago": "Hitachi Energy. “Hitachi Energy and Trívia Trens to modernize the railway electrical network, improving daily travel for 1.3 million commuters in Brazil.” January 2026.",
+    "url": "https://www.hitachienergy.com/us/en/news-and-events/features/2026/01/hitachi-energy-and-tr-via-trens-to-modernize-the-railway-electrical-network-improving-daily-travel-for-1-3-million-commuters-in-brazil",
+    "annotation": "Company primary Trívia Trens rail power-supply contract. Supports hitachi_trivia_sp_metro_power_2026.",
+    "supports": [
+      "hitachi_trivia_sp_metro_power_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "hitachi_trivia_sp_metro_power_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

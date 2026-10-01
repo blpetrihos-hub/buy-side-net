@@ -1,60 +1,81 @@
 updated: 2026-10-01
-cycle: 16
+cycle: 17
 remote: present
 active_layer: resources
-active_subcategory: water
-next_query: Cycle 17 shuffle_seed=20261017; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-17 shuffled_order)
+active_subcategory: balsa
+next_query: Cycle 18 shuffle_seed=20261018; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-18 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261016
+shuffle_seed: 20261017
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- resources/water
-- resources/niobium
-- infrastructure/engineering_epc
-- resources/graphite
-- infrastructure/port_ownership
 - resources/balsa
-- energy/wind
-- infrastructure/bridges_roads
-- energy/solar
-- resources/nickel
-- infrastructure/port_cranes
-- infrastructure/rail
-- resources/lithium
-- energy/other_renewables
-- resources/copper
-- energy/fission_smr
 - energy/power_plants_grid
+- energy/wind
+- resources/niobium
+- infrastructure/bridges_roads
+- resources/water
 - infrastructure/building_materials
+- infrastructure/engineering_epc
+- resources/nickel
+- energy/fission_smr
+- energy/other_renewables
+- resources/lithium
+- infrastructure/port_cranes
+- resources/graphite
+- infrastructure/rail
+- energy/solar
+- infrastructure/port_ownership
+- resources/copper
 
 rows_found_this_cycle:
-  resources/water: 1
-  resources/niobium: 1
-  infrastructure/engineering_epc: 0
-  resources/graphite: 0
-  infrastructure/port_ownership: 0
   resources/balsa: 0
-  energy/wind: 0
-  infrastructure/bridges_roads: 1
-  energy/solar: 0
-  resources/nickel: 0
-  infrastructure/port_cranes: 0
-  infrastructure/rail: 0
-  resources/lithium: 0
-  energy/other_renewables: 0
-  resources/copper: 0
-  energy/fission_smr: 0
   energy/power_plants_grid: 0
+  energy/wind: 0
+  resources/niobium: 0
+  infrastructure/bridges_roads: 0
+  resources/water: 0
   infrastructure/building_materials: 0
+  infrastructure/engineering_epc: 0
+  resources/nickel: 0
+  energy/fission_smr: 1
+  energy/other_renewables: 0
+  resources/lithium: 0
+  infrastructure/port_cranes: 0
+  resources/graphite: 0
+  infrastructure/rail: 1
+  energy/solar: 0
+  infrastructure/port_ownership: 0
+  resources/copper: 0
+
+coverage_cumulative:
+  # Active (non-archived, non-exclude) observation counts after cycle 17
+  infrastructure/port_ownership: 12
+  infrastructure/port_cranes: 13
+  infrastructure/rail: 12
+  infrastructure/bridges_roads: 12
+  infrastructure/building_materials: 9
+  infrastructure/engineering_epc: 14
+  resources/niobium: 7
+  resources/lithium: 12
+  resources/copper: 11
+  resources/nickel: 10
+  resources/graphite: 8
+  resources/balsa: 7
+  resources/water: 10
+  energy/fission_smr: 8
+  energy/solar: 10
+  energy/wind: 11
+  energy/power_plants_grid: 18
+  energy/other_renewables: 10
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 16
@@ -512,6 +533,12 @@ misses:
 #   Thin fills: niobium, water, bridges_roads.
 #   Equal-budget misses: engineering_epc, graphite, port_ownership, balsa, wind, solar, nickel,
 #   port_cranes, rail, lithium, other_renewables, copper, fission_smr, power_plants_grid, building_materials.
+
+# Cycle 17 (seed 20261017): 2 sourced rows; hits on fission_smr (Nuclearis N1 FOAK proxy USD 600m),
+#   rail (Hitachi Energy / Trívia Trens SP Lines 11–13 power supply).
+#   Thin fills: fission_smr, rail.
+#   Equal-budget misses: balsa, power_plants_grid, wind, niobium, bridges_roads, water, building_materials,
+#   engineering_epc, nickel, other_renewables, lithium, port_cranes, graphite, solar, port_ownership, copper.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
