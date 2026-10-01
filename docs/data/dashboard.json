@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 412,
+    "n_rows": 421,
     "counts": {
-      "total": 412,
-      "active": 357,
+      "total": 421,
+      "active": 366,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 87,
+      "proxy": 88,
       "exclude": 5,
-      "documented": 266,
-      "on_map": 354
+      "documented": 274,
+      "on_map": 363
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 8,
+        "us": 10,
         "prc": 38,
         "allied": 81,
-        "n": 127
+        "n": 129
       },
       "usd": {
-        "us": 290000000.0,
-        "us_n": 3,
+        "us": 311000000.0,
+        "us_n": 4,
         "prc": 3610197353.12,
         "prc_n": 12,
         "allied": 9823734000.0,
@@ -129,18 +129,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 22,
+        "us": 23,
         "prc": 25,
-        "allied": 77,
-        "n": 124
+        "allied": 80,
+        "n": 128
       },
       "usd": {
         "us": 21378641670.0,
         "us_n": 13,
         "prc": 4166195156.0,
         "prc_n": 15,
-        "allied": 34007362187.2,
-        "allied_n": 27
+        "allied": 35127962187.2,
+        "allied_n": 29
       },
       "matched_gaps": {
         "n": 1,
@@ -152,18 +152,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 22,
+        "us": 23,
         "prc": 36,
-        "allied": 46,
-        "n": 104
+        "allied": 48,
+        "n": 107
       },
       "usd": {
-        "us": 3337000000.0,
-        "us_n": 5,
+        "us": 4237000000.0,
+        "us_n": 6,
         "prc": 1088331437.19,
         "prc_n": 8,
-        "allied": 1866859384.93,
-        "allied_n": 13
+        "allied": 2466859384.9300003,
+        "allied_n": 14
       },
       "matched_gaps": {
         "n": 1,
@@ -179,16 +179,16 @@
       "counts": {
         "us": 4,
         "prc": 12,
-        "allied": 21,
-        "n": 37
+        "allied": 22,
+        "n": 38
       },
       "usd": {
         "us": 7000000000.0,
         "us_n": 1,
         "prc": 1512321329.76,
         "prc_n": 7,
-        "allied": 16594362187.2,
-        "allied_n": 11
+        "allied": 17694362187.2,
+        "allied_n": 12
       },
       "by_layer": {
         "energy": {
@@ -204,7 +204,7 @@
         "resources": {
           "us": 1,
           "prc": 8,
-          "allied": 12
+          "allied": 13
         }
       }
     },
@@ -240,24 +240,24 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 11,
+        "us": 12,
         "prc": 35,
-        "allied": 86,
-        "n": 132
+        "allied": 88,
+        "n": 135
       },
       "usd": {
         "us": 552145000.0,
         "us_n": 2,
         "prc": 1252595264.55,
         "prc_n": 9,
-        "allied": 3576859384.9300003,
-        "allied_n": 16
+        "allied": 3597459384.9300003,
+        "allied_n": 17
       },
       "by_layer": {
         "energy": {
           "us": 3,
           "prc": 16,
-          "allied": 21
+          "allied": 22
         },
         "infrastructure": {
           "us": 0,
@@ -265,23 +265,23 @@
           "allied": 28
         },
         "resources": {
-          "us": 8,
+          "us": 9,
           "prc": 6,
-          "allied": 37
+          "allied": 38
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 15,
+        "us": 16,
         "prc": 15,
         "allied": 34,
-        "n": 64
+        "n": 65
       },
       "usd": {
-        "us": 14421000000.0,
-        "us_n": 9,
+        "us": 15321000000.0,
+        "us_n": 10,
         "prc": 1958154809.0,
         "prc_n": 7,
         "allied": 8752000000.0,
@@ -289,7 +289,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 5,
+          "us": 6,
           "prc": 11,
           "allied": 6
         },
@@ -421,22 +421,22 @@
       "counts": {
         "us": 6,
         "prc": 8,
-        "allied": 8,
-        "n": 22
+        "allied": 10,
+        "n": 24
       },
       "usd": {
         "us": 31496670.0,
         "us_n": 4,
         "prc": 791134740.0,
         "prc_n": 5,
-        "allied": 157000000.0,
-        "allied_n": 2
+        "allied": 757000000.0,
+        "allied_n": 3
       },
       "by_layer": {
         "energy": {
           "us": 1,
           "prc": 1,
-          "allied": 2
+          "allied": 3
         },
         "infrastructure": {
           "us": 0,
@@ -446,7 +446,7 @@
         "resources": {
           "us": 5,
           "prc": 5,
-          "allied": 4
+          "allied": 5
         }
       }
     },
@@ -588,14 +588,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 3,
+        "us": 5,
         "prc": 5,
         "allied": 19,
-        "n": 27
+        "n": 29
       },
       "usd": {
-        "us": 224000000.0,
-        "us_n": 2,
+        "us": 245000000.0,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 2384734000.0,
@@ -608,7 +608,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 3,
+          "us": 5,
           "prc": 3,
           "allied": 12
         },
@@ -1058,7 +1058,16 @@
       "ssa_progreso_cruise_54m_2026",
       "aes_jk1_jk2_idb_invest_150m_2025",
       "south_star_sprott_4m_term_2025",
-      "el_salvador_123_negotiations_202603"
+      "el_salvador_123_negotiations_202603",
+      "graphcoa_boa_sorte_expand_20p6m_2025",
+      "contourglobal_oasis_atacama_ev_2024",
+      "cox_ecuador_renewables_600m_2025",
+      "lithium_argentina_ppg_stage1_1p1bn_2025",
+      "ssa_lazaro_isla_palma_mxn143m_2025",
+      "ssa_manzanillo_sts_21m_2025",
+      "plantabal_baltek_sbc_fsc_mix_2025",
+      "brazilian_nickel_westwin_offtake_2026",
+      "brazil_rosatom_smr_engagement_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

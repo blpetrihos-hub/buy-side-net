@@ -6336,5 +6336,153 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "inthemine_graphcoa_boa_sorte_202509",
+    "type": "press",
+    "chicago": "Revista In The Mine. “Em ramp up, mina de grafite já prepara expansão.” September 2025.",
+    "url": "https://www.inthemine.com.br/site/em-ramp-up-mina-de-grafite-ja-prepara-expansao/",
+    "annotation": "Portuguese mining press on Graphcoa Boa Sorte 5.5→20 ktpa expansion CAPEX USD 20.6m. Supports graphcoa_boa_sorte_expand_20p6m_2025.",
+    "supports": [
+      "graphcoa_boa_sorte_expand_20p6m_2025",
+      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "graphcoa_boa_sorte_expand_20p6m_2025",
+      "hunt_res_graphite"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "contourglobal_oasis_atacama_20241217",
+    "type": "company",
+    "chicago": "ContourGlobal. “ContourGlobal enters Chile with large scale solar PV and BESS portfolio capable of powering the country at night.” 17 December 2024.",
+    "url": "https://www.contourglobal.com/news/contourglobal-enters-chile-large-scale-solar-pv-and-bess-portfolio-capable-powering/",
+    "annotation": "KKR ContourGlobal primary on >USD 900m EV Oasis de Atacama acquisition. Supports contourglobal_oasis_atacama_ev_2024.",
+    "supports": [
+      "contourglobal_oasis_atacama_ev_2024",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "contourglobal_oasis_atacama_ev_2024",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "comunicacion_ec_cox_powerchina_20250630",
+    "type": "official",
+    "chicago": "Ecuador. Secretaría General de Comunicación de la Presidencia. “Como resultado de la gira presidencial, Ecuador recibirá USD 1.000 millones de inversión extranjera de China y España para el sector energético.” Boletín N° 39, 30 June 2025.",
+    "url": "https://www.comunicacion.gob.ec/como-resultado-de-la-gira-presidencial-ecuador-recibira-usd-1-000-millones-de-inversion-extranjera-de-china-y-espana-para-el-sector-energetico/",
+    "annotation": "Official Ecuador release on COX USD 600m renewable package. Supports cox_ecuador_renewables_600m_2025.",
+    "supports": [
+      "cox_ecuador_renewables_600m_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "cox_ecuador_renewables_600m_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "lithium_argentina_ppg_scoping_20251110",
+    "type": "company",
+    "chicago": "Lithium Argentina AG. “Lithium Argentina and Ganfeng Announce PPG Scoping Study Results and Stage 1 Environmental Approval.” 10 November 2025.",
+    "url": "https://investors.lithium-argentina.com/news-releases/news-release-details/lithium-argentina-and-ganfeng-announce-ppg-scoping-study-results",
+    "annotation": "Company primary on PPG Stage 1 USD 1.1bn CAPEX and DIA approval. Supports lithium_argentina_ppg_stage1_1p1bn_2025.",
+    "supports": [
+      "lithium_argentina_ppg_stage1_1p1bn_2025",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "hunt_res_lithium",
+      "lithium_argentina_ppg_stage1_1p1bn_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "alerasci_ssa_mexico_20260318",
+    "type": "press",
+    "chicago": "Alera SCI. “Crecimiento estratégico y operación responsable.” 18 March 2026.",
+    "url": "https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/",
+    "annotation": "Spanish logistics press on SSA Marine México 2025 Manzanillo STS and Lázaro Cárdenas auto-yard investments. Supports ssa_lazaro_isla_palma_mxn143m_2025 and ssa_manzanillo_sts_21m_2025.",
+    "supports": [
+      "ssa_lazaro_isla_palma_mxn143m_2025",
+      "ssa_manzanillo_sts_21m_2025",
+      "hunt_infra_port_ownership",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "hunt_infra_port_ownership",
+      "ssa_lazaro_isla_palma_mxn143m_2025",
+      "ssa_manzanillo_sts_21m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "3a_baltek_sbc_fsc_mix_20250515",
+    "type": "company",
+    "chicago": "3A Composites Core Materials. “3A Composites Core Materials officially declares BALTEK® SBC products as FSC™ MIX certified on select markets.” 15 May 2025.",
+    "url": "https://www.3accorematerials.com/en/news-and-stories/3a-composites-core-materials-officially-declares-baltek-sbc-products-as-fsc-mix-certified-on-select-markets",
+    "annotation": "Company primary on BALTEK SBC FSC MIX declaration tied to Ecuador plantations. Supports plantabal_baltek_sbc_fsc_mix_2025.",
+    "supports": [
+      "plantabal_baltek_sbc_fsc_mix_2025",
+      "hunt_res_balsa"
+    ],
+    "map_supports": [
+      "hunt_res_balsa",
+      "plantabal_baltek_sbc_fsc_mix_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "mining_brn_westwin_20260120",
+    "type": "journalism",
+    "chicago": "Mining.com. “Brazilian Nickel, Westwin ink offtake deal on Piauí project for US market.” 20 January 2026.",
+    "url": "https://www.mining.com/brazilian-nickel-westwin-ink-offtake-mou-on-piaui-project-for-us-market/",
+    "annotation": "Trade press on Brazilian Nickel–Westwin non-binding MHP offtake MoU for U.S. refining. Supports brazilian_nickel_westwin_offtake_2026 (press tonnage UNVERIFIED).",
+    "supports": [
+      "brazilian_nickel_westwin_offtake_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "brazilian_nickel_westwin_offtake_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "wnn_brazil_rosatom_smr_20250515",
+    "type": "press",
+    "chicago": "World Nuclear News. “Brazil and Russia preparing to develop SMR options.” 15 May 2025.",
+    "url": "https://www.world-nuclear-news.org/articles/brazil-and-russia-preparing-to-develop-smr-options",
+    "annotation": "WNN on Brazilian MME–Rosatom SMR engagement after Moscow talks. Supports brazil_rosatom_smr_engagement_2025.",
+    "supports": [
+      "brazil_rosatom_smr_engagement_2025",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "brazil_rosatom_smr_engagement_2025",
+      "hunt_energy_fission_smr"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
