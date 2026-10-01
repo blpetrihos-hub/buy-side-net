@@ -4401,3 +4401,76 @@
   supports:
   - corelite_balsasud_ecuador_presence
   - hunt_res_balsa
+- id: engie_serra_assurua_20251218
+  type: company
+  chicago: ENGIE Brasil Energia. “ENGIE Begins Full Commercial Operation of the Serra do Assuruá Wind
+    Complex in Brazil.” 18 December 2025.
+  url: https://www.engie.com.br/en/imprensa/press-releases/engie-begins-full-commercial-operation-of-the-serra-do-assurua-wind-complex-in-brazil/
+  annotation: Company primary also documenting Asa Branca first stretch and BRL 2.7bn CAPEX. Supports
+    engie_asa_branca_tx_2p7bn_2025.
+  supports:
+  - engie_serra_assurua_846mw_2025
+  - engie_asa_branca_tx_2p7bn_2025
+  - hunt_br_power_equip
+- id: stgm_xinhai_epc_20250212
+  type: company
+  chicago: St George Mining Limited. “A$8M Investment and EPC Deal for Araxá Niobium Project.” ASX release,
+    12 February 2025.
+  url: https://www.stgm.com.au/pdf/e55b3358-7e64-435a-bf84-0d65dd829820/A8M-Investment-and-EPC-Deal-for-Araxa-Niobium-Project.pdf
+  annotation: ASX primary on Xinhai Araxá EPC MoU and A$8m equity. Supports xinhai_st_george_araxa_epc_mou_2025.
+  supports:
+  - xinhai_st_george_araxa_epc_mou_2025
+  - hunt_infra_engineering_epc
+- id: contourglobal_los_maitenes_20260804
+  type: company
+  chicago: ContourGlobal. “ContourGlobal to expand Chile hybrid renewables platform with new solar-plus-storage
+    project.” 4 August 2026.
+  url: https://www.contourglobal.com/news/contourglobal-to-expand-chile-hybrid-renewables-platform-with-new-solar-plus-storage-project/
+  annotation: Company primary on Los Maitenes 131 MWp / 90 MW BESS construction start. Supports contourglobal_los_maitenes_chile_2026.
+  supports:
+  - contourglobal_los_maitenes_chile_2026
+  - hunt_energy_solar
+- id: stgm_boston_metal_20260401
+  type: company
+  chicago: St George Mining Limited. “Strategic Alliance with Boston Metal for Innovative Niobium Processing
+    at the Araxá Project, Brazil.” ASX release, 1 April 2026.
+  url: https://announcements.asx.com.au/asxpdf/20260401/pdf/06y1jdgz8756rk.pdf
+  annotation: ASX primary on Boston Metal MOE ferroniobium trial MoU at Araxá. Supports st_george_boston_metal_moe_mou_2026.
+  supports:
+  - st_george_boston_metal_moe_mou_2026
+  - hunt_fenb_araxa
+- id: diario_transporte_crrc_sp_20250723
+  type: press
+  chicago: Pelegi, Alexandre. “Contrato para 44 novos trens do Metrô de SP é assinado com estatal chinesa
+    quase quatro meses após homologação da licitação.” Diário do Transporte, 23 July 2025.
+  url: https://diariodotransporte.com.br/2025/07/23/contrato-para-44-novos-trens-do-metro-de-sp-e-assinado-com-estatal-chinesa-quase-quatro-meses-apos-homologacao-da-licitacao/
+  annotation: Trade press citing DOE extract on CRRC Sifang R$3.104bn Frota R contract. Supports crrc_sp_metro_frota_r_44_2025.
+  supports:
+  - crrc_sp_metro_frota_r_44_2025
+  - hunt_latam_rail_telecom
+- id: lithium_ionic_exim_20241127
+  type: company
+  chicago: Lithium Ionic Corp. “Lithium Ionic Secures LOI from EXIM for US$266M, Representing 100% of
+    Bandeira Project CAPEX.” 27 November 2024.
+  url: https://www.lithiumionic.com/_resources/news/nr-20241127.pdf
+  annotation: Company primary on EXIM non-binding LOI up to USD 266m for Bandeira. Supports lithium_ionic_exim_loi_266m_2024.
+  supports:
+  - lithium_ionic_exim_loi_266m_2024
+  - hunt_res_lithium
+- id: capstone_q2_2026_mv_optimized
+  type: company
+  chicago: Capstone Copper Corp. “Capstone Copper Reports Second Quarter 2026 Results.” 2026.
+  url: https://capstonecopper.com/news/capstone-copper-reports-second-quarter-2026-results/
+  annotation: Company primary on Mantoverde Optimized USD 176m brownfield expansion. Supports capstone_mantoverde_optimized_176m_2025.
+  supports:
+  - capstone_mantoverde_optimized_176m_2025
+  - hunt_res_copper
+- id: cnl_jamaica_mou_20241024
+  type: company
+  chicago: Canadian Nuclear Laboratories. “Atomic Energy of Canada Limited, Canadian Nuclear Laboratories
+    and government of Jamaica agree to cooperate on nuclear science & technology.” 24 October 2024.
+  url: https://www.cnl.ca/atomic-energy-of-canada-limited-canadian-nuclear-laboratories-and-government-of-jamaica-agree-to-cooperate-on-nuclear-science-technology/
+  annotation: CNL/AECL primary on Jamaica nuclear S&T MoU including SMRs. Supports jamaica_aecl_cnl_nuclear_mou_2024.
+  supports:
+  - jamaica_aecl_cnl_nuclear_mou_2024
+  - hunt_energy_fission_smr

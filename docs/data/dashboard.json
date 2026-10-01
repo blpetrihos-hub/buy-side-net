@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 451,
+    "n_rows": 460,
     "counts": {
-      "total": 451,
-      "active": 396,
+      "total": 460,
+      "active": 405,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 89,
+      "proxy": 92,
       "exclude": 5,
-      "documented": 303,
-      "on_map": 393
+      "documented": 309,
+      "on_map": 402
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 16,
-        "prc": 40,
+        "prc": 42,
         "allied": 84,
-        "n": 140
+        "n": 142
       },
       "usd": {
         "us": 715000000.0,
@@ -129,18 +129,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 29,
+        "us": 31,
         "prc": 25,
-        "allied": 88,
-        "n": 142
+        "allied": 89,
+        "n": 145
       },
       "usd": {
-        "us": 23378641670.0,
-        "us_n": 14,
+        "us": 23644641670.0,
+        "us_n": 15,
         "prc": 4166195156.0,
         "prc_n": 15,
-        "allied": 36498718653.2,
-        "allied_n": 32
+        "allied": 36674718653.2,
+        "allied_n": 33
       },
       "matched_gaps": {
         "n": 1,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 28,
+        "us": 29,
         "prc": 36,
-        "allied": 48,
-        "n": 112
+        "allied": 51,
+        "n": 116
       },
       "usd": {
         "us": 4337000000.0,
@@ -240,14 +240,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 19,
-        "prc": 36,
-        "allied": 90,
-        "n": 145
+        "us": 21,
+        "prc": 38,
+        "allied": 92,
+        "n": 151
       },
       "usd": {
-        "us": 806145000.0,
-        "us_n": 3,
+        "us": 1072145000.0,
+        "us_n": 4,
         "prc": 1252595264.55,
         "prc_n": 9,
         "allied": 3597459384.9300003,
@@ -257,15 +257,15 @@
         "energy": {
           "us": 3,
           "prc": 16,
-          "allied": 22
+          "allied": 24
         },
         "infrastructure": {
           "us": 3,
-          "prc": 14,
+          "prc": 16,
           "allied": 29
         },
         "resources": {
-          "us": 13,
+          "us": 15,
           "prc": 6,
           "allied": 39
         }
@@ -274,22 +274,22 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 17,
+        "us": 18,
         "prc": 15,
-        "allied": 35,
-        "n": 67
+        "allied": 36,
+        "n": 69
       },
       "usd": {
         "us": 15321000000.0,
         "us_n": 10,
         "prc": 1958154809.0,
         "prc_n": 7,
-        "allied": 8762000000.0,
-        "allied_n": 11
+        "allied": 8938000000.0,
+        "allied_n": 12
       },
       "by_layer": {
         "energy": {
-          "us": 7,
+          "us": 8,
           "prc": 11,
           "allied": 6
         },
@@ -301,7 +301,7 @@
         "resources": {
           "us": 6,
           "prc": 0,
-          "allied": 19
+          "allied": 20
         }
       }
     },
@@ -571,8 +571,8 @@
       "counts": {
         "us": 0,
         "prc": 3,
-        "allied": 0,
-        "n": 3
+        "allied": 1,
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -583,6 +583,11 @@
         "allied_n": 0
       },
       "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        },
         "infrastructure": {
           "us": 0,
           "prc": 3,
@@ -1102,7 +1107,16 @@
       "mcdermott_brava_papa_terra_atlanta_2025",
       "siemens_trivia_sp_ato_etcs_2026",
       "aes_idb_vientos_bonaerenses_iii_iv_2026",
-      "corelite_balsasud_ecuador_presence"
+      "corelite_balsasud_ecuador_presence",
+      "engie_serra_assurua_846mw_2025",
+      "xinhai_st_george_araxa_epc_mou_2025",
+      "contourglobal_los_maitenes_chile_2026",
+      "st_george_boston_metal_moe_mou_2026",
+      "crrc_sp_metro_frota_r_44_2025",
+      "engie_asa_branca_tx_2p7bn_2025",
+      "lithium_ionic_exim_loi_266m_2024",
+      "capstone_mantoverde_optimized_176m_2025",
+      "jamaica_aecl_cnl_nuclear_mou_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",
