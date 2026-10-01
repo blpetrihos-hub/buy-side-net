@@ -683,5 +683,26 @@
     "supports": [
       "bfsu_inspur_8gpu_2026"
     ]
+  },
+  {
+    "id": "sina_huatai_ascend910c_cloud_202603",
+    "type": "journalism",
+    "chicago": "Sina Finance. “8500元/月，华为云昇腾910C专有云算力大单.” 25 March 2026. Reprint of Huatai Securities 中标候选人公示 figures.",
+    "url": "https://finance.sina.com.cn/wm/2026-03-25/doc-inhsfvzk6478059.shtml",
+    "annotation": "Press reprint: Huawei Cloud Ascend 910C dedicated instance CNY 8,500/card-month for Huatai. UNVERIFIED proxy for huatai_ascend910c_cloud_2026.",
+    "supports": [
+      "huatai_ascend910c_cloud_2026",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "sina_cfets_cny_20260323",
+    "type": "journalism",
+    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 23 March 2026. Reprinted by Sina Finance.",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-23/doc-inhrxrnc4279187.shtml",
+    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.9041 CNY on 2026-03-23. FX for huatai_ascend910c_cloud_2026.",
+    "supports": [
+      "huatai_ascend910c_cloud_2026"
+    ]
   }
 ]
