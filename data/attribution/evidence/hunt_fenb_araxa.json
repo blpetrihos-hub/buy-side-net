@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
   "retrieved": "2026-10-01",
-  "source_id": "niocorp_ars_2025_fenb_argus",
-  "url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
-  "price_year": "2024",
+  "source_id": "scrapmonster_fenb_20260921",
+  "url": "https://www.scrapmonster.com/metal-prices/ferroalloys",
+  "price_year": "2026",
   "evidence": "hunt",
-  "quote": "Ferroniobium U.S. Price ($/kg-Nb)(1) … 2024 $46 … Argus Metal Prices, average annual ending price, 2024. Ferroniobium 65% niobium content, FOB U.S. warehouse.",
-  "note": "Logged niocorp_argus_fenb_us_2024 proxy. Still hunting document-backed same-grade FeNb65 buy-side pair (CBMM list/invoice)."
+  "quote": "Ferro-niobium Brazilian 66% Delivered China 44373.76; Ferro-niobium 60-A EXW China 56372.25 USD/MT September 21, 2026.",
+  "note": "Logged fenb_br66_vs_cn60a_20260921 proxy. dry_streak 3 — rotating to ai_chips. Still hunting CBMM same-grade FeNb65 document pair."
 }

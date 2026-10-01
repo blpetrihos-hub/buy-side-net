@@ -118,10 +118,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "niocorp_ars_2025_fenb_argus",
-    "note": "Cycle 60 logged niocorp_argus_fenb_us_2024 as UNVERIFIED proxy: NioCorp FY2025 Form 10-K / AR cites Argus Metal Prices average annual ending FeNb65 FOB U.S. warehouse USD 46/kg-Nb for calendar 2024 (also lists 2023=51, 2022=46). Market assessment, not a CBMM invoice. Proxy does not reset dry_streak.",
-    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
-    "quote": "Ferroniobium U.S. Price ($/kg-Nb)(1) … 2024 $46 … Argus Metal Prices, average annual ending price, 2024. Ferroniobium 65% niobium content, FOB U.S. warehouse."
+    "source_id": "scrapmonster_fenb_20260921",
+    "note": "Cycle 61 logged fenb_br66_vs_cn60a_20260921 as UNVERIFIED proxy: ScrapMonster ferroalloys sheet 21 Sep 2026 — Brazilian FeNb 66% Delivered China USD 44,373.76/MT vs Chinese 60-A EXW USD 56,372.25/MT (grades differ). dry_streak 3 — rotating to ai_chips usd_per_chip. Still no CBMM list/invoice same-grade pair.",
+    "evidence_url": "https://www.scrapmonster.com/metal-prices/ferroalloys",
+    "quote": "Ferro-niobium Brazilian 66% Delivered China 44373.76; Ferro-niobium 60-A EXW China 56372.25 USD/MT September 21, 2026."
   },
   {
     "id": "hunt_ascend_chip",
@@ -1579,5 +1579,36 @@
     "note": "UNVERIFIED proxy (market assessment). NioCorp Developments Ltd. Form 10-K / annual report for year ended 30 Jun 2025 (SEC EDGAR n2574_x309-ars.pdf): commodity-price table lists Ferroniobium U.S. Price ($/kg-Nb) = $46 for calendar 2024; footnote (1) Source: Argus Metal Prices, average annual ending price, 2024; Ferroniobium 65% niobium content, FOB U.S. warehouse. Also prints 2023=$51 and 2022=$46. Not a CBMM list/invoice and not a named buyer contract. Unit is USD/kg contained Nb. CMOC AR cites Argus USD 46.46/kg Nb for 2024 (already logged under cmoc_argus_fenb_kgNb_2025 note)—same assessment family, different reprint. Off the median.",
     "evidence_url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
     "quote": "Ferroniobium U.S. Price ($/kg-Nb)(1) … 2024 $46 … (1) Source: Argus Metal Prices, average annual ending price, 2024. Ferroniobium 65% niobium content, FOB U.S. warehouse."
+  },
+  {
+    "id": "fenb_br66_vs_cn60a_20260921",
+    "lane": "niobium",
+    "spec_class": "fenb_std",
+    "evidence": "proxy",
+    "country": "China",
+    "buyer": "China FeNb delivered/EXW market (ScrapMonster sheet)",
+    "seller_us": "Brazilian FeNb 66% (Delivered China trade assessment)",
+    "seller_prc": "Chinese domestic FeNb 60-A (EXW China)",
+    "city": "",
+    "lat": null,
+    "lon": null,
+    "geo_note": "No pin — ScrapMonster trade assessment sheet; not a named mill or buyer site.",
+    "price_year": "2026",
+    "spec": "Brazilian FeNb 66% Delivered China vs Chinese FeNb 60-A EXW — same-day ScrapMonster USD/MT",
+    "unit": "USD/kg",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2026-09-21",
+    "us_price": 44.37376,
+    "prc_price": 56.37225,
+    "us_price_usd": 44.37376,
+    "prc_price_usd": 56.37225,
+    "gap": -0.270396,
+    "us_side": "allied",
+    "on_scoreboard": false,
+    "source_id": "scrapmonster_fenb_20260921",
+    "note": "UNVERIFIED proxy. ScrapMonster ferroalloys prices page (opened 1 Oct 2026): on 21 Sep 2026, Ferro-niobium Brazilian 66% Delivered China = USD 44,373.76/MT (= USD 44.37376/kg) and Ferro-niobium 60-A EXW China = USD 56,372.25/MT (= USD 56.37225/kg). Spec grades differ (66% Brazilian vs 60-A), delivery bases differ (Delivered vs EXW), so evidence=proxy and off the median. Page banner notes service limited to US clients; prices were visible on the public HTML table. USD quotes; fx=1.",
+    "evidence_url": "https://www.scrapmonster.com/metal-prices/ferroalloys",
+    "quote": "Ferro-niobium 60-A EXW China 56372.25 USD/MT September 21, 2026; Ferro-niobium Brazilian 66% Delivered China 44373.76 USD/MT September 21, 2026."
   }
 ]

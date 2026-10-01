@@ -1,12 +1,13 @@
 updated: 2026-10-01
-cycle: 60
-active_lane: niobium
-active_basket: fenb_std
-next_query: ScrapMonster OR Mysteel Brazilian FeNb65 OR FeNb66 delivered China USD/MT same-day versus Chinese FeNb 60-A EXW 2026 public page
-next_row_id: hunt_fenb_araxa
-dry_streak: 2
+cycle: 61
+active_lane: ai_chips
+active_basket: usd_per_chip
+next_query: CCGP OR university award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C OR 910_4 card
+next_row_id: hunt_ascend_chip
+dry_streak: 0
 remote: present
 seen_urls:
+- https://www.scrapmonster.com/metal-prices/ferroalloys
 - https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf
 - https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5359978/index.html

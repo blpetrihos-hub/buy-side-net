@@ -1014,5 +1014,16 @@
       "niocorp_argus_fenb_us_2024",
       "hunt_fenb_araxa"
     ]
+  },
+  {
+    "id": "scrapmonster_fenb_20260921",
+    "type": "journalism",
+    "chicago": "ScrapMonster. “Ferroalloys Prices.” Table dated 21 September 2026 (Ferro-niobium Brazilian 66% Delivered China; Ferro-niobium 60-A EXW China). Accessed 1 October 2026.",
+    "url": "https://www.scrapmonster.com/metal-prices/ferroalloys",
+    "annotation": "Same-day USD/MT: Brazilian FeNb 66% Delivered China 44,373.76; Chinese 60-A EXW 56,372.25. Grades/Incoterms differ; UNVERIFIED proxy for fenb_br66_vs_cn60a_20260921.",
+    "supports": [
+      "fenb_br66_vs_cn60a_20260921",
+      "hunt_fenb_araxa"
+    ]
   }
 ]
