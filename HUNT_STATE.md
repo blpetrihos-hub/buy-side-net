@@ -907,6 +907,14 @@ misses:
 #   Equal-budget misses: balsa, water, port_ownership, rail, nickel (update only), engineering_epc,
 #   fission_smr, power_plants_grid, niobium, wind, other_renewables, lithium, building_materials, copper.
 
+# Cycle 34 (seed 20261034): 7 sourced rows; hits on building_materials (InterCement LATCEM inject USD 110m proxy),
+#   lithium (Galan HMW RIGI USD 217.09m), other_renewables (Enal Celaya geothermal USD 80m proxy),
+#   port_cranes (SSA Guaymas STS/eRTG), copper (MMG Las Bambas 2026 capex USD 800m floor),
+#   bridges_roads (Sierra Tramo 4 USD 1.582bn), solar (Trina Sidón USD 100m proxy).
+#   Thin fills: building_materials, bridges_roads.
+#   Equal-budget misses: graphite, wind, niobium, port_ownership, power_plants_grid, engineering_epc,
+#   water, fission_smr, balsa, nickel, rail.
+
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
 # Hunt retargeted to LatAm graphite mining/processing/anode chains; logged South Star,
