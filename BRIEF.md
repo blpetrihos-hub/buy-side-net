@@ -46,7 +46,7 @@ Do not put associate names on the public site. Taxonomy (machine-readable copy i
 - `lithium`
 - `copper`
 - `nickel`
-- `dimension_stone` — dimension stone (granite)
+- `graphite` — graphite (mining, processing, anode / CSPG supply chains)
 - `balsa` — balsa wood
 - `water`
 
@@ -142,7 +142,7 @@ Canonical subcategory list (shuffle this; do not change membership without a cod
 8. resources / lithium
 9. resources / copper
 10. resources / nickel
-11. resources / dimension_stone
+11. resources / graphite
 12. resources / balsa
 13. resources / water
 14. energy / fission_smr

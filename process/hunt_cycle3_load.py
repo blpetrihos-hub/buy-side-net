@@ -23,7 +23,7 @@ def A(row, evidence, bib):
 # seed 20261003 order:
 # nickel, fission_smr, engineering_epc, water, bridges_roads, wind, power_plants_grid,
 # balsa, niobium, port_cranes, copper, building_materials, lithium, rail, solar,
-# dimension_stone, other_renewables, port_ownership
+# graphite, other_renewables, port_ownership
 
 # 1 resources/nickel — budget: no new distinct public source beyond cycle1–2 MMG/Anglo pair (miss in HUNT_STATE)
 
@@ -408,12 +408,12 @@ A(
     },
 )
 
-# 16 resources/dimension_stone — ABIROCHAS Brazil→US 2023
+# 16 resources/graphite — ABIROCHAS Brazil→US 2023
 A(
     {
         "id": "abirochas_br_stone_us_2023",
         "layer": "resources",
-        "subcategory": "dimension_stone",
+        "subcategory": "graphite",
         "side": "us",
         "counterpart": "United States — Brazilian ornamental/dimension stone imports (ABIROCHAS 2023 balance)",
         "country": "Brazil",
@@ -452,7 +452,7 @@ A(
         "supports": [
             "abirochas_br_stone_china_2023",
             "abirochas_br_stone_us_2023",
-            "hunt_res_dimension_stone",
+            "hunt_res_graphite",
         ],
     },
 )
@@ -610,7 +610,7 @@ def main():
         "hunt_res_lithium": "Cycle 3: equal budget; no new lithium deal beyond Ganfeng/NovaAndino (miss).",
         "hunt_latam_rail_telecom": "Cycle 3: equal budget; no new rail award beyond CRRC/Alstom cycle-2 (miss).",
         "hunt_energy_solar": "Cycle 3: logged trina_cemig_sim_brazil_2023 + recurrent_ciranda_solar_br_2023.",
-        "hunt_res_dimension_stone": "Cycle 3: logged abirochas_br_stone_us_2023 (US destination from ABIROCHAS).",
+        "hunt_res_graphite": "Cycle 3: logged abirochas_br_stone_us_2023 (US destination from ABIROCHAS).",
         "hunt_energy_other_renewables": "Cycle 3: logged ormat_zunil_guatemala.",
         "hunt_infra_port_ownership": "Cycle 3: logged apmt_btp_santos_concession_2023.",
     }

@@ -3,7 +3,7 @@ cycle: 3
 remote: present
 active_layer: infrastructure
 active_subcategory: port_ownership
-next_query: Cycle 4 shuffle_seed=20261004; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box.
+next_query: Cycle 4 shuffle_seed=20261004; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
 next_row_id: (follow cycle-4 shuffled_order)
 dry_streak: 0
 
@@ -32,7 +32,7 @@ shuffled_order:
 - resources/lithium
 - infrastructure/rail
 - energy/solar
-- resources/dimension_stone
+- resources/graphite
 - energy/other_renewables
 - infrastructure/port_ownership
 
@@ -52,7 +52,7 @@ rows_found_this_cycle:
   resources/lithium: 0
   infrastructure/rail: 0
   energy/solar: 2
-  resources/dimension_stone: 1
+  resources/graphite: 1
   energy/other_renewables: 1
   infrastructure/port_ownership: 1
 
@@ -68,7 +68,7 @@ coverage_cumulative:
   resources/lithium: 3
   resources/copper: 3
   resources/nickel: 2
-  resources/dimension_stone: 2
+  resources/graphite: 3
   resources/balsa: 6
   resources/water: 4
   energy/fission_smr: 2
@@ -128,9 +128,13 @@ seen_urls:
 - https://www.prnewswire.com/news-releases/recurrent-energy-receives-490-million-brazilian-reais-financing-for-ciranda-cluster-in-brazil-301995679.html
 - https://www.apmterminals.com/en/news/news-releases/2023/231220-usd-390-million-investment-and-new-concession-for-brasil-terminal
 
+- https://southstarbatterymetals.com/wp-content/uploads/2024/07/2024-07-29_STS_SubstantialCompletion_Final.pdf
+- https://www.grafite.com/en/
+- https://graphexgroup.com/2023/10/25/graphex-technologies-reinforces-its-diverse-mine-to-battery-global-strategy-following-the-announcement-of-graphite-export-limits-from-china/
+
 misses:
 - 2026-10-01 | infrastructure/rail | cycle1 budget | U.S. or new PRC rail award 2021-2026 beyond existing SP metro / EFE rows | no additional sourced rail row opened in this cycle's time box (existing rows retained)
-- 2026-10-01 | resources/dimension_stone | cycle2 budget | New LatAm dimension-stone / granite trade or ownership row beyond cycle-1 ABIROCHAS China export | opened prior ABIROCHAS PDF already logged; no distinct new public source family opened in this cycle's equal time box
+- 2026-10-01 | resources/graphite | cycle2 budget | New graphite row (taxonomy was still mislabeled granite that cycle) | later corrected to graphite; ABIROCHAS ornamental-stone rows archived
 - 2026-10-01 | resources/nickel | cycle3 budget | New Ni row beyond MMG/Anglo Brazil SPA pair | equal time box exhausted without a distinct new opened source
 - 2026-10-01 | energy/fission_smr | cycle3 budget | New SMR/fission award beyond CAREM / CNNC Atucha | miss
 - 2026-10-01 | infrastructure/engineering_epc | cycle3 budget | New non-grid EPC beyond Fluor Salares Norte / Bechtel Los Pelambres | miss
@@ -144,5 +148,10 @@ misses:
 
 # Redesign reset (2026-10-01). Geography: Latin America and the Caribbean only.
 # Shuffle rule: equal per-subcategory budgets; logged seed each cycle.
-# Cycle 2 (seed 20261002): 20 sourced rows; dimension_stone miss.
+# Cycle 2 (seed 20261002): 20 sourced rows; graphite miss.
 # Cycle 3 (seed 20261003): 11 sourced rows; 10 equal-budget misses on already-covered subcats.
+
+# 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
+# renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
+# Hunt retargeted to LatAm graphite mining/processing/anode chains; logged South Star,
+# Nacional de Grafite, Graphex–Santa Cruz offtake.

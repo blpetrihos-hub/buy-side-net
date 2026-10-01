@@ -516,7 +516,7 @@ A(
     },
 )
 
-# 11 resources/dimension_stone — Acciona not stone. Use miss documented in HUNT_STATE.
+# 11 resources/graphite — Acciona not stone. Use miss documented in HUNT_STATE.
 # Prefer a sourced row: Brazilian stone trade press is thin; open ABIROCHAS PDF again for US destination if present is duplicate family.
 # Record no new distinct stone row this cycle (budget spent opening ABIROCHAS + trade searches → miss).
 
@@ -986,7 +986,7 @@ def main():
         "hunt_cl_power_equip": "Cycle 2: logged ge_vernova_transelec_sync_chile_2024.",
         "hunt_res_water": "Cycle 2: logged ide_aconcagua_desal_chile_2023.",
         "hunt_res_lithium": "Cycle 2: logged codelco_sqm_novaandino_2025.",
-        "hunt_res_dimension_stone": "Cycle 2: budget spent; no new distinct stone source opened beyond cycle-1 ABIROCHAS (miss).",
+        "hunt_res_graphite": "Cycle 2: budget spent; no new distinct stone source opened beyond cycle-1 ABIROCHAS (miss).",
         "hunt_infra_port_cranes": "Cycle 2: logged zpmc_dpworld_lirquen_2022 (Seatrade proxy).",
         "hunt_energy_other_renewables": "Cycle 2: logged ormat_amatitlan_guatemala.",
         "hunt_energy_wind": "Cycle 2: logged nordex_auren_cajuina3_2025.",

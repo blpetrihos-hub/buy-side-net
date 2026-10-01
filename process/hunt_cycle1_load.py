@@ -516,7 +516,7 @@ add(
     {
         "id": "abirochas_br_stone_china_2023",
         "layer": "resources",
-        "subcategory": "dimension_stone",
+        "subcategory": "graphite",
         "side": "prc",
         "counterpart": "China (importer of Brazilian ornamental stone / blocks)",
         "country": "Brazil",
@@ -534,7 +534,7 @@ add(
         "geo_note": "National export aggregate; no named quarry pin.",
         "evidence": "documented",
         "source_id": "abirochas_balanco_2023",
-        "note": "PRC as dominant block buyer class in ABIROCHAS 2023 sector balance. Report lists China among top destinations with low average price (blocks). Exact China USD total not extracted as a clean single cell without risk of mis-read — value left blank; presence/offtake observation only. Upgrades hunt_res_dimension_stone.",
+        "note": "PRC as dominant block buyer class in ABIROCHAS 2023 sector balance. Report lists China among top destinations with low average price (blocks). Exact China USD total not extracted as a clean single cell without risk of mis-read — value left blank; presence/offtake observation only. Upgrades hunt_res_graphite.",
     },
     {
         "id": "abirochas_br_stone_china_2023",
@@ -552,7 +552,7 @@ add(
         "chicago": "ABIROCHAS (Associação Brasileira da Indústria de Rochas Ornamentais). “Balanço do setor brasileiro de rochas ornamentais e de revestimento em 2023.” Informe 01/2024, March 2024.",
         "url": "https://abirochas.com.br/wp-content/uploads/2024/03/Informe-01_2024-Balanco-2023.pdf",
         "annotation": "Industry association primary export balance; China among top destinations for Brazilian stone (esp. blocks). Supports abirochas_br_stone_china_2023.",
-        "supports": ["abirochas_br_stone_china_2023", "hunt_res_dimension_stone"],
+        "supports": ["abirochas_br_stone_china_2023", "hunt_res_graphite"],
     },
 )
 
@@ -1097,7 +1097,7 @@ def main():
         "hunt_res_lithium": "Cycle 1: logged ganfeng_pastos_grandes_stake_2024 + ganfeng_lithea_ppg_2022.",
         "hunt_res_copper": "Cycle 1: logged mmg_las_bambas_peru + fcx_cerro_verde_peru.",
         "hunt_res_nickel": "Cycle 1: logged mmg_anglo_nickel_brazil_2025.",
-        "hunt_res_dimension_stone": "Cycle 1: logged abirochas_br_stone_china_2023.",
+        "hunt_res_graphite": "Cycle 1: logged abirochas_br_stone_china_2023.",
         "hunt_res_balsa": "Cycle 1: logged wits_ecuador_balsa_china_2022 + wits_ecuador_balsa_us_2022.",
         "hunt_res_water": "Cycle 1: logged bechtel_qb2_desal_chile + ide_saddn_desal_chile_2023.",
         "hunt_fenb_araxa": "Cycle 1: logged cbmm_araxa_presence_2024 (presence; still hunting FeNb unit price).",

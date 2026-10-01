@@ -22,7 +22,7 @@
       "hunt_mx_power_equip",
       "hunt_res_balsa",
       "hunt_res_copper",
-      "hunt_res_dimension_stone",
+      "hunt_res_graphite",
       "hunt_res_lithium",
       "hunt_res_nickel",
       "hunt_res_water",
@@ -1172,7 +1172,7 @@
     "annotation": "Industry association primary export balance; China among top destinations for Brazilian stone (esp. blocks). Supports abirochas_br_stone_china_2023.",
     "supports": [
       "abirochas_br_stone_china_2023",
-      "hunt_res_dimension_stone"
+      "hunt_res_graphite"
     ]
   },
   {
@@ -1584,7 +1584,7 @@
     "supports": [
       "abirochas_br_stone_china_2023",
       "abirochas_br_stone_us_2023",
-      "hunt_res_dimension_stone"
+      "hunt_res_graphite"
     ]
   },
   {
@@ -1596,6 +1596,39 @@
     "supports": [
       "apmt_btp_santos_concession_2023",
       "hunt_infra_port_ownership"
+    ]
+  },
+  {
+    "id": "south_star_santa_cruz_20240729",
+    "type": "official",
+    "chicago": "South Star Battery Metals Corp. “South Star Announces Substantial Completion and Commissioning of the Santa Cruz Phase 1 Graphite Mine in Brazil.” 29 July 2024.",
+    "url": "https://southstarbatterymetals.com/wp-content/uploads/2024/07/2024-07-29_STS_SubstantialCompletion_Final.pdf",
+    "annotation": "Company primary notice of Santa Cruz Phase 1 graphite plant substantial completion. Supports south_star_santa_cruz_graphite_2024.",
+    "supports": [
+      "south_star_santa_cruz_graphite_2024",
+      "hunt_res_graphite"
+    ]
+  },
+  {
+    "id": "nacional_de_grafite_en_home",
+    "type": "official",
+    "chicago": "Nacional de Grafite Ltda. “Nacional de Grafite - high-quality crystalline graphite.” Company site. Accessed 1 October 2026.",
+    "url": "https://www.grafite.com/en/",
+    "annotation": "Company primary description of MG graphite production footprint. Supports nacional_de_grafite_mg_presence.",
+    "supports": [
+      "nacional_de_grafite_mg_presence",
+      "hunt_res_graphite"
+    ]
+  },
+  {
+    "id": "graphex_exchina_strategy_20231025",
+    "type": "official",
+    "chicago": "Graphex Group Limited / Graphex Technologies, LLC. “Graphex Technologies Reinforces its Diverse Mine-to-Battery Global Strategy Following the Announcement of Graphite Export Limits from China.” 25 October 2023.",
+    "url": "https://graphexgroup.com/2023/10/25/graphex-technologies-reinforces-its-diverse-mine-to-battery-global-strategy-following-the-announcement-of-graphite-export-limits-from-china/",
+    "annotation": "Company release listing South Star Brazil Santa Cruz among graphite offtake sources for U.S. anode strategy. Supports graphex_south_star_brazil_offtake_2023.",
+    "supports": [
+      "graphex_south_star_brazil_offtake_2023",
+      "hunt_res_graphite"
     ]
   }
 ]

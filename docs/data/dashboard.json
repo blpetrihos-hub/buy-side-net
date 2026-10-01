@@ -70,7 +70,7 @@
         "lithium": "Lithium",
         "copper": "Copper",
         "nickel": "Nickel",
-        "dimension_stone": "Dimension stone (granite)",
+        "graphite": "Graphite",
         "balsa": "Balsa wood",
         "water": "Water"
       }
@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 121,
+    "n_rows": 124,
     "counts": {
-      "total": 121,
-      "active": 68,
+      "total": 124,
+      "active": 69,
       "hunt": 42,
-      "archived": 33,
+      "archived": 35,
       "paired": 2,
       "one_sided": 27,
       "proxy": 19,
-      "exclude": 3,
-      "documented": 48,
-      "on_map": 55
+      "exclude": 5,
+      "documented": 49,
+      "on_map": 58
     }
   },
   "layer_readouts": [
@@ -130,13 +130,13 @@
       "layer": "resources",
       "counts": {
         "us": 6,
-        "prc": 10,
-        "allied": 7,
-        "n": 23
+        "prc": 9,
+        "allied": 9,
+        "n": 24
       },
       "usd": {
-        "us": 635197120.0,
-        "us_n": 4,
+        "us": 26797120.0,
+        "us_n": 3,
         "prc": 816306290.0,
         "prc_n": 5,
         "allied": 500000000.0,
@@ -210,13 +210,13 @@
       "country": "Brazil",
       "counts": {
         "us": 2,
-        "prc": 12,
-        "allied": 12,
-        "n": 26
+        "prc": 11,
+        "allied": 14,
+        "n": 27
       },
       "usd": {
-        "us": 608400000.0,
-        "us_n": 1,
+        "us": 0.0,
+        "us_n": 0,
         "prc": 697795264.55,
         "prc_n": 6,
         "allied": 1451859384.93,
@@ -235,8 +235,8 @@
         },
         "resources": {
           "us": 1,
-          "prc": 3,
-          "allied": 3
+          "prc": 2,
+          "allied": 5
         }
       }
     },
@@ -478,7 +478,6 @@
       "mmg_las_bambas_peru",
       "fcx_cerro_verde_peru",
       "mmg_anglo_nickel_brazil_2025",
-      "abirochas_br_stone_china_2023",
       "wits_ecuador_balsa_china_2022",
       "wits_ecuador_balsa_us_2022",
       "bechtel_qb2_desal_chile",
@@ -518,9 +517,11 @@
       "wits_ecuador_balsa_us_2024",
       "trina_cemig_sim_brazil_2023",
       "recurrent_ciranda_solar_br_2023",
-      "abirochas_br_stone_us_2023",
       "ormat_zunil_guatemala",
-      "apmt_btp_santos_concession_2023"
+      "apmt_btp_santos_concession_2023",
+      "south_star_santa_cruz_graphite_2024",
+      "nacional_de_grafite_mg_presence",
+      "graphex_south_star_brazil_offtake_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -536,7 +537,7 @@
       "hunt_res_lithium",
       "hunt_res_copper",
       "hunt_res_nickel",
-      "hunt_res_dimension_stone",
+      "hunt_res_graphite",
       "hunt_res_balsa",
       "hunt_res_water",
       "hunt_energy_fission_smr",
@@ -581,7 +582,9 @@
       "exim_us_guyana_gte_2025",
       "fenb_br_vs_cn_20240523",
       "niocorp_argus_fenb_us_2024",
-      "fenb_br66_vs_cn60a_20260921"
+      "fenb_br66_vs_cn60a_20260921",
+      "abirochas_br_stone_china_2023",
+      "abirochas_br_stone_us_2023"
     ]
   }
 }
