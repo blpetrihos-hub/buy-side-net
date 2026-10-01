@@ -4404,24 +4404,6 @@
     ]
   },
   {
-    "id": "albemarle_ted_dle_20260325",
-    "type": "company",
-    "chicago": "Albemarle Corporation. “Albemarle Initiates Environmental Review for Chile’s First Direct Lithium Extraction Project in Salar de Atacama.” 25 March 2026.",
-    "url": "https://www.albemarle.com/cl/en/news/albemarle-initiates-environmental-review-chiles-first-direct-lithium-extraction-project-salar",
-    "annotation": "Company primary on TED/DLE EIA submission at Salar de Atacama. Supports albemarle_ted_dle_atacama_2026.",
-    "supports": [
-      "albemarle_ted_dle_atacama_2026",
-      "hunt_res_lithium"
-    ],
-    "map_supports": [
-      "albemarle_ted_dle_atacama_2026",
-      "hunt_res_lithium"
-    ],
-    "layers": [
-      "resources"
-    ]
-  },
-  {
     "id": "semanario_borinquen_lindsayca_20260626",
     "type": "press",
     "chicago": "Pomareda García, Fabiola. “Empresa española apela ante Contraloría millonario contrato del ICE para planta geotérmica Borinquen I.” Semanario Universidad (Universidad de Costa Rica), 26 June 2026.",
@@ -5770,6 +5752,136 @@
     "map_supports": [
       "hunt_fenb_araxa",
       "st_george_araxa_capex_brl3bn_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "albemarle_dle_ted_capex_page",
+    "type": "company",
+    "chicago": "Albemarle Corporation. “Direct Lithium Extraction: Innovation with Purpose.” Albemarle Chile DLE project page. Accessed 1 October 2026.",
+    "url": "https://www.albemarle.com/cl/en/dle",
+    "annotation": "Company TED/DLE page stating USD 3.1bn estimated TED investment and La Negra pilot ~USD 30m. Supports albemarle_ted_dle_atacama_2026 value fill and albemarle_la_negra_dle_pilot_30m_2026.",
+    "supports": [
+      "albemarle_la_negra_dle_pilot_30m_2026",
+      "albemarle_ted_dle_atacama_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "albemarle_la_negra_dle_pilot_30m_2026",
+      "albemarle_ted_dle_atacama_2026",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "chilean_cobalt_exim_loi_20260817",
+    "type": "company",
+    "chicago": "Chilean Cobalt Corp. “Chilean Cobalt Corp. Announces Receipt of New USD $375 Million Letter of Interest from US EXIM Bank.” Access Newswire, 17 August 2026.",
+    "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/chilean-cobalt-corp.-announces-receipt-of-new-usd-375-million-letter-of-interest-1207683",
+    "annotation": "U.S. company release on EXIM non-binding LOI up to USD 375m for Chile Co-Cu project. Supports chilean_cobalt_exim_loi_375m_2026.",
+    "supports": [
+      "chilean_cobalt_exim_loi_375m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "chilean_cobalt_exim_loi_375m_2026",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "centaurus_jaguar_finance_20260413",
+    "type": "company",
+    "chicago": "Centaurus Metals Limited. “Centaurus Receives Strong Interest from Leading International Financiers for Jaguar Nickel Development.” ASX announcement, 13 April 2026.",
+    "url": "https://www.centaurus.com.au/site/pdf/54d68631-943e-4bb3-b950-0c2dfa3f4146/Strong-International-Financier-Interest-for-Jaguar-Funding.pdf?Platform=ListPage",
+    "annotation": "ASX PDF on non-binding Jaguar project-finance offers up to USD 320m. Supports centaurus_jaguar_intl_finance_320m_2026.",
+    "supports": [
+      "centaurus_jaguar_intl_finance_320m_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "centaurus_jaguar_intl_finance_320m_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "holcim_mx_geocycle_tecoman_20260804",
+    "type": "company",
+    "chicago": "Holcim México. “Holcim México invierte cerca de 200 millones de pesos para acelerar la economía circular.” 4 August 2026.",
+    "url": "https://www.holcim.com.mx/holcim-mexico-invierte-cerca-de-200-millones-de-pesos-para-acelerar-la-economia-circular",
+    "annotation": "Company Spanish release on Geocycle Tecomán ~MXN 200m biomass plant. Supports holcim_geocycle_tecoman_mxn200m_2026.",
+    "supports": [
+      "holcim_geocycle_tecoman_mxn200m_2026",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "holcim_geocycle_tecoman_mxn200m_2026",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "apmt_lazaro_phase3_20260320",
+    "type": "company",
+    "chicago": "APM Terminals. “APM Terminals Lázaro Cárdenas inaugurates Phase II and announces investment for the next stage.” 20 March 2026.",
+    "url": "https://www.apmterminals.com/en/news/news-releases/2026/260320-APMTerminals-lazaro-cardenas-announces-investment-PhaseII",
+    "annotation": "Company release on Lazaro Phase II inauguration and Phase III >USD 350m. Supports apmt_lazaro_phase3_350m_2026.",
+    "supports": [
+      "apmt_lazaro_phase3_350m_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "apmt_lazaro_phase3_350m_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "findev_illa_20260205",
+    "type": "ifi",
+    "chicago": "FinDev Canada. “FinDev Canada commits USD 56 million to Energía Renovable La Joya S.A. (Enhol Energía) to strengthen renewable energy and economic growth in Peru.” 5 February 2026.",
+    "url": "https://www.findevcanada.ca/en/news/findev-canada-commits-usd-56-million-energia-renovable-joya-sa-enhol-energia-strengthen",
+    "annotation": "Canadian DFI release on USD 56m Illa solar loan in Peru. Supports findev_illa_solar_56m_2026.",
+    "supports": [
+      "findev_illa_solar_56m_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "findev_illa_solar_56m_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "wits_ecu_440723_2025",
+    "type": "official",
+    "chicago": "World Bank WITS / UN Comtrade. “Ecuador Baboen, Mahogany, Imbuia and Balsa wood, sawn l exports by country | 2025.” Accessed 1 October 2026.",
+    "url": "https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2025/tradeflow/Exports/partner/ALL/product/440723",
+    "annotation": "Official trade mirror for Ecuador HS 440723 2025 exports. Supports wits_ecuador_balsa_china_2025 and wits_ecuador_balsa_us_2025.",
+    "supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2025",
+      "wits_ecuador_balsa_us_2025"
+    ],
+    "map_supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2025",
+      "wits_ecuador_balsa_us_2025"
     ],
     "layers": [
       "resources"
