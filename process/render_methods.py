@@ -170,6 +170,11 @@ def main() -> None:
         )
     blocks.append("</ul>")
 
+    bib = meta.get("bibliography") or {}
+    if bib:
+        blocks.append("<h2>Bibliography</h2>")
+        blocks.append(f"<p>{esc(bib.get('rule', ''))}</p>")
+
     blocks.append("<h2>Public-source limits</h2>")
     blocks.append("<ul>")
     for item in meta.get("public_source_limits") or []:
