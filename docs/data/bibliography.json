@@ -3822,5 +3822,131 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "hanersun_solfacil_400mw_20250612",
+    "type": "company",
+    "chicago": "Hanersun. “Hanersun and Solfácil Renew 400MW N-Type Module Supply Agreement at SNEC 2025.” 12 June 2025.",
+    "url": "https://www.hanersun.com/hanersun-and-solfacil-renew-400mw-n-type-module-supply-agreement-at-snec-2025/",
+    "annotation": "Company primary on Hanersun–Solfácil 400 MW Brazil module supply. Supports hanersun_solfacil_400mw_2025.",
+    "supports": [
+      "hanersun_solfacil_400mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hanersun_solfacil_400mw_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "caf_trivia_maint_20251120",
+    "type": "company",
+    "chicago": "CAF. “CAF awarded comprehensive maintenance of trains operating on São Paulo commuter lines 11, 12, and 13.” 20 November 2025.",
+    "url": "https://www.cafmobility.com/en/press-room/caf-awarded-maintenance-of-rains-operating-on-s%C3%A3o-paulo-commuter-lines/",
+    "annotation": "Company primary on CAF €500m Trivia Trens SP maintenance. Supports caf_trivia_sp_maint_2025.",
+    "supports": [
+      "caf_trivia_sp_maint_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "caf_trivia_sp_maint_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "votorantim_2q26_xambioa_20260813",
+    "type": "company",
+    "chicago": "Votorantim Cimentos. “Our Financial Results in the Second Quarter of 2026.” 13 August 2026.",
+    "url": "https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/",
+    "annotation": "Company primary on R$260m Xambioá grinding expansion. Supports votorantim_xambioa_grind_2026.",
+    "supports": [
+      "votorantim_xambioa_grind_2026",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "hunt_infra_building_materials",
+      "votorantim_xambioa_grind_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "trina_atlas_copiapo_20251028",
+    "type": "company",
+    "chicago": "Trina Storage / Trinasolar. “Trina Storage and Atlas Secures Gigawatt-Hour Scale Project in Latin America, Pioneering Grid-Forming Solutions.” 28 October 2025.",
+    "url": "https://www.trinasolar.com/en-glb/newsroom202510281044/",
+    "annotation": "Company primary on Trina Storage Elementa 2 Copiapó GFM BESS. Supports trina_atlas_copiapo_bess_2025.",
+    "supports": [
+      "trina_atlas_copiapo_bess_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "trina_atlas_copiapo_bess_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "g1_taboca_100m_20260128",
+    "type": "press",
+    "chicago": "g1 Amazônia. “Mineração Taboca investe US$ 100 mi para dobrar produção no AM.” 28 January 2026.",
+    "url": "https://g1.globo.com/am/amazonas/noticia/2026/01/28/mineracao-taboca-anuncia-investimento-de-us-100-mi-para-dobrar-producao-no-am.ghtml",
+    "annotation": "Press UNVERIFIED proxy on Taboca/CNMC USD 100m Pitinga expansion. Supports taboca_cnmc_pitinga_100m_2026.",
+    "supports": [
+      "taboca_cnmc_pitinga_100m_2026",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "hunt_fenb_araxa",
+      "taboca_cnmc_pitinga_100m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ohla_br040_20250505",
+    "type": "company",
+    "chicago": "OHLA. “OHLA Wins $1 Billion Highway Concession Contract in Brazil for BR-040.” 5 May 2025.",
+    "url": "https://www.ohla-group.com/en/ohla-wins-1-billion-highway-concession-contract-in-brazil-for-br-040/",
+    "annotation": "Company primary on OHLA BR-040 ~€850m concession. Supports ohla_br040_concession_2025.",
+    "supports": [
+      "ohla_br040_concession_2025",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "ohla_br040_concession_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "lithium_chile_arizaro_spa_20251222",
+    "type": "company",
+    "chicago": "Lithium Chile Inc. “Lithium Chile Executes the Formal Agreement for the Sale of Its Argentine, Arizaro Project.” 22 December 2025.",
+    "url": "https://lithiumchile.ca/wp-content/uploads/2025/12/December-22-2025-LITHIUM-CHILE-EXECUTES-DEFINITIVE-AGREEMENT.pdf",
+    "annotation": "Company primary on China Union Holdings USD 175m Arizaro/Argentum SPA. Supports cuh_arizaro_argentum_175m_2025.",
+    "supports": [
+      "cuh_arizaro_argentum_175m_2025",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "cuh_arizaro_argentum_175m_2025",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
