@@ -2385,3 +2385,51 @@
   supports:
   - st_george_araxa_nb_2025
   - hunt_fenb_araxa
+- id: bnamericas_nari_chilquinta_20260525
+  type: press
+  chicago: BNamericas. “Transelec, Chilquinta Transmisión award Chile grid expansion work.” 25 May 2026.
+  url: https://www.bnamericas.com/en/news/transelec-chilquinta-transmision-award-chile-grid-expansion-work
+  annotation: Trade press on Chilquinta award to Nari Technology (US$6.3m). Supports nari_chilquinta_agua_santa_2026
+    (UNVERIFIED).
+  supports:
+  - nari_chilquinta_agua_santa_2026
+  - hunt_cl_power_equip
+- id: exame_appian_atlantic_ug_20260825
+  type: press
+  chicago: Exame. “Appian vai investir até R$ 700 milhões em grafite em MG com demanda de carros elétricos.”
+    25 August 2026.
+  url: https://exame.com/invest/mercados/appian-vai-investir-ate-r-700-milhoes-em-grafite-em-mg-com-demanda-de-carros-eletricos/
+  annotation: PT trade press interview citing Atlantic Nickel Santa Rita UG ~R$3.3bn and Graphcoa Jordânia
+    ~R$700m. Supports atlantic_nickel_ug_capex_2026 and graphcoa_jordania_dfs_capex_2026 (UNVERIFIED).
+  supports:
+  - atlantic_nickel_ug_capex_2026
+  - graphcoa_jordania_dfs_capex_2026
+  - hunt_res_graphite
+  - hunt_res_nickel
+- id: im_mining_ausenco_jervois_20260110
+  type: press
+  chicago: International Mining. “Ausenco mobilises team to revitalise Jervois nickel and cobalt refinery.”
+    10 January 2026.
+  url: https://im-mining.com/2026/01/10/ausenco-mobilises-team-to-revitalise-jervois-nickel-and-cobalt-refinery/
+  annotation: Trade press on Ausenco–Jervois SMP EPCM signing/mobilisation. Supports ausenco_jervois_smp_epcm_2026
+    (UNVERIFIED).
+  supports:
+  - ausenco_jervois_smp_epcm_2026
+  - hunt_infra_engineering_epc
+- id: dpworld_santos_r16bn_20251202
+  type: company
+  chicago: DP World. “DP World to invest R$1.6 billion to expand Santos Terminal by 25%.” 2 December 2025.
+  url: https://www.dpworld.com/en/news/usa/dpw-invests-over-1-billion-reais-to-expand-santos-terminal-by-25-percent
+  annotation: Company primary Santos R$1.6bn expansion-cycle approval. Supports dpworld_santos_r16bn_2025.
+  supports:
+  - dpworld_santos_r16bn_2025
+  - hunt_infra_port_ownership
+- id: riotinto_rincon_financing_20260311
+  type: company
+  chicago: Rio Tinto. “Rio Tinto secures $1.175 billion financing package for Rincon lithium project in
+    Argentina.” 11 March 2026.
+  url: https://www.riotinto.com/en/news/releases/2026/rio-tinto-secures-1-175-billion-financing-package-for-rincon-lithium-project-in-argentina
+  annotation: Company primary Rincon IFC/IDB/EFA/JBIC financing package. Supports rio_tinto_rincon_financing_2026.
+  supports:
+  - rio_tinto_rincon_financing_2026
+  - hunt_res_lithium
