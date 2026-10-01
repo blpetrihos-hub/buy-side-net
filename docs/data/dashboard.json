@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 527,
+    "n_rows": 535,
     "counts": {
-      "total": 527,
-      "active": 472,
+      "total": 535,
+      "active": 480,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
       "proxy": 107,
       "exclude": 5,
-      "documented": 361,
-      "on_map": 469
+      "documented": 369,
+      "on_map": 476
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 26,
+        "us": 27,
         "prc": 51,
-        "allied": 87,
-        "n": 164
+        "allied": 89,
+        "n": 167
       },
       "usd": {
         "us": 2215000000.0,
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 42,
+        "us": 44,
         "prc": 26,
         "allied": 102,
-        "n": 170
+        "n": 172
       },
       "usd": {
-        "us": 24907033622.0,
-        "us_n": 20,
+        "us": 24989193622.0,
+        "us_n": 21,
         "prc": 4411195156.0,
         "prc_n": 16,
         "allied": 38487618653.2,
@@ -153,9 +153,9 @@
       "layer": "energy",
       "counts": {
         "us": 41,
-        "prc": 40,
-        "allied": 55,
-        "n": 136
+        "prc": 41,
+        "allied": 57,
+        "n": 139
       },
       "usd": {
         "us": 4337000000.0,
@@ -177,10 +177,10 @@
     {
       "country": "Argentina",
       "counts": {
-        "us": 7,
+        "us": 8,
         "prc": 12,
         "allied": 23,
-        "n": 42
+        "n": 43
       },
       "usd": {
         "us": 7100000000.0,
@@ -202,7 +202,7 @@
           "allied": 4
         },
         "resources": {
-          "us": 1,
+          "us": 2,
           "prc": 8,
           "allied": 13
         }
@@ -240,10 +240,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 31,
-        "prc": 42,
+        "us": 32,
+        "prc": 43,
         "allied": 100,
-        "n": 173
+        "n": 175
       },
       "usd": {
         "us": 1255545000.0,
@@ -256,11 +256,11 @@
       "by_layer": {
         "energy": {
           "us": 6,
-          "prc": 18,
+          "prc": 19,
           "allied": 25
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 18,
           "allied": 29
         },
@@ -276,8 +276,8 @@
       "counts": {
         "us": 21,
         "prc": 15,
-        "allied": 41,
-        "n": 77
+        "allied": 43,
+        "n": 79
       },
       "usd": {
         "us": 15321000000.0,
@@ -291,12 +291,12 @@
         "energy": {
           "us": 10,
           "prc": 11,
-          "allied": 7
+          "allied": 8
         },
         "infrastructure": {
           "us": 4,
           "prc": 4,
-          "allied": 11
+          "allied": 12
         },
         "resources": {
           "us": 7,
@@ -310,8 +310,8 @@
       "counts": {
         "us": 2,
         "prc": 5,
-        "allied": 7,
-        "n": 14
+        "allied": 8,
+        "n": 15
       },
       "usd": {
         "us": 150000000.0,
@@ -325,7 +325,7 @@
         "energy": {
           "us": 2,
           "prc": 3,
-          "allied": 1
+          "allied": 2
         },
         "infrastructure": {
           "us": 0,
@@ -608,14 +608,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 11,
+        "us": 12,
         "prc": 8,
-        "allied": 23,
-        "n": 42
+        "allied": 24,
+        "n": 44
       },
       "usd": {
-        "us": 245000000.0,
-        "us_n": 3,
+        "us": 327160000.0,
+        "us_n": 4,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -630,10 +630,10 @@
         "infrastructure": {
           "us": 7,
           "prc": 6,
-          "allied": 13
+          "allied": 14
         },
         "resources": {
-          "us": 0,
+          "us": 1,
           "prc": 0,
           "allied": 4
         }
@@ -1217,7 +1217,15 @@
       "nextracker_casa_dos_ventos_1p5gw_2025",
       "jan_de_nul_via_navegable_troncal_2026",
       "st_george_cefet_pilot_plant_2026",
-      "plantabal_baltek_us_coresheets_202609"
+      "plantabal_baltek_us_coresheets_202609",
+      "nadbank_baja_rosarito_distrib_82m_2026",
+      "powerchina_edp_piaui_500kv_cod_2026",
+      "lilac_kachi_dia_permit_2026",
+      "konecranes_iquique_esp10_2025",
+      "baker_hughes_petrobras_wells_santos_2026",
+      "fcc_cicsa_saltillo_santa_catarina_2025",
+      "gonvarri_solarsteel_colombia_25mw_2026",
+      "mainstream_ckhuri_cod_chile_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
