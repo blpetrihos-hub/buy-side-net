@@ -633,3 +633,10 @@
   annotation: "Huawei Digital Technologies (Suzhou) wins CTG Brazil Arinos string-inverter package at USD 7,340,703.40 for ~336.826 MW_ac. Supports huawei_ctg_arinos_inv_2022. Shortlist context (Huawei vs TBEA): https://news.solarbe.com/202212/20/363300.html (already logged as seen)."
   supports: ["huawei_ctg_arinos_inv_2022", "hunt_br_power_equip"]
 
+- id: sma_diego_almagro_sur_2021
+  type: journalism
+  chicago: "SMA Solar Technology AG. “SMA receives order for large-scale project in the Atacama Desert.” Press release, 3 February 2021."
+  url: "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert"
+  annotation: "Opened for allied inverter hunt vs Huawei Arinos. Confirms 46 MVPS / Sunny Central 4600 for Colbún Diego de Almagro Sur 220 MW; no contract or USD/MW price. Documents a dry pass."
+  supports: ["hunt_cl_power_equip"]
+

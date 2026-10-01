@@ -1,10 +1,10 @@
 {
   "id": "hunt_cl_power_equip",
-  "retrieved": "2026-09-30",
-  "source_id": "cen_acta_adjudicacion_2024_11_22",
-  "url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
-  "price_year": "2024",
+  "retrieved": "2026-10-01",
+  "source_id": "sma_diego_almagro_sur_2021",
+  "url": "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert",
+  "price_year": "2021",
   "evidence": "hunt",
-  "quote": "OA_G03 … CHANGSHU FENGFAN … 43.032.859,00",
-  "note": "Logged Fengfan G03 one-sided. Still hunting U.S.-seller unit pair."
+  "quote": "SMA is supplying 46 Medium Voltage Power Station for the 220 megawatt Diego de Almagro Sur PV power plant in the Atacama Desert in Chile.",
+  "note": "Dry pass. Scope and MW confirmed; no contract value or per-MW price on the SMA page. Canal Solar mirror also omits price."
 }

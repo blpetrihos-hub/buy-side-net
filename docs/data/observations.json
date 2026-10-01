@@ -56,10 +56,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "hitachi_garabi_hvdc_2023",
-    "note": "Cycle 53 opened Hitachi Energy Garabi HVDC upgrade (9 Nov 2023) + Valor: control/protection MACH refresh for Taesa — contract value not disclosed. Kimal XD converter-station one-sided (USD 331.8m/station) remains unpaired vs U.S./allied HVDC station award. Still hunting a non-PRC converter-station unit price.",
-    "evidence_url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
-    "quote": "OA_G03 … CHANGSHU FENGFAN … 43.032.859,00"
+    "source_id": "sma_diego_almagro_sur_2021",
+    "note": "Cycle 56 opened SMA press release (3 Feb 2021): 46 MVPS / Sunny Central 4600 for Colbún Diego de Almagro Sur 220 MW (Atacama) — MW and equipment count only; no contract price or USD/MW. Huawei Arinos string one-sided (USD 21,793.76/MW_ac) remains unpaired (also string vs central). Still hunting a non-PRC inverter award with a unit price.",
+    "evidence_url": "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert",
+    "quote": "SMA is supplying 46 Medium Voltage Power Station for the 220 megawatt Diego de Almagro Sur PV power plant in the Atacama Desert in Chile."
   },
   {
     "id": "hunt_mx_power_equip",

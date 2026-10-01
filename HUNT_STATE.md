@@ -1,12 +1,13 @@
 updated: 2026-10-01
-cycle: 55
+cycle: 56
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Brazil OR Chile OR Mexico SMA OR GE OR Siemens OR Fronius utility string OR central inverter award USD OR R$ OR CLP per MW 2021..2026 versus Huawei Arinos
+next_query: Brazil Siemens Energy OR Hitachi Energy OR GE Vernova OR WEG power transformer award unit price R$ OR USD 2024..2026 versus China XD WAVE4 OR XD NE
 next_row_id: hunt_br_power_equip
-dry_streak: 0
+dry_streak: 1
 remote: present
 seen_urls:
+- https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert
 - https://news.solarbe.com/202212/23/363480.html
 - https://sidof.segob.gob.mx/notas/docFuente/5762378
 - https://valor.globo.com/empresas/noticia/2023/11/09/hitachi-energy-e-taesa-se-unem-por-reforma-do-linhao-de-energia-entre-brasil-e-argentina.ghtml
@@ -103,6 +104,7 @@ seen_urls:
 - https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/
 - https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
 misses:
+- 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile OR Mexico SMA OR GE OR Siemens OR Fronius utility string OR central inverter award USD OR R$ OR CLP per MW 2021..2026 versus Huawei Arinos | Opened SMA (3 Feb 2021) Diego de Almagro Sur / Colbún: 46 MVPS Sunny Central 4600 for 220 MW — no contract price. Spec also central vs Arinos string. dry_streak 1.
 - 2026-10-01 | commanding_heights | power_equipment | Mexico CompraNet OR CFE DOF transformador potencia OR inversor Siemens OR GE OR Prolec versus China OR WASION OR Huawei unit price 2021..2026 | Opened SIDOF CFE-0001-CAAAT-0054-2025 Transformadores FSUE convocatoria: schedule only, no fallo amounts or sellers on the page. dry_streak 2.
 - 2026-10-01 | commanding_heights | power_equipment | Hitachi Energy OR Siemens Energy OR GE Vernova LatAm HVDC OR converter station award USD package OR unit 2021..2026 versus China XD Kimal | Opened Hitachi Energy Garabi upgrade PR (9 Nov 2023) and Valor: MACH control refresh for Taesa; Valor explicitly “valor do contrato não foi divulgado.” Not a new converter-station EPC unit price. Kimal XD USD 331.8m/station remains one-sided. dry_streak 1.
 - 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile GE Vernova OR Hitachi Energy OR Prolec-GE UHV OR 500 kV OR 765 kV power transformer award unit price 2025 versus China XD WAVE4 | Opened Megawhat (14 Aug 2025) GE Vernova–Arauco Sucuriú: 230 kV GIS + five power transformers + cable/bay scope — no contract value or USD/transformer. WAVE4 XD ~CNY 260m/17 remains one-sided PRC. dry_streak 1.
