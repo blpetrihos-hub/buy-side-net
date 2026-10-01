@@ -1564,5 +1564,221 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "worley_rincon_20250227",
+    "type": "official",
+    "chicago": "Worley. “Helping Rio Tinto scale up production of critical battery materials.” 27 February 2025.",
+    "url": "https://www.worley.com/en/insights/our-news/resources/2025/helping-rio-tinto-scaleup-production-critical-battery-materials",
+    "annotation": "Company primary Rincon Lead Integration Delivery Partner notice. Supports worley_rincon_lithium_epc_2025.",
+    "supports": [
+      "worley_rincon_lithium_epc_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "worley_rincon_lithium_epc_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "folha_cbmm_capex_20251030",
+    "type": "journalism",
+    "chicago": "Folha de S.Paulo / Reuters (Marta Nogueira). “CBMM prevê elevar produção de ferrobióbio em 5% neste ano e investir R$ 10 bi em 5 anos.” 30 October 2025.",
+    "url": "https://www1.folha.uol.com.br/mercado/2025/10/cbmm-preve-elevar-producao-de-ferrobiobio-em-5-neste-ano-e-investir-r-10-bi-em-5-anos.shtml",
+    "annotation": "Press interview on CBMM capex/production plan. Supports cbmm_araxa_capex_plan_2025 (UNVERIFIED proxy).",
+    "supports": [
+      "cbmm_araxa_capex_plan_2025",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "cbmm_araxa_capex_plan_2025",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "hydrorein_vista_alegre_20250130",
+    "type": "official",
+    "chicago": "Hydro Rein. “Hydro Rein acquires stake in Brazil’s largest single-phase solar complex, Vista Alegre.” 30 January 2025.",
+    "url": "https://www.hydrorein.com/en/news/hydro-rein-acquires-stake-in-brazils-largest-single-phase-solar-complex-vista-alegre/",
+    "annotation": "Company primary Vista Alegre equity acquisition/COD notice. Supports atlas_vista_alegre_solar_br_2025.",
+    "supports": [
+      "atlas_vista_alegre_solar_br_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "atlas_vista_alegre_solar_br_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "eramet_centenario_20240703",
+    "type": "official",
+    "chicago": "Eramet. “Eramet inaugurates its direct lithium extraction plant in Argentina, becoming the first European company to produce battery-grade lithium carbonate at industrial scale.” 3 July 2024.",
+    "url": "https://www.eramet.com/en/news/eramet-inaugurates-its-direct-lithium-extraction-plant-in-argentina-becoming-the-first-european-company-to-produce-battery-grade-lithium-carbonate-at-industrial-scale/",
+    "annotation": "Company primary Centenario Phase 1 inauguration. Supports eramet_centenario_phase1_2024.",
+    "supports": [
+      "eramet_centenario_phase1_2024",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "eramet_centenario_phase1_2024",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "carmeuse_cbb_20250915",
+    "type": "official",
+    "chicago": "Carmeuse Group. “Carmeuse Announces the Acquisition of Controlling Stake in Cementos Bío Bío.” 15 September 2025.",
+    "url": "https://www.carmeuse.com/na-en/newsroom/global/carmeuse-announces-acquisition-controlling-stake-cementos-bio-bio",
+    "annotation": "Company primary CBB controlling-stake acquisition notice. Supports carmeuse_bio_bio_chile_2025.",
+    "supports": [
+      "carmeuse_bio_bio_chile_2025",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "carmeuse_bio_bio_chile_2025",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "apmt_lazaro_armg_20250603",
+    "type": "official",
+    "chicago": "APM Terminals. “Six new electric cranes for APM Terminals Lázaro Cárdenas in Mexico.” 3 June 2025.",
+    "url": "https://www.apmterminals.com/en/news/news-releases/2025/250603-six-new-cranes-in-lazaro-cardenas",
+    "annotation": "Company primary Lazaro Phase II investment/capacity notice. Supports apmt_lazaro_phase2_2025.",
+    "supports": [
+      "apmt_lazaro_phase2_2025",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "apmt_lazaro_phase2_2025",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "vestas_dom_inocencio_20251217",
+    "type": "official",
+    "chicago": "Vestas. “Casa dos Ventos and Vestas announce new partnership for the 828 MW Dom Inocêncio Wind Complex in Brazil.” 17 December 2025.",
+    "url": "https://www.vestas.com/en/media/company-news/2025/casa-dos-ventos-and-vestas-announce-new-partnership-for-c4283083",
+    "annotation": "Company primary Dom Inocêncio wind order. Supports vestas_dom_inocencio_br_2025.",
+    "supports": [
+      "vestas_dom_inocencio_br_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "vestas_dom_inocencio_br_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "apmt_equipment_agreements_20240605",
+    "type": "official",
+    "chicago": "APM Terminals. “APM Terminals ramps up capacity with agreements for 240 pieces of container handling equipment.” 5 June 2024.",
+    "url": "https://www.apmterminals.com/en/news/news-releases/2024/240605-apm-terminals-ramps-up-capacity",
+    "annotation": "Company primary ZPMC Lazaro ARMG/straddle agreement. Supports zpmc_apmt_lazaro_armg_2024.",
+    "supports": [
+      "zpmc_apmt_lazaro_armg_2024",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_apmt_lazaro_armg_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ictsi_cmsa_rtg_20251126",
+    "type": "official",
+    "chicago": "International Container Terminal Services, Inc. “Contecon Manzanillo adds hybrid RTGs to equipment fleet.” 26 November 2025.",
+    "url": "https://ictsi.com/news/contecon-manzanillo-adds-hybrid-rtgs-equipment-fleet",
+    "annotation": "Company primary CMSA ZPMC hybrid RTG delivery. Supports zpmc_cmsa_manzanillo_rtg_2025.",
+    "supports": [
+      "zpmc_cmsa_manzanillo_rtg_2025",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_cmsa_manzanillo_rtg_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "alstom_line7_20250716",
+    "type": "official",
+    "chicago": "Alstom. “Alstom completes production of the first train carbody shell for Santiago Metro Line 7.” 16 July 2025.",
+    "url": "https://www.alstom.com/press-releases-news/2025/7/alstom-completes-production-first-train-carbody-shell-santiago-metro-line-7",
+    "annotation": "Company primary Line 7 train/CBTC contract milestone. Supports alstom_santiago_line7_2025.",
+    "supports": [
+      "alstom_santiago_line7_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "alstom_santiago_line7_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "vale_onca_puma_furnace2_20250930",
+    "type": "official",
+    "chicago": "Vale Base Metals. “Vale Base Metals Announces Start-Up of Furnace 2 at Onça Puma.” 30 September 2025.",
+    "url": "https://vale.com/w/vale-base-metals-announces-start-up-of-furnace-2-at-onca-puma-1",
+    "annotation": "Company primary Onça Puma Furnace 2 start-up. Supports vale_onca_puma_furnace2_2025.",
+    "supports": [
+      "vale_onca_puma_furnace2_2025",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "hunt_res_nickel",
+      "vale_onca_puma_furnace2_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "anglo_quellaveco_20220926",
+    "type": "official",
+    "chicago": "Anglo American. “Anglo American to begin copper shipments from Quellaveco.” 26 September 2022.",
+    "url": "https://www.angloamerican.com/media/press-releases/2022/26-09-2022",
+    "annotation": "Company primary Quellaveco commercial start notice. Supports anglo_quellaveco_peru.",
+    "supports": [
+      "anglo_quellaveco_peru",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "anglo_quellaveco_peru",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
