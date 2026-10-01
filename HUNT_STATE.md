@@ -1,60 +1,82 @@
 updated: 2026-10-01
-cycle: 34
+cycle: 35
 remote: present
-active_layer: infrastructure
-active_subcategory: rail
-next_query: Cycle 35 shuffle_seed=20261035; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-35 shuffled_order)
+active_layer: resources
+active_subcategory: balsa
+next_query: Cycle 36 shuffle_seed=20261036; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-36 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261034
+shuffle_seed: 20261035
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
 - infrastructure/building_materials
-- resources/lithium
-- resources/graphite
-- energy/other_renewables
 - infrastructure/port_cranes
-- energy/wind
-- resources/niobium
-- infrastructure/port_ownership
+- resources/graphite
 - energy/power_plants_grid
 - resources/copper
+- energy/wind
 - infrastructure/engineering_epc
-- resources/water
-- energy/fission_smr
 - infrastructure/bridges_roads
 - energy/solar
-- resources/balsa
-- resources/nickel
 - infrastructure/rail
+- resources/lithium
+- energy/other_renewables
+- energy/fission_smr
+- resources/nickel
+- resources/water
+- infrastructure/port_ownership
+- resources/niobium
+- resources/balsa
 
 rows_found_this_cycle:
-  infrastructure/building_materials: 1
-  resources/lithium: 1
+  infrastructure/building_materials: 2
+  infrastructure/port_cranes: 0
   resources/graphite: 0
-  energy/other_renewables: 1
-  infrastructure/port_cranes: 1
-  energy/wind: 0
-  resources/niobium: 0
-  infrastructure/port_ownership: 0
-  energy/power_plants_grid: 0
-  resources/copper: 1
+  energy/power_plants_grid: 1
+  resources/copper: 0
+  energy/wind: 1
   infrastructure/engineering_epc: 0
-  resources/water: 0
-  energy/fission_smr: 0
-  infrastructure/bridges_roads: 1
-  energy/solar: 1
-  resources/balsa: 0
-  resources/nickel: 0
+  infrastructure/bridges_roads: 0
+  energy/solar: 0
   infrastructure/rail: 0
+  resources/lithium: 0
+  energy/other_renewables: 1
+  energy/fission_smr: 0
+  resources/nickel: 0
+  resources/water: 0
+  infrastructure/port_ownership: 0
+  resources/niobium: 1
+  resources/balsa: 0
+
+coverage_cumulative:
+  # Active (non-archived, non-exclude) observation counts after cycle 35
+  # Also refreshed graphcoa_jordania_dfs_capex_2026 to EIA-cited R$621.76m / USD 120m (not a new id).
+  infrastructure/port_ownership: 18
+  infrastructure/port_cranes: 23
+  infrastructure/rail: 18
+  infrastructure/bridges_roads: 19
+  infrastructure/building_materials: 17
+  infrastructure/engineering_epc: 18
+  resources/niobium: 12
+  resources/lithium: 20
+  resources/copper: 18
+  resources/nickel: 14
+  resources/graphite: 12
+  resources/balsa: 10
+  resources/water: 15
+  energy/fission_smr: 11
+  energy/solar: 17
+  energy/wind: 15
+  energy/power_plants_grid: 22
+  energy/other_renewables: 20
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 34

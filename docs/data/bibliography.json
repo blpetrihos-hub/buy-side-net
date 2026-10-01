@@ -4403,16 +4403,18 @@
   },
   {
     "id": "diario_comercio_cbmm_13bn_20260918",
-    "type": "press",
-    "chicago": "Diário do Comércio. “Mineira CBMM planeja investimentos de R$ 13 bilhões até 2031.” 18 September 2026.",
+    "type": "trade_press",
+    "chicago": "Diário do Comércio. “Nióbio: CBMM planeja investimentos de R$ 13 bilhões até 2031.” 18 September 2026.",
     "url": "https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/",
-    "annotation": "UNVERIFIED press citing CBMM R$13bn 2026–2031 Araxá plan. Supports cbmm_araxa_13bn_plan_2026.",
+    "annotation": "Press citing CBMM note on R$13bn plan and R$2bn 2026 spend. Supports cbmm_araxa_13bn_plan_2026 and cbmm_araxa_2026_spend_2bn.",
     "supports": [
       "cbmm_araxa_13bn_plan_2026",
+      "cbmm_araxa_2026_spend_2bn",
       "hunt_fenb_araxa"
     ],
     "map_supports": [
       "cbmm_araxa_13bn_plan_2026",
+      "cbmm_araxa_2026_spend_2bn",
       "hunt_fenb_araxa"
     ],
     "layers": [
@@ -4936,6 +4938,114 @@
     "map_supports": [
       "hunt_energy_solar",
       "trina_sidon_solar_100m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "roadshow_cbb_mejillones_20260714",
+    "type": "trade_press",
+    "chicago": "RoadShow. “Belga Carmeuse activa su primera inversión en Cementos Bío Bío: US$42 millones en Mejillones.” 14 July 2026.",
+    "url": "https://roadshow.cl/cementos-biobio-planta-mejillones-us-42-millones/",
+    "annotation": "Trade press on CBB/Carmeuse Mejillones grind plant USD 42m. Supports cbb_mejillones_grind_42m_2026.",
+    "supports": [
+      "cbb_mejillones_grind_42m_2026",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "cbb_mejillones_grind_42m_2026",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "globalcement_cruz_azul_20260820",
+    "type": "trade_press",
+    "chicago": "Global Cement. “Cooperativa La Cruz Azul invests US$383m in Hidalgo plant.” 20 August 2026.",
+    "url": "https://www.globalcement.com/news/21145-cooperativa-la-cruz-azul-invests-us-383m-in-hidalgo-plant",
+    "annotation": "Trade press on Cruz Azul Hidalgo reactivation USD 383m. Supports cruz_azul_hidalgo_383m_2026.",
+    "supports": [
+      "cruz_azul_hidalgo_383m_2026",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "cruz_azul_hidalgo_383m_2026",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "bnamericas_graphcoa_jordania_20260624",
+    "type": "trade_press",
+    "chicago": "BNamericas. “Appian unit in Brazil will invest US$120 million in graphite project.” 24 June 2026.",
+    "url": "https://www.bnamericas.com/en/news/appian-unit-in-brazil-will-invest-us120-million-in-graphite-project",
+    "annotation": "Trade press citing Graphcoa EIA investment R$621.76m / USD 120m. Supports graphcoa_jordania_dfs_capex_2026.",
+    "supports": [
+      "graphcoa_jordania_dfs_capex_2026",
+      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "graphcoa_jordania_dfs_capex_2026",
+      "hunt_res_graphite"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "hitachi_latam_addl_20260309",
+    "type": "company",
+    "chicago": "Hitachi Energy. “Hitachi Energy reaffirms commitment to Latin America through an additional $150 million USD investment to expand power transformer manufacturing capacity.” 9 March 2026.",
+    "url": "https://www.hitachienergy.com/ch/it/news-and-events/features/2026/03/hitachi-energy-reaffirms-commitment-to-latin-america-through-an-additional-150-million-usd-investment-to-expand-power-transformer-manufacturing-capacity",
+    "annotation": "Company announcement of additional LatAm transformer Capex incl. Brazil USD 70m. Supports hitachi_brazil_addl_70m_2026.",
+    "supports": [
+      "hitachi_brazil_addl_70m_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hitachi_brazil_addl_70m_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "windtech_goldwind_470_20260102",
+    "type": "trade_press",
+    "chicago": "Windtech International. “Goldwind secures 470MW wind turbine order in Brazil.” 2 January 2026.",
+    "url": "https://www.windtech-international.com/projects-and-contracts/goldwind-secures-470mw-wind-turbine-order-in-brazil",
+    "annotation": "Trade notice of Goldwind first FINAME Brazil order >470 MW. Supports goldwind_470mw_finame_br_2026.",
+    "supports": [
+      "goldwind_470mw_finame_br_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "goldwind_470mw_finame_br_2026",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "redimin_jinko_amanecer_20251222",
+    "type": "trade_press",
+    "chicago": "REDIMIN. “Jinko Power impulsa el almacenamiento energético en Chile con nuevo megaproyecto en Atacama por US$500 millones.” 22 December 2025.",
+    "url": "https://www.redimin.cl/jinko-power-impulsa-el-almacenamiento-energetico-en-chile-con-nuevo-megaproyecto-en-atacama-por-us500-millones",
+    "annotation": "Trade press on Jinko BESS Amanecer SEIA filing USD 500m. Supports jinko_bess_amanecer_500m_2025.",
+    "supports": [
+      "jinko_bess_amanecer_500m_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "jinko_bess_amanecer_500m_2025"
     ],
     "layers": [
       "energy"

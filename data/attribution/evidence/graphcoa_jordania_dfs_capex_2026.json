@@ -1,10 +1,10 @@
 {
   "id": "graphcoa_jordania_dfs_capex_2026",
   "retrieved": "2026-10-01",
-  "source_id": "exame_appian_atlantic_ug_20260825",
-  "url": "https://exame.com/invest/mercados/appian-vai-investir-ate-r-700-milhoes-em-grafite-em-mg-com-demanda-de-carros-eletricos/",
+  "source_id": "bnamericas_graphcoa_jordania_20260624",
+  "url": "https://www.bnamericas.com/en/news/appian-unit-in-brazil-will-invest-us120-million-in-graphite-project",
   "price_year": "2026",
   "evidence": "proxy",
-  "quote": "Com investimento estimado em cerca de R$ 700 milhões, segundo o diretor executivo Ricardo Alves, a companhia desenvolve o Projeto Grafite Jordânia, da Graphcoa, no Vale do Jequitinhonha (MG). … O projeto acaba de concluir o seu Estudo de Viabilidade Definitivo (Definitive Feasibility Study – DFS) … previsão de entrar em operação comercial no segundo semestre de 2029.",
-  "note": "Opened Exame PT interview; same source family as Atlantic Nickel UG row this cycle."
+  "quote": "Graphcoa … plans to invest 621.76 million (mn) reais (US$120mn) in a project in the Brazilian state of Minas Gerais. … production capacity of 53 thousand tons per year",
+  "note": "Opened BNamericas 24 Jun 2026 citing EIA-Rima. Mark UNVERIFIED proxy."
 }
