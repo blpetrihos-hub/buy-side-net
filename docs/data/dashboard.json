@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 222,
+    "n_rows": 226,
     "counts": {
-      "total": 222,
-      "active": 167,
+      "total": 226,
+      "active": 171,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 30,
+      "proxy": 31,
       "exclude": 5,
-      "documented": 136,
-      "on_map": 156
+      "documented": 139,
+      "on_map": 160
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 5,
-        "prc": 24,
-        "allied": 33,
-        "n": 62
+        "prc": 25,
+        "allied": 34,
+        "n": 64
       },
       "usd": {
         "us": 170000000.0,
@@ -131,16 +131,16 @@
       "counts": {
         "us": 9,
         "prc": 14,
-        "allied": 31,
-        "n": 54
+        "allied": 33,
+        "n": 56
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
         "prc": 2010442290.0,
         "prc_n": 8,
-        "allied": 13386936427.2,
-        "allied_n": 10
+        "allied": 13836936427.2,
+        "allied_n": 11
       },
       "matched_gaps": {
         "n": 0,
@@ -239,17 +239,17 @@
       "country": "Brazil",
       "counts": {
         "us": 4,
-        "prc": 21,
-        "allied": 37,
-        "n": 62
+        "prc": 22,
+        "allied": 40,
+        "n": 66
       },
       "usd": {
         "us": 550000000.0,
         "us_n": 1,
         "prc": 1252595264.55,
         "prc_n": 9,
-        "allied": 2331859384.9300003,
-        "allied_n": 10
+        "allied": 2781859384.9300003,
+        "allied_n": 11
       },
       "by_layer": {
         "energy": {
@@ -259,13 +259,13 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 8,
-          "allied": 9
+          "prc": 9,
+          "allied": 10
         },
         "resources": {
           "us": 3,
           "prc": 4,
-          "allied": 13
+          "allied": 15
         }
       }
     },
@@ -803,7 +803,11 @@
       "goldwind_sento_se_872mw_2026",
       "ganfeng_laac_convertible_180m_2026",
       "lycopodium_san_cristobal_epcm_2026",
-      "m3_vizsla_panuco_epcm_2026"
+      "m3_vizsla_panuco_epcm_2026",
+      "sedgman_colossus_epcm_2026",
+      "zpmc_tecon_rio_grande_2026",
+      "centaurus_jaguar_bndes_loi_2026",
+      "centaurus_glencore_offtake_jaguar_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

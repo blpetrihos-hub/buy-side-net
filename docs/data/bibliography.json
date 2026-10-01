@@ -3024,5 +3024,77 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "sedgman_colossus_20260915",
+    "type": "official",
+    "chicago": "Sedgman / HOCHTIEF. “Sedgman appointed as the preferred EPCM contractor for Colossus Rare Earth Project.” 15 September 2026.",
+    "url": "https://www.hochtief.com/news-media/press-releases/press-release/sedgman-appointed-as-the-preferred-epcm-contractor-for-colossus-rare-earth-project",
+    "annotation": "Company primary Colossus preferred-EPCM appointment. Supports sedgman_colossus_epcm_2026.",
+    "supports": [
+      "sedgman_colossus_epcm_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "sedgman_colossus_epcm_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "gauchazh_tecon_rg_zpmc_20260918",
+    "type": "press",
+    "chicago": "GaúchaZH / Zero Hora. “Tecon Rio Grande recebe R$ 290 milhões em equipamentos para movimentação de contêineres.” 18 September 2026.",
+    "url": "https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/09/tecon-rio-grande-recebe-r-290-milhoes-em-equipamentos-para-movimentacao-de-conteineres-cmu738bdl01v1014x2r640dlr.html",
+    "annotation": "Local press on Tecon Rio Grande ZPMC STS/aRTG delivery. Supports zpmc_tecon_rio_grande_2026 (UNVERIFIED value).",
+    "supports": [
+      "zpmc_tecon_rio_grande_2026",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_tecon_rio_grande_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "centaurus_jaguar_bndes_loi_20260323",
+    "type": "official",
+    "chicago": "Centaurus Metals Limited. “Centaurus Receives Letter of Intent for R$1 Billion in Debt Funding from the Brazilian National Development Bank.” ASX announcement, 23 March 2026.",
+    "url": "https://centaurusmetals.com/pdf/464fb39b-afc4-467c-9317-33f1c3870c73/LOI-for-US190M-from-Brazils-National-Development-Bank.pdf?Platform=ListPage",
+    "annotation": "Company primary BNDES FINEM LOI for Jaguar. Supports centaurus_jaguar_bndes_loi_2026.",
+    "supports": [
+      "centaurus_jaguar_bndes_loi_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "centaurus_jaguar_bndes_loi_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "centaurus_glencore_offtake_20260316",
+    "type": "official",
+    "chicago": "Centaurus Metals Limited. “Centaurus Secures Maiden Nickel Offtake with Glencore for the Jaguar Nickel Project, Brazil.” ASX announcement, 16 March 2026.",
+    "url": "https://centaurusmetals.com/PDF/26affd46-2e70-40ee-a903-3e3098301ac8/MaidenNickelOfftakeforJaguarSecuredfromGlencore",
+    "annotation": "Company primary Glencore Jaguar offtake. Supports centaurus_glencore_offtake_jaguar_2026.",
+    "supports": [
+      "centaurus_glencore_offtake_jaguar_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "centaurus_glencore_offtake_jaguar_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
