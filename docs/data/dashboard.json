@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 229,
+    "n_rows": 231,
     "counts": {
-      "total": 229,
-      "active": 174,
+      "total": 231,
+      "active": 176,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 32,
+      "proxy": 33,
       "exclude": 5,
-      "documented": 141,
-      "on_map": 163
+      "documented": 142,
+      "on_map": 165
     }
   },
   "layer_readouts": [
@@ -108,8 +108,8 @@
       "counts": {
         "us": 5,
         "prc": 26,
-        "allied": 34,
-        "n": 65
+        "allied": 35,
+        "n": 66
       },
       "usd": {
         "us": 170000000.0,
@@ -152,8 +152,8 @@
       "counts": {
         "us": 7,
         "prc": 18,
-        "allied": 24,
-        "n": 49
+        "allied": 25,
+        "n": 50
       },
       "usd": {
         "us": 0.0,
@@ -177,8 +177,8 @@
       "counts": {
         "us": 2,
         "prc": 8,
-        "allied": 9,
-        "n": 19
+        "allied": 10,
+        "n": 20
       },
       "usd": {
         "us": 0.0,
@@ -192,7 +192,7 @@
         "energy": {
           "us": 2,
           "prc": 1,
-          "allied": 2
+          "allied": 3
         },
         "infrastructure": {
           "us": 0,
@@ -240,8 +240,8 @@
       "counts": {
         "us": 4,
         "prc": 22,
-        "allied": 41,
-        "n": 67
+        "allied": 42,
+        "n": 68
       },
       "usd": {
         "us": 550000000.0,
@@ -260,7 +260,7 @@
         "infrastructure": {
           "us": 0,
           "prc": 9,
-          "allied": 10
+          "allied": 11
         },
         "resources": {
           "us": 3,
@@ -810,7 +810,9 @@
       "centaurus_glencore_offtake_jaguar_2026",
       "sacyr_coquimbo_desal_2026",
       "cbmm_echion_xno_araxa_2024",
-      "ccecc_quinto_puente_1a_2026"
+      "ccecc_quinto_puente_1a_2026",
+      "nuclearis_n1_smr_2026",
+      "hitachi_trivia_sp_metro_power_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
