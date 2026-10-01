@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_ucas_h20_202504",
-    "note": "Cycle 32 logged ucas_h20_xe9680_202504 as one_sided U.S.: Dell XE9680 + HGX H20 8-GPU at CNY 1,195,000/system (Apr 2025). Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
-    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
-    "quote": "GPU 服务器 DELL PowerEdge XE9680 … 4 … 1195000 … NVIDIA HGX H20 8-GPU SXM 96GB"
+    "source_id": "ccgp_cip_atlas800i_2025",
+    "note": "Cycle 33 logged cip_atlas800i_a2_2025 as one_sided PRC: Huawei Atlas 800I A2 at CNY 1,320,000/system (Oct 2025). Chip count not on award table. Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
+    "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
+    "quote": "GPU并行运算服务器 … 华为 … Atlas800I A2 … 1 … 1320000"
   },
   {
     "id": "hunt_icbc_rate",
@@ -1021,5 +1021,36 @@
     "note": "One-sided U.S.-seller (Nvidia HGX H20) China award. CCGP 24 Apr 2025: Dell PowerEdge XE9680 with NVIDIA HGX H20 8-GPU at CNY 1,195,000 each (4 units); award also includes Dell storage/switches and software line items not used here. Unit is USD/system, not USD/chip — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.2098 CNY on 2025-04-24.",
     "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
     "quote": "GPU 服务器 DELL PowerEdge XE9680 … 4 … 1195000 … NVIDIA HGX H20 8-GPU SXM 96GB 500W GPUs模组"
+  },
+  {
+    "id": "cip_atlas800i_a2_2025",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "Criminal Investigation Police University of China (公共算力服务中心一期)",
+    "seller_us": "",
+    "seller_prc": "Huawei (Atlas 800I A2 via China Telecom Digital Intelligence / 中电信数智)",
+    "city": "Shenyang",
+    "lat": null,
+    "lon": null,
+    "geo_note": "Buyer address on award: Huanggu District Tawan St 83 Shenyang; lat/lon left blank (no verified campus coordinates opened).",
+    "price_year": "2025",
+    "spec": "Huawei Atlas 800I A2 GPU parallel-compute server (1 system); system price, not per-chip; chip count not stated on award table",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.14093638,
+    "fx_date": "2025-10-22",
+    "us_price": null,
+    "prc_price": 1320000.0,
+    "us_price_usd": null,
+    "prc_price_usd": 186036.02,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "ccgp_cip_atlas800i_2025",
+    "note": "One-sided PRC. CCGP 22 Oct 2025: Huawei Atlas 800I A2 at CNY 1,320,000 (1 unit) within a CNY 2.80m package that also awards H3C UniServer R5330 G7, KunTai R722, AI platform, and switch lines—those lines not used here. Unit is USD/system, not USD/chip; Ascend card count not printed on the award table — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.0954 CNY on 2025-10-22.",
+    "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
+    "quote": "GPU并行运算服务器 … 华为 … Atlas800I A2 … 1 … 1320000"
   }
 ]

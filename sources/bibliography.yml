@@ -352,3 +352,17 @@
   annotation: "PBOC central parity 1 USD = 7.2098 CNY on 2025-04-24. FX for ucas_h20_xe9680_202504."
   supports: ["ucas_h20_xe9680_202504"]
 
+- id: ccgp_cip_atlas800i_2025
+  type: official
+  chicago: "中国刑事警察学院 / 中国政府采购网. “公共算力服务中心项目一期采购项目中标公告.” 22 October 2025."
+  url: "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm"
+  annotation: "Huawei Atlas 800I A2 at CNY 1,320,000 (1 unit). One-sided PRC system price for cip_atlas800i_a2_2025."
+  supports: ["cip_atlas800i_a2_2025", "hunt_ascend_chip"]
+
+- id: pboc_cny_20251022
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 22 October 2025."
+  url: "https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025111413265770846/index.html"
+  annotation: "PBOC central parity 1 USD = 7.0954 CNY on 2025-10-22. FX for cip_atlas800i_a2_2025."
+  supports: ["cip_atlas800i_a2_2025"]
+
