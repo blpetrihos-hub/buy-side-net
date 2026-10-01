@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 213,
+    "n_rows": 216,
     "counts": {
-      "total": 213,
-      "active": 158,
+      "total": 216,
+      "active": 161,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 28,
+      "proxy": 29,
       "exclude": 5,
-      "documented": 129,
-      "on_map": 147
+      "documented": 131,
+      "on_map": 150
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 4,
-        "prc": 23,
-        "allied": 30,
-        "n": 57
+        "prc": 24,
+        "allied": 31,
+        "n": 59
       },
       "usd": {
         "us": 0.0,
@@ -131,16 +131,16 @@
       "counts": {
         "us": 9,
         "prc": 13,
-        "allied": 30,
-        "n": 52
+        "allied": 31,
+        "n": 53
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
         "prc": 1830442290.0,
         "prc_n": 7,
-        "allied": 13082936427.2,
-        "allied_n": 9
+        "allied": 13386936427.2,
+        "allied_n": 10
       },
       "matched_gaps": {
         "n": 0,
@@ -544,16 +544,16 @@
       "counts": {
         "us": 0,
         "prc": 2,
-        "allied": 7,
-        "n": 9
+        "allied": 8,
+        "n": 10
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 165000000.0,
-        "allied_n": 1
+        "allied": 469000000.0,
+        "allied_n": 2
       },
       "by_layer": {
         "energy": {
@@ -569,7 +569,7 @@
         "resources": {
           "us": 0,
           "prc": 0,
-          "allied": 2
+          "allied": 3
         }
       }
     },
@@ -601,9 +601,9 @@
       "country": "Peru",
       "counts": {
         "us": 2,
-        "prc": 4,
-        "allied": 5,
-        "n": 11
+        "prc": 5,
+        "allied": 6,
+        "n": 13
       },
       "usd": {
         "us": 0.0,
@@ -621,8 +621,8 @@
         },
         "infrastructure": {
           "us": 1,
-          "prc": 1,
-          "allied": 3
+          "prc": 2,
+          "allied": 4
         },
         "resources": {
           "us": 1,
@@ -789,7 +789,10 @@
       "acciona_la_gina_dr_2026",
       "ormat_dominica_geothermal_ppa_2023",
       "south_star_santa_cruz_po_36t_2026",
-      "konecranes_cartagena_rtg_2025"
+      "konecranes_cartagena_rtg_2025",
+      "heidelberg_cementos_inka_peru_2026",
+      "cox_rosarito_desal_mexico_2026",
+      "crbc_arequipa_la_joya_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

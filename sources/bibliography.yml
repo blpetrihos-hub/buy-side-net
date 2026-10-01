@@ -2155,3 +2155,31 @@
   supports:
   - konecranes_cartagena_rtg_2025
   - hunt_infra_port_cranes
+- id: heidelberg_inka_20260908
+  type: official
+  chicago: 'Heidelberg Materials. “Expanding its trading operations with asset-light acquisition: Heidelberg
+    Materials takes majority stake in Peru-based Cementos Inka.” 8 September 2026.'
+  url: https://www.heidelbergmaterials.com/en/pr-2026-09-08
+  annotation: Company primary on Cementos Inka 70% stake. Supports heidelberg_cementos_inka_peru_2026.
+  supports:
+  - heidelberg_cementos_inka_peru_2026
+  - hunt_infra_building_materials
+- id: cox_rosarito_20260818
+  type: official
+  chicago: Cox. “Cox to build Latin America’s largest desalination plant in Mexico, a $304 million project.”
+    18 August 2026.
+  url: https://grupocox.com/en/cox-to-build-latin-americas-largest-desalination-plant-in-mexico-304-million-project/
+  annotation: Company primary Rosarito desal award. Supports cox_rosarito_desal_mexico_2026.
+  supports:
+  - cox_rosarito_desal_mexico_2026
+  - hunt_res_water
+- id: elpueblo_arequipa_la_joya_20260702
+  type: press
+  chicago: Diario El Pueblo (Arequipa). “MTC adjudica componente III de vía Arequipa–La Joya a empresa
+    con antecedentes internacionales.” 2 July 2026.
+  url: https://diarioelpueblo.com.pe/2026/07/02/mtc-adjudica-componente-iii-de-via-arequipa-la-joya-a-empresa-con-antecedentes-internacionales/
+  annotation: Local press report of MTC/Provías OxI award to CRBC consortium. Supports crbc_arequipa_la_joya_2026
+    (UNVERIFIED value).
+  supports:
+  - crbc_arequipa_la_joya_2026
+  - hunt_infra_bridges_roads
