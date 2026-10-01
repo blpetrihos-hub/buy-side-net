@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 447,
+    "n_rows": 451,
     "counts": {
-      "total": 447,
-      "active": 392,
+      "total": 451,
+      "active": 396,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
       "proxy": 89,
       "exclude": 5,
-      "documented": 299,
-      "on_map": 389
+      "documented": 303,
+      "on_map": 393
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 15,
+        "us": 16,
         "prc": 40,
-        "allied": 83,
-        "n": 138
+        "allied": 84,
+        "n": 140
       },
       "usd": {
         "us": 715000000.0,
@@ -129,10 +129,10 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 28,
+        "us": 29,
         "prc": 25,
         "allied": 88,
-        "n": 141
+        "n": 142
       },
       "usd": {
         "us": 23378641670.0,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 27,
+        "us": 28,
         "prc": 36,
         "allied": 48,
-        "n": 111
+        "n": 112
       },
       "usd": {
-        "us": 4237000000.0,
-        "us_n": 6,
+        "us": 4337000000.0,
+        "us_n": 7,
         "prc": 1088331437.19,
         "prc_n": 8,
         "allied": 2466859384.9300003,
@@ -177,14 +177,14 @@
     {
       "country": "Argentina",
       "counts": {
-        "us": 5,
+        "us": 6,
         "prc": 12,
         "allied": 22,
-        "n": 39
+        "n": 40
       },
       "usd": {
-        "us": 7000000000.0,
-        "us_n": 1,
+        "us": 7100000000.0,
+        "us_n": 2,
         "prc": 1512321329.76,
         "prc_n": 7,
         "allied": 17694362187.2,
@@ -192,7 +192,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
+          "us": 4,
           "prc": 2,
           "allied": 6
         },
@@ -240,10 +240,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 18,
+        "us": 19,
         "prc": 36,
-        "allied": 89,
-        "n": 143
+        "allied": 90,
+        "n": 145
       },
       "usd": {
         "us": 806145000.0,
@@ -260,9 +260,9 @@
           "allied": 22
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 14,
-          "allied": 28
+          "allied": 29
         },
         "resources": {
           "us": 13,
@@ -424,10 +424,10 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 9,
+        "us": 10,
         "prc": 8,
         "allied": 14,
-        "n": 31
+        "n": 32
       },
       "usd": {
         "us": 181496670.0,
@@ -449,7 +449,7 @@
           "allied": 2
         },
         "resources": {
-          "us": 5,
+          "us": 6,
           "prc": 5,
           "allied": 9
         }
@@ -1098,7 +1098,11 @@
       "holcim_geocycle_nobsa_2m_2025",
       "kbr_pampa_bahia_blanca_ammonia_2026",
       "gurit_balsaflex_quevedo_presence",
-      "dfc_yilport_puerto_bolivar_150m_2023"
+      "dfc_yilport_puerto_bolivar_150m_2023",
+      "mcdermott_brava_papa_terra_atlanta_2025",
+      "siemens_trivia_sp_ato_etcs_2026",
+      "aes_idb_vientos_bonaerenses_iii_iv_2026",
+      "corelite_balsasud_ecuador_presence"
     ],
     "hunt": [
       "hunt_br_power_equip",

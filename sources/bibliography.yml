@@ -4368,3 +4368,36 @@
   supports:
   - dfc_yilport_puerto_bolivar_150m_2023
   - hunt_infra_port_ownership
+- id: rigzone_mcdermott_brava_20250714
+  type: press
+  chicago: Rigzone. “McDermott Wins Contract for BRAVA Energia’s Projects Offshore Brazil.” 14 July 2025.
+  url: https://www.rigzone.com/news/mcdermott_wins_contract_for_brava_energias_projects_offshore_brazil-14-jul-2025-181125-article/
+  annotation: Trade press citing McDermott sizeable Papa-Terra/Atlanta subsea T&I award. Supports mcdermott_brava_papa_terra_atlanta_2025.
+  supports:
+  - mcdermott_brava_papa_terra_atlanta_2025
+  - hunt_infra_engineering_epc
+- id: siemens_trivia_ato_etcs_2026
+  type: company
+  chicago: Siemens Mobility. “Siemens Mobility to modernize three lines of São Paulo’s transport network
+    in Latin America’s largest ATO over ETCS project.” 9 October 2025.
+  url: https://press.siemens.com/global/en/pressrelease/siemens-mobility-modernize-three-lines-sao-paulos-transport-network-latin-americas
+  annotation: Company primary on Trivia Lines 11/12/13 ATO-over-ETCS L2. Supports siemens_trivia_sp_ato_etcs_2026.
+  supports:
+  - siemens_trivia_sp_ato_etcs_2026
+  - hunt_latam_rail_telecom
+- id: idb_invest_vientos_bonaerenses_2026
+  type: government
+  chicago: IDB Invest. “IDB Invest and Vientos Bonaerenses Strengthen Energy Security in Argentina.” 2026.
+  url: https://idbinvest.org/en/news-media/idb-invest-and-vientos-bonaerenses-strengthen-energy-security-argentina
+  annotation: IDB Invest primary on up-to-USD 100m AES Argentina VBIII/VBIV package. Supports aes_idb_vientos_bonaerenses_iii_iv_2026.
+  supports:
+  - aes_idb_vientos_bonaerenses_iii_iv_2026
+  - hunt_energy_wind
+- id: corelite_sustainability_balsasud
+  type: company
+  chicago: CoreLite. “Sustainability.” Accessed 1 October 2026.
+  url: https://www.corelitecomposites.com/sustainability
+  annotation: Company primary naming Balsasud S.A. Ecuador as main balsa factory. Supports corelite_balsasud_ecuador_presence.
+  supports:
+  - corelite_balsasud_ecuador_presence
+  - hunt_res_balsa
