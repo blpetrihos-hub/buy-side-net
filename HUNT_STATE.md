@@ -1,12 +1,13 @@
 updated: 2026-10-01
-cycle: 54
+cycle: 55
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Brazil ComprasNet OR Cemig OR Eletrobras transformador potência OR inversor Huawei OR Sungrow versus WEG OR Siemens OR GE unit price 2021..2026
+next_query: Brazil OR Chile OR Mexico SMA OR GE OR Siemens OR Fronius utility string OR central inverter award USD OR R$ OR CLP per MW 2021..2026 versus Huawei Arinos
 next_row_id: hunt_br_power_equip
-dry_streak: 2
+dry_streak: 0
 remote: present
 seen_urls:
+- https://news.solarbe.com/202212/23/363480.html
 - https://sidof.segob.gob.mx/notas/docFuente/5762378
 - https://valor.globo.com/empresas/noticia/2023/11/09/hitachi-energy-e-taesa-se-unem-por-reforma-do-linhao-de-energia-entre-brasil-e-argentina.ghtml
 - https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system

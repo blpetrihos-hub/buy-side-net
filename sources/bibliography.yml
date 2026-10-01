@@ -626,3 +626,10 @@
   annotation: "Opened for Mexico power-equipment hunt. Tender calendar only (fallo scheduled 8 Aug 2025); no award amounts or bidder names on this page. Documents a dry pass."
   supports: ["hunt_mx_power_equip"]
 
+- id: solarbe_huawei_arinos_award_2022
+  type: journalism
+  chicago: "Solarbe. “华为中标三峡国际336.826MW组串式逆变器集采项目.” 23 December 2022. Citing China Three Gorges e-procurement award notice."
+  url: "https://news.solarbe.com/202212/23/363480.html"
+  annotation: "Huawei Digital Technologies (Suzhou) wins CTG Brazil Arinos string-inverter package at USD 7,340,703.40 for ~336.826 MW_ac. Supports huawei_ctg_arinos_inv_2022. Shortlist context (Huawei vs TBEA): https://news.solarbe.com/202212/20/363300.html (already logged as seen)."
+  supports: ["huawei_ctg_arinos_inv_2022", "hunt_br_power_equip"]
+
