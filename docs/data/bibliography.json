@@ -494,5 +494,16 @@
     "supports": [
       "mysteel_fenb_br_vs_cn_20260929"
     ]
+  },
+  {
+    "id": "cmoc_ar_2025_fenb_argus",
+    "type": "official",
+    "chicago": "CMOC Group Limited. Annual Report 2025 (English). “Market price of relevant products” — Nb Ferroniobium (USD/kg of niobium). Accessed 1 October 2026.",
+    "url": "https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf",
+    "annotation": "Cites Argus Media ferroniobium average USD 48.68/kg Nb (2025) and USD 46.46/kg Nb (2024). Market assessment, not a CBMM invoice. Supports cmoc_argus_fenb_kgNb_2025.",
+    "supports": [
+      "cmoc_argus_fenb_kgNb_2025",
+      "hunt_fenb_araxa"
+    ]
   }
 ]
