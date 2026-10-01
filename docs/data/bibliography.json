@@ -7712,5 +7712,191 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "atlas_mitsui_30m_20240328",
+    "type": "company",
+    "chicago": "Atlas Lithium Corporation. “Atlas Lithium Secures US$ 30,000,000 Strategic Investment and Offtake Agreement from Mitsui.” 28 March 2024.",
+    "url": "https://www.atlas-lithium.com/news/atlas-lithium-secures-us-30000000-strategic-investment-and-offtake-agreement-from-mitsui/",
+    "annotation": "Atlas primary on Mitsui USD 30m equity and Neves offtake. Supports mitsui_atlas_neves_30m_offtake_2024.",
+    "supports": [
+      "mitsui_atlas_neves_30m_offtake_2024",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "hunt_res_lithium",
+      "mitsui_atlas_neves_30m_offtake_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "prensa_libre_usace_gt_20260115",
+    "type": "press",
+    "chicago": "Gutiérrez, Erick. “Guatemala Invertirá US$110 Millones con Apoyo de EE. UU. para Modernizar Caminos y Reactivar Red Ferroviaria.” Prensa Libre, 15 January 2026.",
+    "url": "https://www.prensalibre.com/ahora/guatemala/comunitario/ee-uu-y-guatemala-firman-acuerdos-clave-para-mejorar-caminos-y-reactivar-sistema-ferroviario/",
+    "annotation": "Opened Guatemalan press on USACE Quetzal port LOA expansion. Supports usace_guatemala_quetzal_port_2026.",
+    "supports": [
+      "usace_guatemala_roads_110m_2026",
+      "usace_guatemala_quetzal_rail_2026",
+      "usace_guatemala_quetzal_port_2026",
+      "hunt_infra_bridges_roads",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "hunt_infra_port_ownership",
+      "usace_guatemala_quetzal_port_2026",
+      "usace_guatemala_quetzal_rail_2026",
+      "usace_guatemala_roads_110m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "emisoras_usace_gt_20260115",
+    "type": "press",
+    "chicago": "García, Jose. “Gobierno Presenta Proyectos Prioritarios de Infraestructura.” Emisoras Unidas, 15 January 2026.",
+    "url": "https://emisorasunidas.com/nacional/2026/01/15/gobierno-presenta-proyectos-prioritarios-de-infraestructura/",
+    "annotation": "Opened Emisoras Unidas on USACE Quetzal–Escuintla rail designs. Supports usace_guatemala_quetzal_rail_2026.",
+    "supports": [
+      "usace_guatemala_quetzal_rail_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "hunt_latam_rail_telecom",
+      "usace_guatemala_quetzal_rail_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "bravo_luanga_pfs_20260922",
+    "type": "company",
+    "chicago": "Bravo Mining Corp. “Bravo Reports Results of Pre-Feasibility Study for Its Luanga Project.” News release PDF, 22 September 2026.",
+    "url": "https://bravomining.cl1.adnetcms.com/site/assets/files/6350/2026-09-22-nr-bravo.pdf",
+    "annotation": "Bravo primary PFS with USD 784.9m pre-production CapEx. Supports bravo_luanga_pfs_785m_2026.",
+    "supports": [
+      "bravo_luanga_pfs_785m_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "bravo_luanga_pfs_785m_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "energy21_thermion_cfe_2026",
+    "type": "press",
+    "chicago": "Arias, Adrián. “Cuatro Empresas Acaparan el 55% de los Contratos Mixtos de CFE.” Energy21, 16 June 2026.",
+    "url": "https://energy21.com.mx/cuatro-empresas-acaparan-el-55-de-los-contratos-mixtos-de-cfe/",
+    "annotation": "Opened Mexican energy press on Thermion >1,600 MW CFE awards. Supports thermion_cfe_mexico_1600mw_2026.",
+    "supports": [
+      "thermion_cfe_mexico_1600mw_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "thermion_cfe_mexico_1600mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "energyx_eni_black_giant_20260706",
+    "type": "company",
+    "chicago": "Energy Exploration Technologies, Inc. “EnergyX Secures $225 Million Strategic Investment from Eni to Advance the Black Giant™ Lithium Project in Chile.” 6 July 2026.",
+    "url": "https://energyx.com/press-release/energyx-eni-strategic-investment/",
+    "annotation": "EnergyX primary stating Black Giant CapEx just below USD 1bn. Supports energyx_black_giant_capex_1bn_2026.",
+    "supports": [
+      "energyx_black_giant_capex_1bn_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "energyx_black_giant_capex_1bn_2026",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "megawhat_ge_arauco_gis_20250814",
+    "type": "press",
+    "chicago": "Souto, Poliana. “GE Vernova Fornecerá Subestação GIS para Fábrica de Celulose da Arauco no MS.” Megawhat / UOL, 14 August 2025.",
+    "url": "https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/",
+    "annotation": "Opened Brazilian energy press quoting GE Vernova on Sucuriú 230 kV GIS package. Supports ge_vernova_arauco_sucuriu_gis_2025.",
+    "supports": [
+      "ge_vernova_arauco_sucuriu_gis_2025",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "ge_vernova_arauco_sucuriu_gis_2025",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "corelite_los_rios_20201202",
+    "type": "company",
+    "chicago": "CoreLite. “CoreLite Signs Agreement with Local Government for Balsa Wood Supply.” 2 December 2020.",
+    "url": "https://www.corelitecomposites.com/blogs/post/CoreLite-Signs-Agreement-with-Local-Government-for-Balsa-Wood-Supply",
+    "annotation": "CoreLite primary on Los Ríos Province 2,500 ha balsa plantation agreement. Supports corelite_los_rios_2500ha_plantation_2020.",
+    "supports": [
+      "corelite_los_rios_2500ha_plantation_2020",
+      "hunt_res_balsa"
+    ],
+    "map_supports": [
+      "corelite_los_rios_2500ha_plantation_2020",
+      "hunt_res_balsa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "auxico_minastyc_title_2023",
+    "type": "company",
+    "chicago": "Auxico Resources Canada Inc. “Auxico Signs Exclusive Operating Agreement and Receives Mining Title Certificate for Minastyc Project in Colombia.” CNW Newswire, 2023.",
+    "url": "https://www.newswire.ca/news-releases/auxico-signs-exclusive-operating-agreement-and-receives-mining-title-certificate-for-minastyc-project-in-colombia-852585066.html",
+    "annotation": "Auxico primary/newswire on Minastyc title and Nb sample grades. Supports auxico_minastyc_title_nb_2023.",
+    "supports": [
+      "auxico_minastyc_title_nb_2023",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "auxico_minastyc_title_nb_2023",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "isa_serra_dourada_20251209",
+    "type": "company",
+    "chicago": "ISA ENERGIA BRASIL. “Projeto Serra Dourada: ISA ENERGIA BRASIL Avança com o Maior Investimento em Transmissão de Energia Renovável em Construção no Estado da Bahia.” 9 December 2025.",
+    "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/projeto-serra-dourada-isa-energia-brasil-avanca-com-o-maior-investimento-em-transmissao-de-energia-renovavel-em-construcao-no-estado-da-bahia/",
+    "annotation": "ISA primary on Serra Dourada R$ 3.2bn Capex ANEEL. Supports isa_energia_serra_dourada_3p2bn_2025.",
+    "supports": [
+      "isa_energia_serra_dourada_3p2bn_2025",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "isa_energia_serra_dourada_3p2bn_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
