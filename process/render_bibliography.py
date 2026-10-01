@@ -12,12 +12,15 @@ from __future__ import annotations
 import csv
 import html
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_assets import css_href, stamp_docs_html  # noqa: E402
 SRC = ROOT / "sources" / "bibliography.yml"
 CODEBOOK_YML = ROOT / "data" / "codebook" / "codebook.yml"
 OBS_CSV = ROOT / "data" / "codebook" / "observations.csv"
@@ -127,7 +130,7 @@ def page(body: str, title: str, site_title: str, subtitle: str) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)}</title>
-  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="{css_href()}">
 </head>
 <body>
 {nav(site_title, subtitle)}
@@ -348,6 +351,8 @@ def main() -> None:
         "sections=",
         section_counts,
     )
+    for path in stamp_docs_html():
+        print("STAMPED", path)
 
 
 if __name__ == "__main__":
