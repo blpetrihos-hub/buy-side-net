@@ -70,7 +70,7 @@
         "lithium": "Lithium",
         "copper": "Copper",
         "nickel": "Nickel",
-        "dimension_stone": "Dimension stone (granite)",
+        "graphite": "Graphite",
         "balsa": "Balsa wood",
         "water": "Water"
       }
@@ -88,36 +88,36 @@
     }
   },
   "meta": {
-    "n_rows": 67,
+    "n_rows": 124,
     "counts": {
-      "total": 67,
-      "active": 14,
+      "total": 124,
+      "active": 69,
       "hunt": 42,
-      "archived": 33,
+      "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 13,
-      "exclude": 3,
-      "documented": 0,
-      "on_map": 11
+      "proxy": 19,
+      "exclude": 5,
+      "documented": 49,
+      "on_map": 58
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 0,
-        "prc": 2,
-        "allied": 0,
-        "n": 2
+        "us": 2,
+        "prc": 12,
+        "allied": 3,
+        "n": 17
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 16718636.36,
-        "prc_n": 2,
-        "allied": 0.0,
-        "allied_n": 0
+        "prc": 456803966.12,
+        "prc_n": 4,
+        "allied": 380000000.0,
+        "allied_n": 1
       },
       "matched_gaps": {
         "n": 1,
@@ -129,18 +129,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 0,
-        "prc": 0,
-        "allied": 1,
-        "n": 1
+        "us": 6,
+        "prc": 9,
+        "allied": 9,
+        "n": 24
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
-        "prc": 0.0,
-        "prc_n": 0,
-        "allied": 0.0,
-        "allied_n": 0
+        "us": 26797120.0,
+        "us_n": 3,
+        "prc": 816306290.0,
+        "prc_n": 5,
+        "allied": 500000000.0,
+        "allied_n": 1
       },
       "matched_gaps": {
         "n": 0,
@@ -150,18 +150,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 0,
-        "prc": 6,
-        "allied": 3,
-        "n": 9
+        "us": 4,
+        "prc": 11,
+        "allied": 11,
+        "n": 26
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
         "prc": 452331437.19,
         "prc_n": 6,
-        "allied": 271859384.93,
-        "allied_n": 3
+        "allied": 571859384.9300001,
+        "allied_n": 5
       },
       "matched_gaps": {
         "n": 1,
@@ -173,46 +173,80 @@
   ],
   "country_readouts": [
     {
-      "country": "Brazil",
+      "country": "Argentina",
       "counts": {
         "us": 0,
-        "prc": 4,
-        "allied": 4,
-        "n": 8
+        "prc": 5,
+        "allied": 1,
+        "n": 6
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 20895264.55,
-        "prc_n": 4,
-        "allied": 271859384.93,
-        "allied_n": 3
+        "prc": 333185329.76,
+        "prc_n": 2,
+        "allied": 0.0,
+        "allied_n": 0
       },
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 3,
-          "allied": 3
+          "prc": 1,
+          "allied": 1
         },
         "infrastructure": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         },
         "resources": {
           "us": 0,
-          "prc": 0,
+          "prc": 2,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Brazil",
+      "counts": {
+        "us": 2,
+        "prc": 11,
+        "allied": 14,
+        "n": 27
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 697795264.55,
+        "prc_n": 6,
+        "allied": 1451859384.93,
+        "allied_n": 7
+      },
+      "by_layer": {
+        "energy": {
+          "us": 1,
+          "prc": 5,
+          "allied": 8
+        },
+        "infrastructure": {
+          "us": 0,
+          "prc": 4,
           "allied": 1
+        },
+        "resources": {
+          "us": 1,
+          "prc": 2,
+          "allied": 5
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 0,
-        "prc": 4,
-        "allied": 0,
-        "n": 4
+        "us": 4,
+        "prc": 6,
+        "allied": 5,
+        "n": 15
       },
       "usd": {
         "us": 0.0,
@@ -224,13 +258,196 @@
       },
       "by_layer": {
         "energy": {
-          "us": 0,
-          "prc": 3,
+          "us": 1,
+          "prc": 4,
+          "allied": 1
+        },
+        "infrastructure": {
+          "us": 2,
+          "prc": 2,
           "allied": 0
         },
+        "resources": {
+          "us": 1,
+          "prc": 0,
+          "allied": 4
+        }
+      }
+    },
+    {
+      "country": "Costa Rica",
+      "counts": {
+        "us": 0,
+        "prc": 1,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Ecuador",
+      "counts": {
+        "us": 3,
+        "prc": 3,
+        "allied": 0,
+        "n": 6
+      },
+      "usd": {
+        "us": 26797120.0,
+        "us_n": 3,
+        "prc": 246306290.0,
+        "prc_n": 3,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "resources": {
+          "us": 3,
+          "prc": 3,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Guatemala",
+      "counts": {
+        "us": 2,
+        "prc": 0,
+        "allied": 0,
+        "n": 2
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 2,
+          "prc": 0,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Guyana",
+      "counts": {
+        "us": 0,
+        "prc": 1,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
         "infrastructure": {
           "us": 0,
           "prc": 1,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Jamaica",
+      "counts": {
+        "us": 0,
+        "prc": 2,
+        "allied": 0,
+        "n": 2
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 2,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Mexico",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 3,
+        "n": 3
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        },
+        "infrastructure": {
+          "us": 0,
+          "prc": 0,
+          "allied": 2
+        }
+      }
+    },
+    {
+      "country": "Peru",
+      "counts": {
+        "us": 1,
+        "prc": 3,
+        "allied": 0,
+        "n": 4
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        },
+        "resources": {
+          "us": 1,
+          "prc": 2,
           "allied": 0
         }
       }
@@ -249,7 +466,62 @@
       "xd_eletrobras_wave4_xfmr_2025",
       "xd_kimal_lo_aguirre_cs_2022",
       "huawei_ctg_arinos_inv_2022",
-      "siemens_terranova_gis_xfmr_2026"
+      "siemens_terranova_gis_xfmr_2026",
+      "cosco_chancay_port_2024",
+      "zpmc_itapoa_rtg_2023",
+      "chec_jamaica_spark_roads_2024",
+      "crcc_demerara_bridge_2022",
+      "huaxin_embu_aggregates_br_2025",
+      "sinoma_loma_negra_amali_epc",
+      "ganfeng_pastos_grandes_stake_2024",
+      "ganfeng_lithea_ppg_2022",
+      "mmg_las_bambas_peru",
+      "fcx_cerro_verde_peru",
+      "mmg_anglo_nickel_brazil_2025",
+      "wits_ecuador_balsa_china_2022",
+      "wits_ecuador_balsa_us_2022",
+      "bechtel_qb2_desal_chile",
+      "ide_saddn_desal_chile_2023",
+      "cbmm_araxa_presence_2024",
+      "cnnc_atucha_hualong_epc_2022",
+      "sma_diego_almagro_sur_chile",
+      "goldwind_pemuco_chile",
+      "vestas_casa_dos_ventos_br_2023",
+      "ge_vernova_serra_tigre_ais_2023",
+      "powerchina_chucas_cr_ref",
+      "jinko_brazil_module_imports_2023",
+      "carem25_argentina_iaea_2025",
+      "hutchison_eit_ensenada_2022",
+      "crrc_ba_line_b_2025",
+      "alstom_mexico_dmu_2025",
+      "chinalco_toromocho_peru",
+      "anglo_brazil_nickel_sale_2025",
+      "chec_jamaica_schip_bri",
+      "ge_vernova_transelec_sync_chile_2024",
+      "ide_aconcagua_desal_chile_2023",
+      "codelco_sqm_novaandino_2025",
+      "zpmc_dpworld_lirquen_2022",
+      "ormat_amatitlan_guatemala",
+      "nordex_auren_cajuina3_2025",
+      "cmoc_catalao_niobium_br",
+      "wits_ecuador_balsa_china_2023",
+      "wits_ecuador_balsa_us_2023",
+      "sinoma_votorantim_z02_br_2024",
+      "fluor_salares_norte_chile_2024",
+      "bechtel_los_pelambres_inco_2024",
+      "acciona_collahuasi_desal_chile",
+      "vestas_cimarron_mexico_2024",
+      "hitachi_garabi_hvdc_upgrade_2023",
+      "hitachi_brazil_transformer_capex_2024",
+      "wits_ecuador_balsa_china_2024",
+      "wits_ecuador_balsa_us_2024",
+      "trina_cemig_sim_brazil_2023",
+      "recurrent_ciranda_solar_br_2023",
+      "ormat_zunil_guatemala",
+      "apmt_btp_santos_concession_2023",
+      "south_star_santa_cruz_graphite_2024",
+      "nacional_de_grafite_mg_presence",
+      "graphex_south_star_brazil_offtake_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -265,7 +537,7 @@
       "hunt_res_lithium",
       "hunt_res_copper",
       "hunt_res_nickel",
-      "hunt_res_dimension_stone",
+      "hunt_res_graphite",
       "hunt_res_balsa",
       "hunt_res_water",
       "hunt_energy_fission_smr",
@@ -310,7 +582,9 @@
       "exim_us_guyana_gte_2025",
       "fenb_br_vs_cn_20240523",
       "niocorp_argus_fenb_us_2024",
-      "fenb_br66_vs_cn60a_20260921"
+      "fenb_br66_vs_cn60a_20260921",
+      "abirochas_br_stone_china_2023",
+      "abirochas_br_stone_us_2023"
     ]
   }
 }

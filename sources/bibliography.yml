@@ -23,7 +23,7 @@
   - hunt_mx_power_equip
   - hunt_res_balsa
   - hunt_res_copper
-  - hunt_res_dimension_stone
+  - hunt_res_graphite
   - hunt_res_lithium
   - hunt_res_nickel
   - hunt_res_water
@@ -891,3 +891,490 @@
   supports:
   - fenb_br66_vs_cn60a_20260921
   - hunt_fenb_araxa
+- id: cosco_chancay_inauguration_20241115
+  type: official
+  chicago: COSCO SHIPPING Ports Limited. “The Inauguration Ceremony of Chancay Port Was Successfully Held.”
+    Press release, 15 November 2024.
+  url: https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115
+  annotation: Company primary release on Chancay Phase I inauguration and design capacity. Does not print
+    a Phase I USD capex on this page. Supports cosco_chancay_port_2024.
+  supports:
+  - cosco_chancay_port_2024
+  - hunt_infra_port_ownership
+- id: zpmc_itapoa_rtg_pr_20230428
+  type: official
+  chicago: Shanghai Zhenhua Heavy Industries Co., Ltd. “ZPMC Ships 5 RTG Cranes to Itapoa, Brazil.” PR
+    Newswire, 28 April 2023.
+  url: https://www.prnewswire.com/apac/news-releases/zpmc-ships-5-rtg-cranes-to-itapoa-brazil-301810531.html
+  annotation: ZPMC company release on five RTG deliveries to Itapoá. No USD price on the page. Supports
+    zpmc_itapoa_rtg_2023.
+  supports:
+  - zpmc_itapoa_rtg_2023
+  - hunt_infra_port_cranes
+- id: jamaica_megid_chec_spark_20241205
+  type: official
+  chicago: Jamaica. Ministry of Economic Growth and Job Creation / MEGID. “Contracts signed with CHEC
+    for SPARK Programme.” 5 December 2024.
+  url: https://megid.gov.jm/contracts-signed-with-chec-for-spark-programme/
+  annotation: Ministry primary notice of CHEC SPARK road packages and JMD package totals. Supports chec_jamaica_spark_roads_2024.
+  supports:
+  - chec_jamaica_spark_roads_2024
+  - hunt_infra_bridges_roads
+- id: kaieteur_demerara_bridge_20220526
+  type: journalism
+  chicago: Kaieteur News. “US$260M contract signed for new Demerara River Bridge.” 26 May 2022.
+  url: https://kaieteurnewsonline.com/2022/05/26/us260m-contract-signed-for-new-demerara-river-bridge/
+  annotation: Press report of CRCC-led Demerara River Bridge contract at US$260m. UNVERIFIED until ministry
+    document confirms. Supports crcc_demerara_bridge_2022.
+  supports:
+  - crcc_demerara_bridge_2022
+- id: huaxin_hkex_brazil_completion_20250326
+  type: official
+  chicago: Huaxin Cement Co., Ltd. Announcement regarding completion of acquisition of equity interests
+    in the Brazilian aggregate project. Hong Kong Stock Exchange filing, 26 March 2025.
+  url: https://www.hkexnews.hk/listedco/listconews/sehk/2025/0326/2025032601508.pdf
+  annotation: 'HKEX primary filing: Huaxin completes Brazil EMBU/ITATUBA aggregates acquisition at initial
+    USD 176.9m. Supports huaxin_embu_aggregates_br_2025.'
+  supports:
+  - huaxin_embu_aggregates_br_2025
+  - hunt_infra_building_materials
+- id: cemnet_sinoma_amali_20230109
+  type: official
+  chicago: Sinoma Overseas Development Co Ltd. “Sinoma’s Latin American debut.” CemNet, 9 January 2023.
+  url: https://www.cemnet.com/Articles/story/174108/sinoma-s-latin-american-debut.html
+  annotation: Company-authored CemNet article on Sinoma EPC for Loma Negra L’Amali II (5800 tpd). No USD
+    contract figure on the page. Supports sinoma_loma_negra_amali_epc.
+  supports:
+  - sinoma_loma_negra_amali_epc
+  - hunt_infra_engineering_epc
+- id: globenewswire_laac_ganfeng_pg_20240816
+  type: official
+  chicago: Lithium Americas (Argentina) Corp. “Lithium Argentina Closes Pastos Grandes Transaction with
+    Ganfeng Lithium.” GlobeNewswire, 16 August 2024.
+  url: https://www.globenewswire.com/news-release/2024/08/16/2931501/0/en/lithium-argentina-closes-pastos-grandes-transaction-with-ganfeng-lithium.html
+  annotation: Issuer release on Ganfeng’s US$70m / 14.9% Pastos Grandes stake. Supports ganfeng_pastos_grandes_stake_2024.
+  supports:
+  - ganfeng_pastos_grandes_stake_2024
+  - hunt_res_lithium
+- id: cnevpost_ganfeng_lithea_20220712
+  type: journalism
+  chicago: CnEVPost. “Ganfeng Lithium to buy Lithea, which has lithium resources in Argentina, for up
+    to $962 million.” 12 July 2022.
+  url: https://cnevpost.com/2022/07/12/ganfeng-lithium-to-buy-lithea-which-has-lithium-resources-in-argentina-for-up-to-962-million/
+  annotation: Trade press summarizing Ganfeng exchange announcement on Lithea/PPG. Treated as UNVERIFIED
+    proxy until primary filing opened. Supports ganfeng_lithea_ppg_2022.
+  supports:
+  - ganfeng_lithea_ppg_2022
+- id: mmg_las_bambas_ops
+  type: official
+  chicago: MMG Limited. “Las Bambas.” Operations page. Accessed 1 October 2026.
+  url: https://www.mmg.com/operations/las-bambas/
+  annotation: Company primary page for Las Bambas ownership and location. Supports mmg_las_bambas_peru.
+  supports:
+  - mmg_las_bambas_peru
+  - hunt_res_copper
+- id: fcx_south_america_ops
+  type: official
+  chicago: Freeport-McMoRan. “South America.” Operations page. Accessed 1 October 2026.
+  url: https://www.fcx.com/operations/south-america
+  annotation: Company primary listing of Cerro Verde (Peru) and El Abra (Chile). Supports fcx_cerro_verde_peru.
+  supports:
+  - fcx_cerro_verde_peru
+- id: mmg_anglo_nickel_20250218
+  type: official
+  chicago: MMG Limited. “MMG to acquire Anglo American’s nickel business.” 18 February 2025.
+  url: https://www.mmg.com/investors/news-centre/mmg-to-acquire-anglo-americans-nickel-business/
+  annotation: Company primary announcement of up-to-US$500m Brazil nickel acquisition. Supports mmg_anglo_nickel_brazil_2025.
+  supports:
+  - mmg_anglo_nickel_brazil_2025
+  - hunt_res_nickel
+- id: abirochas_balanco_2023
+  type: official
+  chicago: ABIROCHAS (Associação Brasileira da Indústria de Rochas Ornamentais). “Balanço do setor brasileiro
+    de rochas ornamentais e de revestimento em 2023.” Informe 01/2024, March 2024.
+  url: https://abirochas.com.br/wp-content/uploads/2024/03/Informe-01_2024-Balanco-2023.pdf
+  annotation: Industry association primary export balance; China among top destinations for Brazilian
+    stone (esp. blocks). Supports abirochas_br_stone_china_2023.
+  supports:
+  - abirochas_br_stone_china_2023
+  - hunt_res_graphite
+- id: wits_ecuador_balsa_2022
+  type: official
+  chicago: World Bank. World Integrated Trade Solution (WITS) / UN Comtrade. “Ecuador exports by country
+    — HS 440723 (2022).”
+  url: https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2022/tradeflow/Exports/partner/ALL/product/440723
+  annotation: Public customs aggregate for Ecuador balsa-related sawn wood exports. Supports wits_ecuador_balsa_china_2022
+    and wits_ecuador_balsa_us_2022.
+  supports:
+  - hunt_res_balsa
+  - wits_ecuador_balsa_china_2022
+  - wits_ecuador_balsa_us_2022
+- id: bechtel_qb2_project
+  type: official
+  chicago: Bechtel. “Quebrada Blanca Phase 2.” Project page. Accessed 1 October 2026.
+  url: https://www.bechtel.com/projects/quebrada-blanca-phase-2/
+  annotation: U.S. EPC company page documenting QB2 desalination plant and water pipeline in Chile. Supports
+    bechtel_qb2_desal_chile.
+  supports:
+  - bechtel_qb2_desal_chile
+  - hunt_res_water
+- id: ide_saddn_ntp_20230605
+  type: official
+  chicago: IDE Technologies. “IDE to execute EPC of the SADDN Desalination Plant in Northern Chile.” 5
+    June 2023.
+  url: https://ide-tech.com/en/ide-to-execute-epc-of-the-saddn-desalination-plant-in-northern-chile/
+  annotation: Company primary NTP release for Codelco SADDN desal EPC. Supports ide_saddn_desal_chile_2023.
+  supports:
+  - ide_saddn_desal_chile_2023
+- id: cbmm_site_2026
+  type: official
+  chicago: CBMM (Companhia Brasileira de Metalurgia e Mineração). Corporate website. Accessed 1 October
+    2026.
+  url: https://cbmm.com/en
+  annotation: Company site establishing CBMM as the Brazilian niobium producer at Araxá. Presence only;
+    no unit price. Supports cbmm_araxa_presence_2024.
+  supports:
+  - cbmm_araxa_presence_2024
+  - hunt_fenb_araxa
+- id: frontiers_hualong_argentina_2025
+  type: academic
+  chicago: '“The Hualong-1 project in Argentina: a case study on the economic, technological, and geopolitical
+    complexities of the belt and road initiative.” Frontiers in Political Science, 2025.'
+  url: https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2025.1668946/full
+  annotation: Open-access academic article citing the Feb 2022 Hualong-1 EPC and USD 6.8bn figure. Treated
+    as UNVERIFIED proxy for the contract value. Supports cnnc_atucha_hualong_epc_2022.
+  supports:
+  - cnnc_atucha_hualong_epc_2022
+  - hunt_energy_fission_smr
+- id: sma_atacama_order
+  type: official
+  chicago: SMA Solar Technology AG. “SMA receives order for large-scale project in the Atacama Desert.”
+    Company news.
+  url: https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert
+  annotation: Company primary notice of inverter/MVPS supply for Colbún’s 220 MW Diego de Almagro Sur
+    plant. Supports sma_diego_almagro_sur_chile.
+  supports:
+  - sma_diego_almagro_sur_chile
+  - hunt_energy_solar
+- id: goldwind_pemuco_engie
+  type: official
+  chicago: Goldwind. “Goldwind Signs Contract with ENGIE Chile to Jointly Construct the Pemuco Wind Farm
+    Project in Chile.” Company news.
+  url: https://www.goldwind.com/en/news/focus-1117918927511560192/?id=1117920264764704768
+  annotation: Company primary notice of 22×7.5 MW turbines for 165 MW Pemuco. Supports goldwind_pemuco_chile.
+  supports:
+  - goldwind_pemuco_chile
+  - hunt_energy_wind
+- id: vestas_brazil_1310mw_20230330
+  type: official
+  chicago: Vestas Wind Systems A/S. “Vestas receives 1,310 MW onshore order in Brazil.” Company Announcement
+    No. 07/2023, 30 March 2023.
+  url: https://www.vestas.com/en/media/company-news/2023/vestas-receives-1-310-mw-onshore-order-in-brazil-c3743452
+  annotation: Company primary announcement of 1,310 MW Brazil order for Casa dos Ventos. Supports vestas_casa_dos_ventos_br_2023.
+  supports:
+  - vestas_casa_dos_ventos_br_2023
+- id: gevernova_serra_tigre_ais_20230803
+  type: official
+  chicago: GE Vernova. “GE Vernova's Grid Solutions to supply air-insulated substations to Casa dos Ventos’
+    Serra do Tigre Wind Complex in Brazil.” 3 August 2023.
+  url: https://www.gevernova.com/news/press-releases/ge-vernova-grid-solutions-to-supply-air-insulated-substations-to-casa-dos-ventos-serra-do-tigre-wind-complex-brazil
+  annotation: U.S. company primary release on 500 kV AIS supply in Brazil. Supports ge_vernova_serra_tigre_ais_2023.
+  supports:
+  - ge_vernova_serra_tigre_ais_2023
+  - hunt_br_power_equip
+- id: powerchina_chucas_20231024
+  type: official
+  chicago: POWERCHINA. “Costa Rica Chucas Hydropower Station.” 24 October 2023.
+  url: https://en.powerchina.cn/2023-10/24/c_828570.htm
+  annotation: Company project page for 50 MW Chucás hydro in Costa Rica. Supports powerchina_chucas_cr_ref.
+  supports:
+  - powerchina_chucas_cr_ref
+  - hunt_energy_other_renewables
+- id: canalsolar_greener_imports_2023
+  type: journalism
+  chicago: Badra, Mateus. “Ranking shows the manufacturers that imported the most modules in 2023.” Canal
+    Solar, 22 March 2024.
+  url: https://canalsolar.com.br/en/ranking-of-most-imported-manufacturers-2023/
+  annotation: Press reprint of Greener Brazil module-import ranking (Jinko first). UNVERIFIED proxy. Supports
+    jinko_brazil_module_imports_2023.
+  supports:
+  - jinko_brazil_module_imports_2023
+  - hunt_energy_solar
+- id: iaea_argentina_nnr_2025
+  type: official
+  chicago: Argentina. “National Nuclear Safety Report Argentina 2025.” Submitted via IAEA, 2025.
+  url: https://www.iaea.org/sites/default/files/2026-01/national-report_argentina_2025.pdf
+  annotation: Official national report documenting CAREM-25 licensing/construction. Supports carem25_argentina_iaea_2025.
+  supports:
+  - carem25_argentina_iaea_2025
+  - hunt_energy_fission_smr
+- id: hutchison_eit_ensenada_news
+  type: official
+  chicago: Hutchison Ports Mexico. “Hutchison Ports EIT invierte 2,300 millones de pesos en ampliación
+    de su Terminal.” Company newsroom, 22 May 2023.
+  url: https://www.hutchisonports.com.mx/newsroom/Hutchison-Ports-eit-invierte-2300-millones-de-pesos-en-ampliacion-de-su-Terminal
+  annotation: Company primary notice of Ensenada terminal expansion investment. Supports hutchison_eit_ensenada_2022.
+  supports:
+  - hutchison_eit_ensenada_2022
+  - hunt_infra_port_ownership
+- id: sbase_lpi234_adjudicacion_2025
+  type: official
+  chicago: SBASE (Subterráneos de Buenos Aires). Resolución de adjudicación, Licitación Pública Internacional
+    N° 234/2023 (Material rodante Línea B). 2025.
+  url: https://static.buenosaires.gob.ar/sites/default/files/2025-07/LPI%20234.23%20-%20Resoluci%C3%B3n%20de%20Adjudicaci%C3%B3n%20-%20RESDI-2025-87-GCABA-SBASE.pdf
+  annotation: Official award of Buenos Aires Line B rolling stock to CRRC Changchun at USD 263.2m CIF.
+    Supports crrc_ba_line_b_2025.
+  supports:
+  - crrc_ba_line_b_2025
+  - hunt_latam_rail_telecom
+- id: alstom_mexico_47trains_20251226
+  type: official
+  chicago: Alstom. “Alstom to supply 47 trains and associated maintenance for new rail corridors in Mexico.”
+    26 December 2025.
+  url: https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico
+  annotation: Company primary release on MXN 20.2bn / 47 DMU Mexico award. Supports alstom_mexico_dmu_2025.
+  supports:
+  - alstom_mexico_dmu_2025
+  - hunt_latam_rail_telecom
+- id: chinalco_peru_history
+  type: official
+  chicago: Chinalco Peru. “Our History.” Company page. Accessed 1 October 2026.
+  url: https://www.chinalco.com.pe/en/our-history
+  annotation: Company primary history of Toromocho ownership. Supports chinalco_toromocho_peru.
+  supports:
+  - chinalco_toromocho_peru
+  - hunt_res_copper
+- id: anglo_nickel_sale_20250218
+  type: official
+  chicago: Anglo American plc. “Anglo American agrees sale of nickel business for up to $500 million.”
+    18 February 2025.
+  url: https://www.angloamerican.com/media/press-releases/2025/18-02-2025a
+  annotation: Seller-side primary release on Brazil nickel SPA to MMG. Supports anglo_brazil_nickel_sale_2025.
+  supports:
+  - anglo_brazil_nickel_sale_2025
+  - hunt_res_nickel
+- id: chec_americas_schip
+  type: official
+  chicago: CHEC Americas. “Southern Coastal Highway Improvement Project.” Company project page. Accessed
+    1 October 2026.
+  url: https://www.checamerica.com/projects-jamaica-schip/
+  annotation: Company primary description of SCHIP Sections A/B-ii. Supports chec_jamaica_schip_bri.
+  supports:
+  - chec_jamaica_schip_bri
+  - hunt_infra_bridges_roads
+- id: gevernova_transelec_sync_20240712
+  type: official
+  chicago: GE Vernova. “GE Vernova to supply synchronous condensers equipment to help improve grid stability
+    in Northern Chile.” 12 July 2024.
+  url: https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability
+  annotation: Company primary release on Transelec sync-condenser / HV order. Supports ge_vernova_transelec_sync_chile_2024.
+  supports:
+  - ge_vernova_transelec_sync_chile_2024
+  - hunt_br_power_equip
+  - hunt_cl_power_equip
+- id: ide_aconcagua_20230320
+  type: official
+  chicago: IDE Technologies. “IDE Technologies Commences Construction of the Aconcagua Desalination Plant
+    in the Valparaiso Region of Chile.” 20 March 2023.
+  url: https://ide-tech.com/en/ide-technologies-commences-construction-of-the-aconcagua-desalination-plant-in-the-valparaiso-region-of-chile/
+  annotation: Company primary notice of Aconcagua desal construction start. Supports ide_aconcagua_desal_chile_2023.
+  supports:
+  - ide_aconcagua_desal_chile_2023
+  - hunt_res_water
+- id: codelco_sqm_novaandino_20251227
+  type: official
+  chicago: Codelco. “Codelco and SQM form NovaAndino Litio, the joint venture for the development of lithium
+    in the Salar de Atacama.” 27 December 2025.
+  url: https://www.codelco.com/en/prensa/2025/codelco-y-sqm-forman-novaandino-litio-la-sociedad-conjunta-para-el
+  annotation: Official Codelco notice of Nova Andino Litio JV formation. Supports codelco_sqm_novaandino_2025.
+  supports:
+  - codelco_sqm_novaandino_2025
+  - hunt_res_lithium
+- id: seatrade_dpworld_lirquen_20220720
+  type: journalism
+  chicago: Labrut, Michèle. “DP World Lirquen receives first quay cranes.” Seatrade Maritime, 20 July
+    2022.
+  url: https://www.seatrade-maritime.com/ports-logistics/dp-world-lirquen-receives-first-quay-cranes
+  annotation: Trade press on ZPMC quay cranes at Lirquén. UNVERIFIED proxy. Supports zpmc_dpworld_lirquen_2022.
+  supports:
+  - zpmc_dpworld_lirquen_2022
+  - hunt_infra_port_cranes
+- id: ormat_global_projects_guatemala
+  type: official
+  chicago: Ormat Technologies Inc. “Global Projects.” Company page. Accessed 1 October 2026.
+  url: https://www.ormat.com/en/projects/all/main/?pageNum=2
+  annotation: Company project listing of Ormat Guatemala geothermal plants. Supports Amatitlán and Zunil
+    rows.
+  supports:
+  - hunt_energy_other_renewables
+  - ormat_amatitlan_guatemala
+  - ormat_zunil_guatemala
+- id: nordex_auren_112mw_20250303
+  type: official
+  chicago: Nordex SE. “Nordex Group receives order in Brazil from Auren Energia for 112 MW.” 3 March 2025.
+  url: https://www.nordex-online.com/en/2025/03/nordex-group-receives-order-in-brazil-from-auren-energia-for-112-mw/
+  annotation: Company primary wind order notice for Cajuína 3. Supports nordex_auren_cajuina3_2025.
+  supports:
+  - nordex_auren_cajuina3_2025
+  - hunt_energy_wind
+- id: cmoc_brazil_nb_p_page
+  type: official
+  chicago: CMOC Group Limited. “Brazil - niobium and phosphate.” Company page. Accessed 1 October 2026.
+  url: https://en.cmoc.com/html/Business/BRA-Nb-P/
+  annotation: Company primary description of Catalão NML niobium ownership/production. Supports cmoc_catalao_niobium_br.
+  supports:
+  - cmoc_catalao_niobium_br
+  - hunt_fenb_araxa
+  - hunt_res_nickel
+- id: wits_ecu_440723_2023
+  type: official
+  chicago: World Bank WITS / UN Comtrade. “Ecuador Baboen, Mahogany, Imbuia and Balsa wood, sawn l exports
+    by country | 2023.” HS 440723.
+  url: https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2023/tradeflow/Exports/partner/ALL/product/440723
+  annotation: Official trade mirror for Ecuador HS 440723 2023 exports. Supports wits_ecuador_balsa_china_2023
+    and wits_ecuador_balsa_us_2023.
+  supports:
+  - hunt_res_balsa
+  - wits_ecuador_balsa_china_2023
+  - wits_ecuador_balsa_us_2023
+- id: cemnet_sinoma_votorantim_z02_20240917
+  type: journalism
+  chicago: Bell, Peter. “Sinoma Overseas to build Votorantim Z02 grinding plant.” CemNet, 17 September
+    2024.
+  url: https://www.cemnet.com/News/story/177749/sinoma-overseas-to-build-votorantim-z02-grinding-plant.html
+  annotation: Trade press on Sinoma–Votorantim Z02 grinding contract. UNVERIFIED proxy. Supports sinoma_votorantim_z02_br_2024.
+  supports:
+  - sinoma_votorantim_z02_br_2024
+  - hunt_infra_building_materials
+- id: fluor_salares_norte_20240403
+  type: official
+  chicago: Fluor Corporation. “Fluor Announces First Gold from Gold Fields’ Salares Norte Mining Project
+    in Chile.” 3 April 2024.
+  url: https://newsroom.fluor.com/news-releases/news-details/2024/Fluor-Announces-First-Gold-from-Gold-Fields-Salares-Norte-Mining-Project-in-Chile/default.aspx
+  annotation: Company primary EPCM milestone release for Salares Norte. Supports fluor_salares_norte_chile_2024.
+  supports:
+  - fluor_salares_norte_chile_2024
+  - hunt_infra_engineering_epc
+- id: bechtel_los_pelambres_page
+  type: official
+  chicago: Bechtel. “Los Pelambres Copper Mine.” Company project page. Accessed 1 October 2026.
+  url: https://www.bechtel.com/projects/los-pelambres-copper-mine/
+  annotation: Company primary project description of INCO MLP EPC. Supports bechtel_los_pelambres_inco_2024.
+  supports:
+  - bechtel_los_pelambres_inco_2024
+  - hunt_infra_engineering_epc
+- id: acciona_collahuasi_desal_20220802
+  type: official
+  chicago: ACCIONA. “ACCIONA to build and operate Chilean desalination plant for mining firm Doña Ines
+    de Collahuasi.” 2 August 2022.
+  url: https://www.acciona.com/updates/news/acciona-build-operate-chilean-desalination-plant-mining-firm-dona-ines-collahuasi
+  annotation: Company primary award notice for Collahuasi Patache desal. Supports acciona_collahuasi_desal_chile.
+  supports:
+  - acciona_collahuasi_desal_chile
+  - hunt_res_water
+- id: vestas_cimarron_20240314
+  type: official
+  chicago: Vestas. “Vestas wins order from Sempra infrastructure to build a 319 MW wind farm in Mexico.”
+    14 March 2024.
+  url: https://www.vestas.com/en/media/company-news/2024/vestas-wins-order-from-sempra-infrastructure-to-build-a-c3946123
+  annotation: Company primary wind order for Cimarron/Sempra Mexico. Supports vestas_cimarron_mexico_2024.
+  supports:
+  - vestas_cimarron_mexico_2024
+  - hunt_energy_wind
+- id: hitachi_garabi_20231109
+  type: official
+  chicago: Hitachi Energy. “Hitachi Energy wins order to upgrade world-record high-voltage direct current
+    transmission system.” 9 November 2023.
+  url: https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system
+  annotation: Company primary Garabi HVDC upgrade award. Supports hitachi_garabi_hvdc_upgrade_2023.
+  supports:
+  - hitachi_garabi_hvdc_upgrade_2023
+  - hunt_br_power_equip
+- id: hitachi_brazil_xfmr_20240904
+  type: official
+  chicago: Hitachi Energy. “Hitachi Energy invests over $200 million USD to expand transformer operations
+    in Brazil and address increased global demand.” 4 September 2024.
+  url: https://www.hitachienergy.com/news-and-events/features/2024/09/hitachi-energy-invests-over-200-million-usd-to-expand-transformer-operations-in-brazil-and-address-increased-global-demand
+  annotation: Company primary Brazil transformer manufacturing investment notice. Supports hitachi_brazil_transformer_capex_2024.
+  supports:
+  - hitachi_brazil_transformer_capex_2024
+  - hunt_br_power_equip
+- id: wits_ecu_440723_2024
+  type: official
+  chicago: World Bank WITS / UN Comtrade. “Ecuador Baboen, Mahogany, Imbuia and Balsa wood, sawn l exports
+    by country | 2024.” HS 440723.
+  url: https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2024/tradeflow/Exports/partner/ALL/product/440723
+  annotation: Official trade mirror for Ecuador HS 440723 2024 exports. Supports China and US 2024 balsa
+    rows.
+  supports:
+  - hunt_res_balsa
+  - wits_ecuador_balsa_china_2024
+  - wits_ecuador_balsa_us_2024
+- id: trina_cemig_sim_20231129
+  type: official
+  chicago: Trina Solar. “Trina Solar to offer modules and trackers for 90MW PV power plants in Brazil.”
+    PR Newswire, 29 November 2023.
+  url: https://www.prnewswire.com/news-releases/trina-solar-to-offer-modules-and-trackers-for-90mw-pv-power-plants-in-brazil-302000288.html
+  annotation: Company release on CEMIG SIM module/tracker supply. Supports trina_cemig_sim_brazil_2023.
+  supports:
+  - trina_cemig_sim_brazil_2023
+  - hunt_energy_solar
+- id: recurrent_ciranda_financing_20231122
+  type: official
+  chicago: Canadian Solar Inc. / Recurrent Energy. “Recurrent Energy Receives 490 Million Brazilian Reais
+    Financing for Ciranda Cluster in Brazil.” PR Newswire, 22 November 2023.
+  url: https://www.prnewswire.com/news-releases/recurrent-energy-receives-490-million-brazilian-reais-financing-for-ciranda-cluster-in-brazil-301995679.html
+  annotation: Company financing notice for Ciranda Cluster ownership/ops. Supports recurrent_ciranda_solar_br_2023.
+  supports:
+  - recurrent_ciranda_solar_br_2023
+  - hunt_energy_solar
+- id: abirochas_informe_01_2024
+  type: official
+  chicago: ABIROCHAS. “Balanço do Setor Brasileiro de Rochas Ornamentais e de Revestimento em 2023.” Informe
+    01/2024, March 2024.
+  url: https://abirochas.com.br/wp-content/uploads/2024/03/Informe-01_2024-Balanco-2023.pdf
+  annotation: Industry association balance of Brazilian ornamental stone exports. Supports China and US
+    destination rows.
+  supports:
+  - abirochas_br_stone_china_2023
+  - abirochas_br_stone_us_2023
+  - hunt_res_graphite
+- id: apmt_btp_renewal_20231220
+  type: official
+  chicago: APM Terminals. “USD 390 million investment and new concession for Brasil Terminal Portuário.”
+    20 December 2023.
+  url: https://www.apmterminals.com/en/news/news-releases/2023/231220-usd-390-million-investment-and-new-concession-for-brasil-terminal
+  annotation: Company primary BTP Santos concession renewal/investment notice. Supports apmt_btp_santos_concession_2023.
+  supports:
+  - apmt_btp_santos_concession_2023
+  - hunt_infra_port_ownership
+- id: south_star_santa_cruz_20240729
+  type: official
+  chicago: South Star Battery Metals Corp. “South Star Announces Substantial Completion and Commissioning
+    of the Santa Cruz Phase 1 Graphite Mine in Brazil.” 29 July 2024.
+  url: https://southstarbatterymetals.com/wp-content/uploads/2024/07/2024-07-29_STS_SubstantialCompletion_Final.pdf
+  annotation: Company primary notice of Santa Cruz Phase 1 graphite plant substantial completion. Supports
+    south_star_santa_cruz_graphite_2024.
+  supports:
+  - south_star_santa_cruz_graphite_2024
+  - hunt_res_graphite
+- id: nacional_de_grafite_en_home
+  type: official
+  chicago: Nacional de Grafite Ltda. “Nacional de Grafite - high-quality crystalline graphite.” Company
+    site. Accessed 1 October 2026.
+  url: https://www.grafite.com/en/
+  annotation: Company primary description of MG graphite production footprint. Supports nacional_de_grafite_mg_presence.
+  supports:
+  - nacional_de_grafite_mg_presence
+  - hunt_res_graphite
+- id: graphex_exchina_strategy_20231025
+  type: official
+  chicago: Graphex Group Limited / Graphex Technologies, LLC. “Graphex Technologies Reinforces its Diverse
+    Mine-to-Battery Global Strategy Following the Announcement of Graphite Export Limits from China.”
+    25 October 2023.
+  url: https://graphexgroup.com/2023/10/25/graphex-technologies-reinforces-its-diverse-mine-to-battery-global-strategy-following-the-announcement-of-graphite-export-limits-from-china/
+  annotation: Company release listing South Star Brazil Santa Cruz among graphite offtake sources for
+    U.S. anode strategy. Supports graphex_south_star_brazil_offtake_2023.
+  supports:
+  - graphex_south_star_brazil_offtake_2023
+  - hunt_res_graphite

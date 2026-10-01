@@ -110,10 +110,10 @@ layers:
         label: Nickel
         search_hints:
           - "níquel OR nickel laterite OR Brazil OR Cuba OR Indonesia offtake Latin America China"
-      dimension_stone:
-        label: Dimension stone (granite)
+      graphite:
+        label: Graphite
         search_hints:
-          - "granito OR granite export OR dimension stone Brazil OR China quarry Latin America"
+          - "grafite OR graphite OR flake graphite OR spherical graphite OR anode OR CSPG Brazil OR Mexico China OR South Star OR Nacional de Grafite"
       balsa:
         label: Balsa wood
         search_hints:
