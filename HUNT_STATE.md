@@ -1,81 +1,81 @@
 updated: 2026-10-01
-cycle: 1
+cycle: 2
 remote: present
-active_layer: resources
-active_subcategory: lithium
-next_query: Cycle 2 shuffle_seed=20261002; start at energy/solar; equal budget_per_subcategory=1_source_family_min across all 18.
-next_row_id: (follow cycle-2 shuffled_order)
+active_layer: infrastructure
+active_subcategory: engineering_epc
+next_query: Cycle 3 shuffle_seed=20261003; start at resources/nickel; equal budget_per_subcategory=1_source_family_min across all 18.
+next_row_id: (follow cycle-3 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261001
+shuffle_seed: 20261002
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- infrastructure/bridges_roads
-- energy/other_renewables
-- infrastructure/building_materials
-- resources/water
-- infrastructure/port_ownership
-- infrastructure/engineering_epc
 - energy/solar
-- infrastructure/rail
-- infrastructure/port_cranes
-- resources/niobium
-- energy/power_plants_grid
-- energy/wind
-- resources/nickel
-- resources/copper
 - energy/fission_smr
-- resources/balsa
-- resources/dimension_stone
+- infrastructure/port_ownership
+- infrastructure/rail
+- resources/copper
+- resources/nickel
+- infrastructure/bridges_roads
+- energy/power_plants_grid
+- resources/water
 - resources/lithium
+- resources/dimension_stone
+- infrastructure/port_cranes
+- energy/other_renewables
+- energy/wind
+- resources/niobium
+- resources/balsa
+- infrastructure/building_materials
+- infrastructure/engineering_epc
 
 rows_found_this_cycle:
-  infrastructure/bridges_roads: 2
-  energy/other_renewables: 1
-  infrastructure/building_materials: 1
-  resources/water: 2
-  infrastructure/port_ownership: 1
-  infrastructure/engineering_epc: 1
   energy/solar: 1
-  infrastructure/rail: 0
-  infrastructure/port_cranes: 1
-  resources/niobium: 1
-  energy/power_plants_grid: 1
-  energy/wind: 2
-  resources/nickel: 1
-  resources/copper: 2
   energy/fission_smr: 1
+  infrastructure/port_ownership: 1
+  infrastructure/rail: 2
+  resources/copper: 1
+  resources/nickel: 1
+  infrastructure/bridges_roads: 1
+  energy/power_plants_grid: 1
+  resources/water: 1
+  resources/lithium: 1
+  resources/dimension_stone: 0
+  infrastructure/port_cranes: 1
+  energy/other_renewables: 1
+  energy/wind: 1
+  resources/niobium: 1
   resources/balsa: 2
-  resources/dimension_stone: 1
-  resources/lithium: 2
+  infrastructure/building_materials: 1
+  infrastructure/engineering_epc: 2
 
 coverage_cumulative:
-  # Active (non-archived, non-exclude) observation counts after cycle 1
-  infrastructure/bridges_roads: 2
-  energy/other_renewables: 1
-  infrastructure/building_materials: 1
-  resources/water: 2
-  infrastructure/port_ownership: 1
-  infrastructure/engineering_epc: 1
-  energy/solar: 2
-  infrastructure/rail: 2
-  infrastructure/port_cranes: 1
-  resources/niobium: 2
-  energy/power_plants_grid: 9
-  energy/wind: 2
-  resources/nickel: 1
-  resources/copper: 2
-  energy/fission_smr: 1
-  resources/balsa: 2
+  # Active (non-archived, non-exclude) observation counts after cycle 2
+  infrastructure/port_ownership: 2
+  infrastructure/port_cranes: 2
+  infrastructure/rail: 4
+  infrastructure/bridges_roads: 3
+  infrastructure/building_materials: 2
+  infrastructure/engineering_epc: 3
+  resources/niobium: 3
+  resources/lithium: 3
+  resources/copper: 3
+  resources/nickel: 2
   resources/dimension_stone: 1
-  resources/lithium: 2
+  resources/balsa: 4
+  resources/water: 3
+  energy/fission_smr: 2
+  energy/solar: 3
+  energy/wind: 3
+  energy/power_plants_grid: 10
+  energy/other_renewables: 2
 
 seen_urls:
 - https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115
@@ -100,9 +100,30 @@ seen_urls:
 - https://www.vestas.com/en/media/company-news/2023/vestas-receives-1-310-mw-onshore-order-in-brazil-c3743452
 - https://www.gevernova.com/news/press-releases/ge-vernova-grid-solutions-to-supply-air-insulated-substations-to-casa-dos-ventos-serra-do-tigre-wind-complex-brazil
 - https://en.powerchina.cn/2023-10/24/c_828570.htm
+- https://canalsolar.com.br/en/ranking-of-most-imported-manufacturers-2023/
+- https://www.iaea.org/sites/default/files/2026-01/national-report_argentina_2025.pdf
+- https://www.hutchisonports.com.mx/newsroom/Hutchison-Ports-eit-invierte-2300-millones-de-pesos-en-ampliacion-de-su-Terminal
+- https://static.buenosaires.gob.ar/sites/default/files/2025-07/LPI%20234.23%20-%20Resoluci%C3%B3n%20de%20Adjudicaci%C3%B3n%20-%20RESDI-2025-87-GCABA-SBASE.pdf
+- https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico
+- https://www.chinalco.com.pe/en/our-history
+- https://www.angloamerican.com/media/press-releases/2025/18-02-2025a
+- https://www.checamerica.com/projects-jamaica-schip/
+- https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability
+- https://ide-tech.com/en/ide-technologies-commences-construction-of-the-aconcagua-desalination-plant-in-the-valparaiso-region-of-chile/
+- https://www.codelco.com/en/prensa/2025/codelco-y-sqm-forman-novaandino-litio-la-sociedad-conjunta-para-el
+- https://www.seatrade-maritime.com/ports-logistics/dp-world-lirquen-receives-first-quay-cranes
+- https://www.ormat.com/en/projects/all/main/?pageNum=2
+- https://www.nordex-online.com/en/2025/03/nordex-group-receives-order-in-brazil-from-auren-energia-for-112-mw/
+- https://en.cmoc.com/html/Business/BRA-Nb-P/
+- https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2023/tradeflow/Exports/partner/ALL/product/440723
+- https://www.cemnet.com/News/story/177749/sinoma-overseas-to-build-votorantim-z02-grinding-plant.html
+- https://newsroom.fluor.com/news-releases/news-details/2024/Fluor-Announces-First-Gold-from-Gold-Fields-Salares-Norte-Mining-Project-in-Chile/default.aspx
+- https://www.bechtel.com/projects/los-pelambres-copper-mine/
 
 misses:
 - 2026-10-01 | infrastructure/rail | cycle1 budget | U.S. or new PRC rail award 2021-2026 beyond existing SP metro / EFE rows | no additional sourced rail row opened in this cycle's time box (existing rows retained)
+- 2026-10-01 | resources/dimension_stone | cycle2 budget | New LatAm dimension-stone / granite trade or ownership row beyond cycle-1 ABIROCHAS China export | opened prior ABIROCHAS PDF already logged; no distinct new public source family opened in this cycle's equal time box
 
 # Redesign reset (2026-10-01). Geography: Latin America and the Caribbean only.
 # Shuffle rule: equal per-subcategory budgets; logged seed each cycle.
+# Cycle 2 (seed 20261002): 20 sourced rows across 17/18 subcategories (dimension_stone miss).

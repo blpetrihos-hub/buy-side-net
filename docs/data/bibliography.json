@@ -1283,5 +1283,217 @@
       "powerchina_chucas_cr_ref",
       "hunt_energy_other_renewables"
     ]
+  },
+  {
+    "id": "canalsolar_greener_imports_2023",
+    "type": "journalism",
+    "chicago": "Badra, Mateus. “Ranking shows the manufacturers that imported the most modules in 2023.” Canal Solar, 22 March 2024.",
+    "url": "https://canalsolar.com.br/en/ranking-of-most-imported-manufacturers-2023/",
+    "annotation": "Press reprint of Greener Brazil module-import ranking (Jinko first). UNVERIFIED proxy. Supports jinko_brazil_module_imports_2023.",
+    "supports": [
+      "jinko_brazil_module_imports_2023",
+      "hunt_energy_solar"
+    ]
+  },
+  {
+    "id": "iaea_argentina_nnr_2025",
+    "type": "official",
+    "chicago": "Argentina. “National Nuclear Safety Report Argentina 2025.” Submitted via IAEA, 2025.",
+    "url": "https://www.iaea.org/sites/default/files/2026-01/national-report_argentina_2025.pdf",
+    "annotation": "Official national report documenting CAREM-25 licensing/construction. Supports carem25_argentina_iaea_2025.",
+    "supports": [
+      "carem25_argentina_iaea_2025",
+      "hunt_energy_fission_smr"
+    ]
+  },
+  {
+    "id": "hutchison_eit_ensenada_news",
+    "type": "official",
+    "chicago": "Hutchison Ports Mexico. “Hutchison Ports EIT invierte 2,300 millones de pesos en ampliación de su Terminal.” Company newsroom, 22 May 2023.",
+    "url": "https://www.hutchisonports.com.mx/newsroom/Hutchison-Ports-eit-invierte-2300-millones-de-pesos-en-ampliacion-de-su-Terminal",
+    "annotation": "Company primary notice of Ensenada terminal expansion investment. Supports hutchison_eit_ensenada_2022.",
+    "supports": [
+      "hutchison_eit_ensenada_2022",
+      "hunt_infra_port_ownership"
+    ]
+  },
+  {
+    "id": "sbase_lpi234_adjudicacion_2025",
+    "type": "official",
+    "chicago": "SBASE (Subterráneos de Buenos Aires). Resolución de adjudicación, Licitación Pública Internacional N° 234/2023 (Material rodante Línea B). 2025.",
+    "url": "https://static.buenosaires.gob.ar/sites/default/files/2025-07/LPI%20234.23%20-%20Resoluci%C3%B3n%20de%20Adjudicaci%C3%B3n%20-%20RESDI-2025-87-GCABA-SBASE.pdf",
+    "annotation": "Official award of Buenos Aires Line B rolling stock to CRRC Changchun at USD 263.2m CIF. Supports crrc_ba_line_b_2025.",
+    "supports": [
+      "crrc_ba_line_b_2025",
+      "hunt_latam_rail_telecom"
+    ]
+  },
+  {
+    "id": "alstom_mexico_47trains_20251226",
+    "type": "official",
+    "chicago": "Alstom. “Alstom to supply 47 trains and associated maintenance for new rail corridors in Mexico.” 26 December 2025.",
+    "url": "https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico",
+    "annotation": "Company primary release on MXN 20.2bn / 47 DMU Mexico award. Supports alstom_mexico_dmu_2025.",
+    "supports": [
+      "alstom_mexico_dmu_2025",
+      "hunt_latam_rail_telecom"
+    ]
+  },
+  {
+    "id": "chinalco_peru_history",
+    "type": "official",
+    "chicago": "Chinalco Peru. “Our History.” Company page. Accessed 1 October 2026.",
+    "url": "https://www.chinalco.com.pe/en/our-history",
+    "annotation": "Company primary history of Toromocho ownership. Supports chinalco_toromocho_peru.",
+    "supports": [
+      "chinalco_toromocho_peru",
+      "hunt_res_copper"
+    ]
+  },
+  {
+    "id": "anglo_nickel_sale_20250218",
+    "type": "official",
+    "chicago": "Anglo American plc. “Anglo American agrees sale of nickel business for up to $500 million.” 18 February 2025.",
+    "url": "https://www.angloamerican.com/media/press-releases/2025/18-02-2025a",
+    "annotation": "Seller-side primary release on Brazil nickel SPA to MMG. Supports anglo_brazil_nickel_sale_2025.",
+    "supports": [
+      "anglo_brazil_nickel_sale_2025",
+      "hunt_res_nickel"
+    ]
+  },
+  {
+    "id": "chec_americas_schip",
+    "type": "official",
+    "chicago": "CHEC Americas. “Southern Coastal Highway Improvement Project.” Company project page. Accessed 1 October 2026.",
+    "url": "https://www.checamerica.com/projects-jamaica-schip/",
+    "annotation": "Company primary description of SCHIP Sections A/B-ii. Supports chec_jamaica_schip_bri.",
+    "supports": [
+      "chec_jamaica_schip_bri",
+      "hunt_infra_bridges_roads"
+    ]
+  },
+  {
+    "id": "gevernova_transelec_sync_20240712",
+    "type": "official",
+    "chicago": "GE Vernova. “GE Vernova to supply synchronous condensers equipment to help improve grid stability in Northern Chile.” 12 July 2024.",
+    "url": "https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability",
+    "annotation": "Company primary release on Transelec sync-condenser / HV order. Supports ge_vernova_transelec_sync_chile_2024.",
+    "supports": [
+      "ge_vernova_transelec_sync_chile_2024",
+      "hunt_br_power_equip",
+      "hunt_cl_power_equip"
+    ]
+  },
+  {
+    "id": "ide_aconcagua_20230320",
+    "type": "official",
+    "chicago": "IDE Technologies. “IDE Technologies Commences Construction of the Aconcagua Desalination Plant in the Valparaiso Region of Chile.” 20 March 2023.",
+    "url": "https://ide-tech.com/en/ide-technologies-commences-construction-of-the-aconcagua-desalination-plant-in-the-valparaiso-region-of-chile/",
+    "annotation": "Company primary notice of Aconcagua desal construction start. Supports ide_aconcagua_desal_chile_2023.",
+    "supports": [
+      "ide_aconcagua_desal_chile_2023",
+      "hunt_res_water"
+    ]
+  },
+  {
+    "id": "codelco_sqm_novaandino_20251227",
+    "type": "official",
+    "chicago": "Codelco. “Codelco and SQM form NovaAndino Litio, the joint venture for the development of lithium in the Salar de Atacama.” 27 December 2025.",
+    "url": "https://www.codelco.com/en/prensa/2025/codelco-y-sqm-forman-novaandino-litio-la-sociedad-conjunta-para-el",
+    "annotation": "Official Codelco notice of Nova Andino Litio JV formation. Supports codelco_sqm_novaandino_2025.",
+    "supports": [
+      "codelco_sqm_novaandino_2025",
+      "hunt_res_lithium"
+    ]
+  },
+  {
+    "id": "seatrade_dpworld_lirquen_20220720",
+    "type": "journalism",
+    "chicago": "Labrut, Michèle. “DP World Lirquen receives first quay cranes.” Seatrade Maritime, 20 July 2022.",
+    "url": "https://www.seatrade-maritime.com/ports-logistics/dp-world-lirquen-receives-first-quay-cranes",
+    "annotation": "Trade press on ZPMC quay cranes at Lirquén. UNVERIFIED proxy. Supports zpmc_dpworld_lirquen_2022.",
+    "supports": [
+      "zpmc_dpworld_lirquen_2022",
+      "hunt_infra_port_cranes"
+    ]
+  },
+  {
+    "id": "ormat_global_projects_guatemala",
+    "type": "official",
+    "chicago": "Ormat Technologies Inc. “Global Projects.” Company page. Accessed 1 October 2026.",
+    "url": "https://www.ormat.com/en/projects/all/main/?pageNum=2",
+    "annotation": "Company project listing of Ormat Guatemala geothermal plants. Supports ormat_amatitlan_guatemala.",
+    "supports": [
+      "ormat_amatitlan_guatemala",
+      "hunt_energy_other_renewables"
+    ]
+  },
+  {
+    "id": "nordex_auren_112mw_20250303",
+    "type": "official",
+    "chicago": "Nordex SE. “Nordex Group receives order in Brazil from Auren Energia for 112 MW.” 3 March 2025.",
+    "url": "https://www.nordex-online.com/en/2025/03/nordex-group-receives-order-in-brazil-from-auren-energia-for-112-mw/",
+    "annotation": "Company primary wind order notice for Cajuína 3. Supports nordex_auren_cajuina3_2025.",
+    "supports": [
+      "nordex_auren_cajuina3_2025",
+      "hunt_energy_wind"
+    ]
+  },
+  {
+    "id": "cmoc_brazil_nb_p_page",
+    "type": "official",
+    "chicago": "CMOC Group Limited. “Brazil - niobium and phosphate.” Company page. Accessed 1 October 2026.",
+    "url": "https://en.cmoc.com/html/Business/BRA-Nb-P/",
+    "annotation": "Company primary description of Catalão NML niobium ownership/production. Supports cmoc_catalao_niobium_br.",
+    "supports": [
+      "cmoc_catalao_niobium_br",
+      "hunt_fenb_araxa",
+      "hunt_res_nickel"
+    ]
+  },
+  {
+    "id": "wits_ecu_440723_2023",
+    "type": "official",
+    "chicago": "World Bank WITS / UN Comtrade. “Ecuador Baboen, Mahogany, Imbuia and Balsa wood, sawn l exports by country | 2023.” HS 440723.",
+    "url": "https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2023/tradeflow/Exports/partner/ALL/product/440723",
+    "annotation": "Official trade mirror for Ecuador HS 440723 2023 exports. Supports wits_ecuador_balsa_china_2023 and wits_ecuador_balsa_us_2023.",
+    "supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2023",
+      "wits_ecuador_balsa_us_2023"
+    ]
+  },
+  {
+    "id": "cemnet_sinoma_votorantim_z02_20240917",
+    "type": "journalism",
+    "chicago": "Bell, Peter. “Sinoma Overseas to build Votorantim Z02 grinding plant.” CemNet, 17 September 2024.",
+    "url": "https://www.cemnet.com/News/story/177749/sinoma-overseas-to-build-votorantim-z02-grinding-plant.html",
+    "annotation": "Trade press on Sinoma–Votorantim Z02 grinding contract. UNVERIFIED proxy. Supports sinoma_votorantim_z02_br_2024.",
+    "supports": [
+      "sinoma_votorantim_z02_br_2024",
+      "hunt_infra_building_materials"
+    ]
+  },
+  {
+    "id": "fluor_salares_norte_20240403",
+    "type": "official",
+    "chicago": "Fluor Corporation. “Fluor Announces First Gold from Gold Fields’ Salares Norte Mining Project in Chile.” 3 April 2024.",
+    "url": "https://newsroom.fluor.com/news-releases/news-details/2024/Fluor-Announces-First-Gold-from-Gold-Fields-Salares-Norte-Mining-Project-in-Chile/default.aspx",
+    "annotation": "Company primary EPCM milestone release for Salares Norte. Supports fluor_salares_norte_chile_2024.",
+    "supports": [
+      "fluor_salares_norte_chile_2024",
+      "hunt_infra_engineering_epc"
+    ]
+  },
+  {
+    "id": "bechtel_los_pelambres_page",
+    "type": "official",
+    "chicago": "Bechtel. “Los Pelambres Copper Mine.” Company project page. Accessed 1 October 2026.",
+    "url": "https://www.bechtel.com/projects/los-pelambres-copper-mine/",
+    "annotation": "Company primary project description of INCO MLP EPC. Supports bechtel_los_pelambres_inco_2024.",
+    "supports": [
+      "bechtel_los_pelambres_inco_2024",
+      "hunt_infra_engineering_epc"
+    ]
   }
 ]
