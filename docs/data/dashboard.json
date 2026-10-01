@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 216,
+    "n_rows": 222,
     "counts": {
-      "total": 216,
-      "active": 161,
+      "total": 222,
+      "active": 167,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 29,
+      "proxy": 30,
       "exclude": 5,
-      "documented": 131,
-      "on_map": 150
+      "documented": 136,
+      "on_map": 156
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 24,
-        "allied": 31,
-        "n": 59
+        "allied": 33,
+        "n": 62
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 170000000.0,
+        "us_n": 1,
         "prc": 1331197353.12,
         "prc_n": 8,
         "allied": 5020000000.0,
@@ -130,15 +130,15 @@
       "layer": "resources",
       "counts": {
         "us": 9,
-        "prc": 13,
+        "prc": 14,
         "allied": 31,
-        "n": 53
+        "n": 54
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
-        "prc": 1830442290.0,
-        "prc_n": 7,
+        "prc": 2010442290.0,
+        "prc_n": 8,
         "allied": 13386936427.2,
         "allied_n": 10
       },
@@ -151,9 +151,9 @@
       "layer": "energy",
       "counts": {
         "us": 7,
-        "prc": 17,
-        "allied": 23,
-        "n": 47
+        "prc": 18,
+        "allied": 24,
+        "n": 49
       },
       "usd": {
         "us": 0.0,
@@ -176,15 +176,15 @@
       "country": "Argentina",
       "counts": {
         "us": 2,
-        "prc": 7,
+        "prc": 8,
         "allied": 9,
-        "n": 18
+        "n": 19
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 927321329.76,
-        "prc_n": 3,
+        "prc": 1107321329.76,
+        "prc_n": 4,
         "allied": 4377936427.2,
         "allied_n": 4
       },
@@ -201,7 +201,7 @@
         },
         "resources": {
           "us": 0,
-          "prc": 4,
+          "prc": 5,
           "allied": 5
         }
       }
@@ -211,8 +211,8 @@
       "counts": {
         "us": 0,
         "prc": 1,
-        "allied": 0,
-        "n": 1
+        "allied": 1,
+        "n": 2
       },
       "usd": {
         "us": 0.0,
@@ -227,6 +227,11 @@
           "us": 0,
           "prc": 1,
           "allied": 0
+        },
+        "infrastructure": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
         }
       }
     },
@@ -234,9 +239,9 @@
       "country": "Brazil",
       "counts": {
         "us": 4,
-        "prc": 20,
-        "allied": 36,
-        "n": 60
+        "prc": 21,
+        "allied": 37,
+        "n": 62
       },
       "usd": {
         "us": 550000000.0,
@@ -249,8 +254,8 @@
       "by_layer": {
         "energy": {
           "us": 1,
-          "prc": 8,
-          "allied": 14
+          "prc": 9,
+          "allied": 15
         },
         "infrastructure": {
           "us": 0,
@@ -542,14 +547,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 0,
+        "us": 1,
         "prc": 2,
         "allied": 8,
-        "n": 10
+        "n": 11
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 170000000.0,
+        "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 469000000.0,
@@ -562,7 +567,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 0,
+          "us": 1,
           "prc": 2,
           "allied": 4
         },
@@ -602,8 +607,8 @@
       "counts": {
         "us": 2,
         "prc": 5,
-        "allied": 6,
-        "n": 13
+        "allied": 7,
+        "n": 14
       },
       "usd": {
         "us": 0.0,
@@ -622,7 +627,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 2,
-          "allied": 4
+          "allied": 5
         },
         "resources": {
           "us": 1,
@@ -792,7 +797,13 @@
       "konecranes_cartagena_rtg_2025",
       "heidelberg_cementos_inka_peru_2026",
       "cox_rosarito_desal_mexico_2026",
-      "crbc_arequipa_la_joya_2026"
+      "crbc_arequipa_la_joya_2026",
+      "apm_callao_stage3b_2026",
+      "vestas_esquina_do_vento_230mw_2026",
+      "goldwind_sento_se_872mw_2026",
+      "ganfeng_laac_convertible_180m_2026",
+      "lycopodium_san_cristobal_epcm_2026",
+      "m3_vizsla_panuco_epcm_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

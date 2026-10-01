@@ -1,60 +1,81 @@
 updated: 2026-10-01
-cycle: 13
+cycle: 14
 remote: present
-active_layer: energy
-active_subcategory: fission_smr
-next_query: Cycle 14 shuffle_seed=20261014; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-14 shuffled_order)
+active_layer: infrastructure
+active_subcategory: port_ownership
+next_query: Cycle 15 shuffle_seed=20261015; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-15 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261013
+shuffle_seed: 20261014
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- energy/fission_smr
-- infrastructure/rail
-- energy/other_renewables
-- infrastructure/engineering_epc
-- resources/copper
-- infrastructure/building_materials
-- resources/water
-- infrastructure/bridges_roads
 - infrastructure/port_ownership
+- infrastructure/rail
+- energy/fission_smr
+- infrastructure/bridges_roads
 - energy/wind
-- resources/balsa
-- resources/nickel
-- energy/power_plants_grid
 - infrastructure/port_cranes
-- resources/lithium
-- resources/graphite
 - resources/niobium
+- resources/balsa
 - energy/solar
+- resources/graphite
+- energy/power_plants_grid
+- resources/copper
+- resources/nickel
+- resources/lithium
+- resources/water
+- infrastructure/building_materials
+- infrastructure/engineering_epc
+- energy/other_renewables
 
 rows_found_this_cycle:
-  energy/fission_smr: 0
+  infrastructure/port_ownership: 1
   infrastructure/rail: 0
-  energy/other_renewables: 0
-  infrastructure/engineering_epc: 0
-  resources/copper: 0
-  infrastructure/building_materials: 1
-  resources/water: 1
-  infrastructure/bridges_roads: 1
-  infrastructure/port_ownership: 0
-  energy/wind: 0
-  resources/balsa: 0
-  resources/nickel: 0
-  energy/power_plants_grid: 0
+  energy/fission_smr: 0
+  infrastructure/bridges_roads: 0
+  energy/wind: 2
   infrastructure/port_cranes: 0
-  resources/lithium: 0
-  resources/graphite: 0
   resources/niobium: 0
+  resources/balsa: 0
   energy/solar: 0
+  resources/graphite: 0
+  energy/power_plants_grid: 0
+  resources/copper: 0
+  resources/nickel: 0
+  resources/lithium: 1
+  resources/water: 0
+  infrastructure/building_materials: 0
+  infrastructure/engineering_epc: 2
+  energy/other_renewables: 0
+
+coverage_cumulative:
+  # Active (non-archived, non-exclude) observation counts after cycle 14
+  infrastructure/port_ownership: 12
+  infrastructure/port_cranes: 12
+  infrastructure/rail: 11
+  infrastructure/bridges_roads: 11
+  infrastructure/building_materials: 9
+  infrastructure/engineering_epc: 13
+  resources/niobium: 6
+  resources/lithium: 12
+  resources/copper: 11
+  resources/nickel: 8
+  resources/graphite: 8
+  resources/balsa: 7
+  resources/water: 9
+  energy/fission_smr: 7
+  energy/solar: 10
+  energy/wind: 11
+  energy/power_plants_grid: 18
+  energy/other_renewables: 10
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 13
@@ -76,17 +97,6 @@ coverage_cumulative:
   energy/wind: 9
   energy/power_plants_grid: 18
   energy/other_renewables: 10
-  resources/niobium: 0
-  infrastructure/bridges_roads: 0
-  energy/wind: 0
-  resources/graphite: 1
-  resources/water: 0
-  resources/copper: 0
-  energy/solar: 0
-  energy/power_plants_grid: 0
-  infrastructure/port_cranes: 1
-  infrastructure/port_ownership: 0
-  energy/fission_smr: 0
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 12
@@ -108,8 +118,6 @@ coverage_cumulative:
   energy/wind: 9
   energy/power_plants_grid: 18
   energy/other_renewables: 10
-  resources/balsa: 0
-  energy/wind: 0
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 11
@@ -444,6 +452,12 @@ misses:
 #   Thin fills: building_materials, water, bridges_roads.
 #   Equal-budget misses: fission_smr, rail, other_renewables, engineering_epc, copper, port_ownership,
 #   wind, balsa, nickel, power_plants_grid, port_cranes, lithium, graphite, niobium, solar.
+
+# Cycle 14 (seed 20261014): 6 sourced rows; hits on port_ownership (APM Callao Stage 3B USD 570m proxy),
+#   wind (Vestas Esquina do Vento 230 MW + Goldwind Sento Sé 872 MW), lithium (Ganfeng USD 180m LAAC note),
+#   engineering_epc (Lycopodium San Cristóbal A$37m + M3/Vizsla Panuco USD 170m).
+#   Equal-budget misses: rail, fission_smr, bridges_roads, port_cranes, niobium, balsa, solar, graphite,
+#   power_plants_grid, copper, nickel, water, building_materials, other_renewables.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).

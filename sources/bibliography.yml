@@ -2183,3 +2183,58 @@
   supports:
   - crbc_arequipa_la_joya_2026
   - hunt_infra_bridges_roads
+- id: dataportuaria_apm_callao_stage3b_20260702
+  type: press
+  chicago: DataPortuaria. “APM Terminals Callao to invest USD 570 million in modernization until 2030.”
+    2 July 2026.
+  url: https://dataportuaria.com/en/peru/ports/apm-terminals-callao-to-invest-usd-570-million-in-modernizat
+  annotation: Trade press reprint of APM Callao Stage 3B expansion (primary apmterminals.com unreachable).
+    Supports apm_callao_stage3b_2026 (UNVERIFIED value).
+  supports:
+  - apm_callao_stage3b_2026
+  - hunt_infra_port_ownership
+- id: vestas_esquina_do_vento_2026
+  type: official
+  chicago: Vestas. “Equinor and Rio Energy order Vestas turbines for the 230 MW Esquina do Vento Wind
+    Project in Brazil, fully developed by Vestas.” Company news, 2026.
+  url: https://www.vestas.com/en/media/company-news/2026/equinor-and-rio-energy-order-vestas-turbines-for-the-23-c4325164
+  annotation: Company primary Esquina do Vento turbine order. Supports vestas_esquina_do_vento_230mw_2026.
+  supports:
+  - vestas_esquina_do_vento_230mw_2026
+  - hunt_energy_wind
+- id: prnewswire_goldwind_sento_se_20260916
+  type: official
+  chicago: Goldwind / Casa dos Ventos. “Goldwind e Casa dos Ventos assinam acordo para o projeto eólico
+    Sento Sé, de 872 MW, no Brasil.” PR Newswire, 16 September 2026.
+  url: https://www.prnewswire.com/br/comunicados-para-a-imprensa/goldwind-e-casa-dos-ventos-assinam-acordo-para-o-projeto-eolico-sento-se-de-872-mw-no-brasil-302880123.html
+  annotation: Company PR (PT) on Sento Sé 872 MW / 109 GWH182-8.0 MW order. Supports goldwind_sento_se_872mw_2026.
+  supports:
+  - goldwind_sento_se_872mw_2026
+  - hunt_energy_wind
+- id: globenewswire_laac_ganfeng_180m_20260915
+  type: official
+  chicago: Lithium Argentina AG. “Lithium Argentina Announces Closing of $180M Strategic Investment from
+    Ganfeng.” GlobeNewswire, 15 September 2026.
+  url: https://www.globenewswire.com/news-release/2026/09/15/3361860/0/en/lithium-argentina-announces-closing-of-180m-strategic-investment-from-ganfeng.html
+  annotation: Company primary convertible-note close. Supports ganfeng_laac_convertible_180m_2026.
+  supports:
+  - ganfeng_laac_convertible_180m_2026
+  - hunt_res_lithium
+- id: lycopodium_san_cristobal_20260818
+  type: official
+  chicago: Lycopodium Limited. “Lycopodium Awarded EPCM Contract for San Cristóbal Silver Oxide Project
+    in Bolivia.” ASX announcement, 18 August 2026.
+  url: https://www.lycopodium.com/wp-content/uploads/2026/08/San-Cristobal-Announcement_FINAL.pdf
+  annotation: Company primary San Cristóbal oxide-plant EPCM award. Supports lycopodium_san_cristobal_epcm_2026.
+  supports:
+  - lycopodium_san_cristobal_epcm_2026
+  - hunt_infra_engineering_epc
+- id: prnewswire_vizsla_m3_panuco_20260423
+  type: official
+  chicago: Vizsla Silver Corp. “Vizsla Silver Awards EPCM and Mine Design Contracts for the Development
+    of the Panuco Silver-Gold Project.” PR Newswire, 23 April 2026.
+  url: https://www.prnewswire.com/news-releases/vizsla-silver-awards-epcm-and-mine-design-contracts-for-the-development-of-the-panuco-silver-gold-project-302750621.html
+  annotation: Company primary Panuco EPCM award to M3 Engineering. Supports m3_vizsla_panuco_epcm_2026.
+  supports:
+  - m3_vizsla_panuco_epcm_2026
+  - hunt_infra_engineering_epc
