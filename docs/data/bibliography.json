@@ -5411,5 +5411,78 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "bloomberg_linea_bid_posco_20260828",
+    "type": "trade_press",
+    "chicago": "Lendoiro, Florencia. “El litio argentino también consigue financiamiento internacional: US$700 millones para Posco.” Bloomberg Línea, 28 August 2026.",
+    "url": "https://www.bloomberglinea.com/latinoamerica/argentina/el-litio-argentino-tambien-consigue-financiamiento-internacional-us700-millones-para-posco/",
+    "annotation": "Press on BID Invest up to USD 700m for Posco Sal de Oro. Supports bid_invest_posco_sal_de_oro_700m_2026.",
+    "supports": [
+      "bid_invest_posco_sal_de_oro_700m_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "bid_invest_posco_sal_de_oro_700m_2026",
+      "hunt_res_lithium",
+      "mcewen_los_azules_240m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "g1_santos_guaruja_20260128",
+    "type": "trade_press",
+    "chicago": "Simonato, Sabina. “Governo de SP assina contrato para construir o Túnel Santos-Guarujá.” g1 / TV Globo, 28 January 2026.",
+    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/01/28/governo-de-sp-assina-contrato-para-construir-o-tunel-santos-guaruja.ghtml",
+    "annotation": "Press on Mota-Engil Santos–Guarujá tunnel PPP R$6.8bn. Supports mota_engil_santos_guaruja_6p8bn_2026.",
+    "supports": [
+      "mota_engil_santos_guaruja_6p8bn_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "mota_engil_santos_guaruja_6p8bn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "eco_aca_transnordestina_20260727",
+    "type": "trade_press",
+    "chicago": "Abreu, Patrícia. “Grupo ACA de Famalicão ganha contrato de 61 milhões na ferrovia do Brasil.” ECO, 27 July 2026.",
+    "url": "https://eco.sapo.pt/2026/07/27/grupo-aca-de-famalicao-ganha-contrato-de-61-milhoes-na-ferrovia-do-brasil/",
+    "annotation": "Press on ACA Transnordestina SPS 04 R$312.8m. Supports aca_transnordestina_sps04_2026.",
+    "supports": [
+      "aca_transnordestina_sps04_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "aca_transnordestina_sps04_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "larepublica_tren_macho_20260622",
+    "type": "trade_press",
+    "chicago": "Tosso, Valeria. “Así avanza el Tren Macho tras casi 100 años: nueva ruta costará US$339 millones e iniciará obras en mayo de 2027.” La República (Peru), 22 June 2026.",
+    "url": "https://larepublica.pe/sociedad/2026/06/22/asi-avanza-el-tren-macho-tras-casi-100-anos-nueva-ruta-costara-us339-millones-e-iniciara-obras-en-mayo-de-2027-506506",
+    "annotation": "Press on Tren Macho modernization USD 339m. Supports tren_macho_huancayo_339m_2026.",
+    "supports": [
+      "tren_macho_huancayo_339m_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "hunt_latam_rail_telecom",
+      "tren_macho_huancayo_339m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

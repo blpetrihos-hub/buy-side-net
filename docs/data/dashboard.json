@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 357,
+    "n_rows": 362,
     "counts": {
-      "total": 357,
-      "active": 302,
+      "total": 362,
+      "active": 307,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 68,
+      "proxy": 73,
       "exclude": 5,
       "documented": 233,
-      "on_map": 291
+      "on_map": 296
     }
   },
   "layer_readouts": [
@@ -108,8 +108,8 @@
       "counts": {
         "us": 6,
         "prc": 37,
-        "allied": 73,
-        "n": 116
+        "allied": 76,
+        "n": 119
       },
       "usd": {
         "us": 170000000.0,
@@ -131,8 +131,8 @@
       "counts": {
         "us": 14,
         "prc": 22,
-        "allied": 64,
-        "n": 100
+        "allied": 66,
+        "n": 102
       },
       "usd": {
         "us": 10178942120.0,
@@ -177,8 +177,8 @@
       "counts": {
         "us": 2,
         "prc": 10,
-        "allied": 19,
-        "n": 31
+        "allied": 21,
+        "n": 33
       },
       "usd": {
         "us": 0.0,
@@ -202,7 +202,7 @@
         "resources": {
           "us": 0,
           "prc": 7,
-          "allied": 10
+          "allied": 12
         }
       }
     },
@@ -240,8 +240,8 @@
       "counts": {
         "us": 6,
         "prc": 33,
-        "allied": 74,
-        "n": 113
+        "allied": 76,
+        "n": 115
       },
       "usd": {
         "us": 552145000.0,
@@ -260,7 +260,7 @@
         "infrastructure": {
           "us": 0,
           "prc": 13,
-          "allied": 25
+          "allied": 27
         },
         "resources": {
           "us": 5,
@@ -641,8 +641,8 @@
       "counts": {
         "us": 3,
         "prc": 10,
-        "allied": 16,
-        "n": 29
+        "allied": 17,
+        "n": 30
       },
       "usd": {
         "us": 2100000000.0,
@@ -661,7 +661,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 4,
-          "allied": 11
+          "allied": 12
         },
         "resources": {
           "us": 2,
@@ -996,7 +996,12 @@
       "acciona_el_romero_bess_2026",
       "antofagasta_zaldivar_water_900m_2026",
       "peru_smr_promotion_law_2026",
-      "ecuador_us_nuclear_mou_2026"
+      "ecuador_us_nuclear_mou_2026",
+      "bid_invest_posco_sal_de_oro_700m_2026",
+      "mota_engil_santos_guaruja_6p8bn_2026",
+      "aca_transnordestina_sps04_2026",
+      "tren_macho_huancayo_339m_2026",
+      "mcewen_los_azules_240m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
