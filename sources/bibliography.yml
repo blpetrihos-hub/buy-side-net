@@ -4168,3 +4168,104 @@
   supports:
   - jervois_smp_eu_crma_status_2026
   - hunt_res_nickel
+- id: ssa_mexico_guaymas_tum_20251016
+  type: company
+  chicago: SSA Marine México. “SSA Marine Mexico to Operate New Multi-Use Terminal at the Port of Guaymas.”
+    16 October 2025.
+  url: https://www.ssamarine.mx/ssa-ing/newsdetails?id=245
+  annotation: Company primary on Guaymas TUM partial rights transfer / 18-year concession. Supports ssa_guaymas_tum_concession_2025.
+  supports:
+  - ssa_guaymas_tum_concession_2025
+  - hunt_infra_port_ownership
+- id: dpworld_caucedo_20250509
+  type: company
+  chicago: DP World. “DP World Signs Agreement to Launch $760M Port and Free Trade Zone in Dominican Republic.”
+    9 May 2025.
+  url: https://www.dpworld.com/en/news/usa/dp-world-signs-agreement-to-expand-port-caucedo-in-dominican-republic
+  annotation: Company primary on Caucedo USD 760m port+FTZ MoU. Supports dpworld_caucedo_760m_2025.
+  supports:
+  - dpworld_caucedo_760m_2025
+  - hunt_infra_port_ownership
+- id: jervois_smp_asset_page_2026
+  type: company
+  chicago: Jervois. “São Miguel Paulista Refinery.” Company asset page (refurbishment/restart project
+    update).
+  url: https://jervoisglobal.com/assets/sao-miguel-paulista-refinery/
+  annotation: Company primary on SMP Class 1 Ni–Co refinery restart construction through 2026–27. Supports
+    jervois_smp_restart_construction_2026.
+  supports:
+  - jervois_smp_restart_construction_2026
+  - jervois_smp_eu_crma_status_2026
+  - hunt_res_nickel
+- id: gmr_ausenco_jervois_20260119
+  type: press
+  chicago: Global Mining Review. “Ausenco to revitalise Jervois nickel and cobalt refinery.” 19 January
+    2026.
+  url: https://www.globalminingreview.com/mining/19012026/ausenco-to-revitalise-jervois-nickel-and-cobalt-refinery/
+  annotation: Trade press on Ausenco EPCM mobilisation for Jervois SMP restart. Supports ausenco_jervois_smp_epcm_2026.
+  supports:
+  - ausenco_jervois_smp_epcm_2026
+  - hunt_infra_engineering_epc
+- id: contourglobal_victor_jara_20260527
+  type: company
+  chicago: 'ContourGlobal. “ContourGlobal inaugurates a hybrid solar PV plant in Chile with a 6.5-hour
+    battery storage system: Latin America’s longest-duration utility-scale BESS.” 27 May 2026.'
+  url: https://www.contourglobal.com/news/contourglobal-inaugurates-a-hybrid-solar-pv-plant-in-chile-with-a-6-5-hour-battery-storage-system-latin-americas-longest-duration-utility-scale-bess/
+  annotation: Company primary on Víctor Jara 231 MWp + 1.3 GWh BESS COD. Supports contourglobal_victor_jara_cod_2026.
+  supports:
+  - contourglobal_victor_jara_cod_2026
+  - hunt_energy_solar
+- id: barrick_q2_2026_results
+  type: company
+  chicago: Barrick Mining Corporation. “Barrick Reports Second Quarter 2026 Results.” 2026.
+  url: https://www.barrick.com/English/news/news-details/2026/q2-2026-results/default.aspx
+  annotation: Company Q2 2026 results noting Pueblo Viejo effluent treatment plant construction and RO
+    engineering. Supports barrick_pueblo_viejo_etp_ro_2026.
+  supports:
+  - barrick_pueblo_viejo_etp_ro_2026
+  - hunt_res_water
+- id: southern_copper_pp_20260526
+  type: company
+  chicago: Southern Copper Corporation. “Presentación de la Compañía.” May 2026 investor presentation
+    (pp260526.pdf).
+  url: https://southerncoppercorp.com/wp-content/uploads/2026/05/pp260526.pdf
+  annotation: Company presentation listing Fundición Ilo at US$1.3B. Supports southern_copper_ilo_fundicion_1p3bn_2026.
+  supports:
+  - southern_copper_ilo_fundicion_1p3bn_2026
+  - hunt_res_copper
+- id: g1_crrc_araraquara_20260325
+  type: press
+  chicago: g1 São Carlos e Araraquara. “Fábrica de trens é inaugurada em Araraquara, e contratos de R$
+    5,6 bilhões do BNDES são assinados.” 25 March 2026.
+  url: https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/03/25/fabrica-de-trens-e-inaugurada-em-araraquara-e-contratos-de-r-56-bilhoes-do-bndes-sao-assinados.ghtml
+  annotation: Brazilian press on CRRC Araraquara factory installation and related BNDES SP mobility contracts.
+    Supports crrc_araraquara_factory_2026.
+  supports:
+  - crrc_araraquara_factory_2026
+  - hunt_latam_rail_telecom
+- id: larepublica_chancay_sierra_20260123
+  type: press
+  chicago: Torres, Aarón. “Perú adjudica proyecto del tren que unirá el Megapuerto de Chancay con la sierra
+    central … inversión de US$420 millones.” La República, 23 January 2026 (updated 29 January 2026).
+  url: https://larepublica.pe/sociedad/2026/01/23/peru-adjudica-proyecto-del-tren-que-unira-el-megapuerto-de-chancay-con-la-sierra-central-atravesara-la-cordillera-de-los-andes-y-tendra-una-inversion-de-us420-millones-1375860
+  annotation: UNVERIFIED proxy press on PowerChina Chancay–Sierra Central US$420m award. Supports powerchina_chancay_sierra_420m_2026.
+  supports:
+  - powerchina_chancay_sierra_420m_2026
+  - hunt_latam_rail_telecom
+- id: plantabal_sourcing_policy_202508
+  type: company
+  chicago: Plantaciones de Balsa Plantabal S.A. “Política de Abastecimiento Responsable / Responsible
+    Sourcing Policy.” CE-CW-D2, versión 05, August 2025.
+  url: https://www.3accorematerials.com/uploads/pdf/CE-CW-D2-Sourcing-Policy-Plantabal-2025.pdf
+  annotation: Company primary responsible-sourcing policy for Ecuador Plantabal operations. Supports plantabal_sourcing_policy_2025.
+  supports:
+  - plantabal_sourcing_policy_2025
+  - hunt_res_balsa
+- id: brasilmineral_cbmm_2025_1p1bn
+  type: press
+  chicago: Brasil Mineral. “CBMM investe R$ 1,1 bilhão em crescimento e inovação em 2025.” 24 March 2026.
+  url: https://brasilmineral.com.br/noticias/cbmm-investe-r-11-bilhao-em-crescimento-e-inovacao-em-2025
+  annotation: UNVERIFIED proxy press on CBMM R$1.1bn 2025 growth/innovation spend at Araxá. Supports cbmm_araxa_2025_spend_1p1bn.
+  supports:
+  - cbmm_araxa_2025_spend_1p1bn
+  - hunt_fenb_araxa
