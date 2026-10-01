@@ -4274,5 +4274,149 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "proinversion_marcona_jinzhao_20240322",
+    "type": "government",
+    "chicago": "Agencia de Promoción de la Inversión Privada (PROINVERSIÓN). “Comunicado ProInversión” (adjudicación Terminal Portuario Jinzhao Perú — Nuevo Terminal Portuario de San Juan de Marcona). 22 March 2024.",
+    "url": "https://www.gob.pe/institucion/proinversion/noticias/925401-comunicado-proinversion",
+    "annotation": "Official award of Marcona multipurpose port concession to Jinzhao Perú at US$405m. Supports jinzhao_marcona_port_concession_2024.",
+    "supports": [
+      "jinzhao_marcona_port_concession_2024",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "jinzhao_marcona_port_concession_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ohla_panama_este_20250522",
+    "type": "company",
+    "chicago": "OHLA. “OHLA refuerza su presencia en Panamá con un nuevo contrato para rehabilitar la Carretera Panamericana Este.” 22 May 2025.",
+    "url": "https://www.ohla-group.com/ohla-refuerza-su-presencia-en-panama-con-un-nuevo-contrato-para-rehabilitar-la-carretera-panamericana-este/",
+    "annotation": "Company primary on USD 260m Panamericana Este rehab award. Supports ohla_panama_panamericana_este_2025.",
+    "supports": [
+      "ohla_panama_panamericana_este_2025",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "ohla_panama_panamericana_este_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "konecranes_super_terminais_20250710",
+    "type": "company",
+    "chicago": "Konecranes. “Super Terminais orders three more Konecranes Gottwald ESP.10 Mobile Harbor Cranes to expand its Amazon River operations.” 10 July 2025.",
+    "url": "https://news.cision.com/konecranes-oyj/r/super-terminais-orders-three-more-konecranes-gottwald-esp-10-mobile-harbor-cranes-to-expand-its-amaz,c4205040",
+    "annotation": "Company primary on Manaus ESP.10 MHC repeat order. Supports konecranes_super_terminais_manaus_2025.",
+    "supports": [
+      "konecranes_super_terminais_manaus_2025",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "konecranes_super_terminais_manaus_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "elfinanciero_crrc_pachuca_20250912",
+    "type": "press",
+    "chicago": "El Financiero. “China ‘mete las manos’ en la obra México-Pachuca: CRRC Zhuzhou Locomotive venderá 15 trenes eléctricos.” 12 September 2025.",
+    "url": "https://www.elfinanciero.com.mx/empresas/2025/09/12/china-mete-las-manos-en-la-obra-mexico-pachuca-crrc-zhuzhou-locomotive-vendera-15-trenes-electricos/",
+    "annotation": "UNVERIFIED press on ARTF CRRC Zhuzhou CDMX–Pachuca 15-train award (~MXN 5.85bn). Supports crrc_mexico_pachuca_trains_2025.",
+    "supports": [
+      "crrc_mexico_pachuca_trains_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "crrc_mexico_pachuca_trains_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "holcim_ec_arcillas_calcinadas",
+    "type": "company",
+    "chicago": "Holcim Ecuador. “Proyecto de Arcillas Calcinadas.” n.d. (opened 2026-10-01).",
+    "url": "https://www.holcim.com.ec/arcillas-calcinadas",
+    "annotation": "Company primary on USD 17m Guayaquil calcined-clay cement project. Supports holcim_guayaquil_calcined_clay_2025.",
+    "supports": [
+      "holcim_guayaquil_calcined_clay_2025",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "holcim_guayaquil_calcined_clay_2025",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_ufn3_20260706",
+    "type": "company",
+    "chicago": "POWERCHINA. “POWERCHINA to construct fertilizer plant in Brazil.” 6 July 2026.",
+    "url": "https://en.powerchina.cn/2026-07/06/c_829084.htm",
+    "annotation": "Company primary on Petrobras UFN-III EPC lots 6/8/10 at Três Lagoas. Supports powerchina_ufn3_petrobras_epc_2026.",
+    "supports": [
+      "powerchina_ufn3_petrobras_epc_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "powerchina_ufn3_petrobras_epc_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ypf_luz_el_quemado_20260515",
+    "type": "company",
+    "chicago": "YPF Luz. “YPF Luz inauguró El Quemado, el parque solar más grande de la Argentina.” 15 May 2026.",
+    "url": "https://www.ypfluz.com/Noticias/NoticiaCompleta/219",
+    "annotation": "Company primary on USD 211m / 305 MW El Quemado solar inauguration. Supports ypf_luz_el_quemado_solar_2026.",
+    "supports": [
+      "ypf_luz_el_quemado_solar_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "ypf_luz_el_quemado_solar_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ormat_q2_2026_results",
+    "type": "company",
+    "chicago": "Ormat Technologies, Inc. “Ormat Technologies Reports Second Quarter 2026 Financial Results.” 5 August 2026.",
+    "url": "https://investor.ormat.com/news-events/news/news-details/2026/Ormat-Technologies-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+    "annotation": "Company primary confirming July 2026 COD of 10 MW Dominica geothermal plant. Supports ormat_dominica_geothermal_cod_2026.",
+    "supports": [
+      "ormat_dominica_geothermal_cod_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "ormat_dominica_geothermal_cod_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
