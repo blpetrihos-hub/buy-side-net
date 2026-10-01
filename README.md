@@ -1,4 +1,4 @@
-# Commanding heights of Latin America
+# Commanding Heights of Latin America
 
 Net assessment of PRC versus U.S. investment and presence across **Infrastructure**, **Scarce Natural Resources**, and **Energy** in Latin America and the Caribbean. Descriptive only — nothing here is a recommendation.
 

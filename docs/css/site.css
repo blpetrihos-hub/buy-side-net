@@ -122,7 +122,7 @@ body {
   flex-wrap: wrap;
   gap: 0.35rem 1rem;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   padding: 0.35rem 1rem;
   background: rgba(247, 244, 238, 0.98);
@@ -130,6 +130,7 @@ body {
   font-size: 0.78rem;
   color: var(--muted);
   line-height: 1.25;
+  text-align: center;
 }
 .legend-item { display: inline-flex; align-items: center; gap: 0.3rem; }
 .legend-swatch {
