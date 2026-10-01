@@ -6246,5 +6246,95 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "electromineria_arena_bess_20250416",
+    "type": "press",
+    "chicago": "Electrominería. “Almacenamiento: proyecto BESS, de 220 MW/1.100 MWh, es declarado en construcción por la CNE.” 16 April 2025.",
+    "url": "https://electromineria.cl/almacenamiento-proyecto-bess-de-220-mw-1-100-mwh-es-declarado-en-construccion-por-la-cne/",
+    "annotation": "Chilean energy press on CNE construction declaration and USD 236m Arena BESS CAPEX. Supports cip_arena_bess_236m_2025.",
+    "supports": [
+      "cip_arena_bess_236m_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "cip_arena_bess_236m_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mexiconow_ssa_progreso_20260624",
+    "type": "press",
+    "chicago": "Jáquez, Noah. “Yucatan receives US$54 million for modernization.” MexicoNOW, 24 June 2026.",
+    "url": "https://mexico-now.com/yucatan-receives-us54-million-for-modernization/",
+    "annotation": "English trade press on SSA Marine México USD 54m Progreso cruise-terminal Phase 2. Supports ssa_progreso_cruise_54m_2026.",
+    "supports": [
+      "ssa_progreso_cruise_54m_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "ssa_progreso_cruise_54m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "idb_invest_aes_jk_20251111",
+    "type": "official",
+    "chicago": "IDB Invest. “AES Wind Farms JK1-JK2 Financing - Colombia.” Project 15653-01, disclosed 11 November 2025.",
+    "url": "https://idbinvest.org/en/projects/aes-wind-farms-jk1-jk2-financing-colombia",
+    "annotation": "MDB disclosure of proposed USD 150m loan for AES Colombia JK1–JK2 259 MW. Supports aes_jk1_jk2_idb_invest_150m_2025.",
+    "supports": [
+      "aes_jk1_jk2_idb_invest_150m_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "aes_jk1_jk2_idb_invest_150m_2025",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "south_star_sprott_20250826",
+    "type": "company",
+    "chicago": "South Star Battery Metals Corp. “South Star Announces Indicative Term Sheet for US$4M Debt Financing for the Santa Cruz Graphite Mine in Brazil and Appointment of New CFO.” 26 August 2025.",
+    "url": "https://www.otcmarkets.com/stock/STSBF/news/South-Star-Announces-Indicative-Term-Sheet-for-US4M-Debt-Financing-for-the-Santa-Cruz-Graphite-Mine-in-Brazil-and-Appoin?id=490501",
+    "annotation": "Company primary on Sprott Streaming USD 4m indicative loan for Santa Cruz. Supports south_star_sprott_4m_term_2025.",
+    "supports": [
+      "south_star_sprott_4m_term_2025",
+      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "hunt_res_graphite",
+      "south_star_sprott_4m_term_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "elsalvador_english_123_20260313",
+    "type": "press",
+    "chicago": "El Salvador in English. “U.S. and El Salvador Strengthen Energy Partnership with 123 Agreement.” 13 March 2026.",
+    "url": "https://elsalvadorinenglish.com/2026/03/13/u-s-and-el-salvador-strengthen-energy-partnership-with-123-agreement/",
+    "annotation": "English-language report of completed U.S.–El Salvador 123 negotiations. Supports el_salvador_123_negotiations_202603.",
+    "supports": [
+      "el_salvador_123_negotiations_202603",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "el_salvador_123_negotiations_202603",
+      "hunt_energy_fission_smr"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 44
+cycle: 45
 remote: present
 active_layer: resources
 active_subcategory: balsa
-next_query: Cycle 45 shuffle_seed=20261045; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (15), nickel (17), fission_smr (17), then water/niobium/graphite (~18).
-next_row_id: (follow cycle-45 shuffled_order)
+next_query: Cycle 46 shuffle_seed=20261046; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (15), nickel (17), then water/niobium (~18), fission_smr/graphite (~18–19).
+next_row_id: (follow cycle-46 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,51 +16,92 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261044
+shuffle_seed: 20261045
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- resources/graphite
-- infrastructure/engineering_epc
-- resources/balsa
-- energy/fission_smr
-- energy/power_plants_grid
-- energy/other_renewables
-- resources/niobium
-- infrastructure/port_cranes
-- resources/lithium
-- infrastructure/rail
-- energy/wind
-- energy/solar
 - resources/copper
+- infrastructure/engineering_epc
 - resources/nickel
+- infrastructure/rail
 - infrastructure/bridges_roads
 - resources/water
-- infrastructure/port_ownership
+- resources/balsa
 - infrastructure/building_materials
+- energy/other_renewables
+- resources/niobium
+- energy/solar
+- infrastructure/port_ownership
+- energy/power_plants_grid
+- energy/fission_smr
+- infrastructure/port_cranes
+- energy/wind
+- resources/lithium
+- resources/graphite
 
 rows_found_this_cycle:
-  resources/graphite: 1
-  infrastructure/engineering_epc: 0
-  resources/balsa: 0
-  energy/fission_smr: 1
-  energy/power_plants_grid: 1
-  energy/other_renewables: 1
-  resources/niobium: 1
-  infrastructure/port_cranes: 0
-  resources/lithium: 1
-  infrastructure/rail: 0
-  energy/wind: 0
-  energy/solar: 0
   resources/copper: 0
+  infrastructure/engineering_epc: 0
   resources/nickel: 0
+  infrastructure/rail: 0
   infrastructure/bridges_roads: 0
   resources/water: 0
-  infrastructure/port_ownership: 1
+  resources/balsa: 0
   infrastructure/building_materials: 0
+  energy/other_renewables: 1
+  resources/niobium: 0
+  energy/solar: 0
+  infrastructure/port_ownership: 1
+  energy/power_plants_grid: 0
+  energy/fission_smr: 0
+  infrastructure/port_cranes: 0
+  energy/wind: 1
+  resources/lithium: 0
+  resources/graphite: 1
+
+coverage_cumulative:
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 45
+  # (+ thin_topup: El Salvador 123 negotiations; SSA Progreso / AES JK / CIP Arena / South Star Sprott)
+  infrastructure/port_ownership: 23
+  infrastructure/port_cranes: 25
+  infrastructure/rail: 23
+  infrastructure/bridges_roads: 22
+  infrastructure/building_materials: 20
+  infrastructure/engineering_epc: 20
+  resources/niobium: 18
+  resources/lithium: 25
+  resources/copper: 20
+  resources/nickel: 17
+  resources/graphite: 19
+  resources/balsa: 15
+  resources/water: 18
+  energy/fission_smr: 18
+  energy/solar: 21
+  energy/wind: 20
+  energy/power_plants_grid: 25
+  energy/other_renewables: 28
+
+# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
+rows_by_side_this_cycle:
+  us: 3
+  prc: 0
+  allied: 2
+  other: 0
+
+# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
+# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
+# Post-pass thinnest: balsa (15), nickel (17), fission_smr (17).
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/nickel
+  - energy/fission_smr
+  # Hit: El Salvador 123 Agreement negotiations complete (U.S.).
+  # Miss: balsa; nickel (already dense).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 44
@@ -84,24 +125,12 @@ coverage_cumulative:
   energy/power_plants_grid: 25
   energy/other_renewables: 27
 
-# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
-rows_by_side_this_cycle:
+# Side balance log (BRIEF Rotation §2) — cycle 44
+rows_by_side_this_cycle_cycle44:
   us: 5
   prc: 1
   allied: 1
   other: 1
-
-# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
-# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: balsa (15), then nickel/water/fission_smr (17).
-thin_topup:
-  budget: 0.5_source_family_min
-  subcategories:
-  - resources/balsa
-  - resources/nickel
-  - resources/water
-  # Hit: Aguas Pacífico desal CAPEX USD 1.2bn (Patria; distinct from Veolia O&M).
-  # Miss: balsa (WITS/AIMA/Plantabal already dense); nickel (DFC/BNDES/Centaurus/Atlantic already).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 43
