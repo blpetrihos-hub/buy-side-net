@@ -1,8 +1,8 @@
 updated: 2026-10-01
-cycle: 29
+cycle: 30
 active_lane: niobium
 active_basket: fenb_std
-next_query: Chinese domestic FeNb65 OR 铌铁65 国产 CNY/t cash with tax quote versus Brazilian FeNb65 2023..2025
+next_query: CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall
 next_row_id: hunt_fenb_araxa
 dry_streak: 0
 remote: present
@@ -52,6 +52,8 @@ seen_urls:
 - https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5547082/index.html
 - https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/720293
 - https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293
+- https://list1.m.mysteel.com/zhishi/65ntjg.html
+- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026092909011292564/index.html
 misses:
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.

@@ -473,5 +473,26 @@
       "wits_china_fenb_br_imp_2024",
       "hunt_fenb_araxa"
     ]
+  },
+  {
+    "id": "mysteel_fenb_20260929",
+    "type": "journalism",
+    "chicago": "我的钢铁网 (Mysteel). “65铌铁价格.” Flash quotes dated 29 September 2026. Accessed 1 October 2026.",
+    "url": "https://list1.m.mysteel.com/zhishi/65ntjg.html",
+    "annotation": "Same-day flashes: Brazilian FeNb 25.8–26.2 万元/t and domestic FeNb 30.5–31.5 万元/t cash. Domestic table FeNb60-A. UNVERIFIED proxy for mysteel_fenb_br_vs_cn_20260929.",
+    "supports": [
+      "mysteel_fenb_br_vs_cn_20260929",
+      "hunt_fenb_araxa"
+    ]
+  },
+  {
+    "id": "pboc_cny_20260929",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 29 September 2026.",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026092909011292564/index.html",
+    "annotation": "PBOC central parity 1 USD = 6.7411 CNY on 2026-09-29. FX for mysteel_fenb_br_vs_cn_20260929.",
+    "supports": [
+      "mysteel_fenb_br_vs_cn_20260929"
+    ]
   }
 ]

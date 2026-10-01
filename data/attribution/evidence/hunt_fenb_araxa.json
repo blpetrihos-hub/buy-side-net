@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
   "retrieved": "2026-10-01",
-  "source_id": "wits_china_fenb_br_imp_2024",
-  "url": "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293",
-  "price_year": "2024",
+  "source_id": "mysteel_fenb_20260929",
+  "url": "https://list1.m.mysteel.com/zhishi/65ntjg.html",
+  "price_year": "2026",
   "evidence": "hunt",
   "quote": "",
-  "note": "Cycle 29: China–Brazil FeNb import unit value ~USD 26.17/kg logged. Still hunting same-grade PRC FeNb65 producer quote."
+  "note": "Cycle 30: Mysteel Brazil vs domestic FeNb proxy logged (grade mismatch). Still hunting same-grade FeNb65 document pair."
 }
