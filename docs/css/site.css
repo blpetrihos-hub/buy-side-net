@@ -124,6 +124,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin: 0;
   padding: 0.35rem 1rem;
   background: rgba(247, 244, 238, 0.98);
   border-bottom: 1px solid var(--line);
@@ -131,6 +132,11 @@ body {
   color: var(--muted);
   line-height: 1.25;
   text-align: center;
+}
+.map-legend-bar > * {
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 .legend-item { display: inline-flex; align-items: center; gap: 0.3rem; }
 .legend-swatch {

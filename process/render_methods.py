@@ -2,11 +2,15 @@
 from __future__ import annotations
 
 import html
+import sys
 from pathlib import Path
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_assets import css_href, stamp_docs_html  # noqa: E402
+
 SRC = ROOT / "data" / "codebook" / "codebook.yml"
 OUT = ROOT / "docs" / "methods.html"
 
@@ -205,7 +209,7 @@ def main() -> None:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Methods · {esc(title)}</title>
-  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="{css_href()}">
 </head>
 <body>
 {nav(title, subtitle)}
@@ -219,6 +223,8 @@ def main() -> None:
 """
     OUT.write_text(page, encoding="utf-8")
     print("WROTE", OUT)
+    for path in stamp_docs_html():
+        print("STAMPED", path)
 
 
 if __name__ == "__main__":

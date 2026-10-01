@@ -160,11 +160,7 @@ function renderLegend() {
         `<span class="legend-item"><span class="legend-swatch circle" style="background:${COLORS[k]}"></span>${label}</span>`
     )
     .join("");
-  $("mapLegend").innerHTML =
-    shapeHtml +
-    "<span>·</span>" +
-    sideHtml +
-    "<span>·</span><span>Latin America &amp; Caribbean only</span>";
+  $("mapLegend").innerHTML = shapeHtml + "<span>·</span>" + sideHtml;
 }
 
 function renderLayerToggles() {
