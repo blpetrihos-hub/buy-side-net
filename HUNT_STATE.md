@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 47
+cycle: 48
 active_lane: icbc_finance
 active_basket: all_in_rate
-next_query: Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US
+next_query: Guyana DPI OR Stabroek OR EXIM.gov US EXIM Bank Gas-to-Energy loan interest rate percent public terms 2024..2026 versus China Eximbank Barbados OR LatAm
 next_row_id: hunt_icbc_rate
-dry_streak: 1
+dry_streak: 2
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -89,7 +89,9 @@ seen_urls:
 - https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/
 - https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/
 - https://www.guyanastandard.com/2023/04/25/govt-presents-house-with-concessional-loan-agreement-for-us192m-phase-2-ecd-road-project/
+- https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf
 misses:
+- 2026-10-01 | icbc_finance | all_in_rate | Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US | Opened Grenada Estimates of Revenue and Expenditure 2022 PDF: debt table lists “EXIM China- St.George's Airport Runway & Road Upgrade” CNY 461m contracted January 2017 at fixed 2%, repayment 2023–2038. Rate is real but commitment year 2017 is outside the 2021–2026 new-row window (republished outstanding only). Narrative MBIA section gives US$66m size without restating the rate. Not added as a new 2022 row. Barbados 2% 2022 remains the PRC one-sided.
 - 2026-10-01 | icbc_finance | all_in_rate | China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US | Opened Guyana DPI and Newsroom ECD Phase 2 Eximbank framework (Dec 2022): US$192m / later Nat'l Assembly presentation RMB 1,384,580,867.13 — size and concessional label only; no interest rate, tenor, or fees on opened pages. Phase I AidData 2% is 2017 commitment (outside 2021–2026 new-row window). Barbados 2% PRC one-sided remains unpaired.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR ChinaMAE OR university 国产AI计算卡 Ascend 910B OR 910C OR 910_4 card award unit price 2026 versus Nvidia H20 GPU加速卡 card award | Opened Zijingshan Lab domestic compute-unit tender (ChinaMAE): 8-card+4-card systems, CNY 1.55m budget; names existing H20/V100 but no card-level H20 or Ascend 910B/910C unit price. Award mirrors redact prices. dry_streak 3 — rotating to icbc_finance all_in_rate.
 - 2026-10-01 | ai_chips | usd_per_chip | university OR CCGP award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C card | Opened SUSTech-JC-2026-00149 reprint: 2× Nvidia H100 at CNY 247,500/card — off-spec (H100 procurement, not H20; not an export-rules article). Not added as a row. No H20 card-level award opened this cycle.

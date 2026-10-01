@@ -555,3 +555,10 @@
   url: "https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/"
   annotation: "Corroborates DPI: Eximbank of China provides the US$192m ECD Phase 2 loan; no rate published."
   supports: ["hunt_icbc_rate"]
+
+- id: grenada_estimates_exim_china_2022
+  type: official
+  chicago: "Government of Grenada. Estimates of Revenue and Expenditure for the Year 2022. Ministry of Finance."
+  url: "https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf"
+  annotation: "Opened for icbc_finance hunt. Debt table: EXIM China MBIA/St George airport CNY 461m at 2% contracted Jan 2017 — outside 2021–2026 new-row window. Documents a dry pass."
+  supports: ["hunt_icbc_rate"]

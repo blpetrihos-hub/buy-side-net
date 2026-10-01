@@ -1,10 +1,10 @@
 {
   "id": "hunt_icbc_rate",
   "retrieved": "2026-10-01",
-  "source_id": "guyana_dpi_ecd_eximbank_2022",
-  "url": "https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/",
-  "price_year": "2022",
+  "source_id": "grenada_estimates_exim_china_2022",
+  "url": "https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf",
+  "price_year": "2017",
   "evidence": "hunt",
-  "quote": "Framework Concessional Loan Agreement to the tune of US$192 Million to finance Phase II of the East Coast Road Project. … The loan for the project is being provided by the Exim Bank of China.",
-  "note": "Cycle 47 dry. DPI (30 Dec 2022) and Newsroom corroborate Eximbank ECD Phase 2 size only—no interest rate, tenor, or fees. dry_streak 1."
+  "quote": "EXIM China- St.George's Airport Runway & Road Upgrade … Loan of CNY461M contracted in January 2017, fixed interest rate of 2%, repayment 21.03.2023-21.03.2038",
+  "note": "Cycle 48 dry. 2% rate is document-backed but January 2017 commitment — outside 2021–2026 new-row window. dry_streak 2."
 }
