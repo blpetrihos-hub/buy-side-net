@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 53
+cycle: 54
 remote: present
 active_layer: resources
-active_subcategory: niobium
-next_query: Cycle 54 shuffle_seed=20261054; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: niobium (20), nickel/graphite/balsa (21). For balsa/nickel prefer plantations/processors/wind-blade/smelters/offtakes/named projects — no duplicate trade/financing rows.
-next_row_id: (follow cycle-54 shuffled_order)
+active_subcategory: balsa
+next_query: Cycle 55 shuffle_seed=20261055; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (21), then niobium/building_materials/copper/nickel/graphite/fission_smr/wind (22). For balsa prefer plantations/processors/wind-blade/offtakes/named projects — no duplicate trade/financing rows.
+next_row_id: (follow cycle-55 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,98 +16,104 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261053
+shuffle_seed: 20261054
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- infrastructure/rail
-- energy/power_plants_grid
-- infrastructure/bridges_roads
-- energy/other_renewables
-- resources/lithium
-- infrastructure/port_cranes
-- resources/copper
-- infrastructure/building_materials
 - energy/wind
-- resources/niobium
-- infrastructure/engineering_epc
-- resources/graphite
+- resources/lithium
 - resources/nickel
-- energy/fission_smr
-- resources/balsa
-- infrastructure/port_ownership
+- resources/graphite
+- resources/niobium
 - resources/water
+- infrastructure/rail
+- energy/other_renewables
 - energy/solar
+- resources/copper
+- energy/fission_smr
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- infrastructure/engineering_epc
+- infrastructure/port_ownership
+- infrastructure/bridges_roads
+- infrastructure/building_materials
+- resources/balsa
 
 rows_found_this_cycle:
-  infrastructure/rail: 1
-  energy/power_plants_grid: 0
-  infrastructure/bridges_roads: 1
-  energy/other_renewables: 1
-  resources/lithium: 1
-  infrastructure/port_cranes: 0
-  resources/copper: 0
-  infrastructure/building_materials: 1
   energy/wind: 0
+  resources/lithium: 0
+  resources/nickel: 1
+  resources/graphite: 1
   resources/niobium: 1
-  infrastructure/engineering_epc: 0
-  resources/graphite: 0
-  resources/nickel: 0
-  energy/fission_smr: 1
-  resources/balsa: 0
-  infrastructure/port_ownership: 0
   resources/water: 1
+  infrastructure/rail: 1
+  energy/other_renewables: 1
   energy/solar: 1
+  resources/copper: 0
+  energy/fission_smr: 0
+  infrastructure/port_cranes: 1
+  energy/power_plants_grid: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/port_ownership: 1
+  infrastructure/bridges_roads: 0
+  infrastructure/building_materials: 0
+  resources/balsa: 0
 
 coverage_cumulative:
-  # Active+hunt (non-archived, non-exclude) observation counts after cycle 53
-  # (+ equal-pass: USTDA Honduras CONFI/ShorelineHudson / CHEC Jamaica N-S MoU /
-  #   CIP La Esperanza FC / Atlas Lithium Neves DFS / Boston Metal Coronel Xavier /
-  #   POWERCHINA Francisco Juana;
-  #   thin_topup: Huaxin CSN Cimentos bid / Techint SADDN RT first water /
-  #   Brazil MME–CNNC SMR dialogue)
-  infrastructure/port_ownership: 27
-  infrastructure/port_cranes: 26
-  infrastructure/rail: 29
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 54
+  # (+ equal-pass: Fluence Tubarão SWRO / CCECC–Aldesa Querétaro–Irapuato /
+  #   ContourGlobal Quillagua inaug / POWERCHINA Palmira III /
+  #   SSA MIT ASC ZPMC / SSA–Blackstone Panama interest;
+  #   thin_topup: CBMM–Toshiba Nb-oxide plant planned / Millstreet SMP USD 70m /
+  #   South Star Sprott Phase 2 CapEx stream)
+  infrastructure/port_ownership: 28
+  infrastructure/port_cranes: 27
+  infrastructure/rail: 30
   infrastructure/bridges_roads: 23
   infrastructure/building_materials: 22
   infrastructure/engineering_epc: 24
-  resources/niobium: 20
+  resources/niobium: 22
   resources/lithium: 28
   resources/copper: 22
-  resources/nickel: 21
-  resources/graphite: 21
+  resources/nickel: 22
+  resources/graphite: 22
   resources/balsa: 21
-  resources/water: 22
+  resources/water: 23
   energy/fission_smr: 22
-  energy/solar: 25
+  energy/solar: 26
   energy/wind: 22
   energy/power_plants_grid: 27
-  energy/other_renewables: 30
+  energy/other_renewables: 31
 
 # Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
 rows_by_side_this_cycle:
-  us: 3
-  prc: 4
+  us: 5
+  prc: 2
   allied: 2
   other: 0
 
 # Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
 # rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: niobium (20; already hit in equal pass), building_materials (21),
-# water/fission_smr among the 21-tie (nickel/graphite/balsa also 21).
+# Post-pass thinnest: niobium/nickel/graphite/balsa (21).
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
-  - infrastructure/building_materials
-  - resources/water
-  - energy/fission_smr
-  # Hits: Huaxin CSN Cimentos binding-offer proxy; Techint SADDN RT first water;
-  #   Brazil MME–CNNC Shanghai SMR dialogue proxy.
-  # Niobium already logged in equal pass (Boston Metal Coronel Xavier plant).
+  - resources/niobium
+  - resources/nickel
+  - resources/graphite
+  # Hits: CBMM–Toshiba planned 1,000 tpy oxide plant; Millstreet USD 70m SMP equity;
+  #   South Star Sprott Phase 2 CapEx USD 27m / stream up to USD 18m.
+  # Balsa remained miss (Plantabal/CoreLite/WITS already dense).
+
+# Side balance log (BRIEF Rotation §2) — cycle 53
+rows_by_side_this_cycle_cycle53:
+  us: 3
+  prc: 4
+  allied: 2
+  other: 0
 
 # Side balance log (BRIEF Rotation §2) — cycle 52
 rows_by_side_this_cycle_cycle52:

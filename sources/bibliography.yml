@@ -4558,3 +4558,89 @@
   supports:
   - brazil_mme_cnnc_smr_dialogue_2026
   - hunt_energy_fission_smr
+- id: fluence_tubarao_case
+  type: company
+  chicago: Fluence Corporation. “Seawater Desalination for Industrial Water Company.” Case study (ArcelorMittal
+    Tubarão, Vitória, Brazil).
+  url: https://www.fluencecorp.com/case/seawater-desalination-for-industrial-water-company/
+  annotation: Fluence primary on Tubarão 12,000 m³/day industrial SWRO (COD 2021). CapEx R$50m is secondary
+    PT press only. Supports fluence_arcelormittal_tubarao_desal_2021.
+  supports:
+  - fluence_arcelormittal_tubarao_desal_2021
+  - hunt_res_water
+- id: aldesa_queretaro_irapuato_20260305
+  type: company
+  chicago: Aldesa Construcción. “Aldesa Participará en el Desarrollo de Infraestructuras Clave del Tren
+    de Pasajeros Querétaro–Irapuato en México.” 5 March 2026.
+  url: https://aldesa.com/aldesa-participara-en-el-desarrollo-de-infraestructuras-clave-del-tren-de-pasajeros-queretaro-irapuato-en-mexico/
+  annotation: Aldesa primary on ATTRAPI award of MXN 3,279m Querétaro–Irapuato auxiliary rail facilities
+    (CCECC/Aldesa consortium). Supports ccecc_aldesa_queretaro_irapuato_2026.
+  supports:
+  - ccecc_aldesa_queretaro_irapuato_2026
+  - hunt_latam_rail_telecom
+- id: contourglobal_quillagua_20250408
+  type: company
+  chicago: ContourGlobal. “ContourGlobal Inaugurates Latin America’s Largest Solar Plant with Battery
+    Storage in Chile.” 8 April 2025.
+  url: https://www.contourglobal.com/news/contourglobal-inaugurates-latin-americas-largest-solar-plant-battery-storage-chile/
+  annotation: ContourGlobal primary on Quillagua 221 MWp + 1.2 GWh BESS inauguration. Supports contourglobal_quillagua_inaug_2025.
+  supports:
+  - contourglobal_quillagua_inaug_2025
+  - hunt_energy_other_renewables
+- id: powerchina_palmira_iii_20260717
+  type: company
+  chicago: POWERCHINA. “POWERCHINA Hands Over First Solar Power Plant in Colombia.” 17 July 2026.
+  url: https://en.powerchina.cn/2026-07/17/c_829100.htm
+  annotation: POWERCHINA primary on Palmira III 9.9 MWac / 12.56 MWdc final acceptance. Supports powerchina_palmira_iii_colombia_2026.
+  supports:
+  - powerchina_palmira_iii_colombia_2026
+  - hunt_energy_solar
+- id: mundomaritimo_ssa_mit_asc_20241018
+  type: press
+  chicago: MundoMarítimo. “SSA Marine MIT de Panamá Recibe Seis Nuevas Grúas Apiladoras Automatizadas.”
+    18 October 2024.
+  url: https://www.mundomaritimo.cl/noticias/ssa-marine-mit-de-panama-recibe-seis-nuevas-gruas-apiladoras-automatizadas
+  annotation: Spanish trade press on six ZPMC ASCs delivered to SSA Marine MIT Panama. Supports ssa_mit_asc_zpmc_2024.
+  supports:
+  - ssa_mit_asc_zpmc_2024
+  - hunt_infra_port_cranes
+- id: amp_ssa_blackstone_20260924
+  type: agency
+  chicago: Autoridad Marítima de Panamá. “Blackstone y SSA Marine Muestran Interés en Nuevas Inversiones
+    en Panamá, Tras Reunión con el Presidente Mulino.” 24 September 2026.
+  url: https://www.amp.gob.pa/noticias/notas-de-prensa/blackstone-y-ssa-marine-muestran-interes-en-nuevas-inversiones-en-panama-tras-reunion-con-el-presidente-mulino/
+  annotation: AMP primary on SSA Marine/Blackstone Panama port/Canal investment interest meeting. Supports
+    ssa_blackstone_panama_interest_2026.
+  supports:
+  - ssa_blackstone_panama_interest_2026
+  - hunt_infra_port_ownership
+- id: diario_cbmm_toshiba_20241113
+  type: press
+  chicago: Neves, Marco Aurélio. “CBMM Vai Inaugurar Nova Planta Industrial de Nióbio em Parceria com
+    a Toshiba em 2025.” Diário do Comércio, 13 November 2024.
+  url: https://diariodocomercio.com.br/economia/cbmm-vai-inaugurar-nova-planta-industrial-de-niobio-em-2025/
+  annotation: UNVERIFIED PT press on planned CBMM–Toshiba 1,000 tpy Nb-oxide battery plant at Araxá. Supports
+    cbmm_toshiba_nb_oxide_plant_planned_2025.
+  supports:
+  - cbmm_toshiba_nb_oxide_plant_planned_2025
+  - hunt_fenb_araxa
+- id: jervois_millstreet_asx_20250102
+  type: company
+  chicago: Jervois Global Limited. “Jervois Global Signs Recapitalisation Agreement.” ASX announcement,
+    2 January 2025.
+  url: https://announcements.asx.com.au/asxpdf/20250102/pdf/06d61l41d3kpc5.pdf
+  annotation: ASX primary on Millstreet USD 70m equity commitment for São Miguel Paulista restart. Supports
+    jervois_millstreet_smp_equity_70m_2025.
+  supports:
+  - jervois_millstreet_smp_equity_70m_2025
+  - hunt_res_nickel
+- id: south_star_sprott_stream_28m
+  type: company
+  chicago: South Star Battery Metals Corp. “US$28 Million Streaming Agreement with Sprott Resource Streaming
+    and Royalty Corp for the Santa Cruz Graphite Project in Brazil.”
+  url: https://southstarbatterymetals.com/us28-million-streaming-agreement-with-sprott-resource-streaming-and-royalty-corp-for-the-santa-cruz-graphite-project-in-brazil/
+  annotation: South Star primary on Sprott stream including Phase 2 CapEx USD 27m / up to USD 18m stream.
+    Supports south_star_sprott_phase2_stream_27m.
+  supports:
+  - south_star_sprott_phase2_stream_27m
+  - hunt_res_graphite
