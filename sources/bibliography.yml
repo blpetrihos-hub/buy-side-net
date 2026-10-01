@@ -1824,3 +1824,62 @@
   supports:
   - posco_sal_de_oro_lioh_2024
   - hunt_res_lithium
+- id: acciona_line6_milestones_20260112
+  type: official
+  chicago: ACCIONA. “São Paulo Metro Line 6 project reaches key milestones.” 12 January 2026.
+  url: https://www.acciona.com/updates/articles/sao-paulo-metro-line-6-project-reaches-key-milestones
+  annotation: Company primary Line 6 civil-works progress notice. Supports acciona_sp_line6_epc_2025.
+  supports:
+  - acciona_sp_line6_epc_2025
+  - hunt_infra_engineering_epc
+- id: cancilleria_first_20250919
+  type: official
+  chicago: Ministerio de Relaciones Exteriores, Comercio Internacional y Culto (Argentina). “Argentina
+    ingresa al Programa … (FIRST) de Estados Unidos.” 19 September 2025.
+  url: https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-ingresa-al-programa-de-infraestructura-fundamental-para-el-uso
+  annotation: Argentine MFA primary FIRST contributing-partner notice. Supports argentina_first_smr_2025.
+  supports:
+  - argentina_first_smr_2025
+  - hunt_energy_fission_smr
+- id: teck_qb_operations
+  type: official
+  chicago: Teck Resources. “Quebrada Blanca.” Operations page (accessed 1 October 2026).
+  url: https://www.teck.com/operations/chile/operations/quebrada-blanca/
+  annotation: Company primary QB ownership/production page. Supports teck_quebrada_blanca_chile.
+  supports:
+  - teck_quebrada_blanca_chile
+  - hunt_res_copper
+- id: dpworld_santos_20240321
+  type: official
+  chicago: DP World. “DP World Announces New Investment of $50 Million for Expansion of Container Operations
+    at Brazil’s Port of Santos.” 21 March 2024.
+  url: https://www.dpworld.com/en/news/brazil/dp-world-anuncia-novo-investimento-de-250-milhoes
+  annotation: Operator primary Santos equipment-capex notice. Supports dpworld_santos_equip_2024.
+  supports:
+  - dpworld_santos_equip_2024
+  - hunt_infra_port_ownership
+- id: cemex_dr_divest_20240805
+  type: official
+  chicago: Cemex. “Cemex to divest its operations in the Dominican Republic.” 5 August 2024.
+  url: https://www.cemex.com/w/cemex-to-divest-its-operations-in-the-dominican-republic
+  annotation: Seller primary DR divestiture announcement (buyer Cementos Progreso). Supports cemex_dr_divest_progreso_2024.
+  supports:
+  - cemex_dr_divest_progreso_2024
+  - hunt_infra_building_materials
+- id: alstom_line6_20250710
+  type: official
+  chicago: Alstom. “Alstom delivers the first train for Line 6-Orange, in São Paulo.” 10 July 2025.
+  url: https://www.alstom.com/press-releases-news/2025/7/alstom-delivers-first-train-line-6-orange-sao-paulo
+  annotation: Company primary Line 6 rolling-stock delivery notice. Supports alstom_sp_line6_trains_2025.
+  supports:
+  - alstom_sp_line6_trains_2025
+  - hunt_latam_rail_telecom
+- id: canadian_solar_morada_20220225
+  type: official
+  chicago: Canadian Solar Inc. “Canadian Solar Signs 381 MWp Solar Corporate PPA in Brazil.” 25 February
+    2022.
+  url: https://investors.canadiansolar.com/news-releases/news-release-details/canadian-solar-signs-381-mwp-solar-corporate-ppa-brazil
+  annotation: Company primary Morada do Sol PPA/development notice. Supports canadian_solar_morada_sol_br.
+  supports:
+  - canadian_solar_morada_sol_br
+  - hunt_energy_solar
