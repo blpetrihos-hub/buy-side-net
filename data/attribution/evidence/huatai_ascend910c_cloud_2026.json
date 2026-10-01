@@ -1,0 +1,10 @@
+{
+  "id": "huatai_ascend910c_cloud_2026",
+  "retrieved": "2026-10-01",
+  "source_id": "sina_huatai_ascend910c_cloud_202603",
+  "url": "https://finance.sina.com.cn/wm/2026-03-25/doc-inhsfvzk6478059.shtml",
+  "price_year": "2026",
+  "evidence": "proxy",
+  "quote": "第1名：华为云计算技术有限公司，投标报价：8500元/实例/月；…每个实例对应一张910C卡",
+  "note": "UNVERIFIED proxy. Press reprint of Huatai candidate notice. Rental CNY/instance/month, not chip purchase."
+}

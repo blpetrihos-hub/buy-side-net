@@ -1,8 +1,8 @@
 updated: 2026-10-01
-cycle: 37
+cycle: 43
 active_lane: ai_chips
 active_basket: usd_per_chip
-next_query: CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip same year 2026 versus Ascend 910_4 OR 910B OR 910C
+next_query: CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award
 next_row_id: hunt_ascend_chip
 dry_streak: 0
 remote: present
@@ -69,7 +69,21 @@ seen_urls:
 - https://news.smm.cn/news/104094410
 - https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026090309002323677/index.html
 - https://suanli.mysteel.com/a/26091516/ECB87B6FA3D4CFDF.html
+- https://www.ccgp.gov.cn/cggg/zygg/cjgg/202507/t20250709_24934882.htm
+- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5774593/index.html
+- http://www.ccgp.gov.cn/cggg/zygg/zbgg/202607/t20260715_26940829.htm
+- https://www.chinanews.com.cn/cj/2026/07-15/10659472.shtml
+- https://finance.sina.com.cn/wm/2026-03-25/doc-inhsfvzk6478059.shtml
+- https://finance.sina.com.cn/jjxw/2026-03-23/doc-inhrxrnc4279187.shtml
+- https://www.jinrongzhaobiao.com/news-35afea3c858966a1928fa9a821c63f67/
+- http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202608/t20260807_27097752.htm
+- https://www.news.cn/fortune/20260807/496cd410165147b591fd22edae5cc36f/c.html
+- https://news.smm.cn/news/104082732
+- https://finance.sina.com.cn/jjxw/2026-08-27/doc-inipthnz9030232.shtml
+- https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html
+- https://www.jwview.com/jingwei/html/09-15/688315.shtml
 misses:
+- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip same year 2026 versus Ascend 910_4 OR 910B OR 910C | Cycles 38–43 added card/system/proxy rows (CUPL A800; BFSU Inspur system; Huatai 910C rental; Qilu RTX A6000; SMM 910B4; Mysteel 910C) but no opened CCGP/university document with H20 unit priced as cards (not HGX 8-GPU server). HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired for scoring.
 - 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
 
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
