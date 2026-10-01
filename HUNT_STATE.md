@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 54
+cycle: 55
 remote: present
-active_layer: resources
-active_subcategory: balsa
-next_query: Cycle 55 shuffle_seed=20261055; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (21), then niobium/building_materials/copper/nickel/graphite/fission_smr/wind (22). For balsa prefer plantations/processors/wind-blade/offtakes/named projects — no duplicate trade/financing rows.
-next_row_id: (follow cycle-55 shuffled_order)
+active_layer: energy
+active_subcategory: power_plants_grid
+next_query: Cycle 56 shuffle_seed=20261056; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: power_plants_grid/balsa (20), then nickel/graphite/fission_smr (22). For balsa prefer plantations/processors/wind-blade/offtakes/named projects — no duplicate trade/financing rows.
+next_row_id: (follow cycle-56 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,97 +16,105 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261054
+shuffle_seed: 20261055
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- energy/wind
-- resources/lithium
-- resources/nickel
-- resources/graphite
-- resources/niobium
-- resources/water
-- infrastructure/rail
-- energy/other_renewables
-- energy/solar
+- resources/balsa
 - resources/copper
-- energy/fission_smr
-- infrastructure/port_cranes
-- energy/power_plants_grid
-- infrastructure/engineering_epc
+- resources/nickel
+- energy/solar
+- resources/graphite
 - infrastructure/port_ownership
+- infrastructure/rail
+- infrastructure/engineering_epc
+- resources/lithium
+- infrastructure/port_cranes
 - infrastructure/bridges_roads
 - infrastructure/building_materials
-- resources/balsa
+- resources/niobium
+- resources/water
+- energy/fission_smr
+- energy/wind
+- energy/other_renewables
+- energy/power_plants_grid
 
 rows_found_this_cycle:
-  energy/wind: 0
-  resources/lithium: 0
-  resources/nickel: 1
-  resources/graphite: 1
+  resources/balsa: 0
+  resources/copper: 1
+  resources/nickel: 0
+  energy/solar: 1
+  resources/graphite: 0
+  infrastructure/port_ownership: 2
+  infrastructure/rail: 0
+  infrastructure/engineering_epc: 0
+  resources/lithium: 1
+  infrastructure/port_cranes: 1
+  infrastructure/bridges_roads: 1
+  infrastructure/building_materials: 1
   resources/niobium: 1
   resources/water: 1
-  infrastructure/rail: 1
-  energy/other_renewables: 1
-  energy/solar: 1
-  resources/copper: 0
   energy/fission_smr: 0
-  infrastructure/port_cranes: 1
-  energy/power_plants_grid: 0
-  infrastructure/engineering_epc: 0
-  infrastructure/port_ownership: 1
-  infrastructure/bridges_roads: 0
-  infrastructure/building_materials: 0
-  resources/balsa: 0
+  energy/wind: 1
+  energy/other_renewables: 0
+  energy/power_plants_grid: 1
 
 coverage_cumulative:
-  # Active+hunt (non-archived, non-exclude) observation counts after cycle 54
-  # (+ equal-pass: Fluence Tubarão SWRO / CCECC–Aldesa Querétaro–Irapuato /
-  #   ContourGlobal Quillagua inaug / POWERCHINA Palmira III /
-  #   SSA MIT ASC ZPMC / SSA–Blackstone Panama interest;
-  #   thin_topup: CBMM–Toshiba Nb-oxide plant planned / Millstreet SMP USD 70m /
-  #   South Star Sprott Phase 2 CapEx stream)
-  infrastructure/port_ownership: 28
-  infrastructure/port_cranes: 27
-  infrastructure/rail: 30
-  infrastructure/bridges_roads: 23
-  infrastructure/building_materials: 22
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 55
+  # (+ equal-pass: Teck QB TMF USD 420m / Global Solar América 3 Campeche /
+  #   EXIM Berbice deepwater LOI / Atlas Neves 71% CapEx / Liebherr–CICE Veracruz /
+  #   CHEC San Carlos / Boston Metal USD 51m note / Fluence Eneva Azulão /
+  #   Oak Creek CFE ~1,160 MW;
+  #   thin_topup: EXIM GTE Phase Two interest / Sinoma Cruz Azul 22 MW captive;
+  #   balsa dry; CAF EPSA Puerto Exterior USD 50m equal overflow)
+  infrastructure/port_ownership: 30
+  infrastructure/port_cranes: 28
+  infrastructure/rail: 28
+  infrastructure/bridges_roads: 24
+  infrastructure/building_materials: 23
   infrastructure/engineering_epc: 24
-  resources/niobium: 22
-  resources/lithium: 28
-  resources/copper: 22
+  resources/niobium: 25
+  resources/lithium: 29
+  resources/copper: 23
   resources/nickel: 22
   resources/graphite: 22
-  resources/balsa: 21
-  resources/water: 23
+  resources/balsa: 20
+  resources/water: 24
   energy/fission_smr: 22
   energy/solar: 26
-  energy/wind: 22
-  energy/power_plants_grid: 27
+  energy/wind: 23
+  energy/power_plants_grid: 20
   energy/other_renewables: 31
 
 # Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
 rows_by_side_this_cycle:
-  us: 5
+  us: 7
   prc: 2
-  allied: 2
+  allied: 3
   other: 0
 
 # Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
 # rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: niobium/nickel/graphite/balsa (21).
+# Post-pass thinnest: power_plants_grid (19), balsa (20), building_materials (22).
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
-  - resources/niobium
-  - resources/nickel
-  - resources/graphite
-  # Hits: CBMM–Toshiba planned 1,000 tpy oxide plant; Millstreet USD 70m SMP equity;
-  #   South Star Sprott Phase 2 CapEx USD 27m / stream up to USD 18m.
-  # Balsa remained miss (Plantabal/CoreLite/WITS already dense).
+  - energy/power_plants_grid
+  - resources/balsa
+  - infrastructure/building_materials
+  # Hits: EXIM GTE Phase Two interest (USD 550m UNVERIFIED press); Sinoma/TCDRI
+  #   Cruz Azul 22 MW captive EPC. Balsa remained miss (Plantabal/AIMA/estrategia).
+  # Equal overflow: CAF–EPSA Puerto Exterior USD 50m.
+
+# Side balance log (BRIEF Rotation §2) — cycle 54
+rows_by_side_this_cycle_cycle54:
+  us: 5
+  prc: 2
+  allied: 2
+  other: 0
 
 # Side balance log (BRIEF Rotation §2) — cycle 53
 rows_by_side_this_cycle_cycle53:

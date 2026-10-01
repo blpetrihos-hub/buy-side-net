@@ -7496,5 +7496,221 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "teck_tr_20251028",
+    "type": "company",
+    "chicago": "Teck Resources Limited. “Teck Reports Unaudited Third Quarter Results for 2025.” News release PDF, 28 October 2025.",
+    "url": "https://www.teck.com/media/25-24-TR.pdf",
+    "annotation": "Teck primary on QB TMF CapEx USD 420m for 2026. Supports teck_qb_tmf_420m_2026.",
+    "supports": [
+      "teck_qb_tmf_420m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "teck_qb_tmf_420m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "pv_mag_campeche_mia_20260210",
+    "type": "press",
+    "chicago": "Ini, Luis. “Entra al Sermanat el proyecto fotovoltaico Campeche, de 130 MW.” pv magazine México, 10 February 2026.",
+    "url": "https://www.pv-magazine-mexico.com/2026/02/10/entra-al-sermanat-el-proyecto-fotovoltaico-campeche-de-130-mw/",
+    "annotation": "Opened Semarnat MIA summary for Global Solar América 3 Campeche 130 MWac. Supports global_solar_america3_campeche_2026.",
+    "supports": [
+      "global_solar_america3_campeche_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "global_solar_america3_campeche_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "kaieteur_exim_berbice_20260411",
+    "type": "press",
+    "chicago": "Kaieteur News. “U.S. EXIM Bank Signals Interest in Major Berbice Deep-Water Port Project.” 11 April 2026.",
+    "url": "https://kaieteurnewsonline.com/2026/04/11/u-s-exim-bank-signals-interest-in-major-berbice-deep-water-port-project/",
+    "annotation": "Opened Guyanese press on EXIM LOI for Berbice deepwater port. Supports exim_guyana_berbice_deepwater_loi_2026.",
+    "supports": [
+      "exim_guyana_berbice_deepwater_loi_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "exim_guyana_berbice_deepwater_loi_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "inn_atlas_neves_71pct_20260909",
+    "type": "company",
+    "chicago": "Atlas Lithium Corporation. “Atlas Lithium Materially De-Risks Neves Project with 71% of Direct Capital Budget Already Contracted.” Investing News Network, 9 September 2026.",
+    "url": "https://investingnews.com/atlas-lithium-materially-de-risks-neves-project-with-71-of-direct-capital-budget-already-contracted/",
+    "annotation": "Opened Atlas Neves 71% CapEx contracting release via INN. Supports atlas_lithium_neves_71pct_capex_2026.",
+    "supports": [
+      "atlas_lithium_neves_71pct_capex_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "atlas_lithium_neves_71pct_capex_2026",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cice_liebherr_veracruz_20260903",
+    "type": "company",
+    "chicago": "Grupo CICE. “Grupo CICE Fortalece la Atención de Servicios Marítimos con la Puesta en Operación de Sus Grúas Polivalentes sobre Rieles.” 3 September 2026.",
+    "url": "https://home.grupocice.com/grupo-cice-fortalece-la-atencion-de-servicios-maritimos-con-la-puesta-en-operacion-de-sus-gruas-polivalentes-sobre-rieles/",
+    "annotation": "CICE primary on two Liebherr P180 L-S GPR COD at Veracruz Bahía Norte. Supports liebherr_cice_veracruz_gpr_2026.",
+    "supports": [
+      "liebherr_cice_veracruz_gpr_2026",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "liebherr_cice_veracruz_gpr_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "crhoy_chec_san_carlos_20260729",
+    "type": "press",
+    "chicago": "Ruiz, Francisco. “Gobierno Firmará con CHEC Proyecto para Tramo Central de Vía a San Carlos.” CR Hoy, 29 July 2026.",
+    "url": "https://crhoy.com/nacionales/gobierno-firmara-con-chec-proyecto-para-tramo-central-de-via-a-san-carlos/",
+    "annotation": "Opened Costa Rican press on CHEC San Carlos central contract. Supports chec_san_carlos_central_cr_2026.",
+    "supports": [
+      "chec_san_carlos_central_cr_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "chec_san_carlos_central_cr_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "boston_metal_51m_gnw_20250710",
+    "type": "company",
+    "chicago": "Boston Metal. “Boston Metal Announces $51 Million Convertible Note to Accelerate Scale-Up of Critical Metals Plant and Capitalize on Recent Steel Technology Milestone.” GlobeNewswire, 10 July 2025.",
+    "url": "https://www.globenewswire.com/news-release/2025/07/10/3113511/0/en/Boston-Metal-Announces-51-Million-Convertible-Note-to-Accelerate-Scale-Up-of-Critical-Metals-Plant-and-Capitalize-on-Recent-Steel-Technology-Milestone.html",
+    "annotation": "Boston Metal primary on USD 51m note for Brazil Phase II. Supports boston_metal_51m_convertible_brazil_2025.",
+    "supports": [
+      "boston_metal_51m_convertible_brazil_2025",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "boston_metal_51m_convertible_brazil_2025",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "fluence_eneva_azulao_20240530",
+    "type": "company",
+    "chicago": "Fluence Corporation. “Fluence Awarded US $4.8 Million Contract in Brazil.” 30 May 2024.",
+    "url": "https://www.fluencecorp.com/fluence-awarded-us-4-8-million-contract-in-brazil/",
+    "annotation": "Fluence primary on Azulão demin system USD 4.8m. Supports fluence_eneva_azulao_demin_4p8m_2024.",
+    "supports": [
+      "fluence_eneva_azulao_demin_4p8m_2024",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "fluence_eneva_azulao_demin_4p8m_2024",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "energy21_oak_creek_cfe_2026",
+    "type": "press",
+    "chicago": "Arias, Adrián. “Cuatro Empresas Acaparan el 55% de los Contratos Mixtos de CFE.” Energy21, June 2026.",
+    "url": "https://energy21.com.mx/cuatro-empresas-acaparan-el-55-de-los-contratos-mixtos-de-cfe/",
+    "annotation": "Opened Mexican energy press on Oak Creek ~1,160 MW CFE awards. Supports oak_creek_cfe_mexico_1160mw_2026.",
+    "supports": [
+      "oak_creek_cfe_mexico_1160mw_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "oak_creek_cfe_mexico_1160mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "dpi_exim_gte2_20260922",
+    "type": "government",
+    "chicago": "Department of Public Information (Guyana). “US EXIM Bank to Support Financing for GTE Phase Two, Deepwater Port.” 22 September 2026.",
+    "url": "https://dpi.gov.gy/us-exim-bank-to-support-financing-for-gte-phase-two-deepwater-port/",
+    "annotation": "Official DPI on EXIM GTE Phase Two interest. Supports exim_guyana_gte2_interest_2026.",
+    "supports": [
+      "exim_guyana_gte2_interest_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "exim_guyana_gte2_interest_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sinoma_ec_cruz_azul_20260212",
+    "type": "company",
+    "chicago": "Sinoma Energy Conservation Ltd. “Sinoma Energy Conservation Ltd. Signs EPC Contract for 22MW Captive Power Plant.” 12 February 2026.",
+    "url": "http://www.sinoma-ec.cn/contents/69/3229.html",
+    "annotation": "Sinoma primary on Cruz Azul 22 MW captive EPC. Supports sinoma_cruz_azul_22mw_captive_epc_2026.",
+    "supports": [
+      "sinoma_cruz_azul_22mw_captive_epc_2026",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "hunt_infra_building_materials",
+      "sinoma_cruz_azul_22mw_captive_epc_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "epsa_caf_puerto_exterior_20260619",
+    "type": "company",
+    "chicago": "Empresa Portuaria San Antonio. “CAF y Empresa Portuaria San Antonio Firman Crédito por US$50 Millones para Iniciar las Obras Habilitantes del Puerto Exterior.” 19 June 2026.",
+    "url": "https://www.puertosanantonio.com/caf-y-empresa-portuaria-san-antonio-firman-credito-por-us-50-millones-para",
+    "annotation": "EPSA primary on CAF Puerto Exterior USD 50m. Supports caf_epsa_puerto_exterior_50m_2026.",
+    "supports": [
+      "caf_epsa_puerto_exterior_50m_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "caf_epsa_puerto_exterior_50m_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
