@@ -1,10 +1,10 @@
 {
   "id": "hunt_icbc_rate",
-  "retrieved": "2026-09-30",
-  "source_id": "dfc_finance_faqs",
-  "url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
-  "price_year": "2024",
+  "retrieved": "2026-10-01",
+  "source_id": "guyana_dpi_exim_gte_4pct_2025",
+  "url": "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/",
+  "price_year": "2025",
   "evidence": "hunt",
-  "quote": "Generally, the interest rate is a fixed base rate provided by U.S. Treasury plus a risk premium. … Direct Loan Fixed Treasury + To be negotiated",
-  "note": "Dry pass #2 this batch on finance. No named LatAm numeric all-in. Rotating to commanding_heights."
+  "quote": "the 4 per cent interest rate is highly competitive, given global market conditions",
+  "note": "Cycle 49: logged proxy row exim_us_guyana_gte_2025 from DPI/Stabroek. Proxy does not reset dry_streak — dry_streak 3; rotate to commanding_heights."
 }

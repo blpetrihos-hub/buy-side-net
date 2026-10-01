@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "mysteel_ascend910c_ind_20260915",
-    "note": "Cycle 43 logged ascend910c_mysteel_ind_202609 as UNVERIFIED proxy (Mysteel Ascend 910C indicative floor ~CNY 110,000+/chip). Cycle 42 Ascend 910B4 SMM proxy, Cycle 37 H20 SMM proxy, and Cycle 36 HUST Ascend 910_4_1 document award remain — still no same-buyer/same-document H20 vs Ascend USD/chip pair. Still hunting document-backed same-calendar-year H20 card-level award versus Ascend.",
-    "evidence_url": "https://news.smm.cn/news/104094410",
-    "quote": "H20 96G八卡模组现货对外出售，报价140万元/套，折合单卡约17.5万元"
+    "source_id": "chinamae_zijingshan_ascend_unit_2026",
+    "note": "Cycle 46 dry (dry_streak 3): opened ChinaMAE Zijingshan Lab domestic compute-unit tender JSZC-320100-JZCG-G2026-0243 (https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html) — 1×8-card + 1×4-card 国产运算单元, budget CNY 1.55m; mentions existing Nvidia H20/V100 for mixed training but no H20 or Ascend 910B/910C card unit price. Award mirrors redact unit prices (Inspur CS5468H3 system). Rotating lanes after three dry passes. HUST Ascend card + H20 SMM proxy remain unpaired.",
+    "evidence_url": "https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html",
+    "quote": "采购 1台国产8卡运算单元与1台国产4卡运算单元…支持与现有英伟达卡（ V100，H20）的混合训练…预算金额： 155.000000万元"
   },
   {
     "id": "hunt_icbc_rate",
@@ -180,10 +180,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "dfc_finance_faqs",
-    "note": "Cycle 22: DFC Finance FAQs restate Direct Loan rate as fixed Treasury + negotiated risk premium—no numeric LatAm all-in. Barbados 2% PRC one-sided remains. Rotating to commanding_heights power_equipment after second finance dry this batch.",
-    "evidence_url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
-    "quote": "Generally, the interest rate is a fixed base rate provided by U.S. Treasury plus a risk premium. … Direct Loan Fixed Treasury + To be negotiated"
+    "source_id": "guyana_dpi_exim_gte_4pct_2025",
+    "note": "Cycle 49: logged exim_us_guyana_gte_2025 as UNVERIFIED proxy (DPI/Stabroek: U.S. EXIM Guyana Gas-to-Energy fixed 4%, 15y). Press/borrower remarks — not EXIM schedule PDF. dry_streak 3 on finance (proxy does not reset) — rotating to commanding_heights power_equipment. Barbados 2% 2022 PRC one-sided remains unpaired same-year.",
+    "evidence_url": "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/",
+    "quote": "the 4 per cent interest rate is highly competitive, given global market conditions"
   },
   {
     "id": "hunt_latam_rail_telecom",
@@ -1362,5 +1362,36 @@
     "note": "UNVERIFIED proxy. Mysteel 15 Sep 2026 Ascend price note (mobile page opened): 910C “由约 9 万元升至 11 万元以上” — stored CNY 110,000 as the published floor of “11万元以上.” Same note cites Ascend 950DT indicative above CNY 250,000/chip and 950PR above CNY 80,000 — those SKUs not stored as this row. Press/channel indicative; no contract/award document. Off the usd_per_chip median. FX: CFETS/PBOC central parity 1 USD = 6.7670 CNY on 2026-09-15 (China News / 中新经纬 reprint).",
     "evidence_url": "https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html",
     "quote": "910C（由约 9 万元升至 11 万元以上，涨幅 22%）"
+  },
+  {
+    "id": "exim_us_guyana_gte_2025",
+    "lane": "icbc_finance",
+    "spec_class": "all_in_rate",
+    "evidence": "proxy",
+    "country": "Guyana",
+    "buyer": "Government of Guyana (Ministry of Finance)",
+    "seller_us": "Export-Import Bank of the United States",
+    "seller_prc": "",
+    "city": "Georgetown",
+    "lat": 6.8013,
+    "lon": -58.1551,
+    "geo_note": "Borrower capital (Georgetown). Gas-to-Energy plant is at Wales, West Bank Demerara; pin is process/capital city.",
+    "price_year": "2025",
+    "spec": "U.S. EXIM Bank direct loan — Guyana Gas-to-Energy (natural gas separation + 300 MW CCGT + pipeline services)",
+    "unit": "percent",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2025-01-03",
+    "us_price": 4.0,
+    "prc_price": null,
+    "us_price_usd": 4.0,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "guyana_dpi_exim_gte_4pct_2025",
+    "note": "UNVERIFIED proxy. Guyana DPI (3 Jan 2025) quotes VP Jagdeo that the U.S. EXIM Gas-to-Energy loan carries a 4 per cent interest rate; Stabroek News (11 Jan 2025) reports fixed 4% over 15 years / 30 semi-annual installments beginning 1 May 2031, citing the same remarks. Official EXIM.gov approval/signing pages state ~USD 527m size and CTEP context but do not print the rate. Press/borrower remarks only — not a published EXIM schedule PDF — so evidence=proxy and off the finance median until document-backed or paired to a same-year PRC all-in.",
+    "evidence_url": "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/",
+    "quote": "In addressing these concerns, the general secretary pointed out that the 4 per cent interest rate is highly competitive, given global market conditions. … The multi million loan from US EXIM-Bank will aid the construction of a natural gas separation plant, a 300 MW combined cycle gas turbine power plant and services related to the gas supply pipeline."
   }
 ]

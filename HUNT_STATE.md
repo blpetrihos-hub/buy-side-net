@@ -1,9 +1,9 @@
 updated: 2026-10-01
-cycle: 43
-active_lane: ai_chips
-active_basket: usd_per_chip
-next_query: CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award
-next_row_id: hunt_ascend_chip
+cycle: 49
+active_lane: commanding_heights
+active_basket: power_equipment
+next_query: Brazil ANEEL OR utility converter transformer OR HVDC Siemens OR GE versus China XD OR State Grid unit price 2021..2026
+next_row_id: hunt_br_power_equip
 dry_streak: 0
 remote: present
 seen_urls:
@@ -82,7 +82,24 @@ seen_urls:
 - https://finance.sina.com.cn/jjxw/2026-08-27/doc-inipthnz9030232.shtml
 - https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html
 - https://www.jwview.com/jingwei/html/09-15/688315.shtml
+- http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html
+- http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html
+- https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html
+- https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html
+- https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/
+- https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/
+- https://www.guyanastandard.com/2023/04/25/govt-presents-house-with-concessional-loan-agreement-for-us192m-phase-2-ecd-road-project/
+- https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf
+- https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/
+- https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/
+- https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
 misses:
+- 2026-10-01 | icbc_finance | all_in_rate | Guyana DPI OR Stabroek OR EXIM.gov US EXIM Bank Gas-to-Energy loan interest rate percent public terms 2024..2026 versus China Eximbank Barbados OR LatAm | Opened DPI (3 Jan 2025) + Stabroek (11 Jan 2025): U.S. EXIM Guyana Gas-to-Energy fixed 4% / 15y — logged as UNVERIFIED proxy (press/borrower remarks; EXIM.gov omits rate). Proxy does not reset dry_streak — dry_streak 3; rotating to commanding_heights power_equipment. Still no same-year PRC all-in vs this U.S. named loan.
+- 2026-10-01 | icbc_finance | all_in_rate | Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US | Opened Grenada Estimates of Revenue and Expenditure 2022 PDF: debt table lists “EXIM China- St.George's Airport Runway & Road Upgrade” CNY 461m contracted January 2017 at fixed 2%, repayment 2023–2038. Rate is real but commitment year 2017 is outside the 2021–2026 new-row window (republished outstanding only). Narrative MBIA section gives US$66m size without restating the rate. Not added as a new 2022 row. Barbados 2% 2022 remains the PRC one-sided.
+- 2026-10-01 | icbc_finance | all_in_rate | China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US | Opened Guyana DPI and Newsroom ECD Phase 2 Eximbank framework (Dec 2022): US$192m / later Nat'l Assembly presentation RMB 1,384,580,867.13 — size and concessional label only; no interest rate, tenor, or fees on opened pages. Phase I AidData 2% is 2017 commitment (outside 2021–2026 new-row window). Barbados 2% PRC one-sided remains unpaired.
+- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR ChinaMAE OR university 国产AI计算卡 Ascend 910B OR 910C OR 910_4 card award unit price 2026 versus Nvidia H20 GPU加速卡 card award | Opened Zijingshan Lab domestic compute-unit tender (ChinaMAE): 8-card+4-card systems, CNY 1.55m budget; names existing H20/V100 but no card-level H20 or Ascend 910B/910C unit price. Award mirrors redact prices. dry_streak 3 — rotating to icbc_finance all_in_rate.
+- 2026-10-01 | ai_chips | usd_per_chip | university OR CCGP award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C card | Opened SUSTech-JC-2026-00149 reprint: 2× Nvidia H100 at CNY 247,500/card — off-spec (H100 procurement, not H20; not an export-rules article). Not added as a row. No H20 card-level award opened this cycle.
+- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award | Opened Huangshan GGZY HJACG2026G096 contract (16 Sep 2026) and award (7 Sep 2026): HTML shows CloudStor 640H50 server only (CNY 2.355m; package CNY 4.748m)—no H20 card unit price. Login-walled aggregator H20 CNY 178k/card snippets not used. Still unpaired vs HUST Ascend 910_4_1.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip same year 2026 versus Ascend 910_4 OR 910B OR 910C | Cycles 38–43 added card/system/proxy rows (CUPL A800; BFSU Inspur system; Huatai 910C rental; Qilu RTX A6000; SMM 910B4; Mysteel 910C) but no opened CCGP/university document with H20 unit priced as cards (not HGX 8-GPU server). HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired for scoring.
 - 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
 
