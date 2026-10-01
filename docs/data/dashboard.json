@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 301,
+    "n_rows": 305,
     "counts": {
-      "total": 301,
-      "active": 246,
+      "total": 305,
+      "active": 250,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 44,
+      "proxy": 45,
       "exclude": 5,
-      "documented": 201,
-      "on_map": 235
+      "documented": 204,
+      "on_map": 239
     }
   },
   "layer_readouts": [
@@ -107,15 +107,15 @@
       "layer": "infrastructure",
       "counts": {
         "us": 5,
-        "prc": 34,
-        "allied": 54,
-        "n": 93
+        "prc": 35,
+        "allied": 55,
+        "n": 95
       },
       "usd": {
         "us": 170000000.0,
         "us_n": 1,
-        "prc": 2206197353.12,
-        "prc_n": 10,
+        "prc": 3010197353.12,
+        "prc_n": 11,
         "allied": 6473000000.0,
         "allied_n": 15
       },
@@ -129,10 +129,10 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 12,
+        "us": 13,
         "prc": 21,
-        "allied": 49,
-        "n": 82
+        "allied": 50,
+        "n": 84
       },
       "usd": {
         "us": 2676797120.0,
@@ -240,8 +240,8 @@
       "counts": {
         "us": 5,
         "prc": 31,
-        "allied": 64,
-        "n": 100
+        "allied": 65,
+        "n": 101
       },
       "usd": {
         "us": 550000000.0,
@@ -265,23 +265,23 @@
         "resources": {
           "us": 4,
           "prc": 5,
-          "allied": 23
+          "allied": 24
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 8,
-        "prc": 10,
+        "us": 9,
+        "prc": 11,
         "allied": 21,
-        "n": 39
+        "n": 41
       },
       "usd": {
         "us": 1360000000.0,
         "us_n": 2,
-        "prc": 918154809.0,
-        "prc_n": 5,
+        "prc": 1722154809.0,
+        "prc_n": 6,
         "allied": 1344000000.0,
         "allied_n": 4
       },
@@ -293,11 +293,11 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 3,
+          "prc": 4,
           "allied": 6
         },
         "resources": {
-          "us": 2,
+          "us": 3,
           "prc": 0,
           "allied": 12
         }
@@ -578,8 +578,8 @@
       "counts": {
         "us": 1,
         "prc": 4,
-        "allied": 8,
-        "n": 13
+        "allied": 9,
+        "n": 14
       },
       "usd": {
         "us": 170000000.0,
@@ -598,7 +598,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 3,
-          "allied": 4
+          "allied": 5
         },
         "resources": {
           "us": 0,
@@ -911,7 +911,11 @@
       "holcim_guayaquil_calcined_clay_2025",
       "powerchina_ufn3_petrobras_epc_2026",
       "ypf_luz_el_quemado_solar_2026",
-      "ormat_dominica_geothermal_cod_2026"
+      "ormat_dominica_geothermal_cod_2026",
+      "crcc_talca_chillan_ruta5_2021",
+      "siemens_sonda_mexico_etcs_2026",
+      "cbmm_araxa_13bn_plan_2026",
+      "albemarle_ted_dle_atacama_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -2969,3 +2969,50 @@
   supports:
   - jinzhao_marcona_port_concession_2024
   - hunt_infra_port_ownership
+- id: mop_talca_chillan_award_2021
+  type: government
+  chicago: Dirección General de Concesiones, Ministerio de Obras Públicas (Chile). “Este sábado se publicó
+    en el Diario Oficial el Decreto de Adjudicación de la Segunda Concesión Ruta 5 Tramo Talca-Chillán.”
+    13 March 2021.
+  url: https://concesiones.mop.gob.cl/este-sabado-se-publico-en-el-diario-oficial-el-decreto-de-adjudicacion-de-la-segunda-concesion-ruta-5-tramo-talca-chillan/
+  annotation: Official MOP award of Talca–Chillán Ruta 5 concession to CRCC at ~USD 804m. Supports crcc_talca_chillan_ruta5_2021.
+  supports:
+  - crcc_talca_chillan_ruta5_2021
+  - hunt_infra_bridges_roads
+- id: siemens_mexico_etcs_20260326
+  type: company
+  chicago: Siemens Mobility. “Siemens Mobility and Sonda win ETCS signaling project in Mexico.” 26 March
+    2026.
+  url: https://press.siemens.com/global/en/pressrelease/siemens-mobility-and-sonda-win-etcs-signaling-project-mexico
+  annotation: Company primary on first Mexico ETCS L1 award for CDMX–Querétaro–Irapuato. Supports siemens_sonda_mexico_etcs_2026.
+  supports:
+  - siemens_sonda_mexico_etcs_2026
+  - hunt_latam_rail_telecom
+- id: diario_comercio_cbmm_13bn_20260918
+  type: press
+  chicago: Diário do Comércio. “Mineira CBMM planeja investimentos de R$ 13 bilhões até 2031.” 18 September
+    2026.
+  url: https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/
+  annotation: UNVERIFIED press citing CBMM R$13bn 2026–2031 Araxá plan. Supports cbmm_araxa_13bn_plan_2026.
+  supports:
+  - cbmm_araxa_13bn_plan_2026
+  - hunt_fenb_araxa
+- id: albemarle_ted_dle_20260325
+  type: company
+  chicago: Albemarle Corporation. “Albemarle Initiates Environmental Review for Chile’s First Direct Lithium
+    Extraction Project in Salar de Atacama.” 25 March 2026.
+  url: https://www.albemarle.com/cl/en/news/albemarle-initiates-environmental-review-chiles-first-direct-lithium-extraction-project-salar
+  annotation: Company primary on TED/DLE EIA submission at Salar de Atacama. Supports albemarle_ted_dle_atacama_2026.
+  supports:
+  - albemarle_ted_dle_atacama_2026
+  - hunt_res_lithium
+- id: sonda_mexico_etcs_20260326
+  type: company
+  chicago: SONDA. “SONDA y Siemens Mobility ganan el proyecto de señalización ETCS en México.” 26 March
+    2026.
+  url: https://www.sonda.com/detalle-noticia/2026/03/26/sonda-impulsa-la-transformacion-ferroviaria-en-mexico-con-tecnologia-para-el-corredor-mexico-queretaro-irapuato
+  annotation: Consortium partner primary stating MXN 3,844m contract value for CDMX–Querétaro–Irapuato
+    ETCS package. Supports siemens_sonda_mexico_etcs_2026.
+  supports:
+  - siemens_sonda_mexico_etcs_2026
+  - hunt_latam_rail_telecom
