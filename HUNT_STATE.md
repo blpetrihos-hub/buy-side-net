@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 40
+cycle: 41
 remote: present
-active_layer: infrastructure
-active_subcategory: rail
-next_query: Cycle 41 shuffle_seed=20261041; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-41 shuffled_order)
+active_layer: resources
+active_subcategory: copper
+next_query: Cycle 42 shuffle_seed=20261042; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-42 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,65 +16,92 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261040
+shuffle_seed: 20261041
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- infrastructure/bridges_roads
-- resources/nickel
-- resources/lithium
 - energy/solar
+- infrastructure/port_ownership
+- infrastructure/rail
+- energy/power_plants_grid
+- infrastructure/port_cranes
+- infrastructure/bridges_roads
+- resources/balsa
+- infrastructure/engineering_epc
+- energy/wind
+- resources/graphite
+- resources/nickel
+- resources/copper
+- resources/niobium
 - energy/other_renewables
 - resources/water
-- resources/balsa
-- infrastructure/port_cranes
+- resources/lithium
 - energy/fission_smr
-- resources/niobium
 - infrastructure/building_materials
-- infrastructure/port_ownership
-- resources/graphite
-- infrastructure/engineering_epc
-- resources/copper
-- energy/wind
-- energy/power_plants_grid
-- infrastructure/rail
 
 rows_found_this_cycle:
-  infrastructure/bridges_roads: 1
-  resources/nickel: 0
-  resources/lithium: 0
   energy/solar: 1
-  energy/other_renewables: 1
-  resources/water: 1
-  resources/balsa: 0
-  infrastructure/port_cranes: 0
-  energy/fission_smr: 1
-  resources/niobium: 1
-  infrastructure/building_materials: 0
   infrastructure/port_ownership: 0
-  resources/graphite: 1
-  infrastructure/engineering_epc: 0
-  resources/copper: 0
-  energy/wind: 2
-  energy/power_plants_grid: 0
   infrastructure/rail: 0
+  energy/power_plants_grid: 0
+  infrastructure/port_cranes: 0
+  infrastructure/bridges_roads: 0
+  resources/balsa: 1
+  infrastructure/engineering_epc: 1
+  energy/wind: 1
+  resources/graphite: 1
+  resources/nickel: 0
+  resources/copper: 0
+  resources/niobium: 1
+  energy/other_renewables: 1
+  resources/water: 0
+  resources/lithium: 0
+  energy/fission_smr: 1
+  infrastructure/building_materials: 0
+
+coverage_cumulative:
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 41
+  # (+ thin_topup: peru FIRST bilateral; Graphcoa USD 75m cumulative; St George Araxá R$3bn plan)
+  infrastructure/port_ownership: 20
+  infrastructure/port_cranes: 25
+  infrastructure/rail: 21
+  infrastructure/bridges_roads: 22
+  infrastructure/building_materials: 19
+  infrastructure/engineering_epc: 20
+  resources/niobium: 15
+  resources/lithium: 21
+  resources/copper: 19
+  resources/nickel: 16
+  resources/graphite: 15
+  resources/balsa: 12
+  resources/water: 17
+  energy/fission_smr: 15
+  energy/solar: 20
+  energy/wind: 18
+  energy/power_plants_grid: 23
+  energy/other_renewables: 25
 
 # Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
 # Cycle 40 predated this field — left unset rather than backfilled.
 rows_by_side_this_cycle:
-  us: unset
-  prc: unset
-  allied: unset
-  other: unset
+  us: 1
+  prc: 1
+  allied: 6
+  other: 0
 
 # Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
 # rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
+# Post-pass thinnest: balsa (12), then tie at 14 among graphite/fission_smr/niobium.
 thin_topup:
   budget: 0.5_source_family_min
-  subcategories: []
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
+  # Also opened resources/niobium in the same half-budget window (St George R$3bn).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 40
@@ -784,7 +811,13 @@ seen_urls:
 - https://diarioelpueblo.com.pe/2026/07/02/mtc-adjudica-componente-iii-de-via-arequipa-la-joya-a-empresa-con-antecedentes-internacionales/
 - https://cdn.www.gob.pe/uploads/document/file/9663997/7909371-rd-2026-00048-999.pdf
 
+- https://polarisrei.com/wp-content/uploads/2026/07/PR-Mexico-Mixed-Investment-Agreement-Executed-July-7th.pdf
+- https://diariouno.pe/2026/10/01/ipen-destaca-incorporacion-del-peru-como-socio-bilateral-del-programa-first-de-estados-unidos-de-america/
+- https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/
+- https://themining.com.br/2026/09/16/projeto-araxa-mantem-quase-r-3-bilhoes-em-investimentos/
+
 misses:
+- 2026-10-01 | resources/balsa | cycle41 thin_topup | New balsa trade year/actor beyond AIMA Siemens MoU already logged in shuffled pass | miss
 - 2026-10-01 | infrastructure/rail | cycle1 budget | U.S. or new PRC rail award 2021-2026 beyond existing SP metro / EFE rows | no additional sourced rail row opened in this cycle's time box (existing rows retained)
 - 2026-10-01 | resources/graphite | cycle2 budget | New graphite row (taxonomy was still mislabeled granite that cycle) | later corrected to graphite; ABIROCHAS ornamental-stone rows archived
 - 2026-10-01 | resources/nickel | cycle3 budget | New Ni row beyond MMG/Anglo Brazil SPA pair | equal time box exhausted without a distinct new opened source
@@ -1027,6 +1060,17 @@ misses:
 #   Thin fills: water, fission_smr, niobium, graphite, wind.
 #   Equal-budget misses: nickel, lithium, balsa, port_cranes, building_materials, port_ownership
 #   (value fill only), engineering_epc, copper, power_plants_grid, rail.
+
+# Cycle 41 (seed 20261041): 8 sourced rows (5 shuffled + 3 thin_topup);
+#   shuffled hits: solar (Polaris–CFE Mexico ~USD 217m), balsa (AIMA–Siemens Energy MoU),
+#   engineering_epc (CHEC/CCCC Chancay port works USD 600m), wind (EDF Diana Jacobina 142.5 MW),
+#   other_renewables (Cubico–CFE ~USD 1bn + BESS).
+#   Thin_topup (balsa/graphite/fission_smr): Peru FIRST bilateral partner (us);
+#   Graphcoa cumulative ~USD 75m invested; balsa thin miss (MoU already in pass).
+#   Also logged St George Araxá ~R$3bn CAPEX plan (niobium) in thin window.
+#   rows_by_side: us 1 / prc 1 / allied 6 / other 0.
+#   Equal-budget misses: port_ownership, rail, power_plants_grid, port_cranes, bridges_roads,
+#   nickel, copper, water, lithium, building_materials (+ balsa thin miss).
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).

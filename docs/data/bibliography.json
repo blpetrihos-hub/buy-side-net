@@ -5595,16 +5595,18 @@
   },
   {
     "id": "diario_comercio_graphcoa_20260620",
-    "type": "trade_press",
-    "chicago": "Henrique, Thyago. “Graphcoa planeja investir R$ 700 milhões em planta de grafite no Vale do Jequitinhonha.” Diário do Comércio, 20 June 2026.",
+    "type": "press",
+    "chicago": "Diário do Comércio. “Graphcoa planeja investir R$ 700 milhões em planta de grafite no Vale do Jequitinhonha.” 20 June 2026.",
     "url": "https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/",
-    "annotation": "Press on Graphcoa→Allied Graphite U.S. anode offtake path. Supports graphcoa_allied_anode_offtake_2026.",
+    "annotation": "PT trade press interview with Graphcoa on Jordânia CAPEX plans, Allied Graphite offtake path, and ~USD 75m already invested. Supports graphcoa_allied_anode_offtake_2026 and graphcoa_projects_invested_75m_2026 (UNVERIFIED).",
     "supports": [
       "graphcoa_allied_anode_offtake_2026",
+      "graphcoa_projects_invested_75m_2026",
       "hunt_res_graphite"
     ],
     "map_supports": [
       "graphcoa_allied_anode_offtake_2026",
+      "graphcoa_projects_invested_75m_2026",
       "hunt_res_graphite"
     ],
     "layers": [
@@ -5645,6 +5647,132 @@
     ],
     "layers": [
       "energy"
+    ]
+  },
+  {
+    "id": "polaris_cfe_cim_20260707",
+    "type": "company",
+    "chicago": "Polaris Renewable Energy Inc. “Polaris Announces Execution of Mixed Investment Agreement for the Three Mexico Projects.” Press release, 7 July 2026.",
+    "url": "https://polarisrei.com/wp-content/uploads/2026/07/PR-Mexico-Mixed-Investment-Agreement-Executed-July-7th.pdf",
+    "annotation": "Company PDF on Polaris–CFE Mexico solar+BESS CIM ~USD 217m. Supports polaris_cfe_mexico_solar_217m_2026.",
+    "supports": [
+      "polaris_cfe_mexico_solar_217m_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "polaris_cfe_mexico_solar_217m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "elcomercio_aima_siemens_20260210",
+    "type": "trade_press",
+    "chicago": "Astudillo, Giovanni. “Un acuerdo para que la balsa ecuatoriana sea un actor clave de la transición energética.” El Comercio (Ecuador), 10 February 2026.",
+    "url": "https://www.elcomercio.com/lideres/acuerdo-balsa-ecuatoriana-actor-clave-transicion-energetica/",
+    "annotation": "Press on AIMA–Siemens Energy balsa MoU. Supports aima_siemens_energy_balsa_mou_2026.",
+    "supports": [
+      "aima_siemens_energy_balsa_mou_2026",
+      "hunt_res_balsa"
+    ],
+    "map_supports": [
+      "aima_siemens_energy_balsa_mou_2026",
+      "hunt_res_balsa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "mtc_chec_chancay_600m_20210525",
+    "type": "official",
+    "chicago": "Perú. Ministerio de Transportes y Comunicaciones. “Terminal de Chancay: Firman contrato por US$ 600 millones para la zona portuaria del futuro hub de la región.” 25 May 2021.",
+    "url": "https://www.gob.pe/institucion/mtc/noticias/494826-terminal-de-chancay-firman-contrato-por-us-600-millones-para-la-zona-portuaria-del-futuro-hub-de-la-region",
+    "annotation": "MTC notice on CHEC/CCCC Chancay EPC USD 600m. Supports chec_chancay_port_epc_600m_2021.",
+    "supports": [
+      "chec_chancay_port_epc_600m_2021",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "chec_chancay_port_epc_600m_2021",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "edf_diana_ppa_20260805",
+    "type": "company",
+    "chicago": "EDF power solutions Brasil. “EDF power solutions fecha PPA para parque eólico na Bahia.” Press release, 5 August 2026.",
+    "url": "https://brazil.edf-powersolutions.com/2026/08/05/edf-power-solutions-fecha-ppa-para-parque-eolico-na-bahia/",
+    "annotation": "Company release on EDF Diana 142.5 MW PPA with Vale Base Metals. Supports edf_diana_jacobina_142mw_2026.",
+    "supports": [
+      "edf_diana_jacobina_142mw_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "edf_diana_jacobina_142mw_2026",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "pv_mag_cubico_cfe_20260722",
+    "type": "trade_press",
+    "chicago": "Ini, Luis. “Cubico y CFE acuerdan desarrollar 578 MW renovables con 500 MWh en baterías.” pv magazine México, 22 July 2026.",
+    "url": "https://www.pv-magazine-mexico.com/2026/07/22/cubico-y-cfe-acuerdan-desarrollar-578-mw-renovables-con-500-mwh-en-baterias/",
+    "annotation": "Press on Cubico–CFE ~USD 1bn mixed renewables+BESS. Supports cubico_cfe_mexico_1bn_2026.",
+    "supports": [
+      "cubico_cfe_mexico_1bn_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "cubico_cfe_mexico_1bn_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "diario_uno_peru_first_20261001",
+    "type": "press",
+    "chicago": "Diario UNO. “IPEN destaca incorporación del Perú como socio bilateral del programa FIRST de Estados Unidos de América.” 1 October 2026.",
+    "url": "https://diariouno.pe/2026/10/01/ipen-destaca-incorporacion-del-peru-como-socio-bilateral-del-programa-first-de-estados-unidos-de-america/",
+    "annotation": "Peruvian press summarizing IPEN on Peru FIRST bilateral partner elevation. Supports peru_first_bilateral_partner_2026 (UNVERIFIED vs embassy primary).",
+    "supports": [
+      "peru_first_bilateral_partner_2026",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "hunt_energy_fission_smr",
+      "peru_first_bilateral_partner_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "the_mining_sgq_araxa_3bn_20260916",
+    "type": "press",
+    "chicago": "The Mining Brasil. “Projeto Araxá mantém quase R$ 3 bilhões em investimentos.” 16 September 2026.",
+    "url": "https://themining.com.br/2026/09/16/projeto-araxa-mantem-quase-r-3-bilhoes-em-investimentos/",
+    "annotation": "PT mining press citing St George Brasil DG on ~R$3bn Araxá plan. Supports st_george_araxa_capex_brl3bn_2026 (UNVERIFIED).",
+    "supports": [
+      "st_george_araxa_capex_brl3bn_2026",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "hunt_fenb_araxa",
+      "st_george_araxa_capex_brl3bn_2026"
+    ],
+    "layers": [
+      "resources"
     ]
   }
 ]
