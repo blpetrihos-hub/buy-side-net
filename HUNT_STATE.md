@@ -1,60 +1,81 @@
 updated: 2026-10-01
-cycle: 33
+cycle: 34
 remote: present
-active_layer: resources
-active_subcategory: graphite
-next_query: Cycle 34 shuffle_seed=20261034; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-34 shuffled_order)
+active_layer: infrastructure
+active_subcategory: rail
+next_query: Cycle 35 shuffle_seed=20261035; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-35 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261033
+shuffle_seed: 20261034
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- resources/balsa
-- resources/water
-- infrastructure/port_ownership
-- infrastructure/bridges_roads
-- energy/solar
-- infrastructure/rail
-- resources/nickel
-- infrastructure/engineering_epc
-- energy/fission_smr
-- energy/power_plants_grid
-- resources/niobium
-- energy/wind
+- infrastructure/building_materials
+- resources/lithium
+- resources/graphite
 - energy/other_renewables
 - infrastructure/port_cranes
-- resources/lithium
-- infrastructure/building_materials
+- energy/wind
+- resources/niobium
+- infrastructure/port_ownership
+- energy/power_plants_grid
 - resources/copper
-- resources/graphite
+- infrastructure/engineering_epc
+- resources/water
+- energy/fission_smr
+- infrastructure/bridges_roads
+- energy/solar
+- resources/balsa
+- resources/nickel
+- infrastructure/rail
 
 rows_found_this_cycle:
-  resources/balsa: 0
-  resources/water: 0
+  infrastructure/building_materials: 1
+  resources/lithium: 1
+  resources/graphite: 0
+  energy/other_renewables: 1
+  infrastructure/port_cranes: 1
+  energy/wind: 0
+  resources/niobium: 0
   infrastructure/port_ownership: 0
+  energy/power_plants_grid: 0
+  resources/copper: 1
+  infrastructure/engineering_epc: 0
+  resources/water: 0
+  energy/fission_smr: 0
   infrastructure/bridges_roads: 1
   energy/solar: 1
-  infrastructure/rail: 0
+  resources/balsa: 0
   resources/nickel: 0
-  infrastructure/engineering_epc: 0
-  energy/fission_smr: 0
-  energy/power_plants_grid: 0
-  resources/niobium: 0
-  energy/wind: 0
-  energy/other_renewables: 0
-  infrastructure/port_cranes: 1
-  resources/lithium: 0
-  infrastructure/building_materials: 0
-  resources/copper: 0
-  resources/graphite: 1
+  infrastructure/rail: 0
+
+coverage_cumulative:
+  # Active (non-archived, non-exclude) observation counts after cycle 34
+  infrastructure/port_ownership: 18
+  infrastructure/port_cranes: 23
+  infrastructure/rail: 18
+  infrastructure/bridges_roads: 19
+  infrastructure/building_materials: 15
+  infrastructure/engineering_epc: 18
+  resources/niobium: 11
+  resources/lithium: 20
+  resources/copper: 18
+  resources/nickel: 14
+  resources/graphite: 12
+  resources/balsa: 10
+  resources/water: 15
+  energy/fission_smr: 11
+  energy/solar: 17
+  energy/wind: 14
+  energy/power_plants_grid: 21
+  energy/other_renewables: 19
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 33
@@ -885,6 +906,14 @@ misses:
 #   Thin fills: graphite, bridges_roads.
 #   Equal-budget misses: balsa, water, port_ownership, rail, nickel (update only), engineering_epc,
 #   fission_smr, power_plants_grid, niobium, wind, other_renewables, lithium, building_materials, copper.
+
+# Cycle 34 (seed 20261034): 7 sourced rows; hits on building_materials (InterCement LATCEM inject USD 110m proxy),
+#   lithium (Galan HMW RIGI USD 217.09m), other_renewables (Enal Celaya geothermal USD 80m proxy),
+#   port_cranes (SSA Guaymas STS/eRTG), copper (MMG Las Bambas 2026 capex USD 800m floor),
+#   bridges_roads (Sierra Tramo 4 USD 1.582bn), solar (Trina Sidón USD 100m proxy).
+#   Thin fills: building_materials, bridges_roads.
+#   Equal-budget misses: graphite, wind, niobium, port_ownership, power_plants_grid, engineering_epc,
+#   water, fission_smr, balsa, nickel, rail.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
