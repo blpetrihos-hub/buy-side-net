@@ -19,14 +19,16 @@ def nav(title: str, subtitle: str) -> str:
     return f"""
 <header class="site-header">
   <div class="inner">
-    <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
-    <h1>{esc(title)}</h1>
-    <p class="sub">{esc(subtitle)}</p>
-    <nav>
-      <a href="index.html">Dashboard</a>
+    <nav aria-label="Site">
+      <a href="index.html">Interactive map</a>
       <a href="methods.html" aria-current="page">Methods</a>
       <a href="bibliography.html">Bibliography</a>
     </nav>
+    <div class="header-brand">
+      <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
+      <h1>{esc(title)}</h1>
+      <p class="sub">{esc(subtitle)}</p>
+    </div>
   </div>
 </header>
 """
