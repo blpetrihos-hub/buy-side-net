@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 57
+cycle: 58
 remote: present
 active_layer: resources
-active_subcategory: copper
-next_query: Cycle 58 shuffle_seed=20261058; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: niobium/balsa (22), then copper/nickel/graphite/fission_smr (23). Keep raising U.S. and PRC share.
-next_row_id: (follow cycle-58 shuffled_order)
+active_subcategory: nickel
+next_query: Cycle 59 shuffle_seed=20261059; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: fission_smr/graphite/nickel (23), then balsa/niobium (23 after top-up). Keep raising U.S. and PRC share.
+next_row_id: (follow cycle-59 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,97 +16,104 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261057
+shuffle_seed: 20261058
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- infrastructure/engineering_epc
-- energy/wind
-- infrastructure/port_cranes
-- resources/nickel
-- infrastructure/bridges_roads
-- resources/graphite
-- infrastructure/rail
-- energy/solar
-- resources/balsa
-- infrastructure/port_ownership
-- resources/lithium
-- energy/other_renewables
-- energy/fission_smr
-- energy/power_plants_grid
-- resources/niobium
 - infrastructure/building_materials
-- resources/water
+- energy/other_renewables
+- infrastructure/engineering_epc
 - resources/copper
+- resources/niobium
+- energy/power_plants_grid
+- infrastructure/bridges_roads
+- infrastructure/port_cranes
+- resources/water
+- energy/wind
+- infrastructure/rail
+- energy/fission_smr
+- resources/nickel
+- resources/balsa
+- resources/lithium
+- energy/solar
+- resources/graphite
+- infrastructure/port_ownership
 
 rows_found_this_cycle:
-  infrastructure/engineering_epc: 1
-  energy/wind: 1
-  infrastructure/port_cranes: 1
-  resources/nickel: 0
-  infrastructure/bridges_roads: 0
-  resources/graphite: 1
-  infrastructure/rail: 0
-  energy/solar: 2
-  resources/balsa: 1
-  infrastructure/port_ownership: 1
-  resources/lithium: 0
-  energy/other_renewables: 1
-  energy/fission_smr: 1
-  energy/power_plants_grid: 2
-  resources/niobium: 1
   infrastructure/building_materials: 1
+  energy/other_renewables: 0
+  infrastructure/engineering_epc: 1
+  resources/copper: 2
+  resources/niobium: 1
+  energy/power_plants_grid: 1
+  infrastructure/bridges_roads: 1
+  infrastructure/port_cranes: 0
   resources/water: 1
-  resources/copper: 0
+  energy/wind: 0
+  infrastructure/rail: 0
+  energy/fission_smr: 0
+  resources/nickel: 0
+  resources/balsa: 1
+  resources/lithium: 0
+  energy/solar: 1
+  resources/graphite: 0
+  infrastructure/port_ownership: 1
 
 coverage_cumulative:
-  # Active+hunt (evidence documented|proxy|hunt) after cycle 57
-  # (+ equal-pass: McDermott Polok/Chinwol FEED / AES Villagrán USD 726m proxy /
-  #   ZPMC Itapoá STS8 / ARRAY Lupi OmniTrack / Nextracker Libélula /
-  #   FMS Peru Callao Naval USD 1.5bn / AES San Agustín USD 73m proxy /
-  #   Colombia–US civil nuclear MOU / GE Vernova São Simão UG3 >R$1.2bn /
-  #   PowerChina São Simão BOP / Sinoma Cibao clinker / ENAPAC Solaer USD 1.5bn proxy;
-  #   thin_topup: St George Araxá MRE Nb / DIAB Ecuador ProBalsa / South Star June ramp)
-  infrastructure/port_ownership: 32
+  # Active+hunt (evidence documented|proxy|hunt) after cycle 58
+  # (+ equal-pass: Sinoma Panam grind DR / Pumpco–Bonatti Argentina LNG EPC /
+  #   Zijin La Arena USD 245m / Southern Copper El Pilar USD 551m /
+  #   Hitachi Chile mobile digital substation / Aldesa Chiapas tunnels MXN 659m /
+  #   USACE–Ferrovial Río Puerto Nuevo USD 1.079bn / Nextracker Casa dos Ventos 1.5 GW /
+  #   Jan De Nul Vía Navegable Troncal;
+  #   thin_topup: St George CEFET Araxá pilot / Plantabal→Baltek US coresheets; nickel miss)
+  infrastructure/port_ownership: 33
   infrastructure/port_cranes: 29
   infrastructure/rail: 29
-  infrastructure/bridges_roads: 25
-  infrastructure/building_materials: 24
-  infrastructure/engineering_epc: 25
-  resources/niobium: 22
+  infrastructure/bridges_roads: 26
+  infrastructure/building_materials: 25
+  infrastructure/engineering_epc: 26
+  resources/niobium: 23
   resources/lithium: 31
-  resources/copper: 23
+  resources/copper: 25
   resources/nickel: 23
   resources/graphite: 23
-  resources/balsa: 22
-  resources/water: 25
+  resources/balsa: 23
+  resources/water: 26
   energy/fission_smr: 23
-  energy/solar: 29
+  energy/solar: 30
   energy/wind: 24
-  energy/power_plants_grid: 24
+  energy/power_plants_grid: 25
   energy/other_renewables: 32
 
 # Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
 rows_by_side_this_cycle:
-  us: 8
+  us: 4
   prc: 3
-  allied: 4
-  other: 0
+  allied: 3
+  other: 1
 
 # Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
 # rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: niobium (21), balsa (21), graphite (22).
+# Post-pass thinnest: niobium (22), balsa (22), nickel (23).
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
   - resources/niobium
   - resources/balsa
-  - resources/graphite
-  # Hits: St George Araxá MRE upgrade Nb₂O₅ (allied); DIAB Ecuador ProBalsa facility
-  #   (allied); South Star Santa Cruz June 2026 ROM ramp (allied).
+  - resources/nickel
+  # Hits: St George CEFET-MG Araxá pilot plant (allied); Plantabal→Baltek Inc.
+  #   Sep 2026 U.S. core-sheet offtake (us); nickel miss (Jervois/MMG/Centaurus/DFC stack).
+
+# Side balance log (BRIEF Rotation §2) — cycle 57
+rows_by_side_this_cycle_cycle57:
+  us: 8
+  prc: 3
+  allied: 4
+  other: 0
 
 # Side balance log (BRIEF Rotation §2) — cycle 56
 rows_by_side_this_cycle_cycle56:

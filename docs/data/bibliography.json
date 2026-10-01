@@ -8138,5 +8138,203 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "cemnet_sinoma_panam_20250502",
+    "type": "press",
+    "chicago": "International Cement Review. “Sinoma CBMI Latin America Close to Completing PANAM Project.” 2 May 2025.",
+    "url": "https://www.cemnet.com/News/story/179075/sinoma-cbmi-latin-america-close-to-completing-panam-project.html",
+    "annotation": "Trade press on Sinoma CBMI Cemento Panam DR grinding plant near completion. Supports sinoma_panam_grind_dr_2025.",
+    "supports": [
+      "sinoma_panam_grind_dr_2025",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "hunt_infra_building_materials",
+      "sinoma_panam_grind_dr_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "bonatti_argentina_lng_20260730",
+    "type": "company",
+    "chicago": "Bonatti S.p.A. “Bonatti, in Joint Venture with Pumpco, Has Been Awarded the EPC Contract for the Complete Pipeline System of the Argentina LNG Project.” 30 July 2026.",
+    "url": "https://www.bonattinternational.com/bonatti-argentina-lng-project",
+    "annotation": "Bonatti primary on Pumpco JV Argentina LNG dual 527 km pipelines. Supports pumpco_bonatti_argentina_lng_epc_2026.",
+    "supports": [
+      "pumpco_bonatti_argentina_lng_epc_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "pumpco_bonatti_argentina_lng_epc_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "zijin_la_arena_acquisition_20241106",
+    "type": "company",
+    "chicago": "Zijin Mining Group Co., Ltd. “Announcement in Relation to Acquisition of the La Arena Gold Mine and La Arena II Project in Peru.” 6 November 2024.",
+    "url": "https://www.zijinmining.com/upload/file/2024/11/07/381ddb152af942a78df2ca710cfaf4e3.pdf",
+    "annotation": "Zijin primary on La Arena / La Arena II Peru acquisition terms and Cu production design. Supports zijin_la_arena_peru_245m_2024.",
+    "supports": [
+      "zijin_la_arena_peru_245m_2024",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "zijin_la_arena_peru_245m_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "scc_2q26_el_pilar_20260721",
+    "type": "company",
+    "chicago": "Southern Copper Corporation. “Southern Copper Corporation Reports Second Quarter and Six Months 2026 Results.” 21 July 2026.",
+    "url": "https://southerncoppercorp.com/wp-content/uploads/2026/07/pr260721.pdf",
+    "annotation": "SCC primary on El Pilar permits, schedule, and USD 551m investment. Supports southern_copper_el_pilar_551m_2026.",
+    "supports": [
+      "southern_copper_el_pilar_551m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "southern_copper_el_pilar_551m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "hitachi_chile_mobile_sub_20260311",
+    "type": "company",
+    "chicago": "Hitachi Energy. “Hitachi Energy Marks Milestone with Implementation of Chile’s First Mobile Digital High-Voltage Substation.” 11 March 2026.",
+    "url": "https://www.hitachienergy.com/news-and-events/press-releases/2026/05/hitachi-energy-marca-un-hito-con-la-implementaci-n-de-la-primera-subestaci-n-digital-m-vil-de-alta-tensi-n-en-chile",
+    "annotation": "Hitachi primary on Chile Grid-eXpand mobile HV substation delivery. Supports hitachi_chile_mobile_digital_substation_2026.",
+    "supports": [
+      "hitachi_chile_mobile_digital_substation_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hitachi_chile_mobile_digital_substation_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aldesa_chiapas_tuneles_20260827",
+    "type": "company",
+    "chicago": "Aldesa Construcción. “Aldesa Se Adjudica la Construcción de Dos Túneles en México por 33 Millones de Euros.” 27 August 2026.",
+    "url": "https://aldesa.com/aldesa-se-adjudica-la-construccion-de-dos-tuneles-en-mexico-por-33-millones-de-euros/",
+    "annotation": "Aldesa primary on SICT Chiapas twin-tunnel award MXN 659m. Supports aldesa_chiapas_tunnels_659m_2026.",
+    "supports": [
+      "aldesa_chiapas_tunnels_659m_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "aldesa_chiapas_tunnels_659m_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ferrovial_rio_puerto_nuevo_20260608",
+    "type": "company",
+    "chicago": "Ferrovial. “Ferrovial to Build New Flood Control Canal Section in San Juan, Puerto Rico.” 8 June 2026.",
+    "url": "https://newsroom.ferrovial.com/en/press-releases/ferrovial-to-build-new-flood-control-canal-section-in-san-juan-puerto-rico/",
+    "annotation": "Ferrovial primary on USACE Río Puerto Nuevo Contract 3 (~USD 1.079bn). Supports usace_ferrovial_rio_puerto_nuevo_1079m_2026.",
+    "supports": [
+      "usace_ferrovial_rio_puerto_nuevo_1079m_2026",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "usace_ferrovial_rio_puerto_nuevo_1079m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "pvtech_nextracker_casa_ventos_20250812",
+    "type": "press",
+    "chicago": "Norman, Will. “Nextracker to Supply 1.5GW Brazil Hybrid Solar Portfolio with Trackers.” PV Tech, 12 August 2025.",
+    "url": "https://www.pv-tech.org/nextracker-to-supply-1-5gw-brazil-hybrid-solar-portfolio-with-trackers/",
+    "annotation": "Opened trade press on Nextracker 1.5 GW Casa dos Ventos Brazil tracker award. Supports nextracker_casa_dos_ventos_1p5gw_2025.",
+    "supports": [
+      "nextracker_casa_dos_ventos_1p5gw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "nextracker_casa_dos_ventos_1p5gw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "anpyn_res_36_20260619",
+    "type": "government",
+    "chicago": "Agencia Nacional de Puertos y Navegación (Argentina). “Resolución 36/2026.” Boletín Oficial de la República Argentina, 19 June 2026.",
+    "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343322/20260619",
+    "annotation": "Official award of Vía Navegable Troncal concession to Jan De Nul–Servimagnus. Supports jan_de_nul_via_navegable_troncal_2026.",
+    "supports": [
+      "jan_de_nul_via_navegable_troncal_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "jan_de_nul_via_navegable_troncal_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "stgeorge_pilot_plant_asx_20260902",
+    "type": "company",
+    "chicago": "St George Mining Limited. “Pilot Plant Beneficiation Test Work at Araxá Project, Brazil.” ASX announcement, 2 September 2026.",
+    "url": "https://www.stgm.com.au/pdf/c83fbdbe-842d-47e2-9b84-835b63973c17/Platform/ListPage/Pilot-Plant-Test-Work-at-Araxa-Project.pdf",
+    "annotation": "ASX primary on CEFET-MG Araxá pilot plant construction commenced and CIT-SENAI study. Supports st_george_cefet_pilot_plant_2026.",
+    "supports": [
+      "st_george_cefet_pilot_plant_2026",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "hunt_fenb_araxa",
+      "st_george_cefet_pilot_plant_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "importinfo_plantabal_baltek_202609",
+    "type": "government",
+    "chicago": "ImportInfo. “Plantaciones De Balsa Plantabal S.A | U.S. Import Activity.” Accessed 1 October 2026.",
+    "url": "https://www.importinfo.com/plantaciones-de-balsa-plantabal-s-a",
+    "annotation": "U.S. customs mirror of Plantabal→Baltek Inc. Sep 2026 balsa core-sheet shipments. Supports plantabal_baltek_us_coresheets_202609.",
+    "supports": [
+      "plantabal_baltek_us_coresheets_202609",
+      "hunt_res_balsa"
+    ],
+    "map_supports": [
+      "hunt_res_balsa",
+      "plantabal_baltek_us_coresheets_202609"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
