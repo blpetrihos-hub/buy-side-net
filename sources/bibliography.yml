@@ -675,3 +675,10 @@
   annotation: "PBOC central parity 1 USD = 7.1098 CNY on 2024-05-23. FX for fenb_br_vs_cn_20240523."
   supports: ["fenb_br_vs_cn_20240523"]
 
+- id: niocorp_ars_2025_fenb_argus
+  type: official
+  chicago: "NioCorp Developments Ltd. Annual Report / Form 10-K for the year ended June 30, 2025. Commodity-price table (Ferroniobium U.S. Price $/kg-Nb). SEC EDGAR accession 0001539497-26-000785."
+  url: "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf"
+  annotation: "Argus Metal Prices average annual ending FeNb65 FOB U.S. warehouse USD 46/kg-Nb for calendar 2024. Market assessment, not a CBMM invoice. Supports niocorp_argus_fenb_us_2024."
+  supports: ["niocorp_argus_fenb_us_2024", "hunt_fenb_araxa"]
+

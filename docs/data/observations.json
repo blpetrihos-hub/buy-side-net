@@ -118,10 +118,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "vanadiumprice_fenb_20240523",
-    "note": "Cycle 59 logged fenb_br_vs_cn_20240523 as UNVERIFIED proxy: VanadiumPrice 23 May 2024 Brazilian FeNb65 235–238k CNY/t vs Chinese 60-A 300–320k CNY/t (grades differ). Still no public CBMM list/invoice. Proxy does not reset dry_streak.",
-    "evidence_url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
-    "quote": "Brazilian FeNb FeNb65 235000-238000; Ferroniobium 60-A 300000-320000 CNY/Ton Cash with tax."
+    "source_id": "niocorp_ars_2025_fenb_argus",
+    "note": "Cycle 60 logged niocorp_argus_fenb_us_2024 as UNVERIFIED proxy: NioCorp FY2025 Form 10-K / AR cites Argus Metal Prices average annual ending FeNb65 FOB U.S. warehouse USD 46/kg-Nb for calendar 2024 (also lists 2023=51, 2022=46). Market assessment, not a CBMM invoice. Proxy does not reset dry_streak.",
+    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
+    "quote": "Ferroniobium U.S. Price ($/kg-Nb)(1) … 2024 $46 … Argus Metal Prices, average annual ending price, 2024. Ferroniobium 65% niobium content, FOB U.S. warehouse."
   },
   {
     "id": "hunt_ascend_chip",
@@ -1548,5 +1548,36 @@
     "note": "UNVERIFIED proxy. VanadiumPrice 23 May 2024: Brazilian FeNb65 235000–238000 CNY/Ton midpoint 236500 CNY/t (= 236.5 CNY/kg) vs Chinese 60-A 300000–320000 CNY/Ton midpoint 310000 CNY/t (= 310 CNY/kg). Spec grades differ (65 vs 60-A), so evidence=proxy and off the median. FX: PBOC central parity 1 USD = 7.1098 CNY on 2024-05-23.",
     "evidence_url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
     "quote": "Ferroniobium 60-A 300000-320000; Brazilian FeNb FeNb65 235000-238000 CNY/Ton Cash with tax."
+  },
+  {
+    "id": "niocorp_argus_fenb_us_2024",
+    "lane": "niobium",
+    "spec_class": "fenb_std",
+    "evidence": "proxy",
+    "country": "United States",
+    "buyer": "U.S. FeNb market (Argus FOB U.S. warehouse assessment)",
+    "seller_us": "Brazil/Canada exporters (Argus FeNb65 U.S. warehouse index)",
+    "seller_prc": "",
+    "city": "",
+    "lat": null,
+    "lon": null,
+    "geo_note": "No pin — Argus U.S. warehouse index reprinted in NioCorp SEC filing; not a named mill sale.",
+    "price_year": "2024",
+    "spec": "Ferroniobium 65% Nb — Argus Metal Prices average annual ending, FOB U.S. warehouse (USD/kg contained Nb)",
+    "unit": "USD/kg Nb",
+    "currency": "USD",
+    "fx_usd": 1.0,
+    "fx_date": "2024-12-31",
+    "us_price": 46.0,
+    "prc_price": null,
+    "us_price_usd": 46.0,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "allied",
+    "on_scoreboard": false,
+    "source_id": "niocorp_ars_2025_fenb_argus",
+    "note": "UNVERIFIED proxy (market assessment). NioCorp Developments Ltd. Form 10-K / annual report for year ended 30 Jun 2025 (SEC EDGAR n2574_x309-ars.pdf): commodity-price table lists Ferroniobium U.S. Price ($/kg-Nb) = $46 for calendar 2024; footnote (1) Source: Argus Metal Prices, average annual ending price, 2024; Ferroniobium 65% niobium content, FOB U.S. warehouse. Also prints 2023=$51 and 2022=$46. Not a CBMM list/invoice and not a named buyer contract. Unit is USD/kg contained Nb. CMOC AR cites Argus USD 46.46/kg Nb for 2024 (already logged under cmoc_argus_fenb_kgNb_2025 note)—same assessment family, different reprint. Off the median.",
+    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
+    "quote": "Ferroniobium U.S. Price ($/kg-Nb)(1) … 2024 $46 … (1) Source: Argus Metal Prices, average annual ending price, 2024. Ferroniobium 65% niobium content, FOB U.S. warehouse."
   }
 ]
