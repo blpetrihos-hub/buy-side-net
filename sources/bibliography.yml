@@ -633,3 +633,59 @@
   annotation: "Huawei Digital Technologies (Suzhou) wins CTG Brazil Arinos string-inverter package at USD 7,340,703.40 for ~336.826 MW_ac. Supports huawei_ctg_arinos_inv_2022. Shortlist context (Huawei vs TBEA): https://news.solarbe.com/202212/20/363300.html (already logged as seen)."
   supports: ["huawei_ctg_arinos_inv_2022", "hunt_br_power_equip"]
 
+- id: sma_diego_almagro_sur_2021
+  type: journalism
+  chicago: "SMA Solar Technology AG. “SMA receives order for large-scale project in the Atacama Desert.” Press release, 3 February 2021."
+  url: "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert"
+  annotation: "Opened for allied inverter hunt vs Huawei Arinos. Confirms 46 MVPS / Sunny Central 4600 for Colbún Diego de Almagro Sur 220 MW; no contract or USD/MW price. Documents a dry pass."
+  supports: ["hunt_cl_power_equip"]
+
+- id: cnn_siemens_terranova_2026
+  type: journalism
+  chicago: "Rodrigues, Robson. “Siemens Energy e Terranova fecham acordo de R$ 100 milhões em data centers.” CNN Brasil, 15 March 2026. Corroboration: Poliana Souto, Megawhat, 16 March 2026."
+  url: "https://www.cnnbrasil.com.br/infra/siemens-energy-e-terranova-fecham-contrato-de-100-milhoes-para-data-center/"
+  annotation: "Siemens Energy–Terranova Campinas: GIS 300 MW + two 440/34.5 kV 150 MVA transformers; contract superior a R$100 milhões (Megawhat restates R$100 milhões). Supports siemens_terranova_gis_xfmr_2026. Megawhat: https://megawhat.uol.com.br/economia-e-politica/empresas/siemens-energy-fecha-contrato-de-r-100-milhoes-para-data-centers-da-terranova/"
+  supports: ["siemens_terranova_gis_xfmr_2026", "hunt_br_power_equip"]
+
+- id: fed_h10_brl_20260316
+  type: official
+  chicago: "Board of Governors of the Federal Reserve System. “Foreign Exchange Rates — H.10.” Weekly release, 23 March 2026 (Brazil real, 16 March 2026)."
+  url: "https://www.federalreserve.gov/releases/h10/20260323/"
+  annotation: "Fed H.10 Brazil real 5.2661 per USD on 2026-03-16. FX for siemens_terranova_gis_xfmr_2026."
+  supports: ["siemens_terranova_gis_xfmr_2026"]
+
+- id: ge_vernova_transelec_sync_2024
+  type: journalism
+  chicago: "GE Vernova Inc. “GE Vernova to supply synchronous condensers equipment to help improve grid stability in Northern Chile.” Press release, 12 July 2024."
+  url: "https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability"
+  annotation: "Opened for U.S.-seller HVDC/grid-equipment hunt vs Kimal XD. Confirms Transelec Ana María + Monte Mina: four sync condensers + 220 kV GIS; no contract price. Documents a dry pass; rotates lane after dry_streak 3."
+  supports: ["hunt_cl_power_equip"]
+
+- id: vanadiumprice_fenb_20240523
+  type: journalism
+  chicago: "VanadiumPrice.com. “China Ferroniobium Market Prices On 23 May 2024.” 23 May 2024."
+  url: "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/"
+  annotation: "Same-day trade-press quotes: Brazilian FeNb65 235–238k CNY/t and Chinese 60-A 300–320k CNY/t. Spec grades differ; UNVERIFIED proxy for fenb_br_vs_cn_20240523."
+  supports: ["fenb_br_vs_cn_20240523", "hunt_fenb_araxa"]
+
+- id: pboc_cny_20240523
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 23 May 2024."
+  url: "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5359978/index.html"
+  annotation: "PBOC central parity 1 USD = 7.1098 CNY on 2024-05-23. FX for fenb_br_vs_cn_20240523."
+  supports: ["fenb_br_vs_cn_20240523"]
+
+- id: niocorp_ars_2025_fenb_argus
+  type: official
+  chicago: "NioCorp Developments Ltd. Annual Report / Form 10-K for the year ended June 30, 2025. Commodity-price table (Ferroniobium U.S. Price $/kg-Nb). SEC EDGAR accession 0001539497-26-000785."
+  url: "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf"
+  annotation: "Argus Metal Prices average annual ending FeNb65 FOB U.S. warehouse USD 46/kg-Nb for calendar 2024. Market assessment, not a CBMM invoice. Supports niocorp_argus_fenb_us_2024."
+  supports: ["niocorp_argus_fenb_us_2024", "hunt_fenb_araxa"]
+
+- id: scrapmonster_fenb_20260921
+  type: journalism
+  chicago: "ScrapMonster. “Ferroalloys Prices.” Table dated 21 September 2026 (Ferro-niobium Brazilian 66% Delivered China; Ferro-niobium 60-A EXW China). Accessed 1 October 2026."
+  url: "https://www.scrapmonster.com/metal-prices/ferroalloys"
+  annotation: "Same-day USD/MT: Brazilian FeNb 66% Delivered China 44,373.76; Chinese 60-A EXW 56,372.25. Grades/Incoterms differ; UNVERIFIED proxy for fenb_br66_vs_cn60a_20260921."
+  supports: ["fenb_br66_vs_cn60a_20260921", "hunt_fenb_araxa"]
+

@@ -1,0 +1,10 @@
+{
+  "id": "niocorp_argus_fenb_us_2024",
+  "retrieved": "2026-10-01",
+  "source_id": "niocorp_ars_2025_fenb_argus",
+  "url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
+  "price_year": "2024",
+  "evidence": "proxy",
+  "quote": "Ferroniobium U.S. Price ($/kg-Nb)(1) … 2024 $46 … (1) Source: Argus Metal Prices, average annual ending price, 2024. Ferroniobium 65% niobium content, FOB U.S. warehouse.",
+  "note": "UNVERIFIED proxy. Argus assessment reprinted in NioCorp SEC AR; not a CBMM invoice."
+}

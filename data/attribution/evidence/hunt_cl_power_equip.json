@@ -1,10 +1,10 @@
 {
   "id": "hunt_cl_power_equip",
-  "retrieved": "2026-09-30",
-  "source_id": "cen_acta_adjudicacion_2024_11_22",
-  "url": "https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf",
+  "retrieved": "2026-10-01",
+  "source_id": "ge_vernova_transelec_sync_2024",
+  "url": "https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability",
   "price_year": "2024",
   "evidence": "hunt",
-  "quote": "OA_G03 … CHANGSHU FENGFAN … 43.032.859,00",
-  "note": "Logged Fengfan G03 one-sided. Still hunting U.S.-seller unit pair."
+  "quote": "GE Vernova Inc. (NYSE: GEV) announced today that it has secured an order with Transelec Holdings Rentas Ltd… to deliver synchronous condensers and high-voltage substation for the Ana Maria and Monte Mina substation projects in Northern Chile.",
+  "note": "Dry pass. Scope confirmed (4 sync condensers + 220 kV GIS); no contract value on the GE Vernova page. Rotating to niobium after dry_streak 3."
 }
