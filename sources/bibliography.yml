@@ -310,3 +310,10 @@
   annotation: "EU imports from Brazil: USD 453,069.83 thousand / 17,330,600 kg ≈ USD 26.14/kg. Supports wits_eu_fenb_br_imp_2024."
   supports: ["wits_eu_fenb_br_imp_2024", "hunt_fenb_araxa"]
 
+- id: wits_china_fenb_br_imp_2024
+  type: official
+  chicago: "World Bank. World Integrated Trade Solution (WITS). “China Ferro-niobium imports from Brazil | 2024” (UN Comtrade, HS 720293). Accessed 1 October 2026."
+  url: "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293"
+  annotation: "China imports from Brazil: USD 1,079,629.44 thousand / 41,249,200 kg ≈ USD 26.17/kg. Supports wits_china_fenb_br_imp_2024."
+  supports: ["wits_china_fenb_br_imp_2024", "hunt_fenb_araxa"]
+

@@ -1,0 +1,10 @@
+{
+  "id": "wits_china_fenb_br_imp_2024",
+  "retrieved": "2026-10-01",
+  "source_id": "wits_china_fenb_br_imp_2024",
+  "url": "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293",
+  "price_year": "2024",
+  "evidence": "one_sided",
+  "quote": "China total imports of Ferro-niobium from Brazil was $1,079,629.44K and quantity 41,249,200 Kg.",
+  "note": "Unit value USD/kg = (1079629.44*1000)/41249200. China reporter; Brazil partner; HS 720293."
+}

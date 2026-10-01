@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
   "retrieved": "2026-10-01",
-  "source_id": "wits_fenb_br_imp_2024",
-  "url": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/720293",
+  "source_id": "wits_china_fenb_br_imp_2024",
+  "url": "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293",
   "price_year": "2024",
   "evidence": "hunt",
   "quote": "",
-  "note": "Cycle 28: EU–Brazil FeNb import unit value ~USD 26.14/kg logged. Still hunting same-grade PRC FeNb65 pair."
+  "note": "Cycle 29: China–Brazil FeNb import unit value ~USD 26.17/kg logged. Still hunting same-grade PRC FeNb65 producer quote."
 }
