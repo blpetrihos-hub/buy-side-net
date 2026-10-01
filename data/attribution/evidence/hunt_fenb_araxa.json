@@ -1,10 +1,11 @@
 {
   "id": "hunt_fenb_araxa",
-  "retrieved": "2026-09-30",
-  "source_id": "vanadiumprice_fenb_20230925",
-  "url": "https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/",
-  "price_year": "2023",
+  "retrieved": "2026-10-01",
+  "source_id": "usgs_mcs_niobium_2026",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+  "price_year": "2024",
   "evidence": "hunt",
   "quote": "",
-  "note": "One-sided FeNb65 logged. Still hunting U.S.-seller same-grade pair."
+  "note": "Cycle 26 logged USGS U.S. FeNb unit value USD 26/kg (2024). Still hunting same-grade PRC FeNb65 pair or U.S.-seller document."
 }
+

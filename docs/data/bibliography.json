@@ -419,5 +419,16 @@
     "supports": [
       "ucas_h20_ascend910b4_2025"
     ]
+  },
+  {
+    "id": "usgs_mcs_niobium_2026",
+    "type": "official",
+    "chicago": "U.S. Geological Survey. “Niobium (Columbium).” Mineral Commodity Summaries 2026. February 2026. https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf.",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+    "annotation": "U.S. ferroniobium average unit value USD 26/kg (2024) and USD 25/kg (2023), weighted average of gross-weight trade. Supports usgs_fenb_us_unit_2024. Not a named CBMM invoice.",
+    "supports": [
+      "usgs_fenb_us_unit_2024",
+      "hunt_fenb_araxa"
+    ]
   }
 ]
