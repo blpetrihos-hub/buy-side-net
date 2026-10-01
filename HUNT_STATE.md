@@ -1,12 +1,13 @@
 updated: 2026-10-01
-cycle: 51
+cycle: 52
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Chile Kimal-Lo Aguirre OR Conexión XD OR China Southern converter station EPC unit OR package price versus Hitachi OR Siemens OR GE HVDC LatAm 2021..2026
+next_query: Hitachi Energy OR Siemens Energy OR GE Vernova LatAm HVDC OR converter station award USD package OR unit 2021..2026 versus China XD Kimal
 next_row_id: hunt_cl_power_equip
-dry_streak: 1
+dry_streak: 0
 remote: present
 seen_urls:
+- http://epaper.zqrb.cn/html/2022-09/02/content_873593.htm
 - https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html
 - https://news.goalfore.cn/latest/detail/94045.html

@@ -605,3 +605,10 @@
   annotation: "Opened for U.S.-seller power-equipment hunt vs WAVE4. Confirms GE Vernova scope (230 kV GIS, five power transformers, cable, Ilha Solteira 2) for Arauco Sucuriú; no contract or unit price on the page. Documents a dry pass."
   supports: ["hunt_br_power_equip"]
 
+- id: xd_kimal_cs_sse_2022
+  type: official
+  chicago: "China XD Electric Co., Ltd. “关于全资子公司签订海外合同的公告” (Announcement 2022-039). Securities Daily / SSE disclosure, 2 September 2022."
+  url: "http://epaper.zqrb.cn/html/2022-09/02/content_873593.htm"
+  annotation: "SSE filing: Conexión Kimal–Lo Aguirre HVDC converter-station EPC — total USD 663.5739m for two ±600 kV stations; XD International share USD 425.6537m. Supports xd_kimal_lo_aguirre_cs_2022."
+  supports: ["xd_kimal_lo_aguirre_cs_2022", "hunt_cl_power_equip"]
+
