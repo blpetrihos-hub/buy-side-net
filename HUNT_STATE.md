@@ -1,140 +1,15 @@
 updated: 2026-10-01
-cycle: 61
-active_lane: ai_chips
-active_basket: usd_per_chip
-next_query: CCGP OR university award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C OR 910_4 card
-next_row_id: hunt_ascend_chip
+cycle: 0
+active_layer: infrastructure
+active_subcategory: port_ownership
+next_query: port concession OR terminal operator OR concesión portuaria OR porto concessão Latin America OR Caribe COSCO OR Hutchison OR MSC OR "terminal operator" 2021..2026
+next_row_id: hunt_infra_port_ownership
 dry_streak: 0
 remote: present
-seen_urls:
-- https://www.scrapmonster.com/metal-prices/ferroalloys
-- https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf
-- https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5359978/index.html
-- https://www.gevernova.com/news/press-releases/ge-vernova-synchronous-condenser-equipment-grid-stability
-- https://www.cnnbrasil.com.br/infra/siemens-energy-e-terranova-fecham-contrato-de-100-milhoes-para-data-center/
-- https://megawhat.uol.com.br/economia-e-politica/empresas/siemens-energy-fecha-contrato-de-r-100-milhoes-para-data-centers-da-terranova/
-- https://www.federalreserve.gov/releases/h10/20260323/
-- https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert
-- https://news.solarbe.com/202212/23/363480.html
-- https://sidof.segob.gob.mx/notas/docFuente/5762378
-- https://valor.globo.com/empresas/noticia/2023/11/09/hitachi-energy-e-taesa-se-unem-por-reforma-do-linhao-de-energia-entre-brasil-e-argentina.ghtml
-- https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system
-- http://epaper.zqrb.cn/html/2022-09/02/content_873593.htm
-- https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html
-- https://news.goalfore.cn/latest/detail/94045.html
-- https://news.goalfore.cn/latest/detail/95764.html
-- http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
-- https://news.solarbe.com/202212/20/363300.html
-- https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul
-- https://dof.gob.mx/nota_detalle.php?codigo=5745128&fecha=12%2F12%2F2024
-- https://www.bnamericas.com/en/features/crrc-wins-sao-paulo-subway-rolling-stock-auction
-- https://mtt.gob.cl/efe-adjudica-licitacion-para-la-mayor-compra-de-trenes-en-su-historia/
-- https://vanadiumprice.com/2023/09/28/china-ferroniobium-market-prices-on-28-september-2023/
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5082479/index.html
-- https://finance.yahoo.com/news/exclusive-nvidia-cuts-china-prices-033402278.html
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5360645/index.html
-- https://www.icij.org/investigations/china-capital/about-china-capital-investigation-icbc/
-- https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/
-- https://stategrid.com.br/state-grid-arremata-sistema-de-transmissao-de-ultra-alta-tensao-no-leilao-da-aneel/
-- https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/leilao-de-transmissao-termina-com-tres-lotes-arrematados-diz-aneel
-- https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/
-- https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/
-- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html
-- https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf
-- https://criticalstrategicmetals.com/minerals/niobium/price/
-- https://sidof.segob.gob.mx/notas/docFuente/5764297
-- https://cartas.coordinador.cl/download_saved_file/677f11ab356357295b2a6348
-- https://www.bnamericas.com/en/news/siemens-energy-wins-major-contract-to-revitalize-one-of-the-most-important-interconnections-in-brazil
-- https://www.globalbankingandfinance.com/siemens-energy-signs-200-million-deal-with-brazils-eletrobras-to-upgrade-transmission-line/
-- https://www.bnamericas.com/en/analysis/spotlight-the-siemens-energy-eletrobras-contracts-worth-us53mn
-- https://www.cnnbrasil.com.br/economia/negocios/siemens-energy-assina-contratos-de-r-300-mi-com-eletrobras-para-modernizar-transmissao/
-- http://www.xdcb.com.cn/info/1020/2061.htm
-- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5450684/index.html
-- https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5524809/index.html
-- https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes
-- https://www.dfc.gov/sites/default/files/media/documents/9000104743.pdf
-- https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf
-- https://pmo.gov.bb/2022/02/18/road-rehabilitation-in-the-scotland-district-in-the-works/
-- https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf
-- https://www.coordinador.cl/wp-content/uploads/2024/11/24_4-200_157-OA-Acta-de-Adjudicacion_Rev.0.pdf
-- https://paper.cnstock.com/html/2024-11/26/content_1997973.htm
-- https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm
-- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm
-- https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025100917214239675/index.html
-- https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf
-- https://vanadiumprice.com/2024/12/30/china-ferroniobium-market-prices-on-30-december-2024/
-- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5547082/index.html
-- https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/720293
-- https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293
-- https://list1.m.mysteel.com/zhishi/65ntjg.html
-- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026092909011292564/index.html
-- https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf
-- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5680920/index.html
-- http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm
-- https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025111413265770846/index.html
-- http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5809872/index.html
-- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm
-- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5707330/index.html
-- https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html
-- http://cgzx.hust.edu.cn/cgjzcg/44125.chtml
-- https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvpqt4006189.shtml
-- https://news.smm.cn/news/104094410
-- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026090309002323677/index.html
-- https://suanli.mysteel.com/a/26091516/ECB87B6FA3D4CFDF.html
-- https://www.ccgp.gov.cn/cggg/zygg/cjgg/202507/t20250709_24934882.htm
-- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5774593/index.html
-- http://www.ccgp.gov.cn/cggg/zygg/zbgg/202607/t20260715_26940829.htm
-- https://www.chinanews.com.cn/cj/2026/07-15/10659472.shtml
-- https://finance.sina.com.cn/wm/2026-03-25/doc-inhsfvzk6478059.shtml
-- https://finance.sina.com.cn/jjxw/2026-03-23/doc-inhrxrnc4279187.shtml
-- https://www.jinrongzhaobiao.com/news-35afea3c858966a1928fa9a821c63f67/
-- http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202608/t20260807_27097752.htm
-- https://www.news.cn/fortune/20260807/496cd410165147b591fd22edae5cc36f/c.html
-- https://news.smm.cn/news/104082732
-- https://finance.sina.com.cn/jjxw/2026-08-27/doc-inipthnz9030232.shtml
-- https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html
-- https://www.jwview.com/jingwei/html/09-15/688315.shtml
-- http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html
-- http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html
-- https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html
-- https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html
-- https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/
-- https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/
-- https://www.guyanastandard.com/2023/04/25/govt-presents-house-with-concessional-loan-agreement-for-us192m-phase-2-ecd-road-project/
-- https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf
-- https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/
-- https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/
-- https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
-misses:
-- 2026-10-01 | niobium | fenb_std | ScrapMonster OR Mysteel Brazilian FeNb65 OR FeNb66 delivered China USD/MT same-day versus Chinese FeNb 60-A EXW 2026 public page | Opened ScrapMonster ferroalloys 21 Sep 2026: Brazilian FeNb 66% Delivered China USD 44,373.76/MT vs Chinese 60-A EXW USD 56,372.25/MT — logged as UNVERIFIED proxy (grades/Incoterms differ). dry_streak 3 — rotating to ai_chips usd_per_chip.
-- 2026-10-01 | niobium | fenb_std | CBMM OR Anglo American OR \"ferroniobium\" FeNb65 contract OR list OR invoice USD/kg same-grade versus China FeNb65 NOT 60-A 2024..2026 public NOT paywall | Opened NioCorp FY2025 AR (SEC): Argus FeNb65 FOB U.S. warehouse USD 46/kg-Nb for 2024 — logged as UNVERIFIED proxy. Still no CBMM list/invoice or same-grade PRC FeNb65 document pair. Proxy does not reset dry_streak (now 2).
-- 2026-10-01 | niobium | fenb_std | CBMM OR \"ferroniobium\" OR FeNb65 list OR contract OR invoice USD/kg Nb OR FeNb Europe OR US OR Brazil 2024..2026 public filing NOT paywall versus China Mysteel OR SMM | Opened VanadiumPrice 23 May 2024: Brazilian FeNb65 + Chinese 60-A same day — logged as UNVERIFIED proxy (grades differ). No CBMM list/invoice. Proxy does not reset dry_streak (now 1).
-- 2026-10-01 | commanding_heights | power_equipment | Chile OR Brazil Hitachi Energy OR Siemens Energy OR GE Vernova HVDC OR converter station OR STATCOM award USD unit OR package 2021..2026 versus China XD Kimal | Opened GE Vernova (12 Jul 2024) Transelec Ana María/Monte Mina sync condensers + 220 kV GIS — no contract price. Garabi already dry. dry_streak 3 — rotating to niobium fenb_std.
-- 2026-10-01 | commanding_heights | power_equipment | Brazil Siemens Energy OR Hitachi Energy OR GE Vernova OR WEG power transformer award unit price R$ OR USD 2024..2026 versus China XD WAVE4 OR XD NE | Opened CNN/Megawhat Siemens Energy–Terranova Campinas: GIS+2×150 MVA package floor R$100m logged as one_sided allied USD/package 2026 — not same unit/year as WAVE4 USD/transformer 2025, so does not reset dry_streak (now 2).
-- 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile OR Mexico SMA OR GE OR Siemens OR Fronius utility string OR central inverter award USD OR R$ OR CLP per MW 2021..2026 versus Huawei Arinos | Opened SMA (3 Feb 2021) Diego de Almagro Sur / Colbún: 46 MVPS Sunny Central 4600 for 220 MW — no contract price. Spec also central vs Arinos string. dry_streak 1.
-- 2026-10-01 | commanding_heights | power_equipment | Mexico CompraNet OR CFE DOF transformador potencia OR inversor Siemens OR GE OR Prolec versus China OR WASION OR Huawei unit price 2021..2026 | Opened SIDOF CFE-0001-CAAAT-0054-2025 Transformadores FSUE convocatoria: schedule only, no fallo amounts or sellers on the page. dry_streak 2.
-- 2026-10-01 | commanding_heights | power_equipment | Hitachi Energy OR Siemens Energy OR GE Vernova LatAm HVDC OR converter station award USD package OR unit 2021..2026 versus China XD Kimal | Opened Hitachi Energy Garabi upgrade PR (9 Nov 2023) and Valor: MACH control refresh for Taesa; Valor explicitly “valor do contrato não foi divulgado.” Not a new converter-station EPC unit price. Kimal XD USD 331.8m/station remains one-sided. dry_streak 1.
-- 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile GE Vernova OR Hitachi Energy OR Prolec-GE UHV OR 500 kV OR 765 kV power transformer award unit price 2025 versus China XD WAVE4 | Opened Megawhat (14 Aug 2025) GE Vernova–Arauco Sucuriú: 230 kV GIS + five power transformers + cable/bay scope — no contract value or USD/transformer. WAVE4 XD ~CNY 260m/17 remains one-sided PRC. dry_streak 1.
-- 2026-10-01 | icbc_finance | all_in_rate | Guyana DPI OR Stabroek OR EXIM.gov US EXIM Bank Gas-to-Energy loan interest rate percent public terms 2024..2026 versus China Eximbank Barbados OR LatAm | Opened DPI (3 Jan 2025) + Stabroek (11 Jan 2025): U.S. EXIM Guyana Gas-to-Energy fixed 4% / 15y — logged as UNVERIFIED proxy (press/borrower remarks; EXIM.gov omits rate). Proxy does not reset dry_streak — dry_streak 3; rotating to commanding_heights power_equipment. Still no same-year PRC all-in vs this U.S. named loan.
-- 2026-10-01 | icbc_finance | all_in_rate | Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US | Opened Grenada Estimates of Revenue and Expenditure 2022 PDF: debt table lists “EXIM China- St.George's Airport Runway & Road Upgrade” CNY 461m contracted January 2017 at fixed 2%, repayment 2023–2038. Rate is real but commitment year 2017 is outside the 2021–2026 new-row window (republished outstanding only). Narrative MBIA section gives US$66m size without restating the rate. Not added as a new 2022 row. Barbados 2% 2022 remains the PRC one-sided.
-- 2026-10-01 | icbc_finance | all_in_rate | China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US | Opened Guyana DPI and Newsroom ECD Phase 2 Eximbank framework (Dec 2022): US$192m / later Nat'l Assembly presentation RMB 1,384,580,867.13 — size and concessional label only; no interest rate, tenor, or fees on opened pages. Phase I AidData 2% is 2017 commitment (outside 2021–2026 new-row window). Barbados 2% PRC one-sided remains unpaired.
-- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR ChinaMAE OR university 国产AI计算卡 Ascend 910B OR 910C OR 910_4 card award unit price 2026 versus Nvidia H20 GPU加速卡 card award | Opened Zijingshan Lab domestic compute-unit tender (ChinaMAE): 8-card+4-card systems, CNY 1.55m budget; names existing H20/V100 but no card-level H20 or Ascend 910B/910C unit price. Award mirrors redact prices. dry_streak 3 — rotating to icbc_finance all_in_rate.
-- 2026-10-01 | ai_chips | usd_per_chip | university OR CCGP award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C card | Opened SUSTech-JC-2026-00149 reprint: 2× Nvidia H100 at CNY 247,500/card — off-spec (H100 procurement, not H20; not an export-rules article). Not added as a row. No H20 card-level award opened this cycle.
-- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award | Opened Huangshan GGZY HJACG2026G096 contract (16 Sep 2026) and award (7 Sep 2026): HTML shows CloudStor 640H50 server only (CNY 2.355m; package CNY 4.748m)—no H20 card unit price. Login-walled aggregator H20 CNY 178k/card snippets not used. Still unpaired vs HUST Ascend 910_4_1.
-- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip same year 2026 versus Ascend 910_4 OR 910B OR 910C | Cycles 38–43 added card/system/proxy rows (CUPL A800; BFSU Inspur system; Huatai 910C rental; Qilu RTX A6000; SMM 910B4; Mysteel 910C) but no opened CCGP/university document with H20 unit priced as cards (not HGX 8-GPU server). HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired for scoring.
-- 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
+rotation_index: 0
+seen_urls: []
+misses: []
 
-- 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
-- 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.
-- 2026-09-30 | commanding_heights | power_equipment | CompraNet México transformador OR turbina OR inversor adjudicación 2021..2026 precio | DOF 12 Dec 2024 CFE aviso has measure-transformer package and WASION meters vs Schweitzer boards on different SKUs; no same-spec U.S.–PRC unit pair. Opened second basket rail_telecom_process.
-- 2026-09-30 | icbc_finance | all_in_rate | ICIJ China Capital ICBC Huawei London wire OR public EXIM DFC all-in loan rate Latin America | Published ICIJ pages describe the $1.3B Huawei wire (exclude) but no matched ICBC/policy-bank vs EXIM/DFC all-in rate. Leak set not searched or parsed. Rotated back to commanding_heights power_equipment.
-- 2026-09-30 | commanding_heights | power_equipment | Brazil ANEEL OR utility transformer OR HVDC award China versus ABB OR Siemens unit price 2021..2026 | State Grid Lote 1 win is RAP R$1.936bn for 800 kV HVDC concession—not a converter/transformer unit price vs ABB/Siemens.
-- 2026-09-30 | commanding_heights | power_equipment | Mexico CFE OR CompraNet transformador potencia OR HVDC Siemens OR GE versus China unit price 2022..2026 | SIDOF CFE-0001-CAAAT-0117-2024 awards excitation transformers (CTE López Mateos) to Transformadores Monterrey at MXN 50,647,935.60 — Mexican domestic; no U.S./PRC bidder or same-spec pair on the aviso.
-- 2026-09-30 | icbc_finance | all_in_rate | DFC OR EXIM Bank named Latin America loan all-in interest rate versus China EXIM OR ICBC 2021..2026 | DFC Financing Terms: interest is a negotiated Treasury+spread; LAAD Americas PIS shows $30m size with no rate. No named LatAm all-in vs PRC policy bank on opened pages.
-- 2026-09-30 | icbc_finance | all_in_rate | DFC Finance FAQs OR EXIM Bank United States named Latin America direct loan interest rate percent 2021..2026 | DFC FAQs: Direct Loan = Treasury + negotiated premium; no named LatAm numeric all-in on opened pages. Rotated to commanding_heights power_equipment.
+# Redesign reset (2026-10-01). Prior buy-side price-net hunt state (cycles 1–61)
+# is superseded. Geography: Latin America and the Caribbean only.
+# Rotation order: see BRIEF.md (18 subcategories). Seed hunt rows exist for each.

@@ -1,0 +1,317 @@
+# Machine-readable codebook for the Commanding Heights of Latin America net.
+# process/render_methods.py and process/build_site_data.py are the authorities.
+# Do not hand-edit docs/methods.html after the renderer exists.
+
+site:
+  kicker: "William & Mary · GIAS Futures Group · Team 2"
+  title: "Commanding heights of Latin America"
+  subtitle: "PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy. Descriptive net assessment only — the page does not recommend a response."
+  caption: "Toggle layers and subcategories. Side colors mark U.S., PRC, allied/other, and hunt pins. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation."
+
+method:
+  approach: net_assessment
+  comparative: true
+  diagnostic: true
+  forward_looking: true
+  timeframe_horizon: "2026–2036"
+  observation_years: "2021–2026 when that is the award, deal, or quote year"
+  voice: "Descriptive. No recommendations, no threat score, no blended cross-layer index, no sentence that says the U.S. should."
+  citations: Chicago
+  never_fabricate: true
+  never_fabricate_rule: "If you have not opened the page, the row does not exist. Press-only figures are UNVERIFIED. Leave lat/lon empty rather than guess."
+  geography: "Latin America and the Caribbean only. Every mapped observation must be located in a Latin American or Caribbean country. Rows whose country is outside the region are archived by the build script and never mapped."
+
+geography:
+  region: "Latin America and the Caribbean"
+  rule: "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped."
+  latin_america_caribbean:
+    - Argentina
+    - Belize
+    - Bolivia
+    - Brazil
+    - Chile
+    - Colombia
+    - Costa Rica
+    - Cuba
+    - Dominican Republic
+    - Ecuador
+    - El Salvador
+    - Guatemala
+    - Guyana
+    - Haiti
+    - Honduras
+    - Jamaica
+    - Mexico
+    - Nicaragua
+    - Panama
+    - Paraguay
+    - Peru
+    - Suriname
+    - Uruguay
+    - Venezuela
+    - Antigua and Barbuda
+    - Bahamas
+    - Barbados
+    - Dominica
+    - Grenada
+    - Saint Kitts and Nevis
+    - Saint Lucia
+    - Saint Vincent and the Grenadines
+    - Trinidad and Tobago
+    - Puerto Rico
+
+layers:
+  infrastructure:
+    label: Infrastructure
+    marker_shape: square
+    subcategories:
+      port_ownership:
+        label: Port ownership and concessions
+        search_hints:
+          - "port concession OR terminal operator OR porto concessão OR concesión portuaria Latin America China OR COSCO OR Hutchison OR MSC"
+      port_cranes:
+        label: Port cranes and terminal equipment
+        search_hints:
+          - "port crane OR STS crane OR grúa pórtico OR guindaste portuário ZPMC OR Shanghai Zhenhua Latin America"
+      rail:
+        label: Rail
+        search_hints:
+          - "ferrocarril OR metro OR tren OR ferrovia OR rolling stock OR locomotora CRRC OR Alstom Latin America licitación"
+      bridges_roads:
+        label: Bridges and roads
+        search_hints:
+          - "puente OR puente concesion OR rodovia OR highway concession OR EPC bridge Latin America China OR Belt and Road"
+      building_materials:
+        label: Construction and building materials
+        search_hints:
+          - "cement OR cemento OR cimento OR steel mill OR planta cemento China Latin America investment"
+      engineering_epc:
+        label: Engineering, design, and EPC firms
+        search_hints:
+          - "EPC OR ingeniería OR engenharia OR design firm OR PowerChina OR Sinopec Engineering OR Bechtel Latin America contract"
+
+  resources:
+    label: Scarce Natural Resources
+    marker_shape: circle
+    subcategories:
+      niobium:
+        label: Niobium
+        search_hints:
+          - "ferroniobium OR FeNb OR nióbio OR CBMM OR Morro dos Seis Lagos price OR offtake"
+      lithium:
+        label: Lithium
+        search_hints:
+          - "litio OR lítio OR lithium brine OR salar OR lithium mine Chile OR Argentina OR Bolivia China OR Albemarle OR SQM"
+      copper:
+        label: Copper
+        search_hints:
+          - "cobre OR copper mine OR Codelco OR Antofagasta OR China Minmetals OR Chinalco Latin America"
+      nickel:
+        label: Nickel
+        search_hints:
+          - "níquel OR nickel laterite OR Brazil OR Cuba OR Indonesia offtake Latin America China"
+      dimension_stone:
+        label: Dimension stone (granite)
+        search_hints:
+          - "granito OR granite export OR dimension stone Brazil OR China quarry Latin America"
+      balsa:
+        label: Balsa wood
+        search_hints:
+          - "balsa OR madera balsa OR Ochroma Ecuador OR China wind blade supply"
+      water:
+        label: Water
+        search_hints:
+          - "agua OR desalination OR desaladora OR aqueduct OR concesion agua Latin America China OR Bechtel"
+
+  energy:
+    label: Energy
+    marker_shape: triangle
+    subcategories:
+      fission_smr:
+        label: Small modular and other fission reactors
+        search_hints:
+          - "SMR OR small modular reactor OR reactor nuclear OR Hualong OR CAP1400 OR NuScale Latin America Argentina OR Brazil"
+      solar:
+        label: Solar
+        search_hints:
+          - "solar OR fotovoltaico OR parque solar OR inverter OR inversor Huawei OR Jinko OR First Solar Latin America"
+      wind:
+        label: Wind
+        search_hints:
+          - "eólico OR wind farm OR parque eólico OR turbine OR aerogenerador Goldwind OR Vestas Latin America"
+      power_plants_grid:
+        label: Power plants and grid
+        search_hints:
+          - "transformador OR HVDC OR UHV OR subestación OR usina térmica OR hidroeléctrica transmisión State Grid OR Siemens OR GE Vernova Latin America"
+      other_renewables:
+        label: Other renewables (geothermal, small hydro)
+        search_hints:
+          - "geothermal OR geotérmica OR small hydro OR PCH OR mini-hidro Latin America China OR U.S."
+
+sides:
+  us:
+    label: United States
+    color: "#2f5d73"
+    counts_toward: us_readouts
+  prc:
+    label: PRC
+    color: "#8c3a2b"
+    counts_toward: prc_readouts
+  allied:
+    label: Allied / other non-PRC
+    color: "#6b7c3c"
+    counts_toward: allied_readouts
+    note: "Non-U.S., non-PRC actors (e.g. EU, Japan, Brazil private). Distinct from U.S. on the map and in counts."
+  other:
+    label: Other / unknown non-PRC
+    color: "#6b7c3c"
+    counts_toward: allied_readouts
+  hunt:
+    label: Unpriced / hunt
+    color: "#8a9096"
+    counts_toward: none
+
+investment_types:
+  ownership_equity: Ownership / equity
+  concession: Concession
+  epc: EPC / construction contract
+  equipment_supply: Equipment supply
+  financing: Financing
+  offtake: Offtake
+  other: Other
+
+evidence_classes:
+  paired:
+    label: Paired
+    on_map: true
+    on_usd_sum: true
+    on_gap_readout: true
+    description: "Both sides of a matched buy-side price (or comparable disclosed values) for the same specification and year."
+  one_sided:
+    label: One-sided
+    on_map: true
+    on_usd_sum: true
+    on_gap_readout: false
+    description: "One side’s disclosed value only."
+  proxy:
+    label: Proxy
+    on_map: true
+    on_usd_sum: false
+    on_gap_readout: false
+    description: "Imperfect match, trade aggregate, market assessment, or press figure not yet confirmed by a primary document. Press-only figures are also marked UNVERIFIED in the note."
+  hunt:
+    label: Hunt
+    on_map: true
+    on_usd_sum: false
+    on_gap_readout: false
+    description: "Named search with no priced observation yet."
+  exclude:
+    label: Exclude
+    on_map: false
+    on_usd_sum: false
+    on_gap_readout: false
+    description: "Not an investment/presence observation for the net (context only)."
+  documented:
+    label: Documented
+    on_map: true
+    on_usd_sum: true
+    on_gap_readout: false
+    description: "Primary document (award, filing, parliamentary schedule) for a one-side observation."
+
+status_values:
+  active:
+    label: Active
+    on_map: true
+    on_readouts: true
+  hunt:
+    label: Hunt
+    on_map: true
+    on_readouts: false
+  archived:
+    label: Archived
+    on_map: false
+    on_readouts: false
+    description: "Rows that do not fit the three Latin America layers (legacy AI-chip and ICBC-finance baskets). Stay in the bibliography; off the map and readouts."
+
+fx_rule:
+  prefer_usd: true
+  sources: ["Fed H.10", "IMF", "named central bank (e.g. PBOC central parity)"]
+  fields: ["fx_usd", "fx_date"]
+  rule: "Prefer quotes already in USD (fx_usd=1). Otherwise convert with a public rate on the price date and store both fx_usd and fx_date. Never invent a rate."
+
+readouts:
+  layer_counts:
+    description: "Per layer: count of active (non-archived, non-exclude) observations by side (us vs prc), with n."
+    sides_compared: ["us", "prc"]
+    include_allied_separately: true
+  layer_usd:
+    description: "Per layer: sum of disclosed value_usd by side, each with n. Only evidence classes with on_usd_sum true; proxy and hunt excluded from sums."
+  country_counts:
+    description: "Per country: count of observations by side (us vs prc), with n."
+  country_usd:
+    description: "Per country: sum of disclosed value_usd by side, each with n."
+  matched_gap:
+    description: "Secondary. Where evidence=paired and both value_usd and counterpart_value_usd exist: gap = (us_side_usd − prc_side_usd) / us_side_usd using the U.S. (or allied) figure as the denominator base when side is us/allied; otherwise gap = (counterpart_value_usd − value_usd) / counterpart_value_usd when the row’s side is prc and the counterpart is us/allied. Positive means the PRC figure is lower. Display with n. Never blend across layers."
+  excluded_from_readouts:
+    - archived status
+    - exclude evidence
+    - proxy value_usd (counts may show the row; USD sums do not)
+    - hunt rows
+    - empty value_usd
+
+observation_fields:
+  - name: id
+    required: true
+    description: Lowercase snake, stable, never reused.
+  - name: layer
+    required: true
+    allowed: [infrastructure, resources, energy, archived]
+  - name: subcategory
+    required: true
+    description: Key under the layer taxonomy (or legacy basket under archived).
+  - name: side
+    required: true
+    allowed: [us, prc, allied, other]
+  - name: counterpart
+    description: Host, buyer, borrower, or named market.
+  - name: country
+    description: Host country or market country.
+  - name: asset
+    description: Asset, project, or specification under observation.
+  - name: investment_type
+    allowed: [ownership_equity, concession, epc, equipment_supply, financing, offtake, other]
+  - name: value
+    description: Disclosed figure in original currency.
+  - name: currency
+  - name: value_usd
+    description: USD conversion after the FX rule.
+  - name: fx_usd
+  - name: fx_date
+  - name: year
+    description: Award, deal, or quote year.
+  - name: status
+    allowed: [active, hunt, archived]
+  - name: lat
+  - name: lon
+  - name: geo_note
+  - name: evidence
+    allowed: [paired, one_sided, proxy, hunt, exclude, documented]
+  - name: source_id
+  - name: note
+  - name: pair_id
+    description: Optional link to a matched counterpart observation.
+  - name: counterpart_side
+  - name: counterpart_actor
+  - name: counterpart_value
+  - name: counterpart_currency
+  - name: counterpart_value_usd
+  - name: gap
+    description: Recomputed by the build script for paired rows.
+
+public_source_limits:
+  - Use procurement portals, company filings, ministry and utility notices, port-authority releases, published journalism.
+  - Search in Spanish and Portuguese as well as English.
+  - No paywalls or login walls; do not create accounts or bypass restrictions.
+  - No leaked records; no personal data (counterpart means an agency, utility, firm, or named market).
+  - One source family per hunt cycle; one commit per cycle.
+  - Never invent a value, a coordinate, an actor, or a citation.

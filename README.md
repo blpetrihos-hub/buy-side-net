@@ -1,10 +1,10 @@
-# Buy-side price net
+# Commanding heights of Latin America
 
-Matched buy-side prices: what a buyer pays on a U.S. (or allied) offer versus a PRC offer for the same specification. A lower matched PRC price is the asymmetry. Nothing here is a recommendation.
+Net assessment of PRC versus U.S. investment and presence across **Infrastructure**, **Scarce Natural Resources**, and **Energy** in Latin America and the Caribbean. Descriptive only — nothing here is a recommendation.
 
-**Live site (after Pages is enabled on `docs/`):** [https://blpetrihos-hub.github.io/buy-side-net/](https://blpetrihos-hub.github.io/buy-side-net/)
+**Live site:** [https://blpetrihos-hub.github.io/buy-side-net/](https://blpetrihos-hub.github.io/buy-side-net/)
 
-Team 2, William & Mary GIAS Futures Group (Ben Petrihos, Anna Nichols, Ryan Silien).
+Team 2, William & Mary GIAS Futures Group. Hunt instructions: `BRIEF.md`.
 
 ## Preview locally
 
@@ -23,30 +23,25 @@ From the repo root:
 ```
 python process/build_site_data.py
 python process/render_bibliography.py
+python process/render_methods.py
 ```
 
-`build_site_data.py` reads `data/codebook/observations.csv` and `data/attribution/evidence/`, recomputes `gap` and `on_scoreboard`, and writes `docs/data/dashboard.json` and `docs/data/observations.json`. The script is the scoring authority.
-
-`render_bibliography.py` writes `docs/bibliography.html` and `docs/data/bibliography.json` from `sources/bibliography.yml`. Do not hand-edit the bibliography HTML after the renderer exists.
+- `build_site_data.py` reads `data/codebook/observations.csv` + evidence JSON, enforces the LatAm/Caribbean geography rule (out-of-region → archived, never mapped), recomputes gaps, writes `docs/data/dashboard.json` and `docs/data/observations.json`.
+- `render_bibliography.py` writes `docs/bibliography.html` from `sources/bibliography.yml`.
+- `render_methods.py` writes `docs/methods.html` from `data/codebook/codebook.yml` so methods always match the code.
 
 ## Layout
 
 | Path | Role |
 | --- | --- |
-| `data/codebook/observations.csv` | Price observations |
-| `data/attribution/evidence/` | One JSON per row (URL, quote, retrieval date) |
+| `BRIEF.md` | Hunt-agent brief (successor to the buy-side brief) |
+| `data/codebook/codebook.yml` | Taxonomy, sides, evidence, FX, readout rules, geography |
+| `data/codebook/observations.csv` | Observations |
+| `data/attribution/evidence/` | One JSON per row |
 | `sources/bibliography.yml` | Chicago citations |
-| `process/build_site_data.py` | Scoreboard + map JSON |
-| `process/render_bibliography.py` | Bibliography page |
+| `process/` | Build scripts |
 | `docs/` | GitHub Pages (Leaflet map, no server) |
-| `HUNT_STATE.md` | Active lane, next query, dry streak, seen URLs |
-
-## Lanes
-
-- `commanding_heights` — power equipment awards in Latin America
-- `niobium` — FeNb and (later) Nb₃Sn wire
-- `ai_chips` — USD per chip (export Nvidia vs Ascend)
-- `icbc_finance` — public all-in rates only; never leaked ICBC records
+| `HUNT_STATE.md` | Active subcategory, next query, dry streak, seen URLs |
 
 ## Requirements
 
@@ -54,4 +49,4 @@ python process/render_bibliography.py
 pip install -r requirements.txt
 ```
 
-Python 3.10+. Only `pyyaml` is required for the two build scripts.
+Python 3.10+. Only `pyyaml` is required for the build scripts.
