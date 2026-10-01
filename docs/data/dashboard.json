@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 469,
+    "n_rows": 478,
     "counts": {
-      "total": 469,
-      "active": 414,
+      "total": 478,
+      "active": 423,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 95,
+      "proxy": 97,
       "exclude": 5,
-      "documented": 315,
-      "on_map": 411
+      "documented": 322,
+      "on_map": 420
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 17,
-        "prc": 44,
+        "us": 19,
+        "prc": 45,
         "allied": 84,
-        "n": 145
+        "n": 148
       },
       "usd": {
         "us": 715000000.0,
@@ -129,18 +129,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 33,
+        "us": 35,
         "prc": 25,
-        "allied": 90,
-        "n": 148
+        "allied": 92,
+        "n": 152
       },
       "usd": {
-        "us": 23702241670.0,
-        "us_n": 16,
+        "us": 23772241670.0,
+        "us_n": 17,
         "prc": 4166195156.0,
         "prc_n": 15,
-        "allied": 36674718653.2,
-        "allied_n": 33
+        "allied": 36701718653.2,
+        "allied_n": 34
       },
       "matched_gaps": {
         "n": 1,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 29,
-        "prc": 38,
+        "us": 30,
+        "prc": 39,
         "allied": 52,
-        "n": 119
+        "n": 121
       },
       "usd": {
         "us": 4337000000.0,
@@ -240,18 +240,18 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 23,
+        "us": 25,
         "prc": 40,
-        "allied": 92,
-        "n": 155
+        "allied": 94,
+        "n": 159
       },
       "usd": {
-        "us": 1129745000.0,
-        "us_n": 5,
+        "us": 1199745000.0,
+        "us_n": 6,
         "prc": 1252595264.55,
         "prc_n": 9,
-        "allied": 3597459384.9300003,
-        "allied_n": 17
+        "allied": 3624459384.9300003,
+        "allied_n": 18
       },
       "by_layer": {
         "energy": {
@@ -265,19 +265,19 @@
           "allied": 29
         },
         "resources": {
-          "us": 17,
+          "us": 19,
           "prc": 6,
-          "allied": 39
+          "allied": 41
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 18,
+        "us": 19,
         "prc": 15,
         "allied": 37,
-        "n": 70
+        "n": 71
       },
       "usd": {
         "us": 15321000000.0,
@@ -289,7 +289,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 8,
+          "us": 9,
           "prc": 11,
           "allied": 6
         },
@@ -309,9 +309,9 @@
       "country": "Colombia",
       "counts": {
         "us": 1,
-        "prc": 4,
+        "prc": 5,
         "allied": 6,
-        "n": 11
+        "n": 12
       },
       "usd": {
         "us": 150000000.0,
@@ -324,7 +324,7 @@
       "by_layer": {
         "energy": {
           "us": 1,
-          "prc": 2,
+          "prc": 3,
           "allied": 1
         },
         "infrastructure": {
@@ -599,9 +599,9 @@
       "country": "Mexico",
       "counts": {
         "us": 6,
-        "prc": 5,
+        "prc": 6,
         "allied": 20,
-        "n": 31
+        "n": 32
       },
       "usd": {
         "us": 245000000.0,
@@ -619,7 +619,7 @@
         },
         "infrastructure": {
           "us": 6,
-          "prc": 3,
+          "prc": 4,
           "allied": 12
         },
         "resources": {
@@ -632,10 +632,10 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 0,
+        "us": 2,
         "prc": 1,
         "allied": 2,
-        "n": 3
+        "n": 5
       },
       "usd": {
         "us": 0.0,
@@ -647,7 +647,7 @@
       },
       "by_layer": {
         "infrastructure": {
-          "us": 0,
+          "us": 2,
           "prc": 1,
           "allied": 2
         }
@@ -1125,7 +1125,16 @@
       "powerchina_francisco_juana_colombia_2026",
       "huaxin_csn_cimentos_bid_2026",
       "techint_saddn_rt_first_water_2026",
-      "brazil_mme_cnnc_smr_dialogue_2026"
+      "brazil_mme_cnnc_smr_dialogue_2026",
+      "fluence_arcelormittal_tubarao_desal_2021",
+      "ccecc_aldesa_queretaro_irapuato_2026",
+      "contourglobal_quillagua_inaug_2025",
+      "powerchina_palmira_iii_colombia_2026",
+      "ssa_mit_asc_zpmc_2024",
+      "ssa_blackstone_panama_interest_2026",
+      "cbmm_toshiba_nb_oxide_plant_planned_2025",
+      "jervois_millstreet_smp_equity_70m_2025",
+      "south_star_sprott_phase2_stream_27m"
     ],
     "hunt": [
       "hunt_br_power_equip",
