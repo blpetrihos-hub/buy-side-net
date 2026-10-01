@@ -338,3 +338,17 @@
   annotation: "Cites Argus Media ferroniobium average USD 48.68/kg Nb (2025) and USD 46.46/kg Nb (2024). Market assessment, not a CBMM invoice. Supports cmoc_argus_fenb_kgNb_2025."
   supports: ["cmoc_argus_fenb_kgNb_2025", "hunt_fenb_araxa"]
 
+- id: ccgp_ucas_h20_202504
+  type: official
+  chicago: "中国科学院大学 / 中国政府采购网. “信息技术中心智慧校园GPU算力采购项目中标公告.” 24 April 2025."
+  url: "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm"
+  annotation: "Dell XE9680 + HGX H20 8-GPU at CNY 1,195,000 each (4 units). One-sided Nvidia system price for ucas_h20_xe9680_202504."
+  supports: ["ucas_h20_xe9680_202504", "hunt_ascend_chip"]
+
+- id: pboc_cny_20250424
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 24 April 2025."
+  url: "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5680920/index.html"
+  annotation: "PBOC central parity 1 USD = 7.2098 CNY on 2025-04-24. FX for ucas_h20_xe9680_202504."
+  supports: ["ucas_h20_xe9680_202504"]
+

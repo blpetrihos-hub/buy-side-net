@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
-  "retrieved": "2026-09-30",
-  "source_id": "ccgp_ucas_h20_ascend_2025",
-  "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
+  "retrieved": "2026-10-01",
+  "source_id": "ccgp_ucas_h20_202504",
+  "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
   "price_year": "2025",
   "evidence": "hunt",
-  "quote": "NVIDIA HGX H20 8-GPU … 1288970 … 8*Ascend 910B4 … 1106500",
-  "note": "Logged H20 vs Ascend server proxy. Still hunting USD/chip same-spec pair."
+  "quote": "GPU 服务器 DELL PowerEdge XE9680 … 4 … 1195000 … NVIDIA HGX H20 8-GPU SXM 96GB",
+  "note": "Cycle 32 logged another H20 8-GPU system award (CNY 1,195,000). Still hunting document-backed same-spec USD/chip H20 vs Ascend pair."
 }

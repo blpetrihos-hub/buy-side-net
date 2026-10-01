@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_ucas_h20_ascend_2025",
-    "note": "Cycle 25 logged ucas_h20_ascend910b4_2025 as proxy (same award, H20 8-GPU server vs Ascend 910B4 8-GPU server). Still hunting document-backed same-spec USD/chip pair.",
-    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
-    "quote": "NVIDIA HGX H20 8-GPU … 1288970 … 8*Ascend 910B4 … 1106500"
+    "source_id": "ccgp_ucas_h20_202504",
+    "note": "Cycle 32 logged ucas_h20_xe9680_202504 as one_sided U.S.: Dell XE9680 + HGX H20 8-GPU at CNY 1,195,000/system (Apr 2025). Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
+    "quote": "GPU 服务器 DELL PowerEdge XE9680 … 4 … 1195000 … NVIDIA HGX H20 8-GPU SXM 96GB"
   },
   {
     "id": "hunt_icbc_rate",
@@ -990,5 +990,36 @@
     "note": "UNVERIFIED proxy (market assessment). CMOC Group Limited 2025 Annual Report (English): table “Market price of relevant products” lists Nb Ferroniobium (USD/kg of niobium) = 48.68 for 2025 and 46.46 for 2024; footnote states ferroniobium prices are from Argus Media. Narrative: “In 2025, ferroniobium averaged 48.68 USD/kg Nb.” Not a CBMM list/invoice and not a named buyer contract. Unit is USD/kg contained Nb (not gross FeNb kg). Off the median.",
     "evidence_url": "https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf",
     "quote": "Nb Ferroniobium (USD/kg of niobium) 48.68 46.46 4.78 … Ferroniobium and phosphate fertilizer prices are from Argus Media. … In 2025, ferroniobium averaged 48.68 USD/kg Nb"
+  },
+  {
+    "id": "ucas_h20_xe9680_202504",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "University of Chinese Academy of Sciences (IT Center smart-campus GPU)",
+    "seller_us": "Nvidia (Dell PowerEdge XE9680 + HGX H20 8-GPU)",
+    "seller_prc": "",
+    "city": "Beijing",
+    "lat": 40.4086,
+    "lon": 116.6808,
+    "geo_note": "Buyer Huairou campus area (Yanqi Lake), Beijing.",
+    "price_year": "2025",
+    "spec": "Dell PowerEdge XE9680 with NVIDIA HGX H20 8-GPU SXM 96GB (4 systems); system price, not per-chip",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.1387001,
+    "fx_date": "2025-04-24",
+    "us_price": 1195000.0,
+    "prc_price": null,
+    "us_price_usd": 165746.62,
+    "prc_price_usd": null,
+    "gap": null,
+    "us_side": "us",
+    "on_scoreboard": false,
+    "source_id": "ccgp_ucas_h20_202504",
+    "note": "One-sided U.S.-seller (Nvidia HGX H20) China award. CCGP 24 Apr 2025: Dell PowerEdge XE9680 with NVIDIA HGX H20 8-GPU at CNY 1,195,000 each (4 units); award also includes Dell storage/switches and software line items not used here. Unit is USD/system, not USD/chip — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.2098 CNY on 2025-04-24.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
+    "quote": "GPU 服务器 DELL PowerEdge XE9680 … 4 … 1195000 … NVIDIA HGX H20 8-GPU SXM 96GB 500W GPUs模组"
   }
 ]
