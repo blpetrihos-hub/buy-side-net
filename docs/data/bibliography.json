@@ -787,5 +787,15 @@
     "supports": [
       "hunt_ascend_chip"
     ]
+  },
+  {
+    "id": "zhiliao_sustech_h100_card_202606",
+    "type": "official",
+    "chicago": "南方科技大学. “SUSTech-JC-2026-00149 计算机系采购GPU加速器” 竞采结果公告. Reprinted by 知了标讯, 27 June 2026.",
+    "url": "https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html",
+    "annotation": "Opened for ai_chips hunt. 2× Nvidia H100 PCIe accelerators at CNY 247,500/card. Off-spec for H20/export-article H100 basket—logged as dry adjacent find only.",
+    "supports": [
+      "hunt_ascend_chip"
+    ]
   }
 ]

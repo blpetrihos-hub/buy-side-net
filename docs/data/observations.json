@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "hs_ggzy_h20_contract_20260916",
-    "note": "Cycle 44 dry: opened Huangshan GGZY contract HJACG2026G096 (http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html) and award result 2026-09-07. Official HTML lists only 运算服务器一 CloudStor 640H50 at CNY 2,355,000 (package total CNY 4,748,000 to 合肥捷诺达)—no H20 card unit price on the opened pages. Login-walled aggregator snippets claiming GPU加速卡 H20 3×CNY 178,000 not used. HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired. Still hunting document-backed H20 card-level vs Ascend 910B/910C.",
-    "evidence_url": "http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html",
-    "quote": "主要标的名称：运算服务器一 … 规格型号（或服务要求）：CloudStor 640H50 … 主要标的单价：2355000.00元 … 合同金额：4748000.00元 … 供应商（乙方）：合肥捷诺达信息科技有限公司"
+    "source_id": "zhiliao_sustech_h100_card_202606",
+    "note": "Cycle 45 dry: opened SUSTech-JC-2026-00149 reprint (https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html) — GPU加速器 2片 NVIDIA H100 at CNY 247,500/片. Off-spec for this basket (H20 or export-article H100 only; this is a plain H100 accelerator award, not an export-rules source). Not added as a row. Cycle 44 Huangshan GGZY dry remains. Still hunting H20 card-level vs Ascend 910B/910C.",
+    "evidence_url": "https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html",
+    "quote": "GPU加速器（核心货物） … 2 … 片 … 247500.0 … 品牌 NVIDIA 型号 H100"
   },
   {
     "id": "hunt_icbc_rate",
