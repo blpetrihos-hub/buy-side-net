@@ -1883,3 +1883,128 @@
   supports:
   - canadian_solar_morada_sol_br
   - hunt_energy_solar
+- id: jica_chachimbiro_20241025
+  type: official
+  chicago: 'Japan International Cooperation Agency. “Signing of Japanese ODA Loan Agreement for Ecuador:
+    … Construction of a Geothermal Power Plant.” 25 October 2024.'
+  url: https://www.jica.go.jp/english/information/press/2024/20241025_41.html
+  annotation: JICA primary ODA loan notice for Chachimbiro Phase I. Supports jica_chachimbiro_ecuador_2024.
+  supports:
+  - jica_chachimbiro_ecuador_2024
+  - hunt_energy_other_renewables
+- id: hitachi_latam_xfmr_20260309
+  type: official
+  chicago: Hitachi Energy. “Hitachi Energy reaffirms commitment to Latin America through an additional
+    $150 million USD investment to expand power transformer manufacturing capacity.” 9 March 2026.
+  url: https://www.hitachienergy.com/us/en/news-and-events/features/2026/03/hitachi-energy-reaffirms-commitment-to-latin-america-through-an-additional-150-million-usd-investment-to-expand-power-transformer-manufacturing-capacity
+  annotation: Company primary LatAm transformer capex notice. Supports hitachi_dosquebradas_colombia_2026.
+  supports:
+  - hitachi_dosquebradas_colombia_2026
+  - hunt_br_power_equip
+- id: wnn_brazil_microreactor_20251113
+  type: secondary
+  chicago: World Nuclear News. “Brazil’s microreactor project under way.” 13 November 2025.
+  url: https://www.world-nuclear-news.org/articles/brazils-microreactor-project-under-way
+  annotation: Industry press summarizing CNEN/INB microreactor program. Supports brazil_microreactor_cnen_2025.
+  supports:
+  - brazil_microreactor_cnen_2025
+  - hunt_energy_fission_smr
+- id: envision_casa_ventos_20260108
+  type: official
+  chicago: Envision Energy. “Envision Breaks into Brazil with 630MW Casa dos Ventos Project, Deploying
+    AI-Driven Wind Power at Scale.” PR Newswire, 8 January 2026.
+  url: https://www.prnewswire.com/news-releases/envision-breaks-into-brazil-with-630mw-casa-dos-ventos-project-deploying-ai-driven-wind-power-at-scale-302656544.html
+  annotation: Company primary turbine-supply announcement. Supports envision_casa_ventos_630mw_2026.
+  supports:
+  - envision_casa_ventos_630mw_2026
+  - hunt_energy_wind
+- id: siemens_efe_etcs_20251127
+  type: official
+  chicago: Siemens AG. “Siemens Mobility secures landmark contract for digitalizing rail in Chile, Latin
+    America.” 27 November 2025.
+  url: https://press.siemens.com/global/en/pressrelease/siemens-mobility-secures-landmark-contract-digitalizing-rail-chile-latin-america
+  annotation: Company primary EFE ETCS L2 award notice. Supports siemens_efe_etcs_chile_2025.
+  supports:
+  - siemens_efe_etcs_chile_2025
+  - hunt_latam_rail_telecom
+- id: brn_sustentabilidade_2024
+  type: official
+  chicago: Brazilian Nickel Limited. Relatório de Sustentabilidade 2024 (Portuguese). 2025.
+  url: https://braziliannickel.com/upload/arquivos/RS-Brazilian-Nickel-2024-PTBR.pdf
+  annotation: Company sustainability report disclosing DFC LOI for Piauí. Supports brazilian_nickel_dfc_loi_2024.
+  supports:
+  - brazilian_nickel_dfc_loi_2024
+  - hunt_res_nickel
+- id: incop_caldera_adjudicacion_20260310
+  type: official
+  chicago: 'Instituto Costarricense de Puertos del Pacífico (INCOP). “Comunicado: INCOP aprueba recomendación
+    de adjudicación para la modernización de Puerto Caldera.” 10 March 2026.'
+  url: https://incop.go.cr/noticias/aprueba-recomendacion-adjudicacion-modernizacion-puerto-caldera/
+  annotation: 'Port authority primary award-recommendation notice. Supports apm_hgt_caldera_costa_rica_2026.
+    Companion intake notice: https://incop.go.cr/noticias/se-reciben-2-ofertas-modernizacion-caldera/
+    (USD 600m estimate; names Sunset = APM Terminals + HGT).'
+  supports:
+  - apm_hgt_caldera_costa_rica_2026
+  - hunt_infra_port_ownership
+- id: gs_inima_ensenada_project
+  type: official
+  chicago: GS Inima. “Ensenada Desalination Plant.” Company project page. Accessed 1 October 2026.
+  url: https://inima.com/en/project/ensenada/
+  annotation: Company primary Ensenada desal project description. Supports gs_inima_ensenada_mexico.
+  supports:
+  - gs_inima_ensenada_mexico
+  - hunt_res_water
+- id: fcx_2q2026_ex991
+  type: official
+  chicago: Freeport-McMoRan Inc. “Earnings Release / Exhibit 99.1 — Second-Quarter 2026 Results.” U.S.
+    Securities and Exchange Commission EDGAR filing.
+  url: https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/a2q2026exhibit991.htm
+  annotation: Company SEC earnings exhibit on El Abra mill EIS. Supports fcx_el_abra_mill_chile_2026.
+  supports:
+  - fcx_el_abra_mill_chile_2026
+  - hunt_res_copper
+- id: chec_americas_projects_ruta32
+  type: official
+  chicago: CHEC Americas. “Projects” (Highway 32, Costa Rica entry). Accessed 1 October 2026.
+  url: https://www.checamerica.com/projects/
+  annotation: Company project listing for Ruta 32. Supports chec_ruta32_costa_rica. Value corroborated
+    in CONAVI Informe Ejecutivo de Obras No. 75 (Nov 2024).
+  supports:
+  - chec_ruta32_costa_rica
+  - hunt_infra_bridges_roads
+- id: konecranes_arica_20260323
+  type: official
+  chicago: Konecranes. “Chilean gateway port boosts its large-vessel capacity with two Generation 6 Konecranes
+    Gottwald ESP.10 Mobile Harbor Cranes.” 23 March 2026.
+  url: https://investors.konecranes.com/press/chilean-gateway-port-boosts-its-large-vessel-capacity-two-generation-6-konecranes-gottwald
+  annotation: Company primary MHC order notice for Arica. Supports konecranes_arica_mhc_2026.
+  supports:
+  - konecranes_arica_mhc_2026
+  - hunt_infra_port_cranes
+- id: bechtel_eimisa_20260505
+  type: official
+  chicago: Bechtel. “Bechtel and EIMISA Partner to Deliver Mining and Infrastructure Projects in Chile.”
+    5 May 2026.
+  url: https://www.bechtel.com/press-releases/bechtel-and-eimisa-partner-to-deliver-mining-and-infrastructure-projects-in-chile/
+  annotation: Company primary Chile delivery partnership notice. Supports bechtel_eimisa_chile_2026.
+  supports:
+  - bechtel_eimisa_chile_2026
+  - hunt_infra_engineering_epc
+- id: holcim_colombia_cemex_2026
+  type: official
+  chicago: Holcim. “Holcim expands in Colombia.” Media release.
+  url: https://www.holcim.com/media/media-releases/holcim-expands-in-colombia
+  annotation: Company primary Colombia Cemex-assets acquisition notice. Supports holcim_cemex_colombia_2026.
+  supports:
+  - holcim_cemex_colombia_2026
+  - hunt_infra_building_materials
+- id: pv_mag_powerchina_guayepo_20251022
+  type: secondary
+  chicago: Ini, Luis. “Powerchina completes 200 MW solar project for Enel in Colombia.” pv magazine Global,
+    22 October 2025.
+  url: https://www.pv-magazine.com/2025/10/22/powerchina-completes-200-mw-solar-project-for-enel-in-colombia/
+  annotation: Trade press on PowerChina Guayepo III EPC completion. Supports powerchina_guayepo_iii_colombia_2025
+    (UNVERIFIED capacity label).
+  supports:
+  - powerchina_guayepo_iii_colombia_2025
+  - hunt_energy_solar
