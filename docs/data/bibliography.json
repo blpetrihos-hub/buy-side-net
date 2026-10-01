@@ -746,5 +746,26 @@
     "supports": [
       "ascend910b4_smm_module_202608"
     ]
+  },
+  {
+    "id": "mysteel_ascend910c_ind_20260915",
+    "type": "journalism",
+    "chicago": "我的钢铁网 (Mysteel). “Mysteel算力：HBM 供给受限，国产主力型号提价.” 15 September 2026.",
+    "url": "https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html",
+    "annotation": "Channel note: Ascend 910C indicative above CNY 110,000/chip. UNVERIFIED proxy for ascend910c_mysteel_ind_202609.",
+    "supports": [
+      "ascend910c_mysteel_ind_202609",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "chinanews_cfets_cny_20260915",
+    "type": "journalism",
+    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 15 September 2026. Reported by China News / 中新经纬.",
+    "url": "https://www.jwview.com/jingwei/html/09-15/688315.shtml",
+    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.7670 CNY on 2026-09-15. FX for ascend910c_mysteel_ind_202609.",
+    "supports": [
+      "ascend910c_mysteel_ind_202609"
+    ]
   }
 ]
