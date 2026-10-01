@@ -87,13 +87,16 @@ body {
   }
 }
 
-/* Map hero: full width, ~85vh */
+/* Map hero: full width, ~85vh; legend sits above the map */
 .dash-map { max-width: none; margin: 0; padding: 0; }
 .map-hero {
-  position: relative;
   width: 100%;
   background: #dde4e8;
   border-bottom: 1px solid var(--line);
+}
+.map-stage {
+  position: relative;
+  width: 100%;
 }
 #map {
   width: 100%;
@@ -117,13 +120,16 @@ body {
 .map-legend-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem 1rem;
+  gap: 0.35rem 1rem;
   align-items: center;
-  padding: 0.45rem 1rem;
-  background: rgba(247, 244, 238, 0.96);
-  border-top: 1px solid var(--line);
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0.35rem 1rem;
+  background: rgba(247, 244, 238, 0.98);
+  border-bottom: 1px solid var(--line);
   font-size: 0.78rem;
   color: var(--muted);
+  line-height: 1.25;
 }
 .legend-item { display: inline-flex; align-items: center; gap: 0.3rem; }
 .legend-swatch {
