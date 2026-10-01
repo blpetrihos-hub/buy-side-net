@@ -920,5 +920,15 @@
     "supports": [
       "hunt_cl_power_equip"
     ]
+  },
+  {
+    "id": "sidof_cfe_fsue_conv_2025",
+    "type": "official",
+    "chicago": "Comisión Federal de Electricidad. Convocatoria CFE-0001-CAAAT-0054-2025, “Adquisición de Transformadores FSUE.” SIDOF / Diario Oficial family, published 8 July 2025.",
+    "url": "https://sidof.segob.gob.mx/notas/docFuente/5762378",
+    "annotation": "Opened for Mexico power-equipment hunt. Tender calendar only (fallo scheduled 8 Aug 2025); no award amounts or bidder names on this page. Documents a dry pass.",
+    "supports": [
+      "hunt_mx_power_equip"
+    ]
   }
 ]
