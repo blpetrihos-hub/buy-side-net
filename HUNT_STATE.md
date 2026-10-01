@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 43
+cycle: 44
 active_lane: ai_chips
 active_basket: usd_per_chip
-next_query: CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award
+next_query: university OR CCGP award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C card
 next_row_id: hunt_ascend_chip
-dry_streak: 0
+dry_streak: 1
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -82,7 +82,10 @@ seen_urls:
 - https://finance.sina.com.cn/jjxw/2026-08-27/doc-inipthnz9030232.shtml
 - https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html
 - https://www.jwview.com/jingwei/html/09-15/688315.shtml
+- http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html
+- http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html
 misses:
+- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award | Opened Huangshan GGZY HJACG2026G096 contract (16 Sep 2026) and award (7 Sep 2026): HTML shows CloudStor 640H50 server only (CNY 2.355m; package CNY 4.748m)—no H20 card unit price. Login-walled aggregator H20 CNY 178k/card snippets not used. Still unpaired vs HUST Ascend 910_4_1.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip same year 2026 versus Ascend 910_4 OR 910B OR 910C | Cycles 38–43 added card/system/proxy rows (CUPL A800; BFSU Inspur system; Huatai 910C rental; Qilu RTX A6000; SMM 910B4; Mysteel 910C) but no opened CCGP/university document with H20 unit priced as cards (not HGX 8-GPU server). HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired for scoring.
 - 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
 

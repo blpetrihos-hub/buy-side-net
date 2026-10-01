@@ -513,3 +513,17 @@
   url: "https://www.jwview.com/jingwei/html/09-15/688315.shtml"
   annotation: "Public reprint of CFETS/PBOC central parity 1 USD = 6.7670 CNY on 2026-09-15. FX for ascend910c_mysteel_ind_202609."
   supports: ["ascend910c_mysteel_ind_202609"]
+
+- id: hs_ggzy_h20_contract_20260916
+  type: official
+  chicago: "黄山市公共资源交易中心. “【合同公开】黄山学院大数据云计算与运维实验室设备采购项目” (HJACG2026G096). 16 September 2026."
+  url: "http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html"
+  annotation: "Opened for the ai_chips H20 card-level hunt. Official contract HTML lists CloudStor 640H50 server at CNY 2,355,000 (package CNY 4,748,000 to 合肥捷诺达). No H20 card unit price on the opened page. Documents a dry pass."
+  supports: ["hunt_ascend_chip"]
+
+- id: hs_ggzy_h20_award_20260907
+  type: official
+  chicago: "黄山市公共资源交易中心. “黄山学院大数据云计算与运维实验室设备采购项目中标结果公告” (HJACG2026G096). 7 September 2026."
+  url: "http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html"
+  annotation: "Same project award result: 合肥捷诺达; HTML main标的 shows only CloudStor 640H50 at CNY 2,355,000. PDF attachments not opened (download wall). Supports hunt_ascend_chip dry note."
+  supports: ["hunt_ascend_chip"]

@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "mysteel_ascend910c_ind_20260915",
-    "note": "Cycle 43 logged ascend910c_mysteel_ind_202609 as UNVERIFIED proxy (Mysteel Ascend 910C indicative floor ~CNY 110,000+/chip). Cycle 42 Ascend 910B4 SMM proxy, Cycle 37 H20 SMM proxy, and Cycle 36 HUST Ascend 910_4_1 document award remain — still no same-buyer/same-document H20 vs Ascend USD/chip pair. Still hunting document-backed same-calendar-year H20 card-level award versus Ascend.",
-    "evidence_url": "https://news.smm.cn/news/104094410",
-    "quote": "H20 96G八卡模组现货对外出售，报价140万元/套，折合单卡约17.5万元"
+    "source_id": "hs_ggzy_h20_contract_20260916",
+    "note": "Cycle 44 dry: opened Huangshan GGZY contract HJACG2026G096 (http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html) and award result 2026-09-07. Official HTML lists only 运算服务器一 CloudStor 640H50 at CNY 2,355,000 (package total CNY 4,748,000 to 合肥捷诺达)—no H20 card unit price on the opened pages. Login-walled aggregator snippets claiming GPU加速卡 H20 3×CNY 178,000 not used. HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired. Still hunting document-backed H20 card-level vs Ascend 910B/910C.",
+    "evidence_url": "http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html",
+    "quote": "主要标的名称：运算服务器一 … 规格型号（或服务要求）：CloudStor 640H50 … 主要标的单价：2355000.00元 … 合同金额：4748000.00元 … 供应商（乙方）：合肥捷诺达信息科技有限公司"
   },
   {
     "id": "hunt_icbc_rate",

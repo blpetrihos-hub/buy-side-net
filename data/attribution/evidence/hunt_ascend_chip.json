@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-10-01",
-  "source_id": "smm_h20_8gpu_module_20260903",
-  "url": "https://news.smm.cn/news/104094410",
+  "source_id": "hs_ggzy_h20_contract_20260916",
+  "url": "http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html",
   "price_year": "2026",
   "evidence": "hunt",
-  "quote": "H20 96G八卡模组现货对外出售，报价140万元/套，折合单卡约17.5万元",
-  "note": "Cycle 37 logged UNVERIFIED H20 ~CNY 175k/chip proxy. HUST Ascend card one-sided remains. Still hunting document-backed same-year H20 vs Ascend USD/chip pair."
+  "quote": "主要标的名称：运算服务器一 … 规格型号（或服务要求）：CloudStor 640H50 … 主要标的单价：2355000.00元 … 合同金额：4748000.00元 … 供应商（乙方）：合肥捷诺达信息科技有限公司",
+  "note": "Cycle 44 dry. Official Huangshan GGZY contract HJACG2026G096 HTML shows CloudStor 640H50 server only—no H20 GPU加速卡 unit price. Award result 2026-09-07 likewise lists only that server line. Aggregator login-wall H20 CNY 178k snippets not used. Still hunting opened H20 card-level award."
 }
