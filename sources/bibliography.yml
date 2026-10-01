@@ -640,3 +640,17 @@
   annotation: "Opened for allied inverter hunt vs Huawei Arinos. Confirms 46 MVPS / Sunny Central 4600 for Colbún Diego de Almagro Sur 220 MW; no contract or USD/MW price. Documents a dry pass."
   supports: ["hunt_cl_power_equip"]
 
+- id: cnn_siemens_terranova_2026
+  type: journalism
+  chicago: "Rodrigues, Robson. “Siemens Energy e Terranova fecham acordo de R$ 100 milhões em data centers.” CNN Brasil, 15 March 2026. Corroboration: Poliana Souto, Megawhat, 16 March 2026."
+  url: "https://www.cnnbrasil.com.br/infra/siemens-energy-e-terranova-fecham-contrato-de-100-milhoes-para-data-center/"
+  annotation: "Siemens Energy–Terranova Campinas: GIS 300 MW + two 440/34.5 kV 150 MVA transformers; contract superior a R$100 milhões (Megawhat restates R$100 milhões). Supports siemens_terranova_gis_xfmr_2026. Megawhat: https://megawhat.uol.com.br/economia-e-politica/empresas/siemens-energy-fecha-contrato-de-r-100-milhoes-para-data-centers-da-terranova/"
+  supports: ["siemens_terranova_gis_xfmr_2026", "hunt_br_power_equip"]
+
+- id: fed_h10_brl_20260316
+  type: official
+  chicago: "Board of Governors of the Federal Reserve System. “Foreign Exchange Rates — H.10.” Weekly release, 23 March 2026 (Brazil real, 16 March 2026)."
+  url: "https://www.federalreserve.gov/releases/h10/20260323/"
+  annotation: "Fed H.10 Brazil real 5.2661 per USD on 2026-03-16. FX for siemens_terranova_gis_xfmr_2026."
+  supports: ["siemens_terranova_gis_xfmr_2026"]
+
