@@ -429,3 +429,17 @@
   annotation: "PBOC central parity 1 USD = 6.7807 CNY on 2026-09-03. FX for h20_96g_smm_module_202609."
   supports: ["h20_96g_smm_module_202609"]
 
+
+- id: ccgp_cupl_a800_202507
+  type: official
+  chicago: "中国政法大学 / 中国政府采购网. “中国政法大学高性能GPU卡采购项目成交公告.” 9 July 2025."
+  url: "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202507/t20250709_24934882.htm"
+  annotation: "Nvidia A800 boards (京原nvidia a800) at CNY 165,000 each (2 cards). One-sided U.S. card price for cupl_a800_card_2025."
+  supports: ["cupl_a800_card_2025", "hunt_ascend_chip"]
+
+- id: pboc_cny_20250709
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 9 July 2025."
+  url: "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5774593/index.html"
+  annotation: "PBOC central parity 1 USD = 7.1541 CNY on 2025-07-09. FX for cupl_a800_card_2025."
+  supports: ["cupl_a800_card_2025"]
