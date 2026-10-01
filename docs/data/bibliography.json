@@ -6102,5 +6102,149 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "atlas_aetc_nuclear_graphite_20251112",
+    "type": "company",
+    "chicago": "Atlas Critical Minerals Corporation. “Atlas Critical Minerals Confirms Nuclear-Grade Quality at Its Graphite Project.” 12 November 2025.",
+    "url": "https://www.atlascriticalminerals.com/news/atlas-critical-minerals-confirms-nuclear-grade-quality-at-its-graphite-project/",
+    "annotation": "Company primary on AETC nuclear-grade purification of Malacacheta concentrate. Supports atlas_malacacheta_aetc_nuclear_2025.",
+    "supports": [
+      "atlas_malacacheta_aetc_nuclear_2025",
+      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "atlas_malacacheta_aetc_nuclear_2025",
+      "hunt_res_graphite"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "voa_elsalvador_ncmou_20250204",
+    "type": "press",
+    "chicago": "Voz de América. “¿Qué propone el acuerdo de cooperación en energía nuclear entre EEUU y El Salvador?” 4 February 2025.",
+    "url": "https://www.vozdeamerica.com/a/que-propone-acuerdo-cooperacion-nuclear-eeuu-el-salvador/7962814.html",
+    "annotation": "Spanish-language VOA report of U.S.–El Salvador NCMOU signing with State Department framing. Supports el_salvador_ncmou_20250203.",
+    "supports": [
+      "el_salvador_ncmou_20250203",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "el_salvador_ncmou_20250203",
+      "hunt_energy_fission_smr"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ge_vernova_azulao_cod_20260819",
+    "type": "company",
+    "chicago": "GE Vernova. “Eneva and GE Vernova launch operations at Azulão Power Plant to deploy firm power in complex transmission environments.” 19 August 2026.",
+    "url": "https://www.gevernova.com/news/press-releases/eneva-ge-vernova-launch-operations-azulao-power-plant-deploy-firm-power-complex",
+    "annotation": "Company primary on Azulão I COD, 295 MW SIN contract, 7HA.02 + 15-year service. Supports ge_vernova_azulao_i_cod_2026.",
+    "supports": [
+      "ge_vernova_azulao_i_cod_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "ge_vernova_azulao_i_cod_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cip_patache_fntp_20260420",
+    "type": "company",
+    "chicago": "Copenhagen Infrastructure Partners. “Copenhagen Infrastructure Partners commences construction on 1,500 MWh BESS project in Chile.” Cision, 20 April 2026.",
+    "url": "https://news.cision.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-commences-construction-on-1-500-mwh-bess-project-in-chile,c4357424",
+    "annotation": "CIP primary on Patache 300 MW / 1,500 MWh FNTP. Supports cip_patache_bess_fntp_2026.",
+    "supports": [
+      "cip_patache_bess_fntp_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "cip_patache_bess_fntp_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "stgm_fangda_mou_20250115",
+    "type": "company",
+    "chicago": "St George Mining Limited. “Steelmaking Giant signs Offtake and Development MoU with St George.” ASX release, 15 January 2025.",
+    "url": "https://stgm.com.au/pdf/d7f79c5f-b803-441c-b362-df5383058514/Steelmaking-Giant-signs-Offtake-and-Development-MoU.pdf",
+    "annotation": "ASX primary on Fangda–St George Araxá Nb offtake/development MoU. Supports fangda_st_george_araxa_mou_20250115.",
+    "supports": [
+      "fangda_st_george_araxa_mou_20250115",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "fangda_st_george_araxa_mou_20250115",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "energyx_exim_loi_20250916",
+    "type": "company",
+    "chicago": "Energy Exploration Technologies, Inc. “EnergyX Engages with Goldman Sachs, Secures $690M Investor Interest from U.S. EXIM Bank, and Announces Completion of 52,500-ton Project Black Giant™ Lithium Validation Study.” 16 September 2025.",
+    "url": "https://energyx.com/press-release/energyx-pfs-goldman-exim-project-black-giant",
+    "annotation": "Company primary on EXIM LOI USD 690m for Black Giant Chile. Supports energyx_exim_loi_690m_black_giant_2025.",
+    "supports": [
+      "energyx_exim_loi_690m_black_giant_2025",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "energyx_exim_loi_690m_black_giant_2025",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "container_news_sti_20241204",
+    "type": "press",
+    "chicago": "Container News. “San Antonio Terminal Internacional concession extended to 2030.” 4 December 2024.",
+    "url": "https://container-news.com/san-antonio-terminal-internacional-concession-extended-to-2030/",
+    "annotation": "Trade press on STI USD 66m CAPEX and concession extension to 2030. Supports sti_san_antonio_capex_66m_2024.",
+    "supports": [
+      "sti_san_antonio_capex_66m_2024",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "sti_san_antonio_capex_66m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "latercera_aguas_pacifico_20251021",
+    "type": "press",
+    "chicago": "Carrizo, Emiliano. “Aguas Pacífico otorga la licitación de la primera planta desalinizadora para la Región Valparaíso y Metropolitana a Veolia.” La Tercera (Pulso), 21 October 2025.",
+    "url": "https://www.latercera.com/pulso/noticia/aguas-pacifico-otorga-la-licitacion-de-la-primera-planta-desalinizadora-para-la-region-valparaiso-y-metropolitana-a-veolia/",
+    "annotation": "Chilean press on Aguas Pacífico USD 1.2bn desal CAPEX and Veolia O&M award. Supports aguas_pacifico_desal_capex_1p2bn_2025.",
+    "supports": [
+      "aguas_pacifico_desal_capex_1p2bn_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "aguas_pacifico_desal_capex_1p2bn_2025",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]

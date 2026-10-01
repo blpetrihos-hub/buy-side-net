@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 43
+cycle: 44
 remote: present
 active_layer: resources
-active_subcategory: graphite
-next_query: Cycle 44 shuffle_seed=20261044; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (15), niobium/fission_smr (16), then nickel/water (~17).
-next_row_id: (follow cycle-44 shuffled_order)
+active_subcategory: balsa
+next_query: Cycle 45 shuffle_seed=20261045; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (15), nickel (17), fission_smr (17), then water/niobium/graphite (~18).
+next_row_id: (follow cycle-45 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,51 +16,92 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261043
+shuffle_seed: 20261044
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- resources/nickel
+- resources/graphite
+- infrastructure/engineering_epc
+- resources/balsa
+- energy/fission_smr
+- energy/power_plants_grid
 - energy/other_renewables
+- resources/niobium
+- infrastructure/port_cranes
 - resources/lithium
 - infrastructure/rail
-- infrastructure/port_ownership
-- resources/water
-- infrastructure/building_materials
-- infrastructure/port_cranes
 - energy/wind
-- infrastructure/bridges_roads
-- energy/fission_smr
 - energy/solar
-- resources/niobium
-- resources/graphite
-- resources/balsa
-- infrastructure/engineering_epc
-- energy/power_plants_grid
 - resources/copper
+- resources/nickel
+- infrastructure/bridges_roads
+- resources/water
+- infrastructure/port_ownership
+- infrastructure/building_materials
 
 rows_found_this_cycle:
-  resources/nickel: 0
-  energy/other_renewables: 1
-  resources/lithium: 2
-  infrastructure/rail: 2
-  infrastructure/port_ownership: 0
-  resources/water: 0
-  infrastructure/building_materials: 0
-  infrastructure/port_cranes: 0
-  energy/wind: 1
-  infrastructure/bridges_roads: 0
-  energy/fission_smr: 1
-  energy/solar: 0
-  resources/niobium: 1
   resources/graphite: 1
-  resources/balsa: 0
   infrastructure/engineering_epc: 0
+  resources/balsa: 0
+  energy/fission_smr: 1
   energy/power_plants_grid: 1
+  energy/other_renewables: 1
+  resources/niobium: 1
+  infrastructure/port_cranes: 0
+  resources/lithium: 1
+  infrastructure/rail: 0
+  energy/wind: 0
+  energy/solar: 0
   resources/copper: 0
+  resources/nickel: 0
+  infrastructure/bridges_roads: 0
+  resources/water: 0
+  infrastructure/port_ownership: 1
+  infrastructure/building_materials: 0
+
+coverage_cumulative:
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 44
+  # (+ thin_topup: Aguas Pacífico desal CAPEX USD 1.2bn; paired Fangda↔REAlloys Araxá MoUs)
+  infrastructure/port_ownership: 22
+  infrastructure/port_cranes: 25
+  infrastructure/rail: 23
+  infrastructure/bridges_roads: 22
+  infrastructure/building_materials: 20
+  infrastructure/engineering_epc: 20
+  resources/niobium: 18
+  resources/lithium: 25
+  resources/copper: 20
+  resources/nickel: 17
+  resources/graphite: 18
+  resources/balsa: 15
+  resources/water: 18
+  energy/fission_smr: 17
+  energy/solar: 21
+  energy/wind: 19
+  energy/power_plants_grid: 25
+  energy/other_renewables: 27
+
+# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
+rows_by_side_this_cycle:
+  us: 5
+  prc: 1
+  allied: 1
+  other: 1
+
+# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
+# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
+# Post-pass thinnest: balsa (15), then nickel/water/fission_smr (17).
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/nickel
+  - resources/water
+  # Hit: Aguas Pacífico desal CAPEX USD 1.2bn (Patria; distinct from Veolia O&M).
+  # Miss: balsa (WITS/AIMA/Plantabal already dense); nickel (DFC/BNDES/Centaurus/Atlantic already).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 43
@@ -84,25 +125,12 @@ coverage_cumulative:
   energy/power_plants_grid: 24
   energy/other_renewables: 26
 
-# Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
-rows_by_side_this_cycle:
+# Side balance log (BRIEF Rotation §2) — cycle 43
+rows_by_side_this_cycle_cycle43:
   us: 6
   prc: 1
   allied: 5
   other: 0
-
-# Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
-# rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: balsa (14), then tie at 16 among niobium/graphite/fission_smr
-# (prefer graphite + fission among the tie per BRIEF thin push).
-thin_topup:
-  budget: 0.5_source_family_min
-  subcategories:
-  - resources/balsa
-  - resources/graphite
-  - energy/fission_smr
-  # Hits: Plantabal 2025 planting 2,951 ha; Graphcoa Boa Sorte→Urbix U.S. export.
-  # Miss: fission_smr (workshop already in shuffled pass).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 42
