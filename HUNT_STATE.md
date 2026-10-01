@@ -1,81 +1,81 @@
 updated: 2026-10-01
-cycle: 6
+cycle: 7
 remote: present
 active_layer: energy
-active_subcategory: power_plants_grid
-next_query: Cycle 7 shuffle_seed=20261007; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-7 shuffled_order)
+active_subcategory: other_renewables
+next_query: Cycle 8 shuffle_seed=20261008; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-8 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261006
+shuffle_seed: 20261007
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
+- energy/other_renewables
+- infrastructure/bridges_roads
+- resources/graphite
+- infrastructure/engineering_epc
+- infrastructure/port_ownership
+- resources/niobium
+- resources/copper
+- energy/wind
+- energy/solar
+- infrastructure/port_cranes
+- resources/water
 - energy/power_plants_grid
 - energy/fission_smr
-- energy/other_renewables
-- infrastructure/engineering_epc
-- infrastructure/port_cranes
-- resources/niobium
-- resources/lithium
-- infrastructure/port_ownership
-- resources/graphite
-- resources/balsa
-- resources/water
-- infrastructure/bridges_roads
-- resources/copper
-- infrastructure/building_materials
-- energy/solar
 - resources/nickel
+- infrastructure/building_materials
 - infrastructure/rail
-- energy/wind
+- resources/balsa
+- resources/lithium
 
 rows_found_this_cycle:
-  energy/power_plants_grid: 1
-  energy/fission_smr: 1
   energy/other_renewables: 1
-  infrastructure/engineering_epc: 1
-  infrastructure/port_cranes: 1
-  resources/niobium: 0
-  resources/lithium: 1
-  infrastructure/port_ownership: 1
-  resources/graphite: 0
-  resources/balsa: 0
-  resources/water: 1
   infrastructure/bridges_roads: 1
+  resources/graphite: 1
+  infrastructure/engineering_epc: 1
+  infrastructure/port_ownership: 1
+  resources/niobium: 0
   resources/copper: 1
-  infrastructure/building_materials: 1
+  energy/wind: 1
   energy/solar: 0
-  resources/nickel: 0
-  infrastructure/rail: 1
-  energy/wind: 0
+  infrastructure/port_cranes: 1
+  resources/water: 0
+  energy/power_plants_grid: 1
+  energy/fission_smr: 0
+  resources/nickel: 1
+  infrastructure/building_materials: 0
+  infrastructure/rail: 0
+  resources/balsa: 0
+  resources/lithium: 1
 
 coverage_cumulative:
-  # Active (non-archived, non-exclude) observation counts after cycle 6
-  infrastructure/port_ownership: 7
-  infrastructure/port_cranes: 7
+  # Active (non-archived, non-exclude) observation counts after cycle 7
+  infrastructure/port_ownership: 8
+  infrastructure/port_cranes: 8
   infrastructure/rail: 9
-  infrastructure/bridges_roads: 6
+  infrastructure/bridges_roads: 7
   infrastructure/building_materials: 6
-  infrastructure/engineering_epc: 7
+  infrastructure/engineering_epc: 8
   resources/niobium: 5
-  resources/lithium: 7
-  resources/copper: 7
-  resources/nickel: 5
-  resources/graphite: 5
+  resources/lithium: 8
+  resources/copper: 8
+  resources/nickel: 6
+  resources/graphite: 6
   resources/balsa: 7
   resources/water: 7
   energy/fission_smr: 5
   energy/solar: 8
-  energy/wind: 7
-  energy/power_plants_grid: 16
-  energy/other_renewables: 6
+  energy/wind: 8
+  energy/power_plants_grid: 17
+  energy/other_renewables: 7
 
 seen_urls:
 - https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115
@@ -175,6 +175,18 @@ seen_urls:
 - https://www.worldcement.com/the-americas/09082024/holcim-enters-perus-construction-market-with-the-acquisition-of-comacsa-and-mixercon/
 - https://www.cafmobility.com/en/press-room/caf-to-supply-metro-units-colombia-and-chile/
 
+- https://en.powerchina.cn/2025-10/28/c_829011.htm
+- https://www.checamerica.com/projects-mar-2-expressway/
+- https://appiancapitaladvisory.com/appian-announces-investment-in-urbix-inc-and-strategic-collaboration-to-develop-an-integrated-supplier-of-graphite-anode-material-for-the-rapidly-growing-north-and-south-american-lithium-ion-battery/
+- https://www.lithiumionic.com/_resources/news/nr-20241022.pdf
+- https://www.dpworld.com/en/news/usa/dpw-receives-ecuadors-longest-reaching-cranes-as-part-of-140m-usd-major-berth-expansion
+- https://www.codelco.com/sites/site/docs/20250428/20250428185356/operational_and_financial_report_september_30__2025.pdf
+- https://www.vestas.com/en/media/company-news/2025/vestas-announces-128-mw-order-in-chile-c4213693
+- https://www.konecranes.com/press-releases/konecranes-expands-presence-in-brazil-with-order-for-14-electric-rtgs-from-portonave
+- https://www.hitachienergy.com/news-and-events/press-releases/2025/06/eletrobras-extends-long-term-service-partnership-with-hitachi-energy-for-rio-madeira-hvdc-system
+- https://appiancapitaladvisory.com/portfolio/atlantic-nickel/
+- https://produccionsalta.gob.ar/saenz-inauguro-en-salta-la-primera-planta-comercial-de-produccion-de-hidroxido-de-litio-del-pais/
+
 misses:
 - 2026-10-01 | infrastructure/rail | cycle1 budget | U.S. or new PRC rail award 2021-2026 beyond existing SP metro / EFE rows | no additional sourced rail row opened in this cycle's time box (existing rows retained)
 - 2026-10-01 | resources/graphite | cycle2 budget | New graphite row (taxonomy was still mislabeled granite that cycle) | later corrected to graphite; ABIROCHAS ornamental-stone rows archived
@@ -204,6 +216,13 @@ misses:
 - 2026-10-01 | energy/solar | cycle6 budget | New solar plant/module award beyond SPIC/Atlas/Trina/Recurrent/Jinko/SMA | thick — miss
 - 2026-10-01 | resources/nickel | cycle6 budget | New Ni ownership beyond MMG / Anglo / Vale Onça Puma / Centaurus | miss
 - 2026-10-01 | energy/wind | cycle6 budget | New named-project OEM award beyond Vestas / Goldwind SPIC / Nordex | miss
+- 2026-10-01 | resources/niobium | cycle7 budget | New FeNb ownership/price beyond CBMM / CMOC | miss
+- 2026-10-01 | energy/solar | cycle7 budget | New solar award beyond existing thick set | thick — miss
+- 2026-10-01 | resources/water | cycle7 budget | New desal/water award beyond IDE/Acciona/GS Inima/Techint | miss
+- 2026-10-01 | energy/fission_smr | cycle7 budget | New SMR award beyond CAREM/INVAP/Meitner/CNNC | miss
+- 2026-10-01 | infrastructure/building_materials | cycle7 budget | New cement/aggregates beyond Huaxin/Sinoma/Holcim/Carmeuse | miss
+- 2026-10-01 | infrastructure/rail | cycle7 budget | New rolling-stock beyond CAF/Alstom/CRRC/Siemens | miss
+- 2026-10-01 | resources/balsa | cycle7 budget | New balsa trade year beyond WITS Ecuador 2022–2024 | miss
 
 # Redesign reset (2026-10-01). Geography: Latin America and the Caribbean only.
 # Shuffle rule: equal per-subcategory budgets; logged seed each cycle.
@@ -219,6 +238,9 @@ misses:
 #   port_cranes, lithium, port_ownership, water, bridges_roads, copper, building_materials, rail.
 #   Equal-budget misses: niobium, graphite, balsa, solar, nickel, wind.
 #   Thin/cycle-5 miss fills: fission_smr, other_renewables, bridges_roads, water.
+# Cycle 7 (seed 20261007): 11 sourced rows; hits on other_renewables, bridges_roads, graphite (anode JDA),
+#   engineering_epc, port_ownership, copper, wind, port_cranes, power_plants_grid, nickel, lithium.
+#   Equal-budget misses: niobium, solar, water, fission_smr, building_materials, rail, balsa.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
