@@ -3418,3 +3418,84 @@
   supports:
   - hutchison_icave_fase2_4500m_mxn_2026
   - hunt_infra_port_ownership
+- id: cidades_minerais_graphcoa_8m_20260725
+  type: trade_press
+  chicago: Luciano, Raquel. “Graphcoa aposta em investimento de US$ 8 milhões para ampliar projeto de
+    grafite em Minas Gerais.” Cidades & Minerais, 25 July 2026.
+  url: https://cidadeseminerais.com.br/mineradoras/graphcoa-investimento-grafite-minas/
+  annotation: Press interview citing Graphcoa Jordânia development spend USD 8m. Supports graphcoa_jordania_dev_8m_2026.
+  supports:
+  - graphcoa_jordania_dev_8m_2026
+  - hunt_res_graphite
+- id: bloomberg_linea_brn_canada_eca_20260617
+  type: trade_press
+  chicago: Durão, Mariana, and Annie Lee. “Brazilian Nickel busca investidor-âncora para mina de US$ 1,4
+    bilhão no Piauí.” Bloomberg Línea, 17 June 2026.
+  url: https://www.bloomberglinea.com.br/negocios/brazilian-nickel-busca-investidor-ancora-para-mina-de-us-14-bilhao-no-piaui/
+  annotation: CFO cites Canada ECA up to USD 275m debt. Supports brazilian_nickel_canada_eca_275m_2026.
+  supports:
+  - brazilian_nickel_canada_eca_275m_2026
+  - hunt_res_nickel
+- id: gestion_holcim_ves_20260327
+  type: trade_press
+  chicago: 'Gestión. “Cementera suiza Holcim y los tres proyectos en planta de VES: multinacional busca
+    aumentar su capacidad en Perú.” 27 March 2026.'
+  url: https://gestion.pe/economia/empresas/cementera-suiza-holcim-y-los-tres-proyectos-en-planta-de-ves-multinacional-busca-aumentar-su-capacidad-en-peru-noticia/
+  annotation: Press on Holcim Villa 1 ITS S/13.1m. Supports holcim_ves_villa1_its_13m_pen_2026.
+  supports:
+  - holcim_ves_villa1_its_13m_pen_2026
+  - hunt_infra_building_materials
+- id: bnamericas_jinko_aloe_20260623
+  type: trade_press
+  chicago: BNamericas. “Jinko y Aple buscan definiciones regulatorias para proyectos de almacenamiento
+    por US$640 millones en Chile.” 23 June 2026.
+  url: https://www.bnamericas.com/es/noticias/jinko-y-aple-buscan-definiciones-regulatorias-para-proyectos-de-almacenamiento-por-us640mn-en-chile
+  annotation: Trade press on Jinko Aloe BESS USD 340m. Supports jinko_aloe_bess_340m_2026.
+  supports:
+  - jinko_aloe_bess_340m_2026
+  - hunt_energy_other_renewables
+- id: pv_mag_aes_pampas_pf_20251106
+  type: trade_press
+  chicago: Ini, Luis. “AES Chile concreta financiamiento por 550 millones de dólares para su proyecto
+    Parque Híbrido Pampas.” pv magazine Latinoamérica, 6 November 2025.
+  url: https://www.pv-magazine-latam.com/2025/11/06/aes-chile-concreta-financiamiento-por-550-millones-de-dolares-para-su-proyecto-parque-hibrido-pampas/
+  annotation: Trade press on AES Pampas project finance USD 550m. Supports aes_pampas_pf_550m_2025.
+  supports:
+  - aes_pampas_pf_550m_2025
+  - hunt_energy_other_renewables
+- id: worldcargo_tcp_zpmc_sts_20260921
+  type: trade_press
+  chicago: WorldCargo News. “Katoen Natie’s Montevideo terminal bolsters STS crane fleet.” 21 September
+    2026.
+  url: https://www.worldcargonews.com/cargo-handling-equipment/2026/09/katoen-naties-montevideo-terminal-bolsters-sts-crane-fleet/
+  annotation: Trade press on ZPMC STS delivery to TCP Montevideo. Supports zpmc_tcp_montevideo_sts_2026.
+  supports:
+  - zpmc_tcp_montevideo_sts_2026
+  - hunt_infra_port_cranes
+- id: ges_pampas_company_202509
+  type: company
+  chicago: GES Global Energy Services. “GES Consolidates Its International Presence with a Hybrid Project
+    in Chile.” Company news, September 2025.
+  url: https://services-ges.com/en/ges-consolidates-its-international-presence-with-a-new-hybrid-project-in-chile/
+  annotation: Company release on GES EPC for Pampas hybrid. Supports ges_pampas_epc_2025.
+  supports:
+  - ges_pampas_epc_2025
+  - hunt_infra_engineering_epc
+- id: worldcargo_tcp_montevideo_455m
+  type: trade_press
+  chicago: WorldCargo News. “Katoen Natie’s Montevideo terminal bolsters STS crane fleet.” 21 September
+    2026.
+  url: https://www.worldcargonews.com/cargo-handling-equipment/2026/09/katoen-naties-montevideo-terminal-bolsters-sts-crane-fleet/
+  annotation: Trade press restating Katoen Natie TCP USD 455m expansion. Supports katoen_tcp_montevideo_455m_2021.
+  supports:
+  - katoen_tcp_montevideo_455m_2021
+  - hunt_infra_port_ownership
+- id: lenergy_contreras_vicuna_20260918
+  type: trade_press
+  chicago: Latin Energy Group. “Contreras hermanos se adjudicó el contrato de US$ 135 millones para construir
+    accesos viales al proyecto de cobre de Vicuña.” 18 September 2026.
+  url: https://www.lenergygroup.com/contreras-hermanos-se-adjudico-el-contrato-de-us-135-millones-para-construir-accesos-viales-al-proyecto-de-cobre-de-vicuna/
+  annotation: Press on Vicuña Corredor Norte road contract USD 135m. Supports contreras_vicuna_corredor_norte_135m_2026.
+  supports:
+  - contreras_vicuna_corredor_norte_135m_2026
+  - hunt_infra_bridges_roads
