@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 203,
+    "n_rows": 208,
     "counts": {
-      "total": 203,
-      "active": 148,
+      "total": 208,
+      "active": 153,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 27,
+      "proxy": 28,
       "exclude": 5,
-      "documented": 120,
-      "on_map": 137
+      "documented": 124,
+      "on_map": 142
     }
   },
   "layer_readouts": [
@@ -108,8 +108,8 @@
       "counts": {
         "us": 4,
         "prc": 23,
-        "allied": 26,
-        "n": 53
+        "allied": 29,
+        "n": 56
       },
       "usd": {
         "us": 0.0,
@@ -130,15 +130,15 @@
       "layer": "resources",
       "counts": {
         "us": 9,
-        "prc": 12,
-        "allied": 27,
-        "n": 48
+        "prc": 13,
+        "allied": 28,
+        "n": 50
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
-        "prc": 1236306290.0,
-        "prc_n": 6,
+        "prc": 1830442290.0,
+        "prc_n": 7,
         "allied": 12875000000.0,
         "allied_n": 8
       },
@@ -176,15 +176,15 @@
       "country": "Argentina",
       "counts": {
         "us": 2,
-        "prc": 6,
-        "allied": 7,
-        "n": 15
+        "prc": 7,
+        "allied": 8,
+        "n": 17
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 333185329.76,
-        "prc_n": 2,
+        "prc": 927321329.76,
+        "prc_n": 3,
         "allied": 4170000000.0,
         "allied_n": 3
       },
@@ -197,11 +197,11 @@
         "infrastructure": {
           "us": 0,
           "prc": 2,
-          "allied": 1
+          "allied": 2
         },
         "resources": {
           "us": 0,
-          "prc": 3,
+          "prc": 4,
           "allied": 4
         }
       }
@@ -235,8 +235,8 @@
       "counts": {
         "us": 4,
         "prc": 20,
-        "allied": 34,
-        "n": 58
+        "allied": 35,
+        "n": 59
       },
       "usd": {
         "us": 550000000.0,
@@ -260,7 +260,7 @@
         "resources": {
           "us": 3,
           "prc": 4,
-          "allied": 11
+          "allied": 12
         }
       }
     },
@@ -515,8 +515,8 @@
       "counts": {
         "us": 0,
         "prc": 2,
-        "allied": 6,
-        "n": 8
+        "allied": 7,
+        "n": 9
       },
       "usd": {
         "us": 0.0,
@@ -535,7 +535,7 @@
         "infrastructure": {
           "us": 0,
           "prc": 2,
-          "allied": 3
+          "allied": 4
         },
         "resources": {
           "us": 0,
@@ -549,8 +549,8 @@
       "counts": {
         "us": 0,
         "prc": 1,
-        "allied": 0,
-        "n": 1
+        "allied": 1,
+        "n": 2
       },
       "usd": {
         "us": 0.0,
@@ -564,7 +564,7 @@
         "infrastructure": {
           "us": 0,
           "prc": 1,
-          "allied": 0
+          "allied": 1
         }
       }
     },
@@ -750,7 +750,12 @@
       "fqm_taca_taca_argentina_2026",
       "cmoc_catalao_nb_prod_2025",
       "sany_apmt_suape_sts_rtg_2026",
-      "rio_altoandinos_enami_2025"
+      "rio_altoandinos_enami_2025",
+      "mop_panama_panamericana_oeste_2026",
+      "ifc_appian_santa_rita_fund_2025",
+      "konecranes_yucatan_progreso_2026",
+      "zijin_liex_tres_quebradas_rigi_2026",
+      "worley_diablillos_abrasilver_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
