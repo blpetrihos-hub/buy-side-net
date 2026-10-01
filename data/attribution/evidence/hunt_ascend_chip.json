@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
-  "retrieved": "2026-09-30",
-  "source_id": "ccgp_ucas_h20_ascend_2025",
-  "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
-  "price_year": "2025",
+  "retrieved": "2026-10-01",
+  "source_id": "smm_h20_8gpu_module_20260903",
+  "url": "https://news.smm.cn/news/104094410",
+  "price_year": "2026",
   "evidence": "hunt",
-  "quote": "NVIDIA HGX H20 8-GPU … 1288970 … 8*Ascend 910B4 … 1106500",
-  "note": "Logged H20 vs Ascend server proxy. Still hunting USD/chip same-spec pair."
+  "quote": "H20 96G八卡模组现货对外出售，报价140万元/套，折合单卡约17.5万元",
+  "note": "Cycle 37 logged UNVERIFIED H20 ~CNY 175k/chip proxy. HUST Ascend card one-sided remains. Still hunting document-backed same-year H20 vs Ascend USD/chip pair."
 }

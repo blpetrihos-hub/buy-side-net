@@ -505,5 +505,141 @@
       "cmoc_argus_fenb_kgNb_2025",
       "hunt_fenb_araxa"
     ]
+  },
+  {
+    "id": "ccgp_ucas_h20_202504",
+    "type": "official",
+    "chicago": "中国科学院大学 / 中国政府采购网. “信息技术中心智慧校园GPU算力采购项目中标公告.” 24 April 2025.",
+    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
+    "annotation": "Dell XE9680 + HGX H20 8-GPU at CNY 1,195,000 each (4 units). One-sided Nvidia system price for ucas_h20_xe9680_202504.",
+    "supports": [
+      "ucas_h20_xe9680_202504",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20250424",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 24 April 2025.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5680920/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.2098 CNY on 2025-04-24. FX for ucas_h20_xe9680_202504.",
+    "supports": [
+      "ucas_h20_xe9680_202504"
+    ]
+  },
+  {
+    "id": "ccgp_cip_atlas800i_2025",
+    "type": "official",
+    "chicago": "中国刑事警察学院 / 中国政府采购网. “公共算力服务中心项目一期采购项目中标公告.” 22 October 2025.",
+    "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
+    "annotation": "Huawei Atlas 800I A2 at CNY 1,320,000 (1 unit). One-sided PRC system price for cip_atlas800i_a2_2025.",
+    "supports": [
+      "cip_atlas800i_a2_2025",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20251022",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 22 October 2025.",
+    "url": "https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025111413265770846/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.0954 CNY on 2025-10-22. FX for cip_atlas800i_a2_2025.",
+    "supports": [
+      "cip_atlas800i_a2_2025"
+    ]
+  },
+  {
+    "id": "ccgp_snnu_atlas800i_2025",
+    "type": "official",
+    "chicago": "陕西师范大学 / 中国政府采购网. “数据中心基础设施建设—基础计算平台项目中标公告.” 14 August 2025.",
+    "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
+    "annotation": "Atlas 800I A2 at CNY 1,798,000 (1套) among multi-SKU award. One-sided PRC system price for snnu_atlas800i_a2_2025.",
+    "supports": [
+      "snnu_atlas800i_a2_2025",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20250814",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 14 August 2025.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5809872/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.1337 CNY on 2025-08-14. FX for snnu_atlas800i_a2_2025.",
+    "supports": [
+      "snnu_atlas800i_a2_2025"
+    ]
+  },
+  {
+    "id": "ccgp_uestc_huakun_at800_2025",
+    "type": "official",
+    "chicago": "电子科技大学 / 中国政府采购网. “算力服务器采购项目中标公告.” 12 May 2025.",
+    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
+    "annotation": "HuaKun AT800 (Model 9000) A2 at CNY 1,398,300 each (3 units). One-sided PRC-ecosystem system price for uestc_huakun_at800_a2_2025.",
+    "supports": [
+      "uestc_huakun_at800_a2_2025",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20250512",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 12 May 2025.",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5707330/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.2066 CNY on 2025-05-12. FX for uestc_huakun_at800_a2_2025.",
+    "supports": [
+      "uestc_huakun_at800_a2_2025"
+    ]
+  },
+  {
+    "id": "chinamae_hust_ascend910_2026",
+    "type": "official",
+    "chicago": "华中科技大学 / ChinaMAE reprint. “[HW20260172]华中科技大学采购国产AI计算卡项目成交结果公告.” 14 May 2026.",
+    "url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
+    "annotation": "Award CNY 899,500 for 8 Huawei Ascend 910_4_1 64G HCCS cards (CNY 112,437.50/card). One-sided PRC chip price for hust_ascend910_card_2026.",
+    "supports": [
+      "hust_ascend910_card_2026",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "hust_ascend910_solicitation_20260430",
+    "type": "official",
+    "chicago": "华中科技大学采购与招标中心. “[HW20260172]华中科技大学采购国产AI计算卡项目询比公告.” 30 April 2026.",
+    "url": "http://cgzx.hust.edu.cn/cgjzcg/44125.chtml",
+    "annotation": "Confirms buyer HUST, quantity 8 cards, ceiling CNY 112,500/card. Supports hust_ascend910_card_2026.",
+    "supports": [
+      "hust_ascend910_card_2026"
+    ]
+  },
+  {
+    "id": "sina_cfets_cny_20260514",
+    "type": "journalism",
+    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 14 May 2026. Reprinted by Sina Finance.",
+    "url": "https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvpqt4006189.shtml",
+    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.8401 CNY on 2026-05-14. FX for hust_ascend910_card_2026.",
+    "supports": [
+      "hust_ascend910_card_2026"
+    ]
+  },
+  {
+    "id": "smm_h20_8gpu_module_20260903",
+    "type": "journalism",
+    "chicago": "上海有色网 (SMM). “【SMM算力快讯】华南H20八卡模组现货报140万元/套.” 3 September 2026.",
+    "url": "https://news.smm.cn/news/104094410",
+    "annotation": "Press flash: H20 96G 8-GPU module CNY 1.40m/set (~CNY 175k/chip). UNVERIFIED proxy for h20_96g_smm_module_202609.",
+    "supports": [
+      "h20_96g_smm_module_202609",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20260903",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 3 September 2026.",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026090309002323677/index.html",
+    "annotation": "PBOC central parity 1 USD = 6.7807 CNY on 2026-09-03. FX for h20_96g_smm_module_202609.",
+    "supports": [
+      "h20_96g_smm_module_202609"
+    ]
   }
 ]
