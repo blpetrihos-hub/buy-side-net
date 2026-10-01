@@ -3570,5 +3570,95 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "holcim_pacasmayo_completion_pr_2026",
+    "type": "company",
+    "chicago": "Holcim. “Holcim completes acquisition of majority stake in Cementos Pacasmayo.” Media release, 2026.",
+    "url": "https://www.holcim.com/media/media-releases/holcim-completes-acquisition-majority-stake-cementos-pacasmayo",
+    "annotation": "Company primary on Pacasmayo majority-stake completion. Supports holcim_pacasmayo_complete_2026.",
+    "supports": [
+      "holcim_pacasmayo_complete_2026",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "holcim_pacasmayo_complete_2026",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "eramet_centenario_rigi_20261001",
+    "type": "company",
+    "chicago": "Eramet. “Eramet plans to apply under Argentina’s Large Investment Incentive Regime (RIGI) for a first expansion of Centenario-Ratones.” 1 October 2026.",
+    "url": "https://www.eramet.com/en/news/eramet-plans-to-apply-under-argentinas-large-investment-incentive-regime-rigi-for-a-first-expansion-of-centenario-ratones/",
+    "annotation": "Company primary on Centenario brownfield expansion / RIGI intent. Supports eramet_centenario_rigi_exp_2026.",
+    "supports": [
+      "eramet_centenario_rigi_exp_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "eramet_centenario_rigi_exp_2026",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "statkraft_emma_peru_20260630",
+    "type": "company",
+    "chicago": "Statkraft. “Statkraft adds first wind project to its renewable portfolio in Peru.” 30 June 2026.",
+    "url": "https://www.statkraft.com/newsroom/news-and-stories/2026/statkraft-adds-first-wind-project-to-its-renewable-portfolio-in-peru/",
+    "annotation": "Company primary on Emma 72 MW wind FID/construction in Peru. Supports statkraft_emma_peru_72mw_2026.",
+    "supports": [
+      "statkraft_emma_peru_72mw_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "statkraft_emma_peru_72mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sasac_state_grid_ne_uhv_20260706",
+    "type": "government",
+    "chicago": "China. State-owned Assets Supervision and Administration Commission. “State Grid Begins Construction on UHVDC Electricity Transmission Project in Northeast Brazil.” 6 July 2026.",
+    "url": "http://en.sasac.gov.cn/2026/07/06/c_20881.htm",
+    "annotation": "Official SASAC English notice of State Grid Brazil NE UHVDC construction start. Supports state_grid_ne_uhv_construction_2026.",
+    "supports": [
+      "state_grid_ne_uhv_construction_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "state_grid_ne_uhv_construction_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "bndes_piaui_niquel_20260713",
+    "type": "government",
+    "chicago": "Banco Nacional de Desenvolvimento Econômico e Social. “BNDES aprova R$ 100 mi para apoiar processamento de níquel no Piauí.” Agência BNDES de Notícias, 13 July 2026.",
+    "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-R$-100-mi-para-apoiar-processamento-de-niquel-no-Piaui/",
+    "annotation": "Official BNDES financing approval for Piauí Níquel Metais. Supports bndes_piaui_nickel_maq_100m_2026.",
+    "supports": [
+      "bndes_piaui_nickel_maq_100m_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "bndes_piaui_nickel_maq_100m_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
