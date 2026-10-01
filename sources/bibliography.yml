@@ -2831,3 +2831,60 @@
   supports:
   - votorantim_nobres_cuiaba_330m_2025
   - hunt_infra_building_materials
+- id: magap_aima_balsa_2025
+  type: government
+  chicago: Ministerio de Agricultura, Ganadería y Pesca (Ecuador) / AIMA. “Ecuador fortalece la cadena
+    de balsa para proteger su acceso a mercados internacionales.” 2026.
+  url: https://www.agricultura.gob.ec/ecuador-fortalece-la-cadena-de-balsa-para-proteger-su-acceso-a-mercados-internacionales/
+  annotation: Official MAGAP notice citing AIMA USD 301.3m 2025 balsa manufactures exports. Supports aima_ecuador_balsa_mfr_china_2025
+    / _us_2025 (destination shares proxy).
+  supports:
+  - aima_ecuador_balsa_mfr_china_2025
+  - aima_ecuador_balsa_mfr_us_2025
+  - hunt_res_balsa
+- id: forbes_ecuador_balsa_dest_2025
+  type: press
+  chicago: Forbes Ecuador. “La balsa ecuatoriana conquista la industria eólica mundial.” 2026.
+  url: https://www.forbes.com.ec/negocios/la-balsa-ecuatoriana-conquista-industria-eolica-mundial-n90920
+  annotation: Secondary press citing AIMA destination shares (China 72.51%, US 9.95%) for 2025 balsa manufactures.
+    Supports proxy destination splits on aima_ecuador_balsa_mfr_*_2025.
+  supports:
+  - aima_ecuador_balsa_mfr_china_2025
+  - aima_ecuador_balsa_mfr_us_2025
+  - hunt_res_balsa
+- id: argentina_lithium_lanshen_20260421
+  type: company
+  chicago: Argentina Lithium & Energy Corp. “Argentina Lithium Signs US$100 Million Heads of Terms and
+    Framework Agreement with Lanshen for Rincon West.” 21 April 2026.
+  url: https://argentinalithium.com/site/assets/files/6705/2026-04-21-lit-lanshen-framework-agrmt-v7-final.pdf
+  annotation: Company primary on non-binding Lanshen up-to-USD 100m Rincon West DLE framework. Supports
+    lanshen_argentina_lithium_rincon_west_2026.
+  supports:
+  - lanshen_argentina_lithium_rincon_west_2026
+  - hunt_res_lithium
+- id: sgq_araxa_permitting_20260825
+  type: company
+  chicago: St George Mining Limited. “Permitting Kicks Off for Rare Earths and Niobium Mine Development
+    at Araxá Project.” ASX announcement, 25 August 2026.
+  url: https://announcements.asx.com.au/asxpdf/20260825/pdf/0735mpdwg5tccv.pdf
+  annotation: ASX primary on Araxá Nb-REE permitting commencement. Supports st_george_araxa_permitting_2026.
+  supports:
+  - st_george_araxa_permitting_2026
+  - hunt_fenb_araxa
+- id: ictsi_aguadulce_zpmc_20260204
+  type: company
+  chicago: International Container Terminal Services, Inc. “Puerto Aguadulce enhances capacity, efficiency
+    with new equipment.” 4 February 2026.
+  url: https://ictsi.com/press-releases/puerto-aguadulce-enhances-capacity-efficiency-new-equipment
+  annotation: Company primary on ZPMC super post-Panamax STS delivery to Aguadulce. Supports zpmc_aguadulce_sts_2026.
+  supports:
+  - zpmc_aguadulce_sts_2026
+  - hunt_infra_port_cranes
+- id: acciona_malgarida_bess_2026
+  type: company
+  chicago: ACCIONA Energía. “ACCIONA Energía to install a 1GWh battery in the Atacama desert.” 2026.
+  url: https://www.acciona.com/updates/news/acciona-energia-install-battery-atacama-desert
+  annotation: Company primary on Malgarida 200MW/1GWh BESS. Supports acciona_malgarida_bess_1gwh_2026.
+  supports:
+  - acciona_malgarida_bess_1gwh_2026
+  - hunt_energy_other_renewables
