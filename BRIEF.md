@@ -120,9 +120,17 @@ One source family may still be used for several rows when the same opened page s
 
 ---
 
-## Rotation
+## Rotation (shuffle every cycle)
 
-Rotate across layers and subcategories so every subcategory gets visited. Order (then repeat):
+Do **not** always start with the same layer. At the start of every hunt cycle:
+
+1. Take the fixed list of 18 subcategories (below).
+2. Shuffle it with a **logged RNG seed** (record `shuffle_seed` in `HUNT_STATE.md`). Use a deterministic shuffle (e.g. Python `random.Random(seed).shuffle(list)`).
+3. Work through the shuffled order. Give each subcategory an **equal time box** in that cycle (`budget_per_subcategory` in `HUNT_STATE.md` — wall-clock or query slots; same integer for every subcategory).
+4. When a subcategory’s budget is exhausted, move to the next item in the shuffled list even if more sources remain.
+5. Record `rows_found_this_cycle` (and cumulative coverage) **per subcategory** so coverage can be checked over time. Prefer filling empty subcategories, but do not skip a subcategory’s time box.
+
+Canonical subcategory list (shuffle this; do not change membership without a codebook update):
 
 1. infrastructure / port_ownership
 2. infrastructure / port_cranes
@@ -143,9 +151,24 @@ Rotate across layers and subcategories so every subcategory gets visited. Order 
 17. energy / power_plants_grid
 18. energy / other_renewables
 
-After a dry pass: record the miss, increment `dry_streak`, advance `next_query` within the subcategory. At `dry_streak` 3, move to the next subcategory and reset `dry_streak` to 0.
+After a dry pass inside a subcategory’s time box: record the miss, then continue until the budget for that subcategory is used. Do not permanently starve a subcategory by camping on one that is yielding rows.
 
-A dry pass still writes something: a new `hunt` row, or an updated note on the existing hunt row, plus the miss line. Then commit.
+`HUNT_STATE.md` must include, each cycle:
+
+```
+shuffle_seed: <integer>
+budget_per_subcategory: <equal budget, e.g. queries or minutes>
+shuffled_order:
+- infrastructure/port_ownership
+- ...
+rows_found_this_cycle:
+  infrastructure/port_ownership: <n>
+  ...
+coverage_cumulative:
+  infrastructure/port_ownership: <n active+hunt upgrades with sources across cycles>
+  ...
+```
+
 
 ---
 
