@@ -3750,5 +3750,77 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "techint_collahuasi_impulse_20220729",
+    "type": "company",
+    "chicago": "Techint Engineering & Construction. “Minería sustentable para Collahuasi.” 29 July 2022.",
+    "url": "https://www.techint.com/es/noticias/2022/mineria-sustentable-para-collahuasi",
+    "annotation": "Company primary on Collahuasi seawater impulse EPC. Supports techint_collahuasi_c20_impulse_2022.",
+    "supports": [
+      "techint_collahuasi_c20_impulse_2022",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "techint_collahuasi_c20_impulse_2022"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "eni_black_giant_20260706",
+    "type": "company",
+    "chicago": "Eni. “Eni invests in EnergyX’s Black Giant project to develop lithium business in Chile.” 6 July 2026.",
+    "url": "https://www.eni.com/en-IT/media/press-release/2026/07/eni-invests-in-energyxs-black-giant-project-to-develop-lithium-business-in-chile.html",
+    "annotation": "Company primary on Eni 25% / USD 225m Black Giant Chile lithium stake. Supports eni_energyx_black_giant_2026.",
+    "supports": [
+      "eni_energyx_black_giant_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "eni_energyx_black_giant_2026",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "kalmar_portonave_ers_20260729",
+    "type": "company",
+    "chicago": "Kalmar Corporation. “Kalmar and Portonave to enhance cargo-handling sustainability in Brazil with large order for electric reachstackers.” Trade press release, 29 July 2026.",
+    "url": "https://www.kalmarglobal.com/news--insights/press_releases/2026/kalmar-and-portonave-to-enhance/",
+    "annotation": "Company primary on Portonave electric reachstacker order. Supports kalmar_portonave_ers_2026.",
+    "supports": [
+      "kalmar_portonave_ers_2026",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "kalmar_portonave_ers_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cnen_invap_rmb_20250919",
+    "type": "government",
+    "chicago": "Brazil. Comissão Nacional de Energia Nuclear. “CNEN e INVAP assinam contrato para o RMB.” 19 September 2025.",
+    "url": "https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/cnen-e-invap-assinam-contrato-para-o-rmb",
+    "annotation": "Official CNEN notice of INVAP MoU toward RMB EPC. Supports cnen_invap_rmb_mou_2025.",
+    "supports": [
+      "cnen_invap_rmb_mou_2025",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "cnen_invap_rmb_mou_2025",
+      "hunt_energy_fission_smr"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
