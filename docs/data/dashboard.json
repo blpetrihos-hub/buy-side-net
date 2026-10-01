@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 287,
+    "n_rows": 293,
     "counts": {
-      "total": 287,
-      "active": 232,
+      "total": 293,
+      "active": 238,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 41,
+      "proxy": 43,
       "exclude": 5,
-      "documented": 190,
-      "on_map": 221
+      "documented": 194,
+      "on_map": 227
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 5,
-        "prc": 30,
+        "prc": 31,
         "allied": 51,
-        "n": 86
+        "n": 87
       },
       "usd": {
         "us": 170000000.0,
@@ -129,16 +129,16 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 11,
-        "prc": 19,
-        "allied": 48,
-        "n": 78
+        "us": 12,
+        "prc": 21,
+        "allied": 49,
+        "n": 82
       },
       "usd": {
         "us": 2676797120.0,
         "us_n": 5,
-        "prc": 2991366706.0,
-        "prc_n": 11,
+        "prc": 3091366706.0,
+        "prc_n": 12,
         "allied": 25662950427.2,
         "allied_n": 17
       },
@@ -152,8 +152,8 @@
       "counts": {
         "us": 9,
         "prc": 27,
-        "allied": 30,
-        "n": 66
+        "allied": 31,
+        "n": 67
       },
       "usd": {
         "us": 1360000000.0,
@@ -176,15 +176,15 @@
       "country": "Argentina",
       "counts": {
         "us": 2,
-        "prc": 9,
+        "prc": 10,
         "allied": 14,
-        "n": 25
+        "n": 26
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 1282321329.76,
-        "prc_n": 5,
+        "prc": 1382321329.76,
+        "prc_n": 6,
         "allied": 15639950427.2,
         "allied_n": 7
       },
@@ -201,7 +201,7 @@
         },
         "resources": {
           "us": 0,
-          "prc": 6,
+          "prc": 7,
           "allied": 8
         }
       }
@@ -240,8 +240,8 @@
       "counts": {
         "us": 5,
         "prc": 30,
-        "allied": 62,
-        "n": 97
+        "allied": 63,
+        "n": 98
       },
       "usd": {
         "us": 550000000.0,
@@ -265,7 +265,7 @@
         "resources": {
           "us": 4,
           "prc": 5,
-          "allied": 22
+          "allied": 23
         }
       }
     },
@@ -274,8 +274,8 @@
       "counts": {
         "us": 8,
         "prc": 10,
-        "allied": 20,
-        "n": 38
+        "allied": 21,
+        "n": 39
       },
       "usd": {
         "us": 1360000000.0,
@@ -289,7 +289,7 @@
         "energy": {
           "us": 3,
           "prc": 7,
-          "allied": 2
+          "allied": 3
         },
         "infrastructure": {
           "us": 3,
@@ -307,9 +307,9 @@
       "country": "Colombia",
       "counts": {
         "us": 0,
-        "prc": 2,
+        "prc": 3,
         "allied": 4,
-        "n": 6
+        "n": 7
       },
       "usd": {
         "us": 0.0,
@@ -327,7 +327,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 3
         }
       }
@@ -417,10 +417,10 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 3,
-        "prc": 6,
+        "us": 4,
+        "prc": 7,
         "allied": 3,
-        "n": 12
+        "n": 14
       },
       "usd": {
         "us": 26797120.0,
@@ -442,8 +442,8 @@
           "allied": 1
         },
         "resources": {
-          "us": 3,
-          "prc": 3,
+          "us": 4,
+          "prc": 4,
           "allied": 1
         }
       }
@@ -897,7 +897,13 @@
       "tisur_matarani_adenda_700m_2025",
       "anda_ilopango_china_water_2026",
       "powerchina_coca_codo_om_2026",
-      "votorantim_nobres_cuiaba_330m_2025"
+      "votorantim_nobres_cuiaba_330m_2025",
+      "aima_ecuador_balsa_mfr_china_2025",
+      "aima_ecuador_balsa_mfr_us_2025",
+      "lanshen_argentina_lithium_rincon_west_2026",
+      "st_george_araxa_permitting_2026",
+      "zpmc_aguadulce_sts_2026",
+      "acciona_malgarida_bess_1gwh_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
