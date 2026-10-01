@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 46
+cycle: 47
 remote: present
-active_layer: energy
-active_subcategory: fission_smr
-next_query: Cycle 47 shuffle_seed=20261047; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: balsa (16), niobium (17), nickel/water (~18), fission_smr (~19).
-next_row_id: (follow cycle-47 shuffled_order)
+active_layer: resources
+active_subcategory: niobium
+next_query: Cycle 48 shuffle_seed=20261048; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: niobium (17), balsa (17), nickel/water/fission_smr (~19).
+next_row_id: (follow cycle-48 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,69 +16,69 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261046
+shuffle_seed: 20261047
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- resources/graphite
-- energy/other_renewables
-- energy/fission_smr
-- resources/niobium
-- energy/solar
-- infrastructure/rail
-- resources/lithium
-- infrastructure/building_materials
-- infrastructure/port_ownership
-- infrastructure/port_cranes
-- energy/wind
 - resources/water
+- resources/lithium
 - resources/balsa
-- resources/copper
-- resources/nickel
+- infrastructure/rail
 - infrastructure/engineering_epc
+- resources/copper
 - energy/power_plants_grid
+- infrastructure/port_cranes
+- resources/nickel
+- energy/wind
+- resources/graphite
+- energy/fission_smr
 - infrastructure/bridges_roads
+- energy/other_renewables
+- resources/niobium
+- infrastructure/port_ownership
+- energy/solar
+- infrastructure/building_materials
 
 rows_found_this_cycle:
-  resources/graphite: 1
-  energy/other_renewables: 1
-  energy/fission_smr: 0
-  resources/niobium: 0
-  energy/solar: 1
-  infrastructure/rail: 0
-  resources/lithium: 1
-  infrastructure/building_materials: 0
-  infrastructure/port_ownership: 1
-  infrastructure/port_cranes: 1
-  energy/wind: 0
-  resources/water: 0
+  resources/water: 1
+  resources/lithium: 0
   resources/balsa: 1
+  infrastructure/rail: 1
+  infrastructure/engineering_epc: 1
   resources/copper: 0
-  resources/nickel: 1
-  infrastructure/engineering_epc: 0
   energy/power_plants_grid: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 1
+  energy/wind: 0
+  resources/graphite: 0
+  energy/fission_smr: 0
   infrastructure/bridges_roads: 0
+  energy/other_renewables: 0
+  resources/niobium: 0
+  infrastructure/port_ownership: 0
+  energy/solar: 0
+  infrastructure/building_materials: 0
 
 coverage_cumulative:
-  # Active+hunt (non-archived, non-exclude) observation counts after cycle 46
-  # (+ thin_topup: Brazil–Rosatom SMR engagement; ContourGlobal Oasis / SSA Manzanillo+Isla Palma /
-  #   Westwin offtake / BALTEK FSC / Graphcoa Boa Sorte expand / COX Ecuador / PPG Stage 1)
+  # Active+hunt (non-archived, non-exclude) observation counts after cycle 47
+  # (+ thin_topup misses on niobium/balsa/building; equal-pass: Newmont Yanacocha /
+  #   Plantabal revenue / Wabtec MRS+Contagem / Jervois CRMA)
   infrastructure/port_ownership: 24
   infrastructure/port_cranes: 26
-  infrastructure/rail: 23
+  infrastructure/rail: 24
   infrastructure/bridges_roads: 22
   infrastructure/building_materials: 20
-  infrastructure/engineering_epc: 20
+  infrastructure/engineering_epc: 21
   resources/niobium: 17
   resources/lithium: 26
   resources/copper: 20
-  resources/nickel: 18
+  resources/nickel: 19
   resources/graphite: 20
-  resources/balsa: 16
-  resources/water: 18
+  resources/balsa: 17
+  resources/water: 19
   energy/fission_smr: 19
   energy/solar: 22
   energy/wind: 20
@@ -89,20 +89,19 @@ coverage_cumulative:
 rows_by_side_this_cycle:
   us: 4
   prc: 0
-  allied: 4
-  other: 1
+  allied: 1
+  other: 0
 
 # Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
 # rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest: balsa (16), niobium (17), nickel (18) — fission also thin; top-up hit fission.
+# Post-pass thinnest: niobium (17), balsa (17), building_materials (20).
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
-  - resources/balsa
   - resources/niobium
-  - energy/fission_smr
-  # Hit: Brazil–Rosatom SMR engagement (other).
-  # Miss: balsa (FSC MIX already equal-pass); niobium (Codemig/CBMM dense).
+  - resources/balsa
+  - infrastructure/building_materials
+  # Miss: all three (already dense or equal-pass hit for balsa).
 
 coverage_cumulative:
   # Active+hunt (non-archived, non-exclude) observation counts after cycle 44
