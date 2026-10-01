@@ -4314,3 +4314,57 @@
   supports:
   - ustda_lac_nuclear_delegation_2026
   - hunt_energy_fission_smr
+- id: aiib_aqua_chile_20250319
+  type: government
+  chicago: Asian Infrastructure Investment Bank. “AIIB Approves First Investment in Chile to Support Climate-Resilient
+    Water Infrastructure.” 19 March 2025.
+  url: https://www.aiib.org/en/news-events/news/2025/aiib-approves-first-investment-chile-support-climate-resilient-water-infrastructure.html
+  annotation: AIIB primary on USD 10m Aguas Pacífico equity co-investment. Supports aiib_aguas_pacifico_equity_10m_2025.
+  supports:
+  - aiib_aguas_pacifico_equity_10m_2025
+  - hunt_res_water
+- id: dfc_piaui_ips_2026
+  type: government
+  chicago: U.S. International Development Finance Corporation. “Initial Project Summary – Piauí Nickel
+    Project.” 2026.
+  url: https://www.dfc.gov/sites/default/files/esia/2026/piauinickel/02_Initial%20Project%20Summary_Piaui_508.pdf
+  annotation: DFC primary IPS on Piauí Nickel follow-on investment / Feb 2026 layout. Supports dfc_piaui_nickel_esia_followon_2026.
+  supports:
+  - dfc_piaui_nickel_esia_followon_2026
+  - hunt_res_nickel
+- id: globalcement_nobsa_20250710
+  type: press
+  chicago: Global Cement. “Holcim Colombia upgrades Nobsa cement plant’s co-processing platform.” 10 July
+    2025.
+  url: https://globalcement.com/news/19611-holcim-colombia-upgrades-nobsa-cement-plant-s-co-processing-platform
+  annotation: Trade press on Holcim Colombia USD 2m Nobsa Geocycle upgrade. Supports holcim_geocycle_nobsa_2m_2025.
+  supports:
+  - holcim_geocycle_nobsa_2m_2025
+  - hunt_infra_building_materials
+- id: kbr_pampa_ammonia_20260720
+  type: company
+  chicago: KBR. “KBR Ammonia Technology Selected by Pampa Energía for its Facility in Argentina.” 20 July
+    2026.
+  url: https://www.kbr.com/en/insights-news/press-release/kbr-ammonia-technology-selected-pampa-energia-its-facility-argentina
+  annotation: Company primary on Purifier license/BED for 3,430 tpd Bahía Blanca ammonia. Supports kbr_pampa_bahia_blanca_ammonia_2026.
+  supports:
+  - kbr_pampa_bahia_blanca_ammonia_2026
+  - hunt_infra_engineering_epc
+- id: encuentra_guritbalsaflex_2025
+  type: government
+  chicago: Encuentra.ec (SRI registry extract). “Guritbalsaflex Cia. Ltda. · RUC 0992500670001.” Accessed
+    1 October 2026.
+  url: https://encuentra.ec/empresa/guritbalsaflex-cia-ltda-0992500670001/
+  annotation: Ecuador company-registry fiche confirming open Quevedo Balsaflex plant. Supports gurit_balsaflex_quevedo_presence.
+  supports:
+  - gurit_balsaflex_quevedo_presence
+  - hunt_res_balsa
+- id: dfc_yilport_bolivar_20230505
+  type: government
+  chicago: U.S. International Development Finance Corporation. “DFC Commits $150 Million to Yilport Terminal
+    to Expand and Upgrade Port Infrastructure in Ecuador.” 5 May 2023.
+  url: https://www.dfc.gov/media/press-releases/dfc-commits-150-million-yilport-terminal-expand-and-upgrade-port
+  annotation: DFC primary on USD 150m Puerto Bolívar expansion loan. Supports dfc_yilport_puerto_bolivar_150m_2023.
+  supports:
+  - dfc_yilport_puerto_bolivar_150m_2023
+  - hunt_infra_port_ownership
