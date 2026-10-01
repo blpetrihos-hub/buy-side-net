@@ -1,12 +1,14 @@
 updated: 2026-10-01
-cycle: 52
+cycle: 53
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Hitachi Energy OR Siemens Energy OR GE Vernova LatAm HVDC OR converter station award USD package OR unit 2021..2026 versus China XD Kimal
-next_row_id: hunt_cl_power_equip
-dry_streak: 0
+next_query: Mexico CompraNet OR CFE DOF transformador potencia OR inversor Siemens OR GE OR Prolec versus China OR WASION OR Huawei unit price 2021..2026
+next_row_id: hunt_mx_power_equip
+dry_streak: 1
 remote: present
 seen_urls:
+- https://valor.globo.com/empresas/noticia/2023/11/09/hitachi-energy-e-taesa-se-unem-por-reforma-do-linhao-de-energia-entre-brasil-e-argentina.ghtml
+- https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system
 - http://epaper.zqrb.cn/html/2022-09/02/content_873593.htm
 - https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html
@@ -99,6 +101,7 @@ seen_urls:
 - https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/
 - https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
 misses:
+- 2026-10-01 | commanding_heights | power_equipment | Hitachi Energy OR Siemens Energy OR GE Vernova LatAm HVDC OR converter station award USD package OR unit 2021..2026 versus China XD Kimal | Opened Hitachi Energy Garabi upgrade PR (9 Nov 2023) and Valor: MACH control refresh for Taesa; Valor explicitly “valor do contrato não foi divulgado.” Not a new converter-station EPC unit price. Kimal XD USD 331.8m/station remains one-sided. dry_streak 1.
 - 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile GE Vernova OR Hitachi Energy OR Prolec-GE UHV OR 500 kV OR 765 kV power transformer award unit price 2025 versus China XD WAVE4 | Opened Megawhat (14 Aug 2025) GE Vernova–Arauco Sucuriú: 230 kV GIS + five power transformers + cable/bay scope — no contract value or USD/transformer. WAVE4 XD ~CNY 260m/17 remains one-sided PRC. dry_streak 1.
 - 2026-10-01 | icbc_finance | all_in_rate | Guyana DPI OR Stabroek OR EXIM.gov US EXIM Bank Gas-to-Energy loan interest rate percent public terms 2024..2026 versus China Eximbank Barbados OR LatAm | Opened DPI (3 Jan 2025) + Stabroek (11 Jan 2025): U.S. EXIM Guyana Gas-to-Energy fixed 4% / 15y — logged as UNVERIFIED proxy (press/borrower remarks; EXIM.gov omits rate). Proxy does not reset dry_streak — dry_streak 3; rotating to commanding_heights power_equipment. Still no same-year PRC all-in vs this U.S. named loan.
 - 2026-10-01 | icbc_finance | all_in_rate | Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US | Opened Grenada Estimates of Revenue and Expenditure 2022 PDF: debt table lists “EXIM China- St.George's Airport Runway & Road Upgrade” CNY 461m contracted January 2017 at fixed 2%, repayment 2023–2038. Rate is real but commitment year 2017 is outside the 2021–2026 new-row window (republished outstanding only). Narrative MBIA section gives US$66m size without restating the rate. Not added as a new 2022 row. Barbados 2% 2022 remains the PRC one-sided.

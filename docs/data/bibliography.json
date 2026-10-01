@@ -910,5 +910,15 @@
       "xd_kimal_lo_aguirre_cs_2022",
       "hunt_cl_power_equip"
     ]
+  },
+  {
+    "id": "hitachi_garabi_hvdc_2023",
+    "type": "journalism",
+    "chicago": "Hitachi Energy. “Hitachi Energy wins order to upgrade world-record high-voltage direct current transmission system.” Press release, 9 November 2023. Corroboration: Robson Rodrigues, “Hitachi Energy e Taesa se unem por reforma do linhão…,” Valor Econômico, 9 November 2023.",
+    "url": "https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system",
+    "annotation": "Opened for allied/U.S.-adjacent HVDC hunt vs Kimal XD. Confirms Garabi back-to-back upgrade scope (MACH control); Valor states contract value not disclosed. Documents a dry pass. Valor URL: https://valor.globo.com/empresas/noticia/2023/11/09/hitachi-energy-e-taesa-se-unem-por-reforma-do-linhao-de-energia-entre-brasil-e-argentina.ghtml",
+    "supports": [
+      "hunt_cl_power_equip"
+    ]
   }
 ]
