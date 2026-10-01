@@ -1,10 +1,10 @@
 {
   "id": "hunt_fenb_araxa",
-  "retrieved": "2026-09-30",
-  "source_id": "vanadiumprice_fenb_20230925",
-  "url": "https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/",
-  "price_year": "2023",
+  "retrieved": "2026-10-01",
+  "source_id": "cmoc_ar_2025_fenb_argus",
+  "url": "https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf",
+  "price_year": "2025",
   "evidence": "hunt",
   "quote": "",
-  "note": "One-sided FeNb65 logged. Still hunting U.S.-seller same-grade pair."
+  "note": "Cycle 31: CMOC/Argus USD 48.68/kg Nb (2025) proxy logged. No public CBMM list/invoice found. Rotating lane for next batch."
 }

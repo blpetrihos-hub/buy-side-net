@@ -1,9 +1,9 @@
-updated: 2026-09-30
-cycle: 25
-active_lane: niobium
-active_basket: fenb_std
-next_query: CBMM OR FeNb65 US OR Europe buyer invoice OR contract USD/kg versus China domestic quote 2023..2026
-next_row_id: hunt_fenb_araxa
+updated: 2026-10-01
+cycle: 31
+active_lane: ai_chips
+active_basket: usd_per_chip
+next_query: CCGP OR award Nvidia H20 versus Ascend 910B OR 910C USD per chip same calendar year 2024..2026
+next_row_id: hunt_ascend_chip
 dry_streak: 0
 remote: present
 seen_urls:
@@ -47,7 +47,17 @@ seen_urls:
 - https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm
 - https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm
 - https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025100917214239675/index.html
+- https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf
+- https://vanadiumprice.com/2024/12/30/china-ferroniobium-market-prices-on-30-december-2024/
+- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5547082/index.html
+- https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/720293
+- https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293
+- https://list1.m.mysteel.com/zhishi/65ntjg.html
+- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026092909011292564/index.html
+- https://en.cmoc.com/uploadfile/attachment/CMOC2025EN2026040610001.pdf
 misses:
+- 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
+
 - 2026-09-30 | commanding_heights | power_equipment | ComprasNet transformador OR turbina OR inversor licitação 2021..2026 preço vencedor | Cotação 460112 is a domestic BR autotransformer micro-award (R$275); no U.S./PRC comparable. Solarbe Arinos inverter shortlist is Huawei vs TBEA (both PRC) so not a U.S. pair.
 - 2026-09-30 | commanding_heights | power_equipment | ChileCompra transformador OR turbina OR inversor licitación 2021..2026 adjudicación precio | UTEM Macul 5251-23-L124 awards Fronius 15 kW inverter (CLP 3.28M) via Chilean reseller; no PRC comparable bid.
 - 2026-09-30 | commanding_heights | power_equipment | CompraNet México transformador OR turbina OR inversor adjudicación 2021..2026 precio | DOF 12 Dec 2024 CFE aviso has measure-transformer package and WASION meters vs Schweitzer boards on different SKUs; no same-spec U.S.–PRC unit pair. Opened second basket rail_telecom_process.

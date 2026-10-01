@@ -1,0 +1,10 @@
+{
+  "id": "wits_eu_fenb_br_imp_2024",
+  "retrieved": "2026-10-01",
+  "source_id": "wits_fenb_br_imp_2024",
+  "url": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/720293",
+  "price_year": "2024",
+  "evidence": "one_sided",
+  "quote": "European Union Import 720293 Ferro-niobium 2024 Brazil 453,069.83 (Trade Value 1000USD) 17,330,600 Kg",
+  "note": "Unit value USD/kg = (453069.83*1000)/17330600. Allied Brazil-origin; EU aggregate customs."
+}
