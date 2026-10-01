@@ -1,12 +1,15 @@
 updated: 2026-10-01
-cycle: 49
+cycle: 50
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Brazil ANEEL OR utility converter transformer OR HVDC Siemens OR GE versus China XD OR State Grid unit price 2021..2026
+next_query: Brazil OR Chile GE Vernova OR Hitachi Energy OR Prolec-GE UHV OR 500 kV OR 765 kV power transformer award unit price 2025 versus China XD WAVE4
 next_row_id: hunt_br_power_equip
 dry_streak: 0
 remote: present
 seen_urls:
+- http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html
+- https://news.goalfore.cn/latest/detail/94045.html
+- https://news.goalfore.cn/latest/detail/95764.html
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
 - https://news.solarbe.com/202212/20/363300.html
 - https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul

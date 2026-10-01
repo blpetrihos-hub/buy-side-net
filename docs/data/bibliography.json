@@ -868,5 +868,26 @@
     "supports": [
       "exim_us_guyana_gte_2025"
     ]
+  },
+  {
+    "id": "xd_wave4_brazil_2025",
+    "type": "journalism",
+    "chicago": "China XD / 西电常变. “西电常变斩获2.6亿元巴西重磅订单.” Company release via GoalFore reprint, 30 November 2025. Signing context: China Electric Equipment International, “成功签约巴西国家电力公司WAVE 4变压器供货项目,” 28 October 2025.",
+    "url": "https://news.goalfore.cn/latest/detail/95764.html",
+    "annotation": "Company-side WAVE4 award: ~CNY 260m for 17 UHV transformers (765/500/330 kV mix) for Eletrobras / 巴西国家电力公司 across 6 substations. Approximate package (约). Supports xd_eletrobras_wave4_xfmr_2025. Companion signing note without amount: https://news.goalfore.cn/latest/detail/94045.html",
+    "supports": [
+      "xd_eletrobras_wave4_xfmr_2025",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "pboc_cny_20251128",
+    "type": "official",
+    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 28 November 2025.",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html",
+    "annotation": "PBOC central parity 1 USD = 7.0789 CNY on 2025-11-28. FX for xd_eletrobras_wave4_xfmr_2025.",
+    "supports": [
+      "xd_eletrobras_wave4_xfmr_2025"
+    ]
   }
 ]
