@@ -27,7 +27,7 @@ python process/render_methods.py
 ```
 
 - `build_site_data.py` reads `data/codebook/observations.csv` + evidence JSON, enforces the LatAm/Caribbean geography rule (out-of-region → archived, never mapped), recomputes gaps, writes `docs/data/dashboard.json` and `docs/data/observations.json`.
-- `render_bibliography.py` writes `docs/bibliography.html` from `sources/bibliography.yml`.
+- `render_bibliography.py` writes `docs/bibliography.html` from `sources/bibliography.yml`, keeping only sources cited by on-map (non-archived) observations and grouping them by the three codebook layers.
 - `render_methods.py` writes `docs/methods.html` from `data/codebook/codebook.yml` so methods always match the code.
 
 ## Layout

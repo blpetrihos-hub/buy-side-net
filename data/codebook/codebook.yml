@@ -231,7 +231,7 @@ status_values:
     label: Archived
     on_map: false
     on_readouts: false
-    description: "Rows that do not fit the three Latin America layers (legacy AI-chip and ICBC-finance baskets). Stay in the bibliography; off the map and readouts."
+    description: "Rows that do not fit the three Latin America layers (legacy AI-chip and ICBC-finance baskets, out-of-region countries, retired stone lanes). Off the map and readouts. Their sources remain in sources/bibliography.yml but are omitted from the public bibliography page unless another on-map observation cites them."
 
 fx_rule:
   prefer_usd: true
@@ -307,6 +307,10 @@ observation_fields:
   - name: counterpart_value_usd
   - name: gap
     description: Recomputed by the build script for paired rows.
+
+bibliography:
+  rule: "The public bibliography lists only sources cited (via observation source_id) by at least one on-map observation — status active or hunt on a non-archived layer (Infrastructure, Scarce Natural Resources, Energy). Sources cited only by archived rows, or by no row, are filtered out at render time; they remain in sources/bibliography.yml. The page is split into the three codebook layers, with subcategory groups where clean. Chicago citations and annotations are unchanged."
+  sections: [infrastructure, resources, energy]
 
 public_source_limits:
   - Use procurement portals, company filings, ministry and utility notices, port-authority releases, published journalism.

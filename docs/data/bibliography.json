@@ -27,36 +27,33 @@
       "hunt_res_nickel",
       "hunt_res_water",
       "methods"
-    ]
-  },
-  {
-    "id": "comprasnet_cotacao_460112",
-    "type": "official",
-    "chicago": "Brasil. Ministério da Defesa / Compras.gov.br. “Dispensa Eletrônica nº 135/2021 — Aquisição de autotransformador.” Relatório de classificação de fornecedores, cotação 460112. 25–30 November 2021.",
-    "url": "http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112",
-    "annotation": "Opened for the Brazil power-equipment hunt. Small autotransformer award (Bagé-RS); lowest lance R$275 to a Brazilian firm. No U.S. or PRC bidder named. Documents a ComprasNet family pass without a matched pair.",
-    "supports": [
-      "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "chilecompra_utem_inversor_5251_23",
-    "type": "official",
-    "chicago": "Universidad Tecnológica Metropolitana. “Mat. Electricos Inversor Biblioteca Campus Macul,” licitación 5251-23-L124 (adjudicada). Mercado Público / ChileCompra; mirror at TodoLicitaciones.",
-    "url": "https://www.todolicitaciones.cl/licitacion/5251-23-L124/mat-electricos-inversor-biblioteca-campus-macul",
-    "annotation": "Opened for the Chile power-equipment hunt. Fronius 15 kW inverter at CLP 3,280,000. No PRC bidder on this award. Documents a ChileCompra-family pass without a matched U.S.–PRC pair.",
-    "supports": [
-      "hunt_cl_power_equip"
-    ]
-  },
-  {
-    "id": "dof_cfe_adjudicacion_2024_12_12",
-    "type": "official",
-    "chicago": "Comisión Federal de Electricidad, CFE Distribución EPS. “Aviso de adjudicación” (medidores de media tensión; transformadores de medida; tableros PCyM). Diario Oficial de la Federación, 12 December 2024.",
-    "url": "https://dof.gob.mx/nota_detalle.php?codigo=5745128&fecha=12%2F12%2F2024",
-    "annotation": "Opened for the Mexico power-equipment hunt. Package awards to Equipos para Redes Eléctricas del Centro (measure transformers), WASION (meters), and Schweitzer/Arteche/others (PCyM boards). Different SKUs; no same-spec U.S.–PRC unit price on this aviso.",
-    "supports": [
-      "hunt_mx_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "hunt_cl_power_equip",
+      "hunt_energy_fission_smr",
+      "hunt_energy_other_renewables",
+      "hunt_energy_solar",
+      "hunt_energy_wind",
+      "hunt_fenb_araxa",
+      "hunt_infra_bridges_roads",
+      "hunt_infra_building_materials",
+      "hunt_infra_engineering_epc",
+      "hunt_infra_port_cranes",
+      "hunt_infra_port_ownership",
+      "hunt_latam_rail_telecom",
+      "hunt_mx_power_equip",
+      "hunt_res_balsa",
+      "hunt_res_copper",
+      "hunt_res_graphite",
+      "hunt_res_lithium",
+      "hunt_res_nickel",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "infrastructure",
+      "resources",
+      "energy"
     ]
   },
   {
@@ -68,6 +65,13 @@
     "supports": [
       "sp_metro_crrc_alstom_2024",
       "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "hunt_latam_rail_telecom",
+      "sp_metro_crrc_alstom_2024"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -78,69 +82,12 @@
     "annotation": "EFE awards 32 EMUs to CRRC Sifang/Temoinsa for US$171.36 million (Melipilla and Batuco). One-sided PRC price; no non-PRC bid on the page. Supports efe_crrc_emu_2023.",
     "supports": [
       "efe_crrc_emu_2023"
-    ]
-  },
-  {
-    "id": "vanadiumprice_fenb_20230928",
-    "type": "journalism",
-    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 28 September 2023.” 28 September 2023.",
-    "url": "https://vanadiumprice.com/2023/09/28/china-ferroniobium-market-prices-on-28-september-2023/",
-    "annotation": "Trade-press China-market quotes: Brazilian FeNb65 230–235k CNY/t and Chinese 60-A 280–300k CNY/t. Spec grades differ; treated as UNVERIFIED proxy. FX from PBOC central parity same day.",
-    "supports": [
-      "fenb_china_mkt_202309",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "pboc_cny_20230928",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 28 September 2023.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5082479/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1798 CNY on 2023-09-28. FX for fenb_china_mkt_202309.",
-    "supports": [
-      "fenb_china_mkt_202309"
-    ]
-  },
-  {
-    "id": "reuters_nvidia_h20_huawei_2024",
-    "type": "journalism",
-    "chicago": "Potkin, Fanny. “Exclusive: Nvidia cuts China prices in Huawei chip fight, sources say.” Reuters, 24 May 2024. Yahoo Finance reprint.",
-    "url": "https://finance.yahoo.com/news/exclusive-nvidia-cuts-china-prices-033402278.html",
-    "annotation": "Press-only distributor quotes: H20 around 100,000 yuan/card; Ascend 910B above 120,000 yuan/card. UNVERIFIED proxy for h20_ascend910b_2024. Anonymous sources; no contract document.",
-    "supports": [
-      "h20_ascend910b_2024",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20240524",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 24 May 2024.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5360645/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1102 CNY on 2024-05-24. FX for h20_ascend910b_2024.",
-    "supports": [
-      "h20_ascend910b_2024"
-    ]
-  },
-  {
-    "id": "icij_china_capital_about",
-    "type": "journalism",
-    "chicago": "Starkman, Dean, Scilla Alecci, and Micah Reddy. “About the China Capital investigation.” International Consortium of Investigative Journalists, 14 September 2026.",
-    "url": "https://www.icij.org/investigations/china-capital/about-china-capital-investigation-icbc/",
-    "annotation": "Public methods/about page for China Capital. Names the $1.3 billion Huawei emergency-cash transfer as context. Used only as published journalism; this project does not download or parse the leaked ICBC record set.",
-    "supports": [
-      "hunt_icbc_rate",
-      "icbc_huawei_wire_2019"
-    ]
-  },
-  {
-    "id": "icij_huawei_icbc_wire",
-    "type": "journalism",
-    "chicago": "International Consortium of Investigative Journalists. “ICBC helped Huawei spirit $1B out of London days after US indictment.” China Capital investigation.",
-    "url": "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
-    "annotation": "Published article on the ~$1.3 billion London-to-Shenzhen wire. Coded exclude (event/size, not an all-in rate). Public page only; no leak files.",
-    "supports": [
-      "icbc_huawei_wire_2019"
+    ],
+    "map_supports": [
+      "efe_crrc_emu_2023"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -152,71 +99,13 @@
     "supports": [
       "aneel_state_grid_rap_2023",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "agenciabrasil_aneel_leilao_2023",
-    "type": "journalism",
-    "chicago": "Albuquerque, Flávia. “Leilão de Transmissão termina com três lotes arrematados, diz Aneel.” Agência Brasil, 15 December 2023.",
-    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/leilao-de-transmissao-termina-com-tres-lotes-arrematados-diz-aneel",
-    "annotation": "Confirms State Grid Lote 1 RAP ~R$1.936bn and other lots. Context for exclude row; not a U.S.–PRC equipment unit pair.",
-    "supports": [
-      "aneel_state_grid_rap_2023"
-    ]
-  },
-  {
-    "id": "lenergy_cen_chile_ofertas_2024",
-    "type": "journalism",
-    "chicago": "Latin Energy Group / Energía Estratégica. “Coordinador de Chile reveló las ofertas económicas de una nueva licitación de transmisión.” 19 November 2024.",
-    "url": "https://www.lenergygroup.com/coordinador-de-chile-revelo-las-ofertas-economicas-de-una-nueva-licitacion-de-transmision/",
-    "annotation": "Published CEN Chile economic offers for Amp S/E Parinas package: Elecnor USD 97.68m vs PowerChina USD 67.98m. Allied paired row; not a U.S. seller.",
-    "supports": [
-      "cen_parinas_elecnor_powerchina_2024",
-      "hunt_cl_power_equip"
-    ]
-  },
-  {
-    "id": "vanadiumprice_fenb_20230925",
-    "type": "journalism",
-    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 25 September 2023.” 25 September 2023.",
-    "url": "https://vanadiumprice.com/2023/09/25/china-ferroniobium-market-prices-on-25-september-2023/",
-    "annotation": "Brazilian FeNb65 230–235k CNY/t at Qinghe/Liaoning/Shanghai. One-sided allied quote; domestic lines on the sheet are 60-A/60-B, not FeNb65.",
-    "supports": [
-      "fenb65_brazil_china_mkt_20230925",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "ccgp_sysu_atlas900_2024",
-    "type": "official",
-    "chicago": "中山大学 / 中国政府采购网. “中山大学国产智能计算系统采购项目 … 中标结果公告.” 27 December 2024.",
-    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241227_23978936.htm",
-    "annotation": "Award: Huawei Atlas 900 A3 SuperPoD, CNY 23,989,000 per set to 北明软件. One-sided PRC system price; not a USD/chip observation.",
-    "supports": [
-      "atlas900_a3_superpod_sysu_2024",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20241227",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 27 December 2024.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5546059/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1893 CNY on 2024-12-27. FX for atlas900_a3_superpod_sysu_2024.",
-    "supports": [
-      "atlas900_a3_superpod_sysu_2024",
-      "ustc_suzhou_hgx_h20_2024"
-    ]
-  },
-  {
-    "id": "oecd_cirr_usd_202412",
-    "type": "official",
-    "chicago": "Organisation for Economic Co-operation and Development. “Commercial Interest Reference Rates (CIRRs).” Paris, 6 December 2024 (Credendo-hosted PDF mirror).",
-    "url": "https://credendo.com/sites/default/files/media/files/2024-12/cirrs.pdf",
-    "annotation": "USD CIRR 5-year maturity tier 5.23% for 15 Dec 2024–14 Jan 2025. One-sided U.S. schedule rate for exim_cirr_usd_5y_202412; not a named LatAm loan.",
-    "supports": [
-      "exim_cirr_usd_5y_202412",
-      "hunt_icbc_rate"
+    ],
+    "map_supports": [
+      "aneel_state_grid_rap_2023",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -228,16 +117,13 @@
     "supports": [
       "csm_fenb_range_context",
       "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "sidof_cfe_excitacion_tm_2025",
-    "type": "official",
-    "chicago": "Comisión Federal de Electricidad, CFE Generación VI EPS. “Aviso múltiple de adjudicación de contratos” (CFE-0001-CAAAT-0117-2024, transformadores de excitación). Sistema de Difusión Oficial / SIDOF nota 5764297, gazette date 31 July 2025 (fallo 11 December 2024).",
-    "url": "https://sidof.segob.gob.mx/notas/docFuente/5764297",
-    "annotation": "CFE awards excitation transformers for CTE Presidente Adolfo López Mateos to Transformadores Monterrey at MXN 50,647,935.60. Mexican domestic seller; no U.S./PRC bidder named. Documents Mexico power-equipment dry pass.",
-    "supports": [
-      "hunt_mx_power_equip"
+    ],
+    "map_supports": [
+      "csm_fenb_range_context",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -249,6 +135,13 @@
     "supports": [
       "cen_parinas_elecnor_powerchina_2024",
       "hunt_cl_power_equip"
+    ],
+    "map_supports": [
+      "cen_parinas_elecnor_powerchina_2024",
+      "hunt_cl_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -260,16 +153,13 @@
     "supports": [
       "siemens_furnas_itaipu_fsc_2023",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "reuters_siemens_eletrobras_2023",
-    "type": "journalism",
-    "chicago": "Fucuchima, Leticia. “Siemens Energy signs $200 million deal with Brazil’s Eletrobras to upgrade transmission line.” Reuters, 10 May 2023. Global Banking & Finance reprint.",
-    "url": "https://www.globalbankingandfinance.com/siemens-energy-signs-200-million-deal-with-brazils-eletrobras-to-upgrade-transmission-line/",
-    "annotation": "States project worth some 1 billion reais (US$199.87 million) at $1 = 5.0033 reais. USD figure used for siemens_furnas_itaipu_fsc_2023.",
-    "supports": [
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
       "siemens_furnas_itaipu_fsc_2023"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -281,16 +171,13 @@
     "supports": [
       "siemens_eletrobras_grid_pkg_2024",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "cnnbrasil_siemens_eletrobras_2024",
-    "type": "journalism",
-    "chicago": "Reuters / CNN Brasil. “Siemens Energy assina contratos de R$ 300 mi com Eletrobras para modernizar transmissão.” 4 September 2024.",
-    "url": "https://www.cnnbrasil.com.br/economia/negocios/siemens-energy-assina-contratos-de-r-300-mi-com-eletrobras-para-modernizar-transmissao/",
-    "annotation": "Confirms Siemens Energy contracts valued at more than R$300 million for Eletrobras transmission revitalization through 2027.",
-    "supports": [
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
       "siemens_eletrobras_grid_pkg_2024"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -302,88 +189,13 @@
     "supports": [
       "xdcb_brazil_ne_uhv_ct_2024",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20240906",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 6 September 2024.",
-    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5450684/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.0925 CNY on 2024-09-06. FX for xdcb_brazil_ne_uhv_ct_2024.",
-    "supports": [
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
       "xdcb_brazil_ne_uhv_ct_2024"
-    ]
-  },
-  {
-    "id": "ccgp_wust_atlas800t_2024",
-    "type": "official",
-    "chicago": "武汉科技大学 / 中国政府采购网. “武汉科技大学2024年超长期特别国债-国产算力平台采购项目中标公告.” 3 December 2024.",
-    "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241203_23779023.htm",
-    "annotation": "Award: Huawei Atlas 800T A2, 10 systems, total CNY 20,022,800 to Shanghai Hello. One-sided PRC system price; not USD/chip.",
-    "supports": [
-      "atlas800t_a2_wust_2024",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20241203",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 3 December 2024.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5524809/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1996 CNY on 2024-12-03. FX for atlas800t_a2_wust_2024.",
-    "supports": [
-      "atlas800t_a2_wust_2024"
-    ]
-  },
-  {
-    "id": "dfc_financing_terms",
-    "type": "official",
-    "chicago": "U.S. International Development Finance Corporation. “Financing Terms and Processes.” Accessed 30 September 2026.",
-    "url": "https://www.dfc.gov/what-we-offer-our-products-debt-financing/financing-terms-and-processes",
-    "annotation": "States DFC interest is a negotiated spread over the base cost of funds; no numeric LatAm all-in. Documents finance-lane dry pass.",
-    "supports": [
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "dfc_laad_pis_9000104743",
-    "type": "official",
-    "chicago": "U.S. International Development Finance Corporation. “Public Information Summary — LAAD Americas N.V. (Loan 2),” project 9000104743.",
-    "url": "https://www.dfc.gov/sites/default/files/media/documents/9000104743.pdf",
-    "annotation": "DFC $30m on-lending facility for LatAm agri SMEs (Colombia, Mexico, Peru, and others). Loan size only; no interest rate published.",
-    "supports": [
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "barbados_parliament_eximbank_scotland_2022",
-    "type": "official",
-    "chicago": "Parliament of Barbados. Resolution approving borrowing of approximately BBD 256,600,000 from the Export-Import Bank of China for the Scotland District Road Rehabilitation Project (Schedule of terms). 2022.",
-    "url": "https://www.barbadosparliament.com/uploads/sittings/attachments/3dc41af0d2b08ea90a5795cecb15c7b2.pdf",
-    "annotation": "Public schedule: China Eximbank RMB loan at 2% per annum, 20 years, 60-month grace. One-sided PRC all-in component for eximbank_china_barbados_scotland_2022.",
-    "supports": [
-      "eximbank_china_barbados_scotland_2022",
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "barbados_pmo_scotland_eximbank_2022",
-    "type": "official",
-    "chicago": "Prime Minister’s Office (Barbados). “Road rehabilitation in the Scotland District in the works.” 18 February 2022.",
-    "url": "https://pmo.gov.bb/2022/02/18/road-rehabilitation-in-the-scotland-district-in-the-works/",
-    "annotation": "PM Mottley states EXIM Bank of China framework loan at 2% over 20 years for Scotland District roads. Corroborates Parliament schedule rate.",
-    "supports": [
-      "eximbank_china_barbados_scotland_2022"
-    ]
-  },
-  {
-    "id": "dfc_finance_faqs",
-    "type": "official",
-    "chicago": "U.S. International Development Finance Corporation. “DFC Finance Program FAQs.” PDF via DFC Forms portal. Accessed 30 September 2026.",
-    "url": "https://www3.dfc.gov/DFCForms/Documents/DFCFinanceFAQs.pdf",
-    "annotation": "Direct Loan interest = fixed Treasury base + negotiated risk premium. No published LatAm borrower all-in percent. Documents finance dry pass.",
-    "supports": [
-      "hunt_icbc_rate"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -396,123 +208,14 @@
       "cen_fengfan_g03_2024",
       "hunt_cl_power_equip",
       "cen_parinas_elecnor_powerchina_2024"
-    ]
-  },
-  {
-    "id": "fengfan_sse_chile_g03_2024",
-    "type": "official",
-    "chicago": "常熟风范电力设备股份有限公司. “关于智利第4号/2024号豁免法令扩建工程G03组中标的公告,” 公告编号 2024-089. 上海证券报, 26 November 2024.",
-    "url": "https://paper.cnstock.com/html/2024-11/26/content_1997973.htm",
-    "annotation": "Issuer confirms G03 EPC award at USD 43.033 million and links CEN acta PDF.",
-    "supports": [
-      "cen_fengfan_g03_2024"
-    ]
-  },
-  {
-    "id": "ccgp_ustc_suzhou_h20_2024",
-    "type": "official",
-    "chicago": "中国科学技术大学苏州高等研究院 / 中国政府采购网. “深度学习高性能服务器项目中标公告.” 27 December 2024.",
-    "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241227_23978104.htm",
-    "annotation": "Award CNY 5.9m for 5 风虎云龙 HGX H20 servers to Shanghai Fenghu. One-sided Nvidia system price (per-system derived as total/5).",
-    "supports": [
-      "ustc_suzhou_hgx_h20_2024",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "ccgp_ucas_h20_ascend_2025",
-    "type": "official",
-    "chicago": "中国科学院大学 / 中国政府采购网. “数据与科学计算平台智算设备采购项目中标公告.” 26 September 2025.",
-    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202509/t20250926_25422792.htm",
-    "annotation": "Same award: Dell XE9680 + HGX H20 8-GPU at CNY 1,288,970 and KunTai A924 + 8× Ascend 910B4 at CNY 1,106,500. Proxy system comparison for ucas_h20_ascend910b4_2025.",
-    "supports": [
-      "ucas_h20_ascend910b4_2025",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20250926",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 26 September 2025.",
-    "url": "https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025100917214239675/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1152 CNY on 2025-09-26. FX for ucas_h20_ascend910b4_2025.",
-    "supports": [
-      "ucas_h20_ascend910b4_2025"
-    ]
-  },
-  {
-    "id": "usgs_mcs_niobium_2026",
-    "type": "official",
-    "chicago": "U.S. Geological Survey. “Niobium (Columbium).” Mineral Commodity Summaries 2026. February 2026. https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf.",
-    "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
-    "annotation": "U.S. ferroniobium average unit value USD 26/kg (2024) and USD 25/kg (2023), weighted average of gross-weight trade. Supports usgs_fenb_us_unit_2024. Not a named CBMM invoice.",
-    "supports": [
-      "usgs_fenb_us_unit_2024",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "vanadiumprice_fenb_20241230",
-    "type": "journalism",
-    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 30 December 2024.” 30 December 2024.",
-    "url": "https://vanadiumprice.com/2024/12/30/china-ferroniobium-market-prices-on-30-december-2024/",
-    "annotation": "Domestic FeNb 60-A 300–320k CNY/t cash with tax; 60-B 250–260k; Brazilian FeNb65 blank. UNVERIFIED trade press for fenb60a_china_mkt_20241230.",
-    "supports": [
-      "fenb60a_china_mkt_20241230",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "pboc_cny_20241230",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 30 December 2024.",
-    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5547082/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1889 CNY on 2024-12-30. FX for fenb60a_china_mkt_20241230.",
-    "supports": [
-      "fenb60a_china_mkt_20241230"
-    ]
-  },
-  {
-    "id": "wits_fenb_br_imp_2024",
-    "type": "official",
-    "chicago": "World Bank. World Integrated Trade Solution (WITS). “Ferro-niobium imports from Brazil | 2024” (UN Comtrade, HS 720293). Accessed 1 October 2026.",
-    "url": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/720293",
-    "annotation": "EU imports from Brazil: USD 453,069.83 thousand / 17,330,600 kg ≈ USD 26.14/kg. Supports wits_eu_fenb_br_imp_2024.",
-    "supports": [
-      "wits_eu_fenb_br_imp_2024",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "wits_china_fenb_br_imp_2024",
-    "type": "official",
-    "chicago": "World Bank. World Integrated Trade Solution (WITS). “China Ferro-niobium imports from Brazil | 2024” (UN Comtrade, HS 720293). Accessed 1 October 2026.",
-    "url": "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Imports/partner/BRA/product/720293",
-    "annotation": "China imports from Brazil: USD 1,079,629.44 thousand / 41,249,200 kg ≈ USD 26.17/kg. Supports wits_china_fenb_br_imp_2024.",
-    "supports": [
-      "wits_china_fenb_br_imp_2024",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "mysteel_fenb_20260929",
-    "type": "journalism",
-    "chicago": "我的钢铁网 (Mysteel). “65铌铁价格.” Flash quotes dated 29 September 2026. Accessed 1 October 2026.",
-    "url": "https://list1.m.mysteel.com/zhishi/65ntjg.html",
-    "annotation": "Same-day flashes: Brazilian FeNb 25.8–26.2 万元/t and domestic FeNb 30.5–31.5 万元/t cash. Domestic table FeNb60-A. UNVERIFIED proxy for mysteel_fenb_br_vs_cn_20260929.",
-    "supports": [
-      "mysteel_fenb_br_vs_cn_20260929",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "pboc_cny_20260929",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 29 September 2026.",
-    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026092909011292564/index.html",
-    "annotation": "PBOC central parity 1 USD = 6.7411 CNY on 2026-09-29. FX for mysteel_fenb_br_vs_cn_20260929.",
-    "supports": [
-      "mysteel_fenb_br_vs_cn_20260929"
+    ],
+    "map_supports": [
+      "cen_fengfan_g03_2024",
+      "cen_parinas_elecnor_powerchina_2024",
+      "hunt_cl_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -524,369 +227,13 @@
     "supports": [
       "cmoc_argus_fenb_kgNb_2025",
       "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "ccgp_ucas_h20_202504",
-    "type": "official",
-    "chicago": "中国科学院大学 / 中国政府采购网. “信息技术中心智慧校园GPU算力采购项目中标公告.” 24 April 2025.",
-    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202504/t20250424_24496300.htm",
-    "annotation": "Dell XE9680 + HGX H20 8-GPU at CNY 1,195,000 each (4 units). One-sided Nvidia system price for ucas_h20_xe9680_202504.",
-    "supports": [
-      "ucas_h20_xe9680_202504",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20250424",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 24 April 2025.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5680920/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.2098 CNY on 2025-04-24. FX for ucas_h20_xe9680_202504.",
-    "supports": [
-      "ucas_h20_xe9680_202504"
-    ]
-  },
-  {
-    "id": "ccgp_cip_atlas800i_2025",
-    "type": "official",
-    "chicago": "中国刑事警察学院 / 中国政府采购网. “公共算力服务中心项目一期采购项目中标公告.” 22 October 2025.",
-    "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
-    "annotation": "Huawei Atlas 800I A2 at CNY 1,320,000 (1 unit). One-sided PRC system price for cip_atlas800i_a2_2025.",
-    "supports": [
-      "cip_atlas800i_a2_2025",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20251022",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 22 October 2025.",
-    "url": "https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025111413265770846/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.0954 CNY on 2025-10-22. FX for cip_atlas800i_a2_2025.",
-    "supports": [
-      "cip_atlas800i_a2_2025"
-    ]
-  },
-  {
-    "id": "ccgp_snnu_atlas800i_2025",
-    "type": "official",
-    "chicago": "陕西师范大学 / 中国政府采购网. “数据中心基础设施建设—基础计算平台项目中标公告.” 14 August 2025.",
-    "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
-    "annotation": "Atlas 800I A2 at CNY 1,798,000 (1套) among multi-SKU award. One-sided PRC system price for snnu_atlas800i_a2_2025.",
-    "supports": [
-      "snnu_atlas800i_a2_2025",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20250814",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 14 August 2025.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5809872/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1337 CNY on 2025-08-14. FX for snnu_atlas800i_a2_2025.",
-    "supports": [
-      "snnu_atlas800i_a2_2025"
-    ]
-  },
-  {
-    "id": "ccgp_uestc_huakun_at800_2025",
-    "type": "official",
-    "chicago": "电子科技大学 / 中国政府采购网. “算力服务器采购项目中标公告.” 12 May 2025.",
-    "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
-    "annotation": "HuaKun AT800 (Model 9000) A2 at CNY 1,398,300 each (3 units). One-sided PRC-ecosystem system price for uestc_huakun_at800_a2_2025.",
-    "supports": [
-      "uestc_huakun_at800_a2_2025",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20250512",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 12 May 2025.",
-    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5707330/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.2066 CNY on 2025-05-12. FX for uestc_huakun_at800_a2_2025.",
-    "supports": [
-      "uestc_huakun_at800_a2_2025"
-    ]
-  },
-  {
-    "id": "chinamae_hust_ascend910_2026",
-    "type": "official",
-    "chicago": "华中科技大学 / ChinaMAE reprint. “[HW20260172]华中科技大学采购国产AI计算卡项目成交结果公告.” 14 May 2026.",
-    "url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
-    "annotation": "Award CNY 899,500 for 8 Huawei Ascend 910_4_1 64G HCCS cards (CNY 112,437.50/card). One-sided PRC chip price for hust_ascend910_card_2026.",
-    "supports": [
-      "hust_ascend910_card_2026",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "hust_ascend910_solicitation_20260430",
-    "type": "official",
-    "chicago": "华中科技大学采购与招标中心. “[HW20260172]华中科技大学采购国产AI计算卡项目询比公告.” 30 April 2026.",
-    "url": "http://cgzx.hust.edu.cn/cgjzcg/44125.chtml",
-    "annotation": "Confirms buyer HUST, quantity 8 cards, ceiling CNY 112,500/card. Supports hust_ascend910_card_2026.",
-    "supports": [
-      "hust_ascend910_card_2026"
-    ]
-  },
-  {
-    "id": "sina_cfets_cny_20260514",
-    "type": "journalism",
-    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 14 May 2026. Reprinted by Sina Finance.",
-    "url": "https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvpqt4006189.shtml",
-    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.8401 CNY on 2026-05-14. FX for hust_ascend910_card_2026.",
-    "supports": [
-      "hust_ascend910_card_2026"
-    ]
-  },
-  {
-    "id": "smm_h20_8gpu_module_20260903",
-    "type": "journalism",
-    "chicago": "上海有色网 (SMM). “【SMM算力快讯】华南H20八卡模组现货报140万元/套.” 3 September 2026.",
-    "url": "https://news.smm.cn/news/104094410",
-    "annotation": "Press flash: H20 96G 8-GPU module CNY 1.40m/set (~CNY 175k/chip). UNVERIFIED proxy for h20_96g_smm_module_202609.",
-    "supports": [
-      "h20_96g_smm_module_202609",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20260903",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 3 September 2026.",
-    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026090309002323677/index.html",
-    "annotation": "PBOC central parity 1 USD = 6.7807 CNY on 2026-09-03. FX for h20_96g_smm_module_202609.",
-    "supports": [
-      "h20_96g_smm_module_202609"
-    ]
-  },
-  {
-    "id": "ccgp_cupl_a800_202507",
-    "type": "official",
-    "chicago": "中国政法大学 / 中国政府采购网. “中国政法大学高性能GPU卡采购项目成交公告.” 9 July 2025.",
-    "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202507/t20250709_24934882.htm",
-    "annotation": "Nvidia A800 boards (京原nvidia a800) at CNY 165,000 each (2 cards). One-sided U.S. card price for cupl_a800_card_2025.",
-    "supports": [
-      "cupl_a800_card_2025",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20250709",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 9 July 2025.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5774593/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1541 CNY on 2025-07-09. FX for cupl_a800_card_2025.",
-    "supports": [
-      "cupl_a800_card_2025"
-    ]
-  },
-  {
-    "id": "ccgp_bfsu_inspur_202607",
-    "type": "official",
-    "chicago": "北京外国语大学 / 中国政府采购网. “北京外国语大学高性能服务器和存储采购项目中标公告.” 15 July 2026.",
-    "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202607/t20260715_26940829.htm",
-    "annotation": "Inspur NF5688-M7 8-GPU server at CNY 2,000,000 (1 unit). GPU brand not printed. One-sided PRC-ecosystem system price for bfsu_inspur_8gpu_2026.",
-    "supports": [
-      "bfsu_inspur_8gpu_2026",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "chinanews_cfets_cny_20260715",
-    "type": "journalism",
-    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 15 July 2026. Reported by China News.",
-    "url": "https://www.chinanews.com.cn/cj/2026/07-15/10659472.shtml",
-    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.7910 CNY on 2026-07-15. FX for bfsu_inspur_8gpu_2026.",
-    "supports": [
-      "bfsu_inspur_8gpu_2026"
-    ]
-  },
-  {
-    "id": "sina_huatai_ascend910c_cloud_202603",
-    "type": "journalism",
-    "chicago": "Sina Finance. “8500元/月，华为云昇腾910C专有云算力大单.” 25 March 2026. Reprint of Huatai Securities 中标候选人公示 figures.",
-    "url": "https://finance.sina.com.cn/wm/2026-03-25/doc-inhsfvzk6478059.shtml",
-    "annotation": "Press reprint: Huawei Cloud Ascend 910C dedicated instance CNY 8,500/card-month for Huatai. UNVERIFIED proxy for huatai_ascend910c_cloud_2026.",
-    "supports": [
-      "huatai_ascend910c_cloud_2026",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "sina_cfets_cny_20260323",
-    "type": "journalism",
-    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 23 March 2026. Reprinted by Sina Finance.",
-    "url": "https://finance.sina.com.cn/jjxw/2026-03-23/doc-inhrxrnc4279187.shtml",
-    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.9041 CNY on 2026-03-23. FX for huatai_ascend910c_cloud_2026.",
-    "supports": [
-      "huatai_ascend910c_cloud_2026"
-    ]
-  },
-  {
-    "id": "ccgp_qilu_rtxa6000_202608",
-    "type": "official",
-    "chicago": "齐鲁工业大学 / 中国政府采购网. “齐鲁工业大学（山东省科学院）显卡采购项目(二次)结果公告（采购包1）.” 7 August 2026.",
-    "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202608/t20260807_27097752.htm",
-    "annotation": "Nvidia RTX A6000 at CNY 179,000 (1 unit). One-sided U.S. card price for qilu_rtxa6000_card_2026.",
-    "supports": [
-      "qilu_rtxa6000_card_2026",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "xinhua_cfets_cny_20260807",
-    "type": "journalism",
-    "chicago": "China Foreign Exchange Trade System. “人民币市场汇价（8月7日）,” 7 August 2026. Reported by Xinhua.",
-    "url": "https://www.news.cn/fortune/20260807/496cd410165147b591fd22edae5cc36f/c.html",
-    "annotation": "Public reprint of CFETS central parity 100 USD = 679.04 CNY (1 USD = 6.7904 CNY) on 2026-08-07. FX for qilu_rtxa6000_card_2026.",
-    "supports": [
-      "qilu_rtxa6000_card_2026"
-    ]
-  },
-  {
-    "id": "smm_ascend910b4_module_20260827",
-    "type": "journalism",
-    "chicago": "上海有色网 (SMM). “【SMM算力午评】市场整体横盘，国产算力租赁与采购价格同步浮现.” 27 August 2026.",
-    "url": "https://news.smm.cn/news/104082732",
-    "annotation": "Press flash: Ascend 910B4 8-GPU ~CNY 760k/set (~CNY 95k/chip). UNVERIFIED proxy for ascend910b4_smm_module_202608.",
-    "supports": [
-      "ascend910b4_smm_module_202608",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "sina_cfets_cny_20260827",
-    "type": "journalism",
-    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 27 August 2026. Reprinted by Sina Finance.",
-    "url": "https://finance.sina.com.cn/jjxw/2026-08-27/doc-inipthnz9030232.shtml",
-    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.7840 CNY on 2026-08-27. FX for ascend910b4_smm_module_202608.",
-    "supports": [
-      "ascend910b4_smm_module_202608"
-    ]
-  },
-  {
-    "id": "mysteel_ascend910c_ind_20260915",
-    "type": "journalism",
-    "chicago": "我的钢铁网 (Mysteel). “Mysteel算力：HBM 供给受限，国产主力型号提价.” 15 September 2026.",
-    "url": "https://suanli.m.mysteel.com/a/26091513/87E4555A40AE2296_abc.html",
-    "annotation": "Channel note: Ascend 910C indicative above CNY 110,000/chip. UNVERIFIED proxy for ascend910c_mysteel_ind_202609.",
-    "supports": [
-      "ascend910c_mysteel_ind_202609",
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "chinanews_cfets_cny_20260915",
-    "type": "journalism",
-    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 15 September 2026. Reported by China News / 中新经纬.",
-    "url": "https://www.jwview.com/jingwei/html/09-15/688315.shtml",
-    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.7670 CNY on 2026-09-15. FX for ascend910c_mysteel_ind_202609.",
-    "supports": [
-      "ascend910c_mysteel_ind_202609"
-    ]
-  },
-  {
-    "id": "hs_ggzy_h20_contract_20260916",
-    "type": "official",
-    "chicago": "黄山市公共资源交易中心. “【合同公开】黄山学院大数据云计算与运维实验室设备采购项目” (HJACG2026G096). 16 September 2026.",
-    "url": "http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html",
-    "annotation": "Opened for the ai_chips H20 card-level hunt. Official contract HTML lists CloudStor 640H50 server at CNY 2,355,000 (package CNY 4,748,000 to 合肥捷诺达). No H20 card unit price on the opened page. Documents a dry pass.",
-    "supports": [
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "hs_ggzy_h20_award_20260907",
-    "type": "official",
-    "chicago": "黄山市公共资源交易中心. “黄山学院大数据云计算与运维实验室设备采购项目中标结果公告” (HJACG2026G096). 7 September 2026.",
-    "url": "http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html",
-    "annotation": "Same project award result: 合肥捷诺达; HTML main标的 shows only CloudStor 640H50 at CNY 2,355,000. PDF attachments not opened (download wall). Supports hunt_ascend_chip dry note.",
-    "supports": [
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "zhiliao_sustech_h100_card_202606",
-    "type": "official",
-    "chicago": "南方科技大学. “SUSTech-JC-2026-00149 计算机系采购GPU加速器” 竞采结果公告. Reprinted by 知了标讯, 27 June 2026.",
-    "url": "https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html",
-    "annotation": "Opened for ai_chips hunt. 2× Nvidia H100 PCIe accelerators at CNY 247,500/card. Off-spec for H20/export-article H100 basket—logged as dry adjacent find only.",
-    "supports": [
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "chinamae_zijingshan_ascend_unit_2026",
-    "type": "official",
-    "chicago": "紫金山实验室. “紫金山实验室国产运算单元” 采购公告, JSZC-320100-JZCG-G2026-0243. 30 July 2026. ChinaMAE reprint.",
-    "url": "https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html",
-    "annotation": "Opened for ai_chips hunt. Domestic 8-card/4-card compute units, CNY 1.55m budget; mentions existing H20/V100 for mixed training. No H20 or Ascend 910B/910C card unit price. Dry pass before lane rotate.",
-    "supports": [
-      "hunt_ascend_chip"
-    ]
-  },
-  {
-    "id": "guyana_dpi_ecd_eximbank_2022",
-    "type": "official",
-    "chicago": "Department of Public Information, Guyana. “US$192 Million Phase 2 East Coast Road Project…” 30 December 2022.",
-    "url": "https://dpi.gov.gy/us192-million-phase-2-east-coast-road-project-to-commence-under-governments-expansive-aggressive-transport-infrastructure-initiative/",
-    "annotation": "Opened for icbc_finance hunt. Eximbank ECD Phase 2 framework US$192m — size and concessional label only; no interest rate. Documents a dry pass.",
-    "supports": [
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "guyana_newsroom_ecd_eximbank_2022",
-    "type": "journalism",
-    "chicago": "News Room Guyana. “ECD road upgrade to continue with US$192 million loan from Chinese Government.” 30 December 2022.",
-    "url": "https://newsroom.gy/2022/12/30/ecd-road-upgrade-to-continue-with-us192-million-loan-from-chinese-government/",
-    "annotation": "Corroborates DPI: Eximbank of China provides the US$192m ECD Phase 2 loan; no rate published.",
-    "supports": [
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "grenada_estimates_exim_china_2022",
-    "type": "official",
-    "chicago": "Government of Grenada. Estimates of Revenue and Expenditure for the Year 2022. Ministry of Finance.",
-    "url": "https://www.finance.gd/docs/Estimate%20of%20Revenue%20and%20Expenditure%202022_final.pdf",
-    "annotation": "Opened for icbc_finance hunt. Debt table: EXIM China MBIA/St George airport CNY 461m at 2% contracted Jan 2017 — outside 2021–2026 new-row window. Documents a dry pass.",
-    "supports": [
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "guyana_dpi_exim_gte_4pct_2025",
-    "type": "journalism",
-    "chicago": "Department of Public Information, Guyana. “Financial benefits of gas-to-energy project far outweighs debt servicing costs – Jagdeo highlights.” 3 January 2025.",
-    "url": "https://dpi.gov.gy/financial-benefits-of-gas-to-energy-project-far-outweighs-debt-servicing-costs-jagdeo-highlights/",
-    "annotation": "Borrower-side press: VP Jagdeo states U.S. EXIM Gas-to-Energy loan at 4% interest. UNVERIFIED proxy support for exim_us_guyana_gte_2025 (no EXIM schedule PDF opened).",
-    "supports": [
-      "exim_us_guyana_gte_2025",
-      "hunt_icbc_rate"
-    ]
-  },
-  {
-    "id": "stabroek_exim_guyana_gte_2025",
-    "type": "journalism",
-    "chicago": "Stabroek News. “Guyana, US EXIM Bank ink ‘game changer’ US$527m pact.” 11 January 2025.",
-    "url": "https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/",
-    "annotation": "Corroborates fixed 4% over 15 years / 30 semi-annual installments from 1 May 2031 for U.S. EXIM Guyana GtE loan, quoting VP Jagdeo. Press-only; supports proxy row.",
-    "supports": [
-      "exim_us_guyana_gte_2025"
-    ]
-  },
-  {
-    "id": "exim_gov_guyana_gte_approval_2024",
-    "type": "official",
-    "chicago": "Export-Import Bank of the United States. “Board of Directors Approves More Than $526 Million for Guyanese Energy Project.” 26 December 2024.",
-    "url": "https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy",
-    "annotation": "Official EXIM approval of ~USD 527m Guyana Gas-to-Energy financing under CTEP. Confirms size/project; does not publish the interest rate on the opened page.",
-    "supports": [
-      "exim_us_guyana_gte_2025"
+    ],
+    "map_supports": [
+      "cmoc_argus_fenb_kgNb_2025",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -898,26 +245,13 @@
     "supports": [
       "xd_eletrobras_wave4_xfmr_2025",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "pboc_cny_20251128",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 28 November 2025.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.0789 CNY on 2025-11-28. FX for xd_eletrobras_wave4_xfmr_2025.",
-    "supports": [
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
       "xd_eletrobras_wave4_xfmr_2025"
-    ]
-  },
-  {
-    "id": "megawhat_ge_arauco_sucuriu_2025",
-    "type": "journalism",
-    "chicago": "Souto, Poliana. “GE Vernova fornecerá subestação GIS para fábrica de celulose da Arauco no MS.” Megawhat, 14 August 2025.",
-    "url": "https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/",
-    "annotation": "Opened for U.S.-seller power-equipment hunt vs WAVE4. Confirms GE Vernova scope (230 kV GIS, five power transformers, cable, Ilha Solteira 2) for Arauco Sucuriú; no contract or unit price on the page. Documents a dry pass.",
-    "supports": [
-      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -929,16 +263,13 @@
     "supports": [
       "xd_kimal_lo_aguirre_cs_2022",
       "hunt_cl_power_equip"
-    ]
-  },
-  {
-    "id": "hitachi_garabi_hvdc_2023",
-    "type": "journalism",
-    "chicago": "Hitachi Energy. “Hitachi Energy wins order to upgrade world-record high-voltage direct current transmission system.” Press release, 9 November 2023. Corroboration: Robson Rodrigues, “Hitachi Energy e Taesa se unem por reforma do linhão…,” Valor Econômico, 9 November 2023.",
-    "url": "https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system",
-    "annotation": "Opened for allied/U.S.-adjacent HVDC hunt vs Kimal XD. Confirms Garabi back-to-back upgrade scope (MACH control); Valor states contract value not disclosed. Documents a dry pass. Valor URL: https://valor.globo.com/empresas/noticia/2023/11/09/hitachi-energy-e-taesa-se-unem-por-reforma-do-linhao-de-energia-entre-brasil-e-argentina.ghtml",
-    "supports": [
-      "hunt_cl_power_equip"
+    ],
+    "map_supports": [
+      "hunt_cl_power_equip",
+      "xd_kimal_lo_aguirre_cs_2022"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -949,6 +280,12 @@
     "annotation": "Opened for Mexico power-equipment hunt. Tender calendar only (fallo scheduled 8 Aug 2025); no award amounts or bidder names on this page. Documents a dry pass.",
     "supports": [
       "hunt_mx_power_equip"
+    ],
+    "map_supports": [
+      "hunt_mx_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -960,16 +297,13 @@
     "supports": [
       "huawei_ctg_arinos_inv_2022",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "sma_diego_almagro_sur_2021",
-    "type": "journalism",
-    "chicago": "SMA Solar Technology AG. “SMA receives order for large-scale project in the Atacama Desert.” Press release, 3 February 2021.",
-    "url": "https://www.sma.de/en/newsroom/news-details/sma-receives-order-for-large-scale-project-in-the-atacama-desert",
-    "annotation": "Opened for allied inverter hunt vs Huawei Arinos. Confirms 46 MVPS / Sunny Central 4600 for Colbún Diego de Almagro Sur 220 MW; no contract or USD/MW price. Documents a dry pass.",
-    "supports": [
-      "hunt_cl_power_equip"
+    ],
+    "map_supports": [
+      "huawei_ctg_arinos_inv_2022",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -981,16 +315,13 @@
     "supports": [
       "siemens_terranova_gis_xfmr_2026",
       "hunt_br_power_equip"
-    ]
-  },
-  {
-    "id": "fed_h10_brl_20260316",
-    "type": "official",
-    "chicago": "Board of Governors of the Federal Reserve System. “Foreign Exchange Rates — H.10.” Weekly release, 23 March 2026 (Brazil real, 16 March 2026).",
-    "url": "https://www.federalreserve.gov/releases/h10/20260323/",
-    "annotation": "Fed H.10 Brazil real 5.2661 per USD on 2026-03-16. FX for siemens_terranova_gis_xfmr_2026.",
-    "supports": [
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
       "siemens_terranova_gis_xfmr_2026"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1001,38 +332,12 @@
     "annotation": "Opened for U.S.-seller HVDC/grid-equipment hunt vs Kimal XD. Confirms Transelec Ana María + Monte Mina: four sync condensers + 220 kV GIS; no contract price. Documents a dry pass; rotates lane after dry_streak 3.",
     "supports": [
       "hunt_cl_power_equip"
-    ]
-  },
-  {
-    "id": "vanadiumprice_fenb_20240523",
-    "type": "journalism",
-    "chicago": "VanadiumPrice.com. “China Ferroniobium Market Prices On 23 May 2024.” 23 May 2024.",
-    "url": "https://vanadiumprice.com/2024/05/23/china-ferroniobium-market-prices-on-23-may-2024/",
-    "annotation": "Same-day trade-press quotes: Brazilian FeNb65 235–238k CNY/t and Chinese 60-A 300–320k CNY/t. Spec grades differ; UNVERIFIED proxy for fenb_br_vs_cn_20240523.",
-    "supports": [
-      "fenb_br_vs_cn_20240523",
-      "hunt_fenb_araxa"
-    ]
-  },
-  {
-    "id": "pboc_cny_20240523",
-    "type": "official",
-    "chicago": "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 23 May 2024.",
-    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5359978/index.html",
-    "annotation": "PBOC central parity 1 USD = 7.1098 CNY on 2024-05-23. FX for fenb_br_vs_cn_20240523.",
-    "supports": [
-      "fenb_br_vs_cn_20240523"
-    ]
-  },
-  {
-    "id": "niocorp_ars_2025_fenb_argus",
-    "type": "official",
-    "chicago": "NioCorp Developments Ltd. Annual Report / Form 10-K for the year ended June 30, 2025. Commodity-price table (Ferroniobium U.S. Price $/kg-Nb). SEC EDGAR accession 0001539497-26-000785.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726000785/n2574_x309-ars.pdf",
-    "annotation": "Argus Metal Prices average annual ending FeNb65 FOB U.S. warehouse USD 46/kg-Nb for calendar 2024. Market assessment, not a CBMM invoice. Supports niocorp_argus_fenb_us_2024.",
-    "supports": [
-      "niocorp_argus_fenb_us_2024",
-      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "hunt_cl_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1044,6 +349,12 @@
     "supports": [
       "fenb_br66_vs_cn60a_20260921",
       "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1055,6 +366,13 @@
     "supports": [
       "cosco_chancay_port_2024",
       "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "cosco_chancay_port_2024",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1066,6 +384,13 @@
     "supports": [
       "zpmc_itapoa_rtg_2023",
       "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_itapoa_rtg_2023"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1077,6 +402,13 @@
     "supports": [
       "chec_jamaica_spark_roads_2024",
       "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "chec_jamaica_spark_roads_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1087,6 +419,12 @@
     "annotation": "Press report of CRCC-led Demerara River Bridge contract at US$260m. UNVERIFIED until ministry document confirms. Supports crcc_demerara_bridge_2022.",
     "supports": [
       "crcc_demerara_bridge_2022"
+    ],
+    "map_supports": [
+      "crcc_demerara_bridge_2022"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1098,6 +436,13 @@
     "supports": [
       "huaxin_embu_aggregates_br_2025",
       "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "huaxin_embu_aggregates_br_2025",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1109,6 +454,13 @@
     "supports": [
       "sinoma_loma_negra_amali_epc",
       "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "sinoma_loma_negra_amali_epc"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1120,6 +472,13 @@
     "supports": [
       "ganfeng_pastos_grandes_stake_2024",
       "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "ganfeng_pastos_grandes_stake_2024",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1130,6 +489,12 @@
     "annotation": "Trade press summarizing Ganfeng exchange announcement on Lithea/PPG. Treated as UNVERIFIED proxy until primary filing opened. Supports ganfeng_lithea_ppg_2022.",
     "supports": [
       "ganfeng_lithea_ppg_2022"
+    ],
+    "map_supports": [
+      "ganfeng_lithea_ppg_2022"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1141,6 +506,13 @@
     "supports": [
       "mmg_las_bambas_peru",
       "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "mmg_las_bambas_peru"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1151,6 +523,12 @@
     "annotation": "Company primary listing of Cerro Verde (Peru) and El Abra (Chile). Supports fcx_cerro_verde_peru.",
     "supports": [
       "fcx_cerro_verde_peru"
+    ],
+    "map_supports": [
+      "fcx_cerro_verde_peru"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1162,17 +540,13 @@
     "supports": [
       "mmg_anglo_nickel_brazil_2025",
       "hunt_res_nickel"
-    ]
-  },
-  {
-    "id": "abirochas_balanco_2023",
-    "type": "official",
-    "chicago": "ABIROCHAS (Associação Brasileira da Indústria de Rochas Ornamentais). “Balanço do setor brasileiro de rochas ornamentais e de revestimento em 2023.” Informe 01/2024, March 2024.",
-    "url": "https://abirochas.com.br/wp-content/uploads/2024/03/Informe-01_2024-Balanco-2023.pdf",
-    "annotation": "Industry association primary export balance; China among top destinations for Brazilian stone (esp. blocks). Supports abirochas_br_stone_china_2023.",
-    "supports": [
-      "abirochas_br_stone_china_2023",
-      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "hunt_res_nickel",
+      "mmg_anglo_nickel_brazil_2025"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1185,6 +559,14 @@
       "hunt_res_balsa",
       "wits_ecuador_balsa_china_2022",
       "wits_ecuador_balsa_us_2022"
+    ],
+    "map_supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2022",
+      "wits_ecuador_balsa_us_2022"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1196,6 +578,13 @@
     "supports": [
       "bechtel_qb2_desal_chile",
       "hunt_res_water"
+    ],
+    "map_supports": [
+      "bechtel_qb2_desal_chile",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1206,6 +595,12 @@
     "annotation": "Company primary NTP release for Codelco SADDN desal EPC. Supports ide_saddn_desal_chile_2023.",
     "supports": [
       "ide_saddn_desal_chile_2023"
+    ],
+    "map_supports": [
+      "ide_saddn_desal_chile_2023"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1217,6 +612,13 @@
     "supports": [
       "cbmm_araxa_presence_2024",
       "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "cbmm_araxa_presence_2024",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1228,6 +630,13 @@
     "supports": [
       "cnnc_atucha_hualong_epc_2022",
       "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "cnnc_atucha_hualong_epc_2022",
+      "hunt_energy_fission_smr"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1239,6 +648,13 @@
     "supports": [
       "sma_diego_almagro_sur_chile",
       "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "sma_diego_almagro_sur_chile"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1250,6 +666,13 @@
     "supports": [
       "goldwind_pemuco_chile",
       "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "goldwind_pemuco_chile",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1260,6 +683,12 @@
     "annotation": "Company primary announcement of 1,310 MW Brazil order for Casa dos Ventos. Supports vestas_casa_dos_ventos_br_2023.",
     "supports": [
       "vestas_casa_dos_ventos_br_2023"
+    ],
+    "map_supports": [
+      "vestas_casa_dos_ventos_br_2023"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1271,6 +700,13 @@
     "supports": [
       "ge_vernova_serra_tigre_ais_2023",
       "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "ge_vernova_serra_tigre_ais_2023",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1282,6 +718,13 @@
     "supports": [
       "powerchina_chucas_cr_ref",
       "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "powerchina_chucas_cr_ref"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1293,6 +736,13 @@
     "supports": [
       "jinko_brazil_module_imports_2023",
       "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "jinko_brazil_module_imports_2023"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1304,6 +754,13 @@
     "supports": [
       "carem25_argentina_iaea_2025",
       "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "carem25_argentina_iaea_2025",
+      "hunt_energy_fission_smr"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1315,6 +772,13 @@
     "supports": [
       "hutchison_eit_ensenada_2022",
       "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "hutchison_eit_ensenada_2022"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1326,6 +790,13 @@
     "supports": [
       "crrc_ba_line_b_2025",
       "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "crrc_ba_line_b_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1337,6 +808,13 @@
     "supports": [
       "alstom_mexico_dmu_2025",
       "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "alstom_mexico_dmu_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1348,6 +826,13 @@
     "supports": [
       "chinalco_toromocho_peru",
       "hunt_res_copper"
+    ],
+    "map_supports": [
+      "chinalco_toromocho_peru",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1359,6 +844,13 @@
     "supports": [
       "anglo_brazil_nickel_sale_2025",
       "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "anglo_brazil_nickel_sale_2025",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1370,6 +862,13 @@
     "supports": [
       "chec_jamaica_schip_bri",
       "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "chec_jamaica_schip_bri",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1382,6 +881,14 @@
       "ge_vernova_transelec_sync_chile_2024",
       "hunt_br_power_equip",
       "hunt_cl_power_equip"
+    ],
+    "map_supports": [
+      "ge_vernova_transelec_sync_chile_2024",
+      "hunt_br_power_equip",
+      "hunt_cl_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1393,6 +900,13 @@
     "supports": [
       "ide_aconcagua_desal_chile_2023",
       "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "ide_aconcagua_desal_chile_2023"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1404,6 +918,13 @@
     "supports": [
       "codelco_sqm_novaandino_2025",
       "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "codelco_sqm_novaandino_2025",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1415,6 +936,13 @@
     "supports": [
       "zpmc_dpworld_lirquen_2022",
       "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_dpworld_lirquen_2022"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1427,6 +955,14 @@
       "hunt_energy_other_renewables",
       "ormat_amatitlan_guatemala",
       "ormat_zunil_guatemala"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "ormat_amatitlan_guatemala",
+      "ormat_zunil_guatemala"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1438,6 +974,13 @@
     "supports": [
       "nordex_auren_cajuina3_2025",
       "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "nordex_auren_cajuina3_2025"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1450,6 +993,14 @@
       "cmoc_catalao_niobium_br",
       "hunt_fenb_araxa",
       "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "cmoc_catalao_niobium_br",
+      "hunt_fenb_araxa",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1462,6 +1013,14 @@
       "hunt_res_balsa",
       "wits_ecuador_balsa_china_2023",
       "wits_ecuador_balsa_us_2023"
+    ],
+    "map_supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2023",
+      "wits_ecuador_balsa_us_2023"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1473,6 +1032,13 @@
     "supports": [
       "sinoma_votorantim_z02_br_2024",
       "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "hunt_infra_building_materials",
+      "sinoma_votorantim_z02_br_2024"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1484,6 +1050,13 @@
     "supports": [
       "fluor_salares_norte_chile_2024",
       "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "fluor_salares_norte_chile_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1495,6 +1068,13 @@
     "supports": [
       "bechtel_los_pelambres_inco_2024",
       "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "bechtel_los_pelambres_inco_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1506,6 +1086,13 @@
     "supports": [
       "acciona_collahuasi_desal_chile",
       "hunt_res_water"
+    ],
+    "map_supports": [
+      "acciona_collahuasi_desal_chile",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1517,6 +1104,13 @@
     "supports": [
       "vestas_cimarron_mexico_2024",
       "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "vestas_cimarron_mexico_2024"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1528,6 +1122,13 @@
     "supports": [
       "hitachi_garabi_hvdc_upgrade_2023",
       "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hitachi_garabi_hvdc_upgrade_2023",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1539,6 +1140,13 @@
     "supports": [
       "hitachi_brazil_transformer_capex_2024",
       "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hitachi_brazil_transformer_capex_2024",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1551,6 +1159,14 @@
       "hunt_res_balsa",
       "wits_ecuador_balsa_china_2024",
       "wits_ecuador_balsa_us_2024"
+    ],
+    "map_supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2024",
+      "wits_ecuador_balsa_us_2024"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1562,6 +1178,13 @@
     "supports": [
       "trina_cemig_sim_brazil_2023",
       "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "trina_cemig_sim_brazil_2023"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1573,18 +1196,13 @@
     "supports": [
       "recurrent_ciranda_solar_br_2023",
       "hunt_energy_solar"
-    ]
-  },
-  {
-    "id": "abirochas_informe_01_2024",
-    "type": "official",
-    "chicago": "ABIROCHAS. “Balanço do Setor Brasileiro de Rochas Ornamentais e de Revestimento em 2023.” Informe 01/2024, March 2024.",
-    "url": "https://abirochas.com.br/wp-content/uploads/2024/03/Informe-01_2024-Balanco-2023.pdf",
-    "annotation": "Industry association balance of Brazilian ornamental stone exports. Supports China and US destination rows.",
-    "supports": [
-      "abirochas_br_stone_china_2023",
-      "abirochas_br_stone_us_2023",
-      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "recurrent_ciranda_solar_br_2023"
+    ],
+    "layers": [
+      "energy"
     ]
   },
   {
@@ -1596,6 +1214,13 @@
     "supports": [
       "apmt_btp_santos_concession_2023",
       "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "apmt_btp_santos_concession_2023",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   },
   {
@@ -1607,6 +1232,13 @@
     "supports": [
       "south_star_santa_cruz_graphite_2024",
       "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "hunt_res_graphite",
+      "south_star_santa_cruz_graphite_2024"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1618,6 +1250,13 @@
     "supports": [
       "nacional_de_grafite_mg_presence",
       "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "hunt_res_graphite",
+      "nacional_de_grafite_mg_presence"
+    ],
+    "layers": [
+      "resources"
     ]
   },
   {
@@ -1629,6 +1268,13 @@
     "supports": [
       "graphex_south_star_brazil_offtake_2023",
       "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "graphex_south_star_brazil_offtake_2023",
+      "hunt_res_graphite"
+    ],
+    "layers": [
+      "resources"
     ]
   }
 ]
