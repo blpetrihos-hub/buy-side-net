@@ -3238,3 +3238,65 @@
   supports:
   - atlas_malacacheta_graphite_mre_2026
   - hunt_res_graphite
+- id: globalcement_intercement_20260407
+  type: trade_press
+  chicago: Global Cement. “Consortium takes control of InterCement and Loma Negra.” 7 April 2026.
+  url: https://globalcement.com/news/20621-consortium-takes-control-of-intercement-and-loma-negra
+  annotation: Trade press on InterCement reorganisation control transfer and USD 110m inject. Supports
+    intercement_latcem_newmoney_2026.
+  supports:
+  - intercement_latcem_newmoney_2026
+  - hunt_infra_building_materials
+- id: bo_galan_hmw_rigi_20250828
+  type: government
+  chicago: 'Ministerio de Economía (Argentina). “Resolución 1271/2025 — Régimen de Incentivo para Grandes
+    Inversiones: Proyecto Hombre Muerto Oeste (HMW).” Boletín Oficial, 28 August 2025.'
+  url: https://www.boletinoficial.gob.ar/detalleAviso/primera/330470/20250828
+  annotation: Official RIGI approval of Galan HMW with USD 217.09m declared investment. Supports galan_hmw_rigi_2025.
+  supports:
+  - galan_hmw_rigi_2025
+  - hunt_res_lithium
+- id: mnd_enal_celaya_20250908
+  type: trade_press
+  chicago: Mexico News Daily. “Slim subsidiary granted 30-year concession to develop geothermal plot in
+    Guanajuato.” 8 September 2025.
+  url: https://www.mexiconewsdaily.com/business/slim-subsidiary-granted-permit-80-million-geothermal-plot/
+  annotation: Press on Enal/Carso Celaya geothermal concession and ~USD 80m plant. Supports enal_celaya_geothermal_80m_2025.
+  supports:
+  - enal_celaya_geothermal_80m_2025
+  - hunt_energy_other_renewables
+- id: maritimepro_ssa_guaymas_20260921
+  type: trade_press
+  chicago: Maritime Professional. “SSA Marine México Guaymas Terminal Received STS, ERTG Cranes.” 21 September
+    2026.
+  url: https://www.maritimeprofessional.com/news/marine-xico-guaymas-terminal-received-423079
+  annotation: Trade notice of SSA Guaymas STS/eRTG delivery. Supports ssa_guaymas_sts_ertg_2026.
+  supports:
+  - ssa_guaymas_sts_ertg_2026
+  - hunt_infra_port_cranes
+- id: mmg_annual_results_20260303
+  type: company
+  chicago: MMG Limited. “Announcement on 2025 Annual Results.” 3 March 2026.
+  url: https://www.mmg.com/content/uploads/2026/03/e_2026-03-03_2025-Annual-Results.pdf
+  annotation: Company annual results with Las Bambas 2026 capex guidance USD 800–850m. Supports mmg_las_bambas_2026_capex.
+  supports:
+  - mmg_las_bambas_2026_capex
+  - hunt_res_copper
+- id: proinversion_sierra_t4_20250725
+  type: government
+  chicago: PROINVERSIÓN (Peru). “Gobierno adjudica concesión de la Longitudinal de la Sierra Tramo 4 que
+    beneficiará a cinco regiones.” 25 July 2025.
+  url: https://www.gob.pe/institucion/proinversion/noticias/1214928-gobierno-adjudica-concesion-de-la-longitudinal-de-la-sierra-tramo-4-que-beneficiara-a-cinco-regiones
+  annotation: Official award of Sierra Tramo 4 APP at USD 1.582bn. Supports sierra_tramo4_vial_centro_2025.
+  supports:
+  - sierra_tramo4_vial_centro_2025
+  - hunt_infra_bridges_roads
+- id: revistaei_sidon_solar_20250625
+  type: trade_press
+  chicago: Revista Electricidad. “Proyecto fotovoltaico emplazado en regiones del Biobío y Ñuble ingresa
+    al SEA.” 25 June 2025.
+  url: https://www.revistaei.cl/proyecto-fotovoltaico-emplazado-en-regiones-del-biobio-y-nuble-ingresa-al-sea/
+  annotation: Trade press on Trina Sidón Solar SEA entry and USD 100m. Supports trina_sidon_solar_100m_2025.
+  supports:
+  - trina_sidon_solar_100m_2025
+  - hunt_energy_solar
