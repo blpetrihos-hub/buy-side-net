@@ -961,6 +961,13 @@ misses:
 #   Equal-budget misses: copper, niobium, water, solar, fission_smr, power_plants_grid, rail,
 #   lithium, balsa, wind.
 
+# Cycle 38 (seed 20261038): 5 sourced rows; hits on port_cranes (Kalmar TCP 20 hybrid straddles),
+#   other_renewables (Acciona El Romero BESS 196MW/980MWh), water (Antofagasta Zaldívar USD 0.9bn),
+#   fission_smr (Peru SMR promotion law; U.S.–Ecuador civil nuclear MoU).
+#   Thin fills: water, fission_smr.
+#   Equal-budget misses: rail, nickel, balsa, graphite, building_materials, lithium, solar,
+#   port_ownership, wind, bridges_roads, niobium, power_plants_grid, engineering_epc, copper.
+
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
 # Hunt retargeted to LatAm graphite mining/processing/anode chains; logged South Star,
