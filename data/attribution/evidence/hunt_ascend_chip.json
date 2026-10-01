@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-10-01",
-  "source_id": "ccgp_cip_atlas800i_2025",
-  "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
+  "source_id": "ccgp_snnu_atlas800i_2025",
+  "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
   "price_year": "2025",
   "evidence": "hunt",
-  "quote": "GPU并行运算服务器 … 华为 … Atlas800I A2 … 1 … 1320000",
-  "note": "Cycle 33 logged Atlas 800I A2 one-sided system award. Still hunting same-spec USD/chip H20 vs Ascend pair."
+  "quote": "Atlas 800I A2 … 1798000",
+  "note": "Cycle 34 logged another Atlas 800I A2 one-sided system award. Still hunting same-spec USD/chip H20 vs Ascend pair."
 }

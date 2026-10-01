@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_cip_atlas800i_2025",
-    "note": "Cycle 33 logged cip_atlas800i_a2_2025 as one_sided PRC: Huawei Atlas 800I A2 at CNY 1,320,000/system (Oct 2025). Chip count not on award table. Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
-    "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
-    "quote": "GPU并行运算服务器 … 华为 … Atlas800I A2 … 1 … 1320000"
+    "source_id": "ccgp_snnu_atlas800i_2025",
+    "note": "Cycle 34 logged snnu_atlas800i_a2_2025 as one_sided PRC: Huawei Atlas 800I A2 at CNY 1,798,000/system (Aug 2025). Chip count not on award table. Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
+    "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
+    "quote": "Atlas 800I A2 … 1798000"
   },
   {
     "id": "hunt_icbc_rate",
@@ -1052,5 +1052,36 @@
     "note": "One-sided PRC. CCGP 22 Oct 2025: Huawei Atlas 800I A2 at CNY 1,320,000 (1 unit) within a CNY 2.80m package that also awards H3C UniServer R5330 G7, KunTai R722, AI platform, and switch lines—those lines not used here. Unit is USD/system, not USD/chip; Ascend card count not printed on the award table — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.0954 CNY on 2025-10-22.",
     "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251022_25555038.htm",
     "quote": "GPU并行运算服务器 … 华为 … Atlas800I A2 … 1 … 1320000"
+  },
+  {
+    "id": "snnu_atlas800i_a2_2025",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "Shaanxi Normal University (data-center basic compute platform)",
+    "seller_us": "",
+    "seller_prc": "Huawei (Atlas 800I A2 via Shaanxi Hesheng / 陕西和生科技)",
+    "city": "Xi'an",
+    "lat": null,
+    "lon": null,
+    "geo_note": "Buyer address on award: Changan District West Changan Ave 620 Xian; lat/lon left blank (no verified campus coordinates opened).",
+    "price_year": "2025",
+    "spec": "Huawei Atlas 800I A2 high-performance AI training server (1 set); system price, not per-chip; chip count not stated on award table",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.14017971,
+    "fx_date": "2025-08-14",
+    "us_price": null,
+    "prc_price": 1798000.0,
+    "us_price_usd": null,
+    "prc_price_usd": 252043.12,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "ccgp_snnu_atlas800i_2025",
+    "note": "One-sided PRC. CCGP 14 Aug 2025: line-item prices map Atlas 800I A2 at CNY 1,798,000 (1套); same award also lists 博瀚 AI platform (CNY 358,000×2), Atlas 800 Model 3000 (CNY 23,000), workstations, and switches—those lines not used here. Unit is USD/system, not USD/chip; Ascend card count not printed — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.1337 CNY on 2025-08-14.",
+    "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
+    "quote": "Atlas 800I A2、博瀚AI通用平台…Atlas 800 (Model 3000)… … 1套、2台、1台… … 1798000、358000、23000"
   }
 ]

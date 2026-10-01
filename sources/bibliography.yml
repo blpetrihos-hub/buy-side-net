@@ -366,3 +366,17 @@
   annotation: "PBOC central parity 1 USD = 7.0954 CNY on 2025-10-22. FX for cip_atlas800i_a2_2025."
   supports: ["cip_atlas800i_a2_2025"]
 
+- id: ccgp_snnu_atlas800i_2025
+  type: official
+  chicago: "陕西师范大学 / 中国政府采购网. “数据中心基础设施建设—基础计算平台项目中标公告.” 14 August 2025."
+  url: "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm"
+  annotation: "Atlas 800I A2 at CNY 1,798,000 (1套) among multi-SKU award. One-sided PRC system price for snnu_atlas800i_a2_2025."
+  supports: ["snnu_atlas800i_a2_2025", "hunt_ascend_chip"]
+
+- id: pboc_cny_20250814
+  type: official
+  chicago: "People’s Bank of China / China Foreign Exchange Trade System. “人民币汇率中间价公告.” 14 August 2025."
+  url: "http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5809872/index.html"
+  annotation: "PBOC central parity 1 USD = 7.1337 CNY on 2025-08-14. FX for snnu_atlas800i_a2_2025."
+  supports: ["snnu_atlas800i_a2_2025"]
+
