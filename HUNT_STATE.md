@@ -1,81 +1,81 @@
 updated: 2026-10-01
-cycle: 3
+cycle: 4
 remote: present
-active_layer: infrastructure
-active_subcategory: port_ownership
-next_query: Cycle 4 shuffle_seed=20261004; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-4 shuffled_order)
+active_layer: energy
+active_subcategory: solar
+next_query: Cycle 5 shuffle_seed=20261005; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-5 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261003
+shuffle_seed: 20261004
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- resources/nickel
-- energy/fission_smr
-- infrastructure/engineering_epc
-- resources/water
-- infrastructure/bridges_roads
-- energy/wind
-- energy/power_plants_grid
-- resources/balsa
-- resources/niobium
-- infrastructure/port_cranes
-- resources/copper
-- infrastructure/building_materials
-- resources/lithium
-- infrastructure/rail
 - energy/solar
-- resources/graphite
 - energy/other_renewables
 - infrastructure/port_ownership
+- energy/power_plants_grid
+- resources/water
+- energy/fission_smr
+- resources/balsa
+- energy/wind
+- resources/lithium
+- infrastructure/rail
+- resources/graphite
+- infrastructure/bridges_roads
+- resources/copper
+- infrastructure/building_materials
+- resources/niobium
+- resources/nickel
+- infrastructure/port_cranes
+- infrastructure/engineering_epc
 
 rows_found_this_cycle:
-  resources/nickel: 0
-  energy/fission_smr: 0
-  infrastructure/engineering_epc: 0
-  resources/water: 1
-  infrastructure/bridges_roads: 0
-  energy/wind: 1
-  energy/power_plants_grid: 2
-  resources/balsa: 2
-  resources/niobium: 0
-  infrastructure/port_cranes: 0
-  resources/copper: 0
-  infrastructure/building_materials: 0
-  resources/lithium: 0
-  infrastructure/rail: 0
-  energy/solar: 2
-  resources/graphite: 1
+  energy/solar: 1
   energy/other_renewables: 1
   infrastructure/port_ownership: 1
+  energy/power_plants_grid: 0
+  resources/water: 1
+  energy/fission_smr: 1
+  resources/balsa: 0
+  energy/wind: 1
+  resources/lithium: 1
+  infrastructure/rail: 2
+  resources/graphite: 1
+  infrastructure/bridges_roads: 1
+  resources/copper: 1
+  infrastructure/building_materials: 1
+  resources/niobium: 0
+  resources/nickel: 1
+  infrastructure/port_cranes: 1
+  infrastructure/engineering_epc: 1
 
 coverage_cumulative:
-  # Active (non-archived, non-exclude) observation counts after cycle 3
-  infrastructure/port_ownership: 3
-  infrastructure/port_cranes: 2
-  infrastructure/rail: 4
-  infrastructure/bridges_roads: 3
-  infrastructure/building_materials: 2
-  infrastructure/engineering_epc: 3
-  resources/niobium: 3
-  resources/lithium: 3
-  resources/copper: 3
-  resources/nickel: 2
-  resources/graphite: 3
-  resources/balsa: 6
-  resources/water: 4
-  energy/fission_smr: 2
-  energy/solar: 5
-  energy/wind: 4
-  energy/power_plants_grid: 12
-  energy/other_renewables: 3
+  # Active (non-archived, non-exclude) observation counts after cycle 4
+  infrastructure/port_ownership: 5
+  infrastructure/port_cranes: 4
+  infrastructure/rail: 7
+  infrastructure/bridges_roads: 5
+  infrastructure/building_materials: 4
+  infrastructure/engineering_epc: 5
+  resources/niobium: 4
+  resources/lithium: 5
+  resources/copper: 5
+  resources/nickel: 4
+  resources/graphite: 5
+  resources/balsa: 7
+  resources/water: 6
+  energy/fission_smr: 4
+  energy/solar: 7
+  energy/wind: 6
+  energy/power_plants_grid: 15
+  energy/other_renewables: 5
 
 seen_urls:
 - https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115
@@ -132,6 +132,23 @@ seen_urls:
 - https://www.grafite.com/en/
 - https://graphexgroup.com/2023/10/25/graphex-technologies-reinforces-its-diverse-mine-to-battery-global-strategy-following-the-announcement-of-graphite-export-limits-from-china/
 
+- https://www.prnewswire.com/news-releases/recurrent-energy-and-spic-inaugurate-446-mwp-solar-complex-in-brazil-302167837.html
+- http://6j.powerchina.cn/col/col4463/art/2025/art_28b686f9144945ee879752c8e5a67f57.html
+- https://www.dpworld.com/en/news/peruvian-trade-set-for-boost-as-dp-world-completes-400m-callao-port-expansion
+- https://www.acciona.com/updates/news/acciona-build-operate-cabos-desalination-plant-mexico
+- https://www.world-nuclear-news.org/articles/argentina-announces-privately-financed-smr-plan
+- https://www.goldwind.com/en/news/focus-1116679091689538560
+- https://www.riotinto.com/en/news/releases/2024/rio-tinto-to-invest-2_5-billion-to-expand-rincon-lithium-project-capacity-to-60000-tonnes-per-year
+- https://press.siemens.com/global/en/pressrelease/siemens-digitalize-sao-paulos-metro-line-4-yellow-extension
+- https://www.railwaygazette.com/metro-metro-categories/2026/07/17/crrc-wins-salvador-metro-train-order/
+- https://appiancapitaladvisory.com/graphcoas-new-graphite-plant-boosts-energy-transition-in-brazil/
+- https://com.gd.gov.cn/zcqggfwpt/tzjy/content/post_4669445.html
+- https://www.gmexico.com/GMDocs/Home/Eng/4th_Quarter_2025_Report.pdf
+- https://www.holcim.com/media/media-releases/holcim-to-acquire-majority-stake-cementos-pacasmayo
+- https://www.centaurus.com.au/site/pdf/621b42c5-21e4-4c49-b7e2-dc2ae304ffc2/Jaguar-Nickel-Project-Mining-Lease-Granted.pdf?Platform=ListPage
+- https://www.santosbrasil.com.br/v2021/noticia/novos-guindastes-de-operacao-remota-chegam-ao-tecon-santos
+- https://www.fluor.com/projects/toromocho-expansion-project
+
 misses:
 - 2026-10-01 | infrastructure/rail | cycle1 budget | U.S. or new PRC rail award 2021-2026 beyond existing SP metro / EFE rows | no additional sourced rail row opened in this cycle's time box (existing rows retained)
 - 2026-10-01 | resources/graphite | cycle2 budget | New graphite row (taxonomy was still mislabeled granite that cycle) | later corrected to graphite; ABIROCHAS ornamental-stone rows archived
@@ -145,13 +162,19 @@ misses:
 - 2026-10-01 | infrastructure/building_materials | cycle3 budget | New cement/aggregates award beyond Huaxin / Sinoma | miss
 - 2026-10-01 | resources/lithium | cycle3 budget | New lithium deal beyond Ganfeng / NovaAndino | miss
 - 2026-10-01 | infrastructure/rail | cycle3 budget | New rail award beyond CRRC Line B / Alstom Mexico | miss
+- 2026-10-01 | energy/power_plants_grid | cycle4 budget | New grid/transformer award beyond Siemens/GE/Hitachi rows already logged | equal time box; thick subcategory — miss
+- 2026-10-01 | resources/balsa | cycle4 budget | New balsa trade year beyond WITS Ecuador 2022–2024 US/China pairs | miss
+- 2026-10-01 | resources/niobium | cycle4 budget | New FeNb unit price or ownership beyond CBMM / CMOC | miss
 
 # Redesign reset (2026-10-01). Geography: Latin America and the Caribbean only.
 # Shuffle rule: equal per-subcategory budgets; logged seed each cycle.
 # Cycle 2 (seed 20261002): 20 sourced rows; graphite miss.
 # Cycle 3 (seed 20261003): 11 sourced rows; 10 equal-budget misses on already-covered subcats.
+# Cycle 4 (seed 20261004): 16 sourced rows; thin hits on fission_smr, nickel, port_cranes, building_materials;
+#   also filled cycle-3 miss targets (rail, bridges_roads, copper, lithium, engineering_epc, port_ownership).
+#   Equal-budget misses: power_plants_grid, balsa, niobium.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).
 # Hunt retargeted to LatAm graphite mining/processing/anode chains; logged South Star,
-# Nacional de Grafite, Graphex–Santa Cruz offtake.
+# Nacional de Grafite, Graphex–Santa Cruz offtake; Cycle 4 added Graphcoa Boa Sorte.
