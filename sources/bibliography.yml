@@ -2110,3 +2110,48 @@
   supports:
   - worley_diablillos_abrasilver_2026
   - hunt_infra_engineering_epc
+- id: boletin_oficial_res_1157_2026
+  type: official
+  chicago: Argentina. Ministerio de Economía. “Resolución 1157/2026” (RIGI adhesión — Posco Argentina
+    SAU SDE / Sal de Oro II). Boletín Oficial de la República Argentina, 31 July 2026.
+  url: https://www.boletinoficial.gob.ar/detalleAviso/primera/345279/20260731
+  annotation: Official RIGI approval for POSCO Sal de Oro II Li2CO3 plant. Supports posco_sal_de_oro_ii_rigi_2026.
+  supports:
+  - posco_sal_de_oro_ii_rigi_2026
+  - hunt_res_lithium
+- id: compras_dominicana_la_gina_20260519
+  type: official
+  chicago: República Dominicana. Dirección General de Contrataciones Públicas / EGEHID. “EGEHID-CCC-LPN-2025-0032
+    — Presa La Gina” (Award DO1.AWD.1951818). Compras Dominicana, 19 May 2026.
+  url: https://comunidad.comprasdominicana.gob.do/Public/Tendering/OpportunityDetail/Index?asPopupView=true&isModal=true&noticeUID=DO1.NTC.1617547
+  annotation: Official procurement award for La Gina multipurpose dam/hydro. Supports acciona_la_gina_dr_2026.
+  supports:
+  - acciona_la_gina_dr_2026
+  - hunt_energy_other_renewables
+- id: ormat_dominica_ppa_20231206
+  type: official
+  chicago: Ormat Technologies, Inc. “Ormat Signed Historic 25-Year Power Purchase Agreement With Dominica
+    Electricity Services Ltd.” 6 December 2023.
+  url: https://investor.ormat.com/news-events/news/news-details/2023/Ormat-Signed-Historic-25-Year-Power-Purchase-Agreement-With-Dominica-Electricity-Services-Ltd/default.aspx
+  annotation: Company primary Dominica geothermal PPA. Supports ormat_dominica_geothermal_ppa_2023.
+  supports:
+  - ormat_dominica_geothermal_ppa_2023
+  - hunt_energy_other_renewables
+- id: south_star_po_20260807
+  type: official
+  chicago: South Star Battery Metals Corp. “South Star Achieves Graphite Purchase Order Milestone.” GlobeNewswire,
+    7 August 2026.
+  url: https://www.globenewswire.com/news-release/2026/08/07/3341011/0/en/south-star-achieves-graphite-purchase-order-milestone.html
+  annotation: Company primary first commercial PO for Santa Cruz concentrate. Supports south_star_santa_cruz_po_36t_2026.
+  supports:
+  - south_star_santa_cruz_po_36t_2026
+  - hunt_res_graphite
+- id: konecranes_cartagena_25rtg_press
+  type: official
+  chicago: Konecranes. “Major Colombian Container Terminal extends its Konecranes-led yard modernization
+    with new order for 25 RTGs and 10 more retrofits for remote supervision.” Accessed 1 October 2026.
+  url: https://investors.konecranes.com/press/major-colombian-container-terminal-extends-its-konecranes-led-yard-modernization-new-order-25
+  annotation: Company primary Cartagena RTG modernization order. Supports konecranes_cartagena_rtg_2025.
+  supports:
+  - konecranes_cartagena_rtg_2025
+  - hunt_infra_port_cranes
