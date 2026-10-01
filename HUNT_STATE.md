@@ -1,64 +1,64 @@
 updated: 2026-10-01
-cycle: 2
+cycle: 3
 remote: present
 active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 3 shuffle_seed=20261003; start at resources/nickel; equal budget_per_subcategory=1_source_family_min across all 18.
-next_row_id: (follow cycle-3 shuffled_order)
+active_subcategory: port_ownership
+next_query: Cycle 4 shuffle_seed=20261004; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box.
+next_row_id: (follow cycle-4 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261002
+shuffle_seed: 20261003
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- energy/solar
-- energy/fission_smr
-- infrastructure/port_ownership
-- infrastructure/rail
-- resources/copper
 - resources/nickel
-- infrastructure/bridges_roads
-- energy/power_plants_grid
-- resources/water
-- resources/lithium
-- resources/dimension_stone
-- infrastructure/port_cranes
-- energy/other_renewables
-- energy/wind
-- resources/niobium
-- resources/balsa
-- infrastructure/building_materials
+- energy/fission_smr
 - infrastructure/engineering_epc
+- resources/water
+- infrastructure/bridges_roads
+- energy/wind
+- energy/power_plants_grid
+- resources/balsa
+- resources/niobium
+- infrastructure/port_cranes
+- resources/copper
+- infrastructure/building_materials
+- resources/lithium
+- infrastructure/rail
+- energy/solar
+- resources/dimension_stone
+- energy/other_renewables
+- infrastructure/port_ownership
 
 rows_found_this_cycle:
-  energy/solar: 1
-  energy/fission_smr: 1
-  infrastructure/port_ownership: 1
-  infrastructure/rail: 2
-  resources/copper: 1
-  resources/nickel: 1
-  infrastructure/bridges_roads: 1
-  energy/power_plants_grid: 1
+  resources/nickel: 0
+  energy/fission_smr: 0
+  infrastructure/engineering_epc: 0
   resources/water: 1
-  resources/lithium: 1
-  resources/dimension_stone: 0
-  infrastructure/port_cranes: 1
-  energy/other_renewables: 1
+  infrastructure/bridges_roads: 0
   energy/wind: 1
-  resources/niobium: 1
+  energy/power_plants_grid: 2
   resources/balsa: 2
-  infrastructure/building_materials: 1
-  infrastructure/engineering_epc: 2
+  resources/niobium: 0
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  infrastructure/building_materials: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  energy/solar: 2
+  resources/dimension_stone: 1
+  energy/other_renewables: 1
+  infrastructure/port_ownership: 1
 
 coverage_cumulative:
-  # Active (non-archived, non-exclude) observation counts after cycle 2
-  infrastructure/port_ownership: 2
+  # Active (non-archived, non-exclude) observation counts after cycle 3
+  infrastructure/port_ownership: 3
   infrastructure/port_cranes: 2
   infrastructure/rail: 4
   infrastructure/bridges_roads: 3
@@ -68,14 +68,14 @@ coverage_cumulative:
   resources/lithium: 3
   resources/copper: 3
   resources/nickel: 2
-  resources/dimension_stone: 1
-  resources/balsa: 4
-  resources/water: 3
+  resources/dimension_stone: 2
+  resources/balsa: 6
+  resources/water: 4
   energy/fission_smr: 2
-  energy/solar: 3
-  energy/wind: 3
-  energy/power_plants_grid: 10
-  energy/other_renewables: 2
+  energy/solar: 5
+  energy/wind: 4
+  energy/power_plants_grid: 12
+  energy/other_renewables: 3
 
 seen_urls:
 - https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115
@@ -119,11 +119,30 @@ seen_urls:
 - https://www.cemnet.com/News/story/177749/sinoma-overseas-to-build-votorantim-z02-grinding-plant.html
 - https://newsroom.fluor.com/news-releases/news-details/2024/Fluor-Announces-First-Gold-from-Gold-Fields-Salares-Norte-Mining-Project-in-Chile/default.aspx
 - https://www.bechtel.com/projects/los-pelambres-copper-mine/
+- https://www.acciona.com/updates/news/acciona-build-operate-chilean-desalination-plant-mining-firm-dona-ines-collahuasi
+- https://www.vestas.com/en/media/company-news/2024/vestas-wins-order-from-sempra-infrastructure-to-build-a-c3946123
+- https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system
+- https://www.hitachienergy.com/news-and-events/features/2024/09/hitachi-energy-invests-over-200-million-usd-to-expand-transformer-operations-in-brazil-and-address-increased-global-demand
+- https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2024/tradeflow/Exports/partner/ALL/product/440723
+- https://www.prnewswire.com/news-releases/trina-solar-to-offer-modules-and-trackers-for-90mw-pv-power-plants-in-brazil-302000288.html
+- https://www.prnewswire.com/news-releases/recurrent-energy-receives-490-million-brazilian-reais-financing-for-ciranda-cluster-in-brazil-301995679.html
+- https://www.apmterminals.com/en/news/news-releases/2023/231220-usd-390-million-investment-and-new-concession-for-brasil-terminal
 
 misses:
 - 2026-10-01 | infrastructure/rail | cycle1 budget | U.S. or new PRC rail award 2021-2026 beyond existing SP metro / EFE rows | no additional sourced rail row opened in this cycle's time box (existing rows retained)
 - 2026-10-01 | resources/dimension_stone | cycle2 budget | New LatAm dimension-stone / granite trade or ownership row beyond cycle-1 ABIROCHAS China export | opened prior ABIROCHAS PDF already logged; no distinct new public source family opened in this cycle's equal time box
+- 2026-10-01 | resources/nickel | cycle3 budget | New Ni row beyond MMG/Anglo Brazil SPA pair | equal time box exhausted without a distinct new opened source
+- 2026-10-01 | energy/fission_smr | cycle3 budget | New SMR/fission award beyond CAREM / CNNC Atucha | miss
+- 2026-10-01 | infrastructure/engineering_epc | cycle3 budget | New non-grid EPC beyond Fluor Salares Norte / Bechtel Los Pelambres | miss
+- 2026-10-01 | infrastructure/bridges_roads | cycle3 budget | New bridges/roads award beyond SPARK / SCHIP / Demerara | miss
+- 2026-10-01 | resources/niobium | cycle3 budget | New FeNb unit price or ownership beyond CBMM / CMOC Catalão | miss
+- 2026-10-01 | infrastructure/port_cranes | cycle3 budget | Named crane OEM for BTP Santos STS/RTG buys | OEM not named on opened APM page — miss
+- 2026-10-01 | resources/copper | cycle3 budget | New copper ownership beyond Chinalco / MMG / FCX | miss
+- 2026-10-01 | infrastructure/building_materials | cycle3 budget | New cement/aggregates award beyond Huaxin / Sinoma | miss
+- 2026-10-01 | resources/lithium | cycle3 budget | New lithium deal beyond Ganfeng / NovaAndino | miss
+- 2026-10-01 | infrastructure/rail | cycle3 budget | New rail award beyond CRRC Line B / Alstom Mexico | miss
 
 # Redesign reset (2026-10-01). Geography: Latin America and the Caribbean only.
 # Shuffle rule: equal per-subcategory budgets; logged seed each cycle.
-# Cycle 2 (seed 20261002): 20 sourced rows across 17/18 subcategories (dimension_stone miss).
+# Cycle 2 (seed 20261002): 20 sourced rows; dimension_stone miss.
+# Cycle 3 (seed 20261003): 11 sourced rows; 10 equal-budget misses on already-covered subcats.

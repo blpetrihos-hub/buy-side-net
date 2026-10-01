@@ -1422,10 +1422,11 @@
     "type": "official",
     "chicago": "Ormat Technologies Inc. “Global Projects.” Company page. Accessed 1 October 2026.",
     "url": "https://www.ormat.com/en/projects/all/main/?pageNum=2",
-    "annotation": "Company project listing of Ormat Guatemala geothermal plants. Supports ormat_amatitlan_guatemala.",
+    "annotation": "Company project listing of Ormat Guatemala geothermal plants. Supports Amatitlán and Zunil rows.",
     "supports": [
+      "hunt_energy_other_renewables",
       "ormat_amatitlan_guatemala",
-      "hunt_energy_other_renewables"
+      "ormat_zunil_guatemala"
     ]
   },
   {
@@ -1494,6 +1495,107 @@
     "supports": [
       "bechtel_los_pelambres_inco_2024",
       "hunt_infra_engineering_epc"
+    ]
+  },
+  {
+    "id": "acciona_collahuasi_desal_20220802",
+    "type": "official",
+    "chicago": "ACCIONA. “ACCIONA to build and operate Chilean desalination plant for mining firm Doña Ines de Collahuasi.” 2 August 2022.",
+    "url": "https://www.acciona.com/updates/news/acciona-build-operate-chilean-desalination-plant-mining-firm-dona-ines-collahuasi",
+    "annotation": "Company primary award notice for Collahuasi Patache desal. Supports acciona_collahuasi_desal_chile.",
+    "supports": [
+      "acciona_collahuasi_desal_chile",
+      "hunt_res_water"
+    ]
+  },
+  {
+    "id": "vestas_cimarron_20240314",
+    "type": "official",
+    "chicago": "Vestas. “Vestas wins order from Sempra infrastructure to build a 319 MW wind farm in Mexico.” 14 March 2024.",
+    "url": "https://www.vestas.com/en/media/company-news/2024/vestas-wins-order-from-sempra-infrastructure-to-build-a-c3946123",
+    "annotation": "Company primary wind order for Cimarron/Sempra Mexico. Supports vestas_cimarron_mexico_2024.",
+    "supports": [
+      "vestas_cimarron_mexico_2024",
+      "hunt_energy_wind"
+    ]
+  },
+  {
+    "id": "hitachi_garabi_20231109",
+    "type": "official",
+    "chicago": "Hitachi Energy. “Hitachi Energy wins order to upgrade world-record high-voltage direct current transmission system.” 9 November 2023.",
+    "url": "https://www.hitachienergy.com/news-and-events/press-releases/2023/11/hitachi-energy-wins-order-to-upgrade-world-record-high-voltage-direct-current-transmission-system",
+    "annotation": "Company primary Garabi HVDC upgrade award. Supports hitachi_garabi_hvdc_upgrade_2023.",
+    "supports": [
+      "hitachi_garabi_hvdc_upgrade_2023",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "hitachi_brazil_xfmr_20240904",
+    "type": "official",
+    "chicago": "Hitachi Energy. “Hitachi Energy invests over $200 million USD to expand transformer operations in Brazil and address increased global demand.” 4 September 2024.",
+    "url": "https://www.hitachienergy.com/news-and-events/features/2024/09/hitachi-energy-invests-over-200-million-usd-to-expand-transformer-operations-in-brazil-and-address-increased-global-demand",
+    "annotation": "Company primary Brazil transformer manufacturing investment notice. Supports hitachi_brazil_transformer_capex_2024.",
+    "supports": [
+      "hitachi_brazil_transformer_capex_2024",
+      "hunt_br_power_equip"
+    ]
+  },
+  {
+    "id": "wits_ecu_440723_2024",
+    "type": "official",
+    "chicago": "World Bank WITS / UN Comtrade. “Ecuador Baboen, Mahogany, Imbuia and Balsa wood, sawn l exports by country | 2024.” HS 440723.",
+    "url": "https://wits.worldbank.org/trade/comtrade/en/country/ECU/year/2024/tradeflow/Exports/partner/ALL/product/440723",
+    "annotation": "Official trade mirror for Ecuador HS 440723 2024 exports. Supports China and US 2024 balsa rows.",
+    "supports": [
+      "hunt_res_balsa",
+      "wits_ecuador_balsa_china_2024",
+      "wits_ecuador_balsa_us_2024"
+    ]
+  },
+  {
+    "id": "trina_cemig_sim_20231129",
+    "type": "official",
+    "chicago": "Trina Solar. “Trina Solar to offer modules and trackers for 90MW PV power plants in Brazil.” PR Newswire, 29 November 2023.",
+    "url": "https://www.prnewswire.com/news-releases/trina-solar-to-offer-modules-and-trackers-for-90mw-pv-power-plants-in-brazil-302000288.html",
+    "annotation": "Company release on CEMIG SIM module/tracker supply. Supports trina_cemig_sim_brazil_2023.",
+    "supports": [
+      "trina_cemig_sim_brazil_2023",
+      "hunt_energy_solar"
+    ]
+  },
+  {
+    "id": "recurrent_ciranda_financing_20231122",
+    "type": "official",
+    "chicago": "Canadian Solar Inc. / Recurrent Energy. “Recurrent Energy Receives 490 Million Brazilian Reais Financing for Ciranda Cluster in Brazil.” PR Newswire, 22 November 2023.",
+    "url": "https://www.prnewswire.com/news-releases/recurrent-energy-receives-490-million-brazilian-reais-financing-for-ciranda-cluster-in-brazil-301995679.html",
+    "annotation": "Company financing notice for Ciranda Cluster ownership/ops. Supports recurrent_ciranda_solar_br_2023.",
+    "supports": [
+      "recurrent_ciranda_solar_br_2023",
+      "hunt_energy_solar"
+    ]
+  },
+  {
+    "id": "abirochas_informe_01_2024",
+    "type": "official",
+    "chicago": "ABIROCHAS. “Balanço do Setor Brasileiro de Rochas Ornamentais e de Revestimento em 2023.” Informe 01/2024, March 2024.",
+    "url": "https://abirochas.com.br/wp-content/uploads/2024/03/Informe-01_2024-Balanco-2023.pdf",
+    "annotation": "Industry association balance of Brazilian ornamental stone exports. Supports China and US destination rows.",
+    "supports": [
+      "abirochas_br_stone_china_2023",
+      "abirochas_br_stone_us_2023",
+      "hunt_res_dimension_stone"
+    ]
+  },
+  {
+    "id": "apmt_btp_renewal_20231220",
+    "type": "official",
+    "chicago": "APM Terminals. “USD 390 million investment and new concession for Brasil Terminal Portuário.” 20 December 2023.",
+    "url": "https://www.apmterminals.com/en/news/news-releases/2023/231220-usd-390-million-investment-and-new-concession-for-brasil-terminal",
+    "annotation": "Company primary BTP Santos concession renewal/investment notice. Supports apmt_btp_santos_concession_2023.",
+    "supports": [
+      "apmt_btp_santos_concession_2023",
+      "hunt_infra_port_ownership"
     ]
   }
 ]
