@@ -1,8 +1,8 @@
 updated: 2026-10-01
-cycle: 34
+cycle: 35
 active_lane: ai_chips
 active_basket: usd_per_chip
-next_query: CCGP HuaKun AT800 OR Atlas 800 Ascend 910B OR 910C award unit price versus Nvidia H20 same year 2025..2026
+next_query: CCGP OR award Nvidia H20 versus Ascend 910B OR 910C USD per chip (not server) same calendar year 2024..2026
 next_row_id: hunt_ascend_chip
 dry_streak: 0
 remote: present
@@ -61,6 +61,8 @@ seen_urls:
 - https://camlmac.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2025111413265770846/index.html
 - http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5809872/index.html
+- https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm
+- https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5707330/index.html
 misses:
 - 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
 

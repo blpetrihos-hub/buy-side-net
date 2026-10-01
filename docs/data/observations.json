@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_snnu_atlas800i_2025",
-    "note": "Cycle 34 logged snnu_atlas800i_a2_2025 as one_sided PRC: Huawei Atlas 800I A2 at CNY 1,798,000/system (Aug 2025). Chip count not on award table. Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
-    "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
-    "quote": "Atlas 800I A2 … 1798000"
+    "source_id": "ccgp_uestc_huakun_at800_2025",
+    "note": "Cycle 35 logged uestc_huakun_at800_a2_2025 as one_sided PRC-ecosystem: HuaKun AT800 (Model 9000) A2 at CNY 1,398,300/system (May 2025). Ascend card count not on award table. Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
+    "quote": "华鲲振宇 … HuaKun AT800(Model 9000)A2 … 3台 … 1398300.00元/台"
   },
   {
     "id": "hunt_icbc_rate",
@@ -1083,5 +1083,36 @@
     "note": "One-sided PRC. CCGP 14 Aug 2025: line-item prices map Atlas 800I A2 at CNY 1,798,000 (1套); same award also lists 博瀚 AI platform (CNY 358,000×2), Atlas 800 Model 3000 (CNY 23,000), workstations, and switches—those lines not used here. Unit is USD/system, not USD/chip; Ascend card count not printed — off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.1337 CNY on 2025-08-14.",
     "evidence_url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202508/t20250814_25167386.htm",
     "quote": "Atlas 800I A2、博瀚AI通用平台…Atlas 800 (Model 3000)… … 1套、2台、1台… … 1798000、358000、23000"
+  },
+  {
+    "id": "uestc_huakun_at800_a2_2025",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "University of Electronic Science and Technology of China (算力服务器采购)",
+    "seller_us": "",
+    "seller_prc": "HuaKun / 华鲲振宇 (AT800 Model 9000 A2; Ascend Atlas 800-class OEM)",
+    "city": "Chengdu",
+    "lat": null,
+    "lon": null,
+    "geo_note": "Buyer address on award: Hi-tech West Zone Xiyuan Ave 2006 Chengdu; lat/lon left blank (no verified campus coordinates opened).",
+    "price_year": "2025",
+    "spec": "HuaKun AT800 (Model 9000) A2 compute servers (3 systems); system price, not per-chip; Ascend card count not stated on award table",
+    "unit": "USD/system",
+    "currency": "CNY",
+    "fx_usd": 0.13876169,
+    "fx_date": "2025-05-12",
+    "us_price": null,
+    "prc_price": 1398300.0,
+    "us_price_usd": null,
+    "prc_price_usd": 194030.47,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "ccgp_uestc_huakun_at800_2025",
+    "note": "One-sided PRC-ecosystem. CCGP 12 May 2025: HuaKun AT800 (Model 9000) A2 at CNY 1,398,300 each (3 units) via Sichuan Chuangxin Huaan. HuaKun is an Ascend Atlas 800-class OEM; the award table does not print Ascend 910B/910C card counts—unit is USD/system, off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.2066 CNY on 2025-05-12.",
+    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
+    "quote": "算力服务器 … 华鲲振宇 … HuaKun AT800(Model 9000)A2 … 3台 … 1398300.00元/台"
   }
 ]
