@@ -2565,3 +2565,48 @@
   supports:
   - bndes_piaui_nickel_maq_100m_2026
   - hunt_res_nickel
+- id: jinkosolar_casa_ventos_20260414
+  type: company
+  chicago: JinkoSolar. “Casa dos Ventos and JinkoSolar Sign Agreement for the Supply of 413.9 MWp of High-Efficiency
+    Solar Modules.” 14 April 2026.
+  url: https://www.jinkosolar.com/en/site/newsdetail/2879
+  annotation: Company primary on 413.9 MWp Tiger Neo 3.0 supply to Casa dos Ventos. Supports jinko_casa_ventos_413mwp_2026.
+  supports:
+  - jinko_casa_ventos_413mwp_2026
+  - hunt_energy_solar
+- id: simpar_fr_aratu_ictsi_20260723
+  type: company
+  chicago: SIMPAR S.A. “Fato Relevante — Alienação da CS Porto Aratu (HSIM / ATU12–ATU18) to ICTSI Americas
+    B.V.” Comissão de Valores Mobiliários (CVM) Material Fact, 23 July 2026.
+  url: https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1547175
+  annotation: Official SIMPAR CVM Material Fact on Aratu terminal sale to ICTSI. Supports ictsi_aratu_hsim_2026.
+  supports:
+  - ictsi_aratu_hsim_2026
+  - hunt_infra_port_ownership
+- id: atkinsrealis_cnea_piap_20250521
+  type: company
+  chicago: AtkinsRéalis / Candu Energy Inc. “AtkinsRéalis secures supply of Heavy water and future of
+    CANDU technology around the world.” Trade release, 21 May 2025.
+  url: https://www.atkinsrealis.com/en/media/trade-releases/2025/2025-05-21
+  annotation: Company primary on Candu–CNEA PIAP heavy-water MoU in Neuquén. Supports candu_cnea_piap_mou_2025.
+  supports:
+  - candu_cnea_piap_mou_2025
+  - hunt_energy_fission_smr
+- id: ess_news_catl_alegria_20260930
+  type: press
+  chicago: Ini, Luis. “CATL to supply 313 MW/1.64 GWh BESS in Mexico.” ess news / pv magazine, 30 September
+    2026.
+  url: https://www.ess-news.com/2026/09/30/catl-to-supply-313-mw-1-64-gwh-bess-in-mexico/
+  annotation: UNVERIFIED press proxy on CATL–CIP La Alegría BESS. Supports catl_cip_alegria_bess_2026.
+  supports:
+  - catl_cip_alegria_bess_2026
+  - hunt_energy_other_renewables
+- id: minem_toromocho_its3_20260414
+  type: government
+  chicago: Peru. Ministerio de Energía y Minas. “MINEM impulsa incremento en la producción de minerales
+    críticos a través de la expansión del Proyecto Toromocho.” 14 April 2026.
+  url: https://www.gob.pe/institucion/minem/noticias/1378448-minem-impulsa-incremento-en-la-produccion-de-minerales-criticos-a-traves-de-la-expansion-del-proyecto-toromocho
+  annotation: Official MINEM notice of Toromocho ITS-3 expansion >USD 700m. Supports chinalco_toromocho_its3_700m_2026.
+  supports:
+  - chinalco_toromocho_its3_700m_2026
+  - hunt_res_copper
