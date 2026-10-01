@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 399,
+    "n_rows": 407,
     "counts": {
-      "total": 399,
-      "active": 344,
+      "total": 407,
+      "active": 352,
       "hunt": 42,
       "archived": 35,
-      "paired": 3,
+      "paired": 5,
       "one_sided": 27,
       "proxy": 87,
       "exclude": 5,
-      "documented": 255,
-      "on_map": 341
+      "documented": 261,
+      "on_map": 349
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 38,
         "allied": 81,
-        "n": 125
+        "n": 126
       },
       "usd": {
-        "us": 170000000.0,
-        "us_n": 1,
+        "us": 236000000.0,
+        "us_n": 2,
         "prc": 3610197353.12,
         "prc_n": 12,
         "allied": 9823734000.0,
@@ -129,18 +129,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 20,
-        "prc": 24,
-        "allied": 75,
-        "n": 119
+        "us": 22,
+        "prc": 25,
+        "allied": 76,
+        "n": 123
       },
       "usd": {
-        "us": 20688641670.0,
-        "us_n": 12,
+        "us": 21378641670.0,
+        "us_n": 13,
         "prc": 4166195156.0,
         "prc_n": 15,
-        "allied": 32803362187.2,
-        "allied_n": 25
+        "allied": 34003362187.2,
+        "allied_n": 26
       },
       "matched_gaps": {
         "n": 1,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 18,
+        "us": 20,
         "prc": 36,
-        "allied": 44,
-        "n": 98
+        "allied": 45,
+        "n": 101
       },
       "usd": {
         "us": 3187000000.0,
@@ -240,10 +240,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 9,
-        "prc": 34,
+        "us": 11,
+        "prc": 35,
         "allied": 85,
-        "n": 128
+        "n": 131
       },
       "usd": {
         "us": 552145000.0,
@@ -255,7 +255,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 16,
           "allied": 21
         },
@@ -265,8 +265,8 @@
           "allied": 28
         },
         "resources": {
-          "us": 7,
-          "prc": 5,
+          "us": 8,
+          "prc": 6,
           "allied": 36
         }
       }
@@ -274,34 +274,34 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 13,
+        "us": 15,
         "prc": 15,
-        "allied": 31,
-        "n": 59
+        "allied": 33,
+        "n": 63
       },
       "usd": {
-        "us": 13665000000.0,
-        "us_n": 7,
+        "us": 14421000000.0,
+        "us_n": 9,
         "prc": 1958154809.0,
         "prc_n": 7,
-        "allied": 7316000000.0,
-        "allied_n": 8
+        "allied": 8516000000.0,
+        "allied_n": 9
       },
       "by_layer": {
         "energy": {
           "us": 5,
           "prc": 11,
-          "allied": 4
+          "allied": 5
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 4,
           "allied": 10
         },
         "resources": {
-          "us": 5,
+          "us": 6,
           "prc": 0,
-          "allied": 17
+          "allied": 18
         }
       }
     },
@@ -453,10 +453,10 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 0,
+        "us": 1,
         "prc": 1,
         "allied": 2,
-        "n": 3
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -468,7 +468,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 0,
+          "us": 1,
           "prc": 0,
           "allied": 1
         },
@@ -1045,7 +1045,15 @@
       "south_star_santa_cruz_restart_202604",
       "exim_guyana_gte_527m_2025",
       "plantabal_2025_planting_2951ha",
-      "graphcoa_boa_sorte_urbix_export_2025"
+      "graphcoa_boa_sorte_urbix_export_2025",
+      "atlas_malacacheta_aetc_nuclear_2025",
+      "el_salvador_ncmou_20250203",
+      "ge_vernova_azulao_i_cod_2026",
+      "cip_patache_bess_fntp_2026",
+      "fangda_st_george_araxa_mou_20250115",
+      "energyx_exim_loi_690m_black_giant_2025",
+      "sti_san_antonio_capex_66m_2024",
+      "aguas_pacifico_desal_capex_1p2bn_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -1072,7 +1080,9 @@
     "paired": [
       "sp_metro_crrc_alstom_2024",
       "cen_parinas_elecnor_powerchina_2024",
-      "wits_ecuador_balsa_china_2025"
+      "wits_ecuador_balsa_china_2025",
+      "st_george_realloys_mou_2025",
+      "fangda_st_george_araxa_mou_20250115"
     ],
     "archived": [
       "hunt_ascend_chip",
