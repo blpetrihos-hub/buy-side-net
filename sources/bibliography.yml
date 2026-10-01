@@ -534,3 +534,10 @@
   url: "https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html"
   annotation: "Opened for ai_chips hunt. 2× Nvidia H100 PCIe accelerators at CNY 247,500/card. Off-spec for H20/export-article H100 basket—logged as dry adjacent find only."
   supports: ["hunt_ascend_chip"]
+
+- id: chinamae_zijingshan_ascend_unit_2026
+  type: official
+  chicago: "紫金山实验室. “紫金山实验室国产运算单元” 采购公告, JSZC-320100-JZCG-G2026-0243. 30 July 2026. ChinaMAE reprint."
+  url: "https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html"
+  annotation: "Opened for ai_chips hunt. Domestic 8-card/4-card compute units, CNY 1.55m budget; mentions existing H20/V100 for mixed training. No H20 or Ascend 910B/910C card unit price. Dry pass before lane rotate."
+  supports: ["hunt_ascend_chip"]

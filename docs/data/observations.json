@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "zhiliao_sustech_h100_card_202606",
-    "note": "Cycle 45 dry: opened SUSTech-JC-2026-00149 reprint (https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html) — GPU加速器 2片 NVIDIA H100 at CNY 247,500/片. Off-spec for this basket (H20 or export-article H100 only; this is a plain H100 accelerator award, not an export-rules source). Not added as a row. Cycle 44 Huangshan GGZY dry remains. Still hunting H20 card-level vs Ascend 910B/910C.",
-    "evidence_url": "https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html",
-    "quote": "GPU加速器（核心货物） … 2 … 片 … 247500.0 … 品牌 NVIDIA 型号 H100"
+    "source_id": "chinamae_zijingshan_ascend_unit_2026",
+    "note": "Cycle 46 dry (dry_streak 3): opened ChinaMAE Zijingshan Lab domestic compute-unit tender JSZC-320100-JZCG-G2026-0243 (https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html) — 1×8-card + 1×4-card 国产运算单元, budget CNY 1.55m; mentions existing Nvidia H20/V100 for mixed training but no H20 or Ascend 910B/910C card unit price. Award mirrors redact unit prices (Inspur CS5468H3 system). Rotating lanes after three dry passes. HUST Ascend card + H20 SMM proxy remain unpaired.",
+    "evidence_url": "https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html",
+    "quote": "采购 1台国产8卡运算单元与1台国产4卡运算单元…支持与现有英伟达卡（ V100，H20）的混合训练…预算金额： 155.000000万元"
   },
   {
     "id": "hunt_icbc_rate",

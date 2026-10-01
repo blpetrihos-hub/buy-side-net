@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-10-01",
-  "source_id": "zhiliao_sustech_h100_card_202606",
-  "url": "https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html",
+  "source_id": "chinamae_zijingshan_ascend_unit_2026",
+  "url": "https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html",
   "price_year": "2026",
   "evidence": "hunt",
-  "quote": "GPU加速器（核心货物） … 2 … 片 … 247500.0 … 品牌 NVIDIA 型号 H100",
-  "note": "Cycle 45 dry. Opened SUSTech computer-dept GPU accelerator award reprint: 2× Nvidia H100 at CNY 247,500/card. Off-spec (not H20; not an export-rules H100 article). Not logged as a usd_per_chip row. Still hunting H20 card-level."
+  "quote": "采购 1台国产8卡运算单元与1台国产4卡运算单元…支持与现有英伟达卡（ V100，H20）的混合训练…预算金额： 155.000000万元",
+  "note": "Cycle 46 dry. Tender for domestic 8-card/4-card compute units; names existing H20 inventory but no buy-side H20 or Ascend 910B/910C card unit price. dry_streak 3 — rotate to icbc_finance."
 }

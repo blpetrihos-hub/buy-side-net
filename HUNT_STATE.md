@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 45
-active_lane: ai_chips
-active_basket: usd_per_chip
-next_query: CCGP OR ChinaMAE OR university 国产AI计算卡 Ascend 910B OR 910C OR 910_4 card award unit price 2026 versus Nvidia H20 GPU加速卡 card award
-next_row_id: hunt_ascend_chip
-dry_streak: 2
+cycle: 46
+active_lane: icbc_finance
+active_basket: all_in_rate
+next_query: China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US
+next_row_id: hunt_icbc_rate
+dry_streak: 0
 remote: present
 seen_urls:
 - http://comprasnet.gov.br/cotacao/RelatorioCotacao.asp?cot_codigo=460112
@@ -85,7 +85,9 @@ seen_urls:
 - http://ggzy.huangshan.gov.cn/004/004003/004003006/20260916/90c1a066-5c7c-4265-8556-892f3bdd054b.html
 - http://ggzy.huangshan.gov.cn/004/004003/004003004/20260907/24e7c529-9d4f-4beb-aaf8-dad7a7a5dec5zbgs.html
 - https://www.zhiliaobiaoxun.com/detail/508928966b228B7D602d.html
+- https://www.chinamae.com/purchases/f49089b80ca2b989e5cb3ddd551d8c56.html
 misses:
+- 2026-10-01 | ai_chips | usd_per_chip | CCGP OR ChinaMAE OR university 国产AI计算卡 Ascend 910B OR 910C OR 910_4 card award unit price 2026 versus Nvidia H20 GPU加速卡 card award | Opened Zijingshan Lab domestic compute-unit tender (ChinaMAE): 8-card+4-card systems, CNY 1.55m budget; names existing H20/V100 but no card-level H20 or Ascend 910B/910C unit price. Award mirrors redact prices. dry_streak 3 — rotating to icbc_finance all_in_rate.
 - 2026-10-01 | ai_chips | usd_per_chip | university OR CCGP award Nvidia H20 PCIe OR GPU加速卡 card unit price (not HGX/server) 2025 OR 2026 document versus Ascend 910B OR 910C card | Opened SUSTech-JC-2026-00149 reprint: 2× Nvidia H100 at CNY 247,500/card — off-spec (H100 procurement, not H20; not an export-rules article). Not added as a row. No H20 card-level award opened this cycle.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip document 2026 versus Ascend 910_4 OR 910B OR 910C card award | Opened Huangshan GGZY HJACG2026G096 contract (16 Sep 2026) and award (7 Sep 2026): HTML shows CloudStor 640H50 server only (CNY 2.355m; package CNY 4.748m)—no H20 card unit price. Login-walled aggregator H20 CNY 178k/card snippets not used. Still unpaired vs HUST Ascend 910_4_1.
 - 2026-10-01 | ai_chips | usd_per_chip | CCGP OR university award Nvidia H20 card-level (not HGX 8-GPU server) USD per chip same year 2026 versus Ascend 910_4 OR 910B OR 910C | Cycles 38–43 added card/system/proxy rows (CUPL A800; BFSU Inspur system; Huatai 910C rental; Qilu RTX A6000; SMM 910B4; Mysteel 910C) but no opened CCGP/university document with H20 unit priced as cards (not HGX 8-GPU server). HUST Ascend 910_4_1 card award and H20 SMM module proxy remain unpaired for scoring.
