@@ -4269,3 +4269,48 @@
   supports:
   - cbmm_araxa_2025_spend_1p1bn
   - hunt_fenb_araxa
+- id: ustda_arconel_20260925
+  type: government
+  chicago: U.S. Trade and Development Agency. “USTDA Partners with Ecuador to Expand Private Investment
+    in Power Generation.” 25 September 2026.
+  url: https://ustda.gov/ustda-partners-with-ecuador-to-expand-private-investment-in-power-generation/
+  annotation: USTDA primary on ARCONEL power-generation regulatory TA. Supports ustda_ecuador_arconel_power_gen_2026.
+  supports:
+  - ustda_ecuador_arconel_power_gen_2026
+  - hunt_br_power_equip
+- id: ustda_cnel_adms_20260728
+  type: government
+  chicago: U.S. Trade and Development Agency. “USTDA Deepens U.S.-Ecuador Partnership by Advancing Electricity
+    Infrastructure.” 28 July 2026.
+  url: https://ustda.gov/ustda-deepens-u-s-ecuador-partnership-by-advancing-electricity-infrastructure/
+  annotation: USTDA primary on CNEL EP ADMS technical assistance. Supports ustda_ecuador_cnel_adms_2026.
+  supports:
+  - ustda_ecuador_cnel_adms_2026
+  - hunt_br_power_equip
+- id: atlas_malacacheta_corridor_20260310
+  type: company
+  chicago: Atlas Critical Minerals Corporation. “Atlas Critical Minerals Consolidates 11-Kilometer Graphite
+    Corridor in Brazil; Reports Record 19.4% Graphitic Carbon Results.” 10 March 2026.
+  url: https://www.atlascriticalminerals.com/news/atlas-critical-minerals-consolidates-11-kilometer-graphite-corridor-in-brazil-reports-record-19-4-graphitic-carbon-results/
+  annotation: Company primary on Malacacheta 2,822 ha / 11 km corridor consolidation. Supports atlas_malacacheta_corridor_11km_2026.
+  supports:
+  - atlas_malacacheta_corridor_11km_2026
+  - hunt_res_graphite
+- id: expreso_estrategia_balsa_20260821
+  type: press
+  chicago: López, Vanessa. “Ecuador prepara Estrategia Nacional de la Balsa ante nuevas exigencias de
+    la UE.” Expreso, 21 August 2026.
+  url: https://www.expreso.ec/economia-y-negocios/ecuador-prepara-estrategia-nacional-balsa-nuevas-exigencias-ue-293215.html
+  annotation: Ecuador press citing MDEP National Balsa Strategy and GIZ workshop. Supports ecuador_estrategia_nacional_balsa_2026.
+  supports:
+  - ecuador_estrategia_nacional_balsa_2026
+  - hunt_res_balsa
+- id: ustda_lac_nuclear_20260608
+  type: government
+  chicago: U.S. Trade and Development Agency. “USTDA Connects Latin America and the Caribbean to U.S.
+    Nuclear Energy Solutions.” 8 June 2026.
+  url: https://ustda.gov/ustda-connects-latin-america-and-the-caribbean-to-u-s-nuclear-energy-solutions/
+  annotation: USTDA primary on LAC civil nuclear partnership delegation. Supports ustda_lac_nuclear_delegation_2026.
+  supports:
+  - ustda_lac_nuclear_delegation_2026
+  - hunt_energy_fission_smr
