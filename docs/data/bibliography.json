@@ -358,24 +358,6 @@
     ]
   },
   {
-    "id": "cosco_chancay_inauguration_20241115",
-    "type": "official",
-    "chicago": "COSCO SHIPPING Ports Limited. “The Inauguration Ceremony of Chancay Port Was Successfully Held.” Press release, 15 November 2024.",
-    "url": "https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115",
-    "annotation": "Company primary release on Chancay Phase I inauguration and design capacity. Does not print a Phase I USD capex on this page. Supports cosco_chancay_port_2024.",
-    "supports": [
-      "cosco_chancay_port_2024",
-      "hunt_infra_port_ownership"
-    ],
-    "map_supports": [
-      "cosco_chancay_port_2024",
-      "hunt_infra_port_ownership"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "zpmc_itapoa_rtg_pr_20230428",
     "type": "official",
     "chicago": "Shanghai Zhenhua Heavy Industries Co., Ltd. “ZPMC Ships 5 RTG Cranes to Itapoa, Brazil.” PR Newswire, 28 April 2023.",
@@ -5483,6 +5465,186 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "g1_caf_salvador_itaparica_20241212",
+    "type": "trade_press",
+    "chicago": "g1 BA. “Governo da Bahia assina contrato de empréstimo para construção da Ponte Salvador-Itaparica; acordo prevê até US$ 150 milhões.” g1 / TV Globo, 12 December 2024.",
+    "url": "https://g1.globo.com/ba/bahia/noticia/2024/12/12/governo-da-bahia-assina-contrato-de-emprestimo-para-construcao-da-ponte-salvador-itaparica.ghtml",
+    "annotation": "Press on CAF up to USD 150m loan for Salvador–Itaparica FGAP/BA-001. Supports caf_salvador_itaparica_150m_2024.",
+    "supports": [
+      "caf_salvador_itaparica_150m_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "caf_salvador_itaparica_150m_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "redimin_ganfeng_mariana_20250213",
+    "type": "trade_press",
+    "chicago": "Recabarren Ortiz, Cristian. “Ganfeng Lithium inicia producción de litio en Argentina con inversión de 790 millones de dólares en Salta.” REDIMIN, 13 February 2025.",
+    "url": "https://www.redimin.cl/ganfeng-lithium-inicia-produccion-de-litio-en-argentina-con-inversion-de-790-millones-de-dolares-en-salta",
+    "annotation": "Press on Ganfeng Mariana USD 190m supporting solar. Supports ganfeng_mariana_solar_190m_2025.",
+    "supports": [
+      "ganfeng_mariana_solar_190m_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "ganfeng_mariana_solar_190m_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "poder360_byd_bess_20260612",
+    "type": "trade_press",
+    "chicago": "Poder360. “BYD anuncia investimento de até R$ 500 mi em baterias no Brasil.” Poder360, 12 June 2026.",
+    "url": "https://www.poder360.com.br/poder-economia/byd-anuncia-investimento-de-ate-r-500-mi-em-baterias-no-brasil/",
+    "annotation": "Press on BYD up to R$500m Brazil BESS factory. Supports byd_brazil_bess_factory_500m_2026.",
+    "supports": [
+      "byd_brazil_bess_factory_500m_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "byd_brazil_bess_factory_500m_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sacyr_antofagasta_reuse_20250508",
+    "type": "company",
+    "chicago": "Sacyr. “Sacyr se adjudica la concesión del tratamiento de agua para el reúso y de su comercialización en Antofagasta (Chile).” Press release, 8 May 2025.",
+    "url": "https://www.sacyr.com/-/planta-reuso-agua-antofagasta",
+    "annotation": "Company release on Antofagasta reuse concession ~USD 292m. Supports sacyr_antofagasta_reuse_292m_2025.",
+    "supports": [
+      "sacyr_antofagasta_reuse_292m_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "sacyr_antofagasta_reuse_292m_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cenario_inb_westinghouse_20260515",
+    "type": "trade_press",
+    "chicago": "Agência Cenário Energia. “INB e Westinghouse avançam em parceria estratégica para sustentar expansão nuclear prevista no PNE 2050.” Cenário Energia, 15 May 2026.",
+    "url": "https://cenarioenergia.com.br/2026/05/15/inb-e-westinghouse-avancam-em-parceria-estrategica-para-sustentar-expansao-nuclear-prevista-no-pne-2050/",
+    "annotation": "Press on INB–Westinghouse fuel-cycle cooperation. Supports inb_westinghouse_fuel_coop_2026.",
+    "supports": [
+      "inb_westinghouse_fuel_coop_2026",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "hunt_energy_fission_smr",
+      "inb_westinghouse_fuel_coop_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ofator_codemig_cbmm_20251030",
+    "type": "trade_press",
+    "chicago": "Ragazzi, Lucas. “Codemig e CBMM renovam acordo para exploração do nióbio de Araxá.” O Fator, 30 October 2025.",
+    "url": "https://ofator.com.br/informacao/codemig-e-cbmm-renovam-acordo-para-exploracao-do-niobio-de-araxa/",
+    "annotation": "Press on Codemig–CBMM Araxá renewal to 2070. Supports codemig_cbmm_renewal_2070_2025.",
+    "supports": [
+      "codemig_cbmm_renewal_2070_2025",
+      "hunt_fenb_araxa"
+    ],
+    "map_supports": [
+      "codemig_cbmm_renewal_2070_2025",
+      "hunt_fenb_araxa"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "gestion_chancay_3500m_20241106",
+    "type": "trade_press",
+    "chicago": "Gestión. “Inversión total del puerto de Chancay sumaría US$ 3,500 millones, ¿de qué depende?” Gestión (Peru), 6 November 2024.",
+    "url": "https://gestion.pe/economia/inversion-total-del-puerto-de-chancay-sumaria-us-3500-millones-de-que-depende-megapuerto-de-chancay-cosco-shipping-noticia/",
+    "annotation": "Press on Chancay Phase I USD 1.3bn and master ~USD 3.5bn. Supports cosco_chancay_port_2024 value fill.",
+    "supports": [
+      "cosco_chancay_port_2024",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "cosco_chancay_port_2024",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "diario_comercio_graphcoa_20260620",
+    "type": "trade_press",
+    "chicago": "Henrique, Thyago. “Graphcoa planeja investir R$ 700 milhões em planta de grafite no Vale do Jequitinhonha.” Diário do Comércio, 20 June 2026.",
+    "url": "https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/",
+    "annotation": "Press on Graphcoa→Allied Graphite U.S. anode offtake path. Supports graphcoa_allied_anode_offtake_2026.",
+    "supports": [
+      "graphcoa_allied_anode_offtake_2026",
+      "hunt_res_graphite"
+    ],
+    "map_supports": [
+      "graphcoa_allied_anode_offtake_2026",
+      "hunt_res_graphite"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "nordex_ecuador_112mw_20250917",
+    "type": "company",
+    "chicago": "Nordex SE. “Nordex Group enters Ecuadorian market with first order for 112 MW wind project.” Press release, 17 September 2025.",
+    "url": "https://www.nordex-online.com/en/2025/09/nordex-group-enters-ecuadorian-market-with-first-order-for-112-mw-wind-project/",
+    "annotation": "Company release on Nordex 112 MW first Ecuador order. Supports nordex_ecuador_112mw_2025.",
+    "supports": [
+      "nordex_ecuador_112mw_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "nordex_ecuador_112mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "statkraft_weg_seabra_20250918",
+    "type": "company",
+    "chicago": "Statkraft Brasil. “Parceria inovadora entre Petrobras, WEG e Statkraft coloca em operação o maior aerogerador onshore das Américas.” Press release, 18 September 2025.",
+    "url": "https://www.statkraft.com.br/sala-de-comunicacao/ultimas-noticias/2025/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-operacao-o-maior-aerogerador-onshore-das-americas/",
+    "annotation": "Company release on WEG 7 MW Seabra turbine / Petrobras R$130m. Supports weg_statkraft_seabra_7mw_2025.",
+    "supports": [
+      "weg_statkraft_seabra_7mw_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "weg_statkraft_seabra_7mw_2025"
+    ],
+    "layers": [
+      "energy"
     ]
   }
 ]
