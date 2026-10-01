@@ -3815,3 +3815,110 @@
   - hunt_res_balsa
   - wits_ecuador_balsa_china_2025
   - wits_ecuador_balsa_us_2025
+- id: aes_chile_andes_solar_iii_20260414
+  type: company
+  chicago: AES Chile. “AES Chile adds a new project to the largest solar and storage hub in Latin America.”
+    14 April 2026.
+  url: https://www.aeschile.com/en/press-release/aes-chile-adds-new-project-largest-solar-and-storage-hub-latin-america
+  annotation: Company primary on Andes Solar III COD and >USD 1.3bn hub cumulative. Supports aes_andes_solar_iii_hub_2026.
+  supports:
+  - aes_andes_solar_iii_hub_2026
+  - hunt_energy_other_renewables
+- id: exim_argentina_build_future_20260923
+  type: official
+  chicago: Export-Import Bank of the United States. “EXIM Signs $7 Billion U.S.-Argentina Build the Future
+    Framework to Prioritize Energy Security and Critical Minerals Development.” 23 September 2026.
+  url: https://www.exim.gov/news/exim-signs-7-billion-argentina-build-future-framework-prioritize-energy-security-and-critical
+  annotation: Official EXIM framework up to USD 7bn for Argentina critical minerals/energy. Supports exim_argentina_build_future_7bn_2026.
+  supports:
+  - exim_argentina_build_future_7bn_2026
+  - hunt_res_lithium
+- id: lar_edgar_ex992_q1_2026
+  type: filing
+  chicago: Lithium Argentina AG. “Management’s Discussion and Analysis — Exhibit 99.2.” U.S. Securities
+    and Exchange Commission EDGAR filing. Accessed 1 October 2026.
+  url: https://www.sec.gov/Archives/edgar/data/1440972/000119312526218128/lar-ex99_2.htm
+  annotation: Issuer MD&A documenting Ganfeng USD 130m debt facility. Supports ganfeng_lar_debt_130m_2026.
+  supports:
+  - ganfeng_lar_debt_130m_2026
+  - hunt_res_lithium
+- id: mota_engil_mexico_qi_t1_20250826
+  type: company
+  chicago: Mota-Engil S.G.P.S., S.A. “Mota-Engil Informs on the Signing of Contracts in Portugal, Mexico
+    and Rwanda in a Total Amount of €560 Million.” 26 August 2025.
+  url: https://www.mota-engil.com/app/uploads/2025/08/document-19.pdf
+  annotation: Company market notice on Querétaro–Irapuato Tramo I ~EUR 290m. Supports mota_engil_qi_tramo1_290m_2025.
+  supports:
+  - mota_engil_qi_tramo1_290m_2025
+  - hunt_latam_rail_telecom
+- id: mota_engil_mexico_qi_t2_20251020
+  type: company
+  chicago: Mota-Engil S.G.P.S., S.A. “Mota-Engil Informs About the Signing of New Contracts in Mexico
+    Worth Circa of 1,020 Million Euros.” 20 October 2025.
+  url: https://www.mota-engil.com/app/uploads/2025/10/Comunicado_20_10_2025_-Mexico_v3JPVvi.pdf
+  annotation: Company market notice on Querétaro–Irapuato Tramo II ~EUR 820m. Supports mota_engil_qi_tramo2_820m_2025.
+  supports:
+  - mota_engil_qi_tramo2_820m_2025
+  - hunt_latam_rail_telecom
+- id: vestas_statkraft_peru_order_20260813
+  type: company
+  chicago: Vestas Wind Systems A/S. “Vestas secures order with Statkraft Peru for new wind project.” Company
+    news / wind turbine orders listing, 13 August 2026.
+  url: https://www.vestas.com/en/media/company-news?publicationId=f3448f60-1f89-499b-a107-8a71de31fce7
+  annotation: Vestas OEM order listing for Statkraft Peru Emma 72 MW. Supports vestas_emma_peru_72mw_2026.
+  supports:
+  - vestas_emma_peru_72mw_2026
+  - hunt_energy_wind
+- id: nei_argentina_first_workshop_20260612
+  type: trade_press
+  chicago: Nuclear Engineering International. “Argentina hosts FIRST SMR workshop.” 12 June 2026.
+  url: https://www.neimagazine.com/news/argentina-hosts-first-smr-workshop/
+  annotation: Trade press on Argentina-hosted FIRST LAC SMR workshop. Supports argentina_first_smr_workshop_2026.
+  supports:
+  - argentina_first_smr_workshop_2026
+  - hunt_energy_fission_smr
+- id: stgm_realloys_mou_20250910
+  type: company
+  chicago: St George Mining Limited. “Strategic Alliance with US Rare Earths Processor and Offtake of
+    Rare Earths from the Araxá Project, Brazil.” ASX release, 10 September 2025.
+  url: https://stgm.com.au/PDF/c711a612-e8ce-4e2d-84f1-bd4c55892c24/USSTRATEGICALLIANCEFORARAXAPROJECTRAREEARTHS
+  annotation: Company ASX MoU with U.S. REAlloys on Araxá offtake path. Supports st_george_realloys_mou_2025.
+  supports:
+  - st_george_realloys_mou_2025
+  - hunt_fenb_araxa
+- id: south_star_restart_20260408
+  type: company
+  chicago: South Star Battery Metals Corp. “South Star Announces Re-Start of Santa Cruz Plant Ahead of
+    Schedule.” GlobeNewswire, 8 April 2026.
+  url: https://www.globenewswire.com/news-release/2026/04/08/3270297/0/en/South-Star-Announces-Re-Start-of-Santa-Cruz-Plant-Ahead-of-Schedule.html
+  annotation: Company restart notice for Santa Cruz graphite plant. Supports south_star_santa_cruz_restart_202604.
+  supports:
+  - south_star_santa_cruz_restart_202604
+  - hunt_res_graphite
+- id: exim_guyana_gte_approval_20241226
+  type: official
+  chicago: Export-Import Bank of the United States. “Export-Import Bank of the United States Board of
+    Directors Approves More Than $526 Million for Guyanese Energy Project.” 26 December 2024.
+  url: https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
+  annotation: Official EXIM ~USD 527m Guyana Gas-to-Energy approval. Supports exim_guyana_gte_527m_2025.
+  supports:
+  - exim_guyana_gte_527m_2025
+  - hunt_br_power_equip
+- id: plantabal_monitoreo_2025
+  type: company
+  chicago: Plantaciones de Balsa Plantabal S.A. / 3A Composites. “Resumen Público de Monitoreo 2025.”
+    Accessed 1 October 2026.
+  url: https://3accorematerials.com/uploads/pdf/Resumen-P%C3%BAblico-Monitoreo-2025.pdf
+  annotation: Company public FSC monitoring summary with 2025 planting hectares. Supports plantabal_2025_planting_2951ha.
+  supports:
+  - plantabal_2025_planting_2951ha
+  - hunt_res_balsa
+- id: cenario_graphcoa_boa_sorte_20250728
+  type: trade_press
+  chicago: Cenário Energia. “Graphcoa Avança Na Produção De Grafite Na Bahia E Mira Mercado Nacional E
+    Internacional.” 28 July 2025.
+  url: https://cenarioenergia.com.br/2025/07/28/graphcoa-avanca-na-producao-de-grafite-na-bahia-e-mira-mercado-nacional-e-internacional/
+  annotation: Trade press on Boa Sorte ramp and U.S./Urbix exports. Supports graphcoa_boa_sorte_urbix_export_2025.
+  supports:
+  - graphcoa_boa_sorte_urbix_export_2025
+  - hunt_res_graphite
