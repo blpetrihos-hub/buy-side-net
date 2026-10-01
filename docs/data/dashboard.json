@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 436,
+    "n_rows": 441,
     "counts": {
-      "total": 436,
-      "active": 381,
+      "total": 441,
+      "active": 386,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
       "proxy": 89,
       "exclude": 5,
-      "documented": 288,
-      "on_map": 378
+      "documented": 293,
+      "on_map": 383
     }
   },
   "layer_readouts": [
@@ -129,10 +129,10 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 26,
+        "us": 27,
         "prc": 25,
-        "allied": 85,
-        "n": 136
+        "allied": 86,
+        "n": 138
       },
       "usd": {
         "us": 23378641670.0,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 24,
+        "us": 27,
         "prc": 36,
         "allied": 48,
-        "n": 108
+        "n": 111
       },
       "usd": {
         "us": 4237000000.0,
@@ -240,10 +240,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 16,
+        "us": 17,
         "prc": 36,
         "allied": 89,
-        "n": 141
+        "n": 142
       },
       "usd": {
         "us": 806145000.0,
@@ -265,7 +265,7 @@
           "allied": 28
         },
         "resources": {
-          "us": 11,
+          "us": 12,
           "prc": 6,
           "allied": 39
         }
@@ -424,10 +424,10 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 6,
+        "us": 8,
         "prc": 8,
-        "allied": 12,
-        "n": 26
+        "allied": 13,
+        "n": 29
       },
       "usd": {
         "us": 31496670.0,
@@ -439,7 +439,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 1,
+          "us": 3,
           "prc": 1,
           "allied": 3
         },
@@ -451,17 +451,17 @@
         "resources": {
           "us": 5,
           "prc": 5,
-          "allied": 7
+          "allied": 8
         }
       }
     },
     {
       "country": "El Salvador",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 1,
         "allied": 2,
-        "n": 5
+        "n": 6
       },
       "usd": {
         "us": 0.0,
@@ -473,7 +473,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 0,
           "allied": 1
         },
@@ -1087,7 +1087,12 @@
       "crrc_araraquara_factory_2026",
       "powerchina_chancay_sierra_420m_2026",
       "plantabal_sourcing_policy_2025",
-      "cbmm_araxa_2025_spend_1p1bn"
+      "cbmm_araxa_2025_spend_1p1bn",
+      "ustda_ecuador_arconel_power_gen_2026",
+      "ustda_ecuador_cnel_adms_2026",
+      "atlas_malacacheta_corridor_11km_2026",
+      "ecuador_estrategia_nacional_balsa_2026",
+      "ustda_lac_nuclear_delegation_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
