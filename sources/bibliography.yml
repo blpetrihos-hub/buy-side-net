@@ -4120,3 +4120,51 @@
   supports:
   - brazil_rosatom_smr_engagement_2025
   - hunt_energy_fission_smr
+- id: hatch_yanacocha_water_2025
+  type: company
+  chicago: Hatch. “Newmont’s Yanacocha Water Transition Projects.” Performance Innovations / Annual Review
+    2025.
+  url: https://www.hatch.com/en/About-Us/Publications/Performance-Innovations/2025/0302-Yanacocha-Water-Transition-Projects
+  annotation: EPC partner write-up on Newmont Yanacocha ~USD 2bn water-transition investment. Supports
+    newmont_yanacocha_water_2bn_2025.
+  supports:
+  - newmont_yanacocha_water_2bn_2025
+  - hunt_res_water
+- id: encuentra_plantabal_2025
+  type: official
+  chicago: encuentra.ec (SCVS filing mirror). “Plantaciones de Balsa Plantabal Sa · RUC 0990533105001.”
+    Company financial summary for ejercicio 2025.
+  url: https://encuentra.ec/empresa/plantaciones-de-balsa-plantabal-sa-0990533105001/
+  annotation: Ecuador registry aggregate of Plantabal 2025 revenue. Supports plantabal_ingresos_2025_60p8m.
+  supports:
+  - plantabal_ingresos_2025_60p8m
+  - hunt_res_balsa
+- id: wabtec_mrs_20260923
+  type: company
+  chicago: Wabtec Corporation. “MRS Logística invests US$254M to strengthen Brazil’s logistics infrastructure
+    and renew its fleet with Wabtec.” 23 September 2026.
+  url: https://www.wabteccorp.com/newsroom/press-releases/mrs-log-stica-invests-us254m-to-strengthen-brazil-s-logistics-infrastructure-and-renew-its-fleet-with-wabtec
+  annotation: Wabtec primary on USD 254m MRS locomotive package. Supports wabtec_mrs_254m_2026.
+  supports:
+  - wabtec_mrs_254m_2026
+  - hunt_latam_rail_telecom
+- id: wabtec_contagem_20251105
+  type: company
+  chicago: Wabtec Corporation. “Wabtec to Expand Operations and Workforce in Brazil with R$20 Million
+    Investment.” 5 November 2025.
+  url: https://www.wabteccorp.com/newsroom/press-releases/wabtec-to-expand-operations-and-workforce-in-brazil-with-r20-million-investment
+  annotation: Wabtec primary on Contagem Global Engineering Center / R$20m Brazil expansion. Supports
+    wabtec_contagem_r20m_2025.
+  supports:
+  - wabtec_contagem_r20m_2025
+  - hunt_infra_engineering_epc
+- id: jervois_smp_crma_page_2026
+  type: company
+  chicago: Jervois. “São Miguel Paulista Refinery.” Company asset page (project update / EU CRMA Strategic
+    Project status).
+  url: https://jervoisglobal.com/assets/sao-miguel-paulista-refinery/
+  annotation: Company primary on SMP EU CRMA Strategic Project designation and 2026–27 restart work. Supports
+    jervois_smp_eu_crma_status_2026.
+  supports:
+  - jervois_smp_eu_crma_status_2026
+  - hunt_res_nickel

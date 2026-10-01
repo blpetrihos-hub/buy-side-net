@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 421,
+    "n_rows": 426,
     "counts": {
-      "total": 421,
-      "active": 366,
+      "total": 426,
+      "active": 371,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
       "proxy": 88,
       "exclude": 5,
-      "documented": 274,
-      "on_map": 363
+      "documented": 279,
+      "on_map": 368
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 10,
+        "us": 12,
         "prc": 38,
         "allied": 81,
-        "n": 129
+        "n": 131
       },
       "usd": {
-        "us": 311000000.0,
-        "us_n": 4,
+        "us": 565000000.0,
+        "us_n": 5,
         "prc": 3610197353.12,
         "prc_n": 12,
         "allied": 9823734000.0,
@@ -129,18 +129,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 23,
+        "us": 25,
         "prc": 25,
-        "allied": 80,
-        "n": 128
+        "allied": 81,
+        "n": 131
       },
       "usd": {
-        "us": 21378641670.0,
-        "us_n": 13,
+        "us": 23378641670.0,
+        "us_n": 14,
         "prc": 4166195156.0,
         "prc_n": 15,
-        "allied": 35127962187.2,
-        "allied_n": 29
+        "allied": 35188718653.2,
+        "allied_n": 30
       },
       "matched_gaps": {
         "n": 1,
@@ -240,14 +240,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 12,
+        "us": 15,
         "prc": 35,
         "allied": 88,
-        "n": 135
+        "n": 138
       },
       "usd": {
-        "us": 552145000.0,
-        "us_n": 2,
+        "us": 806145000.0,
+        "us_n": 3,
         "prc": 1252595264.55,
         "prc_n": 9,
         "allied": 3597459384.9300003,
@@ -260,12 +260,12 @@
           "allied": 22
         },
         "infrastructure": {
-          "us": 0,
+          "us": 2,
           "prc": 13,
           "allied": 28
         },
         "resources": {
-          "us": 9,
+          "us": 10,
           "prc": 6,
           "allied": 38
         }
@@ -421,16 +421,16 @@
       "counts": {
         "us": 6,
         "prc": 8,
-        "allied": 10,
-        "n": 24
+        "allied": 11,
+        "n": 25
       },
       "usd": {
         "us": 31496670.0,
         "us_n": 4,
         "prc": 791134740.0,
         "prc_n": 5,
-        "allied": 757000000.0,
-        "allied_n": 3
+        "allied": 817756466.0,
+        "allied_n": 4
       },
       "by_layer": {
         "energy": {
@@ -446,7 +446,7 @@
         "resources": {
           "us": 5,
           "prc": 5,
-          "allied": 5
+          "allied": 6
         }
       }
     },
@@ -646,14 +646,14 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 11,
         "allied": 19,
-        "n": 34
+        "n": 35
       },
       "usd": {
-        "us": 2100000000.0,
-        "us_n": 1,
+        "us": 4100000000.0,
+        "us_n": 2,
         "prc": 2610924416.0,
         "prc_n": 5,
         "allied": 11608000000.0,
@@ -671,7 +671,7 @@
           "allied": 12
         },
         "resources": {
-          "us": 2,
+          "us": 3,
           "prc": 5,
           "allied": 3
         }
@@ -1067,7 +1067,12 @@
       "ssa_manzanillo_sts_21m_2025",
       "plantabal_baltek_sbc_fsc_mix_2025",
       "brazilian_nickel_westwin_offtake_2026",
-      "brazil_rosatom_smr_engagement_2025"
+      "brazil_rosatom_smr_engagement_2025",
+      "newmont_yanacocha_water_2bn_2025",
+      "plantabal_ingresos_2025_60p8m",
+      "wabtec_mrs_254m_2026",
+      "wabtec_contagem_r20m_2025",
+      "jervois_smp_eu_crma_status_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
