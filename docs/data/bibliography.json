@@ -704,5 +704,26 @@
     "supports": [
       "huatai_ascend910c_cloud_2026"
     ]
+  },
+  {
+    "id": "ccgp_qilu_rtxa6000_202608",
+    "type": "official",
+    "chicago": "齐鲁工业大学 / 中国政府采购网. “齐鲁工业大学（山东省科学院）显卡采购项目(二次)结果公告（采购包1）.” 7 August 2026.",
+    "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202608/t20260807_27097752.htm",
+    "annotation": "Nvidia RTX A6000 at CNY 179,000 (1 unit). One-sided U.S. card price for qilu_rtxa6000_card_2026.",
+    "supports": [
+      "qilu_rtxa6000_card_2026",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "xinhua_cfets_cny_20260807",
+    "type": "journalism",
+    "chicago": "China Foreign Exchange Trade System. “人民币市场汇价（8月7日）,” 7 August 2026. Reported by Xinhua.",
+    "url": "https://www.news.cn/fortune/20260807/496cd410165147b591fd22edae5cc36f/c.html",
+    "annotation": "Public reprint of CFETS central parity 100 USD = 679.04 CNY (1 USD = 6.7904 CNY) on 2026-08-07. FX for qilu_rtxa6000_card_2026.",
+    "supports": [
+      "qilu_rtxa6000_card_2026"
+    ]
   }
 ]
