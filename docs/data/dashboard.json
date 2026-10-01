@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 248,
+    "n_rows": 253,
     "counts": {
-      "total": 248,
-      "active": 193,
+      "total": 253,
+      "active": 198,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
       "proxy": 38,
       "exclude": 5,
-      "documented": 154,
-      "on_map": 182
+      "documented": 159,
+      "on_map": 187
     }
   },
   "layer_readouts": [
@@ -107,17 +107,17 @@
       "layer": "infrastructure",
       "counts": {
         "us": 5,
-        "prc": 28,
-        "allied": 40,
-        "n": 73
+        "prc": 29,
+        "allied": 42,
+        "n": 76
       },
       "usd": {
         "us": 170000000.0,
         "us_n": 1,
         "prc": 1331197353.12,
         "prc_n": 8,
-        "allied": 5020000000.0,
-        "allied_n": 10
+        "allied": 5496000000.0,
+        "allied_n": 12
       },
       "matched_gaps": {
         "n": 1,
@@ -131,8 +131,8 @@
       "counts": {
         "us": 10,
         "prc": 14,
-        "allied": 40,
-        "n": 64
+        "allied": 41,
+        "n": 65
       },
       "usd": {
         "us": 576797120.0,
@@ -150,14 +150,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 8,
+        "us": 9,
         "prc": 20,
         "allied": 26,
-        "n": 54
+        "n": 55
       },
       "usd": {
-        "us": 1100000000.0,
-        "us_n": 1,
+        "us": 1360000000.0,
+        "us_n": 2,
         "prc": 452331437.19,
         "prc_n": 6,
         "allied": 801859384.9300001,
@@ -239,9 +239,9 @@
       "country": "Brazil",
       "counts": {
         "us": 5,
-        "prc": 25,
+        "prc": 26,
         "allied": 50,
-        "n": 80
+        "n": 81
       },
       "usd": {
         "us": 550000000.0,
@@ -259,7 +259,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 11,
+          "prc": 12,
           "allied": 15
         },
         "resources": {
@@ -272,34 +272,34 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 7,
+        "us": 8,
         "prc": 7,
-        "allied": 16,
-        "n": 30
+        "allied": 18,
+        "n": 33
       },
       "usd": {
-        "us": 1100000000.0,
-        "us_n": 1,
+        "us": 1360000000.0,
+        "us_n": 2,
         "prc": 448154809.0,
         "prc_n": 4,
-        "allied": 743000000.0,
-        "allied_n": 2
+        "allied": 1119000000.0,
+        "allied_n": 3
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 5,
           "allied": 2
         },
         "infrastructure": {
           "us": 3,
           "prc": 2,
-          "allied": 5
+          "allied": 6
         },
         "resources": {
           "us": 2,
           "prc": 0,
-          "allied": 9
+          "allied": 10
         }
       }
     },
@@ -517,6 +517,30 @@
           "us": 0,
           "prc": 1,
           "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Honduras",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 1,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 100000000.0,
+        "allied_n": 1
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
         }
       }
     },
@@ -829,7 +853,12 @@
       "vicuna_rigi_peelp_2026",
       "alstom_santo_domingo_l2_2026",
       "sany_hgt_aracruz_2026",
-      "hgt_aracruz_jv_2026"
+      "hgt_aracruz_jv_2026",
+      "ccecc_cccc_salvador_itaparica_2025",
+      "stracon_perez_caldera_boom_2026",
+      "ictsi_opc_cortes_100m_2026",
+      "veolia_aguas_pacifico_om_2025",
+      "tesla_colbun_celda_solar_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",
