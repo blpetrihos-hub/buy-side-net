@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 263,
+    "n_rows": 267,
     "counts": {
-      "total": 263,
-      "active": 208,
+      "total": 267,
+      "active": 212,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
       "proxy": 39,
       "exclude": 5,
-      "documented": 168,
-      "on_map": 197
+      "documented": 172,
+      "on_map": 201
     }
   },
   "layer_readouts": [
@@ -108,8 +108,8 @@
       "counts": {
         "us": 5,
         "prc": 29,
-        "allied": 44,
-        "n": 78
+        "allied": 45,
+        "n": 79
       },
       "usd": {
         "us": 170000000.0,
@@ -131,16 +131,16 @@
       "counts": {
         "us": 10,
         "prc": 15,
-        "allied": 43,
-        "n": 68
+        "allied": 45,
+        "n": 70
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
         "prc": 2710442290.0,
         "prc_n": 9,
-        "allied": 25437950427.2,
-        "allied_n": 16
+        "allied": 25662950427.2,
+        "allied_n": 17
       },
       "matched_gaps": {
         "n": 0,
@@ -152,8 +152,8 @@
       "counts": {
         "us": 9,
         "prc": 23,
-        "allied": 28,
-        "n": 60
+        "allied": 29,
+        "n": 61
       },
       "usd": {
         "us": 1360000000.0,
@@ -240,8 +240,8 @@
       "counts": {
         "us": 5,
         "prc": 28,
-        "allied": 52,
-        "n": 85
+        "allied": 54,
+        "n": 87
       },
       "usd": {
         "us": 550000000.0,
@@ -255,12 +255,12 @@
         "energy": {
           "us": 1,
           "prc": 12,
-          "allied": 16
+          "allied": 17
         },
         "infrastructure": {
           "us": 0,
           "prc": 12,
-          "allied": 16
+          "allied": 17
         },
         "resources": {
           "us": 4,
@@ -274,16 +274,16 @@
       "counts": {
         "us": 8,
         "prc": 7,
-        "allied": 18,
-        "n": 33
+        "allied": 20,
+        "n": 35
       },
       "usd": {
         "us": 1360000000.0,
         "us_n": 2,
         "prc": 448154809.0,
         "prc_n": 4,
-        "allied": 1119000000.0,
-        "allied_n": 3
+        "allied": 1344000000.0,
+        "allied_n": 4
       },
       "by_layer": {
         "energy": {
@@ -299,7 +299,7 @@
         "resources": {
           "us": 2,
           "prc": 0,
-          "allied": 10
+          "allied": 12
         }
       }
     },
@@ -868,7 +868,11 @@
       "ictsi_aratu_hsim_2026",
       "candu_cnea_piap_mou_2025",
       "catl_cip_alegria_bess_2026",
-      "chinalco_toromocho_its3_700m_2026"
+      "chinalco_toromocho_its3_700m_2026",
+      "techint_collahuasi_c20_impulse_2022",
+      "eni_energyx_black_giant_2026",
+      "kalmar_portonave_ers_2026",
+      "cnen_invap_rmb_mou_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
