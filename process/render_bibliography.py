@@ -105,14 +105,16 @@ def nav(title: str, subtitle: str) -> str:
     return f"""
 <header class="site-header">
   <div class="inner">
-    <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
-    <h1>{html.escape(title)}</h1>
-    <p class="sub">{html.escape(subtitle)}</p>
-    <nav>
-      <a href="index.html">Dashboard</a>
+    <nav aria-label="Site">
+      <a href="index.html">Interactive map</a>
       <a href="methods.html">Methods</a>
       <a href="bibliography.html" aria-current="page">Bibliography</a>
     </nav>
+    <div class="header-brand">
+      <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
+      <h1>{html.escape(title)}</h1>
+      <p class="sub">{html.escape(subtitle)}</p>
+    </div>
   </div>
 </header>
 """
@@ -183,7 +185,7 @@ def main() -> None:
     site_title = site.get("title", "Commanding heights of Latin America")
     subtitle = site.get(
         "subtitle",
-        "PRC versus U.S. investment and presence. Descriptive net assessment only.",
+        "PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy.",
     )
     labels = layer_labels(meta)
     sub_order = subcategory_order(meta)
