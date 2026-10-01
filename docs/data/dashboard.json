@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 343,
+    "n_rows": 352,
     "counts": {
-      "total": 343,
-      "active": 288,
+      "total": 352,
+      "active": 297,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 61,
+      "proxy": 68,
       "exclude": 5,
-      "documented": 226,
-      "on_map": 277
+      "documented": 228,
+      "on_map": 286
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 6,
-        "prc": 36,
-        "allied": 68,
-        "n": 110
+        "prc": 37,
+        "allied": 72,
+        "n": 115
       },
       "usd": {
         "us": 170000000.0,
@@ -131,8 +131,8 @@
       "counts": {
         "us": 14,
         "prc": 22,
-        "allied": 61,
-        "n": 97
+        "allied": 63,
+        "n": 99
       },
       "usd": {
         "us": 10178942120.0,
@@ -150,10 +150,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 11,
-        "prc": 33,
+        "us": 12,
+        "prc": 34,
         "allied": 35,
-        "n": 79
+        "n": 81
       },
       "usd": {
         "us": 1360000000.0,
@@ -177,8 +177,8 @@
       "counts": {
         "us": 2,
         "prc": 10,
-        "allied": 18,
-        "n": 30
+        "allied": 19,
+        "n": 31
       },
       "usd": {
         "us": 0.0,
@@ -197,7 +197,7 @@
         "infrastructure": {
           "us": 0,
           "prc": 2,
-          "allied": 2
+          "allied": 3
         },
         "resources": {
           "us": 0,
@@ -240,8 +240,8 @@
       "counts": {
         "us": 6,
         "prc": 33,
-        "allied": 72,
-        "n": 111
+        "allied": 74,
+        "n": 113
       },
       "usd": {
         "us": 552145000.0,
@@ -265,17 +265,17 @@
         "resources": {
           "us": 5,
           "prc": 5,
-          "allied": 28
+          "allied": 30
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 9,
-        "prc": 14,
-        "allied": 27,
-        "n": 50
+        "us": 10,
+        "prc": 15,
+        "allied": 28,
+        "n": 53
       },
       "usd": {
         "us": 8860000000.0,
@@ -287,14 +287,14 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
-          "prc": 10,
+          "us": 4,
+          "prc": 11,
           "allied": 3
         },
         "infrastructure": {
           "us": 3,
           "prc": 4,
-          "allied": 9
+          "allied": 10
         },
         "resources": {
           "us": 3,
@@ -641,8 +641,8 @@
       "counts": {
         "us": 3,
         "prc": 10,
-        "allied": 14,
-        "n": 27
+        "allied": 15,
+        "n": 28
       },
       "usd": {
         "us": 2100000000.0,
@@ -661,12 +661,36 @@
         "infrastructure": {
           "us": 1,
           "prc": 4,
-          "allied": 10
+          "allied": 11
         },
         "resources": {
           "us": 2,
           "prc": 5,
           "allied": 3
+        }
+      }
+    },
+    {
+      "country": "Uruguay",
+      "counts": {
+        "us": 0,
+        "prc": 1,
+        "allied": 1,
+        "n": 2
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 1,
+          "allied": 1
         }
       }
     }
@@ -958,7 +982,16 @@
       "st_george_araxa_raise_aud60m_2026",
       "aima_ecuador_balsa_mfr_spain_2025",
       "powerchina_chancay_sierra_rail_2026",
-      "hutchison_icave_fase2_4500m_mxn_2026"
+      "hutchison_icave_fase2_4500m_mxn_2026",
+      "graphcoa_jordania_dev_8m_2026",
+      "brazilian_nickel_canada_eca_275m_2026",
+      "holcim_ves_villa1_its_13m_pen_2026",
+      "jinko_aloe_bess_340m_2026",
+      "aes_pampas_pf_550m_2025",
+      "zpmc_tcp_montevideo_sts_2026",
+      "ges_pampas_epc_2025",
+      "katoen_tcp_montevideo_455m_2021",
+      "contreras_vicuna_corredor_norte_135m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
