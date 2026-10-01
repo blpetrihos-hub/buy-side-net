@@ -1,22 +1,22 @@
-const COLORS = {
-  prc_cheaper: "#8c3a2b",
-  us_cheaper: "#2f5d73",
-  tie: "#1b3a4b",
-  unscored: "#8a9096",
+const LAYER_SHAPE = {
+  infrastructure: "square",
+  resources: "circle",
+  energy: "triangle",
 };
 
-const LANE_LABEL = {
-  commanding_heights: "Commanding heights",
-  niobium: "Niobium",
-  ai_chips: "AI chips",
-  icbc_finance: "ICBC finance",
+const LAYER_LABEL = {
+  infrastructure: "Infrastructure",
+  resources: "Scarce Natural Resources",
+  energy: "Energy",
 };
 
 let DATA = null;
 let ROWS = null;
+let COLORS = { us: "#2f5d73", prc: "#8c3a2b", allied: "#6b7c3c", hunt: "#8a9096" };
 let map = null;
-let layer = null;
+let layerGroup = null;
 let markersById = {};
+let activeLayers = { infrastructure: true, resources: true, energy: true };
 
 function $(id) {
   return document.getElementById(id);
@@ -24,18 +24,44 @@ function $(id) {
 
 function selected() {
   return {
-    lane: $("lane").value,
+    subcategory: $("subcategory").value,
     country: $("country").value,
     evidence: $("evidence").value,
+    side: $("side").value,
   };
+}
+
+function sideBucket(side) {
+  if (side === "us") return "us";
+  if (side === "prc") return "prc";
+  if (side === "allied" || side === "other") return "allied";
+  return "other";
+}
+
+function pinColor(row) {
+  if (row.status === "hunt" || row.evidence === "hunt") return COLORS.hunt;
+  const b = sideBucket(row.side);
+  if (b === "us") return COLORS.us;
+  if (b === "prc") return COLORS.prc;
+  return COLORS.allied;
 }
 
 function filterRows() {
   const s = selected();
   return ROWS.filter((r) => {
-    if (s.lane !== "all" && r.lane !== s.lane) return false;
+    if (r.status === "archived") return false;
+    if (r.evidence === "exclude") return false;
+    if (r.layer === "archived") return false;
+    if (!activeLayers[r.layer]) return false;
+    if (s.subcategory !== "all" && r.subcategory !== s.subcategory) return false;
     if (s.country !== "all" && (r.country || "(unspecified)") !== s.country) return false;
     if (s.evidence !== "all" && r.evidence !== s.evidence) return false;
+    if (s.side !== "all") {
+      const b = sideBucket(r.side);
+      if (s.side === "allied") {
+        if (b !== "allied") return false;
+      } else if (b !== s.side) return false;
+    }
     return true;
   });
 }
@@ -47,160 +73,266 @@ function fmtPct(gap) {
   return sign + pct.toFixed(1) + "%";
 }
 
-function fmtMoney(n, unit) {
+function fmtMoney(n) {
   if (n == null || Number.isNaN(n)) return "—";
   const abs = Math.abs(n);
-  let s;
-  if (abs >= 1e9) s = (n / 1e9).toFixed(2) + "B";
-  else if (abs >= 1e6) s = (n / 1e6).toFixed(2) + "M";
-  else if (abs >= 1e3) s = (n / 1e3).toFixed(2) + "k";
-  else s = Number.isInteger(n) ? String(n) : n.toFixed(4).replace(/\.?0+$/, "");
-  return unit ? s + " " + unit : s;
+  if (abs >= 1e9) return "$" + (n / 1e9).toFixed(2) + "B";
+  if (abs >= 1e6) return "$" + (n / 1e6).toFixed(2) + "M";
+  if (abs >= 1e3) return "$" + (n / 1e3).toFixed(2) + "k";
+  return "$" + (Number.isInteger(n) ? String(n) : n.toFixed(2));
 }
 
-function pinColor(row) {
-  // Scored U.S. pairs and allied paired pins both use gap colors; allied stay off the median.
-  const pairedWithGap =
-    row.evidence === "paired" && row.gap != null && !Number.isNaN(row.gap);
-  if (!row.on_scoreboard && !pairedWithGap) return COLORS.unscored;
-  if (row.gap == null || Number.isNaN(row.gap)) return COLORS.unscored;
-  if (row.gap > 0) return COLORS.prc_cheaper;
-  if (row.gap < 0) return COLORS.us_cheaper;
-  return COLORS.tie;
+function subLabel(layer, sub) {
+  const tax = (DATA && DATA.taxonomy && DATA.taxonomy[layer]) || {};
+  const subs = tax.subcategories || {};
+  return subs[sub] || sub;
 }
 
 function popupHtml(row) {
   const src = row.evidence_url
     ? `<a href="${row.evidence_url}" rel="noopener" target="_blank">source</a>`
     : "no source URL yet";
+  const gapBit =
+    row.evidence === "paired" && row.gap != null
+      ? `<br><span class="popup-gap">Matched gap: ${fmtPct(row.gap)}</span>`
+      : "";
+  const counterpart =
+    row.counterpart_actor
+      ? `<br>Counterpart (${row.counterpart_side || "—"}): ${row.counterpart_actor}` +
+        (row.counterpart_value_usd != null
+          ? ` · ${fmtMoney(row.counterpart_value_usd)}`
+          : "")
+      : "";
   return (
-    `<strong>${row.spec || row.spec_class || row.id}</strong><br>` +
-    `Buyer: ${row.buyer || "—"}<br>` +
-    `U.S./allied: ${row.seller_us || "—"} · PRC: ${row.seller_prc || "—"}<br>` +
-    `Price year: ${row.price_year || "—"} · Unit: ${row.unit || "—"} · ${row.currency || ""}<br>` +
-    `Original: U.S. ${fmtMoney(row.us_price)} / PRC ${fmtMoney(row.prc_price)}<br>` +
-    `USD: ${fmtMoney(row.us_price_usd)} / ${fmtMoney(row.prc_price_usd)}<br>` +
-    `<span class="popup-gap">Gap: ${fmtPct(row.gap)}</span><br>` +
-    `Evidence: ${row.evidence}` +
-    (row.on_scoreboard ? " (on median)" : " (off median)") +
-    `<br>${src}<br>` +
+    `<strong>${row.asset || row.id}</strong><br>` +
+    `${LAYER_LABEL[row.layer] || row.layer} · ${subLabel(row.layer, row.subcategory)}<br>` +
+    `Side: ${row.side} · ${row.investment_type || "—"}<br>` +
+    `Host/counterpart: ${row.counterpart || "—"} · ${row.country || "—"}<br>` +
+    `Year: ${row.year || "—"} · Value: ${fmtMoney(row.value_usd)} (${row.currency || ""})` +
+    counterpart +
+    gapBit +
+    `<br>Evidence: ${row.evidence}<br>${src}<br>` +
     `<em>${row.note || ""}</em>`
   );
 }
 
-function renderScoreboards() {
-  const goods = (DATA.scoreboards && DATA.scoreboards.goods) || [];
-  const finance = (DATA.scoreboards && DATA.scoreboards.finance) || [];
-  const counts = (DATA.meta && DATA.meta.counts) || {};
-
-  if (!goods.length) {
-    $("scoreGoods").innerHTML = '<p class="empty">No scored goods pairs yet.</p>';
+function markerIcon(row) {
+  const shape = LAYER_SHAPE[row.layer] || "circle";
+  const color = pinColor(row);
+  let html;
+  if (shape === "triangle") {
+    html = `<span class="ch-shape triangle" style="border-bottom-color:${color}"></span>`;
   } else {
-    $("scoreGoods").innerHTML = goods
-      .map(
-        (g) =>
-          `<div class="score goods"><b>${fmtPct(g.median_gap)}</b>` +
-          `<span>${LANE_LABEL[g.lane] || g.lane} · ${g.spec_class}</span>` +
-          `<small>n = ${g.n}</small></div>`
-      )
-      .join("");
+    html = `<span class="ch-shape ${shape}" style="background:${color}"></span>`;
   }
-
-  if (!finance.length) {
-    $("scoreFinance").innerHTML = '<p class="empty">No scored finance pairs yet.</p>';
-  } else {
-    $("scoreFinance").innerHTML = finance
-      .map(
-        (g) =>
-          `<div class="score finance"><b>${fmtPct(g.median_gap)}</b>` +
-          `<span>${LANE_LABEL[g.lane] || g.lane} · ${g.spec_class}</span>` +
-          `<small>n = ${g.n}</small></div>`
-      )
-      .join("");
-  }
-
-  const keys = [
-    ["paired", "Paired"],
-    ["proxy", "Proxy"],
-    ["one_sided", "One-sided"],
-    ["hunt", "Hunt"],
-    ["scored", "Scored"],
-  ];
-  $("scoreCounts").innerHTML = keys
-    .map(
-      ([k, label]) =>
-        `<div class="score count"><b>${counts[k] != null ? counts[k] : 0}</b><span>${label}</span></div>`
-    )
-    .join("");
+  return L.divIcon({
+    className: "ch-marker",
+    html,
+    iconSize: [16, 16],
+    iconAnchor: [8, 8],
+    popupAnchor: [0, -8],
+  });
 }
 
-function renderCountryStrip(rows) {
-  // Rebuild from filtered scored rows so controls matter; never blend lanes.
+function renderLegend() {
+  const shapes = [
+    ["square", "Infrastructure"],
+    ["circle", "Scarce Natural Resources"],
+    ["triangle", "Energy"],
+  ];
+  const sides = [
+    ["us", "U.S."],
+    ["prc", "PRC"],
+    ["allied", "Allied / other"],
+    ["hunt", "Hunt / unpriced"],
+  ];
+  const shapeHtml = shapes
+    .map(([sh, label]) => {
+      if (sh === "triangle") {
+        return `<span class="legend-item"><span class="legend-swatch triangle" style="border-bottom-color:${COLORS.hunt}"></span>${label}</span>`;
+      }
+      return `<span class="legend-item"><span class="legend-swatch ${sh}" style="background:${COLORS.hunt}"></span>${label}</span>`;
+    })
+    .join("");
+  const sideHtml = sides
+    .map(
+      ([k, label]) =>
+        `<span class="legend-item"><span class="legend-swatch circle" style="background:${COLORS[k]}"></span>${label}</span>`
+    )
+    .join("");
+  $("mapLegend").innerHTML =
+    shapeHtml +
+    "<span>·</span>" +
+    sideHtml +
+    "<span>·</span><span>Latin America &amp; Caribbean only</span>";
+}
+
+function renderLayerToggles() {
+  const box = $("layerToggles");
+  box.innerHTML = ["infrastructure", "resources", "energy"]
+    .map(
+      (k) =>
+        `<label><input type="checkbox" data-layer="${k}" ${
+          activeLayers[k] ? "checked" : ""
+        }> ${LAYER_LABEL[k]}</label>`
+    )
+    .join("");
+  box.querySelectorAll("input").forEach((input) => {
+    input.addEventListener("change", () => {
+      activeLayers[input.getAttribute("data-layer")] = input.checked;
+      fillSubcategorySelect();
+      render();
+    });
+  });
+}
+
+function fillSubcategorySelect() {
+  const sel = $("subcategory");
+  const current = sel.value;
+  const opts = [];
+  ["infrastructure", "resources", "energy"].forEach((layer) => {
+    if (!activeLayers[layer]) return;
+    const tax = (DATA.taxonomy && DATA.taxonomy[layer]) || {};
+    const subs = tax.subcategories || {};
+    Object.keys(subs).forEach((sk) => {
+      opts.push({ value: sk, label: `${LAYER_LABEL[layer]} · ${subs[sk]}` });
+    });
+  });
+  sel.innerHTML =
+    '<option value="all">All subcategories</option>' +
+    opts.map((o) => `<option value="${o.value}">${o.label}</option>`).join("");
+  if ([...sel.options].some((o) => o.value === current)) sel.value = current;
+}
+
+function fillCountrySelect() {
+  const sel = $("country");
+  const current = sel.value;
+  const allowed = new Set((DATA.geography && DATA.geography.countries) || []);
+  const countries = Array.from(
+    new Set(
+      ROWS.filter((r) => r.status !== "archived" && r.country && allowed.has(r.country)).map(
+        (r) => r.country
+      )
+    )
+  ).sort();
+  sel.innerHTML =
+    '<option value="all">All countries</option>' +
+    countries.map((c) => `<option value="${c}">${c}</option>`).join("");
+  if ([...sel.options].some((o) => o.value === current)) sel.value = current;
+}
+
+function renderLayerReadouts(rows) {
+  const layers = ["infrastructure", "resources", "energy"];
+  const html = layers
+    .filter((l) => activeLayers[l])
+    .map((layer) => {
+      const subset = rows.filter((r) => r.layer === layer && r.on_readouts);
+      const counts = { us: 0, prc: 0, allied: 0 };
+      const usd = { us: 0, prc: 0, allied: 0 };
+      const usdN = { us: 0, prc: 0, allied: 0 };
+      subset.forEach((r) => {
+        const b = sideBucket(r.side);
+        if (counts[b] == null) return;
+        counts[b] += 1;
+        if (r.on_usd_sum && r.value_usd != null) {
+          usd[b] += r.value_usd;
+          usdN[b] += 1;
+        }
+      });
+      const n = counts.us + counts.prc + counts.allied;
+      return (
+        `<div class="layer-card"><strong>${LAYER_LABEL[layer]}</strong>` +
+        `<p class="layer-line"><span class="side-us">U.S. ${counts.us}</span> · ` +
+        `<span class="side-prc">PRC ${counts.prc}</span> · ` +
+        `<span class="side-allied">Allied/other ${counts.allied}</span> · n = ${n}</p>` +
+        `<p class="layer-line">USD: <span class="side-us">U.S. ${fmtMoney(usd.us)} (n=${usdN.us})</span> · ` +
+        `<span class="side-prc">PRC ${fmtMoney(usd.prc)} (n=${usdN.prc})</span> · ` +
+        `<span class="side-allied">Allied ${fmtMoney(usd.allied)} (n=${usdN.allied})</span></p></div>`
+      );
+    })
+    .join("");
+  $("layerReadouts").innerHTML = html || '<p class="empty">No active layer readouts.</p>';
+}
+
+function renderCountryReadouts(rows) {
   const bucket = {};
   rows
-    .filter((r) => r.on_scoreboard && r.gap != null)
+    .filter((r) => r.on_readouts)
     .forEach((r) => {
       const c = r.country || "(unspecified)";
-      if (!bucket[c]) bucket[c] = {};
-      if (!bucket[c][r.lane]) bucket[c][r.lane] = [];
-      bucket[c][r.lane].push(r.gap);
+      if (!bucket[c]) bucket[c] = { us: 0, prc: 0, allied: 0, usdUs: 0, usdPrc: 0, nUs: 0, nPrc: 0 };
+      const b = sideBucket(r.side);
+      if (bucket[c][b] != null) bucket[c][b] += 1;
+      if (r.on_usd_sum && r.value_usd != null) {
+        if (b === "us") {
+          bucket[c].usdUs += r.value_usd;
+          bucket[c].nUs += 1;
+        }
+        if (b === "prc") {
+          bucket[c].usdPrc += r.value_usd;
+          bucket[c].nPrc += 1;
+        }
+      }
     });
   const countries = Object.keys(bucket).sort();
   if (!countries.length) {
-    $("countryLines").innerHTML = '<p class="empty">No scored country lines yet.</p>';
+    $("countryReadouts").innerHTML = '<p class="empty">No country lines yet.</p>';
     return;
   }
-  const laneOrder = ["commanding_heights", "niobium", "ai_chips", "icbc_finance"];
-  $("countryLines").innerHTML = countries
+  $("countryReadouts").innerHTML = countries
     .map((c) => {
-      const lines = laneOrder
-        .filter((lane) => bucket[c][lane] && bucket[c][lane].length)
-        .map((lane) => {
-          const vals = bucket[c][lane].slice().sort((a, b) => a - b);
-          const mid = vals[Math.floor(vals.length / 2)];
-          return `<p class="country-line">${LANE_LABEL[lane] || lane}: median gap ${fmtPct(mid)} (n = ${vals.length})</p>`;
-        })
-        .join("");
-      return `<div class="country-block"><strong>${c}</strong>${lines}</div>`;
+      const x = bucket[c];
+      return (
+        `<div class="country-block"><strong>${c}</strong>` +
+        `<p class="layer-line"><span class="side-us">U.S. ${x.us}</span> · ` +
+        `<span class="side-prc">PRC ${x.prc}</span> · allied/other ${x.allied}</p>` +
+        `<p class="layer-line">USD: <span class="side-us">${fmtMoney(x.usdUs)} (n=${x.nUs})</span> · ` +
+        `<span class="side-prc">${fmtMoney(x.usdPrc)} (n=${x.nPrc})</span></p></div>`
+      );
+    })
+    .join("");
+}
+
+function renderGapReadouts(rows) {
+  const paired = rows.filter((r) => r.evidence === "paired" && r.gap != null);
+  if (!paired.length) {
+    $("gapReadouts").innerHTML = '<p class="empty">No matched pairs in the current filter.</p>';
+    return;
+  }
+  $("gapReadouts").innerHTML = paired
+    .map((r) => {
+      return (
+        `<div class="country-block"><strong>${r.id}</strong>` +
+        `<p class="layer-line">${LAYER_LABEL[r.layer] || r.layer} · ${r.country || "—"} · gap ${fmtPct(
+          r.gap
+        )}</p></div>`
+      );
     })
     .join("");
 }
 
 function renderLists(rows) {
-  // Scored U.S. median pairs, plus allied paired pins (off median but on the map).
-  const scored = rows.filter(
-    (r) => r.on_scoreboard || r.evidence === "paired"
-  );
-  const proxy = rows.filter((r) => r.evidence === "proxy" || r.evidence === "one_sided");
-  const hunt = rows.filter((r) => r.evidence === "hunt");
-  $("listScored").innerHTML = scored.length
-    ? scored.map(listItem).join("")
-    : '<li class="empty">None yet.</li>';
-  $("listProxy").innerHTML = proxy.length
-    ? proxy.map(listItem).join("")
-    : '<li class="empty">None yet.</li>';
-  $("listHunt").innerHTML = hunt.length
-    ? hunt.map(listItem).join("")
-    : '<li class="empty">None yet.</li>';
+  const show = rows.slice().sort((a, b) => (a.id < b.id ? -1 : 1));
+  $("listRows").innerHTML = show.length
+    ? show
+        .map((row) => {
+          const gapBit = row.gap != null ? ` · ${fmtPct(row.gap)}` : "";
+          return (
+            `<li><button type="button" data-id="${row.id}">` +
+            `<strong>${row.id}</strong>` +
+            `<span class="meta">${LAYER_LABEL[row.layer] || row.layer} · ${row.side} · ${
+              row.evidence
+            }${gapBit}` +
+            (row.country ? ` · ${row.country}` : "") +
+            `</span></button></li>`
+          );
+        })
+        .join("")
+    : '<li class="empty">None with current filters.</li>';
 
   document.querySelectorAll(".side-list button").forEach((btn) => {
     btn.addEventListener("click", () => focusRow(btn.getAttribute("data-id")));
   });
-}
-
-function listItem(row) {
-  const gapBit = row.gap != null ? ` · ${fmtPct(row.gap)}` : "";
-  const alliedBit =
-    row.evidence === "paired" && row.us_side === "allied" && !row.on_scoreboard
-      ? " · allied, off U.S. median"
-      : "";
-  return (
-    `<li><button type="button" data-id="${row.id}">` +
-    `<strong>${row.id}</strong>` +
-    `<span class="meta">${LANE_LABEL[row.lane] || row.lane} · ${row.evidence}${gapBit}${alliedBit}` +
-    (row.country ? ` · ${row.country}` : "") +
-    `</span></button></li>`
-  );
 }
 
 function focusRow(id) {
@@ -212,8 +344,8 @@ function focusRow(id) {
   } else {
     $("note").textContent =
       row.id +
-      " has no coordinates. " +
-      (row.note || "It stays on the list until a project or HQ is named.");
+      " has no map pin (missing coordinates, blank country, or outside Latin America & the Caribbean). " +
+      (row.note || "");
   }
 }
 
@@ -302,7 +434,8 @@ const CARTO_BASEMAP_KEY = "cb1_32m3_1_44dc754e68375e8ab5208497";
 
 function renderMap(rows) {
   if (!map) {
-    map = L.map("map").setView([-15, -50], 3);
+    // Centered on Latin America & the Caribbean
+    map = L.map("map", { scrollWheelZoom: true }).setView([-15, -60], 3.5);
     const tiles =
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=" +
       encodeURIComponent(CARTO_BASEMAP_KEY);
@@ -314,51 +447,56 @@ function renderMap(rows) {
     }).addTo(map);
     addFullscreenControl(map);
   }
-  if (layer) layer.remove();
+  if (layerGroup) layerGroup.remove();
   markersById = {};
-  layer = L.layerGroup();
+  layerGroup = L.layerGroup();
   rows.forEach((r) => {
     if (r.lat == null || r.lon == null) return;
-    const color = pinColor(r);
-    const m = L.circleMarker([r.lat, r.lon], {
-      radius: 8,
-      color: color,
-      fillColor: color,
-      fillOpacity: 0.7,
-      weight: 1,
-    });
+    if (!r.on_map && r.status !== "hunt") return;
+    // Hunt pins only when in-region with coords
+    if (r.status === "hunt" && (r.lat == null || r.lon == null)) return;
+    const m = L.marker([r.lat, r.lon], { icon: markerIcon(r) });
     m.bindPopup(popupHtml(r));
-    layer.addLayer(m);
+    layerGroup.addLayer(m);
     markersById[r.id] = m;
   });
-  layer.addTo(map);
+  layerGroup.addTo(map);
 }
 
-function fillCountrySelect() {
-  const sel = $("country");
-  const current = sel.value;
-  const countries = Array.from(
-    new Set(ROWS.map((r) => r.country || "(unspecified)").filter(Boolean))
-  ).sort();
-  sel.innerHTML =
-    '<option value="all">All countries</option>' +
-    countries.map((c) => `<option value="${c}">${c}</option>`).join("");
-  if ([...sel.options].some((o) => o.value === current)) sel.value = current;
+function setupOverlay() {
+  const toggle = $("panelToggle");
+  const overlay = $("filterOverlay");
+  const close = $("overlayClose");
+  function open() {
+    overlay.hidden = false;
+    toggle.setAttribute("aria-expanded", "true");
+  }
+  function shut() {
+    overlay.hidden = true;
+    toggle.setAttribute("aria-expanded", "false");
+  }
+  toggle.addEventListener("click", () => {
+    if (overlay.hidden) open();
+    else shut();
+  });
+  close.addEventListener("click", shut);
 }
 
 function render() {
   if (!DATA || !ROWS) return;
   const rows = filterRows();
-  renderScoreboards();
-  renderCountryStrip(rows);
+  renderLayerReadouts(rows);
+  renderCountryReadouts(rows);
+  renderGapReadouts(rows);
   renderLists(rows);
   renderMap(rows);
   if (map) setTimeout(() => map.invalidateSize(), 80);
   const counts = DATA.meta.counts || {};
   $("note").textContent =
     `${rows.length} row(s) with current filters. ` +
-    `${counts.scored || 0} scored on the median across the full codebook. ` +
-    `A lower matched PRC buy-side price is the asymmetry.`;
+    `${counts.on_map || 0} mapped across the codebook. ` +
+    `${counts.archived || 0} archived (out of region or legacy lanes). ` +
+    `Descriptive only — no recommendations.`;
 }
 
 async function boot() {
@@ -368,12 +506,21 @@ async function boot() {
   ]);
   DATA = dash;
   ROWS = rows;
+  if (DATA.colors) COLORS = Object.assign(COLORS, DATA.colors);
+  if (DATA.caption) $("caption").textContent = DATA.caption;
+  renderLegend();
+  renderLayerToggles();
+  fillSubcategorySelect();
   fillCountrySelect();
-  ["lane", "country", "evidence"].forEach((id) => $(id).addEventListener("change", render));
+  setupOverlay();
+  ["subcategory", "country", "evidence", "side"].forEach((id) =>
+    $(id).addEventListener("change", render)
+  );
   render();
 }
 
 boot().catch((err) => {
-  $("note").textContent = "Could not load the data files. Rebuild with process/build_site_data.py.";
+  $("note").textContent =
+    "Could not load the data files. Rebuild with process/build_site_data.py.";
   console.error(err);
 });

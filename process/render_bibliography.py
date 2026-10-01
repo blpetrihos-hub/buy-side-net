@@ -9,15 +9,25 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "sources" / "bibliography.yml"
+CODEBOOK_YML = ROOT / "data" / "codebook" / "codebook.yml"
 OUT = ROOT / "docs" / "bibliography.html"
 JSON_OUT = ROOT / "docs" / "data" / "bibliography.json"
 
-NAV = """
+
+def site_meta() -> dict:
+    if CODEBOOK_YML.exists():
+        meta = yaml.safe_load(CODEBOOK_YML.read_text(encoding="utf-8")) or {}
+        return meta.get("site") or {}
+    return {}
+
+
+def nav(title: str, subtitle: str) -> str:
+    return f"""
 <header class="site-header">
   <div class="inner">
     <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
-    <h1>Where the PRC price is the lower bid</h1>
-    <p class="sub">Matched buy-side prices from the 30 September pitches. A gap is a measurement. The page does not recommend a response.</p>
+    <h1>{html.escape(title)}</h1>
+    <p class="sub">{html.escape(subtitle)}</p>
     <nav>
       <a href="index.html">Dashboard</a>
       <a href="methods.html">Methods</a>
@@ -28,7 +38,7 @@ NAV = """
 """
 
 
-def page(body: str, title: str) -> str:
+def page(body: str, title: str, site_title: str, subtitle: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +48,7 @@ def page(body: str, title: str) -> str:
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-{NAV}
+{nav(site_title, subtitle)}
 <main class="page">
 {body}
 </main>
@@ -72,13 +82,23 @@ def render_entry(e: dict) -> str:
 
 
 def main() -> None:
+    site = site_meta()
+    site_title = site.get("title", "Commanding heights of Latin America")
+    subtitle = site.get(
+        "subtitle",
+        "PRC versus U.S. investment and presence. Descriptive net assessment only.",
+    )
     entries = yaml.safe_load(SRC.read_text(encoding="utf-8")) or []
     JSON_OUT.parent.mkdir(parents=True, exist_ok=True)
     JSON_OUT.write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
     blocks = [
         "<h2>Annotated bibliography</h2>",
-        "<p>Public procurement notices, commodity quotes, company filings, exchange or statistical releases, and published journalism. Built from <code>sources/bibliography.yml</code> so this page cannot drift. Press-only figures stay UNVERIFIED proxy rows until a document confirms them.</p>",
-        "<p>Excluded from the median: pitch deck color, market-share narratives, loan sizes without a rate, and any leaked ICBC internal record set.</p>",
+        "<p>Public procurement notices, company filings, ministry and utility notices, "
+        "port-authority releases, and published journalism. Built from "
+        "<code>sources/bibliography.yml</code> so this page cannot drift. "
+        "Press-only figures stay UNVERIFIED until a document confirms them. "
+        "Archived AI-chip and ICBC-finance rows remain cited here even though they are "
+        "off the map and readouts.</p>",
     ]
     order = ["official", "journalism", "academic", "methods", "other"]
     labels = {
@@ -104,7 +124,12 @@ def main() -> None:
         for e in group:
             blocks.append(render_entry(e))
     OUT.write_text(
-        page("\n".join(blocks), "Bibliography · Where the PRC price is the lower bid"),
+        page(
+            "\n".join(blocks),
+            f"Bibliography · {site_title}",
+            site_title,
+            subtitle,
+        ),
         encoding="utf-8",
     )
     print("WROTE", OUT, "n=", len(entries))

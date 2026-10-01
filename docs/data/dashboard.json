@@ -1,37 +1,293 @@
 {
-  "generated_from": "buy-side observations codebook",
-  "caption": "Score a pair only when both prices are public and the specification matches. A lower PRC price is the asymmetry. Hunt pins are places still missing a number. Nothing here is a recommendation.",
-  "meta": {
-    "n_rows": 52,
-    "counts": {
-      "paired": 2,
-      "proxy": 13,
-      "one_sided": 27,
-      "hunt": 7,
-      "exclude": 3,
-      "scored": 0
+  "generated_from": "commanding-heights codebook",
+  "title": "Commanding heights of Latin America",
+  "subtitle": "PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy. Descriptive net assessment only — the page does not recommend a response.",
+  "caption": "Toggle layers and subcategories. Side colors mark U.S., PRC, allied/other, and hunt pins. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation.",
+  "geography": {
+    "region": "Latin America and the Caribbean",
+    "rule": "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped.",
+    "countries": [
+      "Antigua and Barbuda",
+      "Argentina",
+      "Bahamas",
+      "Barbados",
+      "Belize",
+      "Bolivia",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Costa Rica",
+      "Cuba",
+      "Dominica",
+      "Dominican Republic",
+      "Ecuador",
+      "El Salvador",
+      "Grenada",
+      "Guatemala",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Jamaica",
+      "Mexico",
+      "Nicaragua",
+      "Panama",
+      "Paraguay",
+      "Peru",
+      "Puerto Rico",
+      "Saint Kitts and Nevis",
+      "Saint Lucia",
+      "Saint Vincent and the Grenadines",
+      "Suriname",
+      "Trinidad and Tobago",
+      "Uruguay",
+      "Venezuela"
+    ]
+  },
+  "colors": {
+    "us": "#2f5d73",
+    "prc": "#8c3a2b",
+    "allied": "#6b7c3c",
+    "hunt": "#8a9096"
+  },
+  "taxonomy": {
+    "infrastructure": {
+      "label": "Infrastructure",
+      "marker_shape": "square",
+      "subcategories": {
+        "port_ownership": "Port ownership and concessions",
+        "port_cranes": "Port cranes and terminal equipment",
+        "rail": "Rail",
+        "bridges_roads": "Bridges and roads",
+        "building_materials": "Construction and building materials",
+        "engineering_epc": "Engineering, design, and EPC firms"
+      }
+    },
+    "resources": {
+      "label": "Scarce Natural Resources",
+      "marker_shape": "circle",
+      "subcategories": {
+        "niobium": "Niobium",
+        "lithium": "Lithium",
+        "copper": "Copper",
+        "nickel": "Nickel",
+        "dimension_stone": "Dimension stone (granite)",
+        "balsa": "Balsa wood",
+        "water": "Water"
+      }
+    },
+    "energy": {
+      "label": "Energy",
+      "marker_shape": "triangle",
+      "subcategories": {
+        "fission_smr": "Small modular and other fission reactors",
+        "solar": "Solar",
+        "wind": "Wind",
+        "power_plants_grid": "Power plants and grid",
+        "other_renewables": "Other renewables (geothermal, small hydro)"
+      }
     }
   },
-  "scoreboards": {
-    "goods": [],
-    "finance": []
+  "meta": {
+    "n_rows": 67,
+    "counts": {
+      "total": 67,
+      "active": 14,
+      "hunt": 42,
+      "archived": 33,
+      "paired": 2,
+      "one_sided": 27,
+      "proxy": 13,
+      "exclude": 3,
+      "documented": 0,
+      "on_map": 11
+    }
   },
-  "country_strip": [],
+  "layer_readouts": [
+    {
+      "layer": "infrastructure",
+      "counts": {
+        "us": 0,
+        "prc": 2,
+        "allied": 0,
+        "n": 2
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 16718636.36,
+        "prc_n": 2,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "matched_gaps": {
+        "n": 1,
+        "values": [
+          0.00641
+        ]
+      }
+    },
+    {
+      "layer": "resources",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 1,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "matched_gaps": {
+        "n": 0,
+        "values": []
+      }
+    },
+    {
+      "layer": "energy",
+      "counts": {
+        "us": 0,
+        "prc": 6,
+        "allied": 3,
+        "n": 9
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 452331437.19,
+        "prc_n": 6,
+        "allied": 271859384.93,
+        "allied_n": 3
+      },
+      "matched_gaps": {
+        "n": 1,
+        "values": [
+          0.304024
+        ]
+      }
+    }
+  ],
+  "country_readouts": [
+    {
+      "country": "Brazil",
+      "counts": {
+        "us": 0,
+        "prc": 4,
+        "allied": 4,
+        "n": 8
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 20895264.55,
+        "prc_n": 4,
+        "allied": 271859384.93,
+        "allied_n": 3
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 3,
+          "allied": 3
+        },
+        "infrastructure": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        },
+        "resources": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        }
+      }
+    },
+    {
+      "country": "Chile",
+      "counts": {
+        "us": 0,
+        "prc": 4,
+        "allied": 0,
+        "n": 4
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 448154809.0,
+        "prc_n": 4,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 3,
+          "allied": 0
+        },
+        "infrastructure": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        }
+      }
+    }
+  ],
   "lists": {
-    "scored": [],
-    "proxy_one_sided": [
+    "active": [
+      "sp_metro_crrc_alstom_2024",
       "efe_crrc_emu_2023",
-      "fenb_china_mkt_202309",
-      "h20_ascend910b_2024",
-      "fenb65_brazil_china_mkt_20230925",
-      "atlas900_a3_superpod_sysu_2024",
-      "exim_cirr_usd_5y_202412",
+      "cen_parinas_elecnor_powerchina_2024",
       "siemens_furnas_itaipu_fsc_2023",
       "siemens_eletrobras_grid_pkg_2024",
       "xdcb_brazil_ne_uhv_ct_2024",
+      "cen_fengfan_g03_2024",
+      "cmoc_argus_fenb_kgNb_2025",
+      "xd_eletrobras_wave4_xfmr_2025",
+      "xd_kimal_lo_aguirre_cs_2022",
+      "huawei_ctg_arinos_inv_2022",
+      "siemens_terranova_gis_xfmr_2026"
+    ],
+    "hunt": [
+      "hunt_br_power_equip",
+      "hunt_cl_power_equip",
+      "hunt_mx_power_equip",
+      "hunt_fenb_araxa",
+      "hunt_latam_rail_telecom",
+      "hunt_infra_port_ownership",
+      "hunt_infra_port_cranes",
+      "hunt_infra_bridges_roads",
+      "hunt_infra_building_materials",
+      "hunt_infra_engineering_epc",
+      "hunt_res_lithium",
+      "hunt_res_copper",
+      "hunt_res_nickel",
+      "hunt_res_dimension_stone",
+      "hunt_res_balsa",
+      "hunt_res_water",
+      "hunt_energy_fission_smr",
+      "hunt_energy_wind",
+      "hunt_energy_other_renewables",
+      "hunt_energy_solar"
+    ],
+    "paired": [
+      "sp_metro_crrc_alstom_2024",
+      "cen_parinas_elecnor_powerchina_2024"
+    ],
+    "archived": [
+      "hunt_ascend_chip",
+      "hunt_icbc_rate",
+      "fenb_china_mkt_202309",
+      "h20_ascend910b_2024",
+      "icbc_huawei_wire_2019",
+      "fenb65_brazil_china_mkt_20230925",
+      "atlas900_a3_superpod_sysu_2024",
+      "exim_cirr_usd_5y_202412",
       "atlas800t_a2_wust_2024",
       "eximbank_china_barbados_scotland_2022",
-      "cen_fengfan_g03_2024",
       "ustc_suzhou_hgx_h20_2024",
       "ucas_h20_ascend910b4_2025",
       "usgs_fenb_us_unit_2024",
@@ -39,7 +295,6 @@
       "wits_eu_fenb_br_imp_2024",
       "wits_china_fenb_br_imp_2024",
       "mysteel_fenb_br_vs_cn_20260929",
-      "cmoc_argus_fenb_kgNb_2025",
       "ucas_h20_xe9680_202504",
       "cip_atlas800i_a2_2025",
       "snnu_atlas800i_a2_2025",
@@ -53,27 +308,9 @@
       "ascend910b4_smm_module_202608",
       "ascend910c_mysteel_ind_202609",
       "exim_us_guyana_gte_2025",
-      "xd_eletrobras_wave4_xfmr_2025",
-      "xd_kimal_lo_aguirre_cs_2022",
-      "huawei_ctg_arinos_inv_2022",
-      "siemens_terranova_gis_xfmr_2026",
       "fenb_br_vs_cn_20240523",
       "niocorp_argus_fenb_us_2024",
       "fenb_br66_vs_cn60a_20260921"
-    ],
-    "hunt": [
-      "hunt_br_power_equip",
-      "hunt_cl_power_equip",
-      "hunt_mx_power_equip",
-      "hunt_fenb_araxa",
-      "hunt_ascend_chip",
-      "hunt_icbc_rate",
-      "hunt_latam_rail_telecom"
-    ],
-    "exclude": [
-      "icbc_huawei_wire_2019",
-      "aneel_state_grid_rap_2023",
-      "csm_fenb_range_context"
     ]
   }
 }

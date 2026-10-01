@@ -3,103 +3,94 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard · Where the PRC price is the lower bid</title>
+  <title>Dashboard · Commanding heights of Latin America</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-<header class="site-header">
+<header class="site-header site-header-compact">
   <div class="inner">
-    <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
-    <h1>Where the PRC price is the lower bid</h1>
-    <p class="sub">Matched buy-side prices from the 30 September pitches. A gap is a measurement. The page does not recommend a response.</p>
-    <nav>
-      <a href="index.html" aria-current="page">Dashboard</a>
-      <a href="methods.html">Methods</a>
-      <a href="bibliography.html">Bibliography</a>
-    </nav>
+    <div class="header-row">
+      <div>
+        <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
+        <h1>Commanding heights of Latin America</h1>
+      </div>
+      <nav>
+        <a href="index.html" aria-current="page">Dashboard</a>
+        <a href="methods.html">Methods</a>
+        <a href="bibliography.html">Bibliography</a>
+      </nav>
+    </div>
+    <p class="sub">PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy. Latin America and the Caribbean only. Descriptive — the page does not recommend a response.</p>
   </div>
 </header>
-<main class="dash">
-  <p class="caption">Score a pair only when both prices are public and the specification matches. A lower PRC price is the asymmetry. Hunt pins are places still missing a number. Nothing here is a recommendation.</p>
-  <div class="controls">
-    <label>Lane
-      <select id="lane">
-        <option value="all">All lanes</option>
-        <option value="commanding_heights">Commanding heights</option>
-        <option value="niobium">Niobium</option>
-        <option value="ai_chips">AI chips</option>
-        <option value="icbc_finance">ICBC finance</option>
-      </select>
-    </label>
-    <label>Country
-      <select id="country">
-        <option value="all">All countries</option>
-      </select>
-    </label>
-    <label>Evidence
-      <select id="evidence">
-        <option value="all">All classes</option>
-        <option value="paired">Paired</option>
-        <option value="proxy">Proxy</option>
-        <option value="one_sided">One-sided</option>
-        <option value="hunt">Hunt</option>
-        <option value="exclude">Exclude</option>
-      </select>
-    </label>
-  </div>
 
-  <section class="scoreboard" id="goodsBoard">
-    <h2>Goods median gap</h2>
-    <p class="score-note">Median of scored U.S.–PRC pairs by lane and specification. Positive means the PRC offer is cheaper for the buyer. Finance stays off this board.</p>
-    <div class="score-row" id="scoreGoods"></div>
-  </section>
-  <section class="scoreboard" id="financeBoard">
-    <h2>Finance median gap</h2>
-    <p class="score-note">Interest-rate and spread pairs only. Never blended with goods.</p>
-    <div class="score-row" id="scoreFinance"></div>
-  </section>
-  <section class="scoreboard scoreboard-small">
-    <h2>Row counts</h2>
-    <p class="score-note">Paired, proxy, one-sided, and hunt. Scored is the subset of paired U.S. pairs on the median.</p>
-    <div class="score-row" id="scoreCounts"></div>
+<main class="dash-map">
+  <section class="map-hero">
+    <div id="map"></div>
+    <div class="map-legend-bar" id="mapLegend"></div>
+    <button type="button" class="panel-toggle" id="panelToggle" aria-expanded="false" aria-controls="filterOverlay">Filters</button>
+    <aside class="filter-overlay" id="filterOverlay" hidden>
+      <div class="overlay-head">
+        <strong>Filters</strong>
+        <button type="button" class="overlay-close" id="overlayClose" aria-label="Close filters">×</button>
+      </div>
+      <div class="layer-toggles" id="layerToggles"></div>
+      <label class="ctl">Subcategory
+        <select id="subcategory"><option value="all">All subcategories</option></select>
+      </label>
+      <label class="ctl">Country
+        <select id="country"><option value="all">All countries</option></select>
+      </label>
+      <label class="ctl">Evidence
+        <select id="evidence">
+          <option value="all">All classes</option>
+          <option value="paired">Paired</option>
+          <option value="one_sided">One-sided</option>
+          <option value="documented">Documented</option>
+          <option value="proxy">Proxy</option>
+          <option value="hunt">Hunt</option>
+        </select>
+      </label>
+      <label class="ctl">Side
+        <select id="side">
+          <option value="all">All sides</option>
+          <option value="us">U.S.</option>
+          <option value="prc">PRC</option>
+          <option value="allied">Allied / other</option>
+        </select>
+      </label>
+    </aside>
   </section>
 
-  <section class="country-strip" id="countryStrip">
-    <h2>Country net</h2>
-    <p class="score-note">Each lane’s median gap and n on its own line. No blended goods/finance cell.</p>
-    <div id="countryLines"></div>
-  </section>
+  <section class="below-map">
+    <p class="caption" id="caption">Toggle layers and subcategories. Side colors mark U.S., PRC, allied/other, and hunt pins. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation.</p>
 
-  <div class="layout">
-    <div>
-      <div id="map"></div>
-      <p class="legend">
-        <span class="swatch" style="background:#8c3a2b"></span>PRC cheaper
-        <span class="swatch" style="background:#2f5d73"></span>U.S. cheaper
-        <span class="swatch" style="background:#1b3a4b"></span>Tie
-        <span class="swatch" style="background:#8a9096"></span>Unscored
-        · Allied paired pins use the same cheaper/tie colors but stay off the U.S. median.
-        · Rows without coordinates stay on the lists only.
-      </p>
-    </div>
-    <div>
+    <div class="readout-grid">
       <section class="panel">
-        <h2>Scored and paired</h2>
-        <ul class="side-list" id="listScored"></ul>
+        <h2>Layer net</h2>
+        <p class="score-note">Active LatAm/Caribbean observations by side; disclosed USD sums (documented / one-sided / paired) with n. No blended index.</p>
+        <div id="layerReadouts"></div>
       </section>
       <section class="panel">
-        <h2>Proxy and one-sided</h2>
-        <ul class="side-list" id="listProxy"></ul>
+        <h2>Country net</h2>
+        <div id="countryReadouts"></div>
       </section>
       <section class="panel">
-        <h2>Hunt</h2>
-        <ul class="side-list" id="listHunt"></ul>
+        <h2>Matched gaps</h2>
+        <p class="score-note">Secondary. Buy-side price gaps where a pair still exists.</p>
+        <div id="gapReadouts"></div>
       </section>
     </div>
-  </div>
-  <p class="note" id="note"></p>
+
+    <section class="panel panel-list">
+      <h2>Observations</h2>
+      <ul class="side-list" id="listRows"></ul>
+      <p class="note" id="note"></p>
+    </section>
+  </section>
 </main>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="js/dashboard.js"></script>
 </body>
