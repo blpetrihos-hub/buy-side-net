@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 196,
+    "n_rows": 203,
     "counts": {
-      "total": 196,
-      "active": 141,
+      "total": 203,
+      "active": 148,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
       "proxy": 27,
       "exclude": 5,
-      "documented": 113,
-      "on_map": 130
+      "documented": 120,
+      "on_map": 137
     }
   },
   "layer_readouts": [
@@ -107,17 +107,17 @@
       "layer": "infrastructure",
       "counts": {
         "us": 4,
-        "prc": 21,
-        "allied": 25,
-        "n": 50
+        "prc": 23,
+        "allied": 26,
+        "n": 53
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 1284197353.12,
-        "prc_n": 7,
-        "allied": 4670000000.0,
-        "allied_n": 9
+        "prc": 1331197353.12,
+        "prc_n": 8,
+        "allied": 5020000000.0,
+        "allied_n": 10
       },
       "matched_gaps": {
         "n": 1,
@@ -130,17 +130,17 @@
       "layer": "resources",
       "counts": {
         "us": 9,
-        "prc": 11,
-        "allied": 24,
-        "n": 44
+        "prc": 12,
+        "allied": 27,
+        "n": 48
       },
       "usd": {
         "us": 576797120.0,
         "us_n": 4,
         "prc": 1236306290.0,
         "prc_n": 6,
-        "allied": 12450000000.0,
-        "allied_n": 7
+        "allied": 12875000000.0,
+        "allied_n": 8
       },
       "matched_gaps": {
         "n": 0,
@@ -177,8 +177,8 @@
       "counts": {
         "us": 2,
         "prc": 6,
-        "allied": 6,
-        "n": 14
+        "allied": 7,
+        "n": 15
       },
       "usd": {
         "us": 0.0,
@@ -202,7 +202,7 @@
         "resources": {
           "us": 0,
           "prc": 3,
-          "allied": 3
+          "allied": 4
         }
       }
     },
@@ -234,17 +234,17 @@
       "country": "Brazil",
       "counts": {
         "us": 4,
-        "prc": 18,
-        "allied": 32,
-        "n": 54
+        "prc": 20,
+        "allied": 34,
+        "n": 58
       },
       "usd": {
         "us": 550000000.0,
         "us_n": 1,
-        "prc": 1205595264.55,
-        "prc_n": 8,
-        "allied": 1981859384.93,
-        "allied_n": 9
+        "prc": 1252595264.55,
+        "prc_n": 9,
+        "allied": 2331859384.9300003,
+        "allied_n": 10
       },
       "by_layer": {
         "energy": {
@@ -254,13 +254,13 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 7,
-          "allied": 8
+          "prc": 8,
+          "allied": 9
         },
         "resources": {
           "us": 3,
-          "prc": 3,
-          "allied": 10
+          "prc": 4,
+          "allied": 11
         }
       }
     },
@@ -269,16 +269,16 @@
       "counts": {
         "us": 6,
         "prc": 6,
-        "allied": 14,
-        "n": 26
+        "allied": 15,
+        "n": 27
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
         "prc": 448154809.0,
         "prc_n": 4,
-        "allied": 0.0,
-        "allied_n": 0
+        "allied": 425000000.0,
+        "allied_n": 1
       },
       "by_layer": {
         "energy": {
@@ -294,7 +294,7 @@
         "resources": {
           "us": 2,
           "prc": 0,
-          "allied": 7
+          "allied": 8
         }
       }
     },
@@ -545,6 +545,30 @@
       }
     },
     {
+      "country": "Panama",
+      "counts": {
+        "us": 0,
+        "prc": 1,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        }
+      }
+    },
+    {
       "country": "Peru",
       "counts": {
         "us": 2,
@@ -719,7 +743,14 @@
       "konecranes_arica_mhc_2026",
       "bechtel_eimisa_chile_2026",
       "holcim_cemex_colombia_2026",
-      "powerchina_guayepo_iii_colombia_2025"
+      "powerchina_guayepo_iii_colombia_2025",
+      "apm_suape_brazil_2026",
+      "chec_fourth_bridge_panama",
+      "graphcoa_jordania_mg",
+      "fqm_taca_taca_argentina_2026",
+      "cmoc_catalao_nb_prod_2025",
+      "sany_apmt_suape_sts_rtg_2026",
+      "rio_altoandinos_enami_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
