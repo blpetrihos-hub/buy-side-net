@@ -3499,3 +3499,47 @@
   supports:
   - contreras_vicuna_corredor_norte_135m_2026
   - hunt_infra_bridges_roads
+- id: kalmar_tcp_straddle_20240109
+  type: company
+  chicago: Kalmar / Cargotec. “Kalmar hybrid straddle carriers to help Katoen Natie cut equipment fuel
+    consumption and emissions at Montevideo terminal.” Press release, 9 January 2024.
+  url: https://www.kalmarglobal.com/news--insights/press_releases/2024/kalmar-hybrid-straddle-carriers-to/
+  annotation: Company order for 20 hybrid straddles at TCP Montevideo. Supports kalmar_tcp_montevideo_straddle_2024.
+  supports:
+  - kalmar_tcp_montevideo_straddle_2024
+  - hunt_infra_port_cranes
+- id: acciona_el_romero_bess_20260608
+  type: company
+  chicago: ACCIONA Energía. “ACCIONA Energía doubles energy storage plans in Chile.” 8 June 2026.
+  url: https://www.acciona.com/updates/news/acciona-energia-doubles-energy-storage-plans-chile
+  annotation: Company announcement of El Romero BESS 196MW/980MWh. Supports acciona_el_romero_bess_2026.
+  supports:
+  - acciona_el_romero_bess_2026
+  - hunt_energy_other_renewables
+- id: antofagasta_q2_2026_zaldivar_water
+  type: company
+  chicago: Antofagasta plc. “Q2 2026 Production Report.” Investor news, 2026.
+  url: https://www.antofagasta.co.uk/investors/news/2026/q2-2026-production-report/
+  annotation: Company report approving Zaldívar water supply ~USD 0.9bn. Supports antofagasta_zaldivar_water_900m_2026.
+  supports:
+  - antofagasta_zaldivar_water_900m_2026
+  - hunt_res_water
+- id: ipen_peru_smr_law_20260313
+  type: government
+  chicago: Instituto Peruano de Energía Nuclear. “Congreso de la República aprueba Ley que promueve la
+    generación eléctrica de origen nuclear y la instalación de Reactores Modulares Pequeños.” 13 March
+    2026.
+  url: https://www.gob.pe/institucion/ipen/noticias/1365603-congreso-de-la-republica-aprueba-ley-que-promueve-la-generacion-electrica-de-origen-nuclear-y-la-instalacion-de-reactores-modulares-pequenos
+  annotation: Official IPEN notice of Peru SMR promotion law. Supports peru_smr_promotion_law_2026.
+  supports:
+  - peru_smr_promotion_law_2026
+  - hunt_energy_fission_smr
+- id: state_ecuador_nuclear_mou_20260401
+  type: government
+  chicago: U.S. Department of State, Office of the Spokesperson. “United States and Ecuador Sign Memorandum
+    of Understanding Concerning Strategic Civil Nuclear Cooperation.” 1 April 2026.
+  url: https://www.state.gov/releases/office-of-the-spokesperson/2026/04/united-states-and-ecuador-sign-memorandum-of-understanding-concerning-strategic-civil-nuclear-cooperation
+  annotation: Official MoU on U.S.–Ecuador civil nuclear cooperation. Supports ecuador_us_nuclear_mou_2026.
+  supports:
+  - ecuador_us_nuclear_mou_2026
+  - hunt_energy_fission_smr
