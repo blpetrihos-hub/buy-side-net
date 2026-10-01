@@ -485,3 +485,17 @@
   url: "https://www.news.cn/fortune/20260807/496cd410165147b591fd22edae5cc36f/c.html"
   annotation: "Public reprint of CFETS central parity 100 USD = 679.04 CNY (1 USD = 6.7904 CNY) on 2026-08-07. FX for qilu_rtxa6000_card_2026."
   supports: ["qilu_rtxa6000_card_2026"]
+
+- id: smm_ascend910b4_module_20260827
+  type: journalism
+  chicago: "上海有色网 (SMM). “【SMM算力午评】市场整体横盘，国产算力租赁与采购价格同步浮现.” 27 August 2026."
+  url: "https://news.smm.cn/news/104082732"
+  annotation: "Press flash: Ascend 910B4 8-GPU ~CNY 760k/set (~CNY 95k/chip). UNVERIFIED proxy for ascend910b4_smm_module_202608."
+  supports: ["ascend910b4_smm_module_202608", "hunt_ascend_chip"]
+
+- id: sina_cfets_cny_20260827
+  type: journalism
+  chicago: "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 27 August 2026. Reprinted by Sina Finance."
+  url: "https://finance.sina.com.cn/jjxw/2026-08-27/doc-inipthnz9030232.shtml"
+  annotation: "Public reprint of CFETS/PBOC central parity 1 USD = 6.7840 CNY on 2026-08-27. FX for ascend910b4_smm_module_202608."
+  supports: ["ascend910b4_smm_module_202608"]
