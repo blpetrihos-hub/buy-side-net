@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 314,
+    "n_rows": 319,
     "counts": {
-      "total": 314,
-      "active": 259,
+      "total": 319,
+      "active": 264,
       "hunt": 42,
       "archived": 35,
       "paired": 2,
       "one_sided": 27,
-      "proxy": 47,
+      "proxy": 48,
       "exclude": 5,
-      "documented": 211,
-      "on_map": 248
+      "documented": 215,
+      "on_map": 253
     }
   },
   "layer_readouts": [
@@ -108,16 +108,16 @@
       "counts": {
         "us": 5,
         "prc": 35,
-        "allied": 57,
-        "n": 97
+        "allied": 60,
+        "n": 100
       },
       "usd": {
         "us": 170000000.0,
         "us_n": 1,
         "prc": 3010197353.12,
         "prc_n": 11,
-        "allied": 6473000000.0,
-        "allied_n": 15
+        "allied": 6543000000.0,
+        "allied_n": 16
       },
       "matched_gaps": {
         "n": 1,
@@ -131,16 +131,16 @@
       "counts": {
         "us": 13,
         "prc": 21,
-        "allied": 54,
-        "n": 88
+        "allied": 56,
+        "n": 90
       },
       "usd": {
         "us": 10176797120.0,
         "us_n": 6,
         "prc": 3091366706.0,
         "prc_n": 12,
-        "allied": 26294271921.2,
-        "allied_n": 19
+        "allied": 31074271921.2,
+        "allied_n": 21
       },
       "matched_gaps": {
         "n": 0,
@@ -274,16 +274,16 @@
       "counts": {
         "us": 9,
         "prc": 12,
-        "allied": 23,
-        "n": 44
+        "allied": 26,
+        "n": 47
       },
       "usd": {
         "us": 8860000000.0,
         "us_n": 3,
         "prc": 1958154809.0,
         "prc_n": 7,
-        "allied": 1344000000.0,
-        "allied_n": 4
+        "allied": 6124000000.0,
+        "allied_n": 6
       },
       "by_layer": {
         "energy": {
@@ -294,12 +294,12 @@
         "infrastructure": {
           "us": 3,
           "prc": 4,
-          "allied": 7
+          "allied": 8
         },
         "resources": {
           "us": 3,
           "prc": 0,
-          "allied": 13
+          "allied": 15
         }
       }
     },
@@ -641,16 +641,16 @@
       "counts": {
         "us": 3,
         "prc": 8,
-        "allied": 11,
-        "n": 22
+        "allied": 13,
+        "n": 24
       },
       "usd": {
         "us": 2100000000.0,
         "us_n": 1,
         "prc": 1210924416.0,
         "prc_n": 3,
-        "allied": 9900000000.0,
-        "allied_n": 5
+        "allied": 9970000000.0,
+        "allied_n": 6
       },
       "by_layer": {
         "energy": {
@@ -661,7 +661,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 3,
-          "allied": 7
+          "allied": 9
         },
         "resources": {
           "us": 2,
@@ -929,7 +929,12 @@
       "konecranes_yilport_acajutla_2026",
       "acciona_yanacocha_wtp_commission_2026",
       "rio_tinto_fenix_1b_rigi_2026",
-      "centaurus_jaguar_jvep_capex_2025"
+      "centaurus_jaguar_jvep_capex_2025",
+      "antofagasta_centinela_2nd_conc_2023",
+      "unacem_calcem_lime_peru_2025",
+      "almar_transelec_centinela_water_2024",
+      "paracas_rtg_sts_its_2026",
+      "ohla_metro_santiago_l9_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
