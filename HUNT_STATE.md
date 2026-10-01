@@ -1,60 +1,82 @@
 updated: 2026-10-01
-cycle: 32
+cycle: 33
 remote: present
 active_layer: resources
-active_subcategory: niobium
-next_query: Cycle 33 shuffle_seed=20261033; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
-next_row_id: (follow cycle-33 shuffled_order)
+active_subcategory: graphite
+next_query: Cycle 34 shuffle_seed=20261034; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; prefer empty/low-coverage subcats within each time box; graphite hunting = mining/processing/anode chains (Brazil, Mexico).
+next_row_id: (follow cycle-34 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md): each cycle shuffles the 18-subcategory list with a
 # logged seed, works through it with equal per-subcategory budgets, and records
 # rows found per subcategory for coverage checks over time.
 
-shuffle_seed: 20261032
+shuffle_seed: 20261033
 budget_per_subcategory: 1_source_family_min
 # Equal time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same budget for every subcategory.
 
 shuffled_order:
-- resources/copper
-- infrastructure/building_materials
-- energy/wind
-- resources/water
-- infrastructure/port_cranes
-- energy/fission_smr
-- energy/solar
-- infrastructure/engineering_epc
-- energy/other_renewables
-- infrastructure/port_ownership
-- resources/graphite
-- resources/lithium
-- energy/power_plants_grid
 - resources/balsa
-- resources/nickel
+- resources/water
+- infrastructure/port_ownership
 - infrastructure/bridges_roads
+- energy/solar
 - infrastructure/rail
+- resources/nickel
+- infrastructure/engineering_epc
+- energy/fission_smr
+- energy/power_plants_grid
 - resources/niobium
+- energy/wind
+- energy/other_renewables
+- infrastructure/port_cranes
+- resources/lithium
+- infrastructure/building_materials
+- resources/copper
+- resources/graphite
 
 rows_found_this_cycle:
-  resources/copper: 1
-  infrastructure/building_materials: 1
-  energy/wind: 0
-  resources/water: 1
-  infrastructure/port_cranes: 1
-  energy/fission_smr: 0
-  energy/solar: 0
-  infrastructure/engineering_epc: 0
-  energy/other_renewables: 0
-  infrastructure/port_ownership: 0
-  resources/graphite: 0
-  resources/lithium: 0
-  energy/power_plants_grid: 0
   resources/balsa: 0
+  resources/water: 0
+  infrastructure/port_ownership: 0
+  infrastructure/bridges_roads: 1
+  energy/solar: 1
+  infrastructure/rail: 0
   resources/nickel: 0
-  infrastructure/bridges_roads: 0
-  infrastructure/rail: 1
+  infrastructure/engineering_epc: 0
+  energy/fission_smr: 0
+  energy/power_plants_grid: 0
   resources/niobium: 0
+  energy/wind: 0
+  energy/other_renewables: 0
+  infrastructure/port_cranes: 1
+  resources/lithium: 0
+  infrastructure/building_materials: 0
+  resources/copper: 0
+  resources/graphite: 1
+
+coverage_cumulative:
+  # Active (non-archived, non-exclude) observation counts after cycle 33
+  # Also upgraded crbc_arequipa_la_joya_2026 to MTC documented; filled jervois_smp_restart_2025 CAPEX proxy (not new ids).
+  infrastructure/port_ownership: 18
+  infrastructure/port_cranes: 22
+  infrastructure/rail: 18
+  infrastructure/bridges_roads: 18
+  infrastructure/building_materials: 14
+  infrastructure/engineering_epc: 18
+  resources/niobium: 11
+  resources/lithium: 19
+  resources/copper: 17
+  resources/nickel: 14
+  resources/graphite: 12
+  resources/balsa: 10
+  resources/water: 15
+  energy/fission_smr: 11
+  energy/solar: 16
+  energy/wind: 14
+  energy/power_plants_grid: 21
+  energy/other_renewables: 18
 
 coverage_cumulative:
   # Active (non-archived, non-exclude) observation counts after cycle 32
@@ -855,6 +877,14 @@ misses:
 #   Thin fills: fission_smr, rail.
 #   Equal-budget misses: balsa, power_plants_grid, wind, niobium, bridges_roads, water, building_materials,
 #   engineering_epc, nickel, other_renewables, lithium, port_cranes, graphite, solar, port_ownership, copper.
+
+# Cycle 33 (seed 20261033): 4 new sourced rows (+2 value/evidence upgrades); hits on bridges_roads
+#   (ERG El Estanquillo–Popayán COP 6.56tn ANI), solar (Aldesa/CRCC Mexico hybrid >EUR 160m proxy),
+#   port_cranes (Portonave electric fleet BRL 61m), graphite (Atlas Malacacheta MRE USD 2.145m).
+#   Upgrades: crbc_arequipa_la_joya_2026 → MTC documented; jervois_smp_restart_2025 CAPEX proxy USD 130m.
+#   Thin fills: graphite, bridges_roads.
+#   Equal-budget misses: balsa, water, port_ownership, rail, nickel (update only), engineering_epc,
+#   fission_smr, power_plants_grid, niobium, wind, other_renewables, lithium, building_materials, copper.
 
 # 2026-10-01 graphite taxonomy correction (Ben): former dimension_stone/granite
 # renamed to graphite everywhere. ABIROCHAS ornamental-stone rows archived (exclude).

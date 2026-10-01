@@ -2347,8 +2347,8 @@
   url: https://jervoisglobal.com/wp-content/uploads/2025/12/SMP-investment-decision-External-vf_.pdf
   annotation: Company primary SMP restart investment approval. Supports jervois_smp_restart_2025.
   supports:
-  - jervois_smp_restart_2025
   - hunt_res_nickel
+  - jervois_smp_restart_2025
 - id: engie_assu_sol_20260223
   type: company
   chicago: ENGIE Brasil. “Assú Sol Photovoltaic Complex, ENGIE’s largest solar energy asset worldwide,
@@ -3180,3 +3180,61 @@
   supports:
   - unacem_calcem_lime_peru_2025
   - hunt_infra_building_materials
+- id: ani_estanquillo_popayan_20260305
+  type: government
+  chicago: 'Agencia Nacional de Infraestructura (Colombia). “Gobierno del Cambio le cumple al suroccidente
+    colombiano: ANI adjudicó a la Estructura Plural ERG Vías Ciudad Blanca la concesión del proyecto El
+    Estanquillo-Popayán.” 5 March 2026.'
+  url: https://www.ani.gov.co/gobierno-del-cambio-le-cumple-al-suroccidente-colombiano-ani-adjudico-la-estructura-plural-erg-vias
+  annotation: Official ANI award of El Estanquillo–Popayán APP to ERG/MIA at COP 6.56tn ANI aportes. Supports
+    erg_estanquillo_popayan_2026.
+  supports:
+  - erg_estanquillo_popayan_2026
+  - hunt_infra_bridges_roads
+- id: mtc_arequipa_la_joya_20260724
+  type: government
+  chicago: Ministerio de Transportes y Comunicaciones (Perú). “MTC anuncia ejecución de nuevo tramo de
+    la vía Arequipa–La Joya por S/ 408.7 millones mediante Obras por Impuestos.” 24 July 2026.
+  url: https://www.gob.pe/institucion/mtc/noticias/1423124-mtc-anuncia-ejecucion-de-nuevo-tramo-de-la-via-arequipa-la-joya-por-s-408-7-millones-mediante-obras-por-impuestos
+  annotation: Official MTC OxI announcement for Arequipa–La Joya componente 3 at >S/408.7m to Consorcio
+    Ejecutor Joya. Supports crbc_arequipa_la_joya_2026.
+  supports:
+  - crbc_arequipa_la_joya_2026
+  - hunt_infra_bridges_roads
+- id: aldesa_mexico_solar_20260717
+  type: company
+  chicago: Aldesa. “Aldesa se adjudica un parque solar en México.” 17 July 2026.
+  url: https://aldesa.com/aldesa-se-adjudica-un-parque-solar-en-mexico/
+  annotation: Company primary on Mexico 420 MWp + 150 MW BESS turnkey EPC (site undisclosed). Supports
+    aldesa_mexico_solar_hybrid_2026.
+  supports:
+  - aldesa_mexico_solar_hybrid_2026
+  - hunt_energy_solar
+- id: brasilmineral_jervois_smp_20251126
+  type: press
+  chicago: Brasil Mineral. “Grupo Jervois anuncia projeto de retomada da refinaria de São Miguel Paulista.”
+    26 November 2025.
+  url: https://brasilmineral.com.br/noticias/grupo-jervois-anuncia-projeto-de-retomada-da-refinaria-de-sao-miguel-paulista
+  annotation: Trade press citing Jervois USD 130m SMP restart CAPEX. Supports jervois_smp_restart_2025
+    (proxy value).
+  supports:
+  - jervois_smp_restart_2025
+  - hunt_res_nickel
+- id: portonave_electric_fleet_20260803
+  type: company
+  chicago: Portonave. “Portonave Invests R$61 Million in New Electrically Powered Equipment.” 3 August
+    2026.
+  url: https://www.portonave.com.br/en/todas-as-noticias/portonave-invests-rusd61-million-in-new-electrically-powered-equipment
+  annotation: Company primary on BRL 61m electric yard equipment package at Navegantes. Supports portonave_electric_fleet_61m_2026.
+  supports:
+  - portonave_electric_fleet_61m_2026
+  - hunt_infra_port_cranes
+- id: atlas_malacacheta_mre_20260929
+  type: company
+  chicago: Atlas Critical Minerals Corporation. “Atlas Critical Minerals Defines South America’s Largest,
+    Highest Grade Reported Graphite Resource …” 29 September 2026.
+  url: https://en.acnnewswire.com/press-release/english/110465/atlas-critical-minerals-defines-south-america's-largest,-highest-grade-reported-graphite-resource-24.2-million-tonnes,-including-17.2-million-tonnes-
+  annotation: Company newswire on Malacacheta maiden MRE and PEA path. Supports atlas_malacacheta_graphite_mre_2026.
+  supports:
+  - atlas_malacacheta_graphite_mre_2026
+  - hunt_res_graphite
