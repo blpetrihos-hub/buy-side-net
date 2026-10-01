@@ -1,10 +1,10 @@
 {
   "id": "hunt_ascend_chip",
   "retrieved": "2026-10-01",
-  "source_id": "ccgp_uestc_huakun_at800_2025",
-  "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
-  "price_year": "2025",
+  "source_id": "chinamae_hust_ascend910_2026",
+  "url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
+  "price_year": "2026",
   "evidence": "hunt",
-  "quote": "华鲲振宇 … HuaKun AT800(Model 9000)A2 … 3台 … 1398300.00元/台",
-  "note": "Cycle 35 logged HuaKun AT800 A2 one-sided system award. Still hunting same-spec USD/chip H20 vs Ascend pair."
+  "quote": "Ascend 910_4_1 64G缓存 HCCS版 … 8张 … ¥ 899,500.00",
+  "note": "Cycle 36 logged one-sided Ascend card buy-side at CNY 112,437.50/chip. Still hunting same-year Nvidia H20 USD/chip counterpart for a scored pair."
 }

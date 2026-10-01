@@ -149,10 +149,10 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "ccgp_uestc_huakun_at800_2025",
-    "note": "Cycle 35 logged uestc_huakun_at800_a2_2025 as one_sided PRC-ecosystem: HuaKun AT800 (Model 9000) A2 at CNY 1,398,300/system (May 2025). Ascend card count not on award table. Still hunting document-backed same-spec USD/chip H20 vs Ascend 910B/910C pair.",
-    "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
-    "quote": "华鲲振宇 … HuaKun AT800(Model 9000)A2 … 3台 … 1398300.00元/台"
+    "source_id": "chinamae_hust_ascend910_2026",
+    "note": "Cycle 36 logged hust_ascend910_card_2026 as one_sided PRC: Huawei Ascend 910_4_1 (64G HCCS) at CNY 112,437.50/chip (May 2026 award; package/8). Still hunting same-calendar-year Nvidia H20 USD/chip for a scored pair.",
+    "evidence_url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
+    "quote": "Ascend 910_4_1 64G缓存 HCCS版 … 8张 … ¥ 899,500.00"
   },
   {
     "id": "hunt_icbc_rate",
@@ -1114,5 +1114,36 @@
     "note": "One-sided PRC-ecosystem. CCGP 12 May 2025: HuaKun AT800 (Model 9000) A2 at CNY 1,398,300 each (3 units) via Sichuan Chuangxin Huaan. HuaKun is an Ascend Atlas 800-class OEM; the award table does not print Ascend 910B/910C card counts—unit is USD/system, off the usd_per_chip median. FX: PBOC central parity 1 USD = 7.2066 CNY on 2025-05-12.",
     "evidence_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250512_24581733.htm",
     "quote": "算力服务器 … 华鲲振宇 … HuaKun AT800(Model 9000)A2 … 3台 … 1398300.00元/台"
+  },
+  {
+    "id": "hust_ascend910_card_2026",
+    "lane": "ai_chips",
+    "spec_class": "usd_per_chip",
+    "evidence": "one_sided",
+    "country": "China",
+    "buyer": "Huazhong University of Science and Technology (国产AI计算卡 / HW20260172)",
+    "seller_us": "",
+    "seller_prc": "Huawei (Ascend 910_4_1 64G HCCS)",
+    "city": "Wuhan",
+    "lat": null,
+    "lon": null,
+    "geo_note": "Buyer HQ address on solicitation: Hongshan District Luoyu Rd 1037 Wuhan; lat/lon left blank (no verified campus coordinates opened).",
+    "price_year": "2026",
+    "spec": "Huawei Ascend 910_4_1 64G HCCS AI compute cards (8 cards); buy-side unit from package total/8",
+    "unit": "USD/chip",
+    "currency": "CNY",
+    "fx_usd": 0.14619669,
+    "fx_date": "2026-05-14",
+    "us_price": null,
+    "prc_price": 112437.5,
+    "us_price_usd": null,
+    "prc_price_usd": 16437.99,
+    "gap": null,
+    "us_side": "unknown",
+    "on_scoreboard": false,
+    "source_id": "chinamae_hust_ascend910_2026",
+    "note": "One-sided PRC. ChinaMAE reprint of HUST HW20260172 award (14 May 2026): Huawei Ascend 910_4_1 64G HCCS, 8 cards, package CNY 899,500 → CNY 112,437.50/card. HUST solicitation (30 Apr 2026) confirms 8 cards and ceiling CNY 112,500/card. Unit is USD/chip (cards, not a server SKU). No Nvidia H20 price on the award — off the median until paired. FX: CFETS/PBOC central parity 1 USD = 6.8401 CNY on 2026-05-14 (Sina reprint of the official announcement).",
+    "evidence_url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
+    "quote": "成交金额：人民币捌拾玖万玖仟伍佰元整（¥ 899,500.00） … 品牌：华为 … Ascend 910_4_1 64G缓存 HCCS版 … 数量： 8张"
   }
 ]

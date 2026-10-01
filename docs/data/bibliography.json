@@ -589,5 +589,36 @@
     "supports": [
       "uestc_huakun_at800_a2_2025"
     ]
+  },
+  {
+    "id": "chinamae_hust_ascend910_2026",
+    "type": "official",
+    "chicago": "华中科技大学 / ChinaMAE reprint. “[HW20260172]华中科技大学采购国产AI计算卡项目成交结果公告.” 14 May 2026.",
+    "url": "https://www.chinamae.com/purchases/6a6a43c8bb1cee848821d6f0701ab74b.html",
+    "annotation": "Award CNY 899,500 for 8 Huawei Ascend 910_4_1 64G HCCS cards (CNY 112,437.50/card). One-sided PRC chip price for hust_ascend910_card_2026.",
+    "supports": [
+      "hust_ascend910_card_2026",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "hust_ascend910_solicitation_20260430",
+    "type": "official",
+    "chicago": "华中科技大学采购与招标中心. “[HW20260172]华中科技大学采购国产AI计算卡项目询比公告.” 30 April 2026.",
+    "url": "http://cgzx.hust.edu.cn/cgjzcg/44125.chtml",
+    "annotation": "Confirms buyer HUST, quantity 8 cards, ceiling CNY 112,500/card. Supports hust_ascend910_card_2026.",
+    "supports": [
+      "hust_ascend910_card_2026"
+    ]
+  },
+  {
+    "id": "sina_cfets_cny_20260514",
+    "type": "journalism",
+    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 14 May 2026. Reprinted by Sina Finance.",
+    "url": "https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvpqt4006189.shtml",
+    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.8401 CNY on 2026-05-14. FX for hust_ascend910_card_2026.",
+    "supports": [
+      "hust_ascend910_card_2026"
+    ]
   }
 ]
