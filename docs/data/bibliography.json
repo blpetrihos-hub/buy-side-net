@@ -889,5 +889,15 @@
     "supports": [
       "xd_eletrobras_wave4_xfmr_2025"
     ]
+  },
+  {
+    "id": "megawhat_ge_arauco_sucuriu_2025",
+    "type": "journalism",
+    "chicago": "Souto, Poliana. “GE Vernova fornecerá subestação GIS para fábrica de celulose da Arauco no MS.” Megawhat, 14 August 2025.",
+    "url": "https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/",
+    "annotation": "Opened for U.S.-seller power-equipment hunt vs WAVE4. Confirms GE Vernova scope (230 kV GIS, five power transformers, cable, Ilha Solteira 2) for Arauco Sucuriú; no contract or unit price on the page. Documents a dry pass.",
+    "supports": [
+      "hunt_br_power_equip"
+    ]
   }
 ]

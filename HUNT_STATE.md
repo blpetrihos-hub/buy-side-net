@@ -1,12 +1,13 @@
 updated: 2026-10-01
-cycle: 50
+cycle: 51
 active_lane: commanding_heights
 active_basket: power_equipment
-next_query: Brazil OR Chile GE Vernova OR Hitachi Energy OR Prolec-GE UHV OR 500 kV OR 765 kV power transformer award unit price 2025 versus China XD WAVE4
-next_row_id: hunt_br_power_equip
-dry_streak: 0
+next_query: Chile Kimal-Lo Aguirre OR Conexión XD OR China Southern converter station EPC unit OR package price versus Hitachi OR Siemens OR GE HVDC LatAm 2021..2026
+next_row_id: hunt_cl_power_equip
+dry_streak: 1
 remote: present
 seen_urls:
+- https://megawhat.uol.com.br/economia-e-politica/empresas/ge-vernova-fornecera-subestacao-gis-para-fabrica-de-celulose-da-arauco-no-ms/
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5915081/index.html
 - https://news.goalfore.cn/latest/detail/94045.html
 - https://news.goalfore.cn/latest/detail/95764.html
@@ -97,6 +98,7 @@ seen_urls:
 - https://www.stabroeknews.com/2025/01/11/news/guyana/guyana-us-exim-bank-ink-game-changer-us527m-pact/
 - https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-more-526-million-for-guyanese-energy
 misses:
+- 2026-10-01 | commanding_heights | power_equipment | Brazil OR Chile GE Vernova OR Hitachi Energy OR Prolec-GE UHV OR 500 kV OR 765 kV power transformer award unit price 2025 versus China XD WAVE4 | Opened Megawhat (14 Aug 2025) GE Vernova–Arauco Sucuriú: 230 kV GIS + five power transformers + cable/bay scope — no contract value or USD/transformer. WAVE4 XD ~CNY 260m/17 remains one-sided PRC. dry_streak 1.
 - 2026-10-01 | icbc_finance | all_in_rate | Guyana DPI OR Stabroek OR EXIM.gov US EXIM Bank Gas-to-Energy loan interest rate percent public terms 2024..2026 versus China Eximbank Barbados OR LatAm | Opened DPI (3 Jan 2025) + Stabroek (11 Jan 2025): U.S. EXIM Guyana Gas-to-Energy fixed 4% / 15y — logged as UNVERIFIED proxy (press/borrower remarks; EXIM.gov omits rate). Proxy does not reset dry_streak — dry_streak 3; rotating to commanding_heights power_equipment. Still no same-year PRC all-in vs this U.S. named loan.
 - 2026-10-01 | icbc_finance | all_in_rate | Grenada OR Dominica OR Antigua Estimates OR parliament China Eximbank loan interest rate percent 2021..2026 versus DFC OR EXIM US | Opened Grenada Estimates of Revenue and Expenditure 2022 PDF: debt table lists “EXIM China- St.George's Airport Runway & Road Upgrade” CNY 461m contracted January 2017 at fixed 2%, repayment 2023–2038. Rate is real but commitment year 2017 is outside the 2021–2026 new-row window (republished outstanding only). Narrative MBIA section gives US$66m size without restating the rate. Not added as a new 2022 row. Barbados 2% 2022 remains the PRC one-sided.
 - 2026-10-01 | icbc_finance | all_in_rate | China Eximbank OR ICBC OR CDB named Latin America loan interest rate percent public terms 2021..2026 versus DFC OR EXIM US | Opened Guyana DPI and Newsroom ECD Phase 2 Eximbank framework (Dec 2022): US$192m / later Nat'l Assembly presentation RMB 1,384,580,867.13 — size and concessional label only; no interest rate, tenor, or fees on opened pages. Phase I AidData 2% is 2017 commitment (outside 2021–2026 new-row window). Barbados 2% PRC one-sided remains unpaired.

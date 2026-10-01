@@ -25,8 +25,8 @@
     "gap": null,
     "us_side": "",
     "on_scoreboard": false,
-    "source_id": "xd_wave4_brazil_2025",
-    "note": "Cycle 50 logged xd_eletrobras_wave4_xfmr_2025 as one_sided PRC: 17 UHV transformers (765/500/330 kV mix) at ~CNY 260m (~USD 2.16m/unit). XD NE UHV converter CT and Siemens packages remain. Still hunting a U.S.–PRC same-spec unit pair.",
+    "source_id": "megawhat_ge_arauco_sucuriu_2025",
+    "note": "Cycle 51 opened GE Vernova Arauco Sucuriú (Megawhat 14 Aug 2025): 230 kV GIS + five power transformers + 230 kV cable + Ilha Solteira 2 bay — no contract or unit price disclosed. WAVE4 XD one-sided (~USD 2.16m/xfmr) remains unpaired. Still hunting a U.S. same-spec transformer unit price.",
     "evidence_url": "http://www.xdcb.com.cn/info/1020/2061.htm",
     "quote": "共中标16台±400千伏换流变压器，中标金额达8.34亿元。"
   },
