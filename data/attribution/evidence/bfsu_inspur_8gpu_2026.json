@@ -1,0 +1,10 @@
+{
+  "id": "bfsu_inspur_8gpu_2026",
+  "retrieved": "2026-10-01",
+  "source_id": "ccgp_bfsu_inspur_202607",
+  "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202607/t20260715_26940829.htm",
+  "price_year": "2026",
+  "evidence": "one_sided",
+  "quote": "高性能服务器 … 浪潮 … NF5688-M7-A0-R0-00 … 1 … 2000000 … 配置8颗GPU卡。单GPU卡…显存容量141GB",
+  "note": "One-sided PRC-ecosystem system award. GPU brand/SKU not named on the award table. Unit is USD/system."
+}

@@ -662,5 +662,26 @@
     "supports": [
       "cupl_a800_card_2025"
     ]
+  },
+  {
+    "id": "ccgp_bfsu_inspur_202607",
+    "type": "official",
+    "chicago": "北京外国语大学 / 中国政府采购网. “北京外国语大学高性能服务器和存储采购项目中标公告.” 15 July 2026.",
+    "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202607/t20260715_26940829.htm",
+    "annotation": "Inspur NF5688-M7 8-GPU server at CNY 2,000,000 (1 unit). GPU brand not printed. One-sided PRC-ecosystem system price for bfsu_inspur_8gpu_2026.",
+    "supports": [
+      "bfsu_inspur_8gpu_2026",
+      "hunt_ascend_chip"
+    ]
+  },
+  {
+    "id": "chinanews_cfets_cny_20260715",
+    "type": "journalism",
+    "chicago": "China Foreign Exchange Trade System / People’s Bank of China. “人民币汇率中间价公告,” 15 July 2026. Reported by China News.",
+    "url": "https://www.chinanews.com.cn/cj/2026/07-15/10659472.shtml",
+    "annotation": "Public reprint of CFETS/PBOC central parity 1 USD = 6.7910 CNY on 2026-07-15. FX for bfsu_inspur_8gpu_2026.",
+    "supports": [
+      "bfsu_inspur_8gpu_2026"
+    ]
   }
 ]

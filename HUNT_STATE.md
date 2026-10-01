@@ -1,8 +1,8 @@
 updated: 2026-10-01
-cycle: 38
+cycle: 39
 active_lane: ai_chips
 active_basket: usd_per_chip
-next_query: CCGP Beijing Foreign Studies University OR university award Inspur OR domestic 8-GPU server 2026 unit price versus Nvidia H20 HGX OR Ascend Atlas card-level
+next_query: Huatai Securities OR enterprise award Ascend 910C cloud OR dedicated instance CNY per card-month 2026 versus Nvidia H20 rental OR purchase card-level
 next_row_id: hunt_ascend_chip
 dry_streak: 0
 remote: present
@@ -71,6 +71,8 @@ seen_urls:
 - https://suanli.mysteel.com/a/26091516/ECB87B6FA3D4CFDF.html
 - https://www.ccgp.gov.cn/cggg/zygg/cjgg/202507/t20250709_24934882.htm
 - http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/5774593/index.html
+- http://www.ccgp.gov.cn/cggg/zygg/zbgg/202607/t20260715_26940829.htm
+- https://www.chinanews.com.cn/cj/2026/07-15/10659472.shtml
 misses:
 - 2026-10-01 | niobium | fenb_std | CBMM list OR contract FeNb65 USD/kg Nb Europe OR US 2024..2026 public filing NOT paywall | No public CBMM list/invoice opened. Fastmarkets/Argus/Asian Metal paywalled or sign-in. CMOC 2025 AR cites Argus FeNb averages (USD 48.68/kg Nb 2025; USD 46.46 2024) — logged as proxy. Rotating to ai_chips usd_per_chip for next batch.
 
