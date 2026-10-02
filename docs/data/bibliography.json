@@ -11997,5 +11997,99 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "mopw_ebd_foreign_projects",
+    "type": "government",
+    "chicago": "Guyana Ministry of Public Works. “About Foreign Projects” (East Bank Road Improvement Project — Good Success to Timehri). Accessed 2 October 2026.",
+    "url": "https://mopw.gov.gy/about-foreign-projects",
+    "annotation": "Official MoPW page: CRBC design-build USD 75,887,907.67 and Sheladia supervision USD 7,967,000 for EBD Good Success–Timehri. Supports crbc_ebd_good_success_timehri_2024 and sheladia_ebd_supervision_2023.",
+    "supports": [
+      "crbc_ebd_good_success_timehri_2024",
+      "sheladia_ebd_supervision_2023",
+      "hunt_infra_bridges_roads",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "crbc_ebd_good_success_timehri_2024",
+      "hunt_infra_bridges_roads",
+      "hunt_infra_engineering_epc",
+      "sheladia_ebd_supervision_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "engie_peru_grupo1_20260701",
+    "type": "company",
+    "chicago": "ENGIE Energía Perú. “ENGIE obtiene adjudicación para construir y operar 400 km de líneas de transmisión.” 1 July 2026.",
+    "url": "https://engie-energia.pe/notas-de-prensa/engie-obtiene-adjudicacion-para-construir-y-operar-400-km-de-lineas-de-transmision",
+    "annotation": "ENGIE Perú Grupo 1 transmission APP award; offered CapEx USD 230.8m. Supports engie_peru_grupo1_transmision_230m_2026.",
+    "supports": [
+      "engie_peru_grupo1_transmision_230m_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "engie_peru_grupo1_transmision_230m_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mcc_belize_compact_page",
+    "type": "government",
+    "chicago": "Millennium Challenge Corporation. “Belize Compact.” Accessed 2 October 2026.",
+    "url": "https://www.mcc.gov/where-we-work/program/belize-compact/",
+    "annotation": "MCC Belize Compact Energy Project USD 41.7m for Ambergris Caye HV submarine cable + regulatory reforms. Supports mcc_belize_energy_ambergris_41p7m_2024.",
+    "supports": [
+      "mcc_belize_energy_ambergris_41p7m_2024",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "mcc_belize_energy_ambergris_41p7m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "prnewswire_ja_exel_400mw_20260417",
+    "type": "company",
+    "chicago": "JA Solar Technology Co., Ltd. “JA Solar cierra acuerdo de 400 MW con Exel Solar para impulsar la energía solar en México.” PR Newswire, 17 April 2026.",
+    "url": "https://www.prnewswire.com/mx/comunicados-de-prensa/ja-solar-cierra-acuerdo-de-400-mw-con-exel-solar-para-impulsar-la-energia-solar-en-mexico-302745649.html",
+    "annotation": "JA Solar 400 MW module supply agreement with Exel Solar (Mexico). Supports ja_solar_exel_400mw_mexico_2026.",
+    "supports": [
+      "ja_solar_exel_400mw_mexico_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "ja_solar_exel_400mw_mexico_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mingyang_esg_2024_brazil",
+    "type": "company",
+    "chicago": "Mingyang Smart Energy. Ming Yang Smart Energy 2024 ESG Report. Zhongshan, 2025 (PDF posted January 2026).",
+    "url": "https://mingyang.com/wp-content/uploads/2026/01/Ming-Yang-Smart-Energy-2024ESG-Report.pdf",
+    "annotation": "Mingyang Brazil 240 MW preferred supplier + Copel MySE6.25-172 second order. Supports mingyang_copel_brazil_wind_2024.",
+    "supports": [
+      "mingyang_copel_brazil_wind_2024",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "mingyang_copel_brazil_wind_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
