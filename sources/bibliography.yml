@@ -8602,3 +8602,48 @@
   supports:
   - rq_gtmo_jtf_barracks_2019
   - hunt_infra_engineering_epc
+- id: usaspending_harbert_nuevo_laredo_20140927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting bl_harbert_nuevo_laredo_ncc_2014.
+    Signed 2014-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0181_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0181_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports bl_harbert_nuevo_laredo_ncc_2014.
+  supports:
+  - bl_harbert_nuevo_laredo_ncc_2014
+  - hunt_infra_engineering_epc
+- id: usaspending_jajones_belmopan_20040930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting jajones_belmopan_nec_2004.
+    Signed 2004-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0027_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0027_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports jajones_belmopan_nec_2004.
+  supports:
+  - jajones_belmopan_nec_2004
+  - hunt_infra_engineering_epc
+- id: usaspending_caddell_tijuana_20070927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting caddell_tijuana_ncc_2007.
+    Signed 2007-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA07C0056_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA07C0056_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports caddell_tijuana_ncc_2007.
+  supports:
+  - caddell_tijuana_ncc_2007
+  - hunt_infra_engineering_epc
+- id: usaspending_cce_guayaquil_20080930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cce_guayaquil_nab_2008.
+    Signed 2008-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA08C0245_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA08C0245_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports cce_guayaquil_nab_2008.
+  supports:
+  - cce_guayaquil_nab_2008
+  - hunt_infra_engineering_epc
+- id: usaspending_walsh_sj_federal_20160404
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting walsh_sj_federal_building_2016.
+    Signed 2016-04-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_GS02P16AZC7000_4740_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_GS02P16AZC7000_4740_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports walsh_sj_federal_building_2016.
+  supports:
+  - walsh_sj_federal_building_2016
+  - hunt_infra_engineering_epc
