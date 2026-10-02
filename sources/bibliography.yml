@@ -9430,3 +9430,75 @@
   supports:
   - chec_bogota_metro_l1_5p016bn
   - hunt_infra_rail
+- id: powermag_goldwind_herradura1_2026
+  type: press
+  chicago: Pérez Sánchez, Amaury. “Cuba Begins Installing Turbines at Herradura 1, Its Largest Wind Farm.”
+    POWER Magazine, May 18, 2026. https://www.powermag.com/cuba-begins-installing-turbines-at-herradura-1-its-largest-wind-farm/.
+  url: https://www.powermag.com/cuba-begins-installing-turbines-at-herradura-1-its-largest-wind-farm/
+  annotation: Goldwind GW77/1500 named; CapEx blank. Supports goldwind_herradura1_cuba_51mw_2026.
+  supports:
+  - goldwind_herradura1_cuba_51mw_2026
+  - hunt_energy_wind
+- id: cofco_sts11_construction_start_2023
+  type: company
+  chicago: COFCO International. “COFCO International starts construction on Santos port terminal expansion.”
+    Newsroom, August 14, 2023. https://www.cofcointernational.com/newsroom/cofco-international-starts-construction-on-santos-port-terminal-expansion/.
+  url: https://www.cofcointernational.com/newsroom/cofco-international-starts-construction-on-santos-port-terminal-expansion/
+  annotation: Company construction-start primary; CapEx blank. Supports cofco_sts11_santos_port_2023.
+  supports:
+  - cofco_sts11_santos_port_2023
+  - hunt_infra_port_ownership
+- id: cwe_rucalhue_firewood_2025
+  type: company
+  chicago: China International Water & Electric Corp. “Rucalhue Hydropower Station Project in Chile Donates
+    Winter Firewood to Local Indigenous Community.” July 28, 2025. https://english.cwe.cn/shzr/shzr/202508/t20250821_276497.html.
+  url: https://english.cwe.cn/shzr/shzr/202508/t20250821_276497.html
+  annotation: CWE primary 90 MW / 441 GWh; CapEx blank. Supports cwe_rucalhue_hydro_chile_90mw_2025.
+  supports:
+  - cwe_rucalhue_hydro_chile_90mw_2025
+  - hunt_energy_other_renewables
+- id: tsingshan_south_america_perico
+  type: company
+  chicago: Tsingshan South America. “USD 120M Investment | 100,000 t/y HCl | 35,000 t/y NaOH.” Company
+    site. http://www.ts-southamerica.com/.
+  url: http://www.ts-southamerica.com/
+  annotation: Company CapEx USD 120m; Jujuy press COD-phase cross-check. Supports tsingshan_perico_jujuy_120m_2026.
+  supports:
+  - tsingshan_perico_jujuy_120m_2026
+  - hunt_res_lithium
+- id: minem_cpim_2024_rio_blanco
+  type: government
+  chicago: Peru Ministry of Energy and Mines (MINEM). Portfolio of Mining Investment Projects 2024 (English).
+    Río Blanco CapEx US$ 2,792 million (feasibility). https://cdn.www.gob.pe/uploads/document/file/6762263/5325671-cpim-2024-english-ver.pdf.
+  url: https://cdn.www.gob.pe/uploads/document/file/6762263/5325671-cpim-2024-english-ver.pdf
+  annotation: MINEM CapEx US$2792m; Zijin ownership cross-check. Supports zijin_rio_blanco_peru_2792m.
+  supports:
+  - zijin_rio_blanco_peru_2792m
+  - hunt_res_copper
+- id: tongling_mirador_delay_cninfo_2026
+  type: company
+  chicago: Tongling Nonferrous Metals Group Co., Ltd. “关于控股子公司项目延期的公告.” Announcement 2026-001, January
+    5, 2026. http://static.cninfo.com.cn/finalpage/2026-01-05/1224913878.PDF.
+  url: http://static.cninfo.com.cn/finalpage/2026-01-05/1224913878.PDF
+  annotation: Cninfo primary on Phase II build complete / COD delayed; CapEx blank. Supports tongling_mirador_phase2_ecuador_2026.
+  supports:
+  - tongling_mirador_phase2_ecuador_2026
+  - hunt_res_copper
+- id: minem_cpim_2025_el_galeno
+  type: government
+  chicago: Peru Ministry of Energy and Mines (MINEM). Cartera de Proyectos de Inversión Minera 2025 —
+    actualización octubre. El Galeno CapEx US$ 3,500 million. https://cdn.www.gob.pe/uploads/document/file/9060040/6722917-cpim-2025-actualizacion-oct.pdf.
+  url: https://cdn.www.gob.pe/uploads/document/file/9060040/6722917-cpim-2025-actualizacion-oct.pdf?v=1764185093
+  annotation: MINEM CapEx US$3500m El Galeno. Supports minmetals_el_galeno_peru_3500m.
+  supports:
+  - minmetals_el_galeno_peru_3500m
+  - hunt_res_copper
+- id: nfe_10q_2026q2_sandino
+  type: sec
+  chicago: New Fortress Energy Inc. Form 10-Q for the quarterly period ended June 30, 2026. “Puerto Sandino
+    Facility.” https://www.sec.gov/Archives/edgar/data/1749723/000174972326000106/nfe-20260630.htm.
+  url: https://www.sec.gov/Archives/edgar/data/1749723/000174972326000106/nfe-20260630.htm
+  annotation: SEC 10-Q primary on Sandino LNG+power; CapEx blank. Supports nfe_puerto_sandino_lng_power_2026.
+  supports:
+  - nfe_puerto_sandino_lng_power_2026
+  - hunt_energy_power_plants_grid

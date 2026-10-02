@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 133
+cycle: 134
 remote: present
-active_layer: resources
-active_subcategory: copper
-next_query: Cycle 134 shuffle_seed=20261134; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us265/prc261/allied242); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. Push PRC sources hard (still slightly behind US). If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: sandino; vestas named Esperanza if distinct primary opens. No U.S. territories.
-next_row_id: (follow cycle-134 shuffled_order)
+active_layer: energy
+active_subcategory: power_plants_grid
+next_query: Cycle 135 shuffle_seed=20261135; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us266/prc268/allied242); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC now slightly ahead — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories. Sandino cleared.
+next_row_id: (follow cycle-135 shuffled_order)
 dry_streak: 0
+
+# === Cycle 134 (seed 20261134) ===
+# Shuffled order: port_cranes, engineering_epc, wind, building_materials, nickel,
+#   port_ownership, other_renewables, balsa, lithium, water, bridges_roads, rail,
+#   fission_smr, solar, graphite, niobium, copper, power_plants_grid.
+# Logged 8 sourced rows (1 US / 7 PRC; thin dry; no padding):
+#   prc wind: goldwind_herradura1_cuba_51mw_2026 (34×1.5 MW design; CapEx blank).
+#   prc port_ownership: cofco_sts11_santos_port_2023 (3→14 Mt; CapEx blank).
+#   prc other_renewables: cwe_rucalhue_hydro_chile_90mw_2025 (90 MW; CapEx blank).
+#   prc lithium: tsingshan_perico_jujuy_120m_2026 (USD 120m HCl/NaOH plant).
+#   prc copper: zijin_rio_blanco_peru_2792m (MINEM CapEx USD 2.792bn).
+#   prc copper: tongling_mirador_phase2_ecuador_2026 (built May 2025; COD delayed).
+#   prc copper: minmetals_el_galeno_peru_3500m (MINEM CapEx USD 3.5bn).
+#   us power_plants_grid: nfe_puerto_sandino_lng_power_2026 (H1 2027 COD; CapEx blank).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: port_cranes, engineering_epc, building_materials, nickel,
+#   balsa, water, bridges_roads, rail, fission_smr, solar, graphite, niobium.
+# Active after cycle 134: us266 / prc268 / allied242 / other37 (n=813).
+# Holdover cleared: sandino (NFE Puerto Sandino 10-Q primary).
+shuffle_seed: 20261134
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/port_cranes
+- infrastructure/engineering_epc
+- energy/wind
+- infrastructure/building_materials
+- resources/nickel
+- infrastructure/port_ownership
+- energy/other_renewables
+- resources/balsa
+- resources/lithium
+- resources/water
+- infrastructure/bridges_roads
+- infrastructure/rail
+- energy/fission_smr
+- energy/solar
+- resources/graphite
+- resources/niobium
+- resources/copper
+- energy/power_plants_grid
+rows_found_this_cycle:
+  infrastructure/port_cranes: 0
+  infrastructure/engineering_epc: 0
+  energy/wind: 1
+  infrastructure/building_materials: 0
+  resources/nickel: 0
+  infrastructure/port_ownership: 1
+  energy/other_renewables: 1
+  resources/balsa: 0
+  resources/lithium: 1
+  resources/water: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/rail: 0
+  energy/fission_smr: 0
+  energy/solar: 0
+  resources/graphite: 0
+  resources/niobium: 0
+  resources/copper: 3
+  energy/power_plants_grid: 1
+rows_by_side_this_cycle:
+  us: 1
+  prc: 7
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 133 (seed 20261133) ===
 # Shuffled order: copper, niobium, engineering_epc, port_cranes, wind,
