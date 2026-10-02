@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 885,
+    "n_rows": 891,
     "counts": {
-      "total": 885,
-      "active": 793,
+      "total": 891,
+      "active": 799,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 660,
-      "on_map": 777
+      "documented": 666,
+      "on_map": 783
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 113,
+        "us": 117,
         "prc": 97,
         "allied": 95,
-        "n": 305
+        "n": 309
       },
       "usd": {
-        "us": 3673742696.919999,
-        "us_n": 45,
+        "us": 5333958096.179999,
+        "us_n": 49,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -153,17 +153,17 @@
       "layer": "energy",
       "counts": {
         "us": 95,
-        "prc": 99,
-        "allied": 74,
-        "n": 268
+        "prc": 100,
+        "allied": 75,
+        "n": 270
       },
       "usd": {
         "us": 18076238222.54,
         "us_n": 37,
         "prc": 4574477608.25,
         "prc_n": 14,
-        "allied": 4796240345.08,
-        "allied_n": 25
+        "allied": 4897299849.38,
+        "allied_n": 26
       },
       "matched_gaps": {
         "n": 1,
@@ -288,14 +288,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 70,
-        "prc": 67,
+        "us": 71,
+        "prc": 68,
         "allied": 105,
-        "n": 242
+        "n": 244
       },
       "usd": {
-        "us": 1782545000.0,
-        "us_n": 11,
+        "us": 2197846838.5,
+        "us_n": 12,
         "prc": 1312595264.55,
         "prc_n": 11,
         "allied": 4439359384.93,
@@ -304,11 +304,11 @@
       "by_layer": {
         "energy": {
           "us": 11,
-          "prc": 38,
+          "prc": 39,
           "allied": 25
         },
         "infrastructure": {
-          "us": 35,
+          "us": 36,
           "prc": 20,
           "allied": 29
         },
@@ -412,6 +412,30 @@
         "infrastructure": {
           "us": 0,
           "prc": 2,
+          "allied": 1
+        }
+      }
+    },
+    {
+      "country": "Cuba",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 1,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 101059504.3,
+        "allied_n": 1
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 0,
           "allied": 1
         }
       }
@@ -569,14 +593,14 @@
     {
       "country": "Guatemala",
       "counts": {
-        "us": 7,
+        "us": 8,
         "prc": 0,
         "allied": 1,
-        "n": 8
+        "n": 9
       },
       "usd": {
-        "us": 8700000.0,
-        "us_n": 1,
+        "us": 315860338.67,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -589,7 +613,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 0,
           "allied": 0
         },
@@ -690,14 +714,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 20,
+        "us": 21,
         "prc": 14,
         "allied": 26,
-        "n": 60
+        "n": 61
       },
       "usd": {
-        "us": 823310000.0,
-        "us_n": 9,
+        "us": 1407477549.0900002,
+        "us_n": 10,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -710,7 +734,7 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 9,
+          "us": 10,
           "prc": 10,
           "allied": 15
         },
@@ -871,6 +895,30 @@
         },
         "infrastructure": {
           "us": 2,
+          "prc": 0,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "counts": {
+        "us": 1,
+        "prc": 0,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 353585673.0,
+        "us_n": 1,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 1,
           "prc": 0,
           "allied": 0
         }
@@ -1722,7 +1770,13 @@
       "wsp_maria_power_install_2017",
       "foresight_guajataca_gates_2018",
       "flatiron_portugues_dam_2008",
-      "carro_de_diego_bridge_2007"
+      "carro_de_diego_bridge_2007",
+      "caddell_mexico_city_nec_2017",
+      "caddell_brasilia_nec_2022",
+      "caddell_port_of_spain_nec_2024",
+      "bl_harbert_guatemala_nec_2017",
+      "sungrow_vista_alegre_inverters_2024",
+      "siemens_gtmo_lng_espc_2019"
     ],
     "hunt": [
       "hunt_br_power_equip",

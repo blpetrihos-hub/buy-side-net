@@ -13987,5 +13987,113 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_caddell_mexico_nec_20170929",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0287_1900_-NONE-_-NONE- (Caddell Construction Co. (DE), LLC; Mexico City NEC). Signed 29 September 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0287_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0287_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 584.2m Mexico City NEC. Supports caddell_mexico_city_nec_2017.",
+    "supports": [
+      "caddell_mexico_city_nec_2017",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "caddell_mexico_city_nec_2017",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_caddell_brasilia_nec_20220510",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22C0102_1900_-NONE-_-NONE- (Caddell Construction Co. (DE), LLC; Brasília NEC). Signed 10 May 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0102_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0102_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 415.3m Brasília NEC. Supports caddell_brasilia_nec_2022.",
+    "supports": [
+      "caddell_brasilia_nec_2022",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "caddell_brasilia_nec_2022",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_caddell_pos_nec_20240927",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24C0140_1900_-NONE-_-NONE- (Caddell Construction Co. (DE), LLC; Port of Spain NEC). Signed 27 September 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24C0140_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24C0140_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 353.6m Port of Spain NEC. Supports caddell_port_of_spain_nec_2024.",
+    "supports": [
+      "caddell_port_of_spain_nec_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "caddell_port_of_spain_nec_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_harbert_guatemala_nec_20170930",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0325_1900_-NONE-_-NONE- (BL Harbert International LLC; Guatemala City NEC). Signed 30 September 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0325_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0325_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 307.2m Guatemala City NEC. Supports bl_harbert_guatemala_nec_2017.",
+    "supports": [
+      "bl_harbert_guatemala_nec_2017",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "bl_harbert_guatemala_nec_2017",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sungrow_vista_alegre_20241029",
+    "type": "company",
+    "chicago": "Sungrow Power Supply Co., Ltd. “Sungrow Supplies One of the Americas’ Largest PV Projects — A 902 MWp Solar Plant Located in Brazil.” News release, 29 October 2024. https://en.sungrowpower.com/newsDetail/5778/sungrow-supplies-one-of-the-americas-largest-pv-projects-a-902-mwp-solar-plant-located-in-brazil.",
+    "url": "https://en.sungrowpower.com/newsDetail/5778/sungrow-supplies-one-of-the-americas-largest-pv-projects-a-902-mwp-solar-plant-located-in-brazil",
+    "annotation": "Sungrow primary: Vista Alegre 902 MWp 1+X inverter supply. Supports sungrow_vista_alegre_inverters_2024.",
+    "supports": [
+      "sungrow_vista_alegre_inverters_2024",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "sungrow_vista_alegre_inverters_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_siemens_gtmo_lng_20190724",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N3943019F9909_9700_DEAM3609GO29041_8900 (Siemens Government Technologies Inc; Guantanamo Bay ESPC/LNG). Signed 24 July 2019. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N3943019F9909_9700_DEAM3609GO29041_8900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N3943019F9909_9700_DEAM3609GO29041_8900/",
+    "annotation": "USASpending primary: USD 101.1m GTMO ESPC including LNG plant. Supports siemens_gtmo_lng_espc_2019.",
+    "supports": [
+      "siemens_gtmo_lng_espc_2019",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "siemens_gtmo_lng_espc_2019"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
