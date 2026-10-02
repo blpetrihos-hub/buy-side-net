@@ -10286,3 +10286,56 @@
   supports:
   - powerchina_kajana_guyaba_suriname_2026
   - hunt_energy_solar
+- id: aes_elsalvador_energy_future_20250813
+  type: company
+  chicago: 'AES El Salvador. “El Salvador: The energy of the future is built today.” August 13, 2025.
+    https://www.aes-elsalvador.com/en/press-release/el-salvador-energy-future-built-today.'
+  url: https://www.aes-elsalvador.com/en/press-release/el-salvador-energy-future-built-today
+  annotation: 'AES El Salvador primary: Nejapa biogas among 16 plants (2025). Supports aes_nejapa_biogas_6mw_elsalvador.'
+  supports:
+  - aes_nejapa_biogas_6mw_elsalvador
+  - hunt_energy_other_renewables
+- id: seven_seas_barnacle_point_20260120
+  type: company
+  chicago: Seven Seas Water Group. “Seven Seas Water Group and APUA Open Barnacle Point Plant, Antigua’s
+    Second New Water-as-a-Service® Desalination Facility, Adding 2 Million IGPD.” January 20, 2026. https://sevenseaswater.com/opening-of-barnacle-point-plant/.
+  url: https://sevenseaswater.com/opening-of-barnacle-point-plant/
+  annotation: 'Seven Seas primary: Barnacle Point 2 IMGD COD / Nov 2025 production. Supports seven_seas_barnacle_point_antigua_2migd_2026.'
+  supports:
+  - seven_seas_barnacle_point_antigua_2migd_2026
+  - hunt_res_water
+- id: aes_elsalvador_metapan_apopa_20220316
+  type: company
+  chicago: AES El Salvador. “AES construye planta solar a cliente comercial.” March 16, 2022. https://www.aes-elsalvador.com/en/press-release/aes-construye-planta-solar-cliente-comercial.
+  url: https://www.aes-elsalvador.com/en/press-release/aes-construye-planta-solar-cliente-comercial
+  annotation: 'AES El Salvador primary: Metapán Apopa Energy 1.5 MWp construction. Supports aes_metapan_apopa_1p5mwp_2022.'
+  supports:
+  - aes_metapan_apopa_1p5mwp_2022
+  - hunt_energy_solar
+- id: chinadaily_crcc_diego_martin_20231225
+  type: press
+  chicago: Luo Wangshu. “Chinese-built road bridge completed in Trinidad and Tobago.” China Daily, December
+    25, 2023. https://global.chinadaily.com.cn/a/202312/25/WS6589445ba31040ac301a9673.html.
+  url: https://global.chinadaily.com.cn/a/202312/25/WS6589445ba31040ac301a9673.html
+  annotation: 'China Daily: CRCC Diego Martin–Westmoorings road bridge completion. Supports crcc_diego_martin_westmoorings_tt_2023.'
+  supports:
+  - crcc_diego_martin_westmoorings_tt_2023
+  - hunt_infra_bridges_roads
+- id: antigua_newsroom_china_repiping_60m_20250616
+  type: press
+  chicago: Antigua News Room. “$60 Million Chinese Re-piping Grant to Support Major Infrastructure Overhaul.”
+    June 16, 2025. https://antiguanewsroom.com/60-million-chinese-re-piping-grant-to-support-major-infrastructure-overhaul/.
+  url: https://antiguanewsroom.com/60-million-chinese-re-piping-grant-to-support-major-infrastructure-overhaul/
+  annotation: 'Antigua News Room press: USD 60m China re-piping grant (UNVERIFIED). Supports china_antigua_water_repiping_60m_2025.'
+  supports:
+  - china_antigua_water_repiping_60m_2025
+  - hunt_res_water
+- id: powerchina_botopasi_20250429
+  type: company
+  chicago: POWERCHINA. “Vice-president attends POWERCHINA's inauguration of Suriname Microgrid Project.”
+    April 29, 2025. https://en.powerchina.cn/2025-04/29/c_828922.htm.
+  url: https://en.powerchina.cn/2025-04/29/c_828922.htm
+  annotation: 'POWERCHINA primary: Botopasi Phase II site inauguration (1,020 kW). Supports powerchina_botopasi_suriname_2025.'
+  supports:
+  - powerchina_botopasi_suriname_2025
+  - hunt_energy_solar

@@ -1,11 +1,83 @@
 updated: 2026-10-02
-cycle: 156
+cycle: 157
 remote: present
 active_layer: energy
 active_subcategory: solar
-next_query: Cycle 157 shuffle_seed=20261157; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us302/prc312/allied253); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 10 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Weight under-covered: Central America, Caribbean, Guyana/Suriname, Bolivia, Paraguay, Venezuela, Ecuador, Colombia. Holdovers: EXIM Orosi Costa Rica wind if primary opens; POWERCHINA Baku Suriname site if distinct primary; CREC Oruro–Challapata. No U.S. territories.
-next_row_id: (follow cycle-157 shuffled_order)
+next_query: Cycle 158 shuffle_seed=20261158; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us305/prc315/allied253); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 10 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Weight under-covered: Central America, Caribbean, Guyana/Suriname, Bolivia, Paraguay, Venezuela, Ecuador, Colombia. Holdovers: POWERCHINA El Sillar Bolivia bridges_roads (company primary opened C157 — load next); POWERCHINA Baku Suriname site; CREC Oruro–Challapata. No U.S. territories.
+next_row_id: (follow cycle-158 shuffled_order)
 dry_streak: 0
+
+# === Cycle 157 (seed 20261157) ===
+# Shuffled order: other_renewables, port_cranes, rail, balsa, water,
+#   fission_smr, niobium, bridges_roads, power_plants_grid, wind, graphite,
+#   nickel, copper, port_ownership, engineering_epc, solar, lithium,
+#   building_materials.
+# Logged 6 sourced rows (3 US / 3 PRC; thin dry; no padding):
+#   us other_renewables: aes_nejapa_biogas_6mw_elsalvador (6 MW landfill gas; CapEx blank).
+#   us water: seven_seas_barnacle_point_antigua_2migd_2026 (2 IMGD; CapEx blank).
+#   us solar: aes_metapan_apopa_1p5mwp_2022 (1.5 MWp Solutions EPC; CapEx blank).
+#   prc bridges_roads: crcc_diego_martin_westmoorings_tt_2023 (CRCC interchange; CapEx blank).
+#   prc water: china_antigua_water_repiping_60m_2025 (USD 60m UNVERIFIED proxy).
+#   prc solar: powerchina_botopasi_suriname_2025 (1,020 kW Phase II site; CapEx blank).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: port_cranes, rail, balsa, fission_smr, niobium,
+#   power_plants_grid, wind, graphite, nickel, copper, port_ownership,
+#   engineering_epc, lithium, building_materials.
+# Dense already-logged: Ormat Dominica; AES Santa Ana IV / Meanguera / Peravia;
+#   EXIM Guyana GTE; POWERCHINA Kajana/Djoemoe; El Sillar company primary opened
+#   but deferred to C158 load.
+# Active after cycle 157: us305 / prc315 / allied253 / other38 (n=911).
+shuffle_seed: 20261157
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/other_renewables
+- infrastructure/port_cranes
+- infrastructure/rail
+- resources/balsa
+- resources/water
+- energy/fission_smr
+- resources/niobium
+- infrastructure/bridges_roads
+- energy/power_plants_grid
+- energy/wind
+- resources/graphite
+- resources/nickel
+- resources/copper
+- infrastructure/port_ownership
+- infrastructure/engineering_epc
+- energy/solar
+- resources/lithium
+- infrastructure/building_materials
+rows_found_this_cycle:
+  energy/other_renewables: 1
+  infrastructure/port_cranes: 0
+  infrastructure/rail: 0
+  resources/balsa: 0
+  resources/water: 2
+  energy/fission_smr: 0
+  resources/niobium: 0
+  infrastructure/bridges_roads: 1
+  energy/power_plants_grid: 0
+  energy/wind: 0
+  resources/graphite: 0
+  resources/nickel: 0
+  resources/copper: 0
+  infrastructure/port_ownership: 0
+  infrastructure/engineering_epc: 0
+  energy/solar: 2
+  resources/lithium: 0
+  infrastructure/building_materials: 0
+rows_by_side_this_cycle:
+  us: 3
+  prc: 3
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 156 (seed 20261156) ===
 # Shuffled order: port_cranes, power_plants_grid, copper, rail, niobium,
