@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1103,
+    "n_rows": 1109,
     "counts": {
-      "total": 1103,
-      "active": 905,
+      "total": 1109,
+      "active": 911,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 157,
+      "proxy": 158,
       "exclude": 18,
-      "documented": 874,
-      "on_map": 887
+      "documented": 879,
+      "on_map": 893
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 128,
-        "prc": 110,
+        "prc": 111,
         "allied": 95,
-        "n": 333
+        "n": 334
       },
       "usd": {
         "us": 8181930640.119999,
@@ -128,10 +128,10 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 62,
-        "prc": 54,
+        "us": 63,
+        "prc": 55,
         "allied": 112,
-        "n": 228
+        "n": 230
       },
       "usd": {
         "us": 25859802296.0,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 112,
-        "prc": 147,
+        "us": 114,
+        "prc": 148,
         "allied": 83,
-        "n": 342
+        "n": 345
       },
       "usd": {
         "us": 11811785515.13,
@@ -176,10 +176,10 @@
     {
       "country": "Antigua and Barbuda",
       "counts": {
-        "us": 1,
-        "prc": 0,
+        "us": 2,
+        "prc": 1,
         "allied": 1,
-        "n": 2
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -196,8 +196,8 @@
           "allied": 1
         },
         "resources": {
-          "us": 1,
-          "prc": 0,
+          "us": 2,
+          "prc": 1,
           "allied": 0
         }
       }
@@ -622,10 +622,10 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 7,
+        "us": 9,
         "prc": 2,
         "allied": 2,
-        "n": 11
+        "n": 13
       },
       "usd": {
         "us": 42000833.989999995,
@@ -637,7 +637,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 6,
+          "us": 8,
           "prc": 1,
           "allied": 1
         },
@@ -1029,9 +1029,9 @@
       "country": "Suriname",
       "counts": {
         "us": 2,
-        "prc": 5,
+        "prc": 6,
         "allied": 0,
-        "n": 7
+        "n": 8
       },
       "usd": {
         "us": 0.0,
@@ -1044,7 +1044,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 4,
+          "prc": 5,
           "allied": 0
         },
         "infrastructure": {
@@ -1058,9 +1058,9 @@
       "country": "Trinidad and Tobago",
       "counts": {
         "us": 3,
-        "prc": 2,
+        "prc": 3,
         "allied": 0,
-        "n": 5
+        "n": 6
       },
       "usd": {
         "us": 868084225.7,
@@ -1078,7 +1078,7 @@
         },
         "infrastructure": {
           "us": 2,
-          "prc": 0,
+          "prc": 1,
           "allied": 0
         },
         "resources": {
@@ -2046,7 +2046,13 @@
       "exim_trinidad_mou_500m_2024",
       "aes_panama_los_santos_8mw_2025",
       "china_cuba_martires_barbados_ii_5mw_2025",
-      "powerchina_kajana_guyaba_suriname_2026"
+      "powerchina_kajana_guyaba_suriname_2026",
+      "aes_nejapa_biogas_6mw_elsalvador",
+      "seven_seas_barnacle_point_antigua_2migd_2026",
+      "aes_metapan_apopa_1p5mwp_2022",
+      "crcc_diego_martin_westmoorings_tt_2023",
+      "china_antigua_water_repiping_60m_2025",
+      "powerchina_botopasi_suriname_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
