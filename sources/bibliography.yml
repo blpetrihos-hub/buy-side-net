@@ -5219,3 +5219,69 @@
   supports:
   - exim_focol_bahamas_99p6m_2025
   - hunt_br_power_equip
+- id: proactivo_chinalco_calatos_20260707
+  type: press
+  chicago: ProActivo. “Chinalco Expande Sus Operaciones en Perú con la Adquisición del Proyecto Cuprífero
+    Los Calatos.” 7 July 2026.
+  url: https://proactivo.com.pe/chinalco-expande-sus-operaciones-en-peru-con-la-compra-de-los-calatos/
+  annotation: Press on Chinalco acquisition of Los Calatos via Minera Hampton (>US$200m UNVERIFIED). Supports
+    chinalco_los_calatos_peru_2026.
+  supports:
+  - chinalco_los_calatos_peru_2026
+  - hunt_res_copper
+- id: powerchina_conchagua_20260323
+  type: company
+  chicago: Power Construction Corporation of China. “POWERCHINA Signs Contract for Conchagua 30 MW PV
+    Project in El Salvador.” 23 March 2026.
+  url: https://en.powerchina.cn/2026-03/23/c_829061.htm
+  annotation: POWERCHINA Conchagua 30 MW El Salvador PV EPC contract. Supports powerchina_conchagua_salvador_30mw_2026.
+  supports:
+  - powerchina_conchagua_salvador_30mw_2026
+  - hunt_energy_solar
+- id: idb_invest_genneia_15408_2025
+  type: ifp
+  chicago: IDB Invest. “Supporting the Expansion of Renewable Energy Capacity in Argentina with Genneia.”
+    Project 15408-01, approved 4 November 2025, signed 30 December 2025.
+  url: https://idbinvest.org/en/projects/supporting-expansion-renewable-energy-capacity-argentina-genneia
+  annotation: IDB Invest USD 95m Genneia Argentina renewables + Alma-GBA BESS. Supports idb_invest_genneia_95m_2025.
+  supports:
+  - idb_invest_genneia_95m_2025
+  - hunt_energy_solar
+- id: honeywell_petrobras_etj_20260414
+  type: company
+  chicago: Honeywell. “Honeywell to Fuel Petrobras’ First, Large-Scale Ethanol-To-Jet Project in Latin
+    America.” Press release, 14 April 2026.
+  url: https://www.honeywell.com/us/en/press/2026/04/honeywell-to-fuel-petrobras-first-large-scale-ethanol-to-jet-project-in-latin-america
+  annotation: Honeywell UOP ETJ selected for Petrobras REPLAN SAF project. Supports honeywell_petrobras_etj_replan_2026.
+  supports:
+  - honeywell_petrobras_etj_replan_2026
+  - hunt_infra_engineering_epc
+- id: mem_manzanillo_block2_2024
+  type: government
+  chicago: Dominican Republic Ministerio de Energía y Minas. “Resolución Núm. R-MEM-LCG-017-2024 — Consorcio
+    Manzanillo Energy, S.A.” 2024.
+  url: https://mem.gob.do/transparencia/wp-content/uploads/2018/10/Resolucion-Num.-R-MEM-LCG-017-2024-CONSORCIO-MANZANILLO-ENERGY-SA.pdf
+  annotation: MEM award of Manzanillo Block 2 CCGT to consortium including Lindsayca. Supports lindsayca_manzanillo_block2_dr_2026.
+  supports:
+  - lindsayca_manzanillo_block2_dr_2026
+  - hunt_br_power_equip
+- id: banreservas_manzanillo_power_land_20260330
+  type: press
+  chicago: Banco de Reservas de la República Dominicana. “Banreservas Lidera Financiamiento por US$345
+    Millones para la Termoeléctrica Manzanillo Power Land.” 30 March 2026.
+  url: https://banreservas.com/noticiasyprensa/banreservas-lidera-financiamiento-por-us-345-millones-para-la-termoelectrica-manzanillo-power-land/
+  annotation: Banreservas on Manzanillo Power Land 414 MW COD; Siemens Energy design. Supports siemens_manzanillo_power_land_414mw_2026.
+  supports:
+  - siemens_manzanillo_power_land_414mw_2026
+  - hunt_br_power_equip
+- id: exim_bahamas_lng_20250918
+  type: government
+  chicago: Export-Import Bank of the United States. “Export-Import Bank of the United States Board of
+    Directors Approves Infrastructure Investments Totaling Nearly $285 Million.” Press release, 18 September
+    2025.
+  url: https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-infrastructure-investments-totaling
+  annotation: EXIM USD 99m Bahamas LNG Partner U.S. LNG purchase financing. Supports exim_bahamas_lng_99m_2025.
+  supports:
+  - exim_bahamas_lng_99m_2025
+  - exim_wabtec_gmxt_185m_2025
+  - hunt_br_power_equip
