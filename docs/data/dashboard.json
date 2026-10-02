@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 1097,
+    "n_rows": 1103,
     "counts": {
-      "total": 1097,
-      "active": 899,
+      "total": 1103,
+      "active": 905,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 157,
       "exclude": 18,
-      "documented": 868,
-      "on_map": 881
+      "documented": 874,
+      "on_map": 887
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 127,
+        "us": 128,
         "prc": 110,
-        "allied": 94,
-        "n": 331
+        "allied": 95,
+        "n": 333
       },
       "usd": {
-        "us": 8110630640.119999,
-        "us_n": 58,
+        "us": 8181930640.119999,
+        "us_n": 59,
         "prc": 10587085094.130001,
         "prc_n": 25,
         "allied": 10767634000.0,
@@ -128,14 +128,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 61,
+        "us": 62,
         "prc": 54,
         "allied": 112,
-        "n": 227
+        "n": 228
       },
       "usd": {
-        "us": 25359802296.0,
-        "us_n": 29,
+        "us": 25859802296.0,
+        "us_n": 30,
         "prc": 13513272882.0,
         "prc_n": 28,
         "allied": 39952458653.2,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 111,
-        "prc": 145,
+        "us": 112,
+        "prc": 147,
         "allied": 83,
-        "n": 339
+        "n": 342
       },
       "usd": {
         "us": 11811785515.13,
@@ -239,14 +239,14 @@
     {
       "country": "Bahamas",
       "counts": {
-        "us": 5,
+        "us": 6,
         "prc": 0,
         "allied": 1,
-        "n": 6
+        "n": 7
       },
       "usd": {
-        "us": 472548290.34000003,
-        "us_n": 5,
+        "us": 543848290.34,
+        "us_n": 6,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -259,7 +259,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 0,
           "allied": 1
         }
@@ -492,9 +492,9 @@
       "country": "Cuba",
       "counts": {
         "us": 8,
-        "prc": 2,
+        "prc": 3,
         "allied": 1,
-        "n": 11
+        "n": 12
       },
       "usd": {
         "us": 301234554.63,
@@ -507,7 +507,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 2,
+          "prc": 3,
           "allied": 1
         },
         "infrastructure": {
@@ -893,10 +893,10 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 5,
+        "us": 6,
         "prc": 4,
         "allied": 6,
-        "n": 15
+        "n": 16
       },
       "usd": {
         "us": 73180242.32,
@@ -908,7 +908,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 1,
+          "us": 2,
           "prc": 1,
           "allied": 1
         },
@@ -1002,12 +1002,36 @@
       }
     },
     {
+      "country": "Saint Vincent and the Grenadines",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 1,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        }
+      }
+    },
+    {
       "country": "Suriname",
       "counts": {
         "us": 2,
-        "prc": 4,
+        "prc": 5,
         "allied": 0,
-        "n": 6
+        "n": 7
       },
       "usd": {
         "us": 0.0,
@@ -1020,7 +1044,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 3,
+          "prc": 4,
           "allied": 0
         },
         "infrastructure": {
@@ -1033,14 +1057,14 @@
     {
       "country": "Trinidad and Tobago",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 2,
         "allied": 0,
-        "n": 4
+        "n": 5
       },
       "usd": {
-        "us": 368084225.7,
-        "us_n": 2,
+        "us": 868084225.7,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -1058,7 +1082,7 @@
           "allied": 0
         },
         "resources": {
-          "us": 0,
+          "us": 1,
           "prc": 1,
           "allied": 0
         }
@@ -2016,7 +2040,13 @@
       "exim_barbados_mou_500m_2024",
       "aes_panama_corotu_10mw_2025",
       "crec5_dominica_intl_airport_wesley_2024",
-      "shanghai_electric_castillo_agramonte_cuba_5mw_2026"
+      "shanghai_electric_castillo_agramonte_cuba_5mw_2026",
+      "konecranes_kingstown_esp7_svg_2024",
+      "exim_liwathon_bos_bahamas_71p3m_2023",
+      "exim_trinidad_mou_500m_2024",
+      "aes_panama_los_santos_8mw_2025",
+      "china_cuba_martires_barbados_ii_5mw_2025",
+      "powerchina_kajana_guyaba_suriname_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
