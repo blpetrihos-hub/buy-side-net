@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 965,
+    "n_rows": 970,
     "counts": {
-      "total": 965,
-      "active": 873,
+      "total": 970,
+      "active": 878,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 740,
-      "on_map": 856
+      "documented": 745,
+      "on_map": 861
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 179,
+        "us": 184,
         "prc": 98,
         "allied": 95,
-        "n": 372
+        "n": 377
       },
       "usd": {
-        "us": 9520991732.33,
-        "us_n": 111,
+        "us": 9641690271.130001,
+        "us_n": 116,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -453,14 +453,14 @@
     {
       "country": "Cuba",
       "counts": {
-        "us": 7,
+        "us": 8,
         "prc": 0,
         "allied": 1,
-        "n": 8
+        "n": 9
       },
       "usd": {
-        "us": 275682831.63,
-        "us_n": 7,
+        "us": 301234554.63,
+        "us_n": 8,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 101059504.3,
@@ -473,7 +473,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 6,
+          "us": 7,
           "prc": 0,
           "allied": 0
         },
@@ -937,14 +937,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 87,
+        "us": 91,
         "prc": 0,
         "allied": 8,
-        "n": 95
+        "n": 99
       },
       "usd": {
-        "us": 7204444385.270003,
-        "us_n": 85,
+        "us": 7299591201.0700035,
+        "us_n": 89,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -957,7 +957,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 56,
+          "us": 60,
           "prc": 0,
           "allied": 4
         },
@@ -1947,7 +1947,12 @@
       "nreca_caracol_power_2013",
       "conti_buchanan_range_ops_2024",
       "orion_autec_pier_2021",
-      "rq_gtmo_mass_migration_2018"
+      "rq_gtmo_mass_migration_2018",
+      "knik_gtmo_runway_2007",
+      "rb_degetau_hurricane_recovery_2019",
+      "consigli_ceiba_afrc_2009",
+      "cscg_mayaguez_cbp_2022",
+      "fr_buchanan_astb_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

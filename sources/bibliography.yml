@@ -9106,3 +9106,48 @@
   supports:
   - rq_gtmo_mass_migration_2018
   - hunt_infra_engineering_epc
+- id: usaspending_knik_gtmo_runway_20070501
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting knik_gtmo_runway_2007. Signed
+    2007-05-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945007C1257_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945007C1257_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports knik_gtmo_runway_2007.
+  supports:
+  - knik_gtmo_runway_2007
+  - hunt_infra_engineering_epc
+- id: usaspending_rb_degetau_20190716
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rb_degetau_hurricane_recovery_2019.
+    Signed 2019-07-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PC0319C0006_4740_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PC0319C0006_4740_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports rb_degetau_hurricane_recovery_2019.
+  supports:
+  - rb_degetau_hurricane_recovery_2019
+  - hunt_infra_engineering_epc
+- id: usaspending_consigli_ceiba_20090904
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting consigli_ceiba_afrc_2009.
+    Signed 2009-09-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR09C0077_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR09C0077_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports consigli_ceiba_afrc_2009.
+  supports:
+  - consigli_ceiba_afrc_2009
+  - hunt_infra_engineering_epc
+- id: usaspending_cscg_mayaguez_cbp_20220930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cscg_mayaguez_cbp_2022.
+    Signed 2022-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PA0322C0015_4740_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PA0322C0015_4740_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports cscg_mayaguez_cbp_2022.
+  supports:
+  - cscg_mayaguez_cbp_2022
+  - hunt_infra_engineering_epc
+- id: usaspending_fr_buchanan_astb_20250911
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting fr_buchanan_astb_2025. Signed
+    2025-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR25CA024_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR25CA024_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports fr_buchanan_astb_2025.
+  supports:
+  - fr_buchanan_astb_2025
+  - hunt_infra_engineering_epc
