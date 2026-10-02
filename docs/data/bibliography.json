@@ -14307,5 +14307,95 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "ctech_solaer_calbuco_2026",
+    "type": "press",
+    "chicago": "Prager, Amir. “Solaer secures $65 million for first wind project in Chile.” Ctech / Calcalist, September 22, 2026. https://www.calcalistech.com/ctechnews/article/dimbwlbc0.",
+    "url": "https://www.calcalistech.com/ctechnews/article/dimbwlbc0",
+    "annotation": "Solaer Calbuco 47 MW / 80 MWh; USD 65m financing. Supports solaer_calbuco_chile_65m_2026.",
+    "supports": [
+      "solaer_calbuco_chile_65m_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "solaer_calbuco_chile_65m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "fcx_2q2026_exhibit991_cerro_verde",
+    "type": "sec",
+    "chicago": "Freeport-McMoRan Inc. “Freeport-McMoRan Reports Second-Quarter and Six-Month 2026 Results.” Exhibit 99.1 to Form 8-K, 2026. https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/a2q2026exhibit991.htm.",
+    "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/a2q2026exhibit991.htm",
+    "annotation": "SEC exhibit: Cerro Verde open-market buy USD 107m to 55.66%. Supports fcx_cerro_verde_stake_107m_2026.",
+    "supports": [
+      "fcx_cerro_verde_stake_107m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "fcx_cerro_verde_stake_107m_2026",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "jinkoess_chile_reference_340mw_2025",
+    "type": "company",
+    "chicago": "Jinko ESS. “Energy Storage Projects / Project Cases.” Chile Utility-Scale Energy Storage Project 340 MW / 1.6 GWh (Sep 2025). https://www.jinkoess.com/en/site/reference-project.",
+    "url": "https://www.jinkoess.com/en/site/reference-project",
+    "annotation": "Jinko ESS Chile 340 MW/1.6 GWh; CapEx blank. Supports jinko_ess_chile_340mw_1600mwh_2025.",
+    "supports": [
+      "jinko_ess_chile_340mw_1600mwh_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "jinko_ess_chile_340mw_1600mwh_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "chinapower_xinyuan_atacama_bess_20240415",
+    "type": "company",
+    "chicago": "China Power International Development Limited. “Connected Transaction — Energy Storage System Equipment Sale and Purchase Contract.” HKEX announcement, 15 April 2024. https://doc.irasia.com/listco/hk/chinapower/announcement/a240415.pdf.",
+    "url": "https://doc.irasia.com/listco/hk/chinapower/announcement/a240415.pdf",
+    "annotation": "HKEX primary: Atacama Chile 110 MW/220 MWh; RMB 381.8m. Supports xinyuan_spic_atacama_bess_chile_rmb381m_2024.",
+    "supports": [
+      "xinyuan_spic_atacama_bess_chile_rmb381m_2024",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "xinyuan_spic_atacama_bess_chile_rmb381m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "zelestra_latam_sale_promigas_2026",
+    "type": "company",
+    "chicago": "Zelestra. “Zelestra completes the sale of its Latin America Business Unit to Promigas for $1.1B Enterprise Value.” May 28, 2026. https://zelestra.energy/en/news/latam-sale.",
+    "url": "https://zelestra.energy/en/news/latam-sale",
+    "annotation": "Zelestra→Promigas LatAm EV ~USD 1.1bn / ~3,500 MW. Supports promigas_zelestra_latam_1p1bn_2026.",
+    "supports": [
+      "promigas_zelestra_latam_1p1bn_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "promigas_zelestra_latam_1p1bn_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
