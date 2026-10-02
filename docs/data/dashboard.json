@@ -88,34 +88,34 @@
     }
   },
   "meta": {
-    "n_rows": 589,
+    "n_rows": 597,
     "counts": {
-      "total": 589,
-      "active": 534,
+      "total": 597,
+      "active": 542,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 118,
+      "proxy": 121,
       "exclude": 5,
-      "documented": 412,
-      "on_map": 523
+      "documented": 417,
+      "on_map": 531
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 39,
-        "prc": 54,
+        "us": 43,
+        "prc": 58,
         "allied": 92,
-        "n": 185
+        "n": 193
       },
       "usd": {
-        "us": 2400000000.0,
-        "us_n": 8,
-        "prc": 3644800603.15,
-        "prc_n": 13,
+        "us": 2600000000.0,
+        "us_n": 9,
+        "prc": 3660534206.46,
+        "prc_n": 14,
         "allied": 10635734000.0,
         "allied_n": 24
       },
@@ -178,15 +178,15 @@
       "country": "Argentina",
       "counts": {
         "us": 11,
-        "prc": 13,
+        "prc": 16,
         "allied": 27,
-        "n": 51
+        "n": 54
       },
       "usd": {
         "us": 7100000000.0,
         "us_n": 2,
-        "prc": 2678999055.76,
-        "prc_n": 8,
+        "prc": 2694732659.07,
+        "prc_n": 9,
         "allied": 18239362187.2,
         "allied_n": 15
       },
@@ -198,7 +198,7 @@
         },
         "infrastructure": {
           "us": 4,
-          "prc": 2,
+          "prc": 5,
           "allied": 4
         },
         "resources": {
@@ -264,14 +264,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 44,
+        "us": 47,
         "prc": 46,
         "allied": 103,
-        "n": 193
+        "n": 196
       },
       "usd": {
-        "us": 1255545000.0,
-        "us_n": 8,
+        "us": 1455545000.0,
+        "us_n": 9,
         "prc": 1252595264.55,
         "prc_n": 9,
         "allied": 4439359384.93,
@@ -284,7 +284,7 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 13,
+          "us": 16,
           "prc": 19,
           "allied": 30
         },
@@ -550,10 +550,10 @@
     {
       "country": "Guyana",
       "counts": {
-        "us": 3,
+        "us": 4,
         "prc": 3,
         "allied": 0,
-        "n": 6
+        "n": 7
       },
       "usd": {
         "us": 527000000.0,
@@ -570,7 +570,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 1,
           "allied": 0
         }
@@ -633,9 +633,9 @@
       "country": "Mexico",
       "counts": {
         "us": 15,
-        "prc": 8,
+        "prc": 9,
         "allied": 26,
-        "n": 49
+        "n": 50
       },
       "usd": {
         "us": 912160000.0,
@@ -653,7 +653,7 @@
         },
         "infrastructure": {
           "us": 8,
-          "prc": 7,
+          "prc": 8,
           "allied": 15
         },
         "resources": {
@@ -1308,7 +1308,15 @@
       "halliburton_pampa_digital_vaca_muerta_2026",
       "ctg_ilha_solteira_ug1_2026",
       "ctg_nisperos_solar_colombia_2026",
-      "powerchina_ituango_surge_chamber_2026"
+      "powerchina_ituango_surge_chamber_2026",
+      "crrc_criic_amba_43dmu_2026",
+      "crrc_mendoza_cercanias_dmu_2026",
+      "sinoma_cnbm_cruz_azul_seybaplaya_2025",
+      "powerchina_vicuna_batidero_camp_2026",
+      "slb_amapa_3d_seismic_brazil_2026",
+      "nov_acu_flexible_pipe_200m_2026",
+      "weatherford_noble_guyana_mpd_2026",
+      "weatherford_constellation_brazil_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
