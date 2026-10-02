@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 663,
+    "n_rows": 671,
     "counts": {
-      "total": 663,
-      "active": 608,
+      "total": 671,
+      "active": 616,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
       "proxy": 129,
       "exclude": 5,
-      "documented": 475,
-      "on_map": 596
+      "documented": 483,
+      "on_map": 604
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 58,
-        "prc": 68,
+        "us": 61,
+        "prc": 72,
         "allied": 92,
-        "n": 218
+        "n": 225
       },
       "usd": {
         "us": 2747000000.0,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 67,
+        "us": 68,
         "prc": 69,
         "allied": 64,
-        "n": 200
+        "n": 201
       },
       "usd": {
         "us": 6701300000.0,
@@ -264,10 +264,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 56,
+        "us": 57,
         "prc": 53,
         "allied": 103,
-        "n": 212
+        "n": 213
       },
       "usd": {
         "us": 1602545000.0,
@@ -279,7 +279,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 9,
+          "us": 10,
           "prc": 26,
           "allied": 25
         },
@@ -332,10 +332,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 7,
+        "us": 8,
         "prc": 13,
         "allied": 9,
-        "n": 29
+        "n": 30
       },
       "usd": {
         "us": 227600000.0,
@@ -352,7 +352,7 @@
           "allied": 2
         },
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 2,
           "allied": 6
         },
@@ -550,10 +550,10 @@
     {
       "country": "Guyana",
       "counts": {
-        "us": 6,
-        "prc": 3,
+        "us": 7,
+        "prc": 4,
         "allied": 0,
-        "n": 9
+        "n": 11
       },
       "usd": {
         "us": 527000000.0,
@@ -570,8 +570,8 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 4,
-          "prc": 1,
+          "us": 5,
+          "prc": 2,
           "allied": 0
         }
       }
@@ -579,10 +579,10 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 1,
         "allied": 1,
-        "n": 3
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -599,7 +599,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 0,
           "allied": 1
         }
@@ -609,9 +609,9 @@
       "country": "Jamaica",
       "counts": {
         "us": 1,
-        "prc": 5,
+        "prc": 7,
         "allied": 1,
-        "n": 7
+        "n": 9
       },
       "usd": {
         "us": 1055000000.0,
@@ -629,7 +629,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 5,
+          "prc": 7,
           "allied": 0
         }
       }
@@ -638,9 +638,9 @@
       "country": "Mexico",
       "counts": {
         "us": 15,
-        "prc": 9,
+        "prc": 10,
         "allied": 26,
-        "n": 50
+        "n": 51
       },
       "usd": {
         "us": 912160000.0,
@@ -658,7 +658,7 @@
         },
         "infrastructure": {
           "us": 8,
-          "prc": 8,
+          "prc": 9,
           "allied": 15
         },
         "resources": {
@@ -1464,7 +1464,15 @@
       "chec_taltal_school_chile_2026",
       "powerchina_catac_road_peru_2026",
       "crtg_cerro_pasco_tingo_515m_2025",
-      "cnnc_cnen_centena_mou_2025"
+      "cnnc_cnen_centena_mou_2025",
+      "atlas_luiz_carlos_side_b_bot_2025",
+      "ustda_atlantico_datacenter_ta_2026",
+      "ustda_cocesna_cyber_ta_2026",
+      "slb_exxon_guyana_neuro_drillops_2026",
+      "chec_jamaica_affordable_housing_p2_2026",
+      "chec_morant_bay_urban_centre_2025",
+      "chec_guyana_ac_marriott_2026",
+      "chec_impro_mexico_slp_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

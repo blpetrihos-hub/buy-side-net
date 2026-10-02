@@ -6308,3 +6308,76 @@
   supports:
   - cnnc_cnen_centena_mou_2025
   - hunt_energy_fission_smr
+
+- id: atlas_luiz_carlos_side_b_20251209
+  type: company
+  chicago: "Atlas Renewable Energy. “ArcelorMittal and Atlas Renewable Energy complete construction of a solar plant in Minas Gerais, Brazil.” 9 December 2025."
+  url: https://atlasrenewableenergy.com/news-and-insights/arcelormittal-and-atlas-renewable-energy-complete-construction-of-a-solar-plant-in-minas-gerais-brazil/
+  annotation: Atlas–ArcelorMittal Luiz Carlos Side B 315 MWp BOT completion R$895m. Supports
+    atlas_luiz_carlos_side_b_bot_2025.
+  supports:
+  - atlas_luiz_carlos_side_b_bot_2025
+  - hunt_energy_solar
+- id: ustda_atlantico_datacenter_20260929
+  type: government
+  chicago: "U.S. Trade and Development Agency. “USTDA Funds Secure, AI-Ready Digital Infrastructure in Colombia.” 29 September 2026."
+  url: https://ustda.gov/ustda-funds-secure-ai-ready-digital-infrastructure-in-colombia/
+  annotation: USTDA TA for Atlántico hyperscale data center and fiber network. Supports
+    ustda_atlantico_datacenter_ta_2026.
+  supports:
+  - ustda_atlantico_datacenter_ta_2026
+  - hunt_infra_engineering_epc
+- id: ustda_cocesna_cyber_20260827
+  type: government
+  chicago: "U.S. Trade and Development Agency. “USTDA to Secure Central American Air Navigation Against Cyberthreats.” 27 August 2026."
+  url: https://ustda.gov/ustda-to-secure-central-american-air-navigation-against-cyberthreats/
+  annotation: USTDA TA to COCESNA cybersecurity roadmap; Cibernetika as U.S. contractor. Supports
+    ustda_cocesna_cyber_ta_2026.
+  supports:
+  - ustda_cocesna_cyber_ta_2026
+  - hunt_infra_engineering_epc
+- id: slb_exxon_guyana_neuro_20260204
+  type: company
+  chicago: "SLB. “ExxonMobil Guyana Limited leverages drilling automation to set new performance benchmarks in deepwater operations.” 4 February 2026."
+  url: https://www.slb.com/resource-library/case-study-with-navigation/di/2026/exxonmobil-leverages-drilling-automation-to-set-new-performance-benchmarks-in-deepwater-operations
+  annotation: SLB Neuro/DrillOps autonomous drilling deployment with ExxonMobil Guyana. Supports
+    slb_exxon_guyana_neuro_drillops_2026.
+  supports:
+  - slb_exxon_guyana_neuro_drillops_2026
+  - hunt_infra_engineering_epc
+- id: chec_jamaica_housing_p2_20260107
+  type: company
+  chicago: "China Harbour Engineering Company (CHEC Americas). “Jamaica Affordable Housing Project Phases I–II Achieve Phased Handover.” 7 January 2026."
+  url: https://www.checamerica.com/blog/2026/01/07/jamaica-affordable-housing-project-phases-i-ii-achieve-phased-handover/
+  annotation: CHEC Phase II handover of 281 Jamaica Affordable Housing units. Supports
+    chec_jamaica_affordable_housing_p2_2026.
+  supports:
+  - chec_jamaica_affordable_housing_p2_2026
+  - hunt_infra_building_materials
+- id: jis_morant_bay_chec_20250131
+  type: government
+  chicago: "Jamaica Information Service. “Phased Handover of Morant Bay Urban Centre Begins in February.” 31 January 2025."
+  url: https://jis.gov.jm/phased-handover-of-morant-bay-urban-centre-begins-in-february/
+  annotation: JIS confirms CHEC contractor and J$6bn Morant Bay Urban Centre cost. Supports
+    chec_morant_bay_urban_centre_2025.
+  supports:
+  - chec_morant_bay_urban_centre_2025
+  - hunt_infra_building_materials
+- id: chec_guyana_marriott_20260115
+  type: company
+  chicago: "China Harbour Engineering Company (CHEC Americas). “President Attends Opening as Guyana AC Marriott Hotel Officially Begins Operations.” 15 January 2026."
+  url: https://www.checamerica.com/blog/2026/01/15/president-attends-opening-as-guyana-ac-marriott-hotel-officially-begins-operations/
+  annotation: CHEC-built AC Marriott Georgetown opening with President Ali. Supports
+    chec_guyana_ac_marriott_2026.
+  supports:
+  - chec_guyana_ac_marriott_2026
+  - hunt_infra_building_materials
+- id: chec_impro_mexico_slp_page
+  type: company
+  chicago: "China Harbour Engineering Company (CHEC Americas). “Projects Impro Mexico — Impro Mexico SLP Park Construction Project.” n.d."
+  url: https://www.checamerica.com/projects-impro-mexico/
+  annotation: CHEC Impro Mexico SLP Park 45,500 m² industrial construction. Supports
+    chec_impro_mexico_slp_2026.
+  supports:
+  - chec_impro_mexico_slp_2026
+  - hunt_infra_engineering_epc
