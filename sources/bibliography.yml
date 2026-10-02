@@ -9638,3 +9638,32 @@
   supports:
   - wartsila_origem_371mw_br_2026
   - hunt_energy_power_plants_grid
+- id: engie_bess_libelula_los_loros_cod_20260828
+  type: company
+  chicago: ENGIE Chile. “Impulsamos la transición energética con la entrada en operación de dos nuevos
+    parques de almacenamiento.” August 28, 2026. https://www.engie.cl/impulsamos-la-transicion-energetica-con-la-entrada-en-operacion-de-dos-nuevos-parques-de-almacenamiento/.
+  url: https://www.engie.cl/impulsamos-la-transicion-energetica-con-la-entrada-en-operacion-de-dos-nuevos-parques-de-almacenamiento/
+  annotation: 'ENGIE Chile primary: BESS Los Loros COD 48 MW/275.23 MWh; CapEx USD 64m. Supports engie_bess_los_loros_cod_64m_2026.'
+  supports:
+  - engie_bess_libelula_cod_219m_2026
+  - hunt_energy_other_renewables
+  - engie_bess_los_loros_cod_64m_2026
+- id: gamechange_715mwp_latam_20250623
+  type: company
+  chicago: GameChange Solar. “GameChange Solar Expands LATAM Footprint with Eight New Solar Projects Totaling
+    715 MWp.” June 23, 2025. https://www.gamechangesolar.com/news/gamechange-solar-expands-latam-footprint-with-eight-new-solar-projects-totaling-715-mwp.
+  url: https://www.gamechangesolar.com/news/gamechange-solar-expands-latam-footprint-with-eight-new-solar-projects-totaling-715-mwp
+  annotation: 'GameChange primary: 715 MWp trackers across 8 Chile/Colombia/El Salvador projects. Supports
+    gamechange_715mwp_latam_2025.'
+  supports:
+  - gamechange_715mwp_latam_2025
+  - hunt_energy_solar
+- id: trina_colinas_vanguard_20250908
+  type: company
+  chicago: Trinasolar. “Trina Tracker fornecerá 130 MWp de rastreadores solares para o Projeto Colinas,
+    situado em Pernambuco.” September 8, 2025. https://www.trinasolar.com/br/resources/newsroom/tue-20250909-0835/.
+  url: https://www.trinasolar.com/br/resources/newsroom/tue-20250909-0835/
+  annotation: 'TrinaTracker primary: Vanguard 1P for Colinas 130 MWp (PE). Supports trina_colinas_vanguard_130mwp_2025.'
+  supports:
+  - trina_colinas_vanguard_130mwp_2025
+  - hunt_energy_solar
