@@ -6884,3 +6884,75 @@
   supports:
   - ceec_coremas_solar_520m_2025
   - hunt_energy_solar
+
+- id: cummins_cdbs_monterrey_logistics_20241003
+  type: company
+  chicago: "Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.” 3 October 2024."
+  url: https://www.cummins.com/en-ame/news/2024/10/03/cdbsinvestments-boost-productioncapacity-
+  annotation: Cummins Monterrey Logistics Center CapEx USD 30m (WMS). Supports cummins_monterrey_logistics_30m_2024.
+  supports:
+  - cummins_monterrey_logistics_30m_2024
+  - hunt_infra_engineering_epc
+
+- id: nadbank_sonora_650m_202603
+  type: government
+  chicago: "North American Development Bank. “NADBank provides for environmental infrastructure financing for communities in northern Sonora.” March 2026."
+  url: https://nadbank.org/news/press-release/nadbank-provides-for-environmental-infrastructure-financing-for-communities-in-northern-sonora
+  annotation: NADBank/COFIDAN Sonora environmental infrastructure loan up to MXN 650m (~USD 36.2m). Supports nadbank_sonora_env_650m_mxn_2026.
+  supports:
+  - nadbank_sonora_env_650m_mxn_2026
+  - hunt_res_water
+
+- id: nadbank_sadm_monterrey_project
+  type: government
+  chicago: "North American Development Bank. “Water and Wastewater Infrastructure Improvements in the Metropolitan Area of Monterrey, Nuevo Leon.” Financed projects page (accessed 2026)."
+  url: https://nadbank.org/our-projects/financed-projects/proyect/water-and-wastewater-infrastructure-improvements-in-the-metropolitan-area-of-monterrey-nuevo-leon
+  annotation: NADBank SADM Monterrey metro water/wastewater loan USD 16.75m of USD 103.4m project. Supports nadbank_sadm_monterrey_16p75m_2025.
+  supports:
+  - nadbank_sadm_monterrey_16p75m_2025
+  - hunt_res_water
+
+- id: nadbank_qsr_2025q3_wip
+  type: government
+  chicago: "North American Development Bank. “Quarterly Status Report.” Q3 2025 (ENG PDF)."
+  url: https://nadbank.org/hubfs/Quarterly%20Financial%20Statements%20(ENG)/NADBank%20Quarterly%20Status%20Report.pdf?hsLang=en
+  annotation: NADBank WIP ratification — Rancho La Puerta Tecate WW reuse USD 5.0m loan (3 Sep 2025). Supports nadbank_tecate_rancho_lapuerta_5m_2025.
+  supports:
+  - nadbank_tecate_rancho_lapuerta_5m_2025
+  - hunt_res_water
+
+- id: camce_punta_huete_road_longbridge_20250824
+  type: company
+  chicago: "China CAMC Engineering Co., Ltd. “CAMCE: Signed a contract for the Nicaragua project worth USD 71.9647 million.” Longbridge/Zhitong reprint, 24 August 2025."
+  url: https://longbridge.com/news/254303929
+  annotation: CAMCE Punta Huete airport supporting-road EPC USD 71.9647m with Nicaragua MTI. Supports camce_punta_huete_road_71p96m_2025.
+  supports:
+  - camce_punta_huete_road_71p96m_2025
+  - hunt_infra_bridges_roads
+
+- id: aiddata_camce_punta_huete_section_a_107086
+  type: database
+  chicago: "AidData. “CAMCE provides RMB 1.43 billion loan — via deferred payment agreement — for Section A of Punta Huete International Airport Reconstruction, Expansion, and Upgrading Project (Linked to Record ID#107143).” China.AidData.org project 107086."
+  url: https://china.aiddata.org/projects/107086
+  annotation: CAMCE deferred-payment credit facilities for Punta Huete airport Sections A+B totaling RMB 2,874,652,142.91 (Nicaragua MHCP). Supports camce_punta_huete_airport_credit_2p875bn_rmb_2024.
+  supports:
+  - camce_punta_huete_airport_credit_2p875bn_rmb_2024
+  - hunt_infra_engineering_epc
+
+- id: ancisa_crbc_red_maule_20210527
+  type: company
+  chicago: "Ancisa / Grupo Puentes. “Grupo Puentes recibe los terrenos donde construirá tres hospitales en Chile.” 27 May 2021."
+  url: https://ancisa.com/grupo-puentes-recibe-los-terrenos-donde-construira-tres-hospitales-en-chile/
+  annotation: Consorcio Iberoasiático (CRBC + Puentes) Red Maule hospitals concession UF 6,634,394. Supports crbc_red_maule_hospitals_uf6634394_2021.
+  supports:
+  - crbc_red_maule_hospitals_uf6634394_2021
+  - hunt_infra_building_materials
+
+- id: larepublica_crtg_molinopampa_20260125
+  type: press
+  chicago: "La República (Peru). “José Jerí: en el gobierno del presidente contrataron a empresas chinas por S/1.400 millones.” 25 January 2026."
+  url: https://larepublica.pe/politica/2026/01/25/en-el-gobierno-de-jose-jeri-contrataron-a-empresas-chinas-por-s1400-millones-zhihua-yang-mtc-provias-hnews-2011872
+  annotation: UNVERIFIED proxy for CRTG Molinopampa Áncash corridor contract S/273.2m (14 Oct 2025). Supports crtg_molinopampa_273m_pen_2025.
+  supports:
+  - crtg_molinopampa_273m_pen_2025
+  - hunt_infra_bridges_roads
