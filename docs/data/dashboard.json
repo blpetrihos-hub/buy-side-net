@@ -91,31 +91,31 @@
     "n_rows": 743,
     "counts": {
       "total": 743,
-      "active": 688,
+      "active": 665,
       "hunt": 42,
-      "archived": 35,
+      "archived": 58,
       "paired": 5,
       "one_sided": 27,
       "proxy": 146,
       "exclude": 5,
       "documented": 538,
-      "on_map": 674
+      "on_map": 652
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 90,
-        "prc": 98,
-        "allied": 92,
-        "n": 280
+        "us": 74,
+        "prc": 94,
+        "allied": 89,
+        "n": 257
       },
       "usd": {
-        "us": 3746400000.0,
-        "us_n": 18,
-        "prc": 6443187906.46,
-        "prc_n": 23,
+        "us": 2780200000.0,
+        "us_n": 11,
+        "prc": 5428187906.46,
+        "prc_n": 22,
         "allied": 10635734000.0,
         "allied_n": 24
       },
@@ -179,8 +179,8 @@
       "counts": {
         "us": 14,
         "prc": 18,
-        "allied": 27,
-        "n": 59
+        "allied": 26,
+        "n": 58
       },
       "usd": {
         "us": 7100000000.0,
@@ -199,7 +199,7 @@
         "infrastructure": {
           "us": 7,
           "prc": 5,
-          "allied": 4
+          "allied": 3
         },
         "resources": {
           "us": 3,
@@ -237,8 +237,8 @@
       "counts": {
         "us": 0,
         "prc": 1,
-        "allied": 1,
-        "n": 2
+        "allied": 0,
+        "n": 1
       },
       "usd": {
         "us": 0.0,
@@ -253,27 +253,22 @@
           "us": 0,
           "prc": 1,
           "allied": 0
-        },
-        "infrastructure": {
-          "us": 0,
-          "prc": 0,
-          "allied": 1
         }
       }
     },
     {
       "country": "Brazil",
       "counts": {
-        "us": 77,
-        "prc": 62,
-        "allied": 103,
-        "n": 242
+        "us": 70,
+        "prc": 58,
+        "allied": 102,
+        "n": 230
       },
       "usd": {
-        "us": 2515745000.0,
-        "us_n": 15,
-        "prc": 2307595264.55,
-        "prc_n": 11,
+        "us": 1782545000.0,
+        "us_n": 11,
+        "prc": 1292595264.55,
+        "prc_n": 10,
         "allied": 4439359384.93,
         "allied_n": 20
       },
@@ -284,9 +279,9 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 42,
-          "prc": 24,
-          "allied": 30
+          "us": 35,
+          "prc": 20,
+          "allied": 29
         },
         "resources": {
           "us": 24,
@@ -298,10 +293,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 32,
+        "us": 31,
         "prc": 26,
         "allied": 43,
-        "n": 101
+        "n": 100
       },
       "usd": {
         "us": 18411000000.0,
@@ -318,7 +313,7 @@
           "allied": 8
         },
         "infrastructure": {
-          "us": 4,
+          "us": 3,
           "prc": 12,
           "allied": 12
         },
@@ -332,10 +327,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 8,
+        "us": 7,
         "prc": 14,
         "allied": 9,
-        "n": 31
+        "n": 30
       },
       "usd": {
         "us": 227600000.0,
@@ -352,7 +347,7 @@
           "allied": 2
         },
         "infrastructure": {
-          "us": 2,
+          "us": 1,
           "prc": 3,
           "allied": 6
         },
@@ -603,10 +598,10 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 2,
+        "us": 1,
         "prc": 1,
         "allied": 1,
-        "n": 4
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -623,7 +618,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 2,
+          "us": 1,
           "prc": 0,
           "allied": 1
         }
@@ -661,14 +656,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 25,
+        "us": 19,
         "prc": 10,
         "allied": 26,
-        "n": 61
+        "n": 55
       },
       "usd": {
-        "us": 1056310000.0,
-        "us_n": 12,
+        "us": 823310000.0,
+        "us_n": 9,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -681,7 +676,7 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 15,
+          "us": 9,
           "prc": 9,
           "allied": 15
         },
@@ -945,7 +940,6 @@
       "wits_ecuador_balsa_china_2023",
       "wits_ecuador_balsa_us_2023",
       "sinoma_votorantim_z02_br_2024",
-      "fluor_salares_norte_chile_2024",
       "bechtel_los_pelambres_inco_2024",
       "acciona_collahuasi_desal_chile",
       "vestas_cimarron_mexico_2024",
@@ -1043,7 +1037,6 @@
       "ifc_appian_santa_rita_fund_2025",
       "konecranes_yucatan_progreso_2026",
       "zijin_liex_tres_quebradas_rigi_2026",
-      "worley_diablillos_abrasilver_2026",
       "posco_sal_de_oro_ii_rigi_2026",
       "acciona_la_gina_dr_2026",
       "ormat_dominica_geothermal_ppa_2023",
@@ -1056,9 +1049,6 @@
       "vestas_esquina_do_vento_230mw_2026",
       "goldwind_sento_se_872mw_2026",
       "ganfeng_laac_convertible_180m_2026",
-      "lycopodium_san_cristobal_epcm_2026",
-      "m3_vizsla_panuco_epcm_2026",
-      "sedgman_colossus_epcm_2026",
       "zpmc_tecon_rio_grande_2026",
       "centaurus_jaguar_bndes_loi_2026",
       "centaurus_glencore_offtake_jaguar_2026",
@@ -1500,8 +1490,6 @@
       "crtg_cerro_pasco_tingo_515m_2025",
       "cnnc_cnen_centena_mou_2025",
       "atlas_luiz_carlos_side_b_bot_2025",
-      "ustda_atlantico_datacenter_ta_2026",
-      "ustda_cocesna_cyber_ta_2026",
       "slb_exxon_guyana_neuro_drillops_2026",
       "chec_jamaica_affordable_housing_p2_2026",
       "chec_morant_bay_urban_centre_2025",
@@ -1547,23 +1535,14 @@
       "oil_states_petrobras_subsea_2026",
       "weatherford_trion_mpd_mexico_2025",
       "goldwind_jacobina_tower_factory_2026",
-      "john_deere_canoas_pulverizer_42m_2026",
-      "john_deere_canoas_electronics_75m_2026",
-      "agco_jundiai_reman_3p2m_2025",
-      "flowserve_torreon_800m_mxn_2026",
       "chec_grenada_mbia_airport_2025",
       "crcc_coquimbo_hospital_2022",
       "crcc_ohiggins_rengo_pichilemu_2024",
       "crcc_neurocirugia_chile_2023",
-      "dfc_vtal_fiber_brazil_2024",
       "nadbank_engen_capital_400m_mxn_2026",
-      "cloudhq_queretaro_campus_4p8bn_2025",
-      "cummins_monterrey_adb_33m_2024",
       "crcc_chillan_collipulli_ruta5_2023",
       "goldwind_camacari_turbine_factory_2024",
-      "byd_camacari_ev_complex_5p5bn_2025",
       "ceec_coremas_solar_520m_2025",
-      "cummins_monterrey_logistics_30m_2024",
       "nadbank_sonora_env_650m_mxn_2026",
       "nadbank_sadm_monterrey_16p75m_2025",
       "nadbank_tecate_rancho_lapuerta_5m_2025",
@@ -1571,13 +1550,6 @@
       "camce_punta_huete_airport_credit_2p875bn_rmb_2024",
       "crbc_red_maule_hospitals_uf6634394_2021",
       "crtg_molinopampa_273m_pen_2025",
-      "gm_brazil_additional_3p5bn_brl_2026",
-      "dfc_serra_verde_pela_ema_565m_2025",
-      "abbott_queretaro_ep_plant_200m_2026",
-      "dfc_tembici_15m_equity_2023",
-      "gwm_iracemapolis_4bn_brl_2025",
-      "geely_renault_brasil_3p8bn_brl_2025",
-      "cmoc_equinox_brazil_gold_1p015bn_2026",
       "csgi_enel_distribucion_peru_3p1bn_2024"
     ],
     "hunt": [
@@ -1644,7 +1616,30 @@
       "niocorp_argus_fenb_us_2024",
       "fenb_br66_vs_cn60a_20260921",
       "abirochas_br_stone_china_2023",
-      "abirochas_br_stone_us_2023"
+      "fluor_salares_norte_chile_2024",
+      "abirochas_br_stone_us_2023",
+      "worley_diablillos_abrasilver_2026",
+      "lycopodium_san_cristobal_epcm_2026",
+      "m3_vizsla_panuco_epcm_2026",
+      "sedgman_colossus_epcm_2026",
+      "ustda_atlantico_datacenter_ta_2026",
+      "ustda_cocesna_cyber_ta_2026",
+      "john_deere_canoas_pulverizer_42m_2026",
+      "john_deere_canoas_electronics_75m_2026",
+      "agco_jundiai_reman_3p2m_2025",
+      "flowserve_torreon_800m_mxn_2026",
+      "dfc_vtal_fiber_brazil_2024",
+      "cloudhq_queretaro_campus_4p8bn_2025",
+      "cummins_monterrey_adb_33m_2024",
+      "byd_camacari_ev_complex_5p5bn_2025",
+      "cummins_monterrey_logistics_30m_2024",
+      "gm_brazil_additional_3p5bn_brl_2026",
+      "dfc_serra_verde_pela_ema_565m_2025",
+      "abbott_queretaro_ep_plant_200m_2026",
+      "dfc_tembici_15m_equity_2023",
+      "gwm_iracemapolis_4bn_brl_2025",
+      "geely_renault_brasil_3p8bn_brl_2025",
+      "cmoc_equinox_brazil_gold_1p015bn_2026"
     ]
   }
 }

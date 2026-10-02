@@ -1026,24 +1026,6 @@
     ]
   },
   {
-    "id": "fluor_salares_norte_20240403",
-    "type": "official",
-    "chicago": "Fluor Corporation. “Fluor Announces First Gold from Gold Fields’ Salares Norte Mining Project in Chile.” 3 April 2024.",
-    "url": "https://newsroom.fluor.com/news-releases/news-details/2024/Fluor-Announces-First-Gold-from-Gold-Fields-Salares-Norte-Mining-Project-in-Chile/default.aspx",
-    "annotation": "Company primary EPCM milestone release for Salares Norte. Supports fluor_salares_norte_chile_2024.",
-    "supports": [
-      "fluor_salares_norte_chile_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "fluor_salares_norte_chile_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "bechtel_los_pelambres_page",
     "type": "official",
     "chicago": "Bechtel. “Los Pelambres Copper Mine.” Company project page. Accessed 1 October 2026.",
@@ -2720,24 +2702,6 @@
     ]
   },
   {
-    "id": "worley_diablillos_lntp_20260827",
-    "type": "official",
-    "chicago": "Worley. “Worley to advance next phase of AbraSilver’s Diablillos Silver‑Gold project in Argentina.” 27 August 2026.",
-    "url": "https://www.worley.com/en/insights/our-news/resources/2026/abrasilver-diablillos-silver-gold-project-argentina",
-    "annotation": "Company primary LNTP award for Diablillos bridging phase. Supports worley_diablillos_abrasilver_2026.",
-    "supports": [
-      "worley_diablillos_abrasilver_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "worley_diablillos_abrasilver_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "boletin_oficial_res_1157_2026",
     "type": "official",
     "chicago": "Argentina. Ministerio de Economía. “Resolución 1157/2026” (RIGI adhesión — Posco Argentina SAU SDE / Sal de Oro II). Boletín Oficial de la República Argentina, 31 July 2026.",
@@ -2933,60 +2897,6 @@
     ],
     "layers": [
       "resources"
-    ]
-  },
-  {
-    "id": "lycopodium_san_cristobal_20260818",
-    "type": "official",
-    "chicago": "Lycopodium Limited. “Lycopodium Awarded EPCM Contract for San Cristóbal Silver Oxide Project in Bolivia.” ASX announcement, 18 August 2026.",
-    "url": "https://www.lycopodium.com/wp-content/uploads/2026/08/San-Cristobal-Announcement_FINAL.pdf",
-    "annotation": "Company primary San Cristóbal oxide-plant EPCM award. Supports lycopodium_san_cristobal_epcm_2026.",
-    "supports": [
-      "lycopodium_san_cristobal_epcm_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "lycopodium_san_cristobal_epcm_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "prnewswire_vizsla_m3_panuco_20260423",
-    "type": "official",
-    "chicago": "Vizsla Silver Corp. “Vizsla Silver Awards EPCM and Mine Design Contracts for the Development of the Panuco Silver-Gold Project.” PR Newswire, 23 April 2026.",
-    "url": "https://www.prnewswire.com/news-releases/vizsla-silver-awards-epcm-and-mine-design-contracts-for-the-development-of-the-panuco-silver-gold-project-302750621.html",
-    "annotation": "Company primary Panuco EPCM award to M3 Engineering. Supports m3_vizsla_panuco_epcm_2026.",
-    "supports": [
-      "m3_vizsla_panuco_epcm_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "m3_vizsla_panuco_epcm_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "sedgman_colossus_20260915",
-    "type": "official",
-    "chicago": "Sedgman / HOCHTIEF. “Sedgman appointed as the preferred EPCM contractor for Colossus Rare Earth Project.” 15 September 2026.",
-    "url": "https://www.hochtief.com/news-media/press-releases/press-release/sedgman-appointed-as-the-preferred-epcm-contractor-for-colossus-rare-earth-project",
-    "annotation": "Company primary Colossus preferred-EPCM appointment. Supports sedgman_colossus_epcm_2026.",
-    "supports": [
-      "sedgman_colossus_epcm_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "sedgman_colossus_epcm_2026"
-    ],
-    "layers": [
-      "infrastructure"
     ]
   },
   {
@@ -10760,42 +10670,6 @@
     ]
   },
   {
-    "id": "ustda_atlantico_datacenter_20260929",
-    "type": "government",
-    "chicago": "U.S. Trade and Development Agency. “USTDA Funds Secure, AI-Ready Digital Infrastructure in Colombia.” 29 September 2026.",
-    "url": "https://ustda.gov/ustda-funds-secure-ai-ready-digital-infrastructure-in-colombia/",
-    "annotation": "USTDA TA for Atlántico hyperscale data center and fiber network. Supports ustda_atlantico_datacenter_ta_2026.",
-    "supports": [
-      "ustda_atlantico_datacenter_ta_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "ustda_atlantico_datacenter_ta_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "ustda_cocesna_cyber_20260827",
-    "type": "government",
-    "chicago": "U.S. Trade and Development Agency. “USTDA to Secure Central American Air Navigation Against Cyberthreats.” 27 August 2026.",
-    "url": "https://ustda.gov/ustda-to-secure-central-american-air-navigation-against-cyberthreats/",
-    "annotation": "USTDA TA to COCESNA cybersecurity roadmap; Cibernetika as U.S. contractor. Supports ustda_cocesna_cyber_ta_2026.",
-    "supports": [
-      "ustda_cocesna_cyber_ta_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "ustda_cocesna_cyber_ta_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "slb_exxon_guyana_neuro_20260204",
     "type": "company",
     "chicago": "SLB. “ExxonMobil Guyana Limited leverages drilling automation to set new performance benchmarks in deepwater operations.” 4 February 2026.",
@@ -11602,78 +11476,6 @@
     ]
   },
   {
-    "id": "deere_canoas_pulverizer_20260130",
-    "type": "company",
-    "chicago": "John Deere Brasil. “John Deere inaugura fábrica de Canoas (RS) para produção de novo pulverizador.” 30 January 2026.",
-    "url": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/jan/deere-pulverizador-f%C3%A1brica-de-canoas/",
-    "annotation": "John Deere Canoas sprayer plant CapEx ~R$42m for 1025E production. Supports john_deere_canoas_pulverizer_42m_2026.",
-    "supports": [
-      "john_deere_canoas_pulverizer_42m_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "john_deere_canoas_pulverizer_42m_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "deere_canoas_electronics_20260723",
-    "type": "company",
-    "chicago": "John Deere Brasil. “John Deere Anuncia Produção de Componentes Eletrônicos no Brasil.” July 2026.",
-    "url": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/jul/produ%C3%A7%C3%A3o-de-componentes-eletr%C3%B4nicos/",
-    "annotation": "John Deere Canoas electronics assembly CapEx R$75m (COD Jul 2027). Supports john_deere_canoas_electronics_75m_2026.",
-    "supports": [
-      "john_deere_canoas_electronics_75m_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "john_deere_canoas_electronics_75m_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "agco_jundiai_reman_20250210",
-    "type": "company",
-    "chicago": "AGCO Corporation. “AGCO Announces Expansions in Jundiaí (SP) with a Focus on Sustainability and Workforce Development.” 10 February 2025.",
-    "url": "https://news.agcocorp.com/2025-02-10-AGCO-Announces-Expansions-in-Jundiai-SP-with-a-Focus-on-Sustainability-and-Workforce-Development",
-    "annotation": "AGCO Jundiaí Reman Transmissions Center + Academy CapEx USD 3.2m. Supports agco_jundiai_reman_3p2m_2025.",
-    "supports": [
-      "agco_jundiai_reman_3p2m_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "agco_jundiai_reman_3p2m_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "promexico_flowserve_torreon_20260403",
-    "type": "press",
-    "chicago": "ProMéxico Industry. “Flowserve Invests MXN 800 Million in Torreón, Coahuila for Industrial Pump and Valve Manufacturing.” 3 April 2026.",
-    "url": "https://www.promexicoindustry.com/en/article/flowserve-invests-mxn-800-million-in-torren-coahuila-for-industrial-pump-and-valve-manufacturing",
-    "annotation": "UNVERIFIED proxy paraphrase of Flowserve Torreón manufacturing-center inauguration MXN 800m. Supports flowserve_torreon_800m_mxn_2026.",
-    "supports": [
-      "flowserve_torreon_800m_mxn_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "flowserve_torreon_800m_mxn_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "china_embassy_grenada_mbia_20250521",
     "type": "government",
     "chicago": "Embassy of the People’s Republic of China in Grenada. “Ambassador Wei Attended the Completion and Handover Ceremony of Maurice Bishop International Airport Upgrade Project.” 21 May 2025.",
@@ -11746,24 +11548,6 @@
     ]
   },
   {
-    "id": "dfc_vtal_q1fy2025_20250102",
-    "type": "government",
-    "chicago": "U.S. International Development Finance Corporation. “DFC Approves 22 Transactions Totaling Nearly $3 Billion in Q1 of FY2025.” 2 January 2025.",
-    "url": "https://www.dfc.gov/media/press-releases/dfc-approves-22-transactions-totaling-nearly-3-billion-q1-fy2025",
-    "annotation": "DFC up to USD 150m loan + up to USD 480m guaranty for V.tal Brazil fiber CAPEX. Supports dfc_vtal_fiber_brazil_2024.",
-    "supports": [
-      "dfc_vtal_fiber_brazil_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "dfc_vtal_fiber_brazil_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "nadbank_engen_400m_20260413",
     "type": "government",
     "chicago": "North American Development Bank. “NADBank provides MX$400-million loan to Engen Capital to boost acquisition of energy-efficient industrial and transportation equipment along the U.S. Mexico border.” 13 April 2026.",
@@ -11776,42 +11560,6 @@
     "map_supports": [
       "hunt_infra_engineering_epc",
       "nadbank_engen_capital_400m_mxn_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "elpais_cloudhq_queretaro_20250925",
-    "type": "press",
-    "chicago": "Garrido, Verónica M. “CloudHQ invierte 4.800 millones de dólares en un centro de datos en Querétaro.” El País México, 25 September 2025.",
-    "url": "https://elpais.com/mexico/2025-09-25/cloudhq-invierte-4800-millones-de-dolares-en-un-centro-de-datos-en-queretaro.html",
-    "annotation": "UNVERIFIED proxy for CloudHQ Querétaro six-data-center campus CapEx USD 4.8bn. Supports cloudhq_queretaro_campus_4p8bn_2025.",
-    "supports": [
-      "cloudhq_queretaro_campus_4p8bn_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "cloudhq_queretaro_campus_4p8bn_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "cummins_cdbs_monterrey_20241003",
-    "type": "company",
-    "chicago": "Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.” 3 October 2024.",
-    "url": "https://www.cummins.com/en-ame/news/2024/10/03/cdbsinvestments-boost-productioncapacity-",
-    "annotation": "Cummins Monterrey air-disc-brake capacity CapEx USD 33m (install 2H 2025). Supports cummins_monterrey_adb_33m_2024.",
-    "supports": [
-      "cummins_monterrey_adb_33m_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "cummins_monterrey_adb_33m_2024",
-      "hunt_infra_engineering_epc"
     ],
     "layers": [
       "infrastructure"
@@ -11854,24 +11602,6 @@
     ]
   },
   {
-    "id": "camacari_byd_inauguration_20251008",
-    "type": "government",
-    "chicago": "Prefeitura de Camaçari. “Fábrica da BYD em Camaçari será inaugurada nesta quinta-feira.” 8 October 2025.",
-    "url": "https://www.camacari.ba.gov.br/fabrica-da-byd-em-camacari-sera-inaugurada-nesta-quinta-feira/",
-    "annotation": "UNVERIFIED proxy for BYD Camaçari EV complex CapEx ~R$5.5bn; 150k vehicles/yr phase 1. Supports byd_camacari_ev_complex_5p5bn_2025.",
-    "supports": [
-      "byd_camacari_ev_complex_5p5bn_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "byd_camacari_ev_complex_5p5bn_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "ceec_brasil_coremas_2025",
     "type": "company",
     "chicago": "CEEC Brasil. “China Energy adquire usinas fotovoltaicas na Paraíba, e marca entrada no mercado de energias renováveis no Brasil.” November 2025.",
@@ -11887,24 +11617,6 @@
     ],
     "layers": [
       "energy"
-    ]
-  },
-  {
-    "id": "cummins_cdbs_monterrey_logistics_20241003",
-    "type": "company",
-    "chicago": "Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.” 3 October 2024.",
-    "url": "https://www.cummins.com/en-ame/news/2024/10/03/cdbsinvestments-boost-productioncapacity-",
-    "annotation": "Cummins Monterrey Logistics Center CapEx USD 30m (WMS). Supports cummins_monterrey_logistics_30m_2024.",
-    "supports": [
-      "cummins_monterrey_logistics_30m_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "cummins_monterrey_logistics_30m_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
     ]
   },
   {
@@ -12034,114 +11746,6 @@
     ]
   },
   {
-    "id": "chevrolet_gm_brazil_3p5bn_20260624",
-    "type": "company",
-    "chicago": "General Motors / Chevrolet Brasil. “GM amplia investimentos no Brasil e eleva plano para R$ 10,5 bilhões até 2028.” 24 June 2026.",
-    "url": "https://news.chevrolet.com.br/newsroom.detail.html/Pages/news/br/pt/2026/jun/0624-GM-amplia-investimentos-Brasil.html",
-    "annotation": "GM additional Brazil industrial CapEx R$3.5bn (São Paulo ops; hybrids/factory modernization). Supports gm_brazil_additional_3p5bn_brl_2026.",
-    "supports": [
-      "gm_brazil_additional_3p5bn_brl_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "gm_brazil_additional_3p5bn_brl_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "dfc_serra_verde_pela_ema_2025",
-    "type": "government",
-    "chicago": "U.S. International Development Finance Corporation. “DFC Highlights Landmark Critical Minerals Investments to Strengthen U.S. National Security During State Department Ministerial.” 2025.",
-    "url": "https://www.dfc.gov/media/press-releases/dfc-highlights-landmark-critical-minerals-investments-strengthen-us-national",
-    "annotation": "DFC USD 565m loan to SVRE Holdings for Serra Verde / Pela Ema rare-earth mine (Goiás). Supports dfc_serra_verde_pela_ema_565m_2025.",
-    "supports": [
-      "dfc_serra_verde_pela_ema_565m_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "dfc_serra_verde_pela_ema_565m_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "eleconomista_abbott_queretaro_20260123",
-    "type": "press",
-    "chicago": "El Economista. “Abbott inaugura su planta de manufactura de electrofisiología en Querétaro.” 23 January 2026.",
-    "url": "https://www.eleconomista.com.mx/estados/abbott-inaugura-planta-manufactura-electrofisiologia-queretaro-20260123-796776.html",
-    "annotation": "UNVERIFIED proxy for Abbott Querétaro electrophysiology plant CapEx USD 200m. Supports abbott_queretaro_ep_plant_200m_2026.",
-    "supports": [
-      "abbott_queretaro_ep_plant_200m_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "abbott_queretaro_ep_plant_200m_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "dfc_tembici_equity_2023",
-    "type": "government",
-    "chicago": "U.S. International Development Finance Corporation. “DFC and IDB Invest Partner With Tembici to Scale Up Urban Electric Bike-Sharing Services in Latin America.” December 2023.",
-    "url": "https://www.dfc.gov/media/press-releases/dfc-and-idb-invest-partner-tembici-scale-urban-electric-bike-sharing-services",
-    "annotation": "DFC USD 15m equity in Tembici; Manaus e-bike assembly plant expansion. Supports dfc_tembici_15m_equity_2023.",
-    "supports": [
-      "dfc_tembici_15m_equity_2023",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "dfc_tembici_15m_equity_2023",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "extra_gwm_iracemapolis_20250815",
-    "type": "press",
-    "chicago": "Sorima Neto, João. “Chinesa GWM inicia hoje produção de veículos eletrificados no Brasil.” Extra (Globo), 15 August 2025.",
-    "url": "https://extra.globo.com/economia/noticia/2025/08/chinesa-gwm-inicia-hoje-producao-de-veiculos-eletrificados-no-brasil.ghtml",
-    "annotation": "UNVERIFIED proxy for GWM Iracemápolis phase-1 Brazil CapEx R$4bn through 2026. Supports gwm_iracemapolis_4bn_brl_2025.",
-    "supports": [
-      "gwm_iracemapolis_4bn_brl_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "gwm_iracemapolis_4bn_brl_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "equinox_cmoc_brazil_sale_20260123",
-    "type": "company",
-    "chicago": "Equinox Gold Corp. “Equinox Gold Completes Sale of Brazil Operations for Total Cash Consideration of US$1.015 Billion.” 23 January 2026.",
-    "url": "https://www.equinoxgold.com/news/equinox-gold-completes-sale-of-brazil-operations-for-total-cash-consideration-of-us1-015-billionpays-down-more-than-us800-million-of-debt-with-net-debt-reduced-to-us150-million/",
-    "annotation": "CMOC Group acquires Equinox Brazil mines (Aurizona/RDM/Bahia) up to USD 1.015bn. Supports cmoc_equinox_brazil_gold_1p015bn_2026.",
-    "supports": [
-      "cmoc_equinox_brazil_gold_1p015bn_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "cmoc_equinox_brazil_gold_1p015bn_2026",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "enel_csgi_peru_distribution_close_20240612",
     "type": "company",
     "chicago": "Enel S.p.A. “Enel: finalized agreement signed in April 2023 relating to distribution assets in Peru.” 12 June 2024.",
@@ -12156,24 +11760,6 @@
     ],
     "layers": [
       "energy"
-    ]
-  },
-  {
-    "id": "parana_geely_renault_3p8bn_20251118",
-    "type": "government",
-    "chicago": "Paraná. Vice-Governadoria. “Renault e Geely se unem para investir R$ 3,8 bilhões em novo ciclo automotivo no Paraná.” 18 November 2025.",
-    "url": "https://www.vicegovernadoria.pr.gov.br/Noticia/Renault-e-Geely-se-unem-para-investir-R-38-bilhoes-em-novo-ciclo-automotivo-no-Parana",
-    "annotation": "Renault–Geely São José dos Pinhais plant partnership CapEx R$3.8bn. Supports geely_renault_brasil_3p8bn_brl_2025.",
-    "supports": [
-      "geely_renault_brasil_3p8bn_brl_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "geely_renault_brasil_3p8bn_brl_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
     ]
   }
 ]
