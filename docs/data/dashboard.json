@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1091,
+    "n_rows": 1097,
     "counts": {
-      "total": 1091,
-      "active": 893,
+      "total": 1097,
+      "active": 899,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 157,
       "exclude": 18,
-      "documented": 862,
-      "on_map": 875
+      "documented": 868,
+      "on_map": 881
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 127,
-        "prc": 109,
+        "prc": 110,
         "allied": 94,
-        "n": 330
+        "n": 331
       },
       "usd": {
         "us": 8110630640.119999,
@@ -128,14 +128,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 59,
+        "us": 61,
         "prc": 54,
         "allied": 112,
-        "n": 225
+        "n": 227
       },
       "usd": {
-        "us": 24859802296.0,
-        "us_n": 28,
+        "us": 25359802296.0,
+        "us_n": 29,
         "prc": 13513272882.0,
         "prc_n": 28,
         "allied": 39952458653.2,
@@ -151,14 +151,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 109,
-        "prc": 144,
+        "us": 111,
+        "prc": 145,
         "allied": 83,
-        "n": 336
+        "n": 339
       },
       "usd": {
-        "us": 11511785515.13,
-        "us_n": 31,
+        "us": 11811785515.13,
+        "us_n": 32,
         "prc": 5778017778.25,
         "prc_n": 22,
         "allied": 6601418889.2300005,
@@ -176,10 +176,10 @@
     {
       "country": "Antigua and Barbuda",
       "counts": {
-        "us": 0,
+        "us": 1,
         "prc": 0,
         "allied": 1,
-        "n": 1
+        "n": 2
       },
       "usd": {
         "us": 0.0,
@@ -194,6 +194,11 @@
           "us": 0,
           "prc": 0,
           "allied": 1
+        },
+        "resources": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
         }
       }
     },
@@ -263,14 +268,14 @@
     {
       "country": "Barbados",
       "counts": {
-        "us": 0,
+        "us": 1,
         "prc": 2,
         "allied": 1,
-        "n": 3
+        "n": 4
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 500000000.0,
+        "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -283,7 +288,7 @@
           "allied": 1
         },
         "resources": {
-          "us": 0,
+          "us": 1,
           "prc": 2,
           "allied": 0
         }
@@ -487,9 +492,9 @@
       "country": "Cuba",
       "counts": {
         "us": 8,
-        "prc": 1,
+        "prc": 2,
         "allied": 1,
-        "n": 10
+        "n": 11
       },
       "usd": {
         "us": 301234554.63,
@@ -502,7 +507,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 1
         },
         "infrastructure": {
@@ -521,9 +526,9 @@
       "country": "Dominica",
       "counts": {
         "us": 2,
-        "prc": 0,
+        "prc": 1,
         "allied": 0,
-        "n": 2
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -537,6 +542,11 @@
         "energy": {
           "us": 2,
           "prc": 0,
+          "allied": 0
+        },
+        "infrastructure": {
+          "us": 0,
+          "prc": 1,
           "allied": 0
         }
       }
@@ -883,10 +893,10 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 4,
         "allied": 6,
-        "n": 14
+        "n": 15
       },
       "usd": {
         "us": 73180242.32,
@@ -898,7 +908,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 0,
+          "us": 1,
           "prc": 1,
           "allied": 1
         },
@@ -964,6 +974,30 @@
           "us": 7,
           "prc": 14,
           "allied": 7
+        }
+      }
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "counts": {
+        "us": 1,
+        "prc": 0,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 300000000.0,
+        "us_n": 1,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
         }
       }
     },
@@ -1976,7 +2010,13 @@
       "aes_andes_solar_iia_81mw_cod_2021",
       "aes_andes_gecelca_438gwh_ppa_2021",
       "powerchina_malabar_wwtp_trinidad_2019",
-      "crec_espino_highway_bolivia_2023"
+      "crec_espino_highway_bolivia_2023",
+      "seven_seas_ffryes_antigua_1migd_2025",
+      "exim_saint_kitts_mou_300m_2024",
+      "exim_barbados_mou_500m_2024",
+      "aes_panama_corotu_10mw_2025",
+      "crec5_dominica_intl_airport_wesley_2024",
+      "shanghai_electric_castillo_agramonte_cuba_5mw_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -15683,5 +15683,100 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "seven_seas_ffryes_antigua_20250325",
+    "type": "company",
+    "chicago": "Seven Seas Water Group. “Seven Seas Water Group and APUA Deliver Ffryes Beach Desalination Plant in Record Time.” March 25, 2025. https://sevenseaswater.com/ffryes-beach-desalination-plant-delivered/.",
+    "url": "https://sevenseaswater.com/ffryes-beach-desalination-plant-delivered/",
+    "annotation": "Seven Seas primary: Ffryes Beach Antigua 1 IMGD SWRO opening. Supports seven_seas_ffryes_antigua_1migd_2025.",
+    "supports": [
+      "seven_seas_ffryes_antigua_1migd_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "seven_seas_ffryes_antigua_1migd_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "exim_barbados_skn_mou_20241125",
+    "type": "official",
+    "chicago": "Export-Import Bank of the United States. “Export-Import Bank of the U.S. Signs $800 Million Memoranda of Understanding with Barbados and Saint Kitts and Nevis Governments to Support Strategic Investments.” November 25, 2024. https://www.exim.gov/news/export-import-bank-signs-800-million-memoranda-understanding-barbados-and-saint-kitts-and.",
+    "url": "https://www.exim.gov/news/export-import-bank-signs-800-million-memoranda-understanding-barbados-and-saint-kitts-and",
+    "annotation": "EXIM primary: Barbados MOU up to USD 500m (incl. water and sanitation). Supports exim_barbados_mou_500m_2024; exim_saint_kitts_mou_300m_2024.",
+    "supports": [
+      "exim_saint_kitts_mou_300m_2024",
+      "hunt_energy_other_renewables",
+      "exim_barbados_mou_500m_2024",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "exim_barbados_mou_500m_2024",
+      "exim_saint_kitts_mou_300m_2024",
+      "hunt_energy_other_renewables",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources",
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_q2_2026_fact_sheet",
+    "type": "company",
+    "chicago": "AES Corporation. “Q2 2026 Fact Sheet.” August 7, 2026. https://www.aes.com/sites/vault/files/2026-08/08-07-26%20Q2%202026%20Fact%20Sheet_FINAL.pdf.",
+    "url": "https://www.aes.com/sites/vault/files/2026-08/08-07-26%20Q2%202026%20Fact%20Sheet_FINAL.pdf",
+    "annotation": "AES Q2 2026 fact sheet: Corotú Panama 10 MW COD year 2025. Supports aes_panama_corotu_10mw_2025.",
+    "supports": [
+      "aes_panama_corotu_10mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_panama_corotu_10mw_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mfa_crec5_dominica_airport_20240808",
+    "type": "official",
+    "chicago": "Ministry of Foreign Affairs of the People’s Republic of China. “Chinese Ambassador to Dominica Chu Maoming Inspects International Airport Project.” August 8, 2024. https://www.fmprc.gov.cn/mfa_eng/xw/zwbd/202408/t20240812_11471253.html.",
+    "url": "https://www.fmprc.gov.cn/mfa_eng/xw/zwbd/202408/t20240812_11471253.html",
+    "annotation": "PRC MFA: CR5 constructs Dominica International Airport at Wesley. Supports crec5_dominica_intl_airport_wesley_2024.",
+    "supports": [
+      "crec5_dominica_intl_airport_wesley_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "crec5_dominica_intl_airport_wesley_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "acn_castillo_agramonte_cuba_20260430",
+    "type": "official",
+    "chicago": "Agencia Cubana de Noticias. “Inauguran en Ciego de Ávila primer parque solar con baterías.” April 30, 2026. https://www.acn.cu/economia/inauguran-en-ciego-de-avila-primer-parque-solar-con-baterias.",
+    "url": "https://www.acn.cu/economia/inauguran-en-ciego-de-avila-primer-parque-solar-con-baterias",
+    "annotation": "ACN: Castillo Agramonte 5 MW + 1 MW BESS; Shanghai Electric / PRC 120 MW donation phase 2. Supports shanghai_electric_castillo_agramonte_cuba_5mw_2026.",
+    "supports": [
+      "shanghai_electric_castillo_agramonte_cuba_5mw_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "shanghai_electric_castillo_agramonte_cuba_5mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
