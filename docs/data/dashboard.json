@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1021,
+    "n_rows": 1025,
     "counts": {
-      "total": 1021,
-      "active": 823,
+      "total": 1025,
+      "active": 827,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 794,
-      "on_map": 805
+      "documented": 798,
+      "on_map": 809
     }
   },
   "layer_readouts": [
@@ -151,14 +151,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 85,
-        "prc": 116,
+        "us": 86,
+        "prc": 119,
         "allied": 74,
-        "n": 275
+        "n": 279
       },
       "usd": {
-        "us": 11743785515.13,
-        "us_n": 24,
+        "us": 11837785515.13,
+        "us_n": 25,
         "prc": 4859083950.25,
         "prc_n": 18,
         "allied": 5368418889.2300005,
@@ -356,9 +356,9 @@
       "country": "Brazil",
       "counts": {
         "us": 77,
-        "prc": 70,
+        "prc": 71,
         "allied": 106,
-        "n": 253
+        "n": 254
       },
       "usd": {
         "us": 2565038918.5499997,
@@ -371,7 +371,7 @@
       "by_layer": {
         "energy": {
           "us": 14,
-          "prc": 39,
+          "prc": 40,
           "allied": 25
         },
         "infrastructure": {
@@ -424,9 +424,9 @@
       "country": "Colombia",
       "counts": {
         "us": 9,
-        "prc": 17,
+        "prc": 18,
         "allied": 11,
-        "n": 37
+        "n": 38
       },
       "usd": {
         "us": 250706908.27,
@@ -439,7 +439,7 @@
       "by_layer": {
         "energy": {
           "us": 6,
-          "prc": 12,
+          "prc": 13,
           "allied": 3
         },
         "infrastructure": {
@@ -544,14 +544,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 5,
+        "us": 6,
         "prc": 2,
         "allied": 7,
-        "n": 14
+        "n": 15
       },
       "usd": {
-        "us": 150934461.57,
-        "us_n": 1,
+        "us": 244934461.57,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -559,7 +559,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 4,
+          "us": 5,
           "prc": 0,
           "allied": 3
         },
@@ -937,9 +937,9 @@
       "country": "Peru",
       "counts": {
         "us": 13,
-        "prc": 37,
+        "prc": 38,
         "allied": 25,
-        "n": 75
+        "n": 76
       },
       "usd": {
         "us": 5747000000.0,
@@ -952,7 +952,7 @@
       "by_layer": {
         "energy": {
           "us": 3,
-          "prc": 5,
+          "prc": 6,
           "allied": 6
         },
         "infrastructure": {
@@ -1896,7 +1896,11 @@
       "nfe_ute_lins2_brazil_2031",
       "zijin_longking_rosebel_p2_suriname_150m_2026",
       "zijin_longking_aurora_ug_guyana_55p24m_2026",
-      "zijin_longking_aurora_conc_p3_guyana_26p62m_2026"
+      "zijin_longking_aurora_conc_p3_guyana_26p62m_2026",
+      "longi_sol_de_verano1_peru_53p2mw_2025",
+      "longi_petalo_norte_colombia_19p9mw_2025",
+      "aes_dr_bess_138mw_94m_2025",
+      "ctg_arinos_solar_full_cod_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 136
+cycle: 137
 remote: present
 active_layer: energy
-active_subcategory: power_plants_grid
-next_query: Cycle 137 shuffle_seed=20261137; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us269/prc273/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 4 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories.
-next_row_id: (follow cycle-137 shuffled_order)
+active_subcategory: solar
+next_query: Cycle 138 shuffle_seed=20261138; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us270/prc276/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 6 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories.
+next_row_id: (follow cycle-138 shuffled_order)
 dry_streak: 0
+
+# === Cycle 137 (seed 20261137) ===
+# Shuffled order: solar, port_cranes, lithium, rail, wind, nickel, balsa,
+#   power_plants_grid, graphite, building_materials, other_renewables, copper,
+#   water, engineering_epc, niobium, fission_smr, port_ownership, bridges_roads.
+# Logged 4 sourced rows (1 US / 3 PRC; thin dry; no padding):
+#   prc solar: longi_sol_de_verano1_peru_53p2mw_2025 (Hi-MO 9 53.2 MW Majes; CapEx blank).
+#   prc solar: longi_petalo_norte_colombia_19p9mw_2025 (Hi-MO 7 19.9 MW La Esperanza; CapEx blank).
+#   us other_renewables: aes_dr_bess_138mw_94m_2025 (138.1 MW BESS NTP Dec 2025; USD 94m).
+#   prc solar: ctg_arinos_solar_full_cod_2025 (Arinos MG full COD 2025; CapEx blank).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: port_cranes, lithium, rail, wind, nickel, balsa,
+#   power_plants_grid, graphite, building_materials, copper, water,
+#   engineering_epc, niobium, fission_smr, port_ownership, bridges_roads.
+# Dense already-logged: ZPMC Santos/Itapoá/Aguadulce/ICAVE; PowerChina Conchagua;
+#   Goldwind SPIC Touros; CHEC Kingston yard; BYD Grenergy; CRCC Batuco; Nextracker.
+# Active after cycle 137: us270 / prc276 / allied243 / other38 (n=827).
+shuffle_seed: 20261137
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/solar
+- infrastructure/port_cranes
+- resources/lithium
+- infrastructure/rail
+- energy/wind
+- resources/nickel
+- resources/balsa
+- energy/power_plants_grid
+- resources/graphite
+- infrastructure/building_materials
+- energy/other_renewables
+- resources/copper
+- resources/water
+- infrastructure/engineering_epc
+- resources/niobium
+- energy/fission_smr
+- infrastructure/port_ownership
+- infrastructure/bridges_roads
+rows_found_this_cycle:
+  energy/solar: 3
+  infrastructure/port_cranes: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  energy/wind: 0
+  resources/nickel: 0
+  resources/balsa: 0
+  energy/power_plants_grid: 0
+  resources/graphite: 0
+  infrastructure/building_materials: 0
+  energy/other_renewables: 1
+  resources/copper: 0
+  resources/water: 0
+  infrastructure/engineering_epc: 0
+  resources/niobium: 0
+  energy/fission_smr: 0
+  infrastructure/port_ownership: 0
+  infrastructure/bridges_roads: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 136 (seed 20261136) ===
 # Shuffled order: bridges_roads, other_renewables, engineering_epc, graphite,
