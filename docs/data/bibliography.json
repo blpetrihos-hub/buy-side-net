@@ -15730,13 +15730,15 @@
     "type": "company",
     "chicago": "AES Corporation. “Q2 2026 Fact Sheet.” August 7, 2026. https://www.aes.com/sites/vault/files/2026-08/08-07-26%20Q2%202026%20Fact%20Sheet_FINAL.pdf.",
     "url": "https://www.aes.com/sites/vault/files/2026-08/08-07-26%20Q2%202026%20Fact%20Sheet_FINAL.pdf",
-    "annotation": "AES Q2 2026 fact sheet: Corotú Panama 10 MW COD year 2025. Supports aes_panama_corotu_10mw_2025.",
+    "annotation": "AES Q2 2026 fact sheet: Los Santos Panama 8 MW COD year 2025. Supports aes_panama_los_santos_8mw_2025; aes_panama_corotu_10mw_2025.",
     "supports": [
       "aes_panama_corotu_10mw_2025",
-      "hunt_energy_solar"
+      "hunt_energy_solar",
+      "aes_panama_los_santos_8mw_2025"
     ],
     "map_supports": [
       "aes_panama_corotu_10mw_2025",
+      "aes_panama_los_santos_8mw_2025",
       "hunt_energy_solar"
     ],
     "layers": [
@@ -15774,6 +15776,96 @@
     "map_supports": [
       "hunt_energy_solar",
       "shanghai_electric_castillo_agramonte_cuba_5mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "konecranes_kingstown_esp7_20240814",
+    "type": "company",
+    "chicago": "Konecranes. “Caribbean port extends capacity with Konecranes Gottwald Generation 6 Mobile Harbor Crane.” August 14, 2024. https://www.konecranes.com/press-releases/caribbean-port-extends-capacity-with-konecranes-gottwald-generation-6-mobile-harbor-crane.",
+    "url": "https://www.konecranes.com/press-releases/caribbean-port-extends-capacity-with-konecranes-gottwald-generation-6-mobile-harbor-crane",
+    "annotation": "Konecranes primary: SVGPA ESP.7 order for Port of Kingstown. Supports konecranes_kingstown_esp7_svg_2024.",
+    "supports": [
+      "konecranes_kingstown_esp7_svg_2024",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "konecranes_kingstown_esp7_svg_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "liwathon_exim_bos_bahamas_20231016",
+    "type": "company",
+    "chicago": "Liwathon Group. “Liwathon Receives Loan Guarantee from EXIM for the Relaunch of Liwathon B.O.S. Terminal in Bahamas.” October 16, 2023. https://www.liwathon.com/post/liwathon-receives-loan-guarantee-from-exim-for-the-relaunch-of-liwathon-b-o-s-terminal-in-bahamas.",
+    "url": "https://www.liwathon.com/post/liwathon-receives-loan-guarantee-from-exim-for-the-relaunch-of-liwathon-b-o-s-terminal-in-bahamas",
+    "annotation": "Liwathon primary: EXIM >USD 71.3m guarantee for South Riding Point terminal. Supports exim_liwathon_bos_bahamas_71p3m_2023.",
+    "supports": [
+      "exim_liwathon_bos_bahamas_71p3m_2023",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "exim_liwathon_bos_bahamas_71p3m_2023",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "exim_trinidad_mou_20240620",
+    "type": "official",
+    "chicago": "Export-Import Bank of the United States. “Export-Import Bank of the U.S. Chair Lewis Signs $500 Million Memorandum of Understanding with the Republic of Trinidad & Tobago.” June 20, 2024. https://www.exim.gov/news/export-import-bank-chair-lewis-signs-500-million-memorandum-understanding-republic-trinidad.",
+    "url": "https://www.exim.gov/news/export-import-bank-chair-lewis-signs-500-million-memorandum-understanding-republic-trinidad",
+    "annotation": "EXIM primary: Trinidad and Tobago MOU USD 500m (incl. water sanitation). Supports exim_trinidad_mou_500m_2024.",
+    "supports": [
+      "exim_trinidad_mou_500m_2024",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "exim_trinidad_mou_500m_2024",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "radiorebelde_martires_barbados_ii_20251112",
+    "type": "official",
+    "chicago": "Radio Rebelde. “Díaz-Canel inaugura parque solar, fruto de la Comunidad de Futuro Compartido con China.” November 12, 2025. https://www.radiorebelde.cu/diaz-canel-inaugura-parque-solar-fruto-de-la-comunidad-de-futuro-compartido-con-china-12112025/.",
+    "url": "https://www.radiorebelde.cu/diaz-canel-inaugura-parque-solar-fruto-de-la-comunidad-de-futuro-compartido-con-china-12112025/",
+    "annotation": "Radio Rebelde: Mártires de Barbados II closes PRC 35 MW first-stage donation. Supports china_cuba_martires_barbados_ii_5mw_2025.",
+    "supports": [
+      "china_cuba_martires_barbados_ii_5mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "china_cuba_martires_barbados_ii_5mw_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "powerchina_kajana_guyaba_20260518",
+    "type": "company",
+    "chicago": "POWERCHINA. “Suriname's president attends micro-grid solar project commissioning ceremony.” May 18, 2026. https://en.powerchina.cn/2026-05/18/c_829069.htm.",
+    "url": "https://en.powerchina.cn/2026-05/18/c_829069.htm",
+    "annotation": "POWERCHINA primary: Kajana (Site 3) and Guyaba (Site 9) Phase II COD. Supports powerchina_kajana_guyaba_suriname_2026.",
+    "supports": [
+      "powerchina_kajana_guyaba_suriname_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_kajana_guyaba_suriname_2026"
     ],
     "layers": [
       "energy"
