@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 926,
+    "n_rows": 932,
     "counts": {
-      "total": 926,
-      "active": 834,
+      "total": 932,
+      "active": 840,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 701,
-      "on_map": 818
+      "documented": 707,
+      "on_map": 824
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 150,
+        "us": 156,
         "prc": 97,
         "allied": 95,
-        "n": 342
+        "n": 348
       },
       "usd": {
-        "us": 8434972475.119999,
-        "us_n": 82,
+        "us": 8770563351.179998,
+        "us_n": 88,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -903,14 +903,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 75,
+        "us": 81,
         "prc": 0,
         "allied": 8,
-        "n": 83
+        "n": 89
       },
       "usd": {
-        "us": 6674866824.990003,
-        "us_n": 73,
+        "us": 7010457701.050003,
+        "us_n": 79,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -923,7 +923,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 45,
+          "us": 51,
           "prc": 0,
           "allied": 4
         },
@@ -1874,7 +1874,13 @@
       "melendez_coamo_branch4_2017",
       "lpcd_caguas_branch3_2017",
       "santiago_utuado_branch2_2017",
-      "lagan_vieques_roads_2007"
+      "lagan_vieques_roads_2007",
+      "jose_carro_arecibo_branch2_2017",
+      "del_valle_mercedita_branch4_2017",
+      "desarrolladora_ja_ciales_branch4_2017",
+      "ch2m_uscg_frc_san_juan_2012",
+      "tutor_perini_uscg_frc_p2_2013",
+      "contractor_jv_prarng_jtc_2022"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -1,11 +1,80 @@
 updated: 2026-10-02
-cycle: 120
+cycle: 121
 remote: present
 active_layer: infrastructure
-active_subcategory: bridges_roads
-next_query: Cycle 121 shuffle_seed=20261121; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us315/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. FHWA ≥$2.5m named/FEMA-branch residual largely logged; OEM/regulator sweep for PRC.
-next_row_id: (follow cycle-121 shuffled_order)
+active_subcategory: engineering_epc
+next_query: Cycle 122 shuffle_seed=20261122; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us321/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Named FHWA Branch residual closed; USCG FRC + PRARNG MILCON logged; continue USACE/USCG/OEM residual + PRC regulator pass.
+next_row_id: (follow cycle-122 shuffled_order)
 dry_streak: 0
+
+# === Cycle 121 (seed 20261121) ===
+# Shuffled order: building_materials, bridges_roads, wind, niobium, graphite,
+#   lithium, fission_smr, rail, port_ownership, balsa, solar, port_cranes,
+#   nickel, water, other_renewables, copper, engineering_epc, power_plants_grid.
+# Logged 6 sourced rows (honest US residual; thin dry; PRC OEM pass
+#   product/summit-only; no padding):
+#   us bridges_roads: jose_carro_arecibo_branch2_2017 (USD 5.9m FHWA).
+#   us bridges_roads: del_valle_mercedita_branch4_2017 (USD 5.1m FHWA).
+#   us bridges_roads: desarrolladora_ja_ciales_branch4_2017 (USD 4.3m FHWA).
+#   us engineering_epc: ch2m_uscg_frc_san_juan_2012 (USD 18.7m USCG).
+#   us engineering_epc: tutor_perini_uscg_frc_p2_2013 (USD 7.5m USCG).
+#   us engineering_epc: contractor_jv_prarng_jtc_2022 (USD 294.1m USACE MILCON).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: building_materials, wind, niobium, graphite, lithium,
+#   fission_smr, rail, port_ownership, balsa, solar, port_cranes, nickel, water,
+#   other_renewables, copper, power_plants_grid.
+# Active after cycle 121: us321 / prc239 / allied243 / other37 (n=840).
+shuffle_seed: 20261121
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- infrastructure/bridges_roads
+- energy/wind
+- resources/niobium
+- resources/graphite
+- resources/lithium
+- energy/fission_smr
+- infrastructure/rail
+- infrastructure/port_ownership
+- resources/balsa
+- energy/solar
+- infrastructure/port_cranes
+- resources/nickel
+- resources/water
+- energy/other_renewables
+- resources/copper
+- infrastructure/engineering_epc
+- energy/power_plants_grid
+rows_found_this_cycle:
+  infrastructure/building_materials: 0
+  infrastructure/bridges_roads: 3
+  energy/wind: 0
+  resources/niobium: 0
+  resources/graphite: 0
+  resources/lithium: 0
+  energy/fission_smr: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  resources/balsa: 0
+  energy/solar: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  resources/water: 0
+  energy/other_renewables: 0
+  resources/copper: 0
+  infrastructure/engineering_epc: 3
+  energy/power_plants_grid: 0
+rows_by_side_this_cycle:
+  us: 6
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 120 (seed 20261120) ===
 # Shuffled order: port_ownership, other_renewables, wind, engineering_epc,
