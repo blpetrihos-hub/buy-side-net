@@ -8809,3 +8809,75 @@
   supports:
   - contractor_jv_prarng_jtc_2022
   - hunt_infra_engineering_epc
+- id: usaspending_dick_dams_pr_20021108
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting dick_usace_dams_pr_2002.
+    Signed 2002-11-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_DACW1703C0001_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_DACW1703C0001_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports dick_usace_dams_pr_2002.
+  supports:
+  - dick_usace_dams_pr_2002
+  - hunt_res_water
+- id: usaspending_zachry_ecuador_20050928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting zachry_ecuador_construction_2005.
+    Signed 2005-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0035_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0035_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports zachry_ecuador_construction_2005.
+  supports:
+  - zachry_ecuador_construction_2005
+  - hunt_infra_engineering_epc
+- id: usaspending_caddell_mexico_nec_20050926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting caddell_mexico_nec_2005.
+    Signed 2005-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0043_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0043_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports caddell_mexico_nec_2005.
+  supports:
+  - caddell_mexico_nec_2005
+  - hunt_infra_engineering_epc
+- id: usaspending_fluor_jamaica_20030929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting fluor_jamaica_construction_2003.
+    Signed 2003-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC03C0030_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC03C0030_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports fluor_jamaica_construction_2003.
+  supports:
+  - fluor_jamaica_construction_2003
+  - hunt_infra_engineering_epc
+- id: usaspending_vistas_porto_alegre_20150206
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting vistas_porto_alegre_consulate_2015.
+    Signed 2015-02-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0057_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0057_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports vistas_porto_alegre_consulate_2015.
+  supports:
+  - vistas_porto_alegre_consulate_2015
+  - hunt_infra_engineering_epc
+- id: usaspending_rb_buchanan_20120907
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rb_buchanan_readiness_2012.
+    Signed 2012-09-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912LR12C0005_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912LR12C0005_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports rb_buchanan_readiness_2012.
+  supports:
+  - rb_buchanan_readiness_2012
+  - hunt_infra_engineering_epc
+- id: usaspending_qb_munoz_ang_20210819
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting qb_munoz_ang_comms_2021.
+    Signed 2021-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945021C0031_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945021C0031_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports qb_munoz_ang_comms_2021.
+  supports:
+  - qb_munoz_ang_comms_2021
+  - hunt_infra_engineering_epc
+- id: usaspending_teksol_pier_echo_20250213
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting teksol_pier_echo_2025. Signed
+    2025-02-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08225CCEUM0001_7008_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08225CCEUM0001_7008_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports teksol_pier_echo_2025.
+  supports:
+  - teksol_pier_echo_2025
+  - hunt_infra_engineering_epc

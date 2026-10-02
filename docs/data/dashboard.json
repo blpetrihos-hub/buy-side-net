@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 932,
+    "n_rows": 940,
     "counts": {
-      "total": 932,
-      "active": 840,
+      "total": 940,
+      "active": 848,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 707,
-      "on_map": 824
+      "documented": 715,
+      "on_map": 831
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 156,
+        "us": 163,
         "prc": 97,
         "allied": 95,
-        "n": 348
+        "n": 355
       },
       "usd": {
-        "us": 8770563351.179998,
-        "us_n": 88,
+        "us": 9090348519.559998,
+        "us_n": 95,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 70,
+        "us": 71,
         "prc": 41,
         "allied": 109,
-        "n": 220
+        "n": 221
       },
       "usd": {
-        "us": 26444269833.52,
-        "us_n": 40,
+        "us": 26522777915.52,
+        "us_n": 41,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -298,14 +298,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 72,
+        "us": 73,
         "prc": 68,
         "allied": 105,
-        "n": 245
+        "n": 246
       },
       "usd": {
-        "us": 2520267498.1,
-        "us_n": 13,
+        "us": 2565038918.5499997,
+        "us_n": 14,
         "prc": 1312595264.55,
         "prc_n": 11,
         "allied": 4439359384.93,
@@ -318,7 +318,7 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 37,
+          "us": 38,
           "prc": 20,
           "allied": 29
         },
@@ -516,14 +516,14 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 14,
+        "us": 15,
         "prc": 12,
         "allied": 15,
-        "n": 41
+        "n": 42
       },
       "usd": {
-        "us": 375771715.81,
-        "us_n": 7,
+        "us": 449276654.14,
+        "us_n": 8,
         "prc": 2491134740.0,
         "prc_n": 6,
         "allied": 817756466.0,
@@ -536,7 +536,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 3,
           "allied": 2
         },
@@ -724,14 +724,14 @@
     {
       "country": "Jamaica",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 12,
         "allied": 1,
-        "n": 14
+        "n": 15
       },
       "usd": {
-        "us": 1055000000.0,
-        "us_n": 1,
+        "us": 1105651629.58,
+        "us_n": 2,
         "prc": 294000000.0,
         "prc_n": 2,
         "allied": 0.0,
@@ -744,7 +744,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 0,
+          "us": 1,
           "prc": 12,
           "allied": 0
         }
@@ -753,14 +753,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 29,
+        "us": 30,
         "prc": 14,
         "allied": 26,
-        "n": 69
+        "n": 70
       },
       "usd": {
-        "us": 2464735416.7400002,
-        "us_n": 18,
+        "us": 2535735416.7400002,
+        "us_n": 19,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -773,7 +773,7 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 18,
+          "us": 19,
           "prc": 10,
           "allied": 15
         },
@@ -903,14 +903,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 81,
+        "us": 85,
         "prc": 0,
         "allied": 8,
-        "n": 89
+        "n": 93
       },
       "usd": {
-        "us": 7010457701.050003,
-        "us_n": 79,
+        "us": 7168822963.0700035,
+        "us_n": 83,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -923,12 +923,12 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 51,
+          "us": 54,
           "prc": 0,
           "allied": 4
         },
         "resources": {
-          "us": 14,
+          "us": 15,
           "prc": 0,
           "allied": 0
         }
@@ -1880,7 +1880,15 @@
       "desarrolladora_ja_ciales_branch4_2017",
       "ch2m_uscg_frc_san_juan_2012",
       "tutor_perini_uscg_frc_p2_2013",
-      "contractor_jv_prarng_jtc_2022"
+      "contractor_jv_prarng_jtc_2022",
+      "dick_usace_dams_pr_2002",
+      "zachry_ecuador_construction_2005",
+      "caddell_mexico_nec_2005",
+      "fluor_jamaica_construction_2003",
+      "vistas_porto_alegre_consulate_2015",
+      "rb_buchanan_readiness_2012",
+      "qb_munoz_ang_comms_2021",
+      "teksol_pier_echo_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
