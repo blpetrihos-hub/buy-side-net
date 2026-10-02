@@ -14095,5 +14095,113 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_harbert_tegucigalpa_20180923",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0223_1900_-NONE-_-NONE- (BL Harbert International LLC; Tegucigalpa NEC). Signed 23 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0223_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0223_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 268.2m Tegucigalpa NEC. Supports bl_harbert_tegucigalpa_nec_2018.",
+    "supports": [
+      "bl_harbert_tegucigalpa_nec_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "bl_harbert_tegucigalpa_nec_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_caddell_nassau_20181228",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0026_1900_-NONE-_-NONE- (Caddell Construction Co. (DE), LLC; Nassau NEC). Signed 28 December 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0026_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0026_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 228.1m Nassau NEC. Supports caddell_nassau_nec_2018.",
+    "supports": [
+      "caddell_nassau_nec_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "caddell_nassau_nec_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_caddell_asuncion_20170131",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0082_1900_-NONE-_-NONE- (Caddell Construction Co. (DE), LLC; Asunción NEC). Signed 31 January 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0082_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0082_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 187.7m Asunción NEC. Supports caddell_asuncion_nec_2017.",
+    "supports": [
+      "caddell_asuncion_nec_2017",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "caddell_asuncion_nec_2017",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_caddell_rio_ncc_20220802",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22C0106_1900_-NONE-_-NONE- (Caddell Construction Co. (DE), LLC; Rio Consulate Compound). Signed 2 August 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0106_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0106_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 322.4m Rio Consulate Compound. Supports caddell_rio_consulate_2022.",
+    "supports": [
+      "caddell_rio_consulate_2022",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "caddell_rio_consulate_2022",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_harbert_guadalajara_20180929",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0246_1900_-NONE-_-NONE- (BL Harbert International LLC; Guadalajara NCC). Signed 29 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0246_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0246_1900_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 191.6m Guadalajara NCC. Supports bl_harbert_guadalajara_ncc_2018.",
+    "supports": [
+      "bl_harbert_guadalajara_ncc_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "bl_harbert_guadalajara_ncc_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_tutor_customs_20210114",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70B01C21F00000053_7014_70Z04718DTUTPER00_7008 (Tutor Perini Corporation; San Juan Customs House). Signed 14 January 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70B01C21F00000053_7014_70Z04718DTUTPER00_7008/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70B01C21F00000053_7014_70Z04718DTUTPER00_7008/",
+    "annotation": "USASpending primary: USD 63.6m San Juan Customs House restoration. Supports tutor_perini_sj_customs_2021.",
+    "supports": [
+      "tutor_perini_sj_customs_2021",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "tutor_perini_sj_customs_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
