@@ -9841,3 +9841,39 @@
   supports:
   - progress_rail_vli_msa_norte_500m_brl_2025
   - hunt_infra_rail
+- id: dfc_ienova_pis_9000093572
+  type: government
+  chicago: U.S. International Development Finance Corporation. “Public Information Summary — IEnova (9000093572).”
+    Accessed 2026. https://www.dfc.gov/sites/default/files/media/documents/9000093572.pdf.
+  url: https://www.dfc.gov/sites/default/files/media/documents/9000093572.pdf
+  annotation: 'DFC PIS: up to USD 241m loan for IEnova 426 MW Mexico solar package. Supports dfc_ienova_mexico_4solar_241m_2020.'
+  supports:
+  - dfc_ienova_mexico_4solar_241m_2020
+  - hunt_energy_solar
+- id: aes_andes_los_olmos_cod_202201
+  type: company
+  chicago: AES Andes. “AES Chile puts into operation Los Olmos wind farm.” January 2022. https://www.aesandes.com/es/blog/aes-chile-puts-operation-los-olmos-wind-farm.
+  url: https://www.aesandes.com/es/blog/aes-chile-puts-operation-los-olmos-wind-farm
+  annotation: 'AES Andes primary: Los Olmos 110 MW wind COD 19 Jan 2022. Supports aes_andes_los_olmos_110mw_cod_2022.'
+  supports:
+  - aes_andes_los_olmos_110mw_cod_2022
+  - hunt_energy_wind
+- id: cpnn_powerchina_las_acacias_20240927
+  type: press
+  chicago: China Electric Power News (中国电力新闻网), via Sina Finance. “中国电建签约哥伦比亚拉斯阿卡西亚斯风电项目.” September 27,
+    2024. https://finance.sina.com.cn/jjxw/2024-09-27/doc-incqqumy1612190.shtml.
+  url: https://finance.sina.com.cn/jjxw/2024-09-27/doc-incqqumy1612190.shtml
+  annotation: 'CPNN/Sina: POWERCHINA–Dewu Las Acacias 240 MW Colombia wind EPC signed 25 Sep 2024. Supports
+    powerchina_las_acacias_colombia_240mw_epc_2024.'
+  supports:
+  - powerchina_las_acacias_colombia_240mw_epc_2024
+  - hunt_energy_wind
+- id: crec_alameda_melipilla_depot_20250414
+  type: company
+  chicago: China Railway Engineering Corporation. “Construction Officially Began on Chile’s Alameda -
+    Melipilla Rail Depot Project.” April 14, 2025. https://www.crecg.com/zgztywz/cs11/10210606/2025040717013624378/index.html.
+  url: https://www.crecg.com/zgztywz/cs11/10210606/2025040717013624378/index.html
+  annotation: 'CREC primary: Alameda–Melipilla rail depot USD 90m groundbreaking. Supports crec7_alameda_melipilla_depot_90m_2025.'
+  supports:
+  - crec7_alameda_melipilla_depot_90m_2025
+  - hunt_infra_rail
