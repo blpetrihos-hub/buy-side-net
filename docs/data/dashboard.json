@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 751,
+    "n_rows": 757,
     "counts": {
-      "total": 751,
-      "active": 673,
+      "total": 757,
+      "active": 679,
       "hunt": 42,
       "archived": 58,
       "paired": 5,
       "one_sided": 27,
       "proxy": 149,
       "exclude": 5,
-      "documented": 543,
-      "on_map": 660
+      "documented": 549,
+      "on_map": 666
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 77,
-        "prc": 94,
+        "prc": 96,
         "allied": 89,
-        "n": 260
+        "n": 262
       },
       "usd": {
         "us": 2780200000.0,
@@ -129,16 +129,16 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 54,
-        "prc": 36,
+        "us": 55,
+        "prc": 37,
         "allied": 105,
-        "n": 195
+        "n": 197
       },
       "usd": {
         "us": 25807143622.0,
         "us_n": 26,
-        "prc": 7317872882.0,
-        "prc_n": 19,
+        "prc": 7476672882.0,
+        "prc_n": 20,
         "allied": 38587618653.2,
         "allied_n": 39
       },
@@ -154,16 +154,16 @@
       "counts": {
         "us": 72,
         "prc": 80,
-        "allied": 64,
-        "n": 216
+        "allied": 66,
+        "n": 218
       },
       "usd": {
         "us": 8446300000.0,
         "us_n": 17,
         "prc": 4574477608.25,
         "prc_n": 14,
-        "allied": 3521859384.9300003,
-        "allied_n": 18
+        "allied": 3871559384.9300003,
+        "allied_n": 20
       },
       "matched_gaps": {
         "n": 1,
@@ -294,23 +294,23 @@
       "country": "Chile",
       "counts": {
         "us": 31,
-        "prc": 27,
-        "allied": 43,
-        "n": 101
+        "prc": 28,
+        "allied": 44,
+        "n": 103
       },
       "usd": {
         "us": 18411000000.0,
         "us_n": 14,
-        "prc": 3458058059.0299997,
-        "prc_n": 13,
-        "allied": 9408000000.0,
-        "allied_n": 14
+        "prc": 3616858059.0299997,
+        "prc_n": 14,
+        "allied": 9578000000.0,
+        "allied_n": 15
       },
       "by_layer": {
         "energy": {
           "us": 20,
           "prc": 15,
-          "allied": 8
+          "allied": 9
         },
         "infrastructure": {
           "us": 3,
@@ -319,7 +319,7 @@
         },
         "resources": {
           "us": 8,
-          "prc": 0,
+          "prc": 1,
           "allied": 23
         }
       }
@@ -748,32 +748,32 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 10,
-        "prc": 30,
-        "allied": 20,
-        "n": 60
+        "us": 11,
+        "prc": 32,
+        "allied": 21,
+        "n": 64
       },
       "usd": {
         "us": 5635000000.0,
         "us_n": 4,
         "prc": 5955924416.0,
         "prc_n": 7,
-        "allied": 12908000000.0,
-        "allied_n": 9
+        "allied": 13087700000.0,
+        "allied_n": 10
       },
       "by_layer": {
         "energy": {
           "us": 3,
           "prc": 5,
-          "allied": 4
+          "allied": 5
         },
         "infrastructure": {
           "us": 3,
-          "prc": 16,
+          "prc": 18,
           "allied": 12
         },
         "resources": {
-          "us": 4,
+          "us": 5,
           "prc": 9,
           "allied": 4
         }
@@ -1563,7 +1563,13 @@
       "sungrow_zelestra_san_martin_peru_273mw_2025",
       "sungrow_engie_tocopilla_sc2000ud_2026",
       "powerchina_mauriti_cod_425mw_2025",
-      "corex_cerro_matoso_colombia_2025"
+      "corex_cerro_matoso_colombia_2025",
+      "fcx_cerro_verde_el_abra_renewable_ppa_2026",
+      "sinohydro_hospital_piura_3202m_pen_2025",
+      "sinohydro_hospital_la_caleta_chimbote_549m_pen_2025",
+      "chec_embalse_las_palmas_chile_158p8m_2018",
+      "zelestra_san_martin_peru_cod_179p7m_2025",
+      "engie_bess_tocopilla_cod_170m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

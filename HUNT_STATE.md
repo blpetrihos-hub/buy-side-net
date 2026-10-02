@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 86
+cycle: 87
 remote: present
 active_layer: resources
-active_subcategory: nickel
-next_query: Cycle 87 shuffle_seed=20261087; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us203/prc211/allied223); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split. If nickel/balsa/fission_smr dry, move top-up to next-thinnest.
-next_row_id: (follow cycle-87 shuffled_order)
+active_subcategory: copper
+next_query: Cycle 88 shuffle_seed=20261088; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us204/prc214/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If nickel/balsa/fission_smr dry, move top-up to next-thinnest.
+next_row_id: (follow cycle-88 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -50,6 +50,104 @@ dry_streak: 0
 # construction under building_materials; oil/gas/mining EPC tied to listed
 # resources or energy; port/airport/rail EPC.
 # Post-audit active sides before hunt: us199 / prc208 / allied222 / other36 (n=665).
+
+# Side-tag audit — cycle 87:
+# - Freeport renewable PPAs tagged us (Phoenix HQ). Sinohydro/CHEC tagged prc.
+# - Zelestra San Martín tagged allied (Spanish/EQT). ENGIE Tocopilla COD tagged allied.
+# - Thin top-up: fission_smr / balsa / graphite dry (existing dense coverage; no new
+#   distinct US/PRC rows). Spare half-budgets moved to water (CHEC Las Palmas) and
+#   building_materials (Sinohydro hospitals) rather than repeating dry thin searches.
+# - Skipped Fluor Chile copper CM (mine unnamed). Skipped Falcondo (concession
+#   termination, not investment). Skipped CNMC Taboca (tin primary — out_of_scope).
+
+shuffle_seed: 20261087
+budget_per_subcategory: 1_source_family_min
+
+shuffled_order:
+- resources/copper
+- energy/wind
+- infrastructure/bridges_roads
+- resources/lithium
+- infrastructure/engineering_epc
+- energy/solar
+- infrastructure/port_cranes
+- resources/balsa
+- resources/nickel
+- energy/other_renewables
+- infrastructure/building_materials
+- energy/power_plants_grid
+- energy/fission_smr
+- resources/water
+- infrastructure/rail
+- infrastructure/port_ownership
+- resources/niobium
+- resources/graphite
+
+rows_found_this_cycle:
+  resources/copper: 1
+  energy/wind: 0
+  infrastructure/bridges_roads: 0
+  resources/lithium: 0
+  infrastructure/engineering_epc: 0
+  energy/solar: 1
+  infrastructure/port_cranes: 0
+  resources/balsa: 0
+  resources/nickel: 0
+  energy/other_renewables: 1
+  infrastructure/building_materials: 2
+  energy/power_plants_grid: 0
+  energy/fission_smr: 0
+  resources/water: 1
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  resources/niobium: 0
+  resources/graphite: 0
+
+coverage_cumulative:
+  # Active counts after cycle 87 (status=active)
+  energy/fission_smr: 23
+  energy/other_renewables: 45
+  energy/power_plants_grid: 58
+  energy/solar: 63
+  energy/wind: 30
+  infrastructure/bridges_roads: 35
+  infrastructure/building_materials: 42
+  infrastructure/engineering_epc: 81
+  infrastructure/port_cranes: 32
+  infrastructure/port_ownership: 33
+  infrastructure/rail: 39
+  resources/balsa: 23
+  resources/copper: 31
+  resources/graphite: 23
+  resources/lithium: 34
+  resources/nickel: 24
+  resources/niobium: 26
+  resources/water: 37
+
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 2
+  other: 0
+
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - energy/fission_smr
+  - resources/balsa
+  - resources/graphite
+  # Misses: fission_smr (Meitner/CAREM/Angra/Laguna Verde/FIRST already logged);
+  #   balsa (Plantabal/Gurit/DIAB/CoreLite dense); graphite (Graphcoa/Atlas dense).
+  # Reallocated half-budgets to next workable openings: water (CHEC Las Palmas) and
+  #   building_materials second Sinohydro hospital (La Caleta), already counted above.
+
+# Cycle 87 (seed 20261087): 6 sourced rows — Freeport Cerro Verde/El Abra renewable
+#   PPAs (us copper); Sinohydro Piura hospital S/3.202bn + La Caleta Chimbote >S/549m
+#   (prc building_materials); CHEC Embalse Las Palmas USD 158.8m (prc water);
+#   Zelestra San Martín COD USD 179.7m (allied solar); ENGIE BESS Tocopilla COD
+#   USD 170m (allied other_renewables). Honest US/PRC imbalance (1/3); no padding.
+# Active after cycle 87: us204 / prc214 / allied225 / other36 (n=679).
+
 
 # Side-tag audit — cycle 86:
 # - Fenix Nickel tagged us (New York LLC HQ). Weatherford / EXIM / McDermott tagged us.
