@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1114,
+    "n_rows": 1119,
     "counts": {
-      "total": 1114,
-      "active": 916,
+      "total": 1119,
+      "active": 921,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 158,
       "exclude": 18,
-      "documented": 884,
-      "on_map": 898
+      "documented": 889,
+      "on_map": 903
     }
   },
   "layer_readouts": [
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 117,
-        "prc": 148,
+        "us": 119,
+        "prc": 151,
         "allied": 83,
-        "n": 348
+        "n": 353
       },
       "usd": {
         "us": 11826585515.13,
@@ -589,9 +589,9 @@
       "country": "Ecuador",
       "counts": {
         "us": 15,
-        "prc": 12,
+        "prc": 13,
         "allied": 15,
-        "n": 42
+        "n": 43
       },
       "usd": {
         "us": 449276654.14,
@@ -604,7 +604,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 1,
+          "prc": 2,
           "allied": 3
         },
         "infrastructure": {
@@ -622,10 +622,10 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 10,
+        "us": 12,
         "prc": 2,
         "allied": 2,
-        "n": 14
+        "n": 16
       },
       "usd": {
         "us": 56800833.989999995,
@@ -637,7 +637,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 9,
+          "us": 11,
           "prc": 1,
           "allied": 1
         },
@@ -773,9 +773,9 @@
       "country": "Honduras",
       "counts": {
         "us": 9,
-        "prc": 2,
+        "prc": 4,
         "allied": 1,
-        "n": 12
+        "n": 14
       },
       "usd": {
         "us": 429614829.68000007,
@@ -788,7 +788,7 @@
       "by_layer": {
         "energy": {
           "us": 2,
-          "prc": 2,
+          "prc": 4,
           "allied": 0
         },
         "infrastructure": {
@@ -2062,7 +2062,12 @@
       "aes_panama_penonome_i_55mw_2020",
       "powerchina_el_sillar_bolivia_2023",
       "ormat_platanares_honduras_35mw",
-      "aes_holcim_el_ronco_21p4mw_2023"
+      "aes_holcim_el_ronco_21p4mw_2023",
+      "powerchina_patuca_iii_honduras_104mw",
+      "powerchina_el_arenal_honduras_60mw",
+      "aes_opico_power_5p2mwp_elsalvador",
+      "aes_cuscatlan_solar_10mw_elsalvador",
+      "powerchina_guayasamin_solar_ecuador_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
