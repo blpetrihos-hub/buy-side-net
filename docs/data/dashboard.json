@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 914,
+    "n_rows": 916,
     "counts": {
-      "total": 914,
-      "active": 822,
+      "total": 916,
+      "active": 824,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 689,
-      "on_map": 806
+      "documented": 691,
+      "on_map": 808
     }
   },
   "layer_readouts": [
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 68,
+        "us": 70,
         "prc": 41,
         "allied": 109,
-        "n": 218
+        "n": 220
       },
       "usd": {
-        "us": 26412275293.010002,
-        "us_n": 38,
+        "us": 26444269833.52,
+        "us_n": 40,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -903,14 +903,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 63,
+        "us": 65,
         "prc": 0,
         "allied": 8,
-        "n": 71
+        "n": 73
       },
       "usd": {
-        "us": 6593487063.1500025,
-        "us_n": 61,
+        "us": 6625481603.660003,
+        "us_n": 63,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -928,7 +928,7 @@
           "allied": 4
         },
         "resources": {
-          "us": 12,
+          "us": 14,
           "prc": 0,
           "allied": 0
         }
@@ -1862,7 +1862,9 @@
       "jajones_belmopan_nec_2004",
       "caddell_tijuana_ncc_2007",
       "cce_guayaquil_nab_2008",
-      "walsh_sj_federal_building_2016"
+      "walsh_sj_federal_building_2016",
+      "tec_lares_crib_dam_2008",
+      "carro_ponce_cofferdam_2020"
     ],
     "hunt": [
       "hunt_br_power_equip",

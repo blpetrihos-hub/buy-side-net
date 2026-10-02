@@ -8647,3 +8647,21 @@
   supports:
   - walsh_sj_federal_building_2016
   - hunt_infra_engineering_epc
+- id: usaspending_tec_lares_crib_20080930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP08C0020_9700_-NONE-_-NONE-
+    (TEC General Contractor, Corp.; Lares crib dam). Signed 30 September 2008. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP08C0020_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP08C0020_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 16.4m Lares crib dam. Supports tec_lares_crib_dam_2008.'
+  supports:
+  - tec_lares_crib_dam_2008
+  - hunt_res_water
+- id: usaspending_carro_cofferdam_20200512
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP20C0005_9700_-NONE-_-NONE-
+    (Construcciones Jose Carro, S.E.; Ponce cofferdam). Signed 12 May 2020. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP20C0005_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP20C0005_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 15.6m Ponce cofferdam. Supports carro_ponce_cofferdam_2020.'
+  supports:
+  - carro_ponce_cofferdam_2020
+  - hunt_res_water
