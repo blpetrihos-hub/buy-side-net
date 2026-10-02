@@ -1,11 +1,90 @@
 updated: 2026-10-02
-cycle: 159
+cycle: 160
 remote: present
-active_layer: energy
-active_subcategory: solar
-next_query: Cycle 160 shuffle_seed=20261160; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us310/prc320/allied253); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 10 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Weight under-covered: Central America, Caribbean, Guyana/Suriname, Bolivia, Paraguay, Venezuela, Ecuador, Colombia. Holdovers: POWERCHINA Baku Suriname; CREC Oruro–Challapata; CRBC Corentyne bridge if signed. No U.S. territories.
-next_row_id: (follow cycle-160 shuffled_order)
+active_layer: infrastructure
+active_subcategory: bridges_roads
+next_query: Cycle 161 shuffle_seed=20261161; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us314/prc323/allied254); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel (once each/session; if dry shift to niobium). PRC ahead by 9 — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala, Nicaragua, Haiti, Jamaica, Paraguay, Uruguay, Venezuela, Colombia (copper/port_ownership), Mexico gaps, Brazil states beyond SP/RJ/MG. Holdovers: POWERCHINA Baku Suriname (Chinese page 404 this cycle); CRBC Corentyne bridge if signed; AES Cedro/Caoba Panama if distinct primary. No U.S. territories.
+next_row_id: (follow cycle-161 shuffled_order)
 dry_streak: 0
+
+# === Country×subcategory sweep cells touched (session continuing from 160) ===
+# Filled this cycle: Costa Rica×solar (us), Costa Rica×water (prc), Costa Rica×port_ownership (allied Moín),
+#   Suriname×solar Phase I (prc Goejaba/Pikin Slee), Bolivia×bridges_roads (prc Oruro–Challapata),
+#   El Salvador×power_plants_grid (us Invenergy EDP), Panama×solar named Pesé/Mayorca (us).
+# Still thin/empty priority cells: Guatemala (many), Nicaragua (many), Haiti (16 miss), Paraguay (17),
+#   Uruguay (14), Venezuela (17), Jamaica graphite/nickel/copper, Guyana port_cranes/lithium,
+#   Colombia copper/port_ownership/balsa/graphite/lithium, Peru graphite/lithium/nickel/niobium/balsa.
+
+# === Cycle 160 (seed 20261160) ===
+# Shuffled order: solar, fission_smr, building_materials, balsa, water, niobium, rail, wind,
+#   power_plants_grid, lithium, other_renewables, port_ownership, graphite, engineering_epc,
+#   bridges_roads, port_cranes, copper, nickel.
+# Logged 8 sourced rows (4 US / 3 PRC / 1 allied; thin dry; no padding):
+#   us solar: dfc_gosolar_costa_rica_15m_2021 (USD 15m DFC debt/equity + 5 MW ICE).
+#   us solar: aes_panama_pese_10mw_2021 (10 MW COD 2021; CapEx blank).
+#   us solar: aes_panama_mayorca_10mw_2021 (10 MW COD 2021; CapEx blank).
+#   prc solar: powerchina_goejaba_pikinslee_suriname_2020 (673.2 kW + 2.6 MWh; CapEx blank).
+#   prc water: crec_canas_bebedero_water_costa_rica_2022 (CTCE; ₡9.815bn PRC grant; CapEx USD blank).
+#   prc bridges_roads: crec_oruro_challapata_tramo1_bolivia_2024 (19.79 km; CapEx blank; proxy press).
+#   us power_plants_grid: invenergy_edp_acajutla_380mw_1bn_2022 (380 MW; >USD 1bn).
+#   allied port_ownership: apm_moin_costa_rica_modernization_2025 (TCM modernization; CapEx blank).
+# Thin top-up (balsa/graphite/fission_smr): all dry once this session — shift to nickel/niobium also dry.
+# Equal-budget misses: fission_smr, building_materials, balsa, niobium, rail, wind, lithium,
+#   other_renewables, graphite, engineering_epc, port_cranes, copper, nickel;
+#   water US (Point Fortin COD 2013 out of preferred window; Emerald Bay renewal undated).
+# Holdover note: POWERCHINA Baku Suriname Chinese URL 404 this cycle; English not found.
+# Active after cycle 160: us314 / prc323 / allied254 / other38 (n=929).
+shuffle_seed: 20261160
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/solar
+- energy/fission_smr
+- infrastructure/building_materials
+- resources/balsa
+- resources/water
+- resources/niobium
+- infrastructure/rail
+- energy/wind
+- energy/power_plants_grid
+- resources/lithium
+- energy/other_renewables
+- infrastructure/port_ownership
+- resources/graphite
+- infrastructure/engineering_epc
+- infrastructure/bridges_roads
+- infrastructure/port_cranes
+- resources/copper
+- resources/nickel
+rows_found_this_cycle:
+  energy/solar: 4
+  energy/fission_smr: 0
+  infrastructure/building_materials: 0
+  resources/balsa: 0
+  resources/water: 1
+  resources/niobium: 0
+  infrastructure/rail: 0
+  energy/wind: 0
+  energy/power_plants_grid: 1
+  resources/lithium: 0
+  energy/other_renewables: 0
+  infrastructure/port_ownership: 1
+  resources/graphite: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/bridges_roads: 1
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  resources/nickel: 0
+rows_by_side_this_cycle:
+  us: 4
+  prc: 3
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 159 (seed 20261159) ===
 # Shuffled order: fission_smr, niobium, rail, port_ownership, graphite,

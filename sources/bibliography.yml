@@ -10416,3 +10416,70 @@
   supports:
   - powerchina_guayasamin_solar_ecuador_2026
   - hunt_energy_solar
+- id: dfc_gosolar_costa_rica_pis_9000093595
+  type: government
+  chicago: 'U.S. International Development Finance Corporation. “Public Information Summary: GoSolar Energy
+    Efficiency S.R.L.” Project 9000093595. https://www.dfc.gov/sites/default/files/media/documents/9000093595.pdf.'
+  url: https://www.dfc.gov/sites/default/files/media/documents/9000093595.pdf
+  annotation: 'DFC PIS: USD 15m debt/equity GoSolar Costa Rica + 5 MW ICE plant. Supports dfc_gosolar_costa_rica_15m_2021.'
+  supports:
+  - dfc_gosolar_costa_rica_15m_2021
+  - hunt_energy_solar
+- id: aes_panama_solar40mw_20200214
+  type: company
+  chicago: AES Panamá. “AES Panamá aumenta su apuesta a las energías renovables.” February 14, 2020. https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables.
+  url: https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables
+  annotation: 'AES Panamá primary: Mayorca Solar 10 MW COD 2021. Supports aes_panama_mayorca_10mw_2021;
+    aes_panama_pese_10mw_2021.'
+  supports:
+  - aes_panama_pese_10mw_2021
+  - hunt_energy_solar
+  - aes_panama_mayorca_10mw_2021
+- id: powerchina_solar_portfolio_20250520
+  type: company
+  chicago: POWERCHINA. “Solar.” Updated May 20, 2025. https://en.powerchina.cn/2025-05/20/c_816883.htm.
+  url: https://en.powerchina.cn/2025-05/20/c_816883.htm
+  annotation: 'POWERCHINA Solar portfolio: Goejaba/Pikin Slee 673.2 kW PV + 2.6 MWh storage COD May 2020.
+    Supports powerchina_goejaba_pikinslee_suriname_2020.'
+  supports:
+  - powerchina_goejaba_pikinslee_suriname_2020
+  - hunt_energy_solar
+- id: cr_presidencia_canas_bebedero_20220324
+  type: government
+  chicago: Presidencia de la República de Costa Rica. “Cañas recibe planta potabilizadora más moderna
+    del país por parte de AyA y la República Popular China.” March 24, 2022. https://presidencia.gobiernocarlosalvarado.cr/comunicados/2022/03/canas-recibe-planta-potabilizadora-mas-moderna-del-pais-por-parte-de-aya-y-la-republica-popular-china/.
+  url: https://presidencia.gobiernocarlosalvarado.cr/comunicados/2022/03/canas-recibe-planta-potabilizadora-mas-moderna-del-pais-por-parte-de-aya-y-la-republica-popular-china/
+  annotation: 'CR Presidency: Cañas–Bebedero plant PRC grant ₡9,815m / 126 L/s / ~37k people. Supports
+    crec_canas_bebedero_water_costa_rica_2022.'
+  supports:
+  - crec_canas_bebedero_water_costa_rica_2022
+  - hunt_resources_water
+- id: equalocean_crec_oruro_challapata_20240514
+  type: news
+  chicago: EqualOcean. “China Railway Commences Construction of Oruro Highway Project in Bolivia.” May
+    14, 2024. https://equalocean.com/news/2024051420904.
+  url: https://equalocean.com/news/2024051420904
+  annotation: 'EqualOcean: CREC consortium groundbreaking Oruro–Challapata Tramo I 19.79 km. Supports
+    crec_oruro_challapata_tramo1_bolivia_2024. Press primary — evidence=proxy.'
+  supports:
+  - crec_oruro_challapata_tramo1_bolivia_2024
+  - hunt_infrastructure_bridges_roads
+- id: invenergy_edp_cod_20221020
+  type: company
+  chicago: Invenergy LLC. “Transformative LNG-to-Power Project Lights Up El Salvador, Accelerates Region’s
+    Energy Transition.” October 20, 2022. https://invenergy.com/news/transformative-lng-to-power-project-lights-up-el-salvador-accelerates-region-s-energy-transition.
+  url: https://invenergy.com/news/transformative-lng-to-power-project-lights-up-el-salvador-accelerates-region-s-energy-transition
+  annotation: 'Invenergy primary: EDP Acajutla 380 MW COD / >USD 1bn. Supports invenergy_edp_acajutla_380mw_1bn_2022.'
+  supports:
+  - invenergy_edp_acajutla_380mw_1bn_2022
+  - hunt_energy_power_plants_grid
+- id: apm_moin_modernization_20250818
+  type: company
+  chicago: APM Terminals. “APM Terminals Moín invests in modernizing TCM, ensuring competitiveness and
+    efficiency.” August 18, 2025. https://www.apmterminals.com/en/moin/practical-information/news/2025/250818-APM-Terminals-Moin-invests-in-modernizing-TCM.
+  url: https://www.apmterminals.com/en/moin/practical-information/news/2025/250818-APM-Terminals-Moin-invests-in-modernizing-TCM
+  annotation: 'APM Terminals primary: Moín TCM 2024–25 modernization / ongoing operator presence. Supports
+    apm_moin_costa_rica_modernization_2025.'
+  supports:
+  - apm_moin_costa_rica_modernization_2025
+  - hunt_infrastructure_port_ownership

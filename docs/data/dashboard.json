@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1119,
+    "n_rows": 1127,
     "counts": {
-      "total": 1119,
-      "active": 921,
+      "total": 1127,
+      "active": 929,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 158,
+      "proxy": 159,
       "exclude": 18,
-      "documented": 889,
-      "on_map": 903
+      "documented": 896,
+      "on_map": 911
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 128,
-        "prc": 112,
-        "allied": 95,
-        "n": 335
+        "prc": 113,
+        "allied": 96,
+        "n": 337
       },
       "usd": {
         "us": 8181930640.119999,
@@ -129,9 +129,9 @@
       "layer": "resources",
       "counts": {
         "us": 63,
-        "prc": 56,
+        "prc": 57,
         "allied": 112,
-        "n": 231
+        "n": 232
       },
       "usd": {
         "us": 25859802296.0,
@@ -151,14 +151,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 119,
-        "prc": 151,
+        "us": 123,
+        "prc": 152,
         "allied": 83,
-        "n": 353
+        "n": 358
       },
       "usd": {
-        "us": 11826585515.13,
-        "us_n": 33,
+        "us": 12841585515.13,
+        "us_n": 35,
         "prc": 5778017778.25,
         "prc_n": 22,
         "allied": 6601418889.2300005,
@@ -327,9 +327,9 @@
       "country": "Bolivia",
       "counts": {
         "us": 0,
-        "prc": 7,
+        "prc": 8,
         "allied": 0,
-        "n": 7
+        "n": 8
       },
       "usd": {
         "us": 0.0,
@@ -347,7 +347,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 3,
+          "prc": 4,
           "allied": 0
         },
         "resources": {
@@ -462,14 +462,14 @@
     {
       "country": "Costa Rica",
       "counts": {
-        "us": 1,
-        "prc": 4,
-        "allied": 1,
-        "n": 6
+        "us": 2,
+        "prc": 5,
+        "allied": 2,
+        "n": 9
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 15000000.0,
+        "us_n": 1,
         "prc": 465593387.0,
         "prc_n": 1,
         "allied": 600000000.0,
@@ -477,14 +477,19 @@
       },
       "by_layer": {
         "energy": {
-          "us": 1,
+          "us": 2,
           "prc": 1,
           "allied": 0
         },
         "infrastructure": {
           "us": 0,
           "prc": 3,
-          "allied": 1
+          "allied": 2
+        },
+        "resources": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
         }
       }
     },
@@ -622,14 +627,14 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 12,
+        "us": 13,
         "prc": 2,
         "allied": 2,
-        "n": 16
+        "n": 17
       },
       "usd": {
-        "us": 56800833.989999995,
-        "us_n": 4,
+        "us": 1056800833.99,
+        "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 150000000.0,
@@ -637,7 +642,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 11,
+          "us": 12,
           "prc": 1,
           "allied": 1
         },
@@ -893,10 +898,10 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 7,
+        "us": 9,
         "prc": 5,
         "allied": 6,
-        "n": 18
+        "n": 20
       },
       "usd": {
         "us": 73180242.32,
@@ -908,7 +913,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
+          "us": 5,
           "prc": 1,
           "allied": 1
         },
@@ -1034,9 +1039,9 @@
       "country": "Suriname",
       "counts": {
         "us": 2,
-        "prc": 6,
+        "prc": 7,
         "allied": 0,
-        "n": 8
+        "n": 9
       },
       "usd": {
         "us": 0.0,
@@ -1049,7 +1054,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 5,
+          "prc": 6,
           "allied": 0
         },
         "infrastructure": {
@@ -2067,7 +2072,15 @@
       "powerchina_el_arenal_honduras_60mw",
       "aes_opico_power_5p2mwp_elsalvador",
       "aes_cuscatlan_solar_10mw_elsalvador",
-      "powerchina_guayasamin_solar_ecuador_2026"
+      "powerchina_guayasamin_solar_ecuador_2026",
+      "dfc_gosolar_costa_rica_15m_2021",
+      "aes_panama_pese_10mw_2021",
+      "aes_panama_mayorca_10mw_2021",
+      "powerchina_goejaba_pikinslee_suriname_2020",
+      "crec_canas_bebedero_water_costa_rica_2022",
+      "crec_oruro_challapata_tramo1_bolivia_2024",
+      "invenergy_edp_acajutla_380mw_1bn_2022",
+      "apm_moin_costa_rica_modernization_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
