@@ -7834,3 +7834,74 @@
   supports:
   - exim_atlantida_olanchito_solar_2022
   - hunt_energy_solar
+- id: cbmm_results_2024_release_20250424
+  type: company
+  chicago: Companhia Brasileira de Metalurgia e Mineração (CBMM). “CBMM mantém estratégia de desenvolvimento
+    de tecnologia para aplicações de Nióbio” (Release de Resultados 2024). 24 April 2025. https://cbmm.com/-/media/CBMM/MEDIA-CENTER/Noticias-Internas/resultado-final-2024/CBMM_Release-de-Resultados-2025---Final---22042025.pdf.
+  url: https://cbmm.com/-/media/CBMM/MEDIA-CENTER/Noticias-Internas/resultado-final-2024/CBMM_Release-de-Resultados-2025---Final---22042025.pdf
+  annotation: 'CBMM primary: 2024 CapEx R$630m at Araxá. Supports cbmm_araxa_capex_630m_2024.'
+  supports:
+  - cbmm_araxa_capex_630m_2024
+  - hunt_fenb_araxa
+- id: usaspending_nieves_lares_20240724
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7324C000015_6925_-NONE-_-NONE-
+    (Nieves & Nieves Engineers & Contractors Inc; FHWA Emergency Relief Lares PR-128). Signed 24 July
+    2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7324C000015_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7324C000015_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 3.83m FHWA award to Nieves for Lares PR-128 landslide repairs.
+    Supports fhwa_nieves_lares_2024.'
+  supports:
+  - fhwa_nieves_lares_2024
+  - hunt_infra_bridges_roads
+- id: usaspending_caribbean_sign_20210216
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7321C000009_6925_-NONE-_-NONE-
+    (Caribbean Sign Supplies Manufacturers, Inc.; FHWA Emergency Relief PR-1/2/3 signs). Signed 16 February
+    2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000009_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000009_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 17.19m FHWA award to Caribbean Sign for PR-1/2/3 signs/guardrails.
+    Supports fhwa_caribbean_sign_pr123_2021.'
+  supports:
+  - fhwa_caribbean_sign_pr123_2021
+  - hunt_infra_bridges_roads
+- id: usaspending_jc_associates_east_20220902
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7322C000019_6925_-NONE-_-NONE-
+    (JC & Associates; FHWA Emergency Relief East Region signs). Signed 2 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000019_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000019_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 14.52m FHWA award to JC & Associates for East Region signs/guardrails.
+    Supports fhwa_jc_associates_east_2022.'
+  supports:
+  - fhwa_jc_associates_east_2022
+  - hunt_infra_bridges_roads
+- id: usaspending_master_pavement_20210203
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7321C000010_6925_-NONE-_-NONE-
+    (Master Pavement Line Corp.; FHWA Emergency Relief PR-52/53 signs). Signed 3 February 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000010_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000010_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 8.88m FHWA award to Master Pavement for PR-52/53 signs/guardrails.
+    Supports fhwa_master_pavement_pr52_2021.'
+  supports:
+  - fhwa_master_pavement_pr52_2021
+  - hunt_infra_bridges_roads
+- id: usaspending_jpi_maunabo_20230721
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7323C000014_6925_-NONE-_-NONE-
+    (JPI Construction LLC; FHWA Emergency Relief Maunabo). Signed 21 July 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7323C000014_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7323C000014_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 6.15m FHWA award to JPI for Maunabo embankment/retaining-wall
+    repairs. Supports fhwa_jpi_maunabo_2023.'
+  supports:
+  - fhwa_jpi_maunabo_2023
+  - hunt_infra_bridges_roads
+- id: usaspending_novel_yunque_20210830
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7321C000023_6925_-NONE-_-NONE-
+    (Novel Construction LLC; FHWA/FAA El Yunque FS-27 landslide repairs). Signed 30 August 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000023_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000023_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 6.86m FHWA/FAA award to Novel for El Yunque FS-27 landslide repairs.
+    Supports fhwa_novel_yunque_fs27_2021.'
+  supports:
+  - fhwa_novel_yunque_fs27_2021
+  - hunt_infra_bridges_roads

@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 826,
+    "n_rows": 833,
     "counts": {
-      "total": 826,
-      "active": 734,
+      "total": 833,
+      "active": 741,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 601,
-      "on_map": 719
+      "documented": 608,
+      "on_map": 726
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 95,
+        "us": 101,
         "prc": 96,
         "allied": 91,
-        "n": 282
+        "n": 288
       },
       "usd": {
-        "us": 3108095155.36,
-        "us_n": 27,
+        "us": 3165526962.3599997,
+        "us_n": 33,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10677634000.0,
@@ -131,8 +131,8 @@
       "counts": {
         "us": 57,
         "prc": 39,
-        "allied": 108,
-        "n": 204
+        "allied": 109,
+        "n": 205
       },
       "usd": {
         "us": 25812143622.0,
@@ -290,8 +290,8 @@
       "counts": {
         "us": 70,
         "prc": 63,
-        "allied": 104,
-        "n": 237
+        "allied": 105,
+        "n": 238
       },
       "usd": {
         "us": 1782545000.0,
@@ -315,7 +315,7 @@
         "resources": {
           "us": 24,
           "prc": 9,
-          "allied": 50
+          "allied": 51
         }
       }
     },
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 20,
+        "us": 26,
         "prc": 0,
         "allied": 0,
-        "n": 20
+        "n": 26
       },
       "usd": {
-        "us": 2082120107.36,
-        "us_n": 18,
+        "us": 2139551914.3600001,
+        "us_n": 24,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -836,7 +836,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 15,
+          "us": 21,
           "prc": 0,
           "allied": 0
         },
@@ -1663,7 +1663,14 @@
       "fhwa_nieves_angeles_utuado_2022",
       "fhwa_caribe_tecno_yunque_2021",
       "zpmc_chancay_sts_rmg_rtg_2024",
-      "exim_atlantida_olanchito_solar_2022"
+      "exim_atlantida_olanchito_solar_2022",
+      "cbmm_araxa_capex_630m_2024",
+      "fhwa_nieves_lares_2024",
+      "fhwa_caribbean_sign_pr123_2021",
+      "fhwa_jc_associates_east_2022",
+      "fhwa_master_pavement_pr52_2021",
+      "fhwa_jpi_maunabo_2023",
+      "fhwa_novel_yunque_fs27_2021"
     ],
     "hunt": [
       "hunt_br_power_equip",
