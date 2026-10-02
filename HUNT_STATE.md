@@ -1,11 +1,102 @@
 updated: 2026-10-02
-cycle: 88
+cycle: 89
 remote: present
-active_layer: energy
-active_subcategory: solar
-next_query: Cycle 89 shuffle_seed=20261089; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us205/prc206/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/copper). Country×subcategory sweep both sides + regulators.
-next_row_id: (follow cycle-89 shuffled_order)
+active_layer: infrastructure
+active_subcategory: port_cranes
+next_query: Cycle 90 shuffle_seed=20261090; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us208/prc208/allied226); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/building_materials). Country×subcategory sweep both sides + regulators.
+next_row_id: (follow cycle-90 shuffled_order)
 dry_streak: 0
+
+# === Cycle 89 (seed 20261089) ===
+# Shuffled order: port_cranes, graphite, solar, niobium, lithium,
+#   power_plants_grid, water, engineering_epc, building_materials, copper,
+#   other_renewables, nickel, balsa, wind, rail, fission_smr, port_ownership,
+#   bridges_roads.
+# Logged 7 sourced rows (honest US/PRC split; no padding):
+#   prc port_cranes: zpmc_contecon_manzanillo_sts_rtg_2026 (STS #13–14 + 5 RTG).
+#   us solar: aes_dr_peravia_140mw_cod_2025 (140 MW Baní COD Sep 2025).
+#   us water: nadbank_san_quintin_desal_665m_mxn_2026 (proposed MXN 665m).
+#   allied water: gs_inima_espirito_santo_lot_a_2025 (>EUR 150m Lot A).
+#   other copper: southern_copper_tia_maria_notes_1p25bn_2026 (USD 1.25bn notes).
+#   us copper: dfc_cerro_pasco_quiulacocha_5m_2026 (USD 5m project-dev).
+#   prc wind: sany_purranque_18mw_chile_2026 (first LatAm SANY wind).
+# Thin top-up (fission_smr/balsa/graphite): all dry — shift to nickel then miss
+#   (DFC Piauí already). Next-thinnest niobium dry.
+# Equal-budget misses: graphite, niobium, lithium, power_plants_grid,
+#   engineering_epc, building_materials, other_renewables, nickel, balsa, rail,
+#   fission_smr, port_ownership, bridges_roads (dense prior coverage).
+# Active after cycle 89: us208 / prc208 / allied226 / other37 (n=679).
+shuffle_seed: 20261089
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/port_cranes
+- resources/graphite
+- energy/solar
+- resources/niobium
+- resources/lithium
+- energy/power_plants_grid
+- resources/water
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- resources/copper
+- energy/other_renewables
+- resources/nickel
+- resources/balsa
+- energy/wind
+- infrastructure/rail
+- energy/fission_smr
+- infrastructure/port_ownership
+- infrastructure/bridges_roads
+rows_found_this_cycle:
+  infrastructure/port_cranes: 1
+  resources/graphite: 0
+  energy/solar: 1
+  resources/niobium: 0
+  resources/lithium: 0
+  energy/power_plants_grid: 0
+  resources/water: 2
+  infrastructure/engineering_epc: 0
+  infrastructure/building_materials: 0
+  resources/copper: 2
+  energy/other_renewables: 0
+  resources/nickel: 0
+  resources/balsa: 0
+  energy/wind: 1
+  infrastructure/rail: 0
+  energy/fission_smr: 0
+  infrastructure/port_ownership: 0
+  infrastructure/bridges_roads: 0
+rows_by_side_this_cycle:
+  us: 3
+  prc: 2
+  allied: 1
+  other: 1
+coverage_cumulative:
+  energy/fission_smr: 23
+  energy/other_renewables: 47
+  energy/power_plants_grid: 58
+  energy/solar: 66
+  energy/wind: 32
+  infrastructure/bridges_roads: 36
+  infrastructure/building_materials: 32
+  infrastructure/engineering_epc: 78
+  infrastructure/port_cranes: 33
+  infrastructure/port_ownership: 33
+  infrastructure/rail: 39
+  resources/balsa: 23
+  resources/copper: 33
+  resources/graphite: 23
+  resources/lithium: 34
+  resources/nickel: 24
+  resources/niobium: 26
+  resources/water: 39
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - energy/fission_smr
+  - resources/balsa
+  - resources/graphite
+  # Misses: all three dry (dense prior). Spare half-budgets to nickel then miss.
 
 # === Cycle 88 (seed 20261088) ===
 # Shuffled order: port_cranes, solar, niobium, fission_smr, balsa, rail,
