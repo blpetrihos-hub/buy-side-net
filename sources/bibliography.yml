@@ -6956,3 +6956,84 @@
   supports:
   - crtg_molinopampa_273m_pen_2025
   - hunt_infra_bridges_roads
+
+- id: chevrolet_gm_brazil_3p5bn_20260624
+  type: company
+  chicago: "General Motors / Chevrolet Brasil. “GM amplia investimentos no Brasil e eleva plano para R$ 10,5 bilhões até 2028.” 24 June 2026."
+  url: https://news.chevrolet.com.br/newsroom.detail.html/Pages/news/br/pt/2026/jun/0624-GM-amplia-investimentos-Brasil.html
+  annotation: GM additional Brazil industrial CapEx R$3.5bn (São Paulo ops; hybrids/factory modernization). Supports gm_brazil_additional_3p5bn_brl_2026.
+  supports:
+  - gm_brazil_additional_3p5bn_brl_2026
+  - hunt_infra_engineering_epc
+
+- id: dfc_serra_verde_pela_ema_2025
+  type: government
+  chicago: "U.S. International Development Finance Corporation. “DFC Highlights Landmark Critical Minerals Investments to Strengthen U.S. National Security During State Department Ministerial.” 2025."
+  url: https://www.dfc.gov/media/press-releases/dfc-highlights-landmark-critical-minerals-investments-strengthen-us-national
+  annotation: DFC USD 565m loan to SVRE Holdings for Serra Verde / Pela Ema rare-earth mine (Goiás). Supports dfc_serra_verde_pela_ema_565m_2025.
+  supports:
+  - dfc_serra_verde_pela_ema_565m_2025
+  - hunt_infra_engineering_epc
+
+- id: eleconomista_abbott_queretaro_20260123
+  type: press
+  chicago: "El Economista. “Abbott inaugura su planta de manufactura de electrofisiología en Querétaro.” 23 January 2026."
+  url: https://www.eleconomista.com.mx/estados/abbott-inaugura-planta-manufactura-electrofisiologia-queretaro-20260123-796776.html
+  annotation: UNVERIFIED proxy for Abbott Querétaro electrophysiology plant CapEx USD 200m. Supports abbott_queretaro_ep_plant_200m_2026.
+  supports:
+  - abbott_queretaro_ep_plant_200m_2026
+  - hunt_infra_engineering_epc
+
+- id: dfc_tembici_equity_2023
+  type: government
+  chicago: "U.S. International Development Finance Corporation. “DFC and IDB Invest Partner With Tembici to Scale Up Urban Electric Bike-Sharing Services in Latin America.” December 2023."
+  url: https://www.dfc.gov/media/press-releases/dfc-and-idb-invest-partner-tembici-scale-urban-electric-bike-sharing-services
+  annotation: DFC USD 15m equity in Tembici; Manaus e-bike assembly plant expansion. Supports dfc_tembici_15m_equity_2023.
+  supports:
+  - dfc_tembici_15m_equity_2023
+  - hunt_infra_engineering_epc
+
+- id: extra_gwm_iracemapolis_20250815
+  type: press
+  chicago: "Sorima Neto, João. “Chinesa GWM inicia hoje produção de veículos eletrificados no Brasil.” Extra (Globo), 15 August 2025."
+  url: https://extra.globo.com/economia/noticia/2025/08/chinesa-gwm-inicia-hoje-producao-de-veiculos-eletrificados-no-brasil.ghtml
+  annotation: UNVERIFIED proxy for GWM Iracemápolis phase-1 Brazil CapEx R$4bn through 2026. Supports gwm_iracemapolis_4bn_brl_2025.
+  supports:
+  - gwm_iracemapolis_4bn_brl_2025
+  - hunt_infra_engineering_epc
+
+- id: geely_renault_brasil_stake_20251103
+  type: company
+  chicago: "Geely Holding. “Renault Group and Geely strengthen their cooperation with the completion of a partnership in Brazil.” 3 November 2025."
+  url: https://www.geely.com/en/news/2025/geely-holding-renault-group-strengthen-partnership-brazil
+  annotation: Geely 26.4% stake in Renault do Brasil / São José dos Pinhais access (corroborates CapEx row). Supports geely_renault_brasil_3p8bn_brl_2025.
+  supports:
+  - geely_renault_brasil_3p8bn_brl_2025
+  - hunt_infra_engineering_epc
+
+- id: equinox_cmoc_brazil_sale_20260123
+  type: company
+  chicago: "Equinox Gold Corp. “Equinox Gold Completes Sale of Brazil Operations for Total Cash Consideration of US$1.015 Billion.” 23 January 2026."
+  url: https://www.equinoxgold.com/news/equinox-gold-completes-sale-of-brazil-operations-for-total-cash-consideration-of-us1-015-billionpays-down-more-than-us800-million-of-debt-with-net-debt-reduced-to-us150-million/
+  annotation: CMOC Group acquires Equinox Brazil mines (Aurizona/RDM/Bahia) up to USD 1.015bn. Supports cmoc_equinox_brazil_gold_1p015bn_2026.
+  supports:
+  - cmoc_equinox_brazil_gold_1p015bn_2026
+  - hunt_infra_engineering_epc
+
+- id: enel_csgi_peru_distribution_close_20240612
+  type: company
+  chicago: "Enel S.p.A. “Enel: finalized agreement signed in April 2023 relating to distribution assets in Peru.” 12 June 2024."
+  url: https://www.enel.com/es/medios/explora/busqueda-comunicados-de-prensa/press/2024/06/enel-finalized-agreement-signed-in-april-2023-relating-to-distribution-assets-in-peru-
+  annotation: CSGI (China Southern Power Grid International) closes Enel Distribución Perú + Enel X Perú acquisition ~USD 3.1bn. Supports csgi_enel_distribucion_peru_3p1bn_2024.
+  supports:
+  - csgi_enel_distribucion_peru_3p1bn_2024
+  - hunt_energy_power_plants_grid
+
+- id: parana_geely_renault_3p8bn_20251118
+  type: government
+  chicago: "Paraná. Vice-Governadoria. “Renault e Geely se unem para investir R$ 3,8 bilhões em novo ciclo automotivo no Paraná.” 18 November 2025."
+  url: https://www.vicegovernadoria.pr.gov.br/Noticia/Renault-e-Geely-se-unem-para-investir-R-38-bilhoes-em-novo-ciclo-automotivo-no-Parana
+  annotation: Renault–Geely São José dos Pinhais plant partnership CapEx R$3.8bn. Supports geely_renault_brasil_3p8bn_brl_2025.
+  supports:
+  - geely_renault_brasil_3p8bn_brl_2025
+  - hunt_infra_engineering_epc

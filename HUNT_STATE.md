@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 84
+cycle: 85
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 85 shuffle_seed=20261085; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us211/prc208/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
-next_row_id: (follow cycle-85 shuffled_order)
+next_query: Cycle 86 shuffle_seed=20261086; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us215/prc212/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
+next_row_id: (follow cycle-86 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,71 +17,71 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 84 pre-merge:
-# - Cummins Monterrey Logistics tagged us (Columbus IN HQ). NADBank Sonora /
-#   SADM Monterrey / Tecate Rancho La Puerta tagged us (binational U.S.–Mexico
-#   DFI; corpus NADBank convention).
-# - CAMCE Punta Huete road + airport credit tagged prc (Sinomach SOE). CRBC Red
-#   Maule tagged prc (CCCC subsidiary; Spanish Puentes partner noted allied).
-#   CRTG Molinopampa tagged prc.
+# Side-tag audit (cycles 57–63) — cycle 85 pre-merge:
+# - GM Brazil tagged us (Detroit HQ). DFC Serra Verde / Tembici tagged us (U.S.
+#   government DFI). Abbott Querétaro tagged us (Abbott Park IL HQ).
+# - GWM Iracemápolis tagged prc (Baoding HQ). Geely Renault Brasil tagged prc
+#   (Hangzhou HQ; Renault majority noted). CMOC Equinox Brazil tagged prc.
+#   CSGI Enel Distribución Perú tagged prc (China Southern Power Grid).
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
 #   No side-tag fixes this cycle.
-# - Skipped CRCC Batuco surface (already logged), CHEC Las Palmas 2018-only award,
-#   DFC Daycoval SME onlending (weak taxonomy fit). Thin nickel/balsa/fission_smr miss.
+# - Skipped ZPMC Tecon Santos (already logged), Envision Casa dos Ventos (already
+#   logged), CRRC Melipilla/Batuco EMUs (efe_crrc_emu_2023). Thin nickel/balsa/
+#   fission_smr miss.
 
-shuffle_seed: 20261084
+shuffle_seed: 20261085
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- energy/fission_smr
-- resources/lithium
-- infrastructure/bridges_roads
-- infrastructure/engineering_epc
-- resources/copper
-- resources/graphite
-- infrastructure/building_materials
-- infrastructure/rail
-- resources/nickel
-- energy/power_plants_grid
-- energy/wind
-- energy/solar
-- resources/niobium
 - infrastructure/port_cranes
-- resources/balsa
-- infrastructure/port_ownership
-- resources/water
 - energy/other_renewables
+- infrastructure/rail
+- energy/wind
+- resources/water
+- infrastructure/building_materials
+- energy/solar
+- infrastructure/engineering_epc
+- resources/balsa
+- infrastructure/bridges_roads
+- resources/copper
+- resources/niobium
+- resources/graphite
+- energy/power_plants_grid
+- energy/fission_smr
+- resources/nickel
+- resources/lithium
+- infrastructure/port_ownership
 
 rows_found_this_cycle:
-  energy/fission_smr: 0
-  resources/lithium: 0
-  infrastructure/bridges_roads: 2
-  infrastructure/engineering_epc: 2
-  resources/copper: 0
-  resources/graphite: 0
-  infrastructure/building_materials: 1
-  infrastructure/rail: 0
-  resources/nickel: 0
-  energy/power_plants_grid: 0
-  energy/wind: 0
-  energy/solar: 0
-  resources/niobium: 0
   infrastructure/port_cranes: 0
-  resources/balsa: 0
-  infrastructure/port_ownership: 0
-  resources/water: 3
   energy/other_renewables: 0
+  infrastructure/rail: 0
+  energy/wind: 0
+  resources/water: 0
+  infrastructure/building_materials: 0
+  energy/solar: 0
+  infrastructure/engineering_epc: 7
+  resources/balsa: 0
+  infrastructure/bridges_roads: 0
+  resources/copper: 0
+  resources/niobium: 0
+  resources/graphite: 0
+  energy/power_plants_grid: 1
+  energy/fission_smr: 0
+  resources/nickel: 0
+  resources/lithium: 0
+  infrastructure/port_ownership: 0
 
 coverage_cumulative:
-  # Active counts after cycle 84 (status=active)
+  # Active counts after cycle 85 (status=active)
   energy/fission_smr: 23
   energy/other_renewables: 43
-  energy/power_plants_grid: 57
+  energy/power_plants_grid: 58
   energy/solar: 60
   energy/wind: 30
   infrastructure/bridges_roads: 35
   infrastructure/building_materials: 40
-  infrastructure/engineering_epc: 94
+  infrastructure/engineering_epc: 101
   infrastructure/port_cranes: 32
   infrastructure/port_ownership: 33
   infrastructure/rail: 39
@@ -105,8 +105,16 @@ thin_topup:
   - resources/nickel
   - resources/balsa
   - energy/fission_smr
-  # Hits: none on thinnest three (graphite also tied at pre-cycle 23).
+  # Hits: none on thinnest three.
   # Misses: nickel, balsa, fission_smr.
+
+# Cycle 85 (seed 20261085): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (GM Brazil +R$3.5bn us; DFC Serra Verde USD 565m us;
+#   Abbott Querétaro USD 200m proxy us; DFC Tembici USD 15m us; GWM Iracemápolis
+#   R$4bn proxy prc; Geely Renault Brasil R$3.8bn/26.4% prc; CMOC Equinox Brazil
+#   mines USD 1.015bn prc); power_plants_grid (CSGI Enel Distribución Perú
+#   ~USD 3.1bn prc).
+#   Thin top-up miss nickel/balsa/fission_smr. Merge --no-ff to main after build.
 
 # Cycle 84 (seed 20261084): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: engineering_epc (Cummins Monterrey Logistics USD 30m us; CAMCE
