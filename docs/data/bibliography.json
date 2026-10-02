@@ -11457,5 +11457,148 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "ge_vernova_san_felipe_20241216",
+    "type": "company",
+    "chicago": "GE Vernova. “GE Vernova announces first H-Class order in the Caribbean.” 16 December 2024.",
+    "url": "https://www.gevernova.com/news/press-releases/ge-vernova-announces-first-h-class-order-caribbean",
+    "annotation": "GE Vernova H-Class equipment order for Generadora San Felipe 470 MW CCGT at Punta Caucedo. Supports ge_vernova_san_felipe_dr_2024.",
+    "supports": [
+      "ge_vernova_san_felipe_dr_2024",
+      "hunt_energy_power_plants_grid"
+    ],
+    "map_supports": [
+      "ge_vernova_san_felipe_dr_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "jiangxi_solgold_effective_20260305",
+    "type": "company",
+    "chicago": "Jiangxi Copper Company Limited. “Announcement in Relation to the Effective Formal Offer to Acquire All the Shares in SolGold Plc by a Wholly-Owned Subsidiary.” HKEX, 5 March 2026.",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0305/2026030500033.pdf",
+    "annotation": "Jiangxi Copper JCHK SolGold scheme effective; Cascabel–Alpala Ecuador core asset. Supports jiangxi_copper_solgold_cascabel_2026.",
+    "supports": [
+      "jiangxi_copper_solgold_cascabel_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "jiangxi_copper_solgold_cascabel_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "dpr_coquimbo_illapel_crcc_20241129",
+    "type": "government",
+    "chicago": "Delegación Presidencial Regional de Coquimbo. “Firman contrato para la construcción del nuevo Hospital de Illapel con empresa china.” 29 November 2024.",
+    "url": "https://dprcoquimbo.dpr.gob.cl/2024/11/29/firman-contrato-para-la-construccion-del-nuevo-hospital-de-illapel-con-empresa-china/",
+    "annotation": "CRCC International Illapel hospital civil-works contract >CLP 132bn. Supports crcc_illapel_hospital_chile_2024.",
+    "supports": [
+      "crcc_illapel_hospital_chile_2024",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "crcc_illapel_hospital_chile_2024",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_suriname_microgrid_20260518",
+    "type": "company",
+    "chicago": "POWERCHINA. “Suriname’s president attends micro-grid solar project commissioning ceremony.” 18 May 2026.",
+    "url": "https://en.powerchina.cn/2026-05/18/c_829069.htm",
+    "annotation": "POWERCHINA Suriname Villages Micro-grid Solar Phase II Kajana/Guyaba COD (5.349 MW PV). Supports powerchina_suriname_microgrid_p2_2026.",
+    "supports": [
+      "powerchina_suriname_microgrid_p2_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_suriname_microgrid_p2_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "nov_hammerhead_heated_20251217",
+    "type": "company",
+    "chicago": "NOV. “NOV’s Active Heating Flexible Pipe Selected by ExxonMobil for Hammerhead Project.” 17 December 2025.",
+    "url": "https://www.nov.com/news/novs-active-heating-flexible-pipe-selected-by-exxonmobil-for-hammerhead",
+    "annotation": "NOV actively heated flexible pipe for ExxonMobil Guyana Hammerhead (~14.4 km). Supports nov_hammerhead_heated_flex_guyana_2025.",
+    "supports": [
+      "nov_hammerhead_heated_flex_guyana_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "nov_hammerhead_heated_flex_guyana_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "petronoticias_oil_states_20260904",
+    "type": "press",
+    "chicago": "Petronotícias. “Oil States conquista contrato de três anos com a Petrobrás para serviços subsea.” 4 September 2026.",
+    "url": "https://petronoticias.com.br/oil-states-conquista-contrato-de-tres-anos-com-a-petrobras-para-servicos-subsea/",
+    "annotation": "UNVERIFIED proxy citing Oil States Brasil three-year Petrobras subsea maintenance award. Supports oil_states_petrobras_subsea_2026.",
+    "supports": [
+      "oil_states_petrobras_subsea_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "oil_states_petrobras_subsea_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "weatherford_trion_mpd_20250728",
+    "type": "company",
+    "chicago": "Weatherford International. “Weatherford Awarded Managed Pressure Drilling Contract for Woodside Energy’s Trion Deepwater Development.” 28 July 2025.",
+    "url": "https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18001",
+    "annotation": "Weatherford Victus MPD for Woodside Trion Mexico (8–24 wells). Supports weatherford_trion_mpd_mexico_2025.",
+    "supports": [
+      "weatherford_trion_mpd_mexico_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "weatherford_trion_mpd_mexico_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "movimento_goldwind_jacobina_20260128",
+    "type": "press",
+    "chicago": "Movimento Econômico. “Francesa EDF e chinesa Goldwind reativam fábrica baiana de torres eólicas.” 28 January 2026.",
+    "url": "https://movimentoeconomico.com.br/empresas/2026/01/28/francesa-edf-e-chinesa-goldwind-reativam-fabrica-baiana-de-torres-eolicas/",
+    "annotation": "UNVERIFIED proxy for Goldwind–EDF Jacobina tower-factory reactivation contract. Supports goldwind_jacobina_tower_factory_2026.",
+    "supports": [
+      "goldwind_jacobina_tower_factory_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "goldwind_jacobina_tower_factory_2026",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

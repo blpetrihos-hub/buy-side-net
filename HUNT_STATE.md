@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 80
+cycle: 81
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 81 shuffle_seed=20261081; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us195/prc192/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (22) then graphite/balsa/fission_smr (23/23/23). Keep US/PRC even split.
-next_row_id: (follow cycle-81 shuffled_order)
+next_query: Cycle 82 shuffle_seed=20261082; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us199/prc196/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
+next_row_id: (follow cycle-82 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,68 +17,69 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 80 pre-merge:
-# - Oceaneering Petrobras SSR ~USD 180m / umbilicals / Aker Wayfarer ROV tagged us
-#   (Houston HQ). SLB Búzios Wave II completions tagged us (Houston HQ).
-# - China Railway Tunnel Group Abancay bypass tagged prc. CNMC Taboca acquisition
-#   tagged prc. CHEC Chancay delivery tagged prc. CGN Brasil Piauí CSP MoU tagged prc.
+# Side-tag audit (cycles 57–63) — cycle 81 pre-merge:
+# - GE Vernova San Felipe DR H-Class tagged us (Cambridge MA HQ). NOV Hammerhead
+#   heated flex Guyana tagged us (Houston HQ). Oil States Petrobras subsea tagged us
+#   (Houston HQ). Weatherford Trion MPD Mexico tagged us (Houston PE offices).
+# - Jiangxi Copper SolGold Cascabel tagged prc. CRCC Illapel hospital tagged prc.
+#   POWERCHINA Suriname microgrid Phase II tagged prc. Goldwind Jacobina tower
+#   factory reactivation tagged prc.
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
 #   No side-tag fixes this cycle.
-# - Skipped Halliburton YPF ZEUS / Petrobras stim already; Baker trees/wells;
-#   POWERCHINA Piauí 500 kV / Ituango / Santo Domingo water; SUMEC Onderneeming;
-#   CHEC Posorja already. Thin nickel/balsa/fission_smr miss (Taboca hit is
-#   niobium, not among thinnest three).
+# - Skipped TechnipFMC Hammerhead SPS (UK plc → allied), Palmira III / State Grid
+#   NE UHV / Envision Casa dos Ventos / AES Andes III / Tesla Camarones already.
+#   Thin nickel/balsa/fission_smr miss.
 
-shuffle_seed: 20261080
+shuffle_seed: 20261081
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/nickel
-- infrastructure/port_cranes
-- resources/copper
 - energy/power_plants_grid
-- infrastructure/building_materials
-- infrastructure/bridges_roads
-- energy/other_renewables
-- resources/balsa
 - resources/lithium
-- resources/niobium
-- energy/solar
+- infrastructure/building_materials
+- resources/copper
+- energy/other_renewables
+- infrastructure/port_cranes
+- infrastructure/rail
 - resources/graphite
+- energy/solar
+- energy/fission_smr
+- infrastructure/bridges_roads
 - infrastructure/port_ownership
 - resources/water
+- resources/balsa
+- resources/nickel
+- resources/niobium
 - infrastructure/engineering_epc
-- infrastructure/rail
 - energy/wind
-- energy/fission_smr
 
 rows_found_this_cycle:
-  resources/nickel: 0
-  infrastructure/port_cranes: 0
-  resources/copper: 0
-  energy/power_plants_grid: 0
-  infrastructure/building_materials: 0
-  infrastructure/bridges_roads: 1
-  energy/other_renewables: 0
-  resources/balsa: 0
+  energy/power_plants_grid: 1
   resources/lithium: 0
-  resources/niobium: 1
-  energy/solar: 1
+  infrastructure/building_materials: 1
+  resources/copper: 1
+  energy/other_renewables: 0
+  infrastructure/port_cranes: 0
+  infrastructure/rail: 0
   resources/graphite: 0
+  energy/solar: 1
+  energy/fission_smr: 0
+  infrastructure/bridges_roads: 0
   infrastructure/port_ownership: 0
   resources/water: 0
-  infrastructure/engineering_epc: 5
-  infrastructure/rail: 0
-  energy/wind: 0
-  energy/fission_smr: 0
+  resources/balsa: 0
+  resources/nickel: 0
+  resources/niobium: 0
+  infrastructure/engineering_epc: 3
+  energy/wind: 1
 
 coverage_cumulative:
-  # Active counts after cycle 80 (status=active)
+  # Active counts after cycle 81 (status=active)
   resources/balsa: 23
   infrastructure/bridges_roads: 32
-  infrastructure/building_materials: 35
-  resources/copper: 29
-  infrastructure/engineering_epc: 79
+  infrastructure/building_materials: 36
+  resources/copper: 30
+  infrastructure/engineering_epc: 82
   energy/fission_smr: 23
   resources/graphite: 23
   resources/lithium: 34
@@ -87,11 +88,11 @@ coverage_cumulative:
   energy/other_renewables: 43
   infrastructure/port_cranes: 32
   infrastructure/port_ownership: 33
-  energy/power_plants_grid: 56
+  energy/power_plants_grid: 57
   infrastructure/rail: 39
-  energy/solar: 58
+  energy/solar: 59
   resources/water: 33
-  energy/wind: 28
+  energy/wind: 29
 
 rows_by_side_this_cycle:
   us: 4
@@ -105,8 +106,16 @@ thin_topup:
   - resources/nickel
   - resources/balsa
   - energy/fission_smr
-  # Hits: none on thinnest three (niobium Taboca logged in shuffled pass).
+  # Hits: none on thinnest three.
   # Misses: nickel, balsa, fission_smr (graphite also 23).
+
+# Cycle 81 (seed 20261081): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: power_plants_grid (GE Vernova San Felipe DR H-Class us); building_materials
+#   (CRCC Illapel hospital >CLP 132bn prc); copper (Jiangxi Copper SolGold Cascabel
+#   ~GBP 867m prc); solar (POWERCHINA Suriname microgrid Phase II prc); engineering_epc
+#   (NOV Hammerhead heated flex us; Oil States Petrobras subsea proxy us; Weatherford
+#   Trion MPD Mexico us); wind (Goldwind Jacobina tower factory proxy prc). Thin
+#   top-up miss nickel/balsa/fission_smr. Merge --no-ff to main after build.
 
 # Cycle 80 (seed 20261080): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: bridges_roads (CRTG Abancay bypass S/93.0m prc); niobium (CNMC
