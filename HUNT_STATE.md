@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 81
+cycle: 82
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 82 shuffle_seed=20261082; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us199/prc196/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
-next_row_id: (follow cycle-82 shuffled_order)
+next_query: Cycle 83 shuffle_seed=20261083; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us203/prc200/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
+next_row_id: (follow cycle-83 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,69 +17,68 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 81 pre-merge:
-# - GE Vernova San Felipe DR H-Class tagged us (Cambridge MA HQ). NOV Hammerhead
-#   heated flex Guyana tagged us (Houston HQ). Oil States Petrobras subsea tagged us
-#   (Houston HQ). Weatherford Trion MPD Mexico tagged us (Houston PE offices).
-# - Jiangxi Copper SolGold Cascabel tagged prc. CRCC Illapel hospital tagged prc.
-#   POWERCHINA Suriname microgrid Phase II tagged prc. Goldwind Jacobina tower
-#   factory reactivation tagged prc.
+# Side-tag audit (cycles 57–63) — cycle 82 pre-merge:
+# - John Deere Canoas pulverizer + electronics tagged us (Deere & Company, Moline IL).
+#   AGCO Jundiaí Reman/Academy tagged us (Duluth GA HQ). Flowserve Torreón tagged us
+#   (Dallas HQ; UNVERIFIED proxy).
+# - CHEC Grenada MBIA airport tagged prc. CRCC Coquimbo / O’Higgins / Neurocirugía
+#   hospital concessions tagged prc (PRC SOE parent; Grupo CRCC Chile).
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
 #   No side-tag fixes this cycle.
-# - Skipped TechnipFMC Hammerhead SPS (UK plc → allied), Palmira III / State Grid
-#   NE UHV / Envision Casa dos Ventos / AES Andes III / Tesla Camarones already.
-#   Thin nickel/balsa/fission_smr miss.
+# - Skipped Exxon Hammerhead FID / Yellowtail COD (oil FPSO outside 18-sub taxonomy),
+#   Halliburton Zeus / Baker Hughes / State Grid NE UHV / Goldwind Sento Sé /
+#   Sinoma Cibao already. Thin nickel/balsa/fission_smr miss.
 
-shuffle_seed: 20261081
+shuffle_seed: 20261082
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- energy/power_plants_grid
-- resources/lithium
-- infrastructure/building_materials
-- resources/copper
-- energy/other_renewables
-- infrastructure/port_cranes
-- infrastructure/rail
-- resources/graphite
-- energy/solar
-- energy/fission_smr
-- infrastructure/bridges_roads
-- infrastructure/port_ownership
-- resources/water
-- resources/balsa
-- resources/nickel
 - resources/niobium
 - infrastructure/engineering_epc
+- resources/balsa
+- infrastructure/port_ownership
+- energy/other_renewables
+- resources/copper
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- resources/nickel
+- energy/power_plants_grid
+- resources/graphite
+- energy/solar
+- infrastructure/rail
 - energy/wind
+- resources/lithium
+- resources/water
+- energy/fission_smr
+- infrastructure/bridges_roads
 
 rows_found_this_cycle:
-  energy/power_plants_grid: 1
-  resources/lithium: 0
-  infrastructure/building_materials: 1
-  resources/copper: 1
+  resources/niobium: 0
+  infrastructure/engineering_epc: 5
+  resources/balsa: 0
+  infrastructure/port_ownership: 0
   energy/other_renewables: 0
+  resources/copper: 0
+  infrastructure/building_materials: 3
   infrastructure/port_cranes: 0
-  infrastructure/rail: 0
+  resources/nickel: 0
+  energy/power_plants_grid: 0
   resources/graphite: 0
-  energy/solar: 1
+  energy/solar: 0
+  infrastructure/rail: 0
+  energy/wind: 0
+  resources/lithium: 0
+  resources/water: 0
   energy/fission_smr: 0
   infrastructure/bridges_roads: 0
-  infrastructure/port_ownership: 0
-  resources/water: 0
-  resources/balsa: 0
-  resources/nickel: 0
-  resources/niobium: 0
-  infrastructure/engineering_epc: 3
-  energy/wind: 1
 
 coverage_cumulative:
-  # Active counts after cycle 81 (status=active)
+  # Active counts after cycle 82 (status=active)
   resources/balsa: 23
   infrastructure/bridges_roads: 32
-  infrastructure/building_materials: 36
+  infrastructure/building_materials: 39
   resources/copper: 30
-  infrastructure/engineering_epc: 82
+  infrastructure/engineering_epc: 87
   energy/fission_smr: 23
   resources/graphite: 23
   resources/lithium: 34
@@ -108,6 +107,14 @@ thin_topup:
   - energy/fission_smr
   # Hits: none on thinnest three.
   # Misses: nickel, balsa, fission_smr (graphite also 23).
+
+# Cycle 82 (seed 20261082): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (John Deere Canoas pulverizer R$42m us; John Deere
+#   Canoas electronics R$75m us; AGCO Jundiaí Reman USD 3.2m us; Flowserve Torreón
+#   MXN 800m proxy us; CHEC Grenada MBIA airport prc); building_materials (CRCC
+#   Coquimbo hospital UF 6.528m/~USD 274m prc; CRCC Red O’Higgins Rengo–Pichilemu
+#   USD 177m prc; CRCC Instituto Nacional de Neurocirugía UF 3.509m/~USD 147m prc).
+#   Thin top-up miss nickel/balsa/fission_smr. Merge --no-ff to main after build.
 
 # Cycle 81 (seed 20261081): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: power_plants_grid (GE Vernova San Felipe DR H-Class us); building_materials
