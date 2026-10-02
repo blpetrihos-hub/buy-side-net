@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 144
+cycle: 145
 remote: present
-active_layer: infrastructure
-active_subcategory: rail
-next_query: Cycle 145 shuffle_seed=20261145; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us280/prc288/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
-next_row_id: (follow cycle-145 shuffled_order)
+active_layer: energy
+active_subcategory: solar
+next_query: Cycle 146 shuffle_seed=20261146; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us282/prc290/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: AES Mesamávida 68 MW COD if distinct primary opens; AECOM Panama–David master-plan B/.2.2m (presidencia.gob.pa) for US rail; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
+next_row_id: (follow cycle-146 shuffled_order)
 dry_streak: 0
+
+# === Cycle 145 (seed 20261145) ===
+# Shuffled order: solar, port_ownership, other_renewables, graphite, balsa, wind,
+#   lithium, rail, water, engineering_epc, nickel, port_cranes, copper, niobium,
+#   bridges_roads, fission_smr, building_materials, power_plants_grid.
+# Logged 4 sourced rows (2 US / 2 PRC; thin dry; no padding):
+#   us solar: dfc_ienova_mexico_4solar_241m_2020 (DFC up to USD 241m / 426 MW).
+#   us wind: aes_andes_los_olmos_110mw_cod_2022 (110 MW Mulchén COD).
+#   prc wind: powerchina_las_acacias_colombia_240mw_epc_2024 (240 MW Cundinamarca EPC).
+#   prc rail: crec7_alameda_melipilla_depot_90m_2025 (USD 90m EFE depot).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: port_ownership, other_renewables, lithium, water,
+#   engineering_epc, nickel, port_cranes, copper, niobium, bridges_roads,
+#   fission_smr, building_materials, power_plants_grid, graphite, balsa.
+# Dense already-logged: Mauriti COD; Sajalices; Serra da Palmeira; Touros/Goldwind;
+#   El Barro; MMG Nickel Brazil SPA; State Grid NE UHV; ContourGlobal Quillagua
+#   (London HQ → allied candidate, still tagged us pending batch retag).
+# Holdovers opened next: AECOM Panama–David B/.2.2m (US rail); AES Mesamávida.
+# Active after cycle 145: us282 / prc290 / allied247 / other38 (n=857).
+shuffle_seed: 20261145
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/solar
+- infrastructure/port_ownership
+- energy/other_renewables
+- resources/graphite
+- resources/balsa
+- energy/wind
+- resources/lithium
+- infrastructure/rail
+- resources/water
+- infrastructure/engineering_epc
+- resources/nickel
+- infrastructure/port_cranes
+- resources/copper
+- resources/niobium
+- infrastructure/bridges_roads
+- energy/fission_smr
+- infrastructure/building_materials
+- energy/power_plants_grid
+rows_found_this_cycle:
+  energy/solar: 1
+  infrastructure/port_ownership: 0
+  energy/other_renewables: 0
+  resources/graphite: 0
+  resources/balsa: 0
+  energy/wind: 2
+  resources/lithium: 0
+  infrastructure/rail: 1
+  resources/water: 0
+  infrastructure/engineering_epc: 0
+  resources/nickel: 0
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  resources/niobium: 0
+  infrastructure/bridges_roads: 0
+  energy/fission_smr: 0
+  infrastructure/building_materials: 0
+  energy/power_plants_grid: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 2
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 144 (seed 20261144) ===
 # Shuffled order: copper, niobium, port_ownership, bridges_roads, solar, water,
