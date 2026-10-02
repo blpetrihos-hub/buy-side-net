@@ -1,0 +1,10 @@
+{
+  "id": "fhwa_novel_ciales_multi_2023",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_novel_ciales_20230725",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7323C000013_6925_-NONE-_-NONE-/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "THE PROJECT CONSISTS OF REPAIRING DAMAGE CAUSED BY HURRICANES IRMA AND MARIA ON PR-5568, KMS 0.7 AND 0.8; PR 568 KM 25.85; PR-157, KMS 1.2, 10.4, 16.4, AND 21.3; PR-155, KM 30.1 AND 30.2; AND PR-156, KMS 3.6, 4.4, 6.3-6.4, AND 3.7-3.8.",
+  "note": "Opened USASpending Award API: Novel Construction LLC; USD 15,510,660.50; date_signed 2023-07-25; PoP Ciales, PR."
+}
