@@ -8340,3 +8340,31 @@
   supports:
   - rq_aecom_ponce_rio_2021
   - hunt_infra_engineering_epc
+- id: usaspending_weston_maria_20171008
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9128F18F0002_9700_W9128F14D0024_9700
+    (Weston Solutions Inc; USACE Maria temporary power). Signed 8 October 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F18F0002_9700_W9128F14D0024_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F18F0002_9700_W9128F14D0024_9700/
+  annotation: 'USASpending primary: USD 218.4m Maria temporary power. Supports weston_maria_temp_power_2017.'
+  supports:
+  - weston_maria_temp_power_2017
+  - hunt_br_power_equip
+- id: usaspending_wsp_maria_install_20170920
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W911WN17F3031_9700_W911WN15D0001_9700
+    (WSP USA Solutions Inc; USACE Hurricane Maria Puerto Rico). Signed 20 September 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911WN17F3031_9700_W911WN15D0001_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911WN17F3031_9700_W911WN15D0001_9700/
+  annotation: 'USASpending primary: USD 597.0m Maria power equipment installation (PSC N030). Supports
+    wsp_maria_power_install_2017.'
+  supports:
+  - wsp_maria_power_install_2017
+  - hunt_br_power_equip
+- id: usaspending_foresight_guajataca_20181031
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP19C0003_9700_-NONE-_-NONE-
+    (Foresight Construction Group Inc; USACE Guajataca Dam gate repairs). Signed 31 October 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP19C0003_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP19C0003_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 1.1m Guajataca Dam gate repairs. Supports foresight_guajataca_gates_2018.'
+  supports:
+  - foresight_guajataca_gates_2018
+  - hunt_res_water

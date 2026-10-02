@@ -1,0 +1,10 @@
+{
+  "id": "wsp_maria_power_install_2017",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_wsp_maria_install_20170920",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911WN17F3031_9700_W911WN15D0001_9700/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "HURRICANE MARIA - PUERTO RICO",
+  "note": "Opened USASpending Award API: WSP; USD 596,980,875.96; date_signed 2017-09-20; PSC N030."
+}

@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 880,
+    "n_rows": 883,
     "counts": {
-      "total": 880,
-      "active": 788,
+      "total": 883,
+      "active": 791,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 655,
-      "on_map": 772
+      "documented": 658,
+      "on_map": 775
     }
   },
   "layer_readouts": [
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 66,
+        "us": 67,
         "prc": 41,
         "allied": 109,
-        "n": 216
+        "n": 217
       },
       "usd": {
-        "us": 26193470757.47,
-        "us_n": 36,
+        "us": 26194577225.02,
+        "us_n": 37,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -152,18 +152,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 94,
+        "us": 95,
         "prc": 99,
-        "allied": 73,
-        "n": 266
+        "allied": 74,
+        "n": 268
       },
       "usd": {
-        "us": 17857848479.190002,
-        "us_n": 36,
+        "us": 18076238222.54,
+        "us_n": 37,
         "prc": 4574477608.25,
         "prc_n": 14,
-        "allied": 4199259469.1200004,
-        "allied_n": 24
+        "allied": 4796240345.08,
+        "allied_n": 25
       },
       "matched_gaps": {
         "n": 1,
@@ -816,24 +816,24 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 57,
+        "us": 59,
         "prc": 0,
-        "allied": 7,
-        "n": 64
+        "allied": 8,
+        "n": 67
       },
       "usd": {
-        "us": 5976077437.900002,
-        "us_n": 55,
+        "us": 6195573648.800002,
+        "us_n": 57,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 115643935.68,
-        "allied_n": 7
+        "allied": 712624811.6400001,
+        "allied_n": 8
       },
       "by_layer": {
         "energy": {
-          "us": 15,
+          "us": 16,
           "prc": 0,
-          "allied": 3
+          "allied": 4
         },
         "infrastructure": {
           "us": 32,
@@ -841,7 +841,7 @@
           "allied": 4
         },
         "resources": {
-          "us": 10,
+          "us": 11,
           "prc": 0,
           "allied": 0
         }
@@ -1717,7 +1717,10 @@
       "wsp_maria_nonfederal_generators_2017",
       "thompson_guajataca_pumping_2018",
       "sungrow_hdec_atacama_480mw_2022",
-      "rq_aecom_ponce_rio_2021"
+      "rq_aecom_ponce_rio_2021",
+      "weston_maria_temp_power_2017",
+      "wsp_maria_power_install_2017",
+      "foresight_guajataca_gates_2018"
     ],
     "hunt": [
       "hunt_br_power_equip",

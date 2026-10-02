@@ -1,11 +1,77 @@
 updated: 2026-10-02
-cycle: 110
+cycle: 111
 remote: present
-active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 111 shuffle_seed=20261111; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us272/prc238/allied241); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue OEM newsDetail + USACE leftovers; thin top-up remains dry.
-next_row_id: (follow cycle-111 shuffled_order)
+active_layer: energy
+active_subcategory: power_plants_grid
+next_query: Cycle 112 shuffle_seed=20261112; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us274/prc238/allied242); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. USACE Maria/Guajataca backlog largely logged; continue OEM/regulator sweep.
+next_row_id: (follow cycle-112 shuffled_order)
 dry_streak: 0
+
+# === Cycle 111 (seed 20261111) ===
+# Shuffled order: building_materials, fission_smr, niobium, power_plants_grid,
+#   water, bridges_roads, port_ownership, wind, other_renewables, port_cranes,
+#   nickel, graphite, engineering_epc, lithium, rail, balsa, copper, solar.
+# Logged 3 sourced rows (honest US/allied; PRC OEM named-site pass dry;
+#   no padding):
+#   us power_plants_grid: weston_maria_temp_power_2017 (USD 218.4m USACE).
+#   allied power_plants_grid: wsp_maria_power_install_2017 (USD 597.0m USACE PSC N030).
+#   us water: foresight_guajataca_gates_2018 (USD 1.1m USACE).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: building_materials, fission_smr, niobium, bridges_roads,
+#   port_ownership, wind, other_renewables, port_cranes, nickel, graphite,
+#   engineering_epc, lithium, rail, balsa, copper, solar (dense prior).
+# Active after cycle 111: us274 / prc238 / allied242 / other37 (n=791).
+shuffle_seed: 20261111
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- energy/fission_smr
+- resources/niobium
+- energy/power_plants_grid
+- resources/water
+- infrastructure/bridges_roads
+- infrastructure/port_ownership
+- energy/wind
+- energy/other_renewables
+- infrastructure/port_cranes
+- resources/nickel
+- resources/graphite
+- infrastructure/engineering_epc
+- resources/lithium
+- infrastructure/rail
+- resources/balsa
+- resources/copper
+- energy/solar
+rows_found_this_cycle:
+  infrastructure/building_materials: 0
+  energy/fission_smr: 0
+  resources/niobium: 0
+  energy/power_plants_grid: 2
+  resources/water: 1
+  infrastructure/bridges_roads: 0
+  infrastructure/port_ownership: 0
+  energy/wind: 0
+  energy/other_renewables: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  resources/graphite: 0
+  infrastructure/engineering_epc: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  resources/balsa: 0
+  resources/copper: 0
+  energy/solar: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 0
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 110 (seed 20261110) ===
 # Shuffled order: port_cranes, port_ownership, other_renewables, lithium,
