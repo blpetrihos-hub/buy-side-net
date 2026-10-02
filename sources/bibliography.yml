@@ -10339,3 +10339,46 @@
   supports:
   - powerchina_botopasi_suriname_2025
   - hunt_energy_solar
+- id: powerchina_panama_country_20221010
+  type: company
+  chicago: POWERCHINA. “Panama.” October 10, 2022. https://en.powerchina.cn/2022-10/10/c_818779.htm.
+  url: https://en.powerchina.cn/2022-10/10/c_818779.htm
+  annotation: 'POWERCHINA Panama country page: City Water Pipeline ~USD 148.9m. Supports powerchina_panama_city_water_148p9m.'
+  supports:
+  - powerchina_panama_city_water_148p9m
+  - hunt_res_water
+- id: aes_panama_penonome_acq_20200428
+  type: company
+  chicago: AES Panamá. “AES Panama will continue to strengthen its energy portfolio through the acquisition
+    of a 55MW wind farm.” April 28, 2020. https://www.aespanama.com/en/press-release/aes-panama-will-continue-strengthen-its-energy-portfolio-through-acquisition-55mw.
+  url: https://www.aespanama.com/en/press-release/aes-panama-will-continue-strengthen-its-energy-portfolio-through-acquisition-55mw
+  annotation: 'AES Panamá primary: Penonomé I 55 MW acquisition from Goldwind. Supports aes_panama_penonome_i_55mw_2020.'
+  supports:
+  - aes_panama_penonome_i_55mw_2020
+  - hunt_energy_wind
+- id: powerchina_el_sillar_20231128
+  type: company
+  chicago: POWERCHINA. “Bolivian president praises highway project built by POWERCHINA.” November 28,
+    2023. https://en.powerchina.cn/2023-11/28/c_828626.htm.
+  url: https://en.powerchina.cn/2023-11/28/c_828626.htm
+  annotation: 'POWERCHINA primary: El Sillar Highway temporary acceptance / opening. Supports powerchina_el_sillar_bolivia_2023.'
+  supports:
+  - powerchina_el_sillar_bolivia_2023
+  - hunt_infra_bridges_roads
+- id: geoplatanares_hn_platanares
+  type: company
+  chicago: Geoplatanares. “Inicio.” Accessed October 2, 2026. https://www.geoplatanares.hn/.
+  url: https://www.geoplatanares.hn/
+  annotation: 'Geoplatanares primary: Platanares 35 MW Ormat geothermal Honduras. Supports ormat_platanares_honduras_35mw.'
+  supports:
+  - ormat_platanares_honduras_35mw
+  - hunt_energy_other_renewables
+- id: aes_elsalvador_banco_cuscatlan_ronco_20230314
+  type: company
+  chicago: AES El Salvador. “AES recibe reconocimiento de Banco Cuscatlán por impulsar la sostenibilidad
+    energética.” March 14, 2023. https://www.aes-elsalvador.com/es/press-release/aes-recibe-reconocimiento-de-banco-cuscatlan-por-impulsar-la-sostenibilidad.
+  url: https://www.aes-elsalvador.com/es/press-release/aes-recibe-reconocimiento-de-banco-cuscatlan-por-impulsar-la-sostenibilidad
+  annotation: 'AES El Salvador primary: El Ronco 21.4 MW / Banco Cuscatlán USD 14.8m. Supports aes_holcim_el_ronco_21p4mw_2023.'
+  supports:
+  - aes_holcim_el_ronco_21p4mw_2023
+  - hunt_energy_solar

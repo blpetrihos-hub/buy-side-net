@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1109,
+    "n_rows": 1114,
     "counts": {
-      "total": 1109,
-      "active": 911,
+      "total": 1114,
+      "active": 916,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 158,
       "exclude": 18,
-      "documented": 879,
-      "on_map": 893
+      "documented": 884,
+      "on_map": 898
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 128,
-        "prc": 111,
+        "prc": 112,
         "allied": 95,
-        "n": 334
+        "n": 335
       },
       "usd": {
         "us": 8181930640.119999,
@@ -129,15 +129,15 @@
       "layer": "resources",
       "counts": {
         "us": 63,
-        "prc": 55,
+        "prc": 56,
         "allied": 112,
-        "n": 230
+        "n": 231
       },
       "usd": {
         "us": 25859802296.0,
         "us_n": 30,
-        "prc": 13513272882.0,
-        "prc_n": 28,
+        "prc": 13662172882.0,
+        "prc_n": 29,
         "allied": 39952458653.2,
         "allied_n": 41
       },
@@ -151,14 +151,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 114,
+        "us": 117,
         "prc": 148,
         "allied": 83,
-        "n": 345
+        "n": 348
       },
       "usd": {
-        "us": 11811785515.13,
-        "us_n": 32,
+        "us": 11826585515.13,
+        "us_n": 33,
         "prc": 5778017778.25,
         "prc_n": 22,
         "allied": 6601418889.2300005,
@@ -327,9 +327,9 @@
       "country": "Bolivia",
       "counts": {
         "us": 0,
-        "prc": 6,
+        "prc": 7,
         "allied": 0,
-        "n": 6
+        "n": 7
       },
       "usd": {
         "us": 0.0,
@@ -347,7 +347,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 2,
+          "prc": 3,
           "allied": 0
         },
         "resources": {
@@ -622,14 +622,14 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 9,
+        "us": 10,
         "prc": 2,
         "allied": 2,
-        "n": 13
+        "n": 14
       },
       "usd": {
-        "us": 42000833.989999995,
-        "us_n": 3,
+        "us": 56800833.989999995,
+        "us_n": 4,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 150000000.0,
@@ -637,7 +637,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 8,
+          "us": 9,
           "prc": 1,
           "allied": 1
         },
@@ -772,10 +772,10 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 8,
+        "us": 9,
         "prc": 2,
         "allied": 1,
-        "n": 11
+        "n": 12
       },
       "usd": {
         "us": 429614829.68000007,
@@ -787,7 +787,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 1,
+          "us": 2,
           "prc": 2,
           "allied": 0
         },
@@ -893,22 +893,22 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 6,
-        "prc": 4,
+        "us": 7,
+        "prc": 5,
         "allied": 6,
-        "n": 16
+        "n": 18
       },
       "usd": {
         "us": 73180242.32,
         "us_n": 2,
-        "prc": 0.0,
-        "prc_n": 0,
+        "prc": 148900000.0,
+        "prc_n": 1,
         "allied": 391900000.0,
         "allied_n": 4
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 1,
           "allied": 1
         },
@@ -916,6 +916,11 @@
           "us": 4,
           "prc": 3,
           "allied": 5
+        },
+        "resources": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
         }
       }
     },
@@ -2052,7 +2057,12 @@
       "aes_metapan_apopa_1p5mwp_2022",
       "crcc_diego_martin_westmoorings_tt_2023",
       "china_antigua_water_repiping_60m_2025",
-      "powerchina_botopasi_suriname_2025"
+      "powerchina_botopasi_suriname_2025",
+      "powerchina_panama_city_water_148p9m",
+      "aes_panama_penonome_i_55mw_2020",
+      "powerchina_el_sillar_bolivia_2023",
+      "ormat_platanares_honduras_35mw",
+      "aes_holcim_el_ronco_21p4mw_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
