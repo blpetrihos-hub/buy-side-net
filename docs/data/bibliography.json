@@ -10034,5 +10034,133 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "halliburton_shell_gato_20250506",
+    "type": "company",
+    "chicago": "Halliburton. “Halliburton expands international scope with three new projects.” 6 May 2025.",
+    "url": "https://www.halliburton.com/en/about-us/press-release/halliburton-expands-international-scope-three-new-projects",
+    "annotation": "Halliburton Shell Gato do Mato Brazil well construction/completions. Supports halliburton_shell_gato_do_mato_brazil_2025.",
+    "supports": [
+      "halliburton_shell_gato_do_mato_brazil_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "halliburton_shell_gato_do_mato_brazil_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "atlas_campano_fc_20260414",
+    "type": "company",
+    "chicago": "Atlas Renewable Energy. “Atlas Renewable Energy garante financiamento de seu segundo projeto solar na Colômbia.” 14 April 2026.",
+    "url": "https://atlasrenewableenergy.com/pt/news-and-insights/atlas-renewable-energy-garante-financiamento-de-seu-segundo-projeto-solar-na-colombia-2/",
+    "annotation": "Atlas El Campano Solar FC — COP 292.1bn / USD 77.6m loan. Supports atlas_el_campano_fc_2026.",
+    "supports": [
+      "atlas_el_campano_fc_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "atlas_el_campano_fc_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "weatherford_q1_2026_20260421",
+    "type": "company",
+    "chicago": "Weatherford International. “Weatherford Announces First Quarter 2026 Results.” 21 April 2026.",
+    "url": "https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18491",
+    "annotation": "Q1 2026 awards list — HOCOL Colombia wireline; Shell Vaca Muerta artificial lift. Supports weatherford_hocol_colombia_2026 and weatherford_shell_argentina_lift_2026.",
+    "supports": [
+      "weatherford_hocol_colombia_2026",
+      "weatherford_shell_argentina_lift_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "weatherford_hocol_colombia_2026",
+      "weatherford_shell_argentina_lift_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_baranoa_20250123",
+    "type": "company",
+    "chicago": "PowerChina International. “中国电建哥伦比亚Baranoa 1期19.9兆瓦光伏项目并网发电.” 23 January 2025.",
+    "url": "https://www.powerchina-intl.com/show/9/4065.html",
+    "annotation": "POWERCHINA Baranoa Phase 1 19.9 MWac COD. Supports powerchina_baranoa_phase1_2025.",
+    "supports": [
+      "powerchina_baranoa_phase1_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_baranoa_phase1_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ctg_serra_palmeira_cod_20251016",
+    "type": "company",
+    "chicago": "China Three Gorges International. “Serra da Palmeira wind complex of CTG Brasil reached its full commission.” 16 October 2025.",
+    "url": "https://www.ctgi.cn/ctgi/new/esg_news_and_reports/shouye/2025101610492879215/index.html",
+    "annotation": "CTG Serra da Palmeira 648 MW full-capacity COD. Supports ctg_serra_palmeira_full_cod_2025.",
+    "supports": [
+      "ctg_serra_palmeira_full_cod_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "ctg_serra_palmeira_full_cod_2025",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "proinversion_marcona_handover_20260926",
+    "type": "official",
+    "chicago": "Agencia de Promoción de la Inversión Privada (PROINVERSIÓN). “ProInversión: Terminal Portuario de San Juan de Marcona avanza con entrega para su ejecución.” 26 September 2026.",
+    "url": "https://www.gob.pe/institucion/proinversion/noticias/1449419-proinversion-terminal-portuario-de-san-juan-de-marcona-avanza-con-entrega-para-su-ejecucion",
+    "annotation": "Marcona port land handover to San Juan Port / Jinzhao. Supports jinzhao_marcona_land_handover_2026.",
+    "supports": [
+      "jinzhao_marcona_land_handover_2026",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "jinzhao_marcona_land_handover_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_paranova_iii_20251211",
+    "type": "company",
+    "chicago": "PowerChina International. “中国电建在哥伦比亚承建的3个大型光伏项目全部并网发电.” 11 December 2025.",
+    "url": "https://www.powerchina-intl.com/show/9/4553.html",
+    "annotation": "POWERCHINA Paranova III COD within 260 MW Colombia trio. Supports powerchina_paranova_iii_cod_2025.",
+    "supports": [
+      "powerchina_paranova_iii_cod_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_paranova_iii_cod_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
