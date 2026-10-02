@@ -10884,5 +10884,149 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "slb_rio_dcoe_20260130",
+    "type": "company",
+    "chicago": "SLB. “SLB Opens Decommissioning Center in Rio to Support Brazil’s Offshore Retirement Cycle.” 30 January 2026.",
+    "url": "https://www.slb.com/newsroom/updates/2026/2026-0130-dcoe-brazil-update",
+    "annotation": "SLB Rio Decommissioning Center of Excellence opening with Petrobras ROBIN collaboration. Supports slb_rio_decommissioning_center_2026.",
+    "supports": [
+      "slb_rio_decommissioning_center_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "slb_rio_decommissioning_center_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "baker_hughes_q1_2026_results",
+    "type": "company",
+    "chicago": "Baker Hughes. “Baker Hughes Announces First-Quarter 2026 Results.” 2026.",
+    "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-First-Quarter-2026-Results/default.aspx",
+    "annotation": "Baker Hughes Q1 2026 results listing YPF Lucida RSS / PermaFORCE 3-year Vaca Muerta well-construction contract. Supports baker_hughes_ypf_lucida_rss_2026.",
+    "supports": [
+      "baker_hughes_ypf_lucida_rss_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "baker_hughes_ypf_lucida_rss_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "atlas_uruguay_sale_20260527",
+    "type": "company",
+    "chicago": "Atlas Renewable Energy. “Atlas Completes Strategic Rotation of Solar Assets in Uruguay and Continues Advancing its Growth Across the Region.” 27 May 2026.",
+    "url": "https://atlasrenewableenergy.com/news-and-insights/atlas-completes-strategic-rotation-of-solar-assets-in-uruguay-and-continues-advancing-its-growth-across-the-region/",
+    "annotation": "Atlas Miami HQ sale of 76 MWp Uruguay operating solar portfolio. Supports atlas_uruguay_solar_sale_76mwp_2026.",
+    "supports": [
+      "atlas_uruguay_solar_sale_76mwp_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "atlas_uruguay_solar_sale_76mwp_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_andes_gbm_sponsor_20260227",
+    "type": "company",
+    "chicago": "AES Andes. “AES Chile receives prestigious ‘Sponsor of the Year’ recognition from GB&M.” 27 February 2026.",
+    "url": "https://www.aesandes.com/en/press-release/aes-chile-receives-prestigious-sponsor-year-recognition-gbm",
+    "annotation": "AES Andes confirms US$1.745bn five-project Chile renewables Project Finance closes. Supports aes_chile_pf_1p745bn_2026.",
+    "supports": [
+      "aes_chile_pf_1p745bn_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "aes_chile_pf_1p745bn_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "prensa_amador_inaug_20240326",
+    "type": "press",
+    "chicago": "Hernández, Katiuska. “Inauguran finalmente el puerto de cruceros de Amador.” La Prensa (Panamá), 26 March 2024.",
+    "url": "https://www.prensa.com/economia/inauguran-finalmente-el-puerto-de-cruceros-de-amador/",
+    "annotation": "La Prensa inauguration naming CHEC contractor and US$206.7m CapEx (UNVERIFIED proxy). Supports chec_amador_cruise_port_panama.",
+    "supports": [
+      "chec_amador_cruise_port_panama",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "chec_amador_cruise_port_panama",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "jis_lakes_pen_chec_20251210",
+    "type": "government",
+    "chicago": "Jamaica Information Service. “Gov’t Steadfast in Mainstreaming Resilience Across Jamaica’s Economy – PM Holness.” 10 December 2025.",
+    "url": "https://jis.gov.jm/govt-steadfast-in-mainstreaming-resilience-across-jamaicas-economy-pm-holness/",
+    "annotation": "JIS confirms CHEC contractor and US$20m Lakes Pen Industrial Park CapEx. Supports chec_lakes_pen_industrial_jamaica_2025.",
+    "supports": [
+      "chec_lakes_pen_industrial_jamaica_2025",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "chec_lakes_pen_industrial_jamaica_2025",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "dpi_guyana_onderneeming_20251102",
+    "type": "government",
+    "chicago": "Department of Public Information (Guyana). “US$10.4M solar farm commissioned at Onderneeming in Region Two.” 2 November 2025.",
+    "url": "https://dpi.gov.gy/us10-4m-solar-farm-commissioned-at-onderneeming-in-region-two/",
+    "annotation": "DPI commissioning of Onderneeming 5 MW / US$10.4m GUYSOL solar+storage with SUMEC and XJ present. Supports sumec_guyana_onderneeming_solar_10p4m_2025.",
+    "supports": [
+      "sumec_guyana_onderneeming_solar_10p4m_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "sumec_guyana_onderneeming_solar_10p4m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "chec_nmia_runway12_20251127",
+    "type": "company",
+    "chicago": "China Harbour Engineering Company (CHEC Americas). “NMIA Runway Extension Project Completes Runway 12 Temporary Relocation.” 27 November 2025.",
+    "url": "https://www.checamerica.com/blog/2025/11/27/nmia-runway-extension-project-completes-runway-12-temporary-relocation/",
+    "annotation": "CHEC Americas confirms NMIA runway extension temporary relocation milestone. Supports chec_nmia_runway_resa_jamaica_2025.",
+    "supports": [
+      "chec_nmia_runway_resa_jamaica_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "chec_nmia_runway_resa_jamaica_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
