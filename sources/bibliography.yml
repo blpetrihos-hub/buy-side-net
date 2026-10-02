@@ -7994,3 +7994,60 @@
   supports:
   - mj_cardno_fhwa_pr10_inspect_2023
   - hunt_infra_engineering_epc
+- id: usaspending_weston_palo_seco_20230224
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9128F23F0065_9700_W9128F20D0005_9700
+    (Weston Solutions Inc; USACE temporary power Palo Seco). Signed 24 February 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F23F0065_9700_W9128F20D0005_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F23F0065_9700_W9128F20D0005_9700/
+  annotation: 'USASpending primary: USD 816.2m USACE temporary power at Palo Seco. Supports weston_palo_seco_temp_power_2023.'
+  supports:
+  - weston_palo_seco_temp_power_2023
+  - hunt_br_power_equip
+- id: usaspending_weston_san_juan_20230410
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9128F23F0089_9700_W9128F20D0005_9700
+    (Weston Solutions Inc; USACE temporary power San Juan). Signed 10 April 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F23F0089_9700_W9128F20D0005_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F23F0089_9700_W9128F20D0005_9700/
+  annotation: 'USASpending primary: USD 668.9m USACE temporary power at San Juan Power Plant. Supports
+    weston_san_juan_temp_power_2023.'
+  supports:
+  - weston_san_juan_temp_power_2023
+  - hunt_br_power_equip
+- id: sungrow_zelestra_aurora_20250519
+  type: company
+  chicago: Sungrow. “Zelestra Signs Major BESS Agreement with Sungrow for 1 GWh of Energy Storage at the
+    Aurora Hybrid Project in Chile.” 19 May 2025. https://www.sungrowpower.com/phi/en/newsdetail/6455.
+  url: https://www.sungrowpower.com/phi/en/newsdetail/6455
+  annotation: 'Sungrow primary: Aurora Tarapacá ~1 GWh PowerTitan 2.0 + 220 MWdc inverters. Supports sungrow_zelestra_aurora_bess_2025.'
+  supports:
+  - sungrow_zelestra_aurora_bess_2025
+  - hunt_energy_solar
+- id: usaspending_ferrovial_shaft6c_20240409
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W51DQV24C0002_9700_-NONE-_-NONE-
+    (Ferrovial Construcción PR LLC; USACE drilled shaft Type 6C). Signed 9 April 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W51DQV24C0002_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W51DQV24C0002_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 150.4m USACE drilled-shaft package. Supports ferrovial_usace_drilled_shaft_6c_2024.'
+  supports:
+  - ferrovial_usace_drilled_shaft_6c_2024
+  - hunt_res_water
+- id: usaspending_novel_cmp_20250930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W51DQV25CA007_9700_-NONE-_-NONE-
+    (Novel Construction LLC; USACE Canó Martín Peña CMP-ERP Contract 3 Phase 1). Signed 30 September 2025.
+    https://api.usaspending.gov/api/v2/awards/CONT_AWD_W51DQV25CA007_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W51DQV25CA007_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 57.4m USACE Canó Martín Peña excavation/stabilization. Supports
+    novel_cano_martin_pena_2025.'
+  supports:
+  - novel_cano_martin_pena_2025
+  - hunt_res_water
+- id: usaspending_curtin_sanjuan_20230609
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP23C0017_9700_-NONE-_-NONE-
+    (Curtin Maritime Corp; USACE San Juan Harbor dredging). Signed 9 June 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP23C0017_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP23C0017_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 54.2m San Juan Harbor dredging. Supports curtin_san_juan_harbor_dredge_2023.'
+  supports:
+  - curtin_san_juan_harbor_dredge_2023
+  - hunt_infra_engineering_epc

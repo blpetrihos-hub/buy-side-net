@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 843,
+    "n_rows": 849,
     "counts": {
-      "total": 843,
-      "active": 751,
+      "total": 849,
+      "active": 757,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 618,
-      "on_map": 735
+      "documented": 624,
+      "on_map": 741
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 104,
+        "us": 105,
         "prc": 97,
         "allied": 95,
-        "n": 296
+        "n": 297
       },
       "usd": {
-        "us": 3173871579.5299993,
-        "us_n": 36,
+        "us": 3228102346.9499993,
+        "us_n": 37,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 57,
+        "us": 59,
         "prc": 41,
         "allied": 109,
-        "n": 207
+        "n": 209
       },
       "usd": {
-        "us": 25812143622.0,
-        "us_n": 27,
+        "us": 26019935400.62,
+        "us_n": 29,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 83,
-        "prc": 93,
+        "us": 85,
+        "prc": 94,
         "allied": 70,
-        "n": 246
+        "n": 249
       },
       "usd": {
-        "us": 14875900000.0,
-        "us_n": 25,
+        "us": 16361046523.660002,
+        "us_n": 27,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4102359384.9300003,
@@ -323,9 +323,9 @@
       "country": "Chile",
       "counts": {
         "us": 34,
-        "prc": 27,
+        "prc": 28,
         "allied": 44,
-        "n": 105
+        "n": 106
       },
       "usd": {
         "us": 21411000000.0,
@@ -338,7 +338,7 @@
       "by_layer": {
         "energy": {
           "us": 22,
-          "prc": 19,
+          "prc": 20,
           "allied": 9
         },
         "infrastructure": {
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 29,
+        "us": 34,
         "prc": 0,
         "allied": 4,
-        "n": 33
+        "n": 38
       },
       "usd": {
-        "us": 2147896531.53,
-        "us_n": 27,
+        "us": 3895065601.23,
+        "us_n": 32,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 18743851.49,
@@ -831,17 +831,17 @@
       },
       "by_layer": {
         "energy": {
-          "us": 4,
+          "us": 6,
           "prc": 0,
           "allied": 0
         },
         "infrastructure": {
-          "us": 24,
+          "us": 25,
           "prc": 0,
           "allied": 4
         },
         "resources": {
-          "us": 1,
+          "us": 3,
           "prc": 0,
           "allied": 0
         }
@@ -1680,7 +1680,13 @@
       "atkinsrealis_fhwa_pr12_inspect_2024",
       "jacobs_fhwa_pr25_inspect_2026",
       "cdb_bndes_rmb5bn_2024",
-      "mj_cardno_fhwa_pr10_inspect_2023"
+      "mj_cardno_fhwa_pr10_inspect_2023",
+      "weston_palo_seco_temp_power_2023",
+      "weston_san_juan_temp_power_2023",
+      "sungrow_zelestra_aurora_bess_2025",
+      "ferrovial_usace_drilled_shaft_6c_2024",
+      "novel_cano_martin_pena_2025",
+      "curtin_san_juan_harbor_dredge_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
