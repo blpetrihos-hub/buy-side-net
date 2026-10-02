@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 883,
+    "n_rows": 885,
     "counts": {
-      "total": 883,
-      "active": 791,
+      "total": 885,
+      "active": 793,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 658,
-      "on_map": 775
+      "documented": 660,
+      "on_map": 777
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 112,
+        "us": 113,
         "prc": 97,
         "allied": 95,
-        "n": 304
+        "n": 305
       },
       "usd": {
-        "us": 3638776871.2399993,
-        "us_n": 44,
+        "us": 3673742696.919999,
+        "us_n": 45,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 67,
+        "us": 68,
         "prc": 41,
         "allied": 109,
-        "n": 217
+        "n": 218
       },
       "usd": {
-        "us": 26194577225.02,
-        "us_n": 37,
+        "us": 26412275293.010002,
+        "us_n": 38,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 59,
+        "us": 61,
         "prc": 0,
         "allied": 8,
-        "n": 67
+        "n": 69
       },
       "usd": {
-        "us": 6195573648.800002,
-        "us_n": 57,
+        "us": 6448237542.470002,
+        "us_n": 59,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -836,12 +836,12 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 32,
+          "us": 33,
           "prc": 0,
           "allied": 4
         },
         "resources": {
-          "us": 11,
+          "us": 12,
           "prc": 0,
           "allied": 0
         }
@@ -1720,7 +1720,9 @@
       "rq_aecom_ponce_rio_2021",
       "weston_maria_temp_power_2017",
       "wsp_maria_power_install_2017",
-      "foresight_guajataca_gates_2018"
+      "foresight_guajataca_gates_2018",
+      "flatiron_portugues_dam_2008",
+      "carro_de_diego_bridge_2007"
     ],
     "hunt": [
       "hunt_br_power_equip",

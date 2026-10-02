@@ -13951,5 +13951,41 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "usaspending_flatiron_portugues_20080327",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP08C0011_9700_-NONE-_-NONE- (Flatiron Dragados USA Inc.; USACE Portugués Dam). Signed 27 March 2008. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP08C0011_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP08C0011_9700_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 217.7m Portugués Dam construction. Supports flatiron_portugues_dam_2008.",
+    "supports": [
+      "flatiron_portugues_dam_2008",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "flatiron_portugues_dam_2008",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_carro_dediego_20070928",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP07C0024_9700_-NONE-_-NONE- (Carro & Carro Enterprises Inc; USACE De Diego Bridge). Signed 28 September 2007. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP07C0024_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP07C0024_9700_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 35.0m De Diego Bridge Contract 2D1. Supports carro_de_diego_bridge_2007.",
+    "supports": [
+      "carro_de_diego_bridge_2007",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "carro_de_diego_bridge_2007",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

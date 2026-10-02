@@ -1,11 +1,76 @@
 updated: 2026-10-02
-cycle: 111
+cycle: 112
 remote: present
-active_layer: energy
-active_subcategory: power_plants_grid
-next_query: Cycle 112 shuffle_seed=20261112; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us274/prc238/allied242); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. USACE Maria/Guajataca backlog largely logged; continue OEM/regulator sweep.
-next_row_id: (follow cycle-112 shuffled_order)
+active_layer: resources
+active_subcategory: water
+next_query: Cycle 113 shuffle_seed=20261113; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us276/prc238/allied242); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: graphite/balsa/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue State/USACE embassy + OEM/regulator sweep.
+next_row_id: (follow cycle-113 shuffled_order)
 dry_streak: 0
+
+# === Cycle 112 (seed 20261112) ===
+# Shuffled order: lithium, building_materials, port_ownership, engineering_epc,
+#   copper, graphite, rail, solar, water, port_cranes, nickel, bridges_roads,
+#   balsa, fission_smr, wind, other_renewables, power_plants_grid, niobium.
+# Logged 2 sourced rows (honest US; thin dry; no padding):
+#   us water: flatiron_portugues_dam_2008 (USD 217.7m USACE).
+#   us bridges_roads: carro_de_diego_bridge_2007 (USD 35.0m USACE).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: lithium, building_materials, port_ownership,
+#   engineering_epc, copper, graphite, rail, solar, port_cranes, nickel,
+#   balsa, fission_smr, wind, other_renewables, power_plants_grid, niobium
+#   (dense prior; Ferrovial RPN Contract 3 already logged).
+# Active after cycle 112: us276 / prc238 / allied242 / other37 (n=793).
+shuffle_seed: 20261112
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/lithium
+- infrastructure/building_materials
+- infrastructure/port_ownership
+- infrastructure/engineering_epc
+- resources/copper
+- resources/graphite
+- infrastructure/rail
+- energy/solar
+- resources/water
+- infrastructure/port_cranes
+- resources/nickel
+- infrastructure/bridges_roads
+- resources/balsa
+- energy/fission_smr
+- energy/wind
+- energy/other_renewables
+- energy/power_plants_grid
+- resources/niobium
+rows_found_this_cycle:
+  resources/lithium: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 0
+  infrastructure/engineering_epc: 0
+  resources/copper: 0
+  resources/graphite: 0
+  infrastructure/rail: 0
+  energy/solar: 0
+  resources/water: 1
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  infrastructure/bridges_roads: 1
+  resources/balsa: 0
+  energy/fission_smr: 0
+  energy/wind: 0
+  energy/other_renewables: 0
+  energy/power_plants_grid: 0
+  resources/niobium: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 111 (seed 20261111) ===
 # Shuffled order: building_materials, fission_smr, niobium, power_plants_grid,
