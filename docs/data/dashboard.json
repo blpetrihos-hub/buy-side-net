@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1071,
+    "n_rows": 1075,
     "counts": {
-      "total": 1071,
-      "active": 873,
+      "total": 1075,
+      "active": 877,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 155,
+      "proxy": 156,
       "exclude": 18,
-      "documented": 844,
-      "on_map": 855
+      "documented": 847,
+      "on_map": 859
     }
   },
   "layer_readouts": [
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 99,
-        "prc": 137,
+        "us": 101,
+        "prc": 139,
         "allied": 83,
-        "n": 319
+        "n": 323
       },
       "usd": {
         "us": 11511785515.13,
@@ -356,9 +356,9 @@
       "country": "Brazil",
       "counts": {
         "us": 79,
-        "prc": 74,
+        "prc": 75,
         "allied": 107,
-        "n": 260
+        "n": 261
       },
       "usd": {
         "us": 2658206020.5499997,
@@ -371,7 +371,7 @@
       "by_layer": {
         "energy": {
           "us": 15,
-          "prc": 43,
+          "prc": 44,
           "allied": 26
         },
         "infrastructure": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 36,
+        "us": 38,
         "prc": 39,
         "allied": 51,
-        "n": 126
+        "n": 128
       },
       "usd": {
         "us": 20511000000.0,
@@ -404,7 +404,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 23,
+          "us": 25,
           "prc": 30,
           "allied": 16
         },
@@ -705,9 +705,9 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 19,
+        "prc": 20,
         "allied": 0,
-        "n": 28
+        "n": 29
       },
       "usd": {
         "us": 534967000.0,
@@ -720,7 +720,7 @@
       "by_layer": {
         "energy": {
           "us": 2,
-          "prc": 10,
+          "prc": 11,
           "allied": 0
         },
         "infrastructure": {
@@ -1951,7 +1951,11 @@
       "aes_bayasol_60m_dr_2021",
       "aes_santanasol_45m_dr_2021",
       "crec_guyana_guysol_18mw_2025",
-      "sumec_guyana_charity_3mw_2025"
+      "sumec_guyana_charity_3mw_2025",
+      "aes_andes_codelco_ppa_1p6twh_2023",
+      "aes_andes_microsoft_chile_ppa_2022",
+      "ctg_arinos_first_unit_78p4mw_2024",
+      "sumec_guyana_trafalgar_8m_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
