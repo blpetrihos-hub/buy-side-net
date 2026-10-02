@@ -1,11 +1,85 @@
 updated: 2026-10-02
-cycle: 96
+cycle: 97
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 97 shuffle_seed=20261097; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us220/prc226/allied233); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/building_materials). Country×subcategory sweep both sides + regulators.
-next_row_id: (follow cycle-97 shuffled_order)
+next_query: Cycle 98 shuffle_seed=20261098; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us224/prc227/allied233); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/building_materials). Country×subcategory sweep both sides + regulators.
+next_row_id: (follow cycle-98 shuffled_order)
 dry_streak: 0
+
+# === Cycle 97 (seed 20261097) ===
+# Shuffled order: wind, lithium, solar, fission_smr, niobium, port_cranes,
+#   copper, building_materials, graphite, rail, balsa, port_ownership,
+#   nickel, water, other_renewables, bridges_roads, engineering_epc,
+#   power_plants_grid.
+# Logged 5 sourced rows (honest US/PRC split; no padding):
+#   us bridges_roads: fhwa_maglez_pr108_2025 (USD 20.16m FHWA).
+#   us bridges_roads: fhwa_lpc_pr1_pr10_adjuntas_2026 (USD 10.75m FHWA).
+#   us bridges_roads: fhwa_caribbean_sign_pr_er27_2026 (USD 14.97m FHWA).
+#   us bridges_roads: fhwa_jc_associates_pr_er16_2026 (USD 13.30m FHWA).
+#   prc bridges_roads: chexim_guyana_east_coast_192m_2022 (USD 192m CHEXIM).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr/niobium/
+#   building_materials also dry.
+# Equal-budget misses: wind, lithium, solar, fission_smr, niobium, port_cranes,
+#   copper, building_materials, graphite, rail, balsa, port_ownership, nickel,
+#   water, other_renewables, engineering_epc, power_plants_grid (dense prior +
+#   country×subcat sweep; Vestas Esquina / Goldwind Sento Sé / CMOC Cangrejos /
+#   Sinoma Cibao / Sungrow Observatorio already logged; Amaila unsigned;
+#   fertilizer Pampa out of scope).
+# Active after cycle 97: us224 / prc227 / allied233 / other37 (n=721).
+shuffle_seed: 20261097
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/wind
+- resources/lithium
+- energy/solar
+- energy/fission_smr
+- resources/niobium
+- infrastructure/port_cranes
+- resources/copper
+- infrastructure/building_materials
+- resources/graphite
+- infrastructure/rail
+- resources/balsa
+- infrastructure/port_ownership
+- resources/nickel
+- resources/water
+- energy/other_renewables
+- infrastructure/bridges_roads
+- infrastructure/engineering_epc
+- energy/power_plants_grid
+rows_found_this_cycle:
+  energy/wind: 0
+  resources/lithium: 0
+  energy/solar: 0
+  energy/fission_smr: 0
+  resources/niobium: 0
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  infrastructure/building_materials: 0
+  resources/graphite: 0
+  infrastructure/rail: 0
+  resources/balsa: 0
+  infrastructure/port_ownership: 0
+  resources/nickel: 0
+  resources/water: 0
+  energy/other_renewables: 0
+  infrastructure/bridges_roads: 5
+  infrastructure/engineering_epc: 0
+  energy/power_plants_grid: 0
+rows_by_side_this_cycle:
+  us: 4
+  prc: 1
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
+  # Misses: all three dry. Spare to fission_smr/niobium/building_materials also dry.
+coverage_cumulative:
 
 # === Cycle 96 (seed 20261096) ===
 # Shuffled order: bridges_roads, copper, power_plants_grid, water, nickel,
