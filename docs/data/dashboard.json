@@ -88,36 +88,36 @@
     }
   },
   "meta": {
-    "n_rows": 838,
+    "n_rows": 843,
     "counts": {
-      "total": 838,
-      "active": 746,
+      "total": 843,
+      "active": 751,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 613,
-      "on_map": 731
+      "documented": 618,
+      "on_map": 735
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 103,
-        "prc": 96,
-        "allied": 92,
-        "n": 291
+        "us": 104,
+        "prc": 97,
+        "allied": 95,
+        "n": 296
       },
       "usd": {
-        "us": 3171671353.5299993,
-        "us_n": 35,
+        "us": 3173871579.5299993,
+        "us_n": 36,
         "prc": 5033085094.13,
         "prc_n": 22,
-        "allied": 10686152874.11,
-        "allied_n": 27
+        "allied": 10696377851.490002,
+        "allied_n": 30
       },
       "matched_gaps": {
         "n": 1,
@@ -289,9 +289,9 @@
       "country": "Brazil",
       "counts": {
         "us": 70,
-        "prc": 63,
+        "prc": 64,
         "allied": 105,
-        "n": 238
+        "n": 239
       },
       "usd": {
         "us": 1782545000.0,
@@ -309,7 +309,7 @@
         },
         "infrastructure": {
           "us": 35,
-          "prc": 19,
+          "prc": 20,
           "allied": 29
         },
         "resources": {
@@ -816,18 +816,18 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 28,
+        "us": 29,
         "prc": 0,
-        "allied": 1,
-        "n": 29
+        "allied": 4,
+        "n": 33
       },
       "usd": {
-        "us": 2145696305.5300002,
-        "us_n": 26,
+        "us": 2147896531.53,
+        "us_n": 27,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 8518874.11,
-        "allied_n": 1
+        "allied": 18743851.49,
+        "allied_n": 4
       },
       "by_layer": {
         "energy": {
@@ -836,9 +836,9 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 23,
+          "us": 24,
           "prc": 0,
-          "allied": 1
+          "allied": 4
         },
         "resources": {
           "us": 1,
@@ -1675,7 +1675,12 @@
       "ganfeng_ppg_jv_framework_2025",
       "fhwa_jpi_anasco_2023",
       "fhwa_jpi_naguabo_2021",
-      "atkinsrealis_fhwa_pr_inspect_2023"
+      "atkinsrealis_fhwa_pr_inspect_2023",
+      "atkinsrealis_fhwa_yunque_inspect_2022",
+      "atkinsrealis_fhwa_pr12_inspect_2024",
+      "jacobs_fhwa_pr25_inspect_2026",
+      "cdb_bndes_rmb5bn_2024",
+      "mj_cardno_fhwa_pr10_inspect_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
