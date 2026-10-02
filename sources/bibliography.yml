@@ -8322,3 +8322,21 @@
   supports:
   - thompson_guajataca_pumping_2018
   - hunt_res_water
+- id: sungrow_atacama_480_20220524
+  type: company
+  chicago: Sungrow Power Supply Co., Ltd. “Sungrow to Supply a 480 MW PV Project in Chile with Turnkey
+    Inverter Solutions.” News release, 24 May 2022. https://en.sungrowpower.com/newsDetail/2669.
+  url: https://en.sungrowpower.com/newsDetail/2669
+  annotation: 'Company English primary: 480 MW Atacama Desert PV with POWERCHINA HDEC EPC. Supports sungrow_hdec_atacama_480mw_2022.'
+  supports:
+  - sungrow_hdec_atacama_480mw_2022
+  - hunt_energy_solar
+- id: usaspending_rq_aecom_ponce_20210622
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70Z04721FPONCRO00_7008_70Z04718DRQAECM00_7008
+    (RQ-AECOM 2 JV; USCG RIO Ponce rebuild). Signed 22 June 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04721FPONCRO00_7008_70Z04718DRQAECM00_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04721FPONCRO00_7008_70Z04718DRQAECM00_7008/
+  annotation: 'USASpending primary: USD 21.4m USCG RIO Ponce rebuild. Supports rq_aecom_ponce_rio_2021.'
+  supports:
+  - rq_aecom_ponce_rio_2021
+  - hunt_infra_engineering_epc

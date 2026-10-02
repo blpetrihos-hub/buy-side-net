@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 878,
+    "n_rows": 880,
     "counts": {
-      "total": 878,
-      "active": 786,
+      "total": 880,
+      "active": 788,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 653,
-      "on_map": 770
+      "documented": 655,
+      "on_map": 772
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 111,
+        "us": 112,
         "prc": 97,
         "allied": 95,
-        "n": 303
+        "n": 304
       },
       "usd": {
-        "us": 3617355263.3499994,
-        "us_n": 43,
+        "us": 3638776871.2399993,
+        "us_n": 44,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -153,9 +153,9 @@
       "layer": "energy",
       "counts": {
         "us": 94,
-        "prc": 98,
+        "prc": 99,
         "allied": 73,
-        "n": 265
+        "n": 266
       },
       "usd": {
         "us": 17857848479.190002,
@@ -323,9 +323,9 @@
       "country": "Chile",
       "counts": {
         "us": 34,
-        "prc": 29,
+        "prc": 30,
         "allied": 44,
-        "n": 107
+        "n": 108
       },
       "usd": {
         "us": 21411000000.0,
@@ -338,7 +338,7 @@
       "by_layer": {
         "energy": {
           "us": 22,
-          "prc": 21,
+          "prc": 22,
           "allied": 9
         },
         "infrastructure": {
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 56,
+        "us": 57,
         "prc": 0,
         "allied": 7,
-        "n": 63
+        "n": 64
       },
       "usd": {
-        "us": 5954655830.010001,
-        "us_n": 54,
+        "us": 5976077437.900002,
+        "us_n": 55,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 115643935.68,
@@ -836,7 +836,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 31,
+          "us": 32,
           "prc": 0,
           "allied": 4
         },
@@ -1715,7 +1715,9 @@
       "sungrow_focus_futura_juazeiro_2021",
       "sungrow_engie_bess_coya_638mwh_2022",
       "wsp_maria_nonfederal_generators_2017",
-      "thompson_guajataca_pumping_2018"
+      "thompson_guajataca_pumping_2018",
+      "sungrow_hdec_atacama_480mw_2022",
+      "rq_aecom_ponce_rio_2021"
     ],
     "hunt": [
       "hunt_br_power_equip",
