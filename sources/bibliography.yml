@@ -10842,3 +10842,55 @@
   supports:
   - ustda_jamaica_offshore_wind_875k
   - hunt_energy_wind
+- id: mef_uruguay_ferrocarril_central
+  type: government
+  chicago: Ministerio de Economía y Finanzas (Uruguay). “Proyecto Ferrocarril Central.” https://www.gub.uy/ministerio-economia-finanzas/politicas-y-gestion/proyecto-ferrocarril-central.
+  url: https://www.gub.uy/ministerio-economia-finanzas/politicas-y-gestion/proyecto-ferrocarril-central
+  annotation: 'Uruguay MEF: Sacyr/Grupo Vía Central Ferrocarril Central PPP; ops certificate Aug 2025.
+    Supports sacyr_via_central_ferrocarril_uruguay_2025.'
+  supports:
+  - sacyr_via_central_ferrocarril_uruguay_2025
+  - hunt_latam_rail_telecom
+- id: tn8_ccecc_matagalpa_water_20240418
+  type: news
+  chicago: 'Morales, Oscar. “EXCLUSIVA: Así avanza el proyecto del ferrocarril que construirá China en
+    Nicaragua.” TN8, April 18, 2024. https://www.tn8.ni/nacionales/exclusiva-asi-avanza-el-proyecto-del-ferrocarril-que-construira-china-en-nicaragua/.'
+  url: https://www.tn8.ni/nacionales/exclusiva-asi-avanza-el-proyecto-del-ferrocarril-que-construira-china-en-nicaragua/
+  annotation: 'TN8/CCECC VP: Matagalpa water/sewer/WWTP contract signed (CapEx blank). Supports ccecc_matagalpa_water_wwtp_nicaragua.'
+  supports:
+  - ccecc_matagalpa_water_wwtp_nicaragua
+  - hunt_res_water
+- id: voa_usaid_haiti_wash_20171224
+  type: government
+  chicago: Voice of America (U.S. government editorial). “Safe Water for Haiti.” December 24, 2017. https://editorials.voa.gov/a/safe-water-haiti/4175506.html.
+  url: https://editorials.voa.gov/a/safe-water-haiti/4175506.html
+  annotation: 'VOA/USAID: Haiti Water and Sanitation project USD 41.8m (DAI). Supports usaid_haiti_wash_41p8m_2017.'
+  supports:
+  - usaid_haiti_wash_41p8m_2017
+  - hunt_res_water
+- id: cscec_nuevas_victorias_fase1_20250825
+  type: company
+  chicago: China State Construction Engineering Corporation. “CSCEC-Built First Phase of Nicaragua’s Affordable
+    Housing Project Handed Over.” August 25, 2025. https://english.cscec.com/CompanyNews/CorporateNews/202508/3901201.html.
+  url: https://english.cscec.com/CompanyNews/CorporateNews/202508/3901201.html
+  annotation: 'CSCEC primary: Nuevas Victorias Phase 1 920 houses Managua handed over. Supports cscec_nuevas_victorias_fase1_920_nicaragua.'
+  supports:
+  - cscec_nuevas_victorias_fase1_920_nicaragua
+  - hunt_infra_building_materials
+- id: worldcargo_caucedo_zpmc_rtg_20250704
+  type: news
+  chicago: WorldCargo News. “More RTGs for Caucedo.” July 4, 2025. https://www.worldcargonews.com/cargo-handling-equipment/2025/07/more-rtgs-for-caucedo/.
+  url: https://www.worldcargonews.com/cargo-handling-equipment/2025/07/more-rtgs-for-caucedo/
+  annotation: 'WorldCargo News: ZPMC 3 RTGs Caucedo; USD 7.9m (proxy). Supports zpmc_caucedo_3rtg_7p9m_dr_2025.'
+  supports:
+  - zpmc_caucedo_3rtg_7p9m_dr_2025
+  - hunt_infra_port_cranes
+- id: acciona_chiripa_sale_20250917
+  type: company
+  chicago: ACCIONA Energía. “ACCIONA Energía Sells Its Stake in the Chiripa Wind Farm in Costa Rica to
+    Ecoenergía.” September 17, 2025. https://www.acciona-energia.com/updates/news/acciona-energia-sells-stake-chiripa-wind-farm-costa-rica-to-ecoenergia.
+  url: https://www.acciona-energia.com/updates/news/acciona-energia-sells-stake-chiripa-wind-farm-costa-rica-to-ecoenergia
+  annotation: 'ACCIONA primary: Chiripa 65% sale EV USD 80m. Supports acciona_chiripa_ev_80m_costa_rica_2025.'
+  supports:
+  - acciona_chiripa_ev_80m_costa_rica_2025
+  - hunt_energy_wind

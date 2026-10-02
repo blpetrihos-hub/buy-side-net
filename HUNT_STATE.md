@@ -1,21 +1,85 @@
 updated: 2026-10-02
-cycle: 166
+cycle: 167
 remote: present
-active_layer: energy
-active_subcategory: power_plants_grid
-next_query: Cycle 167 shuffle_seed=20261167; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us331/prc333/allied269); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/fission_smr/niobium still dry once this session; nickel+graphite used. Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many remain), Venezuela (17), Nicaragua rail/water/port_ownership, Colombia lithium/graphite/balsa, Peru nickel/niobium/graphite/balsa, Costa Rica grid, Paraguay wind/ports, Mexico fission, Uruguay empty cells. Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; POWERCHINA Suriname Nickerie if URL stabilizes; CCECC Nicaragua rail if feasibility. No U.S. territories.
-next_row_id: (follow cycle-167 shuffled_order)
+active_layer: infrastructure
+active_subcategory: rail
+next_query: Cycle 168 shuffle_seed=20261168; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us332/prc336/allied271); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/fission_smr/niobium still dry once this session; nickel+graphite used. Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many remain), Venezuela (17), Nicaragua rail/port_ownership, Colombia lithium/graphite/balsa, Peru nickel/niobium/graphite/balsa, Costa Rica grid, Paraguay wind/ports, Mexico fission. Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; POWERCHINA Suriname Nickerie if URL stabilizes; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
+next_row_id: (follow cycle-168 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 166) ===
-# Filled this cycle: Paraguay×power_plants_grid (allied Abengoa Chile Chaco Lote 2+3 USD 29.7m/35.7m),
-#   Nicaragua×port_cranes (prc Jiangsu Rainbow 4 RTGs Corinto), Haiti×engineering_epc (us Trigon Cap-Haïtien USD 43m),
-#   Colombia×copper US side (us Freeport Sierra Azul USD 4.8m 2025), Jamaica×solar (allied JPS/Marubeni USD 300m),
-#   Costa Rica×wind (allied Vestas 22 MW), Jamaica×port_ownership (allied KFTL/CMA Westlands USD 80m proxy),
-#   Jamaica×wind (us USTDA/Keystone offshore study USD 875k).
-# Still thin/empty priority cells: Haiti (many), Venezuela (17), Nicaragua rail/water/port_ownership,
+# === Country×subcategory sweep cells touched (session continuing from 167) ===
+# Filled this cycle: Uruguay×rail (allied Sacyr/Grupo Vía Central Ferrocarril Central),
+#   Nicaragua×water (prc CCECC Matagalpa water/WWTP contract), Haiti×water (us USAID WASH USD 41.8m),
+#   Nicaragua×building_materials (prc CSCEC Nuevas Victorias Phase 1 920 houses),
+#   Dominican Republic×port_cranes (prc ZPMC 3 RTGs Caucedo USD 7.9m proxy),
+#   Costa Rica×wind ownership (allied Acciona Chiripa EV USD 80m).
+# Still thin/empty priority cells: Haiti (many), Venezuela (17), Nicaragua rail/port_ownership,
 #   Colombia lithium/graphite/balsa, Peru nickel/niobium/graphite/balsa, Costa Rica grid,
 #   Paraguay wind/ports, Mexico fission.
+
+# === Cycle 167 (seed 20261167) ===
+# Shuffled order: rail, balsa, graphite, water, power_plants_grid, copper, fission_smr, wind,
+#   bridges_roads, other_renewables, building_materials, port_cranes, nickel, niobium,
+#   engineering_epc, port_ownership, solar, lithium.
+# Logged 6 sourced rows (1 US / 3 PRC / 2 allied; thin dry; no padding):
+#   allied rail: sacyr_via_central_ferrocarril_uruguay_2025 (CapEx blank; ops cert 2025).
+#   prc water: ccecc_matagalpa_water_wwtp_nicaragua (CapEx blank; proxy interview).
+#   us water: usaid_haiti_wash_41p8m_2017 (USD 41.8m).
+#   prc building_materials: cscec_nuevas_victorias_fase1_920_nicaragua (CapEx blank).
+#   prc port_cranes: zpmc_caucedo_3rtg_7p9m_dr_2025 (USD 7.9m proxy).
+#   allied wind: acciona_chiripa_ev_80m_costa_rica_2025 (USD 80m EV).
+# Thin top-up (balsa/fission_smr/niobium): all dry once this session — nickel/graphite already used.
+# Equal-budget misses: balsa, graphite, power_plants_grid, copper, fission_smr, bridges_roads,
+#   other_renewables, nickel, niobium, engineering_epc, port_ownership, solar, lithium.
+# Active after cycle 167: us332 / prc336 / allied271 / other39 (n=978).
+shuffle_seed: 20261167
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/rail
+- resources/balsa
+- resources/graphite
+- resources/water
+- energy/power_plants_grid
+- resources/copper
+- energy/fission_smr
+- energy/wind
+- infrastructure/bridges_roads
+- energy/other_renewables
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- resources/nickel
+- resources/niobium
+- infrastructure/engineering_epc
+- infrastructure/port_ownership
+- energy/solar
+- resources/lithium
+rows_found_this_cycle:
+  infrastructure/rail: 1
+  resources/balsa: 0
+  resources/graphite: 0
+  resources/water: 2
+  energy/power_plants_grid: 0
+  resources/copper: 0
+  energy/fission_smr: 0
+  energy/wind: 1
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 0
+  infrastructure/building_materials: 1
+  infrastructure/port_cranes: 1
+  resources/nickel: 0
+  resources/niobium: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/port_ownership: 0
+  energy/solar: 0
+  resources/lithium: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 2
+  other: 0
+thin_topup:
+  budget: 0.5_source_family
+  subcategories:
 
 # === Cycle 166 (seed 20261166) ===
 # Shuffled order: power_plants_grid, other_renewables, graphite, lithium, port_cranes,
