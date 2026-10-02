@@ -87,28 +87,28 @@
     }
   },
   "meta": {
-    "n_rows": 1016,
+    "n_rows": 1021,
     "counts": {
-      "total": 1016,
-      "active": 818,
+      "total": 1021,
+      "active": 823,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 789,
-      "on_map": 800
+      "documented": 794,
+      "on_map": 805
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 124,
+        "us": 125,
         "prc": 105,
         "allied": 94,
-        "n": 323
+        "n": 324
       },
       "usd": {
         "us": 8015263538.119999,
@@ -151,16 +151,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 84,
-        "prc": 113,
+        "us": 85,
+        "prc": 116,
         "allied": 74,
-        "n": 271
+        "n": 275
       },
       "usd": {
         "us": 11743785515.13,
         "us_n": 24,
-        "prc": 4627223950.25,
-        "prc_n": 15,
+        "prc": 4859083950.25,
+        "prc_n": 18,
         "allied": 5368418889.2300005,
         "allied_n": 24
       },
@@ -355,10 +355,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 75,
+        "us": 77,
         "prc": 70,
         "allied": 106,
-        "n": 251
+        "n": 253
       },
       "usd": {
         "us": 2565038918.5499997,
@@ -370,12 +370,12 @@
       },
       "by_layer": {
         "energy": {
-          "us": 13,
+          "us": 14,
           "prc": 39,
           "allied": 25
         },
         "infrastructure": {
-          "us": 38,
+          "us": 39,
           "prc": 22,
           "allied": 29
         },
@@ -705,22 +705,22 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 13,
+        "prc": 15,
         "allied": 0,
-        "n": 22
+        "n": 24
       },
       "usd": {
         "us": 534967000.0,
         "us_n": 2,
-        "prc": 791443358.73,
-        "prc_n": 8,
+        "prc": 873303358.73,
+        "prc_n": 10,
         "allied": 0.0,
         "allied_n": 0
       },
       "by_layer": {
         "energy": {
           "us": 2,
-          "prc": 4,
+          "prc": 6,
           "allied": 0
         },
         "infrastructure": {
@@ -971,22 +971,22 @@
       "country": "Suriname",
       "counts": {
         "us": 2,
-        "prc": 2,
+        "prc": 3,
         "allied": 0,
-        "n": 4
+        "n": 5
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 0.0,
-        "prc_n": 0,
+        "prc": 150000000.0,
+        "prc_n": 1,
         "allied": 0.0,
         "allied_n": 0
       },
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         },
         "infrastructure": {
@@ -1891,7 +1891,12 @@
       "fcx_cerro_verde_stake_107m_2026",
       "jinko_ess_chile_340mw_1600mwh_2025",
       "xinyuan_spic_atacama_bess_chile_rmb381m_2024",
-      "promigas_zelestra_latam_1p1bn_2026"
+      "promigas_zelestra_latam_1p1bn_2026",
+      "nfe_tgs_lease_brazil_2026",
+      "nfe_ute_lins2_brazil_2031",
+      "zijin_longking_rosebel_p2_suriname_150m_2026",
+      "zijin_longking_aurora_ug_guyana_55p24m_2026",
+      "zijin_longking_aurora_conc_p3_guyana_26p62m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
