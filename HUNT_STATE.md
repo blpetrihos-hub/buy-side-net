@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 85
+cycle: 86
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 86 shuffle_seed=20261086; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us199/prc208/allied222 after scope audit); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split. Scope-audit dry runs: if nickel/balsa/fission_smr still dry, move top-up to next-thinnest.
-next_row_id: (follow cycle-86 shuffled_order)
+next_query: Cycle 87 shuffle_seed=20261087; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us203/prc211/allied223); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split. If nickel/balsa/fission_smr dry, move top-up to next-thinnest.
+next_row_id: (follow cycle-87 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -49,67 +49,68 @@ dry_streak: 0
 # Kept: CSGI Enel Distribución Perú (power_plants_grid); cement/hospital/housing
 # construction under building_materials; oil/gas/mining EPC tied to listed
 # resources or energy; port/airport/rail EPC.
-# Post-audit active sides: us199 / prc208 / allied222 / other36 (n=665).
-# Post-audit thinnest: nickel 22; balsa/fission_smr/graphite 23.
+# Post-audit active sides before hunt: us199 / prc208 / allied222 / other36 (n=665).
 
-# Side-tag audit (cycles 57–63) — cycle 85 pre-merge (superseded by cycle 86
-# scope audit above for GM/Abbott/Tembici/GWM/Geely/CMOC Equinox rows):
-# - CSGI Enel Distribución Perú tagged prc (China Southern Power Grid) — kept.
-# - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
+# Side-tag audit — cycle 86:
+# - Fenix Nickel tagged us (New York LLC HQ). Weatherford / EXIM / McDermott tagged us.
+# - Sungrow / POWERCHINA tagged prc. CoreX Cerro Matoso tagged allied (Turkish HQ).
+# - Pumpco Argentina LNG value fill >USD 1bn from State fact sheet (proxy).
+# - Skipped CMOC Cangrejos (gold primary — out_of_scope). Skipped NADBank Texas WRF
+#   (United States host). Thin balsa/fission_smr miss; nickel hit (Fenix + CoreX).
 
-shuffle_seed: 20261085
+shuffle_seed: 20261086
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- infrastructure/port_cranes
-- energy/other_renewables
-- infrastructure/rail
-- energy/wind
-- resources/water
-- infrastructure/building_materials
 - energy/solar
+- energy/other_renewables
 - infrastructure/engineering_epc
 - resources/balsa
-- infrastructure/bridges_roads
-- resources/copper
-- resources/niobium
-- resources/graphite
-- energy/power_plants_grid
-- energy/fission_smr
-- resources/nickel
-- resources/lithium
 - infrastructure/port_ownership
+- energy/fission_smr
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- resources/copper
+- infrastructure/bridges_roads
+- energy/power_plants_grid
+- energy/wind
+- resources/water
+- resources/nickel
+- resources/niobium
+- resources/lithium
+- infrastructure/rail
+- resources/graphite
 
 rows_found_this_cycle:
+  energy/solar: 2
+  energy/other_renewables: 1
+  infrastructure/engineering_epc: 3
+  resources/balsa: 0
+  infrastructure/port_ownership: 0
+  energy/fission_smr: 0
+  infrastructure/building_materials: 0
   infrastructure/port_cranes: 0
-  energy/other_renewables: 0
-  infrastructure/rail: 0
+  resources/copper: 0
+  infrastructure/bridges_roads: 0
+  energy/power_plants_grid: 0
   energy/wind: 0
   resources/water: 0
-  infrastructure/building_materials: 0
-  energy/solar: 0
-  infrastructure/engineering_epc: 7
-  resources/balsa: 0
-  infrastructure/bridges_roads: 0
-  resources/copper: 0
+  resources/nickel: 2
   resources/niobium: 0
-  resources/graphite: 0
-  energy/power_plants_grid: 1
-  energy/fission_smr: 0
-  resources/nickel: 0
   resources/lithium: 0
-  infrastructure/port_ownership: 0
+  infrastructure/rail: 0
+  resources/graphite: 0
 
 coverage_cumulative:
-  # Active counts after cycle 86 scope audit (status=active)
+  # Active counts after cycle 86 (status=active)
   energy/fission_smr: 23
-  energy/other_renewables: 43
+  energy/other_renewables: 44
   energy/power_plants_grid: 58
-  energy/solar: 60
+  energy/solar: 62
   energy/wind: 30
   infrastructure/bridges_roads: 35
   infrastructure/building_materials: 40
-  infrastructure/engineering_epc: 78
+  infrastructure/engineering_epc: 81
   infrastructure/port_cranes: 32
   infrastructure/port_ownership: 33
   infrastructure/rail: 39
@@ -117,14 +118,14 @@ coverage_cumulative:
   resources/copper: 30
   resources/graphite: 23
   resources/lithium: 34
-  resources/nickel: 22
+  resources/nickel: 24
   resources/niobium: 26
   resources/water: 36
 
 rows_by_side_this_cycle:
   us: 4
-  prc: 4
-  allied: 0
+  prc: 3
+  allied: 1
   other: 0
 
 thin_topup:
@@ -133,8 +134,23 @@ thin_topup:
   - resources/nickel
   - resources/balsa
   - energy/fission_smr
-  # Hits: none on thinnest three.
-  # Misses: nickel, balsa, fission_smr.
+  # Hits: nickel (Fenix Guatemala us + CoreX Cerro Matoso allied).
+  # Misses: balsa (Plantabal/Gurit/DIAB already dense; no new distinct US/PRC
+  #   plantation/export row); fission_smr (CAREM/Meitner/Angra/Laguna Verde/
+  #   CNNC/123 already logged; Angra 3 debt pause is Brazilian domestic).
+  # Top-up reallocation: nickel yielded; did not burn dry repeats on balsa/
+  #   fission — spare half-budget noted, not forced into next-thinnest graphite
+  #   this cycle (nickel already filled both half-budgets effectively).
+
+# Cycle 86 (seed 20261086): 8 sourced rows (6 shuffled + 2 thin_topup nickel);
+#   shuffled: solar (Sungrow San Martín 273 MWac prc; POWERCHINA Mauriti 425 MW COD
+#   prc); other_renewables (Sungrow SC2000UD @ ENGIE Tocopilla prc); engineering_epc
+#   (Weatherford Ecopetrol 4×6y lift us; EXIM Argentina LNG USD 6bn term sheet proxy
+#   us; McDermott Argentina LNG NGL EPCC us); + Pumpco pipeline >USD 1bn value fill.
+#   Thin top-up nickel: Fenix El Estor USD 85m us; CoreX Cerro Matoso up-to USD 100m
+#   allied. Balsa/fission miss.
+#   rows_by_side: us 4 / prc 3 / allied 1 / other 0.
+#   Merge --no-ff to main after build.
 
 # Cycle 85 (seed 20261085): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: engineering_epc (GM Brazil +R$3.5bn us; DFC Serra Verde USD 565m us;
@@ -414,6 +430,13 @@ thin_topup:
 #   power_plants_grid, other_renewables, copper.
 
 seen_urls:
+- https://www.prensalibre.com/economia/fenix-nickel-reinicia-operaciones-en-izabal-inversiones-produccion-y-exportaciones-definen-ruta/
+- https://www.weatherford.com/documents/investor-presentations/weatherford-international-3q-2025-earnings-presentation/
+- https://www.state.gov/releases/office-of-the-spokesman/2026/09/united-states-and-argentina-launch-andes-atlantic-corridor-fact-sheet
+- https://www.sungrowpower.com/en/sungrow-partners-with-zelestra-to-supply-peru-largest-pv-project
+- https://www.coordinador.cl/wp-content/uploads/2026/01/A-1281-Engie-BESS-Tocopilla-Informe-de-Determinacion-de-Parametros-de-Partida-y-Detencion-V3.pdf
+- https://en.powerchina.cn/2025-09/15/c_828999.htm
+- https://announcements.asx.com.au/asxpdf/20250707/pdf/06ljfh53k10n88.pdf
 - https://www.halliburton.com/en/about-us/press-release/halliburton-expands-international-scope-three-new-projects
 - https://atlasrenewableenergy.com/pt/news-and-insights/atlas-renewable-energy-garante-financiamento-de-seu-segundo-projeto-solar-na-colombia-2/
 - https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18491

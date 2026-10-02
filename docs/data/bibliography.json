@@ -11761,5 +11761,133 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "prensa_libre_fenix_nickel_20260519",
+    "type": "press",
+    "chicago": "Bolaños, Rosa María. “Fenix Nickel reinicia operaciones en Izabal: inversiones, producción y exportaciones definen ruta.” Prensa Libre, 19 May 2026.",
+    "url": "https://www.prensalibre.com/economia/fenix-nickel-reinicia-operaciones-en-izabal-inversiones-produccion-y-exportaciones-definen-ruta/",
+    "annotation": "Guatemala Fenix Nickel / El Estor restart CapEx and New York HQ. Supports fenix_nickel_el_estor_85m_2026.",
+    "supports": [
+      "fenix_nickel_el_estor_85m_2026",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "fenix_nickel_el_estor_85m_2026",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "weatherford_3q2025_earnings_deck",
+    "type": "company",
+    "chicago": "Weatherford International plc. “Weatherford International 3Q 2025 Earnings Presentation.” Investor presentation PDF, 2025.",
+    "url": "https://www.weatherford.com/documents/investor-presentations/weatherford-international-3q-2025-earnings-presentation/",
+    "annotation": "Lists Ecopetrol four six-year artificial-lift awards in onshore Colombia. Supports weatherford_ecopetrol_lift_4x6y_colombia_2025.",
+    "supports": [
+      "weatherford_ecopetrol_lift_4x6y_colombia_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "weatherford_ecopetrol_lift_4x6y_colombia_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "state_andes_atlantic_corridor_20260923",
+    "type": "official",
+    "chicago": "United States Department of State, Office of the Spokesman. “United States and Argentina Launch Andes-Atlantic Corridor.” Fact sheet, 23 September 2026.",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/united-states-and-argentina-launch-andes-atlantic-corridor-fact-sheet",
+    "annotation": "States EXIM non-binding USD 6bn Argentina LNG term sheet and McDermott NGL/gas-treatment EPCC. Supports exim_argentina_lng_6bn_term_2026 and mcdermott_argentina_lng_ngl_epcc_2026.",
+    "supports": [
+      "exim_argentina_lng_6bn_term_2026",
+      "mcdermott_argentina_lng_ngl_epcc_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "exim_argentina_lng_6bn_term_2026",
+      "hunt_infra_engineering_epc",
+      "mcdermott_argentina_lng_ngl_epcc_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sungrow_san_martin_peru_20251120",
+    "type": "company",
+    "chicago": "Sungrow. “Sungrow Partners with Zelestra to Supply Peru’s Largest PV Project.” 20 November 2025.",
+    "url": "https://www.sungrowpower.com/en/sungrow-partners-with-zelestra-to-supply-peru-largest-pv-project",
+    "annotation": "Sungrow 1+X inverters for Zelestra San Martín 273 MWac COD. Supports sungrow_zelestra_san_martin_peru_273mw_2025.",
+    "supports": [
+      "sungrow_zelestra_san_martin_peru_273mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "sungrow_zelestra_san_martin_peru_273mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cen_bess_tocopilla_ppyd_202601",
+    "type": "official",
+    "chicago": "Coordinador Eléctrico Nacional (Chile). “Informe de Determinación de Parámetros de Partida y Detención — BESS Tocopilla.” PDF, January 2026.",
+    "url": "https://www.coordinador.cl/wp-content/uploads/2026/01/A-1281-Engie-BESS-Tocopilla-Informe-de-Determinacion-de-Parametros-de-Partida-y-Detencion-V3.pdf",
+    "annotation": "Documents sixty Sungrow SC2000UD inverters at ENGIE BESS Tocopilla. Supports sungrow_engie_tocopilla_sc2000ud_2026.",
+    "supports": [
+      "sungrow_engie_tocopilla_sc2000ud_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "sungrow_engie_tocopilla_sc2000ud_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "powerchina_mauriti_cod_20250915",
+    "type": "company",
+    "chicago": "POWERCHINA. “Mauriti Solar Complex in Brazil Commences Commercial Operation.” 15 September 2025.",
+    "url": "https://en.powerchina.cn/2025-09/15/c_828999.htm",
+    "annotation": "POWERCHINA Mauriti 425 MW COD in Ceará. Supports powerchina_mauriti_cod_425mw_2025.",
+    "supports": [
+      "powerchina_mauriti_cod_425mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_mauriti_cod_425mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "south32_cerro_matoso_divest_20250707",
+    "type": "company",
+    "chicago": "South32 Limited. “Agreement to Divest Cerro Matoso.” ASX announcement PDF, 7 July 2025.",
+    "url": "https://announcements.asx.com.au/asxpdf/20250707/pdf/06ljfh53k10n88.pdf",
+    "annotation": "South32 sale of Cerro Matoso to CoreX with up to USD 100m contingent consideration. Supports corex_cerro_matoso_colombia_2025.",
+    "supports": [
+      "corex_cerro_matoso_colombia_2025",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "corex_cerro_matoso_colombia_2025",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
