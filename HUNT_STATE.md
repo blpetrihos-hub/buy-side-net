@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 115
+cycle: 116
 remote: present
 active_layer: infrastructure
 active_subcategory: engineering_epc
-next_query: Cycle 116 shuffle_seed=20261116; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us292/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue State OBO backlog (Panama/Managua/Matamoros/Montevideo/Monterrey/Nuevo Laredo/Belmopan/Tijuana) + OEM/regulator sweep.
-next_row_id: (follow cycle-116 shuffled_order)
+next_query: Cycle 117 shuffle_seed=20261117; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us298/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Finish State OBO tail (Nuevo Laredo/Belmopan/Tijuana) then shift off embassy backlog to regulators/OEM.
+next_row_id: (follow cycle-117 shuffled_order)
 dry_streak: 0
+
+# === Cycle 116 (seed 20261116) ===
+# Shuffled order: port_cranes, power_plants_grid, lithium, rail,
+#   building_materials, wind, balsa, bridges_roads, port_ownership, nickel,
+#   solar, graphite, copper, engineering_epc, fission_smr, water,
+#   other_renewables, niobium.
+# Logged 6 sourced rows (honest US; thin dry; ZPMC/Trina/Goldwind named-site
+#   pass dense; no padding):
+#   us engineering_epc: caddell_panama_city_nec_2004 (USD 71.0m State).
+#   us engineering_epc: zachry_managua_nec_2004 (USD 68.3m State).
+#   us engineering_epc: bl_harbert_matamoros_nec_2015 (USD 124.6m State).
+#   us engineering_epc: perini_montevideo_chancery_2017 (USD 125.9m State).
+#   us engineering_epc: yates_desbuild_monterrey_nec_2009 (USD 124.8m State).
+#   us engineering_epc: rq_gtmo_jtf_barracks_2019 (USD 82.8m NAVFAC).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: port_cranes, power_plants_grid, lithium, rail,
+#   building_materials, wind, balsa, bridges_roads, port_ownership, nickel,
+#   solar, graphite, copper, fission_smr, water, other_renewables, niobium.
+# Active after cycle 116: us298 / prc239 / allied243 / other37 (n=817).
+shuffle_seed: 20261116
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- resources/lithium
+- infrastructure/rail
+- infrastructure/building_materials
+- energy/wind
+- resources/balsa
+- infrastructure/bridges_roads
+- infrastructure/port_ownership
+- resources/nickel
+- energy/solar
+- resources/graphite
+- resources/copper
+- infrastructure/engineering_epc
+- energy/fission_smr
+- resources/water
+- energy/other_renewables
+- resources/niobium
+rows_found_this_cycle:
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  infrastructure/building_materials: 0
+  energy/wind: 0
+  resources/balsa: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/port_ownership: 0
+  resources/nickel: 0
+  energy/solar: 0
+  resources/graphite: 0
+  resources/copper: 0
+  infrastructure/engineering_epc: 6
+  energy/fission_smr: 0
+  resources/water: 0
+  energy/other_renewables: 0
+  resources/niobium: 0
+rows_by_side_this_cycle:
+  us: 6
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 115 (seed 20261115) ===
 # Shuffled order: building_materials, power_plants_grid, lithium, port_cranes,

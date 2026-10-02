@@ -8548,3 +8548,57 @@
   supports:
   - fluor_haiti_nec_2005
   - hunt_infra_engineering_epc
+- id: usaspending_caddell_panama_20040915
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SALMEC04C0026_1900_-NONE-_-NONE-
+    (Caddell Construction Co. Inc; Panama). Signed 2004-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0026_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0026_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports caddell_panama_city_nec_2004.
+  supports:
+  - caddell_panama_city_nec_2004
+  - hunt_infra_engineering_epc
+- id: usaspending_zachry_managua_20040921
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SALMEC04C0031_1900_-NONE-_-NONE-
+    (Zachry International Inc; Nicaragua). Signed 2004-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0031_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0031_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports zachry_managua_nec_2004.
+  supports:
+  - zachry_managua_nec_2004
+  - hunt_infra_engineering_epc
+- id: usaspending_harbert_matamoros_20150930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15C0250_1900_-NONE-_-NONE-
+    (BL Harbert International LLC; Mexico). Signed 2015-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0250_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0250_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports bl_harbert_matamoros_nec_2015.
+  supports:
+  - bl_harbert_matamoros_nec_2015
+  - hunt_infra_engineering_epc
+- id: usaspending_perini_montevideo_20170810
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0244_1900_-NONE-_-NONE-
+    (Perini Management Services Inc; Uruguay). Signed 2017-08-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0244_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0244_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports perini_montevideo_chancery_2017.
+  supports:
+  - perini_montevideo_chancery_2017
+  - hunt_infra_engineering_epc
+- id: usaspending_yates_monterrey_20090930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA09C0282_1900_-NONE-_-NONE-
+    (Yates Desbuild Joint Venture; Mexico). Signed 2009-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA09C0282_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA09C0282_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports yates_desbuild_monterrey_nec_2009.
+  supports:
+  - yates_desbuild_monterrey_nec_2009
+  - hunt_infra_engineering_epc
+- id: usaspending_rq_gtmo_barracks_20190930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945019C1324_9700_-NONE-_-NONE-
+    (RQ Construction LLC; Cuba). Signed 2019-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945019C1324_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945019C1324_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports rq_gtmo_jtf_barracks_2019.
+  supports:
+  - rq_gtmo_jtf_barracks_2019
+  - hunt_infra_engineering_epc
