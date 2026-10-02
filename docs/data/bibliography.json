@@ -15067,5 +15067,95 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "powerchina_sajalices_20241225",
+    "type": "company",
+    "chicago": "POWERCHINA. “POWERCHINA to develop solar power in Panama.” 25 December 2024. https://en.powerchina.cn/2024-12/25/c_828846.htm.",
+    "url": "https://en.powerchina.cn/2024-12/25/c_828846.htm",
+    "annotation": "POWERCHINA English primary on Sajalices 530 MW EPC signing. CapEx not stated. Supports powerchina_sajalices_panama_530mw_2024.",
+    "supports": [
+      "powerchina_sajalices_panama_530mw_2024",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_sajalices_panama_530mw_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_cmf_inagua_20110309",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting cmf_great_inagua_opbat_2011. Signed 2011-03-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4710C3EFK08_7008_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4710C3EFK08_7008_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports cmf_great_inagua_opbat_2011.",
+    "supports": [
+      "cmf_great_inagua_opbat_2011",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "cmf_great_inagua_opbat_2011",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cce_soto_cano_20110825",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting cce_soto_cano_barracks_2011. Signed 2011-08-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811C0028_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811C0028_9700_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports cce_soto_cano_barracks_2011.",
+    "supports": [
+      "cce_soto_cano_barracks_2011",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "cce_soto_cano_barracks_2011",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_perini_haiti_subs_20110728",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting perini_haiti_substations_2011. Signed 2011-07-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C001100012_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C001100012_7200_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports perini_haiti_substations_2011.",
+    "supports": [
+      "perini_haiti_substations_2011",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "perini_haiti_substations_2011"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_cavagnero_pos_20200915",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting cavagnero_pos_nec_bridging_2020. Signed 2020-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F3492_1900_19AQMM19D0065_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F3492_1900_19AQMM19D0065_1900/",
+    "annotation": "Primary source. Supports cavagnero_pos_nec_bridging_2020.",
+    "supports": [
+      "cavagnero_pos_nec_bridging_2020",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "cavagnero_pos_nec_bridging_2020",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
