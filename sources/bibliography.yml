@@ -6452,3 +6452,75 @@
   supports:
   - chec_nmia_runway_resa_jamaica_2025
   - hunt_infra_engineering_epc
+
+- id: nov_q1_2026_earnings
+  type: company
+  chicago: "NOV Inc. “NOV Reports First Quarter 2026 Earnings.” 28 April 2026."
+  url: https://investors.nov.com/news-releases/news-release-details/nov-reports-first-quarter-2026-earnings
+  annotation: NOV Q1 2026 earnings naming 96 km Brazil flexible riser/flowline award. Supports nov_brazil_flex_risers_96km_2026.
+  supports:
+  - nov_brazil_flex_risers_96km_2026
+  - hunt_infra_engineering_epc
+
+- id: slb_petronas_suriname_20260407
+  type: company
+  chicago: "SLB. “SLB OneSubsea and Subsea7 Sign Collaboration Agreement with PETRONAS Suriname.” 7 April 2026."
+  url: https://www.slb.com/newsroom/press-release/2026/pr-2026-0407-slb-oss-subsea7-petronas
+  annotation: SLB strategic collaboration framework with PETRONAS Suriname via Subsea Integration Alliance. Supports slb_petronas_suriname_sca_2026.
+  supports:
+  - slb_petronas_suriname_sca_2026
+  - hunt_infra_engineering_epc
+
+- id: excelerate_q2_2025_reliq
+  type: company
+  chicago: "Excelerate Energy. “Excelerate Energy Reports Strong Second Quarter 2025 Results and Raises Full-Year Guidance.” 2025."
+  url: https://excelerateenergy.com/news/excelerate-energy-reports-strong-second-quarter-2025-results-and-raises-full-year-guidance/
+  annotation: Excelerate–Petrobras agreement to install reliquefaction unit on FSRU Experience (Guanabara Bay). Supports excelerate_experience_reliq_brazil_2025.
+  supports:
+  - excelerate_experience_reliq_brazil_2025
+  - hunt_energy_power_plants_grid
+
+- id: datamar_nov_acu_lease_2026
+  type: press
+  chicago: "DatamarNews. “Port of Açu and NOV Sign Agreement to Expand Operations in Brazil.” 2026."
+  url: https://datamarnews.com/noticias/port-of-acu-and-nov-sign-agreement-to-expand-operations-in-brazil/
+  annotation: UNVERIFIED proxy for NOV Açu lease expansion (+30,000 m² through 2047). Supports nov_acu_lease_expansion_2047_2026.
+  supports:
+  - nov_acu_lease_expansion_2047_2026
+  - hunt_infra_engineering_epc
+
+- id: anin_chulucanas_frias_20260317
+  type: government
+  chicago: "Autoridad Nacional de Infraestructura (ANIN). “ANIN suscribe contrato para la ejecución de la nueva carretera Chulucanas – Frías.” 17 March 2026."
+  url: https://www.gob.pe/institucion/anin/noticias/1367141-anin-suscribe-contrato-para-la-ejecucion-de-la-nueva-carretera-chulucanas-frias
+  annotation: ANIN contract award to Consorcio Ingeniería Vial Perú (China Railway No.10) for S/545.8m Yapatera–Frías road. Supports china_railway_no10_piura_yapatera_frias_2026.
+  supports:
+  - china_railway_no10_piura_yapatera_frias_2026
+  - hunt_infra_bridges_roads
+
+- id: dpi_guyana_dbis_tx_20250404
+  type: government
+  chicago: "Department of Public Information (Guyana). “US$422.2M contracts inked for expansion of transmission lines to boost electricity supply in Guyana.” 4 April 2025."
+  url: https://dpi.gov.gy/us422-2m-contracts-inked-for-expansion-of-transmission-lines-to-boost-electricity-supply-in-guyana/
+  annotation: DPI names PowerChina Lots I+III at US$256.7m on Demerara–Berbice transmission Phase II. Supports powerchina_guyana_dbis_phase2_256p7m_2025.
+  supports:
+  - powerchina_guyana_dbis_phase2_256p7m_2025
+  - hunt_energy_power_plants_grid
+
+- id: observer_boundbrook_chec_20250411
+  type: press
+  chicago: "Jamaica Observer. “$4.2-billion urban centre for Portland.” 11 April 2025."
+  url: https://www.jamaicaobserver.com/2025/04/11/4-2-billion-urban-centre-portland/
+  annotation: UNVERIFIED proxy naming CHEC Boundbrook Urban Centre contract and J$2.8bn construction / J$4.2bn total. Supports chec_boundbrook_urban_jamaica_2025.
+  supports:
+  - chec_boundbrook_urban_jamaica_2025
+  - hunt_infra_building_materials
+
+- id: chec_northern_parcel_20260114
+  type: company
+  chicago: "China Harbour Engineering Company (CHEC Americas). “Chinese Ambassador to Jamaica Visits Phase I of Northern Parcel Villa Project.” 14 January 2026."
+  url: https://www.checamerica.com/blog/2026/01/14/chinese-ambassador-to-jamaica-visits-phase-i-of-northern-parcel-villa-project/
+  annotation: CHEC Americas confirms Phase I Northern Parcel Villa Project under CHEC Jamaica Office. Supports chec_northern_parcel_villa_jamaica_2026.
+  supports:
+  - chec_northern_parcel_villa_jamaica_2026
+  - hunt_infra_building_materials

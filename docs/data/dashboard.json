@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 679,
+    "n_rows": 687,
     "counts": {
-      "total": 679,
-      "active": 624,
+      "total": 687,
+      "active": 632,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 131,
+      "proxy": 133,
       "exclude": 5,
-      "documented": 489,
-      "on_map": 612
+      "documented": 495,
+      "on_map": 620
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 63,
-        "prc": 75,
+        "us": 66,
+        "prc": 78,
         "allied": 92,
-        "n": 230
+        "n": 236
       },
       "usd": {
         "us": 2747000000.0,
@@ -152,16 +152,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 70,
-        "prc": 70,
+        "us": 71,
+        "prc": 71,
         "allied": 64,
-        "n": 204
+        "n": 206
       },
       "usd": {
         "us": 8446300000.0,
         "us_n": 17,
-        "prc": 1217777608.25,
-        "prc_n": 12,
+        "prc": 1474477608.25,
+        "prc_n": 13,
         "allied": 3521859384.9300003,
         "allied_n": 18
       },
@@ -264,10 +264,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 58,
+        "us": 61,
         "prc": 53,
         "allied": 103,
-        "n": 214
+        "n": 217
       },
       "usd": {
         "us": 1602545000.0,
@@ -279,12 +279,12 @@
       },
       "by_layer": {
         "energy": {
-          "us": 10,
+          "us": 11,
           "prc": 26,
           "allied": 25
         },
         "infrastructure": {
-          "us": 24,
+          "us": 26,
           "prc": 20,
           "allied": 30
         },
@@ -551,22 +551,22 @@
       "country": "Guyana",
       "counts": {
         "us": 7,
-        "prc": 5,
+        "prc": 6,
         "allied": 0,
-        "n": 12
+        "n": 13
       },
       "usd": {
         "us": 527000000.0,
         "us_n": 1,
-        "prc": 60346171.06,
-        "prc_n": 3,
+        "prc": 317046171.06,
+        "prc_n": 4,
         "allied": 0.0,
         "allied_n": 0
       },
       "by_layer": {
         "energy": {
           "us": 2,
-          "prc": 3,
+          "prc": 4,
           "allied": 0
         },
         "infrastructure": {
@@ -609,9 +609,9 @@
       "country": "Jamaica",
       "counts": {
         "us": 1,
-        "prc": 9,
+        "prc": 11,
         "allied": 1,
-        "n": 11
+        "n": 13
       },
       "usd": {
         "us": 1055000000.0,
@@ -629,7 +629,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 9,
+          "prc": 11,
           "allied": 0
         }
       }
@@ -725,9 +725,9 @@
       "country": "Peru",
       "counts": {
         "us": 10,
-        "prc": 23,
+        "prc": 24,
         "allied": 20,
-        "n": 53
+        "n": 54
       },
       "usd": {
         "us": 5635000000.0,
@@ -745,7 +745,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 11,
+          "prc": 12,
           "allied": 12
         },
         "resources": {
@@ -787,10 +787,10 @@
     {
       "country": "Suriname",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 0,
         "allied": 0,
-        "n": 1
+        "n": 2
       },
       "usd": {
         "us": 0.0,
@@ -802,7 +802,7 @@
       },
       "by_layer": {
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 0,
           "allied": 0
         }
@@ -1485,7 +1485,15 @@
       "chec_amador_cruise_port_panama",
       "chec_lakes_pen_industrial_jamaica_2025",
       "sumec_guyana_onderneeming_solar_10p4m_2025",
-      "chec_nmia_runway_resa_jamaica_2025"
+      "chec_nmia_runway_resa_jamaica_2025",
+      "nov_brazil_flex_risers_96km_2026",
+      "slb_petronas_suriname_sca_2026",
+      "excelerate_experience_reliq_brazil_2025",
+      "nov_acu_lease_expansion_2047_2026",
+      "china_railway_no10_piura_yapatera_frias_2026",
+      "powerchina_guyana_dbis_phase2_256p7m_2025",
+      "chec_boundbrook_urban_jamaica_2025",
+      "chec_northern_parcel_villa_jamaica_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
