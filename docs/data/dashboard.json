@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 646,
+    "n_rows": 654,
     "counts": {
-      "total": 646,
-      "active": 591,
+      "total": 654,
+      "active": 599,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 128,
+      "proxy": 129,
       "exclude": 5,
-      "documented": 459,
-      "on_map": 579
+      "documented": 466,
+      "on_map": 587
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 58,
-        "prc": 63,
+        "prc": 65,
         "allied": 92,
-        "n": 213
+        "n": 215
       },
       "usd": {
         "us": 2747000000.0,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 59,
-        "prc": 65,
+        "us": 63,
+        "prc": 67,
         "allied": 64,
-        "n": 188
+        "n": 194
       },
       "usd": {
         "us": 5646300000.0,
@@ -298,10 +298,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 27,
-        "prc": 17,
+        "us": 30,
+        "prc": 18,
         "allied": 43,
-        "n": 87
+        "n": 91
       },
       "usd": {
         "us": 16666000000.0,
@@ -313,8 +313,8 @@
       },
       "by_layer": {
         "energy": {
-          "us": 15,
-          "prc": 12,
+          "us": 18,
+          "prc": 13,
           "allied": 8
         },
         "infrastructure": {
@@ -332,10 +332,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 5,
+        "us": 6,
         "prc": 13,
         "allied": 9,
-        "n": 27
+        "n": 28
       },
       "usd": {
         "us": 227600000.0,
@@ -347,7 +347,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 4,
+          "us": 5,
           "prc": 10,
           "allied": 2
         },
@@ -454,9 +454,9 @@
       "country": "Ecuador",
       "counts": {
         "us": 12,
-        "prc": 10,
+        "prc": 11,
         "allied": 15,
-        "n": 37
+        "n": 38
       },
       "usd": {
         "us": 181496670.0,
@@ -474,7 +474,7 @@
         },
         "infrastructure": {
           "us": 1,
-          "prc": 2,
+          "prc": 3,
           "allied": 2
         },
         "resources": {
@@ -580,9 +580,9 @@
       "country": "Honduras",
       "counts": {
         "us": 1,
-        "prc": 0,
+        "prc": 1,
         "allied": 1,
-        "n": 2
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -593,6 +593,11 @@
         "allied_n": 1
       },
       "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        },
         "infrastructure": {
           "us": 1,
           "prc": 0,
@@ -720,9 +725,9 @@
       "country": "Peru",
       "counts": {
         "us": 10,
-        "prc": 20,
+        "prc": 21,
         "allied": 20,
-        "n": 50
+        "n": 51
       },
       "usd": {
         "us": 5635000000.0,
@@ -740,7 +745,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 8,
+          "prc": 9,
           "allied": 12
         },
         "resources": {
@@ -1442,7 +1447,15 @@
       "powerchina_santo_domingo_water_ecuador_2026",
       "chec_kingston_yard_phase1_jamaica_2025",
       "cccc_el_curval_water_santa_marta_2026",
-      "catl_moura_lrcap_partnership_brazil_2026"
+      "catl_moura_lrcap_partnership_brazil_2026",
+      "atlas_shangri_la_colombia_201mwp_2025",
+      "atlas_bess_del_desierto_chile_2025",
+      "aes_atacama_bess_250mw_chile_2026",
+      "aes_atacama_solar_acquisition_2025",
+      "powerchina_honduras_enee_230kv_2025",
+      "powerchina_chile_g04_san_juan_algarrobal_2025",
+      "chec_posorja_multipurpose_2026",
+      "cggc_boca_del_rio_tacna_608m_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
