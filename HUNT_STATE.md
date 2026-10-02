@@ -1,11 +1,80 @@
 updated: 2026-10-02
-cycle: 103
+cycle: 104
 remote: present
 active_layer: energy
-active_subcategory: power_plants_grid
-next_query: Cycle 104 shuffle_seed=20261104; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us249/prc233/allied238); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. Continue USACE Caribbean Civil Works backlog + PRC OEM/company releases (Sungrow Aurora logged); thin top-up remains dry.
-next_row_id: (follow cycle-104 shuffled_order)
+active_subcategory: other_renewables
+next_query: Cycle 105 shuffle_seed=20261105; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us253/prc234/allied238); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. Continue USACE Caribbean Civil Works + PRC OEM releases (TrinaTracker Lagoa do Barro logged); thin top-up remains dry.
+next_row_id: (follow cycle-105 shuffled_order)
 dry_streak: 0
+
+# === Cycle 104 (seed 20261104) ===
+# Shuffled order: solar, building_materials, rail, engineering_epc, fission_smr,
+#   power_plants_grid, wind, port_cranes, copper, water, other_renewables,
+#   bridges_roads, port_ownership, nickel, lithium, balsa, graphite, niobium.
+# Logged 5 sourced rows (honest US/PRC split; no padding):
+#   prc solar: trinatracker_cgn_lagoa_barro_2025 (1,083 Vanguard 1P; 56.11 MWp; CapEx blank).
+#   us other_renewables: rq_lord_ramey_arc_microgrid_2024 (USD 19.5m USACE ERCIP).
+#   us other_renewables: parsons_pesquera_arc_microgrid_2024 (USD 17.2m USACE).
+#   us other_renewables: johnson_controls_buchanan_res_0003_2011 (USD 54.4m USACE).
+#   us other_renewables: johnson_controls_buchanan_res_0006_2012 (USD 34.7m USACE).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr/
+#   building_materials also dry.
+# Equal-budget misses: building_materials, rail, engineering_epc, fission_smr,
+#   power_plants_grid, wind, port_cranes, copper, water, bridges_roads,
+#   port_ownership, nickel, lithium, balsa, graphite, niobium (dense prior;
+#   USVI FHWA skipped — not in geography list).
+# Active after cycle 104: us253 / prc234 / allied238 / other37 (n=762).
+shuffle_seed: 20261104
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/solar
+- infrastructure/building_materials
+- infrastructure/rail
+- infrastructure/engineering_epc
+- energy/fission_smr
+- energy/power_plants_grid
+- energy/wind
+- infrastructure/port_cranes
+- resources/copper
+- resources/water
+- energy/other_renewables
+- infrastructure/bridges_roads
+- infrastructure/port_ownership
+- resources/nickel
+- resources/lithium
+- resources/balsa
+- resources/graphite
+- resources/niobium
+rows_found_this_cycle:
+  energy/solar: 1
+  infrastructure/building_materials: 0
+  infrastructure/rail: 0
+  infrastructure/engineering_epc: 0
+  energy/fission_smr: 0
+  energy/power_plants_grid: 0
+  energy/wind: 0
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  resources/water: 0
+  energy/other_renewables: 4
+  infrastructure/bridges_roads: 0
+  infrastructure/port_ownership: 0
+  resources/nickel: 0
+  resources/lithium: 0
+  resources/balsa: 0
+  resources/graphite: 0
+  resources/niobium: 0
+rows_by_side_this_cycle:
+  us: 4
+  prc: 1
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 103 (seed 20261103) ===
 # Shuffled order: graphite, port_cranes, fission_smr, balsa, niobium, wind,

@@ -1,0 +1,10 @@
+{
+  "id": "johnson_controls_buchanan_res_0006_2012",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_jc_buchanan_0006_20120929",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W912DY09D0017_9700/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "RENEWABLE ENERGY SYSTEMS",
+  "note": "Opened USASpending Award API: Johnson Controls; USD 34,711,619.31; date_signed 2012-09-29; PoP Fort Buchanan / Guaynabo, PR."
+}

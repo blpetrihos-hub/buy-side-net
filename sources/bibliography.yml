@@ -8051,3 +8051,52 @@
   supports:
   - curtin_san_juan_harbor_dredge_2023
   - hunt_infra_engineering_epc
+- id: trina_cgn_lagoa_barro_20250826
+  type: company
+  chicago: Trinasolar. “TrinaTracker Brasil to Supply Smart Tracking Systems for CGN Brasil’s Lagoa do
+    Barro Solar Project in Piauí.” Newsroom, 26 August 2025. https://www.trinasolar.com/en-glb/newsroom202508260552/.
+  url: https://www.trinasolar.com/en-glb/newsroom202508260552/
+  annotation: 'Company English primary: 1,083 Vanguard 1P trackers; 56.11 MWp Lagoa do Barro (Piauí) for
+    CGN Brasil. Supports trinatracker_cgn_lagoa_barro_2025.'
+  supports:
+  - trinatracker_cgn_lagoa_barro_2025
+  - hunt_energy_solar
+- id: usaspending_rq_lord_ramey_20240830
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QR24C0029_9700_-NONE-_-NONE-
+    (RQ-LORD JV; USACE Ramey ARC Microgrid ERCIP). Signed 30 August 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR24C0029_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR24C0029_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 19.5m Ramey ARC microgrid. Supports rq_lord_ramey_arc_microgrid_2024.'
+  supports:
+  - rq_lord_ramey_arc_microgrid_2024
+  - hunt_energy_other_renewables
+- id: usaspending_parsons_pesquera_20240823
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QR24C0027_9700_-NONE-_-NONE-
+    (Parsons Government Services Inc.; USACE Pesquera ARC Microgrid). Signed 23 August 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR24C0027_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR24C0027_9700_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 17.2m Pesquera ARC microgrid. Supports parsons_pesquera_arc_microgrid_2024.'
+  supports:
+  - parsons_pesquera_arc_microgrid_2024
+  - hunt_energy_other_renewables
+- id: usaspending_jc_buchanan_0003_20111220
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W912DY09D0017_9700
+    (Johnson Controls Government Systems LLC; Fort Buchanan renewable energy systems). Signed 20 December
+    2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W912DY09D0017_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W912DY09D0017_9700/
+  annotation: 'USASpending primary: USD 54.4m Fort Buchanan renewable energy systems. Supports johnson_controls_buchanan_res_0003_2011.'
+  supports:
+  - johnson_controls_buchanan_res_0003_2011
+  - hunt_energy_other_renewables
+- id: usaspending_jc_buchanan_0006_20120929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0006_9700_W912DY09D0017_9700
+    (Johnson Controls Government Systems LLC; Fort Buchanan renewable energy systems task 0006). Signed
+    29 September 2012. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W912DY09D0017_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W912DY09D0017_9700/
+  annotation: 'USASpending primary: USD 34.7m Fort Buchanan renewable energy systems task 0006. Supports
+    johnson_controls_buchanan_res_0006_2012.'
+  supports:
+  - johnson_controls_buchanan_res_0006_2012
+  - hunt_energy_other_renewables
