@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 687,
+    "n_rows": 695,
     "counts": {
-      "total": 687,
-      "active": 632,
+      "total": 695,
+      "active": 640,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 133,
+      "proxy": 135,
       "exclude": 5,
-      "documented": 495,
-      "on_map": 620
+      "documented": 501,
+      "on_map": 628
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 66,
-        "prc": 78,
+        "us": 70,
+        "prc": 82,
         "allied": 92,
-        "n": 236
+        "n": 244
       },
       "usd": {
         "us": 2747000000.0,
@@ -264,10 +264,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 61,
+        "us": 65,
         "prc": 53,
         "allied": 103,
-        "n": 217
+        "n": 221
       },
       "usd": {
         "us": 1602545000.0,
@@ -284,7 +284,7 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 26,
+          "us": 30,
           "prc": 20,
           "allied": 30
         },
@@ -333,9 +333,9 @@
       "country": "Colombia",
       "counts": {
         "us": 8,
-        "prc": 13,
+        "prc": 14,
         "allied": 9,
-        "n": 30
+        "n": 31
       },
       "usd": {
         "us": 227600000.0,
@@ -353,7 +353,7 @@
         },
         "infrastructure": {
           "us": 2,
-          "prc": 2,
+          "prc": 3,
           "allied": 6
         },
         "resources": {
@@ -551,9 +551,9 @@
       "country": "Guyana",
       "counts": {
         "us": 7,
-        "prc": 6,
+        "prc": 8,
         "allied": 0,
-        "n": 13
+        "n": 15
       },
       "usd": {
         "us": 527000000.0,
@@ -571,7 +571,7 @@
         },
         "infrastructure": {
           "us": 5,
-          "prc": 2,
+          "prc": 4,
           "allied": 0
         }
       }
@@ -725,9 +725,9 @@
       "country": "Peru",
       "counts": {
         "us": 10,
-        "prc": 24,
+        "prc": 25,
         "allied": 20,
-        "n": 54
+        "n": 55
       },
       "usd": {
         "us": 5635000000.0,
@@ -745,7 +745,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 12,
+          "prc": 13,
           "allied": 12
         },
         "resources": {
@@ -1493,7 +1493,15 @@
       "china_railway_no10_piura_yapatera_frias_2026",
       "powerchina_guyana_dbis_phase2_256p7m_2025",
       "chec_boundbrook_urban_jamaica_2025",
-      "chec_northern_parcel_villa_jamaica_2026"
+      "chec_northern_parcel_villa_jamaica_2026",
+      "baker_hughes_petrobras_stim_vessels_2025",
+      "baker_hughes_petrobras_flex_pipe_77km_2024",
+      "baker_hughes_petrobras_workover_pa_2024",
+      "icm_coamo_campo_mourao_brazil_2025",
+      "china_railway_no10_chancay_tunnel_2024",
+      "camce_sinopharm_west_dem_hospital_guyana_2025",
+      "powerchina_bogota_campin_stadium_2026",
+      "crfg_guyana_east_coast_184m_2022"
     ],
     "hunt": [
       "hunt_br_power_equip",

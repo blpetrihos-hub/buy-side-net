@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 78
+cycle: 79
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 79 shuffle_seed=20261079; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us187/prc184/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (22) then graphite/balsa/fission_smr (23/23/23). Keep US/PRC even split.
-next_row_id: (follow cycle-79 shuffled_order)
+next_query: Cycle 80 shuffle_seed=20261080; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us191/prc188/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (22) then graphite/balsa/fission_smr (23/23/23). Keep US/PRC even split.
+next_row_id: (follow cycle-80 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,75 +17,70 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 78 pre-merge:
-# - NOV 96 km Brazil flexible risers / Açu lease expansion tagged us (Houston HQ).
-#   SLB OneSubsea–PETRONAS Suriname SCA tagged us (Houston HQ). Excelerate FSRU
-#   Experience reliquefaction tagged us (The Woodlands, TX).
-# - China Railway No.10 Piura Yapatera–Frías road tagged prc (CREC SOE). POWERCHINA
-#   Guyana DBIS Phase II Lots I+III tagged prc. CHEC Boundbrook Urban Centre and
-#   Northern Parcel Villa Phase I tagged prc (CHEC/CCCC).
+# Side-tag audit (cycles 57–63) — cycle 79 pre-merge:
+# - Baker Hughes Petrobras stim vessels / 77 km flex pipe / workover-P&A tagged us
+#   (Houston HQ). ICM Campo Mourão biorefinery tagged us (Colwich, KS HQ).
+# - China Railway No.10 Chancay Tunnel tagged prc (CREC). CAMCE/Sinopharm West
+#   Demerara Hospital tagged prc. POWERCHINA Bogotá El Campín stadium tagged prc.
+#   China Railway First Group East Coast Demerara highway tagged prc.
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
 #   No side-tag fixes this cycle.
-# - Skipped Weatherford Petrobras TRS / Constellation / Ventura / Baker Petrobras
-#   trees/wells/turbomachinery / Halliburton YPF ZEUS / Bumerangue / SLB Atapu–
-#   Sépia / AES Pampas–Cristales / Andes Solar III / Atlas Estepa–Campano–Luiz
-#   Carlos / EXIM Argentina $7bn / Wabtec MRS / Progress Rail VLI / Pumpco LNG
-#   pipelines / POWERCHINA UFN-III / Chile G04 / CRTG Tingo / CGGC Boca del Río /
-#   CRRC Salvador / CCECC Quinto Puente / Aldesa Mexico hybrid (allied Spain HQ) /
-#   CHEC Kingston yard / Montego Bay / Affordable Housing / Lakes Pen / Amador /
-#   NMIA (already). Thin nickel/graphite/balsa/fission_smr miss (no new non-
-#   duplicate primaries this cycle).
+# - Skipped Baker Petrobras trees/completions/turbomachinery/wells / NOV Açu /
+#   SLB Suriname / Excelerate / Weatherford / Halliburton already-logged set;
+#   PowerChina Chancay–Sierra / CRBC Arequipa–La Joya / CRI Chile electrification
+#   / MMG Barro Alto / Baiyin Serrote / Taboca CNMC expansion (already). Thin
+#   nickel/graphite/balsa/fission_smr miss (no new non-duplicate primaries).
 
-shuffle_seed: 20261078
+shuffle_seed: 20261079
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- energy/wind
-- infrastructure/bridges_roads
-- infrastructure/port_cranes
-- resources/nickel
-- infrastructure/port_ownership
-- resources/lithium
-- infrastructure/engineering_epc
-- resources/graphite
-- energy/solar
-- resources/water
-- energy/other_renewables
-- resources/niobium
-- resources/copper
 - infrastructure/rail
+- resources/copper
+- resources/graphite
+- energy/wind
 - energy/power_plants_grid
-- resources/balsa
+- infrastructure/bridges_roads
+- resources/niobium
+- resources/water
+- resources/lithium
+- energy/solar
 - energy/fission_smr
+- infrastructure/port_cranes
+- resources/balsa
 - infrastructure/building_materials
+- infrastructure/engineering_epc
+- infrastructure/port_ownership
+- energy/other_renewables
+- resources/nickel
 
 rows_found_this_cycle:
-  energy/wind: 0
-  infrastructure/bridges_roads: 1
-  infrastructure/port_cranes: 0
-  resources/nickel: 0
-  infrastructure/port_ownership: 0
-  resources/lithium: 0
-  infrastructure/engineering_epc: 3
-  resources/graphite: 0
-  energy/solar: 0
-  resources/water: 0
-  energy/other_renewables: 0
-  resources/niobium: 0
-  resources/copper: 0
   infrastructure/rail: 0
-  energy/power_plants_grid: 2
-  resources/balsa: 0
+  resources/copper: 0
+  resources/graphite: 0
+  energy/wind: 0
+  energy/power_plants_grid: 0
+  infrastructure/bridges_roads: 2
+  resources/niobium: 0
+  resources/water: 0
+  resources/lithium: 0
+  energy/solar: 0
   energy/fission_smr: 0
+  infrastructure/port_cranes: 0
+  resources/balsa: 0
   infrastructure/building_materials: 2
+  infrastructure/engineering_epc: 4
+  infrastructure/port_ownership: 0
+  energy/other_renewables: 0
+  resources/nickel: 0
 
 coverage_cumulative:
-  # Active counts after cycle 78 (status=active)
+  # Active counts after cycle 79 (status=active)
   resources/balsa: 23
-  infrastructure/bridges_roads: 29
-  infrastructure/building_materials: 33
+  infrastructure/bridges_roads: 31
+  infrastructure/building_materials: 35
   resources/copper: 29
-  infrastructure/engineering_epc: 70
+  infrastructure/engineering_epc: 74
   energy/fission_smr: 23
   resources/graphite: 23
   resources/lithium: 34
@@ -110,10 +105,18 @@ thin_topup:
   budget: 0.5_source_family_min
   subcategories:
   - resources/nickel
-  - resources/graphite
   - resources/balsa
+  - energy/fission_smr
   # Hits: none.
-  # Misses: nickel, graphite, balsa (fission_smr also tied; nickel thinnest).
+  # Misses: nickel, balsa, fission_smr (graphite also 23; nickel thinnest).
+
+# Cycle 79 (seed 20261079): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: bridges_roads (China Railway No.10 Chancay Tunnel prc; CRFG Guyana
+#   East Coast Demerara US$184m proxy prc); building_materials (CAMCE/Sinopharm
+#   West Demerara Hospital US$54.17m proxy prc; POWERCHINA Bogotá El Campín
+#   stadium prc); engineering_epc (Baker Hughes Petrobras stim vessels us; 77 km
+#   flex pipe us; workover/P&A us; ICM COAMO Campo Mourão biorefinery us).
+#   Thin top-up miss nickel/balsa/fission_smr. Merge --no-ff to main after build.
 
 # Cycle 78 (seed 20261078): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: bridges_roads (China Railway No.10 Piura Yapatera–Frías S/545.8m
