@@ -88,36 +88,36 @@
     }
   },
   "meta": {
-    "n_rows": 833,
+    "n_rows": 838,
     "counts": {
-      "total": 833,
-      "active": 741,
+      "total": 838,
+      "active": 746,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 608,
-      "on_map": 726
+      "documented": 613,
+      "on_map": 731
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 101,
+        "us": 103,
         "prc": 96,
-        "allied": 91,
-        "n": 288
+        "allied": 92,
+        "n": 291
       },
       "usd": {
-        "us": 3165526962.3599997,
-        "us_n": 33,
+        "us": 3171671353.5299993,
+        "us_n": 35,
         "prc": 5033085094.13,
         "prc_n": 22,
-        "allied": 10677634000.0,
-        "allied_n": 26
+        "allied": 10686152874.11,
+        "allied_n": 27
       },
       "matched_gaps": {
         "n": 1,
@@ -130,15 +130,15 @@
       "layer": "resources",
       "counts": {
         "us": 57,
-        "prc": 39,
+        "prc": 41,
         "allied": 109,
-        "n": 205
+        "n": 207
       },
       "usd": {
         "us": 25812143622.0,
         "us_n": 27,
-        "prc": 7654672882.0,
-        "prc_n": 22,
+        "prc": 7854672882.0,
+        "prc_n": 23,
         "allied": 39837618653.2,
         "allied_n": 40
       },
@@ -178,15 +178,15 @@
       "country": "Argentina",
       "counts": {
         "us": 16,
-        "prc": 19,
+        "prc": 21,
         "allied": 27,
-        "n": 62
+        "n": 64
       },
       "usd": {
         "us": 7100000000.0,
         "us_n": 2,
-        "prc": 2694732659.07,
-        "prc_n": 9,
+        "prc": 2894732659.07,
+        "prc_n": 10,
         "allied": 18239362187.2,
         "allied_n": 15
       },
@@ -203,7 +203,7 @@
         },
         "resources": {
           "us": 3,
-          "prc": 9,
+          "prc": 11,
           "allied": 13
         }
       }
@@ -816,18 +816,18 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 26,
+        "us": 28,
         "prc": 0,
-        "allied": 0,
-        "n": 26
+        "allied": 1,
+        "n": 29
       },
       "usd": {
-        "us": 2139551914.3600001,
-        "us_n": 24,
+        "us": 2145696305.5300002,
+        "us_n": 26,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 0.0,
-        "allied_n": 0
+        "allied": 8518874.11,
+        "allied_n": 1
       },
       "by_layer": {
         "energy": {
@@ -836,9 +836,9 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 21,
+          "us": 23,
           "prc": 0,
-          "allied": 0
+          "allied": 1
         },
         "resources": {
           "us": 1,
@@ -1670,7 +1670,12 @@
       "fhwa_jc_associates_east_2022",
       "fhwa_master_pavement_pr52_2021",
       "fhwa_jpi_maunabo_2023",
-      "fhwa_novel_yunque_fs27_2021"
+      "fhwa_novel_yunque_fs27_2021",
+      "ganfeng_pozuelos_dev_200m_2025",
+      "ganfeng_ppg_jv_framework_2025",
+      "fhwa_jpi_anasco_2023",
+      "fhwa_jpi_naguabo_2021",
+      "atkinsrealis_fhwa_pr_inspect_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
