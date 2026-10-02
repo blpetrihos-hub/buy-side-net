@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 67
+cycle: 68
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 68 shuffle_seed=20261068; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us142/prc139/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
-next_row_id: (follow cycle-68 shuffled_order)
+next_query: Cycle 69 shuffle_seed=20261069; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us146/prc143/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
+next_row_id: (follow cycle-69 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,66 +17,63 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 67 pre-merge:
-# - No new mislabels found among cycles 57–63 rows; aldesa_mexico_solar_hybrid_2026
-#   remains allied (cycle 65); aldesa_chiapas allied (cycle 64); ccecc_aldesa_queretaro
-#   remains prc (CCECC lead); Shell/ACCIONA/AFRY/Golar already allied.
-# - Weatherford tagged us this cycle on principal executive offices Houston /
-#   NASDAQ:WFRD (Irish plc with proposed Delaware redomestication noted in row).
+# Side-tag audit (cycles 57–63) — cycle 68 pre-merge:
+# - No new mislabels found; prior Aldesa allied retags stand; Shell/ACCIONA/AFRY/Golar
+#   already allied; Weatherford continues us on Houston PE offices / NASDAQ:WFRD.
 
-shuffle_seed: 20261067
+shuffle_seed: 20261068
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- infrastructure/rail
-- energy/other_renewables
-- infrastructure/building_materials
-- infrastructure/port_cranes
-- resources/graphite
-- resources/water
+- infrastructure/port_ownership
 - infrastructure/bridges_roads
-- energy/power_plants_grid
+- infrastructure/rail
+- resources/niobium
+- resources/lithium
+- resources/water
+- energy/wind
+- resources/graphite
+- infrastructure/engineering_epc
+- infrastructure/port_cranes
 - resources/nickel
 - energy/fission_smr
-- infrastructure/port_ownership
-- resources/copper
-- resources/balsa
-- energy/wind
-- resources/niobium
 - energy/solar
-- resources/lithium
-- infrastructure/engineering_epc
+- infrastructure/building_materials
+- resources/balsa
+- energy/power_plants_grid
+- energy/other_renewables
+- resources/copper
 
 rows_found_this_cycle:
-  infrastructure/rail: 2
-  energy/other_renewables: 0
-  infrastructure/building_materials: 1
-  infrastructure/port_cranes: 0
-  resources/graphite: 0
-  resources/water: 0
+  infrastructure/port_ownership: 0
   infrastructure/bridges_roads: 0
-  energy/power_plants_grid: 0
+  infrastructure/rail: 0
+  resources/niobium: 0
+  resources/lithium: 0
+  resources/water: 0
+  energy/wind: 1
+  resources/graphite: 0
+  infrastructure/engineering_epc: 3
+  infrastructure/port_cranes: 0
   resources/nickel: 0
   energy/fission_smr: 0
-  infrastructure/port_ownership: 0
-  resources/copper: 0
+  energy/solar: 4
+  infrastructure/building_materials: 0
   resources/balsa: 0
-  energy/wind: 0
-  resources/niobium: 0
-  energy/solar: 0
-  resources/lithium: 0
-  infrastructure/engineering_epc: 5
+  energy/power_plants_grid: 0
+  energy/other_renewables: 0
+  resources/copper: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 67 (non-archived)
+  # Active+hunt after cycle 68 (non-archived)
   energy/fission_smr: 23
   energy/other_renewables: 35
   energy/power_plants_grid: 48
-  energy/solar: 38
-  energy/wind: 27
+  energy/solar: 42
+  energy/wind: 28
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 26
-  infrastructure/engineering_epc: 41
+  infrastructure/engineering_epc: 44
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 33
   infrastructure/rail: 40
@@ -89,6 +86,13 @@ coverage_cumulative:
   resources/water: 31
 
 rows_by_side_this_cycle:
+  us: 4
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 67
+rows_by_side_this_cycle_cycle67:
   us: 4
   prc: 4
   allied: 0
@@ -121,22 +125,30 @@ thin_topup:
   - resources/nickel
   - energy/fission_smr
   - resources/graphite
-  # Hits: none — Brazilian Nickel / DFC Piauí / Centaurus Jaguar / Westwin already;
-  #   Meitner/FIRST/NuScale/CAREM already; South Star/Graphcoa/Urbix/Graphex already.
+  # Hits: none — same dense stacks as cycles 66–67.
 
-# Cycle 67 (seed 20261067): 8 sourced rows (8 shuffled + 0 thin_topup);
-#   shuffled: rail (CRRC/CRIIC AMBA 43 DMU prc; CRRC Mendoza Cercanías USD 15.7m prc),
-#   building_materials (Sinoma/CNBM Cruz Azul Seybaplaya prc), engineering_epc
-#   (PowerChina Vicuña Batidero camp prc; SLB Amapá 3D us; NOV Açu USD 200m us;
-#   Weatherford Noble Guyana MPD us; Weatherford Constellation Brazil us).
+# Cycle 68 (seed 20261068): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: wind (CCCC El Barro 55.2 MW / ~USD 69.1m credit prc), solar (CCCC El Hato
+#   67.35 MW prc; CCCC ENESOLAR-3 USD 83m prc; CCCC ENESOLAR 1 COD prc; AES Santa Ana IV
+#   55 MW us), engineering_epc (Weatherford Ventura SSV Victoria MPD us; Halliburton
+#   GranMorgu Suriname us; Baker Hughes ExxonMobil Guyana chemicals us).
 #   Thin_topup (nickel/fission_smr/graphite): all misses.
 #   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
-#   Side-tag fixes this cycle: none (prior Aldesa allied fixes stand).
-#   Equal-budget misses: other_renewables, port_cranes, graphite, water, bridges_roads,
-#   power_plants_grid, nickel, fission_smr, port_ownership, copper, balsa, wind,
-#   niobium, solar, lithium.
+#   Side-tag fixes this cycle: none.
+#   Equal-budget misses: port_ownership, bridges_roads, rail, niobium, lithium, water,
+#   graphite, port_cranes, nickel, fission_smr, building_materials, balsa,
+#   power_plants_grid, other_renewables, copper.
 
 seen_urls:
+- https://www.tn8.ni/nacionales/asamblea-de-nicaragua-aprueba-credito-millonario-para-planta-eolica-el-barro-en-esteli/
+- http://legislacion.asamblea.gob.ni/Normaweb.nsf/(All)/BC3D585E6CCD075306258BDA005DBBE8?OpenDocument=
+- https://www.spiex.gob.ni/en-us/noticias/con-la-tecnolog%C3%ADa-solar-m%C3%A1s-avanzada-de-china-nicaragua-inicia-obras-de-la-planta-fotovoltaica-el-hato/
+- https://www.canal4.com.ni/inician-construccion-de-planta-fotovoltaica-enesolar-3-apas-en-nindiri/
+- https://www.spiex.gob.ni/en-us/noticias/autoridades-oficializaron-la-inauguracion-del-proyecto-ubicado-en-san-isidro-matagalpa/
+- https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18556
+- https://www.aes-elsalvador.com/en/press-release/aes-el-salvador-sustainability-transforms-energy-development
+- https://www.halliburton.com/en/about-us/press-release/halliburton-wins-integrated-drilling-completions-contract-granmorgu-suriname-total-energies
+- https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-Secures-Major-Chemicals-Award-from-ExxonMobil-Guyana-for-FPSOs-02-03-2025/default.aspx
 - https://enelsubte.com/noticias/adjudicaron-a-crrc-la-compra-de-nuevos-trenes-diesel-para-el-amba/
 - https://www.argentina.gob.ar/noticias/el-gobierno-nacional-lanza-la-compra-de-43-trenes-nuevos-0
 - https://www.mendozapost.com/economia/el-tren-de-cercanias-ya-tiene-adjudicatarios-cuanto-costara-y-que-tramo-suma-7851/
@@ -369,6 +381,24 @@ seen_urls:
 - https://www.bnnbloomberg.ca/press-releases/2026/07/22/south-star-announces-santa-cruz-operational-update-first-shipment-of-graphite-shipped/
 
 misses:
+- 2026-10-02 | infrastructure/port_ownership | cycle68 budget | New port concession beyond SSA/APM/COSCO/Hutchison | miss
+- 2026-10-02 | infrastructure/bridges_roads | cycle68 budget | New highway/bridge beyond Itaparica / CHEC / USACE | miss
+- 2026-10-02 | infrastructure/rail | cycle68 budget | New rail beyond CRRC AMBA / Mendoza dense set | miss
+- 2026-10-02 | resources/niobium | cycle68 budget | New FeNb beyond CBMM / CMOC / St George | miss
+- 2026-10-02 | resources/lithium | cycle68 budget | New Li beyond Atlas / Albemarle / Zijin | miss
+- 2026-10-02 | resources/water | cycle68 budget | New desal/water beyond Cerro Verde / Cox / ACCIONA | miss
+- 2026-10-02 | resources/graphite | cycle68 budget | New graphite beyond Graphcoa / South Star / Urbix | miss
+- 2026-10-02 | infrastructure/port_cranes | cycle68 budget | New crane OEM beyond ZPMC/SANY/Konecranes | miss
+- 2026-10-02 | resources/nickel | cycle68 budget | New Ni beyond DFC Piauí / Westwin / Centaurus | miss
+- 2026-10-02 | energy/fission_smr | cycle68 budget | New SMR beyond FIRST / Meitner / CAREM | miss
+- 2026-10-02 | infrastructure/building_materials | cycle68 budget | New cement beyond Sinoma Seybaplaya / Cibao | miss
+- 2026-10-02 | resources/balsa | cycle68 budget | New balsa beyond WITS / Plantabal / CoreLite | miss
+- 2026-10-02 | energy/power_plants_grid | cycle68 budget | New grid/hydro beyond CTG / PowerChina Ituango | miss
+- 2026-10-02 | energy/other_renewables | cycle68 budget | New geothermal/BESS beyond Ormat / Tesla / PowerChina | miss
+- 2026-10-02 | resources/copper | cycle68 budget | New Cu beyond El Abra / Chalcobamba / Orion | miss
+- 2026-10-02 | resources/nickel | cycle68 thin_topup | New Ni beyond shuffled-pass miss stack | miss
+- 2026-10-02 | energy/fission_smr | cycle68 thin_topup | New SMR beyond FIRST/Meitner stacks | miss
+- 2026-10-02 | resources/graphite | cycle68 thin_topup | New graphite beyond Graphcoa/South Star stacks | miss
 - 2026-10-02 | energy/other_renewables | cycle67 budget | New geothermal/BESS beyond CTG/PowerChina/Tesla Megapack set | miss
 - 2026-10-02 | infrastructure/port_cranes | cycle67 budget | New crane OEM beyond ZPMC/SANY/Konecranes thick set | miss
 - 2026-10-02 | resources/graphite | cycle67 budget | New graphite beyond Graphcoa / South Star / Urbix / Graphex | miss

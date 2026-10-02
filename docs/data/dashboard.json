@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 597,
+    "n_rows": 605,
     "counts": {
-      "total": 597,
-      "active": 542,
+      "total": 605,
+      "active": 550,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 121,
+      "proxy": 122,
       "exclude": 5,
-      "documented": 417,
-      "on_map": 531
+      "documented": 424,
+      "on_map": 539
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 43,
+        "us": 46,
         "prc": 58,
         "allied": 92,
-        "n": 193
+        "n": 196
       },
       "usd": {
         "us": 2600000000.0,
@@ -152,16 +152,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 50,
-        "prc": 49,
+        "us": 51,
+        "prc": 53,
         "allied": 64,
-        "n": 163
+        "n": 168
       },
       "usd": {
         "us": 4570600000.0,
         "us_n": 10,
-        "prc": 1138277608.25,
-        "prc_n": 10,
+        "prc": 1207377608.25,
+        "prc_n": 11,
         "allied": 3521859384.9300003,
         "allied_n": 18
       },
@@ -264,10 +264,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 47,
+        "us": 48,
         "prc": 46,
         "allied": 103,
-        "n": 196
+        "n": 197
       },
       "usd": {
         "us": 1455545000.0,
@@ -284,7 +284,7 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 16,
+          "us": 17,
           "prc": 19,
           "allied": 30
         },
@@ -487,10 +487,10 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 3,
+        "us": 4,
         "prc": 2,
         "allied": 2,
-        "n": 7
+        "n": 8
       },
       "usd": {
         "us": 0.0,
@@ -502,7 +502,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
+          "us": 4,
           "prc": 1,
           "allied": 1
         },
@@ -550,10 +550,10 @@
     {
       "country": "Guyana",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 3,
         "allied": 0,
-        "n": 7
+        "n": 8
       },
       "usd": {
         "us": 527000000.0,
@@ -570,7 +570,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 1,
           "allied": 0
         }
@@ -664,6 +664,30 @@
       }
     },
     {
+      "country": "Nicaragua",
+      "counts": {
+        "us": 0,
+        "prc": 4,
+        "allied": 0,
+        "n": 4
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 69100000.0,
+        "prc_n": 1,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 4,
+          "allied": 0
+        }
+      }
+    },
+    {
       "country": "Panama",
       "counts": {
         "us": 2,
@@ -744,6 +768,30 @@
           "allied": 0
         },
         "resources": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Suriname",
+      "counts": {
+        "us": 1,
+        "prc": 0,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
           "us": 1,
           "prc": 0,
           "allied": 0
@@ -1316,7 +1364,15 @@
       "slb_amapa_3d_seismic_brazil_2026",
       "nov_acu_flexible_pipe_200m_2026",
       "weatherford_noble_guyana_mpd_2026",
-      "weatherford_constellation_brazil_2026"
+      "weatherford_constellation_brazil_2026",
+      "cccc_el_barro_wind_nicaragua_2025",
+      "cccc_el_hato_solar_67mw_nicaragua",
+      "cccc_enesolar3_nindiri_83m_2025",
+      "cccc_enesolar1_san_isidro_cod_2026",
+      "weatherford_ventura_victoria_mpd_2026",
+      "aes_santa_ana_iv_55mw_2026",
+      "halliburton_granmorgu_suriname_2026",
+      "baker_hughes_exxon_guyana_chemicals_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
