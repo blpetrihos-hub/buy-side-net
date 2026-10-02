@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 72
+cycle: 73
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 73 shuffle_seed=20261073; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us163/prc159/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then graphite/balsa (24/24). Keep US/PRC even split.
-next_row_id: (follow cycle-73 shuffled_order)
+next_query: Cycle 74 shuffle_seed=20261074; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us167/prc163/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then graphite/balsa (24/24). Keep US/PRC even split.
+next_row_id: (follow cycle-74 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,70 +17,67 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 72 pre-merge:
-# - Atlas Estepa tagged us (Miami HQ footer / GIP USA). Weatherford Petrobras TRS us
-#   (Houston PE / NASDAQ:WFRD). Halliburton Venezuela MoUs + Petrobras completions us.
-# - POWERCHINA gas/UFN-III/hospital prc; CGGC Cepernic prc. No Shell/ACCIONA/AFRY/Golar
-#   mislabels in new rows (Shell is client only on prior Weatherford/Halliburton rows).
-# - Re-checked Ormat geothermal rows: Ormat Technologies HQ Reno, NV — correctly us
-#   (not a cycles 57–63 mislabel). No side-tag fixes required this cycle.
-# - Skipped PowerChina Mauriti COD (duplicate of powerchina_intrepid_mauriti);
-#   skipped PowerChina EDP Piauí 500 kV (already logged); skipped NOV Bondstrand unnamed
-#   FPSOs; skipped CRRC Araraquara BNDES (state financing, already have factory row).
+# Side-tag audit (cycles 57–63) — cycle 73 pre-merge:
+# - Atlas Copiapó FC tagged us (Miami HQ / GIP). AES Arenales/Bolero us (AES Corp).
+#   SLB Pelotas JV tagged us (Houston HQ; TGS is allied partner only).
+# - POWERCHINA Santo Domingo water / CHEC Kingston / CCCC El Curval / CATL–Moura prc.
+# - No Shell/ACCIONA/AFRY/Golar mislabels. No side-tag fixes this cycle.
+# - Skipped POWERCHINA Leficar/Andalucía pages (WAF block on powerchina-intl).
+#   Skipped Cristales PF LexLatin-only without company USD on AES primary.
 
-shuffle_seed: 20261072
+shuffle_seed: 20261073
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- infrastructure/port_cranes
-- infrastructure/building_materials
+- resources/niobium
+- energy/power_plants_grid
 - infrastructure/engineering_epc
+- energy/other_renewables
+- energy/fission_smr
+- resources/copper
+- infrastructure/port_cranes
+- energy/wind
+- infrastructure/port_ownership
+- infrastructure/bridges_roads
+- resources/nickel
+- resources/balsa
+- resources/graphite
+- infrastructure/building_materials
+- energy/solar
 - resources/water
 - resources/lithium
-- energy/other_renewables
-- resources/balsa
-- resources/niobium
-- infrastructure/bridges_roads
 - infrastructure/rail
-- resources/nickel
-- resources/graphite
-- resources/copper
-- energy/wind
-- energy/power_plants_grid
-- energy/solar
-- infrastructure/port_ownership
-- energy/fission_smr
 
 rows_found_this_cycle:
-  infrastructure/port_cranes: 0
-  infrastructure/building_materials: 1
-  infrastructure/engineering_epc: 4
-  resources/water: 0
-  resources/lithium: 0
-  energy/other_renewables: 0
-  resources/balsa: 0
   resources/niobium: 0
-  infrastructure/bridges_roads: 0
-  infrastructure/rail: 0
-  resources/nickel: 0
-  resources/graphite: 0
-  resources/copper: 0
-  energy/wind: 0
-  energy/power_plants_grid: 2
-  energy/solar: 1
-  infrastructure/port_ownership: 0
+  energy/power_plants_grid: 0
+  infrastructure/engineering_epc: 2
+  energy/other_renewables: 3
   energy/fission_smr: 0
+  resources/copper: 0
+  infrastructure/port_cranes: 0
+  energy/wind: 0
+  infrastructure/port_ownership: 0
+  infrastructure/bridges_roads: 0
+  resources/nickel: 0
+  resources/balsa: 0
+  resources/graphite: 0
+  infrastructure/building_materials: 0
+  energy/solar: 1
+  resources/water: 2
+  resources/lithium: 0
+  infrastructure/rail: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 72 (non-archived)
+  # Active+hunt after cycle 73 (non-archived)
   energy/fission_smr: 23
-  energy/other_renewables: 36
+  energy/other_renewables: 39
   energy/power_plants_grid: 53
-  energy/solar: 51
+  energy/solar: 52
   energy/wind: 29
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 27
-  infrastructure/engineering_epc: 57
+  infrastructure/engineering_epc: 59
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 34
   infrastructure/rail: 40
@@ -90,9 +87,16 @@ coverage_cumulative:
   resources/lithium: 35
   resources/nickel: 23
   resources/niobium: 26
-  resources/water: 32
+  resources/water: 34
 
 rows_by_side_this_cycle:
+  us: 4
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 72
+rows_by_side_this_cycle_cycle72:
   us: 4
   prc: 4
   allied: 0
@@ -159,9 +163,22 @@ thin_topup:
   subcategories:
   - resources/nickel
   - energy/fission_smr
-  - resources/graphite
+  - resources/balsa
   # Hits: none.
-  # Misses: nickel, fission_smr, graphite (tied with balsa at 24; graphite taken as 3rd).
+  # Misses: nickel, fission_smr, balsa (graphite also 24).
+
+# Cycle 73 (seed 20261073): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (SLB–TGS Pelotas Sul 3D us; CHEC Kingston yard Phase I
+#   prc), other_renewables (AES Arenales 300 MW BESS us; AES Bolero BESS 146 MW us;
+#   CATL–Moura LRCAP partnership prc), solar (Atlas Copiapó USD 475m FC us), water
+#   (POWERCHINA Santo Domingo Ecuador inauguration prc; CCCC El Curval Santa Marta
+#   COP 817bn proxy prc).
+#   Thin_topup (nickel/fission_smr/balsa): all misses.
+#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none.
+#   Equal-budget misses: niobium, power_plants_grid, fission_smr, copper, port_cranes,
+#   wind, port_ownership, bridges_roads, nickel, balsa, graphite, building_materials,
+#   lithium, rail.
 
 # Cycle 72 (seed 20261072): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: building_materials (POWERCHINA Montenegro Hospital Lima prc),
