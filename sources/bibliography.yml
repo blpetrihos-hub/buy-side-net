@@ -5586,3 +5586,58 @@
   supports:
   - zpmc_hutchison_lazaro_12artg_2026
   - hunt_infra_port_cranes
+
+- id: halliburton_bp_bumerangue_20260825
+  type: company
+  chicago: Halliburton. “bp Awards Halliburton Integrated Contract for Bumerangue Field Appraisal in
+    Brazil.” Press release, 25 August 2026.
+  url: https://www.halliburton.com/en/about-us/press-release/bp-awards-halliburton-integrated-contract-for-bumerangue-field-appraisal-in-brazil
+  annotation: Halliburton integrated appraisal services for bp Bumerangue. Supports halliburton_bp_bumerangue_brazil_2026.
+  supports:
+  - halliburton_bp_bumerangue_brazil_2026
+  - hunt_infra_engineering_epc
+- id: halliburton_ypf_zeus_20260413
+  type: company
+  chicago: Halliburton. “YPF Awards Halliburton Multibillion-Dollar Long-Term Unconventional Completions
+    Contract in Argentina.” Press release, 13 April 2026.
+  url: https://www.halliburton.com/en/about-us/press-release/ypf-awards-halliburton-multibillion-dollar-long-term-unconventional-completions-contract-argentina
+  annotation: Halliburton YPF Vaca Muerta ZEUS electric frac award. Supports halliburton_ypf_zeus_vaca_muerta_2026.
+  supports:
+  - halliburton_ypf_zeus_vaca_muerta_2026
+  - hunt_infra_engineering_epc
+- id: halliburton_pampa_digital_20260609
+  type: company
+  chicago: Halliburton. “Pampa Energía Selects Halliburton to Support Enterprise Digital Transformation.”
+    Press release, 9 June 2026.
+  url: https://www.halliburton.com/en/about-us/press-release/pampa-energia-selects-halliburton-to-support-enterprise-digital-transformation
+  annotation: Halliburton–Pampa Vaca Muerta digital transformation MoU/agreement. Supports halliburton_pampa_digital_vaca_muerta_2026.
+  supports:
+  - halliburton_pampa_digital_vaca_muerta_2026
+  - hunt_infra_engineering_epc
+- id: chinadaily_ctg_ilha_solteira_ug1_20260709
+  type: press
+  chicago: Zheng, Xin. “Operations Begin on Upgraded Unit 1 of Ilha Solteira Hydropower Project.” China
+    Daily, 9 July 2026.
+  url: https://global.chinadaily.com.cn/a/202607/09/WS6a4f38aaa310986e2b4645ee.html
+  annotation: CTG Brazil Ilha Solteira UG1 upgrade COD (UNVERIFIED CapEx). Supports ctg_ilha_solteira_ug1_2026.
+  supports:
+  - ctg_ilha_solteira_ug1_2026
+  - hunt_br_power_equip
+- id: pv_mag_ctg_nisperos_20260413
+  type: press
+  chicago: Ini, Luis. “China Three Gorges anuncia la operación comercial de su segunda planta solar
+    en Colombia.” pv magazine Latinoamérica, 13 April 2026.
+  url: https://www.pv-magazine-latam.com/2026/04/13/china-three-gorges-anuncia-la-operacion-comercial-de-su-segunda-planta-solar-en-colombia/
+  annotation: CTG LatAm Nísperos 19.9 MW COD (Baranoa). Supports ctg_nisperos_solar_colombia_2026.
+  supports:
+  - ctg_nisperos_solar_colombia_2026
+  - hunt_energy_solar
+- id: powerchina_ituango_surge_20260811
+  type: company
+  chicago: POWERCHINA. “POWERCHINA’s Ituango Hydropower Project Completes Critical Construction Milestone.”
+    11 August 2026.
+  url: https://en.powerchina.cn/2026-08/11/c_829107.htm
+  annotation: PowerChina Ituango tailrace surge-chamber frame milestone (2,400 MW). Supports powerchina_ituango_surge_chamber_2026.
+  supports:
+  - powerchina_ituango_surge_chamber_2026
+  - hunt_br_power_equip
