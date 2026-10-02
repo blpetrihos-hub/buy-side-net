@@ -6175,12 +6175,13 @@
   - hunt_br_power_equip
 - id: powerchina_chile_g15_g04_20250619
   type: company
-  chicago: POWERCHINA. “POWERCHINA secures transmission expansion projects in Chile.” 19 June 2025.
+  chicago: POWERCHINA. “POWERCHINA secures transmission expansion projects in Chile.” Company English
+    release, 19 June 2025. https://en.powerchina.cn/2025-06/19/c_828966.htm.
   url: https://en.powerchina.cn/2025-06/19/c_828966.htm
-  annotation: POWERCHINA G04 San Juan/Algarrobal 220 kV substation EPC. Supports powerchina_chile_g04_san_juan_algarrobal_2025.
+  annotation: POWERCHINA English primary. Supports powerchina_chile_decree4_g15_g04_2025.
   supports:
-  - powerchina_chile_g04_san_juan_algarrobal_2025
-  - hunt_br_power_equip
+  - powerchina_chile_decree4_g15_g04_2025
+  - hunt_energy_power_plants_grid
 - id: chec_posorja_acceptance_20260422
   type: company
   chicago: China Harbour Engineering Company (CHEC Americas). “Posorja Multipurpose Terminal Expansion
@@ -9258,3 +9259,57 @@
   supports:
   - jose_carro_morovis_cemetery_2018
   - hunt_infra_engineering_epc
+- id: cmport_vast_acu_hkex_20250228
+  type: filing
+  chicago: China Merchants Port Holdings Company Limited. “Discloseable Transaction — Acquisition of Vast
+    in Brazil.” Hong Kong Stock Exchange announcement (Chinese), 28 February 2025. https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0228/2025022801382_c.pdf.
+  url: https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0228/2025022801382_c.pdf
+  annotation: HKEX primary SPA. Supports cmport_vast_acu_70pct_spa_2025.
+  supports:
+  - cmport_vast_acu_70pct_spa_2025
+  - hunt_infra_port_ownership
+- id: hdec_dune_plus_epc_20250628
+  type: company
+  chicago: PowerChina HuaDong Engineering Corporation Limited (HDEC). “The Dune Plus Photovoltaic Storage
+    Project in Chile Signed.” Company English news, 28 June 2025. https://www.hdec.com/en/news/show-668.html.
+  url: https://www.hdec.com/en/news/show-668.html
+  annotation: HDEC English primary. Supports powerchina_dune_plus_epc_chile_2025.
+  supports:
+  - powerchina_dune_plus_epc_chile_2025
+  - hunt_energy_solar
+- id: lithium_argentina_ganfeng_ppg_180m_20260824
+  type: filing
+  chicago: Lithium Argentina AG and Ganfeng Lithium Group Co., Ltd. “Lithium Argentina Finalizes PPG Joint
+    Venture; Announces $180M Strategic Investment from Ganfeng.” SEC Exhibit 99.1, 24 August 2026. https://www.sec.gov/Archives/edgar/data/1440972/000106299326004563/exhibit99-1.htm.
+  url: https://www.sec.gov/Archives/edgar/data/1440972/000106299326004563/exhibit99-1.htm
+  annotation: SEC Exhibit 99.1 primary. Supports ganfeng_lar_180m_convertible_ppg_2026.
+  supports:
+  - ganfeng_lar_180m_convertible_ppg_2026
+  - hunt_res_lithium
+- id: nfe_portocem_epc_20240417
+  type: company
+  chicago: New Fortress Energy Inc. “New Fortress Energy Signs EPC Contract and Begins Construction of
+    1.6 GW Power Plant to Serve 15-Year Agreement in Brazil.” Company IR release, 17 April 2024. https://ir.newfortressenergy.com/news-releases/news-release-details/new-fortress-energy-signs-epc-contract-and-begins-construction.
+  url: https://ir.newfortressenergy.com/news-releases/news-release-details/new-fortress-energy-signs-epc-contract-and-begins-construction
+  annotation: NFE IR primary. Supports nfe_portocem_1p6gw_epc_2024.
+  supports:
+  - nfe_portocem_1p6gw_epc_2024
+  - hunt_energy_power_plants_grid
+- id: steng_seaboard_estrella_iv_20251017
+  type: company
+  chicago: ST Engineering. “ST Engineering and Siemens Energy Awarded Contract for 2nd Floating Power
+    Plant in Dominican Republic.” Company English release, 17 October 2025. https://www.stengg.com/en/newsroom/news-releases/st-engineering-and-siemens-energy-awarded-contract-for-2nd-floating-power-plant.
+  url: https://www.stengg.com/en/newsroom/news-releases/st-engineering-and-siemens-energy-awarded-contract-for-2nd-floating-power-plant
+  annotation: ST Engineering primary naming Seaboard subsidiary. Supports seaboard_estrella_del_mar_iv_2025.
+  supports:
+  - seaboard_estrella_del_mar_iv_2025
+  - hunt_energy_power_plants_grid
+- id: fortescue_alta_copper_asx_20260310
+  type: filing
+  chicago: Fortescue Ltd. “Fortescue Completes Acquisition of Alta Copper.” ASX announcement PDF, 10 March
+    2026. https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/regulatory/asx-announcements/automated/03066248-fortescue-completes-acquisition-of-alta-copper.pdf.
+  url: https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/regulatory/asx-announcements/automated/03066248-fortescue-completes-acquisition-of-alta-copper.pdf
+  annotation: Fortescue ASX primary. Supports fortescue_canariaco_alta_copper_2026.
+  supports:
+  - fortescue_canariaco_alta_copper_2026
+  - hunt_res_copper
