@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 148
+cycle: 149
 remote: present
 active_layer: energy
 active_subcategory: solar
-next_query: Cycle 149 shuffle_seed=20261149; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us283/prc296/allied252); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 13 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: AES Andes–Codelco 1.6 TWh/y renewable PPA; SUMEC Trafalgar 4 MWp / Charity 3 MWp Guyana; Aldesa El Tuli (allied HQ); Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
-next_row_id: (follow cycle-149 shuffled_order)
+next_query: Cycle 150 shuffle_seed=20261150; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us285/prc298/allied252); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 13 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: AES Andes–Codelco 1.6 TWh/y renewable PPA; SUMEC Trafalgar 4 MWp Guyana (News Room USD8m press); POWERCHINA Catamarca 200 MW if company/gov primary opens; Aldesa El Tuli (allied HQ). No U.S. territories.
+next_row_id: (follow cycle-150 shuffled_order)
 dry_streak: 0
+
+# === Cycle 149 (seed 20261149) ===
+# Shuffled order: balsa, power_plants_grid, solar, fission_smr, engineering_epc,
+#   port_ownership, niobium, building_materials, rail, graphite, port_cranes,
+#   bridges_roads, other_renewables, copper, nickel, wind, water, lithium.
+# Logged 4 sourced rows (2 US / 2 PRC; thin dry; no padding):
+#   us solar: aes_bayasol_60m_dr_2021 (USD 60m / 58 MWp NTP).
+#   us solar: aes_santanasol_45m_dr_2021 (USD 45m est. / 50 MW).
+#   prc solar: crec_guyana_guysol_18mw_2025 (18 MW / 12 MWh portfolio COD; CapEx blank).
+#   prc solar: sumec_guyana_charity_3mw_2025 (3 MWp COD; CapEx blank).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: balsa, power_plants_grid, fission_smr, engineering_epc,
+#   port_ownership, niobium, building_materials, rail, graphite, port_cranes,
+#   bridges_roads, other_renewables, copper, nickel, wind, water, lithium.
+# Dense already-logged: EXIM Guyana GTE; FOCOL Bahamas; SPIC São Simão UG7;
+#   AES Mirasol/Peravia/Pampas; POWERCHINA Mauriti/Sajalices/Coca Codo.
+# Active after cycle 149: us285 / prc298 / allied252 / other38 (n=873).
+shuffle_seed: 20261149
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/balsa
+- energy/power_plants_grid
+- energy/solar
+- energy/fission_smr
+- infrastructure/engineering_epc
+- infrastructure/port_ownership
+- resources/niobium
+- infrastructure/building_materials
+- infrastructure/rail
+- resources/graphite
+- infrastructure/port_cranes
+- infrastructure/bridges_roads
+- energy/other_renewables
+- resources/copper
+- resources/nickel
+- energy/wind
+- resources/water
+- resources/lithium
+rows_found_this_cycle:
+  resources/balsa: 0
+  energy/power_plants_grid: 0
+  energy/solar: 4
+  energy/fission_smr: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/port_ownership: 0
+  resources/niobium: 0
+  infrastructure/building_materials: 0
+  infrastructure/rail: 0
+  resources/graphite: 0
+  infrastructure/port_cranes: 0
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 0
+  resources/copper: 0
+  resources/nickel: 0
+  energy/wind: 0
+  resources/water: 0
+  resources/lithium: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 2
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === HQ retag (before cycle 148): ContourGlobal London HQ ===
 # ContourGlobal is London-HQ (allied), not U.S.-HQ. Retagged 5 active rows
