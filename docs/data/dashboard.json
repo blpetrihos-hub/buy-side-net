@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 798,
+    "n_rows": 802,
     "counts": {
-      "total": 798,
-      "active": 707,
+      "total": 802,
+      "active": 711,
       "hunt": 42,
       "archived": 71,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 151,
+      "proxy": 153,
       "exclude": 18,
-      "documented": 575,
-      "on_map": 692
+      "documented": 577,
+      "on_map": 696
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 79,
-        "prc": 91,
+        "prc": 92,
         "allied": 91,
-        "n": 261
+        "n": 262
       },
       "usd": {
         "us": 2788167000.0,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 81,
+        "us": 82,
         "prc": 93,
-        "allied": 68,
-        "n": 242
+        "allied": 70,
+        "n": 245
       },
       "usd": {
-        "us": 14815200000.0,
-        "us_n": 23,
+        "us": 14823900000.0,
+        "us_n": 24,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4102359384.9300003,
@@ -569,14 +569,14 @@
     {
       "country": "Guatemala",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 0,
-        "allied": 0,
-        "n": 6
+        "allied": 1,
+        "n": 8
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 8700000.0,
+        "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -584,9 +584,9 @@
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 0,
-          "allied": 0
+          "allied": 1
         },
         "infrastructure": {
           "us": 3,
@@ -754,9 +754,9 @@
       "country": "Panama",
       "counts": {
         "us": 2,
-        "prc": 2,
-        "allied": 4,
-        "n": 8
+        "prc": 3,
+        "allied": 5,
+        "n": 10
       },
       "usd": {
         "us": 0.0,
@@ -767,9 +767,14 @@
         "allied_n": 3
       },
       "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        },
         "infrastructure": {
           "us": 2,
-          "prc": 2,
+          "prc": 3,
           "allied": 4
         }
       }
@@ -1626,7 +1631,11 @@
       "apmt_balboa_temp_panama_2026",
       "til_cristobal_temp_panama_2026",
       "terra_conuar_solo_argentina_2025",
-      "crowley_american_energy_lng_pr_2025"
+      "crowley_american_energy_lng_pr_2025",
+      "cox_santa_cruz_wind_panama_2026",
+      "first_solar_zacapa_exim_guatemala_2021",
+      "maspv_estanzuela_guatemala_2026",
+      "zpmc_cct_hybrid_rtg_panama_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",
