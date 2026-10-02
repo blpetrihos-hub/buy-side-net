@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1193,
+    "n_rows": 1200,
     "counts": {
-      "total": 1193,
-      "active": 995,
+      "total": 1200,
+      "active": 1002,
       "hunt": 42,
       "archived": 178,
       "paired": 7,
       "one_sided": 27,
       "proxy": 167,
       "exclude": 18,
-      "documented": 952,
-      "on_map": 971
+      "documented": 959,
+      "on_map": 972
     }
   },
   "layer_readouts": [
@@ -128,14 +128,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 71,
-        "prc": 65,
+        "us": 74,
+        "prc": 67,
         "allied": 114,
-        "n": 250
+        "n": 255
       },
       "usd": {
-        "us": 25941503566.0,
-        "us_n": 34,
+        "us": 26941503566.0,
+        "us_n": 35,
         "prc": 13890644772.0,
         "prc_n": 32,
         "allied": 40633458653.2,
@@ -153,10 +153,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 137,
-        "prc": 155,
+        "us": 138,
+        "prc": 156,
         "allied": 92,
-        "n": 384
+        "n": 386
       },
       "usd": {
         "us": 13463460515.13,
@@ -207,10 +207,10 @@
     {
       "country": "Argentina",
       "counts": {
-        "us": 17,
+        "us": 18,
         "prc": 34,
         "allied": 27,
-        "n": 78
+        "n": 79
       },
       "usd": {
         "us": 7270869147.0,
@@ -232,7 +232,7 @@
           "allied": 3
         },
         "resources": {
-          "us": 3,
+          "us": 4,
           "prc": 14,
           "allied": 13
         }
@@ -362,10 +362,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 80,
-        "prc": 75,
+        "us": 81,
+        "prc": 76,
         "allied": 107,
-        "n": 262
+        "n": 264
       },
       "usd": {
         "us": 2688206020.5499997,
@@ -377,8 +377,8 @@
       },
       "by_layer": {
         "energy": {
-          "us": 15,
-          "prc": 44,
+          "us": 16,
+          "prc": 45,
           "allied": 26
         },
         "infrastructure": {
@@ -595,14 +595,14 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 16,
-        "prc": 13,
+        "us": 17,
+        "prc": 14,
         "allied": 16,
-        "n": 45
+        "n": 47
       },
       "usd": {
-        "us": 449276654.14,
-        "us_n": 8,
+        "us": 1449276654.1399999,
+        "us_n": 9,
         "prc": 791134740.0,
         "prc_n": 5,
         "allied": 817756466.0,
@@ -620,8 +620,8 @@
           "allied": 3
         },
         "resources": {
-          "us": 9,
-          "prc": 8,
+          "us": 10,
+          "prc": 9,
           "allied": 10
         }
       }
@@ -842,10 +842,10 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 37,
+        "us": 38,
         "prc": 17,
         "allied": 26,
-        "n": 80
+        "n": 81
       },
       "usd": {
         "us": 2851836686.7400002,
@@ -867,7 +867,7 @@
           "allied": 15
         },
         "resources": {
-          "us": 7,
+          "us": 8,
           "prc": 1,
           "allied": 4
         }
@@ -979,9 +979,9 @@
       "country": "Peru",
       "counts": {
         "us": 16,
-        "prc": 42,
+        "prc": 43,
         "allied": 27,
-        "n": 85
+        "n": 86
       },
       "usd": {
         "us": 5747000000.0,
@@ -1004,7 +1004,7 @@
         },
         "resources": {
           "us": 8,
-          "prc": 15,
+          "prc": 16,
           "allied": 9
         }
       }
@@ -2178,7 +2178,14 @@
       "casale_atome_villeta_epc_465m_2025",
       "holcim_ambiensa_ecopact_mundo_guayaquil",
       "cccc_la_mesita_wind_57p4m_esteli_2025",
-      "ptp_villeta_bond_usd2m_202504"
+      "ptp_villeta_bond_usd2m_202504",
+      "china_midagri_poechos_alto_piura_g2g_2025",
+      "dfc_ecuador_amazon_biocorridor_pri_1bn_2024",
+      "ge_vernova_itaipu_cmi_modernization_2025",
+      "byd_raizen_gera_nine_plants_26p5mw",
+      "sinobalsa_ecuador_presence",
+      "argentina_us_critical_minerals_framework_2026",
+      "mexico_us_critical_minerals_action_plan_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
