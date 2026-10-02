@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 955,
+    "n_rows": 960,
     "counts": {
-      "total": 955,
-      "active": 863,
+      "total": 960,
+      "active": 868,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 730,
-      "on_map": 846
+      "documented": 735,
+      "on_map": 851
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 174,
+        "us": 176,
         "prc": 97,
         "allied": 95,
-        "n": 366
+        "n": 368
       },
       "usd": {
-        "us": 9385428318.23,
-        "us_n": 106,
+        "us": 9435258953.23,
+        "us_n": 108,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 71,
-        "prc": 41,
+        "us": 72,
+        "prc": 42,
         "allied": 109,
-        "n": 221
+        "n": 223
       },
       "usd": {
-        "us": 26522777915.52,
-        "us_n": 41,
+        "us": 26542428541.52,
+        "us_n": 42,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -153,9 +153,9 @@
       "layer": "energy",
       "counts": {
         "us": 96,
-        "prc": 103,
+        "prc": 104,
         "allied": 75,
-        "n": 274
+        "n": 275
       },
       "usd": {
         "us": 18091148697.54,
@@ -233,6 +233,30 @@
         "infrastructure": {
           "us": 2,
           "prc": 0,
+          "allied": 0
+        }
+      }
+    },
+    {
+      "country": "Barbados",
+      "counts": {
+        "us": 0,
+        "prc": 1,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "resources": {
+          "us": 0,
+          "prc": 1,
           "allied": 0
         }
       }
@@ -367,9 +391,9 @@
       "country": "Colombia",
       "counts": {
         "us": 9,
-        "prc": 15,
+        "prc": 16,
         "allied": 10,
-        "n": 34
+        "n": 35
       },
       "usd": {
         "us": 250706908.27,
@@ -382,7 +406,7 @@
       "by_layer": {
         "energy": {
           "us": 6,
-          "prc": 11,
+          "prc": 12,
           "allied": 2
         },
         "infrastructure": {
@@ -429,14 +453,14 @@
     {
       "country": "Cuba",
       "counts": {
-        "us": 3,
+        "us": 6,
         "prc": 0,
         "allied": 1,
-        "n": 4
+        "n": 7
       },
       "usd": {
-        "us": 181616711.14,
-        "us_n": 3,
+        "us": 251097972.14,
+        "us_n": 6,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 101059504.3,
@@ -449,7 +473,12 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 3,
+          "us": 5,
+          "prc": 0,
+          "allied": 0
+        },
+        "resources": {
+          "us": 1,
           "prc": 0,
           "allied": 0
         }
@@ -1908,7 +1937,12 @@
       "rq_gtmo_wharf_bravo_2016",
       "eterna_soto_cano_hangar_2021",
       "eterna_soto_cano_aviation_storage_2025",
-      "powerchina_ecopetrol_cartagena_23mw_2024"
+      "powerchina_ecopetrol_cartagena_23mw_2024",
+      "powerchina_barbados_water_infra_2025",
+      "powerchina_tepuy_pv_108mw_2024",
+      "aecom_gtmo_fuel_pier_2013",
+      "v2x_gtmo_potable_water_2025",
+      "islands_mechanical_migrant_ops_2007"
     ],
     "hunt": [
       "hunt_br_power_equip",
