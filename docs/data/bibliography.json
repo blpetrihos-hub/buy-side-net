@@ -18098,5 +18098,75 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "larepublica_aes_guajira_1bn_20260821",
+    "type": "trade_press",
+    "chicago": "Murcia, Juan Diego. “AES alista una inversión de US$1.000 millones para proyecto en La Guajira.” La República, August 21, 2026. https://www.larepublica.co/empresas/aes-alista-una-inversion-de-us-1-000-millones-para-proyecto-en-la-guajira-4463385.",
+    "url": "https://www.larepublica.co/empresas/aes-alista-una-inversion-de-us-1-000-millones-para-proyecto-en-la-guajira-4463385",
+    "annotation": "La República/AES Colombia: additional solar ~USD 100m. Supports aes_colombia_solar_expand_100m_2026.",
+    "supports": [
+      "aes_colombia_guajira_549mw_1bn_2026",
+      "hunt_cycle176",
+      "aes_colombia_solar_expand_100m_2026"
+    ],
+    "map_supports": [
+      "aes_colombia_guajira_549mw_1bn_2026",
+      "aes_colombia_solar_expand_100m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "nge_saceem_ose_agua_20260309",
+    "type": "company",
+    "chicago": "NGE Group. “Uruguay – Montevideo: NGE, through its subsidiary Saceem, wins a major drinking water infrastructure investment project ($212 million).” March 9, 2026. https://www.nge.fr/app/uploads/2026/03/PR-NGE-Saceem-2026_Agua-Metropolitana-DEF.pdf.",
+    "url": "https://www.nge.fr/app/uploads/2026/03/PR-NGE-Saceem-2026_Agua-Metropolitana-DEF.pdf",
+    "annotation": "NGE/Saceem: OSE Metropolitan Water CapEx USD 212m. Supports saceem_ose_agua_metropolitana_212m_2026.",
+    "supports": [
+      "saceem_ose_agua_metropolitana_212m_2026",
+      "hunt_cycle176"
+    ],
+    "map_supports": [
+      "saceem_ose_agua_metropolitana_212m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "portalportuario_zpmc_tecon_santos_20260115",
+    "type": "trade_press",
+    "chicago": "PortalPortuario. “Brasil: ZPMC entrega dos nuevas grúas STS y ocho RTG a Tecon Santos.” January 15, 2026. https://portalportuario.cl/brasil-zpmc-entrega-dos-nuevas-gruas-sts-y-ocho-rtg-a-tecon-santos/.",
+    "url": "https://portalportuario.cl/brasil-zpmc-entrega-dos-nuevas-gruas-sts-y-ocho-rtg-a-tecon-santos/",
+    "annotation": "PortalPortuario: ZPMC 2 STS + 8 RTG Tecon Santos ~USD 57m. Supports zpmc_tecon_santos_sts_rtg_57m_2026.",
+    "supports": [
+      "zpmc_tecon_santos_sts_rtg_57m_2026",
+      "hunt_cycle176"
+    ],
+    "map_supports": [
+      "zpmc_tecon_santos_sts_rtg_57m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "radiosago_colbun_cuatro_vientos_20260902",
+    "type": "trade_press",
+    "chicago": "Márquez, Luis. “Aprobado el mayor parque eólico de Los Lagos por US$540 millones en Llanquihue.” RadioSago, September 2, 2026. https://www.radiosago.cl/aprobado-el-mayor-parque-eolico-de-los-lagos-por-us540-millones-en-llanquihue/.",
+    "url": "https://www.radiosago.cl/aprobado-el-mayor-parque-eolico-de-los-lagos-por-us540-millones-en-llanquihue/",
+    "annotation": "RadioSago/Coeva: Colbún Cuatro Vientos RCA CapEx USD 540m. Supports colbun_cuatro_vientos_540m_2026.",
+    "supports": [
+      "colbun_cuatro_vientos_540m_2026",
+      "hunt_cycle176"
+    ],
+    "map_supports": [
+      "colbun_cuatro_vientos_540m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
