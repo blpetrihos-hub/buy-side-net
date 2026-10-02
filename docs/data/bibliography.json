@@ -12183,5 +12183,113 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "ctdc_hostos_permit_20260227",
+    "type": "company",
+    "chicago": "Caribbean Transmission Development Company. “Caribbean Transmission Secures U.S. Presidential Permit for Hostos Energy Interconnection Between the Dominican Republic and Puerto Rico.” PR Newswire, 27 February 2026.",
+    "url": "https://www.prnewswire.com/news-releases/caribbean-transmission-secures-us-presidential-permit-for-hostos-energy-interconnection-between-the-dominican-republic-and-puerto-rico-302699653.html",
+    "annotation": "CTDC/Atabey primary: DOE Presidential Permit; USD 2.5bn Hostos CCGT+HVDC corridor DR–PR. Supports ctdc_hostos_hvdc_dr_pr_2026.",
+    "supports": [
+      "ctdc_hostos_hvdc_dr_pr_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "ctdc_hostos_hvdc_dr_pr_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cnnbrasil_chexim_bndes_20251006",
+    "type": "press",
+    "chicago": "Garcia, Gabriel. “BNDES e banco chinês avançam em fundo de investimentos bilionário.” CNN Brasil, 6 October 2025.",
+    "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/bndes-e-banco-chines-avancam-em-fundo-de-investimentos-bilionario/",
+    "annotation": "UNVERIFIED proxy confirming BNDES+CEXIM up to USD 1bn fund with CEXIM ~USD 600m. Supports chexim_bndes_fund_600m_2025.",
+    "supports": [
+      "chexim_bndes_fund_600m_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "chexim_bndes_fund_600m_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "goldwind_szse_jacobina0204_20250819",
+    "type": "regulator",
+    "chicago": "Goldwind Science & Technology Co., Ltd. “关于全资子公司金风国际为全资子公司金风巴西提供担保的公告.” SZSE / cninfo announcement 2025-061, 19 August 2025.",
+    "url": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224502733.pdf",
+    "annotation": "Official Goldwind filing: TSI contracts for Parque Eólico Jacobina 02/03/04; parent guarantees. Supports goldwind_jacobina_02_04_tsi_2025.",
+    "supports": [
+      "goldwind_jacobina_02_04_tsi_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "goldwind_jacobina_02_04_tsi_2025",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "goldwind_szse_jacobina05_20260318",
+    "type": "regulator",
+    "chicago": "Goldwind Science & Technology Co., Ltd. “关于全资子公司金风国际为全资子公司金风巴西提供担保的公告.” SZSE / cninfo announcement 2026-021, 18 March 2026.",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-03-18/1225014289.PDF",
+    "annotation": "Official Goldwind filing: TSI contract for Parque Eólico Jacobina 05; parent guarantee ~CNY 162.46m. Supports goldwind_jacobina_05_tsi_2026.",
+    "supports": [
+      "goldwind_jacobina_05_tsi_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "goldwind_jacobina_05_tsi_2026",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "wabtec_transap_20250123",
+    "type": "company",
+    "chicago": "Wabtec Corporation. “Wabtec Finalizes Locomotive Order with TRANSAP.” Newsroom, 23 January 2025.",
+    "url": "https://www.wabteccorp.com/newsroom/press-releases/wabtec-finalizes-locomotive-order-with-transap",
+    "annotation": "Wabtec primary: four C30ACi locomotives for TRANSAP Chile; 2026 delivery. Supports wabtec_transap_c30aci_chile_2025.",
+    "supports": [
+      "wabtec_transap_c30aci_chile_2025",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "hunt_latam_rail_telecom",
+      "wabtec_transap_c30aci_chile_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "spic_zuma_seraphim_20250723",
+    "type": "company",
+    "chicago": "SPIC-Zuma Energía. “Seraphim and SPIC-Zuma Energía Consolidate Strategic Alliance for Module Replacement in Key Solar Parks in Mexico.” Press center, July 2025.",
+    "url": "https://zumaenergia.com/en/press-center-view?id=105",
+    "annotation": "SPIC-Zuma primary: Seraphim 12 MW module replacement at Santa María and Orejana. Supports seraphim_spic_zuma_module_replace_2025.",
+    "supports": [
+      "seraphim_spic_zuma_module_replace_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "seraphim_spic_zuma_module_replace_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
