@@ -3,7 +3,7 @@ cycle: 85
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 86 shuffle_seed=20261086; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us215/prc212/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
+next_query: Cycle 86 shuffle_seed=20261086; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us199/prc208/allied222 after scope audit); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split. Scope-audit dry runs: if nickel/balsa/fission_smr still dry, move top-up to next-thinnest.
 next_row_id: (follow cycle-86 shuffled_order)
 dry_streak: 0
 
@@ -17,17 +17,45 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 85 pre-merge:
-# - GM Brazil tagged us (Detroit HQ). DFC Serra Verde / Tembici tagged us (U.S.
-#   government DFI). Abbott Querétaro tagged us (Abbott Park IL HQ).
-# - GWM Iracemápolis tagged prc (Baoding HQ). Geely Renault Brasil tagged prc
-#   (Hangzhou HQ; Renault majority noted). CMOC Equinox Brazil tagged prc.
-#   CSGI Enel Distribución Perú tagged prc (China Southern Power Grid).
+# === Cycle 86 PRE-STEP: scope audit (2026-10-02) ===
+# Checked every active row against BRIEF.md 18-subcategory definitions.
+# Archived status=archived with note marker "out_of_scope" when the asset was
+# not actually a port/crane/rail/bridge-road/building-materials/infra-or-energy
+# EPC / niobium/lithium/copper/nickel/graphite/balsa/water / fission-SMR/solar/
+# wind/power-plants-grid/other-renewables. Generic manufacturing, autos,
+# consumer goods, health devices, fintech/telecom, data centers, and non-list
+# minerals (gold/silver/REE) archived even if they held US/PRC balance.
+#
+# scope_audit_archived_total: 23
+# scope_audit_by_side:
+#   us: 16
+#   prc: 4
+#   allied: 3
+#   other: 0
+# scope_audit_by_subcategory:
+#   infrastructure/engineering_epc: 23
+# scope_audit_examples:
+#   us: gm_brazil_additional_3p5bn_brl_2026 (autos); abbott_queretaro_ep_plant_200m_2026
+#       (medical devices); dfc_tembici_15m_equity_2023 (bike-share); cummins_monterrey_*
+#       (auto parts); john_deere_canoas_* / agco_jundiai_reman (ag equipment);
+#       cloudhq_queretaro / ustda_atlantico_datacenter / ustda_cocesna_cyber /
+#       dfc_vtal_fiber (digital/telecom); dfc_serra_verde (REE); fluor_salares_norte /
+#       m3_vizsla_panuco (gold/silver EPCM); flowserve_torreon (generic mfg)
+#   prc: gwm_iracemapolis_4bn_brl_2025; geely_renault_brasil_3p8bn_brl_2025;
+#        byd_camacari_ev_complex_5p5bn_2025 (auto/EV assembly);
+#        cmoc_equinox_brazil_gold_1p015bn_2026 (gold)
+#   allied: sedgman_colossus_epcm_2026 (REE); worley_diablillos_abrasilver_2026;
+#           lycopodium_san_cristobal_epcm_2026 (silver)
+# Kept: CSGI Enel Distribución Perú (power_plants_grid); cement/hospital/housing
+# construction under building_materials; oil/gas/mining EPC tied to listed
+# resources or energy; port/airport/rail EPC.
+# Post-audit active sides: us199 / prc208 / allied222 / other36 (n=665).
+# Post-audit thinnest: nickel 22; balsa/fission_smr/graphite 23.
+
+# Side-tag audit (cycles 57–63) — cycle 85 pre-merge (superseded by cycle 86
+# scope audit above for GM/Abbott/Tembici/GWM/Geely/CMOC Equinox rows):
+# - CSGI Enel Distribución Perú tagged prc (China Southern Power Grid) — kept.
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
-#   No side-tag fixes this cycle.
-# - Skipped ZPMC Tecon Santos (already logged), Envision Casa dos Ventos (already
-#   logged), CRRC Melipilla/Batuco EMUs (efe_crrc_emu_2023). Thin nickel/balsa/
-#   fission_smr miss.
 
 shuffle_seed: 20261085
 budget_per_subcategory: 1_source_family_min
@@ -73,7 +101,7 @@ rows_found_this_cycle:
   infrastructure/port_ownership: 0
 
 coverage_cumulative:
-  # Active counts after cycle 85 (status=active)
+  # Active counts after cycle 86 scope audit (status=active)
   energy/fission_smr: 23
   energy/other_renewables: 43
   energy/power_plants_grid: 58
@@ -81,7 +109,7 @@ coverage_cumulative:
   energy/wind: 30
   infrastructure/bridges_roads: 35
   infrastructure/building_materials: 40
-  infrastructure/engineering_epc: 101
+  infrastructure/engineering_epc: 78
   infrastructure/port_cranes: 32
   infrastructure/port_ownership: 33
   infrastructure/rail: 39
