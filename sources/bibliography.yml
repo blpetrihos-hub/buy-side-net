@@ -5422,3 +5422,91 @@
   supports:
   - state_grid_mantiqueira_tx_2025
   - hunt_br_power_equip
+- id: capstone_orion_santo_domingo_20251013
+  type: company
+  chicago: Capstone Copper Corp. “Capstone Copper Announces up to $360 Million Investment from Orion for
+    25% Interest in Santo Domingo.” News release, 13 October 2025.
+  url: https://capstonecopper.com/news/capstone-copper-announces-up-to-360-million-investment-from-orion-for-25-interest-in-santo-domingo/
+  annotation: Orion (U.S.) up to USD 360m for 25% Santo Domingo/Sierra Norte. Supports orion_capstone_santo_domingo_360m_2025.
+  supports:
+  - orion_capstone_santo_domingo_360m_2025
+  - hunt_res_copper
+- id: energiminas_chalcobamba_877m_20250702
+  type: press
+  chicago: Energiminas. “Regulador ambiental aprueba plan de US$877 millones de Las Bambas para extender
+    vida útil de Chalcobamba.” 2 July 2025.
+  url: https://energiminas.com/2025/07/02/regulador-ambiental-aprueba-plan-de-us877-millones-de-las-bambas-para-extender-vida-util-de-chalcobamba/
+  annotation: Press on Senace Chalcobamba USD 877.9m plan (UNVERIFIED). Supports mmg_chalcobamba_877m_senace_2025.
+  supports:
+  - mmg_chalcobamba_877m_senace_2025
+  - hunt_res_copper
+- id: reuters_zijin_la_arena_1p5bn_20260428
+  type: press
+  chicago: Aquino, Marco, and Leila Miller. “China’s Zijin Plans $1.5 Billion Investment for La Arena
+    Copper Mine.” Reuters, 28 April 2026.
+  url: https://www.reuters.com/world/asia-pacific/chinas-zijin-plans-15-billion-investment-la-arena-copper-mine-2026-04-28/
+  annotation: Press on Zijin ~USD 1.5bn La Arena expansion (UNVERIFIED). Supports zijin_la_arena_sulfuros_1p5bn_2026.
+  supports:
+  - zijin_la_arena_sulfuros_1p5bn_2026
+  - hunt_res_copper
+- id: progress_rail_vli_20260210
+  type: company
+  chicago: Progress Rail. “VLI and Progress Rail Celebrate Delivery of New EMD Locomotives to Strengthen
+    Operations on the Centro-Atlântica Railway.” Press release, 10 February 2026.
+  url: https://www.progressrail.com/en/company/news/press-releases/2026-vli-and-progress-rail-celebrate
+  annotation: Progress Rail/Caterpillar eight SD70ACe-BB + 10-year MSA for VLI. Supports progress_rail_vli_sd70_2026.
+  supports:
+  - progress_rail_vli_sd70_2026
+  - hunt_latam_rail_telecom
+- id: wabtec_vale_50_locos_2026
+  type: company
+  chicago: Wabtec Corporation. “Vale and Wabtec Finalize Locomotive Purchase Agreement.” Press release,
+    2026.
+  url: https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-finalize-locomotive-purchase-agreement
+  annotation: Wabtec 50 Evolution Series locomotives for Vale EFVM/EFC. Supports wabtec_vale_50_locos_2026.
+  supports:
+  - wabtec_vale_50_locos_2026
+  - hunt_latam_rail_telecom
+- id: metrocptm_crrc_line4_20260331
+  type: press
+  chicago: Meier, Ricardo. “Motiva fecha compra de seis novos trens para a Linha 4-Amarela na China.”
+    Metrô CPTM, 31 March 2026.
+  url: https://www.metrocptm.com.br/motiva-fecha-compra-de-seis-novos-trens-para-a-linha-4-amarela-na-china/
+  annotation: Press on CRRC Changchun six Line 4 trains (~R$600m UNVERIFIED). Supports crrc_motiva_line4_6trains_2026.
+  supports:
+  - crrc_motiva_line4_6trains_2026
+  - hunt_latam_rail_telecom
+- id: copec_cousino_tesla_20260327
+  type: company
+  chicago: Copec S.A. “Copec Flux inaugura la primera planta solar con baterías Tesla en Chile.” 27 March
+    2026.
+  url: https://ww2.copec.cl/personas/noticias/sostenibilidad/copec-flux-inaugura-la-primera-planta-solar-con-baterias-tesla-en-chile
+  annotation: Copec Flux Cousiño 2.9 MWp + ~12 MWh Tesla Megapack. Supports tesla_copec_cousino_bess_2026.
+  supports:
+  - tesla_copec_cousino_bess_2026
+  - hunt_energy_other_renewables
+- id: albemarle_argentina_antofalla
+  type: company
+  chicago: Albemarle Corporation. “Argentina.” Company country page, accessed 2 October 2026.
+  url: https://www.albemarle.com/global/en/argentina
+  annotation: Albemarle Antofalla brine exploration presence (Catamarca). Supports albemarle_antofalla_exploration_ar.
+  supports:
+  - albemarle_antofalla_exploration_ar
+  - hunt_res_lithium
+- id: portalportuario_zpmc_icave_20260412
+  type: press
+  chicago: PortalPortuario. “México — Hutchison Ports Icave recibe nueva STS.” 12 April 2026.
+  url: https://portalportuario.cl/mexico-hutchison-ports-icave-recibe-nueva-sts/
+  annotation: Press on ZPMC STS + four RTGs to ICAVE Veracruz. Supports zpmc_icave_veracruz_sts_rtg_2026.
+  supports:
+  - zpmc_icave_veracruz_sts_rtg_2026
+  - hunt_infra_port_cranes
+- id: ctg_chaglla_20251029
+  type: company
+  chicago: China Three Gorges Corporation. “Chaglla Hydropower — Powering Peru Sustainably While Supporting
+    Local Communities.” 29 October 2025.
+  url: https://www.ctg.com.cn/ctgenglish/news_media/news37/2025120109542619200/index.html
+  annotation: CTG Chaglla hydro ops presence (Peru). Supports ctg_chaglla_peru_ops_2025.
+  supports:
+  - ctg_chaglla_peru_ops_2025
+  - hunt_br_power_equip
