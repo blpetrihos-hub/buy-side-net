@@ -431,10 +431,45 @@ function addFullscreenControl(leafletMap) {
 
 const CARTO_BASEMAP_KEY = "cb1_32m3_1_44dc754e68375e8ab5208497";
 
+let countBox = null;
+
+function addCountControl(m) {
+  const Count = L.Control.extend({
+    options: { position: "topleft" },
+    onAdd() {
+      const div = L.DomUtil.create("div", "leaflet-control count-box");
+      div.setAttribute("aria-live", "polite");
+      L.DomEvent.disableClickPropagation(div);
+      countBox = div;
+      return div;
+    },
+  });
+  new Count().addTo(m);
+}
+
+function updateCountBox(rows) {
+  if (!countBox) return;
+  let us = 0;
+  let prc = 0;
+  rows.forEach((r) => {
+    if (r.status === "hunt" || r.evidence === "hunt") return;
+    const b = sideBucket(r.side);
+    if (b === "us") us += 1;
+    else if (b === "prc") prc += 1;
+  });
+  countBox.innerHTML =
+    '<div class="count-title">LatAm observations</div>' +
+    `<div class="count-row"><span class="count-swatch" style="background:${COLORS.us}"></span>U.S. <strong>${us.toLocaleString()}</strong></div>` +
+    `<div class="count-row"><span class="count-swatch" style="background:${COLORS.prc}"></span>PRC <strong>${prc.toLocaleString()}</strong></div>` +
+    '<div class="count-sub">Updates with filters</div>';
+}
+
 function renderMap(rows) {
   if (!map) {
     // Centered on Latin America & the Caribbean
-    map = L.map("map", { scrollWheelZoom: true }).setView([-15, -60], 3.5);
+    map = L.map("map", { scrollWheelZoom: true, zoomControl: false }).setView([-15, -60], 3.5);
+    addCountControl(map);
+    L.control.zoom({ position: "topleft" }).addTo(map);
     const tiles =
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=" +
       encodeURIComponent(CARTO_BASEMAP_KEY);
@@ -460,6 +495,7 @@ function renderMap(rows) {
     markersById[r.id] = m;
   });
   layerGroup.addTo(map);
+  updateCountBox(rows);
 }
 
 function setupOverlay() {
