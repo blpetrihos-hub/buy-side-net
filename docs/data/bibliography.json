@@ -13429,5 +13429,131 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_aptim_yabucoa_20171107",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9128F18F0016_9700_W9128F14D0034_9700 (APTIM Federal Services LLC; USACE temporary power Yabucoa). Signed 7 November 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F18F0016_9700_W9128F14D0034_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F18F0016_9700_W9128F14D0034_9700/",
+    "annotation": "USASpending primary: USD 54.2m temporary power Yabucoa. Supports aptim_yabucoa_temp_power_2017.",
+    "supports": [
+      "aptim_yabucoa_temp_power_2017",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "aptim_yabucoa_temp_power_2017",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_flatiron_bechara_20110812",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP11C0027_9700_-NONE-_-NONE- (Flatiron Dragados USA Inc.; USACE Puerto Nuevo Bechara). Signed 12 August 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP11C0027_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP11C0027_9700_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 43.1m Puerto Nuevo Bechara Phases 1–2. Supports flatiron_bechara_puerto_nuevo_2011.",
+    "supports": [
+      "flatiron_bechara_puerto_nuevo_2011",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "flatiron_bechara_puerto_nuevo_2011",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_del_valle_rpn_2d_20170221",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP17C0009_9700_-NONE-_-NONE- (Del Valle Group LLC; USACE Río Puerto Nuevo Contract 2D). Signed 21 February 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP17C0009_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP17C0009_9700_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 24.0m Río Puerto Nuevo Contract 2D walls. Supports del_valle_rpn_2d_walls_2017.",
+    "supports": [
+      "del_valle_rpn_2d_walls_2017",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "del_valle_rpn_2d_walls_2017",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_lpcd_margarita_20140813",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912EP14C0021_9700_-NONE-_-NONE- (LP C & D Inc; USACE Upper Margarita channel). Signed 13 August 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP14C0021_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP14C0021_9700_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 21.2m Upper Margarita channel/stilling basin. Supports lpcd_rpn_margarita_2014.",
+    "supports": [
+      "lpcd_rpn_margarita_2014",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "lpcd_rpn_margarita_2014"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_jc_prng_espc_20140930",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0016_9700_W912DY09D0017_9700 (Johnson Controls Government Systems LLC; ESPC Puerto Rico National Guard). Signed 30 September 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0016_9700_W912DY09D0017_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0016_9700_W912DY09D0017_9700/",
+    "annotation": "USASpending primary: USD 29.3m PR National Guard ESPC. Supports johnson_controls_prng_espc_2014.",
+    "supports": [
+      "johnson_controls_prng_espc_2014",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "johnson_controls_prng_espc_2014"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_caribbean_lumber_20180112",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70FBR218F00000028_7022_70FBR218D00000003_7022 (Caribbean Lumber & Hardware Inc; FEMA VALOR building materials). Signed 12 January 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70FBR218F00000028_7022_70FBR218D00000003_7022/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70FBR218F00000028_7022_70FBR218D00000003_7022/",
+    "annotation": "USASpending primary: USD 23.2m VALOR building materials. Supports caribbean_lumber_valor_materials_2018.",
+    "supports": [
+      "caribbean_lumber_valor_materials_2018",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "caribbean_lumber_valor_materials_2018",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_schneider_espc_pr_20101217",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_HSCG8311JPMV073_7008_DEAM3609GO29042_8900 (Schneider Electric Buildings Americas Inc; ESPC cool roofs Puerto Rico). Signed 17 December 2010. https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG8311JPMV073_7008_DEAM3609GO29042_8900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG8311JPMV073_7008_DEAM3609GO29042_8900/",
+    "annotation": "USASpending primary: USD 54.2m Schneider ESPC cool roofs/utility rate PR. Supports schneider_espc_pr_cool_roofs_2010.",
+    "supports": [
+      "schneider_espc_pr_cool_roofs_2010",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "schneider_espc_pr_cool_roofs_2010"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
