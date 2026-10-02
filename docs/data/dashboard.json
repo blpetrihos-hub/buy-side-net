@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 872,
+    "n_rows": 874,
     "counts": {
-      "total": 872,
-      "active": 780,
+      "total": 874,
+      "active": 782,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 647,
-      "on_map": 764
+      "documented": 649,
+      "on_map": 766
     }
   },
   "layer_readouts": [
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 64,
+        "us": 65,
         "prc": 41,
         "allied": 109,
-        "n": 214
+        "n": 215
       },
       "usd": {
-        "us": 26131820321.85,
-        "us_n": 34,
+        "us": 26189488942.18,
+        "us_n": 35,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -153,9 +153,9 @@
       "layer": "energy",
       "counts": {
         "us": 94,
-        "prc": 95,
+        "prc": 96,
         "allied": 72,
-        "n": 261
+        "n": 262
       },
       "usd": {
         "us": 17857848479.190002,
@@ -289,9 +289,9 @@
       "country": "Brazil",
       "counts": {
         "us": 70,
-        "prc": 65,
+        "prc": 66,
         "allied": 105,
-        "n": 240
+        "n": 241
       },
       "usd": {
         "us": 1782545000.0,
@@ -304,7 +304,7 @@
       "by_layer": {
         "energy": {
           "us": 11,
-          "prc": 36,
+          "prc": 37,
           "allied": 25
         },
         "infrastructure": {
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 54,
+        "us": 55,
         "prc": 0,
         "allied": 6,
-        "n": 60
+        "n": 61
       },
       "usd": {
-        "us": 5893005394.390001,
-        "us_n": 52,
+        "us": 5950674014.720001,
+        "us_n": 53,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 93041238.75,
@@ -841,7 +841,7 @@
           "allied": 4
         },
         "resources": {
-          "us": 8,
+          "us": 9,
           "prc": 0,
           "allied": 0
         }
@@ -1709,7 +1709,9 @@
       "tutor_perini_uscg_sj_phase2_2022",
       "tutor_perini_uscg_sj_phase3_2022",
       "rq_aecom_borinquen_phase2_2022",
-      "caddell_nova_borinquen_2022"
+      "caddell_nova_borinquen_2022",
+      "sungrow_mercury_helio_valgas_2022",
+      "flatiron_margarita_channel_2010"
     ],
     "hunt": [
       "hunt_br_power_equip",
