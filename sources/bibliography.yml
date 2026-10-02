@@ -10055,3 +10055,38 @@
   supports:
   - sumec_guyana_trafalgar_8m_2025
   - hunt_energy_solar
+- id: aes_andes_google_ppa_20191209
+  type: company
+  chicago: AES Andes. “AES Gener y Google firman histórico contrato de energía renovable.” December 9,
+    2019. https://www.aesandes.com/en/press-release/aes-gener-y-google-firman-historico-contrato-de-energia-renovable.
+  url: https://www.aesandes.com/en/press-release/aes-gener-y-google-firman-historico-contrato-de-energia-renovable
+  annotation: 'AES Andes: Google Quilicura 440 GWh/y 14-year hybrid PPA. Supports aes_andes_google_440gwh_ppa_2019.'
+  supports:
+  - aes_andes_google_440gwh_ppa_2019
+  - hunt_energy_other_renewables
+- id: aes_andes_teck_qb2_ppa_20221110
+  type: company
+  chicago: AES Andes. “Teck Secures 100% Clean Power with AES Andes for Quebrada Blanca Phase 2.” November
+    10, 2022. https://www.aesandes.com/en/press-release/teck-secures-100-clean-power-aes-andes-quebrada-blanca-phase-2.
+  url: https://www.aesandes.com/en/press-release/teck-secures-100-clean-power-aes-andes-quebrada-blanca-phase-2
+  annotation: 'AES Andes: Teck QB2 1,069 GWh/y 17-year renewable PPA. Supports aes_andes_teck_qb2_1069gwh_2022.'
+  supports:
+  - aes_andes_teck_qb2_1069gwh_2022
+  - hunt_energy_other_renewables
+- id: powerchina_san_carlos_salta_20240327
+  type: company
+  chicago: POWERCHINA. “POWERCHINA to commence new solar power project in Argentina.” March 27, 2024.
+    https://en.powerchina.cn/2024-03/27/c_828683.htm.
+  url: https://en.powerchina.cn/2024-03/27/c_828683.htm
+  annotation: 'POWERCHINA: San Carlos Salta 18.3 MW PV EPC contract. Supports powerchina_san_carlos_18p3mw_salta_2024.'
+  supports:
+  - powerchina_san_carlos_18p3mw_salta_2024
+  - hunt_energy_solar
+- id: powerchina_ar_el_tambolar
+  type: company
+  chicago: POWERCHINA Ltd. Sucursal Argentina. “Central Hidroeléctrica El Tambolar.” https://www.powerchina.com.ar/tambolar.html.
+  url: https://www.powerchina.com.ar/tambolar.html
+  annotation: 'POWERCHINA Argentina: El Tambolar 83.5 MW / USD 520m UTE contract. Supports powerchina_el_tambolar_520m_2019.'
+  supports:
+  - powerchina_el_tambolar_520m_2019
+  - hunt_energy_other_renewables

@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1075,
+    "n_rows": 1079,
     "counts": {
-      "total": 1075,
-      "active": 877,
+      "total": 1079,
+      "active": 881,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 156,
       "exclude": 18,
-      "documented": 847,
-      "on_map": 859
+      "documented": 851,
+      "on_map": 863
     }
   },
   "layer_readouts": [
@@ -151,16 +151,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 101,
-        "prc": 139,
+        "us": 103,
+        "prc": 141,
         "allied": 83,
-        "n": 323
+        "n": 327
       },
       "usd": {
         "us": 11511785515.13,
         "us_n": 31,
-        "prc": 5258017778.25,
-        "prc_n": 21,
+        "prc": 5778017778.25,
+        "prc_n": 22,
         "allied": 6601418889.2300005,
         "allied_n": 28
       },
@@ -201,22 +201,22 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 29,
+        "prc": 31,
         "allied": 27,
-        "n": 73
+        "n": 75
       },
       "usd": {
         "us": 7270869147.0,
         "us_n": 3,
-        "prc": 3194732659.07,
-        "prc_n": 12,
+        "prc": 3714732659.07,
+        "prc_n": 13,
         "allied": 18239362187.2,
         "allied_n": 15
       },
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 10,
+          "prc": 12,
           "allied": 11
         },
         "infrastructure": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 38,
+        "us": 40,
         "prc": 39,
         "allied": 51,
-        "n": 128
+        "n": 130
       },
       "usd": {
         "us": 20511000000.0,
@@ -404,7 +404,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 25,
+          "us": 27,
           "prc": 30,
           "allied": 16
         },
@@ -1955,7 +1955,11 @@
       "aes_andes_codelco_ppa_1p6twh_2023",
       "aes_andes_microsoft_chile_ppa_2022",
       "ctg_arinos_first_unit_78p4mw_2024",
-      "sumec_guyana_trafalgar_8m_2025"
+      "sumec_guyana_trafalgar_8m_2025",
+      "aes_andes_google_440gwh_ppa_2019",
+      "aes_andes_teck_qb2_1069gwh_2022",
+      "powerchina_san_carlos_18p3mw_salta_2024",
+      "powerchina_el_tambolar_520m_2019"
     ],
     "hunt": [
       "hunt_br_power_equip",
