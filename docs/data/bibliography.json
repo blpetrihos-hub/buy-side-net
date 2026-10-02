@@ -17362,5 +17362,124 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "midagri_china_g2g_poechos_20251223",
+    "type": "government",
+    "chicago": "Peru, Ministerio de Desarrollo Agrario y Riego. “MIDAGRI: China gana G2G para la asistencia técnica de Alto Piura y Poechos.” December 23, 2025. https://www.gob.pe/institucion/midagri/noticias/1319346-midagri-china-gana-g2g-para-la-asistencia-tecnica-de-alto-piura-y-poechos.",
+    "url": "https://www.gob.pe/institucion/midagri/noticias/1319346-midagri-china-gana-g2g-para-la-asistencia-tecnica-de-alto-piura-y-poechos",
+    "annotation": "MIDAGRI: China wins G2G TA for Alto Piura and Poechos. Supports china_midagri_poechos_alto_piura_g2g_2025.",
+    "supports": [
+      "china_midagri_poechos_alto_piura_g2g_2025",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "china_midagri_poechos_alto_piura_g2g_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "dfc_amazon_biocorridor_20241217",
+    "type": "government",
+    "chicago": "U.S. International Development Finance Corporation. “DFC Announces $1 Billion in Political Risk Insurance for Ecuador’s First Debt Conversion to Support Terrestrial and Freshwater Conservation in the Amazon.” December 17, 2024. https://www.dfc.gov/media/press-releases/dfc-announces-1-billion-political-risk-insurance-ecuadors-first-debt.",
+    "url": "https://www.dfc.gov/media/press-releases/dfc-announces-1-billion-political-risk-insurance-ecuadors-first-debt",
+    "annotation": "DFC: USD 1bn PRI for Ecuador Amazon Biocorridor debt conversion. Supports dfc_ecuador_amazon_biocorridor_pri_1bn_2024.",
+    "supports": [
+      "dfc_ecuador_amazon_biocorridor_pri_1bn_2024",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "dfc_ecuador_amazon_biocorridor_pri_1bn_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ge_vernova_itaipu_modernization_20251120",
+    "type": "company",
+    "chicago": "GE Vernova. “Enabling the Superpower of Water: The Major Technological Update Is Becoming Reality at Itaipu Hydroelectric Plant.” November 20, 2025. https://www.gevernova.com/news/articles/enabling-superpower-water-major-technological-update.",
+    "url": "https://www.gevernova.com/news/articles/enabling-superpower-water-major-technological-update",
+    "annotation": "GE Vernova: Itaipu CMI consortium modernization lead. Supports ge_vernova_itaipu_cmi_modernization_2025.",
+    "supports": [
+      "ge_vernova_itaipu_cmi_modernization_2025",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "ge_vernova_itaipu_cmi_modernization_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "byd_brasil_raizen_gera_20240322",
+    "type": "company",
+    "chicago": "BYD Brasil. “BYD vai implantar nove usinas solares com expertise em EPC para Raízen Gera Desenvolvedora.” March 22, 2024. https://bydbrasil.com.br/byd-vai-implantar-nove-usinas-solares-com-expertise-em-epc-para-raizen-gera-desenvolvedora/.",
+    "url": "https://bydbrasil.com.br/byd-vai-implantar-nove-usinas-solares-com-expertise-em-epc-para-raizen-gera-desenvolvedora/",
+    "annotation": "BYD Brasil: Full EPC nine Raízen Gera plants totaling 26.5 MW. Supports byd_raizen_gera_nine_plants_26p5mw.",
+    "supports": [
+      "byd_raizen_gera_nine_plants_26p5mw",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "byd_raizen_gera_nine_plants_26p5mw"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sinobalsa_about_ecuador",
+    "type": "company",
+    "chicago": "Jiangsu Sino New Materials Co., Ltd. “About.” http://www.sinobalsa.com/en/about.html.",
+    "url": "http://www.sinobalsa.com/en/about.html",
+    "annotation": "Sinobalsa: company states Ecuador forest/block subsidiary. Supports sinobalsa_ecuador_presence.",
+    "supports": [
+      "sinobalsa_ecuador_presence",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "sinobalsa_ecuador_presence"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cancilleria_ar_us_critical_minerals_20260204",
+    "type": "government",
+    "chicago": "Argentina, Ministerio de Relaciones Exteriores, Comercio Internacional y Culto. “Argentina y Estados Unidos suscribieron un acuerdo de minerales críticos.” February 4, 2026. https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-y-estados-unidos-suscribieron-un-acuerdo-de-minerales-criticos.",
+    "url": "https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-y-estados-unidos-suscribieron-un-acuerdo-de-minerales-criticos",
+    "annotation": "Cancillería AR: U.S.–Argentina critical minerals framework. Supports argentina_us_critical_minerals_framework_2026.",
+    "supports": [
+      "argentina_us_critical_minerals_framework_2026",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "argentina_us_critical_minerals_framework_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ustr_mexico_critical_minerals_20260204",
+    "type": "government",
+    "chicago": "Office of the United States Trade Representative. “Ambassador Jamieson Greer Announces U.S.-Mexico Action Plan on Critical Minerals.” February 4, 2026. https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/ambassador-jamieson-greer-announces-us-mexico-action-plan-critical-minerals.",
+    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/ambassador-jamieson-greer-announces-us-mexico-action-plan-critical-minerals",
+    "annotation": "USTR: U.S.–Mexico Critical Minerals Action Plan. Supports mexico_us_critical_minerals_action_plan_2026.",
+    "supports": [
+      "mexico_us_critical_minerals_action_plan_2026",
+      "hunt_cycle170"
+    ],
+    "map_supports": [
+      "mexico_us_critical_minerals_action_plan_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
