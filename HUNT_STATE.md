@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 64
+cycle: 65
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 65 shuffle_seed=20261065; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (U.S. push has worked; sides ~us131/prc128/allied223); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
-next_row_id: (follow cycle-65 shuffled_order)
+next_query: Cycle 66 shuffle_seed=20261066; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (U.S. push has worked; sides ~us135/prc132/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
+next_row_id: (follow cycle-66 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,80 +17,85 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 64 pre-merge:
-# - aldesa_chiapas_tunnels_659m_2026: prc → allied (Aldesa/Proacon HQ Spain; cycle 58).
-# - Shell Manzanillo, ACCIONA Pernambuco, AFRY Acelen, Golar SESA MK II already
-#   correctly tagged allied in cycles 62–63; no further retags required for those.
+# Side-tag audit (cycles 57–63) — cycle 65 pre-merge:
+# - aldesa_mexico_solar_hybrid_2026: prc → allied (Aldesa Spain HQ; same HQ rule as
+#   cycle-64 aldesa_chiapas retag; CRCC ownership noted but HQ test applies).
+# - aldesa_chiapas_tunnels_659m_2026 already allied (cycle 64).
+# - Shell Manzanillo, ACCIONA, AFRY, Golar already correctly tagged allied.
+# - ccecc_aldesa_queretaro_irapuato_2026 remains prc (CCECC/CRCC lead consortium).
 
-shuffle_seed: 20261064
+shuffle_seed: 20261065
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/nickel
+- infrastructure/port_ownership
+- resources/balsa
+- energy/fission_smr
 - resources/niobium
+- resources/graphite
 - infrastructure/rail
 - infrastructure/engineering_epc
-- infrastructure/bridges_roads
-- resources/graphite
-- resources/copper
-- energy/other_renewables
-- infrastructure/building_materials
+- resources/nickel
 - resources/lithium
+- infrastructure/building_materials
 - energy/solar
-- resources/water
-- energy/power_plants_grid
 - energy/wind
-- resources/balsa
-- infrastructure/port_ownership
-- energy/fission_smr
+- energy/other_renewables
 - infrastructure/port_cranes
+- infrastructure/bridges_roads
+- resources/copper
+- energy/power_plants_grid
+- resources/water
 
 rows_found_this_cycle:
-  resources/nickel: 0
-  resources/niobium: 0
-  infrastructure/rail: 3
-  infrastructure/engineering_epc: 0
-  infrastructure/bridges_roads: 0
-  resources/graphite: 0
-  resources/copper: 3
-  energy/other_renewables: 1
-  infrastructure/building_materials: 0
-  resources/lithium: 1
-  energy/solar: 0
-  resources/water: 0
-  energy/power_plants_grid: 1
-  energy/wind: 0
-  resources/balsa: 0
   infrastructure/port_ownership: 0
+  resources/balsa: 0
   energy/fission_smr: 0
+  resources/niobium: 0
+  resources/graphite: 0
+  infrastructure/rail: 2
+  infrastructure/engineering_epc: 0
+  resources/nickel: 0
+  resources/lithium: 1
+  infrastructure/building_materials: 0
+  energy/solar: 1
+  energy/wind: 1
+  energy/other_renewables: 1
   infrastructure/port_cranes: 1
+  infrastructure/bridges_roads: 0
+  resources/copper: 0
+  energy/power_plants_grid: 0
+  resources/water: 1
 
 coverage_cumulative:
-  # Active+hunt after cycle 64
-  # (+ equal-pass: Orion Capstone Santo Domingo / MMG Chalcobamba Senace /
-  #   Zijin La Arena Sulfuros / Progress Rail VLI / Wabtec Vale 50 locos /
-  #   CRRC Motiva Line 4 / Tesla Copec Cousiño / Albemarle Antofalla /
-  #   ZPMC ICAVE STS+RTG / CTG Chaglla; thin_topup: nickel/fission_smr/graphite — misses)
-  infrastructure/port_ownership: 33
-  infrastructure/port_cranes: 32
-  infrastructure/rail: 34
+  # Active+hunt after cycle 65 (non-archived)
+  energy/fission_smr: 23
+  energy/other_renewables: 35
+  energy/power_plants_grid: 46
+  energy/solar: 37
+  energy/wind: 27
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 25
   infrastructure/engineering_epc: 33
-  resources/niobium: 23
-  resources/lithium: 34
+  infrastructure/port_cranes: 33
+  infrastructure/port_ownership: 33
+  infrastructure/rail: 38
+  resources/balsa: 24
   resources/copper: 30
-  resources/nickel: 23
   resources/graphite: 23
-  resources/balsa: 23
-  resources/water: 30
-  energy/fission_smr: 23
-  energy/solar: 35
-  energy/wind: 26
-  energy/power_plants_grid: 37
-  energy/other_renewables: 34
+  resources/lithium: 35
+  resources/nickel: 23
+  resources/niobium: 26
+  resources/water: 31
 
 rows_by_side_this_cycle:
+  us: 4
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 64
+rows_by_side_this_cycle_cycle64:
   us: 5
   prc: 5
   allied: 0
@@ -109,23 +114,34 @@ thin_topup:
   - resources/nickel
   - energy/fission_smr
   - resources/graphite
-  # Hits: none — documented misses (Westwin/BRN already logged; Meitner/FIRST/
-  #   NuScale stacks already logged; South Star/Graphcoa/Urbix stacks already logged).
+  # Hits: none — documented misses (MMG Anglo Ni / Westwin / DFC Piauí / Jervois
+  #   already logged; Meitner/FIRST/NuScale stacks already logged; South Star/
+  #   Graphcoa/Urbix stacks already logged).
 
-# Cycle 64 (seed 20261064): 10 sourced rows (10 shuffled + 0 thin_topup);
-#   shuffled: copper (Orion Capstone Santo Domingo USD 360m us; MMG Chalcobamba
-#   Senace USD 877.9m proxy prc; Zijin La Arena Sulfuros ~USD 1.5bn proxy prc),
-#   rail (Progress Rail VLI 8×SD70 + MSA us; Wabtec Vale 50 locos us; CRRC Motiva
-#   Line 4 six trains ~R$600m proxy prc), other_renewables (Tesla Copec Cousiño
-#   Megapack us), lithium (Albemarle Antofalla exploration us), port_cranes
-#   (ZPMC ICAVE STS+4 RTG proxy prc), power_plants_grid (CTG Chaglla ops prc).
-#   Thin_topup (nickel/fission_smr/graphite): all misses.
-#   rows_by_side: us 5 / prc 5 / allied 0 / other 0.
-#   Side-tag fix: aldesa_chiapas_tunnels_659m_2026 prc→allied.
-#   Equal-budget misses: nickel, niobium, engineering_epc, bridges_roads, graphite,
-#   building_materials, solar, water, wind, balsa, port_ownership, fission_smr.
+# Cycle 65 (seed 20261065): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: rail (Wabtec Vale PTC ~BRL 1bn us; CRI EFE TAM/TSB electrification
+#   USD 34.6m imported prc), lithium (Atlas Neves expansion permit us), solar
+#   (SUMEC–XJ Linden GUYSOL USD 22.58m prc), wind (AES El Quemado 247.5 MW NL us),
+#   other_renewables (PowerChina Guyana BESS USD 27.37m prc), port_cranes (ZPMC
+#   Hutchison Lázaro 12 ARTG prc), water (FCX Cerro Verde La Enlozada >USD 300m
+#   proxy us). Thin_topup (nickel/fission_smr/graphite): all misses.
+#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
+#   Side-tag fix: aldesa_mexico_solar_hybrid_2026 prc→allied.
+#   Equal-budget misses: port_ownership, balsa, fission_smr, niobium, graphite,
+#   engineering_epc, nickel, building_materials, bridges_roads, copper,
+#   power_plants_grid.
 
 seen_urls:
+- https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-agreement-to-enhance-operational-safety-on-the-efc-and-efvm-railways-with-advanced-railway
+- https://sinat.semarnat.gob.mx:8443/Gacetas/archivos2026/gaceta_0040-26.pdf
+- https://mineriaenergia.com/cerro-verde-lanza-apuesta-de-us-300-millones-en-planta-de-arequipa-que-viene/
+- https://www.atlas-lithium.com/news/atlas-lithium-granted-expansion-permit-for-its-neves-project/
+- https://newsroom.gy/2026/05/08/guyana-signs-us27-3m-deal-with-powerchina-for-major-battery-energy-storage-project/
+- https://www.efe.cl/efe-adjudica-el-sistema-electrico-y-de-traccion-para-los-servicios-alameda-melipilla-y-santiago-batuco/
+- https://newsroom.gy/2025/05/21/with-contract-signed-linden-to-get-guyanas-largest-solar-farm-yet/
+- https://www.ptc.mx/2026/07/hutchison-ports-incorpora-12-nuevas-gruas-automatizadas-a-lazaro-cardenas/
+- https://www.sumecengineering.com/cn/newsCenter/20250522/37424.html
+
 - https://capstonecopper.com/news/capstone-copper-announces-up-to-360-million-investment-from-orion-for-25-interest-in-santo-domingo/
 - https://energiminas.com/2025/07/02/regulador-ambiental-aprueba-plan-de-us877-millones-de-las-bambas-para-extender-vida-util-de-chalcobamba/
 - https://www.reuters.com/world/asia-pacific/chinas-zijin-plans-15-billion-investment-la-arena-copper-mine-2026-04-28/
