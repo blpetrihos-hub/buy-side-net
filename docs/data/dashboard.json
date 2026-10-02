@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1011,
+    "n_rows": 1016,
     "counts": {
-      "total": 1011,
-      "active": 813,
+      "total": 1016,
+      "active": 818,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 784,
-      "on_map": 797
+      "documented": 789,
+      "on_map": 800
     }
   },
   "layer_readouts": [
@@ -128,14 +128,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 58,
+        "us": 59,
         "prc": 51,
         "allied": 112,
-        "n": 221
+        "n": 222
       },
       "usd": {
-        "us": 24752802296.0,
-        "us_n": 27,
+        "us": 24859802296.0,
+        "us_n": 28,
         "prc": 12746672882.0,
         "prc_n": 26,
         "allied": 39952458653.2,
@@ -152,17 +152,17 @@
       "layer": "energy",
       "counts": {
         "us": 84,
-        "prc": 111,
-        "allied": 72,
-        "n": 267
+        "prc": 113,
+        "allied": 74,
+        "n": 271
       },
       "usd": {
         "us": 11743785515.13,
         "us_n": 24,
-        "prc": 4574477608.25,
-        "prc_n": 14,
-        "allied": 4203418889.2300005,
-        "allied_n": 22
+        "prc": 4627223950.25,
+        "prc_n": 15,
+        "allied": 5368418889.2300005,
+        "allied_n": 24
       },
       "matched_gaps": {
         "n": 1,
@@ -390,23 +390,23 @@
       "country": "Chile",
       "counts": {
         "us": 35,
-        "prc": 34,
-        "allied": 44,
-        "n": 113
+        "prc": 36,
+        "allied": 45,
+        "n": 116
       },
       "usd": {
         "us": 21411000000.0,
         "us_n": 15,
-        "prc": 2905358059.0299997,
-        "prc_n": 11,
-        "allied": 9578000000.0,
-        "allied_n": 15
+        "prc": 2958104401.0299997,
+        "prc_n": 12,
+        "allied": 9643000000.0,
+        "allied_n": 16
       },
       "by_layer": {
         "energy": {
           "us": 22,
-          "prc": 26,
-          "allied": 9
+          "prc": 28,
+          "allied": 10
         },
         "infrastructure": {
           "us": 4,
@@ -425,22 +425,22 @@
       "counts": {
         "us": 9,
         "prc": 17,
-        "allied": 10,
-        "n": 36
+        "allied": 11,
+        "n": 37
       },
       "usd": {
         "us": 250706908.27,
         "us_n": 3,
         "prc": 5016000000.0,
         "prc_n": 1,
-        "allied": 667000000.0,
-        "allied_n": 4
+        "allied": 1767000000.0,
+        "allied_n": 5
       },
       "by_layer": {
         "energy": {
           "us": 6,
           "prc": 12,
-          "allied": 2
+          "allied": 3
         },
         "infrastructure": {
           "us": 3,
@@ -936,14 +936,14 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 12,
+        "us": 13,
         "prc": 37,
         "allied": 25,
-        "n": 74
+        "n": 75
       },
       "usd": {
-        "us": 5640000000.0,
-        "us_n": 5,
+        "us": 5747000000.0,
+        "us_n": 6,
         "prc": 12247924416.0,
         "prc_n": 9,
         "allied": 14683340000.0,
@@ -961,7 +961,7 @@
           "allied": 12
         },
         "resources": {
-          "us": 6,
+          "us": 7,
           "prc": 12,
           "allied": 7
         }
@@ -1886,7 +1886,12 @@
       "zijin_rio_blanco_peru_2792m",
       "tongling_mirador_phase2_ecuador_2026",
       "minmetals_el_galeno_peru_3500m",
-      "nfe_puerto_sandino_lng_power_2026"
+      "nfe_puerto_sandino_lng_power_2026",
+      "solaer_calbuco_chile_65m_2026",
+      "fcx_cerro_verde_stake_107m_2026",
+      "jinko_ess_chile_340mw_1600mwh_2025",
+      "xinyuan_spic_atacama_bess_chile_rmb381m_2024",
+      "promigas_zelestra_latam_1p1bn_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
