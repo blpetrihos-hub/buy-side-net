@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 146
+cycle: 147
 remote: present
-active_layer: resources
-active_subcategory: water
-next_query: Cycle 147 shuffle_seed=20261147; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us284/prc292/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: AES Brisas 26 MW Colombia solar (AES history); Sungrow BESS Coya COD wrap if distinct from supply row; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
-next_row_id: (follow cycle-147 shuffled_order)
+active_layer: energy
+active_subcategory: power_plants_grid
+next_query: Cycle 148 shuffle_seed=20261148; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us286/prc294/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: AES Brisas 26 MWp Colombia (AES award + history COD); Aldesa El Tuli 187.5 MWp / USD 150m (allied HQ — not us/prc); Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
+next_row_id: (follow cycle-148 shuffled_order)
 dry_streak: 0
+
+# === Cycle 147 (seed 20261147) ===
+# Shuffled order: power_plants_grid, solar, fission_smr, port_cranes, rail,
+#   bridges_roads, engineering_epc, graphite, copper, building_materials, lithium,
+#   port_ownership, niobium, other_renewables, wind, balsa, water, nickel.
+# Logged 4 sourced rows (2 US / 2 PRC; thin dry; no padding):
+#   us solar: aes_san_fernando_61mw_colombia_2021 (~USD 40m / 61 MWp).
+#   us solar: aes_castilla_21mw_colombia_2019 (~USD 20m / 21 MWp).
+#   prc copper: mmg_las_bambas_h1_2026_capex_272m (USD 272.4m H1 CapEx).
+#   prc wind: powerchina_loma_blanca_miramar_355mw_epc (355 MW Goldwind EPC).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: power_plants_grid, fission_smr, port_cranes, rail,
+#   bridges_roads, engineering_epc, graphite, building_materials, lithium,
+#   port_ownership, niobium, other_renewables, balsa, water, nickel.
+# Dense already-logged: ZPMC CMSA/Contecon Manzanillo; Sungrow Observatorio;
+#   Aldesa Mexico hybrid (allied HQ); Ganfeng Lithea USD 962m.
+# Active after cycle 147: us286 / prc294 / allied247 / other38 (n=865).
+shuffle_seed: 20261147
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/power_plants_grid
+- energy/solar
+- energy/fission_smr
+- infrastructure/port_cranes
+- infrastructure/rail
+- infrastructure/bridges_roads
+- infrastructure/engineering_epc
+- resources/graphite
+- resources/copper
+- infrastructure/building_materials
+- resources/lithium
+- infrastructure/port_ownership
+- resources/niobium
+- energy/other_renewables
+- energy/wind
+- resources/balsa
+- resources/water
+- resources/nickel
+rows_found_this_cycle:
+  energy/power_plants_grid: 0
+  energy/solar: 2
+  energy/fission_smr: 0
+  infrastructure/port_cranes: 0
+  infrastructure/rail: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/engineering_epc: 0
+  resources/graphite: 0
+  resources/copper: 1
+  infrastructure/building_materials: 0
+  resources/lithium: 0
+  infrastructure/port_ownership: 0
+  resources/niobium: 0
+  energy/other_renewables: 0
+  energy/wind: 1
+  resources/balsa: 0
+  resources/water: 0
+  resources/nickel: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 2
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 146 (seed 20261146) ===
 # Shuffled order: water, wind, port_ownership, bridges_roads, other_renewables,

@@ -15123,5 +15123,77 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "ecopetrol_aes_san_fernando_20211022",
+    "type": "company",
+    "chicago": "Ecopetrol S.A. “Grupo Ecopetrol, Cenit y AES pusieron en operación el Parque Solar San Fernando en el Meta.” October 22, 2021. https://www.ecopetrol.com.co/wps/portal/Home/es/noticias/detalle/Noticias+2021/grupo-ecopetrol-ceni-aes-inauguraron-parque-solar-san-fernando.",
+    "url": "https://www.ecopetrol.com.co/wps/portal/Home/es/noticias/detalle/Noticias+2021/grupo-ecopetrol-ceni-aes-inauguraron-parque-solar-san-fernando",
+    "annotation": "Ecopetrol primary: AES San Fernando 61 MWp COD / ~USD 40m. Supports aes_san_fernando_61mw_colombia_2021.",
+    "supports": [
+      "aes_san_fernando_61mw_colombia_2021",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_san_fernando_61mw_colombia_2021",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ecopetrol_aes_castilla_20191018",
+    "type": "company",
+    "chicago": "Ecopetrol S.A. “Ecopetrol y AES pusieron en operación Parque Solar Castilla en el Meta.” October 18, 2019. https://www.ecopetrol.com.co/wps/portal/Home/es/noticias/detalle/Noticias+2019/Noticias+Octubre/Noticia+12+Octubre+2019.",
+    "url": "https://www.ecopetrol.com.co/wps/portal/Home/es/noticias/detalle/Noticias+2019/Noticias+Octubre/Noticia+12+Octubre+2019",
+    "annotation": "Ecopetrol primary: AES Castilla 21 MWp COD / ~USD 20m. Supports aes_castilla_21mw_colombia_2019.",
+    "supports": [
+      "aes_castilla_21mw_colombia_2019",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_castilla_21mw_colombia_2019",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mmg_interim_results_20260811",
+    "type": "company",
+    "chicago": "MMG Limited. “Announcement of Interim Results for the Six Months Ended 30 June 2026.” August 11, 2026. https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0811/2026081100891.pdf.",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0811/2026081100891.pdf",
+    "annotation": "MMG H1 2026 interim: Las Bambas CapEx USD 272.4m. Supports mmg_las_bambas_h1_2026_capex_272m.",
+    "supports": [
+      "mmg_las_bambas_h1_2026_capex_272m",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "mmg_las_bambas_h1_2026_capex_272m"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "powerchina_ar_loma_blanca_miramar_epc",
+    "type": "company",
+    "chicago": "POWERCHINA Ltd. Sucursal Argentina. “Loma Blanca I, II, III, VI / Parque Eólico Miramar.” Accessed 2026. https://powerchina.com.ar/loma-blanca-miramar.html.",
+    "url": "https://powerchina.com.ar/loma-blanca-miramar.html",
+    "annotation": "POWERCHINA Argentina: Goldwind Loma Blanca+Miramar 355 MW wind EPC. Supports powerchina_loma_blanca_miramar_355mw_epc.",
+    "supports": [
+      "powerchina_loma_blanca_miramar_355mw_epc",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "powerchina_loma_blanca_miramar_355mw_epc"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
