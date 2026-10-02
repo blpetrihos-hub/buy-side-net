@@ -403,3 +403,26 @@ code { font-size: 0.86em; }
   box-shadow: none;
   filter: drop-shadow(0 0 0.5px rgba(0,0,0,0.45));
 }
+
+/* Live U.S. vs PRC count (map top-left) */
+.count-box {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  padding: 0.45rem 0.65rem;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--navy);
+  min-width: 9.5rem;
+}
+.count-box .count-title {
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.count-box .count-row { display: flex; align-items: center; gap: 0.4rem; }
+.count-box .count-row strong { margin-left: auto; font-size: 1rem; }
+.count-box .count-swatch { width: 0.7rem; height: 0.7rem; display: inline-block; }
+.count-box .count-sub { font-size: 0.68rem; color: var(--muted); margin-top: 0.2rem; }
