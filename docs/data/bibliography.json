@@ -14694,5 +14694,77 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "invenergy_la_toba_case",
+    "type": "company",
+    "chicago": "Invenergy. “La Toba Energy Center.” Case study. https://www.invenergy.com/projects/case-studies/la-toba-energy-center.",
+    "url": "https://www.invenergy.com/projects/case-studies/la-toba-energy-center",
+    "annotation": "Invenergy primary: La Toba 35 MW solar + 20 MW BESS; USD 70m; COD Oct 2022. Supports invenergy_la_toba_70m_2022.",
+    "supports": [
+      "invenergy_la_toba_70m_2022",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "invenergy_la_toba_70m_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sungrow_bess_del_desierto_case",
+    "type": "company",
+    "chicago": "Sungrow. “Sungrow Helps Atlas Energy Deliver Its Largest Standalone Energy Storage Plant.” Case study (BESS del Desierto 200 MW/800 MWh; COD 24 Apr 2025). https://www.sungrowpower.com/us/en/case/utility-scale/largest-standalone-storage-project-200mw-800mwh-in-atlas.",
+    "url": "https://www.sungrowpower.com/us/en/case/utility-scale/largest-standalone-storage-project-200mw-800mwh-in-atlas",
+    "annotation": "Sungrow primary: PowerTitan for Atlas BESS del Desierto 200 MW/800 MWh COD Apr 2025. Supports sungrow_atlas_bess_del_desierto_2025.",
+    "supports": [
+      "sungrow_atlas_bess_del_desierto_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "sungrow_atlas_bess_del_desierto_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ctg_baranoa_ii_iii_20251204",
+    "type": "company",
+    "chicago": "China Three Gorges Corporation. “The Baranoa Phase II and III Solar PV Projects in Colombia successfully connected to the grid.” December 4, 2025. https://www.ctg.com.cn/ctgenglish/news_media/news37/2025122215512388368/index.html.",
+    "url": "https://www.ctg.com.cn/ctgenglish/news_media/news37/2025122215512388368/index.html",
+    "annotation": "CTG primary: Baranoa Phase II+III COD Nov 30 2025; three-phase total 58.3 MW. Supports ctg_baranoa_ii_iii_58p3mw_2025.",
+    "supports": [
+      "ctg_baranoa_ii_iii_58p3mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "ctg_baranoa_ii_iii_58p3mw_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "spic_brasil_rs_2025_pedra_paraiso",
+    "type": "company",
+    "chicago": "SPIC Brasil. Sustainability Report 2025 (English). Pedra de Amolar and Paraíso Farol wind clusters, Touros RN — 105.4 MW; BRL 755 million; COD 2026. https://www.spicbrasil.com.br/en/wp-content/uploads/sites/5/2026/05/RS_2025_SPIC-Brasil_EN_D4f.pdf.",
+    "url": "https://www.spicbrasil.com.br/en/wp-content/uploads/sites/5/2026/05/RS_2025_SPIC-Brasil_EN_D4f.pdf",
+    "annotation": "SPIC Brasil RS 2025: Pedra/Paraíso 105.4 MW; BRL 755m CapEx; Touros RN. Supports spic_pedra_paraiso_touros_755m_brl_2025.",
+    "supports": [
+      "spic_pedra_paraiso_touros_755m_brl_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "spic_pedra_paraiso_touros_755m_brl_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
