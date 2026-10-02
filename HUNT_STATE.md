@@ -1,20 +1,86 @@
 updated: 2026-10-02
-cycle: 162
+cycle: 163
 remote: present
 active_layer: energy
-active_subcategory: wind
-next_query: Cycle 163 shuffle_seed=20261163; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us325/prc325/allied257); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/niobium (once each/session; nickel scored DFC TechMet equity this cycle — treat as used). Sides tied — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala, Haiti, Jamaica minerals, Venezuela, Nicaragua gaps beyond roads/solar, Colombia copper/lithium/graphite/balsa, Peru mineral gaps, Mexico power_plants_grid/fission, Brazil states beyond SP/RJ/MG. Holdovers: POWERCHINA Baku Suriname; CRBC Corentyne bridge if signed; CSCEC Nicaragua 290 km Chinandega–Somotillo package if decree opens. No U.S. territories.
-next_row_id: (follow cycle-163 shuffled_order)
+active_subcategory: power_plants_grid
+next_query: Cycle 164 shuffle_seed=20261164; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us326/prc328/allied259); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/niobium (once each/session; nickel already used this session via DFC TechMet). PRC +2 after Alacrán+CRRC — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala wind/grid/minerals, Haiti (many), Jamaica minerals, Venezuela, Nicaragua port/rail/water, Colombia lithium/graphite/balsa, Peru mineral gaps, Mexico power_plants_grid/fission, Brazil states beyond SP/RJ/MG. Holdovers: POWERCHINA Baku Suriname; CRBC Corentyne bridge if signed; CSCEC Nicaragua 290 km Chinandega–Somotillo if decree opens. No U.S. territories.
+next_row_id: (follow cycle-164 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 162) ===
-# Filled this cycle: Brazil×nickel (us DFC TechMet USD 30m equity), Nicaragua×bridges_roads (prc CSCEC Litoral Fase II),
-#   Colombia×port_ownership (allied APM TCBUEN), Paraguay×bridges_roads (allied Sacyr Rutas 2 y 7),
-#   Paraguay×solar (allied Butler/Ciudad Luz Puerto Esperanza), Mexico×solar (us Pattern Helios),
-#   Mexico×wind (us AES Mesa La Paz; us Pattern Tuli).
+# === Country×subcategory sweep cells touched (session continuing from 163) ===
+# Filled this cycle: Colombia×copper (prc JCHX Alacrán USD 100m earn-in + USD 128m Veritas closing),
+#   Mexico×rail (prc CRRC ZELC CDMX Línea 1 full opening), Colombia×port_cranes (allied Konecranes 8 RTG),
+#   Colombia×port_ownership (allied CMA Puerto Antioquia), Dominican Republic×solar (us AES ADRE ~USD 368m).
 # Still thin/empty priority cells: Haiti (many), Venezuela (17), Guatemala wind/grid/minerals,
-#   Jamaica graphite/nickel/copper, Nicaragua port/rail/water gaps, Colombia copper/lithium/graphite/balsa,
+#   Jamaica graphite/nickel/copper, Nicaragua port/rail/water gaps, Colombia lithium/graphite/balsa,
 #   Peru graphite/lithium/nickel/niobium/balsa, Mexico power_plants_grid/fission/minerals.
+
+# === Cycle 163 (seed 20261163) ===
+# Shuffled order: niobium, lithium, fission_smr, copper, port_cranes, nickel, building_materials,
+#   port_ownership, other_renewables, engineering_epc, rail, wind, solar, water, graphite, balsa,
+#   bridges_roads, power_plants_grid.
+# Logged 6 sourced rows (1 US / 3 PRC / 2 allied; thin dry; no padding):
+#   prc copper: jchx_alacran_50pct_100m_earn_in_2025 (USD 100m; Colombia empty filled).
+#   prc copper: jchx_veritas_alacran_128m_closing_2026 (USD 128m remaining 50% + 100% ownership).
+#   prc rail: crrc_cdmx_linea1_full_open_2025 (CapEx blank; CDMX Line 1 full opening).
+#   allied port_cranes: konecranes_puerto_antioquia_8rtg_2023 (8 electric RTGs; CapEx blank).
+#   allied port_ownership: cma_puerto_antioquia_colombia (CMA Terminals shareholder; CapEx blank).
+#   us solar: aes_adre_idb_368m_dr_2023 (~USD 368m IDB Invest package).
+# Thin top-up (balsa/graphite/fission_smr): all dry once this session — nickel already used; niobium dry.
+# Equal-budget misses: niobium, lithium, fission_smr, nickel, building_materials, other_renewables,
+#   engineering_epc, wind, water, graphite, balsa, bridges_roads, power_plants_grid; US denser misses (no pad).
+# Active after cycle 163: us326 / prc328 / allied259 / other38 (n=951).
+shuffle_seed: 20261163
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/niobium
+- resources/lithium
+- energy/fission_smr
+- resources/copper
+- infrastructure/port_cranes
+- resources/nickel
+- infrastructure/building_materials
+- infrastructure/port_ownership
+- energy/other_renewables
+- infrastructure/engineering_epc
+- infrastructure/rail
+- energy/wind
+- energy/solar
+- resources/water
+- resources/graphite
+- resources/balsa
+- infrastructure/bridges_roads
+- energy/power_plants_grid
+rows_found_this_cycle:
+  resources/niobium: 0
+  resources/lithium: 0
+  energy/fission_smr: 0
+  resources/copper: 2
+  infrastructure/port_cranes: 1
+  resources/nickel: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 1
+  energy/other_renewables: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/rail: 1
+  energy/wind: 0
+  energy/solar: 1
+  resources/water: 0
+  resources/graphite: 0
+  resources/balsa: 0
+  infrastructure/bridges_roads: 0
+  energy/power_plants_grid: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 2
+  other: 0
+thin_topup:
+  budget: 0.5_source_family
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 162 (seed 20261162) ===
 # Shuffled order: niobium, nickel, graphite, lithium, rail, engineering_epc, solar, other_renewables,
