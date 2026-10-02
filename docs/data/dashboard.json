@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 654,
+    "n_rows": 663,
     "counts": {
-      "total": 654,
-      "active": 599,
+      "total": 663,
+      "active": 608,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
       "proxy": 129,
       "exclude": 5,
-      "documented": 466,
-      "on_map": 587
+      "documented": 475,
+      "on_map": 596
     }
   },
   "layer_readouts": [
@@ -107,9 +107,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 58,
-        "prc": 65,
+        "prc": 68,
         "allied": 92,
-        "n": 215
+        "n": 218
       },
       "usd": {
         "us": 2747000000.0,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 63,
-        "prc": 67,
+        "us": 67,
+        "prc": 69,
         "allied": 64,
-        "n": 194
+        "n": 200
       },
       "usd": {
-        "us": 5646300000.0,
-        "us_n": 15,
+        "us": 6701300000.0,
+        "us_n": 16,
         "prc": 1207377608.25,
         "prc_n": 11,
         "allied": 3521859384.9300003,
@@ -264,10 +264,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 55,
-        "prc": 52,
+        "us": 56,
+        "prc": 53,
         "allied": 103,
-        "n": 210
+        "n": 212
       },
       "usd": {
         "us": 1602545000.0,
@@ -279,8 +279,8 @@
       },
       "by_layer": {
         "energy": {
-          "us": 8,
-          "prc": 25,
+          "us": 9,
+          "prc": 26,
           "allied": 25
         },
         "infrastructure": {
@@ -298,10 +298,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 30,
-        "prc": 18,
+        "us": 31,
+        "prc": 20,
         "allied": 43,
-        "n": 91
+        "n": 94
       },
       "usd": {
         "us": 16666000000.0,
@@ -313,13 +313,13 @@
       },
       "by_layer": {
         "energy": {
-          "us": 18,
-          "prc": 13,
+          "us": 19,
+          "prc": 14,
           "allied": 8
         },
         "infrastructure": {
           "us": 4,
-          "prc": 5,
+          "prc": 6,
           "allied": 12
         },
         "resources": {
@@ -332,10 +332,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 13,
         "allied": 9,
-        "n": 28
+        "n": 29
       },
       "usd": {
         "us": 227600000.0,
@@ -347,7 +347,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 5,
+          "us": 6,
           "prc": 10,
           "allied": 2
         },
@@ -608,14 +608,14 @@
     {
       "country": "Jamaica",
       "counts": {
-        "us": 0,
+        "us": 1,
         "prc": 5,
         "allied": 1,
-        "n": 6
+        "n": 7
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 1055000000.0,
+        "us_n": 1,
         "prc": 274000000.0,
         "prc_n": 1,
         "allied": 0.0,
@@ -623,7 +623,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 0,
+          "us": 1,
           "prc": 0,
           "allied": 1
         },
@@ -725,9 +725,9 @@
       "country": "Peru",
       "counts": {
         "us": 10,
-        "prc": 21,
+        "prc": 23,
         "allied": 20,
-        "n": 51
+        "n": 53
       },
       "usd": {
         "us": 5635000000.0,
@@ -745,7 +745,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 9,
+          "prc": 11,
           "allied": 12
         },
         "resources": {
@@ -1455,7 +1455,16 @@
       "powerchina_honduras_enee_230kv_2025",
       "powerchina_chile_g04_san_juan_algarrobal_2025",
       "chec_posorja_multipurpose_2026",
-      "cggc_boca_del_rio_tacna_608m_2025"
+      "cggc_boca_del_rio_tacna_608m_2025",
+      "atlas_colbun_estepa_ii_bess_ppa_2025",
+      "atlas_luiz_carlos_fc_1p5bn_brazil_2024",
+      "excelerate_jamaica_nfe_1p055bn_2025",
+      "excelerate_fsru_express_colombia_2026",
+      "sungrow_zelestra_aurora_1gwh_chile_2025",
+      "chec_taltal_school_chile_2026",
+      "powerchina_catac_road_peru_2026",
+      "crtg_cerro_pasco_tingo_515m_2025",
+      "cnnc_cnen_centena_mou_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

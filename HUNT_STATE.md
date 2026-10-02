@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 74
+cycle: 75
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 75 shuffle_seed=20261075; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us171/prc167/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then graphite/balsa (24/24). Keep US/PRC even split.
-next_row_id: (follow cycle-75 shuffled_order)
+next_query: Cycle 76 shuffle_seed=20261076; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us175/prc172/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (22) then graphite/balsa/fission_smr (23/23/23). Keep US/PRC even split.
+next_row_id: (follow cycle-76 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,83 +17,88 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 74 pre-merge:
-# - Atlas Shangri-La / BESS del Desierto tagged us (Miami HQ / GIP). AES Atacama
-#   Solar acquisition + Atacama BESS tagged us (AES Corp Arlington).
-# - POWERCHINA Honduras ENEE / Chile G04, CHEC Posorja, CGGC Boca del Río tagged prc.
-# - No Shell/ACCIONA/AFRY/Golar mislabels. No side-tag fixes this cycle.
-# - Skipped Atlas USD 3bn portfolio refinance (corporate refinance of already-logged
-#   assets). Skipped G15 Parinas re-signing (already cen_parinas row). Skipped
-#   Route 32 four-lane opening (chec_ruta32 already). Skipped Conchagua/São Simão
-#   UG7 (already logged).
+# Side-tag audit (cycles 57–63) — cycle 75 pre-merge:
+# - Atlas Colbún Estepa II BESS PPA + Luiz Carlos FC tagged us (Miami HQ / GIP).
+# - Excelerate Jamaica NFE acquisition + FSRU Express Colombia TCP tagged us
+#   (The Woodlands, TX HQ).
+# - Sungrow Aurora, CHEC Taltal school, POWERCHINA Catac, CRTG Cerro de Pasco–
+#   Tingo María, CNNC Centena MoU tagged prc.
+# - Halliburton/Weatherford–Shell rows remain us (U.S. OFS contractors; Shell is
+#   offtaker/client, not the tagged investor). No Shell/ACCIONA/AFRY/Golar us
+#   mislabels. No side-tag fixes this cycle.
+# - Skipped Atlas USD 3bn portfolio refinance (already-logged assets). Skipped
+#   ContourGlobal Los Maitenes construction start (already contourglobal_los_maitenes).
+# - Skipped AES Bolero COD press (aes_bolero_bess_146mw already). Skipped Sungrow
+#   Dune Plus (ESS News only; no Sungrow primary naming Dune Plus). Skipped
+#   Molinopampa CRTG press without opened Provías contract PDF this cycle.
 
-shuffle_seed: 20261074
+shuffle_seed: 20261075
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/lithium
-- resources/niobium
-- energy/power_plants_grid
-- resources/graphite
+- infrastructure/port_cranes
 - resources/nickel
-- infrastructure/engineering_epc
+- infrastructure/building_materials
 - energy/fission_smr
 - energy/solar
-- resources/balsa
-- infrastructure/port_ownership
-- infrastructure/bridges_roads
-- infrastructure/rail
-- resources/water
-- infrastructure/port_cranes
-- resources/copper
+- resources/graphite
+- infrastructure/engineering_epc
 - energy/wind
+- resources/water
 - energy/other_renewables
-- infrastructure/building_materials
+- energy/power_plants_grid
+- resources/balsa
+- infrastructure/rail
+- resources/copper
+- infrastructure/bridges_roads
+- infrastructure/port_ownership
+- resources/niobium
+- resources/lithium
 
 rows_found_this_cycle:
-  resources/lithium: 0
-  resources/niobium: 0
-  energy/power_plants_grid: 2
-  resources/graphite: 0
-  resources/nickel: 0
-  infrastructure/engineering_epc: 1
-  energy/fission_smr: 0
-  energy/solar: 2
-  resources/balsa: 0
-  infrastructure/port_ownership: 0
-  infrastructure/bridges_roads: 1
-  infrastructure/rail: 0
-  resources/water: 0
   infrastructure/port_cranes: 0
-  resources/copper: 0
+  resources/nickel: 0
+  infrastructure/building_materials: 1
+  energy/fission_smr: 1
+  energy/solar: 1
+  resources/graphite: 0
+  infrastructure/engineering_epc: 0
   energy/wind: 0
+  resources/water: 0
   energy/other_renewables: 2
-  infrastructure/building_materials: 0
+  energy/power_plants_grid: 2
+  resources/balsa: 0
+  infrastructure/rail: 0
+  resources/copper: 0
+  infrastructure/bridges_roads: 2
+  infrastructure/port_ownership: 0
+  resources/niobium: 0
+  resources/lithium: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 74 (non-archived)
+  # Active counts after cycle 75 (status=active)
   energy/fission_smr: 23
-  energy/other_renewables: 41
-  energy/power_plants_grid: 55
-  energy/solar: 54
-  energy/wind: 29
-  infrastructure/bridges_roads: 27
+  energy/other_renewables: 43
+  energy/power_plants_grid: 57
+  energy/solar: 55
+  energy/wind: 28
+  infrastructure/bridges_roads: 28
   infrastructure/building_materials: 27
   infrastructure/engineering_epc: 60
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 34
   infrastructure/rail: 40
-  resources/balsa: 24
+  resources/balsa: 23
   resources/copper: 30
-  resources/graphite: 24
+  resources/graphite: 23
   resources/lithium: 35
-  resources/nickel: 23
-  resources/niobium: 26
+  resources/nickel: 22
+  resources/niobium: 25
   resources/water: 34
 
 rows_by_side_this_cycle:
   us: 4
-  prc: 4
+  prc: 5
   allied: 0
   other: 0
 
@@ -103,8 +108,21 @@ thin_topup:
   - resources/nickel
   - energy/fission_smr
   - resources/graphite
-  # Hits: none.
-  # Misses: nickel, fission_smr, graphite (balsa also 24).
+  # Hits: fission_smr (cnnc_cnen_centena_mou_2025).
+  # Misses: nickel, graphite (balsa also 23 active before cycle; still thin).
+
+# Cycle 75 (seed 20261075): 9 sourced rows (8 shuffled + 1 thin_topup);
+#   shuffled: building_materials (CHEC Taltal Technical High School prc), solar
+#   (Atlas Luiz Carlos R$1.5bn FC us), other_renewables (Atlas–Colbún Estepa II
+#   230 MW/920 MWh BESS PPA us; Sungrow Zelestra Aurora ~1 GWh PowerTitan prc),
+#   power_plants_grid (Excelerate Jamaica NFE USD 1.055bn us; Excelerate FSRU
+#   Express Puerto Bahía Colombia TCP us), bridges_roads (POWERCHINA Catac
+#   Áncash handover prc; CRTG Cerro de Pasco–Tingo María S/515.0m prc).
+#   Thin_topup: fission_smr (CNNC–CNEN Centena waste MoU prc); nickel/graphite miss.
+#   rows_by_side: us 4 / prc 5 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none.
+#   Equal-budget misses: port_cranes, nickel, graphite, engineering_epc, wind,
+#   water, balsa, rail, copper, port_ownership, niobium, lithium.
 
 # Cycle 74 (seed 20261074): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: power_plants_grid (POWERCHINA Honduras ENEE 230 kV prc; POWERCHINA
