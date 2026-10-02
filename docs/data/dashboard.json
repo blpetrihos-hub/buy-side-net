@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 792,
+    "n_rows": 798,
     "counts": {
-      "total": 792,
-      "active": 701,
+      "total": 798,
+      "active": 707,
       "hunt": 42,
       "archived": 71,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 150,
+      "proxy": 151,
       "exclude": 18,
-      "documented": 570,
-      "on_map": 686
+      "documented": 575,
+      "on_map": 692
     }
   },
   "layer_readouts": [
@@ -107,17 +107,17 @@
       "layer": "infrastructure",
       "counts": {
         "us": 79,
-        "prc": 90,
-        "allied": 89,
-        "n": 258
+        "prc": 91,
+        "allied": 91,
+        "n": 261
       },
       "usd": {
         "us": 2788167000.0,
         "us_n": 12,
-        "prc": 4634575814.13,
-        "prc_n": 19,
-        "allied": 10635734000.0,
-        "allied_n": 24
+        "prc": 4669575814.13,
+        "prc_n": 20,
+        "allied": 10677634000.0,
+        "allied_n": 26
       },
       "matched_gaps": {
         "n": 1,
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 80,
-        "prc": 92,
-        "allied": 67,
-        "n": 239
+        "us": 81,
+        "prc": 93,
+        "allied": 68,
+        "n": 242
       },
       "usd": {
         "us": 14815200000.0,
@@ -179,8 +179,8 @@
       "counts": {
         "us": 16,
         "prc": 19,
-        "allied": 26,
-        "n": 61
+        "allied": 27,
+        "n": 62
       },
       "usd": {
         "us": 7100000000.0,
@@ -194,7 +194,7 @@
         "energy": {
           "us": 4,
           "prc": 5,
-          "allied": 10
+          "allied": 11
         },
         "infrastructure": {
           "us": 9,
@@ -604,15 +604,15 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 9,
+        "prc": 10,
         "allied": 0,
-        "n": 18
+        "n": 19
       },
       "usd": {
         "us": 534967000.0,
         "us_n": 2,
-        "prc": 392934078.73,
-        "prc_n": 5,
+        "prc": 427934078.73,
+        "prc_n": 6,
         "allied": 0.0,
         "allied_n": 0
       },
@@ -624,7 +624,7 @@
         },
         "infrastructure": {
           "us": 7,
-          "prc": 5,
+          "prc": 6,
           "allied": 0
         }
       }
@@ -633,9 +633,9 @@
       "country": "Honduras",
       "counts": {
         "us": 1,
-        "prc": 1,
+        "prc": 2,
         "allied": 1,
-        "n": 3
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -648,7 +648,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         },
         "infrastructure": {
@@ -755,22 +755,22 @@
       "counts": {
         "us": 2,
         "prc": 2,
-        "allied": 2,
-        "n": 6
+        "allied": 4,
+        "n": 8
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 260000000.0,
-        "allied_n": 1
+        "allied": 301900000.0,
+        "allied_n": 3
       },
       "by_layer": {
         "infrastructure": {
           "us": 2,
           "prc": 2,
-          "allied": 2
+          "allied": 4
         }
       }
     },
@@ -811,10 +811,10 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 0,
         "allied": 0,
-        "n": 4
+        "n": 5
       },
       "usd": {
         "us": 1762191952.0,
@@ -826,7 +826,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
+          "us": 4,
           "prc": 0,
           "allied": 0
         },
@@ -1620,7 +1620,13 @@
       "quanta_luma_dist_525m_2025",
       "zpmc_kingston_sts_2025",
       "chec_sucre_yamparaez_bolivia_2025",
-      "huawei_aggreko_amazonas_bess_2026"
+      "huawei_aggreko_amazonas_bess_2026",
+      "crcc_wismar_mackenzie_guyana_2024",
+      "danasun_choloma_solar_honduras_2024",
+      "apmt_balboa_temp_panama_2026",
+      "til_cristobal_temp_panama_2026",
+      "terra_conuar_solo_argentina_2025",
+      "crowley_american_energy_lng_pr_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
