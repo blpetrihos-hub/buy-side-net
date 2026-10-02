@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 849,
+    "n_rows": 854,
     "counts": {
-      "total": 849,
-      "active": 757,
+      "total": 854,
+      "active": 762,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 624,
-      "on_map": 741
+      "documented": 629,
+      "on_map": 746
     }
   },
   "layer_readouts": [
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 85,
-        "prc": 94,
+        "us": 89,
+        "prc": 95,
         "allied": 70,
-        "n": 249
+        "n": 254
       },
       "usd": {
-        "us": 16361046523.660002,
-        "us_n": 27,
+        "us": 16486808642.010002,
+        "us_n": 31,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4102359384.9300003,
@@ -289,9 +289,9 @@
       "country": "Brazil",
       "counts": {
         "us": 70,
-        "prc": 64,
+        "prc": 65,
         "allied": 105,
-        "n": 239
+        "n": 240
       },
       "usd": {
         "us": 1782545000.0,
@@ -304,7 +304,7 @@
       "by_layer": {
         "energy": {
           "us": 11,
-          "prc": 35,
+          "prc": 36,
           "allied": 25
         },
         "infrastructure": {
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 34,
+        "us": 38,
         "prc": 0,
         "allied": 4,
-        "n": 38
+        "n": 42
       },
       "usd": {
-        "us": 3895065601.23,
-        "us_n": 32,
+        "us": 4020827719.58,
+        "us_n": 36,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 18743851.49,
@@ -831,7 +831,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 6,
+          "us": 10,
           "prc": 0,
           "allied": 0
         },
@@ -1686,7 +1686,12 @@
       "sungrow_zelestra_aurora_bess_2025",
       "ferrovial_usace_drilled_shaft_6c_2024",
       "novel_cano_martin_pena_2025",
-      "curtin_san_juan_harbor_dredge_2023"
+      "curtin_san_juan_harbor_dredge_2023",
+      "trinatracker_cgn_lagoa_barro_2025",
+      "rq_lord_ramey_arc_microgrid_2024",
+      "parsons_pesquera_arc_microgrid_2024",
+      "johnson_controls_buchanan_res_0003_2011",
+      "johnson_controls_buchanan_res_0006_2012"
     ],
     "hunt": [
       "hunt_br_power_equip",
