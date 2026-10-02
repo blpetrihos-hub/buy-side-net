@@ -1,0 +1,10 @@
+{
+  "id": "fhwa_jpi_naguabo_2021",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_jpi_naguabo_20210728",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000019_6925_-NONE-_-NONE-/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "PROJECT PR ER PRMNT RPR(8)  THE PROJECT CONSISTS OF REPAIRING LANDSLIDE AND WASHOUT DAMAGED BY HURRICANES IRMA AND MARIA ON PR-3 KM 69.3-70.6, PR-1 KM 61.8 AND PR-909 KM 5.55 AND OTHER MISCELLANEOUS WORK.",
+  "note": "Opened USASpending Award API: JPI; USD 2,886,025.68; date_signed 2021-07-28; PoP Naguabo, PR."
+}

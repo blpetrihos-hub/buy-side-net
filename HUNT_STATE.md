@@ -1,11 +1,80 @@
 updated: 2026-10-02
-cycle: 100
+cycle: 101
 remote: present
-active_layer: infrastructure
-active_subcategory: bridges_roads
-next_query: Cycle 101 shuffle_seed=20261101; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us241/prc229/allied234); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. FHWA backlog thinning; continue USASpending page 2 + country×subcat PRC sweep (AidData/DPI/company).
-next_row_id: (follow cycle-101 shuffled_order)
+active_layer: resources
+active_subcategory: lithium
+next_query: Cycle 102 shuffle_seed=20261102; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us243/prc231/allied235); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. FHWA construction backlog largely exhausted for ≥USD 2.5m; continue AtkinsRealis/Jacobs inspection task orders + country×subcat PRC.
+next_row_id: (follow cycle-102 shuffled_order)
 dry_streak: 0
+
+# === Cycle 101 (seed 20261101) ===
+# Shuffled order: lithium, other_renewables, fission_smr, copper, nickel, niobium,
+#   port_cranes, engineering_epc, building_materials, power_plants_grid, graphite,
+#   wind, solar, balsa, port_ownership, water, bridges_roads, rail.
+# Logged 5 sourced rows (honest US/PRC/allied split; no padding):
+#   prc lithium: ganfeng_pozuelos_dev_200m_2025 (USD 200m post-acquisition).
+#   prc lithium: ganfeng_ppg_jv_framework_2025 (67% New JV framework; CapEx blank).
+#   us bridges_roads: fhwa_jpi_anasco_2023 (USD 3.26m FHWA).
+#   us bridges_roads: fhwa_jpi_naguabo_2021 (USD 2.89m FHWA).
+#   allied engineering_epc: atkinsrealis_fhwa_pr_inspect_2023 (USD 8.52m).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr/
+#   building_materials also dry.
+# Equal-budget misses: other_renewables, fission_smr, copper, nickel, niobium,
+#   port_cranes, building_materials, power_plants_grid, graphite, wind, solar,
+#   balsa, port_ownership, water, rail (dense prior + country×subcat; BYD Elena /
+#   Zijin 3Q RIGI / Stage 1 PPG CAPEX already logged).
+# Active after cycle 101: us243 / prc231 / allied235 / other37 (n=746).
+shuffle_seed: 20261101
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/lithium
+- energy/other_renewables
+- energy/fission_smr
+- resources/copper
+- resources/nickel
+- resources/niobium
+- infrastructure/port_cranes
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- energy/power_plants_grid
+- resources/graphite
+- energy/wind
+- energy/solar
+- resources/balsa
+- infrastructure/port_ownership
+- resources/water
+- infrastructure/bridges_roads
+- infrastructure/rail
+rows_found_this_cycle:
+  resources/lithium: 2
+  energy/other_renewables: 0
+  energy/fission_smr: 0
+  resources/copper: 0
+  resources/nickel: 0
+  resources/niobium: 0
+  infrastructure/port_cranes: 0
+  infrastructure/engineering_epc: 1
+  infrastructure/building_materials: 0
+  energy/power_plants_grid: 0
+  resources/graphite: 0
+  energy/wind: 0
+  energy/solar: 0
+  resources/balsa: 0
+  infrastructure/port_ownership: 0
+  resources/water: 0
+  infrastructure/bridges_roads: 2
+  infrastructure/rail: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 2
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 100 (seed 20261100) ===
 # Shuffled order: niobium, wind, solar, port_ownership, fission_smr,
