@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 867,
+    "n_rows": 872,
     "counts": {
-      "total": 867,
-      "active": 775,
+      "total": 872,
+      "active": 780,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 642,
-      "on_map": 759
+      "documented": 647,
+      "on_map": 764
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 107,
+        "us": 111,
         "prc": 97,
         "allied": 95,
-        "n": 299
+        "n": 303
       },
       "usd": {
-        "us": 3271831686.8299994,
-        "us_n": 39,
+        "us": 3617355263.3499994,
+        "us_n": 43,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 93,
+        "us": 94,
         "prc": 95,
         "allied": 72,
-        "n": 260
+        "n": 261
       },
       "usd": {
-        "us": 17581551772.030003,
-        "us_n": 35,
+        "us": 17857848479.190002,
+        "us_n": 36,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4176656772.1900005,
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 49,
+        "us": 54,
         "prc": 0,
         "allied": 6,
-        "n": 55
+        "n": 60
       },
       "usd": {
-        "us": 5271185110.710001,
-        "us_n": 47,
+        "us": 5893005394.390001,
+        "us_n": 52,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 93041238.75,
@@ -831,12 +831,12 @@
       },
       "by_layer": {
         "energy": {
-          "us": 14,
+          "us": 15,
           "prc": 0,
           "allied": 2
         },
         "infrastructure": {
-          "us": 27,
+          "us": 31,
           "prc": 0,
           "allied": 4
         },
@@ -1704,7 +1704,12 @@
       "del_valle_guajataca_stage2_2018",
       "del_valle_guajataca_risk_2018",
       "wsp_aci_tep_pr_2022",
-      "tutor_perini_uscg_bayamon_2025"
+      "tutor_perini_uscg_bayamon_2025",
+      "fluor_pr_grid_restore_2017",
+      "tutor_perini_uscg_sj_phase2_2022",
+      "tutor_perini_uscg_sj_phase3_2022",
+      "rq_aecom_borinquen_phase2_2022",
+      "caddell_nova_borinquen_2022"
     ],
     "hunt": [
       "hunt_br_power_equip",

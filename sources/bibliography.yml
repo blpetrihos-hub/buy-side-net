@@ -8219,3 +8219,48 @@
   supports:
   - tutor_perini_uscg_bayamon_2025
   - hunt_infra_engineering_epc
+- id: usaspending_fluor_pr_restore_20171201
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912DY18F0032_9700_W912DY15G0007_9700
+    (Fluor Enterprises Inc; USACE PREPA grid restore). Signed 1 December 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912DY18F0032_9700_W912DY15G0007_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912DY18F0032_9700_W912DY15G0007_9700/
+  annotation: 'USASpending primary: USD 276.3m PREPA full grid restore. Supports fluor_pr_grid_restore_2017.'
+  supports:
+  - fluor_pr_grid_restore_2017
+  - hunt_br_power_equip
+- id: usaspending_tutor_sj_p2_20220912
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70Z04722F43000017_7008_70Z04718DTUTPER00_7008
+    (Tutor Perini Corporation; USCG San Juan Phase II). Signed 12 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000017_7008_70Z04718DTUTPER00_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000017_7008_70Z04718DTUTPER00_7008/
+  annotation: 'USASpending primary: USD 117.0m USCG San Juan Phase II East. Supports tutor_perini_uscg_sj_phase2_2022.'
+  supports:
+  - tutor_perini_uscg_sj_phase2_2022
+  - hunt_infra_engineering_epc
+- id: usaspending_tutor_sj_p3_20220912
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70Z04722F43000018_7008_70Z04718DTUTPER00_7008
+    (Tutor Perini Corporation; USCG San Juan Phase III). Signed 12 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000018_7008_70Z04718DTUTPER00_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000018_7008_70Z04718DTUTPER00_7008/
+  annotation: 'USASpending primary: USD 17.9m USCG San Juan Phase III West/Central. Supports tutor_perini_uscg_sj_phase3_2022.'
+  supports:
+  - tutor_perini_uscg_sj_phase3_2022
+  - hunt_infra_engineering_epc
+- id: usaspending_rq_aecom_borinquen_20220401
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70Z04722F43000006_7008_70Z04718DRQAECM00_7008
+    (RQ-AECOM 2 JV; USCG Borinquen Phase 2). Signed 1 April 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000006_7008_70Z04718DRQAECM00_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000006_7008_70Z04718DRQAECM00_7008/
+  annotation: 'USASpending primary: USD 126.6m Borinquen Phase 2 rebuild. Supports rq_aecom_borinquen_phase2_2022.'
+  supports:
+  - rq_aecom_borinquen_phase2_2022
+  - hunt_infra_engineering_epc
+- id: usaspending_caddell_borinquen_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_70Z04722F43000002_7008_70Z04718DCADNOV00_7008
+    (Caddell Nova A JV; USCG Borinquen rebuild). Signed 2022-01-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000002_7008_70Z04718DCADNOV00_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000002_7008_70Z04718DCADNOV00_7008/
+  annotation: 'USASpending primary: USD 84.0m Borinquen rebuild. Supports caddell_nova_borinquen_2022.'
+  supports:
+  - caddell_nova_borinquen_2022
+  - hunt_infra_engineering_epc
