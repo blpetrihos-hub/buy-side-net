@@ -17755,5 +17755,124 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "proactivo_ingemmet_graphite_20260827",
+    "type": "press",
+    "chicago": "ProActivo. “INGEMMET identifica más de 2.6 millones de toneladas de recursos de grafito en La Libertad.” August 27, 2026. https://proactivo.com.pe/ingemmet-identifica-mas-de-2-6-millones-de-toneladas-de-recursos-de-grafito-en-la-libertad/.",
+    "url": "https://proactivo.com.pe/ingemmet-identifica-mas-de-2-6-millones-de-toneladas-de-recursos-de-grafito-en-la-libertad/",
+    "annotation": "ProActivo: INGEMMET Alto Chicama 2.6 Mt graphite resources. Supports ingemmet_alto_chicama_graphite_2026.",
+    "supports": [
+      "ingemmet_alto_chicama_graphite_2026",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "ingemmet_alto_chicama_graphite_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "votorantim_edealina_argamassa_20260219",
+    "type": "company",
+    "chicago": "Votorantim Cimentos. “Avançamos em nosso programa de investimentos de R$ 5 bilhões em competitividade estrutural.” February 19, 2026. https://www.votorantimcimentos.com.br/noticia/avancamos-em-nosso-programa-de-investimentos-de-r-5-bilhoes-em-competitividade-estrutural/.",
+    "url": "https://www.votorantimcimentos.com.br/noticia/avancamos-em-nosso-programa-de-investimentos-de-r-5-bilhoes-em-competitividade-estrutural/",
+    "annotation": "Votorantim: Edealina 300 ktpy mortar plant mid-2027. Supports votorantim_edealina_argamassa_2026.",
+    "supports": [
+      "votorantim_edealina_argamassa_2026",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "votorantim_edealina_argamassa_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "bahia_noticias_sinoma_camacari_20230325",
+    "type": "press",
+    "chicago": "Bahia Notícias. “Prefeitura de Camaçari assina protocolo de intenções com a Sinoma; empresa chinesa vai investir R$ 104 mi em fábrica no município.” March 25, 2023. https://www.bahianoticias.com.br/municipios/noticia/33404-prefeitura-de-camacari-assina-protocolo-de-intencoes-com-a-sinoma-empresa-chinesa-vai-investir-rdollar-104-mi-em-fabrica-no-municipio.",
+    "url": "https://www.bahianoticias.com.br/municipios/noticia/33404-prefeitura-de-camacari-assina-protocolo-de-intencoes-com-a-sinoma-empresa-chinesa-vai-investir-rdollar-104-mi-em-fabrica-no-municipio",
+    "annotation": "Bahia Notícias: Sinoma Camaçari blade plant R$104m protocol. Supports sinoma_blade_camacari_104m_2023.",
+    "supports": [
+      "sinoma_blade_camacari_104m_2023",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "sinoma_blade_camacari_104m_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "movimento_economico_ge_suape_20250211",
+    "type": "press",
+    "chicago": "Movimento Econômico. “GE Vernova encerra fábrica de pás eólicas em Suape e demite 1.000.” February 11, 2025. https://movimentoeconomico.com.br/geral/redacao/2025/02/11/ge-vernova-encerra-fabrica-de-pas-eolicas-em-suape-e-demite-1000/.",
+    "url": "https://movimentoeconomico.com.br/geral/redacao/2025/02/11/ge-vernova-encerra-fabrica-de-pas-eolicas-em-suape-e-demite-1000/",
+    "annotation": "Movimento Econômico: GE Vernova/LM Suape blade plant closure. Supports ge_vernova_lm_suape_closure_2025.",
+    "supports": [
+      "ge_vernova_lm_suape_closure_2025",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "ge_vernova_lm_suape_closure_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cnen_ien_cnnc_visit_20260324",
+    "type": "government",
+    "chicago": "Instituto de Engenharia Nuclear / CNEN. “Delegação do setor nuclear chinês realiza visita técnica ao IEN/CNEN.” March 24, 2026. https://www.gov.br/ien/pt-br/assuntos/noticias/delegacao-do-setor-nuclear-chines-realiza-visita-tecnica-ao-ien-cnen.",
+    "url": "https://www.gov.br/ien/pt-br/assuntos/noticias/delegacao-do-setor-nuclear-chines-realiza-visita-tecnica-ao-ien-cnen",
+    "annotation": "IEN/CNEN: CNNC Centena technical visit Mar 2026. Supports cnnc_ien_cnen_centena_visit_202603.",
+    "supports": [
+      "cnnc_ien_cnen_centena_visit_202603",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "cnnc_ien_cnen_centena_visit_202603"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aranda_cgn_goldwind_bess_20251107",
+    "type": "press",
+    "chicago": "Aranda Editora / Fotovolt. “CGN e Goldwind firmam parceria para BESS contra curtailment.” November 7, 2025. https://www.arandanet.com.br/revista/fotovolt/noticia/11924-CGN-e-Goldwind-firmam-parceria-para-BESS-contra-curtailment.html.",
+    "url": "https://www.arandanet.com.br/revista/fotovolt/noticia/11924-CGN-e-Goldwind-firmam-parceria-para-BESS-contra-curtailment.html",
+    "annotation": "Aranda: CGN–Goldwind Tanque Novo 745 kW/1.49 MWh BESS pilot. Supports cgn_goldwind_tanque_novo_bess_2025.",
+    "supports": [
+      "cgn_goldwind_tanque_novo_bess_2025",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "cgn_goldwind_tanque_novo_bess_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "state_andes_atlantic_joint_20260923",
+    "type": "government",
+    "chicago": "U.S. Department of State, Office of the Spokesman. “Joint Statement on the Launch of the Andes-Atlantic Corridor.” September 23, 2026. https://www.state.gov/releases/office-of-the-spokesman/2026/09/joint-statement-on-the-launch-of-the-andes-atlantic-corridor.",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/joint-statement-on-the-launch-of-the-andes-atlantic-corridor",
+    "annotation": "State Dept: Andes-Atlantic Corridor launch with Argentina. Supports us_argentina_andes_atlantic_corridor_2026.",
+    "supports": [
+      "us_argentina_andes_atlantic_corridor_2026",
+      "hunt_cycle173"
+    ],
+    "map_supports": [
+      "us_argentina_andes_atlantic_corridor_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
