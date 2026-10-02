@@ -9598,5 +9598,149 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "tn8_cccc_el_barro_credito_20250327",
+    "type": "press",
+    "chicago": "Mena, Hellen. “Asamblea de Nicaragua aprueba crédito millonario para planta eólica ‘El Barro’ en Estelí.” TN8, 27 March 2025.",
+    "url": "https://www.tn8.ni/nacionales/asamblea-de-nicaragua-aprueba-credito-millonario-para-planta-eolica-el-barro-en-esteli/",
+    "annotation": "Asamblea approval of CCCC ~USD 69.1m credit for El Barro 55.2 MW wind. Supports cccc_el_barro_wind_nicaragua_2025.",
+    "supports": [
+      "cccc_el_barro_wind_nicaragua_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "cccc_el_barro_wind_nicaragua_2025",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "spiex_cccc_el_hato_groundbreaking",
+    "type": "government",
+    "chicago": "SPIEX / Government of Nicaragua. “With China’s most advanced solar technology! Nicaragua begins construction on the ‘El Hato’ photovoltaic plant.” Investment promotion notice.",
+    "url": "https://www.spiex.gob.ni/en-us/noticias/con-la-tecnolog%C3%ADa-solar-m%C3%A1s-avanzada-de-china-nicaragua-inicia-obras-de-la-planta-fotovoltaica-el-hato/",
+    "annotation": "CCCC El Hato 67.35 MW PV groundbreaking (Ciudad Darío). Supports cccc_el_hato_solar_67mw_nicaragua.",
+    "supports": [
+      "cccc_el_hato_solar_67mw_nicaragua",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "cccc_el_hato_solar_67mw_nicaragua",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "canal4_enesolar3_nindiri_20250606",
+    "type": "press",
+    "chicago": "Canal 4 Nicaragua. “Inician construcción de planta fotovoltaica ENESOLAR-3/APAS en Nindirí.” 6 June 2025.",
+    "url": "https://www.canal4.com.ni/inician-construccion-de-planta-fotovoltaica-enesolar-3-apas-en-nindiri/",
+    "annotation": "CCCC–ENACAL ENESOLAR-3 70 MW / USD 83m groundbreaking. Supports cccc_enesolar3_nindiri_83m_2025.",
+    "supports": [
+      "cccc_enesolar3_nindiri_83m_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "cccc_enesolar3_nindiri_83m_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "spiex_enesolar1_inauguration",
+    "type": "government",
+    "chicago": "SPIEX / Government of Nicaragua. “Authorities officially inaugurated the project located in San Isidro, Matagalpa.” Investment promotion notice.",
+    "url": "https://www.spiex.gob.ni/en-us/noticias/autoridades-oficializaron-la-inauguracion-del-proyecto-ubicado-en-san-isidro-matagalpa/",
+    "annotation": "CCCC ENESOLAR 1 ~61.4 MW + 12 MW BESS inauguration. Supports cccc_enesolar1_san_isidro_cod_2026.",
+    "supports": [
+      "cccc_enesolar1_san_isidro_cod_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "cccc_enesolar1_san_isidro_cod_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "weatherford_ventura_victoria_20260507",
+    "type": "company",
+    "chicago": "Weatherford International plc. “Weatherford Awarded Managed Pressure Drilling Contract by Ventura Offshore for Operations in Brazil.” 7 May 2026.",
+    "url": "https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18556",
+    "annotation": "Weatherford G3 IRJ MPD for Ventura SSV Victoria (Búzios). Supports weatherford_ventura_victoria_mpd_2026.",
+    "supports": [
+      "weatherford_ventura_victoria_mpd_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "weatherford_ventura_victoria_mpd_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "aes_elsalvador_santa_ana_iv_20260602",
+    "type": "company",
+    "chicago": "AES El Salvador. “AES El Salvador — Sustainability that transforms energy into development.” 2 June 2026.",
+    "url": "https://www.aes-elsalvador.com/en/press-release/aes-el-salvador-sustainability-transforms-energy-development",
+    "annotation": "AES Santa Ana IV 55 MW solar under construction / 2026 COD. Supports aes_santa_ana_iv_55mw_2026.",
+    "supports": [
+      "aes_santa_ana_iv_55mw_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_santa_ana_iv_55mw_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "halliburton_granmorgu_20260713",
+    "type": "company",
+    "chicago": "Halliburton. “Halliburton wins integrated drilling and completions contracts for GranMorgu deepwater development offshore Suriname, operated by TotalEnergies.” 13 July 2026.",
+    "url": "https://www.halliburton.com/en/about-us/press-release/halliburton-wins-integrated-drilling-completions-contract-granmorgu-suriname-total-energies",
+    "annotation": "Halliburton integrated well construction for GranMorgu (Suriname). Supports halliburton_granmorgu_suriname_2026.",
+    "supports": [
+      "halliburton_granmorgu_suriname_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "halliburton_granmorgu_suriname_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "baker_hughes_guyana_chemicals_20250203",
+    "type": "company",
+    "chicago": "Baker Hughes. “Baker Hughes Secures Major Chemicals Award from ExxonMobil Guyana for FPSOs.” 3 February 2025.",
+    "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-Secures-Major-Chemicals-Award-from-ExxonMobil-Guyana-for-FPSOs-02-03-2025/default.aspx",
+    "annotation": "Baker Hughes specialty chemicals for Uaru/Whiptail FPSOs. Supports baker_hughes_exxon_guyana_chemicals_2025.",
+    "supports": [
+      "baker_hughes_exxon_guyana_chemicals_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "baker_hughes_exxon_guyana_chemicals_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
