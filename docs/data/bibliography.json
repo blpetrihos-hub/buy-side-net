@@ -11314,5 +11314,148 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "oceaneering_ssr_180m_20250828",
+    "type": "company",
+    "chicago": "Oceaneering International. “Oceaneering Announces $180 Million of Subsea Robotics Contracts with Petrobras.” 28 August 2025.",
+    "url": "https://investors.oceaneering.com/news/news-details/2025/Oceaneering-Announces-180-Million-of-Subsea-Robotics-Contracts-with-Petrobras/default.aspx",
+    "annotation": "Oceaneering MPS multi-contract Petrobras Subsea Robotics award (~USD 180m aggregate). Supports oceaneering_petrobras_subsea_robotics_180m_2025.",
+    "supports": [
+      "oceaneering_petrobras_subsea_robotics_180m_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "oceaneering_petrobras_subsea_robotics_180m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "oceaneering_umbilicals_20240610",
+    "type": "company",
+    "chicago": "Oceaneering International. “Oceaneering Announces Manufactured Products Contracts with Petrobras.” 10 June 2024.",
+    "url": "https://investors.oceaneering.com/news/news-details/2024/Oceaneering-Announces-Manufactured-Products-Contracts-with-Petrobras/default.aspx",
+    "annotation": "Oceaneering Petrobras umbilicals ≤362 km (Niterói) with USD 120–183m revenue range. Supports oceaneering_petrobras_umbilicals_2024.",
+    "supports": [
+      "oceaneering_petrobras_umbilicals_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "oceaneering_petrobras_umbilicals_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "oceaneering_wayfarer_rov_20260707",
+    "type": "company",
+    "chicago": "Oceaneering International. “Oceaneering Secures Petrobras Contract for ROV Services Offshore Brazil.” 7 July 2026.",
+    "url": "https://www.oceaneering.com/oceaneering-secures-petrobras-contract-for-rov-services-offshore-brazil/",
+    "annotation": "Oceaneering two work-class ROVs on AKOFS Aker Wayfarer for Petrobras. Supports oceaneering_petrobras_wayfarer_rov_2026.",
+    "supports": [
+      "oceaneering_petrobras_wayfarer_rov_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "oceaneering_petrobras_wayfarer_rov_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "slb_buzios_wave2_20240415",
+    "type": "company",
+    "chicago": "SLB. “SLB Awarded Three Completion Contracts for Petrobras’ Buzios Field.” 15 April 2024.",
+    "url": "https://www.slb.com/newsroom/press-release/2024/slb-awarded-three-completion-contracts-for-petrobras%E2%80%99-buzios-field",
+    "annotation": "SLB three electric completion contracts for Petrobras Búzios Wave II (≤35 wells). Supports slb_buzios_wave2_completions_2024.",
+    "supports": [
+      "slb_buzios_wave2_completions_2024",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "slb_buzios_wave2_completions_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "mtc_abancay_crtg_20210124",
+    "type": "government",
+    "chicago": "Ministerio de Transportes y Comunicaciones (Peru). “Suscriben contrato para la construcción de la Vía de Evitamiento de Abancay.” 24 January 2021.",
+    "url": "https://www.gob.pe/institucion/mtc/noticias/326191-suscriben-contrato-para-la-construccion-de-la-via-de-evitamiento-de-abancay",
+    "annotation": "MTC/Provías contract with China Railway Tunnel Group for Abancay bypass at S/92.98m. Supports crtg_abancay_bypass_2021.",
+    "supports": [
+      "crtg_abancay_bypass_2021",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "crtg_abancay_bypass_2021",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ita_minsur_taboca_cnmc_20241127",
+    "type": "press",
+    "chicago": "International Tin Association. “Minsur to sell Taboca to China Nonferrous Metal Mining Group.” 27 November 2024.",
+    "url": "https://www.internationaltin.org/minsur-to-sell-taboca-to-china-nonferrous-metal-mining-group/",
+    "annotation": "ITA documents Minsur–CNMC Taboca SPA; US$340m UNVERIFIED Bloomberg cite. Supports cnmc_taboca_acquisition_340m_2024.",
+    "supports": [
+      "cnmc_taboca_acquisition_340m_2024",
+      "hunt_res_niobium"
+    ],
+    "map_supports": [
+      "cnmc_taboca_acquisition_340m_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "chec_chancay_delivery_20250430",
+    "type": "company",
+    "chicago": "China Harbour Engineering Company (CHEC Americas). “Chancay Port Project Officially Completed and Delivered in Peru.” 30 April 2025.",
+    "url": "https://www.checamerica.com/blog/2025/04/30/chancay-port-project-officially-completed-and-delivered-in-peru/",
+    "annotation": "CHEC Americas delivery certificate / handover of Chancay Port Project. Supports chec_chancay_delivery_2025.",
+    "supports": [
+      "chec_chancay_delivery_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "chec_chancay_delivery_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cspplaza_cgn_piaui_20260401",
+    "type": "press",
+    "chicago": "CSPPLAZA. “里程碑！中广核签约打造巴西首个百兆瓦级熔盐储热光热电站.” 1 April 2026.",
+    "url": "http://www.cspplaza.com/article-29400-1.html",
+    "annotation": "UNVERIFIED proxy for CGN Brasil–Piauí ~100 MW molten-salt CSP MoU. Supports cgn_piaui_csp_mou_2026.",
+    "supports": [
+      "cgn_piaui_csp_mou_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "cgn_piaui_csp_mou_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
