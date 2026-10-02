@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Interactive map · Commanding Heights of Latin America</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="css/site.css?v=7cc2227">
+  <link rel="stylesheet" href="css/site.css?v=usprc1">
 </head>
 <body>
 <header class="site-header site-header-compact">
@@ -54,6 +54,7 @@
         <label class="ctl">Side
           <select id="side">
             <option value="all">All sides</option>
+            <option value="us_prc">U.S. vs. PRC</option>
             <option value="us">U.S.</option>
             <option value="prc">PRC</option>
             <option value="allied">Allied / other</option>
@@ -63,35 +64,12 @@
     </div>
   </section>
 
-  <section class="below-map">
-    <p class="caption" id="caption">Toggle layers and subcategories. Side colors mark U.S., PRC, allied/other, and hunt pins. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation.</p>
-
-    <div class="readout-grid">
-      <section class="panel">
-        <h2>Layer net</h2>
-        <p class="score-note">Active LatAm/Caribbean observations by side; disclosed USD sums (documented / one-sided / paired) with n. No blended index.</p>
-        <div id="layerReadouts"></div>
-      </section>
-      <section class="panel">
-        <h2>Country net</h2>
-        <div id="countryReadouts"></div>
-      </section>
-      <section class="panel">
-        <h2>Matched gaps</h2>
-        <p class="score-note">Secondary. Buy-side price gaps where a pair still exists.</p>
-        <div id="gapReadouts"></div>
-      </section>
-    </div>
-
-    <section class="panel panel-list">
-      <h2>Observations</h2>
-      <ul class="side-list" id="listRows"></ul>
-      <p class="note" id="note"></p>
-    </section>
-  </section>
+  <div hidden aria-hidden="true">
+    <p id="caption"></p><div id="layerReadouts"></div><div id="countryReadouts"></div><div id="gapReadouts"></div><ul id="listRows"></ul><p id="note"></p>
+  </div>
 </main>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="js/dashboard.js?v=7cc2227"></script>
+<script src="js/dashboard.js?v=usprc1"></script>
 </body>
 </html>
