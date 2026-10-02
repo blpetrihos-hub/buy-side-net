@@ -11319,3 +11319,58 @@
   supports:
   - us_argentina_andes_atlantic_corridor_2026
   - hunt_cycle173
+- id: sgq_asx_nanum_mou_20260312
+  type: company
+  chicago: St George Mining Limited. “Downstream strategy to significantly upgrade the magnet and heavy
+    rare earths from the Araxá Project.” ASX release, March 12, 2026. https://announcements.asx.com.au/asxpdf/20260312/pdf/06xb95z21863rx.pdf.
+  url: https://announcements.asx.com.au/asxpdf/20260312/pdf/06xb95z21863rx.pdf
+  annotation: 'ASX SGQ: Nanum MoU on Araxá cerium downstream at Nb-REE project. Supports st_george_nanum_araxa_mou_2026.'
+  supports:
+  - st_george_nanum_araxa_mou_2026
+  - hunt_cycle174
+- id: mrree_uy_carp_martin_garcia_20260702
+  type: government
+  chicago: Ministerio de Relaciones Exteriores (Uruguay). “CARP adjudica licitación para canal Martín
+    García.” July 2, 2026. https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/comunicados/carp-adjudica-licitacion-para-canal-martin-garcia.
+  url: https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/comunicados/carp-adjudica-licitacion-para-canal-martin-garcia
+  annotation: 'Uruguay MFA/CARP: Jan De Nul Martín García dredging USD 65.994m. Supports jan_de_nul_martin_garcia_carp_66m_2026.'
+  supports:
+  - jan_de_nul_martin_garcia_carp_66m_2026
+  - hunt_cycle174
+- id: zelestra_babilonia_financing_20260305
+  type: company
+  chicago: Zelestra. “Zelestra secures $176 million green financing package for the 242 MW Babilonia solar
+    plant in Perú.” March 5, 2026. https://zelestra.energy/en/news/babilonia-financing.
+  url: https://zelestra.energy/en/news/babilonia-financing
+  annotation: 'Zelestra: Babilonia 242 MWdc USD 176m green financing. Supports zelestra_babilonia_176m_2026.'
+  supports:
+  - zelestra_babilonia_176m_2026
+  - hunt_cycle174
+- id: state_colombia_critical_nuclear_20260908
+  type: government
+  chicago: U.S. Department of State, Office of the Spokesman. “Secretary Rubio and Colombian Foreign Minister
+    Bula Sign Arrangements on Critical Minerals and Civil Nuclear Cooperation.” September 8, 2026. https://www.state.gov/releases/office-of-the-spokesperson/2026/09/secretary-rubio-and-colombian-foreign-minister-bula-sign-arrangements-on-critical-minerals-and-civil-nuclear-cooperation.
+  url: https://www.state.gov/releases/office-of-the-spokesperson/2026/09/secretary-rubio-and-colombian-foreign-minister-bula-sign-arrangements-on-critical-minerals-and-civil-nuclear-cooperation
+  annotation: 'State Dept: U.S.–Colombia Critical Minerals Framework. Supports us_colombia_critical_minerals_framework_202609.'
+  supports:
+  - us_colombia_civil_nuclear_mou_202609
+  - hunt_cycle174
+  - us_colombia_critical_minerals_framework_202609
+- id: vale_caterpillar_autonomous_20251208
+  type: company
+  chicago: Vale. “Vale, Caterpillar & Sotreq sign agreement to expand fleet of autonomous trucks in the
+    Northern System, in Pará.” December 8, 2025. https://saladeimprensa.vale.com/w/vale-caterpillar-and-sotreq-sign-agreement-to-expand-fleet-of-autonomous-trucks-in-the-northern-system-in-para.
+  url: https://saladeimprensa.vale.com/w/vale-caterpillar-and-sotreq-sign-agreement-to-expand-fleet-of-autonomous-trucks-in-the-northern-system-in-para
+  annotation: 'Vale: Caterpillar autonomous truck expansion to ~90 by 2028. Supports caterpillar_vale_northern_autonomous_2025.'
+  supports:
+  - caterpillar_vale_northern_autonomous_2025
+  - hunt_cycle174
+- id: globenewswire_lar_ganfeng_180m_20260915
+  type: company
+  chicago: Lithium Argentina AG. “Lithium Argentina Announces Closing of $180M Strategic Investment from
+    Ganfeng.” GlobeNewswire, September 15, 2026. https://www.globenewswire.com/news-release/2026/09/15/3361860/0/en/lithium-argentina-announces-closing-of-180m-strategic-investment-from-ganfeng.html.
+  url: https://www.globenewswire.com/news-release/2026/09/15/3361860/0/en/lithium-argentina-announces-closing-of-180m-strategic-investment-from-ganfeng.html
+  annotation: 'GlobeNewswire/LAR: Ganfeng USD 180m convertible close supporting PPG. Supports ganfeng_lar_convertible_180m_2026.'
+  supports:
+  - ganfeng_lar_convertible_180m_2026
+  - hunt_cycle174

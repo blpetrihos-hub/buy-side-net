@@ -1,21 +1,100 @@
 updated: 2026-10-02
-cycle: 173
+cycle: 174
 remote: present
-active_layer: energy
-active_subcategory: solar
-next_query: Cycle 174 shuffle_seed=20261174; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us350/prc351/allied279); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel/balsa (25), fission_smr (27), niobium (28). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many), Venezuela (beyond El Vigía solar), Nicaragua rail past MoU, Colombia graphite, Peru nickel/niobium/balsa. Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
-next_row_id: (follow cycle-174 shuffled_order)
+active_layer: resources
+active_subcategory: lithium
+next_query: Cycle 175 shuffle_seed=20261175; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us353/prc352/allied282); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel/balsa (25), fission_smr (28), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many), Venezuela (beyond solar), Nicaragua rail past MoU, Peru nickel/balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
+next_row_id: (follow cycle-175 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 173) ===
-# Filled this cycle: Peru×graphite (other INGEMMET Alto Chicama 2.6 Mt),
-#   Brazil×building_materials (other Votorantim Edealina mortar 300 ktpy),
-#   Brazil×wind (prc Sinoma Camaçari blade R$104m; us GE Vernova/LM Suape closure),
-#   Brazil×fission_smr (prc CNNC–IEN Centena visit), Brazil×other_renewables
-#   (prc CGN–Goldwind Tanque Novo BESS 745 kW/1.49 MWh), Argentina×rail
-#   (us Andes-Atlantic Corridor PGII launch).
+# === Country×subcategory sweep cells touched (session continuing from 174) ===
+# Filled this cycle: Brazil×niobium (allied St George–Nanum Araxá MoU),
+#   Argentina×engineering_epc (allied Jan De Nul Martín García USD 65.994m),
+#   Peru×solar (allied Zelestra Babilonia USD 176m), Colombia×fission_smr
+#   (us civil nuclear MoU), Colombia×graphite (us critical-minerals framework),
+#   Brazil×engineering_epc (us Caterpillar Vale Northern autonomous),
+#   Argentina×lithium (prc Ganfeng LAR convertible USD 180m).
 # Still thin/empty priority cells: Haiti (many), Venezuela (beyond solar), Nicaragua
-#   rail past MoU, Colombia graphite, Peru nickel/niobium/balsa.
+#   rail past MoU, Peru nickel/balsa, Colombia graphite mine CapEx.
+
+# === Cycle 174 (seed 20261174) ===
+# Shuffled order: niobium, wind, nickel, engineering_epc, solar, power_plants_grid,
+#   rail, port_ownership, graphite, water, other_renewables, copper, bridges_roads,
+#   port_cranes, balsa, fission_smr, lithium, building_materials.
+# Logged 7 sourced rows (3 US / 1 PRC / 3 allied / 0 other; ≥1/3 US hunt budget):
+#   allied niobium: st_george_nanum_araxa_mou_2026 (CapEx blank; MoU).
+#   allied engineering_epc: jan_de_nul_martin_garcia_carp_66m_2026 (USD 65.994m).
+#   allied solar: zelestra_babilonia_176m_2026 (USD 176m).
+#   us fission_smr: us_colombia_civil_nuclear_mou_202609 (CapEx blank; MoU).
+#   us graphite: us_colombia_critical_minerals_framework_202609 (CapEx blank).
+#   us engineering_epc: caterpillar_vale_northern_autonomous_2025 (CapEx blank).
+#   prc lithium: ganfeng_lar_convertible_180m_2026 (USD 180m).
+# Thin top-up (nickel/balsa/fission_smr): fission filled; nickel/balsa dry
+#   (catalog dense; AIMA/WITS Ecuador balsa and Brazilian nickel already logged).
+# Equal-budget misses: wind, nickel, power_plants_grid, rail, port_ownership,
+#   water, other_renewables, copper, bridges_roads, port_cranes, balsa,
+#   building_materials (catalog dense; many already logged this session).
+# Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km package decree;
+#   CCECC Nicaragua rail still prefeasibility/feasibility.
+# Active after cycle 174: us353 / prc352 / allied282 / other46 (n=1033).
+shuffle_seed: 20261174
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/niobium
+- energy/wind
+- resources/nickel
+- infrastructure/engineering_epc
+- energy/solar
+- energy/power_plants_grid
+- infrastructure/rail
+- infrastructure/port_ownership
+- resources/graphite
+- resources/water
+- energy/other_renewables
+- resources/copper
+- infrastructure/bridges_roads
+- infrastructure/port_cranes
+- resources/balsa
+- energy/fission_smr
+- resources/lithium
+- infrastructure/building_materials
+rows_found_this_cycle:
+  resources/niobium: 1
+  energy/wind: 0
+  resources/nickel: 0
+  infrastructure/engineering_epc: 2
+  energy/solar: 1
+  energy/power_plants_grid: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  resources/graphite: 1
+  resources/water: 0
+  energy/other_renewables: 0
+  resources/copper: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/port_cranes: 0
+  resources/balsa: 0
+  energy/fission_smr: 1
+  resources/lithium: 1
+  infrastructure/building_materials: 0
+rows_by_side_this_cycle:
+  us: 3
+  prc: 1
+  allied: 3
+  other: 0
+thin_topup:
+  budget: 0.5_source_family
+  subcategories:
+  - resources/nickel
+  - resources/balsa
+  - energy/fission_smr
+coverage_notes: >
+  Cycle 174 filled niobium (St George–Nanum Araxá MoU), engineering_epc
+  (Jan De Nul Martín García + Caterpillar Vale autonomous), solar (Zelestra
+  Babilonia), fission (U.S.–Colombia nuclear MoU), graphite (U.S.–Colombia
+  critical-minerals framework), lithium (Ganfeng LAR USD 180m convertible).
+  Thin nickel/balsa remained dry. Next: prefer nickel/balsa/niobium; continue
+  Haiti/Venezuela/Nicaragua/Peru nickel-balsa and Colombia graphite CapEx.
 
 # === Cycle 173 (seed 20261173) ===
 # Shuffled order: graphite, building_materials, wind, fission_smr, bridges_roads,
