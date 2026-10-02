@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 123
+cycle: 124
 remote: present
 active_layer: energy
 active_subcategory: solar
-next_query: Cycle 124 shuffle_seed=20261124; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us333/prc240/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. US OBO/USCG named backlog nearly closed; prioritize PRC SOE/regulator residual.
-next_row_id: (follow cycle-124 shuffled_order)
+next_query: Cycle 125 shuffle_seed=20261125; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us337/prc241/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Sajalices logged; continue residual federal + PRC SOE pass.
+next_row_id: (follow cycle-125 shuffled_order)
 dry_streak: 0
+
+# === Cycle 124 (seed 20261124) ===
+# Shuffled order: building_materials, copper, power_plants_grid, wind,
+#   other_renewables, bridges_roads, niobium, fission_smr, solar, lithium,
+#   nickel, rail, balsa, water, graphite, port_cranes, port_ownership,
+#   engineering_epc.
+# Logged 5 sourced rows (4 US + 1 PRC; thin dry; no padding):
+#   prc solar: powerchina_sajalices_panama_530mw_2024 (530 MW EPC; CapEx blank).
+#   us engineering_epc: cmf_great_inagua_opbat_2011 (USD 17.2m USCG).
+#   us engineering_epc: cce_soto_cano_barracks_2011 (USD 15.6m USACE).
+#   us power_plants_grid: perini_haiti_substations_2011 (USD 14.9m USAID).
+#   us engineering_epc: cavagnero_pos_nec_bridging_2020 (USD 14.5m State).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: building_materials, copper, wind, other_renewables,
+#   bridges_roads, niobium, fission_smr, lithium, nickel, rail, balsa, water,
+#   graphite, port_cranes, port_ownership.
+# Active after cycle 124: us337 / prc241 / allied243 / other37 (n=858).
+shuffle_seed: 20261124
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- resources/copper
+- energy/power_plants_grid
+- energy/wind
+- energy/other_renewables
+- infrastructure/bridges_roads
+- resources/niobium
+- energy/fission_smr
+- energy/solar
+- resources/lithium
+- resources/nickel
+- infrastructure/rail
+- resources/balsa
+- resources/water
+- resources/graphite
+- infrastructure/port_cranes
+- infrastructure/port_ownership
+- infrastructure/engineering_epc
+rows_found_this_cycle:
+  infrastructure/building_materials: 0
+  resources/copper: 0
+  energy/power_plants_grid: 1
+  energy/wind: 0
+  energy/other_renewables: 0
+  infrastructure/bridges_roads: 0
+  resources/niobium: 0
+  energy/fission_smr: 0
+  energy/solar: 1
+  resources/lithium: 0
+  resources/nickel: 0
+  infrastructure/rail: 0
+  resources/balsa: 0
+  resources/water: 0
+  resources/graphite: 0
+  infrastructure/port_cranes: 0
+  infrastructure/port_ownership: 0
+  infrastructure/engineering_epc: 3
+rows_by_side_this_cycle:
+  us: 4
+  prc: 1
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 123 (seed 20261123) ===
 # Shuffled order: building_materials, water, balsa, bridges_roads, nickel,

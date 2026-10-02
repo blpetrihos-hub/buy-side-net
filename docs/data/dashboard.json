@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 945,
+    "n_rows": 950,
     "counts": {
-      "total": 945,
-      "active": 853,
+      "total": 950,
+      "active": 858,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 720,
-      "on_map": 836
+      "documented": 725,
+      "on_map": 841
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 167,
+        "us": 170,
         "prc": 97,
         "allied": 95,
-        "n": 359
+        "n": 362
       },
       "usd": {
-        "us": 9162418011.319998,
-        "us_n": 99,
+        "us": 9209688808.369999,
+        "us_n": 102,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 95,
-        "prc": 101,
+        "us": 96,
+        "prc": 102,
         "allied": 75,
-        "n": 271
+        "n": 273
       },
       "usd": {
-        "us": 18076238222.54,
-        "us_n": 37,
+        "us": 18091148697.54,
+        "us_n": 38,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4897299849.38,
@@ -211,14 +211,14 @@
     {
       "country": "Bahamas",
       "counts": {
-        "us": 3,
+        "us": 4,
         "prc": 0,
         "allied": 0,
-        "n": 3
+        "n": 4
       },
       "usd": {
-        "us": 426706169.85,
-        "us_n": 3,
+        "us": 443869978.93,
+        "us_n": 4,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -231,7 +231,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 0,
           "allied": 0
         }
@@ -671,20 +671,25 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 0,
         "allied": 0,
-        "n": 1
+        "n": 2
       },
       "usd": {
-        "us": 72262286.45,
-        "us_n": 1,
+        "us": 87172761.45,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
         "allied_n": 0
       },
       "by_layer": {
+        "energy": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
+        },
         "infrastructure": {
           "us": 1,
           "prc": 0,
@@ -695,14 +700,14 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 5,
+        "us": 6,
         "prc": 2,
         "allied": 1,
-        "n": 8
+        "n": 9
       },
       "usd": {
-        "us": 337125504.96000004,
-        "us_n": 3,
+        "us": 352733940.23,
+        "us_n": 4,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 100000000.0,
@@ -715,7 +720,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 4,
+          "us": 5,
           "prc": 0,
           "allied": 1
         }
@@ -817,9 +822,9 @@
       "country": "Panama",
       "counts": {
         "us": 3,
-        "prc": 3,
+        "prc": 4,
         "allied": 5,
-        "n": 11
+        "n": 12
       },
       "usd": {
         "us": 70980242.32,
@@ -832,7 +837,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 0,
+          "prc": 1,
           "allied": 1
         },
         "infrastructure": {
@@ -966,14 +971,14 @@
     {
       "country": "Trinidad and Tobago",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 0,
         "allied": 0,
-        "n": 1
+        "n": 2
       },
       "usd": {
-        "us": 353585673.0,
-        "us_n": 1,
+        "us": 368084225.7,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -981,7 +986,7 @@
       },
       "by_layer": {
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 0,
           "allied": 0
         }
@@ -1893,7 +1898,12 @@
       "cce_bogota_annex_2005",
       "src_tegucigalpa_nec_pe_2019",
       "ics_borinquen_hangar_2019",
-      "powerchina_cauchari_solar_epc_2020"
+      "powerchina_cauchari_solar_epc_2020",
+      "powerchina_sajalices_panama_530mw_2024",
+      "cmf_great_inagua_opbat_2011",
+      "cce_soto_cano_barracks_2011",
+      "perini_haiti_substations_2011",
+      "cavagnero_pos_nec_bridging_2020"
     ],
     "hunt": [
       "hunt_br_power_equip",
