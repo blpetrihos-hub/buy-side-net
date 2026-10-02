@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 102
+cycle: 103
 remote: present
-active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 103 shuffle_seed=20261103; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us244/prc232/allied238); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. FHWA construction ≥USD 2.5m exhausted; inspection backlog thinning (Jacobs PR25 logged); continue country×subcat PRC (CDB RMB facility logged) + US company/regulator leads outside PR FHWA.
-next_row_id: (follow cycle-103 shuffled_order)
+active_layer: energy
+active_subcategory: power_plants_grid
+next_query: Cycle 104 shuffle_seed=20261104; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us249/prc233/allied238); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. Continue USACE Caribbean Civil Works backlog + PRC OEM/company releases (Sungrow Aurora logged); thin top-up remains dry.
+next_row_id: (follow cycle-104 shuffled_order)
 dry_streak: 0
+
+# === Cycle 103 (seed 20261103) ===
+# Shuffled order: graphite, port_cranes, fission_smr, balsa, niobium, wind,
+#   lithium, power_plants_grid, copper, port_ownership, solar, water, nickel,
+#   bridges_roads, other_renewables, engineering_epc, building_materials, rail.
+# Logged 6 sourced rows (honest US/PRC split; no padding):
+#   us power_plants_grid: weston_palo_seco_temp_power_2023 (USD 816.2m USACE).
+#   us power_plants_grid: weston_san_juan_temp_power_2023 (USD 668.9m USACE).
+#   prc solar: sungrow_zelestra_aurora_bess_2025 (~1 GWh BESS + 220 MWdc; CapEx blank).
+#   us water: ferrovial_usace_drilled_shaft_6c_2024 (USD 150.4m USACE).
+#   us water: novel_cano_martin_pena_2025 (USD 57.4m USACE).
+#   us engineering_epc: curtin_san_juan_harbor_dredge_2023 (USD 54.2m USACE).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr/
+#   building_materials also dry.
+# Equal-budget misses: graphite, port_cranes, fission_smr, balsa, niobium, wind,
+#   lithium, copper, port_ownership, nickel, bridges_roads, other_renewables,
+#   building_materials, rail (dense prior; Jinko Casa dos Ventos / Bluefields /
+#   ENEE 230 kV already logged).
+# Active after cycle 103: us249 / prc233 / allied238 / other37 (n=757).
+shuffle_seed: 20261103
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/graphite
+- infrastructure/port_cranes
+- energy/fission_smr
+- resources/balsa
+- resources/niobium
+- energy/wind
+- resources/lithium
+- energy/power_plants_grid
+- resources/copper
+- infrastructure/port_ownership
+- energy/solar
+- resources/water
+- resources/nickel
+- infrastructure/bridges_roads
+- energy/other_renewables
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- infrastructure/rail
+rows_found_this_cycle:
+  resources/graphite: 0
+  infrastructure/port_cranes: 0
+  energy/fission_smr: 0
+  resources/balsa: 0
+  resources/niobium: 0
+  energy/wind: 0
+  resources/lithium: 0
+  energy/power_plants_grid: 2
+  resources/copper: 0
+  infrastructure/port_ownership: 0
+  energy/solar: 1
+  resources/water: 2
+  resources/nickel: 0
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 0
+  infrastructure/engineering_epc: 1
+  infrastructure/building_materials: 0
+  infrastructure/rail: 0
+rows_by_side_this_cycle:
+  us: 5
+  prc: 1
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 102 (seed 20261102) ===
 # Shuffled order: power_plants_grid, wind, other_renewables, balsa, nickel,

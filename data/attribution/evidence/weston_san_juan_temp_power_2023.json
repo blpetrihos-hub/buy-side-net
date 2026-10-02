@@ -1,0 +1,10 @@
+{
+  "id": "weston_san_juan_temp_power_2023",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_weston_san_juan_20230410",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128F23F0089_9700_W9128F20D0005_9700/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "!!PR-POWERFY23!! TEMPORARY POWER GENERATION AT THE SAN JUAN  POWER PLANT",
+  "note": "Opened USASpending Award API: Weston Solutions; USD 668,946,805.12; date_signed 2023-04-10; PoP San Juan, PR."
+}
