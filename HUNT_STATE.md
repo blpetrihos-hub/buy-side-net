@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 118
+cycle: 119
 remote: present
-active_layer: resources
-active_subcategory: water
-next_query: Cycle 119 shuffle_seed=20261119; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us305/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. OBO backlog exhausted; USACE PR civil-works residual thinning; continue OEM/regulator/ANEEL/OSINERGMIN sweep.
-next_row_id: (follow cycle-119 shuffled_order)
+active_layer: infrastructure
+active_subcategory: bridges_roads
+next_query: Cycle 120 shuffle_seed=20261120; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us310/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. FHWA named-site residual continuing; OEM/regulator sweep for PRC.
+next_row_id: (follow cycle-120 shuffled_order)
 dry_streak: 0
+
+# === Cycle 119 (seed 20261119) ===
+# Shuffled order: bridges_roads, other_renewables, balsa, rail, port_cranes,
+#   copper, graphite, water, solar, engineering_epc, lithium, nickel,
+#   building_materials, port_ownership, fission_smr, niobium,
+#   power_plants_grid, wind.
+# Logged 5 sourced rows (honest US FHWA residual; thin dry; ANEEL State Grid
+#   lote already logged/excluded; no padding):
+#   us bridges_roads: desarrolladora_culebrinas_bridge_2017 (USD 4.8m FHWA).
+#   us bridges_roads: del_valle_manati_bridge_2017 (USD 4.5m FHWA).
+#   us bridges_roads: lpcd_el_yunque_pr930_2018 (USD 4.7m FHWA).
+#   us bridges_roads: aluma_vieques_camp_garcia_2008 (USD 6.8m FHWA).
+#   us bridges_roads: lpcd_route9966_wall_2012 (USD 3.6m FHWA).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: other_renewables, balsa, rail, port_cranes, copper,
+#   graphite, water, solar, engineering_epc, lithium, nickel,
+#   building_materials, port_ownership, fission_smr, niobium,
+#   power_plants_grid, wind.
+# Active after cycle 119: us310 / prc239 / allied243 / other37 (n=829).
+shuffle_seed: 20261119
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/bridges_roads
+- energy/other_renewables
+- resources/balsa
+- infrastructure/rail
+- infrastructure/port_cranes
+- resources/copper
+- resources/graphite
+- resources/water
+- energy/solar
+- infrastructure/engineering_epc
+- resources/lithium
+- resources/nickel
+- infrastructure/building_materials
+- infrastructure/port_ownership
+- energy/fission_smr
+- resources/niobium
+- energy/power_plants_grid
+- energy/wind
+rows_found_this_cycle:
+  infrastructure/bridges_roads: 5
+  energy/other_renewables: 0
+  resources/balsa: 0
+  infrastructure/rail: 0
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  resources/graphite: 0
+  resources/water: 0
+  energy/solar: 0
+  infrastructure/engineering_epc: 0
+  resources/lithium: 0
+  resources/nickel: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 0
+  energy/fission_smr: 0
+  resources/niobium: 0
+  energy/power_plants_grid: 0
+  energy/wind: 0
+rows_by_side_this_cycle:
+  us: 5
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 118 (seed 20261118) ===
 # Shuffled order: building_materials, wind, balsa, fission_smr, copper,
