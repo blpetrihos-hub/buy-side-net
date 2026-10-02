@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 101
+cycle: 102
 remote: present
-active_layer: resources
-active_subcategory: lithium
-next_query: Cycle 102 shuffle_seed=20261102; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us243/prc231/allied235); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. FHWA construction backlog largely exhausted for ≥USD 2.5m; continue AtkinsRealis/Jacobs inspection task orders + country×subcat PRC.
-next_row_id: (follow cycle-102 shuffled_order)
+active_layer: infrastructure
+active_subcategory: engineering_epc
+next_query: Cycle 103 shuffle_seed=20261103; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us244/prc232/allied238); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. FHWA construction ≥USD 2.5m exhausted; inspection backlog thinning (Jacobs PR25 logged); continue country×subcat PRC (CDB RMB facility logged) + US company/regulator leads outside PR FHWA.
+next_row_id: (follow cycle-103 shuffled_order)
 dry_streak: 0
+
+# === Cycle 102 (seed 20261102) ===
+# Shuffled order: power_plants_grid, wind, other_renewables, balsa, nickel,
+#   building_materials, solar, lithium, copper, fission_smr, bridges_roads,
+#   graphite, port_ownership, niobium, port_cranes, engineering_epc, water, rail.
+# Logged 5 sourced rows (honest US/PRC/allied split; no padding):
+#   us engineering_epc: jacobs_fhwa_pr25_inspect_2026 (USD 2.20m FHWA).
+#   prc engineering_epc: cdb_bndes_rmb5bn_2024 (CNY 5bn CDB–BNDES facility).
+#   allied engineering_epc: atkinsrealis_fhwa_yunque_inspect_2022 (USD 4.12m).
+#   allied engineering_epc: atkinsrealis_fhwa_pr12_inspect_2024 (USD 2.78m).
+#   allied engineering_epc: mj_cardno_fhwa_pr10_inspect_2023 (USD 3.32m).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr/
+#   building_materials also dry.
+# Equal-budget misses: power_plants_grid, wind, other_renewables, balsa, nickel,
+#   building_materials, solar, lithium, copper, fission_smr, bridges_roads,
+#   graphite, port_ownership, niobium, port_cranes, water, rail (dense prior;
+#   FHWA construction ≥USD 2.5m exhausted; Cangrejos/Ganfeng 180m/ZPMC Kingston
+#   /SPIC UG7 already logged).
+# Active after cycle 102: us244 / prc232 / allied238 / other37 (n=751).
+shuffle_seed: 20261102
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/power_plants_grid
+- energy/wind
+- energy/other_renewables
+- resources/balsa
+- resources/nickel
+- infrastructure/building_materials
+- energy/solar
+- resources/lithium
+- resources/copper
+- energy/fission_smr
+- infrastructure/bridges_roads
+- resources/graphite
+- infrastructure/port_ownership
+- resources/niobium
+- infrastructure/port_cranes
+- infrastructure/engineering_epc
+- resources/water
+- infrastructure/rail
+rows_found_this_cycle:
+  energy/power_plants_grid: 0
+  energy/wind: 0
+  energy/other_renewables: 0
+  resources/balsa: 0
+  resources/nickel: 0
+  infrastructure/building_materials: 0
+  energy/solar: 0
+  resources/lithium: 0
+  resources/copper: 0
+  energy/fission_smr: 0
+  infrastructure/bridges_roads: 0
+  resources/graphite: 0
+  infrastructure/port_ownership: 0
+  resources/niobium: 0
+  infrastructure/port_cranes: 0
+  infrastructure/engineering_epc: 5
+  resources/water: 0
+  infrastructure/rail: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 1
+  allied: 3
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 101 (seed 20261101) ===
 # Shuffled order: lithium, other_renewables, fission_smr, copper, nickel, niobium,
