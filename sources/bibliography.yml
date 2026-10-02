@@ -6524,3 +6524,75 @@
   supports:
   - chec_northern_parcel_villa_jamaica_2026
   - hunt_infra_building_materials
+
+- id: baker_hughes_stim_vessels_20250917
+  type: company
+  chicago: "Baker Hughes. “Baker Hughes Secures Multi-Year Contract with Petrobras for Offshore Stimulation Vessels.” 17 September 2025."
+  url: https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-Secures-Multi-Year-Contract-with-Petrobras-for-Offshore-Stimulation-Vessels-09-17-2025/default.aspx
+  annotation: Baker Hughes multi-year Petrobras award extending Blue Marlin and Blue Orca stimulation vessels. Supports baker_hughes_petrobras_stim_vessels_2025.
+  supports:
+  - baker_hughes_petrobras_stim_vessels_2025
+  - hunt_infra_engineering_epc
+
+- id: baker_hughes_flex_pipe_20241028
+  type: company
+  chicago: "Baker Hughes. “Baker Hughes Awarded Contracts to Supply Petrobras with Flexible Pipe Systems, Associated Services across Several Fields.” 28 October 2024."
+  url: https://investors.bakerhughes.com/news/press-releases/news-details/2024/Baker-Hughes-Awarded-Contracts-to-Supply-Petrobras-with-Flexible-Pipe-Systems-Associated-Services-across-Several-Fields-10-28-2024/default.aspx
+  annotation: Baker Hughes 77 km Petrobras pre-salt flexible pipe award (Búzios/Libra/Berbigão/Sururu/Sépia). Supports baker_hughes_petrobras_flex_pipe_77km_2024.
+  supports:
+  - baker_hughes_petrobras_flex_pipe_77km_2024
+  - hunt_infra_engineering_epc
+
+- id: baker_hughes_workover_pa_20240610
+  type: company
+  chicago: "Baker Hughes. “Baker Hughes Awarded Major Integrated Solutions Contract for Petrobras’ Offshore Fields.” 10 June 2024."
+  url: https://investors.bakerhughes.com/news/press-releases/news-details/2024/Baker-Hughes-Awarded-Major-Integrated-Solutions-Contract-for-Petrobras-Offshore-Fields-06-10-2024/default.aspx
+  annotation: Baker Hughes Petrobras multi-year workover and P&A integrated solutions award. Supports baker_hughes_petrobras_workover_pa_2024.
+  supports:
+  - baker_hughes_petrobras_workover_pa_2024
+  - hunt_infra_engineering_epc
+
+- id: icm_coamo_brazil_20250313
+  type: company
+  chicago: "ICM Inc. “COAMO Agroindustrial Cooperativa selects ICM for design and engineering of new corn biorefinery in Brazil.” 13 March 2025."
+  url: https://icminc.com/coamo-agroindustrial-cooperativa-selects-icm-for-design-and-engineering-of-new-corn-biorefinery-in-brazil/
+  annotation: ICM (Kansas) selected for COAMO Campo Mourão corn ethanol biorefinery engineering/equipment. Supports icm_coamo_campo_mourao_brazil_2025.
+  supports:
+  - icm_coamo_campo_mourao_brazil_2025
+  - hunt_infra_engineering_epc
+
+- id: crec_chancay_tunnel_20241025
+  type: company
+  chicago: "China Railway Group Limited (CREC). “Main Structure of Peru’s Chancay Tunnel Completed.” 25 October 2024."
+  url: https://www.crecg.com/zgztywz/cs11/10210606/2025021110100626796/index.html
+  annotation: CREC confirms China Railway No.10 completed 1,839 m Chancay Port access tunnel main structure. Supports china_railway_no10_chancay_tunnel_2024.
+  supports:
+  - china_railway_no10_chancay_tunnel_2024
+  - hunt_infra_bridges_roads
+
+- id: kaieteur_west_dem_hospital_20250115
+  type: press
+  chicago: "Kaieteur News. “US$54M contract awarded to construct new West Dem Hospital.” 15 January 2025."
+  url: https://kaieteurnewsonline.com/2025/01/15/us54m-contract-awarded-to-construct-new-west-dem-hospital/
+  annotation: UNVERIFIED proxy citing NPTAB award of West Demerara Regional Hospital design-build to CAMCE/Sinopharm for US$54,169,883.76. Supports camce_sinopharm_west_dem_hospital_guyana_2025.
+  supports:
+  - camce_sinopharm_west_dem_hospital_guyana_2025
+  - hunt_infra_building_materials
+
+- id: powerchina_campin_stadium_20260923
+  type: company
+  chicago: "中国电建集团国际工程有限公司 (PowerChina International). “中国电建签约哥伦比亚波哥大康平体育场项目.” 23 September 2026."
+  url: https://www.powerchina-intl.com/show/9/4931.html
+  annotation: PowerChina International commercial contract with Sencia for Bogotá El Campín / Kangping 50,000-seat stadium EPC. Supports powerchina_bogota_campin_stadium_2026.
+  supports:
+  - powerchina_bogota_campin_stadium_2026
+  - hunt_infra_building_materials
+
+- id: kaieteur_crfg_ecd_184m_20221015
+  type: press
+  chicago: "Kaieteur News. “Chinese company awarded US$184M contract for East Coast road project.” 15 October 2022."
+  url: https://kaieteurnewsonline.com/2022/10/15/chinese-company-awarded-us184m-contract-for-east-coast-road-project/
+  annotation: UNVERIFIED proxy citing China Railway First Group East Coast Demerara highway/railway-embankment award at US$184m. Supports crfg_guyana_east_coast_184m_2022.
+  supports:
+  - crfg_guyana_east_coast_184m_2022
+  - hunt_infra_bridges_roads
