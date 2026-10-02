@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 70
+cycle: 71
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 71 shuffle_seed=20261071; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us155/prc151/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then balsa/graphite (24/24). Keep US/PRC even split.
-next_row_id: (follow cycle-71 shuffled_order)
+next_query: Cycle 72 shuffle_seed=20261072; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us159/prc155/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then balsa/graphite (24/24). Keep US/PRC even split.
+next_row_id: (follow cycle-72 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,70 +17,69 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 70 pre-merge:
-# - No new mislabels found; ContourGlobal continues us on KKR U.S. ownership chain;
-#   Halliburton/SLB us on Houston HQ; POWERCHINA/KAIFA/Arctech prc on PRC HQ.
-# - Skipped Halliburton Shell Gato do Mato / Suriname–São Tomé package (São Tomé
-#   out of LatAm; Suriname piece deferred); skipped TechnipFMC Petrobras SPS (UK
-#   Newcastle registered office — not auto-tagged us); skipped CRBC Corentyne
-#   bridge (no signed contract/financing); skipped Coca Codo O&M USD 46m/y press
-#   (powerchina_coca_codo_om_2026 already logged settlement package).
+# Side-tag audit (cycles 57–63) — cycle 71 pre-merge:
+# - Atlas Renewable Energy tagged us (Miami HQ; GIP USA owner) — verified on company
+#   site footer. Weatherford continues us on Houston PE / NASDAQ:WFRD. Halliburton us.
+# - POWERCHINA / CTG / Jinzhao prc. No Shell/ACCIONA/AFRY/Golar mislabels in new rows
+#   (Shell is client only on Weatherford/Halliburton rows).
+# - Skipped CTG Serra da Palmeira NDB financing duplicate; skipped Tepeuy page (WAF
+#   block); skipped NOV Bondstrand FPSO pipe (earnings mention without named FPSOs).
 
-shuffle_seed: 20261070
+shuffle_seed: 20261071
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- energy/fission_smr
+- infrastructure/rail
 - infrastructure/bridges_roads
+- resources/graphite
 - resources/balsa
-- infrastructure/engineering_epc
+- resources/lithium
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- energy/solar
+- infrastructure/port_ownership
 - energy/other_renewables
 - infrastructure/building_materials
 - resources/copper
-- infrastructure/port_cranes
-- resources/lithium
-- energy/power_plants_grid
-- energy/solar
-- resources/water
-- infrastructure/port_ownership
-- resources/graphite
-- energy/wind
-- resources/nickel
-- infrastructure/rail
 - resources/niobium
+- resources/nickel
+- infrastructure/engineering_epc
+- energy/fission_smr
+- energy/wind
+- resources/water
 
 rows_found_this_cycle:
-  energy/fission_smr: 0
+  infrastructure/rail: 0
   infrastructure/bridges_roads: 0
+  resources/graphite: 0
   resources/balsa: 0
-  infrastructure/engineering_epc: 3
+  resources/lithium: 0
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 0
+  energy/solar: 3
+  infrastructure/port_ownership: 1
   energy/other_renewables: 0
   infrastructure/building_materials: 0
   resources/copper: 0
-  infrastructure/port_cranes: 0
-  resources/lithium: 0
-  energy/power_plants_grid: 0
-  energy/solar: 4
-  resources/water: 1
-  infrastructure/port_ownership: 0
-  resources/graphite: 0
-  energy/wind: 0
-  resources/nickel: 0
-  infrastructure/rail: 0
   resources/niobium: 0
+  resources/nickel: 0
+  infrastructure/engineering_epc: 3
+  energy/fission_smr: 0
+  energy/wind: 1
+  resources/water: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 70 (non-archived)
+  # Active+hunt after cycle 71 (non-archived)
   energy/fission_smr: 23
   energy/other_renewables: 36
   energy/power_plants_grid: 51
-  energy/solar: 47
-  energy/wind: 28
+  energy/solar: 50
+  energy/wind: 29
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 26
-  infrastructure/engineering_epc: 50
+  infrastructure/engineering_epc: 53
   infrastructure/port_cranes: 33
-  infrastructure/port_ownership: 33
+  infrastructure/port_ownership: 34
   infrastructure/rail: 40
   resources/balsa: 24
   resources/copper: 30
@@ -91,6 +90,13 @@ coverage_cumulative:
   resources/water: 32
 
 rows_by_side_this_cycle:
+  us: 4
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 70
+rows_by_side_this_cycle_cycle70:
   us: 4
   prc: 4
   allied: 0
@@ -145,7 +151,20 @@ thin_topup:
   - energy/fission_smr
   - resources/balsa
   # Hits: none.
-  # Misses: nickel, fission_smr, balsa (graphite tied at 24 — prefer balsa per next_query).
+  # Misses: nickel, fission_smr, balsa.
+
+# Cycle 71 (seed 20261071): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: solar (Atlas El Campano FC USD 77.6m us; POWERCHINA Baranoa Phase 1
+#   prc; POWERCHINA Paranova III COD prc), port_ownership (Jinzhao Marcona land
+#   handover prc), engineering_epc (Halliburton Shell Gato do Mato us; Weatherford
+#   HOCOL Colombia wireline us; Weatherford Shell Vaca Muerta lift us), wind (CTG
+#   Serra da Palmeira 648 MW full COD prc).
+#   Thin_topup (nickel/fission_smr/balsa): all misses.
+#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none (Atlas us on Miami/GIP verified).
+#   Equal-budget misses: rail, bridges_roads, graphite, balsa, lithium, port_cranes,
+#   power_plants_grid, other_renewables, building_materials, copper, niobium, nickel,
+#   fission_smr, water.
 
 # Cycle 70 (seed 20261070): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: engineering_epc (SLB Atapu/Sépia ≤35 wells us; Halliburton PetroTal
@@ -189,6 +208,13 @@ thin_topup:
 #   power_plants_grid, other_renewables, copper.
 
 seen_urls:
+- https://www.halliburton.com/en/about-us/press-release/halliburton-expands-international-scope-three-new-projects
+- https://atlasrenewableenergy.com/pt/news-and-insights/atlas-renewable-energy-garante-financiamento-de-seu-segundo-projeto-solar-na-colombia-2/
+- https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18491
+- https://www.powerchina-intl.com/show/9/4065.html
+- https://www.ctgi.cn/ctgi/new/esg_news_and_reports/shouye/2025101610492879215/index.html
+- https://www.gob.pe/institucion/proinversion/noticias/1449419-proinversion-terminal-portuario-de-san-juan-de-marcona-avanza-con-entrega-para-su-ejecucion
+- https://www.powerchina-intl.com/show/9/4553.html
 - https://www.slb.com/newsroom/press-release/2025/pr-2025-0925-petrobras-atapu-sepia
 - https://www.halliburton.com/en/about-us/press-release/petrotal-awards-halliburton-eight-well-drilling-campaign-in-peru
 - https://www.halliburton.com/en/about-us/press-release/halliburton-secures-major-offshore-drilling-contract-with-petrobras
