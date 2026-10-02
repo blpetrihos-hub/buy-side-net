@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 132
+cycle: 133
 remote: present
 active_layer: resources
 active_subcategory: copper
-next_query: Cycle 133 shuffle_seed=20261133; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us264/prc258/allied240); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Push PRC sources hard (still slightly behind US). If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: nfe_celba2 first-fire primary if opens; sandino; vestas_esperanza named. No U.S. territories.
-next_row_id: (follow cycle-133 shuffled_order)
+next_query: Cycle 134 shuffle_seed=20261134; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us265/prc261/allied242); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. Push PRC sources hard (still slightly behind US). If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: sandino; vestas named Esperanza if distinct primary opens. No U.S. territories.
+next_row_id: (follow cycle-134 shuffled_order)
 dry_streak: 0
+
+# === Cycle 133 (seed 20261133) ===
+# Shuffled order: copper, niobium, engineering_epc, port_cranes, wind,
+#   bridges_roads, fission_smr, building_materials, other_renewables, water,
+#   balsa, lithium, power_plants_grid, solar, port_ownership, graphite, rail,
+#   nickel.
+# Logged 6 sourced rows (1 US / 3 PRC / 2 allied; thin dry; no padding):
+#   allied copper: metso_tia_maria_sxew_eur100m_2026 (EUR 100m / USD 114.84m ECB).
+#   allied niobium: st_george_cit_senai_pilot_2026 (CIT-SENAI 9t pilot; CapEx blank).
+#   prc bridges_roads: crec_saramiriza_road_peru_2025 (16.22 km; CapEx blank).
+#   prc bridges_roads: ccecc_huancavelica_road_207km_2026 (207.8 km handover; CapEx blank).
+#   us power_plants_grid: nfe_celba2_first_fire_624mw_2025 (624 MW first fire; CapEx blank).
+#   prc rail: chec_bogota_metro_l1_5p016bn (USD 5.016bn franchise; first-train 2025).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: engineering_epc, port_cranes, wind, fission_smr,
+#   building_materials, other_renewables, water, balsa, lithium, solar,
+#   port_ownership, graphite, nickel.
+# Active after cycle 133: us265 / prc261 / allied242 / other37 (n=805).
+# Holdover cleared: nfe_celba2 first-fire primary opened this cycle.
+shuffle_seed: 20261133
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/copper
+- resources/niobium
+- infrastructure/engineering_epc
+- infrastructure/port_cranes
+- energy/wind
+- infrastructure/bridges_roads
+- energy/fission_smr
+- infrastructure/building_materials
+- energy/other_renewables
+- resources/water
+- resources/balsa
+- resources/lithium
+- energy/power_plants_grid
+- energy/solar
+- infrastructure/port_ownership
+- resources/graphite
+- infrastructure/rail
+- resources/nickel
+rows_found_this_cycle:
+  resources/copper: 1
+  resources/niobium: 1
+  infrastructure/engineering_epc: 0
+  infrastructure/port_cranes: 0
+  energy/wind: 0
+  infrastructure/bridges_roads: 2
+  energy/fission_smr: 0
+  infrastructure/building_materials: 0
+  energy/other_renewables: 0
+  resources/water: 0
+  resources/balsa: 0
+  resources/lithium: 0
+  energy/power_plants_grid: 1
+  energy/solar: 0
+  infrastructure/port_ownership: 0
+  resources/graphite: 0
+  infrastructure/rail: 1
+  resources/nickel: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 2
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 132 (seed 20261132) ===
 # Shuffled order: bridges_roads, wind, building_materials, fission_smr, nickel,
