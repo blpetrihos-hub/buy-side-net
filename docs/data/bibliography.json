@@ -8752,5 +8752,149 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "honeywell_acelen_ecofining_20260617",
+    "type": "company",
+    "chicago": "Honeywell. “Honeywell Modular Technology to Power and Automate Acelen Renewables Biofuel Production.” Press release, 17 June 2026.",
+    "url": "https://www.honeywell.com/us/en/news/press-releases/2026/06/honeywell-modular-technology-to-power-and-automate-acelen-renewables-biofuel-production",
+    "annotation": "Honeywell UOP Ecofining modular tech for Acelen Bahia SAF/HVO. Supports honeywell_acelen_bahia_ecofining_2026.",
+    "supports": [
+      "honeywell_acelen_bahia_ecofining_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "honeywell_acelen_bahia_ecofining_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "nadbank_wrf_20250829",
+    "type": "agency",
+    "chicago": "North American Development Bank. “NADBank Launches US$400-Million Water Resiliency Fund to Support Water Conservation and Diversification in the U.S.-Mexico Border Region.” Press release, 29 August 2025.",
+    "url": "https://nadbank.org/news/press-release/nadbank-launches-us400-million-water-resiliency-fund-to-support-water-conservation-and-diversification-in-the-u.s.-mexico-border-region",
+    "annotation": "NADBank USD 400m Water Resiliency Fund. Supports nadbank_water_resiliency_fund_400m_2025.",
+    "supports": [
+      "nadbank_water_resiliency_fund_400m_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "nadbank_water_resiliency_fund_400m_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "idb_invest_360_energy_20260717",
+    "type": "agency",
+    "chicago": "IDB Invest. “360 Energy Financing - Improving Energy Security in Argentina.” Project 15704-01. Approval date 17 July 2026.",
+    "url": "https://idbinvest.org/en/projects/360-energy-financing-improving-energy-security-argentina",
+    "annotation": "IDB Invest USD 50m loan for 360 Energy Argentina solar/BESS portfolio. Supports idb_360_energy_argentina_50m_2026.",
+    "supports": [
+      "idb_360_energy_argentina_50m_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "idb_360_energy_argentina_50m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "boletin_oficial_res_825_2026",
+    "type": "government",
+    "chicago": "Argentina. Ministerio de Economía. “Resolución 825/2026.” Boletín Oficial de la República Argentina, 5 June 2026.",
+    "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342818/20260605",
+    "annotation": "RIGI approval for Minera Exar Cauchari-Olaroz Stage 2 (USD 1.166bn computable assets). Supports ganfeng_exar_cauchari_rigi_stage2_2026.",
+    "supports": [
+      "ganfeng_exar_cauchari_rigi_stage2_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "ganfeng_exar_cauchari_rigi_stage2_2026",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "mem_manzanillo_block1_20240219",
+    "type": "government",
+    "chicago": "Dominican Republic. Ministerio de Energía y Minas. “Resolución Núm. R-MEM-LCG-003-2024 — Manzanillo Gas & Power, S.A.” 19 February 2024.",
+    "url": "https://mem.gob.do/transparencia/wp-content/uploads/2018/10/Resolucion-Num.-R-MEM-LCG-003-2024-MANZANILLO-GAS-POWER-SA.pdf",
+    "annotation": "MEM permit for Shell/HIC/ENERLA Manzanillo Block 1 ~420 MW CCGT + LNG. Supports shell_manzanillo_gas_power_block1_dr_2024.",
+    "supports": [
+      "shell_manzanillo_gas_power_block1_dr_2024",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "shell_manzanillo_gas_power_block1_dr_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "golar_sesa_mkii_fid_20250806",
+    "type": "company",
+    "chicago": "Golar LNG Limited. “Final Investment Decision for 20-Year Charter of MK II FLNG to Southern Energy in Argentina.” GlobeNewswire, 6 August 2025.",
+    "url": "https://www.globenewswire.com/news-release/2025/08/06/3128725/0/en/Final-Investment-Decision-for-20-year-charter-of-MK-II-FLNG-to-Southern-Energy-in-Argentina.html",
+    "annotation": "Golar SESA MK II FLNG FID (US$400m/y net hire). Supports golar_sesa_mkii_flng_argentina_2025.",
+    "supports": [
+      "golar_sesa_mkii_flng_argentina_2025",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "golar_sesa_mkii_flng_argentina_2025",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cheniere_petrobras_spa_20260929",
+    "type": "company",
+    "chicago": "Cheniere Energy, Inc. “Cheniere and Petrobras Sign Long-Term LNG Sale and Purchase Agreement.” Press release, 29 September 2026.",
+    "url": "https://lngir.cheniere.com/news-events/press-releases/detail/346/cheniere-and-petrobras-sign-long-term-lng-sale-and-purchase",
+    "annotation": "Cheniere–Petrobras ~0.8 mtpa / 22-year FOB LNG SPA. Supports cheniere_petrobras_lng_spa_0p8mtpa_2026.",
+    "supports": [
+      "cheniere_petrobras_lng_spa_0p8mtpa_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "cheniere_petrobras_lng_spa_0p8mtpa_2026",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sempra_petrobras_spa_20260914",
+    "type": "company",
+    "chicago": "Sempra Infrastructure. “Sempra Infrastructure Announces Long-Term LNG Supply Agreement with Petrobras.” PR Newswire, 14 September 2026.",
+    "url": "https://www.prnewswire.com/news-releases/sempra-infrastructure-announces-long-term-lng-supply-agreement-with-petrobras-302878157.html",
+    "annotation": "Sempra–Petrobras ~0.8 Mtpa / 20-year LNG SPA from Port Arthur LNG Phase 2. Supports sempra_petrobras_lng_spa_0p8mtpa_2026.",
+    "supports": [
+      "sempra_petrobras_lng_spa_0p8mtpa_2026",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "sempra_petrobras_lng_spa_0p8mtpa_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
