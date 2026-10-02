@@ -88,34 +88,34 @@
     }
   },
   "meta": {
-    "n_rows": 727,
+    "n_rows": 735,
     "counts": {
-      "total": 727,
-      "active": 672,
+      "total": 735,
+      "active": 680,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 143,
+      "proxy": 144,
       "exclude": 5,
-      "documented": 525,
-      "on_map": 658
+      "documented": 532,
+      "on_map": 666
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 85,
-        "prc": 91,
+        "us": 86,
+        "prc": 95,
         "allied": 92,
-        "n": 268
+        "n": 273
       },
       "usd": {
-        "us": 3136400000.0,
-        "us_n": 15,
-        "prc": 5084723206.46,
-        "prc_n": 20,
+        "us": 3166400000.0,
+        "us_n": 16,
+        "prc": 5428187906.46,
+        "prc_n": 22,
         "allied": 10635734000.0,
         "allied_n": 24
       },
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 50,
+        "us": 53,
         "prc": 36,
         "allied": 104,
-        "n": 190
+        "n": 193
       },
       "usd": {
-        "us": 25749193622.0,
-        "us_n": 23,
+        "us": 25807143622.0,
+        "us_n": 26,
         "prc": 7317872882.0,
         "prc_n": 19,
         "allied": 38487618653.2,
@@ -299,15 +299,15 @@
       "country": "Chile",
       "counts": {
         "us": 32,
-        "prc": 25,
+        "prc": 26,
         "allied": 43,
-        "n": 100
+        "n": 101
       },
       "usd": {
         "us": 18411000000.0,
         "us_n": 14,
-        "prc": 3186558059.0299997,
-        "prc_n": 12,
+        "prc": 3458058059.0299997,
+        "prc_n": 13,
         "allied": 9408000000.0,
         "allied_n": 14
       },
@@ -319,7 +319,7 @@
         },
         "infrastructure": {
           "us": 4,
-          "prc": 11,
+          "prc": 12,
           "allied": 12
         },
         "resources": {
@@ -661,14 +661,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 20,
+        "us": 24,
         "prc": 10,
         "allied": 26,
-        "n": 56
+        "n": 60
       },
       "usd": {
-        "us": 968360000.0,
-        "us_n": 8,
+        "us": 1056310000.0,
+        "us_n": 12,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -681,12 +681,12 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 13,
+          "us": 14,
           "prc": 9,
           "allied": 15
         },
         "resources": {
-          "us": 2,
+          "us": 5,
           "prc": 0,
           "allied": 4
         }
@@ -696,15 +696,15 @@
       "country": "Nicaragua",
       "counts": {
         "us": 0,
-        "prc": 5,
+        "prc": 7,
         "allied": 0,
-        "n": 5
+        "n": 7
       },
       "usd": {
         "us": 0.0,
         "us_n": 0,
-        "prc": 279489000.0,
-        "prc_n": 2,
+        "prc": 351453700.0,
+        "prc_n": 3,
         "allied": 0.0,
         "allied_n": 0
       },
@@ -716,7 +716,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 1,
+          "prc": 3,
           "allied": 0
         }
       }
@@ -749,9 +749,9 @@
       "country": "Peru",
       "counts": {
         "us": 10,
-        "prc": 27,
+        "prc": 28,
         "allied": 20,
-        "n": 57
+        "n": 58
       },
       "usd": {
         "us": 5635000000.0,
@@ -769,7 +769,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 15,
+          "prc": 16,
           "allied": 12
         },
         "resources": {
@@ -1562,7 +1562,15 @@
       "crcc_chillan_collipulli_ruta5_2023",
       "goldwind_camacari_turbine_factory_2024",
       "byd_camacari_ev_complex_5p5bn_2025",
-      "ceec_coremas_solar_520m_2025"
+      "ceec_coremas_solar_520m_2025",
+      "cummins_monterrey_logistics_30m_2024",
+      "nadbank_sonora_env_650m_mxn_2026",
+      "nadbank_sadm_monterrey_16p75m_2025",
+      "nadbank_tecate_rancho_lapuerta_5m_2025",
+      "camce_punta_huete_road_71p96m_2025",
+      "camce_punta_huete_airport_credit_2p875bn_rmb_2024",
+      "crbc_red_maule_hospitals_uf6634394_2021",
+      "crtg_molinopampa_273m_pen_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

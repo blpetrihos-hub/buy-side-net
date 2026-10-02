@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 83
+cycle: 84
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 84 shuffle_seed=20261084; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us207/prc204/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
-next_row_id: (follow cycle-84 shuffled_order)
+next_query: Cycle 85 shuffle_seed=20261085; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us211/prc208/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
+next_row_id: (follow cycle-85 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,82 +17,81 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 83 pre-merge:
-# - DFC V.tal tagged us (U.S. government DFI). NADBank Engen tagged us (binational
-#   U.S.–Mexico bank; corpus convention). CloudHQ Querétaro tagged us (U.S. HQ).
-#   Cummins Monterrey tagged us (Columbus IN HQ).
-# - CRCC Chillán–Collipulli tagged prc (CRCC International). Goldwind Camaçari
-#   tagged prc. BYD Camaçari tagged prc (Shenzhen HQ). CEEC Coremas tagged prc
-#   (China Energy Engineering Group SOE).
+# Side-tag audit (cycles 57–63) — cycle 84 pre-merge:
+# - Cummins Monterrey Logistics tagged us (Columbus IN HQ). NADBank Sonora /
+#   SADM Monterrey / Tecate Rancho La Puerta tagged us (binational U.S.–Mexico
+#   DFI; corpus NADBank convention).
+# - CAMCE Punta Huete road + airport credit tagged prc (Sinomach SOE). CRBC Red
+#   Maule tagged prc (CCCC subsidiary; Spanish Puentes partner noted allied).
+#   CRTG Molinopampa tagged prc.
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
 #   No side-tag fixes this cycle.
-# - Skipped PowerChina SP Metro Line 19 Lote 1 (later inhabilitated; Agis-OHLA won),
-#   CRTG Cerro Pasco–Tingo / ZPMC Tecon Santos / State Grid GATE CapEx already
-#   logged. Thin nickel/balsa/fission_smr miss.
+# - Skipped CRCC Batuco surface (already logged), CHEC Las Palmas 2018-only award,
+#   DFC Daycoval SME onlending (weak taxonomy fit). Thin nickel/balsa/fission_smr miss.
 
-shuffle_seed: 20261083
+shuffle_seed: 20261084
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/niobium
-- infrastructure/rail
 - energy/fission_smr
-- resources/nickel
-- energy/wind
-- resources/graphite
-- infrastructure/engineering_epc
-- resources/water
-- infrastructure/port_ownership
-- resources/copper
-- infrastructure/bridges_roads
-- infrastructure/building_materials
 - resources/lithium
-- infrastructure/port_cranes
+- infrastructure/bridges_roads
+- infrastructure/engineering_epc
+- resources/copper
+- resources/graphite
+- infrastructure/building_materials
+- infrastructure/rail
+- resources/nickel
 - energy/power_plants_grid
+- energy/wind
 - energy/solar
-- energy/other_renewables
+- resources/niobium
+- infrastructure/port_cranes
 - resources/balsa
+- infrastructure/port_ownership
+- resources/water
+- energy/other_renewables
 
 rows_found_this_cycle:
-  resources/niobium: 0
-  infrastructure/rail: 0
   energy/fission_smr: 0
-  resources/nickel: 0
-  energy/wind: 1
-  resources/graphite: 0
-  infrastructure/engineering_epc: 5
-  resources/water: 0
-  infrastructure/port_ownership: 0
-  resources/copper: 0
-  infrastructure/bridges_roads: 1
-  infrastructure/building_materials: 0
   resources/lithium: 0
-  infrastructure/port_cranes: 0
+  infrastructure/bridges_roads: 2
+  infrastructure/engineering_epc: 2
+  resources/copper: 0
+  resources/graphite: 0
+  infrastructure/building_materials: 1
+  infrastructure/rail: 0
+  resources/nickel: 0
   energy/power_plants_grid: 0
-  energy/solar: 1
-  energy/other_renewables: 0
+  energy/wind: 0
+  energy/solar: 0
+  resources/niobium: 0
+  infrastructure/port_cranes: 0
   resources/balsa: 0
+  infrastructure/port_ownership: 0
+  resources/water: 3
+  energy/other_renewables: 0
 
 coverage_cumulative:
-  # Active counts after cycle 83 (status=active)
-  resources/balsa: 23
-  infrastructure/bridges_roads: 33
-  infrastructure/building_materials: 39
-  resources/copper: 30
-  infrastructure/engineering_epc: 92
+  # Active counts after cycle 84 (status=active)
   energy/fission_smr: 23
+  energy/other_renewables: 43
+  energy/power_plants_grid: 57
+  energy/solar: 60
+  energy/wind: 30
+  infrastructure/bridges_roads: 35
+  infrastructure/building_materials: 40
+  infrastructure/engineering_epc: 94
+  infrastructure/port_cranes: 32
+  infrastructure/port_ownership: 33
+  infrastructure/rail: 39
+  resources/balsa: 23
+  resources/copper: 30
   resources/graphite: 23
   resources/lithium: 34
   resources/nickel: 22
   resources/niobium: 26
-  energy/other_renewables: 43
-  infrastructure/port_cranes: 32
-  infrastructure/port_ownership: 33
-  energy/power_plants_grid: 57
-  infrastructure/rail: 39
-  energy/solar: 60
-  resources/water: 33
-  energy/wind: 30
+  resources/water: 36
 
 rows_by_side_this_cycle:
   us: 4
@@ -106,8 +105,17 @@ thin_topup:
   - resources/nickel
   - resources/balsa
   - energy/fission_smr
-  # Hits: none on thinnest three (graphite also 23).
+  # Hits: none on thinnest three (graphite also tied at pre-cycle 23).
   # Misses: nickel, balsa, fission_smr.
+
+# Cycle 84 (seed 20261084): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (Cummins Monterrey Logistics USD 30m us; CAMCE
+#   Punta Huete airport credit RMB 2.875bn AidData prc); water (NADBank Sonora
+#   MXN 650m/~USD 36.2m us; NADBank SADM Monterrey USD 16.75m us; NADBank Tecate
+#   Rancho La Puerta USD 5m us); bridges_roads (CAMCE Punta Huete road USD
+#   71.9647m prc; CRTG Molinopampa S/273.2m proxy prc); building_materials
+#   (CRBC Red Maule hospitals UF 6.634m/~USD 271.5m prc).
+#   Thin top-up miss nickel/balsa/fission_smr. Merge --no-ff to main after build.
 
 # Cycle 83 (seed 20261083): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: engineering_epc (DFC V.tal USD 150m loan us; NADBank Engen MXN 400m/
