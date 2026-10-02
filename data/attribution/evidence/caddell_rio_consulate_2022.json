@@ -1,0 +1,10 @@
+{
+  "id": "caddell_rio_consulate_2022",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_caddell_rio_ncc_20220802",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0106_1900_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "RIO NEW CONSULATE COMPOUND CONTRACT AWARD",
+  "note": "Opened USASpending Award API: Caddell; USD 322,420,659.60; date_signed 2022-08-02; PoP Brazil."
+}

@@ -1,11 +1,82 @@
 updated: 2026-10-02
-cycle: 113
+cycle: 114
 remote: present
 active_layer: infrastructure
 active_subcategory: engineering_epc
-next_query: Cycle 114 shuffle_seed=20261114; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us280/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: graphite/balsa/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue State OBO NEC backlog + OEM/regulator sweep.
-next_row_id: (follow cycle-114 shuffled_order)
+next_query: Cycle 115 shuffle_seed=20261115; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us286/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue State OBO NCC backlog (Hermosillo/Mérida/Nogales/Santo Domingo/Panama/Managua/Haiti) + OEM/regulator sweep.
+next_row_id: (follow cycle-115 shuffled_order)
 dry_streak: 0
+
+# === Cycle 114 (seed 20261114) ===
+# Shuffled order: building_materials, nickel, fission_smr, solar, graphite,
+#   port_cranes, engineering_epc, niobium, bridges_roads, balsa,
+#   port_ownership, power_plants_grid, other_renewables, water, copper, wind,
+#   lithium, rail.
+# Logged 6 sourced rows (honest US; thin dry; PRC OEM named-site pass dry;
+#   no padding):
+#   us engineering_epc: bl_harbert_tegucigalpa_nec_2018 (USD 268.2m State).
+#   us engineering_epc: caddell_nassau_nec_2018 (USD 228.1m State).
+#   us engineering_epc: caddell_asuncion_nec_2017 (USD 187.7m State).
+#   us engineering_epc: caddell_rio_consulate_2022 (USD 322.4m State).
+#   us engineering_epc: bl_harbert_guadalajara_ncc_2018 (USD 191.6m State).
+#   us engineering_epc: tutor_perini_sj_customs_2021 (USD 63.6m CBP).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: building_materials, nickel, fission_smr, solar, graphite,
+#   port_cranes, niobium, bridges_roads, balsa, port_ownership,
+#   power_plants_grid, other_renewables, water, copper, wind, lithium, rail
+#   (dense prior; Goldwind SPIC/Pemuco already logged).
+# Active after cycle 114: us286 / prc239 / allied243 / other37 (n=805).
+shuffle_seed: 20261114
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- resources/nickel
+- energy/fission_smr
+- energy/solar
+- resources/graphite
+- infrastructure/port_cranes
+- infrastructure/engineering_epc
+- resources/niobium
+- infrastructure/bridges_roads
+- resources/balsa
+- infrastructure/port_ownership
+- energy/power_plants_grid
+- energy/other_renewables
+- resources/water
+- resources/copper
+- energy/wind
+- resources/lithium
+- infrastructure/rail
+rows_found_this_cycle:
+  infrastructure/building_materials: 0
+  resources/nickel: 0
+  energy/fission_smr: 0
+  energy/solar: 0
+  resources/graphite: 0
+  infrastructure/port_cranes: 0
+  infrastructure/engineering_epc: 6
+  resources/niobium: 0
+  infrastructure/bridges_roads: 0
+  resources/balsa: 0
+  infrastructure/port_ownership: 0
+  energy/power_plants_grid: 0
+  energy/other_renewables: 0
+  resources/water: 0
+  resources/copper: 0
+  energy/wind: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+rows_by_side_this_cycle:
+  us: 6
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 113 (seed 20261113) ===
 # Shuffled order: wind, bridges_roads, port_cranes, other_renewables, rail,
