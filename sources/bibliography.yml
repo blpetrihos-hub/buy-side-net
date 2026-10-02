@@ -8755,3 +8755,57 @@
   supports:
   - lagan_vieques_roads_2007
   - hunt_infra_bridges_roads
+- id: usaspending_jose_carro_arecibo_20171129
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting jose_carro_arecibo_branch2_2017.
+    Signed 2017-11-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000015_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000015_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports jose_carro_arecibo_branch2_2017.
+  supports:
+  - jose_carro_arecibo_branch2_2017
+  - hunt_infra_bridges_roads
+- id: usaspending_del_valle_mercedita_20171127
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting del_valle_mercedita_branch4_2017.
+    Signed 2017-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000018_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000018_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports del_valle_mercedita_branch4_2017.
+  supports:
+  - del_valle_mercedita_branch4_2017
+  - hunt_infra_bridges_roads
+- id: usaspending_desarrolladora_ja_ciales_20171128
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting desarrolladora_ja_ciales_branch4_2017.
+    Signed 2017-11-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000022_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000022_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports desarrolladora_ja_ciales_branch4_2017.
+  supports:
+  - desarrolladora_ja_ciales_branch4_2017
+  - hunt_infra_bridges_roads
+- id: usaspending_ch2m_uscg_frc_20120214
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting ch2m_uscg_frc_san_juan_2012.
+    Signed 2012-02-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4712JA16002_7008_HSCG4710D3EFK16_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4712JA16002_7008_HSCG4710D3EFK16_7008/
+  annotation: USASpending primary. Supports ch2m_uscg_frc_san_juan_2012.
+  supports:
+  - ch2m_uscg_frc_san_juan_2012
+  - hunt_infra_engineering_epc
+- id: usaspending_tutor_perini_uscg_frc_p2_20130709
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting tutor_perini_uscg_frc_p2_2013.
+    Signed 2013-07-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4713JA23002_7008_HSCG4709D3EFK23_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4713JA23002_7008_HSCG4709D3EFK23_7008/
+  annotation: USASpending primary. Supports tutor_perini_uscg_frc_p2_2013.
+  supports:
+  - tutor_perini_uscg_frc_p2_2013
+  - hunt_infra_engineering_epc
+- id: usaspending_4contractor_prarng_jtc_20220829
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting contractor_jv_prarng_jtc_2022.
+    Signed 2022-08-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP22C0008_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP22C0008_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports contractor_jv_prarng_jtc_2022.
+  supports:
+  - contractor_jv_prarng_jtc_2022
+  - hunt_infra_engineering_epc
