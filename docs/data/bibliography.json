@@ -16375,5 +16375,135 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "dfc_techmet_cobalt_nickel_story_2024",
+    "type": "government",
+    "chicago": "U.S. International Development Finance Corporation. “Sourcing Cobalt and Other Critical Minerals by Countering China’s Rare Earth Dominance.” 2024. https://www.dfc.gov/investment-story/sourcing-cobalt-and-other-critical-minerals-countering-chinas-rare-earth-dominance.",
+    "url": "https://www.dfc.gov/investment-story/sourcing-cobalt-and-other-critical-minerals-countering-chinas-rare-earth-dominance",
+    "annotation": "DFC primary: USD 30m equity supporting TechMet Brazil nickel/cobalt mine. Supports dfc_techmet_brazil_nickel_30m_equity.",
+    "supports": [
+      "dfc_techmet_brazil_nickel_30m_equity",
+      "hunt_res_nickel"
+    ],
+    "map_supports": [
+      "dfc_techmet_brazil_nickel_30m_equity",
+      "hunt_res_nickel"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "asamblea_cscec_litoral_fase2_decreto_8885_2024",
+    "type": "government",
+    "chicago": "Asamblea Nacional de la República de Nicaragua. “Decreto A.N. Nº. 8885 — Aprobación de Acuerdos de Facilidad de Crédito CSCEC International (Carretera Litoral del Pacífico, Fase II).” August 14, 2024. http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument.",
+    "url": "http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument",
+    "annotation": "Asamblea decree: CSCEC International RMB 1.805bn Litoral Pacífico Fase II. Supports cscec_litoral_pacifico_fase2_nicaragua_2024.",
+    "supports": [
+      "cscec_litoral_pacifico_fase2_nicaragua_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "cscec_litoral_pacifico_fase2_nicaragua_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "apm_tcbuen_terminal_page",
+    "type": "company",
+    "chicago": "APM Terminals. “Nuestra terminal de contenedores — TCBUEN Buenaventura.” Accessed October 2, 2026. https://www.apmterminals.com/es/buenaventura/about/our-terminal.",
+    "url": "https://www.apmterminals.com/es/buenaventura/about/our-terminal",
+    "annotation": "APM Terminals primary: TCBUEN ownership since 2016 / 650k TEU capacity. Supports apm_tcbuen_buenaventura_colombia.",
+    "supports": [
+      "apm_tcbuen_buenaventura_colombia",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "apm_tcbuen_buenaventura_colombia",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "idb_invest_rutas_2_7_paraguay_20220112",
+    "type": "government",
+    "chicago": "IDB Invest. “IDB Invest Structures Its First Project Bond in the U.S. Market to Finance Paraguay’s First PPP: Rutas 2 y 7.” January 12, 2022. https://idbinvest.org/en/news-media/idb-invest-structures-its-first-project-bond-us-market-finance-paraguays-first-ppp-rutas-2.",
+    "url": "https://idbinvest.org/en/news-media/idb-invest-structures-its-first-project-bond-us-market-finance-paraguays-first-ppp-rutas-2",
+    "annotation": "IDB Invest primary: Sacyr/Ocho A Rutas 2 y 7 ~USD 530m / USD 219m bond. Supports sacyr_rutas_2_7_paraguay_530m.",
+    "supports": [
+      "sacyr_rutas_2_7_paraguay_530m",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "sacyr_rutas_2_7_paraguay_530m"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "radio_nacional_ande_puerto_esperanza_20220802",
+    "type": "government",
+    "chicago": "Radio Nacional del Paraguay. “ANDE firma contrato para construcción de planta de generación fotovoltaica para comunidad indígena del Chaco.” August 2, 2022. https://www.radionacional.gov.py/ande-firma-contrato-para-construccion-de-planta-de-generacion-fotovoltaica-para-comunidad-indigena-del-chaco/.",
+    "url": "https://www.radionacional.gov.py/ande-firma-contrato-para-construccion-de-planta-de-generacion-fotovoltaica-para-comunidad-indigena-del-chaco/",
+    "annotation": "Radio Nacional/ANDE: Puerto Esperanza 700 kWp hybrid PV / USD 2.07m + Chilean EPC. Supports butler_ciudadluz_puerto_esperanza_solar_py.",
+    "supports": [
+      "butler_ciudadluz_puerto_esperanza_solar_py",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "butler_ciudadluz_puerto_esperanza_solar_py",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "pattern_esg_2025_helios",
+    "type": "company",
+    "chicago": "Pattern Energy Group. “2025 Sustainability Report.” September 2025. https://patternenergy.com/wp-content/uploads/2025/09/Pattern-Energy-2025-ESG-Report.pdf.",
+    "url": "https://patternenergy.com/wp-content/uploads/2025/09/Pattern-Energy-2025-ESG-Report.pdf",
+    "annotation": "Pattern 2025 ESG: Tuli Energy 150 MW Zacatecas COD 2019. Supports pattern_tuli_zacatecas_150mw_2019; pattern_helios_zacatecas_150mw_2022.",
+    "supports": [
+      "pattern_helios_zacatecas_150mw_2022",
+      "hunt_energy_solar",
+      "pattern_tuli_zacatecas_150mw_2019",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "hunt_energy_wind",
+      "pattern_helios_zacatecas_150mw_2022",
+      "pattern_tuli_zacatecas_150mw_2019"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_mexico_history_mesa_la_paz",
+    "type": "company",
+    "chicago": "AES México. “Our History.” Accessed October 2, 2026. https://www.aesmex.com/en/our-history.",
+    "url": "https://www.aesmex.com/en/our-history",
+    "annotation": "AES México primary: Mesa La Paz wind farm COD 2020. Supports aes_mesa_la_paz_mexico_306mw.",
+    "supports": [
+      "aes_mesa_la_paz_mexico_306mw",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "aes_mesa_la_paz_mexico_306mw",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

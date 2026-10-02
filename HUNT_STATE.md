@@ -1,19 +1,89 @@
 updated: 2026-10-02
-cycle: 161
+cycle: 162
 remote: present
 active_layer: energy
-active_subcategory: solar
-next_query: Cycle 162 shuffle_seed=20261162; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us321/prc324/allied254); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel (once each/session; if dry shift to niobium). PRC ahead by 3 — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala, Nicaragua, Haiti, Jamaica, Paraguay, Venezuela, Colombia (copper/port_ownership), Mexico gaps, Brazil states beyond SP/RJ/MG; Uruguay now denser. Holdovers: POWERCHINA Baku Suriname; CRBC Corentyne bridge if signed. No U.S. territories.
-next_row_id: (follow cycle-162 shuffled_order)
+active_subcategory: wind
+next_query: Cycle 163 shuffle_seed=20261163; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us325/prc325/allied257); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/niobium (once each/session; nickel scored DFC TechMet equity this cycle — treat as used). Sides tied — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala, Haiti, Jamaica minerals, Venezuela, Nicaragua gaps beyond roads/solar, Colombia copper/lithium/graphite/balsa, Peru mineral gaps, Mexico power_plants_grid/fission, Brazil states beyond SP/RJ/MG. Holdovers: POWERCHINA Baku Suriname; CRBC Corentyne bridge if signed; CSCEC Nicaragua 290 km Chinandega–Somotillo package if decree opens. No U.S. territories.
+next_row_id: (follow cycle-163 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 161) ===
-# Filled this cycle: Uruguay×power_plants_grid (prc CMEC Anillo Norte; us Invenergy Cardal),
-#   Uruguay×solar (us La Jacinta), Uruguay×wind (us Campo Palomas), Panama×solar Cedro/Caoba (us),
-#   Guatemala×solar (us USTDA New Sun Road), Dominican Republic×power_plants_grid (us ENADOM LNG tank2).
-# Still thin/empty priority cells: Haiti (many), Paraguay (17), Venezuela (17), Nicaragua gaps,
-#   Jamaica graphite/nickel/copper, Guyana port_cranes/lithium, Colombia copper/port_ownership,
-#   Peru graphite/lithium/nickel/niobium/balsa, Mexico mineral gaps.
+# === Country×subcategory sweep cells touched (session continuing from 162) ===
+# Filled this cycle: Brazil×nickel (us DFC TechMet USD 30m equity), Nicaragua×bridges_roads (prc CSCEC Litoral Fase II),
+#   Colombia×port_ownership (allied APM TCBUEN), Paraguay×bridges_roads (allied Sacyr Rutas 2 y 7),
+#   Paraguay×solar (allied Butler/Ciudad Luz Puerto Esperanza), Mexico×solar (us Pattern Helios),
+#   Mexico×wind (us AES Mesa La Paz; us Pattern Tuli).
+# Still thin/empty priority cells: Haiti (many), Venezuela (17), Guatemala wind/grid/minerals,
+#   Jamaica graphite/nickel/copper, Nicaragua port/rail/water gaps, Colombia copper/lithium/graphite/balsa,
+#   Peru graphite/lithium/nickel/niobium/balsa, Mexico power_plants_grid/fission/minerals.
+
+# === Cycle 162 (seed 20261162) ===
+# Shuffled order: niobium, nickel, graphite, lithium, rail, engineering_epc, solar, other_renewables,
+#   port_cranes, power_plants_grid, bridges_roads, balsa, port_ownership, fission_smr, building_materials,
+#   wind, copper, water.
+# Logged 8 sourced rows (4 US / 1 PRC / 3 allied; thin nickel hit; no padding):
+#   us nickel: dfc_techmet_brazil_nickel_30m_equity (USD 30m DFC equity).
+#   prc bridges_roads: cscec_litoral_pacifico_fase2_nicaragua_2024 (RMB 1.805bn credit).
+#   allied port_ownership: apm_tcbuen_buenaventura_colombia (CapEx blank; Colombia empty filled).
+#   allied bridges_roads: sacyr_rutas_2_7_paraguay_530m (USD 530m PPP).
+#   allied solar: butler_ciudadluz_puerto_esperanza_solar_py (USD 2.07m; Paraguay solar).
+#   us solar: pattern_helios_zacatecas_150mw_2022 (150 MW; CapEx blank).
+#   us wind: aes_mesa_la_paz_mexico_306mw (306 MW COD 2020; CapEx blank).
+#   us wind: pattern_tuli_zacatecas_150mw_2019 (150 MW; CapEx blank).
+# Thin top-up: nickel scored (DFC TechMet equity); balsa/graphite/fission_smr dry once — niobium dry shift.
+# Equal-budget misses: niobium, graphite, lithium, rail, engineering_epc, other_renewables, port_cranes,
+#   power_plants_grid, balsa, fission_smr, building_materials, copper, water; PRC denser misses (no pad).
+# Active after cycle 162: us325 / prc325 / allied257 / other38 (n=945).
+shuffle_seed: 20261162
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/niobium
+- resources/nickel
+- resources/graphite
+- resources/lithium
+- infrastructure/rail
+- infrastructure/engineering_epc
+- energy/solar
+- energy/other_renewables
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- infrastructure/bridges_roads
+- resources/balsa
+- infrastructure/port_ownership
+- energy/fission_smr
+- infrastructure/building_materials
+- energy/wind
+- resources/copper
+- resources/water
+rows_found_this_cycle:
+  resources/niobium: 0
+  resources/nickel: 1
+  resources/graphite: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  infrastructure/engineering_epc: 0
+  energy/solar: 2
+  energy/other_renewables: 0
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 0
+  infrastructure/bridges_roads: 2
+  resources/balsa: 0
+  infrastructure/port_ownership: 1
+  energy/fission_smr: 0
+  infrastructure/building_materials: 0
+  energy/wind: 2
+  resources/copper: 0
+  resources/water: 0
+rows_by_side_this_cycle:
+  us: 4
+  prc: 1
+  allied: 3
+  other: 0
+thin_topup:
+  budget: 0.5_source_family
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 161 (seed 20261161) ===
 # Shuffled order: fission_smr, port_ownership, power_plants_grid, lithium, other_renewables,
