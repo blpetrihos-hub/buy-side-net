@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 989,
+    "n_rows": 997,
     "counts": {
-      "total": 989,
-      "active": 791,
+      "total": 997,
+      "active": 799,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 154,
+      "proxy": 155,
       "exclude": 18,
-      "documented": 763,
-      "on_map": 775
+      "documented": 770,
+      "on_map": 783
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 124,
-        "prc": 99,
+        "prc": 101,
         "allied": 94,
-        "n": 317
+        "n": 319
       },
       "usd": {
         "us": 8015263538.119999,
@@ -128,10 +128,10 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 57,
-        "prc": 44,
+        "us": 58,
+        "prc": 47,
         "allied": 110,
-        "n": 211
+        "n": 215
       },
       "usd": {
         "us": 24752802296.0,
@@ -152,9 +152,9 @@
       "layer": "energy",
       "counts": {
         "us": 82,
-        "prc": 107,
+        "prc": 109,
         "allied": 72,
-        "n": 261
+        "n": 263
       },
       "usd": {
         "us": 11743785515.13,
@@ -201,9 +201,9 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 23,
+        "prc": 25,
         "allied": 27,
-        "n": 67
+        "n": 69
       },
       "usd": {
         "us": 7270869147.0,
@@ -216,7 +216,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 6,
+          "prc": 7,
           "allied": 11
         },
         "infrastructure": {
@@ -226,7 +226,7 @@
         },
         "resources": {
           "us": 3,
-          "prc": 12,
+          "prc": 13,
           "allied": 13
         }
       }
@@ -322,9 +322,9 @@
       "country": "Bolivia",
       "counts": {
         "us": 0,
-        "prc": 3,
+        "prc": 5,
         "allied": 0,
-        "n": 3
+        "n": 5
       },
       "usd": {
         "us": 0.0,
@@ -343,6 +343,11 @@
         "infrastructure": {
           "us": 0,
           "prc": 1,
+          "allied": 0
+        },
+        "resources": {
+          "us": 0,
+          "prc": 2,
           "allied": 0
         }
       }
@@ -384,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 34,
-        "prc": 32,
+        "us": 35,
+        "prc": 33,
         "allied": 44,
-        "n": 110
+        "n": 112
       },
       "usd": {
         "us": 21411000000.0,
@@ -400,7 +405,7 @@
       "by_layer": {
         "energy": {
           "us": 22,
-          "prc": 24,
+          "prc": 25,
           "allied": 9
         },
         "infrastructure": {
@@ -409,7 +414,7 @@
           "allied": 12
         },
         "resources": {
-          "us": 8,
+          "us": 9,
           "prc": 2,
           "allied": 23
         }
@@ -700,9 +705,9 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 12,
+        "prc": 13,
         "allied": 0,
-        "n": 21
+        "n": 22
       },
       "usd": {
         "us": 534967000.0,
@@ -720,7 +725,7 @@
         },
         "infrastructure": {
           "us": 7,
-          "prc": 8,
+          "prc": 9,
           "allied": 0
         }
       }
@@ -932,9 +937,9 @@
       "country": "Peru",
       "counts": {
         "us": 12,
-        "prc": 32,
+        "prc": 33,
         "allied": 24,
-        "n": 68
+        "n": 69
       },
       "usd": {
         "us": 5640000000.0,
@@ -952,7 +957,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 17,
+          "prc": 18,
           "allied": 12
         },
         "resources": {
@@ -1859,7 +1864,15 @@
       "ganfeng_lar_180m_convertible_ppg_2026",
       "nfe_portocem_1p6gw_epc_2024",
       "seaboard_estrella_del_mar_iv_2025",
-      "fortescue_canariaco_alta_copper_2026"
+      "fortescue_canariaco_alta_copper_2026",
+      "ccecc_cajamarca_highway_246km_2026",
+      "crcc_demerara_bridge_open_2025",
+      "goldwind_rio_cullen_argentina_2026",
+      "goldwind_kallpa_chile_342mw_2026",
+      "cbc_ylb_uyuni_dle_1p03bn_2024",
+      "cmec_uyuni_lithium_plant_bolivia_2023",
+      "zijin_tres_quebradas_phase1_cod_2025",
+      "fcx_el_abra_desal_aqueduct_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
