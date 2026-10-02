@@ -1,0 +1,10 @@
+{
+  "id": "del_valle_guajataca_stage2_2018",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_del_valle_guajataca_s2_20180912",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP18C0025_9700_-NONE-_-NONE-/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "GUAJATACA DAM STAGE 2 SPILLWAY AND CHANNEL REINFORCEMENT",
+  "note": "Opened USASpending Award API: Del Valle Group; USD 17,804,766.14; date_signed 2018-09-12."
+}
