@@ -15625,5 +15625,113 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "sinomach_cmec_lima_water_20250901",
+    "type": "company",
+    "chicago": "Sinomach / China National Machinery Engineering Corporation (CMEC). “CMEC projects deliver benefits to local communities.” 1 September 2025. https://www.sinomach.com.cn/en/MediaCenter/News/202509/t20250905_576128.html.",
+    "url": "https://www.sinomach.com.cn/en/MediaCenter/News/202509/t20250905_576128.html",
+    "annotation": "Sinomach/CMEC English primary on Lima Three Districts water handover. Supports cmec_lima_three_districts_water_2025.",
+    "supports": [
+      "cmec_lima_three_districts_water_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "cmec_lima_three_districts_water_2025",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "alstom_panama_metro_maint_20260924",
+    "type": "company",
+    "chicago": "Alstom. “Alstom signs contract for long-term maintenance of the Panama Metro.” 24 September 2026. https://www.alstom.com/press-releases-news/2026/9/alstom-signs-contract-long-term-maintenance-panama-metro.",
+    "url": "https://www.alstom.com/press-releases-news/2026/9/alstom-signs-contract-long-term-maintenance-panama-metro",
+    "annotation": "Alstom primary: USD 90m Panama Metro Lines 1–2 maintenance. Supports alstom_panama_metro_maint_90m_2026.",
+    "supports": [
+      "alstom_panama_metro_maint_90m_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "map_supports": [
+      "alstom_panama_metro_maint_90m_2026",
+      "hunt_latam_rail_telecom"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "prfaa_tesla_genera_bess_20260129",
+    "type": "government",
+    "chicago": "Puerto Rico Federal Affairs Administration. “Governor González-Colón Administration Advances Initiatives to Reduce Load Shedding and Increase Energy Reserves.” 29 January 2026. https://www.prfaa.pr.gov/recent-press-releases/governor-gonzalez-colon-administration-advances-initiatives-to-reduce-load-shedding-and-increase-energy-reserves.",
+    "url": "https://www.prfaa.pr.gov/recent-press-releases/governor-gonzalez-colon-administration-advances-initiatives-to-reduce-load-shedding-and-increase-energy-reserves",
+    "annotation": "PRFAA primary: Tesla/Genera 430 MW BESS / USD 767m federal. Supports tesla_genera_pr_bess_430mw_2025.",
+    "supports": [
+      "tesla_genera_pr_bess_430mw_2025",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "tesla_genera_pr_bess_430mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "convergent_doe_lpo_20250117",
+    "type": "company",
+    "chicago": "Convergent Energy and Power. “Convergent Energy and Power Closes $584.5 Million Guaranteed Loan from the U.S. Department of Energy.” 17 January 2025. https://convergentep.com/news/convergent-energy-and-power-closes-584-5-million-guaranteed-loan-from-the-u-s-department-of-energy.",
+    "url": "https://convergentep.com/news/convergent-energy-and-power-closes-584-5-million-guaranteed-loan-from-the-u-s-department-of-energy",
+    "annotation": "Convergent company primary: USD 584.5m DOE LPO solar+storage PR. Supports convergent_doe_lpo_584m_pr_2025.",
+    "supports": [
+      "convergent_doe_lpo_584m_pr_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "convergent_doe_lpo_584m_pr_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "anr_liebherr_antigua_lhm420_20250925",
+    "type": "press",
+    "chicago": "Antigua News Room. “Cabinet Briefed on Arrival of New Liebherr Mobile Harbour Crane.” 25 September 2025. https://antiguanewsroom.com/cabinet-briefed-on-arrival-of-new-liebherr-mobile-harbour-crane/.",
+    "url": "https://antiguanewsroom.com/cabinet-briefed-on-arrival-of-new-liebherr-mobile-harbour-crane/",
+    "annotation": "UNVERIFIED proxy press on Cabinet briefing of Liebherr LHM 420 / USD 6.2m. Supports liebherr_antigua_lhm420_2025.",
+    "supports": [
+      "liebherr_antigua_lhm420_2025",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "liebherr_antigua_lhm420_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_jose_carro_morovis_20181029",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_36C10F19C3371_3600_-NONE-_-NONE- to Construcciones Jose Carro, S.E. for Morovis National Cemetery. Signed 2018-10-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_36C10F19C3371_3600_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_36C10F19C3371_3600_-NONE-_-NONE-/",
+    "annotation": "USASpending primary. Supports jose_carro_morovis_cemetery_2018.",
+    "supports": [
+      "jose_carro_morovis_cemetery_2018",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "jose_carro_morovis_cemetery_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
