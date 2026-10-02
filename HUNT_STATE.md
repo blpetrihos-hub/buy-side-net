@@ -7,6 +7,30 @@ next_query: Cycle 88 shuffle_seed=20261088; reshuffle all 18; equal budget_per_s
 next_row_id: (follow cycle-88 shuffled_order)
 dry_streak: 0
 
+# === Cycle 88 PRE-STEP: scope audit (2026-10-02) ===
+# Archive hospital / school / fertilizer rows that are not in the BRIEF 18
+# subcategories (building_materials = cement/aggregates; engineering_epc =
+# non-grid EPC for listed layers — not social infrastructure or fertilizer).
+# Gold/silver/auto/digital already archived in cycle 86 pre-step (23 rows).
+#
+# scope_audit_archived_total: 13
+# scope_audit_by_side:
+#   us: 1
+#   prc: 12
+#   allied: 0
+#   other: 0
+# scope_audit_by_subcategory:
+#   infrastructure/building_materials: 10
+#   infrastructure/engineering_epc: 3
+# scope_audit_examples:
+#   hospital: sinohydro_hospital_piura_3202m_pen_2025; sinohydro_hospital_la_caleta_chimbote_549m_pen_2025;
+#     powerchina_montenegro_hospital_lima_2025; camce_sinopharm_west_dem_hospital_guyana_2025;
+#     crcc_illapel/coquimbo/neurocirugia/ohiggins; crbc_red_maule_hospitals
+#   school: chec_taltal_school_chile_2026
+#   fertilizer: powerchina_ufn3 / ufn_iii_tres_lagoas; kbr_pampa_bahia_blanca_ammonia
+# Post-audit active sides before hunt: us203 / prc202 / allied225 / other36 (n=666).
+# Thinnest after archive: fission_smr/balsa/graphite (23) then nickel (24).
+
 # Per-cycle shuffle (BRIEF.md):
 # (1) Seeded shuffle of all 18 subcategories; equal base budget per subcategory.
 # (2) Side balance (from cycle 64): within each subcategory time box, split budget
