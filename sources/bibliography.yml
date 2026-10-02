@@ -10663,3 +10663,51 @@
   supports:
   - aes_adre_idb_368m_dr_2023
   - hunt_energy_solar
+- id: fluor_quellaveco_case_study
+  type: company
+  chicago: Fluor Corporation. “Quellaveco Open Pit Copper Mine in Peru – Project Case Study.” Accessed
+    October 2, 2026. https://www.fluor.com/projects/quellaveco-open-pit-copper-mine.
+  url: https://www.fluor.com/projects/quellaveco-open-pit-copper-mine
+  annotation: 'Fluor primary: Quellaveco EPCM completed 2022. Supports fluor_quellaveco_epcm_peru.'
+  supports:
+  - fluor_quellaveco_epcm_peru
+  - hunt_infra_engineering_epc
+- id: goalfore_jepcc_mexico_i20_20260714
+  type: company
+  chicago: Jiangxi Electric Power Construction Co., Ltd. (POWERCHINA), via GoalFore. “喜报！墨西哥I20二期1标段输变电项目一次性成功并网送电.”
+    July 14, 2026. https://news.goalfore.cn/latest/detail/103573.html.
+  url: https://news.goalfore.cn/latest/detail/103573.html
+  annotation: 'Jiangxi/POWERCHINA-attributed: I20 Phase II Lot 1 COD + USD 154m contract (UNVERIFIED).
+    Supports powerchina_mexico_i20_p2_lot1_154m.'
+  supports:
+  - powerchina_mexico_i20_p2_lot1_154m
+  - hunt_energy_power_plants_grid
+- id: vestas_q4_orders_guatemala_20241230
+  type: company
+  chicago: Vestas Wind Systems A/S. “Vestas Announces Three New Orders for a Total of 276 MW.” December
+    30, 2024. https://www.vestas.com/en/media/company-news/2024/vestas-announces-three-new-orders-for-a-total-of-276-mw-c4086980.
+  url: https://www.vestas.com/en/media/company-news/2024/vestas-announces-three-new-orders-for-a-total-of-276-mw-c4086980
+  annotation: 'Vestas primary: Guatemala 63 MW / 14 V150-4.5 MW order. Supports vestas_guatemala_63mw_2024.'
+  supports:
+  - vestas_guatemala_63mw_2024
+  - hunt_energy_wind
+- id: ifc_transnova_esrs_49962
+  type: government
+  chicago: International Finance Corporation. “49962 – Transnova.” Environmental and Social Review Summary.
+    Accessed October 2, 2026. https://disclosures.ifc.org/project-detail/ESRS/49962/transnova.
+  url: https://disclosures.ifc.org/project-detail/ESRS/49962/transnova
+  annotation: 'IFC ESRS: Transnova/GEB up to USD 65m for Guatemala SJC+Atlántico transmission. Supports
+    geb_transnova_ifc_65m_guatemala.'
+  supports:
+  - geb_transnova_ifc_65m_guatemala
+  - hunt_energy_power_plants_grid
+- id: wits_mex_250410_2023
+  type: government
+  chicago: World Bank. “Mexico Natural Graphite in Powder or in Flakes Imports by Country | 2023.” World
+    Integrated Trade Solution (WITS)/Comtrade. https://wits.worldbank.org/trade/comtrade/en/country/MEX/year/2023/tradeflow/Imports/partner/ALL/product/250410.
+  url: https://wits.worldbank.org/trade/comtrade/en/country/MEX/year/2023/tradeflow/Imports/partner/ALL/product/250410
+  annotation: 'WITS Mexico HS 250410 2023 imports: China USD 0.472m. Supports wits_mexico_graphite_china_imp_2023.'
+  supports:
+  - wits_mexico_graphite_us_imp_2023
+  - hunt_res_graphite
+  - wits_mexico_graphite_china_imp_2023

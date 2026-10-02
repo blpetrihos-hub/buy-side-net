@@ -87,28 +87,28 @@
     }
   },
   "meta": {
-    "n_rows": 1149,
+    "n_rows": 1155,
     "counts": {
-      "total": 1149,
-      "active": 951,
+      "total": 1155,
+      "active": 957,
       "hunt": 42,
       "archived": 178,
-      "paired": 5,
+      "paired": 7,
       "one_sided": 27,
-      "proxy": 159,
+      "proxy": 160,
       "exclude": 18,
-      "documented": 918,
-      "on_map": 933
+      "documented": 921,
+      "on_map": 938
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 128,
-        "prc": 115,
+        "us": 129,
+        "prc": 116,
         "allied": 100,
-        "n": 343
+        "n": 345
       },
       "usd": {
         "us": 8181930640.119999,
@@ -128,23 +128,25 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 64,
-        "prc": 59,
+        "us": 65,
+        "prc": 60,
         "allied": 112,
-        "n": 235
+        "n": 237
       },
       "usd": {
-        "us": 25889802296.0,
-        "us_n": 31,
-        "prc": 13890172882.0,
-        "prc_n": 31,
+        "us": 25894903566.0,
+        "us_n": 32,
+        "prc": 13890644772.0,
+        "prc_n": 32,
         "allied": 39952458653.2,
         "allied_n": 41
       },
       "matched_gaps": {
-        "n": 1,
+        "n": 3,
         "values": [
-          -29.817514
+          -29.817514,
+          0.907496,
+          0.907496
         ]
       }
     },
@@ -153,16 +155,16 @@
       "counts": {
         "us": 134,
         "prc": 153,
-        "allied": 84,
-        "n": 371
+        "allied": 86,
+        "n": 373
       },
       "usd": {
         "us": 13462585515.13,
         "us_n": 37,
         "prc": 5969017778.25,
         "prc_n": 23,
-        "allied": 6603491741.490001,
-        "allied_n": 29
+        "allied": 6668491741.490001,
+        "allied_n": 30
       },
       "matched_gaps": {
         "n": 1,
@@ -687,22 +689,22 @@
       "counts": {
         "us": 9,
         "prc": 0,
-        "allied": 1,
-        "n": 10
+        "allied": 3,
+        "n": 12
       },
       "usd": {
         "us": 315860338.67,
         "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 0.0,
-        "allied_n": 0
+        "allied": 65000000.0,
+        "allied_n": 1
       },
       "by_layer": {
         "energy": {
           "us": 4,
           "prc": 0,
-          "allied": 1
+          "allied": 3
         },
         "infrastructure": {
           "us": 4,
@@ -835,16 +837,16 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 35,
-        "prc": 15,
+        "us": 36,
+        "prc": 17,
         "allied": 26,
-        "n": 76
+        "n": 79
       },
       "usd": {
-        "us": 2846735416.7400002,
-        "us_n": 21,
-        "prc": 0.0,
-        "prc_n": 0,
+        "us": 2851836686.7400002,
+        "us_n": 22,
+        "prc": 471890.0,
+        "prc_n": 1,
         "allied": 3445734000.0,
         "allied_n": 9
       },
@@ -856,12 +858,12 @@
         },
         "infrastructure": {
           "us": 19,
-          "prc": 11,
+          "prc": 12,
           "allied": 15
         },
         "resources": {
-          "us": 6,
-          "prc": 0,
+          "us": 7,
+          "prc": 1,
           "allied": 4
         }
       }
@@ -961,10 +963,10 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 13,
+        "us": 14,
         "prc": 41,
         "allied": 25,
-        "n": 79
+        "n": 80
       },
       "usd": {
         "us": 5747000000.0,
@@ -981,7 +983,7 @@
           "allied": 6
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 20,
           "allied": 12
         },
@@ -2107,7 +2109,13 @@
       "crrc_cdmx_linea1_full_open_2025",
       "konecranes_puerto_antioquia_8rtg_2023",
       "cma_puerto_antioquia_colombia",
-      "aes_adre_idb_368m_dr_2023"
+      "aes_adre_idb_368m_dr_2023",
+      "fluor_quellaveco_epcm_peru",
+      "powerchina_mexico_i20_p2_lot1_154m",
+      "vestas_guatemala_63mw_2024",
+      "geb_transnova_ifc_65m_guatemala",
+      "wits_mexico_graphite_us_imp_2023",
+      "wits_mexico_graphite_china_imp_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -2136,7 +2144,9 @@
       "cen_parinas_elecnor_powerchina_2024",
       "wits_ecuador_balsa_china_2025",
       "st_george_realloys_mou_2025",
-      "fangda_st_george_araxa_mou_20250115"
+      "fangda_st_george_araxa_mou_20250115",
+      "wits_mexico_graphite_us_imp_2023",
+      "wits_mexico_graphite_china_imp_2023"
     ],
     "archived": [
       "hunt_ascend_chip",

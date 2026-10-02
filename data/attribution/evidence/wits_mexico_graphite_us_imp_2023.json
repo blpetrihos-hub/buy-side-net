@@ -1,0 +1,10 @@
+{
+  "id": "wits_mexico_graphite_us_imp_2023",
+  "retrieved": "2026-10-02",
+  "source_id": "wits_mex_250410_2023",
+  "url": "https://wits.worldbank.org/trade/comtrade/en/country/MEX/year/2023/tradeflow/Imports/partner/ALL/product/250410",
+  "price_year": "2023",
+  "evidence": "paired",
+  "quote": "Mexico imported Natural graphite in powder or in flakes from United States ($5,101.27K , 3,087,900 Kg), China ($471.89K , 325,843 Kg)",
+  "note": "Opened WITS Mexico HS 250410 2023 imports-by-partner table."
+}
