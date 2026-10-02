@@ -1,0 +1,10 @@
+{
+  "id": "thompson_guajataca_pumping_2018",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_thompson_guajataca_20181002",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912EP19C0001_9700_-NONE-_-NONE-/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "GUAJATACA DAM PUMPING SERVICES",
+  "note": "Opened USASpending Award API: Thompson Pump; USD 3,981,815.29; date_signed 2018-10-02."
+}
