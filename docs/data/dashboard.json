@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 861,
+    "n_rows": 867,
     "counts": {
-      "total": 861,
-      "active": 769,
+      "total": 867,
+      "active": 775,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 636,
-      "on_map": 753
+      "documented": 642,
+      "on_map": 759
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 106,
+        "us": 107,
         "prc": 97,
         "allied": 95,
-        "n": 298
+        "n": 299
       },
       "usd": {
-        "us": 3251289677.0199995,
-        "us_n": 38,
+        "us": 3271831686.8299994,
+        "us_n": 39,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -129,14 +129,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 62,
+        "us": 64,
         "prc": 41,
         "allied": 109,
-        "n": 212
+        "n": 214
       },
       "usd": {
-        "us": 26108200550.3,
-        "us_n": 32,
+        "us": 26131820321.85,
+        "us_n": 34,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -152,18 +152,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 91,
+        "us": 93,
         "prc": 95,
-        "allied": 71,
-        "n": 257
+        "allied": 72,
+        "n": 260
       },
       "usd": {
-        "us": 16570301214.770002,
-        "us_n": 33,
+        "us": 17581551772.030003,
+        "us_n": 35,
         "prc": 4574477608.25,
         "prc_n": 14,
-        "allied": 4156602112.4400005,
-        "allied_n": 22
+        "allied": 4176656772.1900005,
+        "allied_n": 23
       },
       "matched_gaps": {
         "n": 1,
@@ -816,32 +816,32 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 44,
+        "us": 49,
         "prc": 0,
-        "allied": 5,
-        "n": 49
+        "allied": 6,
+        "n": 55
       },
       "usd": {
-        "us": 4215772772.09,
-        "us_n": 42,
+        "us": 5271185110.710001,
+        "us_n": 47,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 72986579.0,
-        "allied_n": 5
+        "allied": 93041238.75,
+        "allied_n": 6
       },
       "by_layer": {
         "energy": {
-          "us": 12,
+          "us": 14,
           "prc": 0,
-          "allied": 1
+          "allied": 2
         },
         "infrastructure": {
-          "us": 26,
+          "us": 27,
           "prc": 0,
           "allied": 4
         },
         "resources": {
-          "us": 6,
+          "us": 8,
           "prc": 0,
           "allied": 0
         }
@@ -1698,7 +1698,13 @@
       "lpcd_rpn_margarita_2014",
       "johnson_controls_prng_espc_2014",
       "caribbean_lumber_valor_materials_2018",
-      "schneider_espc_pr_cool_roofs_2010"
+      "schneider_espc_pr_cool_roofs_2010",
+      "fluor_pr_transmission_distribution_2017",
+      "powersecure_pr_grid_survey_2017",
+      "del_valle_guajataca_stage2_2018",
+      "del_valle_guajataca_risk_2018",
+      "wsp_aci_tep_pr_2022",
+      "tutor_perini_uscg_bayamon_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

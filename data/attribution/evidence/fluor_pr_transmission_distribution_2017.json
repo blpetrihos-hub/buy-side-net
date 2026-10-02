@@ -1,0 +1,10 @@
+{
+  "id": "fluor_pr_transmission_distribution_2017",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_fluor_pr_td_20171017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912DY18F0003_9700_W912DY15G0007_9700/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "TRANSMISSION AND DISTRIBUTION",
+  "note": "Opened USASpending Award API: Fluor; USD 505,715,895.26; date_signed 2017-10-17; PoP San Juan, PR."
+}

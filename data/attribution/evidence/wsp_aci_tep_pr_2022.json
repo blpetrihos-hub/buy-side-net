@@ -1,0 +1,10 @@
+{
+  "id": "wsp_aci_tep_pr_2022",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_wsp_aci_tep_20220914",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911WN22F3067_9700_W911WN19D3009_9700/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "ADVANCE CONTRACT INITIATIVE - TEMPORARY EMERGENCY POWER (ACI-TEP)",
+  "note": "Opened USASpending Award API: WSP; USD 20,054,659.75; date_signed 2022-09-14; PoP Coto Laurel, PR."
+}
