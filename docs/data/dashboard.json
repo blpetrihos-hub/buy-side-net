@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 782,
+    "n_rows": 788,
     "counts": {
-      "total": 782,
-      "active": 691,
+      "total": 788,
+      "active": 697,
       "hunt": 42,
       "archived": 71,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 148,
+      "proxy": 149,
       "exclude": 18,
-      "documented": 562,
-      "on_map": 677
+      "documented": 567,
+      "on_map": 682
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 78,
-        "prc": 87,
+        "us": 79,
+        "prc": 88,
         "allied": 89,
-        "n": 254
+        "n": 256
       },
       "usd": {
         "us": 2788167000.0,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 78,
-        "prc": 88,
+        "us": 79,
+        "prc": 91,
         "allied": 67,
-        "n": 233
+        "n": 237
       },
       "usd": {
-        "us": 11790200000.0,
-        "us_n": 21,
+        "us": 14290200000.0,
+        "us_n": 22,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4102359384.9300003,
@@ -284,9 +284,9 @@
       "country": "Brazil",
       "counts": {
         "us": 70,
-        "prc": 58,
+        "prc": 61,
         "allied": 103,
-        "n": 231
+        "n": 234
       },
       "usd": {
         "us": 1782545000.0,
@@ -299,12 +299,12 @@
       "by_layer": {
         "energy": {
           "us": 11,
-          "prc": 32,
+          "prc": 34,
           "allied": 25
         },
         "infrastructure": {
           "us": 35,
-          "prc": 18,
+          "prc": 19,
           "allied": 29
         },
         "resources": {
@@ -317,10 +317,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 33,
+        "us": 34,
         "prc": 27,
         "allied": 44,
-        "n": 104
+        "n": 105
       },
       "usd": {
         "us": 21411000000.0,
@@ -337,7 +337,7 @@
           "allied": 9
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 6,
           "allied": 12
         },
@@ -438,14 +438,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 3,
+        "us": 4,
         "prc": 2,
         "allied": 7,
-        "n": 12
+        "n": 13
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 2500000000.0,
+        "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -453,7 +453,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
+          "us": 4,
           "prc": 0,
           "allied": 3
         },
@@ -686,9 +686,9 @@
       "country": "Mexico",
       "counts": {
         "us": 20,
-        "prc": 13,
+        "prc": 14,
         "allied": 26,
-        "n": 59
+        "n": 60
       },
       "usd": {
         "us": 823310000.0,
@@ -701,7 +701,7 @@
       "by_layer": {
         "energy": {
           "us": 5,
-          "prc": 3,
+          "prc": 4,
           "allied": 7
         },
         "infrastructure": {
@@ -1605,7 +1605,13 @@
       "stem_granja_powertrack_ems_chile_2026",
       "cbi_vmos_punta_colorada_storage_2025",
       "trina_luz_del_norte_bess_722mwh_2026",
-      "trina_alma_sur_bess_481mwh_2026"
+      "trina_alma_sur_bess_481mwh_2026",
+      "ctdc_hostos_hvdc_dr_pr_2026",
+      "chexim_bndes_fund_600m_2025",
+      "goldwind_jacobina_02_04_tsi_2025",
+      "goldwind_jacobina_05_tsi_2026",
+      "wabtec_transap_c30aci_chile_2025",
+      "seraphim_spic_zuma_module_replace_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
