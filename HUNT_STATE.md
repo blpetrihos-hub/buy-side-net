@@ -1,78 +1,85 @@
-updated: 2026-10-01
-cycle: 63
+updated: 2026-10-02
+cycle: 64
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 64 shuffle_seed=20261064; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: fission_smr/balsa/graphite/nickel/niobium (23). Keep raising U.S. and PRC share.
-next_row_id: (follow cycle-64 shuffled_order)
+next_query: Cycle 65 shuffle_seed=20261065; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (U.S. push has worked; sides ~us131/prc128/allied223); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
+next_row_id: (follow cycle-65 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
 # (1) Seeded shuffle of all 18 subcategories; equal base budget per subcategory.
-# (2) Side balance: within each subcategory time box, spend ≥1/3 of the budget on
-#     U.S. investors/firms (SEC EDGAR, DFC, U.S. EXIM, USTDA, U.S. company releases
-#     and investor decks, U.S. embassy/Commerce notices, plus Spanish/Portuguese
-#     coverage of U.S. firms); log rows_by_side_this_cycle.
+# (2) Side balance (from cycle 64): within each subcategory time box, split budget
+#     evenly between U.S. and PRC sources (U.S. push has worked). U.S.: EDGAR/DFC/
+#     EXIM/USTDA/company/embassy/Commerce + ES/PT coverage. PRC: MOFCOM, SOE/company
+#     releases, CDB/CHEXIM, BU Chinese Loans to LAC, AidData, Diálogo Chino,
+#     Red ALC-China, ES/PT press. Log rows_by_side_this_cycle.
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261063
+# Side-tag audit (cycles 57–63) — cycle 64 pre-merge:
+# - aldesa_chiapas_tunnels_659m_2026: prc → allied (Aldesa/Proacon HQ Spain; cycle 58).
+# - Shell Manzanillo, ACCIONA Pernambuco, AFRY Acelen, Golar SESA MK II already
+#   correctly tagged allied in cycles 62–63; no further retags required for those.
+
+shuffle_seed: 20261064
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/graphite
-- resources/niobium
-- infrastructure/building_materials
-- resources/water
-- energy/other_renewables
-- infrastructure/bridges_roads
-- infrastructure/engineering_epc
-- energy/wind
-- resources/lithium
-- energy/fission_smr
 - resources/nickel
-- infrastructure/port_cranes
-- resources/copper
-- infrastructure/port_ownership
+- resources/niobium
 - infrastructure/rail
-- energy/power_plants_grid
+- infrastructure/engineering_epc
+- infrastructure/bridges_roads
+- resources/graphite
+- resources/copper
+- energy/other_renewables
+- infrastructure/building_materials
+- resources/lithium
 - energy/solar
+- resources/water
+- energy/power_plants_grid
+- energy/wind
 - resources/balsa
+- infrastructure/port_ownership
+- energy/fission_smr
+- infrastructure/port_cranes
 
 rows_found_this_cycle:
-  resources/graphite: 0
-  resources/niobium: 0
-  infrastructure/building_materials: 0
-  resources/water: 1
-  energy/other_renewables: 0
-  infrastructure/bridges_roads: 0
-  infrastructure/engineering_epc: 4
-  energy/wind: 0
-  resources/lithium: 0
-  energy/fission_smr: 0
   resources/nickel: 0
-  infrastructure/port_cranes: 0
-  resources/copper: 0
-  infrastructure/port_ownership: 0
-  infrastructure/rail: 0
-  energy/power_plants_grid: 2
+  resources/niobium: 0
+  infrastructure/rail: 3
+  infrastructure/engineering_epc: 0
+  infrastructure/bridges_roads: 0
+  resources/graphite: 0
+  resources/copper: 3
+  energy/other_renewables: 1
+  infrastructure/building_materials: 0
+  resources/lithium: 1
   energy/solar: 0
+  resources/water: 0
+  energy/power_plants_grid: 1
+  energy/wind: 0
   resources/balsa: 0
+  infrastructure/port_ownership: 0
+  energy/fission_smr: 0
+  infrastructure/port_cranes: 1
 
 coverage_cumulative:
-  # Active+hunt after cycle 63
-  # (+ equal-pass: ACCIONA/BRK Pernambuco / Baker Hughes Petrobras turbomachinery +
-  #   completions + subsea trees / AFRY Acelen Bahia / GE Vernova PREPA LM2500XPRESS /
-  #   State Grid Mantiqueira; thin_topup: nickel/fission_smr/graphite — misses)
+  # Active+hunt after cycle 64
+  # (+ equal-pass: Orion Capstone Santo Domingo / MMG Chalcobamba Senace /
+  #   Zijin La Arena Sulfuros / Progress Rail VLI / Wabtec Vale 50 locos /
+  #   CRRC Motiva Line 4 / Tesla Copec Cousiño / Albemarle Antofalla /
+  #   ZPMC ICAVE STS+RTG / CTG Chaglla; thin_topup: nickel/fission_smr/graphite — misses)
   infrastructure/port_ownership: 33
-  infrastructure/port_cranes: 31
-  infrastructure/rail: 31
+  infrastructure/port_cranes: 32
+  infrastructure/rail: 34
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 25
   infrastructure/engineering_epc: 33
   resources/niobium: 23
-  resources/lithium: 33
-  resources/copper: 27
+  resources/lithium: 34
+  resources/copper: 30
   resources/nickel: 23
   resources/graphite: 23
   resources/balsa: 23
@@ -80,10 +87,17 @@ coverage_cumulative:
   energy/fission_smr: 23
   energy/solar: 35
   energy/wind: 26
-  energy/power_plants_grid: 36
-  energy/other_renewables: 33
+  energy/power_plants_grid: 37
+  energy/other_renewables: 34
 
 rows_by_side_this_cycle:
+  us: 5
+  prc: 5
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 63
+rows_by_side_this_cycle_cycle63:
   us: 4
   prc: 1
   allied: 2
@@ -95,9 +109,34 @@ thin_topup:
   - resources/nickel
   - energy/fission_smr
   - resources/graphite
-  # Hits: none — documented misses.
+  # Hits: none — documented misses (Westwin/BRN already logged; Meitner/FIRST/
+  #   NuScale stacks already logged; South Star/Graphcoa/Urbix stacks already logged).
+
+# Cycle 64 (seed 20261064): 10 sourced rows (10 shuffled + 0 thin_topup);
+#   shuffled: copper (Orion Capstone Santo Domingo USD 360m us; MMG Chalcobamba
+#   Senace USD 877.9m proxy prc; Zijin La Arena Sulfuros ~USD 1.5bn proxy prc),
+#   rail (Progress Rail VLI 8×SD70 + MSA us; Wabtec Vale 50 locos us; CRRC Motiva
+#   Line 4 six trains ~R$600m proxy prc), other_renewables (Tesla Copec Cousiño
+#   Megapack us), lithium (Albemarle Antofalla exploration us), port_cranes
+#   (ZPMC ICAVE STS+4 RTG proxy prc), power_plants_grid (CTG Chaglla ops prc).
+#   Thin_topup (nickel/fission_smr/graphite): all misses.
+#   rows_by_side: us 5 / prc 5 / allied 0 / other 0.
+#   Side-tag fix: aldesa_chiapas_tunnels_659m_2026 prc→allied.
+#   Equal-budget misses: nickel, niobium, engineering_epc, bridges_roads, graphite,
+#   building_materials, solar, water, wind, balsa, port_ownership, fission_smr.
 
 seen_urls:
+- https://capstonecopper.com/news/capstone-copper-announces-up-to-360-million-investment-from-orion-for-25-interest-in-santo-domingo/
+- https://energiminas.com/2025/07/02/regulador-ambiental-aprueba-plan-de-us877-millones-de-las-bambas-para-extender-vida-util-de-chalcobamba/
+- https://www.reuters.com/world/asia-pacific/chinas-zijin-plans-15-billion-investment-la-arena-copper-mine-2026-04-28/
+- https://www.progressrail.com/en/company/news/press-releases/2026-vli-and-progress-rail-celebrate
+- https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-finalize-locomotive-purchase-agreement
+- https://www.metrocptm.com.br/motiva-fecha-compra-de-seis-novos-trens-para-a-linha-4-amarela-na-china/
+- https://ww2.copec.cl/personas/noticias/sostenibilidad/copec-flux-inaugura-la-primera-planta-solar-con-baterias-tesla-en-chile
+- https://www.albemarle.com/global/en/argentina
+- https://portalportuario.cl/mexico-hutchison-ports-icave-recibe-nueva-sts/
+- https://www.ctg.com.cn/ctgenglish/news_media/news37/2025120109542619200/index.html
+
 - https://ports.coscoshipping.com/en/Media/PressReleases/content.php?id=20241115
 - https://www.prnewswire.com/apac/news-releases/zpmc-ships-5-rtg-cranes-to-itapoa-brazil-301810531.html
 - https://megid.gov.jm/contracts-signed-with-chec-for-spark-programme/
@@ -292,6 +331,21 @@ seen_urls:
 - https://www.bnnbloomberg.ca/press-releases/2026/07/22/south-star-announces-santa-cruz-operational-update-first-shipment-of-graphite-shipped/
 
 misses:
+- 2026-10-02 | resources/nickel | cycle64 budget | New Ni beyond DFC Piauí / Westwin / Centaurus / MMG Anglo / Jervois | miss
+- 2026-10-02 | resources/niobium | cycle64 budget | New FeNb beyond CBMM / CMOC / St George / Boston Metal | miss
+- 2026-10-02 | infrastructure/engineering_epc | cycle64 budget | New non-grid EPC beyond Baker Hughes / Honeywell / McDermott / AFRY | miss
+- 2026-10-02 | infrastructure/bridges_roads | cycle64 budget | New highway/bridge beyond CHEC / CRBC / USACE / Aldesa | miss
+- 2026-10-02 | resources/graphite | cycle64 budget | New graphite beyond Graphcoa / South Star / Atlas / Urbix | miss
+- 2026-10-02 | infrastructure/building_materials | cycle64 budget | New cement beyond Sinoma Cruz Azul / Cibao / Huaxin CSN bid | miss
+- 2026-10-02 | energy/solar | cycle64 budget | New solar beyond POWERCHINA / Jinko / ARRAY / Nextracker thick set | thick — miss
+- 2026-10-02 | resources/water | cycle64 budget | New desal/water beyond NADBank Rosarito / Cox / ACCIONA BRK | miss
+- 2026-10-02 | energy/wind | cycle64 budget | New OEM beyond Goldwind / Envision / Vestas / AES thick set | miss
+- 2026-10-02 | resources/balsa | cycle64 budget | New balsa beyond WITS / Plantabal / CoreLite / DIAB / Gurit | miss
+- 2026-10-02 | infrastructure/port_ownership | cycle64 budget | New port ownership beyond SSA / APM / COSCO / Hutchison / EXIM | miss
+- 2026-10-02 | energy/fission_smr | cycle64 budget | New SMR beyond FIRST / Meitner / Westinghouse / Colombia MOU | miss
+- 2026-10-02 | resources/nickel | cycle64 thin_topup | New Ni beyond shuffled-pass miss stack | miss
+- 2026-10-02 | energy/fission_smr | cycle64 thin_topup | New SMR beyond FIRST/Meitner/NuScale stacks | miss
+- 2026-10-02 | resources/graphite | cycle64 thin_topup | New graphite beyond Graphcoa/South Star/Atlas already logged | miss
 - 2026-10-01 | resources/nickel | cycle57 budget | New Ni beyond DFC Piauí / Jervois / Westwin / Centaurus / Vale | miss
 - 2026-10-01 | infrastructure/bridges_roads | cycle57 budget | New highway/bridge beyond CHEC/Mota-Engil/CRBC/USACE Guatemala | miss
 - 2026-10-01 | infrastructure/rail | cycle57 budget | New rail award beyond CRRC/Alstom/Siemens/CAF set | miss
