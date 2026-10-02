@@ -8665,3 +8665,48 @@
   supports:
   - carro_ponce_cofferdam_2020
   - hunt_res_water
+- id: usaspending_desarrolladora_culebrinas_20171117
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting desarrolladora_culebrinas_bridge_2017.
+    Signed 2017-11-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000014_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000014_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports desarrolladora_culebrinas_bridge_2017.
+  supports:
+  - desarrolladora_culebrinas_bridge_2017
+  - hunt_infra_bridges_roads
+- id: usaspending_del_valle_manati_20171117
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting del_valle_manati_bridge_2017.
+    Signed 2017-11-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000007_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000007_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports del_valle_manati_bridge_2017.
+  supports:
+  - del_valle_manati_bridge_2017
+  - hunt_infra_bridges_roads
+- id: usaspending_lpcd_yunque_20180403
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting lpcd_el_yunque_pr930_2018.
+    Signed 2018-04-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000036_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000036_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports lpcd_el_yunque_pr930_2018.
+  supports:
+  - lpcd_el_yunque_pr930_2018
+  - hunt_infra_bridges_roads
+- id: usaspending_aluma_vieques_20080912
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting aluma_vieques_camp_garcia_2008.
+    Signed 2008-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_DTFH7108C00032_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_DTFH7108C00032_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports aluma_vieques_camp_garcia_2008.
+  supports:
+  - aluma_vieques_camp_garcia_2008
+  - hunt_infra_bridges_roads
+- id: usaspending_lpcd_9966_20120827
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting lpcd_route9966_wall_2012.
+    Signed 2012-08-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_DTFH7112C00036_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_DTFH7112C00036_6925_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports lpcd_route9966_wall_2012.
+  supports:
+  - lpcd_route9966_wall_2012
+  - hunt_infra_bridges_roads
