@@ -14059,5 +14059,110 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "metso_tia_maria_sxew_20260330",
+    "type": "company",
+    "chicago": "Metso Corporation. “Metso wins major greenfield contract to supply copper refining technology to Southern Peru Copper Corporation.” Press release, 30 March 2026. https://www.metso.com/corporate/media/news/2026/3/metso-wins-major-greenfield-contract-to-supply-copper-refining-technology-to-southern-peru-copper-corporation/.",
+    "url": "https://www.metso.com/corporate/media/news/2026/3/metso-wins-major-greenfield-contract-to-supply-copper-refining-technology-to-southern-peru-copper-corporation/",
+    "annotation": "Metso primary: Tía María SX-EW EUR 100m. Supports metso_tia_maria_sxew_eur100m_2026.",
+    "supports": [
+      "metso_tia_maria_sxew_eur100m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "metso_tia_maria_sxew_eur100m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "st_george_cit_senai_asx_20260902",
+    "type": "company",
+    "chicago": "St George Mining Limited. “Pilot Plant Beneficiation Test Work at Araxá Project, Brazil.” ASX release, 2 September 2026. https://www.stgm.com.au/pdf/c83fbdbe-842d-47e2-9b84-835b63973c17/Platform/ListPage/Pilot-Plant-Test-Work-at-Araxa-Project.pdf.",
+    "url": "https://www.stgm.com.au/pdf/c83fbdbe-842d-47e2-9b84-835b63973c17/Platform/ListPage/Pilot-Plant-Test-Work-at-Araxa-Project.pdf",
+    "annotation": "St George ASX primary: CIT-SENAI 9t pilot study. Supports st_george_cit_senai_pilot_2026.",
+    "supports": [
+      "st_george_cit_senai_pilot_2026",
+      "hunt_res_niobium"
+    ],
+    "map_supports": [
+      "st_george_cit_senai_pilot_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "crec_saramiriza_20250416",
+    "type": "company",
+    "chicago": "China Railway Engineering Corporation (CREC). “Peru’s Saramiriza Road Project Passed Preliminary Inspection.” 16 April 2025. https://www.crecg.com/zgztywz/cs11/10210606/2025040717024884356/index.html.",
+    "url": "https://www.crecg.com/zgztywz/cs11/10210606/2025040717024884356/index.html",
+    "annotation": "CREC primary: Saramiriza 16.22 km preliminary acceptance. Supports crec_saramiriza_road_peru_2025.",
+    "supports": [
+      "crec_saramiriza_road_peru_2025",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "crec_saramiriza_road_peru_2025",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ccecc_huancavelica_20260401",
+    "type": "company",
+    "chicago": "China Civil Engineering Construction Corporation (中国土木). “秘鲁万卡维利卡公路项目圆满交验.” Company bulletin, 1 April 2026. https://news.goalfore.cn/latest/detail/100386.html.",
+    "url": "https://news.goalfore.cn/latest/detail/100386.html",
+    "annotation": "CCECC company bulletin: Huancavelica 207.8 km handover. Supports ccecc_huancavelica_road_207km_2026.",
+    "supports": [
+      "ccecc_huancavelica_road_207km_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "ccecc_huancavelica_road_207km_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "nfe_celba2_first_fire_20251006",
+    "type": "company",
+    "chicago": "New Fortress Energy Inc. “New Fortress Energy Achieves First Fire at CELBA 2 Power Plant.” IR news release, 6 October 2025. https://ir.newfortressenergy.com/news-releases/news-release-details/new-fortress-energy-achieves-first-fire-celba-2-power-plant.",
+    "url": "https://ir.newfortressenergy.com/news-releases/news-release-details/new-fortress-energy-achieves-first-fire-celba-2-power-plant",
+    "annotation": "NFE IR primary: CELBA 2 624 MW first fire. Supports nfe_celba2_first_fire_624mw_2025.",
+    "supports": [
+      "nfe_celba2_first_fire_624mw_2025",
+      "hunt_energy_power_plants_grid"
+    ],
+    "map_supports": [
+      "nfe_celba2_first_fire_624mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "chec_bogota_metro_l1_project",
+    "type": "company",
+    "chicago": "China Harbour Engineering Company Ltd. “Bogota Subway Line 1 Project- Columbia.” Project page. https://www.chec.bj.cn/pub/chec_pc/en/ssbl/tzyys/gd/202208/t20220803_8320.html.",
+    "url": "https://www.chec.bj.cn/pub/chec_pc/en/ssbl/tzyys/gd/202208/t20220803_8320.html",
+    "annotation": "CHEC primary CapEx USD 5.016bn; CCCC first-train cross-check. Supports chec_bogota_metro_l1_5p016bn.",
+    "supports": [
+      "chec_bogota_metro_l1_5p016bn",
+      "hunt_infra_rail"
+    ],
+    "map_supports": [
+      "chec_bogota_metro_l1_5p016bn"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

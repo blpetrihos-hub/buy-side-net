@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 997,
+    "n_rows": 1003,
     "counts": {
-      "total": 997,
-      "active": 799,
+      "total": 1003,
+      "active": 805,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 770,
-      "on_map": 783
+      "documented": 776,
+      "on_map": 789
     }
   },
   "layer_readouts": [
@@ -106,15 +106,15 @@
       "layer": "infrastructure",
       "counts": {
         "us": 124,
-        "prc": 101,
+        "prc": 104,
         "allied": 94,
-        "n": 319
+        "n": 322
       },
       "usd": {
         "us": 8015263538.119999,
         "us_n": 56,
-        "prc": 5481085094.13,
-        "prc_n": 23,
+        "prc": 10497085094.130001,
+        "prc_n": 24,
         "allied": 10767634000.0,
         "allied_n": 27
       },
@@ -130,16 +130,16 @@
       "counts": {
         "us": 58,
         "prc": 47,
-        "allied": 110,
-        "n": 215
+        "allied": 112,
+        "n": 217
       },
       "usd": {
         "us": 24752802296.0,
         "us_n": 27,
         "prc": 6334672882.0,
         "prc_n": 23,
-        "allied": 39837618653.2,
-        "allied_n": 40
+        "allied": 39952458653.2,
+        "allied_n": 41
       },
       "matched_gaps": {
         "n": 1,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 82,
+        "us": 83,
         "prc": 109,
         "allied": 72,
-        "n": 263
+        "n": 264
       },
       "usd": {
         "us": 11743785515.13,
@@ -355,10 +355,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 74,
+        "us": 75,
         "prc": 69,
-        "allied": 105,
-        "n": 248
+        "allied": 106,
+        "n": 250
       },
       "usd": {
         "us": 2565038918.5499997,
@@ -370,7 +370,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 12,
+          "us": 13,
           "prc": 39,
           "allied": 25
         },
@@ -382,7 +382,7 @@
         "resources": {
           "us": 24,
           "prc": 9,
-          "allied": 51
+          "allied": 52
         }
       }
     },
@@ -424,15 +424,15 @@
       "country": "Colombia",
       "counts": {
         "us": 9,
-        "prc": 16,
+        "prc": 17,
         "allied": 10,
-        "n": 35
+        "n": 36
       },
       "usd": {
         "us": 250706908.27,
         "us_n": 3,
-        "prc": 0.0,
-        "prc_n": 0,
+        "prc": 5016000000.0,
+        "prc_n": 1,
         "allied": 667000000.0,
         "allied_n": 4
       },
@@ -444,7 +444,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 3,
+          "prc": 4,
           "allied": 6
         },
         "resources": {
@@ -937,17 +937,17 @@
       "country": "Peru",
       "counts": {
         "us": 12,
-        "prc": 33,
-        "allied": 24,
-        "n": 69
+        "prc": 35,
+        "allied": 25,
+        "n": 72
       },
       "usd": {
         "us": 5640000000.0,
         "us_n": 5,
         "prc": 5955924416.0,
         "prc_n": 7,
-        "allied": 14568500000.0,
-        "allied_n": 12
+        "allied": 14683340000.0,
+        "allied_n": 13
       },
       "by_layer": {
         "energy": {
@@ -957,13 +957,13 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 18,
+          "prc": 20,
           "allied": 12
         },
         "resources": {
           "us": 6,
           "prc": 10,
-          "allied": 6
+          "allied": 7
         }
       }
     },
@@ -1872,7 +1872,13 @@
       "cbc_ylb_uyuni_dle_1p03bn_2024",
       "cmec_uyuni_lithium_plant_bolivia_2023",
       "zijin_tres_quebradas_phase1_cod_2025",
-      "fcx_el_abra_desal_aqueduct_2026"
+      "fcx_el_abra_desal_aqueduct_2026",
+      "metso_tia_maria_sxew_eur100m_2026",
+      "st_george_cit_senai_pilot_2026",
+      "crec_saramiriza_road_peru_2025",
+      "ccecc_huancavelica_road_207km_2026",
+      "nfe_celba2_first_fire_624mw_2025",
+      "chec_bogota_metro_l1_5p016bn"
     ],
     "hunt": [
       "hunt_br_power_equip",
