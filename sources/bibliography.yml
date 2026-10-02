@@ -7761,3 +7761,76 @@
   supports:
   - ustda_honduras_interoceanic_rail_2026
   - hunt_latam_rail_telecom
+- id: usaspending_lpc_pr10_utuado_20220310
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7322C000008_6925_-NONE-_-NONE-
+    (LPC Contractors Inc; FHWA Emergency Relief PR-10 Utuado). Signed 10 March 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000008_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000008_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 84.20m FHWA award to LPC for PR-10 km 41.6–47.5 repairs in Utuado.
+    Supports fhwa_lpc_pr10_utuado_2022.'
+  supports:
+  - fhwa_lpc_pr10_utuado_2022
+  - hunt_infra_bridges_roads
+- id: usaspending_jm_caribbean_20220526
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7322C000014_6925_-NONE-_-NONE-
+    (J.M. Caribbean Builders Corp; FHWA Emergency Relief East & Metro signs/guardrails). Signed 26 May
+    2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000014_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000014_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 22.61m FHWA award to J.M. Caribbean for East & Metro signs/guardrails.
+    Supports fhwa_jm_caribbean_signs_2022.'
+  supports:
+  - fhwa_jm_caribbean_signs_2022
+  - hunt_infra_bridges_roads
+- id: usaspending_ddd_dvg_aibonito_20220916
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7322C000021_6925_-NONE-_-NONE-
+    (DDD-DVG Joint Venture LLC; FHWA Emergency Relief Aibonito multi-route). Signed 16 September 2022.
+    https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000021_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000021_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 12.98m FHWA award to DDD-DVG for multi-route repairs in Aibonito.
+    Supports fhwa_ddd_dvg_aibonito_2022.'
+  supports:
+  - fhwa_ddd_dvg_aibonito_2022
+  - hunt_infra_bridges_roads
+- id: usaspending_nieves_angeles_20220130
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7322C000005_6925_-NONE-_-NONE-
+    (Nieves & Nieves Engineers & Contractors Inc; FHWA Emergency Relief Ángeles/Utuado). Signed 30 January
+    2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000005_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000005_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 7.01m FHWA award to Nieves & Nieves for multi-route landslide
+    repairs. Supports fhwa_nieves_angeles_utuado_2022.'
+  supports:
+  - fhwa_nieves_angeles_utuado_2022
+  - hunt_infra_bridges_roads
+- id: usaspending_caribe_tecno_yunque_20210909
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7321C000021_6925_-NONE-_-NONE-
+    (Caribe Tecno CRL; FHWA/USFS El Yunque forest-road Emergency Relief). Signed 9 September 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000021_6925_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7321C000021_6925_-NONE-_-NONE-/
+  annotation: 'USASpending primary: USD 13.97m FHWA/USFS award to Caribe Tecno for El Yunque forest-road
+    repairs. Supports fhwa_caribe_tecno_yunque_2021.'
+  supports:
+  - fhwa_caribe_tecno_yunque_2021
+  - hunt_infra_bridges_roads
+- id: cccc_chancay_zpmc_cranes_20250227
+  type: company
+  chicago: China Communications Construction Company Limited. “CCCC’s smart innovation powers the construction
+    of Chancay port.” 27 February 2025. https://en.ccccltd.cn/xwzx/ywfb/202502/t20250228_219359.html.
+  url: https://en.ccccltd.cn/xwzx/ywfb/202502/t20250228_219359.html
+  annotation: CCCC primary naming ZPMC 6 quay + 15 RMG + 6 RTG package at Chancay. Supports zpmc_chancay_sts_rmg_rtg_2024.
+  supports:
+  - zpmc_chancay_sts_rmg_rtg_2024
+  - hunt_infra_port_cranes
+- id: exim_olanchito_deal_year_20221213
+  type: government
+  chicago: Export-Import Bank of the United States. “2022 Renewable Energy Deal of the Year Awarded to
+    Stakeholders in Honduran Solar Project at Export-Import Bank of the United States Annual Conference.”
+    13 December 2022. https://www.exim.gov/news/2022-renewable-energy-deal-year-awarded-stakeholders-honduran-solar-project-export-import-bank.
+  url: https://www.exim.gov/news/2022-renewable-energy-deal-year-awarded-stakeholders-honduran-solar-project-export-import-bank
+  annotation: 'Official EXIM: First Solar / Banco Atlántida 53.4 MW Olanchito solar; complements USD 52m
+    on EXIM transactions table. Supports exim_atlantida_olanchito_solar_2022.'
+  supports:
+  - exim_atlantida_olanchito_solar_2022
+  - hunt_energy_solar

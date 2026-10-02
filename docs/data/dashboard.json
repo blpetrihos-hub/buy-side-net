@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 819,
+    "n_rows": 826,
     "counts": {
-      "total": 819,
-      "active": 727,
+      "total": 826,
+      "active": 734,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 594,
-      "on_map": 712
+      "documented": 601,
+      "on_map": 719
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 90,
-        "prc": 95,
+        "us": 95,
+        "prc": 96,
         "allied": 91,
-        "n": 276
+        "n": 282
       },
       "usd": {
-        "us": 2967322517.42,
-        "us_n": 22,
+        "us": 3108095155.36,
+        "us_n": 27,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10677634000.0,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 82,
+        "us": 83,
         "prc": 93,
         "allied": 70,
-        "n": 245
+        "n": 246
       },
       "usd": {
-        "us": 14823900000.0,
-        "us_n": 24,
+        "us": 14875900000.0,
+        "us_n": 25,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4102359384.9300003,
@@ -632,14 +632,14 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 2,
         "allied": 1,
-        "n": 5
+        "n": 6
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 52000000.0,
+        "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 100000000.0,
@@ -647,7 +647,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 0,
+          "us": 1,
           "prc": 2,
           "allied": 0
         },
@@ -783,9 +783,9 @@
       "country": "Peru",
       "counts": {
         "us": 12,
-        "prc": 30,
+        "prc": 31,
         "allied": 23,
-        "n": 65
+        "n": 66
       },
       "usd": {
         "us": 5640000000.0,
@@ -803,7 +803,7 @@
         },
         "infrastructure": {
           "us": 3,
-          "prc": 16,
+          "prc": 17,
           "allied": 12
         },
         "resources": {
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 15,
+        "us": 20,
         "prc": 0,
         "allied": 0,
-        "n": 15
+        "n": 20
       },
       "usd": {
-        "us": 1941347469.4199998,
-        "us_n": 13,
+        "us": 2082120107.36,
+        "us_n": 18,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -836,7 +836,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 10,
+          "us": 15,
           "prc": 0,
           "allied": 0
         },
@@ -1656,7 +1656,14 @@
       "fhwa_lpc_utuado_46slides_2023",
       "fhwa_novel_ciales_multi_2023",
       "boc_demerara_bridge_loan_160p8m_eur_2022",
-      "ustda_honduras_interoceanic_rail_2026"
+      "ustda_honduras_interoceanic_rail_2026",
+      "fhwa_lpc_pr10_utuado_2022",
+      "fhwa_jm_caribbean_signs_2022",
+      "fhwa_ddd_dvg_aibonito_2022",
+      "fhwa_nieves_angeles_utuado_2022",
+      "fhwa_caribe_tecno_yunque_2021",
+      "zpmc_chancay_sts_rmg_rtg_2024",
+      "exim_atlantida_olanchito_solar_2022"
     ],
     "hunt": [
       "hunt_br_power_equip",

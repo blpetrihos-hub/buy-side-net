@@ -1,0 +1,10 @@
+{
+  "id": "fhwa_lpc_pr10_utuado_2022",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_lpc_pr10_utuado_20220310",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000008_6925_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "PROJECT PR ER PRMNT RPR (10)  THE PROJECT CONSISTS OF REPAIRING DAMAGE CAUSED BY HURRICANES IRMA AND MARIA ON PR-10 BETWEEN KMS 41.6 AND 47.5.  THE WORK INCLUDES EMBANKMENT RECONSTRUCTION, REINFORCED SOIL SLOPE SYSTEMS CONSTRUCTION, DRAINAGE SYSTEM",
+  "note": "Opened USASpending Award API: LPC; USD 84,195,124.82; date_signed 2022-03-10; PoP Utuado, PR."
+}
