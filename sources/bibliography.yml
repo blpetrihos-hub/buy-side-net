@@ -5359,3 +5359,66 @@
   supports:
   - sempra_petrobras_lng_spa_0p8mtpa_2026
   - hunt_br_power_equip
+- id: acciona_pernambuco_20260429
+  type: company
+  chicago: ACCIONA. “ACCIONA Signs Sanitation Contract for 153 Municipalities in Pernambuco (Brazil).”
+    29 April 2026.
+  url: https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-153-municipalities-pernambuco-brazil
+  annotation: ACCIONA/BRK Pernambuco 35-year sanitation concession (BRL 15.4bn). Supports acciona_brk_pernambuco_sanitation_2026.
+  supports:
+  - acciona_brk_pernambuco_sanitation_2026
+  - hunt_res_water
+- id: baker_hughes_petrobras_tm_20260318
+  type: company
+  chicago: Baker Hughes. “Baker Hughes, Petrobras Sign Strategic Service Agreement for Critical Turbomachinery
+    Equipment.” Press release, 18 March 2026.
+  url: https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Petrobras-Sign-Strategic-Service-Agreement-for-Critical-Turbomachinery-Equipment/default.aspx
+  annotation: Baker Hughes 60-month Petrobras turbomachinery services (≤64 turbines). Supports baker_hughes_petrobras_turbomachinery_60mo_2026.
+  supports:
+  - baker_hughes_petrobras_turbomachinery_60mo_2026
+  - hunt_infra_engineering_epc
+- id: baker_hughes_petrobras_completions_20250320
+  type: company
+  chicago: Baker Hughes. “Baker Hughes to Provide Fully Integrated Completions for Petrobras’ Offshore
+    Fields.” Press release, 20 March 2025.
+  url: https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-to-Provide-Fully-Integrated-Completions-for-Petrobras-Offshore-Fields-03-20-2025/default.aspx
+  annotation: Baker Hughes multi-year Petrobras integrated completions. Supports baker_hughes_petrobras_completions_2025.
+  supports:
+  - baker_hughes_petrobras_completions_2025
+  - hunt_infra_engineering_epc
+- id: baker_hughes_petrobras_trees_20250929
+  type: company
+  chicago: Baker Hughes. “Baker Hughes to Supply Subsea Tree Systems and Associated Services for Petrobras.”
+    Press release, 29 September 2025.
+  url: https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-to-Supply-Subsea-Tree-Systems-and-Associated-Services-for-Petrobras-09-29-2025/default.aspx
+  annotation: Baker Hughes up to 50 Petrobras subsea trees. Supports baker_hughes_petrobras_subsea_trees_50_2025.
+  supports:
+  - baker_hughes_petrobras_subsea_trees_50_2025
+  - hunt_infra_engineering_epc
+- id: afry_acelen_bahia_20260806
+  type: company
+  chicago: AFRY. “AFRY to Provide Comprehensive Project Delivery Services for Acelen Renewables’ New Biofuel
+    Plant in Brazil.” Press release, 6 August 2026.
+  url: https://afry.com/en/newsroom/press-releases/afry-provide-comprehensive-project-delivery-services-acelen-renewables-new-biofuel-plant-in-brazil
+  annotation: AFRY OE/CM for Acelen Bahia SAF/HVO plant. Supports afry_acelen_bahia_owners_eng_2026.
+  supports:
+  - afry_acelen_bahia_owners_eng_2026
+  - hunt_infra_engineering_epc
+- id: ge_vernova_prepa_lm2500_20250630
+  type: company
+  chicago: GE Vernova. “GE Vernova’s Aeroderivative Solutions Expected to Improve Reliability of Puerto
+    Rico’s Electricity Supply.” Press release, 30 June 2025.
+  url: https://www.gevernova.com/news/press-releases/ge-vernova-aeroderivative-solutions-expected-improve-reliability-puerto-ricos
+  annotation: GE Vernova six LM2500XPRESS for PREPA Daguao/Jobos/Yabucoa. Supports ge_vernova_prepa_lm2500xpress_pr_2025.
+  supports:
+  - ge_vernova_prepa_lm2500xpress_pr_2025
+  - hunt_br_power_equip
+- id: cnnbrasil_state_grid_mantiqueira_20251128
+  type: press
+  chicago: Monteiro, Renan. “State Grid Assina Contrato para Compra da Linha de Transmissão Mantiqueira.”
+    CNN Brasil, 28 November 2025.
+  url: https://www.cnnbrasil.com.br/economia/investimentos/state-grid-assina-contrato-para-compra-da-linha-de-transmissao-mantiqueira-2/
+  annotation: Press on State Grid Mantiqueira acquisition (~R$7bn UNVERIFIED EV). Supports state_grid_mantiqueira_tx_2025.
+  supports:
+  - state_grid_mantiqueira_tx_2025
+  - hunt_br_power_equip

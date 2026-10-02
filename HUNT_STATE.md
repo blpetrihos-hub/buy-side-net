@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 62
+cycle: 63
 remote: present
 active_layer: resources
-active_subcategory: balsa
-next_query: Cycle 63 shuffle_seed=20261063; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: fission_smr/balsa/graphite/nickel/niobium (23). Keep raising U.S. and PRC share.
-next_row_id: (follow cycle-63 shuffled_order)
+active_subcategory: nickel
+next_query: Cycle 64 shuffle_seed=20261064; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: fission_smr/balsa/graphite/nickel/niobium (23). Keep raising U.S. and PRC share.
+next_row_id: (follow cycle-64 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,85 +16,84 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261062
+shuffle_seed: 20261063
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/nickel
-- energy/wind
-- energy/other_renewables
-- resources/copper
-- infrastructure/port_cranes
-- infrastructure/rail
-- infrastructure/engineering_epc
-- resources/water
-- resources/niobium
 - resources/graphite
-- energy/fission_smr
-- infrastructure/port_ownership
+- resources/niobium
 - infrastructure/building_materials
-- energy/solar
-- resources/lithium
+- resources/water
+- energy/other_renewables
 - infrastructure/bridges_roads
+- infrastructure/engineering_epc
+- energy/wind
+- resources/lithium
+- energy/fission_smr
+- resources/nickel
+- infrastructure/port_cranes
+- resources/copper
+- infrastructure/port_ownership
+- infrastructure/rail
 - energy/power_plants_grid
+- energy/solar
 - resources/balsa
 
 rows_found_this_cycle:
-  resources/nickel: 0
-  energy/wind: 0
-  energy/other_renewables: 0
-  resources/copper: 0
-  infrastructure/port_cranes: 0
-  infrastructure/rail: 0
-  infrastructure/engineering_epc: 1
-  resources/water: 1
-  resources/niobium: 0
   resources/graphite: 0
-  energy/fission_smr: 0
-  infrastructure/port_ownership: 0
+  resources/niobium: 0
   infrastructure/building_materials: 0
-  energy/solar: 1
-  resources/lithium: 1
+  resources/water: 1
+  energy/other_renewables: 0
   infrastructure/bridges_roads: 0
-  energy/power_plants_grid: 4
+  infrastructure/engineering_epc: 4
+  energy/wind: 0
+  resources/lithium: 0
+  energy/fission_smr: 0
+  resources/nickel: 0
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  infrastructure/port_ownership: 0
+  infrastructure/rail: 0
+  energy/power_plants_grid: 2
+  energy/solar: 0
   resources/balsa: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 62
-  # (+ equal-pass: Honeywell Acelen Bahia Ecofining / NADBank WRF USD 400m /
-  #   IDB Invest 360 Energy USD 50m / Ganfeng-Exar Cauchari RIGI Stage 2 /
-  #   Shell Manzanillo Block 1 / Golar SESA MK II FLNG / Cheniere–Petrobras SPA /
-  #   Sempra–Petrobras SPA; thin_topup: balsa/niobium/graphite — misses)
+  # Active+hunt after cycle 63
+  # (+ equal-pass: ACCIONA/BRK Pernambuco / Baker Hughes Petrobras turbomachinery +
+  #   completions + subsea trees / AFRY Acelen Bahia / GE Vernova PREPA LM2500XPRESS /
+  #   State Grid Mantiqueira; thin_topup: nickel/fission_smr/graphite — misses)
   infrastructure/port_ownership: 33
   infrastructure/port_cranes: 31
   infrastructure/rail: 31
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 25
-  infrastructure/engineering_epc: 29
+  infrastructure/engineering_epc: 33
   resources/niobium: 23
   resources/lithium: 33
   resources/copper: 27
   resources/nickel: 23
   resources/graphite: 23
   resources/balsa: 23
-  resources/water: 29
+  resources/water: 30
   energy/fission_smr: 23
   energy/solar: 35
   energy/wind: 26
-  energy/power_plants_grid: 34
+  energy/power_plants_grid: 36
   energy/other_renewables: 33
 
 rows_by_side_this_cycle:
   us: 4
   prc: 1
-  allied: 3
+  allied: 2
   other: 0
 
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
-  - resources/balsa
-  - resources/niobium
+  - resources/nickel
+  - energy/fission_smr
   - resources/graphite
   # Hits: none — documented misses.
 
