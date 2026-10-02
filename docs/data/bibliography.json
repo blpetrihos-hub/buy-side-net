@@ -16505,5 +16505,112 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "cordoba_jchx_50pct_earn_in_20250703",
+    "type": "company",
+    "chicago": "Cordoba Minerals Corp. “Cordoba and JCHX Mark 50% Earn-In Completion, Paving the Way for 100% Ownership Transition at Alacrán.” July 3, 2025. https://cordobaminerals.com/news/cordoba-and-jchx-mark-50-earn-in-completion-paving-the-way-for-100-ownership-transition-at-alacran/.",
+    "url": "https://cordobaminerals.com/news/cordoba-and-jchx-mark-50-earn-in-completion-paving-the-way-for-100-ownership-transition-at-alacran/",
+    "annotation": "Cordoba primary: JCHX completes USD 100m / 50% Alacrán earn-in. Supports jchx_alacran_50pct_100m_earn_in_2025.",
+    "supports": [
+      "jchx_alacran_50pct_100m_earn_in_2025",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "jchx_alacran_50pct_100m_earn_in_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cordoba_alacran_sale_closing_20260306",
+    "type": "company",
+    "chicago": "Cordoba Minerals Corp. “Cordoba Minerals Announces Closing Of Alacrán Asset Sale.” March 6, 2026. https://cordobaminerals.com/news/cordoba-minerals-announces-closing-of-alacran-asset-sale/.",
+    "url": "https://cordobaminerals.com/news/cordoba-minerals-announces-closing-of-alacran-asset-sale/",
+    "annotation": "Cordoba primary: Veritas/JCHX closes Alacrán remaining 50% for USD 128m / 100% ownership. Supports jchx_veritas_alacran_128m_closing_2026.",
+    "supports": [
+      "jchx_veritas_alacran_128m_closing_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "jchx_veritas_alacran_128m_closing_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "crrc_cdmx_linea1_open_20251121",
+    "type": "company",
+    "chicago": "CRRC Corporation Limited. “CRRC Supports Full Opening of Mexico City Metro Line 1.” November 21, 2025. https://www.crrcgc.cc/zjen/2025-11/21/article_2025112111480272511.html.",
+    "url": "https://www.crrcgc.cc/zjen/2025-11/21/article_2025112111480272511.html",
+    "annotation": "CRRC primary: CDMX Metro Line 1 full opening after ZELC modernization. Supports crrc_cdmx_linea1_full_open_2025.",
+    "supports": [
+      "crrc_cdmx_linea1_full_open_2025",
+      "hunt_infra_rail"
+    ],
+    "map_supports": [
+      "crrc_cdmx_linea1_full_open_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "konecranes_puerto_antioquia_8rtg_20230919",
+    "type": "company",
+    "chicago": "Konecranes. “Konecranes Wins 8 RTG Order for a New Container Terminal in Colombia in Drive for Sustainable Globalization.” September 19, 2023. https://www.konecranes.com/en-us/press-releases/konecranes-wins-8-rtg-order-for-new-container-terminal-in-colombia-in-drive-for-sustainable-globalization.",
+    "url": "https://www.konecranes.com/en-us/press-releases/konecranes-wins-8-rtg-order-for-new-container-terminal-in-colombia-in-drive-for-sustainable-globalization",
+    "annotation": "Konecranes primary: 8 electric RTGs for Puerto Antioquia Aug 2023 order. Supports konecranes_puerto_antioquia_8rtg_2023.",
+    "supports": [
+      "konecranes_puerto_antioquia_8rtg_2023",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "konecranes_puerto_antioquia_8rtg_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cma_cgm_puerto_antioquia_20260211",
+    "type": "company",
+    "chicago": "CMA CGM Group. “CMA CGM Group Welcomes First Large Containership at Puerto Antioquia, a New Gateway for Colombia’s Export Growth.” February 11, 2026. https://www.cmacgm-group.com/en/news-media/cma-cgm-group-welcomes-first-large-containership-puerto-antioquia-new-gateway-colombia.",
+    "url": "https://www.cmacgm-group.com/en/news-media/cma-cgm-group-welcomes-first-large-containership-puerto-antioquia-new-gateway-colombia",
+    "annotation": "CMA CGM primary: CMA Terminals shareholder at Puerto Antioquia / first large boxship call. Supports cma_puerto_antioquia_colombia.",
+    "supports": [
+      "cma_puerto_antioquia_colombia",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "cma_puerto_antioquia_colombia",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "idb_invest_aes_adre_368m_20231122",
+    "type": "government",
+    "chicago": "IDB Invest. “IDB Invest Mobilizes the Largest Renewable Energy Financing in the Caribbean for AES.” November 22, 2023. https://idbinvest.org/en/news-media/idb-invest-mobilizes-largest-renewable-energy-financing-caribbean-aes.",
+    "url": "https://idbinvest.org/en/news-media/idb-invest-mobilizes-largest-renewable-energy-financing-caribbean-aes",
+    "annotation": "IDB Invest primary: ~USD 368m ADRE/AES DR renewables package (240 MWac new + 150 MWac refinance). Supports aes_adre_idb_368m_dr_2023.",
+    "supports": [
+      "aes_adre_idb_368m_dr_2023",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_adre_idb_368m_dr_2023",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

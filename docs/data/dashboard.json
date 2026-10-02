@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1143,
+    "n_rows": 1149,
     "counts": {
-      "total": 1143,
-      "active": 945,
+      "total": 1149,
+      "active": 951,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 159,
       "exclude": 18,
-      "documented": 912,
-      "on_map": 927
+      "documented": 918,
+      "on_map": 933
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 128,
-        "prc": 114,
-        "allied": 98,
-        "n": 340
+        "prc": 115,
+        "allied": 100,
+        "n": 343
       },
       "usd": {
         "us": 8181930640.119999,
@@ -129,15 +129,15 @@
       "layer": "resources",
       "counts": {
         "us": 64,
-        "prc": 57,
+        "prc": 59,
         "allied": 112,
-        "n": 233
+        "n": 235
       },
       "usd": {
         "us": 25889802296.0,
         "us_n": 31,
-        "prc": 13662172882.0,
-        "prc_n": 29,
+        "prc": 13890172882.0,
+        "prc_n": 31,
         "allied": 39952458653.2,
         "allied_n": 41
       },
@@ -151,14 +151,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 133,
+        "us": 134,
         "prc": 153,
         "allied": 84,
-        "n": 370
+        "n": 371
       },
       "usd": {
-        "us": 13094585515.13,
-        "us_n": 36,
+        "us": 13462585515.13,
+        "us_n": 37,
         "prc": 5969017778.25,
         "prc_n": 23,
         "allied": 6603491741.490001,
@@ -429,15 +429,15 @@
       "country": "Colombia",
       "counts": {
         "us": 15,
-        "prc": 21,
-        "allied": 14,
-        "n": 50
+        "prc": 23,
+        "allied": 16,
+        "n": 54
       },
       "usd": {
         "us": 310706908.27,
         "us_n": 5,
-        "prc": 5016000000.0,
-        "prc_n": 1,
+        "prc": 5244000000.0,
+        "prc_n": 3,
         "allied": 1817000000.0,
         "allied_n": 6
       },
@@ -450,11 +450,11 @@
         "infrastructure": {
           "us": 3,
           "prc": 4,
-          "allied": 7
+          "allied": 9
         },
         "resources": {
           "us": 0,
-          "prc": 1,
+          "prc": 3,
           "allied": 2
         }
       }
@@ -559,14 +559,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 11,
+        "us": 12,
         "prc": 2,
         "allied": 7,
-        "n": 20
+        "n": 21
       },
       "usd": {
-        "us": 700934461.5699999,
-        "us_n": 6,
+        "us": 1068934461.5699999,
+        "us_n": 7,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -574,7 +574,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 10,
+          "us": 11,
           "prc": 0,
           "allied": 3
         },
@@ -836,9 +836,9 @@
       "country": "Mexico",
       "counts": {
         "us": 35,
-        "prc": 14,
+        "prc": 15,
         "allied": 26,
-        "n": 75
+        "n": 76
       },
       "usd": {
         "us": 2846735416.7400002,
@@ -856,7 +856,7 @@
         },
         "infrastructure": {
           "us": 19,
-          "prc": 10,
+          "prc": 11,
           "allied": 15
         },
         "resources": {
@@ -2101,7 +2101,13 @@
       "butler_ciudadluz_puerto_esperanza_solar_py",
       "pattern_helios_zacatecas_150mw_2022",
       "aes_mesa_la_paz_mexico_306mw",
-      "pattern_tuli_zacatecas_150mw_2019"
+      "pattern_tuli_zacatecas_150mw_2019",
+      "jchx_alacran_50pct_100m_earn_in_2025",
+      "jchx_veritas_alacran_128m_closing_2026",
+      "crrc_cdmx_linea1_full_open_2025",
+      "konecranes_puerto_antioquia_8rtg_2023",
+      "cma_puerto_antioquia_colombia",
+      "aes_adre_idb_368m_dr_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
