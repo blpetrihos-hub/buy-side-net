@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 140
+cycle: 141
 remote: present
 active_layer: energy
-active_subcategory: solar
-next_query: Cycle 141 shuffle_seed=20261141; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us273/prc279/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 6 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
-next_row_id: (follow cycle-141 shuffled_order)
+active_subcategory: wind
+next_query: Cycle 142 shuffle_seed=20261142; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us274/prc282/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
+next_row_id: (follow cycle-142 shuffled_order)
 dry_streak: 0
+
+# === Cycle 141 (seed 20261141) ===
+# Shuffled order: graphite, niobium, balsa, bridges_roads, other_renewables, water,
+#   solar, port_ownership, port_cranes, wind, power_plants_grid, lithium,
+#   building_materials, rail, nickel, fission_smr, engineering_epc, copper.
+# Logged 4 sourced rows (1 US / 3 PRC; thin dry; no padding):
+#   us other_renewables: invenergy_la_toba_70m_2022 (35 MW solar + 20 MW BESS; USD 70m).
+#   prc other_renewables: sungrow_atlas_bess_del_desierto_2025 (PowerTitan 200 MW/800 MWh).
+#   prc solar: ctg_baranoa_ii_iii_58p3mw_2025 (Phase II+III COD; three-phase 58.3 MW).
+#   prc wind: spic_pedra_paraiso_touros_755m_brl_2025 (105.4 MW; BRL 755m → USD 137.4m).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: graphite, niobium, balsa, bridges_roads, water, port_ownership,
+#   port_cranes, power_plants_grid, lithium, building_materials, rail, nickel,
+#   fission_smr, engineering_epc, copper.
+# Dense already-logged: POWERCHINA Catac/Ituango/Mauriti/Palmira/Francisco Juana/DBIS;
+#   Goldwind Touros turbine supply; Array Lupi; GameChange Colombia; EXIM Guyana GTE.
+# Active after cycle 141: us274 / prc282 / allied247 / other38 (n=841).
+shuffle_seed: 20261141
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/graphite
+- resources/niobium
+- resources/balsa
+- infrastructure/bridges_roads
+- energy/other_renewables
+- resources/water
+- energy/solar
+- infrastructure/port_ownership
+- infrastructure/port_cranes
+- energy/wind
+- energy/power_plants_grid
+- resources/lithium
+- infrastructure/building_materials
+- infrastructure/rail
+- resources/nickel
+- energy/fission_smr
+- infrastructure/engineering_epc
+- resources/copper
+rows_found_this_cycle:
+  resources/graphite: 0
+  resources/niobium: 0
+  resources/balsa: 0
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 2
+  resources/water: 0
+  energy/solar: 1
+  infrastructure/port_ownership: 0
+  infrastructure/port_cranes: 0
+  energy/wind: 1
+  energy/power_plants_grid: 0
+  resources/lithium: 0
+  infrastructure/building_materials: 0
+  infrastructure/rail: 0
+  resources/nickel: 0
+  energy/fission_smr: 0
+  infrastructure/engineering_epc: 0
+  resources/copper: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 140 (seed 20261140) ===
 # Shuffled order: port_cranes, lithium, nickel, solar, bridges_roads, wind,
