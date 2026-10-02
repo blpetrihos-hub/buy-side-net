@@ -11474,3 +11474,76 @@
   supports:
   - colbun_cuatro_vientos_540m_2026
   - hunt_cycle176
+- id: forbes_argos_colombia_capex_20260224
+  type: trade_press
+  chicago: Forbes Colombia Staff. “Cementos Argos invertirá más de US$ 50 millones en Colombia para modernizar
+    su operación.” Forbes Colombia, February 24, 2026. https://forbes.co/2026/02/24/actualidad/cementos-argos-invertira-mas-de-us-50-millones-en-colombia-para-modernizar-su-operacion/.
+  url: https://forbes.co/2026/02/24/actualidad/cementos-argos-invertira-mas-de-us-50-millones-en-colombia-para-modernizar-su-operacion/
+  annotation: 'Forbes Colombia: Argos Colombia 2026 CapEx >USD 50m. Supports cementos_argos_colombia_50m_2026.'
+  supports:
+  - cementos_argos_colombia_50m_2026
+  - hunt_cycle177
+- id: holcim_mx_comosa_20251028
+  type: company
+  chicago: Holcim México. “Holcim México refuerza su presencia en el centro del país con una inversión
+    estratégica en expansión y sostenibilidad.” October 28, 2025. https://www.holcim.com.mx/holcim-mexico-refuerza-su-presencia-en-el-centro-del-pais-con-una-inversion-estrategica-en.
+  url: https://www.holcim.com.mx/holcim-mexico-refuerza-su-presencia-en-el-centro-del-pais-con-una-inversion-estrategica-en
+  annotation: 'Holcim México: COMOSA seven-plant ready-mix integration. Supports holcim_comosa_mexico_2025.'
+  supports:
+  - holcim_comosa_mexico_2025
+  - hunt_cycle177
+- id: mtc_dpworld_callao_adenda4_20260917
+  type: government
+  chicago: Ministerio de Transportes y Comunicaciones (Perú). “MTC y DP World Callao impulsan nuevas inversiones
+    para ampliar capacidad del Muelle Sur.” September 17, 2026. https://www.gob.pe/institucion/mtc/noticias/1445564-mtc-y-dp-world-callao-impulsan-nuevas-inversiones-para-ampliar-capacidad-del-muelle-sur.
+  url: https://www.gob.pe/institucion/mtc/noticias/1445564-mtc-y-dp-world-callao-impulsan-nuevas-inversiones-para-ampliar-capacidad-del-muelle-sur
+  annotation: 'MTC: DP World Callao Adenda 4 ~USD 1,470m. Supports dpworld_callao_adenda4_1470m_2026.'
+  supports:
+  - dpworld_callao_adenda4_1470m_2026
+  - hunt_cycle177
+- id: poder_mexico_tonachihua_20260915
+  type: trade_press
+  chicago: Jiménez, Enrique. “Tlaxcala sí existe para una eléctrica china que invertirá 2 mil 164 mdp
+    en una granja solar.” Poder México, September 15, 2026. https://www.podermexico.mx/?p=11003.
+  url: https://www.podermexico.mx/?p=11003
+  annotation: 'Poder México/Tonachihua: Sungrow Tonachihua I MXN 2,164m. Supports sungrow_tonachihua_tlaxcala_2164mdp_2026.'
+  supports:
+  - sungrow_tonachihua_tlaxcala_2164mdp_2026
+  - hunt_cycle177
+- id: fcx_2q2026_exhibit991
+  type: company
+  chicago: Freeport-McMoRan Inc. “FCX Reports Second-Quarter and Six-Month 2026 Results.” Exhibit 99.1
+    to Form 8-K, June 30, 2026 reporting period. https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/a2q2026exhibit991.htm.
+  url: https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/a2q2026exhibit991.htm
+  annotation: 'FCX SEC: Cerro Verde USD 350m RCF. Supports fcx_cerro_verde_rcf_350m_2026.'
+  supports:
+  - fcx_cerro_verde_rcf_350m_2026
+  - hunt_cycle177
+- id: antamina_meia_20240215
+  type: company
+  chicago: Compañía Minera Antamina. “Gobierno peruano aprueba Modificación del Estudio de Impacto Ambiental
+    (MEIA) de Antamina.” February 15, 2024. https://www.antamina.com/noticias/gobierno-peruano-aprueba-modificacion-estudio-de-impacto-ambiental-meia-antamina/.
+  url: https://www.antamina.com/noticias/gobierno-peruano-aprueba-modificacion-estudio-de-impacto-ambiental-meia-antamina/
+  annotation: 'Antamina: SENACE MEIA CapEx envelope USD 2bn. Supports antamina_meia_2bn_2024.'
+  supports:
+  - antamina_meia_2bn_2024
+  - hunt_cycle177
+- id: portal_minero_andina_798ac_20260430
+  type: trade_press
+  chicago: Portal Minero. “Con 18 nuevos camiones de extracción Codelco Andina completa moderna flota
+    de equipos en su Mina Rajo.” April 30, 2026. https://www.portalminero.com/wp/con-18-nuevos-camiones-de-extraccion-codelco-andina-completa-moderna-flota-de-equipos-en-su-mina-rajo/.
+  url: https://www.portalminero.com/wp/con-18-nuevos-camiones-de-extraccion-codelco-andina-completa-moderna-flota-de-equipos-en-su-mina-rajo/
+  annotation: 'Portal Minero: Codelco Andina 18× CAT 798AC. Supports caterpillar_andina_798ac_18_2026.'
+  supports:
+  - caterpillar_andina_798ac_18_2026
+  - hunt_cycle177
+- id: ecopetrol_jk1_jk2_20260520
+  type: company
+  chicago: Ecopetrol S.A. “Ecopetrol advances acquisition of the Jemeiwaa Ka’I wind cluster in La Guajira
+    with the purchase of a 49% interest in the JK1 and JK2 wind projects.” PR Newswire, May 20, 2026.
+    https://www.prnewswire.com/news-releases/ecopetrol-advances-acquisition-of-the-jemeiwaa-kai-wind-cluster-in-la-guajira-with-the-purchase-of-a-49-interest-in-the-jk1-and-jk2-wind-projects-302777666.html.
+  url: https://www.prnewswire.com/news-releases/ecopetrol-advances-acquisition-of-the-jemeiwaa-kai-wind-cluster-in-la-guajira-with-the-purchase-of-a-49-interest-in-the-jk1-and-jk2-wind-projects-302777666.html
+  annotation: 'Ecopetrol: JK1/JK2 49% ~USD 25.5m. Supports ecopetrol_jk1_jk2_49pct_25p5m_2026.'
+  supports:
+  - ecopetrol_jk1_jk2_49pct_25p5m_2026
+  - hunt_cycle177
