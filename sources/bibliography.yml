@@ -6740,3 +6740,75 @@
   supports:
   - goldwind_jacobina_tower_factory_2026
   - hunt_energy_wind
+
+- id: deere_canoas_pulverizer_20260130
+  type: company
+  chicago: "John Deere Brasil. “John Deere inaugura fábrica de Canoas (RS) para produção de novo pulverizador.” 30 January 2026."
+  url: https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/jan/deere-pulverizador-f%C3%A1brica-de-canoas/
+  annotation: John Deere Canoas sprayer plant CapEx ~R$42m for 1025E production. Supports john_deere_canoas_pulverizer_42m_2026.
+  supports:
+  - john_deere_canoas_pulverizer_42m_2026
+  - hunt_infra_engineering_epc
+
+- id: deere_canoas_electronics_20260723
+  type: company
+  chicago: "John Deere Brasil. “John Deere Anuncia Produção de Componentes Eletrônicos no Brasil.” July 2026."
+  url: https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/jul/produ%C3%A7%C3%A3o-de-componentes-eletr%C3%B4nicos/
+  annotation: John Deere Canoas electronics assembly CapEx R$75m (COD Jul 2027). Supports john_deere_canoas_electronics_75m_2026.
+  supports:
+  - john_deere_canoas_electronics_75m_2026
+  - hunt_infra_engineering_epc
+
+- id: agco_jundiai_reman_20250210
+  type: company
+  chicago: "AGCO Corporation. “AGCO Announces Expansions in Jundiaí (SP) with a Focus on Sustainability and Workforce Development.” 10 February 2025."
+  url: https://news.agcocorp.com/2025-02-10-AGCO-Announces-Expansions-in-Jundiai-SP-with-a-Focus-on-Sustainability-and-Workforce-Development
+  annotation: AGCO Jundiaí Reman Transmissions Center + Academy CapEx USD 3.2m. Supports agco_jundiai_reman_3p2m_2025.
+  supports:
+  - agco_jundiai_reman_3p2m_2025
+  - hunt_infra_engineering_epc
+
+- id: promexico_flowserve_torreon_20260403
+  type: press
+  chicago: "ProMéxico Industry. “Flowserve Invests MXN 800 Million in Torreón, Coahuila for Industrial Pump and Valve Manufacturing.” 3 April 2026."
+  url: https://www.promexicoindustry.com/en/article/flowserve-invests-mxn-800-million-in-torren-coahuila-for-industrial-pump-and-valve-manufacturing
+  annotation: UNVERIFIED proxy paraphrase of Flowserve Torreón manufacturing-center inauguration MXN 800m. Supports flowserve_torreon_800m_mxn_2026.
+  supports:
+  - flowserve_torreon_800m_mxn_2026
+  - hunt_infra_engineering_epc
+
+- id: china_embassy_grenada_mbia_20250521
+  type: government
+  chicago: "Embassy of the People’s Republic of China in Grenada. “Ambassador Wei Attended the Completion and Handover Ceremony of Maurice Bishop International Airport Upgrade Project.” 21 May 2025."
+  url: https://gd.china-embassy.gov.cn/eng/zxhd_1/202505/t20250521_11629546.htm
+  annotation: CHEC-led Maurice Bishop International Airport upgrade completion/handover 19 May 2025. Supports chec_grenada_mbia_airport_2025.
+  supports:
+  - chec_grenada_mbia_airport_2025
+  - hunt_infra_engineering_epc
+
+- id: mop_coquimbo_hospital_project
+  type: government
+  chicago: "Chile. Dirección General de Concesiones de Obras Públicas. “Concesión Hospital de Coquimbo.” Project page (accessed 2026)."
+  url: https://concesiones.mop.gob.cl/project/concesion-hospital-de-coquimbo/
+  annotation: CRCC Grupo Chile Hospital de Coquimbo concession UF 6,528,211 (~USD 274m); 605 beds. Supports crcc_coquimbo_hospital_2022.
+  supports:
+  - crcc_coquimbo_hospital_2022
+  - hunt_infra_building_materials
+
+- id: mop_ohiggins_hospitals_20240322
+  type: government
+  chicago: "Chile. Ministerio de Obras Públicas. “MOP adjudica proyecto de hospitales para Rengo y Pichilemu por USD 177 millones.” 22 March 2024."
+  url: https://www.mop.gob.cl/mop-adjudica-proyecto-de-hospitales-para-rengo-y-pichilemu-por-usd-177-millones/
+  annotation: CRCC Grupo Chile Red O’Higgins (Rengo + Pichilemu) award ~USD 177–180m. Supports crcc_ohiggins_rengo_pichilemu_2024.
+  supports:
+  - crcc_ohiggins_rengo_pichilemu_2024
+  - hunt_infra_building_materials
+
+- id: mop_neurocirugia_project
+  type: government
+  chicago: "Chile. Dirección General de Concesiones de Obras Públicas. “Concesión Instituto Nacional de Neurocirugía.” Project page (accessed 2026)."
+  url: https://concesiones.mop.gob.cl/project/concesion-instituto-nacional-de-neurocirugia/
+  annotation: CRCC Grupo Chile Instituto Nacional de Neurocirugía concession UF 3,509,321 (~USD 147m); 214 beds Providencia. Supports crcc_neurocirugia_chile_2023.
+  supports:
+  - crcc_neurocirugia_chile_2023
+  - hunt_infra_building_materials
