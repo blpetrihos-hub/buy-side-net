@@ -12527,5 +12527,95 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "mtc_rd038_lima_canta_crbc_20260121",
+    "type": "government",
+    "chicago": "Proyecto Especial de Infraestructura de Transporte Nacional (PROVIAS NACIONAL). Resolución Directoral N.° 038-2026-MTC/20. Lima, 21 January 2026. https://cdn.www.gob.pe/uploads/document/file/9357697/7670928-rd_038_2026_mtc-20.pdf.",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/9357697/7670928-rd_038_2026_mtc-20.pdf",
+    "annotation": "Official PROVIAS RD confirming CRBC Consorcio Ejecutor Canta Contrato N°44-2025-MTC/20.2 for Lima–Canta highway at S/86,447,553.48. Supports crbc_lima_canta_highway_2025.",
+    "supports": [
+      "crbc_lima_canta_highway_2025",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "crbc_lima_canta_highway_2025",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_novel_pr155_20241212",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7325C000005_6925_-NONE-_-NONE- (Novel Construction LLC; FHWA Emergency Relief PR-155/PR-159). Signed 12 December 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7325C000005_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7325C000005_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 12.05m FHWA award to Novel Construction for PR-155/PR-159 landslide repairs. Supports fhwa_novel_pr155_morovis_2024.",
+    "supports": [
+      "fhwa_novel_pr155_morovis_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "fhwa_novel_pr155_morovis_2024",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ddd_dvg_canovanas_20260331",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_693C7326C000008_6925_-NONE-_-NONE- (DDD-DVG Joint Venture LLC; FHWA Emergency Relief Canóvanas). Signed 31 March 2026. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7326C000008_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7326C000008_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary: USD 35.84m FHWA design-build award in Canóvanas PR. Supports fhwa_ddd_dvg_canovanas_2026.",
+    "supports": [
+      "fhwa_ddd_dvg_canovanas_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "fhwa_ddd_dvg_canovanas_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "acciona_paraiba_cagepa_2026",
+    "type": "company",
+    "chicago": "ACCIONA. “ACCIONA Signs Sanitation Contract for 85 Municipalities in Paraíba, Brasil.” 2026. https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-85-municipalities-paraiba-brasil.",
+    "url": "https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-85-municipalities-paraiba-brasil",
+    "annotation": "ACCIONA primary: Cagepa Paraíba sewerage PPP ~EUR 498m / 85 municipalities. Supports acciona_cagepa_paraiba_498m_eur_2026.",
+    "supports": [
+      "acciona_cagepa_paraiba_498m_eur_2026",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "acciona_cagepa_paraiba_498m_eur_2026",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "lithium_ionic_yahua_offtake_20260325",
+    "type": "company",
+    "chicago": "Lithium Ionic Corp. “Lithium Ionic Secures Offtake Agreements with Leading Integrated Lithium Producers … for Bandeira Project Production.” 25 March 2026. https://www.lithiumionic.com/_resources/news/nr-20260325.pdf.",
+    "url": "https://www.lithiumionic.com/_resources/news/nr-20260325.pdf",
+    "annotation": "Lithium Ionic primary: Yahua/Grand Chen 170 ktpa Bandeira offtake + USD 20m prepayment. Supports yahua_grandchen_bandeira_offtake_2026.",
+    "supports": [
+      "yahua_grandchen_bandeira_offtake_2026",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "hunt_res_lithium",
+      "yahua_grandchen_bandeira_offtake_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
