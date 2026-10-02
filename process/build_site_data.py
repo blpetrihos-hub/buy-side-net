@@ -60,7 +60,7 @@ LATAM_CARIBBEAN_FALLBACK = {
     "Haiti", "Honduras", "Jamaica", "Mexico", "Nicaragua", "Panama", "Paraguay",
     "Peru", "Suriname", "Uruguay", "Venezuela", "Antigua and Barbuda", "Bahamas",
     "Barbados", "Dominica", "Grenada", "Saint Kitts and Nevis", "Saint Lucia",
-    "Saint Vincent and the Grenadines", "Trinidad and Tobago", "Puerto Rico",
+    "Saint Vincent and the Grenadines", "Trinidad and Tobago",
 }
 
 

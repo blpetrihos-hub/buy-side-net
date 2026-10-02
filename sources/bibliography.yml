@@ -8809,3 +8809,452 @@
   supports:
   - contractor_jv_prarng_jtc_2022
   - hunt_infra_engineering_epc
+- id: usaspending_dick_dams_pr_20021108
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting dick_usace_dams_pr_2002.
+    Signed 2002-11-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_DACW1703C0001_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_DACW1703C0001_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports dick_usace_dams_pr_2002.
+  supports:
+  - dick_usace_dams_pr_2002
+  - hunt_res_water
+- id: usaspending_zachry_ecuador_20050928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting zachry_ecuador_construction_2005.
+    Signed 2005-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0035_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0035_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports zachry_ecuador_construction_2005.
+  supports:
+  - zachry_ecuador_construction_2005
+  - hunt_infra_engineering_epc
+- id: usaspending_caddell_mexico_nec_20050926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting caddell_mexico_nec_2005.
+    Signed 2005-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0043_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0043_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports caddell_mexico_nec_2005.
+  supports:
+  - caddell_mexico_nec_2005
+  - hunt_infra_engineering_epc
+- id: usaspending_fluor_jamaica_20030929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting fluor_jamaica_construction_2003.
+    Signed 2003-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC03C0030_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC03C0030_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports fluor_jamaica_construction_2003.
+  supports:
+  - fluor_jamaica_construction_2003
+  - hunt_infra_engineering_epc
+- id: usaspending_vistas_porto_alegre_20150206
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting vistas_porto_alegre_consulate_2015.
+    Signed 2015-02-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0057_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0057_1900_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports vistas_porto_alegre_consulate_2015.
+  supports:
+  - vistas_porto_alegre_consulate_2015
+  - hunt_infra_engineering_epc
+- id: usaspending_rb_buchanan_20120907
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rb_buchanan_readiness_2012.
+    Signed 2012-09-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912LR12C0005_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912LR12C0005_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports rb_buchanan_readiness_2012.
+  supports:
+  - rb_buchanan_readiness_2012
+  - hunt_infra_engineering_epc
+- id: usaspending_qb_munoz_ang_20210819
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting qb_munoz_ang_comms_2021.
+    Signed 2021-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945021C0031_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945021C0031_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports qb_munoz_ang_comms_2021.
+  supports:
+  - qb_munoz_ang_comms_2021
+  - hunt_infra_engineering_epc
+- id: usaspending_teksol_pier_echo_20250213
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting teksol_pier_echo_2025. Signed
+    2025-02-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08225CCEUM0001_7008_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08225CCEUM0001_7008_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports teksol_pier_echo_2025.
+  supports:
+  - teksol_pier_echo_2025
+  - hunt_infra_engineering_epc
+- id: usaspending_futron_san_salvador_20220616
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting futron_san_salvador_csu_2022.
+    Signed 2022-06-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0119_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0119_1900_-NONE-_-NONE-/
+  annotation: Primary source. Supports futron_san_salvador_csu_2022.
+  supports:
+  - futron_san_salvador_csu_2022
+  - hunt_infra_engineering_epc
+- id: usaspending_cce_bogota_annex_20050926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cce_bogota_annex_2005. Signed
+    2005-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0042_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0042_1900_-NONE-_-NONE-/
+  annotation: Primary source. Supports cce_bogota_annex_2005.
+  supports:
+  - cce_bogota_annex_2005
+  - hunt_infra_engineering_epc
+- id: usaspending_src_tegucigalpa_pe_20190606
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting src_tegucigalpa_nec_pe_2019.
+    Signed 2019-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1926_1900_SAQMMA13D0078_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1926_1900_SAQMMA13D0078_1900/
+  annotation: Primary source. Supports src_tegucigalpa_nec_pe_2019.
+  supports:
+  - src_tegucigalpa_nec_pe_2019
+  - hunt_infra_engineering_epc
+- id: usaspending_ics_borinquen_hangar_20190918
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting ics_borinquen_hangar_2019.
+    Signed 2019-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08219FPACP3500_7008_70Z08219DPMV23300_7008/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08219FPACP3500_7008_70Z08219DPMV23300_7008/
+  annotation: Primary source. Supports ics_borinquen_hangar_2019.
+  supports:
+  - ics_borinquen_hangar_2019
+  - hunt_infra_engineering_epc
+- id: powerchina_cauchari_handover_20231026
+  type: company
+  chicago: POWERCHINA. “Cauchari Solar Park Phase I handed over in Argentina.” 26 October 2023. https://en.powerchina.cn/2023-10/26/c_828607.htm.
+  url: https://en.powerchina.cn/2023-10/26/c_828607.htm
+  annotation: POWERCHINA English primary on Cauchari 315 MW EPC/handover and CHEXIM finance. CapEx not
+    stated. Supports powerchina_cauchari_solar_epc_2020.
+  supports:
+  - powerchina_cauchari_solar_epc_2020
+  - hunt_energy_solar
+- id: powerchina_sajalices_20241225
+  type: company
+  chicago: POWERCHINA. “POWERCHINA to develop solar power in Panama.” 25 December 2024. https://en.powerchina.cn/2024-12/25/c_828846.htm.
+  url: https://en.powerchina.cn/2024-12/25/c_828846.htm
+  annotation: POWERCHINA English primary on Sajalices 530 MW EPC signing. CapEx not stated. Supports powerchina_sajalices_panama_530mw_2024.
+  supports:
+  - powerchina_sajalices_panama_530mw_2024
+  - hunt_energy_solar
+- id: usaspending_cmf_inagua_20110309
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cmf_great_inagua_opbat_2011.
+    Signed 2011-03-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4710C3EFK08_7008_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_HSCG4710C3EFK08_7008_-NONE-_-NONE-/
+  annotation: Primary source. Supports cmf_great_inagua_opbat_2011.
+  supports:
+  - cmf_great_inagua_opbat_2011
+  - hunt_infra_engineering_epc
+- id: usaspending_cce_soto_cano_20110825
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cce_soto_cano_barracks_2011.
+    Signed 2011-08-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811C0028_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811C0028_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports cce_soto_cano_barracks_2011.
+  supports:
+  - cce_soto_cano_barracks_2011
+  - hunt_infra_engineering_epc
+- id: usaspending_perini_haiti_subs_20110728
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting perini_haiti_substations_2011.
+    Signed 2011-07-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C001100012_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C001100012_7200_-NONE-_-NONE-/
+  annotation: Primary source. Supports perini_haiti_substations_2011.
+  supports:
+  - perini_haiti_substations_2011
+  - hunt_br_power_equip
+- id: usaspending_cavagnero_pos_20200915
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cavagnero_pos_nec_bridging_2020.
+    Signed 2020-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F3492_1900_19AQMM19D0065_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F3492_1900_19AQMM19D0065_1900/
+  annotation: Primary source. Supports cavagnero_pos_nec_bridging_2020.
+  supports:
+  - cavagnero_pos_nec_bridging_2020
+  - hunt_infra_engineering_epc
+- id: usaspending_rq_gtmo_solid_waste_20190919
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rq_gtmo_solid_waste_2019.
+    Signed 2019-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945019C0501_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945019C0501_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports rq_gtmo_solid_waste_2019.
+  supports:
+  - rq_gtmo_solid_waste_2019
+  - hunt_infra_engineering_epc
+- id: usaspending_rq_gtmo_wharf_bravo_20161122
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rq_gtmo_wharf_bravo_2016.
+    Signed 2016-11-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945017C1303_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945017C1303_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports rq_gtmo_wharf_bravo_2016.
+  supports:
+  - rq_gtmo_wharf_bravo_2016
+  - hunt_infra_engineering_epc
+- id: usaspending_eterna_soto_hangar_20210929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting eterna_soto_cano_hangar_2021.
+    Signed 2021-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821C0039_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821C0039_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports eterna_soto_cano_hangar_2021.
+  supports:
+  - eterna_soto_cano_hangar_2021
+  - hunt_infra_engineering_epc
+- id: usaspending_eterna_soto_storage_20250717
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting eterna_soto_cano_aviation_storage_2025.
+    Signed 2025-07-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825CA006_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825CA006_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports eterna_soto_cano_aviation_storage_2025.
+  supports:
+  - eterna_soto_cano_aviation_storage_2025
+  - hunt_infra_engineering_epc
+- id: powerchina_ecopetrol_cartagena_20240415
+  type: company
+  chicago: POWERCHINA. “Colombian president witnesses completion of solar park.” 15 April 2024. https://en.powerchina.cn/2024-04/15/c_828692.htm.
+  url: https://en.powerchina.cn/2024-04/15/c_828692.htm
+  annotation: POWERCHINA English primary on Ecopetrol Cartagena 23 MW solar completion. CapEx not stated.
+    Supports powerchina_ecopetrol_cartagena_23mw_2024.
+  supports:
+  - powerchina_ecopetrol_cartagena_23mw_2024
+  - hunt_energy_solar
+- id: powerchina_barbados_water_20250221
+  type: company
+  chicago: POWERCHINA. “Barbados water infrastructure project handed over.” 21 February 2025. https://en.powerchina.cn/2025-02/21/c_828872.htm.
+  url: https://en.powerchina.cn/2025-02/21/c_828872.htm
+  annotation: POWERCHINA English primary on Barbados Water Infrastructure / Haymans handover. CapEx not
+    stated. Supports powerchina_barbados_water_infra_2025.
+  supports:
+  - powerchina_barbados_water_infra_2025
+  - hunt_res_water
+- id: powerchina_tepuy_20241014
+  type: company
+  chicago: POWERCHINA. “Colombian Tepuy PV project handed over.” 14 October 2024. https://en.powerchina.cn/2024-10/14/c_828797.htm.
+  url: https://en.powerchina.cn/2024-10/14/c_828797.htm
+  annotation: POWERCHINA English primary on Tepuy 108 MW handover to EPM. CapEx not stated. Supports powerchina_tepuy_pv_108mw_2024.
+  supports:
+  - powerchina_tepuy_pv_108mw_2024
+  - hunt_energy_solar
+- id: usaspending_aecom_gtmo_fuel_pier_20131003
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting aecom_gtmo_fuel_pier_2013.
+    Signed 2013-10-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_JM01_9700_N6274209D1174_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_JM01_9700_N6274209D1174_9700/
+  annotation: Primary source. Supports aecom_gtmo_fuel_pier_2013.
+  supports:
+  - aecom_gtmo_fuel_pier_2013
+  - hunt_infra_engineering_epc
+- id: usaspending_v2x_gtmo_water_20250904
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting v2x_gtmo_potable_water_2025.
+    Signed 2025-09-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945025F1270_9700_N6274224D3506_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945025F1270_9700_N6274224D3506_9700/
+  annotation: Primary source. Supports v2x_gtmo_potable_water_2025.
+  supports:
+  - v2x_gtmo_potable_water_2025
+  - hunt_res_water
+- id: usaspending_islands_mech_migrant_20070507
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting islands_mechanical_migrant_ops_2007.
+    Signed 2007-05-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945007C3313_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945007C3313_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports islands_mechanical_migrant_ops_2007.
+  supports:
+  - islands_mechanical_migrant_ops_2007
+  - hunt_infra_engineering_epc
+- id: cccc_crbc_saramacca_bridge_20250408
+  type: company
+  chicago: China Communications Construction Company Ltd. “Surinamese President Chandrikapersad Santokhi,
+    attends the opening ceremony of the Bridge of the Van't Hogerhuysstraat across the Saramacca Canal.”
+    8 April 2025. https://en.ccccltd.cn/xwzx/ywfb/202504/t20250411_219869.html.
+  url: https://en.ccccltd.cn/xwzx/ywfb/202504/t20250411_219869.html
+  annotation: CCCC English primary on CRBC Saramacca Canal bridge opening. CapEx not stated. Supports
+    crbc_saramacca_bridge_suriname_2025.
+  supports:
+  - crbc_saramacca_bridge_suriname_2025
+  - hunt_infra_bridges_roads
+- id: usaspending_nreca_caracol_20130430
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting nreca_caracol_power_2013.
+    Signed 2013-04-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1300007_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1300007_7200_-NONE-_-NONE-/
+  annotation: Primary source. Supports nreca_caracol_power_2013.
+  supports:
+  - nreca_caracol_power_2013
+  - hunt_br_power_equip
+- id: usaspending_conti_buchanan_range_20240925
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting conti_buchanan_range_ops_2024.
+    Signed 2024-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR24C0031_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR24C0031_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports conti_buchanan_range_ops_2024.
+  supports:
+  - conti_buchanan_range_ops_2024
+  - hunt_infra_engineering_epc
+- id: usaspending_orion_autec_pier_20211216
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting orion_autec_pier_2021. Signed
+    2021-12-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945022C0006_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945022C0006_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports orion_autec_pier_2021.
+  supports:
+  - orion_autec_pier_2021
+  - hunt_infra_engineering_epc
+- id: usaspending_rq_gtmo_mass_mig_20180222
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rq_gtmo_mass_migration_2018.
+    Signed 2018-02-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945018C1308_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945018C1308_9700_-NONE-_-NONE-/
+  annotation: Primary source. Supports rq_gtmo_mass_migration_2018.
+  supports:
+  - rq_gtmo_mass_migration_2018
+  - hunt_infra_engineering_epc
+- id: usaspending_knik_gtmo_runway_20070501
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting knik_gtmo_runway_2007. Signed
+    2007-05-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945007C1257_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945007C1257_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports knik_gtmo_runway_2007.
+  supports:
+  - knik_gtmo_runway_2007
+  - hunt_infra_engineering_epc
+- id: usaspending_rb_degetau_20190716
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting rb_degetau_hurricane_recovery_2019.
+    Signed 2019-07-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PC0319C0006_4740_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PC0319C0006_4740_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports rb_degetau_hurricane_recovery_2019.
+  supports:
+  - rb_degetau_hurricane_recovery_2019
+  - hunt_infra_engineering_epc
+- id: usaspending_consigli_ceiba_20090904
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting consigli_ceiba_afrc_2009.
+    Signed 2009-09-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR09C0077_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR09C0077_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports consigli_ceiba_afrc_2009.
+  supports:
+  - consigli_ceiba_afrc_2009
+  - hunt_infra_engineering_epc
+- id: usaspending_cscg_mayaguez_cbp_20220930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting cscg_mayaguez_cbp_2022.
+    Signed 2022-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PA0322C0015_4740_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_47PA0322C0015_4740_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports cscg_mayaguez_cbp_2022.
+  supports:
+  - cscg_mayaguez_cbp_2022
+  - hunt_infra_engineering_epc
+- id: usaspending_fr_buchanan_astb_20250911
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award supporting fr_buchanan_astb_2025. Signed
+    2025-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR25CA024_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QR25CA024_9700_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports fr_buchanan_astb_2025.
+  supports:
+  - fr_buchanan_astb_2025
+  - hunt_infra_engineering_epc
+- id: ende_warnes_ii_windey_20250130
+  type: government
+  chicago: Empresa Nacional de Electricidad (ENDE Corporación). “Aerogeneradores para Parque Eólico Warnes
+    II llegan para aportar al cambio de la matriz energética en Bolivia.” 30 January 2025. https://www.ende.bo/noticia/noticia/817.
+  url: https://www.ende.bo/noticia/noticia/817
+  annotation: ENDE Spanish primary naming Windey WD156-4500 for Warnes II 45 MW. Supports windey_warnes_ii_bolivia_45mw_2025.
+  supports:
+  - windey_warnes_ii_bolivia_45mw_2025
+  - hunt_energy_wind
+- id: vergnet_claybury_20230612
+  type: company
+  chicago: Vergnet SA. “Un nouveau contrat d’un montant de 1,6 M EUR.” Actusnews Wire, 12 June 2023. https://www.actusnews.com/fr/vergnet/cp/2023/06/12/un-nouveau-contrat-d_un-montant-de-1-6-m-eur.
+  url: https://www.actusnews.com/fr/vergnet/cp/2023/06/12/un-nouveau-contrat-d_un-montant-de-1-6-m-eur
+  annotation: 'Vergnet company wire: Claybury 875 kW / EUR 1.6m. Supports vergnet_claybury_barbados_2025.'
+  supports:
+  - vergnet_claybury_barbados_2025
+  - hunt_energy_wind
+- id: konecranes_arawak_nassau_20240411
+  type: company
+  chicago: Konecranes. “Bahamas port goes electric with Konecranes Gottwald Generation 6 Mobile Harbor
+    Crane.” 11 April 2024. https://www.konecranes.com/en-us/press-releases/bahamas-port-goes-electric-with-konecranes-gottwald-generation-6-mobile-harbor-crane.
+  url: https://www.konecranes.com/en-us/press-releases/bahamas-port-goes-electric-with-konecranes-gottwald-generation-6-mobile-harbor-crane
+  annotation: Konecranes primary naming APD Nassau ESP.6 MHC. Supports konecranes_arawak_nassau_esp6_2024.
+  supports:
+  - konecranes_arawak_nassau_esp6_2024
+  - hunt_infra_port_cranes
+- id: bwa_crseg_south_coast_20260724
+  type: government
+  chicago: Barbados Water Authority. “Press Release – South Coast Water Reclamation Project Moves into
+    Implementation Phase.” 24 July 2026. https://barbadoswaterauthority.com/press-release-south-coast-water-reclamation-project-moves-into-implementation-phase/.
+  url: https://barbadoswaterauthority.com/press-release-south-coast-water-reclamation-project-moves-into-implementation-phase/
+  annotation: BWA primary naming CRSEG as Component One contractor. Supports crseg_barbados_south_coast_water_2026.
+  supports:
+  - crseg_barbados_south_coast_water_2026
+  - hunt_res_water
+- id: doe_edf_pattern_amanecer_202608
+  type: government
+  chicago: U.S. Department of Energy, Energy Dominance Financing. “Pattern Puerto Rico.” August 2026.
+    https://www.energy.gov/edf/pattern-puerto-rico.
+  url: https://www.energy.gov/edf/pattern-puerto-rico
+  annotation: 'DOE EDF primary: USD 489m Pattern Amanecer BESS. Supports pattern_amanecer_doe_edf_489m_pr_2026.'
+  supports:
+  - pattern_amanecer_doe_edf_489m_pr_2026
+  - hunt_energy_other_renewables
+- id: doe_lpo_aes_marahu_202410
+  type: government
+  chicago: U.S. Department of Energy, Loan Programs Office / Energy Dominance Financing. “AES MARAHU.”
+    October 2024. https://www.energy.gov/edf/aes-marahu.
+  url: https://www.energy.gov/edf/aes-marahu
+  annotation: 'DOE primary: USD 861.3m AES Marahu solar+storage. Supports aes_marahu_doe_lpo_861m_2024.'
+  supports:
+  - aes_marahu_doe_lpo_861m_2024
+  - hunt_energy_solar
+- id: sinomach_cmec_lima_water_20250901
+  type: company
+  chicago: Sinomach / China National Machinery Engineering Corporation (CMEC). “CMEC projects deliver
+    benefits to local communities.” 1 September 2025. https://www.sinomach.com.cn/en/MediaCenter/News/202509/t20250905_576128.html.
+  url: https://www.sinomach.com.cn/en/MediaCenter/News/202509/t20250905_576128.html
+  annotation: Sinomach/CMEC English primary on Lima Three Districts water handover. Supports cmec_lima_three_districts_water_2025.
+  supports:
+  - cmec_lima_three_districts_water_2025
+  - hunt_res_water
+- id: alstom_panama_metro_maint_20260924
+  type: company
+  chicago: Alstom. “Alstom signs contract for long-term maintenance of the Panama Metro.” 24 September
+    2026. https://www.alstom.com/press-releases-news/2026/9/alstom-signs-contract-long-term-maintenance-panama-metro.
+  url: https://www.alstom.com/press-releases-news/2026/9/alstom-signs-contract-long-term-maintenance-panama-metro
+  annotation: 'Alstom primary: USD 90m Panama Metro Lines 1–2 maintenance. Supports alstom_panama_metro_maint_90m_2026.'
+  supports:
+  - alstom_panama_metro_maint_90m_2026
+  - hunt_latam_rail_telecom
+- id: prfaa_tesla_genera_bess_20260129
+  type: government
+  chicago: Puerto Rico Federal Affairs Administration. “Governor González-Colón Administration Advances
+    Initiatives to Reduce Load Shedding and Increase Energy Reserves.” 29 January 2026. https://www.prfaa.pr.gov/recent-press-releases/governor-gonzalez-colon-administration-advances-initiatives-to-reduce-load-shedding-and-increase-energy-reserves.
+  url: https://www.prfaa.pr.gov/recent-press-releases/governor-gonzalez-colon-administration-advances-initiatives-to-reduce-load-shedding-and-increase-energy-reserves
+  annotation: 'PRFAA primary: Tesla/Genera 430 MW BESS / USD 767m federal. Supports tesla_genera_pr_bess_430mw_2025.'
+  supports:
+  - tesla_genera_pr_bess_430mw_2025
+  - hunt_energy_other_renewables
+- id: convergent_doe_lpo_20250117
+  type: company
+  chicago: Convergent Energy and Power. “Convergent Energy and Power Closes $584.5 Million Guaranteed
+    Loan from the U.S. Department of Energy.” 17 January 2025. https://convergentep.com/news/convergent-energy-and-power-closes-584-5-million-guaranteed-loan-from-the-u-s-department-of-energy.
+  url: https://convergentep.com/news/convergent-energy-and-power-closes-584-5-million-guaranteed-loan-from-the-u-s-department-of-energy
+  annotation: 'Convergent company primary: USD 584.5m DOE LPO solar+storage PR. Supports convergent_doe_lpo_584m_pr_2025.'
+  supports:
+  - convergent_doe_lpo_584m_pr_2025
+  - hunt_energy_solar
+- id: anr_liebherr_antigua_lhm420_20250925
+  type: press
+  chicago: Antigua News Room. “Cabinet Briefed on Arrival of New Liebherr Mobile Harbour Crane.” 25 September
+    2025. https://antiguanewsroom.com/cabinet-briefed-on-arrival-of-new-liebherr-mobile-harbour-crane/.
+  url: https://antiguanewsroom.com/cabinet-briefed-on-arrival-of-new-liebherr-mobile-harbour-crane/
+  annotation: UNVERIFIED proxy press on Cabinet briefing of Liebherr LHM 420 / USD 6.2m. Supports liebherr_antigua_lhm420_2025.
+  supports:
+  - liebherr_antigua_lhm420_2025
+  - hunt_infra_port_cranes
+- id: usaspending_jose_carro_morovis_20181029
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_36C10F19C3371_3600_-NONE-_-NONE-
+    to Construcciones Jose Carro, S.E. for Morovis National Cemetery. Signed 2018-10-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_36C10F19C3371_3600_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_36C10F19C3371_3600_-NONE-_-NONE-/
+  annotation: USASpending primary. Supports jose_carro_morovis_cemetery_2018.
+  supports:
+  - jose_carro_morovis_cemetery_2018
+  - hunt_infra_engineering_epc

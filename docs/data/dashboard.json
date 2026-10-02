@@ -5,7 +5,7 @@
   "caption": "Toggle layers and subcategories. Side colors mark U.S., PRC, allied/other, and hunt pins. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation.",
   "geography": {
     "region": "Latin America and the Caribbean",
-    "rule": "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped.",
+    "rule": "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped. Excludes U.S. territories: Puerto Rico, USVI (archive us_territory_out_of_scope).",
     "countries": [
       "Antigua and Barbuda",
       "Argentina",
@@ -33,7 +33,6 @@
       "Panama",
       "Paraguay",
       "Peru",
-      "Puerto Rico",
       "Saint Kitts and Nevis",
       "Saint Lucia",
       "Saint Vincent and the Grenadines",
@@ -88,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 932,
+    "n_rows": 982,
     "counts": {
-      "total": 932,
-      "active": 840,
+      "total": 982,
+      "active": 785,
       "hunt": 42,
-      "archived": 72,
+      "archived": 177,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 153,
+      "proxy": 154,
       "exclude": 18,
-      "documented": 707,
-      "on_map": 824
+      "documented": 756,
+      "on_map": 769
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 156,
-        "prc": 97,
-        "allied": 95,
-        "n": 348
+        "us": 124,
+        "prc": 98,
+        "allied": 94,
+        "n": 316
       },
       "usd": {
-        "us": 8770563351.179998,
-        "us_n": 88,
+        "us": 8015263538.119999,
+        "us_n": 56,
         "prc": 5033085094.13,
         "prc_n": 22,
-        "allied": 10696377851.490002,
-        "allied_n": 30
+        "allied": 10767634000.0,
+        "allied_n": 27
       },
       "matched_gaps": {
         "n": 1,
@@ -129,14 +128,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 70,
-        "prc": 41,
+        "us": 57,
+        "prc": 44,
         "allied": 109,
-        "n": 220
+        "n": 210
       },
       "usd": {
-        "us": 26444269833.52,
-        "us_n": 40,
+        "us": 24752802296.0,
+        "us_n": 27,
         "prc": 7854672882.0,
         "prc_n": 23,
         "allied": 39837618653.2,
@@ -152,18 +151,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 95,
-        "prc": 100,
-        "allied": 75,
-        "n": 270
+        "us": 80,
+        "prc": 105,
+        "allied": 72,
+        "n": 257
       },
       "usd": {
-        "us": 18076238222.54,
-        "us_n": 37,
+        "us": 11743785515.13,
+        "us_n": 24,
         "prc": 4574477608.25,
         "prc_n": 14,
-        "allied": 4897299849.38,
-        "allied_n": 26
+        "allied": 4203418889.2300005,
+        "allied_n": 22
       },
       "matched_gaps": {
         "n": 1,
@@ -175,12 +174,36 @@
   ],
   "country_readouts": [
     {
+      "country": "Antigua and Barbuda",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 1,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        }
+      }
+    },
+    {
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 21,
+        "prc": 22,
         "allied": 27,
-        "n": 65
+        "n": 66
       },
       "usd": {
         "us": 7270869147.0,
@@ -193,7 +216,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 5,
+          "prc": 6,
           "allied": 11
         },
         "infrastructure": {
@@ -211,14 +234,14 @@
     {
       "country": "Bahamas",
       "counts": {
-        "us": 3,
+        "us": 5,
         "prc": 0,
-        "allied": 0,
-        "n": 3
+        "allied": 1,
+        "n": 6
       },
       "usd": {
-        "us": 426706169.85,
-        "us_n": 3,
+        "us": 472548290.34000003,
+        "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -231,8 +254,37 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 1,
+          "us": 3,
           "prc": 0,
+          "allied": 1
+        }
+      }
+    },
+    {
+      "country": "Barbados",
+      "counts": {
+        "us": 0,
+        "prc": 2,
+        "allied": 1,
+        "n": 3
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        },
+        "resources": {
+          "us": 0,
+          "prc": 2,
           "allied": 0
         }
       }
@@ -270,9 +322,9 @@
       "country": "Bolivia",
       "counts": {
         "us": 0,
-        "prc": 2,
+        "prc": 3,
         "allied": 0,
-        "n": 2
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -285,7 +337,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         },
         "infrastructure": {
@@ -298,14 +350,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 72,
+        "us": 73,
         "prc": 68,
         "allied": 105,
-        "n": 245
+        "n": 246
       },
       "usd": {
-        "us": 2520267498.1,
-        "us_n": 13,
+        "us": 2565038918.5499997,
+        "us_n": 14,
         "prc": 1312595264.55,
         "prc_n": 11,
         "allied": 4439359384.93,
@@ -318,7 +370,7 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 37,
+          "us": 38,
           "prc": 20,
           "allied": 29
         },
@@ -366,14 +418,14 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 8,
-        "prc": 14,
+        "us": 9,
+        "prc": 16,
         "allied": 10,
-        "n": 32
+        "n": 35
       },
       "usd": {
-        "us": 227600000.0,
-        "us_n": 2,
+        "us": 250706908.27,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 667000000.0,
@@ -382,11 +434,11 @@
       "by_layer": {
         "energy": {
           "us": 6,
-          "prc": 10,
+          "prc": 12,
           "allied": 2
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 3,
           "allied": 6
         },
@@ -429,14 +481,14 @@
     {
       "country": "Cuba",
       "counts": {
-        "us": 1,
+        "us": 8,
         "prc": 0,
         "allied": 1,
-        "n": 2
+        "n": 9
       },
       "usd": {
-        "us": 82758090.73,
-        "us_n": 1,
+        "us": 301234554.63,
+        "us_n": 8,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 101059504.3,
@@ -449,6 +501,11 @@
           "allied": 1
         },
         "infrastructure": {
+          "us": 7,
+          "prc": 0,
+          "allied": 0
+        },
+        "resources": {
           "us": 1,
           "prc": 0,
           "allied": 0
@@ -482,14 +539,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 5,
+        "us": 4,
         "prc": 2,
         "allied": 7,
-        "n": 14
+        "n": 13
       },
       "usd": {
-        "us": 2650934461.57,
-        "us_n": 2,
+        "us": 150934461.57,
+        "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -497,7 +554,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 4,
+          "us": 3,
           "prc": 0,
           "allied": 3
         },
@@ -516,14 +573,14 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 14,
+        "us": 15,
         "prc": 12,
         "allied": 15,
-        "n": 41
+        "n": 42
       },
       "usd": {
-        "us": 375771715.81,
-        "us_n": 7,
+        "us": 449276654.14,
+        "us_n": 8,
         "prc": 2491134740.0,
         "prc_n": 6,
         "allied": 817756466.0,
@@ -536,7 +593,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 3,
           "allied": 2
         },
@@ -550,14 +607,14 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 2,
         "allied": 2,
-        "n": 10
+        "n": 11
       },
       "usd": {
-        "us": 13100000.0,
-        "us_n": 2,
+        "us": 42000833.989999995,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 150000000.0,
@@ -570,7 +627,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 0,
+          "us": 1,
           "prc": 0,
           "allied": 1
         },
@@ -671,20 +728,25 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 1,
+        "us": 3,
         "prc": 0,
         "allied": 0,
-        "n": 1
+        "n": 3
       },
       "usd": {
-        "us": 72262286.45,
-        "us_n": 1,
+        "us": 123347801.58000001,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
         "allied_n": 0
       },
       "by_layer": {
+        "energy": {
+          "us": 2,
+          "prc": 0,
+          "allied": 0
+        },
         "infrastructure": {
           "us": 1,
           "prc": 0,
@@ -695,14 +757,14 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 4,
+        "us": 8,
         "prc": 2,
         "allied": 1,
-        "n": 7
+        "n": 11
       },
       "usd": {
-        "us": 320215569.46000004,
-        "us_n": 2,
+        "us": 429614829.68000007,
+        "us_n": 6,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 100000000.0,
@@ -715,7 +777,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 3,
+          "us": 7,
           "prc": 0,
           "allied": 1
         }
@@ -724,14 +786,14 @@
     {
       "country": "Jamaica",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 12,
         "allied": 1,
-        "n": 14
+        "n": 15
       },
       "usd": {
-        "us": 1055000000.0,
-        "us_n": 1,
+        "us": 1105651629.58,
+        "us_n": 2,
         "prc": 294000000.0,
         "prc_n": 2,
         "allied": 0.0,
@@ -744,7 +806,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 0,
+          "us": 1,
           "prc": 12,
           "allied": 0
         }
@@ -753,14 +815,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 29,
+        "us": 30,
         "prc": 14,
         "allied": 26,
-        "n": 69
+        "n": 70
       },
       "usd": {
-        "us": 2464735416.7400002,
-        "us_n": 18,
+        "us": 2535735416.7400002,
+        "us_n": 19,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -773,7 +835,7 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 18,
+          "us": 19,
           "prc": 10,
           "allied": 15
         },
@@ -817,28 +879,28 @@
       "country": "Panama",
       "counts": {
         "us": 3,
-        "prc": 3,
-        "allied": 5,
-        "n": 11
+        "prc": 4,
+        "allied": 6,
+        "n": 13
       },
       "usd": {
         "us": 70980242.32,
         "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 301900000.0,
-        "allied_n": 3
+        "allied": 391900000.0,
+        "allied_n": 4
       },
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 0,
+          "prc": 1,
           "allied": 1
         },
         "infrastructure": {
           "us": 3,
           "prc": 3,
-          "allied": 4
+          "allied": 5
         }
       }
     },
@@ -870,9 +932,9 @@
       "country": "Peru",
       "counts": {
         "us": 12,
-        "prc": 31,
+        "prc": 32,
         "allied": 23,
-        "n": 66
+        "n": 67
       },
       "usd": {
         "us": 5640000000.0,
@@ -895,42 +957,8 @@
         },
         "resources": {
           "us": 6,
-          "prc": 9,
+          "prc": 10,
           "allied": 5
-        }
-      }
-    },
-    {
-      "country": "Puerto Rico",
-      "counts": {
-        "us": 81,
-        "prc": 0,
-        "allied": 8,
-        "n": 89
-      },
-      "usd": {
-        "us": 7010457701.050003,
-        "us_n": 79,
-        "prc": 0.0,
-        "prc_n": 0,
-        "allied": 712624811.6400001,
-        "allied_n": 8
-      },
-      "by_layer": {
-        "energy": {
-          "us": 16,
-          "prc": 0,
-          "allied": 4
-        },
-        "infrastructure": {
-          "us": 51,
-          "prc": 0,
-          "allied": 4
-        },
-        "resources": {
-          "us": 14,
-          "prc": 0,
-          "allied": 0
         }
       }
     },
@@ -938,9 +966,9 @@
       "country": "Suriname",
       "counts": {
         "us": 2,
-        "prc": 1,
+        "prc": 2,
         "allied": 0,
-        "n": 3
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -958,7 +986,7 @@
         },
         "infrastructure": {
           "us": 2,
-          "prc": 0,
+          "prc": 1,
           "allied": 0
         }
       }
@@ -966,14 +994,14 @@
     {
       "country": "Trinidad and Tobago",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 0,
         "allied": 0,
-        "n": 1
+        "n": 2
       },
       "usd": {
-        "us": 353585673.0,
-        "us_n": 1,
+        "us": 368084225.7,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -981,7 +1009,7 @@
       },
       "by_layer": {
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 0,
           "allied": 0
         }
@@ -1501,7 +1529,6 @@
       "southern_copper_el_pilar_551m_2026",
       "hitachi_chile_mobile_digital_substation_2026",
       "aldesa_chiapas_tunnels_659m_2026",
-      "usace_ferrovial_rio_puerto_nuevo_1079m_2026",
       "nextracker_casa_dos_ventos_1p5gw_2025",
       "jan_de_nul_via_navegable_troncal_2026",
       "st_george_cefet_pilot_plant_2026",
@@ -1542,7 +1569,6 @@
       "baker_hughes_petrobras_completions_2025",
       "baker_hughes_petrobras_subsea_trees_50_2025",
       "afry_acelen_bahia_owners_eng_2026",
-      "ge_vernova_prepa_lm2500xpress_pr_2025",
       "state_grid_mantiqueira_tx_2025",
       "orion_capstone_santo_domingo_360m_2025",
       "mmg_chalcobamba_877m_senace_2025",
@@ -1727,18 +1753,15 @@
       "ja_solar_exel_400mw_mexico_2026",
       "mingyang_copel_brazil_wind_2024",
       "cwe_zapallar_embalse_chile_2026",
-      "solarmax_pr_bess_epc_158m_2025",
       "stem_granja_powertrack_ems_chile_2026",
       "cbi_vmos_punta_colorada_storage_2025",
       "trina_luz_del_norte_bess_722mwh_2026",
       "trina_alma_sur_bess_481mwh_2026",
-      "ctdc_hostos_hvdc_dr_pr_2026",
       "chexim_bndes_fund_600m_2025",
       "goldwind_jacobina_02_04_tsi_2025",
       "goldwind_jacobina_05_tsi_2026",
       "wabtec_transap_c30aci_chile_2025",
       "seraphim_spic_zuma_module_replace_2025",
-      "quanta_luma_dist_525m_2025",
       "zpmc_kingston_sts_2025",
       "chec_sucre_yamparaez_bolivia_2025",
       "huawei_aggreko_amazonas_bess_2026",
@@ -1747,93 +1770,28 @@
       "apmt_balboa_temp_panama_2026",
       "til_cristobal_temp_panama_2026",
       "terra_conuar_solo_argentina_2025",
-      "crowley_american_energy_lng_pr_2025",
       "cox_santa_cruz_wind_panama_2026",
       "first_solar_zacapa_exim_guatemala_2021",
       "maspv_estanzuela_guatemala_2026",
       "zpmc_cct_hybrid_rtg_panama_2024",
       "crbc_lima_canta_highway_2025",
-      "fhwa_novel_pr155_morovis_2024",
-      "fhwa_ddd_dvg_canovanas_2026",
       "acciona_cagepa_paraiba_498m_eur_2026",
       "yahua_grandchen_bandeira_offtake_2026",
-      "fhwa_maglez_pr108_2025",
-      "fhwa_lpc_pr1_pr10_adjuntas_2026",
-      "fhwa_caribbean_sign_pr_er27_2026",
-      "fhwa_jc_associates_pr_er16_2026",
       "chexim_guyana_east_coast_192m_2022",
-      "fhwa_lpc_pr144_ciales_2024",
-      "fhwa_obratec_barranquitas_2024",
-      "fhwa_lpc_utuado_46slides_2023",
-      "fhwa_novel_ciales_multi_2023",
       "boc_demerara_bridge_loan_160p8m_eur_2022",
       "ustda_honduras_interoceanic_rail_2026",
-      "fhwa_lpc_pr10_utuado_2022",
-      "fhwa_jm_caribbean_signs_2022",
-      "fhwa_ddd_dvg_aibonito_2022",
-      "fhwa_nieves_angeles_utuado_2022",
-      "fhwa_caribe_tecno_yunque_2021",
       "zpmc_chancay_sts_rmg_rtg_2024",
       "exim_atlantida_olanchito_solar_2022",
       "cbmm_araxa_capex_630m_2024",
-      "fhwa_nieves_lares_2024",
-      "fhwa_caribbean_sign_pr123_2021",
-      "fhwa_jc_associates_east_2022",
-      "fhwa_master_pavement_pr52_2021",
-      "fhwa_jpi_maunabo_2023",
-      "fhwa_novel_yunque_fs27_2021",
       "ganfeng_pozuelos_dev_200m_2025",
       "ganfeng_ppg_jv_framework_2025",
-      "fhwa_jpi_anasco_2023",
-      "fhwa_jpi_naguabo_2021",
-      "atkinsrealis_fhwa_pr_inspect_2023",
-      "atkinsrealis_fhwa_yunque_inspect_2022",
-      "atkinsrealis_fhwa_pr12_inspect_2024",
-      "jacobs_fhwa_pr25_inspect_2026",
       "cdb_bndes_rmb5bn_2024",
-      "mj_cardno_fhwa_pr10_inspect_2023",
-      "weston_palo_seco_temp_power_2023",
-      "weston_san_juan_temp_power_2023",
       "sungrow_zelestra_aurora_bess_2025",
-      "ferrovial_usace_drilled_shaft_6c_2024",
-      "novel_cano_martin_pena_2025",
-      "curtin_san_juan_harbor_dredge_2023",
       "trinatracker_cgn_lagoa_barro_2025",
-      "rq_lord_ramey_arc_microgrid_2024",
-      "parsons_pesquera_arc_microgrid_2024",
-      "johnson_controls_buchanan_res_0003_2011",
-      "johnson_controls_buchanan_res_0006_2012",
-      "aptim_yabucoa_temp_power_2017",
-      "flatiron_bechara_puerto_nuevo_2011",
-      "del_valle_rpn_2d_walls_2017",
-      "lpcd_rpn_margarita_2014",
-      "johnson_controls_prng_espc_2014",
-      "caribbean_lumber_valor_materials_2018",
-      "schneider_espc_pr_cool_roofs_2010",
-      "fluor_pr_transmission_distribution_2017",
-      "powersecure_pr_grid_survey_2017",
-      "del_valle_guajataca_stage2_2018",
-      "del_valle_guajataca_risk_2018",
-      "wsp_aci_tep_pr_2022",
-      "tutor_perini_uscg_bayamon_2025",
-      "fluor_pr_grid_restore_2017",
-      "tutor_perini_uscg_sj_phase2_2022",
-      "tutor_perini_uscg_sj_phase3_2022",
-      "rq_aecom_borinquen_phase2_2022",
-      "caddell_nova_borinquen_2022",
       "sungrow_mercury_helio_valgas_2022",
-      "flatiron_margarita_channel_2010",
       "sungrow_focus_futura_juazeiro_2021",
       "sungrow_engie_bess_coya_638mwh_2022",
-      "wsp_maria_nonfederal_generators_2017",
-      "thompson_guajataca_pumping_2018",
       "sungrow_hdec_atacama_480mw_2022",
-      "rq_aecom_ponce_rio_2021",
-      "weston_maria_temp_power_2017",
-      "wsp_maria_power_install_2017",
-      "foresight_guajataca_gates_2018",
-      "flatiron_portugues_dam_2008",
-      "carro_de_diego_bridge_2007",
       "caddell_mexico_city_nec_2017",
       "caddell_brasilia_nec_2022",
       "caddell_port_of_spain_nec_2024",
@@ -1845,7 +1803,6 @@
       "caddell_asuncion_nec_2017",
       "caddell_rio_consulate_2022",
       "bl_harbert_guadalajara_ncc_2018",
-      "tutor_perini_sj_customs_2021",
       "bl_harbert_hermosillo_ncc_2018",
       "bl_harbert_merida_ncc_2019",
       "bl_harbert_nogales_ncc_2018",
@@ -1862,25 +1819,41 @@
       "jajones_belmopan_nec_2004",
       "caddell_tijuana_ncc_2007",
       "cce_guayaquil_nab_2008",
-      "walsh_sj_federal_building_2016",
-      "tec_lares_crib_dam_2008",
-      "carro_ponce_cofferdam_2020",
-      "desarrolladora_culebrinas_bridge_2017",
-      "del_valle_manati_bridge_2017",
-      "lpcd_el_yunque_pr930_2018",
-      "aluma_vieques_camp_garcia_2008",
-      "lpcd_route9966_wall_2012",
-      "design_build_ciales_branch2_2017",
-      "melendez_coamo_branch4_2017",
-      "lpcd_caguas_branch3_2017",
-      "santiago_utuado_branch2_2017",
-      "lagan_vieques_roads_2007",
-      "jose_carro_arecibo_branch2_2017",
-      "del_valle_mercedita_branch4_2017",
-      "desarrolladora_ja_ciales_branch4_2017",
-      "ch2m_uscg_frc_san_juan_2012",
-      "tutor_perini_uscg_frc_p2_2013",
-      "contractor_jv_prarng_jtc_2022"
+      "zachry_ecuador_construction_2005",
+      "caddell_mexico_nec_2005",
+      "fluor_jamaica_construction_2003",
+      "vistas_porto_alegre_consulate_2015",
+      "futron_san_salvador_csu_2022",
+      "cce_bogota_annex_2005",
+      "src_tegucigalpa_nec_pe_2019",
+      "powerchina_cauchari_solar_epc_2020",
+      "powerchina_sajalices_panama_530mw_2024",
+      "cmf_great_inagua_opbat_2011",
+      "cce_soto_cano_barracks_2011",
+      "perini_haiti_substations_2011",
+      "cavagnero_pos_nec_bridging_2020",
+      "rq_gtmo_solid_waste_2019",
+      "rq_gtmo_wharf_bravo_2016",
+      "eterna_soto_cano_hangar_2021",
+      "eterna_soto_cano_aviation_storage_2025",
+      "powerchina_ecopetrol_cartagena_23mw_2024",
+      "powerchina_barbados_water_infra_2025",
+      "powerchina_tepuy_pv_108mw_2024",
+      "aecom_gtmo_fuel_pier_2013",
+      "v2x_gtmo_potable_water_2025",
+      "islands_mechanical_migrant_ops_2007",
+      "crbc_saramacca_bridge_suriname_2025",
+      "nreca_caracol_power_2013",
+      "orion_autec_pier_2021",
+      "rq_gtmo_mass_migration_2018",
+      "knik_gtmo_runway_2007",
+      "windey_warnes_ii_bolivia_45mw_2025",
+      "vergnet_claybury_barbados_2025",
+      "konecranes_arawak_nassau_esp6_2024",
+      "crseg_barbados_south_coast_water_2026",
+      "cmec_lima_three_districts_water_2025",
+      "alstom_panama_metro_maint_90m_2026",
+      "liebherr_antigua_lhm420_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -1954,6 +1927,8 @@
       "sedgman_colossus_epcm_2026",
       "powerchina_ufn3_petrobras_epc_2026",
       "kbr_pampa_bahia_blanca_ammonia_2026",
+      "usace_ferrovial_rio_puerto_nuevo_1079m_2026",
+      "ge_vernova_prepa_lm2500xpress_pr_2025",
       "powerchina_ufn_iii_tres_lagoas_2026",
       "powerchina_montenegro_hospital_lima_2025",
       "chec_taltal_school_chile_2026",
@@ -1983,7 +1958,110 @@
       "cmoc_equinox_brazil_gold_1p015bn_2026",
       "sinohydro_hospital_piura_3202m_pen_2025",
       "sinohydro_hospital_la_caleta_chimbote_549m_pen_2025",
-      "fhwa_professional_stx_bridges_2023"
+      "solarmax_pr_bess_epc_158m_2025",
+      "ctdc_hostos_hvdc_dr_pr_2026",
+      "quanta_luma_dist_525m_2025",
+      "crowley_american_energy_lng_pr_2025",
+      "fhwa_novel_pr155_morovis_2024",
+      "fhwa_ddd_dvg_canovanas_2026",
+      "fhwa_maglez_pr108_2025",
+      "fhwa_lpc_pr1_pr10_adjuntas_2026",
+      "fhwa_caribbean_sign_pr_er27_2026",
+      "fhwa_jc_associates_pr_er16_2026",
+      "fhwa_lpc_pr144_ciales_2024",
+      "fhwa_obratec_barranquitas_2024",
+      "fhwa_lpc_utuado_46slides_2023",
+      "fhwa_novel_ciales_multi_2023",
+      "fhwa_professional_stx_bridges_2023",
+      "fhwa_lpc_pr10_utuado_2022",
+      "fhwa_jm_caribbean_signs_2022",
+      "fhwa_ddd_dvg_aibonito_2022",
+      "fhwa_nieves_angeles_utuado_2022",
+      "fhwa_caribe_tecno_yunque_2021",
+      "fhwa_nieves_lares_2024",
+      "fhwa_caribbean_sign_pr123_2021",
+      "fhwa_jc_associates_east_2022",
+      "fhwa_master_pavement_pr52_2021",
+      "fhwa_jpi_maunabo_2023",
+      "fhwa_novel_yunque_fs27_2021",
+      "fhwa_jpi_anasco_2023",
+      "fhwa_jpi_naguabo_2021",
+      "atkinsrealis_fhwa_pr_inspect_2023",
+      "atkinsrealis_fhwa_yunque_inspect_2022",
+      "atkinsrealis_fhwa_pr12_inspect_2024",
+      "jacobs_fhwa_pr25_inspect_2026",
+      "mj_cardno_fhwa_pr10_inspect_2023",
+      "weston_palo_seco_temp_power_2023",
+      "weston_san_juan_temp_power_2023",
+      "ferrovial_usace_drilled_shaft_6c_2024",
+      "novel_cano_martin_pena_2025",
+      "curtin_san_juan_harbor_dredge_2023",
+      "rq_lord_ramey_arc_microgrid_2024",
+      "parsons_pesquera_arc_microgrid_2024",
+      "johnson_controls_buchanan_res_0003_2011",
+      "johnson_controls_buchanan_res_0006_2012",
+      "aptim_yabucoa_temp_power_2017",
+      "flatiron_bechara_puerto_nuevo_2011",
+      "del_valle_rpn_2d_walls_2017",
+      "lpcd_rpn_margarita_2014",
+      "johnson_controls_prng_espc_2014",
+      "caribbean_lumber_valor_materials_2018",
+      "schneider_espc_pr_cool_roofs_2010",
+      "fluor_pr_transmission_distribution_2017",
+      "powersecure_pr_grid_survey_2017",
+      "del_valle_guajataca_stage2_2018",
+      "del_valle_guajataca_risk_2018",
+      "wsp_aci_tep_pr_2022",
+      "tutor_perini_uscg_bayamon_2025",
+      "fluor_pr_grid_restore_2017",
+      "tutor_perini_uscg_sj_phase2_2022",
+      "tutor_perini_uscg_sj_phase3_2022",
+      "rq_aecom_borinquen_phase2_2022",
+      "caddell_nova_borinquen_2022",
+      "flatiron_margarita_channel_2010",
+      "wsp_maria_nonfederal_generators_2017",
+      "thompson_guajataca_pumping_2018",
+      "rq_aecom_ponce_rio_2021",
+      "weston_maria_temp_power_2017",
+      "wsp_maria_power_install_2017",
+      "foresight_guajataca_gates_2018",
+      "flatiron_portugues_dam_2008",
+      "carro_de_diego_bridge_2007",
+      "tutor_perini_sj_customs_2021",
+      "walsh_sj_federal_building_2016",
+      "tec_lares_crib_dam_2008",
+      "carro_ponce_cofferdam_2020",
+      "desarrolladora_culebrinas_bridge_2017",
+      "del_valle_manati_bridge_2017",
+      "lpcd_el_yunque_pr930_2018",
+      "aluma_vieques_camp_garcia_2008",
+      "lpcd_route9966_wall_2012",
+      "design_build_ciales_branch2_2017",
+      "melendez_coamo_branch4_2017",
+      "lpcd_caguas_branch3_2017",
+      "santiago_utuado_branch2_2017",
+      "lagan_vieques_roads_2007",
+      "jose_carro_arecibo_branch2_2017",
+      "del_valle_mercedita_branch4_2017",
+      "desarrolladora_ja_ciales_branch4_2017",
+      "ch2m_uscg_frc_san_juan_2012",
+      "tutor_perini_uscg_frc_p2_2013",
+      "contractor_jv_prarng_jtc_2022",
+      "dick_usace_dams_pr_2002",
+      "rb_buchanan_readiness_2012",
+      "qb_munoz_ang_comms_2021",
+      "teksol_pier_echo_2025",
+      "ics_borinquen_hangar_2019",
+      "conti_buchanan_range_ops_2024",
+      "rb_degetau_hurricane_recovery_2019",
+      "consigli_ceiba_afrc_2009",
+      "cscg_mayaguez_cbp_2022",
+      "fr_buchanan_astb_2025",
+      "pattern_amanecer_doe_edf_489m_pr_2026",
+      "aes_marahu_doe_lpo_861m_2024",
+      "tesla_genera_pr_bess_430mw_2025",
+      "convergent_doe_lpo_584m_pr_2025",
+      "jose_carro_morovis_cemetery_2018"
     ]
   }
 }
