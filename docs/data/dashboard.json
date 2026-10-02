@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 1055,
+    "n_rows": 1059,
     "counts": {
-      "total": 1055,
-      "active": 857,
+      "total": 1059,
+      "active": 861,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 828,
-      "on_map": 839
+      "documented": 832,
+      "on_map": 843
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 126,
+        "us": 127,
         "prc": 107,
         "allied": 94,
-        "n": 327
+        "n": 328
       },
       "usd": {
-        "us": 8108430640.119999,
-        "us_n": 57,
+        "us": 8110630640.119999,
+        "us_n": 58,
         "prc": 10587085094.130001,
         "prc_n": 25,
         "allied": 10767634000.0,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 97,
-        "prc": 130,
+        "us": 98,
+        "prc": 132,
         "allied": 78,
-        "n": 305
+        "n": 308
       },
       "usd": {
         "us": 12148785515.13,
@@ -201,9 +201,9 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 27,
+        "prc": 28,
         "allied": 27,
-        "n": 71
+        "n": 72
       },
       "usd": {
         "us": 7270869147.0,
@@ -216,7 +216,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 8,
+          "prc": 9,
           "allied": 11
         },
         "infrastructure": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 39,
-        "prc": 38,
+        "us": 40,
+        "prc": 39,
         "allied": 47,
-        "n": 124
+        "n": 126
       },
       "usd": {
         "us": 21411000000.0,
@@ -404,8 +404,8 @@
       },
       "by_layer": {
         "energy": {
-          "us": 26,
-          "prc": 29,
+          "us": 27,
+          "prc": 30,
           "allied": 12
         },
         "infrastructure": {
@@ -883,14 +883,14 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 3,
+        "us": 4,
         "prc": 4,
         "allied": 6,
-        "n": 13
+        "n": 14
       },
       "usd": {
-        "us": 70980242.32,
-        "us_n": 1,
+        "us": 73180242.32,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 391900000.0,
@@ -903,7 +903,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 3,
           "allied": 5
         }
@@ -1935,7 +1935,11 @@
       "dfc_ienova_mexico_4solar_241m_2020",
       "aes_andes_los_olmos_110mw_cod_2022",
       "powerchina_las_acacias_colombia_240mw_epc_2024",
-      "crec7_alameda_melipilla_depot_90m_2025"
+      "crec7_alameda_melipilla_depot_90m_2025",
+      "aes_andes_mesamavida_68mw_cod_2022",
+      "aecom_panama_david_master_plan_2p2m_2024",
+      "goldwind_lomas_taltal_342mw_install_2024",
+      "powerchina_cafayate_argentina_97p6mw_epc"
     ],
     "hunt": [
       "hunt_br_power_equip",
