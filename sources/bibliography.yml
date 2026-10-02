@@ -5641,3 +5641,86 @@
   supports:
   - powerchina_ituango_surge_chamber_2026
   - hunt_br_power_equip
+- id: enelsubte_crrc_amba_dmu_20260512
+  type: press
+  chicago: enelSubte. “Adjudicaron a CRRC la compra de nuevos trenes diésel para el AMBA.” 12 May
+    2026.
+  url: https://enelsubte.com/noticias/adjudicaron-a-crrc-la-compra-de-nuevos-trenes-diesel-para-el-amba/
+  annotation: SOFSA award of 43 AMBA DMUs to CRIIC–CRRC Tangshan UTE. Supports crrc_criic_amba_43dmu_2026.
+  supports:
+  - crrc_criic_amba_43dmu_2026
+  - hunt_latam_rail_telecom
+- id: argentina_gob_43_trenes_amba_20251120
+  type: government
+  chicago: Argentina. Presidencia de la Nación / Trenes Argentinos Operaciones. “El Gobierno Nacional
+    lanza la compra de 43 trenes nuevos.” 20 November 2025.
+  url: https://www.argentina.gob.ar/noticias/el-gobierno-nacional-lanza-la-compra-de-43-trenes-nuevos-0
+  annotation: Launch notice stating ~USD 300m for 43 AMBA DMUs (UNVERIFIED award-value proxy). Supports
+    crrc_criic_amba_43dmu_2026.
+  supports:
+  - crrc_criic_amba_43dmu_2026
+- id: mendozapost_crrc_cercanias_20260706
+  type: press
+  chicago: Lemos, Federico. “EL TREN DE CERCANÍAS ya tiene adjudicatarios — cuánto costará y qué tramo
+    suma.” Mendoza Post, 6 July 2026.
+  url: https://www.mendozapost.com/economia/el-tren-de-cercanias-ya-tiene-adjudicatarios-cuanto-costara-y-que-tramo-suma-7851/
+  annotation: Decreto 1295 Rubro 3 CRRC Tangshan USD 15.73m Mendoza Cercanías rolling stock. Supports
+    crrc_mendoza_cercanias_dmu_2026.
+  supports:
+  - crrc_mendoza_cercanias_dmu_2026
+  - hunt_latam_rail_telecom
+- id: jornada_maya_cruz_azul_seybaplaya_20250923
+  type: press
+  chicago: La Jornada Maya. “Inicia Cruz Azul construcción de fábrica cementera en Seybaplaya.” 23 September
+    2025.
+  url: https://www.lajornadamaya.mx/campeche/252821/inicia-cruz-azul-construccion-de-fabrica-cementera-en-seybaplaya
+  annotation: Cruz Azul Seybaplaya cement plant groundbreaking with Sinoma/CNBM Equipment Group. Supports
+    sinoma_cnbm_cruz_azul_seybaplaya_2025.
+  supports:
+  - sinoma_cnbm_cruz_azul_seybaplaya_2025
+  - hunt_infra_building_materials
+- id: sanjuan8_powerchina_vicuna_batidero_20260605
+  type: press
+  chicago: San Juan8. “Vicuña adjudicó a un consorcio liderado por PowerChina para ampliar el campamento.”
+    5 June 2026.
+  url: https://www.sanjuan8.com/san-juan/vicuna-adjudico-un-consorcio-liderado-powerchina-ampliar-el-campamento-n1562861
+  annotation: PowerChina-led Batidero camp stage 2 EPC (~USD 52m UNVERIFIED). Supports powerchina_vicuna_batidero_camp_2026.
+  supports:
+  - powerchina_vicuna_batidero_camp_2026
+  - hunt_infra_engineering_epc
+- id: slb_amapa_3d_20260908
+  type: company
+  chicago: SLB. “SLB and Shearwater Launch Amapá 3D Seismic Survey Offshore Brazil.” Press release, 8
+    September 2026.
+  url: https://www.slb.com/newsroom/press-release/2026/pr-2026-0908-slb-shearwater
+  annotation: SLB–Shearwater Amapá 3D multi-client seismic (Equatorial Margin). Supports slb_amapa_3d_seismic_brazil_2026.
+  supports:
+  - slb_amapa_3d_seismic_brazil_2026
+  - hunt_infra_engineering_epc
+- id: nov_acu_flexible_pipe_20260325
+  type: company
+  chicago: NOV Inc. “NOV Announces Expansion of Subsea Flexible Pipe Manufacturing Capacity to Support
+    Growing Demand.” GlobeNewswire, 25 March 2026.
+  url: https://www.globenewswire.com/news-release/2026/03/25/3262036/0/en/NOV-Announces-Expansion-of-Subsea-Flexible-Pipe-Manufacturing-Capacity-to-Support-Growing-Demand.html
+  annotation: NOV USD 200m Açu Brazil flexible-pipe capacity expansion. Supports nov_acu_flexible_pipe_200m_2026.
+  supports:
+  - nov_acu_flexible_pipe_200m_2026
+  - hunt_infra_engineering_epc
+- id: weatherford_noble_guyana_mpd_20260505
+  type: company
+  chicago: Weatherford International plc. “Weatherford Awarded Multi-Region Managed Pressure Drilling
+    and Global Aftermarket Agreement with Noble.” 5 May 2026.
+  url: https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18536
+  annotation: Two deepwater MPD systems for Noble Guyana ops. Supports weatherford_noble_guyana_mpd_2026.
+  supports:
+  - weatherford_noble_guyana_mpd_2026
+  - hunt_infra_engineering_epc
+- id: weatherford_constellation_brazil_20260506
+  type: company
+  chicago: Weatherford International plc. “Weatherford Wins Managed Pressure Drilling and Subsea Intervention
+    Contracts with Constellation Oil Services in Offshore Brazil.” 6 May 2026.
+  url: https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18546
+  annotation: Constellation Gold Star intervention + Brava Star Búzios MPD awards. Supports weatherford_constellation_brazil_2026.
+  supports:
+  - weatherford_constellation_brazil_2026
+  - hunt_infra_engineering_epc
