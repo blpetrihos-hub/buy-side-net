@@ -7095,3 +7095,51 @@
   supports:
   - corex_cerro_matoso_colombia_2025
   - hunt_res_nickel
+- id: fcx_renewable_cerro_verde_el_abra_20260202
+  type: company
+  chicago: "Freeport-McMoRan. “Renewable Energy Powering Cerro Verde and El Abra.” Freeport Features, 2 February 2026."
+  url: https://www.fcx.com/freeport-features/020226
+  annotation: "Freeport renewable PPAs for Cerro Verde and El Abra; San Martín solar link. Supports fcx_cerro_verde_el_abra_renewable_ppa_2026."
+  supports:
+  - fcx_cerro_verde_el_abra_renewable_ppa_2026
+  - hunt_res_copper
+- id: pronis_hospital_piura_20251004
+  type: official
+  chicago: "Programa Nacional de Inversiones en Salud (PRONIS), Ministerio de Salud del Perú. “Minsa: firman contrato para la construcción del nuevo Hospital de Alta Complejidad de Piura.” 4 October 2025."
+  url: https://www.gob.pe/institucion/pronis/noticias/1259074-minsa-firman-contrato-para-la-construccion-del-nuevo-hospital-de-alta-complejidad-de-piura
+  annotation: "PRONIS Sinohydro Piura hospital contract S/3.202bn. Supports sinohydro_hospital_piura_3202m_pen_2025."
+  supports:
+  - sinohydro_hospital_piura_3202m_pen_2025
+  - hunt_infra_building_materials
+- id: andina_anin_hospital_caleta_chimbote_20251115
+  type: official
+  chicago: "Agencia Peruana de Noticias Andina. “ANIN suscribe contrato para construcción del nuevo Hospital La Caleta de Chimbote.” 15 November 2025."
+  url: https://andina.pe/agencia/noticia-anin-suscribe-contrato-para-construccion-del-nuevo-hospital-caleta-chimbote-1052119.aspx
+  annotation: "ANIN–Sinohydro Hospital La Caleta Chimbote >S/549m. Supports sinohydro_hospital_la_caleta_chimbote_549m_pen_2025."
+  supports:
+  - sinohydro_hospital_la_caleta_chimbote_549m_pen_2025
+  - hunt_infra_building_materials
+- id: mop_dgc_embalse_las_palmas
+  type: official
+  chicago: "Ministerio de Obras Públicas de Chile, Dirección General de Concesiones. “Concesión Embalse Las Palmas.” Project fiche (visited 2 October 2026)."
+  url: https://concesiones.mop.gob.cl/project/concesion-embalse-las-palmas/
+  annotation: "CHEC Las Palmas reservoir concession UF 3.88m / USD 158.8m. Supports chec_embalse_las_palmas_chile_158p8m_2018."
+  supports:
+  - chec_embalse_las_palmas_chile_158p8m_2018
+  - hunt_res_water
+- id: osinergmin_san_martin_solar_20250610
+  type: official
+  chicago: "Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin). “Central solar San Martín Solar inicia operación comercial en Arequipa.” 10 June 2025."
+  url: https://www.gob.pe/institucion/osinergmin/noticias/1184871-central-solar-san-martin-solar-inicia-operacion-comercial-en-arequipa
+  annotation: "San Martín Solar COD 252.4 MW; ~USD 179.7m. Supports zelestra_san_martin_peru_cod_179p7m_2025."
+  supports:
+  - zelestra_san_martin_peru_cod_179p7m_2025
+  - hunt_energy_solar
+- id: engie_bess_tocopilla_cod_20260304
+  type: company
+  chicago: "ENGIE Chile. “Obtuvimos la entrada en operación comercial de BESS Tocopilla.” 4 March 2026."
+  url: https://www.engie.cl/obtuvimos-la-entrada-en-operacion-comercial-de-bess-tocopilla/
+  annotation: "ENGIE BESS Tocopilla COD 116 MW/660 MWh (19 Feb 2026). CapEx USD 170m in ENGIE Chile 9M 2025 IR deck. Supports engie_bess_tocopilla_cod_170m_2026."
+  supports:
+  - engie_bess_tocopilla_cod_170m_2026
+  - hunt_energy_other_renewables
