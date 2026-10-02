@@ -1,11 +1,95 @@
 updated: 2026-10-02
-cycle: 176
+cycle: 177
 remote: present
 active_layer: energy
 active_subcategory: wind
-next_query: Cycle 177 shuffle_seed=20261177; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us358/prc354/allied284); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (28), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many), Venezuela (beyond solar), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
-next_row_id: (follow cycle-177 shuffled_order)
+next_query: Cycle 178 shuffle_seed=20261178; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us360/prc355/allied287); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (28), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many), Venezuela (beyond solar), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
+next_row_id: (follow cycle-178 shuffled_order)
 dry_streak: 0
+
+# === Country×subcategory sweep cells touched (session continuing from 177) ===
+# Filled this cycle: Colombia×building_materials (other Argos >USD 50m CapEx),
+#   Mexico×building_materials (allied Holcim COMOSA ready-mix), Peru×port_ownership
+#   (allied DP World Callao Adenda 4 ~USD 1.47bn), Mexico×solar (prc Sungrow
+#   Tonachihua I MXN 2,164m), Peru×copper (us FCX Cerro Verde RCF USD 350m;
+#   allied Antamina MEIA USD 2bn), Chile×copper (us Caterpillar Andina 18×798AC),
+#   Colombia×wind (other Ecopetrol JK1/JK2 49% ~USD 25.5m).
+# Still thin/empty priority cells: Haiti (many), Venezuela (beyond solar), Nicaragua
+#   rail past MoU, Peru balsa, Colombia graphite mine CapEx.
+
+# === Cycle 177 (seed 20261177) ===
+# Shuffled order: building_materials, niobium, rail, port_ownership, lithium,
+#   port_cranes, solar, graphite, power_plants_grid, copper, bridges_roads,
+#   balsa, nickel, water, engineering_epc, other_renewables, wind, fission_smr.
+# Logged 8 sourced rows (2 US / 1 PRC / 3 allied / 2 other; ≥1/3 US hunt budget):
+#   other building_materials: cementos_argos_colombia_50m_2026 (USD 50m floor).
+#   allied building_materials: holcim_comosa_mexico_2025 (CapEx blank).
+#   allied port_ownership: dpworld_callao_adenda4_1470m_2026 (USD 1,470m proposal).
+#   prc solar: sungrow_tonachihua_tlaxcala_2164mdp_2026 (MXN 2,164m / USD 126.13m).
+#   us copper: fcx_cerro_verde_rcf_350m_2026 (USD 350m RCF).
+#   allied copper: antamina_meia_2bn_2024 (USD 2bn envelope).
+#   us copper: caterpillar_andina_798ac_18_2026 (CapEx blank).
+#   other wind: ecopetrol_jk1_jk2_49pct_25p5m_2026 (USD 25.5m).
+# Skipped already-active: fcx_cerro_verde_stake_107m_2026; byd_brazil_bess_factory_500m_2026.
+# Thin top-up (balsa/nickel/fission_smr): all dry (AIMA/WITS Ecuador balsa,
+#   Centaurus/BRN/MMG nickel, Meitner/Colombia/Peru FIRST fission already logged).
+# Equal-budget misses: niobium, rail, lithium, port_cranes, graphite,
+#   power_plants_grid, bridges_roads, balsa, nickel, water, engineering_epc,
+#   other_renewables, fission_smr (catalog dense).
+# Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km package decree;
+#   CCECC Nicaragua rail still prefeasibility/feasibility.
+# Active after cycle 177: us360 / prc355 / allied287 / other51 (n=1053).
+shuffle_seed: 20261177
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- resources/niobium
+- infrastructure/rail
+- infrastructure/port_ownership
+- resources/lithium
+- infrastructure/port_cranes
+- energy/solar
+- resources/graphite
+- energy/power_plants_grid
+- resources/copper
+- infrastructure/bridges_roads
+- resources/balsa
+- resources/nickel
+- resources/water
+- infrastructure/engineering_epc
+- energy/other_renewables
+- energy/wind
+- energy/fission_smr
+rows_found_this_cycle:
+  infrastructure/building_materials: 2
+  resources/niobium: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 1
+  resources/lithium: 0
+  infrastructure/port_cranes: 0
+  energy/solar: 1
+  resources/graphite: 0
+  energy/power_plants_grid: 0
+  resources/copper: 3
+  infrastructure/bridges_roads: 0
+  resources/balsa: 0
+  resources/nickel: 0
+  resources/water: 0
+  infrastructure/engineering_epc: 0
+  energy/other_renewables: 0
+  energy/wind: 1
+  energy/fission_smr: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 1
+  allied: 3
+  other: 2
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/nickel
+  - energy/fission_smr
 
 # === Country×subcategory sweep cells touched (session continuing from 176) ===
 # Filled this cycle: Colombia×wind (us AES Guajira 549 MW ~USD 1bn),
