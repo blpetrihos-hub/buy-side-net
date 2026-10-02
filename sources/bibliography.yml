@@ -10019,3 +10019,39 @@
   supports:
   - sumec_guyana_charity_3mw_2025
   - hunt_energy_solar
+- id: aes_andes_codelco_ppa_20230111
+  type: company
+  chicago: AES Andes. “AES Andes signs a 100% renewable energy contract with Codelco.” January 11, 2023.
+    https://www.aesandes.com/en/press-release/aes-andes-signs-100-renewable-energy-contract-codelco.
+  url: https://www.aesandes.com/en/press-release/aes-andes-signs-100-renewable-energy-contract-codelco
+  annotation: 'AES Andes: Codelco 1.6 TWh/y renewable PPA 2026–2040. Supports aes_andes_codelco_ppa_1p6twh_2023.'
+  supports:
+  - aes_andes_codelco_ppa_1p6twh_2023
+  - hunt_energy_other_renewables
+- id: aes_andes_microsoft_ppa_20220406
+  type: company
+  chicago: AES Andes. “Microsoft Chile announces that its datacenter will use 100% renewable energy from
+    AES Andes.” April 6, 2022. https://www.aesandes.com/en/blog/microsoft-chile-announces-its-datacenter-will-use-100-renewable-energy-aes-andes.
+  url: https://www.aesandes.com/en/blog/microsoft-chile-announces-its-datacenter-will-use-100-renewable-energy-aes-andes
+  annotation: 'AES Andes: Microsoft Chile 100% renewable datacenter PPA. Supports aes_andes_microsoft_chile_ppa_2022.'
+  supports:
+  - aes_andes_microsoft_chile_ppa_2022
+  - hunt_energy_other_renewables
+- id: ctg_arinos_first_unit_20241023
+  type: company
+  chicago: China Three Gorges Corporation. “First grid-connected unit of CTG Brasil’s Arinos Photovoltaic
+    Project enters commercial operation.” October 23, 2024. https://www.ctg.com.cn/ctgenglish/news_media/news37/2024102316474494820/index.html.
+  url: https://www.ctg.com.cn/ctgenglish/news_media/news37/2024102316474494820/index.html
+  annotation: 'CTG: Arinos first unit 78.4 MW COD. Supports ctg_arinos_first_unit_78p4mw_2024.'
+  supports:
+  - ctg_arinos_first_unit_78p4mw_2024
+  - hunt_energy_solar
+- id: newsroom_guyana_trafalgar_solar_20251213
+  type: press
+  chicago: News Room Guyana. “Millions in fuel savings expected as Trafalgar solar farm commissioned.”
+    December 13, 2025. https://newsroom.gy/2025/12/13/millions-in-fuel-savings-expected-as-trafalgar-solar-farm-commissioned/.
+  url: https://newsroom.gy/2025/12/13/millions-in-fuel-savings-expected-as-trafalgar-solar-farm-commissioned/
+  annotation: 'News Room Guyana: Trafalgar 4 MWp COD; estimated US$8m (UNVERIFIED proxy). Supports sumec_guyana_trafalgar_8m_2025.'
+  supports:
+  - sumec_guyana_trafalgar_8m_2025
+  - hunt_energy_solar
