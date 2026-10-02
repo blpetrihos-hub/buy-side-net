@@ -7463,3 +7463,40 @@
   supports:
   - seraphim_spic_zuma_module_replace_2025
   - hunt_energy_solar
+- id: fomb_quanta_luma_525m_20251112
+  type: government
+  chicago: Financial Oversight and Management Board for Puerto Rico. Letter to LUMA Energy ServCo re Quanta
+    Services Solutions PR, LLC (RFP No. 3PPO-1123-01-DL). 12 November 2025.
+  url: https://docs.oversightboard.pr.gov/n/id6ek3qs8yrm/b/CR_PUBLIC/o/6809_LUMAandQuantaServices(1123-01DL)(November122025).pdf
+  annotation: 'FOMB primary: Quanta PR distribution IDIQ max USD 525m. Supports quanta_luma_dist_525m_2025.'
+  supports:
+  - quanta_luma_dist_525m_2025
+  - hunt_br_power_equip
+- id: zpmc_kingston_sts_20251215
+  type: company
+  chicago: Shanghai Zhenhua Heavy Industries Co., Ltd. (ZPMC). “Jamaican Prime Minister Praises China-Made
+    Port Equipment.” Company news, 15 December 2025.
+  url: https://www.zpmc.com/content/693f6faf001ae6510000000d
+  annotation: 'ZPMC primary: two post-Panamax STS quay cranes at Kingston Freeport. Supports zpmc_kingston_sts_2025.'
+  supports:
+  - zpmc_kingston_sts_2025
+  - hunt_infra_port_cranes
+- id: chec_sucre_yamparaez_20250524
+  type: company
+  chicago: China Harbour Engineering Company (CHEC Americas). “Bolivian President Launches Inspection
+    of Sucre Highway Project.” Blog, 24 May 2025.
+  url: https://www.checamerica.com/blog/2025/05/24/bolivian-president-launches-inspection-of-sucre-highway-project/
+  annotation: 'CHEC Americas primary: Sucre–Yamparáez highway inspection launch. Supports chec_sucre_yamparaez_bolivia_2025.'
+  supports:
+  - chec_sucre_yamparaez_bolivia_2025
+  - hunt_infra_bridges_roads
+- id: essnews_huawei_aggreko_amazonas_20260303
+  type: press
+  chicago: Neris, Alessandra. “Huawei and Aggreko Win Brazil’s Largest Battery Storage Contract, Will
+    Replace Diesel in the Amazon.” ESS News, 3 March 2026.
+  url: https://www.ess-news.com/2026/03/03/huawei-and-aggreko-win-brazils-largest-battery-storage-contract-will-replace-diesel-in-the-amazon/
+  annotation: 'UNVERIFIED proxy: Huawei BESS supply to Aggreko Amazonas microgrids; ~R$850m/~USD 165m
+    project. Supports huawei_aggreko_amazonas_bess_2026.'
+  supports:
+  - huawei_aggreko_amazonas_bess_2026
+  - hunt_energy_other_renewables

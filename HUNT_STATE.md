@@ -1,11 +1,99 @@
 updated: 2026-10-02
-cycle: 92
+cycle: 93
 remote: present
 active_layer: energy
-active_subcategory: wind
-next_query: Cycle 93 shuffle_seed=20261093; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us215/prc218/allied227); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/building_materials). Country×subcategory sweep both sides + regulators.
-next_row_id: (follow cycle-93 shuffled_order)
+active_subcategory: other_renewables
+next_query: Cycle 94 shuffle_seed=20261094; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us216/prc221/allied227); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/building_materials). Country×subcategory sweep both sides + regulators.
+next_row_id: (follow cycle-94 shuffled_order)
 dry_streak: 0
+
+# === Cycle 93 (seed 20261093) ===
+# Shuffled order: niobium, water, nickel, building_materials, graphite, solar,
+#   rail, bridges_roads, port_ownership, balsa, engineering_epc, copper,
+#   port_cranes, fission_smr, lithium, power_plants_grid, wind, other_renewables.
+# Logged 4 sourced rows (honest US/PRC split; no padding):
+#   us power_plants_grid: quanta_luma_dist_525m_2025 (USD 525m FOMB IDIQ).
+#   prc port_cranes: zpmc_kingston_sts_2025 (two post-Panamax STS; CapEx blank).
+#   prc bridges_roads: chec_sucre_yamparaez_bolivia_2025 (CHEC; CapEx blank).
+#   prc other_renewables: huawei_aggreko_amazonas_bess_2026 (proxy ESS News; CapEx blank).
+# Thin top-up (fission_smr/balsa/graphite): all dry — shift to nickel then miss.
+#   Next-thinnest niobium dry.
+# Equal-budget misses: niobium, water, nickel, building_materials, graphite,
+#   solar, rail, port_ownership, balsa, engineering_epc, copper, fission_smr,
+#   lithium, wind (dense prior + country×subcat sweep; Aguadulce/ICAVE/
+#   Montego Bay already logged).
+# Active after cycle 93: us216 / prc221 / allied227 / other37 (n=701).
+shuffle_seed: 20261093
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/niobium
+- resources/water
+- resources/nickel
+- infrastructure/building_materials
+- resources/graphite
+- energy/solar
+- infrastructure/rail
+- infrastructure/bridges_roads
+- infrastructure/port_ownership
+- resources/balsa
+- infrastructure/engineering_epc
+- resources/copper
+- infrastructure/port_cranes
+- energy/fission_smr
+- resources/lithium
+- energy/power_plants_grid
+- energy/wind
+- energy/other_renewables
+rows_found_this_cycle:
+  resources/niobium: 0
+  resources/water: 0
+  resources/nickel: 0
+  infrastructure/building_materials: 0
+  resources/graphite: 0
+  energy/solar: 0
+  infrastructure/rail: 0
+  infrastructure/bridges_roads: 1
+  infrastructure/port_ownership: 0
+  resources/balsa: 0
+  infrastructure/engineering_epc: 0
+  resources/copper: 0
+  infrastructure/port_cranes: 1
+  energy/fission_smr: 0
+  resources/lithium: 0
+  energy/power_plants_grid: 1
+  energy/wind: 0
+  energy/other_renewables: 1
+rows_by_side_this_cycle:
+  us: 1
+  prc: 3
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - energy/fission_smr
+  - resources/balsa
+  - resources/graphite
+  # Misses: all three dry (dense prior). Spare half-budgets to nickel then miss.
+coverage_cumulative:
+  energy/fission_smr: 23
+  energy/other_renewables: 52
+  energy/power_plants_grid: 62
+  energy/solar: 68
+  energy/wind: 35
+  infrastructure/bridges_roads: 38
+  infrastructure/building_materials: 32
+  infrastructure/engineering_epc: 81
+  infrastructure/port_cranes: 34
+  infrastructure/port_ownership: 33
+  infrastructure/rail: 40
+  resources/balsa: 23
+  resources/copper: 33
+  resources/graphite: 23
+  resources/lithium: 34
+  resources/nickel: 24
+  resources/niobium: 26
+  resources/water: 40
 
 # === Cycle 92 (seed 20261092) ===
 # Shuffled order: lithium, engineering_epc, copper, solar, niobium, port_cranes,
