@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1032,
+    "n_rows": 1035,
     "counts": {
-      "total": 1032,
-      "active": 834,
+      "total": 1035,
+      "active": 837,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 805,
-      "on_map": 816
+      "documented": 808,
+      "on_map": 819
     }
   },
   "layer_readouts": [
@@ -151,18 +151,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 88,
-        "prc": 121,
-        "allied": 77,
-        "n": 286
+        "us": 89,
+        "prc": 122,
+        "allied": 78,
+        "n": 289
       },
       "usd": {
         "us": 11837785515.13,
         "us_n": 25,
         "prc": 4859083950.25,
         "prc_n": 18,
-        "allied": 5651418889.2300005,
-        "allied_n": 26
+        "allied": 5701418889.2300005,
+        "allied_n": 27
       },
       "matched_gaps": {
         "n": 1,
@@ -423,24 +423,24 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 10,
+        "us": 11,
         "prc": 18,
-        "allied": 11,
-        "n": 39
+        "allied": 12,
+        "n": 41
       },
       "usd": {
         "us": 250706908.27,
         "us_n": 3,
         "prc": 5016000000.0,
         "prc_n": 1,
-        "allied": 1767000000.0,
-        "allied_n": 5
+        "allied": 1817000000.0,
+        "allied_n": 6
       },
       "by_layer": {
         "energy": {
-          "us": 7,
+          "us": 8,
           "prc": 13,
-          "allied": 3
+          "allied": 4
         },
         "infrastructure": {
           "us": 3,
@@ -971,9 +971,9 @@
       "country": "Suriname",
       "counts": {
         "us": 2,
-        "prc": 3,
+        "prc": 4,
         "allied": 0,
-        "n": 5
+        "n": 6
       },
       "usd": {
         "us": 0.0,
@@ -986,7 +986,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 2,
+          "prc": 3,
           "allied": 0
         },
         "infrastructure": {
@@ -1912,7 +1912,10 @@
       "engie_bess_libelula_cod_219m_2026",
       "engie_bess_los_loros_cod_64m_2026",
       "gamechange_715mwp_latam_2025",
-      "trina_colinas_vanguard_130mwp_2025"
+      "trina_colinas_vanguard_130mwp_2025",
+      "gamechange_148mw_colombia_2024",
+      "powerchina_djoemoe_suriname_2026",
+      "greenwood_terra_site1_52mwp_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

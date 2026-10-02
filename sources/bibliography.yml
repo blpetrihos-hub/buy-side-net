@@ -9667,3 +9667,31 @@
   supports:
   - trina_colinas_vanguard_130mwp_2025
   - hunt_energy_solar
+- id: gamechange_148mw_colombia_20240822
+  type: company
+  chicago: GameChange Solar. “GameChange Solar Secures 148 MW Solar Project in Colombia.” August 22, 2024.
+    https://www.gamechangesolar.com/news/gamechange-solar-secures-148-mw-solar-project-in-colombia.
+  url: https://www.gamechangesolar.com/news/gamechange-solar-secures-148-mw-solar-project-in-colombia
+  annotation: 'GameChange primary: 148 MW Colombia trackers/fixed-tilt (7th Colombia project). Supports
+    gamechange_148mw_colombia_2024.'
+  supports:
+  - gamechange_148mw_colombia_2024
+  - hunt_energy_solar
+- id: powerchina_djoemoe_20260202
+  type: company
+  chicago: POWERCHINA. “POWERCHINA's Djoemoe Station of Suriname Villages Micro-grid Solar Project Phase
+    II successfully commissioned.” February 2, 2026. https://en.powerchina.cn/2026-02/02/c_829052.htm.
+  url: https://en.powerchina.cn/2026-02/02/c_829052.htm
+  annotation: 'POWERCHINA primary: Djoemoe Station COD Jan 2026 (Phase II fourth station). Supports powerchina_djoemoe_suriname_2026.'
+  supports:
+  - powerchina_djoemoe_suriname_2026
+  - hunt_energy_solar
+- id: greenwood_terra_site1_20260128
+  type: company
+  chicago: Greenwood Energy. “Greenwood Energy Closes Financing for TERRɅ Site I, the First Phase of TERRɅ
+    INITIɅTIVE…” January 28, 2026. https://greenwood.energy/2026/01/28/greenwood-energy-closes-financing-for-terr%ca%8c-site-i-the-first-phase-of-terr%ca%8c-initi%ca%8ctive-a-landmark-platform-for-a-just-energy-transition-in-colombia/.
+  url: https://greenwood.energy/2026/01/28/greenwood-energy-closes-financing-for-terr%ca%8c-site-i-the-first-phase-of-terr%ca%8c-initi%ca%8ctive-a-landmark-platform-for-a-just-energy-transition-in-colombia/
+  annotation: 'Greenwood/Libra primary: TERRA Site I 52 MWp FC; investment >USD 50m. Supports greenwood_terra_site1_52mwp_2026.'
+  supports:
+  - greenwood_terra_site1_52mwp_2026
+  - hunt_energy_solar
