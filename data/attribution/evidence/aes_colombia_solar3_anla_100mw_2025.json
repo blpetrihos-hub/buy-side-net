@@ -1,0 +1,10 @@
+{
+  "id": "aes_colombia_solar3_anla_100mw_2025",
+  "retrieved": "2026-10-02",
+  "source_id": "anla_aes_solar3_tolima_20250911",
+  "url": "https://www.anla.gov.co/noticias-anla/luz-verde-al-parque-fotovoltaico-aes-solar-3-y-a-la-subestacion-huila-230-kv-con-sus-lineas-de-conexion",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "El Parque Fotovoltaico AES Solar 3 contará con una capacidad instalada de 100 MW (megavatios) y será desarrollado por AES Colombia & Cía S.C.A. E.S.P. Contará con… 212.464 módulos fotovoltaicos instalados en 2.781 estructuras con seguimiento solar (trackers).",
+  "note": "Opened ANLA release 11 Sep 2025 (AES Solar 3 100 MW license)."
+}

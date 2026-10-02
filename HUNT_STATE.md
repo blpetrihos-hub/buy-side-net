@@ -1,11 +1,80 @@
 updated: 2026-10-02
-cycle: 142
+cycle: 143
 remote: present
 active_layer: energy
-active_subcategory: other_renewables
-next_query: Cycle 143 shuffle_seed=20261143; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us276/prc284/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
-next_row_id: (follow cycle-143 shuffled_order)
+active_subcategory: wind
+next_query: Cycle 144 shuffle_seed=20261144; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us278/prc286/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 8 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens; Cuba Majagua Shanghai Electric if company primary opens. No U.S. territories.
+next_row_id: (follow cycle-144 shuffled_order)
 dry_streak: 0
+
+# === Cycle 143 (seed 20261143) ===
+# Shuffled order: copper, fission_smr, rail, bridges_roads, engineering_epc,
+#   building_materials, port_cranes, power_plants_grid, balsa, solar,
+#   other_renewables, port_ownership, graphite, water, lithium, niobium, nickel, wind.
+# Logged 4 sourced rows (2 US / 2 PRC; thin dry; no padding):
+#   us solar: aes_colombia_solar3_anla_100mw_2025 (100 MW ANLA license Tolima).
+#   prc other_renewables: powerchina_barueri_wte_brazil_2025 (19.1 MW / 870 t/day WtE).
+#   prc wind: ctg_lds_red_coral_marcona_256m_2025 (135.7 MW San Juan de Marcona USD 256m).
+#   us wind: aes_andes_san_matias_cod_2024 (78 MW Biobío COD).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: copper, fission_smr, rail, bridges_roads, engineering_epc,
+#   building_materials, port_cranes, power_plants_grid, balsa, port_ownership,
+#   graphite, water, lithium, niobium, nickel.
+# Dense already-logged: El Abra/Toromocho/Goldwind 470/FINAME; Progress Rail SD70+MSA
+#   on same primary; State Grid NE UHV; Wabtec MRS 254m; SANY Suape/HGT Aracruz;
+#   Francisco Juana; Baranoa II/III; Montego Bay perimeter contract.
+# Active after cycle 143: us278 / prc286 / allied247 / other38 (n=849).
+shuffle_seed: 20261143
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/copper
+- energy/fission_smr
+- infrastructure/rail
+- infrastructure/bridges_roads
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- resources/balsa
+- energy/solar
+- energy/other_renewables
+- infrastructure/port_ownership
+- resources/graphite
+- resources/water
+- resources/lithium
+- resources/niobium
+- resources/nickel
+- energy/wind
+rows_found_this_cycle:
+  resources/copper: 0
+  energy/fission_smr: 0
+  infrastructure/rail: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 0
+  resources/balsa: 0
+  energy/solar: 1
+  energy/other_renewables: 1
+  infrastructure/port_ownership: 0
+  resources/graphite: 0
+  resources/water: 0
+  resources/lithium: 0
+  resources/niobium: 0
+  resources/nickel: 0
+  energy/wind: 2
+rows_by_side_this_cycle:
+  us: 2
+  prc: 2
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 142 (seed 20261142) ===
 # Shuffled order: water, bridges_roads, balsa, building_materials, engineering_epc,
