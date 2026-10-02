@@ -17226,5 +17226,141 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "state_colombia_critical_minerals_20260908",
+    "type": "government",
+    "chicago": "U.S. Department of State. “Secretary Rubio and Colombian Foreign Minister Bula Sign Arrangements on Critical Minerals and Civil Nuclear Cooperation.” September 8, 2026. https://www.state.gov/releases/office-of-the-spokesperson/2026/09/secretary-rubio-and-colombian-foreign-minister-bula-sign-arrangements-on-critical-minerals-and-civil-nuclear-cooperation.",
+    "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/secretary-rubio-and-colombian-foreign-minister-bula-sign-arrangements-on-critical-minerals-and-civil-nuclear-cooperation",
+    "annotation": "State.gov: U.S.–Colombia Critical Minerals Framework. Supports colombia_us_critical_minerals_framework_2026.",
+    "supports": [
+      "colombia_us_critical_minerals_framework_2026",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "colombia_us_critical_minerals_framework_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "gobpe_peru_critical_minerals_mou_20260204",
+    "type": "government",
+    "chicago": "Perú, Ministerio de Relaciones Exteriores. “Canciller Hugo de Zela suscribió Memorándum de Entendimiento sobre minerales críticos en Washington D.C.” February 4, 2026. https://www.gob.pe/institucion/rree/noticias/1347576-canciller-hugo-de-zela-suscribio-memorandum-de-entendimiento-sobre-minerales-criticos-en-washington-d-c.",
+    "url": "https://www.gob.pe/institucion/rree/noticias/1347576-canciller-hugo-de-zela-suscribio-memorandum-de-entendimiento-sobre-minerales-criticos-en-washington-d-c",
+    "annotation": "gob.pe RREE: Peru–U.S. critical minerals MoU. Supports peru_us_critical_minerals_mou_2026.",
+    "supports": [
+      "peru_us_critical_minerals_mou_2026",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "peru_us_critical_minerals_mou_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "mre_paraguay_critical_minerals_mou_20260204",
+    "type": "government",
+    "chicago": "Paraguay, Ministerio de Relaciones Exteriores. “Paraguay refuerza alianza con EE.UU. y se suma a iniciativa sobre minerales críticos.” February 4, 2026. https://www.mre.gov.py/paraguay-refuerza-alianza-con-ee-uu-y-se-suma-a-iniciativa-sobre-minerales-criticos/.",
+    "url": "https://www.mre.gov.py/paraguay-refuerza-alianza-con-ee-uu-y-se-suma-a-iniciativa-sobre-minerales-criticos/",
+    "annotation": "Paraguay MRE: U.S.–Paraguay critical minerals MoU. Supports paraguay_us_critical_minerals_mou_2026.",
+    "supports": [
+      "paraguay_us_critical_minerals_mou_2026",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "paraguay_us_critical_minerals_mou_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "eltelegrafo_ecuador_critical_minerals_20260204",
+    "type": "news",
+    "chicago": "El Telégrafo. “Ecuador participó en conferencia ministerial sobre minerales críticos en Washington D. C.” February 4, 2026. https://www.eltelegrafo.com.ec/noticias/nacionales/210/ecuador-participo-conferencia-ministerial-minerales-criticos.",
+    "url": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/ecuador-participo-conferencia-ministerial-minerales-criticos",
+    "annotation": "El Telégrafo / Cancillería: Ecuador–U.S. critical minerals framework. Supports ecuador_us_critical_minerals_framework_2026.",
+    "supports": [
+      "ecuador_us_critical_minerals_framework_2026",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "ecuador_us_critical_minerals_framework_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "casale_villeta_epc_20250407",
+    "type": "company",
+    "chicago": "Casale S.A. “Casale Signs Definitive $465 Million EPC Contract for World’s First Large-Scale Green Fertilizer Plant in Villeta, Paraguay.” April 7, 2025. https://casale.ch/casale-signs-definitive-465-million-epc-contract-for-worlds-first-large-scale-green-fertilizer-plant-in-villeta-paraguay/.",
+    "url": "https://casale.ch/casale-signs-definitive-465-million-epc-contract-for-worlds-first-large-scale-green-fertilizer-plant-in-villeta-paraguay/",
+    "annotation": "Casale: USD 465m Villeta EPC. Supports casale_atome_villeta_epc_465m_2025.",
+    "supports": [
+      "casale_atome_villeta_epc_465m_2025",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "casale_atome_villeta_epc_465m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "holcim_ambiensa_ecopact_story",
+    "type": "company",
+    "chicago": "Holcim. “Providing affordable housing to 180,000 in Ecuador with ECOPact.” https://www.holcim.com/who-we-are/our-stories/social-housing-ecuador.",
+    "url": "https://www.holcim.com/who-we-are/our-stories/social-housing-ecuador",
+    "annotation": "Holcim: Mundo Ambiensa ECOPact supply Guayaquil. Supports holcim_ambiensa_ecopact_mundo_guayaquil.",
+    "supports": [
+      "holcim_ambiensa_ecopact_mundo_guayaquil",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "holcim_ambiensa_ecopact_mundo_guayaquil"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "asamblea_ni_la_mesita_ap_156_2025",
+    "type": "government",
+    "chicago": "Nicaragua, Presidencia de la República. “Acuerdo Presidencial N°. 156-2025” (CCCC credit facility for La Mesita wind plant). October 1, 2025. http://legislacion.asamblea.gob.ni/Normaweb.nsf/4c9d05860ddef1c50625725e0051e506/f2f0aec78df8d21606258d17006e1d7c?OpenDocument=.",
+    "url": "http://legislacion.asamblea.gob.ni/Normaweb.nsf/4c9d05860ddef1c50625725e0051e506/f2f0aec78df8d21606258d17006e1d7c?OpenDocument=",
+    "annotation": "Asamblea NI AP 156-2025: CCCC La Mesita wind credit ~USD 57.4m. Supports cccc_la_mesita_wind_57p4m_esteli_2025.",
+    "supports": [
+      "cccc_la_mesita_wind_57p4m_esteli_2025",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "cccc_la_mesita_wind_57p4m_esteli_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "revistaplus_ptp_villeta_bond_20250414",
+    "type": "news",
+    "chicago": "Revista PLUS. “PTP Paraguay emite bonos por US$ 2 millones en la bolsa de Asunción.” April 14, 2025. https://revistaplus.com.py/2025/04/14/ptp-paraguay-emite-bonos-por-us-2-millones-en-la-bolsa-de-asuncion/.",
+    "url": "https://revistaplus.com.py/2025/04/14/ptp-paraguay-emite-bonos-por-us-2-millones-en-la-bolsa-de-asuncion/",
+    "annotation": "Revista PLUS: PTP Villeta USD 2m bond. Supports ptp_villeta_bond_usd2m_202504.",
+    "supports": [
+      "ptp_villeta_bond_usd2m_202504",
+      "hunt_cycle169"
+    ],
+    "map_supports": [
+      "ptp_villeta_bond_usd2m_202504"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
