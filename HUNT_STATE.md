@@ -1,11 +1,82 @@
 updated: 2026-10-02
-cycle: 130
+cycle: 131
 remote: present
-active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 131 shuffle_seed=20261131; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us261/prc248/allied239); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split; push PRC sources hard (undersampled post-audit). If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: nfe_portocem / sandino / seaboard_estrella_del_mar_iv / vestas_esperanza if primaries open; thin cats remain dry. No U.S. territories.
-next_row_id: (follow cycle-131 shuffled_order)
+active_layer: energy
+active_subcategory: fission_smr
+next_query: Cycle 132 shuffle_seed=20261132; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us263/prc251/allied240); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Push PRC sources hard (still slightly behind US). If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: nfe_celba2 first-fire primary if opens; sandino; vestas_esperanza named. No U.S. territories.
+next_row_id: (follow cycle-132 shuffled_order)
 dry_streak: 0
+
+# === Cycle 131 (seed 20261131) ===
+# Shuffled order: engineering_epc, building_materials, port_cranes, balsa,
+#   port_ownership, nickel, power_plants_grid, graphite, lithium, water, solar,
+#   bridges_roads, rail, other_renewables, copper, niobium, wind, fission_smr.
+# Logged 7 sourced rows (2 US / 4 PRC / 1 allied; thin dry; no padding):
+#   prc port_ownership: cmport_vast_acu_70pct_spa_2025 (USD 448m SPA).
+#   prc power_plants_grid: powerchina_chile_decree4_g15_g04_2025 (CapEx blank).
+#   prc solar: powerchina_dune_plus_epc_chile_2025 (186 MWp + storage EPC).
+#   prc lithium: ganfeng_lar_180m_convertible_ppg_2026 (USD 180m note).
+#   us power_plants_grid: nfe_portocem_1p6gw_epc_2024 (1.6 GW Barcarena).
+#   us power_plants_grid: seaboard_estrella_del_mar_iv_2025 (145 MW barge).
+#   allied copper: fortescue_canariaco_alta_copper_2026 (CAD 139m equity).
+# Also archived residual gold-primary cmoc_cangrejos_ecuador_1p7bn_2026
+#   (out_of_scope — gold_silver).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: engineering_epc, building_materials, port_cranes, balsa,
+#   nickel, graphite, water, bridges_roads, rail, other_renewables, niobium,
+#   wind, fission_smr.
+# Active after cycle 131: us263 / prc251 / allied240 / other37 (n=791).
+shuffle_seed: 20261131
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- resources/balsa
+- infrastructure/port_ownership
+- resources/nickel
+- energy/power_plants_grid
+- resources/graphite
+- resources/lithium
+- resources/water
+- energy/solar
+- infrastructure/bridges_roads
+- infrastructure/rail
+- energy/other_renewables
+- resources/copper
+- resources/niobium
+- energy/wind
+- energy/fission_smr
+rows_found_this_cycle:
+  infrastructure/engineering_epc: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_cranes: 0
+  resources/balsa: 0
+  infrastructure/port_ownership: 1
+  resources/nickel: 0
+  energy/power_plants_grid: 3
+  resources/graphite: 0
+  resources/lithium: 1
+  resources/water: 0
+  energy/solar: 1
+  infrastructure/bridges_roads: 0
+  infrastructure/rail: 0
+  energy/other_renewables: 0
+  resources/copper: 1
+  resources/niobium: 0
+  energy/wind: 0
+  energy/fission_smr: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 4
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === PRE-STEP (before cycle 131): scope + side audit (2026-10-02) ===
 # Trigger: U.S. active jumped 220→358 while PRC 226→248 in ~3h; many new rows
@@ -53,8 +124,9 @@ dry_streak: 0
 #   ferrovial_usace_drilled_shaft_6c_2024 (Ferrovial Spain HQ)
 #
 # 3) Out of scope (outside 18 subcats: hospital/school/autos/digital/fertilizer/
-#    gold-silver) — no new active residuals; prior cycle 86/88 audits hold.
-# scope_oos_archived_total: 0
+#    gold-silver) — no new active residuals at pre-step; cycle 131 also archived
+#    cmoc_cangrejos_ecuador_1p7bn_2026 (gold-primary).
+# scope_oos_archived_total: 0 (pre-step) + 1 (cycle 131 cangrejos)
 #
 # Post-audit active sides before hunt: us261 / prc248 / allied239 / other37
 #   (n=785). Thinnest: balsa/graphite (23), nickel/fission_smr (24), niobium (26).
