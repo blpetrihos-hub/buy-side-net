@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 82
+cycle: 83
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 83 shuffle_seed=20261083; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us203/prc200/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
-next_row_id: (follow cycle-83 shuffled_order)
+next_query: Cycle 84 shuffle_seed=20261084; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us207/prc204/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel then balsa/fission_smr/graphite. Keep US/PRC even split.
+next_row_id: (follow cycle-84 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,68 +17,69 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 82 pre-merge:
-# - John Deere Canoas pulverizer + electronics tagged us (Deere & Company, Moline IL).
-#   AGCO Jundiaí Reman/Academy tagged us (Duluth GA HQ). Flowserve Torreón tagged us
-#   (Dallas HQ; UNVERIFIED proxy).
-# - CHEC Grenada MBIA airport tagged prc. CRCC Coquimbo / O’Higgins / Neurocirugía
-#   hospital concessions tagged prc (PRC SOE parent; Grupo CRCC Chile).
+# Side-tag audit (cycles 57–63) — cycle 83 pre-merge:
+# - DFC V.tal tagged us (U.S. government DFI). NADBank Engen tagged us (binational
+#   U.S.–Mexico bank; corpus convention). CloudHQ Querétaro tagged us (U.S. HQ).
+#   Cummins Monterrey tagged us (Columbus IN HQ).
+# - CRCC Chillán–Collipulli tagged prc (CRCC International). Goldwind Camaçari
+#   tagged prc. BYD Camaçari tagged prc (Shenzhen HQ). CEEC Coremas tagged prc
+#   (China Energy Engineering Group SOE).
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
 #   No side-tag fixes this cycle.
-# - Skipped Exxon Hammerhead FID / Yellowtail COD (oil FPSO outside 18-sub taxonomy),
-#   Halliburton Zeus / Baker Hughes / State Grid NE UHV / Goldwind Sento Sé /
-#   Sinoma Cibao already. Thin nickel/balsa/fission_smr miss.
+# - Skipped PowerChina SP Metro Line 19 Lote 1 (later inhabilitated; Agis-OHLA won),
+#   CRTG Cerro Pasco–Tingo / ZPMC Tecon Santos / State Grid GATE CapEx already
+#   logged. Thin nickel/balsa/fission_smr miss.
 
-shuffle_seed: 20261082
+shuffle_seed: 20261083
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
 - resources/niobium
-- infrastructure/engineering_epc
-- resources/balsa
-- infrastructure/port_ownership
-- energy/other_renewables
-- resources/copper
-- infrastructure/building_materials
-- infrastructure/port_cranes
-- resources/nickel
-- energy/power_plants_grid
-- resources/graphite
-- energy/solar
 - infrastructure/rail
-- energy/wind
-- resources/lithium
-- resources/water
 - energy/fission_smr
+- resources/nickel
+- energy/wind
+- resources/graphite
+- infrastructure/engineering_epc
+- resources/water
+- infrastructure/port_ownership
+- resources/copper
 - infrastructure/bridges_roads
+- infrastructure/building_materials
+- resources/lithium
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- energy/solar
+- energy/other_renewables
+- resources/balsa
 
 rows_found_this_cycle:
   resources/niobium: 0
-  infrastructure/engineering_epc: 5
-  resources/balsa: 0
-  infrastructure/port_ownership: 0
-  energy/other_renewables: 0
-  resources/copper: 0
-  infrastructure/building_materials: 3
-  infrastructure/port_cranes: 0
-  resources/nickel: 0
-  energy/power_plants_grid: 0
-  resources/graphite: 0
-  energy/solar: 0
   infrastructure/rail: 0
-  energy/wind: 0
-  resources/lithium: 0
-  resources/water: 0
   energy/fission_smr: 0
-  infrastructure/bridges_roads: 0
+  resources/nickel: 0
+  energy/wind: 1
+  resources/graphite: 0
+  infrastructure/engineering_epc: 5
+  resources/water: 0
+  infrastructure/port_ownership: 0
+  resources/copper: 0
+  infrastructure/bridges_roads: 1
+  infrastructure/building_materials: 0
+  resources/lithium: 0
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 0
+  energy/solar: 1
+  energy/other_renewables: 0
+  resources/balsa: 0
 
 coverage_cumulative:
-  # Active counts after cycle 82 (status=active)
+  # Active counts after cycle 83 (status=active)
   resources/balsa: 23
-  infrastructure/bridges_roads: 32
+  infrastructure/bridges_roads: 33
   infrastructure/building_materials: 39
   resources/copper: 30
-  infrastructure/engineering_epc: 87
+  infrastructure/engineering_epc: 92
   energy/fission_smr: 23
   resources/graphite: 23
   resources/lithium: 34
@@ -89,9 +90,9 @@ coverage_cumulative:
   infrastructure/port_ownership: 33
   energy/power_plants_grid: 57
   infrastructure/rail: 39
-  energy/solar: 59
+  energy/solar: 60
   resources/water: 33
-  energy/wind: 29
+  energy/wind: 30
 
 rows_by_side_this_cycle:
   us: 4
@@ -105,8 +106,16 @@ thin_topup:
   - resources/nickel
   - resources/balsa
   - energy/fission_smr
-  # Hits: none on thinnest three.
-  # Misses: nickel, balsa, fission_smr (graphite also 23).
+  # Hits: none on thinnest three (graphite also 23).
+  # Misses: nickel, balsa, fission_smr.
+
+# Cycle 83 (seed 20261083): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (DFC V.tal USD 150m loan us; NADBank Engen MXN 400m/
+#   ~USD 23.2m us; CloudHQ Querétaro USD 4.8bn proxy us; Cummins Monterrey ADB
+#   USD 33m us; BYD Camaçari EV ~R$5.5bn proxy prc); wind (Goldwind Camaçari
+#   turbine factory ~R$100m proxy prc); bridges_roads (CRCC Chillán–Collipulli
+#   UF 14.215m/~USD 596m prc); solar (CEEC Coremas I–III ~R$520m EV prc).
+#   Thin top-up miss nickel/balsa/fission_smr. Merge --no-ff to main after build.
 
 # Cycle 82 (seed 20261082): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: engineering_epc (John Deere Canoas pulverizer R$42m us; John Deere
