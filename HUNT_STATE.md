@@ -1,11 +1,82 @@
 updated: 2026-10-02
-cycle: 121
+cycle: 122
 remote: present
 active_layer: infrastructure
 active_subcategory: engineering_epc
-next_query: Cycle 122 shuffle_seed=20261122; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us321/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Named FHWA Branch residual closed; USCG FRC + PRARNG MILCON logged; continue USACE/USCG/OEM residual + PRC regulator pass.
-next_row_id: (follow cycle-122 shuffled_order)
+next_query: Cycle 123 shuffle_seed=20261123; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us329/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Prioritize PRC OEM/regulator/AidData residual; US federal named backlog largely closed.
+next_row_id: (follow cycle-123 shuffled_order)
 dry_streak: 0
+
+# === Cycle 122 (seed 20261122) ===
+# Shuffled order: copper, building_materials, other_renewables, port_cranes,
+#   engineering_epc, fission_smr, bridges_roads, rail, balsa, niobium, solar,
+#   wind, port_ownership, nickel, graphite, water, lithium, power_plants_grid.
+# Logged 8 sourced rows (honest US residual; thin dry; PRC OEM pass
+#   product/summit-only; no padding):
+#   us water: dick_usace_dams_pr_2002 (USD 78.5m USACE dams PSC).
+#   us engineering_epc: zachry_ecuador_construction_2005 (USD 73.5m State).
+#   us engineering_epc: caddell_mexico_nec_2005 (USD 71.0m State).
+#   us engineering_epc: fluor_jamaica_construction_2003 (USD 50.7m State).
+#   us engineering_epc: vistas_porto_alegre_consulate_2015 (USD 44.8m State).
+#   us engineering_epc: rb_buchanan_readiness_2012 (USD 38.4m USACE).
+#   us engineering_epc: qb_munoz_ang_comms_2021 (USD 37.7m NAVFAC).
+#   us engineering_epc: teksol_pier_echo_2025 (USD 3.7m USCG pier M&R).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: copper, building_materials, other_renewables, port_cranes,
+#   fission_smr, bridges_roads, rail, balsa, niobium, solar, wind,
+#   port_ownership, nickel, graphite, lithium, power_plants_grid.
+# Active after cycle 122: us329 / prc239 / allied243 / other37 (n=848).
+shuffle_seed: 20261122
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/copper
+- infrastructure/building_materials
+- energy/other_renewables
+- infrastructure/port_cranes
+- infrastructure/engineering_epc
+- energy/fission_smr
+- infrastructure/bridges_roads
+- infrastructure/rail
+- resources/balsa
+- resources/niobium
+- energy/solar
+- energy/wind
+- infrastructure/port_ownership
+- resources/nickel
+- resources/graphite
+- resources/water
+- resources/lithium
+- energy/power_plants_grid
+rows_found_this_cycle:
+  resources/copper: 0
+  infrastructure/building_materials: 0
+  energy/other_renewables: 0
+  infrastructure/port_cranes: 0
+  infrastructure/engineering_epc: 7
+  energy/fission_smr: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/rail: 0
+  resources/balsa: 0
+  resources/niobium: 0
+  energy/solar: 0
+  energy/wind: 0
+  infrastructure/port_ownership: 0
+  resources/nickel: 0
+  resources/graphite: 0
+  resources/water: 1
+  resources/lithium: 0
+  energy/power_plants_grid: 0
+rows_by_side_this_cycle:
+  us: 8
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 121 (seed 20261121) ===
 # Shuffled order: building_materials, bridges_roads, wind, niobium, graphite,

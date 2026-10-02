@@ -1,0 +1,10 @@
+{
+  "id": "teksol_pier_echo_2025",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_teksol_pier_echo_20250213",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08225CCEUM0001_7008_-NONE-_-NONE-/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "MAJOR M & R OF THE WHARF PIER ECHO CENTER SECTION AT US COAST GUARD SECTOR SAN JUAN PNUM 13631542",
+  "note": "Opened USASpending Award API; USD 3683326.00; date_signed 2025-02-13."
+}
