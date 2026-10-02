@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 909,
+    "n_rows": 914,
     "counts": {
-      "total": 909,
-      "active": 817,
+      "total": 914,
+      "active": 822,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 684,
-      "on_map": 801
+      "documented": 689,
+      "on_map": 806
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 135,
+        "us": 140,
         "prc": 97,
         "allied": 95,
-        "n": 327
+        "n": 332
       },
       "usd": {
-        "us": 8018629530.549998,
-        "us_n": 67,
+        "us": 8385587253.789999,
+        "us_n": 72,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -240,14 +240,14 @@
     {
       "country": "Belize",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 0,
         "allied": 0,
-        "n": 1
+        "n": 2
       },
       "usd": {
-        "us": 41700000.0,
-        "us_n": 1,
+        "us": 92114816.75,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -255,6 +255,11 @@
       },
       "by_layer": {
         "energy": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
+        },
+        "infrastructure": {
           "us": 1,
           "prc": 0,
           "allied": 0
@@ -511,14 +516,14 @@
     {
       "country": "Ecuador",
       "counts": {
-        "us": 13,
+        "us": 14,
         "prc": 12,
         "allied": 15,
-        "n": 40
+        "n": 41
       },
       "usd": {
-        "us": 325496670.0,
-        "us_n": 6,
+        "us": 375771715.81,
+        "us_n": 7,
         "prc": 2491134740.0,
         "prc_n": 6,
         "allied": 817756466.0,
@@ -531,7 +536,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 3,
           "allied": 2
         },
@@ -748,14 +753,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 27,
+        "us": 29,
         "prc": 14,
         "allied": 26,
-        "n": 67
+        "n": 69
       },
       "usd": {
-        "us": 2280129140.7400002,
-        "us_n": 16,
+        "us": 2464735416.7400002,
+        "us_n": 18,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -768,7 +773,7 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 16,
+          "us": 18,
           "prc": 10,
           "allied": 15
         },
@@ -898,14 +903,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 62,
+        "us": 63,
         "prc": 0,
         "allied": 8,
-        "n": 70
+        "n": 71
       },
       "usd": {
-        "us": 6511825478.470002,
-        "us_n": 60,
+        "us": 6593487063.1500025,
+        "us_n": 61,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -918,7 +923,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 34,
+          "us": 35,
           "prc": 0,
           "allied": 4
         },
@@ -1852,7 +1857,12 @@
       "bl_harbert_matamoros_nec_2015",
       "perini_montevideo_chancery_2017",
       "yates_desbuild_monterrey_nec_2009",
-      "rq_gtmo_jtf_barracks_2019"
+      "rq_gtmo_jtf_barracks_2019",
+      "bl_harbert_nuevo_laredo_ncc_2014",
+      "jajones_belmopan_nec_2004",
+      "caddell_tijuana_ncc_2007",
+      "cce_guayaquil_nab_2008",
+      "walsh_sj_federal_building_2016"
     ],
     "hunt": [
       "hunt_br_power_equip",
