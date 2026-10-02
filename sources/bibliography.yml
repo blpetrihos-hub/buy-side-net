@@ -9877,3 +9877,38 @@
   supports:
   - crec7_alameda_melipilla_depot_90m_2025
   - hunt_infra_rail
+- id: aes_andes_history_mesamavida_2022
+  type: company
+  chicago: AES Andes. “Our history.” Accessed 2026. https://www.aesandes.com/en/our-history.
+  url: https://www.aesandes.com/en/our-history
+  annotation: 'AES Andes history: Mesamávida first-stage COD 2022 (68 MW per Memoria 2020). Supports aes_andes_mesamavida_68mw_cod_2022.'
+  supports:
+  - aes_andes_mesamavida_68mw_cod_2022
+  - hunt_energy_wind
+- id: presidencia_panama_aecom_ferrocarril_20241226
+  type: government
+  chicago: Presidencia de la República de Panamá. “Contratan empresa para actualizar el Plan Maestro del
+    Tren Panamá-David-Frontera.” December 26, 2024. https://www.presidencia.gob.pa/publicacion/contratan-empresa-para-actualizar-el-plan-maestro-del-tren-panama-david-frontera.
+  url: https://www.presidencia.gob.pa/publicacion/contratan-empresa-para-actualizar-el-plan-maestro-del-tren-panama-david-frontera
+  annotation: 'Presidencia Panama: AECOM USA B/.2.2m Panama–David master-plan advisory. Supports aecom_panama_david_master_plan_2p2m_2024.'
+  supports:
+  - aecom_panama_david_master_plan_2p2m_2024
+  - hunt_infra_rail
+- id: goldwind_lomas_taltal_install_20250311
+  type: company
+  chicago: Goldwind. “Goldwind Signs Contract with ENGIE Chile to Jointly Construct the Pemuco Wind Farm
+    Project in Chile.” March 11, 2025 (includes Lomas de Taltal installation wrap). https://www.goldwind.com/en/news/focus-1117920264764704768/?id=1117922476714815488.
+  url: https://www.goldwind.com/en/news/focus-1117920264764704768/?id=1117922476714815488
+  annotation: 'Goldwind primary: Lomas de Taltal 57×6.0 MW / 342 MW full installation Dec 2024. Supports
+    goldwind_lomas_taltal_342mw_install_2024.'
+  supports:
+  - goldwind_lomas_taltal_342mw_install_2024
+  - hunt_energy_wind
+- id: powerchina_ar_cafayate_epc
+  type: company
+  chicago: POWERCHINA Ltd. Sucursal Argentina. “Parque Solar Cafayate.” Accessed 2026. https://www.powerchina.com.ar/cafayate.html.
+  url: https://www.powerchina.com.ar/cafayate.html
+  annotation: 'POWERCHINA Argentina: Cafayate 97.6 MW EPC for Canadian Solar. Supports powerchina_cafayate_argentina_97p6mw_epc.'
+  supports:
+  - powerchina_cafayate_argentina_97p6mw_epc
+  - hunt_energy_solar
