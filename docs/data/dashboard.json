@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1083,
+    "n_rows": 1087,
     "counts": {
-      "total": 1083,
-      "active": 885,
+      "total": 1087,
+      "active": 889,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 156,
+      "proxy": 157,
       "exclude": 18,
-      "documented": 855,
-      "on_map": 867
+      "documented": 858,
+      "on_map": 871
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 127,
-        "prc": 107,
+        "prc": 108,
         "allied": 94,
-        "n": 328
+        "n": 329
       },
       "usd": {
         "us": 8110630640.119999,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 105,
-        "prc": 143,
+        "us": 107,
+        "prc": 144,
         "allied": 83,
-        "n": 331
+        "n": 334
       },
       "usd": {
         "us": 11511785515.13,
@@ -201,9 +201,9 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 33,
+        "prc": 34,
         "allied": 27,
-        "n": 77
+        "n": 78
       },
       "usd": {
         "us": 7270869147.0,
@@ -216,7 +216,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 14,
+          "prc": 15,
           "allied": 11
         },
         "infrastructure": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 42,
+        "us": 44,
         "prc": 39,
         "allied": 51,
-        "n": 132
+        "n": 134
       },
       "usd": {
         "us": 20511000000.0,
@@ -404,7 +404,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 29,
+          "us": 31,
           "prc": 30,
           "allied": 16
         },
@@ -705,9 +705,9 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 20,
+        "prc": 21,
         "allied": 0,
-        "n": 29
+        "n": 30
       },
       "usd": {
         "us": 534967000.0,
@@ -725,7 +725,7 @@
         },
         "infrastructure": {
           "us": 7,
-          "prc": 9,
+          "prc": 10,
           "allied": 0
         }
       }
@@ -1963,7 +1963,11 @@
       "aes_andes_teck_cda_550gwh_2020",
       "aes_andes_alto_maipo_531mw_cod_2022",
       "powerchina_cura_brochero_villa_maria_65mw_2020",
-      "powerchina_andina_marianas_120mwp_2021"
+      "powerchina_andina_marianas_120mwp_2021",
+      "aes_andes_solar_iib_180mw_cod_2023",
+      "aes_andes_virtual_reservoir_ii_cod_2023",
+      "powerchina_tamberias_diaguitas_5m_2019",
+      "crec_egd_highway_bid9_guyana_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
