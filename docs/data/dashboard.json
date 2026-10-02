@@ -88,34 +88,34 @@
     }
   },
   "meta": {
-    "n_rows": 807,
+    "n_rows": 812,
     "counts": {
-      "total": 807,
-      "active": 716,
+      "total": 812,
+      "active": 721,
       "hunt": 42,
       "archived": 71,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 582,
-      "on_map": 701
+      "documented": 587,
+      "on_map": 706
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 81,
-        "prc": 93,
+        "us": 85,
+        "prc": 94,
         "allied": 91,
-        "n": 265
+        "n": 270
       },
       "usd": {
-        "us": 2836056986.0,
-        "us_n": 14,
-        "prc": 4669575814.13,
-        "prc_n": 20,
+        "us": 2895235379.0,
+        "us_n": 18,
+        "prc": 4861575814.13,
+        "prc_n": 21,
         "allied": 10677634000.0,
         "allied_n": 26
       },
@@ -604,15 +604,15 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 10,
+        "prc": 11,
         "allied": 0,
-        "n": 19
+        "n": 20
       },
       "usd": {
         "us": 534967000.0,
         "us_n": 2,
-        "prc": 427934078.73,
-        "prc_n": 6,
+        "prc": 619934078.73,
+        "prc_n": 7,
         "allied": 0.0,
         "allied_n": 0
       },
@@ -624,7 +624,7 @@
         },
         "infrastructure": {
           "us": 7,
-          "prc": 6,
+          "prc": 7,
           "allied": 0
         }
       }
@@ -816,14 +816,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 7,
+        "us": 11,
         "prc": 0,
         "allied": 0,
-        "n": 7
+        "n": 11
       },
       "usd": {
-        "us": 1810081938.0,
-        "us_n": 5,
+        "us": 1869260331.0,
+        "us_n": 9,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -836,7 +836,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 2,
+          "us": 6,
           "prc": 0,
           "allied": 0
         },
@@ -1645,7 +1645,12 @@
       "fhwa_novel_pr155_morovis_2024",
       "fhwa_ddd_dvg_canovanas_2026",
       "acciona_cagepa_paraiba_498m_eur_2026",
-      "yahua_grandchen_bandeira_offtake_2026"
+      "yahua_grandchen_bandeira_offtake_2026",
+      "fhwa_maglez_pr108_2025",
+      "fhwa_lpc_pr1_pr10_adjuntas_2026",
+      "fhwa_caribbean_sign_pr_er27_2026",
+      "fhwa_jc_associates_pr_er16_2026",
+      "chexim_guyana_east_coast_192m_2022"
     ],
     "hunt": [
       "hunt_br_power_equip",
