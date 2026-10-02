@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 68
+cycle: 69
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 69 shuffle_seed=20261069; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us146/prc143/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
-next_row_id: (follow cycle-69 shuffled_order)
+next_query: Cycle 70 shuffle_seed=20261070; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us151/prc147/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23) then balsa (24). Keep US/PRC even split.
+next_row_id: (follow cycle-70 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,75 +17,84 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 68 pre-merge:
+# Side-tag audit (cycles 57–63) — cycle 69 pre-merge:
 # - No new mislabels found; prior Aldesa allied retags stand; Shell/ACCIONA/AFRY/Golar
 #   already allied; Weatherford continues us on Houston PE offices / NASDAQ:WFRD.
+# - Skipped State Grid R$18bn Maranhão–Goiás (same Graça Aranha–Silvânia as prior rows);
+#   skipped CRBC Arequipa–La Joya (already crbc_arequipa_la_joya_2026).
 
-shuffle_seed: 20261068
+shuffle_seed: 20261069
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- infrastructure/port_ownership
-- infrastructure/bridges_roads
-- infrastructure/rail
 - resources/niobium
-- resources/lithium
-- resources/water
+- energy/fission_smr
+- infrastructure/port_ownership
 - energy/wind
 - resources/graphite
-- infrastructure/engineering_epc
-- infrastructure/port_cranes
-- resources/nickel
-- energy/fission_smr
-- energy/solar
-- infrastructure/building_materials
-- resources/balsa
 - energy/power_plants_grid
+- resources/balsa
+- infrastructure/building_materials
+- resources/water
+- infrastructure/bridges_roads
 - energy/other_renewables
+- energy/solar
+- infrastructure/engineering_epc
+- resources/nickel
+- resources/lithium
 - resources/copper
+- infrastructure/rail
+- infrastructure/port_cranes
 
 rows_found_this_cycle:
-  infrastructure/port_ownership: 0
-  infrastructure/bridges_roads: 0
-  infrastructure/rail: 0
   resources/niobium: 0
-  resources/lithium: 0
-  resources/water: 0
-  energy/wind: 1
-  resources/graphite: 0
-  infrastructure/engineering_epc: 3
-  infrastructure/port_cranes: 0
-  resources/nickel: 0
   energy/fission_smr: 0
-  energy/solar: 4
-  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 0
+  energy/wind: 0
+  resources/graphite: 1
+  energy/power_plants_grid: 3
   resources/balsa: 0
-  energy/power_plants_grid: 0
-  energy/other_renewables: 0
+  infrastructure/building_materials: 0
+  resources/water: 0
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 1
+  energy/solar: 1
+  infrastructure/engineering_epc: 3
+  resources/nickel: 0
+  resources/lithium: 0
   resources/copper: 0
+  infrastructure/rail: 0
+  infrastructure/port_cranes: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 68 (non-archived)
+  # Active+hunt after cycle 69 (non-archived)
   energy/fission_smr: 23
-  energy/other_renewables: 35
-  energy/power_plants_grid: 48
-  energy/solar: 42
+  energy/other_renewables: 36
+  energy/power_plants_grid: 51
+  energy/solar: 43
   energy/wind: 28
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 26
-  infrastructure/engineering_epc: 44
+  infrastructure/engineering_epc: 47
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 33
   infrastructure/rail: 40
   resources/balsa: 24
   resources/copper: 30
-  resources/graphite: 23
+  resources/graphite: 24
   resources/lithium: 35
   resources/nickel: 23
   resources/niobium: 26
   resources/water: 31
 
 rows_by_side_this_cycle:
+  us: 5
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 68
+rows_by_side_this_cycle_cycle68:
   us: 4
   prc: 4
   allied: 0
@@ -125,7 +134,23 @@ thin_topup:
   - resources/nickel
   - energy/fission_smr
   - resources/graphite
-  # Hits: none — same dense stacks as cycles 66–67.
+  # Hits: graphite (Urbix US export of Graphcoa Boa Sorte concentrate).
+  # Misses: nickel, fission_smr.
+
+# Cycle 69 (seed 20261069): 9 sourced rows (8 shuffled + 1 thin_topup);
+#   shuffled: power_plants_grid (SPIC São Simão UG7 R$1.4bn prc; Dongfang/CGGC UG7
+#   supply prc; AES El Salvador ADMS USD 7.6m us), other_renewables (BYD Elena 3.5 GWh
+#   prc), solar (AES Meanguera del Golfo USD 5.5m us), engineering_epc (Halliburton
+#   ExxonMobil Guyana closed-loop us; Baker Hughes San Matías NovaLT us; CAMCE
+#   Bluefields port Lots 1–3 USD 210.389m prc).
+#   Thin_topup (nickel/fission_smr/graphite): Graphcoa→Urbix US export path (us);
+#   nickel/fission misses.
+#   rows_by_side: us 5 / prc 4 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none (cycles 57–63 audit clean; no Shell/ACCIONA/AFRY/Golar
+#   mislabels in new rows).
+#   Equal-budget misses: niobium, fission_smr, port_ownership, wind, balsa,
+#   building_materials, water, bridges_roads, nickel, lithium, copper, rail, port_cranes
+#   (graphite filled in thin).
 
 # Cycle 68 (seed 20261068): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: wind (CCCC El Barro 55.2 MW / ~USD 69.1m credit prc), solar (CCCC El Hato
@@ -140,6 +165,16 @@ thin_topup:
 #   power_plants_grid, other_renewables, copper.
 
 seen_urls:
+- https://www.halliburton.com/en/about-us/press-release/exxonmobil-halliburton-worlds-first-fully-closed-loop-automated-well-placement-guyana
+- https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Secures-Strategic-Gas-Technology-Order-Supporting-Argentinas-Gas-Infrastructure/default.aspx
+- https://www.aes-elsalvador.com/en/press-release/aes-transforms-customer-experience-launch-its-new-digital-self-management-ecosystem
+- https://www.aes-elsalvador.com/es/press-release/un-nuevo-paso-hacia-el-futuro-energetico-aes-inaugura-planta-meanguera-del-golfo
+- https://correiosantavitoria.com.br/2026/09/10/spic-brasil-assina-contrato-com-consorcio-dongfang-e-cggc-para-expansao-da-hidreletrica-sao-simao/
+- https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/
+- https://grenergy.eu/grenergy-signs-its-largest-battery-purchase-agreement-with-byd-energy-storage-for-3-5gwh/
+- https://epaper.cs.com.cn/zgzqb/html/2026-09/19/nw.D110000zgzqb_20260919_7-A06.htm
+- https://www.sinomach.com.cn/en/MediaCenter/News/202609/t20260922_655804.html
+- https://cenarioenergia.com.br/2025/07/28/graphcoa-avanca-na-producao-de-grafite-na-bahia-e-mira-mercado-nacional-e-internacional/
 - https://www.tn8.ni/nacionales/asamblea-de-nicaragua-aprueba-credito-millonario-para-planta-eolica-el-barro-en-esteli/
 - http://legislacion.asamblea.gob.ni/Normaweb.nsf/(All)/BC3D585E6CCD075306258BDA005DBBE8?OpenDocument=
 - https://www.spiex.gob.ni/en-us/noticias/con-la-tecnolog%C3%ADa-solar-m%C3%A1s-avanzada-de-china-nicaragua-inicia-obras-de-la-planta-fotovoltaica-el-hato/
