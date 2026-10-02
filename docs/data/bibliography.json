@@ -11763,5 +11763,113 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "atlas_latam_refi_20260223",
+    "type": "company",
+    "chicago": "Atlas Renewable Energy. “Atlas Renewable Energy Secures Landmark USD 3 Billion Refinancing for its Portfolio in Latin America.” Press release, 23 February 2026.",
+    "url": "https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-secures-landmark-usd-3-billion-refinancing-for-its-portfolio-in-latin-america/",
+    "annotation": "Atlas Miami HQ USD 3bn solar/storage portfolio refinancing (Chile/Brazil/Mexico). Supports atlas_latam_3bn_refi_2026.",
+    "supports": [
+      "atlas_latam_3bn_refi_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "atlas_latam_3bn_refi_2026",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "dfc_solaramo_pis_9000104243",
+    "type": "official",
+    "chicago": "U.S. International Development Finance Corporation. “Public Information Summary — Solararomo S.A. (9000104243).” Project disclosure PDF.",
+    "url": "https://www.dfc.gov/sites/default/files/media/documents/9000104243.pdf",
+    "annotation": "DFC proposed USD 144m loan for 200 MW Solararomo PV near Manta, Ecuador. Supports dfc_solaramo_manta_200mw_ecuador.",
+    "supports": [
+      "dfc_solaramo_manta_200mw_ecuador",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "dfc_solaramo_manta_200mw_ecuador",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sonnedix_sungrow_librillo_20260528",
+    "type": "company",
+    "chicago": "Sonnedix. “Sungrow and Sonnedix Sign a Supply Agreement for the 643.8 MWh Librillo Standalone BESS Project in Chile.” 28 May 2026.",
+    "url": "https://www.sonnedix.com/news/sungrow-and-sonnedix-sign-a-supply-agreement-for-the-643.8-mwh-librillo-standalone-bess-project-in-chile",
+    "annotation": "Sungrow PowerTitan 2.0 for Sonnedix Librillo 643.8 MWh BESS (Taltal, Chile). Supports sungrow_sonnedix_librillo_bess_2026.",
+    "supports": [
+      "sungrow_sonnedix_librillo_bess_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "sungrow_sonnedix_librillo_bess_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sungrow_observatorio_20260817",
+    "type": "company",
+    "chicago": "Sungrow. “Sungrow to Deliver 606 MWh Energy Storage System for Verano Energy’s Observatorio Project in Chile.” 17 August 2026.",
+    "url": "https://www.sungrowpower.com/en/sungrow-to-deliver-606-mwh-energy-storage-system-for-verano-energys-observatorio-project-in-chile",
+    "annotation": "Sungrow 152 MW/606 MWh PowerTitan 2.0 + LTSA for Verano Observatorio (Chile). Supports sungrow_verano_observatorio_bess_2026.",
+    "supports": [
+      "sungrow_verano_observatorio_bess_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "sungrow_verano_observatorio_bess_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "zuma_ingenio_epc_tender_20251007",
+    "type": "company",
+    "chicago": "Zuma Energía / SPIC Mexico. “Result of the Tender for the EPC Contract of Ingenio Wind Farm 2×1.5MW Wind Turbines Reconstruction and Restoration Project.” 7 October 2025.",
+    "url": "https://zumaenergia.com/en/press-center-view?id=110",
+    "annotation": "POWERCHINA Jiangxi recommended winner for Ingenio 2×1.5 MW turbine retrofit EPC (Oaxaca). Supports powerchina_jiangxi_ingenio_wind_epc_2025.",
+    "supports": [
+      "powerchina_jiangxi_ingenio_wind_epc_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "powerchina_jiangxi_ingenio_wind_epc_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "dpi_crbc_corentyne_lot2_20260826",
+    "type": "official",
+    "chicago": "Guyana. Department of Public Information. “Paving Commences on Lot 2 of Palmyra-Moleson Creek Road Project.” 26 August 2026.",
+    "url": "https://dpi.gov.gy/paving-commences-on-lot-2-of-palmyra-moleson-creek-road-project/",
+    "annotation": "CRBC executing Palmyra–Moleson Creek Lot 2 (Bloomfield–No. 54); >GYD 2.9bn lot within US$604m corridor. Supports crbc_corentyne_lot2_guyana_2026.",
+    "supports": [
+      "crbc_corentyne_lot2_guyana_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "crbc_corentyne_lot2_guyana_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

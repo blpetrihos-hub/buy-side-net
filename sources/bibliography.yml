@@ -5510,7 +5510,6 @@
   supports:
   - ctg_chaglla_peru_ops_2025
   - hunt_br_power_equip
-
 - id: wabtec_vale_ptc_2026
   type: company
   chicago: Wabtec Corporation. “Vale and Wabtec Sign Agreement to Enhance Operational Safety on the EFC
@@ -5522,8 +5521,8 @@
   - hunt_latam_rail_telecom
 - id: semarnat_gaceta_0040_26_quemado
   type: government
-  chicago: Secretaría de Medio Ambiente y Recursos Naturales (Mexico). “Gaceta Ecológica — Proyectos
-    en evaluación de impacto ambiental.” Gaceta 0040-26, August 2026.
+  chicago: Secretaría de Medio Ambiente y Recursos Naturales (Mexico). “Gaceta Ecológica — Proyectos en
+    evaluación de impacto ambiental.” Gaceta 0040-26, August 2026.
   url: https://sinat.semarnat.gob.mx:8443/Gacetas/archivos2026/gaceta_0040-26.pdf
   annotation: SEMARNAT MIA-R notice for AES/Transformaes Parque Eólico El Quemado 247.5 MW (Mina, NL).
     Supports aes_el_quemado_nl_247mw_2026.
@@ -5532,8 +5531,8 @@
   - hunt_energy_wind
 - id: mineriaenergia_cerro_verde_enlozada_20260609
   type: press
-  chicago: Minería & Energía. “Cerro Verde lanza apuesta de US$ 300 millones en planta de Arequipa —
-    ¿qué viene?” 9 June 2026.
+  chicago: Minería & Energía. “Cerro Verde lanza apuesta de US$ 300 millones en planta de Arequipa — ¿qué
+    viene?” 9 June 2026.
   url: https://mineriaenergia.com/cerro-verde-lanza-apuesta-de-us-300-millones-en-planta-de-arequipa-que-viene/
   annotation: Press quoting Cerro Verde VP on >USD 300m La Enlozada WWTP expansion (UNVERIFIED). Supports
     fcx_cerro_verde_enlozada_300m_2026.
@@ -5560,18 +5559,18 @@
   - hunt_energy_other_renewables
 - id: efe_cri_tam_tsb_20260113
   type: company
-  chicago: EFE Trenes de Chile. “EFE adjudica el sistema eléctrico y de tracción para los servicios
-    Alameda–Melipilla y Santiago–Batuco.” 13 January 2026.
+  chicago: EFE Trenes de Chile. “EFE adjudica el sistema eléctrico y de tracción para los servicios Alameda–Melipilla
+    y Santiago–Batuco.” 13 January 2026.
   url: https://www.efe.cl/efe-adjudica-el-sistema-electrico-y-de-traccion-para-los-servicios-alameda-melipilla-y-santiago-batuco/
-  annotation: EFE award to China Railway International for TAM/TSB electrification (UF + USD 34.6m).
-    Supports cri_efe_tam_tsb_electrification_2026.
+  annotation: EFE award to China Railway International for TAM/TSB electrification (UF + USD 34.6m). Supports
+    cri_efe_tam_tsb_electrification_2026.
   supports:
   - cri_efe_tam_tsb_electrification_2026
   - hunt_latam_rail_telecom
 - id: newsroom_gy_sumec_linden_20250521
   type: press
-  chicago: News Room Guyana. “With Contract Signed, Linden to Get Guyana’s Largest Solar Farm Yet.”
-    21 May 2025.
+  chicago: News Room Guyana. “With Contract Signed, Linden to Get Guyana’s Largest Solar Farm Yet.” 21
+    May 2025.
   url: https://newsroom.gy/2025/05/21/with-contract-signed-linden-to-get-guyanas-largest-solar-farm-yet/
   annotation: SUMEC–XJ GUYSOL Linden 15 MW solar EPC at USD 22.58m. Supports sumec_guyana_linden_solar_22p58m_2025.
   supports:
@@ -5579,18 +5578,17 @@
   - hunt_energy_solar
 - id: ptc_hutchison_lazaro_artg_20260704
   type: press
-  chicago: Cruz, Pedro. “Hutchison Ports incorpora 12 nuevas grúas automatizadas a Lázaro Cárdenas.”
-    PTC, 4 July 2026.
+  chicago: Cruz, Pedro. “Hutchison Ports incorpora 12 nuevas grúas automatizadas a Lázaro Cárdenas.” PTC,
+    4 July 2026.
   url: https://www.ptc.mx/2026/07/hutchison-ports-incorpora-12-nuevas-gruas-automatizadas-a-lazaro-cardenas/
   annotation: ZPMC 12 electric remote ARTGs delivered to Hutchison LCT Lázaro Cárdenas. Supports zpmc_hutchison_lazaro_12artg_2026.
   supports:
   - zpmc_hutchison_lazaro_12artg_2026
   - hunt_infra_port_cranes
-
 - id: halliburton_bp_bumerangue_20260825
   type: company
-  chicago: Halliburton. “bp Awards Halliburton Integrated Contract for Bumerangue Field Appraisal in
-    Brazil.” Press release, 25 August 2026.
+  chicago: Halliburton. “bp Awards Halliburton Integrated Contract for Bumerangue Field Appraisal in Brazil.”
+    Press release, 25 August 2026.
   url: https://www.halliburton.com/en/about-us/press-release/bp-awards-halliburton-integrated-contract-for-bumerangue-field-appraisal-in-brazil
   annotation: Halliburton integrated appraisal services for bp Bumerangue. Supports halliburton_bp_bumerangue_brazil_2026.
   supports:
@@ -5625,8 +5623,8 @@
   - hunt_br_power_equip
 - id: pv_mag_ctg_nisperos_20260413
   type: press
-  chicago: Ini, Luis. “China Three Gorges anuncia la operación comercial de su segunda planta solar
-    en Colombia.” pv magazine Latinoamérica, 13 April 2026.
+  chicago: Ini, Luis. “China Three Gorges anuncia la operación comercial de su segunda planta solar en
+    Colombia.” pv magazine Latinoamérica, 13 April 2026.
   url: https://www.pv-magazine-latam.com/2026/04/13/china-three-gorges-anuncia-la-operacion-comercial-de-su-segunda-planta-solar-en-colombia/
   annotation: CTG LatAm Nísperos 19.9 MW COD (Baranoa). Supports ctg_nisperos_solar_colombia_2026.
   supports:
@@ -5643,8 +5641,7 @@
   - hunt_br_power_equip
 - id: enelsubte_crrc_amba_dmu_20260512
   type: press
-  chicago: enelSubte. “Adjudicaron a CRRC la compra de nuevos trenes diésel para el AMBA.” 12 May
-    2026.
+  chicago: enelSubte. “Adjudicaron a CRRC la compra de nuevos trenes diésel para el AMBA.” 12 May 2026.
   url: https://enelsubte.com/noticias/adjudicaron-a-crrc-la-compra-de-nuevos-trenes-diesel-para-el-amba/
   annotation: SOFSA award of 43 AMBA DMUs to CRIIC–CRRC Tangshan UTE. Supports crrc_criic_amba_43dmu_2026.
   supports:
@@ -5762,8 +5759,8 @@
   - hunt_energy_solar
 - id: weatherford_ventura_victoria_20260507
   type: company
-  chicago: Weatherford International plc. “Weatherford Awarded Managed Pressure Drilling Contract by
-    Ventura Offshore for Operations in Brazil.” 7 May 2026.
+  chicago: Weatherford International plc. “Weatherford Awarded Managed Pressure Drilling Contract by Ventura
+    Offshore for Operations in Brazil.” 7 May 2026.
   url: https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18556
   annotation: Weatherford G3 IRJ MPD for Ventura SSV Victoria (Búzios). Supports weatherford_ventura_victoria_mpd_2026.
   supports:
@@ -5801,15 +5798,14 @@
   chicago: Halliburton. “ExxonMobil and Halliburton achieve world’s first fully closed-loop automated
     geological well placement in Guyana.” 16 March 2026.
   url: https://www.halliburton.com/en/about-us/press-release/exxonmobil-halliburton-worlds-first-fully-closed-loop-automated-well-placement-guyana
-  annotation: Halliburton/ExxonMobil closed-loop automated well placement offshore Guyana. Supports
-    halliburton_exxon_closed_loop_guyana_2026.
+  annotation: Halliburton/ExxonMobil closed-loop automated well placement offshore Guyana. Supports halliburton_exxon_closed_loop_guyana_2026.
   supports:
   - halliburton_exxon_closed_loop_guyana_2026
   - hunt_infra_engineering_epc
 - id: baker_hughes_san_matias_20260407
   type: company
-  chicago: Baker Hughes. “Baker Hughes Secures Strategic Gas Technology Order Supporting Argentina’s
-    Gas Infrastructure.” 7 April 2026.
+  chicago: Baker Hughes. “Baker Hughes Secures Strategic Gas Technology Order Supporting Argentina’s Gas
+    Infrastructure.” 7 April 2026.
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Secures-Strategic-Gas-Technology-Order-Supporting-Argentinas-Gas-Infrastructure/default.aspx
   annotation: Baker Hughes NovaLT16 compression trains for San Matías Pipeline (Allen, Río Negro). Supports
     baker_hughes_san_matias_novalt_argentina_2026.
@@ -5827,8 +5823,8 @@
   - hunt_br_power_equip
 - id: aes_elsalvador_meanguera_20230727
   type: company
-  chicago: "AES El Salvador. “Un nuevo paso hacia el futuro energético: AES inaugura planta Meanguera
-    del Golfo.” 27 July 2023."
+  chicago: 'AES El Salvador. “Un nuevo paso hacia el futuro energético: AES inaugura planta Meanguera
+    del Golfo.” 27 July 2023.'
   url: https://www.aes-elsalvador.com/es/press-release/un-nuevo-paso-hacia-el-futuro-energetico-aes-inaugura-planta-meanguera-del-golfo
   annotation: AES Meanguera del Golfo 1.3 MWp + 4 MWh BESS / USD 5.5m inauguration. Supports aes_meanguera_golfo_solar_bess_2023.
   supports:
@@ -5836,8 +5832,8 @@
   - hunt_energy_solar
 - id: correio_spic_dongfang_cggc_ug7_20260910
   type: journalism
-  chicago: Correio de Santa Vitória. “SPIC Brasil assina contrato com consórcio Dongfang e CGGC para
-    expansão da hidrelétrica São Simão.” 10 September 2026.
+  chicago: Correio de Santa Vitória. “SPIC Brasil assina contrato com consórcio Dongfang e CGGC para expansão
+    da hidrelétrica São Simão.” 10 September 2026.
   url: https://correiosantavitoria.com.br/2026/09/10/spic-brasil-assina-contrato-com-consorcio-dongfang-e-cggc-para-expansao-da-hidreletrica-sao-simao/
   annotation: Portuguese press summarizing SPIC Brasil UG7 R$1.4bn / Dongfang–CGGC supply contract. Supports
     spic_sao_simao_ug7_lrcap_2026 and dongfang_cggc_sao_simao_ug7_2026.
@@ -5867,8 +5863,8 @@
   - hunt_infra_port_ownership
 - id: cenario_energia_graphcoa_urbix_20250728
   type: journalism
-  chicago: Cenário Energia. “Graphcoa avança na produção de grafite na Bahia e mira mercado nacional
-    e internacional.” 28 July 2025.
+  chicago: Cenário Energia. “Graphcoa avança na produção de grafite na Bahia e mira mercado nacional e
+    internacional.” 28 July 2025.
   url: https://cenarioenergia.com.br/2025/07/28/graphcoa-avanca-na-producao-de-grafite-na-bahia-e-mira-mercado-nacional-e-internacional/
   annotation: Graphcoa Boa Sorte concentrate exports to U.S. Urbix anode processing. Supports graphcoa_urbix_us_export_2025.
   supports:
@@ -5879,15 +5875,13 @@
   chicago: SLB. “SLB Awarded Major Completions Contract for Ultra-Deepwater Project Offshore Brazil.”
     25 September 2025.
   url: https://www.slb.com/newsroom/press-release/2025/pr-2025-0925-petrobras-atapu-sepia
-  annotation: SLB Petrobras Atapu/Sépia completions for up to 35 ultra-deepwater wells. Supports
-    slb_atapu_sepia_completions_2025.
+  annotation: SLB Petrobras Atapu/Sépia completions for up to 35 ultra-deepwater wells. Supports slb_atapu_sepia_completions_2025.
   supports:
   - slb_atapu_sepia_completions_2025
   - hunt_infra_engineering_epc
 - id: halliburton_petrotal_20260701
   type: company
-  chicago: Halliburton. “PetroTal awards Halliburton eight-well drilling campaign in Peru.” 1 July
-    2026.
+  chicago: Halliburton. “PetroTal awards Halliburton eight-well drilling campaign in Peru.” 1 July 2026.
   url: https://www.halliburton.com/en/about-us/press-release/petrotal-awards-halliburton-eight-well-drilling-campaign-in-peru
   annotation: Halliburton PetroTal Loreto eight-well drilling/cementing. Supports halliburton_petrotal_peru_2026.
   supports:
@@ -5895,11 +5889,10 @@
   - hunt_infra_engineering_epc
 - id: halliburton_petrobras_drilling_20250130
   type: company
-  chicago: Halliburton. “Halliburton secures major offshore drilling contract with Petrobras.” 30
-    January 2025.
+  chicago: Halliburton. “Halliburton secures major offshore drilling contract with Petrobras.” 30 January
+    2025.
   url: https://www.halliburton.com/en/about-us/press-release/halliburton-secures-major-offshore-drilling-contract-with-petrobras
-  annotation: Halliburton largest Petrobras three-year offshore drilling services award. Supports
-    halliburton_petrobras_drilling_2025.
+  annotation: Halliburton largest Petrobras three-year offshore drilling services award. Supports halliburton_petrobras_drilling_2025.
   supports:
   - halliburton_petrobras_drilling_2025
   - hunt_infra_engineering_epc
@@ -5929,8 +5922,8 @@
   - hunt_energy_solar
 - id: kaifa_manaus_20251107
   type: company
-  chicago: "Shenzhen Kaifa Technology (Chengdu). “KAIFA: Investing in Brazil with Local Manufacturing
-    for Long-term Growth.” 7 November 2025."
+  chicago: 'Shenzhen Kaifa Technology (Chengdu). “KAIFA: Investing in Brazil with Local Manufacturing
+    for Long-term Growth.” 7 November 2025.'
   url: http://en.kaifametering.com/Newsa/220.html
   annotation: KAIFA ~USD 40m Manaus smart-meter plant outbound investment. Supports kaifa_manaus_meters_40m_2025.
   supports:
@@ -5938,8 +5931,8 @@
   - hunt_res_water
 - id: pv_mag_arctech_tonka_20260108
   type: journalism
-  chicago: Ini, Luis. “La china Arctech cierra en Argentina un acuerdo para desarrollar 200 MW de
-    proyectos fotovoltaicos.” pv magazine Latinoamérica. 8 January 2026.
+  chicago: Ini, Luis. “La china Arctech cierra en Argentina un acuerdo para desarrollar 200 MW de proyectos
+    fotovoltaicos.” pv magazine Latinoamérica. 8 January 2026.
   url: https://www.pv-magazine-latam.com/2026/01/08/la-china-arctech-cierra-en-argentina-un-acuerdo-para-desarrollar-200-mw-de-proyectos-fotovoltaicos/
   annotation: Arctech–Tonka Solar 200 MW tracker MoU Argentina. Supports arctech_tonka_200mw_argentina_2026.
   supports:
@@ -5949,8 +5942,7 @@
   type: company
   chicago: Halliburton. “Halliburton expands international scope with three new projects.” 6 May 2025.
   url: https://www.halliburton.com/en/about-us/press-release/halliburton-expands-international-scope-three-new-projects
-  annotation: Halliburton Shell Gato do Mato Brazil well construction/completions. Supports
-    halliburton_shell_gato_do_mato_brazil_2025.
+  annotation: Halliburton Shell Gato do Mato Brazil well construction/completions. Supports halliburton_shell_gato_do_mato_brazil_2025.
   supports:
   - halliburton_shell_gato_do_mato_brazil_2025
   - hunt_infra_engineering_epc
@@ -5992,8 +5984,8 @@
   - hunt_energy_wind
 - id: proinversion_marcona_handover_20260926
   type: official
-  chicago: "Agencia de Promoción de la Inversión Privada (PROINVERSIÓN). “ProInversión: Terminal Portuario
-    de San Juan de Marcona avanza con entrega para su ejecución.” 26 September 2026."
+  chicago: 'Agencia de Promoción de la Inversión Privada (PROINVERSIÓN). “ProInversión: Terminal Portuario
+    de San Juan de Marcona avanza con entrega para su ejecución.” 26 September 2026.'
   url: https://www.gob.pe/institucion/proinversion/noticias/1449419-proinversion-terminal-portuario-de-san-juan-de-marcona-avanza-con-entrega-para-su-ejecucion
   annotation: Marcona port land handover to San Juan Port / Jinzhao. Supports jinzhao_marcona_land_handover_2026.
   supports:
@@ -6009,8 +6001,8 @@
   - hunt_energy_solar
 - id: halliburton_venezuela_mou_20260921
   type: company
-  chicago: Halliburton. “Halliburton signs agreements to support energy development opportunities in
-    Venezuela.” 21 September 2026.
+  chicago: Halliburton. “Halliburton signs agreements to support energy development opportunities in Venezuela.”
+    21 September 2026.
   url: https://www.halliburton.com/en/about-us/press-release/halliburton-signs-agreements-support-energy-development-opportunities-venezuela
   annotation: Halliburton–Eneva/WESCA Venezuela MoUs. Supports halliburton_venezuela_eneva_wesca_mou_2026.
   supports:
@@ -6018,8 +6010,8 @@
   - hunt_infra_engineering_epc
 - id: weatherford_petrobras_trs_20250916
   type: company
-  chicago: Weatherford International. “Weatherford Announces Tubular Running Services Contract Award
-    with Petrobras.” 16 September 2025.
+  chicago: Weatherford International. “Weatherford Announces Tubular Running Services Contract Award with
+    Petrobras.” 16 September 2025.
   url: https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18016
   annotation: Weatherford Petrobras TRS USD 147m three-year award. Supports weatherford_petrobras_trs_147m_2025.
   supports:
@@ -6039,8 +6031,7 @@
   chicago: Halliburton. “Petrobras awards Halliburton deepwater contracts for completion and stimulation
     services in Brazil.” 15 October 2025.
   url: https://www.halliburton.com/en/about-us/press-release/petrobras-awards-halliburton-deepwater-contracts-completion-stimulation-brazil
-  annotation: Halliburton Petrobras Búzios/Sépia/Atapu completions and stimulation. Supports
-    halliburton_petrobras_completions_stim_2025.
+  annotation: Halliburton Petrobras Búzios/Sépia/Atapu completions and stimulation. Supports halliburton_petrobras_completions_stim_2025.
   supports:
   - halliburton_petrobras_completions_stim_2025
   - hunt_infra_engineering_epc
@@ -6048,8 +6039,7 @@
   type: company
   chicago: PowerChina International. “中国电建在哥伦比亚燃气发电领域实现三连签.” 23 December 2025.
   url: https://www.powerchina-intl.com/show/9/4577.html
-  annotation: POWERCHINA Costa/Penda/Cayira 282 MW gas EPC Santa Marta. Supports
-    powerchina_costa_penda_cayira_gas_282mw_2025.
+  annotation: POWERCHINA Costa/Penda/Cayira 282 MW gas EPC Santa Marta. Supports powerchina_costa_penda_cayira_gas_282mw_2025.
   supports:
   - powerchina_costa_penda_cayira_gas_282mw_2025
   - hunt_br_power_equip
@@ -6057,8 +6047,7 @@
   type: company
   chicago: PowerChina International. “卢拉总统见证中国电建签约巴西第三氮肥厂项目6、8、10标段.” 29 June 2026.
   url: https://www.powerchina-intl.com/show/9/4822.html
-  annotation: POWERCHINA Petrobras UFN-III Lots 6/8/10 EPC Três Lagoas. Supports
-    powerchina_ufn_iii_tres_lagoas_2026.
+  annotation: POWERCHINA Petrobras UFN-III Lots 6/8/10 EPC Três Lagoas. Supports powerchina_ufn_iii_tres_lagoas_2026.
   supports:
   - powerchina_ufn_iii_tres_lagoas_2026
   - hunt_infra_engineering_epc
@@ -6072,11 +6061,10 @@
   - hunt_infra_building_materials
 - id: diario_nuevo_dia_cepernic_20251231
   type: journalism
-  chicago: "Diario Nuevo Día. “Reactivan el financiamiento de la represa Jorge Cepernic con USD 150
-    millones.” 31 December 2025."
+  chicago: Diario Nuevo Día. “Reactivan el financiamiento de la represa Jorge Cepernic con USD 150 millones.”
+    31 December 2025.
   url: https://www.eldiarionuevodia.com.ar/locales/reactivan-el-financiamiento-de-la-represa-jorge-cepernic-con-usd-150-millones/
-  annotation: UNVERIFIED proxy for CGGC Cepernic USD 150m tranche. Supports
-    cggc_cepernic_disbursement_150m_2025.
+  annotation: UNVERIFIED proxy for CGGC Cepernic USD 150m tranche. Supports cggc_cepernic_disbursement_150m_2025.
   supports:
   - cggc_cepernic_disbursement_150m_2025
   - hunt_br_power_equip
@@ -6091,8 +6079,7 @@
   - hunt_energy_solar
 - id: tgs_pelotas_sul_20260618
   type: company
-  chicago: TGS ASA. “TGS Announces Pelotas Sul Phase 1 Multi-client Survey Offshore Brazil.” 18 June
-    2026.
+  chicago: TGS ASA. “TGS Announces Pelotas Sul Phase 1 Multi-client Survey Offshore Brazil.” 18 June 2026.
   url: https://www.tgs.com/press-releases/tgs-announces-pelotas-sul-phase-1-multi-client-survey-offshore-brazil
   annotation: TGS–SLB Pelotas Sul 13,500 km² 3D JV. Supports slb_pelotas_sul_3d_brazil_2026.
   supports:
@@ -6113,8 +6100,7 @@
   type: company
   chicago: PowerChina International. “诺沃亚总统出席中国电建厄瓜多尔圣多明哥供水项目落成典礼.” 29 May 2026.
   url: https://www.powerchina-intl.com/show/9/4771.html
-  annotation: POWERCHINA Santo Domingo Ecuador water system inauguration. Supports
-    powerchina_santo_domingo_water_ecuador_2026.
+  annotation: POWERCHINA Santo Domingo Ecuador water system inauguration. Supports powerchina_santo_domingo_water_ecuador_2026.
   supports:
   - powerchina_santo_domingo_water_ecuador_2026
   - hunt_res_water
@@ -6129,10 +6115,9 @@
   - hunt_infra_engineering_epc
 - id: radiohoy_el_curval_20260604
   type: journalism
-  chicago: "Radio Hoy. “Tres firmas tendrán a su cargo construir la Planta ‘El Curval’.” 4 June 2026."
+  chicago: Radio Hoy. “Tres firmas tendrán a su cargo construir la Planta ‘El Curval’.” 4 June 2026.
   url: https://www.radiohoy.com/2026/06/04/tres-firmas-tendran-a-su-cargo-construir-la-planta-el-curval/791317/
-  annotation: UNVERIFIED proxy CCCC El Curval Santa Marta WTP award. Supports
-    cccc_el_curval_water_santa_marta_2026.
+  annotation: UNVERIFIED proxy CCCC El Curval Santa Marta WTP award. Supports cccc_el_curval_water_santa_marta_2026.
   supports:
   - cccc_el_curval_water_santa_marta_2026
   - hunt_res_water
@@ -6141,12 +6126,10 @@
   chicago: Neves, Lívia. “CATL announces Moura partnership for Brazil battery auction.” ess-news / pv
     magazine Brazil. 31 August 2026.
   url: https://www.ess-news.com/2026/08/31/catl-announces-moura-partnership-for-brazil-battery-auction/
-  annotation: CATL–Moura LRCAP 2026 storage auction partnership. Supports
-    catl_moura_lrcap_partnership_brazil_2026.
+  annotation: CATL–Moura LRCAP 2026 storage auction partnership. Supports catl_moura_lrcap_partnership_brazil_2026.
   supports:
   - catl_moura_lrcap_partnership_brazil_2026
   - hunt_energy_other_renewables
-
 - id: atlas_shangri_la_20251112
   type: company
   chicago: Atlas Renewable Energy. “Atlas Renewable Energy inaugurates Shangri-La, one of the largest
@@ -6167,8 +6150,8 @@
   - hunt_energy_other_renewables
 - id: aes_chile_gbm_sponsor_20260227
   type: company
-  chicago: AES Andes. “AES Chile receives prestigious ‘Sponsor of the Year’ recognition from GB&M.”
-    27 February 2026.
+  chicago: AES Andes. “AES Chile receives prestigious ‘Sponsor of the Year’ recognition from GB&M.” 27
+    February 2026.
   url: https://www.aesandes.com/en/press-release/aes-chile-receives-prestigious-sponsor-year-recognition-gbm
   annotation: AES Atacama BESS 250 MW named among five Chile PF projects. Supports aes_atacama_bess_250mw_chile_2026.
   supports:
@@ -6178,8 +6161,7 @@
   type: company
   chicago: AES Andes. “AES Chile acquires Atacama Solar photovoltaic plant.” 9 January 2025.
   url: https://www.aesandes.com/en/press-release/aes-chile-acquires-atacama-solar-photovoltaic-plant
-  annotation: AES Pacífico acquires Sonnedix Atacama Solar 171 MWp (Tarapacá). Supports
-    aes_atacama_solar_acquisition_2025.
+  annotation: AES Pacífico acquires Sonnedix Atacama Solar 171 MWp (Tarapacá). Supports aes_atacama_solar_acquisition_2025.
   supports:
   - aes_atacama_solar_acquisition_2025
   - hunt_energy_solar
@@ -6195,8 +6177,7 @@
   type: company
   chicago: POWERCHINA. “POWERCHINA secures transmission expansion projects in Chile.” 19 June 2025.
   url: https://en.powerchina.cn/2025-06/19/c_828966.htm
-  annotation: POWERCHINA G04 San Juan/Algarrobal 220 kV substation EPC. Supports
-    powerchina_chile_g04_san_juan_algarrobal_2025.
+  annotation: POWERCHINA G04 San Juan/Algarrobal 220 kV substation EPC. Supports powerchina_chile_g04_san_juan_algarrobal_2025.
   supports:
   - powerchina_chile_g04_san_juan_algarrobal_2025
   - hunt_br_power_equip
@@ -6205,32 +6186,31 @@
   chicago: China Harbour Engineering Company (CHEC Americas). “Posorja Multipurpose Terminal Expansion
     Project in Ecuador Completes Final Acceptance.” 22 April 2026.
   url: https://www.checamerica.com/blog/2026/04/22/proyecto-de-ampliacion-del-muelle-multifuncional-de-posorja-en-ecuador-completa-su-recepcion-de-obra/
-  annotation: CHEC Posorja multipurpose terminal expansion final acceptance. Supports
-    chec_posorja_multipurpose_2026.
+  annotation: CHEC Posorja multipurpose terminal expansion final acceptance. Supports chec_posorja_multipurpose_2026.
   supports:
   - chec_posorja_multipurpose_2026
   - hunt_infra_engineering_epc
 - id: radiouno_boca_del_rio_20251023
   type: journalism
-  chicago: "Radio Uno. “Doble vía a Boca del Río sí va con empresa china.” 23 October 2025."
+  chicago: Radio Uno. “Doble vía a Boca del Río sí va con empresa china.” 23 October 2025.
   url: https://radiouno.pe/noticias/256647/si-va-doble-via-a-boca-del-rio/
-  annotation: UNVERIFIED proxy CGGC Consorcio Vial Sama Tacna–Boca del Río PEN 608.6m. Supports
-    cggc_boca_del_rio_tacna_608m_2025.
+  annotation: UNVERIFIED proxy CGGC Consorcio Vial Sama Tacna–Boca del Río PEN 608.6m. Supports cggc_boca_del_rio_tacna_608m_2025.
   supports:
   - cggc_boca_del_rio_tacna_608m_2025
   - hunt_infra_bridges_roads
 - id: atlas_colbun_bess_ppa_20250408
   type: company
-  chicago: "Atlas Renewable Energy. “Atlas Renewable Energy and Colbun Sign Important Agreement for Battery Storage Project, Supporting a Responsible Energy Transition.” 8 April 2025."
+  chicago: Atlas Renewable Energy. “Atlas Renewable Energy and Colbun Sign Important Agreement for Battery
+    Storage Project, Supporting a Responsible Energy Transition.” 8 April 2025.
   url: https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-and-colbun-sign-important-agreement-for-battery-storage-project-supporting-a-responsible-energy-transition/
-  annotation: Atlas–Colbún 15-year PPA for María Elena standalone BESS 230 MW / 920 MWh. Supports
-    atlas_colbun_estepa_ii_bess_ppa_2025.
+  annotation: Atlas–Colbún 15-year PPA for María Elena standalone BESS 230 MW / 920 MWh. Supports atlas_colbun_estepa_ii_bess_ppa_2025.
   supports:
   - atlas_colbun_estepa_ii_bess_ppa_2025
   - hunt_energy_other_renewables
 - id: atlas_luiz_carlos_fc_20240815
   type: company
-  chicago: "Atlas Renewable Energy. “Atlas Renewable Energy secures R$1.5 billion for the construction of the Luiz Carlos solar complex in Brazil, coordinated by Itaú BBA.” 15 August 2024."
+  chicago: Atlas Renewable Energy. “Atlas Renewable Energy secures R$1.5 billion for the construction
+    of the Luiz Carlos solar complex in Brazil, coordinated by Itaú BBA.” 15 August 2024.
   url: https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-secures-r1-5-billion-for-the-construction-of-the-luiz-carlos-solar-complex-in-brazil-coordinated-by-itau-bba/
   annotation: Atlas Luiz Carlos Paracatu R$1.5bn project finance. Supports atlas_luiz_carlos_fc_1p5bn_brazil_2024.
   supports:
@@ -6238,16 +6218,17 @@
   - hunt_energy_solar
 - id: excelerate_jamaica_deal_20250327
   type: company
-  chicago: "Excelerate Energy. “Excelerate Energy Advances Growth Strategy with Acquisition of Jamaica Downstream LNG and Power Infrastructure Business from New Fortress Energy.” 27 March 2025."
+  chicago: Excelerate Energy. “Excelerate Energy Advances Growth Strategy with Acquisition of Jamaica
+    Downstream LNG and Power Infrastructure Business from New Fortress Energy.” 27 March 2025.
   url: https://excelerateenergy.com/news/excelerate-energy-advances-growth-strategy-with-acquisition-of-jamaica-downstream-lng-and-power-infrastructure-business-from-new-fortress-energy/
-  annotation: Excelerate–NFE Jamaica definitive agreement USD 1.055bn cash. Supports
-    excelerate_jamaica_nfe_1p055bn_2025.
+  annotation: Excelerate–NFE Jamaica definitive agreement USD 1.055bn cash. Supports excelerate_jamaica_nfe_1p055bn_2025.
   supports:
   - excelerate_jamaica_nfe_1p055bn_2025
   - hunt_br_power_equip
 - id: excelerate_jamaica_close_20250514
   type: company
-  chicago: "Excelerate Energy. “Excelerate Energy Closes Acquisition of Integrated LNG and Power Platform in Jamaica.” 14 May 2025."
+  chicago: Excelerate Energy. “Excelerate Energy Closes Acquisition of Integrated LNG and Power Platform
+    in Jamaica.” 14 May 2025.
   url: https://excelerateenergy.com/news/excelerate-energy-closes-acquisition-of-integrated-lng-and-power-platform-in-jamaica/
   annotation: Excelerate closes NFE Jamaica Montego Bay / Old Harbour / Clarendon CHP acquisition. Supports
     excelerate_jamaica_nfe_1p055bn_2025.
@@ -6256,7 +6237,7 @@
   - hunt_br_power_equip
 - id: excelerate_q2_2026_colombia_fsru
   type: company
-  chicago: "Excelerate Energy. “Excelerate Energy Reports Strong Second Quarter 2026 Results.” 2026."
+  chicago: Excelerate Energy. “Excelerate Energy Reports Strong Second Quarter 2026 Results.” 2026.
   url: https://excelerateenergy.com/news/excelerate-energy-reports-strong-second-quarter-2026-results/
   annotation: Excelerate FSRU Express seven-year TCP with Sociedad Portuaria Puerto Bahía Colombia. Supports
     excelerate_fsru_express_colombia_2026.
@@ -6265,16 +6246,17 @@
   - hunt_br_power_equip
 - id: sungrow_aurora_zelestra_20250519
   type: company
-  chicago: "Sungrow. “Zelestra Signs Major BESS Agreement with Sungrow for 1 GWh of Energy Storage at the Aurora Hybrid Project in Chile.” 19 May 2025."
+  chicago: Sungrow. “Zelestra Signs Major BESS Agreement with Sungrow for 1 GWh of Energy Storage at the
+    Aurora Hybrid Project in Chile.” 19 May 2025.
   url: https://www.sungrowpower.com/en/newsdetail/6455
-  annotation: Sungrow PowerTitan 2.0 ~1 GWh BESS supply for Zelestra Aurora Tarapacá. Supports
-    sungrow_zelestra_aurora_1gwh_chile_2025.
+  annotation: Sungrow PowerTitan 2.0 ~1 GWh BESS supply for Zelestra Aurora Tarapacá. Supports sungrow_zelestra_aurora_1gwh_chile_2025.
   supports:
   - sungrow_zelestra_aurora_1gwh_chile_2025
   - hunt_energy_other_renewables
 - id: chec_taltal_school_20260121
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “Reconstruction of Taltal Technical High School in Chile Officially Begins.” 21 January 2026."
+  chicago: China Harbour Engineering Company (CHEC Americas). “Reconstruction of Taltal Technical High
+    School in Chile Officially Begins.” 21 January 2026.
   url: https://www.checamerica.com/blog/2026/01/21/reconstruction-of-taltal-technical-high-school-in-chile-officially-begins/
   annotation: CHEC Taltal Technical High School reconstruction start after MOP site handover. Supports
     chec_taltal_school_chile_2026.
@@ -6283,863 +6265,978 @@
   - hunt_infra_building_materials
 - id: powerchina_catac_peru_20260303
   type: company
-  chicago: "POWERCHINA. “POWERCHINA hands over its first road maintenance project in Peru.” 3 March 2026."
+  chicago: POWERCHINA. “POWERCHINA hands over its first road maintenance project in Peru.” 3 March 2026.
   url: https://en.powerchina.cn/2026-03/03/c_829057.htm
-  annotation: POWERCHINA Catac 78.4 km Áncash road maintenance handover. Supports
-    powerchina_catac_road_peru_2026.
+  annotation: POWERCHINA Catac 78.4 km Áncash road maintenance handover. Supports powerchina_catac_road_peru_2026.
   supports:
   - powerchina_catac_road_peru_2026
   - hunt_infra_bridges_roads
 - id: provias_rd168_crtg_tingo_20260304
   type: government
-  chicago: "Peru, Proyecto Especial de Infraestructura de Transporte Nacional (PROVIÁS NACIONAL). “Resolución Directoral N.° 168-2026-MTC/20.” 4 March 2026."
+  chicago: Peru, Proyecto Especial de Infraestructura de Transporte Nacional (PROVIÁS NACIONAL). “Resolución
+    Directoral N.° 168-2026-MTC/20.” 4 March 2026.
   url: https://www.gob.pe/institucion/pvn/normas-legales/7824970-168-2026-mtc-20
-  annotation: Official RD citing CRTG Consorcio Carretera San Rafael Contract 121-2025-MTC/20.2 S/515,044,501.07 for Cerro de Pasco–Tingo María Tramo I. Supports
-    crtg_cerro_pasco_tingo_515m_2025.
+  annotation: Official RD citing CRTG Consorcio Carretera San Rafael Contract 121-2025-MTC/20.2 S/515,044,501.07
+    for Cerro de Pasco–Tingo María Tramo I. Supports crtg_cerro_pasco_tingo_515m_2025.
   supports:
   - crtg_cerro_pasco_tingo_515m_2025
   - hunt_infra_bridges_roads
 - id: wnn_cnnc_cnen_centena_20251125
   type: journalism
-  chicago: "World Nuclear News. “Brazil’s CNEN and China’s CNNC sign radioactive waste MoU.” 25 November 2025."
+  chicago: World Nuclear News. “Brazil’s CNEN and China’s CNNC sign radioactive waste MoU.” 25 November
+    2025.
   url: https://www.world-nuclear-news.org/articles/brazils-cnen-and-chinas-cnnc-sign-radioactive-waste-mou
-  annotation: CNNC Overseas–CNEN MoU on waste management supporting Centena repository. Supports
-    cnnc_cnen_centena_mou_2025.
+  annotation: CNNC Overseas–CNEN MoU on waste management supporting Centena repository. Supports cnnc_cnen_centena_mou_2025.
   supports:
   - cnnc_cnen_centena_mou_2025
   - hunt_energy_fission_smr
-
 - id: atlas_luiz_carlos_side_b_20251209
   type: company
-  chicago: "Atlas Renewable Energy. “ArcelorMittal and Atlas Renewable Energy complete construction of a solar plant in Minas Gerais, Brazil.” 9 December 2025."
+  chicago: Atlas Renewable Energy. “ArcelorMittal and Atlas Renewable Energy complete construction of
+    a solar plant in Minas Gerais, Brazil.” 9 December 2025.
   url: https://atlasrenewableenergy.com/news-and-insights/arcelormittal-and-atlas-renewable-energy-complete-construction-of-a-solar-plant-in-minas-gerais-brazil/
-  annotation: Atlas–ArcelorMittal Luiz Carlos Side B 315 MWp BOT completion R$895m. Supports
-    atlas_luiz_carlos_side_b_bot_2025.
+  annotation: Atlas–ArcelorMittal Luiz Carlos Side B 315 MWp BOT completion R$895m. Supports atlas_luiz_carlos_side_b_bot_2025.
   supports:
   - atlas_luiz_carlos_side_b_bot_2025
   - hunt_energy_solar
 - id: ustda_atlantico_datacenter_20260929
   type: government
-  chicago: "U.S. Trade and Development Agency. “USTDA Funds Secure, AI-Ready Digital Infrastructure in Colombia.” 29 September 2026."
+  chicago: U.S. Trade and Development Agency. “USTDA Funds Secure, AI-Ready Digital Infrastructure in
+    Colombia.” 29 September 2026.
   url: https://ustda.gov/ustda-funds-secure-ai-ready-digital-infrastructure-in-colombia/
-  annotation: USTDA TA for Atlántico hyperscale data center and fiber network. Supports
-    ustda_atlantico_datacenter_ta_2026.
+  annotation: USTDA TA for Atlántico hyperscale data center and fiber network. Supports ustda_atlantico_datacenter_ta_2026.
   supports:
   - ustda_atlantico_datacenter_ta_2026
   - hunt_infra_engineering_epc
 - id: ustda_cocesna_cyber_20260827
   type: government
-  chicago: "U.S. Trade and Development Agency. “USTDA to Secure Central American Air Navigation Against Cyberthreats.” 27 August 2026."
+  chicago: U.S. Trade and Development Agency. “USTDA to Secure Central American Air Navigation Against
+    Cyberthreats.” 27 August 2026.
   url: https://ustda.gov/ustda-to-secure-central-american-air-navigation-against-cyberthreats/
-  annotation: USTDA TA to COCESNA cybersecurity roadmap; Cibernetika as U.S. contractor. Supports
-    ustda_cocesna_cyber_ta_2026.
+  annotation: USTDA TA to COCESNA cybersecurity roadmap; Cibernetika as U.S. contractor. Supports ustda_cocesna_cyber_ta_2026.
   supports:
   - ustda_cocesna_cyber_ta_2026
   - hunt_infra_engineering_epc
 - id: slb_exxon_guyana_neuro_20260204
   type: company
-  chicago: "SLB. “ExxonMobil Guyana Limited leverages drilling automation to set new performance benchmarks in deepwater operations.” 4 February 2026."
+  chicago: SLB. “ExxonMobil Guyana Limited leverages drilling automation to set new performance benchmarks
+    in deepwater operations.” 4 February 2026.
   url: https://www.slb.com/resource-library/case-study-with-navigation/di/2026/exxonmobil-leverages-drilling-automation-to-set-new-performance-benchmarks-in-deepwater-operations
-  annotation: SLB Neuro/DrillOps autonomous drilling deployment with ExxonMobil Guyana. Supports
-    slb_exxon_guyana_neuro_drillops_2026.
+  annotation: SLB Neuro/DrillOps autonomous drilling deployment with ExxonMobil Guyana. Supports slb_exxon_guyana_neuro_drillops_2026.
   supports:
   - slb_exxon_guyana_neuro_drillops_2026
   - hunt_infra_engineering_epc
 - id: chec_jamaica_housing_p2_20260107
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “Jamaica Affordable Housing Project Phases I–II Achieve Phased Handover.” 7 January 2026."
+  chicago: China Harbour Engineering Company (CHEC Americas). “Jamaica Affordable Housing Project Phases
+    I–II Achieve Phased Handover.” 7 January 2026.
   url: https://www.checamerica.com/blog/2026/01/07/jamaica-affordable-housing-project-phases-i-ii-achieve-phased-handover/
-  annotation: CHEC Phase II handover of 281 Jamaica Affordable Housing units. Supports
-    chec_jamaica_affordable_housing_p2_2026.
+  annotation: CHEC Phase II handover of 281 Jamaica Affordable Housing units. Supports chec_jamaica_affordable_housing_p2_2026.
   supports:
   - chec_jamaica_affordable_housing_p2_2026
   - hunt_infra_building_materials
 - id: jis_morant_bay_chec_20250131
   type: government
-  chicago: "Jamaica Information Service. “Phased Handover of Morant Bay Urban Centre Begins in February.” 31 January 2025."
+  chicago: Jamaica Information Service. “Phased Handover of Morant Bay Urban Centre Begins in February.”
+    31 January 2025.
   url: https://jis.gov.jm/phased-handover-of-morant-bay-urban-centre-begins-in-february/
-  annotation: JIS confirms CHEC contractor and J$6bn Morant Bay Urban Centre cost. Supports
-    chec_morant_bay_urban_centre_2025.
+  annotation: JIS confirms CHEC contractor and J$6bn Morant Bay Urban Centre cost. Supports chec_morant_bay_urban_centre_2025.
   supports:
   - chec_morant_bay_urban_centre_2025
   - hunt_infra_building_materials
 - id: chec_guyana_marriott_20260115
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “President Attends Opening as Guyana AC Marriott Hotel Officially Begins Operations.” 15 January 2026."
+  chicago: China Harbour Engineering Company (CHEC Americas). “President Attends Opening as Guyana AC
+    Marriott Hotel Officially Begins Operations.” 15 January 2026.
   url: https://www.checamerica.com/blog/2026/01/15/president-attends-opening-as-guyana-ac-marriott-hotel-officially-begins-operations/
-  annotation: CHEC-built AC Marriott Georgetown opening with President Ali. Supports
-    chec_guyana_ac_marriott_2026.
+  annotation: CHEC-built AC Marriott Georgetown opening with President Ali. Supports chec_guyana_ac_marriott_2026.
   supports:
   - chec_guyana_ac_marriott_2026
   - hunt_infra_building_materials
 - id: chec_impro_mexico_slp_page
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “Projects Impro Mexico — Impro Mexico SLP Park Construction Project.” n.d."
+  chicago: China Harbour Engineering Company (CHEC Americas). “Projects Impro Mexico — Impro Mexico SLP
+    Park Construction Project.” n.d.
   url: https://www.checamerica.com/projects-impro-mexico/
-  annotation: CHEC Impro Mexico SLP Park 45,500 m² industrial construction. Supports
-    chec_impro_mexico_slp_2026.
+  annotation: CHEC Impro Mexico SLP Park 45,500 m² industrial construction. Supports chec_impro_mexico_slp_2026.
   supports:
   - chec_impro_mexico_slp_2026
   - hunt_infra_engineering_epc
 - id: slb_rio_dcoe_20260130
   type: company
-  chicago: "SLB. “SLB Opens Decommissioning Center in Rio to Support Brazil’s Offshore Retirement Cycle.” 30 January 2026."
+  chicago: SLB. “SLB Opens Decommissioning Center in Rio to Support Brazil’s Offshore Retirement Cycle.”
+    30 January 2026.
   url: https://www.slb.com/newsroom/updates/2026/2026-0130-dcoe-brazil-update
-  annotation: SLB Rio Decommissioning Center of Excellence opening with Petrobras ROBIN collaboration. Supports slb_rio_decommissioning_center_2026.
+  annotation: SLB Rio Decommissioning Center of Excellence opening with Petrobras ROBIN collaboration.
+    Supports slb_rio_decommissioning_center_2026.
   supports:
   - slb_rio_decommissioning_center_2026
   - hunt_infra_engineering_epc
-
 - id: baker_hughes_q1_2026_results
   type: company
-  chicago: "Baker Hughes. “Baker Hughes Announces First-Quarter 2026 Results.” 2026."
+  chicago: Baker Hughes. “Baker Hughes Announces First-Quarter 2026 Results.” 2026.
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-First-Quarter-2026-Results/default.aspx
-  annotation: Baker Hughes Q1 2026 results listing YPF Lucida RSS / PermaFORCE 3-year Vaca Muerta well-construction contract. Supports baker_hughes_ypf_lucida_rss_2026.
+  annotation: Baker Hughes Q1 2026 results listing YPF Lucida RSS / PermaFORCE 3-year Vaca Muerta well-construction
+    contract. Supports baker_hughes_ypf_lucida_rss_2026.
   supports:
   - baker_hughes_ypf_lucida_rss_2026
   - hunt_infra_engineering_epc
-
 - id: atlas_uruguay_sale_20260527
   type: company
-  chicago: "Atlas Renewable Energy. “Atlas Completes Strategic Rotation of Solar Assets in Uruguay and Continues Advancing its Growth Across the Region.” 27 May 2026."
+  chicago: Atlas Renewable Energy. “Atlas Completes Strategic Rotation of Solar Assets in Uruguay and
+    Continues Advancing its Growth Across the Region.” 27 May 2026.
   url: https://atlasrenewableenergy.com/news-and-insights/atlas-completes-strategic-rotation-of-solar-assets-in-uruguay-and-continues-advancing-its-growth-across-the-region/
   annotation: Atlas Miami HQ sale of 76 MWp Uruguay operating solar portfolio. Supports atlas_uruguay_solar_sale_76mwp_2026.
   supports:
   - atlas_uruguay_solar_sale_76mwp_2026
   - hunt_energy_solar
-
 - id: aes_andes_gbm_sponsor_20260227
   type: company
-  chicago: "AES Andes. “AES Chile receives prestigious ‘Sponsor of the Year’ recognition from GB&M.” 27 February 2026."
+  chicago: AES Andes. “AES Chile receives prestigious ‘Sponsor of the Year’ recognition from GB&M.” 27
+    February 2026.
   url: https://www.aesandes.com/en/press-release/aes-chile-receives-prestigious-sponsor-year-recognition-gbm
-  annotation: AES Andes confirms US$1.745bn five-project Chile renewables Project Finance closes. Supports aes_chile_pf_1p745bn_2026.
+  annotation: AES Andes confirms US$1.745bn five-project Chile renewables Project Finance closes. Supports
+    aes_chile_pf_1p745bn_2026.
   supports:
   - aes_chile_pf_1p745bn_2026
   - hunt_energy_other_renewables
-
 - id: prensa_amador_inaug_20240326
   type: press
-  chicago: "Hernández, Katiuska. “Inauguran finalmente el puerto de cruceros de Amador.” La Prensa (Panamá), 26 March 2024."
+  chicago: Hernández, Katiuska. “Inauguran finalmente el puerto de cruceros de Amador.” La Prensa (Panamá),
+    26 March 2024.
   url: https://www.prensa.com/economia/inauguran-finalmente-el-puerto-de-cruceros-de-amador/
-  annotation: La Prensa inauguration naming CHEC contractor and US$206.7m CapEx (UNVERIFIED proxy). Supports chec_amador_cruise_port_panama.
+  annotation: La Prensa inauguration naming CHEC contractor and US$206.7m CapEx (UNVERIFIED proxy). Supports
+    chec_amador_cruise_port_panama.
   supports:
   - chec_amador_cruise_port_panama
   - hunt_infra_engineering_epc
-
 - id: jis_lakes_pen_chec_20251210
   type: government
-  chicago: "Jamaica Information Service. “Gov’t Steadfast in Mainstreaming Resilience Across Jamaica’s Economy – PM Holness.” 10 December 2025."
+  chicago: Jamaica Information Service. “Gov’t Steadfast in Mainstreaming Resilience Across Jamaica’s
+    Economy – PM Holness.” 10 December 2025.
   url: https://jis.gov.jm/govt-steadfast-in-mainstreaming-resilience-across-jamaicas-economy-pm-holness/
   annotation: JIS confirms CHEC contractor and US$20m Lakes Pen Industrial Park CapEx. Supports chec_lakes_pen_industrial_jamaica_2025.
   supports:
   - chec_lakes_pen_industrial_jamaica_2025
   - hunt_infra_building_materials
-
 - id: dpi_guyana_onderneeming_20251102
   type: government
-  chicago: "Department of Public Information (Guyana). “US$10.4M solar farm commissioned at Onderneeming in Region Two.” 2 November 2025."
+  chicago: Department of Public Information (Guyana). “US$10.4M solar farm commissioned at Onderneeming
+    in Region Two.” 2 November 2025.
   url: https://dpi.gov.gy/us10-4m-solar-farm-commissioned-at-onderneeming-in-region-two/
-  annotation: DPI commissioning of Onderneeming 5 MW / US$10.4m GUYSOL solar+storage with SUMEC and XJ present. Supports sumec_guyana_onderneeming_solar_10p4m_2025.
+  annotation: DPI commissioning of Onderneeming 5 MW / US$10.4m GUYSOL solar+storage with SUMEC and XJ
+    present. Supports sumec_guyana_onderneeming_solar_10p4m_2025.
   supports:
   - sumec_guyana_onderneeming_solar_10p4m_2025
   - hunt_energy_solar
-
 - id: chec_nmia_runway12_20251127
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “NMIA Runway Extension Project Completes Runway 12 Temporary Relocation.” 27 November 2025."
+  chicago: China Harbour Engineering Company (CHEC Americas). “NMIA Runway Extension Project Completes
+    Runway 12 Temporary Relocation.” 27 November 2025.
   url: https://www.checamerica.com/blog/2025/11/27/nmia-runway-extension-project-completes-runway-12-temporary-relocation/
   annotation: CHEC Americas confirms NMIA runway extension temporary relocation milestone. Supports chec_nmia_runway_resa_jamaica_2025.
   supports:
   - chec_nmia_runway_resa_jamaica_2025
   - hunt_infra_engineering_epc
-
 - id: nov_q1_2026_earnings
   type: company
-  chicago: "NOV Inc. “NOV Reports First Quarter 2026 Earnings.” 28 April 2026."
+  chicago: NOV Inc. “NOV Reports First Quarter 2026 Earnings.” 28 April 2026.
   url: https://investors.nov.com/news-releases/news-release-details/nov-reports-first-quarter-2026-earnings
   annotation: NOV Q1 2026 earnings naming 96 km Brazil flexible riser/flowline award. Supports nov_brazil_flex_risers_96km_2026.
   supports:
   - nov_brazil_flex_risers_96km_2026
   - hunt_infra_engineering_epc
-
 - id: slb_petronas_suriname_20260407
   type: company
-  chicago: "SLB. “SLB OneSubsea and Subsea7 Sign Collaboration Agreement with PETRONAS Suriname.” 7 April 2026."
+  chicago: SLB. “SLB OneSubsea and Subsea7 Sign Collaboration Agreement with PETRONAS Suriname.” 7 April
+    2026.
   url: https://www.slb.com/newsroom/press-release/2026/pr-2026-0407-slb-oss-subsea7-petronas
-  annotation: SLB strategic collaboration framework with PETRONAS Suriname via Subsea Integration Alliance. Supports slb_petronas_suriname_sca_2026.
+  annotation: SLB strategic collaboration framework with PETRONAS Suriname via Subsea Integration Alliance.
+    Supports slb_petronas_suriname_sca_2026.
   supports:
   - slb_petronas_suriname_sca_2026
   - hunt_infra_engineering_epc
-
 - id: excelerate_q2_2025_reliq
   type: company
-  chicago: "Excelerate Energy. “Excelerate Energy Reports Strong Second Quarter 2025 Results and Raises Full-Year Guidance.” 2025."
+  chicago: Excelerate Energy. “Excelerate Energy Reports Strong Second Quarter 2025 Results and Raises
+    Full-Year Guidance.” 2025.
   url: https://excelerateenergy.com/news/excelerate-energy-reports-strong-second-quarter-2025-results-and-raises-full-year-guidance/
-  annotation: Excelerate–Petrobras agreement to install reliquefaction unit on FSRU Experience (Guanabara Bay). Supports excelerate_experience_reliq_brazil_2025.
+  annotation: Excelerate–Petrobras agreement to install reliquefaction unit on FSRU Experience (Guanabara
+    Bay). Supports excelerate_experience_reliq_brazil_2025.
   supports:
   - excelerate_experience_reliq_brazil_2025
   - hunt_energy_power_plants_grid
-
 - id: datamar_nov_acu_lease_2026
   type: press
-  chicago: "DatamarNews. “Port of Açu and NOV Sign Agreement to Expand Operations in Brazil.” 2026."
+  chicago: DatamarNews. “Port of Açu and NOV Sign Agreement to Expand Operations in Brazil.” 2026.
   url: https://datamarnews.com/noticias/port-of-acu-and-nov-sign-agreement-to-expand-operations-in-brazil/
   annotation: UNVERIFIED proxy for NOV Açu lease expansion (+30,000 m² through 2047). Supports nov_acu_lease_expansion_2047_2026.
   supports:
   - nov_acu_lease_expansion_2047_2026
   - hunt_infra_engineering_epc
-
 - id: anin_chulucanas_frias_20260317
   type: government
-  chicago: "Autoridad Nacional de Infraestructura (ANIN). “ANIN suscribe contrato para la ejecución de la nueva carretera Chulucanas – Frías.” 17 March 2026."
+  chicago: Autoridad Nacional de Infraestructura (ANIN). “ANIN suscribe contrato para la ejecución de
+    la nueva carretera Chulucanas – Frías.” 17 March 2026.
   url: https://www.gob.pe/institucion/anin/noticias/1367141-anin-suscribe-contrato-para-la-ejecucion-de-la-nueva-carretera-chulucanas-frias
-  annotation: ANIN contract award to Consorcio Ingeniería Vial Perú (China Railway No.10) for S/545.8m Yapatera–Frías road. Supports china_railway_no10_piura_yapatera_frias_2026.
+  annotation: ANIN contract award to Consorcio Ingeniería Vial Perú (China Railway No.10) for S/545.8m
+    Yapatera–Frías road. Supports china_railway_no10_piura_yapatera_frias_2026.
   supports:
   - china_railway_no10_piura_yapatera_frias_2026
   - hunt_infra_bridges_roads
-
 - id: dpi_guyana_dbis_tx_20250404
   type: government
-  chicago: "Department of Public Information (Guyana). “US$422.2M contracts inked for expansion of transmission lines to boost electricity supply in Guyana.” 4 April 2025."
+  chicago: Department of Public Information (Guyana). “US$422.2M contracts inked for expansion of transmission
+    lines to boost electricity supply in Guyana.” 4 April 2025.
   url: https://dpi.gov.gy/us422-2m-contracts-inked-for-expansion-of-transmission-lines-to-boost-electricity-supply-in-guyana/
-  annotation: DPI names PowerChina Lots I+III at US$256.7m on Demerara–Berbice transmission Phase II. Supports powerchina_guyana_dbis_phase2_256p7m_2025.
+  annotation: DPI names PowerChina Lots I+III at US$256.7m on Demerara–Berbice transmission Phase II.
+    Supports powerchina_guyana_dbis_phase2_256p7m_2025.
   supports:
   - powerchina_guyana_dbis_phase2_256p7m_2025
   - hunt_energy_power_plants_grid
-
 - id: observer_boundbrook_chec_20250411
   type: press
-  chicago: "Jamaica Observer. “$4.2-billion urban centre for Portland.” 11 April 2025."
+  chicago: Jamaica Observer. “$4.2-billion urban centre for Portland.” 11 April 2025.
   url: https://www.jamaicaobserver.com/2025/04/11/4-2-billion-urban-centre-portland/
-  annotation: UNVERIFIED proxy naming CHEC Boundbrook Urban Centre contract and J$2.8bn construction / J$4.2bn total. Supports chec_boundbrook_urban_jamaica_2025.
+  annotation: UNVERIFIED proxy naming CHEC Boundbrook Urban Centre contract and J$2.8bn construction /
+    J$4.2bn total. Supports chec_boundbrook_urban_jamaica_2025.
   supports:
   - chec_boundbrook_urban_jamaica_2025
   - hunt_infra_building_materials
-
 - id: chec_northern_parcel_20260114
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “Chinese Ambassador to Jamaica Visits Phase I of Northern Parcel Villa Project.” 14 January 2026."
+  chicago: China Harbour Engineering Company (CHEC Americas). “Chinese Ambassador to Jamaica Visits Phase
+    I of Northern Parcel Villa Project.” 14 January 2026.
   url: https://www.checamerica.com/blog/2026/01/14/chinese-ambassador-to-jamaica-visits-phase-i-of-northern-parcel-villa-project/
-  annotation: CHEC Americas confirms Phase I Northern Parcel Villa Project under CHEC Jamaica Office. Supports chec_northern_parcel_villa_jamaica_2026.
+  annotation: CHEC Americas confirms Phase I Northern Parcel Villa Project under CHEC Jamaica Office.
+    Supports chec_northern_parcel_villa_jamaica_2026.
   supports:
   - chec_northern_parcel_villa_jamaica_2026
   - hunt_infra_building_materials
-
 - id: baker_hughes_stim_vessels_20250917
   type: company
-  chicago: "Baker Hughes. “Baker Hughes Secures Multi-Year Contract with Petrobras for Offshore Stimulation Vessels.” 17 September 2025."
+  chicago: Baker Hughes. “Baker Hughes Secures Multi-Year Contract with Petrobras for Offshore Stimulation
+    Vessels.” 17 September 2025.
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-Secures-Multi-Year-Contract-with-Petrobras-for-Offshore-Stimulation-Vessels-09-17-2025/default.aspx
-  annotation: Baker Hughes multi-year Petrobras award extending Blue Marlin and Blue Orca stimulation vessels. Supports baker_hughes_petrobras_stim_vessels_2025.
+  annotation: Baker Hughes multi-year Petrobras award extending Blue Marlin and Blue Orca stimulation
+    vessels. Supports baker_hughes_petrobras_stim_vessels_2025.
   supports:
   - baker_hughes_petrobras_stim_vessels_2025
   - hunt_infra_engineering_epc
-
 - id: baker_hughes_flex_pipe_20241028
   type: company
-  chicago: "Baker Hughes. “Baker Hughes Awarded Contracts to Supply Petrobras with Flexible Pipe Systems, Associated Services across Several Fields.” 28 October 2024."
+  chicago: Baker Hughes. “Baker Hughes Awarded Contracts to Supply Petrobras with Flexible Pipe Systems,
+    Associated Services across Several Fields.” 28 October 2024.
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2024/Baker-Hughes-Awarded-Contracts-to-Supply-Petrobras-with-Flexible-Pipe-Systems-Associated-Services-across-Several-Fields-10-28-2024/default.aspx
-  annotation: Baker Hughes 77 km Petrobras pre-salt flexible pipe award (Búzios/Libra/Berbigão/Sururu/Sépia). Supports baker_hughes_petrobras_flex_pipe_77km_2024.
+  annotation: Baker Hughes 77 km Petrobras pre-salt flexible pipe award (Búzios/Libra/Berbigão/Sururu/Sépia).
+    Supports baker_hughes_petrobras_flex_pipe_77km_2024.
   supports:
   - baker_hughes_petrobras_flex_pipe_77km_2024
   - hunt_infra_engineering_epc
-
 - id: baker_hughes_workover_pa_20240610
   type: company
-  chicago: "Baker Hughes. “Baker Hughes Awarded Major Integrated Solutions Contract for Petrobras’ Offshore Fields.” 10 June 2024."
+  chicago: Baker Hughes. “Baker Hughes Awarded Major Integrated Solutions Contract for Petrobras’ Offshore
+    Fields.” 10 June 2024.
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2024/Baker-Hughes-Awarded-Major-Integrated-Solutions-Contract-for-Petrobras-Offshore-Fields-06-10-2024/default.aspx
-  annotation: Baker Hughes Petrobras multi-year workover and P&A integrated solutions award. Supports baker_hughes_petrobras_workover_pa_2024.
+  annotation: Baker Hughes Petrobras multi-year workover and P&A integrated solutions award. Supports
+    baker_hughes_petrobras_workover_pa_2024.
   supports:
   - baker_hughes_petrobras_workover_pa_2024
   - hunt_infra_engineering_epc
-
 - id: icm_coamo_brazil_20250313
   type: company
-  chicago: "ICM Inc. “COAMO Agroindustrial Cooperativa selects ICM for design and engineering of new corn biorefinery in Brazil.” 13 March 2025."
+  chicago: ICM Inc. “COAMO Agroindustrial Cooperativa selects ICM for design and engineering of new corn
+    biorefinery in Brazil.” 13 March 2025.
   url: https://icminc.com/coamo-agroindustrial-cooperativa-selects-icm-for-design-and-engineering-of-new-corn-biorefinery-in-brazil/
-  annotation: ICM (Kansas) selected for COAMO Campo Mourão corn ethanol biorefinery engineering/equipment. Supports icm_coamo_campo_mourao_brazil_2025.
+  annotation: ICM (Kansas) selected for COAMO Campo Mourão corn ethanol biorefinery engineering/equipment.
+    Supports icm_coamo_campo_mourao_brazil_2025.
   supports:
   - icm_coamo_campo_mourao_brazil_2025
   - hunt_infra_engineering_epc
-
 - id: crec_chancay_tunnel_20241025
   type: company
-  chicago: "China Railway Group Limited (CREC). “Main Structure of Peru’s Chancay Tunnel Completed.” 25 October 2024."
+  chicago: China Railway Group Limited (CREC). “Main Structure of Peru’s Chancay Tunnel Completed.” 25
+    October 2024.
   url: https://www.crecg.com/zgztywz/cs11/10210606/2025021110100626796/index.html
-  annotation: CREC confirms China Railway No.10 completed 1,839 m Chancay Port access tunnel main structure. Supports china_railway_no10_chancay_tunnel_2024.
+  annotation: CREC confirms China Railway No.10 completed 1,839 m Chancay Port access tunnel main structure.
+    Supports china_railway_no10_chancay_tunnel_2024.
   supports:
   - china_railway_no10_chancay_tunnel_2024
   - hunt_infra_bridges_roads
-
 - id: kaieteur_west_dem_hospital_20250115
   type: press
-  chicago: "Kaieteur News. “US$54M contract awarded to construct new West Dem Hospital.” 15 January 2025."
+  chicago: Kaieteur News. “US$54M contract awarded to construct new West Dem Hospital.” 15 January 2025.
   url: https://kaieteurnewsonline.com/2025/01/15/us54m-contract-awarded-to-construct-new-west-dem-hospital/
-  annotation: UNVERIFIED proxy citing NPTAB award of West Demerara Regional Hospital design-build to CAMCE/Sinopharm for US$54,169,883.76. Supports camce_sinopharm_west_dem_hospital_guyana_2025.
+  annotation: UNVERIFIED proxy citing NPTAB award of West Demerara Regional Hospital design-build to CAMCE/Sinopharm
+    for US$54,169,883.76. Supports camce_sinopharm_west_dem_hospital_guyana_2025.
   supports:
   - camce_sinopharm_west_dem_hospital_guyana_2025
   - hunt_infra_building_materials
-
 - id: powerchina_campin_stadium_20260923
   type: company
-  chicago: "中国电建集团国际工程有限公司 (PowerChina International). “中国电建签约哥伦比亚波哥大康平体育场项目.” 23 September 2026."
+  chicago: 中国电建集团国际工程有限公司 (PowerChina International). “中国电建签约哥伦比亚波哥大康平体育场项目.” 23 September 2026.
   url: https://www.powerchina-intl.com/show/9/4931.html
-  annotation: PowerChina International commercial contract with Sencia for Bogotá El Campín / Kangping 50,000-seat stadium EPC. Supports powerchina_bogota_campin_stadium_2026.
+  annotation: PowerChina International commercial contract with Sencia for Bogotá El Campín / Kangping
+    50,000-seat stadium EPC. Supports powerchina_bogota_campin_stadium_2026.
   supports:
   - powerchina_bogota_campin_stadium_2026
   - hunt_infra_building_materials
-
 - id: kaieteur_crfg_ecd_184m_20221015
   type: press
-  chicago: "Kaieteur News. “Chinese company awarded US$184M contract for East Coast road project.” 15 October 2022."
+  chicago: Kaieteur News. “Chinese company awarded US$184M contract for East Coast road project.” 15 October
+    2022.
   url: https://kaieteurnewsonline.com/2022/10/15/chinese-company-awarded-us184m-contract-for-east-coast-road-project/
-  annotation: UNVERIFIED proxy citing China Railway First Group East Coast Demerara highway/railway-embankment award at US$184m. Supports crfg_guyana_east_coast_184m_2022.
+  annotation: UNVERIFIED proxy citing China Railway First Group East Coast Demerara highway/railway-embankment
+    award at US$184m. Supports crfg_guyana_east_coast_184m_2022.
   supports:
   - crfg_guyana_east_coast_184m_2022
   - hunt_infra_bridges_roads
-
 - id: oceaneering_ssr_180m_20250828
   type: company
-  chicago: "Oceaneering International. “Oceaneering Announces $180 Million of Subsea Robotics Contracts with Petrobras.” 28 August 2025."
+  chicago: Oceaneering International. “Oceaneering Announces $180 Million of Subsea Robotics Contracts
+    with Petrobras.” 28 August 2025.
   url: https://investors.oceaneering.com/news/news-details/2025/Oceaneering-Announces-180-Million-of-Subsea-Robotics-Contracts-with-Petrobras/default.aspx
-  annotation: Oceaneering MPS multi-contract Petrobras Subsea Robotics award (~USD 180m aggregate). Supports oceaneering_petrobras_subsea_robotics_180m_2025.
+  annotation: Oceaneering MPS multi-contract Petrobras Subsea Robotics award (~USD 180m aggregate). Supports
+    oceaneering_petrobras_subsea_robotics_180m_2025.
   supports:
   - oceaneering_petrobras_subsea_robotics_180m_2025
   - hunt_infra_engineering_epc
-
 - id: oceaneering_umbilicals_20240610
   type: company
-  chicago: "Oceaneering International. “Oceaneering Announces Manufactured Products Contracts with Petrobras.” 10 June 2024."
+  chicago: Oceaneering International. “Oceaneering Announces Manufactured Products Contracts with Petrobras.”
+    10 June 2024.
   url: https://investors.oceaneering.com/news/news-details/2024/Oceaneering-Announces-Manufactured-Products-Contracts-with-Petrobras/default.aspx
-  annotation: Oceaneering Petrobras umbilicals ≤362 km (Niterói) with USD 120–183m revenue range. Supports oceaneering_petrobras_umbilicals_2024.
+  annotation: Oceaneering Petrobras umbilicals ≤362 km (Niterói) with USD 120–183m revenue range. Supports
+    oceaneering_petrobras_umbilicals_2024.
   supports:
   - oceaneering_petrobras_umbilicals_2024
   - hunt_infra_engineering_epc
-
 - id: oceaneering_wayfarer_rov_20260707
   type: company
-  chicago: "Oceaneering International. “Oceaneering Secures Petrobras Contract for ROV Services Offshore Brazil.” 7 July 2026."
+  chicago: Oceaneering International. “Oceaneering Secures Petrobras Contract for ROV Services Offshore
+    Brazil.” 7 July 2026.
   url: https://www.oceaneering.com/oceaneering-secures-petrobras-contract-for-rov-services-offshore-brazil/
   annotation: Oceaneering two work-class ROVs on AKOFS Aker Wayfarer for Petrobras. Supports oceaneering_petrobras_wayfarer_rov_2026.
   supports:
   - oceaneering_petrobras_wayfarer_rov_2026
   - hunt_infra_engineering_epc
-
 - id: slb_buzios_wave2_20240415
   type: company
-  chicago: "SLB. “SLB Awarded Three Completion Contracts for Petrobras’ Buzios Field.” 15 April 2024."
+  chicago: SLB. “SLB Awarded Three Completion Contracts for Petrobras’ Buzios Field.” 15 April 2024.
   url: https://www.slb.com/newsroom/press-release/2024/slb-awarded-three-completion-contracts-for-petrobras%E2%80%99-buzios-field
-  annotation: SLB three electric completion contracts for Petrobras Búzios Wave II (≤35 wells). Supports slb_buzios_wave2_completions_2024.
+  annotation: SLB three electric completion contracts for Petrobras Búzios Wave II (≤35 wells). Supports
+    slb_buzios_wave2_completions_2024.
   supports:
   - slb_buzios_wave2_completions_2024
   - hunt_infra_engineering_epc
-
 - id: mtc_abancay_crtg_20210124
   type: government
-  chicago: "Ministerio de Transportes y Comunicaciones (Peru). “Suscriben contrato para la construcción de la Vía de Evitamiento de Abancay.” 24 January 2021."
+  chicago: Ministerio de Transportes y Comunicaciones (Peru). “Suscriben contrato para la construcción
+    de la Vía de Evitamiento de Abancay.” 24 January 2021.
   url: https://www.gob.pe/institucion/mtc/noticias/326191-suscriben-contrato-para-la-construccion-de-la-via-de-evitamiento-de-abancay
-  annotation: MTC/Provías contract with China Railway Tunnel Group for Abancay bypass at S/92.98m. Supports crtg_abancay_bypass_2021.
+  annotation: MTC/Provías contract with China Railway Tunnel Group for Abancay bypass at S/92.98m. Supports
+    crtg_abancay_bypass_2021.
   supports:
   - crtg_abancay_bypass_2021
   - hunt_infra_bridges_roads
-
 - id: ita_minsur_taboca_cnmc_20241127
   type: press
-  chicago: "International Tin Association. “Minsur to sell Taboca to China Nonferrous Metal Mining Group.” 27 November 2024."
+  chicago: International Tin Association. “Minsur to sell Taboca to China Nonferrous Metal Mining Group.”
+    27 November 2024.
   url: https://www.internationaltin.org/minsur-to-sell-taboca-to-china-nonferrous-metal-mining-group/
   annotation: ITA documents Minsur–CNMC Taboca SPA; US$340m UNVERIFIED Bloomberg cite. Supports cnmc_taboca_acquisition_340m_2024.
   supports:
   - cnmc_taboca_acquisition_340m_2024
   - hunt_res_niobium
-
 - id: chec_chancay_delivery_20250430
   type: company
-  chicago: "China Harbour Engineering Company (CHEC Americas). “Chancay Port Project Officially Completed and Delivered in Peru.” 30 April 2025."
+  chicago: China Harbour Engineering Company (CHEC Americas). “Chancay Port Project Officially Completed
+    and Delivered in Peru.” 30 April 2025.
   url: https://www.checamerica.com/blog/2025/04/30/chancay-port-project-officially-completed-and-delivered-in-peru/
   annotation: CHEC Americas delivery certificate / handover of Chancay Port Project. Supports chec_chancay_delivery_2025.
   supports:
   - chec_chancay_delivery_2025
   - hunt_infra_engineering_epc
-
 - id: cspplaza_cgn_piaui_20260401
   type: press
-  chicago: "CSPPLAZA. “里程碑！中广核签约打造巴西首个百兆瓦级熔盐储热光热电站.” 1 April 2026."
+  chicago: CSPPLAZA. “里程碑！中广核签约打造巴西首个百兆瓦级熔盐储热光热电站.” 1 April 2026.
   url: http://www.cspplaza.com/article-29400-1.html
   annotation: UNVERIFIED proxy for CGN Brasil–Piauí ~100 MW molten-salt CSP MoU. Supports cgn_piaui_csp_mou_2026.
   supports:
   - cgn_piaui_csp_mou_2026
   - hunt_energy_solar
-
 - id: ge_vernova_san_felipe_20241216
   type: company
-  chicago: "GE Vernova. “GE Vernova announces first H-Class order in the Caribbean.” 16 December 2024."
+  chicago: GE Vernova. “GE Vernova announces first H-Class order in the Caribbean.” 16 December 2024.
   url: https://www.gevernova.com/news/press-releases/ge-vernova-announces-first-h-class-order-caribbean
-  annotation: GE Vernova H-Class equipment order for Generadora San Felipe 470 MW CCGT at Punta Caucedo. Supports ge_vernova_san_felipe_dr_2024.
+  annotation: GE Vernova H-Class equipment order for Generadora San Felipe 470 MW CCGT at Punta Caucedo.
+    Supports ge_vernova_san_felipe_dr_2024.
   supports:
   - ge_vernova_san_felipe_dr_2024
   - hunt_energy_power_plants_grid
-
 - id: jiangxi_solgold_effective_20260305
   type: company
-  chicago: "Jiangxi Copper Company Limited. “Announcement in Relation to the Effective Formal Offer to Acquire All the Shares in SolGold Plc by a Wholly-Owned Subsidiary.” HKEX, 5 March 2026."
+  chicago: Jiangxi Copper Company Limited. “Announcement in Relation to the Effective Formal Offer to
+    Acquire All the Shares in SolGold Plc by a Wholly-Owned Subsidiary.” HKEX, 5 March 2026.
   url: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0305/2026030500033.pdf
-  annotation: Jiangxi Copper JCHK SolGold scheme effective; Cascabel–Alpala Ecuador core asset. Supports jiangxi_copper_solgold_cascabel_2026.
+  annotation: Jiangxi Copper JCHK SolGold scheme effective; Cascabel–Alpala Ecuador core asset. Supports
+    jiangxi_copper_solgold_cascabel_2026.
   supports:
   - jiangxi_copper_solgold_cascabel_2026
   - hunt_res_copper
-
 - id: dpr_coquimbo_illapel_crcc_20241129
   type: government
-  chicago: "Delegación Presidencial Regional de Coquimbo. “Firman contrato para la construcción del nuevo Hospital de Illapel con empresa china.” 29 November 2024."
+  chicago: Delegación Presidencial Regional de Coquimbo. “Firman contrato para la construcción del nuevo
+    Hospital de Illapel con empresa china.” 29 November 2024.
   url: https://dprcoquimbo.dpr.gob.cl/2024/11/29/firman-contrato-para-la-construccion-del-nuevo-hospital-de-illapel-con-empresa-china/
   annotation: CRCC International Illapel hospital civil-works contract >CLP 132bn. Supports crcc_illapel_hospital_chile_2024.
   supports:
   - crcc_illapel_hospital_chile_2024
   - hunt_infra_building_materials
-
 - id: powerchina_suriname_microgrid_20260518
   type: company
-  chicago: "POWERCHINA. “Suriname’s president attends micro-grid solar project commissioning ceremony.” 18 May 2026."
+  chicago: POWERCHINA. “Suriname’s president attends micro-grid solar project commissioning ceremony.”
+    18 May 2026.
   url: https://en.powerchina.cn/2026-05/18/c_829069.htm
-  annotation: POWERCHINA Suriname Villages Micro-grid Solar Phase II Kajana/Guyaba COD (5.349 MW PV). Supports powerchina_suriname_microgrid_p2_2026.
+  annotation: POWERCHINA Suriname Villages Micro-grid Solar Phase II Kajana/Guyaba COD (5.349 MW PV).
+    Supports powerchina_suriname_microgrid_p2_2026.
   supports:
   - powerchina_suriname_microgrid_p2_2026
   - hunt_energy_solar
-
 - id: nov_hammerhead_heated_20251217
   type: company
-  chicago: "NOV. “NOV’s Active Heating Flexible Pipe Selected by ExxonMobil for Hammerhead Project.” 17 December 2025."
+  chicago: NOV. “NOV’s Active Heating Flexible Pipe Selected by ExxonMobil for Hammerhead Project.” 17
+    December 2025.
   url: https://www.nov.com/news/novs-active-heating-flexible-pipe-selected-by-exxonmobil-for-hammerhead
-  annotation: NOV actively heated flexible pipe for ExxonMobil Guyana Hammerhead (~14.4 km). Supports nov_hammerhead_heated_flex_guyana_2025.
+  annotation: NOV actively heated flexible pipe for ExxonMobil Guyana Hammerhead (~14.4 km). Supports
+    nov_hammerhead_heated_flex_guyana_2025.
   supports:
   - nov_hammerhead_heated_flex_guyana_2025
   - hunt_infra_engineering_epc
-
 - id: petronoticias_oil_states_20260904
   type: press
-  chicago: "Petronotícias. “Oil States conquista contrato de três anos com a Petrobrás para serviços subsea.” 4 September 2026."
+  chicago: Petronotícias. “Oil States conquista contrato de três anos com a Petrobrás para serviços subsea.”
+    4 September 2026.
   url: https://petronoticias.com.br/oil-states-conquista-contrato-de-tres-anos-com-a-petrobras-para-servicos-subsea/
-  annotation: UNVERIFIED proxy citing Oil States Brasil three-year Petrobras subsea maintenance award. Supports oil_states_petrobras_subsea_2026.
+  annotation: UNVERIFIED proxy citing Oil States Brasil three-year Petrobras subsea maintenance award.
+    Supports oil_states_petrobras_subsea_2026.
   supports:
   - oil_states_petrobras_subsea_2026
   - hunt_infra_engineering_epc
-
 - id: weatherford_trion_mpd_20250728
   type: company
-  chicago: "Weatherford International. “Weatherford Awarded Managed Pressure Drilling Contract for Woodside Energy’s Trion Deepwater Development.” 28 July 2025."
+  chicago: Weatherford International. “Weatherford Awarded Managed Pressure Drilling Contract for Woodside
+    Energy’s Trion Deepwater Development.” 28 July 2025.
   url: https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18001
   annotation: Weatherford Victus MPD for Woodside Trion Mexico (8–24 wells). Supports weatherford_trion_mpd_mexico_2025.
   supports:
   - weatherford_trion_mpd_mexico_2025
   - hunt_infra_engineering_epc
-
 - id: movimento_goldwind_jacobina_20260128
   type: press
-  chicago: "Movimento Econômico. “Francesa EDF e chinesa Goldwind reativam fábrica baiana de torres eólicas.” 28 January 2026."
+  chicago: Movimento Econômico. “Francesa EDF e chinesa Goldwind reativam fábrica baiana de torres eólicas.”
+    28 January 2026.
   url: https://movimentoeconomico.com.br/empresas/2026/01/28/francesa-edf-e-chinesa-goldwind-reativam-fabrica-baiana-de-torres-eolicas/
-  annotation: UNVERIFIED proxy for Goldwind–EDF Jacobina tower-factory reactivation contract. Supports goldwind_jacobina_tower_factory_2026.
+  annotation: UNVERIFIED proxy for Goldwind–EDF Jacobina tower-factory reactivation contract. Supports
+    goldwind_jacobina_tower_factory_2026.
   supports:
   - goldwind_jacobina_tower_factory_2026
   - hunt_energy_wind
-
 - id: deere_canoas_pulverizer_20260130
   type: company
-  chicago: "John Deere Brasil. “John Deere inaugura fábrica de Canoas (RS) para produção de novo pulverizador.” 30 January 2026."
+  chicago: John Deere Brasil. “John Deere inaugura fábrica de Canoas (RS) para produção de novo pulverizador.”
+    30 January 2026.
   url: https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/jan/deere-pulverizador-f%C3%A1brica-de-canoas/
   annotation: John Deere Canoas sprayer plant CapEx ~R$42m for 1025E production. Supports john_deere_canoas_pulverizer_42m_2026.
   supports:
   - john_deere_canoas_pulverizer_42m_2026
   - hunt_infra_engineering_epc
-
 - id: deere_canoas_electronics_20260723
   type: company
-  chicago: "John Deere Brasil. “John Deere Anuncia Produção de Componentes Eletrônicos no Brasil.” July 2026."
+  chicago: John Deere Brasil. “John Deere Anuncia Produção de Componentes Eletrônicos no Brasil.” July
+    2026.
   url: https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/jul/produ%C3%A7%C3%A3o-de-componentes-eletr%C3%B4nicos/
   annotation: John Deere Canoas electronics assembly CapEx R$75m (COD Jul 2027). Supports john_deere_canoas_electronics_75m_2026.
   supports:
   - john_deere_canoas_electronics_75m_2026
   - hunt_infra_engineering_epc
-
 - id: agco_jundiai_reman_20250210
   type: company
-  chicago: "AGCO Corporation. “AGCO Announces Expansions in Jundiaí (SP) with a Focus on Sustainability and Workforce Development.” 10 February 2025."
+  chicago: AGCO Corporation. “AGCO Announces Expansions in Jundiaí (SP) with a Focus on Sustainability
+    and Workforce Development.” 10 February 2025.
   url: https://news.agcocorp.com/2025-02-10-AGCO-Announces-Expansions-in-Jundiai-SP-with-a-Focus-on-Sustainability-and-Workforce-Development
   annotation: AGCO Jundiaí Reman Transmissions Center + Academy CapEx USD 3.2m. Supports agco_jundiai_reman_3p2m_2025.
   supports:
   - agco_jundiai_reman_3p2m_2025
   - hunt_infra_engineering_epc
-
 - id: promexico_flowserve_torreon_20260403
   type: press
-  chicago: "ProMéxico Industry. “Flowserve Invests MXN 800 Million in Torreón, Coahuila for Industrial Pump and Valve Manufacturing.” 3 April 2026."
+  chicago: ProMéxico Industry. “Flowserve Invests MXN 800 Million in Torreón, Coahuila for Industrial
+    Pump and Valve Manufacturing.” 3 April 2026.
   url: https://www.promexicoindustry.com/en/article/flowserve-invests-mxn-800-million-in-torren-coahuila-for-industrial-pump-and-valve-manufacturing
-  annotation: UNVERIFIED proxy paraphrase of Flowserve Torreón manufacturing-center inauguration MXN 800m. Supports flowserve_torreon_800m_mxn_2026.
+  annotation: UNVERIFIED proxy paraphrase of Flowserve Torreón manufacturing-center inauguration MXN 800m.
+    Supports flowserve_torreon_800m_mxn_2026.
   supports:
   - flowserve_torreon_800m_mxn_2026
   - hunt_infra_engineering_epc
-
 - id: china_embassy_grenada_mbia_20250521
   type: government
-  chicago: "Embassy of the People’s Republic of China in Grenada. “Ambassador Wei Attended the Completion and Handover Ceremony of Maurice Bishop International Airport Upgrade Project.” 21 May 2025."
+  chicago: Embassy of the People’s Republic of China in Grenada. “Ambassador Wei Attended the Completion
+    and Handover Ceremony of Maurice Bishop International Airport Upgrade Project.” 21 May 2025.
   url: https://gd.china-embassy.gov.cn/eng/zxhd_1/202505/t20250521_11629546.htm
-  annotation: CHEC-led Maurice Bishop International Airport upgrade completion/handover 19 May 2025. Supports chec_grenada_mbia_airport_2025.
+  annotation: CHEC-led Maurice Bishop International Airport upgrade completion/handover 19 May 2025. Supports
+    chec_grenada_mbia_airport_2025.
   supports:
   - chec_grenada_mbia_airport_2025
   - hunt_infra_engineering_epc
-
 - id: mop_coquimbo_hospital_project
   type: government
-  chicago: "Chile. Dirección General de Concesiones de Obras Públicas. “Concesión Hospital de Coquimbo.” Project page (accessed 2026)."
+  chicago: Chile. Dirección General de Concesiones de Obras Públicas. “Concesión Hospital de Coquimbo.”
+    Project page (accessed 2026).
   url: https://concesiones.mop.gob.cl/project/concesion-hospital-de-coquimbo/
-  annotation: CRCC Grupo Chile Hospital de Coquimbo concession UF 6,528,211 (~USD 274m); 605 beds. Supports crcc_coquimbo_hospital_2022.
+  annotation: CRCC Grupo Chile Hospital de Coquimbo concession UF 6,528,211 (~USD 274m); 605 beds. Supports
+    crcc_coquimbo_hospital_2022.
   supports:
   - crcc_coquimbo_hospital_2022
   - hunt_infra_building_materials
-
 - id: mop_ohiggins_hospitals_20240322
   type: government
-  chicago: "Chile. Ministerio de Obras Públicas. “MOP adjudica proyecto de hospitales para Rengo y Pichilemu por USD 177 millones.” 22 March 2024."
+  chicago: Chile. Ministerio de Obras Públicas. “MOP adjudica proyecto de hospitales para Rengo y Pichilemu
+    por USD 177 millones.” 22 March 2024.
   url: https://www.mop.gob.cl/mop-adjudica-proyecto-de-hospitales-para-rengo-y-pichilemu-por-usd-177-millones/
   annotation: CRCC Grupo Chile Red O’Higgins (Rengo + Pichilemu) award ~USD 177–180m. Supports crcc_ohiggins_rengo_pichilemu_2024.
   supports:
   - crcc_ohiggins_rengo_pichilemu_2024
   - hunt_infra_building_materials
-
 - id: mop_neurocirugia_project
   type: government
-  chicago: "Chile. Dirección General de Concesiones de Obras Públicas. “Concesión Instituto Nacional de Neurocirugía.” Project page (accessed 2026)."
+  chicago: Chile. Dirección General de Concesiones de Obras Públicas. “Concesión Instituto Nacional de
+    Neurocirugía.” Project page (accessed 2026).
   url: https://concesiones.mop.gob.cl/project/concesion-instituto-nacional-de-neurocirugia/
-  annotation: CRCC Grupo Chile Instituto Nacional de Neurocirugía concession UF 3,509,321 (~USD 147m); 214 beds Providencia. Supports crcc_neurocirugia_chile_2023.
+  annotation: CRCC Grupo Chile Instituto Nacional de Neurocirugía concession UF 3,509,321 (~USD 147m);
+    214 beds Providencia. Supports crcc_neurocirugia_chile_2023.
   supports:
   - crcc_neurocirugia_chile_2023
   - hunt_infra_building_materials
-
 - id: dfc_vtal_q1fy2025_20250102
   type: government
-  chicago: "U.S. International Development Finance Corporation. “DFC Approves 22 Transactions Totaling Nearly $3 Billion in Q1 of FY2025.” 2 January 2025."
+  chicago: U.S. International Development Finance Corporation. “DFC Approves 22 Transactions Totaling
+    Nearly $3 Billion in Q1 of FY2025.” 2 January 2025.
   url: https://www.dfc.gov/media/press-releases/dfc-approves-22-transactions-totaling-nearly-3-billion-q1-fy2025
-  annotation: DFC up to USD 150m loan + up to USD 480m guaranty for V.tal Brazil fiber CAPEX. Supports dfc_vtal_fiber_brazil_2024.
+  annotation: DFC up to USD 150m loan + up to USD 480m guaranty for V.tal Brazil fiber CAPEX. Supports
+    dfc_vtal_fiber_brazil_2024.
   supports:
   - dfc_vtal_fiber_brazil_2024
   - hunt_infra_engineering_epc
-
 - id: nadbank_engen_400m_20260413
   type: government
-  chicago: "North American Development Bank. “NADBank provides MX$400-million loan to Engen Capital to boost acquisition of energy-efficient industrial and transportation equipment along the U.S. Mexico border.” 13 April 2026."
+  chicago: North American Development Bank. “NADBank provides MX$400-million loan to Engen Capital to
+    boost acquisition of energy-efficient industrial and transportation equipment along the U.S. Mexico
+    border.” 13 April 2026.
   url: https://nadbank.org/news/press-release/nadbank-provides-mx400-million-loan-to-engen-capital-to-boost-acquisition-of-energy-efficient-industrial-and-transportation-equipment-along-the-u.s.-mexico-border
-  annotation: NADBank MXN 400m (~USD 23.2m) loan to Engen Capital for border environmental infrastructure assets. Supports nadbank_engen_capital_400m_mxn_2026.
+  annotation: NADBank MXN 400m (~USD 23.2m) loan to Engen Capital for border environmental infrastructure
+    assets. Supports nadbank_engen_capital_400m_mxn_2026.
   supports:
   - nadbank_engen_capital_400m_mxn_2026
   - hunt_infra_engineering_epc
-
 - id: elpais_cloudhq_queretaro_20250925
   type: press
-  chicago: "Garrido, Verónica M. “CloudHQ invierte 4.800 millones de dólares en un centro de datos en Querétaro.” El País México, 25 September 2025."
+  chicago: Garrido, Verónica M. “CloudHQ invierte 4.800 millones de dólares en un centro de datos en Querétaro.”
+    El País México, 25 September 2025.
   url: https://elpais.com/mexico/2025-09-25/cloudhq-invierte-4800-millones-de-dolares-en-un-centro-de-datos-en-queretaro.html
-  annotation: UNVERIFIED proxy for CloudHQ Querétaro six-data-center campus CapEx USD 4.8bn. Supports cloudhq_queretaro_campus_4p8bn_2025.
+  annotation: UNVERIFIED proxy for CloudHQ Querétaro six-data-center campus CapEx USD 4.8bn. Supports
+    cloudhq_queretaro_campus_4p8bn_2025.
   supports:
   - cloudhq_queretaro_campus_4p8bn_2025
   - hunt_infra_engineering_epc
-
 - id: cummins_cdbs_monterrey_20241003
   type: company
-  chicago: "Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.” 3 October 2024."
+  chicago: Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.”
+    3 October 2024.
   url: https://www.cummins.com/en-ame/news/2024/10/03/cdbsinvestments-boost-productioncapacity-
   annotation: Cummins Monterrey air-disc-brake capacity CapEx USD 33m (install 2H 2025). Supports cummins_monterrey_adb_33m_2024.
   supports:
   - cummins_monterrey_adb_33m_2024
   - hunt_infra_engineering_epc
-
 - id: mop_chillan_collipulli_award_20230211
   type: government
-  chicago: "Chile. Dirección General de Concesiones de Obras Públicas. “Fue publicado en el Diario Oficial decreto de adjudicación de proyecto Segunda Concesión Ruta 5 tramo Chillán-Collipulli.” 11 February 2023."
+  chicago: Chile. Dirección General de Concesiones de Obras Públicas. “Fue publicado en el Diario Oficial
+    decreto de adjudicación de proyecto Segunda Concesión Ruta 5 tramo Chillán-Collipulli.” 11 February
+    2023.
   url: https://concesiones.mop.gob.cl/fue-publicado-en-el-diario-oficial-decreto-de-adjudicacion-de-proyecto-segunda-concesion-ruta-5-tramo-chillan-collipulli/
-  annotation: CRCC (International) Ruta 5 Chillán–Collipulli second concession UF 14.215m (~USD 595.8m); 169 km; 30 years. Supports crcc_chillan_collipulli_ruta5_2023.
+  annotation: CRCC (International) Ruta 5 Chillán–Collipulli second concession UF 14.215m (~USD 595.8m);
+    169 km; 30 years. Supports crcc_chillan_collipulli_ruta5_2023.
   supports:
   - crcc_chillan_collipulli_ruta5_2023
   - hunt_infra_bridges_roads
-
 - id: movimento_goldwind_camacari_20240828
   type: press
-  chicago: "Movimento Econômico. “Goldwind inaugura fábrica de turbinas na BA com investimento de R$ 100 mi.” 28 August 2024."
+  chicago: Movimento Econômico. “Goldwind inaugura fábrica de turbinas na BA com investimento de R$ 100
+    mi.” 28 August 2024.
   url: https://movimentoeconomico.com.br/estados/bahia/2024/08/28/goldwind-inaugura-fabrica-de-turbinas-na-ba-com-investimento-de-r-100-mi/
   annotation: UNVERIFIED proxy for Goldwind Camaçari wind-turbine factory CapEx ~R$100m. Supports goldwind_camacari_turbine_factory_2024.
   supports:
   - goldwind_camacari_turbine_factory_2024
   - hunt_energy_wind
-
 - id: camacari_byd_inauguration_20251008
   type: government
-  chicago: "Prefeitura de Camaçari. “Fábrica da BYD em Camaçari será inaugurada nesta quinta-feira.” 8 October 2025."
+  chicago: Prefeitura de Camaçari. “Fábrica da BYD em Camaçari será inaugurada nesta quinta-feira.” 8
+    October 2025.
   url: https://www.camacari.ba.gov.br/fabrica-da-byd-em-camacari-sera-inaugurada-nesta-quinta-feira/
-  annotation: UNVERIFIED proxy for BYD Camaçari EV complex CapEx ~R$5.5bn; 150k vehicles/yr phase 1. Supports byd_camacari_ev_complex_5p5bn_2025.
+  annotation: UNVERIFIED proxy for BYD Camaçari EV complex CapEx ~R$5.5bn; 150k vehicles/yr phase 1. Supports
+    byd_camacari_ev_complex_5p5bn_2025.
   supports:
   - byd_camacari_ev_complex_5p5bn_2025
   - hunt_infra_engineering_epc
-
 - id: ceec_brasil_coremas_2025
   type: company
-  chicago: "CEEC Brasil. “China Energy adquire usinas fotovoltaicas na Paraíba, e marca entrada no mercado de energias renováveis no Brasil.” November 2025."
+  chicago: CEEC Brasil. “China Energy adquire usinas fotovoltaicas na Paraíba, e marca entrada no mercado
+    de energias renováveis no Brasil.” November 2025.
   url: https://ceecbrasil.com.br/china-energy-adquire-usinas-fotovoltaicas-na-paraiba-e-marca-entrada-no-mercado-de-energias-renovaveis-no-brasil/
-  annotation: CEEC Brasil / China Energy acquires Coremas I–III PV (93.41 MWp) for ~R$520m EV. Supports ceec_coremas_solar_520m_2025.
+  annotation: CEEC Brasil / China Energy acquires Coremas I–III PV (93.41 MWp) for ~R$520m EV. Supports
+    ceec_coremas_solar_520m_2025.
   supports:
   - ceec_coremas_solar_520m_2025
   - hunt_energy_solar
-
 - id: cummins_cdbs_monterrey_logistics_20241003
   type: company
-  chicago: "Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.” 3 October 2024."
+  chicago: Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.”
+    3 October 2024.
   url: https://www.cummins.com/en-ame/news/2024/10/03/cdbsinvestments-boost-productioncapacity-
   annotation: Cummins Monterrey Logistics Center CapEx USD 30m (WMS). Supports cummins_monterrey_logistics_30m_2024.
   supports:
   - cummins_monterrey_logistics_30m_2024
   - hunt_infra_engineering_epc
-
 - id: nadbank_sonora_650m_202603
   type: government
-  chicago: "North American Development Bank. “NADBank provides for environmental infrastructure financing for communities in northern Sonora.” March 2026."
+  chicago: North American Development Bank. “NADBank provides for environmental infrastructure financing
+    for communities in northern Sonora.” March 2026.
   url: https://nadbank.org/news/press-release/nadbank-provides-for-environmental-infrastructure-financing-for-communities-in-northern-sonora
-  annotation: NADBank/COFIDAN Sonora environmental infrastructure loan up to MXN 650m (~USD 36.2m). Supports nadbank_sonora_env_650m_mxn_2026.
+  annotation: NADBank/COFIDAN Sonora environmental infrastructure loan up to MXN 650m (~USD 36.2m). Supports
+    nadbank_sonora_env_650m_mxn_2026.
   supports:
   - nadbank_sonora_env_650m_mxn_2026
   - hunt_res_water
-
 - id: nadbank_sadm_monterrey_project
   type: government
-  chicago: "North American Development Bank. “Water and Wastewater Infrastructure Improvements in the Metropolitan Area of Monterrey, Nuevo Leon.” Financed projects page (accessed 2026)."
+  chicago: North American Development Bank. “Water and Wastewater Infrastructure Improvements in the Metropolitan
+    Area of Monterrey, Nuevo Leon.” Financed projects page (accessed 2026).
   url: https://nadbank.org/our-projects/financed-projects/proyect/water-and-wastewater-infrastructure-improvements-in-the-metropolitan-area-of-monterrey-nuevo-leon
-  annotation: NADBank SADM Monterrey metro water/wastewater loan USD 16.75m of USD 103.4m project. Supports nadbank_sadm_monterrey_16p75m_2025.
+  annotation: NADBank SADM Monterrey metro water/wastewater loan USD 16.75m of USD 103.4m project. Supports
+    nadbank_sadm_monterrey_16p75m_2025.
   supports:
   - nadbank_sadm_monterrey_16p75m_2025
   - hunt_res_water
-
 - id: nadbank_qsr_2025q3_wip
   type: government
-  chicago: "North American Development Bank. “Quarterly Status Report.” Q3 2025 (ENG PDF)."
+  chicago: North American Development Bank. “Quarterly Status Report.” Q3 2025 (ENG PDF).
   url: https://nadbank.org/hubfs/Quarterly%20Financial%20Statements%20(ENG)/NADBank%20Quarterly%20Status%20Report.pdf?hsLang=en
-  annotation: NADBank WIP ratification — Rancho La Puerta Tecate WW reuse USD 5.0m loan (3 Sep 2025). Supports nadbank_tecate_rancho_lapuerta_5m_2025.
+  annotation: NADBank WIP ratification — Rancho La Puerta Tecate WW reuse USD 5.0m loan (3 Sep 2025).
+    Supports nadbank_tecate_rancho_lapuerta_5m_2025.
   supports:
   - nadbank_tecate_rancho_lapuerta_5m_2025
   - hunt_res_water
-
 - id: camce_punta_huete_road_longbridge_20250824
   type: company
-  chicago: "China CAMC Engineering Co., Ltd. “CAMCE: Signed a contract for the Nicaragua project worth USD 71.9647 million.” Longbridge/Zhitong reprint, 24 August 2025."
+  chicago: 'China CAMC Engineering Co., Ltd. “CAMCE: Signed a contract for the Nicaragua project worth
+    USD 71.9647 million.” Longbridge/Zhitong reprint, 24 August 2025.'
   url: https://longbridge.com/news/254303929
-  annotation: CAMCE Punta Huete airport supporting-road EPC USD 71.9647m with Nicaragua MTI. Supports camce_punta_huete_road_71p96m_2025.
+  annotation: CAMCE Punta Huete airport supporting-road EPC USD 71.9647m with Nicaragua MTI. Supports
+    camce_punta_huete_road_71p96m_2025.
   supports:
   - camce_punta_huete_road_71p96m_2025
   - hunt_infra_bridges_roads
-
 - id: aiddata_camce_punta_huete_section_a_107086
   type: database
-  chicago: "AidData. “CAMCE provides RMB 1.43 billion loan — via deferred payment agreement — for Section A of Punta Huete International Airport Reconstruction, Expansion, and Upgrading Project (Linked to Record ID#107143).” China.AidData.org project 107086."
+  chicago: AidData. “CAMCE provides RMB 1.43 billion loan — via deferred payment agreement — for Section
+    A of Punta Huete International Airport Reconstruction, Expansion, and Upgrading Project (Linked to
+    Record ID#107143).” China.AidData.org project 107086.
   url: https://china.aiddata.org/projects/107086
-  annotation: CAMCE deferred-payment credit facilities for Punta Huete airport Sections A+B totaling RMB 2,874,652,142.91 (Nicaragua MHCP). Supports camce_punta_huete_airport_credit_2p875bn_rmb_2024.
+  annotation: CAMCE deferred-payment credit facilities for Punta Huete airport Sections A+B totaling RMB
+    2,874,652,142.91 (Nicaragua MHCP). Supports camce_punta_huete_airport_credit_2p875bn_rmb_2024.
   supports:
   - camce_punta_huete_airport_credit_2p875bn_rmb_2024
   - hunt_infra_engineering_epc
-
 - id: ancisa_crbc_red_maule_20210527
   type: company
-  chicago: "Ancisa / Grupo Puentes. “Grupo Puentes recibe los terrenos donde construirá tres hospitales en Chile.” 27 May 2021."
+  chicago: Ancisa / Grupo Puentes. “Grupo Puentes recibe los terrenos donde construirá tres hospitales
+    en Chile.” 27 May 2021.
   url: https://ancisa.com/grupo-puentes-recibe-los-terrenos-donde-construira-tres-hospitales-en-chile/
-  annotation: Consorcio Iberoasiático (CRBC + Puentes) Red Maule hospitals concession UF 6,634,394. Supports crbc_red_maule_hospitals_uf6634394_2021.
+  annotation: Consorcio Iberoasiático (CRBC + Puentes) Red Maule hospitals concession UF 6,634,394. Supports
+    crbc_red_maule_hospitals_uf6634394_2021.
   supports:
   - crbc_red_maule_hospitals_uf6634394_2021
   - hunt_infra_building_materials
-
 - id: larepublica_crtg_molinopampa_20260125
   type: press
-  chicago: "La República (Peru). “José Jerí: en el gobierno del presidente contrataron a empresas chinas por S/1.400 millones.” 25 January 2026."
+  chicago: 'La República (Peru). “José Jerí: en el gobierno del presidente contrataron a empresas chinas
+    por S/1.400 millones.” 25 January 2026.'
   url: https://larepublica.pe/politica/2026/01/25/en-el-gobierno-de-jose-jeri-contrataron-a-empresas-chinas-por-s1400-millones-zhihua-yang-mtc-provias-hnews-2011872
-  annotation: UNVERIFIED proxy for CRTG Molinopampa Áncash corridor contract S/273.2m (14 Oct 2025). Supports crtg_molinopampa_273m_pen_2025.
+  annotation: UNVERIFIED proxy for CRTG Molinopampa Áncash corridor contract S/273.2m (14 Oct 2025). Supports
+    crtg_molinopampa_273m_pen_2025.
   supports:
   - crtg_molinopampa_273m_pen_2025
   - hunt_infra_bridges_roads
-
 - id: chevrolet_gm_brazil_3p5bn_20260624
   type: company
-  chicago: "General Motors / Chevrolet Brasil. “GM amplia investimentos no Brasil e eleva plano para R$ 10,5 bilhões até 2028.” 24 June 2026."
+  chicago: General Motors / Chevrolet Brasil. “GM amplia investimentos no Brasil e eleva plano para R$
+    10,5 bilhões até 2028.” 24 June 2026.
   url: https://news.chevrolet.com.br/newsroom.detail.html/Pages/news/br/pt/2026/jun/0624-GM-amplia-investimentos-Brasil.html
-  annotation: GM additional Brazil industrial CapEx R$3.5bn (São Paulo ops; hybrids/factory modernization). Supports gm_brazil_additional_3p5bn_brl_2026.
+  annotation: GM additional Brazil industrial CapEx R$3.5bn (São Paulo ops; hybrids/factory modernization).
+    Supports gm_brazil_additional_3p5bn_brl_2026.
   supports:
   - gm_brazil_additional_3p5bn_brl_2026
   - hunt_infra_engineering_epc
-
 - id: dfc_serra_verde_pela_ema_2025
   type: government
-  chicago: "U.S. International Development Finance Corporation. “DFC Highlights Landmark Critical Minerals Investments to Strengthen U.S. National Security During State Department Ministerial.” 2025."
+  chicago: U.S. International Development Finance Corporation. “DFC Highlights Landmark Critical Minerals
+    Investments to Strengthen U.S. National Security During State Department Ministerial.” 2025.
   url: https://www.dfc.gov/media/press-releases/dfc-highlights-landmark-critical-minerals-investments-strengthen-us-national
-  annotation: DFC USD 565m loan to SVRE Holdings for Serra Verde / Pela Ema rare-earth mine (Goiás). Supports dfc_serra_verde_pela_ema_565m_2025.
+  annotation: DFC USD 565m loan to SVRE Holdings for Serra Verde / Pela Ema rare-earth mine (Goiás). Supports
+    dfc_serra_verde_pela_ema_565m_2025.
   supports:
   - dfc_serra_verde_pela_ema_565m_2025
   - hunt_infra_engineering_epc
-
 - id: eleconomista_abbott_queretaro_20260123
   type: press
-  chicago: "El Economista. “Abbott inaugura su planta de manufactura de electrofisiología en Querétaro.” 23 January 2026."
+  chicago: El Economista. “Abbott inaugura su planta de manufactura de electrofisiología en Querétaro.”
+    23 January 2026.
   url: https://www.eleconomista.com.mx/estados/abbott-inaugura-planta-manufactura-electrofisiologia-queretaro-20260123-796776.html
   annotation: UNVERIFIED proxy for Abbott Querétaro electrophysiology plant CapEx USD 200m. Supports abbott_queretaro_ep_plant_200m_2026.
   supports:
   - abbott_queretaro_ep_plant_200m_2026
   - hunt_infra_engineering_epc
-
 - id: dfc_tembici_equity_2023
   type: government
-  chicago: "U.S. International Development Finance Corporation. “DFC and IDB Invest Partner With Tembici to Scale Up Urban Electric Bike-Sharing Services in Latin America.” December 2023."
+  chicago: U.S. International Development Finance Corporation. “DFC and IDB Invest Partner With Tembici
+    to Scale Up Urban Electric Bike-Sharing Services in Latin America.” December 2023.
   url: https://www.dfc.gov/media/press-releases/dfc-and-idb-invest-partner-tembici-scale-urban-electric-bike-sharing-services
   annotation: DFC USD 15m equity in Tembici; Manaus e-bike assembly plant expansion. Supports dfc_tembici_15m_equity_2023.
   supports:
   - dfc_tembici_15m_equity_2023
   - hunt_infra_engineering_epc
-
 - id: extra_gwm_iracemapolis_20250815
   type: press
-  chicago: "Sorima Neto, João. “Chinesa GWM inicia hoje produção de veículos eletrificados no Brasil.” Extra (Globo), 15 August 2025."
+  chicago: Sorima Neto, João. “Chinesa GWM inicia hoje produção de veículos eletrificados no Brasil.”
+    Extra (Globo), 15 August 2025.
   url: https://extra.globo.com/economia/noticia/2025/08/chinesa-gwm-inicia-hoje-producao-de-veiculos-eletrificados-no-brasil.ghtml
-  annotation: UNVERIFIED proxy for GWM Iracemápolis phase-1 Brazil CapEx R$4bn through 2026. Supports gwm_iracemapolis_4bn_brl_2025.
+  annotation: UNVERIFIED proxy for GWM Iracemápolis phase-1 Brazil CapEx R$4bn through 2026. Supports
+    gwm_iracemapolis_4bn_brl_2025.
   supports:
   - gwm_iracemapolis_4bn_brl_2025
   - hunt_infra_engineering_epc
-
 - id: geely_renault_brasil_stake_20251103
   type: company
-  chicago: "Geely Holding. “Renault Group and Geely strengthen their cooperation with the completion of a partnership in Brazil.” 3 November 2025."
+  chicago: Geely Holding. “Renault Group and Geely strengthen their cooperation with the completion of
+    a partnership in Brazil.” 3 November 2025.
   url: https://www.geely.com/en/news/2025/geely-holding-renault-group-strengthen-partnership-brazil
-  annotation: Geely 26.4% stake in Renault do Brasil / São José dos Pinhais access (corroborates CapEx row). Supports geely_renault_brasil_3p8bn_brl_2025.
+  annotation: Geely 26.4% stake in Renault do Brasil / São José dos Pinhais access (corroborates CapEx
+    row). Supports geely_renault_brasil_3p8bn_brl_2025.
   supports:
   - geely_renault_brasil_3p8bn_brl_2025
   - hunt_infra_engineering_epc
-
 - id: equinox_cmoc_brazil_sale_20260123
   type: company
-  chicago: "Equinox Gold Corp. “Equinox Gold Completes Sale of Brazil Operations for Total Cash Consideration of US$1.015 Billion.” 23 January 2026."
+  chicago: Equinox Gold Corp. “Equinox Gold Completes Sale of Brazil Operations for Total Cash Consideration
+    of US$1.015 Billion.” 23 January 2026.
   url: https://www.equinoxgold.com/news/equinox-gold-completes-sale-of-brazil-operations-for-total-cash-consideration-of-us1-015-billionpays-down-more-than-us800-million-of-debt-with-net-debt-reduced-to-us150-million/
-  annotation: CMOC Group acquires Equinox Brazil mines (Aurizona/RDM/Bahia) up to USD 1.015bn. Supports cmoc_equinox_brazil_gold_1p015bn_2026.
+  annotation: CMOC Group acquires Equinox Brazil mines (Aurizona/RDM/Bahia) up to USD 1.015bn. Supports
+    cmoc_equinox_brazil_gold_1p015bn_2026.
   supports:
   - cmoc_equinox_brazil_gold_1p015bn_2026
   - hunt_infra_engineering_epc
-
 - id: enel_csgi_peru_distribution_close_20240612
   type: company
-  chicago: "Enel S.p.A. “Enel: finalized agreement signed in April 2023 relating to distribution assets in Peru.” 12 June 2024."
+  chicago: 'Enel S.p.A. “Enel: finalized agreement signed in April 2023 relating to distribution assets
+    in Peru.” 12 June 2024.'
   url: https://www.enel.com/es/medios/explora/busqueda-comunicados-de-prensa/press/2024/06/enel-finalized-agreement-signed-in-april-2023-relating-to-distribution-assets-in-peru-
-  annotation: CSGI (China Southern Power Grid International) closes Enel Distribución Perú + Enel X Perú acquisition ~USD 3.1bn. Supports csgi_enel_distribucion_peru_3p1bn_2024.
+  annotation: CSGI (China Southern Power Grid International) closes Enel Distribución Perú + Enel X Perú
+    acquisition ~USD 3.1bn. Supports csgi_enel_distribucion_peru_3p1bn_2024.
   supports:
   - csgi_enel_distribucion_peru_3p1bn_2024
   - hunt_energy_power_plants_grid
-
 - id: parana_geely_renault_3p8bn_20251118
   type: government
-  chicago: "Paraná. Vice-Governadoria. “Renault e Geely se unem para investir R$ 3,8 bilhões em novo ciclo automotivo no Paraná.” 18 November 2025."
+  chicago: Paraná. Vice-Governadoria. “Renault e Geely se unem para investir R$ 3,8 bilhões em novo ciclo
+    automotivo no Paraná.” 18 November 2025.
   url: https://www.vicegovernadoria.pr.gov.br/Noticia/Renault-e-Geely-se-unem-para-investir-R-38-bilhoes-em-novo-ciclo-automotivo-no-Parana
   annotation: Renault–Geely São José dos Pinhais plant partnership CapEx R$3.8bn. Supports geely_renault_brasil_3p8bn_brl_2025.
   supports:
   - geely_renault_brasil_3p8bn_brl_2025
   - hunt_infra_engineering_epc
-
 - id: prensa_libre_fenix_nickel_20260519
   type: press
-  chicago: "Bolaños, Rosa María. “Fenix Nickel reinicia operaciones en Izabal: inversiones, producción y exportaciones definen ruta.” Prensa Libre, 19 May 2026."
+  chicago: 'Bolaños, Rosa María. “Fenix Nickel reinicia operaciones en Izabal: inversiones, producción
+    y exportaciones definen ruta.” Prensa Libre, 19 May 2026.'
   url: https://www.prensalibre.com/economia/fenix-nickel-reinicia-operaciones-en-izabal-inversiones-produccion-y-exportaciones-definen-ruta/
-  annotation: "Guatemala Fenix Nickel / El Estor restart CapEx and New York HQ. Supports fenix_nickel_el_estor_85m_2026."
+  annotation: Guatemala Fenix Nickel / El Estor restart CapEx and New York HQ. Supports fenix_nickel_el_estor_85m_2026.
   supports:
   - fenix_nickel_el_estor_85m_2026
   - hunt_res_nickel
 - id: weatherford_3q2025_earnings_deck
   type: company
-  chicago: "Weatherford International plc. “Weatherford International 3Q 2025 Earnings Presentation.” Investor presentation PDF, 2025."
+  chicago: Weatherford International plc. “Weatherford International 3Q 2025 Earnings Presentation.” Investor
+    presentation PDF, 2025.
   url: https://www.weatherford.com/documents/investor-presentations/weatherford-international-3q-2025-earnings-presentation/
-  annotation: "Lists Ecopetrol four six-year artificial-lift awards in onshore Colombia. Supports weatherford_ecopetrol_lift_4x6y_colombia_2025."
+  annotation: Lists Ecopetrol four six-year artificial-lift awards in onshore Colombia. Supports weatherford_ecopetrol_lift_4x6y_colombia_2025.
   supports:
   - weatherford_ecopetrol_lift_4x6y_colombia_2025
   - hunt_infra_engineering_epc
 - id: state_andes_atlantic_corridor_20260923
   type: official
-  chicago: "United States Department of State, Office of the Spokesman. “United States and Argentina Launch Andes-Atlantic Corridor.” Fact sheet, 23 September 2026."
+  chicago: United States Department of State, Office of the Spokesman. “United States and Argentina Launch
+    Andes-Atlantic Corridor.” Fact sheet, 23 September 2026.
   url: https://www.state.gov/releases/office-of-the-spokesman/2026/09/united-states-and-argentina-launch-andes-atlantic-corridor-fact-sheet
-  annotation: "States EXIM non-binding USD 6bn Argentina LNG term sheet and McDermott NGL/gas-treatment EPCC. Supports exim_argentina_lng_6bn_term_2026 and mcdermott_argentina_lng_ngl_epcc_2026."
+  annotation: States EXIM non-binding USD 6bn Argentina LNG term sheet and McDermott NGL/gas-treatment
+    EPCC. Supports exim_argentina_lng_6bn_term_2026 and mcdermott_argentina_lng_ngl_epcc_2026.
   supports:
   - exim_argentina_lng_6bn_term_2026
   - mcdermott_argentina_lng_ngl_epcc_2026
   - hunt_infra_engineering_epc
 - id: sungrow_san_martin_peru_20251120
   type: company
-  chicago: "Sungrow. “Sungrow Partners with Zelestra to Supply Peru’s Largest PV Project.” 20 November 2025."
+  chicago: Sungrow. “Sungrow Partners with Zelestra to Supply Peru’s Largest PV Project.” 20 November
+    2025.
   url: https://www.sungrowpower.com/en/sungrow-partners-with-zelestra-to-supply-peru-largest-pv-project
-  annotation: "Sungrow 1+X inverters for Zelestra San Martín 273 MWac COD. Supports sungrow_zelestra_san_martin_peru_273mw_2025."
+  annotation: Sungrow 1+X inverters for Zelestra San Martín 273 MWac COD. Supports sungrow_zelestra_san_martin_peru_273mw_2025.
   supports:
   - sungrow_zelestra_san_martin_peru_273mw_2025
   - hunt_energy_solar
 - id: cen_bess_tocopilla_ppyd_202601
   type: official
-  chicago: "Coordinador Eléctrico Nacional (Chile). “Informe de Determinación de Parámetros de Partida y Detención — BESS Tocopilla.” PDF, January 2026."
+  chicago: Coordinador Eléctrico Nacional (Chile). “Informe de Determinación de Parámetros de Partida
+    y Detención — BESS Tocopilla.” PDF, January 2026.
   url: https://www.coordinador.cl/wp-content/uploads/2026/01/A-1281-Engie-BESS-Tocopilla-Informe-de-Determinacion-de-Parametros-de-Partida-y-Detencion-V3.pdf
-  annotation: "Documents sixty Sungrow SC2000UD inverters at ENGIE BESS Tocopilla. Supports sungrow_engie_tocopilla_sc2000ud_2026."
+  annotation: Documents sixty Sungrow SC2000UD inverters at ENGIE BESS Tocopilla. Supports sungrow_engie_tocopilla_sc2000ud_2026.
   supports:
   - sungrow_engie_tocopilla_sc2000ud_2026
   - hunt_energy_other_renewables
 - id: powerchina_mauriti_cod_20250915
   type: company
-  chicago: "POWERCHINA. “Mauriti Solar Complex in Brazil Commences Commercial Operation.” 15 September 2025."
+  chicago: POWERCHINA. “Mauriti Solar Complex in Brazil Commences Commercial Operation.” 15 September
+    2025.
   url: https://en.powerchina.cn/2025-09/15/c_828999.htm
-  annotation: "POWERCHINA Mauriti 425 MW COD in Ceará. Supports powerchina_mauriti_cod_425mw_2025."
+  annotation: POWERCHINA Mauriti 425 MW COD in Ceará. Supports powerchina_mauriti_cod_425mw_2025.
   supports:
   - powerchina_mauriti_cod_425mw_2025
   - hunt_energy_solar
 - id: south32_cerro_matoso_divest_20250707
   type: company
-  chicago: "South32 Limited. “Agreement to Divest Cerro Matoso.” ASX announcement PDF, 7 July 2025."
+  chicago: South32 Limited. “Agreement to Divest Cerro Matoso.” ASX announcement PDF, 7 July 2025.
   url: https://announcements.asx.com.au/asxpdf/20250707/pdf/06ljfh53k10n88.pdf
-  annotation: "South32 sale of Cerro Matoso to CoreX with up to USD 100m contingent consideration. Supports corex_cerro_matoso_colombia_2025."
+  annotation: South32 sale of Cerro Matoso to CoreX with up to USD 100m contingent consideration. Supports
+    corex_cerro_matoso_colombia_2025.
   supports:
   - corex_cerro_matoso_colombia_2025
   - hunt_res_nickel
 - id: fcx_renewable_cerro_verde_el_abra_20260202
   type: company
-  chicago: "Freeport-McMoRan. “Renewable Energy Powering Cerro Verde and El Abra.” Freeport Features, 2 February 2026."
+  chicago: Freeport-McMoRan. “Renewable Energy Powering Cerro Verde and El Abra.” Freeport Features, 2
+    February 2026.
   url: https://www.fcx.com/freeport-features/020226
-  annotation: "Freeport renewable PPAs for Cerro Verde and El Abra; San Martín solar link. Supports fcx_cerro_verde_el_abra_renewable_ppa_2026."
+  annotation: Freeport renewable PPAs for Cerro Verde and El Abra; San Martín solar link. Supports fcx_cerro_verde_el_abra_renewable_ppa_2026.
   supports:
   - fcx_cerro_verde_el_abra_renewable_ppa_2026
   - hunt_res_copper
 - id: pronis_hospital_piura_20251004
   type: official
-  chicago: "Programa Nacional de Inversiones en Salud (PRONIS), Ministerio de Salud del Perú. “Minsa: firman contrato para la construcción del nuevo Hospital de Alta Complejidad de Piura.” 4 October 2025."
+  chicago: 'Programa Nacional de Inversiones en Salud (PRONIS), Ministerio de Salud del Perú. “Minsa:
+    firman contrato para la construcción del nuevo Hospital de Alta Complejidad de Piura.” 4 October 2025.'
   url: https://www.gob.pe/institucion/pronis/noticias/1259074-minsa-firman-contrato-para-la-construccion-del-nuevo-hospital-de-alta-complejidad-de-piura
-  annotation: "PRONIS Sinohydro Piura hospital contract S/3.202bn. Supports sinohydro_hospital_piura_3202m_pen_2025."
+  annotation: PRONIS Sinohydro Piura hospital contract S/3.202bn. Supports sinohydro_hospital_piura_3202m_pen_2025.
   supports:
   - sinohydro_hospital_piura_3202m_pen_2025
   - hunt_infra_building_materials
 - id: andina_anin_hospital_caleta_chimbote_20251115
   type: official
-  chicago: "Agencia Peruana de Noticias Andina. “ANIN suscribe contrato para construcción del nuevo Hospital La Caleta de Chimbote.” 15 November 2025."
+  chicago: Agencia Peruana de Noticias Andina. “ANIN suscribe contrato para construcción del nuevo Hospital
+    La Caleta de Chimbote.” 15 November 2025.
   url: https://andina.pe/agencia/noticia-anin-suscribe-contrato-para-construccion-del-nuevo-hospital-caleta-chimbote-1052119.aspx
-  annotation: "ANIN–Sinohydro Hospital La Caleta Chimbote >S/549m. Supports sinohydro_hospital_la_caleta_chimbote_549m_pen_2025."
+  annotation: ANIN–Sinohydro Hospital La Caleta Chimbote >S/549m. Supports sinohydro_hospital_la_caleta_chimbote_549m_pen_2025.
   supports:
   - sinohydro_hospital_la_caleta_chimbote_549m_pen_2025
   - hunt_infra_building_materials
 - id: mop_dgc_embalse_las_palmas
   type: official
-  chicago: "Ministerio de Obras Públicas de Chile, Dirección General de Concesiones. “Concesión Embalse Las Palmas.” Project fiche (visited 2 October 2026)."
+  chicago: Ministerio de Obras Públicas de Chile, Dirección General de Concesiones. “Concesión Embalse
+    Las Palmas.” Project fiche (visited 2 October 2026).
   url: https://concesiones.mop.gob.cl/project/concesion-embalse-las-palmas/
-  annotation: "CHEC Las Palmas reservoir concession UF 3.88m / USD 158.8m. Supports chec_embalse_las_palmas_chile_158p8m_2018."
+  annotation: CHEC Las Palmas reservoir concession UF 3.88m / USD 158.8m. Supports chec_embalse_las_palmas_chile_158p8m_2018.
   supports:
   - chec_embalse_las_palmas_chile_158p8m_2018
   - hunt_res_water
 - id: osinergmin_san_martin_solar_20250610
   type: official
-  chicago: "Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin). “Central solar San Martín Solar inicia operación comercial en Arequipa.” 10 June 2025."
+  chicago: Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin). “Central solar San
+    Martín Solar inicia operación comercial en Arequipa.” 10 June 2025.
   url: https://www.gob.pe/institucion/osinergmin/noticias/1184871-central-solar-san-martin-solar-inicia-operacion-comercial-en-arequipa
-  annotation: "San Martín Solar COD 252.4 MW; ~USD 179.7m. Supports zelestra_san_martin_peru_cod_179p7m_2025."
+  annotation: San Martín Solar COD 252.4 MW; ~USD 179.7m. Supports zelestra_san_martin_peru_cod_179p7m_2025.
   supports:
   - zelestra_san_martin_peru_cod_179p7m_2025
   - hunt_energy_solar
 - id: engie_bess_tocopilla_cod_20260304
   type: company
-  chicago: "ENGIE Chile. “Obtuvimos la entrada en operación comercial de BESS Tocopilla.” 4 March 2026."
+  chicago: ENGIE Chile. “Obtuvimos la entrada en operación comercial de BESS Tocopilla.” 4 March 2026.
   url: https://www.engie.cl/obtuvimos-la-entrada-en-operacion-comercial-de-bess-tocopilla/
-  annotation: "ENGIE BESS Tocopilla COD 116 MW/660 MWh (19 Feb 2026). CapEx USD 170m in ENGIE Chile 9M 2025 IR deck. Supports engie_bess_tocopilla_cod_170m_2026."
+  annotation: ENGIE BESS Tocopilla COD 116 MW/660 MWh (19 Feb 2026). CapEx USD 170m in ENGIE Chile 9M
+    2025 IR deck. Supports engie_bess_tocopilla_cod_170m_2026.
   supports:
   - engie_bess_tocopilla_cod_170m_2026
   - hunt_energy_other_renewables
+- id: atlas_latam_refi_20260223
+  type: company
+  chicago: Atlas Renewable Energy. “Atlas Renewable Energy Secures Landmark USD 3 Billion Refinancing
+    for its Portfolio in Latin America.” Press release, 23 February 2026.
+  url: https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-secures-landmark-usd-3-billion-refinancing-for-its-portfolio-in-latin-america/
+  annotation: Atlas Miami HQ USD 3bn solar/storage portfolio refinancing (Chile/Brazil/Mexico). Supports
+    atlas_latam_3bn_refi_2026.
+  supports:
+  - atlas_latam_3bn_refi_2026
+  - hunt_energy_solar
+- id: dfc_solaramo_pis_9000104243
+  type: official
+  chicago: U.S. International Development Finance Corporation. “Public Information Summary — Solararomo
+    S.A. (9000104243).” Project disclosure PDF.
+  url: https://www.dfc.gov/sites/default/files/media/documents/9000104243.pdf
+  annotation: DFC proposed USD 144m loan for 200 MW Solararomo PV near Manta, Ecuador. Supports dfc_solaramo_manta_200mw_ecuador.
+  supports:
+  - dfc_solaramo_manta_200mw_ecuador
+  - hunt_energy_solar
+- id: sonnedix_sungrow_librillo_20260528
+  type: company
+  chicago: Sonnedix. “Sungrow and Sonnedix Sign a Supply Agreement for the 643.8 MWh Librillo Standalone
+    BESS Project in Chile.” 28 May 2026.
+  url: https://www.sonnedix.com/news/sungrow-and-sonnedix-sign-a-supply-agreement-for-the-643.8-mwh-librillo-standalone-bess-project-in-chile
+  annotation: Sungrow PowerTitan 2.0 for Sonnedix Librillo 643.8 MWh BESS (Taltal, Chile). Supports sungrow_sonnedix_librillo_bess_2026.
+  supports:
+  - sungrow_sonnedix_librillo_bess_2026
+  - hunt_energy_other_renewables
+- id: sungrow_observatorio_20260817
+  type: company
+  chicago: Sungrow. “Sungrow to Deliver 606 MWh Energy Storage System for Verano Energy’s Observatorio
+    Project in Chile.” 17 August 2026.
+  url: https://www.sungrowpower.com/en/sungrow-to-deliver-606-mwh-energy-storage-system-for-verano-energys-observatorio-project-in-chile
+  annotation: Sungrow 152 MW/606 MWh PowerTitan 2.0 + LTSA for Verano Observatorio (Chile). Supports sungrow_verano_observatorio_bess_2026.
+  supports:
+  - sungrow_verano_observatorio_bess_2026
+  - hunt_energy_other_renewables
+- id: zuma_ingenio_epc_tender_20251007
+  type: company
+  chicago: Zuma Energía / SPIC Mexico. “Result of the Tender for the EPC Contract of Ingenio Wind Farm
+    2×1.5MW Wind Turbines Reconstruction and Restoration Project.” 7 October 2025.
+  url: https://zumaenergia.com/en/press-center-view?id=110
+  annotation: POWERCHINA Jiangxi recommended winner for Ingenio 2×1.5 MW turbine retrofit EPC (Oaxaca).
+    Supports powerchina_jiangxi_ingenio_wind_epc_2025.
+  supports:
+  - powerchina_jiangxi_ingenio_wind_epc_2025
+  - hunt_energy_wind
+- id: dpi_crbc_corentyne_lot2_20260826
+  type: official
+  chicago: Guyana. Department of Public Information. “Paving Commences on Lot 2 of Palmyra-Moleson Creek
+    Road Project.” 26 August 2026.
+  url: https://dpi.gov.gy/paving-commences-on-lot-2-of-palmyra-moleson-creek-road-project/
+  annotation: CRBC executing Palmyra–Moleson Creek Lot 2 (Bloomfield–No. 54); >GYD 2.9bn lot within US$604m
+    corridor. Supports crbc_corentyne_lot2_guyana_2026.
+  supports:
+  - crbc_corentyne_lot2_guyana_2026
+  - hunt_infra_bridges_roads

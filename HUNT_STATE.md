@@ -1,11 +1,54 @@
 updated: 2026-10-02
-cycle: 87
+cycle: 88
 remote: present
-active_layer: resources
-active_subcategory: copper
-next_query: Cycle 88 shuffle_seed=20261088; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us204/prc214/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If nickel/balsa/fission_smr dry, move top-up to next-thinnest.
-next_row_id: (follow cycle-88 shuffled_order)
+active_layer: energy
+active_subcategory: solar
+next_query: Cycle 89 shuffle_seed=20261089; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us205/prc206/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: fission_smr/balsa/graphite then nickel. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/copper). Country×subcategory sweep both sides + regulators.
+next_row_id: (follow cycle-89 shuffled_order)
 dry_streak: 0
+
+# === Cycle 88 (seed 20261088) ===
+# Shuffled order: port_cranes, solar, niobium, fission_smr, balsa, rail,
+#   other_renewables, water, power_plants_grid, copper, port_ownership,
+#   bridges_roads, wind, engineering_epc, nickel, lithium, graphite,
+#   building_materials.
+# Logged 6 sourced rows (honest US/PRC split; no padding):
+#   us solar: atlas_latam_3bn_refi_2026 (USD 3bn GIP-backed Miami HQ refinancing);
+#     dfc_solaramo_manta_200mw_ecuador (proposed USD 144m / 200 MW near Manta).
+#   prc other_renewables: sungrow_sonnedix_librillo_bess_2026 (643.8 MWh Taltal);
+#     sungrow_verano_observatorio_bess_2026 (152 MW/606 MWh Marchigüe).
+#   prc wind: powerchina_jiangxi_ingenio_wind_epc_2025 (2×1.5 MW Oaxaca retrofit).
+#   prc bridges_roads: crbc_corentyne_lot2_guyana_2026 (GYD >2.9bn Lot 2).
+# Thin top-up (fission_smr/balsa/graphite): all dry — shift to nickel then miss
+#   (DFC Piauí / Fenix / Corex / MMG already dense). Next-thinnest niobium dry.
+# Equal-budget misses: port_cranes, niobium, fission_smr, balsa, rail, water,
+#   power_plants_grid, copper, port_ownership, engineering_epc, nickel, lithium,
+#   graphite, building_materials (dense prior coverage).
+# Active after cycle 88: us205 / prc206 / allied225 / other36 (n=672).
+rows_by_side_this_cycle:
+  us: 2
+  prc: 4
+  allied: 0
+  other: 0
+coverage_cumulative:
+  energy/fission_smr: 23
+  energy/other_renewables: 47
+  energy/power_plants_grid: 58
+  energy/solar: 65
+  energy/wind: 31
+  infrastructure/bridges_roads: 36
+  infrastructure/building_materials: 32
+  infrastructure/engineering_epc: 78
+  infrastructure/port_cranes: 32
+  infrastructure/port_ownership: 33
+  infrastructure/rail: 39
+  resources/balsa: 23
+  resources/copper: 31
+  resources/graphite: 23
+  resources/lithium: 34
+  resources/nickel: 24
+  resources/niobium: 26
+  resources/water: 37
 
 # === Cycle 88 PRE-STEP: scope audit (2026-10-02) ===
 # Archive hospital / school / fertilizer rows that are not in the BRIEF 18
