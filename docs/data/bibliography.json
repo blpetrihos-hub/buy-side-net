@@ -11839,15 +11839,19 @@
   {
     "id": "aes_dr_investor_q3_2025",
     "type": "company",
-    "chicago": "AES Dominicana. “AES DR — Investor Presentation 2025 Q3.” January 2026 PDF (Q3 2025 results deck).",
+    "chicago": "AES Dominicana. “Investor Presentation — Q3 2025.” Updated December 2025. https://www.aesdominicana.com/sites/aesvault.com/files/2026-01/AES%20DR%20-%20Investor%20Presentation%202025%20Q3.pdf.",
     "url": "https://www.aesdominicana.com/sites/aesvault.com/files/2026-01/AES%20DR%20-%20Investor%20Presentation%202025%20Q3.pdf",
-    "annotation": "Documents Peravia I & II 140 MW COD Sep 2025 and related DR renewables pipeline. Supports aes_dr_peravia_140mw_cod_2025.",
+    "annotation": "AES Dominicana deck: 138.1 MW BESS NTP Dec 2025; USD 94m. Supports aes_dr_bess_138mw_94m_2025.",
     "supports": [
       "aes_dr_peravia_140mw_cod_2025",
-      "hunt_energy_solar"
+      "hunt_energy_solar",
+      "aes_dr_bess_138mw_94m_2025",
+      "hunt_energy_other_renewables"
     ],
     "map_supports": [
+      "aes_dr_bess_138mw_94m_2025",
       "aes_dr_peravia_140mw_cod_2025",
+      "hunt_energy_other_renewables",
       "hunt_energy_solar"
     ],
     "layers": [
@@ -14469,6 +14473,60 @@
     "map_supports": [
       "hunt_energy_solar",
       "zijin_longking_aurora_conc_p3_guyana_26p62m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "longi_yinson_sol_verano_20250516",
+    "type": "company",
+    "chicago": "LONGi Green Energy Technology Co., Ltd. “LONGi Powers Peru’s Renewable Vision with BC Technology, Showcasing Global Synergy for Local Impact.” May 16, 2025. https://www.longi.com/en/news/partnership-with-yinson-renewables/.",
+    "url": "https://www.longi.com/en/news/partnership-with-yinson-renewables/",
+    "annotation": "LONGi primary: 53.2 MW Hi-MO 9 for Yinson Sol de Verano 1 near Majes. Supports longi_sol_de_verano1_peru_53p2mw_2025.",
+    "supports": [
+      "longi_sol_de_verano1_peru_53p2mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "longi_sol_de_verano1_peru_53p2mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "longi_petalo_norte_colombia_20251211",
+    "type": "company",
+    "chicago": "LONGi Green Energy Technology Co., Ltd. “With LONGi Photovoltaic Modules, Colombia Inaugurates Its First Solar Project Aligned with International Standards.” December 11, 2025. https://www.longi.com/en/news/colombia-first-solar-project/.",
+    "url": "https://www.longi.com/en/news/colombia-first-solar-project/",
+    "annotation": "LONGi primary: Pétalo del Norte I 19.9 MW Hi-MO 7 at La Esperanza. Supports longi_petalo_norte_colombia_19p9mw_2025.",
+    "supports": [
+      "longi_petalo_norte_colombia_19p9mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "longi_petalo_norte_colombia_19p9mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ctg_brasil_sustentabilidade_2025_20260617",
+    "type": "company",
+    "chicago": "CTG Brasil. “CTG Brasil se prepara para novo ciclo de crescimento sustentável.” June 17, 2026. https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/.",
+    "url": "https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/",
+    "annotation": "CTG Brasil primary: Arinos solar full COD in 2025 portfolio. Supports ctg_arinos_solar_full_cod_2025.",
+    "supports": [
+      "ctg_arinos_solar_full_cod_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "ctg_arinos_solar_full_cod_2025",
+      "hunt_energy_solar"
     ],
     "layers": [
       "energy"
