@@ -1,11 +1,81 @@
 updated: 2026-10-02
-cycle: 158
+cycle: 159
 remote: present
 active_layer: energy
 active_subcategory: solar
-next_query: Cycle 159 shuffle_seed=20261159; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us308/prc317/allied253); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 9 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Weight under-covered: Central America, Caribbean, Guyana/Suriname, Bolivia, Paraguay, Venezuela, Ecuador, Colombia. Holdovers: POWERCHINA Baku Suriname site; CREC Oruro–Challapata; CRBC Corentyne bridge if signed contract primary opens. No U.S. territories.
-next_row_id: (follow cycle-159 shuffled_order)
+next_query: Cycle 160 shuffle_seed=20261160; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us310/prc320/allied253); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 10 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Weight under-covered: Central America, Caribbean, Guyana/Suriname, Bolivia, Paraguay, Venezuela, Ecuador, Colombia. Holdovers: POWERCHINA Baku Suriname; CREC Oruro–Challapata; CRBC Corentyne bridge if signed. No U.S. territories.
+next_row_id: (follow cycle-160 shuffled_order)
 dry_streak: 0
+
+# === Cycle 159 (seed 20261159) ===
+# Shuffled order: fission_smr, niobium, rail, port_ownership, graphite,
+#   bridges_roads, wind, other_renewables, power_plants_grid, water,
+#   port_cranes, lithium, copper, building_materials, solar,
+#   engineering_epc, balsa, nickel.
+# Logged 5 sourced rows (2 US / 3 PRC; thin dry; no padding):
+#   prc other_renewables: powerchina_patuca_iii_honduras_104mw (104 MW; CapEx blank).
+#   prc other_renewables: powerchina_el_arenal_honduras_60mw (60 MW; CapEx blank).
+#   us solar: aes_opico_power_5p2mwp_elsalvador (5.2 MWp; CapEx blank).
+#   us solar: aes_cuscatlan_solar_10mw_elsalvador (10 MW; CapEx blank).
+#   prc solar: powerchina_guayasamin_solar_ecuador_2026 (museum demo; CapEx blank).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: fission_smr, niobium, rail, port_ownership, graphite,
+#   bridges_roads, wind, power_plants_grid, water, port_cranes, lithium,
+#   copper, building_materials, engineering_epc, balsa, nickel.
+# Dense already-logged: ENEE 230 kV; Cartagena 23 MW; El Salvador nuclear MOUs;
+#   Sajalices; Kingston ZPMC.
+# Active after cycle 159: us310 / prc320 / allied253 / other38 (n=921).
+shuffle_seed: 20261159
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/fission_smr
+- resources/niobium
+- infrastructure/rail
+- infrastructure/port_ownership
+- resources/graphite
+- infrastructure/bridges_roads
+- energy/wind
+- energy/other_renewables
+- energy/power_plants_grid
+- resources/water
+- infrastructure/port_cranes
+- resources/lithium
+- resources/copper
+- infrastructure/building_materials
+- energy/solar
+- infrastructure/engineering_epc
+- resources/balsa
+- resources/nickel
+rows_found_this_cycle:
+  energy/fission_smr: 0
+  resources/niobium: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  resources/graphite: 0
+  infrastructure/bridges_roads: 0
+  energy/wind: 0
+  energy/other_renewables: 2
+  energy/power_plants_grid: 0
+  resources/water: 0
+  infrastructure/port_cranes: 0
+  resources/lithium: 0
+  resources/copper: 0
+  infrastructure/building_materials: 0
+  energy/solar: 3
+  infrastructure/engineering_epc: 0
+  resources/balsa: 0
+  resources/nickel: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 3
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 158 (seed 20261158) ===
 # Shuffled order: rail, niobium, water, wind, bridges_roads, balsa,

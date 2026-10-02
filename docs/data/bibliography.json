@@ -16068,5 +16068,79 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "powerchina_honduras_hydro_20230327",
+    "type": "company",
+    "chicago": "POWERCHINA. “POWERCHINA helps galvanize Honduras power project.” March 27, 2023. https://en.powerchina.cn/2023-03/27/c_828296.htm.",
+    "url": "https://en.powerchina.cn/2023-03/27/c_828296.htm",
+    "annotation": "POWERCHINA primary: El Arenal 60 MW completed Apr 2022. Supports powerchina_el_arenal_honduras_60mw; powerchina_patuca_iii_honduras_104mw.",
+    "supports": [
+      "powerchina_patuca_iii_honduras_104mw",
+      "hunt_energy_other_renewables",
+      "powerchina_el_arenal_honduras_60mw"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "powerchina_el_arenal_honduras_60mw",
+      "powerchina_patuca_iii_honduras_104mw"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_elsalvador_opico_plant",
+    "type": "company",
+    "chicago": "AES El Salvador. “Opico Power Plant.” Accessed October 2, 2026. https://www.aes-elsalvador.com/en/opico-power-plant.",
+    "url": "https://www.aes-elsalvador.com/en/opico-power-plant",
+    "annotation": "AES El Salvador primary: Opico Power 5.2 MWp inaugurated 2020. Supports aes_opico_power_5p2mwp_elsalvador.",
+    "supports": [
+      "aes_opico_power_5p2mwp_elsalvador",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_opico_power_5p2mwp_elsalvador",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_elsalvador_sobre_aes",
+    "type": "company",
+    "chicago": "AES El Salvador. “Sobre AES.” Accessed October 2, 2026. https://www.aes-elsalvador.com/es/sobre-aes.",
+    "url": "https://www.aes-elsalvador.com/es/sobre-aes",
+    "annotation": "AES El Salvador About page: Cuscatlán Solar 10 MW portfolio listing. Supports aes_cuscatlan_solar_10mw_elsalvador.",
+    "supports": [
+      "aes_cuscatlan_solar_10mw_elsalvador",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_cuscatlan_solar_10mw_elsalvador",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "powerchina_guayasamin_20260713",
+    "type": "company",
+    "chicago": "POWERCHINA. “POWERCHINA-built solar-storage project launches in Ecuador.” July 13, 2026. https://en.powerchina.cn/2026-07/13/c_829087.htm.",
+    "url": "https://en.powerchina.cn/2026-07/13/c_829087.htm",
+    "annotation": "POWERCHINA primary: Guayasamín Museum solar+storage launch. Supports powerchina_guayasamin_solar_ecuador_2026.",
+    "supports": [
+      "powerchina_guayasamin_solar_ecuador_2026",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_guayasamin_solar_ecuador_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
