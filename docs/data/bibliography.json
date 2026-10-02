@@ -16702,5 +16702,113 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "powerchina_colombia_2projects_20230202",
+    "type": "company",
+    "chicago": "Power Construction Corporation of China. “POWERCHINA Signs 2 Projects in Colombia.” February 2, 2023. https://en.powerchina.cn/2023-02/02/c_828236.htm.",
+    "url": "https://en.powerchina.cn/2023-02/02/c_828236.htm",
+    "annotation": "POWERCHINA primary: Bogotá Wiesner waterworks upgrade EPC (14→21 m³/s). Supports powerchina_wiesner_bogota_water_2023.",
+    "supports": [
+      "powerchina_wiesner_bogota_water_2023",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "powerchina_wiesner_bogota_water_2023"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "powerchina_tibitoc_feature_2026",
+    "type": "company",
+    "chicago": "Power Construction Corporation of China (11th Bureau). “【特稿】“功勋水厂”焕新记——哥伦比亚缇比托克水厂升级改造工程施工管理侧记.” 2026. http://11j.powerchina.cn/col/col11645/art/2026/art_dc2241e1e3704a3d973d19e1f5bc01ca.html.",
+    "url": "http://11j.powerchina.cn/col/col11645/art/2026/art_dc2241e1e3704a3d973d19e1f5bc01ca.html",
+    "annotation": "POWERCHINA primary: Tibitó Bogotá WTP upgrade; nano pre-ox COD Mar 2026. Supports powerchina_tibitoc_bogota_water_upgrade.",
+    "supports": [
+      "powerchina_tibitoc_bogota_water_upgrade",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "powerchina_tibitoc_bogota_water_upgrade"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "caribcement_rockfort_42m_2025",
+    "type": "company",
+    "chicago": "Caribbean Cement Company Limited. “Cemex Carib Cement’s US$42 Million Expansion Project Is Ready to Boost Cement Production in Jamaica.” June 26, 2025. https://caribcement.com/cemex-carib-cements-us42-million-expansion-project-is-ready-to-boost-cement-production-in-jamaica/.",
+    "url": "https://caribcement.com/cemex-carib-cements-us42-million-expansion-project-is-ready-to-boost-cement-production-in-jamaica/",
+    "annotation": "Carib Cement/Cemex primary: Rockfort Debottleneck USD 42m commissioned. Supports cemex_carib_rockfort_42m_jamaica.",
+    "supports": [
+      "cemex_carib_rockfort_42m_jamaica",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "cemex_carib_rockfort_42m_jamaica",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "konecranes_chiquita_barrios_20240206",
+    "type": "company",
+    "chicago": "Konecranes Lift Trucks. “Konecranes to Deliver 3 Reach Stackers to Boost Chiquita Exports in Guatemala.” February 6, 2024. https://www.kclifttrucks.com/press-releases/konecranes-to-deliver-3-reach-stackers-to-boost-chiquita-exports-in-guatemala.",
+    "url": "https://www.kclifttrucks.com/press-releases/konecranes-to-deliver-3-reach-stackers-to-boost-chiquita-exports-in-guatemala",
+    "annotation": "Konecranes primary: 3 reach stackers for Chiquita Puerto Barrios. Supports konecranes_chiquita_puerto_barrios_3rs_2024.",
+    "supports": [
+      "konecranes_chiquita_puerto_barrios_3rs_2024",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "konecranes_chiquita_puerto_barrios_3rs_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "american_lithium_falchani_pea_20240110",
+    "type": "company",
+    "chicago": "American Lithium Corp. “Updated PEA for Falchani Highlights Robust Economics After-Tax NPV8% Triples to US$5.11 Billion, IRR 32.0% and Low Opex $5,093/t LCE.” January 10, 2024. https://americanlithiumcorp.com/updated-pea-for-falchani-highlights-robust-economics-after-tax-npv8-triples-to-us5-11-billion-irr-32-0-and-low-opex-5093-t-lce/.",
+    "url": "https://americanlithiumcorp.com/updated-pea-for-falchani-highlights-robust-economics-after-tax-npv8-triples-to-us5-11-billion-irr-32-0-and-low-opex-5093-t-lce/",
+    "annotation": "American Lithium primary: Falchani PEA Phase 1 CapEx USD 681m. Supports american_lithium_falchani_pea_681m_peru.",
+    "supports": [
+      "american_lithium_falchani_pea_681m_peru",
+      "hunt_res_lithium"
+    ],
+    "map_supports": [
+      "american_lithium_falchani_pea_681m_peru",
+      "hunt_res_lithium"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cemex_4q24_guatemala_sale",
+    "type": "company",
+    "chicago": "Cemex, S.A.B. de C.V. “Fourth Quarter Results 2024.” https://www.cemex.com/documents/d/cemex/4q24_report_english.",
+    "url": "https://www.cemex.com/documents/d/cemex/4q24_report_english",
+    "annotation": "Cemex 4Q24: Guatemala ops sold to Holcim for USD 212m. Supports holcim_cemex_guatemala_ops_2024.",
+    "supports": [
+      "holcim_cemex_guatemala_ops_2024",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "holcim_cemex_guatemala_ops_2024",
+      "hunt_infra_building_materials"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

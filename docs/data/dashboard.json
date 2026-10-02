@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1155,
+    "n_rows": 1161,
     "counts": {
-      "total": 1155,
-      "active": 957,
+      "total": 1161,
+      "active": 963,
       "hunt": 42,
       "archived": 178,
       "paired": 7,
       "one_sided": 27,
       "proxy": 160,
       "exclude": 18,
-      "documented": 921,
-      "on_map": 938
+      "documented": 927,
+      "on_map": 944
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 129,
         "prc": 116,
-        "allied": 100,
-        "n": 345
+        "allied": 103,
+        "n": 348
       },
       "usd": {
         "us": 8181930640.119999,
         "us_n": 59,
         "prc": 10587085094.130001,
         "prc_n": 25,
-        "allied": 11297634000.0,
-        "allied_n": 28
+        "allied": 11551634000.0,
+        "allied_n": 30
       },
       "matched_gaps": {
         "n": 1,
@@ -129,17 +129,17 @@
       "layer": "resources",
       "counts": {
         "us": 65,
-        "prc": 60,
-        "allied": 112,
-        "n": 237
+        "prc": 62,
+        "allied": 113,
+        "n": 240
       },
       "usd": {
         "us": 25894903566.0,
         "us_n": 32,
         "prc": 13890644772.0,
         "prc_n": 32,
-        "allied": 39952458653.2,
-        "allied_n": 41
+        "allied": 40633458653.2,
+        "allied_n": 42
       },
       "matched_gaps": {
         "n": 3,
@@ -431,9 +431,9 @@
       "country": "Colombia",
       "counts": {
         "us": 15,
-        "prc": 23,
+        "prc": 25,
         "allied": 16,
-        "n": 54
+        "n": 56
       },
       "usd": {
         "us": 310706908.27,
@@ -456,7 +456,7 @@
         },
         "resources": {
           "us": 0,
-          "prc": 3,
+          "prc": 5,
           "allied": 2
         }
       }
@@ -689,16 +689,16 @@
       "counts": {
         "us": 9,
         "prc": 0,
-        "allied": 3,
-        "n": 12
+        "allied": 5,
+        "n": 14
       },
       "usd": {
         "us": 315860338.67,
         "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 65000000.0,
-        "allied_n": 1
+        "allied": 277000000.0,
+        "allied_n": 2
       },
       "by_layer": {
         "energy": {
@@ -709,7 +709,7 @@
         "infrastructure": {
           "us": 4,
           "prc": 0,
-          "allied": 0
+          "allied": 2
         },
         "resources": {
           "us": 1,
@@ -810,16 +810,16 @@
       "counts": {
         "us": 2,
         "prc": 12,
-        "allied": 1,
-        "n": 15
+        "allied": 2,
+        "n": 16
       },
       "usd": {
         "us": 1105651629.58,
         "us_n": 2,
         "prc": 294000000.0,
         "prc_n": 2,
-        "allied": 0.0,
-        "allied_n": 0
+        "allied": 42000000.0,
+        "allied_n": 1
       },
       "by_layer": {
         "energy": {
@@ -830,7 +830,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 12,
-          "allied": 0
+          "allied": 1
         }
       }
     },
@@ -965,16 +965,16 @@
       "counts": {
         "us": 14,
         "prc": 41,
-        "allied": 25,
-        "n": 80
+        "allied": 26,
+        "n": 81
       },
       "usd": {
         "us": 5747000000.0,
         "us_n": 6,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 14683340000.0,
-        "allied_n": 13
+        "allied": 15364340000.0,
+        "allied_n": 14
       },
       "by_layer": {
         "energy": {
@@ -990,7 +990,7 @@
         "resources": {
           "us": 7,
           "prc": 14,
-          "allied": 7
+          "allied": 8
         }
       }
     },
@@ -2115,7 +2115,13 @@
       "vestas_guatemala_63mw_2024",
       "geb_transnova_ifc_65m_guatemala",
       "wits_mexico_graphite_us_imp_2023",
-      "wits_mexico_graphite_china_imp_2023"
+      "wits_mexico_graphite_china_imp_2023",
+      "powerchina_wiesner_bogota_water_2023",
+      "powerchina_tibitoc_bogota_water_upgrade",
+      "holcim_cemex_guatemala_ops_2024",
+      "cemex_carib_rockfort_42m_jamaica",
+      "konecranes_chiquita_puerto_barrios_3rs_2024",
+      "american_lithium_falchani_pea_681m_peru"
     ],
     "hunt": [
       "hunt_br_power_equip",
