@@ -1,0 +1,10 @@
+{
+  "id": "zachry_managua_nec_2004",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_zachry_managua_20040921",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC04C0031_1900_-NONE-_-NONE-/",
+  "price_year": "2004",
+  "evidence": "documented",
+  "quote": "NEW EMBASSY COMPOUND (NEC) MANAGUA, NICARAGUA",
+  "note": "Opened USASpending Award API; USD 68335371.34; date_signed 2004-09-21."
+}
