@@ -10159,3 +10159,33 @@
   supports:
   - crec_egd_highway_bid9_guyana_2023
   - hunt_infra_bridges_roads
+- id: aes_andes_2021_results_20220228
+  type: company
+  chicago: AES Andes. “AES Andes ended 2021 with strong progress in its renewable transformation.” February
+    28, 2022. https://www.aesandes.com/en/blog/aes-andes-ended-2021-strong-progress-its-renewable-transformation.
+  url: https://www.aesandes.com/en/blog/aes-andes-ended-2021-strong-progress-its-renewable-transformation
+  annotation: 'AES Andes 2021 results: Andes Solar IIa COD + Gecelca 438 GWh/y PPA. Supports aes_andes_solar_iia_81mw_cod_2021;
+    aes_andes_gecelca_438gwh_ppa_2021.'
+  supports:
+  - aes_andes_solar_iia_81mw_cod_2021
+  - hunt_energy_solar
+  - aes_andes_gecelca_438gwh_ppa_2021
+  - hunt_energy_other_renewables
+- id: powerchina_malabar_wwtp_catalog
+  type: company
+  chicago: POWERCHINA. “Wastewater/Solid Waste Disposal” (Malabar Wastewater Treatment Plant and Pipeline
+    Network, Trinidad and Tobago). May 20, 2025. https://en.powerchina.cn/2025-05/20/c_817809.htm.
+  url: https://en.powerchina.cn/2025-05/20/c_817809.htm
+  annotation: 'POWERCHINA: Malabar WWTP Trinidad 40,000 m³/d. Supports powerchina_malabar_wwtp_trinidad_2019.'
+  supports:
+  - powerchina_malabar_wwtp_trinidad_2019
+  - hunt_resources_water
+- id: crec_espino_highway_bolivia_2023
+  type: company
+  chicago: China Railway Group Limited. “Bolivia's Espino highway completed and opened to traffic.” October
+    22, 2023. https://www.crecg.com/zgztywz/cs11/10210606/2025021110100534141/index.html.
+  url: https://www.crecg.com/zgztywz/cs11/10210606/2025021110100534141/index.html
+  annotation: 'CREC: Espino Highway Bolivia opening (Ruta 36). Supports crec_espino_highway_bolivia_2023.'
+  supports:
+  - crec_espino_highway_bolivia_2023
+  - hunt_infra_bridges_roads

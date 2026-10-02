@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1087,
+    "n_rows": 1091,
     "counts": {
-      "total": 1087,
-      "active": 889,
+      "total": 1091,
+      "active": 893,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 157,
       "exclude": 18,
-      "documented": 858,
-      "on_map": 871
+      "documented": 862,
+      "on_map": 875
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 127,
-        "prc": 108,
+        "prc": 109,
         "allied": 94,
-        "n": 329
+        "n": 330
       },
       "usd": {
         "us": 8110630640.119999,
@@ -129,9 +129,9 @@
       "layer": "resources",
       "counts": {
         "us": 59,
-        "prc": 53,
+        "prc": 54,
         "allied": 112,
-        "n": 224
+        "n": 225
       },
       "usd": {
         "us": 24859802296.0,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 107,
+        "us": 109,
         "prc": 144,
         "allied": 83,
-        "n": 334
+        "n": 336
       },
       "usd": {
         "us": 11511785515.13,
@@ -322,9 +322,9 @@
       "country": "Bolivia",
       "counts": {
         "us": 0,
-        "prc": 5,
+        "prc": 6,
         "allied": 0,
-        "n": 5
+        "n": 6
       },
       "usd": {
         "us": 0.0,
@@ -342,7 +342,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         },
         "resources": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 44,
+        "us": 45,
         "prc": 39,
         "allied": 51,
-        "n": 134
+        "n": 135
       },
       "usd": {
         "us": 20511000000.0,
@@ -404,7 +404,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 31,
+          "us": 32,
           "prc": 30,
           "allied": 16
         },
@@ -423,10 +423,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 14,
+        "us": 15,
         "prc": 21,
         "allied": 13,
-        "n": 48
+        "n": 49
       },
       "usd": {
         "us": 310706908.27,
@@ -438,7 +438,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 11,
+          "us": 12,
           "prc": 16,
           "allied": 5
         },
@@ -1000,9 +1000,9 @@
       "country": "Trinidad and Tobago",
       "counts": {
         "us": 2,
-        "prc": 1,
+        "prc": 2,
         "allied": 0,
-        "n": 3
+        "n": 4
       },
       "usd": {
         "us": 368084225.7,
@@ -1021,6 +1021,11 @@
         "infrastructure": {
           "us": 2,
           "prc": 0,
+          "allied": 0
+        },
+        "resources": {
+          "us": 0,
+          "prc": 1,
           "allied": 0
         }
       }
@@ -1967,7 +1972,11 @@
       "aes_andes_solar_iib_180mw_cod_2023",
       "aes_andes_virtual_reservoir_ii_cod_2023",
       "powerchina_tamberias_diaguitas_5m_2019",
-      "crec_egd_highway_bid9_guyana_2023"
+      "crec_egd_highway_bid9_guyana_2023",
+      "aes_andes_solar_iia_81mw_cod_2021",
+      "aes_andes_gecelca_438gwh_ppa_2021",
+      "powerchina_malabar_wwtp_trinidad_2019",
+      "crec_espino_highway_bolivia_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
