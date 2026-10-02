@@ -1,10 +1,10 @@
 updated: 2026-10-01
-cycle: 59
+cycle: 60
 remote: present
 active_layer: energy
 active_subcategory: fission_smr
-next_query: Cycle 60 shuffle_seed=20261060; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: fission_smr/balsa/graphite/nickel/niobium (23). Keep raising U.S. and PRC share.
-next_row_id: (follow cycle-60 shuffled_order)
+next_query: Cycle 61 shuffle_seed=20261061; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory spend ≥1/3 budget on U.S. investors/firms (EDGAR/DFC/EXIM/USTDA/company/embassy/Commerce + ES/PT coverage of U.S. firms); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: fission_smr/balsa/graphite/nickel/niobium (23). Keep raising U.S. and PRC share.
+next_row_id: (follow cycle-61 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -16,96 +16,102 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-shuffle_seed: 20261059
+shuffle_seed: 20261060
 budget_per_subcategory: 1_source_family_min
 # Equal base time box: at least one opened public source family (or documented miss)
 # per subcategory before moving on. Same base budget for every subcategory.
 # Within each box, reserve ≥1/3 for U.S.-side search (see BRIEF.md Rotation).
 
 shuffled_order:
-- resources/graphite
-- resources/water
-- energy/power_plants_grid
-- infrastructure/port_ownership
-- infrastructure/bridges_roads
-- resources/lithium
-- energy/other_renewables
 - infrastructure/port_cranes
+- infrastructure/port_ownership
+- energy/solar
+- energy/wind
+- resources/lithium
+- resources/balsa
+- resources/water
+- infrastructure/bridges_roads
+- infrastructure/rail
 - resources/niobium
 - resources/nickel
-- infrastructure/engineering_epc
-- infrastructure/rail
-- energy/fission_smr
-- energy/solar
 - resources/copper
-- energy/wind
+- energy/other_renewables
+- energy/fission_smr
+- energy/power_plants_grid
+- infrastructure/engineering_epc
 - infrastructure/building_materials
-- resources/balsa
+- resources/graphite
 
 rows_found_this_cycle:
-  resources/graphite: 0
-  resources/water: 1
-  energy/power_plants_grid: 1
-  infrastructure/port_ownership: 0
-  infrastructure/bridges_roads: 0
-  resources/lithium: 1
-  energy/other_renewables: 0
   infrastructure/port_cranes: 1
+  infrastructure/port_ownership: 0
+  energy/solar: 1
+  energy/wind: 1
+  resources/lithium: 0
+  resources/balsa: 0
+  resources/water: 1
+  infrastructure/bridges_roads: 0
+  infrastructure/rail: 1
   resources/niobium: 0
   resources/nickel: 0
-  infrastructure/engineering_epc: 1
-  infrastructure/rail: 1
+  resources/copper: 1
+  energy/other_renewables: 1
   energy/fission_smr: 0
-  energy/solar: 1
-  resources/copper: 0
-  energy/wind: 1
+  energy/power_plants_grid: 1
+  infrastructure/engineering_epc: 0
   infrastructure/building_materials: 0
-  resources/balsa: 0
+  resources/graphite: 0
 
 coverage_cumulative:
-  # Active+hunt (evidence documented|proxy|hunt) after cycle 59
-  # (+ equal-pass: NADBank Baja Rosarito distrib US$82.16m / POWERCHINA EDP Piauí
-  #   500 kV COD / Lilac Kachi DIA / Konecranes Iquique ESP.10 /
-  #   Baker Hughes Petrobras Santos wells / FCC–CICSA Saltillo–Santa Catarina /
-  #   Gonvarri Solar Steel Colombia 25 MW / Mainstream Ckhúri COD;
-  #   thin_topup: fission_smr / graphite / nickel — all misses)
+  # Active+hunt (evidence documented|proxy|hunt) after cycle 60
+  # (+ equal-pass: Liebherr Compas Cartagena LHM 600 / POWERCHINA Huayra 96.9 MW COD /
+  #   Vestas Argentina 217 MW / Cagece Dessal Fortaleza / EXIM Wabtec GMXT ~USD 185m /
+  #   CMOC Cangrejos >USD 1.7bn / ClearPower Tinajones USD 35m / EXIM FOCOL Bahamas ~USD 99.6m;
+  #   thin_topup: balsa / niobium / fission_smr — all misses)
   infrastructure/port_ownership: 33
-  infrastructure/port_cranes: 30
-  infrastructure/rail: 30
+  infrastructure/port_cranes: 31
+  infrastructure/rail: 31
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 25
   infrastructure/engineering_epc: 27
   resources/niobium: 23
   resources/lithium: 32
-  resources/copper: 25
+  resources/copper: 26
   resources/nickel: 23
   resources/graphite: 23
   resources/balsa: 23
-  resources/water: 27
+  resources/water: 28
   energy/fission_smr: 23
-  energy/solar: 31
-  energy/wind: 25
-  energy/power_plants_grid: 26
-  energy/other_renewables: 32
+  energy/solar: 32
+  energy/wind: 26
+  energy/power_plants_grid: 27
+  energy/other_renewables: 33
 
 # Side balance log (BRIEF Rotation §2). Required each cycle from cycle 41 on.
 rows_by_side_this_cycle:
   us: 3
-  prc: 1
-  allied: 4
-  other: 0
+  prc: 2
+  allied: 2
+  other: 1
 
 # Thin-subcategory top-up (BRIEF Rotation §3). After shuffled pass, 3 fewest active
 # rows each get half of budget_per_subcategory. Recompute each cycle. From cycle 41 on.
-# Post-pass thinnest (tied at 23): fission_smr, graphite, nickel (also balsa/niobium).
+# Post-pass thinnest (tied at 23): balsa, niobium, fission_smr (also graphite/nickel).
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
+  - resources/balsa
+  - resources/niobium
   - energy/fission_smr
-  - resources/graphite
-  - resources/nickel
-  # Hits: none — documented misses (FIRST/MOU/Meitner; South Star/Graphcoa;
-  #   MMG Anglo/Centaurus/DFC/Araguaia stacks already logged).
+  # Hits: none — documented misses (AIMA/Plantabal; St George/CBMM/CMOC;
+  #   Peru SMR law / USTDA LAC nuclear / Meitner stacks already logged).
+
+# Side balance log (BRIEF Rotation §2) — cycle 59
+rows_by_side_this_cycle_cycle59:
+  us: 3
+  prc: 1
+  allied: 4
+  other: 0
 
 # Side balance log (BRIEF Rotation §2) — cycle 58
 rows_by_side_this_cycle_cycle58:

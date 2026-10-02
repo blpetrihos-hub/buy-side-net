@@ -5146,3 +5146,76 @@
   supports:
   - mainstream_ckhuri_cod_chile_2026
   - hunt_energy_wind
+- id: liebherr_compas_lhm600_20260612
+  type: company
+  chicago: Liebherr. “LHM 600 Supports Evolving Vessel Demands at Cartagena Terminal.” Press release,
+    12 June 2026.
+  url: https://www.liebherr.com/en-int/n/lhm-600-supports-evolving-vessel-demands-at-cartagena-terminal-266688-3935641
+  annotation: Liebherr LHM 600 MHC commissioning at Compas Cartagena. Supports liebherr_compas_cartagena_lhm600_2026.
+  supports:
+  - liebherr_compas_cartagena_lhm600_2026
+  - hunt_infra_port_cranes
+- id: powerchina_huayra_cod_20260928
+  type: company
+  chicago: Power Construction Corporation of China. “秘鲁瓦伊拉96.9兆瓦光伏项目全容量投产发电.” Company news, 28 September
+    2026.
+  url: https://www.powerchina.cn/zxzx/jcdt/art/2026/art_506856551c1e41c597e678e44b83285e.html
+  annotation: POWERCHINA Huayra 96.9 MW Peru PV full-capacity COD. Supports powerchina_huayra_peru_96p9mw_2026.
+  supports:
+  - powerchina_huayra_peru_96p9mw_2026
+  - hunt_energy_solar
+- id: vestas_argentina_217mw_20250912
+  type: company
+  chicago: Vestas. “Vestas Announces Two Orders in Argentina for a Total of 217 MW.” Company news, 12
+    September 2025.
+  url: https://www.vestas.com/en/media/company-news/2025/vestas-announces-two-orders-in-argentina-for-a-total-of-c4233692
+  annotation: Vestas Q3 Argentina turbine orders totaling 217 MW. Supports vestas_argentina_217mw_2025.
+  supports:
+  - vestas_argentina_217mw_2025
+  - hunt_energy_wind
+- id: aesbe_cagece_dessal_20260717
+  type: trade_association
+  chicago: Associação Brasileira das Empresas Estaduais de Saneamento (AESBE). “Cagece Autoriza Início
+    das Obras da Planta de Dessalinização de Fortaleza.” 17 July 2026.
+  url: https://aesbe.org.br/cagece-autoriza-inicio-das-obras-da-planta-de-dessalinizacao-de-fortaleza-marco-para-a-seguranca-hidrica-do-brasil/
+  annotation: AESBE/Cagece authorization for Fortaleza seawater desal PPP (>R$3.1bn). Supports cagece_dessal_fortaleza_auth_2026.
+  supports:
+  - cagece_dessal_fortaleza_auth_2026
+  - hunt_res_water
+- id: exim_gmxt_wabtec_20250918
+  type: government
+  chicago: Export-Import Bank of the United States. “Export-Import Bank of the United States Board of
+    Directors Approves Infrastructure Investments Totaling Nearly $285 Million.” Press release, 18 September
+    2025.
+  url: https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-infrastructure-investments-totaling
+  annotation: EXIM ~USD 185m Wabtec locomotive financing for GMXT Mexico. Supports exim_wabtec_gmxt_185m_2025.
+  supports:
+  - exim_wabtec_gmxt_185m_2025
+  - hunt_latam_rail_telecom
+- id: mae_ecuador_cangrejos_20260427
+  type: government
+  chicago: Ecuador Ministerio de Ambiente y Energía. “Firma del Proyecto Minero Los Cangrejos Impulsa
+    USD 1.700 Millones de Inversión en el País.” Boletín de Prensa No. 252, 27 April 2026.
+  url: https://www.ambienteyenergia.gob.ec/firma-del-proyecto-minero-los-cangrejos-impulsa-usd-1-700-millonesde-inversion-en-el-pais/
+  annotation: 'MAE Ecuador: ODIN/CMOC Los Cangrejos exploitation contract >USD 1.7bn. Supports cmoc_cangrejos_ecuador_1p7bn_2026.'
+  supports:
+  - cmoc_cangrejos_ecuador_1p7bn_2026
+  - hunt_res_copper
+- id: clearpower_tinajones_20260923
+  type: company
+  chicago: ClearPower Global. “ClearPower Receives PEOT Authorization for Hydropower Development in Peru’s
+    Tinajones System.” PR Newswire, 23 September 2026.
+  url: https://www.prnewswire.com/news-releases/clearpower-receives-peot-authorization-for-hydropower-development-in-perus-tinajones-system-302886878.html
+  annotation: ClearPower USD 35m Tinajones modular hydro PEOT authorization. Supports clearpower_tinajones_peru_35m_2026.
+  supports:
+  - clearpower_tinajones_peru_35m_2026
+  - hunt_energy_other_renewables
+- id: exim_focol_bahamas_20250627
+  type: government
+  chicago: Export-Import Bank of the United States. “Export-Import Bank of the United States Board of
+    Directors Approves Transaction to Support Energy Supply Chain.” Press release, 27 June 2025.
+  url: https://www.exim.gov/news/export-import-bank-united-states-board-directors-approves-transaction-support-energy-supply
+  annotation: EXIM ~USD 99.6m FOCOL Bahamas GE Vernova turbines + Pike pipelines. Supports exim_focol_bahamas_99p6m_2025.
+  supports:
+  - exim_focol_bahamas_99p6m_2025
+  - hunt_br_power_equip
