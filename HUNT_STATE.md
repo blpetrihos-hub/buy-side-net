@@ -1,11 +1,78 @@
 updated: 2026-10-02
-cycle: 117
+cycle: 118
 remote: present
-active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 118 shuffle_seed=20261118; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us303/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. State OBO LatAm NEC/NCC backlog largely exhausted; shift to regulators/OEM/FHWA residual.
-next_row_id: (follow cycle-118 shuffled_order)
+active_layer: resources
+active_subcategory: water
+next_query: Cycle 119 shuffle_seed=20261119; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us305/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. OBO backlog exhausted; USACE PR civil-works residual thinning; continue OEM/regulator/ANEEL/OSINERGMIN sweep.
+next_row_id: (follow cycle-119 shuffled_order)
 dry_streak: 0
+
+# === Cycle 118 (seed 20261118) ===
+# Shuffled order: building_materials, wind, balsa, fission_smr, copper,
+#   port_cranes, nickel, power_plants_grid, lithium, engineering_epc,
+#   other_renewables, bridges_roads, solar, water, port_ownership, rail,
+#   graphite, niobium.
+# Logged 2 sourced rows (honest US; thin dry; Jinko Chile ESS unnamed-site /
+#   Bloomberg State Grid paywall; no padding):
+#   us water: tec_lares_crib_dam_2008 (USD 16.4m USACE).
+#   us water: carro_ponce_cofferdam_2020 (USD 15.6m USACE).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: building_materials, wind, balsa, fission_smr, copper,
+#   port_cranes, nickel, power_plants_grid, lithium, engineering_epc,
+#   other_renewables, bridges_roads, solar, port_ownership, rail, graphite,
+#   niobium.
+# Active after cycle 118: us305 / prc239 / allied243 / other37 (n=824).
+shuffle_seed: 20261118
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- energy/wind
+- resources/balsa
+- energy/fission_smr
+- resources/copper
+- infrastructure/port_cranes
+- resources/nickel
+- energy/power_plants_grid
+- resources/lithium
+- infrastructure/engineering_epc
+- energy/other_renewables
+- infrastructure/bridges_roads
+- energy/solar
+- resources/water
+- infrastructure/port_ownership
+- infrastructure/rail
+- resources/graphite
+- resources/niobium
+rows_found_this_cycle:
+  infrastructure/building_materials: 0
+  energy/wind: 0
+  resources/balsa: 0
+  energy/fission_smr: 0
+  resources/copper: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  energy/power_plants_grid: 0
+  resources/lithium: 0
+  infrastructure/engineering_epc: 0
+  energy/other_renewables: 0
+  infrastructure/bridges_roads: 0
+  energy/solar: 0
+  resources/water: 2
+  infrastructure/port_ownership: 0
+  infrastructure/rail: 0
+  resources/graphite: 0
+  resources/niobium: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 117 (seed 20261117) ===
 # Shuffled order: niobium, graphite, port_cranes, balsa, rail, nickel, copper,
