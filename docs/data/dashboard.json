@@ -88,36 +88,36 @@
     }
   },
   "meta": {
-    "n_rows": 976,
+    "n_rows": 982,
     "counts": {
-      "total": 976,
-      "active": 884,
+      "total": 982,
+      "active": 890,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 153,
+      "proxy": 154,
       "exclude": 18,
-      "documented": 751,
-      "on_map": 867
+      "documented": 756,
+      "on_map": 873
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 184,
+        "us": 185,
         "prc": 98,
-        "allied": 96,
-        "n": 378
+        "allied": 98,
+        "n": 381
       },
       "usd": {
-        "us": 9641690271.130001,
-        "us_n": 116,
+        "us": 9710275498.400002,
+        "us_n": 117,
         "prc": 5033085094.13,
         "prc_n": 22,
-        "allied": 10696377851.490002,
-        "allied_n": 30
+        "allied": 10786377851.490002,
+        "allied_n": 31
       },
       "matched_gaps": {
         "n": 1,
@@ -130,9 +130,9 @@
       "layer": "resources",
       "counts": {
         "us": 72,
-        "prc": 43,
+        "prc": 44,
         "allied": 109,
-        "n": 224
+        "n": 225
       },
       "usd": {
         "us": 26542428541.52,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 99,
+        "us": 101,
         "prc": 105,
         "allied": 76,
-        "n": 280
+        "n": 282
       },
       "usd": {
-        "us": 19477623737.670002,
-        "us_n": 41,
+        "us": 20829123737.670002,
+        "us_n": 43,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4897299849.38,
@@ -174,6 +174,30 @@
     }
   ],
   "country_readouts": [
+    {
+      "country": "Antigua and Barbuda",
+      "counts": {
+        "us": 0,
+        "prc": 0,
+        "allied": 1,
+        "n": 1
+      },
+      "usd": {
+        "us": 0.0,
+        "us_n": 0,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        }
+      }
+    },
     {
       "country": "Argentina",
       "counts": {
@@ -857,16 +881,16 @@
       "counts": {
         "us": 3,
         "prc": 4,
-        "allied": 5,
-        "n": 12
+        "allied": 6,
+        "n": 13
       },
       "usd": {
         "us": 70980242.32,
         "us_n": 1,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 301900000.0,
-        "allied_n": 3
+        "allied": 391900000.0,
+        "allied_n": 4
       },
       "by_layer": {
         "energy": {
@@ -877,7 +901,7 @@
         "infrastructure": {
           "us": 3,
           "prc": 3,
-          "allied": 4
+          "allied": 5
         }
       }
     },
@@ -909,9 +933,9 @@
       "country": "Peru",
       "counts": {
         "us": 12,
-        "prc": 31,
+        "prc": 32,
         "allied": 23,
-        "n": 66
+        "n": 67
       },
       "usd": {
         "us": 5640000000.0,
@@ -934,7 +958,7 @@
         },
         "resources": {
           "us": 6,
-          "prc": 9,
+          "prc": 10,
           "allied": 5
         }
       }
@@ -942,14 +966,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 93,
+        "us": 96,
         "prc": 0,
         "allied": 8,
-        "n": 101
+        "n": 104
       },
       "usd": {
-        "us": 8649891201.070004,
-        "us_n": 91,
+        "us": 10069976428.340004,
+        "us_n": 94,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -957,12 +981,12 @@
       },
       "by_layer": {
         "energy": {
-          "us": 18,
+          "us": 20,
           "prc": 0,
           "allied": 4
         },
         "infrastructure": {
-          "us": 60,
+          "us": 61,
           "prc": 0,
           "allied": 4
         },
@@ -1963,7 +1987,13 @@
       "konecranes_arawak_nassau_esp6_2024",
       "crseg_barbados_south_coast_water_2026",
       "pattern_amanecer_doe_edf_489m_pr_2026",
-      "aes_marahu_doe_lpo_861m_2024"
+      "aes_marahu_doe_lpo_861m_2024",
+      "cmec_lima_three_districts_water_2025",
+      "alstom_panama_metro_maint_90m_2026",
+      "tesla_genera_pr_bess_430mw_2025",
+      "convergent_doe_lpo_584m_pr_2025",
+      "liebherr_antigua_lhm420_2025",
+      "jose_carro_morovis_cemetery_2018"
     ],
     "hunt": [
       "hunt_br_power_equip",
