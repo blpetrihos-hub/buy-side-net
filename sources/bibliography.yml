@@ -11183,3 +11183,76 @@
   supports:
   - holcim_mexico_water_356mdp_2026
   - hunt_cycle171
+- id: hhmc_antioquia_sts_20250121
+  type: company
+  chicago: Qingdao Haixi Heavy-duty Machinery Co., Ltd. “3 Large STS Shipped to Colombia.” January 21,
+    2025. https://en.qdhhmc.com/News/view/id/1616.html.
+  url: https://en.qdhhmc.com/News/view/id/1616.html
+  annotation: 'HHMC: three STS dispatched to Puerto Antioquia. Supports hhmc_puerto_antioquia_sts_2025.'
+  supports:
+  - hhmc_puerto_antioquia_sts_2025
+  - hunt_cycle172
+- id: ge_vernova_neuquen_repair_20251023
+  type: company
+  chicago: GE Vernova. “GE Vernova inaugurates its first repair center for enhanced aero-derivative gas
+    turbine support in southern Latin America.” October 23, 2025. https://www.gevernova.com/news/press-releases/ge-vernova-inaugurates-its-first-repair-center-enhanced-aero-derivative-gas-turbine.
+  url: https://www.gevernova.com/news/press-releases/ge-vernova-inaugurates-its-first-repair-center-enhanced-aero-derivative-gas-turbine
+  annotation: 'GE Vernova: Neuquén aeroderivative repair center opening. Supports ge_vernova_neuquen_aero_repair_2025.'
+  supports:
+  - ge_vernova_neuquen_aero_repair_2025
+  - hunt_cycle172
+- id: ustda_brazil_freight_rtm_20241017
+  type: government
+  chicago: U.S. Trade and Development Agency. “USTDA Advances Freight Modernization in Brazil.” October
+    17, 2024. https://www.ustda.gov/ustda-advances-freight-modernization-in-brazil/.
+  url: https://www.ustda.gov/ustda-advances-freight-modernization-in-brazil/
+  annotation: 'USTDA: Brazil freight-rail RTM. Supports ustda_brazil_freight_rail_rtm_2024.'
+  supports:
+  - ustda_brazil_freight_rail_rtm_2024
+  - hunt_cycle172
+- id: consulado_gz_regiotram_om_20260612
+  type: government
+  chicago: Consulado General de Colombia en Guangzhou. “Consulado en Guangzhou acompaña la histórica firma
+    del contrato de operación y mantenimiento del Regiotram de Occidente.” June 12, 2026. https://guangzhou.consulado.gov.co/sala-de-prensa/noticias/consulado-en-guangzhou-acompana-la-historica-firma-del-contrato-de-operacion-y-mantenimiento-del-regiotram-de-occidente.
+  url: https://guangzhou.consulado.gov.co/sala-de-prensa/noticias/consulado-en-guangzhou-acompana-la-historica-firma-del-contrato-de-operacion-y-mantenimiento-del-regiotram-de-occidente
+  annotation: 'Colombian Consulate Guangzhou: RegioTram O&M RMB 2.06bn. Supports guangzhou_metro_regiotram_om_rmb2060m_2026.'
+  supports:
+  - guangzhou_metro_regiotram_om_rmb2060m_2026
+  - hunt_cycle172
+- id: eiffage_callao_muelle_norte_20260416
+  type: company
+  chicago: Eiffage. “Eiffage wins in consortium the contract for the Port of Callao Muelle Norte expansion
+    project in Peru in a deal worth over €100 million.” April 16, 2026. https://www.eiffage.com/files/live/sites/eiffagev2/files/M%C3%A9dias/Communiqu%C3%A9%20de%20presse/2026/PR_Eiffage_Port%20of%20Callao%20Muelle%20Norte_20260416.pdf.
+  url: https://www.eiffage.com/files/live/sites/eiffagev2/files/M%C3%A9dias/Communiqu%C3%A9%20de%20presse/2026/PR_Eiffage_Port%20of%20Callao%20Muelle%20Norte_20260416.pdf
+  annotation: 'Eiffage PDF: Callao Muelle Norte >€100m design-build. Supports eiffage_jande_nul_callao_norte_2026.'
+  supports:
+  - eiffage_jande_nul_callao_norte_2026
+  - hunt_cycle172
+- id: diamante_iaea_abdan_smr_loi_20260916
+  type: company
+  chicago: Diamante Energia. “Diamante Energia, Agência Internacional de Energia Atômica e ABDAN formalizam
+    parceria para impulsionar o desenvolvimento nuclear no Brasil.” September 16, 2026. https://www.diamanteenergia.com/pt/noticias/diamante-energia-agencia-internacional-de-energia-atomica-e-abdan-formalizam-parceria-para-impulsionar-o-desenvolvimento-nuclear-no-brasil.
+  url: https://www.diamanteenergia.com/pt/noticias/diamante-energia-agencia-internacional-de-energia-atomica-e-abdan-formalizam-parceria-para-impulsionar-o-desenvolvimento-nuclear-no-brasil
+  annotation: 'Diamante: Jorge Lacerda C2N SMR LOI with IAEA/ABDAN. Supports diamante_jorge_lacerda_smr_loi_2026.'
+  supports:
+  - diamante_jorge_lacerda_smr_loi_2026
+  - hunt_cycle172
+- id: minem_rd_pescadores_eiasd_20260113
+  type: government
+  chicago: Perú, Ministerio de Energía y Minas. “Resolución Directoral N.° 0006-2026-MINEM/DGAAE” (Parque
+    Eólico Pescadores 348 MW EIAsd). January 13, 2026. https://www.gob.pe/institucion/minem/normas-legales/7643163-0006-2026-minem-dgaa6.
+  url: https://www.gob.pe/institucion/minem/normas-legales/7643163-0006-2026-minem-dgaa6
+  annotation: 'MINEM RD: approves Pescadores 348 MW EIAsd; CapEx USD 393.5m in evaluation report. Supports
+    edf_naupac_pescadores_348mw_2026.'
+  supports:
+  - edf_naupac_pescadores_348mw_2026
+  - hunt_cycle172
+- id: lanacion_ande_edf_chaco_wind_20251020
+  type: press
+  chicago: La Nación (Paraguay). “Ande evalúa alternativas para explotar la energía eólica en el Chaco.”
+    October 20, 2025. https://www.lanacion.com.py/pais/2025/10/20/ande-evalua-alternativas-para-explotar-la-energia-eolica-en-el-chaco/.
+  url: https://www.lanacion.com.py/pais/2025/10/20/ande-evalua-alternativas-para-explotar-la-energia-eolica-en-el-chaco/
+  annotation: 'La Nación: ANDE–EDF Chaco wind measurement cooperation. Supports ande_edf_chaco_wind_studies_2025.'
+  supports:
+  - ande_edf_chaco_wind_studies_2025
+  - hunt_cycle172
