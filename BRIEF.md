@@ -26,6 +26,7 @@ Default mode is continuous: after every commit, start the next hunt in the same 
 - Rows whose country is outside the region are **archived** by `process/build_site_data.py` and are **never mapped**.
 - Hunt seeds may leave `country` blank until a named site exists; blank-country rows are not mapped.
 - Do not pin China HQs, U.S. warehouses, EU aggregates, or UK event locations as map observations for this net.
+- **Excludes U.S. territories: Puerto Rico, USVI.** U.S. investment there is domestic, not U.S.–PRC competition in Latin America; archive with reason `us_territory_out_of_scope`.
 
 ---
 

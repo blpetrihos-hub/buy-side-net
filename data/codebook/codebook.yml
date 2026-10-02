@@ -19,11 +19,11 @@ method:
   citations: Chicago
   never_fabricate: true
   never_fabricate_rule: "If you have not opened the page, the row does not exist. Press-only figures are UNVERIFIED. Leave lat/lon empty rather than guess."
-  geography: "Latin America and the Caribbean only. Every mapped observation must be located in a Latin American or Caribbean country. Rows whose country is outside the region are archived by the build script and never mapped."
+  geography: "Latin America and the Caribbean only. Every mapped observation must be located in a Latin American or Caribbean country. Rows whose country is outside the region are archived by the build script and never mapped. Excludes U.S. territories: Puerto Rico, USVI."
 
 geography:
   region: "Latin America and the Caribbean"
-  rule: "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped."
+  rule: "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped. Excludes U.S. territories: Puerto Rico, USVI (archive us_territory_out_of_scope)."
   latin_america_caribbean:
     - Argentina
     - Belize
@@ -58,7 +58,6 @@ geography:
     - Saint Lucia
     - Saint Vincent and the Grenadines
     - Trinidad and Tobago
-    - Puerto Rico
 
 layers:
   infrastructure:

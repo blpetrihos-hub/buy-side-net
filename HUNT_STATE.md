@@ -3,9 +3,61 @@ cycle: 130
 remote: present
 active_layer: infrastructure
 active_subcategory: engineering_epc
-next_query: Cycle 131 shuffle_seed=20261131; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us358/prc248/allied247); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: nfe_portocem / sandino / seaboard_estrella_del_mar_iv / vestas_esperanza if primaries open; thin cats remain dry.
+next_query: Cycle 131 shuffle_seed=20261131; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us261/prc248/allied239); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split; push PRC sources hard (undersampled post-audit). If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: nfe_portocem / sandino / seaboard_estrella_del_mar_iv / vestas_esperanza if primaries open; thin cats remain dry. No U.S. territories.
 next_row_id: (follow cycle-131 shuffled_order)
 dry_streak: 0
+
+# === PRE-STEP (before cycle 131): scope + side audit (2026-10-02) ===
+# Trigger: U.S. active jumped 220→358 while PRC 226→248 in ~3h; many new rows
+# were Puerto Rico / USVI domestic awards (not U.S.–PRC LatAm competition).
+#
+# 1) us_territory_out_of_scope — archived every active row sited in Puerto Rico
+#    or USVI (plus CTDC Hostos DR–PR HVDC with Mayagüez landing / PR investor).
+#    BRIEF.md + codebook.yml + build_site_data fallback: "Excludes U.S.
+#    territories: Puerto Rico, USVI"; Puerto Rico removed from
+#    latin_america_caribbean allow-list.
+# scope_audit_archived_total: 105
+# scope_audit_by_reason:
+#   us_territory_out_of_scope: 105
+# scope_audit_by_side:
+#   us: 96
+#   allied: 9
+#   prc: 0
+#   other: 0
+# scope_audit_by_subcategory:
+#   infrastructure/bridges_roads: 37
+#   infrastructure/engineering_epc: 27
+#   resources/water: 15
+#   energy/power_plants_grid: 14
+#   energy/other_renewables: 9
+#   energy/solar: 2
+#   infrastructure/building_materials: 1
+# scope_audit_examples:
+#   us: ge_vernova_prepa_lm2500xpress_pr_2025; tesla_genera_pr_bess_430mw_2025;
+#       convergent_doe_lpo_584m_pr_2025; jose_carro_morovis_cemetery_2018;
+#       aes_marahu_doe_lpo_861m_2024; quanta_luma_dist_525m_2025;
+#       fhwa_* PR Bridge; USACE/USCG/FHWA PR residual; ctdc_hostos_hvdc_dr_pr_2026
+#   allied: atkinsrealis_fhwa_pr_inspect_*; wsp_maria_*; wsp_aci_tep_pr_2022;
+#       schneider_espc_pr_cool_roofs_2010; ferrovial_usace_drilled_shaft_6c_2024
+#        (retagged us→allied then archived)
+#
+# 2) Side tags by HQ only — checked every us-tagged row from cycles 88–130.
+#    Known non-U.S. examples (Alstom, Liebherr, Konecranes, Vergnet, Windey,
+#    Siemens, ABB, Enel, Iberdrola, ENGIE, Shell, ACCIONA) already allied/prc.
+# side_retag_total: 1
+# side_retag_by_from_to:
+#   us->allied: 1
+# side_retag_by_subcategory:
+#   resources/water: 1
+# side_retag_examples:
+#   ferrovial_usace_drilled_shaft_6c_2024 (Ferrovial Spain HQ)
+#
+# 3) Out of scope (outside 18 subcats: hospital/school/autos/digital/fertilizer/
+#    gold-silver) — no new active residuals; prior cycle 86/88 audits hold.
+# scope_oos_archived_total: 0
+#
+# Post-audit active sides before hunt: us261 / prc248 / allied239 / other37
+#   (n=785). Thinnest: balsa/graphite (23), nickel/fission_smr (24), niobium (26).
 
 # === Cycle 130 (seed 20261130) ===
 # Shuffled order: copper, nickel, bridges_roads, niobium, lithium, balsa,
@@ -24,6 +76,7 @@ dry_streak: 0
 #   fission_smr, port_ownership, wind, power_plants_grid, graphite,
 #   building_materials.
 # Active after cycle 130: us358 / prc248 / allied247 / other37 (n=890).
+# NOTE: post PRE-STEP audit above, PR/USVI rows archived → us261/prc248/allied239.
 shuffle_seed: 20261130
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
