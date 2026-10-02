@@ -7354,3 +7354,52 @@
   supports:
   - mingyang_copel_brazil_wind_2024
   - hunt_energy_wind
+- id: mop_zapallar_tronadura_20260821
+  type: government
+  chicago: Chile Ministerio de Obras Públicas. “Gobierno da un paso decisivo para la seguridad hídrica
+    de Ñuble con primera tronadura del Embalse Zapallar.” 21 August 2026.
+  url: https://www.mop.gob.cl/gobierno-da-un-paso-decisivo-para-la-seguridad-hidrica-de-nuble-con-primera-tronadura-del-embalse-zapallar/
+  annotation: 'Official MOP: CWE builds Embalse Zapallar; ~USD 158m; 80 Mm³; El Carmen/San Ignacio irrigation.
+    Supports cwe_zapallar_embalse_chile_2026.'
+  supports:
+  - cwe_zapallar_embalse_chile_2026
+  - hunt_res_water
+- id: solarmax_8k_20260106
+  type: sec_filing
+  chicago: SolarMax Technology, Inc. Form 8-K (Item 1.01 Entry into a Material Definitive Agreement).
+    Filed 6 January 2026 (event date 31 December 2025). SEC EDGAR.
+  url: https://www.sec.gov/Archives/edgar/data/1519472/000164033426000032/solarmax_8k.htm
+  annotation: 'SEC 8-K: SolarMax PR BESS EPCs Ceiba USD 122.3m / Humacao USD 35.9m. Supports solarmax_pr_bess_epc_158m_2025.'
+  supports:
+  - solarmax_pr_bess_epc_158m_2025
+  - hunt_energy_other_renewables
+- id: stem_granja_ems_20260527
+  type: company
+  chicago: Stem, Inc. “Stem Brings PowerTrack EMS to Latin America’s Utility-Scale Hybrid Market with
+    Granja Solar Project in Chile.” Investor news release, 27 May 2026.
+  url: https://investors.stem.com/news-events/press-releases/detail/210/stem-brings-powertrack-ems-to-latin-americas-utility-scale-hybrid-market-with-granja-solar-project-in-chile
+  annotation: 'Stem IR: PowerTrack EMS at Copec Flux Granja Solar 135 MW + 420 MWh BESS. Supports stem_granja_powertrack_ems_chile_2026.'
+  supports:
+  - stem_granja_powertrack_ems_chile_2026
+  - hunt_energy_other_renewables
+- id: cbi_vmos_punta_colorada_20250116
+  type: company
+  chicago: CB&I. “CB&I Awarded Crude Oil Exportation Storage Contract for Vaca Muerta Oil Sur Project
+    in Argentina.” News release PDF, 16 January 2025.
+  url: https://www.cbi.com/wp-content/uploads/2025/01/CBI-Awarded-Crude-Oil-Exportation-Storage-Contract-for-Vaca-Muerta-Sur-Project-in-Argentina-FINAL.pdf
+  annotation: 'CB&I primary: VMOS Punta Colorada 630,000 m³ storage EPC; significant = USD 100–250m. Supports
+    cbi_vmos_punta_colorada_storage_2025.'
+  supports:
+  - cbi_vmos_punta_colorada_storage_2025
+  - hunt_infra_engineering_epc
+- id: trina_storage_latam_1203mwh_20260122
+  type: company
+  chicago: Trina Storage / Trinasolar. “Trina Storage Strengthens Its Global Energy Storage Portfolio
+    with 1.203GWh of New BESS Contracts in Latin America.” Newsroom, 22 January 2026.
+  url: https://www.trinasolar.com/en-glb/newsroom202601220619/
+  annotation: 'Trina primary: Luz del Norte Chile 141 MW/722 MWh and Alma Sur Argentina 90 MW/481 MWh.
+    Supports trina_luz_del_norte_bess_722mwh_2026 and trina_alma_sur_bess_481mwh_2026.'
+  supports:
+  - trina_luz_del_norte_bess_722mwh_2026
+  - trina_alma_sur_bess_481mwh_2026
+  - hunt_energy_other_renewables

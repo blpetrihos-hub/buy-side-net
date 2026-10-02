@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 776,
+    "n_rows": 782,
     "counts": {
-      "total": 776,
-      "active": 685,
+      "total": 782,
+      "active": 691,
       "hunt": 42,
       "archived": 71,
       "paired": 5,
       "one_sided": 27,
       "proxy": 148,
       "exclude": 18,
-      "documented": 556,
-      "on_map": 671
+      "documented": 562,
+      "on_map": 677
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 77,
+        "us": 78,
         "prc": 87,
         "allied": 89,
-        "n": 253
+        "n": 254
       },
       "usd": {
         "us": 2788167000.0,
@@ -130,15 +130,15 @@
       "layer": "resources",
       "counts": {
         "us": 57,
-        "prc": 37,
+        "prc": 38,
         "allied": 107,
-        "n": 201
+        "n": 202
       },
       "usd": {
         "us": 25812143622.0,
         "us_n": 27,
-        "prc": 7476672882.0,
-        "prc_n": 20,
+        "prc": 7634672882.0,
+        "prc_n": 21,
         "allied": 39837618653.2,
         "allied_n": 40
       },
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 76,
-        "prc": 86,
+        "us": 78,
+        "prc": 88,
         "allied": 67,
-        "n": 229
+        "n": 233
       },
       "usd": {
-        "us": 11632000000.0,
-        "us_n": 20,
+        "us": 11790200000.0,
+        "us_n": 21,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4102359384.9300003,
@@ -177,10 +177,10 @@
     {
       "country": "Argentina",
       "counts": {
-        "us": 15,
-        "prc": 18,
+        "us": 16,
+        "prc": 19,
         "allied": 26,
-        "n": 59
+        "n": 61
       },
       "usd": {
         "us": 7100000000.0,
@@ -193,11 +193,11 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 4,
+          "prc": 5,
           "allied": 10
         },
         "infrastructure": {
-          "us": 8,
+          "us": 9,
           "prc": 5,
           "allied": 3
         },
@@ -317,23 +317,23 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 32,
-        "prc": 25,
+        "us": 33,
+        "prc": 27,
         "allied": 44,
-        "n": 101
+        "n": 104
       },
       "usd": {
         "us": 21411000000.0,
         "us_n": 15,
-        "prc": 2747358059.0299997,
-        "prc_n": 10,
+        "prc": 2905358059.0299997,
+        "prc_n": 11,
         "allied": 9578000000.0,
         "allied_n": 15
       },
       "by_layer": {
         "energy": {
-          "us": 21,
-          "prc": 18,
+          "us": 22,
+          "prc": 19,
           "allied": 9
         },
         "infrastructure": {
@@ -343,7 +343,7 @@
         },
         "resources": {
           "us": 8,
-          "prc": 1,
+          "prc": 2,
           "allied": 23
         }
       }
@@ -806,14 +806,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 0,
         "allied": 0,
-        "n": 2
+        "n": 3
       },
       "usd": {
-        "us": 1078991952.0,
-        "us_n": 1,
+        "us": 1237191952.0,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 0.0,
@@ -821,7 +821,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 1,
+          "us": 2,
           "prc": 0,
           "allied": 0
         },
@@ -1599,7 +1599,13 @@
       "engie_peru_grupo1_transmision_230m_2026",
       "mcc_belize_energy_ambergris_41p7m_2024",
       "ja_solar_exel_400mw_mexico_2026",
-      "mingyang_copel_brazil_wind_2024"
+      "mingyang_copel_brazil_wind_2024",
+      "cwe_zapallar_embalse_chile_2026",
+      "solarmax_pr_bess_epc_158m_2025",
+      "stem_granja_powertrack_ems_chile_2026",
+      "cbi_vmos_punta_colorada_storage_2025",
+      "trina_luz_del_norte_bess_722mwh_2026",
+      "trina_alma_sur_bess_481mwh_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
