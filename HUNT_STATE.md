@@ -1,11 +1,83 @@
 updated: 2026-10-02
-cycle: 99
+cycle: 100
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 100 shuffle_seed=20261100; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us235/prc229/allied233); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium/building_materials). Country×subcategory sweep both sides + regulators. FHWA backlog remaining: Nieves Lares 2024 (~USD 3.8m), Caribbean Sign 2021 (~USD 17.2m), JC Associates East 2022 (~USD 14.5m), Master Pavement 2021 (~USD 8.9m), JPI Maunabo 2023 (~USD 6.1m).
-next_row_id: (follow cycle-100 shuffled_order)
+next_query: Cycle 101 shuffle_seed=20261101; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us241/prc229/allied234); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then nickel/fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. FHWA backlog thinning; continue USASpending page 2 + country×subcat PRC sweep (AidData/DPI/company).
+next_row_id: (follow cycle-101 shuffled_order)
 dry_streak: 0
+
+# === Cycle 100 (seed 20261100) ===
+# Shuffled order: niobium, wind, solar, port_ownership, fission_smr,
+#   other_renewables, engineering_epc, rail, port_cranes, power_plants_grid,
+#   building_materials, bridges_roads, water, balsa, nickel, copper, lithium,
+#   graphite.
+# Logged 7 sourced rows (honest split; no padding; PRC dry this pass):
+#   allied niobium: cbmm_araxa_capex_630m_2024 (R$630m CapEx documented).
+#   us bridges_roads: fhwa_nieves_lares_2024 (USD 3.83m FHWA).
+#   us bridges_roads: fhwa_caribbean_sign_pr123_2021 (USD 17.19m FHWA).
+#   us bridges_roads: fhwa_jc_associates_east_2022 (USD 14.52m FHWA).
+#   us bridges_roads: fhwa_master_pavement_pr52_2021 (USD 8.88m FHWA).
+#   us bridges_roads: fhwa_jpi_maunabo_2023 (USD 6.15m FHWA).
+#   us bridges_roads: fhwa_novel_yunque_fs27_2021 (USD 6.86m FHWA/FAA).
+# Thin top-up: niobium hit (CBMM CapEx); balsa/graphite/nickel dry — shift
+#   fission_smr/building_materials also dry. PRC Catalão CapEx not separately
+#   disclosed on opened CMOC pages.
+# Equal-budget misses: wind, solar, port_ownership, fission_smr,
+#   other_renewables, engineering_epc, rail, port_cranes, power_plants_grid,
+#   building_materials, water, balsa, nickel, copper, lithium, graphite.
+# Active after cycle 100: us241 / prc229 / allied234 / other37 (n=741).
+shuffle_seed: 20261100
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/niobium
+- energy/wind
+- energy/solar
+- infrastructure/port_ownership
+- energy/fission_smr
+- energy/other_renewables
+- infrastructure/engineering_epc
+- infrastructure/rail
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- infrastructure/building_materials
+- infrastructure/bridges_roads
+- resources/water
+- resources/balsa
+- resources/nickel
+- resources/copper
+- resources/lithium
+- resources/graphite
+rows_found_this_cycle:
+  resources/niobium: 1
+  energy/wind: 0
+  energy/solar: 0
+  infrastructure/port_ownership: 0
+  energy/fission_smr: 0
+  energy/other_renewables: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/rail: 0
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 0
+  infrastructure/building_materials: 0
+  infrastructure/bridges_roads: 6
+  resources/water: 0
+  resources/balsa: 0
+  resources/nickel: 0
+  resources/copper: 0
+  resources/lithium: 0
+  resources/graphite: 0
+rows_by_side_this_cycle:
+  us: 6
+  prc: 0
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 99 (seed 20261099) ===
 # Shuffled order: bridges_roads, other_renewables, graphite, port_cranes, wind,
