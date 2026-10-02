@@ -1,0 +1,10 @@
+{
+  "id": "fhwa_ddd_dvg_aibonito_2022",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_ddd_dvg_aibonito_20220916",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7322C000021_6925_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "PROJECT PR ER DOT PRMNT RPR(13):  THE PROJECT CONSISTS OF REPAIRING DAMAGE CAUSED BY HURRICANES IRMA AND MARIA ON PR-14, KM 54.3-54.4; PR-722, KM 5.7; PR-796, KM 4.4; PR-179, KM 13.25; AND PR-181, KMS 8.7 AND 46.4.",
+  "note": "Opened USASpending Award API: DDD-DVG JV; USD 12,983,224.75; date_signed 2022-09-16; PoP Aibonito, PR."
+}
