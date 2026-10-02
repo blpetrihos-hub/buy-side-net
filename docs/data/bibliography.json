@@ -12455,5 +12455,77 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "cox_santa_cruz_wind_20260730",
+    "type": "company",
+    "chicago": "Cox. “Cox Awarded 20-Year Wind Power Supply Contract in Panama for More Than $350 Million.” 30 July 2026.",
+    "url": "https://grupocox.com/en/cox-awarded-20-year-wind-power-supply-contract-in-panama-for-more-than-350-million/",
+    "annotation": "Cox primary: Santa Cruz Wind 68.4 MW ETESA PPA >USD 350m supply. Supports cox_santa_cruz_wind_panama_2026.",
+    "supports": [
+      "cox_santa_cruz_wind_panama_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "cox_santa_cruz_wind_panama_2026",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "exim_first_solar_zacapa_20210923",
+    "type": "government",
+    "chicago": "Export-Import Bank of the United States. “First Solar Exports to Zacapa Solar-Energy Project in Guatemala is EXIM 2021 Deal of the Year.” 23 September 2021.",
+    "url": "https://www.exim.gov/news/first-solar-exports-zacapa-solar-energy-project-guatemala-exim-2021-deal-year",
+    "annotation": "EXIM primary: USD 8.7m guarantee for First Solar panels to Zacapa 9.5 MW Guatemala. Supports first_solar_zacapa_exim_guatemala_2021.",
+    "supports": [
+      "first_solar_zacapa_exim_guatemala_2021",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "first_solar_zacapa_exim_guatemala_2021",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "eldigital_maspv_estanzuela_2026",
+    "type": "press",
+    "chicago": "El Digital Panamá. “MASPV Firma el Contrato PPA a 15 Años para la Mayor Planta Solar con Baterías de Centroamérica.” 2026.",
+    "url": "https://eldigitalpanama.com/maspv-firma-el-contrato-ppa-a-15-anos-para-la-mayor-planta-solar-con-baterias-de-centroamerica/",
+    "annotation": "Press: MASPV Estanzuela 130 MWp+100 MWh; >USD 100m planned; EEGSA/Deorsa 15-year PPAs. Supports maspv_estanzuela_guatemala_2026.",
+    "supports": [
+      "maspv_estanzuela_guatemala_2026",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "hunt_energy_other_renewables",
+      "maspv_estanzuela_guatemala_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "portnews_cct_zpmc_rtg_20240826",
+    "type": "press",
+    "chicago": "PortNews. “Colon Container Terminal Receives 12 New Rubber-Tyred Hybrid Gantry Cranes.” 26 August 2024.",
+    "url": "https://en.portnews.ru/news/367028/",
+    "annotation": "UNVERIFIED proxy citing CCT: 12 ZPMC hybrid RTGs; USD 23m. Supports zpmc_cct_hybrid_rtg_panama_2024.",
+    "supports": [
+      "zpmc_cct_hybrid_rtg_panama_2024",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_cct_hybrid_rtg_panama_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
