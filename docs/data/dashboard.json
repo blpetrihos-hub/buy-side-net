@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1079,
+    "n_rows": 1083,
     "counts": {
-      "total": 1079,
-      "active": 881,
+      "total": 1083,
+      "active": 885,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 156,
       "exclude": 18,
-      "documented": 851,
-      "on_map": 863
+      "documented": 855,
+      "on_map": 867
     }
   },
   "layer_readouts": [
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 103,
-        "prc": 141,
+        "us": 105,
+        "prc": 143,
         "allied": 83,
-        "n": 327
+        "n": 331
       },
       "usd": {
         "us": 11511785515.13,
@@ -201,9 +201,9 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 31,
+        "prc": 33,
         "allied": 27,
-        "n": 75
+        "n": 77
       },
       "usd": {
         "us": 7270869147.0,
@@ -216,7 +216,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 12,
+          "prc": 14,
           "allied": 11
         },
         "infrastructure": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 40,
+        "us": 42,
         "prc": 39,
         "allied": 51,
-        "n": 130
+        "n": 132
       },
       "usd": {
         "us": 20511000000.0,
@@ -404,7 +404,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 27,
+          "us": 29,
           "prc": 30,
           "allied": 16
         },
@@ -1959,7 +1959,11 @@
       "aes_andes_google_440gwh_ppa_2019",
       "aes_andes_teck_qb2_1069gwh_2022",
       "powerchina_san_carlos_18p3mw_salta_2024",
-      "powerchina_el_tambolar_520m_2019"
+      "powerchina_el_tambolar_520m_2019",
+      "aes_andes_teck_cda_550gwh_2020",
+      "aes_andes_alto_maipo_531mw_cod_2022",
+      "powerchina_cura_brochero_villa_maria_65mw_2020",
+      "powerchina_andina_marianas_120mwp_2021"
     ],
     "hunt": [
       "hunt_br_power_equip",
