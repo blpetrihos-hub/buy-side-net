@@ -14766,5 +14766,77 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "chec_ruta32_open_20260116",
+    "type": "company",
+    "chicago": "China Harbour Engineering Company (CHEC Americas). “Costa Rica Route 32 Fully Opens to Four-Lane Traffic.” January 16, 2026. https://www.checamerica.com/blog/2026/01/16/costa-rica-route-32-fully-opens-to-four-lane-traffic/.",
+    "url": "https://www.checamerica.com/blog/2026/01/16/costa-rica-route-32-fully-opens-to-four-lane-traffic/",
+    "annotation": "CHEC primary: Ruta 32 four-lane full opening Jan 2026; 104.24 km. Supports chec_ruta32_four_lane_open_2026.",
+    "supports": [
+      "chec_ruta32_four_lane_open_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "chec_ruta32_four_lane_open_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "aes_espana_ifrs_2025_mirasol",
+    "type": "company",
+    "chicago": "AES España B.V. and Subsidiaries. Consolidated Financial Statements (IFRS) 2025 (English). Mirasol solar plant — 127 MW installed / 100 MW nominal; operational since February 2025. https://www.aesdominicana.com/sites/aesvault.com/files/2026-06/NL63.%20EF%20AES%20Espa%C3%B1a%20BV%26Subs%20Consolidado%20IFRS%20-%20Emitido%202025%20%28Ingles%29.pdf.",
+    "url": "https://www.aesdominicana.com/sites/aesvault.com/files/2026-06/NL63.%20EF%20AES%20Espa%C3%B1a%20BV%26Subs%20Consolidado%20IFRS%20-%20Emitido%202025%20%28Ingles%29.pdf",
+    "annotation": "AES España IFRS 2025: Mirasol 100 MWn / 127 MWinst COD Feb 2025; EDE Este offtake. Supports aes_dr_mirasol_100mw_2025.",
+    "supports": [
+      "aes_dr_mirasol_100mw_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_dr_mirasol_100mw_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "trina_pampa_del_infierno_case",
+    "type": "company",
+    "chicago": "Trina Solar (TrinaTracker). “Pampa del Infierno, Argentina” — 150.18 MW with NEG21C.20 675W modules and Vanguard-1P trackers. https://www.trinasolar.com/pt/trinatracker.",
+    "url": "https://www.trinasolar.com/pt/trinatracker",
+    "annotation": "TrinaTracker primary case: Pampa del Infierno 150.18 MW Argentina. Supports trina_pampa_del_infierno_150mw_argentina.",
+    "supports": [
+      "trina_pampa_del_infierno_150mw_argentina",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "trina_pampa_del_infierno_150mw_argentina"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_andes_solar_iv_cod_20241022",
+    "type": "company",
+    "chicago": "AES Andes. “AES Andes begins commercial operation of Andes Solar IV and reaffirms its leadership in battery storage in Latin America.” October 22, 2024. https://www.aesandes.com/en/press-release/aes-andes-begins-commercial-operation-andes-solar-iv-and-reaffirms-its-leadership.",
+    "url": "https://www.aesandes.com/en/press-release/aes-andes-begins-commercial-operation-andes-solar-iv-and-reaffirms-its-leadership",
+    "annotation": "AES Andes primary: Solar IV COD 211 MW PV + 130 MW/5h BESS Oct 2024. Supports aes_andes_solar_iv_cod_2024.",
+    "supports": [
+      "aes_andes_solar_iv_cod_2024",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "aes_andes_solar_iv_cod_2024",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

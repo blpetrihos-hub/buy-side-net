@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1039,
+    "n_rows": 1043,
     "counts": {
-      "total": 1039,
-      "active": 841,
+      "total": 1043,
+      "active": 845,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 812,
-      "on_map": 823
+      "documented": 816,
+      "on_map": 827
     }
   },
   "layer_readouts": [
@@ -106,9 +106,9 @@
       "layer": "infrastructure",
       "counts": {
         "us": 125,
-        "prc": 105,
+        "prc": 106,
         "allied": 94,
-        "n": 324
+        "n": 325
       },
       "usd": {
         "us": 8015263538.119999,
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 90,
-        "prc": 125,
+        "us": 92,
+        "prc": 126,
         "allied": 78,
-        "n": 293
+        "n": 296
       },
       "usd": {
         "us": 11907785515.13,
@@ -201,9 +201,9 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 26,
+        "prc": 27,
         "allied": 27,
-        "n": 70
+        "n": 71
       },
       "usd": {
         "us": 7270869147.0,
@@ -216,7 +216,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 7,
+          "prc": 8,
           "allied": 11
         },
         "infrastructure": {
@@ -389,10 +389,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 35,
+        "us": 36,
         "prc": 37,
         "allied": 47,
-        "n": 119
+        "n": 120
       },
       "usd": {
         "us": 21411000000.0,
@@ -404,7 +404,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 22,
+          "us": 23,
           "prc": 29,
           "allied": 12
         },
@@ -458,9 +458,9 @@
       "country": "Costa Rica",
       "counts": {
         "us": 1,
-        "prc": 3,
+        "prc": 4,
         "allied": 1,
-        "n": 5
+        "n": 6
       },
       "usd": {
         "us": 0.0,
@@ -478,7 +478,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 2,
+          "prc": 3,
           "allied": 1
         }
       }
@@ -544,10 +544,10 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 2,
         "allied": 7,
-        "n": 15
+        "n": 16
       },
       "usd": {
         "us": 244934461.57,
@@ -559,7 +559,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 5,
+          "us": 6,
           "prc": 0,
           "allied": 3
         },
@@ -1919,7 +1919,11 @@
       "invenergy_la_toba_70m_2022",
       "sungrow_atlas_bess_del_desierto_2025",
       "ctg_baranoa_ii_iii_58p3mw_2025",
-      "spic_pedra_paraiso_touros_755m_brl_2025"
+      "spic_pedra_paraiso_touros_755m_brl_2025",
+      "chec_ruta32_four_lane_open_2026",
+      "aes_dr_mirasol_100mw_2025",
+      "trina_pampa_del_infierno_150mw_argentina",
+      "aes_andes_solar_iv_cod_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",
