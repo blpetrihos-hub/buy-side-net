@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 137
+cycle: 138
 remote: present
 active_layer: energy
-active_subcategory: solar
-next_query: Cycle 138 shuffle_seed=20261138; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us270/prc276/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 6 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories.
-next_row_id: (follow cycle-138 shuffled_order)
+active_subcategory: wind
+next_query: Cycle 139 shuffle_seed=20261139; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us271/prc277/allied244); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 6 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories.
+next_row_id: (follow cycle-139 shuffled_order)
 dry_streak: 0
+
+# === Cycle 138 (seed 20261138) ===
+# Shuffled order: water, bridges_roads, power_plants_grid, port_cranes, copper,
+#   wind, port_ownership, fission_smr, lithium, building_materials, rail, niobium,
+#   nickel, graphite, solar, engineering_epc, balsa, other_renewables.
+# Logged 3 sourced rows (1 US / 1 PRC / 1 allied; thin dry; no padding):
+#   us wind: invenergy_patria_600mw_br_2024 (10% + O&M on ~600 MW Asa Branca/Chapada; CapEx blank).
+#   prc solar: powerchina_piarco_trinidad_2024 (518.84 kW Piarco Airport COD Jul 2024; CapEx blank).
+#   allied power_plants_grid: wartsila_origem_371mw_br_2026 (36×34SG / 371 MW LRCAP; CapEx blank).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: water, bridges_roads, port_cranes, copper, port_ownership,
+#   fission_smr, lithium, building_materials, rail, niobium, nickel, graphite,
+#   engineering_epc, balsa, other_renewables (power_plants_grid logged allied only).
+# Dense already-logged: Salvador-Itaparica; Quinto Puente; State Grid UHV;
+#   Sungrow Observatorio/Coya; Goldwind Pemuco; POWERCHINA Mauriti/Catac/Francisco Juana;
+#   Nextracker Casa dos Ventos; Array Lupi; AES Andes III/Pampas; Zijin Longking Rosebel.
+# Active after cycle 138: us271 / prc277 / allied244 / other38 (n=830).
+shuffle_seed: 20261138
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/water
+- infrastructure/bridges_roads
+- energy/power_plants_grid
+- infrastructure/port_cranes
+- resources/copper
+- energy/wind
+- infrastructure/port_ownership
+- energy/fission_smr
+- resources/lithium
+- infrastructure/building_materials
+- infrastructure/rail
+- resources/niobium
+- resources/nickel
+- resources/graphite
+- energy/solar
+- infrastructure/engineering_epc
+- resources/balsa
+- energy/other_renewables
+rows_found_this_cycle:
+  resources/water: 0
+  infrastructure/bridges_roads: 0
+  energy/power_plants_grid: 1
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  energy/wind: 1
+  infrastructure/port_ownership: 0
+  energy/fission_smr: 0
+  resources/lithium: 0
+  infrastructure/building_materials: 0
+  infrastructure/rail: 0
+  resources/niobium: 0
+  resources/nickel: 0
+  resources/graphite: 0
+  energy/solar: 1
+  infrastructure/engineering_epc: 0
+  resources/balsa: 0
+  energy/other_renewables: 0
+rows_by_side_this_cycle:
+  us: 1
+  prc: 1
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 137 (seed 20261137) ===
 # Shuffled order: solar, port_cranes, lithium, rail, wind, nickel, balsa,

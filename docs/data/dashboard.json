@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1025,
+    "n_rows": 1028,
     "counts": {
-      "total": 1025,
-      "active": 827,
+      "total": 1028,
+      "active": 830,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 798,
-      "on_map": 809
+      "documented": 801,
+      "on_map": 812
     }
   },
   "layer_readouts": [
@@ -151,10 +151,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 86,
-        "prc": 119,
-        "allied": 74,
-        "n": 279
+        "us": 87,
+        "prc": 120,
+        "allied": 75,
+        "n": 282
       },
       "usd": {
         "us": 11837785515.13,
@@ -355,10 +355,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 77,
+        "us": 78,
         "prc": 71,
-        "allied": 106,
-        "n": 254
+        "allied": 107,
+        "n": 256
       },
       "usd": {
         "us": 2565038918.5499997,
@@ -370,9 +370,9 @@
       },
       "by_layer": {
         "energy": {
-          "us": 14,
+          "us": 15,
           "prc": 40,
-          "allied": 25
+          "allied": 26
         },
         "infrastructure": {
           "us": 39,
@@ -1000,9 +1000,9 @@
       "country": "Trinidad and Tobago",
       "counts": {
         "us": 2,
-        "prc": 0,
+        "prc": 1,
         "allied": 0,
-        "n": 2
+        "n": 3
       },
       "usd": {
         "us": 368084225.7,
@@ -1013,6 +1013,11 @@
         "allied_n": 0
       },
       "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 1,
+          "allied": 0
+        },
         "infrastructure": {
           "us": 2,
           "prc": 0,
@@ -1900,7 +1905,10 @@
       "longi_sol_de_verano1_peru_53p2mw_2025",
       "longi_petalo_norte_colombia_19p9mw_2025",
       "aes_dr_bess_138mw_94m_2025",
-      "ctg_arinos_solar_full_cod_2025"
+      "ctg_arinos_solar_full_cod_2025",
+      "invenergy_patria_600mw_br_2024",
+      "powerchina_piarco_trinidad_2024",
+      "wartsila_origem_371mw_br_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

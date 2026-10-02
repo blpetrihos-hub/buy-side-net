@@ -9612,3 +9612,29 @@
   supports:
   - ctg_arinos_solar_full_cod_2025
   - hunt_energy_solar
+- id: invenergy_patria_600mw_20240701
+  type: company
+  chicago: Invenergy LLC. “Invenergy and Patria Investments Acquire 600 MW Brazil Wind Portfolio from
+    ContourGlobal and Eletrobras.” July 1, 2024. https://invenergy.com/news/invenergy-and-patria-investments-acquire-600-mw-brazil-wind-portfolio-from-contourglobal-and-eletrobras.
+  url: https://invenergy.com/news/invenergy-and-patria-investments-acquire-600-mw-brazil-wind-portfolio-from-contourglobal-and-eletrobras
+  annotation: 'Invenergy primary: 10% of ~600 MW Asa Branca/Chapada wind portfolio + O&M. Supports invenergy_patria_600mw_br_2024.'
+  supports:
+  - invenergy_patria_600mw_br_2024
+  - hunt_energy_wind
+- id: powerchina_piarco_solar_20240801
+  type: company
+  chicago: POWERCHINA. “Piarco International Airport Solar Park begins operating.” August 1, 2024. https://en.powerchina.cn/2024-08/01/c_828745.htm.
+  url: https://en.powerchina.cn/2024-08/01/c_828745.htm
+  annotation: 'POWERCHINA primary: 518.84 kW Piarco Airport solar COD Jul 2024. Supports powerchina_piarco_trinidad_2024.'
+  supports:
+  - powerchina_piarco_trinidad_2024
+  - hunt_energy_solar
+- id: wartsila_origem_371mw_20260513
+  type: company
+  chicago: Wärtsilä Corporation. “Wärtsilä and Origem Energia partner on 371 MW power plant projects to
+    deliver reliable and flexible capacity to Brazil’s power grid.” May 13, 2026. https://www.wartsila.com/media/news/13-05-2026-wartsila-and-origem-energia-partner-on-371-mw-power-plant-projects-to-deliver-reliable-and-flexible-capacity-to-brazil-s-power-grid-3750306.
+  url: https://www.wartsila.com/media/news/13-05-2026-wartsila-and-origem-energia-partner-on-371-mw-power-plant-projects-to-deliver-reliable-and-flexible-capacity-to-brazil-s-power-grid-3750306
+  annotation: 'Wärtsilä primary: 36×34SG / 371 MW for Origem LRCAP plants. Supports wartsila_origem_371mw_br_2026.'
+  supports:
+  - wartsila_origem_371mw_br_2026
+  - hunt_energy_power_plants_grid
