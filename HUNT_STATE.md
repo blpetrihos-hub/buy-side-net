@@ -1,19 +1,89 @@
 updated: 2026-10-02
-cycle: 160
+cycle: 161
 remote: present
-active_layer: infrastructure
-active_subcategory: bridges_roads
-next_query: Cycle 161 shuffle_seed=20261161; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us314/prc323/allied254); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel (once each/session; if dry shift to niobium). PRC ahead by 9 — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala, Nicaragua, Haiti, Jamaica, Paraguay, Uruguay, Venezuela, Colombia (copper/port_ownership), Mexico gaps, Brazil states beyond SP/RJ/MG. Holdovers: POWERCHINA Baku Suriname (Chinese page 404 this cycle); CRBC Corentyne bridge if signed; AES Cedro/Caoba Panama if distinct primary. No U.S. territories.
-next_row_id: (follow cycle-161 shuffled_order)
+active_layer: energy
+active_subcategory: solar
+next_query: Cycle 162 shuffle_seed=20261162; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us321/prc324/allied254); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel (once each/session; if dry shift to niobium). PRC ahead by 3 — keep equal US/PRC budget without padding. Country×subcategory sweep both sides + regulators. Weight under-covered: Guatemala, Nicaragua, Haiti, Jamaica, Paraguay, Venezuela, Colombia (copper/port_ownership), Mexico gaps, Brazil states beyond SP/RJ/MG; Uruguay now denser. Holdovers: POWERCHINA Baku Suriname; CRBC Corentyne bridge if signed. No U.S. territories.
+next_row_id: (follow cycle-162 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 160) ===
-# Filled this cycle: Costa Rica×solar (us), Costa Rica×water (prc), Costa Rica×port_ownership (allied Moín),
-#   Suriname×solar Phase I (prc Goejaba/Pikin Slee), Bolivia×bridges_roads (prc Oruro–Challapata),
-#   El Salvador×power_plants_grid (us Invenergy EDP), Panama×solar named Pesé/Mayorca (us).
-# Still thin/empty priority cells: Guatemala (many), Nicaragua (many), Haiti (16 miss), Paraguay (17),
-#   Uruguay (14), Venezuela (17), Jamaica graphite/nickel/copper, Guyana port_cranes/lithium,
-#   Colombia copper/port_ownership/balsa/graphite/lithium, Peru graphite/lithium/nickel/niobium/balsa.
+# === Country×subcategory sweep cells touched (session continuing from 161) ===
+# Filled this cycle: Uruguay×power_plants_grid (prc CMEC Anillo Norte; us Invenergy Cardal),
+#   Uruguay×solar (us La Jacinta), Uruguay×wind (us Campo Palomas), Panama×solar Cedro/Caoba (us),
+#   Guatemala×solar (us USTDA New Sun Road), Dominican Republic×power_plants_grid (us ENADOM LNG tank2).
+# Still thin/empty priority cells: Haiti (many), Paraguay (17), Venezuela (17), Nicaragua gaps,
+#   Jamaica graphite/nickel/copper, Guyana port_cranes/lithium, Colombia copper/port_ownership,
+#   Peru graphite/lithium/nickel/niobium/balsa, Mexico mineral gaps.
+
+# === Cycle 161 (seed 20261161) ===
+# Shuffled order: fission_smr, port_ownership, power_plants_grid, lithium, other_renewables,
+#   port_cranes, building_materials, graphite, balsa, wind, niobium, copper, nickel, water,
+#   rail, bridges_roads, engineering_epc, solar.
+# Logged 8 sourced rows (7 US / 1 PRC / 0 allied; thin dry; no padding):
+#   prc power_plants_grid: cmec_uruguay_anillo_norte_500kv_191m_2021 (USD 191m; ~350 km 500 kV).
+#   us power_plants_grid: invenergy_tealov_cardal_tx_uruguay_2024 (55 km 500 kV COD; CapEx blank).
+#   us solar: invenergy_la_jacinta_solar_uruguay_64mw (64–65 MW ownership; CapEx blank).
+#   us wind: invenergy_campo_palomas_wind_uruguay_70mw (70 MW; CapEx blank).
+#   us solar: aes_panama_cedro_10mw_2021 (10 MW COD 2021; CapEx blank).
+#   us solar: aes_panama_caoba_10mw_2021 (10 MW COD 2021; CapEx blank).
+#   us solar: ustda_new_sun_road_guatemala_dcc_2023 (10-site solar DCC pilot; CapEx blank).
+#   us power_plants_grid: aes_enadom_lng_tank2_253m_dr_2023 (120,000 m³; USD 253m).
+# Thin top-up (balsa/graphite/fission_smr): all dry once this session — nickel/niobium also dry.
+# Equal-budget misses: fission_smr, port_ownership, lithium, other_renewables, port_cranes,
+#   building_materials, graphite, balsa, niobium, copper, nickel, water, rail, bridges_roads,
+#   engineering_epc; PRC denser misses (no pad).
+# Active after cycle 161: us321 / prc324 / allied254 / other38 (n=937).
+shuffle_seed: 20261161
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/fission_smr
+- infrastructure/port_ownership
+- energy/power_plants_grid
+- resources/lithium
+- energy/other_renewables
+- infrastructure/port_cranes
+- infrastructure/building_materials
+- resources/graphite
+- resources/balsa
+- energy/wind
+- resources/niobium
+- resources/copper
+- resources/nickel
+- resources/water
+- infrastructure/rail
+- infrastructure/bridges_roads
+- infrastructure/engineering_epc
+- energy/solar
+rows_found_this_cycle:
+  energy/fission_smr: 0
+  infrastructure/port_ownership: 0
+  energy/power_plants_grid: 3
+  resources/lithium: 0
+  energy/other_renewables: 0
+  infrastructure/port_cranes: 0
+  infrastructure/building_materials: 0
+  resources/graphite: 0
+  resources/balsa: 0
+  energy/wind: 1
+  resources/niobium: 0
+  resources/copper: 0
+  resources/nickel: 0
+  resources/water: 0
+  infrastructure/rail: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/engineering_epc: 0
+  energy/solar: 4
+rows_by_side_this_cycle:
+  us: 7
+  prc: 1
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 160 (seed 20261160) ===
 # Shuffled order: solar, fission_smr, building_materials, balsa, water, niobium, rail, wind,

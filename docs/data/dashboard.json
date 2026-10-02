@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1127,
+    "n_rows": 1135,
     "counts": {
-      "total": 1127,
-      "active": 929,
+      "total": 1135,
+      "active": 937,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 159,
       "exclude": 18,
-      "documented": 896,
-      "on_map": 911
+      "documented": 904,
+      "on_map": 919
     }
   },
   "layer_readouts": [
@@ -151,16 +151,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 123,
-        "prc": 152,
+        "us": 130,
+        "prc": 153,
         "allied": 83,
-        "n": 358
+        "n": 366
       },
       "usd": {
-        "us": 12841585515.13,
-        "us_n": 35,
-        "prc": 5778017778.25,
-        "prc_n": 22,
+        "us": 13094585515.13,
+        "us_n": 36,
+        "prc": 5969017778.25,
+        "prc_n": 23,
         "allied": 6601418889.2300005,
         "allied_n": 28
       },
@@ -559,14 +559,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 10,
+        "us": 11,
         "prc": 2,
         "allied": 7,
-        "n": 19
+        "n": 20
       },
       "usd": {
-        "us": 447934461.57,
-        "us_n": 5,
+        "us": 700934461.5699999,
+        "us_n": 6,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -574,7 +574,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 9,
+          "us": 10,
           "prc": 0,
           "allied": 3
         },
@@ -685,10 +685,10 @@
     {
       "country": "Guatemala",
       "counts": {
-        "us": 8,
+        "us": 9,
         "prc": 0,
         "allied": 1,
-        "n": 9
+        "n": 10
       },
       "usd": {
         "us": 315860338.67,
@@ -700,7 +700,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 3,
+          "us": 4,
           "prc": 0,
           "allied": 1
         },
@@ -898,10 +898,10 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 9,
+        "us": 11,
         "prc": 5,
         "allied": 6,
-        "n": 20
+        "n": 22
       },
       "usd": {
         "us": 73180242.32,
@@ -913,7 +913,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 5,
+          "us": 7,
           "prc": 1,
           "allied": 1
         },
@@ -1101,23 +1101,23 @@
     {
       "country": "Uruguay",
       "counts": {
-        "us": 2,
-        "prc": 1,
+        "us": 5,
+        "prc": 2,
         "allied": 2,
-        "n": 5
+        "n": 9
       },
       "usd": {
         "us": 125880217.37,
         "us_n": 1,
-        "prc": 0.0,
-        "prc_n": 0,
+        "prc": 191000000.0,
+        "prc_n": 1,
         "allied": 0.0,
         "allied_n": 0
       },
       "by_layer": {
         "energy": {
-          "us": 1,
-          "prc": 0,
+          "us": 4,
+          "prc": 1,
           "allied": 0
         },
         "infrastructure": {
@@ -2080,7 +2080,15 @@
       "crec_canas_bebedero_water_costa_rica_2022",
       "crec_oruro_challapata_tramo1_bolivia_2024",
       "invenergy_edp_acajutla_380mw_1bn_2022",
-      "apm_moin_costa_rica_modernization_2025"
+      "apm_moin_costa_rica_modernization_2025",
+      "cmec_uruguay_anillo_norte_500kv_191m_2021",
+      "invenergy_tealov_cardal_tx_uruguay_2024",
+      "invenergy_la_jacinta_solar_uruguay_64mw",
+      "invenergy_campo_palomas_wind_uruguay_70mw",
+      "aes_panama_cedro_10mw_2021",
+      "aes_panama_caoba_10mw_2021",
+      "ustda_new_sun_road_guatemala_dcc_2023",
+      "aes_enadom_lng_tank2_253m_dr_2023"
     ],
     "hunt": [
       "hunt_br_power_equip",
