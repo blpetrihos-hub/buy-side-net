@@ -17481,5 +17481,143 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "data_mexico_graphite_2504_2024",
+    "type": "government",
+    "chicago": "México, Secretaría de Economía. “Grafito Natural — Intercambio comercial” (Data México, HS 2504). 2024. https://www.economia.gob.mx/datamexico/es/profile/product/natural-graphite.",
+    "url": "https://www.economia.gob.mx/datamexico/es/profile/product/natural-graphite",
+    "annotation": "Data México: 2024 Mexico natural-graphite imports by origin. Supports data_mexico_graphite_us_imp_2024 / data_mexico_graphite_china_imp_2024.",
+    "supports": [
+      "data_mexico_graphite_china_imp_2024",
+      "hunt_cycle171",
+      "data_mexico_graphite_us_imp_2024"
+    ],
+    "map_supports": [
+      "data_mexico_graphite_china_imp_2024",
+      "data_mexico_graphite_us_imp_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "balsa_de_colombia_site_2026",
+    "type": "company",
+    "chicago": "Balsa de Colombia. “Reforestación, procesamiento y comercialización de la madera balsa.” Company website. Accessed October 2, 2026. https://balsadecolombia.com.co/.",
+    "url": "https://balsadecolombia.com.co/",
+    "annotation": "Balsa de Colombia company site: export markets include U.S. and China. Supports balsa_de_colombia_presence.",
+    "supports": [
+      "balsa_de_colombia_presence",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "balsa_de_colombia_presence"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "primicias_powerchina_ccs_aom_20260413",
+    "type": "press",
+    "chicago": "Primicias. “PowerChina recibirá USD 46 millones al año por operar la hidroeléctrica Coca Codo, dice la Ministra de Energía.” April 13, 2026. https://www.primicias.ec/economia/coca-codo-power-china-sinohydro-contrato-mantenimiento-operacion-coca-fisuras-120339/.",
+    "url": "https://www.primicias.ec/economia/coca-codo-power-china-sinohydro-contrato-mantenimiento-operacion-coca-fisuras-120339/",
+    "annotation": "Primicias: Minister states USD 46m/yr PowerChina CCS O&M agreement. Supports powerchina_coca_codo_aom_46m_yr_2026.",
+    "supports": [
+      "powerchina_coca_codo_aom_46m_yr_2026",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "powerchina_coca_codo_aom_46m_yr_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "atlas_lithium_us_japan_neves_20260402",
+    "type": "company",
+    "chicago": "Atlas Lithium Corporation. “U.S. and Japan Identify Atlas Lithium’s Neves Project for Potential Government Financial Support in Landmark Critical Minerals Partnership.” April 2, 2026. https://www.atlas-lithium.com/news/u-s-and-japan-identify-atlas-lithiums-neves-project-for-potential-government-financial-support-in-landmark-critical-minerals-partnership/.",
+    "url": "https://www.atlas-lithium.com/news/u-s-and-japan-identify-atlas-lithiums-neves-project-for-potential-government-financial-support-in-landmark-critical-minerals-partnership/",
+    "annotation": "Atlas Lithium: Neves named on U.S.–Japan critical minerals fact sheet. Supports atlas_lithium_us_japan_neves_2026.",
+    "supports": [
+      "atlas_lithium_us_japan_neves_2026",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "atlas_lithium_us_japan_neves_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "lanacion_ande_loma_plata_20260601",
+    "type": "press",
+    "chicago": "La Nación (Paraguay). “ANDE avanza con primera licitación solar y atrae interés de más de 380 actores del sector.” June 1, 2026. https://www.lanacion.com.py/negocios/2026/06/01/ande-avanza-con-primera-licitacion-solar-y-atrae-interes-de-mas-de-380-actores-del-sector/.",
+    "url": "https://www.lanacion.com.py/negocios/2026/06/01/ande-avanza-con-primera-licitacion-solar-y-atrae-interes-de-mas-de-380-actores-del-sector/",
+    "annotation": "La Nación: ANDE Loma Plata 140 MWac solar tender hearing. Supports ande_loma_plata_solar_140mw_2026.",
+    "supports": [
+      "ande_loma_plata_solar_140mw_2026",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "ande_loma_plata_solar_140mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ice_tejona_bcr_20240905",
+    "type": "government",
+    "chicago": "Instituto Costarricense de Electricidad. “ICE y BCR firman contrato de financiamiento para modernización de Planta Eólica Tejona.” September 5, 2024. https://www.grupoice.com/wps/portal/ICE/quienessomos/comunicacion/sala-de-prensa/noticiasanteriores/ice+y+bcr+firman+contrato+de+financiamiento+para+modernizacion+de+planta+eolica+tejona/ice+y+bcr+firman+contrato+de+financiamiento+para+modernizacion+de+planta+eolica+tejona.",
+    "url": "https://www.grupoice.com/wps/portal/ICE/quienessomos/comunicacion/sala-de-prensa/noticiasanteriores/ice+y+bcr+firman+contrato+de+financiamiento+para+modernizacion+de+planta+eolica+tejona/ice+y+bcr+firman+contrato+de+financiamiento+para+modernizacion+de+planta+eolica+tejona",
+    "annotation": "ICE: Tejona wind repower financing USD 77.5m. Supports ice_tejona_wind_77p5m_2024.",
+    "supports": [
+      "ice_tejona_wind_77p5m_2024",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "ice_tejona_wind_77p5m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "xylem_amazon_vue_mexico_20250911",
+    "type": "company",
+    "chicago": "Xylem Inc. “Xylem and Amazon Partner on Smart Water Upgrades to Save More Than 1.3 Billion Liters Annually in Mexico.” Business Wire, September 11, 2025. https://www.businesswire.com/news/home/20250911628782/en/Xylem-and-Amazon-Partner-on-Smart-Water-Upgrades-to-Save-More-Than-1.3-Billion-Liters-Annually-in-Mexico.",
+    "url": "https://www.businesswire.com/news/home/20250911628782/en/Xylem-and-Amazon-Partner-on-Smart-Water-Upgrades-to-Save-More-Than-1.3-Billion-Liters-Annually-in-Mexico",
+    "annotation": "Xylem/Amazon BusinessWire: Vue deployments CDMX + Monterrey. Supports xylem_amazon_vue_mexico_2025.",
+    "supports": [
+      "xylem_amazon_vue_mexico_2025",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "xylem_amazon_vue_mexico_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "holcim_mexico_hidrica_20260324",
+    "type": "company",
+    "chicago": "Holcim México. “Holcim México acelera su estrategia hídrica con innovación e inversión en nuevas tecnologías.” March 24, 2026. https://www.holcim.com.mx/holcim-mexico-acelera-su-estrategia-hidrica-con-innovacion-e-inversion-en-nuevas-tecnologias.",
+    "url": "https://www.holcim.com.mx/holcim-mexico-acelera-su-estrategia-hidrica-con-innovacion-e-inversion-en-nuevas-tecnologias",
+    "annotation": "Holcim México: MXN 356m water strategy to 2027. Supports holcim_mexico_water_356mdp_2026.",
+    "supports": [
+      "holcim_mexico_water_356mdp_2026",
+      "hunt_cycle171"
+    ],
+    "map_supports": [
+      "holcim_mexico_water_356mdp_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
