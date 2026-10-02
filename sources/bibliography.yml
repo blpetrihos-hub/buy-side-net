@@ -10429,12 +10429,13 @@
   type: company
   chicago: AES Panamá. “AES Panamá aumenta su apuesta a las energías renovables.” February 14, 2020. https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables.
   url: https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables
-  annotation: 'AES Panamá primary: Mayorca Solar 10 MW COD 2021. Supports aes_panama_mayorca_10mw_2021;
-    aes_panama_pese_10mw_2021.'
+  annotation: 'AES Panamá primary: Caoba Solar 10 MW. Supports aes_panama_caoba_10mw_2021; aes_panama_cedro_10mw_2021.'
   supports:
   - aes_panama_pese_10mw_2021
   - hunt_energy_solar
   - aes_panama_mayorca_10mw_2021
+  - aes_panama_cedro_10mw_2021
+  - aes_panama_caoba_10mw_2021
 - id: powerchina_solar_portfolio_20250520
   type: company
   chicago: POWERCHINA. “Solar.” Updated May 20, 2025. https://en.powerchina.cn/2025-05/20/c_816883.htm.
@@ -10483,3 +10484,59 @@
   supports:
   - apm_moin_costa_rica_modernization_2025
   - hunt_infrastructure_port_ownership
+- id: ute_cmec_anillo_norte_20210531
+  type: government
+  chicago: Administración Nacional de Usinas y Trasmisiones Eléctricas (UTE). “UTE concreta el cierre
+    del Anillo Norte de trasmisión.” May 31, 2021. https://ute.com.uy/noticias/ute-concreta-el-cierre-del-anillo-norte-de-trasmision.
+  url: https://ute.com.uy/noticias/ute-concreta-el-cierre-del-anillo-norte-de-trasmision
+  annotation: 'UTE primary: CMEC Anillo Norte 500 kV / ~350 km / USD 191m leasing. Supports cmec_uruguay_anillo_norte_500kv_191m_2021.'
+  supports:
+  - cmec_uruguay_anillo_norte_500kv_191m_2021
+  - hunt_energy_power_plants_grid
+- id: invenergy_cardal_cod_20240216
+  type: company
+  chicago: Invenergy LLC. “Invenergy’s Landmark Tealov Cardal Transmission Line Begins Operations in Uruguay.”
+    February 16, 2024. https://wwww.invenergy.com/news/invenergy-s-landmark-tealov-cardal-transmission-line-begins-operations-in-uruguay-.
+  url: https://wwww.invenergy.com/news/invenergy-s-landmark-tealov-cardal-transmission-line-begins-operations-in-uruguay-
+  annotation: 'Invenergy primary: Cardal 55 km 500 kV + 20 km 150 kV COD Feb 2024 / 30-year UTE lease.
+    Supports invenergy_tealov_cardal_tx_uruguay_2024.'
+  supports:
+  - invenergy_tealov_cardal_tx_uruguay_2024
+  - hunt_energy_power_plants_grid
+- id: invenergy_la_jacinta_purchase_20170314
+  type: company
+  chicago: Invenergy LLC. “Invenergy Closes Purchase Agreement for the La Jacinta Solar Farm in Uruguay.”
+    March 14, 2017. https://invenergy.com/news/invenergy-closes-purchase-agreement-for-the-la-jacinta-solar-farm-in-uruguay.
+  url: https://invenergy.com/news/invenergy-closes-purchase-agreement-for-the-la-jacinta-solar-farm-in-uruguay
+  annotation: 'Invenergy primary: purchase of operating 64 MW La Jacinta (BYD modules). Supports invenergy_la_jacinta_solar_uruguay_64mw.'
+  supports:
+  - invenergy_la_jacinta_solar_uruguay_64mw
+  - hunt_energy_solar
+- id: invenergy_campo_palomas_20160401
+  type: company
+  chicago: Invenergy Wind LLC. “Invenergy Purchases and Closes Financing on Campo Palomas Wind Farm.”
+    April 1, 2016. https://wwww.invenergy.com/news/invenergy-purchases-and-closes-financing-on-campo-palomas-wind-farm.
+  url: https://wwww.invenergy.com/news/invenergy-purchases-and-closes-financing-on-campo-palomas-wind-farm
+  annotation: 'Invenergy primary: Campo Palomas 70 MW / 35× Vestas V110 acquisition+financing. Supports
+    invenergy_campo_palomas_wind_uruguay_70mw.'
+  supports:
+  - invenergy_campo_palomas_wind_uruguay_70mw
+  - hunt_energy_wind
+- id: ustda_guatemala_new_sun_road_20230830
+  type: government
+  chicago: U.S. Trade and Development Agency. “USTDA Advances Sustainable, Women-Led Rural Connectivity
+    in Guatemala.” August 30, 2023. https://www.ustda.gov/ustda-advances-sustainable-women-led-rural-connectivity-in-guatemala/.
+  url: https://www.ustda.gov/ustda-advances-sustainable-women-led-rural-connectivity-in-guatemala/
+  annotation: 'USTDA primary: New Sun Road solar+storage DCC pilot (10 sites / scale to 3,000). Supports
+    ustda_new_sun_road_guatemala_dcc_2023.'
+  supports:
+  - ustda_new_sun_road_guatemala_dcc_2023
+  - hunt_energy_solar
+- id: aes_dominicana_ir_q3_2025
+  type: company
+  chicago: AES Dominicana. “Investor Presentation 2025 Q3.” January 2026. https://www.aesdominicana.com/sites/aesvault.com/files/2026-01/AES%20DR%20-%20Investor%20Presentation%202025%20Q3.pdf.
+  url: https://www.aesdominicana.com/sites/aesvault.com/files/2026-01/AES%20DR%20-%20Investor%20Presentation%202025%20Q3.pdf
+  annotation: 'AES Dominicana IR: ENADOM 2nd LNG tank 120,000 m³ COD Oct 2023 / USD 253m. Supports aes_enadom_lng_tank2_253m_dr_2023.'
+  supports:
+  - aes_enadom_lng_tank2_253m_dr_2023
+  - hunt_energy_power_plants_grid
