@@ -15157,5 +15157,95 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_rq_gtmo_solid_waste_20190919",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting rq_gtmo_solid_waste_2019. Signed 2019-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945019C0501_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945019C0501_9700_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports rq_gtmo_solid_waste_2019.",
+    "supports": [
+      "rq_gtmo_solid_waste_2019",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "rq_gtmo_solid_waste_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_rq_gtmo_wharf_bravo_20161122",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting rq_gtmo_wharf_bravo_2016. Signed 2016-11-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945017C1303_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945017C1303_9700_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports rq_gtmo_wharf_bravo_2016.",
+    "supports": [
+      "rq_gtmo_wharf_bravo_2016",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "rq_gtmo_wharf_bravo_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_hangar_20210929",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting eterna_soto_cano_hangar_2021. Signed 2021-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821C0039_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821C0039_9700_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports eterna_soto_cano_hangar_2021.",
+    "supports": [
+      "eterna_soto_cano_hangar_2021",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_hangar_2021",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_storage_20250717",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting eterna_soto_cano_aviation_storage_2025. Signed 2025-07-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825CA006_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825CA006_9700_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports eterna_soto_cano_aviation_storage_2025.",
+    "supports": [
+      "eterna_soto_cano_aviation_storage_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_aviation_storage_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_ecopetrol_cartagena_20240415",
+    "type": "company",
+    "chicago": "POWERCHINA. “Colombian president witnesses completion of solar park.” 15 April 2024. https://en.powerchina.cn/2024-04/15/c_828692.htm.",
+    "url": "https://en.powerchina.cn/2024-04/15/c_828692.htm",
+    "annotation": "POWERCHINA English primary on Ecopetrol Cartagena 23 MW solar completion. CapEx not stated. Supports powerchina_ecopetrol_cartagena_23mw_2024.",
+    "supports": [
+      "powerchina_ecopetrol_cartagena_23mw_2024",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_ecopetrol_cartagena_23mw_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

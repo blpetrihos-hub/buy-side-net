@@ -1,11 +1,78 @@
 updated: 2026-10-02
-cycle: 124
+cycle: 125
 remote: present
-active_layer: energy
-active_subcategory: solar
-next_query: Cycle 125 shuffle_seed=20261125; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us337/prc241/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Sajalices logged; continue residual federal + PRC SOE pass.
-next_row_id: (follow cycle-125 shuffled_order)
+active_layer: infrastructure
+active_subcategory: engineering_epc
+next_query: Cycle 126 shuffle_seed=20261126; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us341/prc242/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators.
+next_row_id: (follow cycle-126 shuffled_order)
 dry_streak: 0
+
+# === Cycle 125 (seed 20261125) ===
+# Shuffled order: engineering_epc, balsa, power_plants_grid, water, fission_smr,
+#   building_materials, nickel, port_cranes, lithium, rail, niobium, wind,
+#   other_renewables, bridges_roads, copper, solar, graphite, port_ownership.
+# Logged 5 sourced rows (4 US + 1 PRC; thin dry; no padding):
+#   us engineering_epc: rq_gtmo_solid_waste_2019 (USD 60.0m NAVFAC).
+#   us engineering_epc: rq_gtmo_wharf_bravo_2016 (USD 38.9m NAVFAC).
+#   us engineering_epc: eterna_soto_cano_hangar_2021 (USD 39.2m USACE).
+#   us engineering_epc: eterna_soto_cano_aviation_storage_2025 (USD 37.7m USACE).
+#   prc solar: powerchina_ecopetrol_cartagena_23mw_2024 (23 MW; CapEx blank).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: balsa, power_plants_grid, water, fission_smr,
+#   building_materials, nickel, port_cranes, lithium, rail, niobium, wind,
+#   other_renewables, bridges_roads, copper, graphite, port_ownership.
+# Active after cycle 125: us341 / prc242 / allied243 / other37 (n=863).
+shuffle_seed: 20261125
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/engineering_epc
+- resources/balsa
+- energy/power_plants_grid
+- resources/water
+- energy/fission_smr
+- infrastructure/building_materials
+- resources/nickel
+- infrastructure/port_cranes
+- resources/lithium
+- infrastructure/rail
+- resources/niobium
+- energy/wind
+- energy/other_renewables
+- infrastructure/bridges_roads
+- resources/copper
+- energy/solar
+- resources/graphite
+- infrastructure/port_ownership
+rows_found_this_cycle:
+  infrastructure/engineering_epc: 4
+  resources/balsa: 0
+  energy/power_plants_grid: 0
+  resources/water: 0
+  energy/fission_smr: 0
+  infrastructure/building_materials: 0
+  resources/nickel: 0
+  infrastructure/port_cranes: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  resources/niobium: 0
+  energy/wind: 0
+  energy/other_renewables: 0
+  infrastructure/bridges_roads: 0
+  resources/copper: 0
+  energy/solar: 1
+  resources/graphite: 0
+  infrastructure/port_ownership: 0
+rows_by_side_this_cycle:
+  us: 4
+  prc: 1
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 124 (seed 20261124) ===
 # Shuffled order: building_materials, copper, power_plants_grid, wind,

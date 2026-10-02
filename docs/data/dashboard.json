@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 950,
+    "n_rows": 955,
     "counts": {
-      "total": 950,
-      "active": 858,
+      "total": 955,
+      "active": 863,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 725,
-      "on_map": 841
+      "documented": 730,
+      "on_map": 846
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 170,
+        "us": 174,
         "prc": 97,
         "allied": 95,
-        "n": 362
+        "n": 366
       },
       "usd": {
-        "us": 9209688808.369999,
-        "us_n": 102,
+        "us": 9385428318.23,
+        "us_n": 106,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -153,9 +153,9 @@
       "layer": "energy",
       "counts": {
         "us": 96,
-        "prc": 102,
+        "prc": 103,
         "allied": 75,
-        "n": 273
+        "n": 274
       },
       "usd": {
         "us": 18091148697.54,
@@ -367,9 +367,9 @@
       "country": "Colombia",
       "counts": {
         "us": 9,
-        "prc": 14,
+        "prc": 15,
         "allied": 10,
-        "n": 33
+        "n": 34
       },
       "usd": {
         "us": 250706908.27,
@@ -382,7 +382,7 @@
       "by_layer": {
         "energy": {
           "us": 6,
-          "prc": 10,
+          "prc": 11,
           "allied": 2
         },
         "infrastructure": {
@@ -429,14 +429,14 @@
     {
       "country": "Cuba",
       "counts": {
-        "us": 1,
+        "us": 3,
         "prc": 0,
         "allied": 1,
-        "n": 2
+        "n": 4
       },
       "usd": {
-        "us": 82758090.73,
-        "us_n": 1,
+        "us": 181616711.14,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 101059504.3,
@@ -449,7 +449,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 1,
+          "us": 3,
           "prc": 0,
           "allied": 0
         }
@@ -700,14 +700,14 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 6,
+        "us": 8,
         "prc": 2,
         "allied": 1,
-        "n": 9
+        "n": 11
       },
       "usd": {
-        "us": 352733940.23,
-        "us_n": 4,
+        "us": 429614829.68000007,
+        "us_n": 6,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 100000000.0,
@@ -720,7 +720,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 5,
+          "us": 7,
           "prc": 0,
           "allied": 1
         }
@@ -1903,7 +1903,12 @@
       "cmf_great_inagua_opbat_2011",
       "cce_soto_cano_barracks_2011",
       "perini_haiti_substations_2011",
-      "cavagnero_pos_nec_bridging_2020"
+      "cavagnero_pos_nec_bridging_2020",
+      "rq_gtmo_solid_waste_2019",
+      "rq_gtmo_wharf_bravo_2016",
+      "eterna_soto_cano_hangar_2021",
+      "eterna_soto_cano_aviation_storage_2025",
+      "powerchina_ecopetrol_cartagena_23mw_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",
