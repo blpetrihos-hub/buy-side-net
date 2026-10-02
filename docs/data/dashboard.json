@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1067,
+    "n_rows": 1071,
     "counts": {
-      "total": 1067,
-      "active": 869,
+      "total": 1071,
+      "active": 873,
       "hunt": 42,
       "archived": 178,
       "paired": 5,
       "one_sided": 27,
       "proxy": 155,
       "exclude": 18,
-      "documented": 840,
-      "on_map": 851
+      "documented": 844,
+      "on_map": 855
     }
   },
   "layer_readouts": [
@@ -151,14 +151,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 97,
-        "prc": 135,
+        "us": 99,
+        "prc": 137,
         "allied": 83,
-        "n": 315
+        "n": 319
       },
       "usd": {
-        "us": 11406785515.13,
-        "us_n": 29,
+        "us": 11511785515.13,
+        "us_n": 31,
         "prc": 5258017778.25,
         "prc_n": 21,
         "allied": 6601418889.2300005,
@@ -544,14 +544,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 8,
+        "us": 10,
         "prc": 2,
         "allied": 7,
-        "n": 17
+        "n": 19
       },
       "usd": {
-        "us": 342934461.57,
-        "us_n": 3,
+        "us": 447934461.57,
+        "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -559,7 +559,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 7,
+          "us": 9,
           "prc": 0,
           "allied": 3
         },
@@ -705,9 +705,9 @@
       "country": "Guyana",
       "counts": {
         "us": 9,
-        "prc": 17,
+        "prc": 19,
         "allied": 0,
-        "n": 26
+        "n": 28
       },
       "usd": {
         "us": 534967000.0,
@@ -720,7 +720,7 @@
       "by_layer": {
         "energy": {
           "us": 2,
-          "prc": 8,
+          "prc": 10,
           "allied": 0
         },
         "infrastructure": {
@@ -1947,7 +1947,11 @@
       "aes_brisas_26mw_colombia_2023",
       "aes_agua_clara_acquisition_98m_dr_2022",
       "sumec_guyana_prospect_solar_5p5m_2025",
-      "sumec_guyana_hampshire_3mw_2025"
+      "sumec_guyana_hampshire_3mw_2025",
+      "aes_bayasol_60m_dr_2021",
+      "aes_santanasol_45m_dr_2021",
+      "crec_guyana_guysol_18mw_2025",
+      "sumec_guyana_charity_3mw_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

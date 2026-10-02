@@ -9983,3 +9983,39 @@
   supports:
   - sumec_guyana_hampshire_3mw_2025
   - hunt_energy_solar
+- id: aes_dr_bayasol_ntp_20210316
+  type: company
+  chicago: AES Dominicana. “Inicia la construcción del parque solar AES Bayasol con inversión de US$60
+    MM.” March 16, 2021. https://www.aesdominicana.com/en/press-release/inicia-la-construccion-del-parque-solar-aes-bayasol-con-inversion-de-us60-mm-0.
+  url: https://www.aesdominicana.com/en/press-release/inicia-la-construccion-del-parque-solar-aes-bayasol-con-inversion-de-us60-mm-0
+  annotation: 'AES Dominicana: Bayasol ~USD 60m / 58 MWp NTP. Supports aes_bayasol_60m_dr_2021.'
+  supports:
+  - aes_bayasol_60m_dr_2021
+  - hunt_energy_solar
+- id: aes_dr_santanasol_scotiabank_20210623
+  type: company
+  chicago: AES Dominicana. “AES Dominicana y Scotiabank suscriben acuerdo de préstamo verde por US$36
+    millones para proyecto de energía solar.” June 23, 2021. https://www.aesdominicana.com/en/press-release/aes-dominicana-y-scotiabank-suscriben-acuerdo-de-prestamo-verde-por-us36-millones.
+  url: https://www.aesdominicana.com/en/press-release/aes-dominicana-y-scotiabank-suscriben-acuerdo-de-prestamo-verde-por-us36-millones
+  annotation: 'AES Dominicana: Santanasol estimated USD 45m / 50 MW. Supports aes_santanasol_45m_dr_2021.'
+  supports:
+  - aes_santanasol_45m_dr_2021
+  - hunt_energy_solar
+- id: crec_guyana_guysol_onderneeming_20251101
+  type: company
+  chicago: China Railway Group Limited (CREC). “First Station of Guyana Solar Power and Energy Storage
+    Project Delivered and Put into Operation.” November 14, 2025. https://www.crecg.com/zgztywz/cs11/10210606/2025111313575088155/index.html.
+  url: https://www.crecg.com/zgztywz/cs11/10210606/2025111313575088155/index.html
+  annotation: 'CREC: Guyana GUYSOL portfolio 18 MW / 12 MWh COD unveil. Supports crec_guyana_guysol_18mw_2025.'
+  supports:
+  - crec_guyana_guysol_18mw_2025
+  - hunt_energy_solar
+- id: dpi_guyana_charity_solar_opm_20260914
+  type: government
+  chicago: Department of Public Information, Guyana. “OPM continues to deliver affordable, reliable energy
+    to communities.” September 14, 2026. https://dpi.gov.gy/opm-continues-to-deliver-affordable-reliable-energy-to-communities/.
+  url: https://dpi.gov.gy/opm-continues-to-deliver-affordable-reliable-energy-to-communities/
+  annotation: 'DPI Guyana: Charity 3 MWp among five GUYSOL farms online. Supports sumec_guyana_charity_3mw_2025.'
+  supports:
+  - sumec_guyana_charity_3mw_2025
+  - hunt_energy_solar
