@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 638,
+    "n_rows": 646,
     "counts": {
-      "total": 638,
-      "active": 583,
+      "total": 646,
+      "active": 591,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 126,
+      "proxy": 128,
       "exclude": 5,
-      "documented": 453,
-      "on_map": 571
+      "documented": 459,
+      "on_map": 579
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 57,
-        "prc": 62,
+        "us": 58,
+        "prc": 63,
         "allied": 92,
-        "n": 211
+        "n": 213
       },
       "usd": {
         "us": 2747000000.0,
@@ -130,9 +130,9 @@
       "layer": "resources",
       "counts": {
         "us": 50,
-        "prc": 32,
+        "prc": 34,
         "allied": 104,
-        "n": 186
+        "n": 188
       },
       "usd": {
         "us": 25749193622.0,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 56,
-        "prc": 64,
+        "us": 59,
+        "prc": 65,
         "allied": 64,
-        "n": 184
+        "n": 188
       },
       "usd": {
-        "us": 5171300000.0,
-        "us_n": 14,
+        "us": 5646300000.0,
+        "us_n": 15,
         "prc": 1207377608.25,
         "prc_n": 11,
         "allied": 3521859384.9300003,
@@ -264,10 +264,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 54,
-        "prc": 51,
+        "us": 55,
+        "prc": 52,
         "allied": 103,
-        "n": 208
+        "n": 210
       },
       "usd": {
         "us": 1602545000.0,
@@ -280,11 +280,11 @@
       "by_layer": {
         "energy": {
           "us": 8,
-          "prc": 24,
+          "prc": 25,
           "allied": 25
         },
         "infrastructure": {
-          "us": 22,
+          "us": 23,
           "prc": 20,
           "allied": 30
         },
@@ -298,14 +298,14 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 24,
+        "us": 27,
         "prc": 17,
         "allied": 43,
-        "n": 84
+        "n": 87
       },
       "usd": {
-        "us": 16191000000.0,
-        "us_n": 12,
+        "us": 16666000000.0,
+        "us_n": 13,
         "prc": 1992758059.03,
         "prc_n": 8,
         "allied": 9408000000.0,
@@ -313,7 +313,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 12,
+          "us": 15,
           "prc": 12,
           "allied": 8
         },
@@ -333,9 +333,9 @@
       "country": "Colombia",
       "counts": {
         "us": 5,
-        "prc": 12,
+        "prc": 13,
         "allied": 9,
-        "n": 26
+        "n": 27
       },
       "usd": {
         "us": 227600000.0,
@@ -358,7 +358,7 @@
         },
         "resources": {
           "us": 0,
-          "prc": 0,
+          "prc": 1,
           "allied": 1
         }
       }
@@ -454,9 +454,9 @@
       "country": "Ecuador",
       "counts": {
         "us": 12,
-        "prc": 9,
+        "prc": 10,
         "allied": 15,
-        "n": 36
+        "n": 37
       },
       "usd": {
         "us": 181496670.0,
@@ -479,7 +479,7 @@
         },
         "resources": {
           "us": 8,
-          "prc": 6,
+          "prc": 7,
           "allied": 10
         }
       }
@@ -604,9 +604,9 @@
       "country": "Jamaica",
       "counts": {
         "us": 0,
-        "prc": 4,
+        "prc": 5,
         "allied": 1,
-        "n": 5
+        "n": 6
       },
       "usd": {
         "us": 0.0,
@@ -624,7 +624,7 @@
         },
         "infrastructure": {
           "us": 0,
-          "prc": 4,
+          "prc": 5,
           "allied": 0
         }
       }
@@ -1434,7 +1434,15 @@
       "powerchina_costa_penda_cayira_gas_282mw_2025",
       "powerchina_ufn_iii_tres_lagoas_2026",
       "powerchina_montenegro_hospital_lima_2025",
-      "cggc_cepernic_disbursement_150m_2025"
+      "cggc_cepernic_disbursement_150m_2025",
+      "atlas_copiapo_fc_475m_chile_2025",
+      "slb_pelotas_sul_3d_brazil_2026",
+      "aes_arenales_bess_300mw_chile_2025",
+      "aes_bolero_bess_146mw_chile_2025",
+      "powerchina_santo_domingo_water_ecuador_2026",
+      "chec_kingston_yard_phase1_jamaica_2025",
+      "cccc_el_curval_water_santa_marta_2026",
+      "catl_moura_lrcap_partnership_brazil_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

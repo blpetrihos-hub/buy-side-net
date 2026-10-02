@@ -6080,3 +6080,69 @@
   supports:
   - cggc_cepernic_disbursement_150m_2025
   - hunt_br_power_equip
+- id: atlas_copiapo_fc_20251020
+  type: company
+  chicago: Atlas Renewable Energy. “Atlas Renewable Energy closes US$475M financing for solar-storage
+    project to supply clean energy to the mining sector.” 20 October 2025.
+  url: https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-closes-us475m-financing-for-solar-storage-project-to-supply-clean-energy-to-the-mining-sector/
+  annotation: Atlas Copiapó Chile USD 475m hybrid financing. Supports atlas_copiapo_fc_475m_chile_2025.
+  supports:
+  - atlas_copiapo_fc_475m_chile_2025
+  - hunt_energy_solar
+- id: tgs_pelotas_sul_20260618
+  type: company
+  chicago: TGS ASA. “TGS Announces Pelotas Sul Phase 1 Multi-client Survey Offshore Brazil.” 18 June
+    2026.
+  url: https://www.tgs.com/press-releases/tgs-announces-pelotas-sul-phase-1-multi-client-survey-offshore-brazil
+  annotation: TGS–SLB Pelotas Sul 13,500 km² 3D JV. Supports slb_pelotas_sul_3d_brazil_2026.
+  supports:
+  - slb_pelotas_sul_3d_brazil_2026
+  - hunt_infra_engineering_epc
+- id: aes_andes_construction_20250730
+  type: company
+  chicago: AES Andes. “AES Andes starts construction on 1,325 MW of renewables, accelerating the energy
+    transition.” 30 July 2025.
+  url: https://www.aesandes.com/en/press-release/aes-andes-starts-construction-1325-mw-renewables-accelerating-energy-transition
+  annotation: AES Arenales 300 MW + Bolero BESS 146 MW under construction. Supports aes_arenales_bess_300mw_chile_2025
+    and aes_bolero_bess_146mw_chile_2025.
+  supports:
+  - aes_arenales_bess_300mw_chile_2025
+  - aes_bolero_bess_146mw_chile_2025
+  - hunt_energy_other_renewables
+- id: powerchina_santo_domingo_water_20260529
+  type: company
+  chicago: PowerChina International. “诺沃亚总统出席中国电建厄瓜多尔圣多明哥供水项目落成典礼.” 29 May 2026.
+  url: https://www.powerchina-intl.com/show/9/4771.html
+  annotation: POWERCHINA Santo Domingo Ecuador water system inauguration. Supports
+    powerchina_santo_domingo_water_ecuador_2026.
+  supports:
+  - powerchina_santo_domingo_water_ecuador_2026
+  - hunt_res_water
+- id: chec_kingston_yard_20250620
+  type: company
+  chicago: China Harbour Engineering Company (CHEC Americas). “CHEC Awarded EPC Contract for Kingston
+    Port Container Terminal Yard Phase I Project in Jamaica.” 20 June 2025.
+  url: https://www.checamerica.com/blog/2025/06/20/chec-awarded-epc-contract-for-kingston-port-container-terminal-yard-phase-i-project-in-jamaica/
+  annotation: CHEC Kingston Freeport yard Phase I EPC. Supports chec_kingston_yard_phase1_jamaica_2025.
+  supports:
+  - chec_kingston_yard_phase1_jamaica_2025
+  - hunt_infra_engineering_epc
+- id: radiohoy_el_curval_20260604
+  type: journalism
+  chicago: "Radio Hoy. “Tres firmas tendrán a su cargo construir la Planta ‘El Curval’.” 4 June 2026."
+  url: https://www.radiohoy.com/2026/06/04/tres-firmas-tendran-a-su-cargo-construir-la-planta-el-curval/791317/
+  annotation: UNVERIFIED proxy CCCC El Curval Santa Marta WTP award. Supports
+    cccc_el_curval_water_santa_marta_2026.
+  supports:
+  - cccc_el_curval_water_santa_marta_2026
+  - hunt_res_water
+- id: ess_news_catl_moura_20260831
+  type: journalism
+  chicago: Neves, Lívia. “CATL announces Moura partnership for Brazil battery auction.” ess-news / pv
+    magazine Brazil. 31 August 2026.
+  url: https://www.ess-news.com/2026/08/31/catl-announces-moura-partnership-for-brazil-battery-auction/
+  annotation: CATL–Moura LRCAP 2026 storage auction partnership. Supports
+    catl_moura_lrcap_partnership_brazil_2026.
+  supports:
+  - catl_moura_lrcap_partnership_brazil_2026
+  - hunt_energy_other_renewables
