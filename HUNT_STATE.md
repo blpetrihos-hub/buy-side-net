@@ -1,11 +1,82 @@
 updated: 2026-10-02
-cycle: 114
+cycle: 115
 remote: present
 active_layer: infrastructure
 active_subcategory: engineering_epc
-next_query: Cycle 115 shuffle_seed=20261115; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us286/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue State OBO NCC backlog (Hermosillo/Mérida/Nogales/Santo Domingo/Panama/Managua/Haiti) + OEM/regulator sweep.
-next_row_id: (follow cycle-115 shuffled_order)
+next_query: Cycle 116 shuffle_seed=20261116; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us292/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue State OBO backlog (Panama/Managua/Matamoros/Montevideo/Monterrey/Nuevo Laredo/Belmopan/Tijuana) + OEM/regulator sweep.
+next_row_id: (follow cycle-116 shuffled_order)
 dry_streak: 0
+
+# === Cycle 115 (seed 20261115) ===
+# Shuffled order: building_materials, power_plants_grid, lithium, port_cranes,
+#   bridges_roads, niobium, copper, fission_smr, engineering_epc, rail,
+#   other_renewables, graphite, solar, water, balsa, wind, port_ownership,
+#   nickel.
+# Logged 6 sourced rows (honest US; thin dry; PRC Trina/Goldwind named-site
+#   pass re-hit already-logged Luz del Norte/Alma Sur/SPIC Touros; no padding):
+#   us engineering_epc: bl_harbert_hermosillo_ncc_2018 (USD 155.8m State).
+#   us engineering_epc: bl_harbert_merida_ncc_2019 (USD 140.6m State).
+#   us engineering_epc: bl_harbert_nogales_ncc_2018 (USD 135.2m State).
+#   us engineering_epc: caddell_santo_domingo_nec_2010 (USD 150.9m State).
+#   us engineering_epc: caddell_buenos_aires_sip_2025 (USD 170.9m State).
+#   us engineering_epc: fluor_haiti_nec_2005 (USD 72.3m State).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: building_materials, power_plants_grid, lithium,
+#   port_cranes, bridges_roads, niobium, copper, fission_smr, rail,
+#   other_renewables, graphite, solar, water, balsa, wind, port_ownership,
+#   nickel (dense prior).
+# Active after cycle 115: us292 / prc239 / allied243 / other37 (n=811).
+shuffle_seed: 20261115
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/building_materials
+- energy/power_plants_grid
+- resources/lithium
+- infrastructure/port_cranes
+- infrastructure/bridges_roads
+- resources/niobium
+- resources/copper
+- energy/fission_smr
+- infrastructure/engineering_epc
+- infrastructure/rail
+- energy/other_renewables
+- resources/graphite
+- energy/solar
+- resources/water
+- resources/balsa
+- energy/wind
+- infrastructure/port_ownership
+- resources/nickel
+rows_found_this_cycle:
+  infrastructure/building_materials: 0
+  energy/power_plants_grid: 0
+  resources/lithium: 0
+  infrastructure/port_cranes: 0
+  infrastructure/bridges_roads: 0
+  resources/niobium: 0
+  resources/copper: 0
+  energy/fission_smr: 0
+  infrastructure/engineering_epc: 6
+  infrastructure/rail: 0
+  energy/other_renewables: 0
+  resources/graphite: 0
+  energy/solar: 0
+  resources/water: 0
+  resources/balsa: 0
+  energy/wind: 0
+  infrastructure/port_ownership: 0
+  resources/nickel: 0
+rows_by_side_this_cycle:
+  us: 6
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 114 (seed 20261114) ===
 # Shuffled order: building_materials, nickel, fission_smr, solar, graphite,

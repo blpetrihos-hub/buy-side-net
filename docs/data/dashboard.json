@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 897,
+    "n_rows": 903,
     "counts": {
-      "total": 897,
-      "active": 805,
+      "total": 903,
+      "active": 811,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 672,
-      "on_map": 789
+      "documented": 678,
+      "on_map": 795
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 123,
+        "us": 129,
         "prc": 97,
         "allied": 95,
-        "n": 315
+        "n": 321
       },
       "usd": {
-        "us": 6595594347.12,
-        "us_n": 55,
+        "us": 7421247461.249999,
+        "us_n": 61,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -177,14 +177,14 @@
     {
       "country": "Argentina",
       "counts": {
-        "us": 16,
+        "us": 17,
         "prc": 21,
         "allied": 27,
-        "n": 64
+        "n": 65
       },
       "usd": {
-        "us": 7100000000.0,
-        "us_n": 2,
+        "us": 7270869147.0,
+        "us_n": 3,
         "prc": 2894732659.07,
         "prc_n": 10,
         "allied": 18239362187.2,
@@ -197,7 +197,7 @@
           "allied": 11
         },
         "infrastructure": {
-          "us": 9,
+          "us": 10,
           "prc": 5,
           "allied": 3
         },
@@ -472,14 +472,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 2,
         "allied": 7,
-        "n": 13
+        "n": 14
       },
       "usd": {
-        "us": 2500000000.0,
-        "us_n": 1,
+        "us": 2650934461.57,
+        "us_n": 2,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -492,7 +492,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 0,
+          "us": 1,
           "prc": 2,
           "allied": 3
         },
@@ -659,6 +659,30 @@
       }
     },
     {
+      "country": "Haiti",
+      "counts": {
+        "us": 1,
+        "prc": 0,
+        "allied": 0,
+        "n": 1
+      },
+      "usd": {
+        "us": 72262286.45,
+        "us_n": 1,
+        "prc": 0.0,
+        "prc_n": 0,
+        "allied": 0.0,
+        "allied_n": 0
+      },
+      "by_layer": {
+        "infrastructure": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
+        }
+      }
+    },
+    {
       "country": "Honduras",
       "counts": {
         "us": 4,
@@ -719,14 +743,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 22,
+        "us": 25,
         "prc": 14,
         "allied": 26,
-        "n": 62
+        "n": 65
       },
       "usd": {
-        "us": 1599113774.0900002,
-        "us_n": 11,
+        "us": 2030700993.2,
+        "us_n": 14,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 3445734000.0,
@@ -739,7 +763,7 @@
           "allied": 7
         },
         "infrastructure": {
-          "us": 11,
+          "us": 14,
           "prc": 10,
           "allied": 15
         },
@@ -1811,7 +1835,13 @@
       "caddell_asuncion_nec_2017",
       "caddell_rio_consulate_2022",
       "bl_harbert_guadalajara_ncc_2018",
-      "tutor_perini_sj_customs_2021"
+      "tutor_perini_sj_customs_2021",
+      "bl_harbert_hermosillo_ncc_2018",
+      "bl_harbert_merida_ncc_2019",
+      "bl_harbert_nogales_ncc_2018",
+      "caddell_santo_domingo_nec_2010",
+      "caddell_buenos_aires_sip_2025",
+      "fluor_haiti_nec_2005"
     ],
     "hunt": [
       "hunt_br_power_equip",

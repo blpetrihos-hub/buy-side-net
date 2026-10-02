@@ -1,0 +1,10 @@
+{
+  "id": "fluor_haiti_nec_2005",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_fluor_haiti_nec_20050114",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0002_1900_-NONE-_-NONE-/",
+  "price_year": "2005",
+  "evidence": "documented",
+  "quote": "CONSTRUCTION OF NEC PROJECT",
+  "note": "Opened USASpending: Fluor Intercontinental; USD 72,262,286.45; signed 2005-01-14; PoP Haiti."
+}
