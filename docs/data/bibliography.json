@@ -11871,5 +11871,131 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "t21_contecon_sts_20260929",
+    "type": "press",
+    "chicago": "Duarte Rionda, Enrique. “Contecon suma dos grúas de muelle en Manzanillo; suministro eléctrico pone a prueba su expansión.” T21, 29 September 2026.",
+    "url": "https://t21.com.mx/contecon-suma-dos-gruas-de-muelle-en-manzanillo-suministro-electrico-pone-a-prueba-su-expansion/",
+    "annotation": "ZPMC electric STS #13–14 + five RTGs at Contecon Manzanillo TEC II. Supports zpmc_contecon_manzanillo_sts_rtg_2026.",
+    "supports": [
+      "zpmc_contecon_manzanillo_sts_rtg_2026",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "zpmc_contecon_manzanillo_sts_rtg_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "aes_dr_investor_q3_2025",
+    "type": "company",
+    "chicago": "AES Dominicana. “AES DR — Investor Presentation 2025 Q3.” January 2026 PDF (Q3 2025 results deck).",
+    "url": "https://www.aesdominicana.com/sites/aesvault.com/files/2026-01/AES%20DR%20-%20Investor%20Presentation%202025%20Q3.pdf",
+    "annotation": "Documents Peravia I & II 140 MW COD Sep 2025 and related DR renewables pipeline. Supports aes_dr_peravia_140mw_cod_2025.",
+    "supports": [
+      "aes_dr_peravia_140mw_cod_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "aes_dr_peravia_140mw_cod_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "nadbank_san_quintin_proposal_20260512",
+    "type": "official",
+    "chicago": "North American Development Bank. “Certification and Financing Proposal — Desalination Plant in San Quintín, Baja California.” Published 12 May 2026.",
+    "url": "https://nadbank.org/hubfs/proposals-open-for-public-comment/Planta%20Desaladora%20en%20San%20Quintin%20(Eng)_published.pdf?hsLang=en",
+    "annotation": "Proposed NADBank loan up to MXN 665m for 250 lps San Quintín desal (Desaladora Kenton). Supports nadbank_san_quintin_desal_665m_mxn_2026.",
+    "supports": [
+      "nadbank_san_quintin_desal_665m_mxn_2026",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "nadbank_san_quintin_desal_665m_mxn_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "gs_inima_espirito_santo_20251009",
+    "type": "company",
+    "chicago": "GS Inima. “GS Inima Has Signed the Contract for the Integrated Sanitation Service in the Brazilian State of Espírito Santo.” 9 October 2025.",
+    "url": "https://inima.com/en/gs-inima-signs-contract-the-integrated-sanitation-service-in-thestate-of-espirito-santo/",
+    "annotation": "GS Inima/Forte Ambiental Lot A 24-year sanitation concession (>EUR 150m; 35 municipalities). Supports gs_inima_espirito_santo_lot_a_2025.",
+    "supports": [
+      "gs_inima_espirito_santo_lot_a_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "gs_inima_espirito_santo_lot_a_2025",
+      "hunt_res_water"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "scco_notes_1p25bn_20260625",
+    "type": "filing",
+    "chicago": "Southern Copper Corporation. “Southern Copper Corporation Issued $1,250,000,000 Unsecured Notes Due 2036.” Exhibit 99 to Form 8-K, 25 June 2026. SEC EDGAR.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001838/000114036126026337/ef20076661_ex99.htm",
+    "annotation": "USD 1.25bn SCCO notes with proceeds earmarked for Tía María / SPCC CapEx. Supports southern_copper_tia_maria_notes_1p25bn_2026.",
+    "supports": [
+      "southern_copper_tia_maria_notes_1p25bn_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "southern_copper_tia_maria_notes_1p25bn_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "dfc_cerro_pasco_2026",
+    "type": "official",
+    "chicago": "U.S. International Development Finance Corporation. “Enhancing Mineral Processing in Peru.” Investment story, 2026.",
+    "url": "https://www.dfc.gov/investment-story/enhancing-mineral-processing-peru",
+    "annotation": "DFC USD 5m project-development support for Quiulacocha tailings reprocessing. Supports dfc_cerro_pasco_quiulacocha_5m_2026.",
+    "supports": [
+      "dfc_cerro_pasco_quiulacocha_5m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "dfc_cerro_pasco_quiulacocha_5m_2026",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "sany_purranque_20260617",
+    "type": "company",
+    "chicago": "SANY Group. “SANY Ships Core Equipment for First Wind Project in Latin America, Advancing Global Energy Transition.” PR Newswire, 17 June 2026.",
+    "url": "https://www.prnewswire.com/news-releases/sany-ships-core-equipment-for-first-wind-project-in-latin-america-advancing-global-energy-transition-302803741.html",
+    "annotation": "SANY Renewable 18 MW Purranque Chile first LatAm wind supply/install. Supports sany_purranque_18mw_chile_2026.",
+    "supports": [
+      "sany_purranque_18mw_chile_2026",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "sany_purranque_18mw_chile_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
