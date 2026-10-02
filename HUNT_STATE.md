@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 151
+cycle: 152
 remote: present
 active_layer: energy
-active_subcategory: other_renewables
-next_query: Cycle 152 shuffle_seed=20261152; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us289/prc302/allied252); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 13 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: AES Andes–Teck Carmen de Andacollo 550 GWh/y PPA; POWERCHINA Cura Brochero/Villa María del Río Seco 65 MW BOS (powerchina.com.ar); BHP–Sungrow Escondida/Spence if company primary opens; Aldesa El Tuli (allied HQ); AES Alto Maipo 531 MW COD if dedicated primary opens. No U.S. territories.
-next_row_id: (follow cycle-152 shuffled_order)
+active_subcategory: solar
+next_query: Cycle 153 shuffle_seed=20261153; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us291/prc304/allied252); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 13 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: POWERCHINA Tamberías/Diaguitas ~USD 5m (approx — log as proxy if used); AES Andes Solar IIb 180 MW+112 MW BESS COD; AES Virtual Reservoir 2; AES Los Cururos acquisition; Goldwind Brazil 470 MW FINAME if company primary opens. No U.S. territories.
+next_row_id: (follow cycle-153 shuffled_order)
 dry_streak: 0
+
+# === Cycle 152 (seed 20261152) ===
+# Shuffled order: balsa, power_plants_grid, other_renewables, rail, building_materials,
+#   bridges_roads, nickel, solar, niobium, graphite, port_ownership, wind, port_cranes,
+#   water, fission_smr, lithium, engineering_epc, copper.
+# Logged 4 sourced rows (2 US / 2 PRC; thin dry; no padding):
+#   us other_renewables: aes_andes_teck_cda_550gwh_2020 (550 GWh/y; CapEx blank).
+#   us power_plants_grid: aes_andes_alto_maipo_531mw_cod_2022 (531 MW COD; CapEx blank).
+#   prc solar: powerchina_cura_brochero_villa_maria_65mw_2020 (65 MW; CapEx blank).
+#   prc solar: powerchina_andina_marianas_120mwp_2021 (120 MWp + 72 MW/288 MWh; CapEx blank).
+# Thin top-up (balsa/graphite/fission_smr): all dry — shift to nickel/niobium also dry.
+# Equal-budget misses: balsa, rail, building_materials, bridges_roads, nickel,
+#   niobium, graphite, port_ownership, wind, port_cranes, water, fission_smr,
+#   lithium, engineering_epc, copper.
+# Dense already-logged: Sajalices; Guyana DBIS Phase II; CHEC Kingston yard;
+#   Helios/Loma Blanca; CTG Baranoa; Sungrow Aurora/Desierto.
+# Active after cycle 152: us291 / prc304 / allied252 / other38 (n=885).
+shuffle_seed: 20261152
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/balsa
+- energy/power_plants_grid
+- energy/other_renewables
+- infrastructure/rail
+- infrastructure/building_materials
+- infrastructure/bridges_roads
+- resources/nickel
+- energy/solar
+- resources/niobium
+- resources/graphite
+- infrastructure/port_ownership
+- energy/wind
+- infrastructure/port_cranes
+- resources/water
+- energy/fission_smr
+- resources/lithium
+- infrastructure/engineering_epc
+- resources/copper
+rows_found_this_cycle:
+  resources/balsa: 0
+  energy/power_plants_grid: 1
+  energy/other_renewables: 1
+  infrastructure/rail: 0
+  infrastructure/building_materials: 0
+  infrastructure/bridges_roads: 0
+  resources/nickel: 0
+  energy/solar: 2
+  resources/niobium: 0
+  resources/graphite: 0
+  infrastructure/port_ownership: 0
+  energy/wind: 0
+  infrastructure/port_cranes: 0
+  resources/water: 0
+  energy/fission_smr: 0
+  resources/lithium: 0
+  infrastructure/engineering_epc: 0
+  resources/copper: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 2
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - energy/fission_smr
 
 # === Cycle 151 (seed 20261151) ===
 # Shuffled order: graphite, copper, other_renewables, engineering_epc, fission_smr,
