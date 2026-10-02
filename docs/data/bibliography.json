@@ -15554,5 +15554,77 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "aes_andes_solar_iib_cod_20230725",
+    "type": "company",
+    "chicago": "AES Andes. “Historic Milestone for AES Andes: Latin America’s Largest Solar Battery Storage System Goes into Operation.” July 25, 2023. https://www.aesandes.com/en/press-release/historic-milestone-aes-andes-latin-americas-largest-solar-battery-storage-system-goes.",
+    "url": "https://www.aesandes.com/en/press-release/historic-milestone-aes-andes-latin-americas-largest-solar-battery-storage-system-goes",
+    "annotation": "AES Andes: Andes Solar IIb 180 MW + 112 MW/5h BESS COD. Supports aes_andes_solar_iib_180mw_cod_2023.",
+    "supports": [
+      "aes_andes_solar_iib_180mw_cod_2023",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "aes_andes_solar_iib_180mw_cod_2023",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_andes_virtual_reservoir_ii_20231205",
+    "type": "company",
+    "chicago": "AES Andes. “AES Andes adds a new storage facility to its portfolio and strengthens its technological leadership in the region.” December 5, 2023. https://www.aesandes.com/en/press-release/aes-andes-suma-nuevo-parque-de-almacenamiento-su-portafolio-y-afianza-liderazgo.",
+    "url": "https://www.aesandes.com/en/press-release/aes-andes-suma-nuevo-parque-de-almacenamiento-su-portafolio-y-afianza-liderazgo",
+    "annotation": "AES Andes: Virtual Reservoir II COD (up to 197 MWh). Supports aes_andes_virtual_reservoir_ii_cod_2023.",
+    "supports": [
+      "aes_andes_virtual_reservoir_ii_cod_2023",
+      "hunt_energy_other_renewables"
+    ],
+    "map_supports": [
+      "aes_andes_virtual_reservoir_ii_cod_2023",
+      "hunt_energy_other_renewables"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "powerchina_ar_tamberias_diaguitas",
+    "type": "company",
+    "chicago": "POWERCHINA Ltd. Sucursal Argentina. “Parque Solar Tamberías y Diaguitas.” https://www.powerchina.com.ar/tamberias.html.",
+    "url": "https://www.powerchina.com.ar/tamberias.html",
+    "annotation": "POWERCHINA Argentina: Tamberías+Diaguitas ~6 MWp; ~USD 5m (proxy). Supports powerchina_tamberias_diaguitas_5m_2019.",
+    "supports": [
+      "powerchina_tamberias_diaguitas_5m_2019",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_tamberias_diaguitas_5m_2019"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "crec_egd_highway_guyana_2023",
+    "type": "company",
+    "chicago": "China Railway Group Limited. “The President of Guyana attended the opening ceremony of the EGD Highway project.” October 2023. https://www.crecg.com/zgztywz/cs11/10210606/2025021110100515448/index.html.",
+    "url": "https://www.crecg.com/zgztywz/cs11/10210606/2025021110100515448/index.html",
+    "annotation": "CREC/TIESIJU: EGD Highway Bid 9 Georgetown opening. Supports crec_egd_highway_bid9_guyana_2023.",
+    "supports": [
+      "crec_egd_highway_bid9_guyana_2023",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "crec_egd_highway_bid9_guyana_2023",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
