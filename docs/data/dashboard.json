@@ -88,18 +88,18 @@
     }
   },
   "meta": {
-    "n_rows": 970,
+    "n_rows": 976,
     "counts": {
-      "total": 970,
-      "active": 878,
+      "total": 976,
+      "active": 884,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 745,
-      "on_map": 861
+      "documented": 751,
+      "on_map": 867
     }
   },
   "layer_readouts": [
@@ -108,8 +108,8 @@
       "counts": {
         "us": 184,
         "prc": 98,
-        "allied": 95,
-        "n": 377
+        "allied": 96,
+        "n": 378
       },
       "usd": {
         "us": 9641690271.130001,
@@ -130,9 +130,9 @@
       "layer": "resources",
       "counts": {
         "us": 72,
-        "prc": 42,
+        "prc": 43,
         "allied": 109,
-        "n": 223
+        "n": 224
       },
       "usd": {
         "us": 26542428541.52,
@@ -152,14 +152,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 97,
-        "prc": 104,
-        "allied": 75,
-        "n": 276
+        "us": 99,
+        "prc": 105,
+        "allied": 76,
+        "n": 280
       },
       "usd": {
-        "us": 18127323737.670002,
-        "us_n": 39,
+        "us": 19477623737.670002,
+        "us_n": 41,
         "prc": 4574477608.25,
         "prc_n": 14,
         "allied": 4897299849.38,
@@ -213,8 +213,8 @@
       "counts": {
         "us": 5,
         "prc": 0,
-        "allied": 0,
-        "n": 5
+        "allied": 1,
+        "n": 6
       },
       "usd": {
         "us": 472548290.34000003,
@@ -233,7 +233,7 @@
         "infrastructure": {
           "us": 3,
           "prc": 0,
-          "allied": 0
+          "allied": 1
         }
       }
     },
@@ -241,9 +241,9 @@
       "country": "Barbados",
       "counts": {
         "us": 0,
-        "prc": 1,
-        "allied": 0,
-        "n": 1
+        "prc": 2,
+        "allied": 1,
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -254,9 +254,14 @@
         "allied_n": 0
       },
       "by_layer": {
+        "energy": {
+          "us": 0,
+          "prc": 0,
+          "allied": 1
+        },
         "resources": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         }
       }
@@ -294,9 +299,9 @@
       "country": "Bolivia",
       "counts": {
         "us": 0,
-        "prc": 2,
+        "prc": 3,
         "allied": 0,
-        "n": 2
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -309,7 +314,7 @@
       "by_layer": {
         "energy": {
           "us": 0,
-          "prc": 1,
+          "prc": 2,
           "allied": 0
         },
         "infrastructure": {
@@ -937,14 +942,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 91,
+        "us": 93,
         "prc": 0,
         "allied": 8,
-        "n": 99
+        "n": 101
       },
       "usd": {
-        "us": 7299591201.0700035,
-        "us_n": 89,
+        "us": 8649891201.070004,
+        "us_n": 91,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -952,7 +957,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 16,
+          "us": 18,
           "prc": 0,
           "allied": 4
         },
@@ -1952,7 +1957,13 @@
       "rb_degetau_hurricane_recovery_2019",
       "consigli_ceiba_afrc_2009",
       "cscg_mayaguez_cbp_2022",
-      "fr_buchanan_astb_2025"
+      "fr_buchanan_astb_2025",
+      "windey_warnes_ii_bolivia_45mw_2025",
+      "vergnet_claybury_barbados_2025",
+      "konecranes_arawak_nassau_esp6_2024",
+      "crseg_barbados_south_coast_water_2026",
+      "pattern_amanecer_doe_edf_489m_pr_2026",
+      "aes_marahu_doe_lpo_861m_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",

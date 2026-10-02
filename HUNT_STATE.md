@@ -1,11 +1,50 @@
 updated: 2026-10-02
-cycle: 128
+cycle: 129
 remote: present
-active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 129 shuffle_seed=20261129; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us353/prc245/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. US federal residual still yielding named GTMO/PR/Bahamas packages; PRC OEM/regulator thin-pass remains dry for balsa/graphite/nickel/fission_smr.
-next_row_id: (follow cycle-129 shuffled_order)
+active_layer: energy
+active_subcategory: solar
+next_query: Cycle 130 shuffle_seed=20261130; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us355/prc247/allied245); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: convergent_doe_lpo_584m_pr_2025, tesla_genera_pr_bess_430mw_2025, liebherr_antigua_lhm420_2025, alstom_panama_metro_maint_90m_2026, nfe_portocem / sandino if primaries open.
+next_row_id: (follow cycle-130 shuffled_order)
 dry_streak: 0
+
+# === Cycle 129 (seed 20261129) ===
+# Shuffled order: wind, graphite, engineering_epc, balsa, port_cranes, copper,
+#   lithium, water, bridges_roads, solar, building_materials, niobium,
+#   other_renewables, power_plants_grid, rail, nickel, fission_smr, port_ownership.
+# Logged 6 sourced rows (2 US / 2 PRC / 2 allied; thin dry; no padding) from
+#   Hunt C96/C97 verified unlogged leads:
+#   prc wind: windey_warnes_ii_bolivia_45mw_2025 (ENDE WD156-4500).
+#   allied wind: vergnet_claybury_barbados_2025 (EUR 1.6m).
+#   allied port_cranes: konecranes_arawak_nassau_esp6_2024.
+#   prc water: crseg_barbados_south_coast_water_2026 (BWA Component 1).
+#   us other_renewables: pattern_amanecer_doe_edf_489m_pr_2026 (USD 489m).
+#   us solar: aes_marahu_doe_lpo_861m_2024 (USD 861.3m).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: graphite, engineering_epc, balsa, copper, lithium,
+#   bridges_roads, building_materials, niobium, power_plants_grid, rail, nickel,
+#   fission_smr, port_ownership.
+# Active after cycle 129: us355 / prc247 / allied245 / other37 (n=884).
+shuffle_seed: 20261129
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- energy/wind
+- resources/graphite
+- infrastructure/engineering_epc
+- resources/balsa
+- infrastructure/port_cranes
+- resources/copper
+- resources/lithium
+- resources/water
+- infrastructure/bridges_roads
+- energy/solar
+- infrastructure/building_materials
+- resources/niobium
+- energy/other_renewables
+- energy/power_plants_grid
+- infrastructure/rail
+- resources/nickel
+- energy/fission_smr
+- infrastructure/port_ownership
 
 # === Cycle 128 (seed 20261128) ===
 # Shuffled order: balsa, port_cranes, building_materials, lithium, nickel, rail,
