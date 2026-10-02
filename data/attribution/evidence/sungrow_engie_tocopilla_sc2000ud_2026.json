@@ -1,0 +1,10 @@
+{
+  "id": "sungrow_engie_tocopilla_sc2000ud_2026",
+  "retrieved": "2026-10-02",
+  "source_id": "cen_bess_tocopilla_ppyd_202601",
+  "url": "https://www.coordinador.cl/wp-content/uploads/2026/01/A-1281-Engie-BESS-Tocopilla-Informe-de-Determinacion-de-Parametros-de-Partida-y-Detencion-V3.pdf",
+  "price_year": "2026",
+  "evidence": "documented",
+  "quote": "El sistema de almacenamiento de energía BESS Tocopilla… está constituido sesenta (60) inversores marca Sungrow, modelo SC2000UD, de 2 MVA de capacidad nominal y 800V de tensión nominal. El BESS Tocopilla es del tipo stand alone, de una potencia comprometida en el POI de 116 MW y una capacidad de almacenamiento de 5 h de duración.",
+  "note": "Opened CEN PDF 2026-10-02."
+}
