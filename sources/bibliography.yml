@@ -9547,3 +9547,41 @@
   supports:
   - promigas_zelestra_latam_1p1bn_2026
   - hunt_energy_other_renewables
+- id: nfe_tgs_lease_20260331
+  type: company
+  chicago: New Fortress Energy Inc. “New Fortress Energy Brazil Enters into Terminal Lease Agreement for
+    TGS.” Investor Relations, March 31, 2026. https://ir.newfortressenergy.com/news-releases/news-release-details/new-fortress-energy-brazil-enters-terminal-lease-agreement-tgs.
+  url: https://ir.newfortressenergy.com/news-releases/news-release-details/new-fortress-energy-brazil-enters-terminal-lease-agreement-tgs
+  annotation: NFE UTE Lins 2 COD ~2031 via TGS supply; CapEx blank. Supports nfe_ute_lins2_brazil_2031.
+  supports:
+  - nfe_tgs_lease_brazil_2026
+  - hunt_infra_port_ownership
+  - nfe_ute_lins2_brazil_2031
+  - hunt_energy_power_plants_grid
+- id: zijin_longking_rosebel_p2_cninfo_2026
+  type: company
+  chicago: Zijin Longking Environmental Protection New Energy Co., Ltd. “关于投资建设苏里南罗斯贝尔金矿二期光储项目的公告.” Announcement
+    2026-072, September 23, 2026. http://static.cninfo.com.cn/finalpage/2026-09-24/1225578350.PDF.
+  url: http://static.cninfo.com.cn/finalpage/2026-09-24/1225578350.PDF
+  annotation: 'Cninfo primary: Rosebel P2 170 MWp + 120 MW/120 MWh; ~USD 150m. Supports zijin_longking_rosebel_p2_suriname_150m_2026.'
+  supports:
+  - zijin_longking_rosebel_p2_suriname_150m_2026
+  - hunt_energy_solar
+- id: zijin_longking_aurora_ug_cninfo_2026
+  type: company
+  chicago: Zijin Longking Environmental Protection New Energy Co., Ltd. “关于投资建设圭亚那奥罗拉金矿地采厂光储项目的公告.” September
+    23, 2026. http://static.cninfo.com.cn/finalpage/2026-09-24/1225578342.PDF.
+  url: http://static.cninfo.com.cn/finalpage/2026-09-24/1225578342.PDF
+  annotation: 'Cninfo primary: Aurora UG 45 MWp + 50 MW/100 MWh; ~USD 55.24m. Supports zijin_longking_aurora_ug_guyana_55p24m_2026.'
+  supports:
+  - zijin_longking_aurora_ug_guyana_55p24m_2026
+  - hunt_energy_solar
+- id: zijin_longking_aurora_conc_p3_cninfo_2026
+  type: company
+  chicago: Zijin Longking Environmental Protection New Energy Co., Ltd. “关于投资建设圭亚那奥罗拉金矿选矿厂三期光储项目的公告.”
+    September 23, 2026. http://static.cninfo.com.cn/finalpage/2026-09-24/1225578337.PDF.
+  url: http://static.cninfo.com.cn/finalpage/2026-09-24/1225578337.PDF
+  annotation: 'Cninfo primary: Aurora concentrator P3 15 MWp + 20 MW/80 MWh; ~USD 26.62m. Supports zijin_longking_aurora_conc_p3_guyana_26p62m_2026.'
+  supports:
+  - zijin_longking_aurora_conc_p3_guyana_26p62m_2026
+  - hunt_energy_solar

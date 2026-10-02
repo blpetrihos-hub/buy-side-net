@@ -1,11 +1,78 @@
 updated: 2026-10-02
-cycle: 135
+cycle: 136
 remote: present
 active_layer: energy
-active_subcategory: other_renewables
-next_query: Cycle 136 shuffle_seed=20261136; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us267/prc270/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 3 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories.
-next_row_id: (follow cycle-136 shuffled_order)
+active_subcategory: power_plants_grid
+next_query: Cycle 137 shuffle_seed=20261137; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us269/prc273/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite then fission_smr/nickel. PRC ahead by 4 — keep equal US/PRC budget without padding. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Holdovers: vestas named Esperanza if distinct primary opens. No U.S. territories.
+next_row_id: (follow cycle-137 shuffled_order)
 dry_streak: 0
+
+# === Cycle 136 (seed 20261136) ===
+# Shuffled order: bridges_roads, other_renewables, engineering_epc, graphite,
+#   copper, fission_smr, port_cranes, nickel, wind, water, building_materials,
+#   port_ownership, solar, balsa, niobium, rail, lithium, power_plants_grid.
+# Logged 5 sourced rows (2 US / 3 PRC; thin dry; no padding):
+#   us port_ownership: nfe_tgs_lease_brazil_2026 (TGS lease Aug 2026; CapEx blank).
+#   us power_plants_grid: nfe_ute_lins2_brazil_2031 (auction award; COD ~2031; CapEx blank).
+#   prc solar: zijin_longking_rosebel_p2_suriname_150m_2026 (170 MWp+120 MW/120 MWh; USD 150m).
+#   prc solar: zijin_longking_aurora_ug_guyana_55p24m_2026 (45 MWp+50 MW/100 MWh; USD 55.24m).
+#   prc solar: zijin_longking_aurora_conc_p3_guyana_26p62m_2026 (15 MWp+20 MW/80 MWh; USD 26.62m).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: bridges_roads, other_renewables, engineering_epc, graphite,
+#   copper, fission_smr, port_cranes, nickel, wind, water, building_materials,
+#   balsa, niobium, rail, lithium.
+# Active after cycle 136: us269 / prc273 / allied243 / other38 (n=823).
+shuffle_seed: 20261136
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/bridges_roads
+- energy/other_renewables
+- infrastructure/engineering_epc
+- resources/graphite
+- resources/copper
+- energy/fission_smr
+- infrastructure/port_cranes
+- resources/nickel
+- energy/wind
+- resources/water
+- infrastructure/building_materials
+- infrastructure/port_ownership
+- energy/solar
+- resources/balsa
+- resources/niobium
+- infrastructure/rail
+- resources/lithium
+- energy/power_plants_grid
+rows_found_this_cycle:
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 0
+  infrastructure/engineering_epc: 0
+  resources/graphite: 0
+  resources/copper: 0
+  energy/fission_smr: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  energy/wind: 0
+  resources/water: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 1
+  energy/solar: 3
+  resources/balsa: 0
+  resources/niobium: 0
+  infrastructure/rail: 0
+  resources/lithium: 0
+  energy/power_plants_grid: 1
+rows_by_side_this_cycle:
+  us: 2
+  prc: 3
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 135 (seed 20261135) ===
 # Shuffled order: wind, copper, other_renewables, port_cranes, fission_smr,
