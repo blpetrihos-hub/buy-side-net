@@ -9769,3 +9769,40 @@
   supports:
   - aes_andes_solar_iv_cod_2024
   - hunt_energy_other_renewables
+- id: anla_aes_solar3_tolima_20250911
+  type: government
+  chicago: Autoridad Nacional de Licencias Ambientales (ANLA). “Luz verde al Parque Fotovoltaico AES Solar
+    3 y a la Subestación Huila 230 kV con sus líneas de conexión.” September 11, 2025. https://www.anla.gov.co/noticias-anla/luz-verde-al-parque-fotovoltaico-aes-solar-3-y-a-la-subestacion-huila-230-kv-con-sus-lineas-de-conexion.
+  url: https://www.anla.gov.co/noticias-anla/luz-verde-al-parque-fotovoltaico-aes-solar-3-y-a-la-subestacion-huila-230-kv-con-sus-lineas-de-conexion
+  annotation: 'ANLA primary: AES Solar 3 100 MW environmental license Tolima. Supports aes_colombia_solar3_anla_100mw_2025.'
+  supports:
+  - aes_colombia_solar3_anla_100mw_2025
+  - hunt_energy_solar
+- id: yidaiyilu_powerchina_barueri_wte_20251104
+  type: government
+  chicago: Belt and Road Portal (citing Xinhua). “中企承建垃圾发电站助力巴西‘变废为能’.” November 4, 2025. https://www.yidaiyilu.gov.cn/p/070OB3ME.html.
+  url: https://www.yidaiyilu.gov.cn/p/070OB3ME.html
+  annotation: 'BRI/Xinhua primary: POWERCHINA Barueri WtE 19.1 MW / 870 t/day under construction. Supports
+    powerchina_barueri_wte_brazil_2025.'
+  supports:
+  - powerchina_barueri_wte_brazil_2025
+  - hunt_energy_other_renewables
+- id: acciona_energia_san_juan_marcona_sale_20251216
+  type: company
+  chicago: ACCIONA Energía. “ACCIONA Energía completes the sale of San Juan de Marcona wind farm in Perú.”
+    December 16, 2025. https://www.acciona-energia.com/updates/news/acciona-energia-completes-sale-san-juan-marcona-wind-farm-peru.
+  url: https://www.acciona-energia.com/updates/news/acciona-energia-completes-sale-san-juan-marcona-wind-farm-peru
+  annotation: 'ACCIONA Energía primary: San Juan de Marcona 135.7 MW sold to CTG Luz del Sur for USD 256m.
+    Supports ctg_lds_red_coral_marcona_256m_2025.'
+  supports:
+  - ctg_lds_red_coral_marcona_256m_2025
+  - hunt_energy_wind
+- id: aes_andes_san_matias_cod_20240627
+  type: company
+  chicago: AES Andes. “AES Andes initiates commercial operation of San Matías and consolidates its wind
+    generation in Biobío.” June 27, 2024. https://www.aesandes.com/en/press-release/aes-andes-initiates-commercial-operation-san-matias-and-consolidates-its-wind.
+  url: https://www.aesandes.com/en/press-release/aes-andes-initiates-commercial-operation-san-matias-and-consolidates-its-wind
+  annotation: 'AES Andes primary: San Matías 78 MW wind COD Jun 2024. Supports aes_andes_san_matias_cod_2024.'
+  supports:
+  - aes_andes_san_matias_cod_2024
+  - hunt_energy_wind
