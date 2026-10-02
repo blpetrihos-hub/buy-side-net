@@ -6146,3 +6146,76 @@
   supports:
   - catl_moura_lrcap_partnership_brazil_2026
   - hunt_energy_other_renewables
+
+- id: atlas_shangri_la_20251112
+  type: company
+  chicago: Atlas Renewable Energy. “Atlas Renewable Energy inaugurates Shangri-La, one of the largest
+    solar projects in Colombia.” 12 November 2025.
+  url: https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-inaugurates-shangri-la-one-of-the-largest-solar-projects-in-colombia/
+  annotation: Atlas Shangri-La 201 MWp Ibagué COD/inauguration. Supports atlas_shangri_la_colombia_201mwp_2025.
+  supports:
+  - atlas_shangri_la_colombia_201mwp_2025
+  - hunt_energy_solar
+- id: atlas_bess_del_desierto_20250424
+  type: company
+  chicago: Atlas Renewable Energy. “Atlas Renewable Energy Bets on BESS to Strengthen Latin America’s
+    Energy Matrix.” 24 April 2025.
+  url: https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-bets-on-bess-to-strengthen-latin-americas-energy-matrix/
+  annotation: Atlas BESS del Desierto 200 MW / 800 MWh inauguration. Supports atlas_bess_del_desierto_chile_2025.
+  supports:
+  - atlas_bess_del_desierto_chile_2025
+  - hunt_energy_other_renewables
+- id: aes_chile_gbm_sponsor_20260227
+  type: company
+  chicago: AES Andes. “AES Chile receives prestigious ‘Sponsor of the Year’ recognition from GB&M.”
+    27 February 2026.
+  url: https://www.aesandes.com/en/press-release/aes-chile-receives-prestigious-sponsor-year-recognition-gbm
+  annotation: AES Atacama BESS 250 MW named among five Chile PF projects. Supports aes_atacama_bess_250mw_chile_2026.
+  supports:
+  - aes_atacama_bess_250mw_chile_2026
+  - hunt_energy_other_renewables
+- id: aes_chile_atacama_solar_20250109
+  type: company
+  chicago: AES Andes. “AES Chile acquires Atacama Solar photovoltaic plant.” 9 January 2025.
+  url: https://www.aesandes.com/en/press-release/aes-chile-acquires-atacama-solar-photovoltaic-plant
+  annotation: AES Pacífico acquires Sonnedix Atacama Solar 171 MWp (Tarapacá). Supports
+    aes_atacama_solar_acquisition_2025.
+  supports:
+  - aes_atacama_solar_acquisition_2025
+  - hunt_energy_solar
+- id: powerchina_honduras_enee_20250526
+  type: company
+  chicago: POWERCHINA. “POWERCHINA secures Honduras transmission project.” 26 May 2025.
+  url: https://en.powerchina.cn/2025-05/26/c_828948.htm
+  annotation: POWERCHINA–ENEE 230 kV / ~176 km EPC. Supports powerchina_honduras_enee_230kv_2025.
+  supports:
+  - powerchina_honduras_enee_230kv_2025
+  - hunt_br_power_equip
+- id: powerchina_chile_g15_g04_20250619
+  type: company
+  chicago: POWERCHINA. “POWERCHINA secures transmission expansion projects in Chile.” 19 June 2025.
+  url: https://en.powerchina.cn/2025-06/19/c_828966.htm
+  annotation: POWERCHINA G04 San Juan/Algarrobal 220 kV substation EPC. Supports
+    powerchina_chile_g04_san_juan_algarrobal_2025.
+  supports:
+  - powerchina_chile_g04_san_juan_algarrobal_2025
+  - hunt_br_power_equip
+- id: chec_posorja_acceptance_20260422
+  type: company
+  chicago: China Harbour Engineering Company (CHEC Americas). “Posorja Multipurpose Terminal Expansion
+    Project in Ecuador Completes Final Acceptance.” 22 April 2026.
+  url: https://www.checamerica.com/blog/2026/04/22/proyecto-de-ampliacion-del-muelle-multifuncional-de-posorja-en-ecuador-completa-su-recepcion-de-obra/
+  annotation: CHEC Posorja multipurpose terminal expansion final acceptance. Supports
+    chec_posorja_multipurpose_2026.
+  supports:
+  - chec_posorja_multipurpose_2026
+  - hunt_infra_engineering_epc
+- id: radiouno_boca_del_rio_20251023
+  type: journalism
+  chicago: "Radio Uno. “Doble vía a Boca del Río sí va con empresa china.” 23 October 2025."
+  url: https://radiouno.pe/noticias/256647/si-va-doble-via-a-boca-del-rio/
+  annotation: UNVERIFIED proxy CGGC Consorcio Vial Sama Tacna–Boca del Río PEN 608.6m. Supports
+    cggc_boca_del_rio_tacna_608m_2025.
+  supports:
+  - cggc_boca_del_rio_tacna_608m_2025
+  - hunt_infra_bridges_roads
