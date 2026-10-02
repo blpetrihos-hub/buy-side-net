@@ -14977,5 +14977,95 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_futron_san_salvador_20220616",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting futron_san_salvador_csu_2022. Signed 2022-06-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0119_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0119_1900_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports futron_san_salvador_csu_2022.",
+    "supports": [
+      "futron_san_salvador_csu_2022",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "futron_san_salvador_csu_2022",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cce_bogota_annex_20050926",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting cce_bogota_annex_2005. Signed 2005-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0042_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0042_1900_-NONE-_-NONE-/",
+    "annotation": "Primary source. Supports cce_bogota_annex_2005.",
+    "supports": [
+      "cce_bogota_annex_2005",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "cce_bogota_annex_2005",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_src_tegucigalpa_pe_20190606",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting src_tegucigalpa_nec_pe_2019. Signed 2019-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1926_1900_SAQMMA13D0078_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1926_1900_SAQMMA13D0078_1900/",
+    "annotation": "Primary source. Supports src_tegucigalpa_nec_pe_2019.",
+    "supports": [
+      "src_tegucigalpa_nec_pe_2019",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "src_tegucigalpa_nec_pe_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ics_borinquen_hangar_20190918",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting ics_borinquen_hangar_2019. Signed 2019-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08219FPACP3500_7008_70Z08219DPMV23300_7008/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z08219FPACP3500_7008_70Z08219DPMV23300_7008/",
+    "annotation": "Primary source. Supports ics_borinquen_hangar_2019.",
+    "supports": [
+      "ics_borinquen_hangar_2019",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "ics_borinquen_hangar_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_cauchari_handover_20231026",
+    "type": "company",
+    "chicago": "POWERCHINA. “Cauchari Solar Park Phase I handed over in Argentina.” 26 October 2023. https://en.powerchina.cn/2023-10/26/c_828607.htm.",
+    "url": "https://en.powerchina.cn/2023-10/26/c_828607.htm",
+    "annotation": "POWERCHINA English primary on Cauchari 315 MW EPC/handover and CHEXIM finance. CapEx not stated. Supports powerchina_cauchari_solar_epc_2020.",
+    "supports": [
+      "powerchina_cauchari_solar_epc_2020",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_cauchari_solar_epc_2020"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 940,
+    "n_rows": 945,
     "counts": {
-      "total": 940,
-      "active": 848,
+      "total": 945,
+      "active": 853,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 715,
-      "on_map": 831
+      "documented": 720,
+      "on_map": 836
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 163,
+        "us": 167,
         "prc": 97,
         "allied": 95,
-        "n": 355
+        "n": 359
       },
       "usd": {
-        "us": 9090348519.559998,
-        "us_n": 95,
+        "us": 9162418011.319998,
+        "us_n": 99,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -153,9 +153,9 @@
       "layer": "energy",
       "counts": {
         "us": 95,
-        "prc": 100,
+        "prc": 101,
         "allied": 75,
-        "n": 270
+        "n": 271
       },
       "usd": {
         "us": 18076238222.54,
@@ -178,9 +178,9 @@
       "country": "Argentina",
       "counts": {
         "us": 17,
-        "prc": 21,
+        "prc": 22,
         "allied": 27,
-        "n": 65
+        "n": 66
       },
       "usd": {
         "us": 7270869147.0,
@@ -193,7 +193,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 5,
+          "prc": 6,
           "allied": 11
         },
         "infrastructure": {
@@ -366,14 +366,14 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 8,
+        "us": 9,
         "prc": 14,
         "allied": 10,
-        "n": 32
+        "n": 33
       },
       "usd": {
-        "us": 227600000.0,
-        "us_n": 2,
+        "us": 250706908.27,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 667000000.0,
@@ -386,7 +386,7 @@
           "allied": 2
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 3,
           "allied": 6
         },
@@ -550,14 +550,14 @@
     {
       "country": "El Salvador",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 2,
         "allied": 2,
-        "n": 10
+        "n": 11
       },
       "usd": {
-        "us": 13100000.0,
-        "us_n": 2,
+        "us": 42000833.989999995,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 150000000.0,
@@ -570,7 +570,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 0,
+          "us": 1,
           "prc": 0,
           "allied": 1
         },
@@ -695,14 +695,14 @@
     {
       "country": "Honduras",
       "counts": {
-        "us": 4,
+        "us": 5,
         "prc": 2,
         "allied": 1,
-        "n": 7
+        "n": 8
       },
       "usd": {
-        "us": 320215569.46000004,
-        "us_n": 2,
+        "us": 337125504.96000004,
+        "us_n": 3,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 100000000.0,
@@ -715,7 +715,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 3,
+          "us": 4,
           "prc": 0,
           "allied": 1
         }
@@ -903,14 +903,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 85,
+        "us": 86,
         "prc": 0,
         "allied": 8,
-        "n": 93
+        "n": 94
       },
       "usd": {
-        "us": 7168822963.0700035,
-        "us_n": 83,
+        "us": 7171974777.0700035,
+        "us_n": 84,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -923,7 +923,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 54,
+          "us": 55,
           "prc": 0,
           "allied": 4
         },
@@ -1888,7 +1888,12 @@
       "vistas_porto_alegre_consulate_2015",
       "rb_buchanan_readiness_2012",
       "qb_munoz_ang_comms_2021",
-      "teksol_pier_echo_2025"
+      "teksol_pier_echo_2025",
+      "futron_san_salvador_csu_2022",
+      "cce_bogota_annex_2005",
+      "src_tegucigalpa_nec_pe_2019",
+      "ics_borinquen_hangar_2019",
+      "powerchina_cauchari_solar_epc_2020"
     ],
     "hunt": [
       "hunt_br_power_equip",
