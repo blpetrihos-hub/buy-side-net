@@ -1,0 +1,10 @@
+{
+  "id": "nov_acu_lease_expansion_2047_2026",
+  "retrieved": "2026-10-02",
+  "source_id": "datamar_nov_acu_lease_2026",
+  "url": "https://datamarnews.com/noticias/port-of-acu-and-nov-sign-agreement-to-expand-operations-in-brazil/",
+  "price_year": "2026",
+  "evidence": "proxy",
+  "quote": "The project includes a 30,000 m² expansion of the company’s area, increasing from the current 121,000 m² to 151,000 m². The new contract, valid through 2047, will enhance logistics and storage capacity for flexible pipes and related equipment.",
+  "note": "UNVERIFIED proxy: DatamarNews summarizing Port of Açu–NOV lease expansion; CapEx blank. Distinct from nov_acu_flexible_pipe_200m_2026 manufacturing CapEx."
+}
