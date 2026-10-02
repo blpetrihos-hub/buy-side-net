@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 76
+cycle: 77
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 77 shuffle_seed=20261077; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us179/prc176/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (23) then graphite/balsa/fission_smr (24/24/24). Keep US/PRC even split.
-next_row_id: (follow cycle-77 shuffled_order)
+next_query: Cycle 78 shuffle_seed=20261078; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us183/prc180/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (22) then graphite/balsa/fission_smr (23/23/23). Keep US/PRC even split.
+next_row_id: (follow cycle-78 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,86 +17,88 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 76 pre-merge:
-# - Atlas Luiz Carlos Side B BOT tagged us (Miami HQ / GIP). USTDA Atlántico data-
-#   center TA + COCESNA cyber TA tagged us (U.S. government). SLB Neuro/DrillOps
-#   Guyana tagged us (Houston HQ; NYSE:SLB).
-# - CHEC Jamaica Affordable Housing Phase II, Morant Bay Urban Centre, Guyana AC
-#   Marriott, and Impro Mexico SLP tagged prc (CHEC/CCCC PRC SOE).
+# Side-tag audit (cycles 57–63) — cycle 77 pre-merge:
+# - SLB Rio Decommissioning Center tagged us (Houston HQ). Baker Hughes YPF Lucida
+#   RSS / PermaFORCE tagged us (Houston HQ). Atlas Uruguay 76 MWp solar sale tagged
+#   us (Miami HQ / GIP). AES Andes Chile US$1.745bn five-project PF tagged us (AES
+#   Corp U.S. parent / AES Pacífico).
+# - CHEC Amador Cruise Terminal, Lakes Pen Industrial Park design-build, and NMIA
+#   runway RESA tagged prc (CHEC/CCCC PRC SOE). SUMEC–XJ Onderneeming solar COD
+#   tagged prc (SUMEC/SINOMACH + XJ Group PRC).
 # - Re-checked cycles 57–63: no Shell/ACCIONA/AFRY/Golar us mislabels remain.
-#   Halliburton/Weatherford–Shell client rows correctly us (U.S. OFS HQ).
 #   No side-tag fixes this cycle.
-# - Skipped Atlas USD 3bn refinance / Estepa / Copiapó / El Campano (already logged).
-#   Skipped Wabtec Vale PTC (already wabtec_vale_ptc_brl1bn_2026). Skipped
-#   Halliburton Bumerangue/YPF Zeus / Pampa digital (already logged). Skipped
-#   POWERCHINA Palmira/Francisco Juana/Ituango/Chancay rail (already). Skipped
-#   CRTG Molinopampa press without opened Provías PDF. Skipped DFC Serra Verde
-#   USD 565m (rare-earths — outside 18-subcat list). Skipped AES Bolero COD press
-#   without AES company USD primary (aes_bolero_bess_146mw already).
+# - Skipped USTDA Honduras CONFI / Ecuador CNEL ADMS / ARCONEL (already logged).
+#   Skipped Halliburton YPF ZEUS / Baker San Matías NovaLT / Weatherford Constellation
+#   Brazil / SLB Amapá 3D / GE Vernova Azulão I & São Simão UG3 (already). Skipped
+#   CHEC Kingston yard Phase I / SPARK / Montego Bay / Route 32 / Fourth Bridge
+#   (already). Skipped POWERCHINA Catac / Piauí 500 kV / Chancay rail / CRCC Batuco
+#   / CATL La Alegría / CRI electrification (already). Skipped CREC Onderneeming
+#   claim (DPI/Stabroek attribute SUMEC–XJ). Thin nickel/graphite/balsa/fission_smr
+#   miss (no new non-duplicate primaries this cycle).
 
-shuffle_seed: 20261076
+shuffle_seed: 20261077
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/balsa
-- infrastructure/engineering_epc
-- energy/wind
-- resources/lithium
 - energy/power_plants_grid
-- infrastructure/bridges_roads
+- energy/fission_smr
+- infrastructure/rail
+- infrastructure/engineering_epc
 - infrastructure/building_materials
+- resources/graphite
+- energy/wind
+- infrastructure/port_cranes
+- resources/nickel
 - energy/other_renewables
+- energy/solar
+- resources/balsa
+- resources/copper
 - infrastructure/port_ownership
 - resources/niobium
-- infrastructure/port_cranes
-- energy/fission_smr
-- resources/copper
-- resources/nickel
+- resources/lithium
 - resources/water
-- energy/solar
-- infrastructure/rail
-- resources/graphite
+- infrastructure/bridges_roads
 
 rows_found_this_cycle:
-  resources/balsa: 0
-  infrastructure/engineering_epc: 4
-  energy/wind: 0
-  resources/lithium: 0
   energy/power_plants_grid: 0
-  infrastructure/bridges_roads: 0
-  infrastructure/building_materials: 3
-  energy/other_renewables: 0
+  energy/fission_smr: 0
+  infrastructure/rail: 0
+  infrastructure/engineering_epc: 4
+  infrastructure/building_materials: 1
+  resources/graphite: 0
+  energy/wind: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  energy/other_renewables: 1
+  energy/solar: 2
+  resources/balsa: 0
+  resources/copper: 0
   infrastructure/port_ownership: 0
   resources/niobium: 0
-  infrastructure/port_cranes: 0
-  energy/fission_smr: 0
-  resources/copper: 0
-  resources/nickel: 0
+  resources/lithium: 0
   resources/water: 0
-  energy/solar: 1
-  infrastructure/rail: 0
-  resources/graphite: 0
+  infrastructure/bridges_roads: 0
 
 coverage_cumulative:
-  # Active counts after cycle 76 (status=active)
-  energy/fission_smr: 24
-  energy/other_renewables: 43
-  energy/power_plants_grid: 57
-  energy/solar: 56
-  energy/wind: 29
-  infrastructure/bridges_roads: 29
+  # Active counts after cycle 77 (status=active)
+  resources/balsa: 23
+  infrastructure/bridges_roads: 28
   infrastructure/building_materials: 31
-  infrastructure/engineering_epc: 64
-  infrastructure/port_cranes: 33
-  infrastructure/port_ownership: 34
-  infrastructure/rail: 40
-  resources/balsa: 24
-  resources/copper: 30
-  resources/graphite: 24
-  resources/lithium: 35
-  resources/nickel: 23
-  resources/niobium: 26
-  resources/water: 34
+  resources/copper: 29
+  infrastructure/engineering_epc: 67
+  energy/fission_smr: 23
+  resources/graphite: 23
+  resources/lithium: 34
+  resources/nickel: 22
+  resources/niobium: 25
+  energy/other_renewables: 43
+  infrastructure/port_cranes: 32
+  infrastructure/port_ownership: 33
+  energy/power_plants_grid: 54
+  infrastructure/rail: 39
+  energy/solar: 57
+  resources/water: 33
+  energy/wind: 28
 
 rows_by_side_this_cycle:
   us: 4
@@ -111,7 +113,17 @@ thin_topup:
   - resources/graphite
   - resources/balsa
   # Hits: none.
-  # Misses: nickel, graphite, balsa (fission_smr also 24; nickel thinnest at 23).
+  # Misses: nickel, graphite, balsa (fission_smr also tied at 23; nickel thinnest at 22).
+
+# Cycle 77 (seed 20261077): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (SLB Rio Decommissioning Center us; Baker Hughes–YPF
+#   Lucida RSS/PermaFORCE 3-year us; CHEC Amador Cruise Terminal ~US$206.7m UNVERIFIED
+#   prc; CHEC NMIA runway RESA US$72m UNVERIFIED prc), solar (Atlas Uruguay 76 MWp
+#   sale us; SUMEC–XJ Onderneeming 5 MW / US$10.4m COD prc), other_renewables (AES
+#   Andes Chile five-PF US$1.745bn us), building_materials (CHEC Lakes Pen Industrial
+#   Park design-build US$20m prc).
+#   Thin_topup: nickel/graphite/balsa miss.
+#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
 
 # Cycle 76 (seed 20261076): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: engineering_epc (USTDA Atlántico data-center TA us; USTDA COCESNA
