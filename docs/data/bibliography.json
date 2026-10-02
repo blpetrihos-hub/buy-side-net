@@ -16810,5 +16810,151 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "ip_ande_chaco_220kv_20250530",
+    "type": "government",
+    "chicago": "Agencia de Información Pública (Paraguay). “ANDE firma contrato para construir línea de 220 KV e impulsar el desarrollo en el Chaco.” May 30, 2025. https://www.ip.gov.py/ip/2025/05/30/ande-firma-contrato-para-construir-linea-de-220-kv-e-impulsar-el-desarrollo-socioeconomico-en-el-chaco/.",
+    "url": "https://www.ip.gov.py/ip/2025/05/30/ande-firma-contrato-para-construir-linea-de-220-kv-e-impulsar-el-desarrollo-socioeconomico-en-el-chaco/",
+    "annotation": "Agencia IP/ANDE: Chaco 220 kV Lote 3 Abengoa Chile USD 35.7m. Supports abengoa_ande_chaco_lote3_35p7m_paraguay.",
+    "supports": [
+      "abengoa_ande_chaco_lote2_29p7m_paraguay",
+      "hunt_br_power_equip",
+      "abengoa_ande_chaco_lote3_35p7m_paraguay"
+    ],
+    "map_supports": [
+      "abengoa_ande_chaco_lote2_29p7m_paraguay",
+      "abengoa_ande_chaco_lote3_35p7m_paraguay",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "spiex_corinto_rtg_2026",
+    "type": "government",
+    "chicago": "Secretaría de Políticas e Inversiones Extranjeras (SPIEX), Nicaragua. “Puerto Corinto sigue modernizándose con cuatro nuevas grúas RTG y apiladoras.” 2026. https://spiex.gob.ni/es/noticias/puerto-corinto-sigue-modernizandose-con-cuatro-nuevas-gruas-rtg-y-apiladoras/.",
+    "url": "https://spiex.gob.ni/es/noticias/puerto-corinto-sigue-modernizandose-con-cuatro-nuevas-gruas-rtg-y-apiladoras/",
+    "annotation": "SPIEX primary: Jiangsu Rainbow 4 RTGs at Puerto Corinto. Supports jiangsu_rainbow_corinto_4rtg_nicaragua_2026.",
+    "supports": [
+      "jiangsu_rainbow_corinto_4rtg_nicaragua_2026",
+      "hunt_infra_port_cranes"
+    ],
+    "map_supports": [
+      "hunt_infra_port_cranes",
+      "jiangsu_rainbow_corinto_4rtg_nicaragua_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "trigon_cap_haitien_port_cm",
+    "type": "company",
+    "chicago": "Trigon Associates. “Construction Management Consulting Services at Cap-Haïtien Port.” https://trigonassociates.com/portfolio/construction-management-consulting-services-at-cap-haitien-port/.",
+    "url": "https://trigonassociates.com/portfolio/construction-management-consulting-services-at-cap-haitien-port/",
+    "annotation": "Trigon primary: Cap-Haïtien Port Improvement CM; Cost USD 43m. Supports trigon_cap_haitien_port_cm_43m.",
+    "supports": [
+      "trigon_cap_haitien_port_cm_43m",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "trigon_cap_haitien_port_cm_43m"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "max_resource_sierra_azul_20250225",
+    "type": "company",
+    "chicago": "Max Resource Corp. “Max Resource Reports 1.6% Copper Over 55 Metres at Sierra Azul.” February 25, 2025. https://www.maxresource.com/20250225-max-resource-reports-1.6-copper-over-55-metres-at-sierra-azul.",
+    "url": "https://www.maxresource.com/20250225-max-resource-reports-1.6-copper-over-55-metres-at-sierra-azul",
+    "annotation": "Max Resource primary: Freeport-funded USD 4.8m 2025 Sierra Azul program. Supports fcx_max_sierra_azul_4p8m_colombia_2025.",
+    "supports": [
+      "fcx_max_sierra_azul_4p8m_colombia_2025",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "fcx_max_sierra_azul_4p8m_colombia_2025",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "jps_ar_2024_solar_bess_300m",
+    "type": "company",
+    "chicago": "Jamaica Public Service Company Limited. “Annual Report 2024.” April 2025. https://www.jpsco.com/wp-content/uploads/2025/04/JPS-AR-2024-MM-FINAL-300425-SPREADS.pdf.",
+    "url": "https://www.jpsco.com/wp-content/uploads/2025/04/JPS-AR-2024-MM-FINAL-300425-SPREADS.pdf",
+    "annotation": "JPS AR 2024: USD 300m for 133 MW solar + 171.5 MW BESS (2025–28). Supports jps_marubeni_300m_solar_bess_jamaica_2025.",
+    "supports": [
+      "jps_marubeni_300m_solar_bess_jamaica_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "jps_marubeni_300m_solar_bess_jamaica_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "vestas_q3_orders_20250929",
+    "type": "company",
+    "chicago": "Vestas Wind Systems A/S. “Vestas Announces Four New Orders for a Total of 132 MW.” September 29, 2025. https://www.vestas.com/en/media/company-news/2025/vestas-announces-four-new-orders-for-a-total-of-132-mw-c4241543.",
+    "url": "https://www.vestas.com/en/media/company-news/2025/vestas-announces-four-new-orders-for-a-total-of-132-mw-c4241543",
+    "annotation": "Vestas primary: 22 MW Costa Rica order (5× V117-4.3). Supports vestas_costa_rica_22mw_order_2025.",
+    "supports": [
+      "vestas_costa_rica_22mw_order_2025",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "vestas_costa_rica_22mw_order_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "jamaica_observer_kftl_westlands_20250711",
+    "type": "news",
+    "chicago": "Williams, Jerome. “US$80-m Port Expansion.” Jamaica Observer, July 11, 2025. https://www.jamaicaobserver.com/2025/07/11/us80-m-port-expansion/.",
+    "url": "https://www.jamaicaobserver.com/2025/07/11/us80-m-port-expansion/",
+    "annotation": "Jamaica Observer: KFTL/CMA Westlands USD 80m expansion (proxy CapEx). Supports kftl_cma_westlands_80m_jamaica_2025.",
+    "supports": [
+      "kftl_cma_westlands_80m_jamaica_2025",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "hunt_infra_port_ownership",
+      "kftl_cma_westlands_80m_jamaica_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "keystone_jamaica_offshore_wind_ustda",
+    "type": "company",
+    "chicago": "Keystone Engineering Inc. “Jamaica Offshore Wind Farm Study.” https://www.keystoneengr.com/projects/jamaica-offshore-wind-farm-study.",
+    "url": "https://www.keystoneengr.com/projects/jamaica-offshore-wind-farm-study",
+    "annotation": "Keystone primary: USTDA ~USD 875k Jamaica offshore wind feasibility. Supports ustda_jamaica_offshore_wind_875k.",
+    "supports": [
+      "ustda_jamaica_offshore_wind_875k",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "hunt_energy_wind",
+      "ustda_jamaica_offshore_wind_875k"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
