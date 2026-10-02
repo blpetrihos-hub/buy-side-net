@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 65
+cycle: 66
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 66 shuffle_seed=20261066; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (U.S. push has worked; sides ~us135/prc132/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
-next_row_id: (follow cycle-66 shuffled_order)
+next_query: Cycle 67 shuffle_seed=20261067; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (U.S. push has worked; sides ~us138/prc135/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/graphite/fission_smr (23). Keep US/PRC even split.
+next_row_id: (follow cycle-67 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,66 +17,64 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 65 pre-merge:
-# - aldesa_mexico_solar_hybrid_2026: prc → allied (Aldesa Spain HQ; same HQ rule as
-#   cycle-64 aldesa_chiapas retag; CRCC ownership noted but HQ test applies).
-# - aldesa_chiapas_tunnels_659m_2026 already allied (cycle 64).
-# - Shell Manzanillo, ACCIONA, AFRY, Golar already correctly tagged allied.
-# - ccecc_aldesa_queretaro_irapuato_2026 remains prc (CCECC/CRCC lead consortium).
+# Side-tag audit (cycles 57–63) — cycle 66 pre-merge:
+# - No new mislabels found; aldesa_mexico_solar_hybrid_2026 remains allied (cycle 65);
+#   aldesa_chiapas allied (cycle 64); ccecc_aldesa_queretaro remains prc (CCECC lead);
+#   Shell/ACCIONA/AFRY/Golar already allied.
 
-shuffle_seed: 20261065
+shuffle_seed: 20261066
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- infrastructure/port_ownership
-- resources/balsa
-- energy/fission_smr
-- resources/niobium
-- resources/graphite
-- infrastructure/rail
-- infrastructure/engineering_epc
-- resources/nickel
-- resources/lithium
-- infrastructure/building_materials
-- energy/solar
-- energy/wind
-- energy/other_renewables
-- infrastructure/port_cranes
-- infrastructure/bridges_roads
-- resources/copper
 - energy/power_plants_grid
+- energy/other_renewables
+- resources/balsa
 - resources/water
+- resources/niobium
+- energy/wind
+- infrastructure/port_cranes
+- energy/solar
+- resources/lithium
+- resources/graphite
+- resources/copper
+- infrastructure/rail
+- infrastructure/building_materials
+- infrastructure/bridges_roads
+- energy/fission_smr
+- infrastructure/port_ownership
+- resources/nickel
+- infrastructure/engineering_epc
 
 rows_found_this_cycle:
-  infrastructure/port_ownership: 0
+  energy/power_plants_grid: 2
+  energy/other_renewables: 0
   resources/balsa: 0
-  energy/fission_smr: 0
+  resources/water: 0
   resources/niobium: 0
-  resources/graphite: 0
-  infrastructure/rail: 2
-  infrastructure/engineering_epc: 0
-  resources/nickel: 0
-  resources/lithium: 1
-  infrastructure/building_materials: 0
+  energy/wind: 0
+  infrastructure/port_cranes: 0
   energy/solar: 1
-  energy/wind: 1
-  energy/other_renewables: 1
-  infrastructure/port_cranes: 1
-  infrastructure/bridges_roads: 0
+  resources/lithium: 0
+  resources/graphite: 0
   resources/copper: 0
-  energy/power_plants_grid: 0
-  resources/water: 1
+  infrastructure/rail: 0
+  infrastructure/building_materials: 0
+  infrastructure/bridges_roads: 0
+  energy/fission_smr: 0
+  infrastructure/port_ownership: 0
+  resources/nickel: 0
+  infrastructure/engineering_epc: 3
 
 coverage_cumulative:
-  # Active+hunt after cycle 65 (non-archived)
+  # Active+hunt after cycle 66 (non-archived)
   energy/fission_smr: 23
   energy/other_renewables: 35
-  energy/power_plants_grid: 46
-  energy/solar: 37
+  energy/power_plants_grid: 48
+  energy/solar: 38
   energy/wind: 27
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 25
-  infrastructure/engineering_epc: 33
+  infrastructure/engineering_epc: 36
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 33
   infrastructure/rail: 38
@@ -89,6 +87,13 @@ coverage_cumulative:
   resources/water: 31
 
 rows_by_side_this_cycle:
+  us: 3
+  prc: 3
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 65
+rows_by_side_this_cycle_cycle65:
   us: 4
   prc: 4
   allied: 0
@@ -101,37 +106,34 @@ rows_by_side_this_cycle_cycle64:
   allied: 0
   other: 0
 
-# Side balance log — cycle 63
-rows_by_side_this_cycle_cycle63:
-  us: 4
-  prc: 1
-  allied: 2
-  other: 0
-
 thin_topup:
   budget: 0.5_source_family_min
   subcategories:
   - resources/nickel
   - energy/fission_smr
   - resources/graphite
-  # Hits: none — documented misses (MMG Anglo Ni / Westwin / DFC Piauí / Jervois
-  #   already logged; Meitner/FIRST/NuScale stacks already logged; South Star/
-  #   Graphcoa/Urbix stacks already logged).
+  # Hits: none — MMG Anglo Ni / Westwin / DFC Piauí / Jervois already; Meitner/FIRST/
+  #   NuScale already; South Star/Graphcoa/Urbix already.
 
-# Cycle 65 (seed 20261065): 8 sourced rows (8 shuffled + 0 thin_topup);
-#   shuffled: rail (Wabtec Vale PTC ~BRL 1bn us; CRI EFE TAM/TSB electrification
-#   USD 34.6m imported prc), lithium (Atlas Neves expansion permit us), solar
-#   (SUMEC–XJ Linden GUYSOL USD 22.58m prc), wind (AES El Quemado 247.5 MW NL us),
-#   other_renewables (PowerChina Guyana BESS USD 27.37m prc), port_cranes (ZPMC
-#   Hutchison Lázaro 12 ARTG prc), water (FCX Cerro Verde La Enlozada >USD 300m
-#   proxy us). Thin_topup (nickel/fission_smr/graphite): all misses.
-#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
-#   Side-tag fix: aldesa_mexico_solar_hybrid_2026 prc→allied.
-#   Equal-budget misses: port_ownership, balsa, fission_smr, niobium, graphite,
-#   engineering_epc, nickel, building_materials, bridges_roads, copper,
-#   power_plants_grid.
+# Cycle 66 (seed 20261066): 6 sourced rows (6 shuffled + 0 thin_topup);
+#   shuffled: power_plants_grid (CTG Ilha Solteira UG1 prc; PowerChina Ituango surge
+#   chamber prc), solar (CTG Nísperos 19.9 MW COD prc), engineering_epc (Halliburton
+#   bp Bumerangue us; Halliburton YPF ZEUS Vaca Muerta us; Halliburton Pampa digital
+#   us). Thin_topup (nickel/fission_smr/graphite): all misses.
+#   rows_by_side: us 3 / prc 3 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none.
+#   Equal-budget misses: other_renewables, balsa, water, niobium, wind, port_cranes,
+#   lithium, graphite, copper, rail, building_materials, bridges_roads, fission_smr,
+#   port_ownership, nickel.
 
 seen_urls:
+- https://www.halliburton.com/en/about-us/press-release/bp-awards-halliburton-integrated-contract-for-bumerangue-field-appraisal-in-brazil
+- https://www.halliburton.com/en/about-us/press-release/ypf-awards-halliburton-multibillion-dollar-long-term-unconventional-completions-contract-argentina
+- https://www.halliburton.com/en/about-us/press-release/pampa-energia-selects-halliburton-to-support-enterprise-digital-transformation
+- https://global.chinadaily.com.cn/a/202607/09/WS6a4f38aaa310986e2b4645ee.html
+- https://www.pv-magazine-latam.com/2026/04/13/china-three-gorges-anuncia-la-operacion-comercial-de-su-segunda-planta-solar-en-colombia/
+- https://en.powerchina.cn/2026-08/11/c_829107.htm
+
 - https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-agreement-to-enhance-operational-safety-on-the-efc-and-efvm-railways-with-advanced-railway
 - https://sinat.semarnat.gob.mx:8443/Gacetas/archivos2026/gaceta_0040-26.pdf
 - https://mineriaenergia.com/cerro-verde-lanza-apuesta-de-us-300-millones-en-planta-de-arequipa-que-viene/
