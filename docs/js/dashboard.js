@@ -58,7 +58,10 @@ function filterRows() {
     if (s.evidence !== "all" && r.evidence !== s.evidence) return false;
     if (s.side !== "all") {
       const b = sideBucket(r.side);
-      if (s.side === "allied") {
+      if (s.side === "us_prc") {
+        if (b !== "us" && b !== "prc") return false;
+        if (r.status === "hunt" || r.evidence === "hunt") return false;
+      } else if (s.side === "allied") {
         if (b !== "allied") return false;
       } else if (b !== s.side) return false;
     }
