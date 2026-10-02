@@ -1,0 +1,10 @@
+{
+  "id": "solarmax_pr_bess_epc_158m_2025",
+  "retrieved": "2026-10-02",
+  "source_id": "solarmax_8k_20260106",
+  "url": "https://www.sec.gov/Archives/edgar/data/1519472/000164033426000032/solarmax_8k.htm",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "Pursuant to an EPC agreement with Naguabo BESS LLC … Ceiba Municipality, Puerto Rico. The contract is expected to generate revenues of approximately $122.3 million … 320 megawatt-hours. … Pursuant to an EPC agreement with Yabucoa BESS LLC … Humacao Municipality, Puerto Rico. The contract is expected to generate revenues of approximately $35.9 million … 80 megawatt-hours.",
+  "note": "Opened SolarMax SEC Form 8-K stating two Puerto Rico BESS EPC revenue figures."
+}
