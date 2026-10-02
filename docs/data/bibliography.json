@@ -10162,5 +10162,149 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "halliburton_venezuela_mou_20260921",
+    "type": "company",
+    "chicago": "Halliburton. “Halliburton signs agreements to support energy development opportunities in Venezuela.” 21 September 2026.",
+    "url": "https://www.halliburton.com/en/about-us/press-release/halliburton-signs-agreements-support-energy-development-opportunities-venezuela",
+    "annotation": "Halliburton–Eneva/WESCA Venezuela MoUs. Supports halliburton_venezuela_eneva_wesca_mou_2026.",
+    "supports": [
+      "halliburton_venezuela_eneva_wesca_mou_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "halliburton_venezuela_eneva_wesca_mou_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "weatherford_petrobras_trs_20250916",
+    "type": "company",
+    "chicago": "Weatherford International. “Weatherford Announces Tubular Running Services Contract Award with Petrobras.” 16 September 2025.",
+    "url": "https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=18016",
+    "annotation": "Weatherford Petrobras TRS USD 147m three-year award. Supports weatherford_petrobras_trs_147m_2025.",
+    "supports": [
+      "weatherford_petrobras_trs_147m_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "weatherford_petrobras_trs_147m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "atlas_estepa_fc_20250421",
+    "type": "company",
+    "chicago": "Atlas Renewable Energy. “Atlas Renewable Energy Closes Largest Financing Deal in Company History for Hybrid Solar-Storage Project.” 21 April 2025.",
+    "url": "https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-closes-largest-financing-deal-in-company-history-for-hybrid-solar-storage-project/",
+    "annotation": "Atlas Estepa Chile USD 510m hybrid financing. Supports atlas_estepa_fc_510m_chile_2025.",
+    "supports": [
+      "atlas_estepa_fc_510m_chile_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "atlas_estepa_fc_510m_chile_2025",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "halliburton_petrobras_completions_20251015",
+    "type": "company",
+    "chicago": "Halliburton. “Petrobras awards Halliburton deepwater contracts for completion and stimulation services in Brazil.” 15 October 2025.",
+    "url": "https://www.halliburton.com/en/about-us/press-release/petrobras-awards-halliburton-deepwater-contracts-completion-stimulation-brazil",
+    "annotation": "Halliburton Petrobras Búzios/Sépia/Atapu completions and stimulation. Supports halliburton_petrobras_completions_stim_2025.",
+    "supports": [
+      "halliburton_petrobras_completions_stim_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "halliburton_petrobras_completions_stim_2025",
+      "hunt_infra_engineering_epc"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_costa_penda_cayira_20251223",
+    "type": "company",
+    "chicago": "PowerChina International. “中国电建在哥伦比亚燃气发电领域实现三连签.” 23 December 2025.",
+    "url": "https://www.powerchina-intl.com/show/9/4577.html",
+    "annotation": "POWERCHINA Costa/Penda/Cayira 282 MW gas EPC Santa Marta. Supports powerchina_costa_penda_cayira_gas_282mw_2025.",
+    "supports": [
+      "powerchina_costa_penda_cayira_gas_282mw_2025",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "powerchina_costa_penda_cayira_gas_282mw_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "powerchina_ufn_iii_20260629",
+    "type": "company",
+    "chicago": "PowerChina International. “卢拉总统见证中国电建签约巴西第三氮肥厂项目6、8、10标段.” 29 June 2026.",
+    "url": "https://www.powerchina-intl.com/show/9/4822.html",
+    "annotation": "POWERCHINA Petrobras UFN-III Lots 6/8/10 EPC Três Lagoas. Supports powerchina_ufn_iii_tres_lagoas_2026.",
+    "supports": [
+      "powerchina_ufn_iii_tres_lagoas_2026",
+      "hunt_infra_engineering_epc"
+    ],
+    "map_supports": [
+      "hunt_infra_engineering_epc",
+      "powerchina_ufn_iii_tres_lagoas_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "powerchina_montenegro_hospital_20250808",
+    "type": "company",
+    "chicago": "PowerChina International. “中国电建签约秘鲁利马蒙特内格罗医院项目.” 8 August 2025.",
+    "url": "https://www.powerchina-intl.com/show/9/4357.html",
+    "annotation": "POWERCHINA Montenegro Hospital rebuild Lima. Supports powerchina_montenegro_hospital_lima_2025.",
+    "supports": [
+      "powerchina_montenegro_hospital_lima_2025",
+      "hunt_infra_building_materials"
+    ],
+    "map_supports": [
+      "hunt_infra_building_materials",
+      "powerchina_montenegro_hospital_lima_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "diario_nuevo_dia_cepernic_20251231",
+    "type": "journalism",
+    "chicago": "Diario Nuevo Día. “Reactivan el financiamiento de la represa Jorge Cepernic con USD 150 millones.” 31 December 2025.",
+    "url": "https://www.eldiarionuevodia.com.ar/locales/reactivan-el-financiamiento-de-la-represa-jorge-cepernic-con-usd-150-millones/",
+    "annotation": "UNVERIFIED proxy for CGGC Cepernic USD 150m tranche. Supports cggc_cepernic_disbursement_150m_2025.",
+    "supports": [
+      "cggc_cepernic_disbursement_150m_2025",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "cggc_cepernic_disbursement_150m_2025",
+      "hunt_br_power_equip"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

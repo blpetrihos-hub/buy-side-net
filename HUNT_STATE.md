@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 71
+cycle: 72
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 72 shuffle_seed=20261072; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us159/prc155/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then balsa/graphite (24/24). Keep US/PRC even split.
-next_row_id: (follow cycle-72 shuffled_order)
+next_query: Cycle 73 shuffle_seed=20261073; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us163/prc159/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then graphite/balsa (24/24). Keep US/PRC even split.
+next_row_id: (follow cycle-73 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,67 +17,70 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 71 pre-merge:
-# - Atlas Renewable Energy tagged us (Miami HQ; GIP USA owner) — verified on company
-#   site footer. Weatherford continues us on Houston PE / NASDAQ:WFRD. Halliburton us.
-# - POWERCHINA / CTG / Jinzhao prc. No Shell/ACCIONA/AFRY/Golar mislabels in new rows
-#   (Shell is client only on Weatherford/Halliburton rows).
-# - Skipped CTG Serra da Palmeira NDB financing duplicate; skipped Tepeuy page (WAF
-#   block); skipped NOV Bondstrand FPSO pipe (earnings mention without named FPSOs).
+# Side-tag audit (cycles 57–63) — cycle 72 pre-merge:
+# - Atlas Estepa tagged us (Miami HQ footer / GIP USA). Weatherford Petrobras TRS us
+#   (Houston PE / NASDAQ:WFRD). Halliburton Venezuela MoUs + Petrobras completions us.
+# - POWERCHINA gas/UFN-III/hospital prc; CGGC Cepernic prc. No Shell/ACCIONA/AFRY/Golar
+#   mislabels in new rows (Shell is client only on prior Weatherford/Halliburton rows).
+# - Re-checked Ormat geothermal rows: Ormat Technologies HQ Reno, NV — correctly us
+#   (not a cycles 57–63 mislabel). No side-tag fixes required this cycle.
+# - Skipped PowerChina Mauriti COD (duplicate of powerchina_intrepid_mauriti);
+#   skipped PowerChina EDP Piauí 500 kV (already logged); skipped NOV Bondstrand unnamed
+#   FPSOs; skipped CRRC Araraquara BNDES (state financing, already have factory row).
 
-shuffle_seed: 20261071
+shuffle_seed: 20261072
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- infrastructure/rail
-- infrastructure/bridges_roads
-- resources/graphite
-- resources/balsa
-- resources/lithium
 - infrastructure/port_cranes
+- infrastructure/building_materials
+- infrastructure/engineering_epc
+- resources/water
+- resources/lithium
+- energy/other_renewables
+- resources/balsa
+- resources/niobium
+- infrastructure/bridges_roads
+- infrastructure/rail
+- resources/nickel
+- resources/graphite
+- resources/copper
+- energy/wind
 - energy/power_plants_grid
 - energy/solar
 - infrastructure/port_ownership
-- energy/other_renewables
-- infrastructure/building_materials
-- resources/copper
-- resources/niobium
-- resources/nickel
-- infrastructure/engineering_epc
 - energy/fission_smr
-- energy/wind
-- resources/water
 
 rows_found_this_cycle:
-  infrastructure/rail: 0
-  infrastructure/bridges_roads: 0
-  resources/graphite: 0
-  resources/balsa: 0
-  resources/lithium: 0
   infrastructure/port_cranes: 0
-  energy/power_plants_grid: 0
-  energy/solar: 3
-  infrastructure/port_ownership: 1
-  energy/other_renewables: 0
-  infrastructure/building_materials: 0
-  resources/copper: 0
-  resources/niobium: 0
-  resources/nickel: 0
-  infrastructure/engineering_epc: 3
-  energy/fission_smr: 0
-  energy/wind: 1
+  infrastructure/building_materials: 1
+  infrastructure/engineering_epc: 4
   resources/water: 0
+  resources/lithium: 0
+  energy/other_renewables: 0
+  resources/balsa: 0
+  resources/niobium: 0
+  infrastructure/bridges_roads: 0
+  infrastructure/rail: 0
+  resources/nickel: 0
+  resources/graphite: 0
+  resources/copper: 0
+  energy/wind: 0
+  energy/power_plants_grid: 2
+  energy/solar: 1
+  infrastructure/port_ownership: 0
+  energy/fission_smr: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 71 (non-archived)
+  # Active+hunt after cycle 72 (non-archived)
   energy/fission_smr: 23
   energy/other_renewables: 36
-  energy/power_plants_grid: 51
-  energy/solar: 50
+  energy/power_plants_grid: 53
+  energy/solar: 51
   energy/wind: 29
   infrastructure/bridges_roads: 26
-  infrastructure/building_materials: 26
-  infrastructure/engineering_epc: 53
+  infrastructure/building_materials: 27
+  infrastructure/engineering_epc: 57
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 34
   infrastructure/rail: 40
@@ -90,6 +93,13 @@ coverage_cumulative:
   resources/water: 32
 
 rows_by_side_this_cycle:
+  us: 4
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 71
+rows_by_side_this_cycle_cycle71:
   us: 4
   prc: 4
   allied: 0
@@ -149,9 +159,24 @@ thin_topup:
   subcategories:
   - resources/nickel
   - energy/fission_smr
-  - resources/balsa
+  - resources/graphite
   # Hits: none.
-  # Misses: nickel, fission_smr, balsa.
+  # Misses: nickel, fission_smr, graphite (tied with balsa at 24; graphite taken as 3rd).
+
+# Cycle 72 (seed 20261072): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: building_materials (POWERCHINA Montenegro Hospital Lima prc),
+#   engineering_epc (Halliburton Venezuela Eneva/WESCA MoUs us; Weatherford Petrobras
+#   TRS USD 147m us; Halliburton Petrobras Búzios/Sépia/Atapu completions us;
+#   POWERCHINA UFN-III Lots 6/8/10 Três Lagoas prc), power_plants_grid (POWERCHINA
+#   Costa/Penda/Cayira 282 MW Santa Marta gas prc; CGGC Cepernic USD 150m tranche
+#   proxy prc), solar (Atlas Estepa Chile USD 510m FC us).
+#   Thin_topup (nickel/fission_smr/graphite): all misses.
+#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none (Ormat confirmed Reno HQ us; Atlas/Weatherford/
+#   Halliburton us; POWERCHINA/CGGC prc).
+#   Equal-budget misses: port_cranes, water, lithium, other_renewables, balsa,
+#   niobium, bridges_roads, rail, nickel, graphite, copper, wind, port_ownership,
+#   fission_smr.
 
 # Cycle 71 (seed 20261071): 8 sourced rows (8 shuffled + 0 thin_topup);
 #   shuffled: solar (Atlas El Campano FC USD 77.6m us; POWERCHINA Baranoa Phase 1
