@@ -17064,5 +17064,167 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "hudbay_constancia_34mtpa_20260702",
+    "type": "company",
+    "chicago": "Hudbay Minerals Inc. “Hudbay Receives Regulatory Approval to Further Increase Mill Throughput at its Constancia Mine in Peru.” July 2, 2026. https://www.hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Receives-Regulatory-Approval-to-Further-Increase-Mill-Throughput-at-its-Constancia-Mine-in-Peru/default.aspx.",
+    "url": "https://www.hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Receives-Regulatory-Approval-to-Further-Increase-Mill-Throughput-at-its-Constancia-Mine-in-Peru/default.aspx",
+    "annotation": "Hudbay primary: Constancia SENACE permit to 34 Mtpa. Supports hudbay_constancia_34mtpa_senace_2026.",
+    "supports": [
+      "hudbay_constancia_34mtpa_senace_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hudbay_constancia_34mtpa_senace_2026",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "gestion_chinalco_toromocho_400m_20260204",
+    "type": "news",
+    "chicago": "Gestión. “Chinalco inicia inversiones por más de US$400 millones en mina Toromocho en 2026.” February 4, 2026. https://gestion.pe/economia/empresas/minera-chinalco-inicia-un-plan-de-inversiones-para-el-2026-en-la-unidad-minera-toromocho-noticia/.",
+    "url": "https://gestion.pe/economia/empresas/minera-chinalco-inicia-un-plan-de-inversiones-para-el-2026-en-la-unidad-minera-toromocho-noticia/",
+    "annotation": "Gestión: Chinalco Toromocho 2026 equipment CapEx >USD 400m (proxy). Supports chinalco_toromocho_equip_400m_2026.",
+    "supports": [
+      "chinalco_toromocho_equip_400m_2026",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "chinalco_toromocho_equip_400m_2026",
+      "hunt_res_copper"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ciudadvalencia_el_vigia_solar_20251031",
+    "type": "news",
+    "chicago": "Ciudad Valencia (Radio Miraflores). “Mérida: Inaugurarán granja fotovoltaica más grande de Venezuela en noviembre.” October 31, 2025. https://www.ciudadvalencia.com.ve/granja-fotovoltaica-noviembre/.",
+    "url": "https://www.ciudadvalencia.com.ve/granja-fotovoltaica-noviembre/",
+    "annotation": "Ciudad Valencia: Grain Full El Vigía 52.8 MW under Venezuela–China energy coop. Supports grain_full_el_vigia_solar_52p8mw_venezuela.",
+    "supports": [
+      "grain_full_el_vigia_solar_52p8mw_venezuela",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "grain_full_el_vigia_solar_52p8mw_venezuela",
+      "hunt_energy_solar"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "haitilibre_caracol_solar_20260129",
+    "type": "news",
+    "chicago": "HaitiLibre. “Haiti - Caracol : The country’s largest photovoltaic solar power plant.” January 29, 2026. https://www.haitilibre.com/en/news-46735-haiti-caracol-the-country-s-largest-photovoltaic-solar-power-plant.html.",
+    "url": "https://www.haitilibre.com/en/news-46735-haiti-caracol-the-country-s-largest-photovoltaic-solar-power-plant.html",
+    "annotation": "HaitiLibre: Ssangyong Caracol 13.4 MW; IDB USD 57m. Supports ssangyong_caracol_solar_13p4mw_haiti_57m.",
+    "supports": [
+      "ssangyong_caracol_solar_13p4mw_haiti_57m",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "ssangyong_caracol_solar_13p4mw_haiti_57m"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "dbsuriname_nickerie_powerchina_20251011",
+    "type": "news",
+    "chicago": "Dagblad Suriname. “Districtscommissariaat Nickerie inspecteert duurzame infrastructuurprojecten.” October 11, 2025. https://www.dbsuriname.com/2025/10/11/districtscommissariaat-nickerie-inspecteert-duurzame-infrastructuurprojecten/.",
+    "url": "https://www.dbsuriname.com/2025/10/11/districtscommissariaat-nickerie-inspecteert-duurzame-infrastructuurprojecten/",
+    "annotation": "Dagblad Suriname: POWERCHINA Nickerie Paradise drainage works. Supports powerchina_nickerie_paradise_drainage_2025.",
+    "supports": [
+      "powerchina_nickerie_paradise_drainage_2025",
+      "hunt_res_water"
+    ],
+    "map_supports": [
+      "hunt_res_water",
+      "powerchina_nickerie_paradise_drainage_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ustda_ice_costa_rica_20220822",
+    "type": "government",
+    "chicago": "U.S. Trade and Development Agency. “USTDA Supports Costa Rica’s Power Sector Modernization.” August 22, 2022. https://ustda.gov/ustda-supports-costa-ricas-power-sector-modernization/.",
+    "url": "https://ustda.gov/ustda-supports-costa-ricas-power-sector-modernization/",
+    "annotation": "USTDA primary: ICE monitoring/diagnostics TA with EPRI. Supports ustda_ice_costa_rica_mdi_2022.",
+    "supports": [
+      "ustda_ice_costa_rica_mdi_2022",
+      "hunt_br_power_equip"
+    ],
+    "map_supports": [
+      "hunt_br_power_equip",
+      "ustda_ice_costa_rica_mdi_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "fcx_cerro_verde_oxi_20260724",
+    "type": "company",
+    "chicago": "Freeport-McMoRan. “Cerro Verde Completes First Works for Taxes Projects in Arequipa.” July 24, 2026. https://fcx.com/freeport-features/07242026.",
+    "url": "https://fcx.com/freeport-features/07242026",
+    "annotation": "Freeport primary: Cerro Verde OxI Uchumayo road within >USD 14m package. Supports fcx_cerro_verde_oxi_uchumayo_2026.",
+    "supports": [
+      "fcx_cerro_verde_oxi_uchumayo_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "fcx_cerro_verde_oxi_uchumayo_2026",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "wna_mexico_nuclear_20260708",
+    "type": "ngo",
+    "chicago": "World Nuclear Association. “Nuclear Power in Mexico.” Updated July 8, 2026. https://world-nuclear.org/information-library/country-profiles/countries-g-n/mexico.",
+    "url": "https://world-nuclear.org/information-library/country-profiles/countries-g-n/mexico",
+    "annotation": "WNA: U.S.–Mexico 123 agreement in force Nov 2022. Supports mexico_us_123_agreement_2022.",
+    "supports": [
+      "mexico_us_123_agreement_2022",
+      "hunt_energy_fission_smr"
+    ],
+    "map_supports": [
+      "hunt_energy_fission_smr",
+      "mexico_us_123_agreement_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "canal4_corinto_chinaitc_20250710",
+    "type": "news",
+    "chicago": "Canal 4. “Asamblea aprueba crédito para fortalecer infraestructura portuaria en Nicaragua.” July 10, 2025. https://www.canal4.com.ni/asamblea-aprueba-credito-para-fortalecer-infraestructura-portuaria-en-nicaragua/.",
+    "url": "https://www.canal4.com.ni/asamblea-aprueba-credito-para-fortalecer-infraestructura-portuaria-en-nicaragua/",
+    "annotation": "Canal 4: CHINAICTC USD 126.6m Corinto Julia Herrera logistics credit. Supports chinaitc_corinto_julia_herrera_126p6m_2025.",
+    "supports": [
+      "chinaitc_corinto_julia_herrera_126p6m_2025",
+      "hunt_infra_port_ownership"
+    ],
+    "map_supports": [
+      "chinaitc_corinto_julia_herrera_126p6m_2025",
+      "hunt_infra_port_ownership"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
