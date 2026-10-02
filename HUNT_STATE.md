@@ -1,11 +1,79 @@
 updated: 2026-10-02
-cycle: 119
+cycle: 120
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 120 shuffle_seed=20261120; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us310/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. FHWA named-site residual continuing; OEM/regulator sweep for PRC.
-next_row_id: (follow cycle-120 shuffled_order)
+next_query: Cycle 121 shuffle_seed=20261121; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us315/prc239/allied243); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. FHWA ≥$2.5m named/FEMA-branch residual largely logged; OEM/regulator sweep for PRC.
+next_row_id: (follow cycle-121 shuffled_order)
 dry_streak: 0
+
+# === Cycle 120 (seed 20261120) ===
+# Shuffled order: port_ownership, other_renewables, wind, engineering_epc,
+#   graphite, lithium, copper, nickel, port_cranes, niobium, rail, fission_smr,
+#   bridges_roads, balsa, building_materials, water, power_plants_grid, solar.
+# Logged 5 sourced rows (honest US FHWA residual; thin dry; PRC OEM pass
+#   product/summit-only; no padding):
+#   us bridges_roads: design_build_ciales_branch2_2017 (USD 6.8m FHWA).
+#   us bridges_roads: melendez_coamo_branch4_2017 (USD 4.5m FHWA).
+#   us bridges_roads: lpcd_caguas_branch3_2017 (USD 4.3m FHWA).
+#   us bridges_roads: santiago_utuado_branch2_2017 (USD 3.7m FHWA).
+#   us bridges_roads: lagan_vieques_roads_2007 (USD 5.7m FHWA).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: port_ownership, other_renewables, wind, engineering_epc,
+#   graphite, lithium, copper, nickel, port_cranes, niobium, rail, fission_smr,
+#   balsa, building_materials, water, power_plants_grid, solar.
+# Active after cycle 120: us315 / prc239 / allied243 / other37 (n=834).
+shuffle_seed: 20261120
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/port_ownership
+- energy/other_renewables
+- energy/wind
+- infrastructure/engineering_epc
+- resources/graphite
+- resources/lithium
+- resources/copper
+- resources/nickel
+- infrastructure/port_cranes
+- resources/niobium
+- infrastructure/rail
+- energy/fission_smr
+- infrastructure/bridges_roads
+- resources/balsa
+- infrastructure/building_materials
+- resources/water
+- energy/power_plants_grid
+- energy/solar
+rows_found_this_cycle:
+  infrastructure/port_ownership: 0
+  energy/other_renewables: 0
+  energy/wind: 0
+  infrastructure/engineering_epc: 0
+  resources/graphite: 0
+  resources/lithium: 0
+  resources/copper: 0
+  resources/nickel: 0
+  infrastructure/port_cranes: 0
+  resources/niobium: 0
+  infrastructure/rail: 0
+  energy/fission_smr: 0
+  infrastructure/bridges_roads: 5
+  resources/balsa: 0
+  infrastructure/building_materials: 0
+  resources/water: 0
+  energy/power_plants_grid: 0
+  energy/solar: 0
+rows_by_side_this_cycle:
+  us: 5
+  prc: 0
+  allied: 0
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 119 (seed 20261119) ===
 # Shuffled order: bridges_roads, other_renewables, balsa, rail, port_cranes,

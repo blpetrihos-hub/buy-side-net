@@ -88,32 +88,32 @@
     }
   },
   "meta": {
-    "n_rows": 921,
+    "n_rows": 926,
     "counts": {
-      "total": 921,
-      "active": 829,
+      "total": 926,
+      "active": 834,
       "hunt": 42,
       "archived": 72,
       "paired": 5,
       "one_sided": 27,
       "proxy": 153,
       "exclude": 18,
-      "documented": 696,
-      "on_map": 813
+      "documented": 701,
+      "on_map": 818
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 145,
+        "us": 150,
         "prc": 97,
         "allied": 95,
-        "n": 337
+        "n": 342
       },
       "usd": {
-        "us": 8409923305.549999,
-        "us_n": 77,
+        "us": 8434972475.119999,
+        "us_n": 82,
         "prc": 5033085094.13,
         "prc_n": 22,
         "allied": 10696377851.490002,
@@ -903,14 +903,14 @@
     {
       "country": "Puerto Rico",
       "counts": {
-        "us": 70,
+        "us": 75,
         "prc": 0,
         "allied": 8,
-        "n": 78
+        "n": 83
       },
       "usd": {
-        "us": 6649817655.420003,
-        "us_n": 68,
+        "us": 6674866824.990003,
+        "us_n": 73,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 712624811.6400001,
@@ -923,7 +923,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 40,
+          "us": 45,
           "prc": 0,
           "allied": 4
         },
@@ -1869,7 +1869,12 @@
       "del_valle_manati_bridge_2017",
       "lpcd_el_yunque_pr930_2018",
       "aluma_vieques_camp_garcia_2008",
-      "lpcd_route9966_wall_2012"
+      "lpcd_route9966_wall_2012",
+      "design_build_ciales_branch2_2017",
+      "melendez_coamo_branch4_2017",
+      "lpcd_caguas_branch3_2017",
+      "santiago_utuado_branch2_2017",
+      "lagan_vieques_roads_2007"
     ],
     "hunt": [
       "hunt_br_power_equip",

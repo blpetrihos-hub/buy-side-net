@@ -14635,5 +14635,95 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_design_build_ciales_20171128",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting design_build_ciales_branch2_2017. Signed 2017-11-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000021_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000021_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary. Supports design_build_ciales_branch2_2017.",
+    "supports": [
+      "design_build_ciales_branch2_2017",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "design_build_ciales_branch2_2017",
+      "hunt_infra_bridges_roads"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_melendez_coamo_20171128",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting melendez_coamo_branch4_2017. Signed 2017-11-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000023_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000023_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary. Supports melendez_coamo_branch4_2017.",
+    "supports": [
+      "melendez_coamo_branch4_2017",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "melendez_coamo_branch4_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_lpcd_caguas_20171127",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting lpcd_caguas_branch3_2017. Signed 2017-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000019_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000019_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary. Supports lpcd_caguas_branch3_2017.",
+    "supports": [
+      "lpcd_caguas_branch3_2017",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "lpcd_caguas_branch3_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_santiago_utuado_20171127",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting santiago_utuado_branch2_2017. Signed 2017-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000016_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693C7318C000016_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary. Supports santiago_utuado_branch2_2017.",
+    "supports": [
+      "santiago_utuado_branch2_2017",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "santiago_utuado_branch2_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_lagan_vieques_20070830",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award supporting lagan_vieques_roads_2007. Signed 2007-08-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_DTFH7107C00032_6925_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_DTFH7107C00032_6925_-NONE-_-NONE-/",
+    "annotation": "USASpending primary. Supports lagan_vieques_roads_2007.",
+    "supports": [
+      "lagan_vieques_roads_2007",
+      "hunt_infra_bridges_roads"
+    ],
+    "map_supports": [
+      "hunt_infra_bridges_roads",
+      "lagan_vieques_roads_2007"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
