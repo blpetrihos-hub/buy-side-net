@@ -1,11 +1,82 @@
 updated: 2026-10-02
-cycle: 104
+cycle: 105
 remote: present
-active_layer: energy
-active_subcategory: other_renewables
-next_query: Cycle 105 shuffle_seed=20261105; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us253/prc234/allied238); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (building_materials). Country×subcategory sweep both sides + regulators. Continue USACE Caribbean Civil Works + PRC OEM releases (TrinaTracker Lagoa do Barro logged); thin top-up remains dry.
-next_row_id: (follow cycle-105 shuffled_order)
+active_layer: infrastructure
+active_subcategory: building_materials
+next_query: Cycle 106 shuffle_seed=20261106; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us259/prc234/allied239); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa/graphite/nickel then fission_smr. Keep US/PRC even split. If thin dry, move top-up to next-thinnest (niobium). Country×subcategory sweep both sides + regulators. Continue USACE Caribbean backlog + PRC OEM/company releases; thin top-up remains dry.
+next_row_id: (follow cycle-106 shuffled_order)
 dry_streak: 0
+
+# === Cycle 105 (seed 20261105) ===
+# Shuffled order: engineering_epc, wind, port_ownership, water, port_cranes,
+#   copper, fission_smr, lithium, balsa, power_plants_grid, solar, rail,
+#   graphite, nickel, niobium, bridges_roads, other_renewables, building_materials.
+# Logged 7 sourced rows (honest US/allied split; PRC OEM named-site pass dry;
+#   no padding):
+#   us power_plants_grid: aptim_yabucoa_temp_power_2017 (USD 54.2m USACE).
+#   us water: flatiron_bechara_puerto_nuevo_2011 (USD 43.1m USACE).
+#   us water: del_valle_rpn_2d_walls_2017 (USD 24.0m USACE).
+#   us water: lpcd_rpn_margarita_2014 (USD 21.2m USACE).
+#   us other_renewables: johnson_controls_prng_espc_2014 (USD 29.3m USACE).
+#   us building_materials: caribbean_lumber_valor_materials_2018 (USD 23.2m FEMA).
+#   allied other_renewables: schneider_espc_pr_cool_roofs_2010 (USD 54.2m USCG).
+# Thin top-up (balsa/graphite/nickel): all dry — shift to fission_smr also dry.
+# Equal-budget misses: engineering_epc, wind, port_ownership, port_cranes,
+#   copper, fission_smr, lithium, balsa, solar, rail, graphite, nickel,
+#   niobium, bridges_roads (dense prior; Sungrow 9 GW LatAm cumulative without
+#   named site skipped).
+# Active after cycle 105: us259 / prc234 / allied239 / other37 (n=769).
+shuffle_seed: 20261105
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- infrastructure/engineering_epc
+- energy/wind
+- infrastructure/port_ownership
+- resources/water
+- infrastructure/port_cranes
+- resources/copper
+- energy/fission_smr
+- resources/lithium
+- resources/balsa
+- energy/power_plants_grid
+- energy/solar
+- infrastructure/rail
+- resources/graphite
+- resources/nickel
+- resources/niobium
+- infrastructure/bridges_roads
+- energy/other_renewables
+- infrastructure/building_materials
+rows_found_this_cycle:
+  infrastructure/engineering_epc: 0
+  energy/wind: 0
+  infrastructure/port_ownership: 0
+  resources/water: 3
+  infrastructure/port_cranes: 0
+  resources/copper: 0
+  energy/fission_smr: 0
+  resources/lithium: 0
+  resources/balsa: 0
+  energy/power_plants_grid: 1
+  energy/solar: 0
+  infrastructure/rail: 0
+  resources/graphite: 0
+  resources/nickel: 0
+  resources/niobium: 0
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 2
+  infrastructure/building_materials: 1
+rows_by_side_this_cycle:
+  us: 6
+  prc: 0
+  allied: 1
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/graphite
+  - resources/nickel
 
 # === Cycle 104 (seed 20261104) ===
 # Shuffled order: solar, building_materials, rail, engineering_epc, fission_smr,

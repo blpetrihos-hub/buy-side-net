@@ -1,0 +1,10 @@
+{
+  "id": "johnson_controls_prng_espc_2014",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_jc_prng_espc_20140930",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0016_9700_W912DY09D0017_9700/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "ESPC AT PUERTO RICO NATIONAL GUARD",
+  "note": "Opened USASpending Award API: Johnson Controls; USD 29,334,021.11; date_signed 2014-09-30; PoP San Juan, PR."
+}
