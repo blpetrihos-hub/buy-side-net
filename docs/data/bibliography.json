@@ -14910,5 +14910,76 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "mmg_2025_annual_results_20260303",
+    "type": "company",
+    "chicago": "MMG Limited. “Announcement on 2025 Annual Results.” March 3, 2026. https://www.mmg.com/content/uploads/2026/03/e_2026-03-03_2025-Annual-Results.pdf.",
+    "url": "https://www.mmg.com/content/uploads/2026/03/e_2026-03-03_2025-Annual-Results.pdf",
+    "annotation": "MMG 2025 annual results: Las Bambas CapEx USD 494.2m. Supports mmg_las_bambas_2025_capex_494m.",
+    "supports": [
+      "mmg_las_bambas_2025_capex_494m",
+      "hunt_res_copper"
+    ],
+    "map_supports": [
+      "hunt_res_copper",
+      "mmg_las_bambas_2025_capex_494m"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "powerchina_intl_colombia_3pv_20251211",
+    "type": "company",
+    "chicago": "POWERCHINA International. “中国电建在哥伦比亚承建的3个大型光伏项目全部并网发电.” December 11, 2025. https://www.powerchina-intl.com/show/9/4553.html.",
+    "url": "https://www.powerchina-intl.com/show/9/4553.html",
+    "annotation": "POWERCHINA Intl: Guayepo III + Escobales + Paranova III combined 260 MW full COD. Supports powerchina_colombia_3pv_260mw_cod_2025.",
+    "supports": [
+      "powerchina_colombia_3pv_260mw_cod_2025",
+      "hunt_energy_solar"
+    ],
+    "map_supports": [
+      "hunt_energy_solar",
+      "powerchina_colombia_3pv_260mw_cod_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aes_andes_campo_lindo_cod_202305",
+    "type": "company",
+    "chicago": "AES Andes. “AES Andes advances in its transformation process with a new wind farm in operation and entry of new renewable projects.” May 4, 2023. https://www.aesandes.com/en/press-release/aes-andes-advances-its-transformation-process-new-wind-farm-operation-and-entry-new.",
+    "url": "https://www.aesandes.com/en/press-release/aes-andes-advances-its-transformation-process-new-wind-farm-operation-and-entry-new",
+    "annotation": "AES Andes primary: Campo Lindo 66 MW wind COD Apr/May 2023. Supports aes_andes_campo_lindo_cod_2023.",
+    "supports": [
+      "aes_andes_campo_lindo_cod_2023",
+      "hunt_energy_wind"
+    ],
+    "map_supports": [
+      "aes_andes_campo_lindo_cod_2023",
+      "hunt_energy_wind"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "vli_progress_rail_msa_celebration_20260210",
+    "type": "company",
+    "chicago": "VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.",
+    "url": "https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/",
+    "annotation": "VLI primary: Progress Rail Northern Corridor MSA up to R$500m. Supports progress_rail_vli_msa_norte_500m_brl_2025.",
+    "supports": [
+      "progress_rail_vli_msa_norte_500m_brl_2025",
+      "hunt_infra_rail"
+    ],
+    "map_supports": [
+      "progress_rail_vli_msa_norte_500m_brl_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
