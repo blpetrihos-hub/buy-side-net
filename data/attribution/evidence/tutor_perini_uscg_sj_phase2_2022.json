@@ -1,0 +1,10 @@
+{
+  "id": "tutor_perini_uscg_sj_phase2_2022",
+  "retrieved": "2026-10-02",
+  "source_id": "usaspending_tutor_sj_p2_20220912",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04722F43000017_7008_70Z04718DTUTPER00_7008/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "DESIGN/BUILD HURRICANE REBUILD TASK ORDER FOR SAN JUAN PHASE II EAST BASE BID AND OPTION  5: SE X WATERFRONT BOAT RAMP",
+  "note": "Opened USASpending Award API: Tutor Perini; USD 117,046,491.59; date_signed 2022-09-12."
+}
