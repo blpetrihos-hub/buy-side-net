@@ -5874,3 +5874,74 @@
   supports:
   - graphcoa_urbix_us_export_2025
   - hunt_res_graphite
+- id: slb_atapu_sepia_20250925
+  type: company
+  chicago: SLB. “SLB Awarded Major Completions Contract for Ultra-Deepwater Project Offshore Brazil.”
+    25 September 2025.
+  url: https://www.slb.com/newsroom/press-release/2025/pr-2025-0925-petrobras-atapu-sepia
+  annotation: SLB Petrobras Atapu/Sépia completions for up to 35 ultra-deepwater wells. Supports
+    slb_atapu_sepia_completions_2025.
+  supports:
+  - slb_atapu_sepia_completions_2025
+  - hunt_infra_engineering_epc
+- id: halliburton_petrotal_20260701
+  type: company
+  chicago: Halliburton. “PetroTal awards Halliburton eight-well drilling campaign in Peru.” 1 July
+    2026.
+  url: https://www.halliburton.com/en/about-us/press-release/petrotal-awards-halliburton-eight-well-drilling-campaign-in-peru
+  annotation: Halliburton PetroTal Loreto eight-well drilling/cementing. Supports halliburton_petrotal_peru_2026.
+  supports:
+  - halliburton_petrotal_peru_2026
+  - hunt_infra_engineering_epc
+- id: halliburton_petrobras_drilling_20250130
+  type: company
+  chicago: Halliburton. “Halliburton secures major offshore drilling contract with Petrobras.” 30
+    January 2025.
+  url: https://www.halliburton.com/en/about-us/press-release/halliburton-secures-major-offshore-drilling-contract-with-petrobras
+  annotation: Halliburton largest Petrobras three-year offshore drilling services award. Supports
+    halliburton_petrobras_drilling_2025.
+  supports:
+  - halliburton_petrobras_drilling_2025
+  - hunt_infra_engineering_epc
+- id: contourglobal_condor_20251112
+  type: company
+  chicago: ContourGlobal. “ContourGlobal marks renewable debut in Colombia.” 12 November 2025.
+  url: https://www.contourglobal.com/news/contourglobal-marks-renewable-debut-in-colombia/
+  annotation: ContourGlobal Condor 11 MWp Simijaca acquisition/COD. Supports contourglobal_condor_colombia_2025.
+  supports:
+  - contourglobal_condor_colombia_2025
+  - hunt_energy_solar
+- id: powerchina_santander_20260123
+  type: company
+  chicago: PowerChina International. “中国电建签约哥伦比亚桑坦德251兆瓦光伏项目.” 23 January 2026.
+  url: https://www.powerchina-intl.com/show/9/4624.html
+  annotation: POWERCHINA Santander 251 MW PV EPC signing. Supports powerchina_santander_251mw_2026.
+  supports:
+  - powerchina_santander_251mw_2026
+  - hunt_energy_solar
+- id: powerchina_escobares_20260313
+  type: company
+  chicago: PowerChina International. “中国电建哥伦比亚埃斯科巴勒斯148兆瓦光伏项目实现全容量并网发电.” 13 March 2026.
+  url: https://www.powerchina-intl.com/show/9/4677.html
+  annotation: POWERCHINA Escobales 148 MW PV full-capacity COD Ibagué. Supports powerchina_escobares_148mw_2026.
+  supports:
+  - powerchina_escobares_148mw_2026
+  - hunt_energy_solar
+- id: kaifa_manaus_20251107
+  type: company
+  chicago: "Shenzhen Kaifa Technology (Chengdu). “KAIFA: Investing in Brazil with Local Manufacturing
+    for Long-term Growth.” 7 November 2025."
+  url: http://en.kaifametering.com/Newsa/220.html
+  annotation: KAIFA ~USD 40m Manaus smart-meter plant outbound investment. Supports kaifa_manaus_meters_40m_2025.
+  supports:
+  - kaifa_manaus_meters_40m_2025
+  - hunt_res_water
+- id: pv_mag_arctech_tonka_20260108
+  type: journalism
+  chicago: Ini, Luis. “La china Arctech cierra en Argentina un acuerdo para desarrollar 200 MW de
+    proyectos fotovoltaicos.” pv magazine Latinoamérica. 8 January 2026.
+  url: https://www.pv-magazine-latam.com/2026/01/08/la-china-arctech-cierra-en-argentina-un-acuerdo-para-desarrollar-200-mw-de-proyectos-fotovoltaicos/
+  annotation: Arctech–Tonka Solar 200 MW tracker MoU Argentina. Supports arctech_tonka_200mw_argentina_2026.
+  supports:
+  - arctech_tonka_200mw_argentina_2026
+  - hunt_energy_solar

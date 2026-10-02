@@ -1,10 +1,10 @@
 updated: 2026-10-02
-cycle: 69
+cycle: 70
 remote: present
 active_layer: resources
 active_subcategory: nickel
-next_query: Cycle 70 shuffle_seed=20261070; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us151/prc147/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23) then balsa (24). Keep US/PRC even split.
-next_row_id: (follow cycle-70 shuffled_order)
+next_query: Cycle 71 shuffle_seed=20261071; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us155/prc151/allied225); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); graphite = mining/processing/anode chains (Brazil, Mexico). Prefer thin: nickel/fission_smr (23/23) then balsa/graphite (24/24). Keep US/PRC even split.
+next_row_id: (follow cycle-71 shuffled_order)
 dry_streak: 0
 
 # Per-cycle shuffle (BRIEF.md):
@@ -17,65 +17,68 @@ dry_streak: 0
 # (3) Thin-subcategory top-up: after the shuffled pass, the 3 subcategories with
 #     the fewest active rows (recompute each cycle) each get one extra half-budget.
 
-# Side-tag audit (cycles 57–63) — cycle 69 pre-merge:
-# - No new mislabels found; prior Aldesa allied retags stand; Shell/ACCIONA/AFRY/Golar
-#   already allied; Weatherford continues us on Houston PE offices / NASDAQ:WFRD.
-# - Skipped State Grid R$18bn Maranhão–Goiás (same Graça Aranha–Silvânia as prior rows);
-#   skipped CRBC Arequipa–La Joya (already crbc_arequipa_la_joya_2026).
+# Side-tag audit (cycles 57–63) — cycle 70 pre-merge:
+# - No new mislabels found; ContourGlobal continues us on KKR U.S. ownership chain;
+#   Halliburton/SLB us on Houston HQ; POWERCHINA/KAIFA/Arctech prc on PRC HQ.
+# - Skipped Halliburton Shell Gato do Mato / Suriname–São Tomé package (São Tomé
+#   out of LatAm; Suriname piece deferred); skipped TechnipFMC Petrobras SPS (UK
+#   Newcastle registered office — not auto-tagged us); skipped CRBC Corentyne
+#   bridge (no signed contract/financing); skipped Coca Codo O&M USD 46m/y press
+#   (powerchina_coca_codo_om_2026 already logged settlement package).
 
-shuffle_seed: 20261069
+shuffle_seed: 20261070
 budget_per_subcategory: 1_source_family_min
 
 shuffled_order:
-- resources/niobium
 - energy/fission_smr
-- infrastructure/port_ownership
-- energy/wind
-- resources/graphite
-- energy/power_plants_grid
-- resources/balsa
-- infrastructure/building_materials
-- resources/water
 - infrastructure/bridges_roads
-- energy/other_renewables
-- energy/solar
+- resources/balsa
 - infrastructure/engineering_epc
-- resources/nickel
-- resources/lithium
+- energy/other_renewables
+- infrastructure/building_materials
 - resources/copper
-- infrastructure/rail
 - infrastructure/port_cranes
+- resources/lithium
+- energy/power_plants_grid
+- energy/solar
+- resources/water
+- infrastructure/port_ownership
+- resources/graphite
+- energy/wind
+- resources/nickel
+- infrastructure/rail
+- resources/niobium
 
 rows_found_this_cycle:
-  resources/niobium: 0
   energy/fission_smr: 0
-  infrastructure/port_ownership: 0
-  energy/wind: 0
-  resources/graphite: 1
-  energy/power_plants_grid: 3
-  resources/balsa: 0
-  infrastructure/building_materials: 0
-  resources/water: 0
   infrastructure/bridges_roads: 0
-  energy/other_renewables: 1
-  energy/solar: 1
+  resources/balsa: 0
   infrastructure/engineering_epc: 3
-  resources/nickel: 0
-  resources/lithium: 0
+  energy/other_renewables: 0
+  infrastructure/building_materials: 0
   resources/copper: 0
-  infrastructure/rail: 0
   infrastructure/port_cranes: 0
+  resources/lithium: 0
+  energy/power_plants_grid: 0
+  energy/solar: 4
+  resources/water: 1
+  infrastructure/port_ownership: 0
+  resources/graphite: 0
+  energy/wind: 0
+  resources/nickel: 0
+  infrastructure/rail: 0
+  resources/niobium: 0
 
 coverage_cumulative:
-  # Active+hunt after cycle 69 (non-archived)
+  # Active+hunt after cycle 70 (non-archived)
   energy/fission_smr: 23
   energy/other_renewables: 36
   energy/power_plants_grid: 51
-  energy/solar: 43
+  energy/solar: 47
   energy/wind: 28
   infrastructure/bridges_roads: 26
   infrastructure/building_materials: 26
-  infrastructure/engineering_epc: 47
+  infrastructure/engineering_epc: 50
   infrastructure/port_cranes: 33
   infrastructure/port_ownership: 33
   infrastructure/rail: 40
@@ -85,9 +88,16 @@ coverage_cumulative:
   resources/lithium: 35
   resources/nickel: 23
   resources/niobium: 26
-  resources/water: 31
+  resources/water: 32
 
 rows_by_side_this_cycle:
+  us: 4
+  prc: 4
+  allied: 0
+  other: 0
+
+# Side balance log — cycle 69
+rows_by_side_this_cycle_cycle69:
   us: 5
   prc: 4
   allied: 0
@@ -133,9 +143,23 @@ thin_topup:
   subcategories:
   - resources/nickel
   - energy/fission_smr
-  - resources/graphite
-  # Hits: graphite (Urbix US export of Graphcoa Boa Sorte concentrate).
-  # Misses: nickel, fission_smr.
+  - resources/balsa
+  # Hits: none.
+  # Misses: nickel, fission_smr, balsa (graphite tied at 24 — prefer balsa per next_query).
+
+# Cycle 70 (seed 20261070): 8 sourced rows (8 shuffled + 0 thin_topup);
+#   shuffled: engineering_epc (SLB Atapu/Sépia ≤35 wells us; Halliburton PetroTal
+#   Loreto eight-well us; Halliburton Petrobras three-year drilling us), solar
+#   (ContourGlobal Condor 11 MWp Colombia us; POWERCHINA Santander 251 MW prc;
+#   POWERCHINA Escobales 148 MW COD prc; Arctech–Tonka 200 MW tracker MoU prc),
+#   water (KAIFA Manaus smart-meter plant ~USD 40m prc).
+#   Thin_topup (nickel/fission_smr/balsa): all misses.
+#   rows_by_side: us 4 / prc 4 / allied 0 / other 0.
+#   Side-tag fixes this cycle: none (cycles 57–63 audit clean; ContourGlobal us on
+#   KKR; Halliburton/SLB us Houston; POWERCHINA/KAIFA/Arctech prc).
+#   Equal-budget misses: fission_smr, bridges_roads, balsa, other_renewables,
+#   building_materials, copper, port_cranes, lithium, power_plants_grid,
+#   port_ownership, graphite, wind, nickel, rail, niobium.
 
 # Cycle 69 (seed 20261069): 9 sourced rows (8 shuffled + 1 thin_topup);
 #   shuffled: power_plants_grid (SPIC São Simão UG7 R$1.4bn prc; Dongfang/CGGC UG7
@@ -165,6 +189,14 @@ thin_topup:
 #   power_plants_grid, other_renewables, copper.
 
 seen_urls:
+- https://www.slb.com/newsroom/press-release/2025/pr-2025-0925-petrobras-atapu-sepia
+- https://www.halliburton.com/en/about-us/press-release/petrotal-awards-halliburton-eight-well-drilling-campaign-in-peru
+- https://www.halliburton.com/en/about-us/press-release/halliburton-secures-major-offshore-drilling-contract-with-petrobras
+- https://www.contourglobal.com/news/contourglobal-marks-renewable-debut-in-colombia/
+- https://www.powerchina-intl.com/show/9/4624.html
+- https://www.powerchina-intl.com/show/9/4677.html
+- http://en.kaifametering.com/Newsa/220.html
+- https://www.pv-magazine-latam.com/2026/01/08/la-china-arctech-cierra-en-argentina-un-acuerdo-para-desarrollar-200-mw-de-proyectos-fotovoltaicos/
 - https://www.halliburton.com/en/about-us/press-release/exxonmobil-halliburton-worlds-first-fully-closed-loop-automated-well-placement-guyana
 - https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Secures-Strategic-Gas-Technology-Order-Supporting-Argentinas-Gas-Infrastructure/default.aspx
 - https://www.aes-elsalvador.com/en/press-release/aes-transforms-customer-experience-launch-its-new-digital-self-management-ecosystem

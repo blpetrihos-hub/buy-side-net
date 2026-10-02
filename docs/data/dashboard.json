@@ -88,28 +88,28 @@
     }
   },
   "meta": {
-    "n_rows": 614,
+    "n_rows": 622,
     "counts": {
-      "total": 614,
-      "active": 559,
+      "total": 622,
+      "active": 567,
       "hunt": 42,
       "archived": 35,
       "paired": 5,
       "one_sided": 27,
-      "proxy": 124,
+      "proxy": 125,
       "exclude": 5,
-      "documented": 431,
-      "on_map": 548
+      "documented": 438,
+      "on_map": 555
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 48,
+        "us": 51,
         "prc": 59,
         "allied": 92,
-        "n": 199
+        "n": 202
       },
       "usd": {
         "us": 2600000000.0,
@@ -130,15 +130,15 @@
       "layer": "resources",
       "counts": {
         "us": 50,
-        "prc": 31,
+        "prc": 32,
         "allied": 104,
-        "n": 185
+        "n": 186
       },
       "usd": {
         "us": 25749193622.0,
         "us_n": 23,
-        "prc": 7277872882.0,
-        "prc_n": 18,
+        "prc": 7317872882.0,
+        "prc_n": 19,
         "allied": 38487618653.2,
         "allied_n": 38
       },
@@ -152,10 +152,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 53,
-        "prc": 56,
+        "us": 54,
+        "prc": 59,
         "allied": 64,
-        "n": 173
+        "n": 177
       },
       "usd": {
         "us": 4583700000.0,
@@ -178,9 +178,9 @@
       "country": "Argentina",
       "counts": {
         "us": 12,
-        "prc": 16,
+        "prc": 17,
         "allied": 27,
-        "n": 55
+        "n": 56
       },
       "usd": {
         "us": 7100000000.0,
@@ -193,7 +193,7 @@
       "by_layer": {
         "energy": {
           "us": 4,
-          "prc": 2,
+          "prc": 3,
           "allied": 10
         },
         "infrastructure": {
@@ -264,16 +264,16 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 49,
-        "prc": 48,
+        "us": 51,
+        "prc": 49,
         "allied": 103,
-        "n": 200
+        "n": 203
       },
       "usd": {
         "us": 1455545000.0,
         "us_n": 9,
-        "prc": 1252595264.55,
-        "prc_n": 9,
+        "prc": 1292595264.55,
+        "prc_n": 10,
         "allied": 4439359384.93,
         "allied_n": 20
       },
@@ -284,13 +284,13 @@
           "allied": 25
         },
         "infrastructure": {
-          "us": 17,
+          "us": 19,
           "prc": 19,
           "allied": 30
         },
         "resources": {
           "us": 24,
-          "prc": 6,
+          "prc": 7,
           "allied": 48
         }
       }
@@ -332,10 +332,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 2,
-        "prc": 7,
+        "us": 3,
+        "prc": 9,
         "allied": 9,
-        "n": 18
+        "n": 21
       },
       "usd": {
         "us": 150000000.0,
@@ -347,8 +347,8 @@
       },
       "by_layer": {
         "energy": {
-          "us": 2,
-          "prc": 5,
+          "us": 3,
+          "prc": 7,
           "allied": 2
         },
         "infrastructure": {
@@ -719,10 +719,10 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 9,
+        "us": 10,
         "prc": 18,
         "allied": 20,
-        "n": 47
+        "n": 48
       },
       "usd": {
         "us": 5635000000.0,
@@ -739,7 +739,7 @@
           "allied": 4
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 6,
           "allied": 12
         },
@@ -1386,7 +1386,15 @@
       "dongfang_cggc_sao_simao_ug7_2026",
       "byd_grenergy_elena_3p5gwh_2025",
       "camce_bluefields_port_210m_2026",
-      "graphcoa_urbix_us_export_2025"
+      "graphcoa_urbix_us_export_2025",
+      "slb_atapu_sepia_completions_2025",
+      "halliburton_petrotal_peru_2026",
+      "halliburton_petrobras_drilling_2025",
+      "contourglobal_condor_colombia_2025",
+      "powerchina_santander_251mw_2026",
+      "powerchina_escobares_148mw_2026",
+      "kaifa_manaus_meters_40m_2025",
+      "arctech_tonka_200mw_argentina_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
