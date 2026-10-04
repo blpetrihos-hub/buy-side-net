@@ -1,0 +1,10 @@
+{
+  "id": "grenergy_antofagasta1_seia_520m_2026",
+  "retrieved": "2026-10-04",
+  "source_id": "pv_magazine_grenergy_antofagasta1_20260828",
+  "url": "https://www.pv-magazine-latam.com/2026/08/28/grenergy-proyecta-en-chile-un-parque-solar-de-5169-mwp-con-un-bess-de-430-mw-3-010-mwh/",
+  "price_year": "2026",
+  "evidence": "proxy",
+  "quote": "La DIA estima una inversión de aproximadamente 250 millones de dólares para el parque fotovoltaico, incluida la línea de transmisión y la subestación, y otros 270 millones de dólares para el sistema BESS, lo que sitúa la inversión descrita en el resumen ejecutivo en unos 520 millones de dólares.",
+  "note": "Opened pv magazine LatAm Spanish page 2026-10-04 citing DIA CapEx split; SEIA expediente URL returned HTTP 500 this cycle."
+}
