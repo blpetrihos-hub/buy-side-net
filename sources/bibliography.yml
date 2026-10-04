@@ -10995,10 +10995,12 @@
   type: company
   chicago: Antofagasta plc. “2025 Full Year Results.” February 17, 2026. https://www.antofagasta.co.uk/investors/news/2026/2025-full-year-results/.
   url: https://www.antofagasta.co.uk/investors/news/2026/2025-full-year-results/
-  annotation: 'Antofagasta: FY2025 Group CapEx USD 3.7bn. Supports antofagasta_fy2025_capex_3p7bn.'
+  annotation: 'Antofagasta: 2026 CapEx guidance USD 3.4bn. Supports antofagasta_2026_capex_guidance_3p4bn.'
   supports:
   - antofagasta_fy2025_capex_3p7bn
   - hunt_cycle197
+  - antofagasta_2026_capex_guidance_3p4bn
+  - hunt_cycle198
 - id: engie_brasil_fy2025_results_20260225
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia grows 14.6% in revenue and invests R$ 6 billion in 2025.” February 25, 2026. https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-energia-grows-14-6-in-revenue-and-invests-r-6-billion-in-2025/.
@@ -11023,3 +11025,44 @@
   supports:
   - spic_sao_simao_ug7_lrcap_2026
   - hunt_cycle197
+- id: amazon_brasil_invest_20260804
+  type: company
+  chicago: Amazon. “Amazon reforça compromisso com o Brasil com operação crescente alinhada à estratégia global.” About Amazon Brasil, August 4, 2026. https://www.aboutamazon.com.br/noticias/noticias-da-empresa/amazon-reforca-compromisso-com-o-brasil-com-operacao-crescente-alinhada-a-estrategia-global.
+  url: https://www.aboutamazon.com.br/noticias/noticias-da-empresa/amazon-reforca-compromisso-com-o-brasil-com-operacao-crescente-alinhada-a-estrategia-global
+  annotation: 'Amazon: Brazil 2025 investments >R$19bn. Supports amazon_brazil_invest_19bn_brl_2025.'
+  supports:
+  - amazon_brazil_invest_19bn_brl_2025
+  - hunt_cycle198
+- id: sqm_2q2026_earnings_6k
+  type: company
+  chicago: Sociedad Química y Minera de Chile S.A. “SQM Reports Earnings for the Six Months Ended June 30, 2026.” Form 6-K, August 19, 2026. https://www.sec.gov/Archives/edgar/data/909037/000090903726000034/a6-k_2q2026earningsrelease.htm.
+  url: https://www.sec.gov/Archives/edgar/data/909037/000090903726000034/a6-k_2q2026earningsrelease.htm
+  annotation: 'Novandino/SQM: Salar Futuro ~USD 3bn. Supports novandino_salar_futuro_3bn_2026.'
+  supports:
+  - sqm_capex_3bn_2026_2028
+  - hunt_cycle198
+  - novandino_salar_futuro_3bn_2026
+- id: cbmm_crescimento_diversificacao_2025
+  type: company
+  chicago: CBMM. “CBMM avança em sua estratégia de crescimento e diversificação.” Company news. https://cbmm.com/pt/midias/noticias/cbmm-crescimento-diversificacao-niobio.
+  url: https://cbmm.com/pt/midias/noticias/cbmm-crescimento-diversificacao-niobio
+  annotation: 'CBMM: FY2025 CapEx R$1.1bn. Supports cbmm_araxa_2025_spend_1p1bn.'
+  supports:
+  - cbmm_araxa_2025_spend_1p1bn
+  - hunt_cycle198
+- id: cbmm_rs_2025
+  type: company
+  chicago: CBMM. Relatório de Sustentabilidade 2025. https://cbmm.com/relatorio-sustentabilidade/pdf/CBMM_RS25_D16_02.pdf.
+  url: https://cbmm.com/relatorio-sustentabilidade/pdf/CBMM_RS25_D16_02.pdf
+  annotation: 'CBMM: CapEx/growth plan R$11bn to 2030. Supports cbmm_capex_plan_11bn_2030.'
+  supports:
+  - cbmm_capex_plan_11bn_2030
+  - hunt_cycle198
+- id: ctg_brasil_relatorio_anual_2025
+  type: company
+  chicago: CTG Brasil. Relatório Anual 2025. https://www.ctgbr.com.br/relatorioanual2025/.
+  url: https://www.ctgbr.com.br/relatorioanual2025/
+  annotation: 'CTG Brasil: H2V pilot ~R$60m. Supports ctg_brasil_h2v_pilot_60m_brl_2025.'
+  supports:
+  - ctg_brasil_h2v_pilot_60m_brl_2025
+  - hunt_cycle198

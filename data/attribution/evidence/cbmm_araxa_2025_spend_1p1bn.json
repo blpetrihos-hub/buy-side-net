@@ -1,10 +1,10 @@
 {
   "id": "cbmm_araxa_2025_spend_1p1bn",
-  "retrieved": "2026-10-01",
-  "source_id": "brasilmineral_cbmm_2025_1p1bn",
-  "url": "https://brasilmineral.com.br/noticias/cbmm-investe-r-11-bilhao-em-crescimento-e-inovacao-em-2025",
+  "retrieved": "2026-10-04",
+  "source_id": "cbmm_crescimento_diversificacao_2025",
+  "url": "https://cbmm.com/pt/midias/noticias/cbmm-crescimento-diversificacao-niobio",
   "price_year": "2025",
-  "evidence": "proxy",
-  "quote": "CBMM investe R$ 1,1 bilhão em crescimento e inovação em 2025 … Investimento é alavancado por expansão em mobilidade elétrica, armazenamento de energia e data centers, além da renovação da parceria com a Codemig que garante acesso ao minério até 2070.",
-  "note": "Opened Brasil Mineral article summarizing CBMM 2025 R$1.1bn spend."
+  "evidence": "documented",
+  "quote": "Em 2025, a CBMM investiu R$ 1,1 bilhão em Capex, reforçando seu compromisso com o crescimento sustentável e competitividade de longo prazo.",
+  "note": "Opened CBMM Portuguese company primary 2026-10-04; upgrades prior Brasil Mineral proxy."
 }
