@@ -18643,5 +18643,141 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "redeia_strategic_plan_latam_20260226",
+    "type": "company",
+    "chicago": "Redeia. “Redeia increases its average annual investment in Red Eléctrica by 70% to implement the next Plan.” February 26, 2026. https://www.redeia.com/en/press-office/news/press-release/2026/02/redeia-increases-its-average-annual-investment-red-electrica-70-implement-next-plan.",
+    "url": "https://www.redeia.com/en/press-office/news/press-release/2026/02/redeia-increases-its-average-annual-investment-red-electrica-70-implement-next-plan",
+    "annotation": "Redeia: ~€150m Redinter LatAm grid plan BR/CL/PE. Supports redeia_redinter_latam_150m_eur_2026.",
+    "supports": [
+      "redeia_redinter_latam_150m_eur_2026",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "redeia_redinter_latam_150m_eur_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "weg_brazil_xfmr_20240925",
+    "type": "company",
+    "chicago": "WEG. “WEG announces investments to expand transformer production capacity in Brazil.” September 25, 2024. https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil.",
+    "url": "https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil",
+    "annotation": "WEG: R$543m Betim+Gravataí transformer CapEx. Supports weg_brazil_xfmr_543m_brl_2024.",
+    "supports": [
+      "weg_brazil_xfmr_543m_brl_2024",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "weg_brazil_xfmr_543m_brl_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "bcie_siepac_segundo_20250428",
+    "type": "official",
+    "chicago": "Banco Centroamericano de Integración Económica (BCIE). “En beneficio de 50 millones de centroamericanos, BCIE fortalece la integración energética regional con el financiamiento del Segundo Circuito SIEPAC.” April 28, 2025. https://www.bcie.org/noticias/en-beneficio-de-50-millones-de-centroamericanos-bcie-fortalece-la-integracion-energetica-regional-con-el-financiamiento-del-segundo-circuito-siepac.",
+    "url": "https://www.bcie.org/noticias/en-beneficio-de-50-millones-de-centroamericanos-bcie-fortalece-la-integracion-energetica-regional-con-el-financiamiento-del-segundo-circuito-siepac",
+    "annotation": "BCIE: USD 37.2m of SIEPAC second-circuit USD 46.4m. Supports bcie_siepac_segundo_circuito_37p2m_2025.",
+    "supports": [
+      "bcie_siepac_segundo_circuito_37p2m_2025",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "bcie_siepac_segundo_circuito_37p2m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cuatrecasas_metro_linea1_20250203",
+    "type": "press",
+    "chicago": "Cuatrecasas. “Metro Línea 1 secures financing to build first metro line in Bogotá.” February 3, 2025. https://www.cuatrecasas.com/en/latam/art/metro-linea-1-secures-financing-build-first-metro-line-bogota.",
+    "url": "https://www.cuatrecasas.com/en/latam/art/metro-linea-1-secures-financing-build-first-metro-line-bogota",
+    "annotation": "Cuatrecasas: BOC+ICBC USD 230m revolving credit for Bogotá Metro Line 1. Supports boc_icbc_bogota_metro_230m_2024.",
+    "supports": [
+      "boc_icbc_bogota_metro_230m_2024",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "boc_icbc_bogota_metro_230m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sandvik_alumbrera_dr413i_20260424",
+    "type": "company",
+    "chicago": "Sandvik Mining. “Sandvik to supply three DR413i rotary drill rigs to Glencore for Alumbrera restart.” April 24, 2026. https://www.mining.sandvik/en/news-and-media/news-archive/2026/04/sandvik-to-supply-three-dr413i-rotary-drill-rigs-to-glencore-for-alumbrera-restart/.",
+    "url": "https://www.mining.sandvik/en/news-and-media/news-archive/2026/04/sandvik-to-supply-three-dr413i-rotary-drill-rigs-to-glencore-for-alumbrera-restart/",
+    "annotation": "Sandvik: 3× DR413i for Alumbrera restart (CapEx blank). Supports sandvik_alumbrera_dr413i_3_2026.",
+    "supports": [
+      "sandvik_alumbrera_dr413i_3_2026",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "sandvik_alumbrera_dr413i_3_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "epiroc_peru_pit_viper_20260715",
+    "type": "company",
+    "chicago": "Epiroc AB. “Epiroc wins large order for mining equipment in Peru.” July 15, 2026. https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260715-epiroc-wins-large-order-for-mining-equipment-in-peru.",
+    "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260715-epiroc-wins-large-order-for-mining-equipment-in-peru",
+    "annotation": "Epiroc: ~SEK 210m Pit Viper 351 Peru copper order. Supports epiroc_peru_pit_viper_sek210m_2026.",
+    "supports": [
+      "epiroc_peru_pit_viper_sek210m_2026",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "epiroc_peru_pit_viper_sek210m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "sandvik_cominvi_mexico_20260703",
+    "type": "company",
+    "chicago": "Sandvik AB. “Sandvik wins large underground equipment order in Mexico from mining contractor CoMinVi.” July 3, 2026. https://www.home.sandvik/en/news-and-media/news/2026/07/sandvik-wins-large-underground-equipment-order-in-mexico-from-mining-contractor-cominvi/.",
+    "url": "https://www.home.sandvik/en/news-and-media/news/2026/07/sandvik-wins-large-underground-equipment-order-in-mexico-from-mining-contractor-cominvi/",
+    "annotation": "Sandvik: ~SEK 340m CoMinVi Mexico 46-unit underground fleet. Supports sandvik_cominvi_mexico_sek340m_2026.",
+    "supports": [
+      "sandvik_cominvi_mexico_sek340m_2026",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "sandvik_cominvi_mexico_sek340m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "nadbank_nuevo_laredo_beif_20251003",
+    "type": "official",
+    "chicago": "North American Development Bank. “Groundbreaking ceremony for the rehabilitation of two wastewater sewer mains in Nuevo Laredo, Tamaulipas.” October 3, 2025. https://nadbank.org/news/press-release/groundbreaking-ceremony-for-the-rehabilitation-of-two-wastewater-sewer-mains-in-nuevo-laredo-tamaulipas.",
+    "url": "https://nadbank.org/news/press-release/groundbreaking-ceremony-for-the-rehabilitation-of-two-wastewater-sewer-mains-in-nuevo-laredo-tamaulipas",
+    "annotation": "NADBank/EPA BEIF: USD 8m Nuevo Laredo sewer mains. Supports nadbank_nuevo_laredo_beif_8m_2025.",
+    "supports": [
+      "nadbank_nuevo_laredo_beif_8m_2025",
+      "hunt_cycle181"
+    ],
+    "map_supports": [
+      "nadbank_nuevo_laredo_beif_8m_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
