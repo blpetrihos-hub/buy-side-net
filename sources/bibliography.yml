@@ -11286,3 +11286,19 @@
   supports:
   - konecranes_transtec_eace_santos_2026
   - hunt_cycle203
+- id: doe_ge_vernova_venezuela_20260902
+  type: government
+  chicago: 'U.S. Department of Energy. “FACT SHEET: Delivering on President Trump’s Promise to Unleash Prosperity and Security for the United States and Venezuela.” September 2, 2026. https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united.'
+  url: https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united
+  annotation: 'DOE: GE Vernova Venezuela grid 1 GW/24mo + 5 GW/4yr; CapEx blank. Supports ge_vernova_corpoelec_venezuela_grid_2026.'
+  supports:
+  - ge_vernova_corpoelec_venezuela_grid_2026
+  - hunt_cycle204
+- id: sacyr_antofagasta_financing_20260427
+  type: company
+  chicago: Sacyr. “Sacyr cierra la financiación de la planta de reúso de agua de Antofagasta (Chile) por 460 millones de dólares.” April 27, 2026. https://sacyr.com/-/sacyr-cierra-la-financiaci%C3%B3n-de-la-planta-de-re%C3%BAso-de-agua-de-antofagasta-chile-por-460-millones-de-d%C3%B3lares.
+  url: https://sacyr.com/-/sacyr-cierra-la-financiaci%C3%B3n-de-la-planta-de-re%C3%BAso-de-agua-de-antofagasta-chile-por-460-millones-de-d%C3%B3lares
+  annotation: 'Sacyr Antofagasta reuse financing: USD 460m. Supports sacyr_antofagasta_reuse_financing_460m_2026.'
+  supports:
+  - sacyr_antofagasta_reuse_financing_460m_2026
+  - hunt_cycle204

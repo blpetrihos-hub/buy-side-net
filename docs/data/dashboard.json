@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1404,
+    "n_rows": 1406,
     "counts": {
-      "total": 1404,
-      "active": 1205,
+      "total": 1406,
+      "active": 1207,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 175,
       "exclude": 18,
-      "documented": 1154,
-      "on_map": 1080
+      "documented": 1156,
+      "on_map": 1082
     }
   },
   "layer_readouts": [
@@ -130,16 +130,16 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 145,
-        "n": 302
+        "allied": 146,
+        "n": 303
       },
       "usd": {
         "us": 28076323566.0,
         "us_n": 41,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 73332458653.2,
-        "allied_n": 59
+        "allied": 73792458653.2,
+        "allied_n": 60
       },
       "matched_gaps": {
         "n": 3,
@@ -153,10 +153,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 146,
+        "us": 147,
         "prc": 171,
         "allied": 146,
-        "n": 463
+        "n": 464
       },
       "usd": {
         "us": 14676460515.13,
@@ -398,16 +398,16 @@
       "counts": {
         "us": 53,
         "prc": 42,
-        "allied": 78,
-        "n": 173
+        "allied": 79,
+        "n": 174
       },
       "usd": {
         "us": 25957000000.0,
         "us_n": 20,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 37418062361.0,
-        "allied_n": 41
+        "allied": 37878062361.0,
+        "allied_n": 42
       },
       "by_layer": {
         "energy": {
@@ -423,7 +423,7 @@
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 34
+          "allied": 35
         }
       }
     },
@@ -1162,10 +1162,10 @@
     {
       "country": "Venezuela",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 1,
         "allied": 0,
-        "n": 3
+        "n": 4
       },
       "usd": {
         "us": 0.0,
@@ -1177,7 +1177,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 1,
+          "us": 2,
           "prc": 1,
           "allied": 0
         },
@@ -2393,7 +2393,9 @@
       "enel_americas_brazil_grids_6p8bn_2026_28",
       "hutchison_lct_lazaro_phase3_220m_2023",
       "ohla_accesos_norte_fase2_1p7tn_2026",
-      "konecranes_transtec_eace_santos_2026"
+      "konecranes_transtec_eace_santos_2026",
+      "ge_vernova_corpoelec_venezuela_grid_2026",
+      "sacyr_antofagasta_reuse_financing_460m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
