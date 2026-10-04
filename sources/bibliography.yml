@@ -11560,3 +11560,20 @@
   supports:
   - graphcoa_jordania_dfs_capex_2026
   - hunt_cycle213
+- id: andina_engie_grupo1_contratos_20261002
+  type: government
+  chicago: Agencia Andina. “Inician ejecución de cuatro proyectos eléctricos en beneficio de 1.6 millones de peruanos.” October 2, 2026. https://andina.pe/agencia/noticia-inician-ejecucion-cuatro-proyectos-electricos-beneficio-16-millones-peruanos-1094342.aspx.
+  url: https://andina.pe/agencia/noticia-inician-ejecucion-cuatro-proyectos-electricos-beneficio-16-millones-peruanos-1094342.aspx
+  annotation: ENGIE Peru Grupo 1 CapEx-fill >USD 339m / USD 339.36m. Supports engie_peru_grupo1_transmision_230m_2026.
+  supports:
+  - engie_peru_grupo1_transmision_230m_2026
+  - hunt_cycle214
+- id: isa_fy2025_results_20260302
+  type: company
+  chicago: 'ISA. “More investment, greater value: ISA closed 2025 with 31% investment growth and a 48% increase in its share price.” March 2, 2026. https://isa.co/en/press/isa-2025-results-investment-growth-shareholder-value/.'
+  url: https://isa.co/en/press/isa-2025-results-investment-growth-shareholder-value/
+  annotation: ISA 2026–2030 CapEx plan COP 25.5tn. Supports isa_capex_plan_25p5tn_2026_2030.
+  supports:
+  - isa_fy2025_invest_6p3tn_cop
+  - hunt_cycle214
+  - isa_capex_plan_25p5tn_2026_2030
