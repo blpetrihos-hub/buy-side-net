@@ -4800,24 +4800,6 @@
     ]
   },
   {
-    "id": "bnamericas_graphcoa_jordania_20260624",
-    "type": "trade_press",
-    "chicago": "BNamericas. “Appian unit in Brazil will invest US$120 million in graphite project.” 24 June 2026.",
-    "url": "https://www.bnamericas.com/en/news/appian-unit-in-brazil-will-invest-us120-million-in-graphite-project",
-    "annotation": "Trade press citing Graphcoa EIA investment R$621.76m / USD 120m. Supports graphcoa_jordania_dfs_capex_2026.",
-    "supports": [
-      "graphcoa_jordania_dfs_capex_2026",
-      "hunt_res_graphite"
-    ],
-    "map_supports": [
-      "graphcoa_jordania_dfs_capex_2026",
-      "hunt_res_graphite"
-    ],
-    "layers": [
-      "resources"
-    ]
-  },
-  {
     "id": "hitachi_latam_addl_20260309",
     "type": "company",
     "chicago": "Hitachi Energy. “Hitachi Energy reaffirms commitment to Latin America through an additional $150 million USD investment to expand power transformer manufacturing capacity.” 9 March 2026.",
@@ -20328,6 +20310,108 @@
     ],
     "map_supports": [
       "ctg_brasil_h2v_pilot_60m_brl_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "ascenty_growth_revenue_1bn_2026",
+    "type": "company",
+    "chicago": "Ascenty. “Ascenty Achieves Over 30% Growth in Enterprise Revenue in 2025 and Accelerates Expansion with a US$ 1 Billion Investment.” https://ascenty.com/en/blog/news-ascenty-en/ascenty-growth-revenue/.",
+    "url": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-growth-revenue/",
+    "annotation": "Ascenty: USD 1bn approved 2026 LatAm CapEx. Supports ascenty_2026_capex_1bn_latam.",
+    "supports": [
+      "ascenty_2026_capex_1bn_latam",
+      "hunt_cycle199"
+    ],
+    "map_supports": [
+      "ascenty_2026_capex_1bn_latam"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "vale_bacaba_license_20250617",
+    "type": "company",
+    "chicago": "Vale Base Metals. “Preliminary License Issued for the Bacaba Copper Project.” June 17, 2025. https://valebasemetals.com/news/preliminary-license-issued-for-the-bacaba-copper-project/.",
+    "url": "https://valebasemetals.com/news/preliminary-license-issued-for-the-bacaba-copper-project/",
+    "annotation": "Vale Bacaba: USD 290m implementation CapEx. Supports vale_bacaba_copper_290m_2025.",
+    "supports": [
+      "vale_bacaba_copper_290m_2025",
+      "hunt_cycle199"
+    ],
+    "map_supports": [
+      "vale_bacaba_copper_290m_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "vale_carajas_cu_capex_6k_20260223",
+    "type": "company",
+    "chicago": "Vale S.A. “Vale informs on estimates update.” Form 6-K, February 23, 2026. https://www.sec.gov/Archives/edgar/data/917851/000129281426000464/vale20260223_6k.htm.",
+    "url": "https://www.sec.gov/Archives/edgar/data/917851/000129281426000464/vale20260223_6k.htm",
+    "annotation": "Vale: Carajás copper CapEx USD 3.5bn 2026–2030. Supports vale_carajas_copper_capex_3p5bn_2026_2030.",
+    "supports": [
+      "vale_carajas_copper_capex_3p5bn_2026_2030",
+      "hunt_cycle199"
+    ],
+    "map_supports": [
+      "vale_carajas_copper_capex_3p5bn_2026_2030"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "spic_luiz_gonzaga_20241106",
+    "type": "company",
+    "chicago": "SPIC Brasil. “SPIC Brasil anuncia investimento de R$ 400 milhões em novo solar em parceria com a Recurrent Energy.” November 6, 2024. https://www.spicbrasil.com.br/destaque/investimento-complexo-solar-luiz-gonzaga/.",
+    "url": "https://www.spicbrasil.com.br/destaque/investimento-complexo-solar-luiz-gonzaga/",
+    "annotation": "SPIC Luiz Gonzaga: ~R$400m. Supports spic_luiz_gonzaga_400m_brl_2024.",
+    "supports": [
+      "spic_luiz_gonzaga_400m_brl_2024",
+      "hunt_cycle199"
+    ],
+    "map_supports": [
+      "spic_luiz_gonzaga_400m_brl_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "graphcoa_jordania_rima_2025",
+    "type": "company",
+    "chicago": "Graphcoa. “Projeto Grafite Jordânia — Relatório de Impacto Ambiental (RIMA).” https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf.",
+    "url": "https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf",
+    "annotation": "Graphcoa Jordânia RIMA: R$621.76m. Supports graphcoa_jordania_dfs_capex_2026.",
+    "supports": [
+      "graphcoa_jordania_dfs_capex_2026",
+      "hunt_cycle199"
+    ],
+    "map_supports": [
+      "graphcoa_jordania_dfs_capex_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "lapatria_chec_francisco_juana_20250215",
+    "type": "press",
+    "chicago": "Carmona Caraballo, Santiago. “Caldas: multinacional china y la Chec construyen dos parques solares por $60 mil millones.” La Patria, February 15, 2025. https://www.lapatria.com/caldas/caldas-multinacional-china-y-la-chec-construyen-dos-parques-solares-por-60-mil-millones-asi.",
+    "url": "https://www.lapatria.com/caldas/caldas-multinacional-china-y-la-chec-construyen-dos-parques-solares-por-60-mil-millones-asi",
+    "annotation": "CHEC Francisco/Juana CapEx COP 60.05bn. Supports chec_francisco_juana_60bn_cop_2025.",
+    "supports": [
+      "chec_francisco_juana_60bn_cop_2025",
+      "hunt_cycle199"
+    ],
+    "map_supports": [
+      "chec_francisco_juana_60bn_cop_2025"
     ],
     "layers": [
       "energy"

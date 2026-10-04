@@ -1,10 +1,10 @@
 {
   "id": "graphcoa_jordania_dfs_capex_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "bnamericas_graphcoa_jordania_20260624",
-  "url": "https://www.bnamericas.com/en/news/appian-unit-in-brazil-will-invest-us120-million-in-graphite-project",
+  "retrieved": "2026-10-04",
+  "source_id": "graphcoa_jordania_rima_2025",
+  "url": "https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf",
   "price_year": "2026",
-  "evidence": "proxy",
-  "quote": "Graphcoa … plans to invest 621.76 million (mn) reais (US$120mn) in a project in the Brazilian state of Minas Gerais. … production capacity of 53 thousand tons per year",
-  "note": "Opened BNamericas 24 Jun 2026 citing EIA-Rima. Mark UNVERIFIED proxy."
+  "evidence": "documented",
+  "quote": "O investimento estimado para essa implantação é de R$ 621,76 milhões.",
+  "note": "Opened Graphcoa RIMA PDF 2026-10-04; R$621.76m implantation CapEx confirmed; upgrades prior BNamericas proxy."
 }
