@@ -1,10 +1,10 @@
 {
   "id": "konecranes_portonave_rtg_2025",
-  "retrieved": "2026-10-01",
-  "source_id": "konecranes_portonave_20250417",
-  "url": "https://www.konecranes.com/press-releases/konecranes-expands-presence-in-brazil-with-order-for-14-electric-rtgs-from-portonave",
+  "retrieved": "2026-10-04",
+  "source_id": "dataportuaria_portonave_ertg_37p8m_2026",
+  "url": "https://dataportuaria.com/en/brasil/logistics/portonave-incorporates-seven-electric-rtg-cranes-for-usd-37",
   "price_year": "2025",
-  "evidence": "documented",
-  "quote": "Portonave … has ordered 14 Konecranes fully electric RTGs … The order was booked in Q4 2024 and the cranes will be delivered in mid-2026.",
-  "note": "Opened Konecranes press release."
+  "evidence": "proxy",
+  "quote": "Portonave incorporated seven new Konecranes electric RTG cranes, 28 meters high and 150 tons, as the first units of a purchase of 14. Valued at USD 37.8 million, they are expected to become operational in mid-August.",
+  "note": "Opened DataPortuaria 2026-10-04; USD 37.8m / 14 Konecranes e-RTGs / first seven incorporated confirmed. UNVERIFIED proxy CapEx-fill vs Konecranes company release (no USD)."
 }
