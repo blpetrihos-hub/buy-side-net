@@ -1,10 +1,10 @@
 {
   "id": "fluor_toromocho_expansion_peru",
-  "retrieved": "2026-10-01",
-  "source_id": "fluor_toromocho_expansion_page",
-  "url": "https://www.fluor.com/projects/toromocho-expansion-project",
+  "retrieved": "2026-10-04",
+  "source_id": "minem_toromocho_ampliacion_1355m",
+  "url": "https://www.gob.pe/institucion/minem/noticias/759704-minem-ampliacion-del-proyecto-minero-toromocho-ingresa-a-su-etapa-final",
   "price_year": "2024",
   "evidence": "documented",
-  "quote": "Fluor was selected by Minera Chinalco Perú S.A. to provide engineering, procurement and construction management (EPCm) services for its Toromocho Expansion Project in Junín Region, Peru. The expansion was designed to increase the mine’s copper output by 45%.",
-  "note": "Opened Fluor project page."
+  "quote": "La ampliación del proyecto minero Toromocho… con inversión de US$ 1,355 millones.",
+  "note": "Opened MINEM Spanish primary 2026-10-04; US$ 1,355 millones expansion investment confirmed. CapEx-fill on prior Fluor EPCm presence row."
 }

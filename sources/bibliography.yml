@@ -11471,3 +11471,51 @@
   supports:
   - portonave_cais_1p5bn_brl_2026
   - hunt_cycle210
+- id: codelco_enami_qb_20241218
+  type: company
+  chicago: Codelco. “Codelco y ENAMI culminan proceso de compraventa del 10% de la Compañía Minera Teck Quebrada Blanca.” December 18, 2024. https://www.codelco.com/codelco-y-enami-culminan-proceso-de-compraventa-del-10-de-la-compania.
+  url: https://www.codelco.com/codelco-y-enami-culminan-proceso-de-compraventa-del-10-de-la-compania
+  annotation: Codelco–ENAMI Quebrada Blanca 10% USD 520m. Supports codelco_enami_qb_10pct_520m_2024.
+  supports:
+  - codelco_enami_qb_10pct_520m_2024
+  - hunt_cycle211
+- id: antofagasta_fy24_results_pres_20250218
+  type: company
+  chicago: Antofagasta plc. “Focused on copper” FY2024 Results Presentation. February 18, 2025. https://www.antofagasta.co.uk/media/4748/20250218_anto-fy24-results-presentation-feb25-vf-low-res.pdf.
+  url: https://www.antofagasta.co.uk/media/4748/20250218_anto-fy24-results-presentation-feb25-vf-low-res.pdf
+  annotation: Antofagasta Los Pelambres water infrastructure financing USD 2bn. Supports antofagasta_pelambres_water_financing_2bn_2025.
+  supports:
+  - antofagasta_pelambres_water_financing_2bn_2025
+  - hunt_cycle211
+- id: antofagasta_hy2022_inco_capex
+  type: company
+  chicago: Antofagasta plc. “Half Year Results for the Six Months Ended 30 June 2022.” August 17, 2022. https://www.antofagasta.co.uk/media/4399/antofagasta-hy-2022-results-announcement.pdf.
+  url: https://www.antofagasta.co.uk/media/4399/antofagasta-hy-2022-results-announcement.pdf
+  annotation: Los Pelambres INCO Phase 1 CapEx USD 2.2bn. Supports bechtel_los_pelambres_inco_2024 CapEx-fill.
+  supports:
+  - bechtel_los_pelambres_inco_2024
+  - hunt_cycle211
+- id: minem_toromocho_ampliacion_1355m
+  type: government
+  chicago: 'Ministerio de Energía y Minas (Perú). “MINEM: Ampliación del proyecto minero Toromocho ingresa a su etapa final.” https://www.gob.pe/institucion/minem/noticias/759704-minem-ampliacion-del-proyecto-minero-toromocho-ingresa-a-su-etapa-final.'
+  url: https://www.gob.pe/institucion/minem/noticias/759704-minem-ampliacion-del-proyecto-minero-toromocho-ingresa-a-su-etapa-final
+  annotation: Toromocho expansion CapEx USD 1.355bn. Supports fluor_toromocho_expansion_peru CapEx-fill.
+  supports:
+  - fluor_toromocho_expansion_peru
+  - hunt_cycle211
+- id: gauchazh_statkraft_gran_sul_15bn_20260723
+  type: press
+  chicago: Cosme, Laura. “Santa Vitória do Palmar terá novo parque eólico com investimento de R$ 1,5 bilhão.” GaúchaZH, July 23, 2026. https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html.
+  url: https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html
+  annotation: Statkraft Gran Sul CapEx-fill R$1.5bn (press). Supports statkraft_gran_sul_280mw_2026.
+  supports:
+  - statkraft_gran_sul_280mw_2026
+  - hunt_cycle211
+- id: codelco_miga_climate_600m_20251231
+  type: company
+  chicago: Codelco. “Codelco completa su programa de financiamiento climático asegurando nuevo crédito por US$ 600 millones.” December 31, 2025. https://www.codelco.com/codelco-completa-su-programa-de-financiamiento-climatico-asegurando.
+  url: https://www.codelco.com/codelco-completa-su-programa-de-financiamiento-climatico-asegurando
+  annotation: Codelco MIGA climate financing USD 600m. Supports codelco_miga_climate_financing_600m_2025.
+  supports:
+  - codelco_miga_climate_financing_600m_2025
+  - hunt_cycle211
