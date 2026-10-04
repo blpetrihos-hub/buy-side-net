@@ -1,85 +1,87 @@
 updated: 2026-10-04
-cycle: 193
+cycle: 194
 remote: present
 active_layer: infrastructure
-active_subcategory: engineering_epc
-next_query: Cycle 194 shuffle_seed=20261194; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us379/prc361/allied342); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB corridors), Venezuela (beyond Tocoma/Macagua; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
-next_row_id: (follow cycle-194 shuffled_order)
+active_subcategory: rail
+next_query: Cycle 195 shuffle_seed=20261195; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us383/prc362/allied343); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB corridors), Venezuela (beyond Tocoma/Macagua; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
+next_row_id: (follow cycle-195 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 193) ===
-# Filled this cycle: Chile×bridges_roads (allied Sacyr Ruta 68 USD 1.6bn),
-#   Mexico/Peru×copper (other Southern Copper 2026 CapEx USD 1,925.5m),
-#   Mexico/Brazil/Chile/Colombia×engineering_epc (us Equinix MO2/RJ3/ST2/Bogotá).
+# === Country×subcategory sweep cells touched (session continuing from 194) ===
+# Filled this cycle: Brazil/Chile×engineering_epc (us Equinix SP6/ST5; Ascenty AI
+#   USD 1.2bn; Scala Chile PF USD 328m), Ecuador×other_renewables (prc PowerChina
+#   USD 400m renewables/storage), Nicaragua×bridges_roads (allied BCIE XI Tramo B
+#   USD 97m), Peru×building_materials (other UNACEM FY2025 CapEx PEN 698.8m).
 # Still thin/empty priority cells: Haiti (beyond RN2/WB), Venezuela (beyond hydro rehab;
 #   Chevron $7bn oil JV out of 18-subcat taxonomy), Nicaragua rail past MoU, Peru balsa,
 #   Colombia graphite mine CapEx.
-# ≥1/3 U.S. hunt budget spent (Equinix/SEC Freeport/EXIM/DFC/NADBank/AES/Atlas) —
-#   4 new U.S. rows (Equinix MO2/RJ3/ST2/Bogotá).
+# ≥1/3 U.S. hunt budget spent (Equinix/Ascenty/Scala/Digital Realty/EXIM/DFC/NADBank) —
+#   4 new U.S. rows (Equinix SP6/ST5; Ascenty AI; Scala Chile PF).
 
-# === Cycle 193 (seed 20261193) ===
-# Shuffled order (BRIEF.md numbered + Random(20261193).shuffle): bridges_roads, copper,
-#   other_renewables, graphite, rail, port_cranes, lithium, nickel, solar, balsa,
-#   niobium, fission_smr, wind, water, port_ownership, power_plants_grid,
-#   building_materials, engineering_epc.
-# Logged 6 sourced rows (4 US / 0 PRC / 1 allied / 1 other; ≥1/3 US hunt budget spent):
-#   allied bridges_roads: sacyr_ruta68_1600m_2025 (USD 1.6bn).
-#   other copper: southern_copper_capex_1925m_2026 (USD 1,925.5m).
-#   us engineering_epc: equinix_mo2_monterrey_81m_2025 (USD 81m).
-#   us engineering_epc: equinix_rj3_45m_2025 (USD 45m).
-#   us engineering_epc: equinix_st2_chile_42m_2025 (USD 42m).
-#   us engineering_epc: equinix_bogota_dc2_28m_2025 (USD 28m).
+# === Cycle 194 (seed 20261194) ===
+# Shuffled order (BRIEF.md numbered + Random(20261194).shuffle): engineering_epc,
+#   fission_smr, lithium, copper, graphite, wind, balsa, power_plants_grid, port_cranes,
+#   other_renewables, nickel, rail, port_ownership, water, bridges_roads,
+#   building_materials, niobium, solar.
+# Logged 7 sourced rows (4 US / 1 PRC / 1 allied / 1 other; ≥1/3 US hunt budget spent):
+#   us engineering_epc: equinix_sp6_114m_2026 (USD 114m).
+#   us engineering_epc: equinix_st5_130m_chile_2025 (USD 130m).
+#   us engineering_epc: ascenty_ai_1p2bn_brazil_2026 (USD 1.2bn).
+#   us engineering_epc: scala_chile_pf_328m_2025 (USD 328m).
+#   prc other_renewables: powerchina_ecuador_renewables_400m_2025 (USD 400m).
+#   allied bridges_roads: bcie_nicaragua_xi_tramo_b_97m_2026 (USD 97m).
+#   other building_materials: unacem_fy2025_capex_698p8m_pen (PEN 698.8m).
 # Thin top-up (balsa/nickel/fission_smr): all dry.
-# Equal-budget misses: other_renewables, graphite, rail, port_cranes, lithium, nickel,
-#   solar, balsa, niobium, fission_smr, wind, water, port_ownership, power_plants_grid,
-#   building_materials (catalog dense; PowerChina Chancay/Cangrejos/Batuco/NADBank Sonora
-#   already logged; holdovers unsigned).
+# Equal-budget misses: fission_smr, lithium, copper, graphite, wind, balsa,
+#   power_plants_grid, port_cranes, nickel, rail, port_ownership, water, niobium, solar
+#   (catalog dense; AES Villagrán/CEEC Coremas/El Abra mill/Fénix RIGI already logged;
+#   holdovers unsigned).
 # Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km package decree;
 #   CCECC Nicaragua rail still prefeasibility/feasibility.
-# Active after cycle 193: us379 / prc361 / allied342 / other65 (n=1147).
-shuffle_seed: 20261193
+# Active after cycle 194: us383 / prc362 / allied343 / other66 (n=1154).
+shuffle_seed: 20261194
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- infrastructure/bridges_roads
-- resources/copper
-- energy/other_renewables
-- resources/graphite
-- infrastructure/rail
-- infrastructure/port_cranes
-- resources/lithium
-- resources/nickel
-- energy/solar
-- resources/balsa
-- resources/niobium
-- energy/fission_smr
-- energy/wind
-- resources/water
-- infrastructure/port_ownership
-- energy/power_plants_grid
-- infrastructure/building_materials
 - infrastructure/engineering_epc
+- energy/fission_smr
+- resources/lithium
+- resources/copper
+- resources/graphite
+- energy/wind
+- resources/balsa
+- energy/power_plants_grid
+- infrastructure/port_cranes
+- energy/other_renewables
+- resources/nickel
+- infrastructure/rail
+- infrastructure/port_ownership
+- resources/water
+- infrastructure/bridges_roads
+- infrastructure/building_materials
+- resources/niobium
+- energy/solar
 rows_found_this_cycle:
-  infrastructure/bridges_roads: 1
-  resources/copper: 1
-  energy/other_renewables: 0
-  resources/graphite: 0
-  infrastructure/rail: 0
-  infrastructure/port_cranes: 0
-  resources/lithium: 0
-  resources/nickel: 0
-  energy/solar: 0
-  resources/balsa: 0
-  resources/niobium: 0
-  energy/fission_smr: 0
-  energy/wind: 0
-  resources/water: 0
-  infrastructure/port_ownership: 0
-  energy/power_plants_grid: 0
-  infrastructure/building_materials: 0
   infrastructure/engineering_epc: 4
+  energy/fission_smr: 0
+  resources/lithium: 0
+  resources/copper: 0
+  resources/graphite: 0
+  energy/wind: 0
+  resources/balsa: 0
+  energy/power_plants_grid: 0
+  infrastructure/port_cranes: 0
+  energy/other_renewables: 1
+  resources/nickel: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  resources/water: 0
+  infrastructure/bridges_roads: 1
+  infrastructure/building_materials: 1
+  resources/niobium: 0
+  energy/solar: 0
 rows_by_side_this_cycle:
   us: 4
-  prc: 0
+  prc: 1
   allied: 1
   other: 1
 thin_topup:
@@ -89,6 +91,15 @@ thin_topup:
   - resources/nickel
   - energy/fission_smr
   rows_found: 0
+
+# === Cycle 193 (seed 20261193) ===
+# Shuffled order (BRIEF.md numbered + Random(20261193).shuffle): bridges_roads, copper,
+#   other_renewables, graphite, rail, port_cranes, lithium, nickel, solar, balsa,
+#   niobium, fission_smr, wind, water, port_ownership, power_plants_grid,
+#   building_materials, engineering_epc.
+# Logged 6 sourced rows (4 US / 0 PRC / 1 allied / 1 other): Sacyr Ruta 68; Southern
+#   Copper 2026 CapEx; Equinix MO2/RJ3/ST2/Bogotá DC2.
+# Active after cycle 193: us379 / prc361 / allied342 / other65 (n=1147).
 
 # === Cycle 192 (seed 20261192) ===
 # Shuffled order (BRIEF.md numbered + Random(20261192).shuffle): building_materials,

@@ -19829,5 +19829,124 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "equinix_sp6_ops_20260416",
+    "type": "company",
+    "chicago": "Equinix. “Equinix fortalece liderança na América Latina com inauguração de novo data center SP6 em São Paulo.” April 16, 2026. https://newsroom.equinix.com/2026-04-16-Equinix-fortalece-lideranca-na-America-Latina-com-inauguracao-de-novo-data-center-SP6-em-Sao-Paulo.",
+    "url": "https://newsroom.equinix.com/2026-04-16-Equinix-fortalece-lideranca-na-America-Latina-com-inauguracao-de-novo-data-center-SP6-em-Sao-Paulo",
+    "annotation": "Equinix: SP6 Santana de Parnaíba USD 114m. Supports equinix_sp6_114m_2026.",
+    "supports": [
+      "equinix_sp6_114m_2026",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "equinix_sp6_114m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sea_equinix_st5_rca_20250421",
+    "type": "government",
+    "chicago": "Chile, Servicio de Evaluación Ambiental (Región Metropolitana). Resolución de Calificación Ambiental “Datacenter ST5” (Equinix Chile SpA). April 21, 2025 (published RCA packet). https://firma.sea.gob.cl/publicaciones/2025/04/30/1746030090_2165053410.",
+    "url": "https://firma.sea.gob.cl/publicaciones/2025/04/30/1746030090_2165053410",
+    "annotation": "SEA RCA: Equinix ST5 Pudahuel USD 130m. Supports equinix_st5_130m_chile_2025.",
+    "supports": [
+      "equinix_st5_130m_chile_2025",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "equinix_st5_130m_chile_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ascenty_ai_contracts_1p2bn",
+    "type": "company",
+    "chicago": "Ascenty. “Ascenty Secures 150 Megawatts of New AI Contracts with Leading Global Hyperscalers.” https://ascenty.com/en/blog/news-ascenty-en/ascenty-ai-contracts/.",
+    "url": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-ai-contracts/",
+    "annotation": "Ascenty: four AI DCs USD 1.2bn. Supports ascenty_ai_1p2bn_brazil_2026.",
+    "supports": [
+      "ascenty_ai_1p2bn_brazil_2026",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "ascenty_ai_1p2bn_brazil_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "scala_chile_pf_20250728",
+    "type": "company",
+    "chicago": "Scala Data Centers. “Scala Data Centers closes USD 328M international deal, securing funds for three data centers and a power substation in Chile.” PR Newswire, July 28, 2025. https://www.prnewswire.com/news-releases/scala-data-centers-closes-usd-328m-international-deal-securing-funds-for-three-data-centers-and-a-power-substation-in-chile-302514973.html.",
+    "url": "https://www.prnewswire.com/news-releases/scala-data-centers-closes-usd-328m-international-deal-securing-funds-for-three-data-centers-and-a-power-substation-in-chile-302514973.html",
+    "annotation": "Scala: Chile PF USD 328m for 3 DCs + substation. Supports scala_chile_pf_328m_2025.",
+    "supports": [
+      "scala_chile_pf_328m_2025",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "scala_chile_pf_328m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ecuador_comunicacion_boletin39_20250630",
+    "type": "government",
+    "chicago": "Ecuador, Secretaría General de Comunicación de la Presidencia. “Como resultado de la gira presidencial, Ecuador recibirá USD 1.000 millones de inversión extranjera de China y España para el sector energético” (Boletín N° 39). June 30, 2025. https://www.comunicacion.gob.ec/como-resultado-de-la-gira-presidencial-ecuador-recibira-usd-1-000-millones-de-inversion-extranjera-de-china-y-espana-para-el-sector-energetico/.",
+    "url": "https://www.comunicacion.gob.ec/como-resultado-de-la-gira-presidencial-ecuador-recibira-usd-1-000-millones-de-inversion-extranjera-de-china-y-espana-para-el-sector-energetico/",
+    "annotation": "Ecuador Comunicacion: PowerChina USD 400m renewables/storage. Supports powerchina_ecuador_renewables_400m_2025.",
+    "supports": [
+      "powerchina_ecuador_renewables_400m_2025",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "powerchina_ecuador_renewables_400m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "asamblea_ni_bcie_2357_tramo_b_20260224",
+    "type": "government",
+    "chicago": "Asamblea Nacional de Nicaragua. “Aprobamos decreto de préstamo para la continuidad del XI Programa de Ampliación y Mejoramiento de Carreteras.” February 24, 2026. https://noticias.asamblea.gob.ni/aprobamos-decreto-de-prestamo-para-la-continuidad-del-xi-programa-de-ampliacion-y-mejoramiento-de-carreteras/.",
+    "url": "https://noticias.asamblea.gob.ni/aprobamos-decreto-de-prestamo-para-la-continuidad-del-xi-programa-de-ampliacion-y-mejoramiento-de-carreteras/",
+    "annotation": "Asamblea NI: BCIE Tramo B USD 97m roads. Supports bcie_nicaragua_xi_tramo_b_97m_2026.",
+    "supports": [
+      "bcie_nicaragua_xi_tramo_b_97m_2026",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "bcie_nicaragua_xi_tramo_b_97m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "unacem_ir_2025_capex",
+    "type": "company",
+    "chicago": "Grupo UNACEM. Integrated Report 2025. https://grupounacem.com/wp-content/uploads/2026/07/IR.Grupo-UNACEM-Integrated-Report-2025.pdf.",
+    "url": "https://grupounacem.com/wp-content/uploads/2026/07/IR.Grupo-UNACEM-Integrated-Report-2025.pdf",
+    "annotation": "UNACEM IR 2025: CapEx ~S/698.8m. Supports unacem_fy2025_capex_698p8m_pen.",
+    "supports": [
+      "unacem_fy2025_capex_698p8m_pen",
+      "hunt_cycle194"
+    ],
+    "map_supports": [
+      "unacem_fy2025_capex_698p8m_pen"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
