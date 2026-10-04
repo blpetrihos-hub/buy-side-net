@@ -18779,5 +18779,73 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "grenergy_gabriela_cvc_dif_20260902",
+    "type": "company",
+    "chicago": "Grenergy. “Grenergy completes the sale of the fourth phase of Oasis de Atacama for $475 million.” September 2, 2026. https://grenergy.eu/grenergy-completes-the-sale-of-the-fourth-phase-of-oasis-de-atacama-for-us475-million/.",
+    "url": "https://grenergy.eu/grenergy-completes-the-sale-of-the-fourth-phase-of-oasis-de-atacama-for-us475-million/",
+    "annotation": "Grenergy: Gabriela Phase 4 sale to CVC DIF at USD 475m EV. Supports grenergy_gabriela_cvc_dif_475m_2026.",
+    "supports": [
+      "grenergy_gabriela_cvc_dif_475m_2026",
+      "hunt_cycle182"
+    ],
+    "map_supports": [
+      "grenergy_gabriela_cvc_dif_475m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "fluor_ica_fluor_daniel_20260716",
+    "type": "company",
+    "chicago": "Fluor Corporation. “Fluor Divests Equity Stake in Mexico JV.” July 16, 2026. https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Divests-Equity-Stake-in-Mexico-JV/default.aspx.",
+    "url": "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Divests-Equity-Stake-in-Mexico-JV/default.aspx",
+    "annotation": "Fluor: USD 175m ICA-Fluor Daniel Mexico JV equity divestiture. Supports fluor_ica_fluor_daniel_divest_175m_2026.",
+    "supports": [
+      "fluor_ica_fluor_daniel_divest_175m_2026",
+      "hunt_cycle182"
+    ],
+    "map_supports": [
+      "fluor_ica_fluor_daniel_divest_175m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "mop_ruta_pie_de_monte_20260624",
+    "type": "official",
+    "chicago": "Ministerio de Obras Públicas / Dirección General de Concesiones (Chile). “MOP adjudica nueva concesión ‘Ruta Pie de Monte’ en Biobío por una inversión de 355 millones de dólares.” June 24, 2026. https://concesiones.mop.gob.cl/mop-adjudica-nueva-concesion-ruta-pie-de-monte-en-biobio-por-una-inversion-de-355-millones-de-dolares/.",
+    "url": "https://concesiones.mop.gob.cl/mop-adjudica-nueva-concesion-ruta-pie-de-monte-en-biobio-por-una-inversion-de-355-millones-de-dolares/",
+    "annotation": "MOP DGC: Sacyr Ruta Pie de Monte USD 355m (UF 9.145m). Supports sacyr_ruta_pie_de_monte_355m_2026.",
+    "supports": [
+      "sacyr_ruta_pie_de_monte_355m_2026",
+      "hunt_cycle182"
+    ],
+    "map_supports": [
+      "sacyr_ruta_pie_de_monte_355m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sandvik_marmato_aris_20260401",
+    "type": "company",
+    "chicago": "Sandvik AB. “Sandvik wins large underground mining equipment order in Colombia.” April 1, 2026. https://www.home.sandvik/en/news-and-media/news/2026/04/sandvik-wins-large-underground-mining-equipment-order-in-colombia/.",
+    "url": "https://www.home.sandvik/en/news-and-media/news/2026/04/sandvik-wins-large-underground-mining-equipment-order-in-colombia/",
+    "annotation": "Sandvik: ~SEK 250m Marmato underground fleet for Aris Mining. Supports sandvik_marmato_ug_sek250m_2026.",
+    "supports": [
+      "sandvik_marmato_ug_sek250m_2026",
+      "hunt_cycle182"
+    ],
+    "map_supports": [
+      "sandvik_marmato_ug_sek250m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
