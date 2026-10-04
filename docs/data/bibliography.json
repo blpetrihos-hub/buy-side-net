@@ -20693,5 +20693,56 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "hutchison_lct_lazaro_phase3_20231025",
+    "type": "company",
+    "chicago": "Hutchison Ports México. “Hutchison Ports LCT celebra la ampliación del 50% de su terminal en Lázaro Cárdenas.” October 25, 2023. https://hutchisonports.com.mx/newsroom/hutchison-ports-lct-ce.",
+    "url": "https://hutchisonports.com.mx/newsroom/hutchison-ports-lct-ce",
+    "annotation": "Hutchison LCT Lázaro Phase III: >USD 220m. Supports hutchison_lct_lazaro_phase3_220m_2023.",
+    "supports": [
+      "hutchison_lct_lazaro_phase3_220m_2023",
+      "hunt_cycle203"
+    ],
+    "map_supports": [
+      "hutchison_lct_lazaro_phase3_220m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ani_accesos_norte_fase2_20260911",
+    "type": "government",
+    "chicago": "Agencia Nacional de Infraestructura (ANI). “Proyecto 5G Accesos Norte Fase II asegura financiación por $1,2 billones.” September 11, 2026. https://www.ani.gov.co/w/proyecto-5g-accesos-norte-fase-ii-asegura-financiaci%C3%B3n-por-1-2-billones.",
+    "url": "https://www.ani.gov.co/w/proyecto-5g-accesos-norte-fase-ii-asegura-financiaci%C3%B3n-por-1-2-billones",
+    "annotation": "ANI Accesos Norte Fase II: COP 1.7tn CapEx+Opex / COP 1.2tn FC. Supports ohla_accesos_norte_fase2_1p7tn_2026.",
+    "supports": [
+      "ohla_accesos_norte_fase2_1p7tn_2026",
+      "hunt_cycle203"
+    ],
+    "map_supports": [
+      "ohla_accesos_norte_fase2_1p7tn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "konecranes_transtec_eace_20260414",
+    "type": "company",
+    "chicago": "Konecranes. “Transtec World becomes first operator in the Americas to adopt Konecranes electric empty container handlers.” April 14, 2026. https://www.konecranes.com/press-releases/transtec-world-becomes-first-operator-in-the-americas-to-adopt-konecranes-electric-empty-container-handlers.",
+    "url": "https://www.konecranes.com/press-releases/transtec-world-becomes-first-operator-in-the-americas-to-adopt-konecranes-electric-empty-container-handlers",
+    "annotation": "Konecranes Transtec Santos 2× E-ACE: CapEx blank. Supports konecranes_transtec_eace_santos_2026.",
+    "supports": [
+      "konecranes_transtec_eace_santos_2026",
+      "hunt_cycle203"
+    ],
+    "map_supports": [
+      "konecranes_transtec_eace_santos_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
