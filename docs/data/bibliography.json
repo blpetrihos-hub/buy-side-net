@@ -19532,5 +19532,143 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "holcim_mexico_ecopact_56mdp_20250625",
+    "type": "company",
+    "chicago": "Holcim México. “Holcim México impulsa la construcción sostenible con inversión de 56 millones en infraestructura para su concreto bajo en carbono.” June 25, 2025. https://www.holcim.com.mx/holcim-mexico-impulsa-la-construccion-sostenible-con-inversion-de-56-millones-en-infraestructura.",
+    "url": "https://www.holcim.com.mx/holcim-mexico-impulsa-la-construccion-sostenible-con-inversion-de-56-millones-en-infraestructura",
+    "annotation": "Holcim México: ECOPact silos MXN 56m. Supports holcim_mexico_ecopact_silos_56mdp_2025.",
+    "supports": [
+      "holcim_mexico_ecopact_silos_56mdp_2025",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "holcim_mexico_ecopact_silos_56mdp_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "t21_timsa_ertg_manzanillo_20260701",
+    "type": "company",
+    "chicago": "T21. “Hutchison Ports TIMSA suma dos nuevas grúas eléctricas en Manzanillo.” July 1, 2026. https://t21.com.mx/hutchison-ports-timsa-suma-dos-nuevas-gruas-electricas-en-manzanillo/.",
+    "url": "https://t21.com.mx/hutchison-ports-timsa-suma-dos-nuevas-gruas-electricas-en-manzanillo/",
+    "annotation": "TIMSA: Manzanillo e-RTG MXN 70m+. Supports timsa_ertg_manzanillo_70m_mxn_2026.",
+    "supports": [
+      "timsa_ertg_manzanillo_70m_mxn_2026",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "timsa_ertg_manzanillo_70m_mxn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "engie_brasil_jaguara_lrcap_20260318",
+    "type": "company",
+    "chicago": "ENGIE Brasil Energia. “ENGIE Brasil wins the Capacity Reserve Auction and will increase the power output of the Jaguara Hydropower Plant.” March 18, 2026. https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-vence-leilao-de-reserva-de-capacidade-e-vai-ampliar-potencia-da-usina-hidreletrica-jaguara/.",
+    "url": "https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-vence-leilao-de-reserva-de-capacidade-e-vai-ampliar-potencia-da-usina-hidreletrica-jaguara/",
+    "annotation": "ENGIE: Jaguara modernization R$500m. Supports engie_jaguara_modernization_500m_brl_2026.",
+    "supports": [
+      "engie_jaguara_expansion_1p2bn_brl_2026",
+      "hunt_cycle191",
+      "engie_jaguara_modernization_500m_brl_2026"
+    ],
+    "map_supports": [
+      "engie_jaguara_expansion_1p2bn_brl_2026",
+      "engie_jaguara_modernization_500m_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mcti_finep_mrn_20250617",
+    "type": "government",
+    "chicago": "Ministério da Ciência, Tecnologia e Inovação (MCTI). “MCTI e FINEP investem R$ 30 milhões para projeto de microrreator nuclear.” June 17, 2025. https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/06/mcti-e-finep-investem-r-30-milhoes-para-projeto-de-microrreator-nuclear.",
+    "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/06/mcti-e-finep-investem-r-30-milhoes-para-projeto-de-microrreator-nuclear",
+    "annotation": "MCTI/Finep: MRN R$50m. Supports finep_diamante_mrn_50m_brl_2025.",
+    "supports": [
+      "finep_diamante_mrn_50m_brl_2025",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "finep_diamante_mrn_50m_brl_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "engie_chile_pemuco_20250226",
+    "type": "company",
+    "chicago": "ENGIE Chile. “Comenzamos la construcción del primer parque eólico de la región de Ñuble.” February 26, 2025. https://www.engie.cl/comenzamos-la-construccion-del-primer-parque-eolico-de-la-region-de-nuble/.",
+    "url": "https://www.engie.cl/comenzamos-la-construccion-del-primer-parque-eolico-de-la-region-de-nuble/",
+    "annotation": "ENGIE Chile: Pemuco/Chequenes USD 228m. Supports engie_pemuco_chequenes_228m_2025.",
+    "supports": [
+      "engie_pemuco_chequenes_228m_2025",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "engie_pemuco_chequenes_228m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "engie_chile_ir_pampa_fidelia_capex",
+    "type": "company",
+    "chicago": "ENGIE Chile. “9M 2025 Results Presentation” (investor deck). 2025. https://www.engie.cl/wp-content/uploads/2024/10/9M2025-Presentation-ENGIE-CHILE-NEW-vF.pdf.",
+    "url": "https://www.engie.cl/wp-content/uploads/2024/10/9M2025-Presentation-ENGIE-CHILE-NEW-vF.pdf",
+    "annotation": "ENGIE IR: Pampa Fidelia USD 461m CapEx. Supports engie_pampa_fidelia_461m_2025.",
+    "supports": [
+      "engie_pampa_fidelia_461m_2025",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "engie_pampa_fidelia_461m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "latercera_el_abra_sulfolix_20250923",
+    "type": "company",
+    "chicago": "Vera, Matías. “Freeport-McMoRan obtiene luz verde para proyecto de lixiviación en El Abra de US$741 millones.” La Tercera, September 23, 2025. https://www.latercera.com/pulso/noticia/freeport-mcmoran-obtiene-luz-verde-para-proyecto-de-lixiviacion-en-el-abra-de-us741-millones/.",
+    "url": "https://www.latercera.com/pulso/noticia/freeport-mcmoran-obtiene-luz-verde-para-proyecto-de-lixiviacion-en-el-abra-de-us741-millones/",
+    "annotation": "La Tercera/COEVA: El Abra Sulfolix USD 741m. Supports fcx_el_abra_sulfolix_741m_2025.",
+    "supports": [
+      "fcx_el_abra_sulfolix_741m_2025",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "fcx_el_abra_sulfolix_741m_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "valor_weg_jaguara_20260727",
+    "type": "company",
+    "chicago": "Laurence, Felipe. “WEG assina contrato de R$ 1,2 bi com a Engie Brasil para expansão na usina de Jaguara.” Valor Econômico, July 27, 2026. https://valor.globo.com/empresas/noticia/2026/07/27/weg-assina-contrato-de-r-12-bi-com-a-engie-brasil-para-expanso-na-usina-de-jaguara.ghtml.",
+    "url": "https://valor.globo.com/empresas/noticia/2026/07/27/weg-assina-contrato-de-r-12-bi-com-a-engie-brasil-para-expanso-na-usina-de-jaguara.ghtml",
+    "annotation": "Valor/WEG: Jaguara expansion R$1.2bn. Supports engie_jaguara_expansion_1p2bn_brl_2026.",
+    "supports": [
+      "engie_jaguara_expansion_1p2bn_brl_2026",
+      "hunt_cycle191"
+    ],
+    "map_supports": [
+      "engie_jaguara_expansion_1p2bn_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
