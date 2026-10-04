@@ -11547,3 +11547,94 @@
   supports:
   - ecopetrol_jk1_jk2_49pct_25p5m_2026
   - hunt_cycle177
+- id: ifc_solengy_haiti_20250318
+  type: official
+  chicago: International Finance Corporation. “IFC and IDB Invest Partner to Expand Solar Energy Solutions
+    in Haiti.” March 18, 2025. https://www.ifc.org/en/pressroom/2025/ifc-and-idb-invest-partner-to-expand-solar-energy-solutions-in-haiti.
+  url: https://www.ifc.org/en/pressroom/2025/ifc-and-idb-invest-partner-to-expand-solar-energy-solutions-in-haiti
+  annotation: 'IFC/IDB Invest: Solengy Haiti USD 13.5m solar+storage package. Supports ifc_idb_solengy_haiti_13p5m_2025.'
+  supports:
+  - ifc_idb_solengy_haiti_13p5m_2025
+  - hunt_cycle178
+- id: wb_haiti_resilient_corridors_pad_20251022
+  type: government
+  chicago: World Bank / International Development Association. “Resilient Corridors Project (P510851)
+    Project Appraisal Document.” Report No. PADHI01236, October 22, 2025. https://documents1.worldbank.org/curated/en/099102425125518596/pdf/BOSIB-c74e1914-9ebb-4f99-9007-b2afac8158c5.pdf.
+  url: https://documents1.worldbank.org/curated/en/099102425125518596/pdf/BOSIB-c74e1914-9ebb-4f99-9007-b2afac8158c5.pdf
+  annotation: 'IDA PAD: Haiti Resilient Corridors USD 80m grant. Supports wb_haiti_resilient_corridors_80m_2025.'
+  supports:
+  - wb_haiti_resilient_corridors_80m_2025
+  - hunt_cycle178
+- id: ba_gov_ponte_salvador_itaparica_projeto
+  type: government
+  chicago: Governo do Estado da Bahia. “Projeto | Ponte Salvador Itaparica.” Updated April 29, 2026. https://www.ba.gov.br/pontesalvadoritaparica/projeto.
+  url: https://www.ba.gov.br/pontesalvadoritaparica/projeto
+  annotation: 'Bahia.gov.br: Itaparica sondagem R$200m. Supports cpsi_itaparica_sondagem_200m_2025.'
+  supports:
+  - cpsi_itaparica_sondagem_200m_2025
+  - hunt_cycle178
+- id: codelco_cat_det_rt_20251002
+  type: company
+  chicago: Codelco. “Codelco testeará innovador sistema de CAT para transferir energía eléctrica a camiones
+    en movimiento.” October 2, 2025. https://www.codelco.com/codelco-testeara-innovador-sistema-de-cat-para-transferir-energia.
+  url: https://www.codelco.com/codelco-testeara-innovador-sistema-de-cat-para-transferir-energia
+  annotation: 'Codelco: Cat DET pilot at Radomiro Tomic. Supports caterpillar_codelco_det_rt_2025.'
+  supports:
+  - caterpillar_codelco_det_rt_2025
+  - hunt_cycle178
+- id: electromineria_gaby_komatsu_20250820
+  type: trade_press
+  chicago: 'Electrominería. “Codelco: Gabriela Mistral impulsa la electromovilidad minera con nueva flota
+    autónoma y eficiente en energía.” August 20, 2025. https://electromineria.cl/codelco-gabriela-mistral-impulsa-la-electromovilidad-minera-con-nueva-flota-autonoma-y-eficiente-en-energia/.'
+  url: https://electromineria.cl/codelco-gabriela-mistral-impulsa-la-electromovilidad-minera-con-nueva-flota-autonoma-y-eficiente-en-energia/
+  annotation: 'Electrominería/Codelco DGM: 6× Komatsu 930E-5. Supports komatsu_gaby_930e5_6_2025.'
+  supports:
+  - komatsu_gaby_930e5_6_2025
+  - hunt_cycle178
+- id: yucatan_times_ssa_cozumel_20250415
+  type: trade_press
+  chicago: Yucatan Times. “Authorization Requested for Expansion of SSA México Pier in Cozumel.” April
+    15, 2025. https://theyucatantimes.com/2025/04/authorization-requested-for-expansion-of-ssa-mexico-pier-in-cozumel/.
+  url: https://theyucatantimes.com/2025/04/authorization-requested-for-expansion-of-ssa-mexico-pier-in-cozumel/
+  annotation: 'Yucatan Times/Semarnat MIA: SSA Cozumel pier MXN 882.3m. Supports ssa_cozumel_cruise_pier_882mdp_2025.'
+  supports:
+  - ssa_cozumel_cruise_pier_882mdp_2025
+  - hunt_cycle178
+- id: equinor_esquina_vento_20260323
+  type: company
+  chicago: Equinor. “Equinor strengthens integrated power portfolio in Brazil.” March 23, 2026. https://www.equinor.com/news/20260323-strengthens-integrated-power-portfolio-brazil.
+  url: https://www.equinor.com/news/20260323-strengthens-integrated-power-portfolio-brazil
+  annotation: 'Equinor: Esquina do Vento 230 MW acquisition. Supports equinor_esquina_do_vento_acq_2026.'
+  supports:
+  - equinor_esquina_do_vento_acq_2026
+  - hunt_cycle178
+- id: fed_h10_20250421
+  type: government
+  chicago: Board of Governors of the Federal Reserve System. “Foreign Exchange Rates — H.10.” Release
+    dated April 21, 2025 (rates for Apr. 14–18, 2025). https://www.federalreserve.gov/releases/h10/20250421/.
+  url: https://www.federalreserve.gov/releases/h10/20250421/
+  annotation: Fed H.10 MXN 20.1255 and BRL 5.8649 on 2025-04-14. Supports Cozumel and Itaparica sondagem
+    FX.
+  supports:
+  - ssa_cozumel_cruise_pier_882mdp_2025
+  - cpsi_itaparica_sondagem_200m_2025
+  - hunt_cycle178
+- id: fed_h10_20250609
+  type: government
+  chicago: Board of Governors of the Federal Reserve System. “Foreign Exchange Rates — H.10.” Release
+    dated June 9, 2025 (rates for Jun. 2–6, 2025). https://www.federalreserve.gov/releases/h10/20250609/.
+  url: https://www.federalreserve.gov/releases/h10/20250609/
+  annotation: Fed H.10 BRL 5.6396 on 2025-06-04. Supports Itaparica R$10.42bn value fill FX.
+  supports:
+  - ccecc_cccc_salvador_itaparica_2025
+  - hunt_cycle178
+- id: atarde_itaparica_1042bn_20250608
+  type: trade_press
+  chicago: Rodrigues, Alan. “Ponte Salvador-Itaparica avança e promete mudar o mapa da Bahia.” A Tarde,
+    June 8, 2025. https://atarde.com.br/bahia/ponte-salvador-itaparica-avanca-e-promete-mudar-o-mapa-da-bahia-1330156.
+  url: https://atarde.com.br/bahia/ponte-salvador-itaparica-avanca-e-promete-mudar-o-mapa-da-bahia-1330156
+  annotation: 'A Tarde: TCE-adjusted Itaparica cost R$10.42bn. Supports ccecc_cccc_salvador_itaparica_2025
+    value fill.'
+  supports:
+  - ccecc_cccc_salvador_itaparica_2025
+  - hunt_cycle178
