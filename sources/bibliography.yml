@@ -11638,3 +11638,68 @@
   supports:
   - ccecc_cccc_salvador_itaparica_2025
   - hunt_cycle178
+- id: proinversion_ptar_puerto_maldonado_20251215
+  type: government
+  chicago: Agencia de Promoción de la Inversión Privada (PROINVERSIÓN). “Gobierno adjudica PTAR Puerto
+    Maldonado que tratará el 100 % de aguas residuales de la ciudad en beneficio de 190 mil personas.”
+    December 15, 2025. https://www.gob.pe/institucion/proinversion/noticias/1315940-gobierno-adjudica-ptar-puerto-maldonado-que-tratara-el-100-de-aguas-residuales-de-la-ciudad-en-beneficio-de-190-mil-personas.
+  url: https://www.gob.pe/institucion/proinversion/noticias/1315940-gobierno-adjudica-ptar-puerto-maldonado-que-tratara-el-100-de-aguas-residuales-de-la-ciudad-en-beneficio-de-190-mil-personas
+  annotation: 'ProInversión: PTAR Puerto Maldonado >USD 150m PPP. Supports mota_engil_ptar_puerto_maldonado_150m_2025.'
+  supports:
+  - mota_engil_ptar_puerto_maldonado_150m_2025
+  - hunt_cycle179
+- id: nadbank_jmas_juarez_20250529
+  type: official
+  chicago: North American Development Bank. “NADBank and the local water utility, JMAS Celebrate Completion
+    of First Phase of Wastewater System Upgrades in Ciudad Juárez.” May 29, 2025. https://nadbank.org/news/press-release/nadbank-and-the-local-water-utility-jmas-celebrate-completion-of-first-phase-of-wastewater-system-upgrades-in-ciudad-juarez.
+  url: https://nadbank.org/news/press-release/nadbank-and-the-local-water-utility-jmas-celebrate-completion-of-first-phase-of-wastewater-system-upgrades-in-ciudad-juarez
+  annotation: 'NADBank/JMAS: Juárez WW upgrades USD 26.9m. Supports nadbank_jmas_juarez_ww_26p9m_2025.'
+  supports:
+  - nadbank_jmas_juarez_ww_26p9m_2025
+  - hunt_cycle179
+- id: investchile_bhp_spence_1p7bn_20241230
+  type: government
+  chicago: InvestChile. “BHP gets the green light for a US$1.7 billion mining project.” December 30, 2024.
+    https://blog.investchile.gob.cl/en/2026/bhp-spence.
+  url: https://blog.investchile.gob.cl/en/2026/bhp-spence
+  annotation: 'InvestChile/Coeva: Spence Operational Adequacy USD 1.7bn. Supports bhp_spence_operational_adequacy_1p7bn_2024.'
+  supports:
+  - bhp_spence_operational_adequacy_1p7bn_2024
+  - hunt_cycle179
+- id: bhp_op_review_fy26_20260716
+  type: company
+  chicago: BHP Group Limited. “Operational review for the year ended 30 June 2026.” ASX announcement,
+    July 16, 2026. https://announcements.asx.com.au/asxpdf/20260716/pdf/071rnjvs39bf7r.pdf.
+  url: https://announcements.asx.com.au/asxpdf/20260716/pdf/071rnjvs39bf7r.pdf
+  annotation: 'BHP ASX: Spence concentrator + chalcopyrite sanctions. Supports bhp_spence_concentrator_chalcopyrite_2026.'
+  supports:
+  - bhp_spence_concentrator_chalcopyrite_2026
+  - hunt_cycle179
+- id: exim_hokchi_mexico_69p8m
+  type: government
+  chicago: Export-Import Bank of the United States. “EXIM Board Unanimously Approves $69.8 Million Loan
+    to Support U.S. Oil and Gas Production and Processing Equipment Exports to the Shallow Waters of Mexico
+    and an Estimated 200 American Jobs.” https://www.exim.gov/news/exim-board-unanimously-approves-698-million-loan-support-oil-and-gas-production-and-processing.
+  url: https://www.exim.gov/news/exim-board-unanimously-approves-698-million-loan-support-oil-and-gas-production-and-processing
+  annotation: 'EXIM: Hokchi Mexico USD 69.8m direct loan. Supports exim_hokchi_mexico_69p8m_2021.'
+  supports:
+  - exim_hokchi_mexico_69p8m_2021
+  - hunt_cycle179
+- id: omexom_energisa_lot12_2025
+  type: company
+  chicago: Omexom. “Omexom in Brazil Awarded EPCM Contract for LOT 12, A Major Transmission Line Project.”
+    2025. https://www.omexom.com/news/omexom-in-brazil-awarded-epcm-contract-for-lot-12-a-major-transmission-line-project/.
+  url: https://www.omexom.com/news/omexom-in-brazil-awarded-epcm-contract-for-lot-12-a-major-transmission-line-project/
+  annotation: 'Omexom: Energisa LOT 12 EPCM 391.8 km. Supports omexom_energisa_lot12_epcm_2025.'
+  supports:
+  - omexom_energisa_lot12_epcm_2025
+  - hunt_cycle179
+- id: wb_haiti_re4all_af_pad_2025
+  type: government
+  chicago: 'World Bank. “Haiti: Renewable Energy for All (P156719) — Additional Financing Project Paper.”
+    2025. https://documents1.worldbank.org/curated/en/099090325211017284/pdf/P156719-89cf5bdd-6cac-4c70-979c-5b776d673a5b.pdf.'
+  url: https://documents1.worldbank.org/curated/en/099090325211017284/pdf/P156719-89cf5bdd-6cac-4c70-979c-5b776d673a5b.pdf
+  annotation: 'WB AF PAD: Haiti Jacmel solar+BESS USD 7.1m. Supports wb_haiti_jacmel_renewable_af_7p1m_2025.'
+  supports:
+  - wb_haiti_jacmel_renewable_af_7p1m_2025
+  - hunt_cycle179

@@ -1,20 +1,91 @@
 updated: 2026-10-04
-cycle: 178
+cycle: 179
 remote: present
-active_layer: energy
-active_subcategory: wind
-next_query: Cycle 179 shuffle_seed=20261179; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us362/prc356/allied291); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (28), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many), Venezuela (beyond solar), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
-next_row_id: (follow cycle-179 shuffled_order)
+active_layer: infrastructure
+active_subcategory: port_ownership
+next_query: Cycle 180 shuffle_seed=20261180; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us364/prc356/allied296); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (28), niobium (29). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (many), Venezuela (beyond solar), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU. No U.S. territories.
+next_row_id: (follow cycle-180 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 178) ===
-# Filled this cycle: Haiti×solar (allied IFC/IDB Solengy USD 13.5m), Haiti×bridges_roads
-#   (allied WB/IDA Resilient Corridors USD 80m), Brazil×bridges_roads (prc CPSI
-#   Itaparica sondagem R$200m + value-fill concession R$10.42bn), Chile×copper
-#   (us Cat DET RT; allied Komatsu Gaby 930E-5), Mexico×port_ownership (us SSA
-#   Cozumel MXN 882.3m), Brazil×wind (allied Equinor Esquina do Vento acq).
+# === Country×subcategory sweep cells touched (session continuing from 179) ===
+# Filled this cycle: Peru×water (allied Mota-Engil PTAR Puerto Maldonado >USD 150m),
+#   Mexico×water (us NADBank/JMAS Juárez USD 26.9m), Chile×copper (allied BHP Spence
+#   Adequacy USD 1.7bn + concentrator/chalcopyrite sanctions), Mexico×engineering_epc
+#   (us EXIM Hokchi USD 69.8m), Brazil×power_plants_grid (allied Omexom Energisa LOT 12),
+#   Haiti×solar (allied WB Jacmel AF USD 7.1m).
 # Still thin/empty priority cells: Haiti (many), Venezuela (beyond solar), Nicaragua
 #   rail past MoU, Peru balsa, Colombia graphite mine CapEx.
+
+# === Cycle 179 (seed 20261179) ===
+# Shuffled order: water, balsa, fission_smr, niobium, nickel, copper, other_renewables,
+#   engineering_epc, building_materials, graphite, bridges_roads, power_plants_grid,
+#   port_cranes, wind, solar, lithium, rail, port_ownership.
+# Logged 7 sourced rows (2 US / 0 PRC / 5 allied / 0 other; ≥1/3 US hunt budget):
+#   allied water: mota_engil_ptar_puerto_maldonado_150m_2025 (USD 150m floor).
+#   us water: nadbank_jmas_juarez_ww_26p9m_2025 (USD 26.9m).
+#   allied copper: bhp_spence_operational_adequacy_1p7bn_2024 (USD 1.7bn).
+#   allied copper: bhp_spence_concentrator_chalcopyrite_2026 (CapEx blank).
+#   us engineering_epc: exim_hokchi_mexico_69p8m_2021 (USD 69.8m).
+#   allied power_plants_grid: omexom_energisa_lot12_epcm_2025 (CapEx blank).
+#   allied solar: wb_haiti_jacmel_renewable_af_7p1m_2025 (USD 7.1m).
+# Thin top-up (balsa/nickel/fission_smr): all dry.
+# Equal-budget misses: balsa, fission_smr, niobium, nickel, other_renewables,
+#   building_materials, graphite, bridges_roads, port_cranes, wind, lithium, rail,
+#   port_ownership (catalog dense; holdovers unsigned).
+# Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km package decree;
+#   CCECC Nicaragua rail still prefeasibility/feasibility.
+# Active after cycle 179: us364 / prc356 / allied296 / other51 (n=1067).
+shuffle_seed: 20261179
+budget_per_subcategory: 1_source_family_min
+shuffled_order:
+- resources/water
+- resources/balsa
+- energy/fission_smr
+- resources/niobium
+- resources/nickel
+- resources/copper
+- energy/other_renewables
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- resources/graphite
+- infrastructure/bridges_roads
+- energy/power_plants_grid
+- infrastructure/port_cranes
+- energy/wind
+- energy/solar
+- resources/lithium
+- infrastructure/rail
+- infrastructure/port_ownership
+rows_found_this_cycle:
+  resources/water: 2
+  resources/balsa: 0
+  energy/fission_smr: 0
+  resources/niobium: 0
+  resources/nickel: 0
+  resources/copper: 2
+  energy/other_renewables: 0
+  infrastructure/engineering_epc: 1
+  infrastructure/building_materials: 0
+  resources/graphite: 0
+  infrastructure/bridges_roads: 0
+  energy/power_plants_grid: 1
+  infrastructure/port_cranes: 0
+  energy/wind: 0
+  energy/solar: 1
+  resources/lithium: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+rows_by_side_this_cycle:
+  us: 2
+  prc: 0
+  allied: 5
+  other: 0
+thin_topup:
+  budget: 0.5_source_family_min
+  subcategories:
+  - resources/balsa
+  - resources/nickel
+  - energy/fission_smr
 
 # === Cycle 178 (seed 20261178) ===
 # Shuffled order: power_plants_grid, lithium, balsa, port_cranes, solar, nickel,
