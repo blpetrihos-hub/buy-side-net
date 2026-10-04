@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1422,
+    "n_rows": 1424,
     "counts": {
-      "total": 1422,
-      "active": 1223,
+      "total": 1424,
+      "active": 1225,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 175,
       "exclude": 18,
-      "documented": 1172,
-      "on_map": 1095
+      "documented": 1174,
+      "on_map": 1097
     }
   },
   "layer_readouts": [
@@ -107,15 +107,15 @@
       "counts": {
         "us": 161,
         "prc": 126,
-        "allied": 159,
-        "n": 446
+        "allied": 160,
+        "n": 447
       },
       "usd": {
         "us": 19487730640.12,
         "us_n": 78,
         "prc": 15157964713.330002,
         "prc_n": 31,
-        "allied": 18484623324.0,
+        "allied": 18534623324.0,
         "allied_n": 51
       },
       "matched_gaps": {
@@ -130,16 +130,16 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 149,
-        "n": 306
+        "allied": 150,
+        "n": 307
       },
       "usd": {
         "us": 28076323566.0,
         "us_n": 41,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 77925458653.2,
-        "allied_n": 63
+        "allied": 78673458653.2,
+        "allied_n": 64
       },
       "matched_gaps": {
         "n": 3,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 97,
         "prc": 88,
-        "allied": 159,
-        "n": 344
+        "allied": 160,
+        "n": 345
       },
       "usd": {
         "us": 6067206020.549999,
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 54,
           "prc": 25,
-          "allied": 46
+          "allied": 47
         },
         "resources": {
           "us": 26,
@@ -398,16 +398,16 @@
       "counts": {
         "us": 54,
         "prc": 42,
-        "allied": 81,
-        "n": 177
+        "allied": 82,
+        "n": 178
       },
       "usd": {
         "us": 26822000000.0,
         "us_n": 21,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 38603062361.0,
-        "allied_n": 43
+        "allied": 39351062361.0,
+        "allied_n": 44
       },
       "by_layer": {
         "energy": {
@@ -423,7 +423,7 @@
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 37
+          "allied": 38
         }
       }
     },
@@ -605,7 +605,7 @@
         "us_n": 9,
         "prc": 1237134740.0,
         "prc_n": 7,
-        "allied": 817756466.0,
+        "allied": 867756466.0,
         "allied_n": 4
       },
       "by_layer": {
@@ -2411,7 +2411,9 @@
       "acciona_roberto_marinho_sp_2p099bn_2026",
       "epr_regis_bittencourt_7p2bn_2026",
       "casa_dos_ventos_us_pp_1p1bn_2026",
-      "mcewen_los_azules_fs_3p17bn_2025"
+      "mcewen_los_azules_fs_3p17bn_2025",
+      "cleantech_laguna_verde_pfs_748m_2026",
+      "portonave_cais_1p5bn_brl_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
