@@ -11447,3 +11447,27 @@
   supports:
   - mcewen_los_azules_240m_2026
   - hunt_cycle209
+- id: cleantech_laguna_verde_pfs_20260331
+  type: company
+  chicago: CleanTech Lithium PLC. “Pre-Feasibility Study Completed for Laguna Verde.” RNS, March 31, 2026. https://wp-ctlithium-rebuild-2022.s3.eu-west-2.amazonaws.com/media/2026/03/CTL-RNS-PFS-Completed-for-Laguna-Verde_Final-R5-300325.pdf.
+  url: https://wp-ctlithium-rebuild-2022.s3.eu-west-2.amazonaws.com/media/2026/03/CTL-RNS-PFS-Completed-for-Laguna-Verde_Final-R5-300325.pdf
+  annotation: CleanTech Laguna Verde PFS CapEx USD 748m. Supports cleantech_laguna_verde_pfs_748m_2026.
+  supports:
+  - cleantech_laguna_verde_pfs_748m_2026
+  - hunt_cycle210
+- id: dpworld_posorja_inauguration_20260423
+  type: company
+  chicago: DP World. “DP World Inaugurates Posorja Terminal Expansion, Boosting Ecuador’s Global Trade Capacity.” April 23, 2026. https://www.dpworld.com/en/news/dp-world-inaugurates-posorja-terminal-expansion-boosting-ecuadors-global-trade-capacity.
+  url: https://www.dpworld.com/en/news/dp-world-inaugurates-posorja-terminal-expansion-boosting-ecuadors-global-trade-capacity
+  annotation: DP World Posorja CapEx fill USD 190m. Supports dpworld_posorja_expansion_2025.
+  supports:
+  - dpworld_posorja_expansion_2025
+  - hunt_cycle210
+- id: portonave_cais_2bn_program_2026
+  type: company
+  chicago: Portonave. “Investimentos da Portonave na modernização do cais e em novos equipamentos chegam a R$ 2 bilhões.” https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes.
+  url: https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes
+  annotation: Portonave quay modernization R$1.5bn. Supports portonave_cais_1p5bn_brl_2026.
+  supports:
+  - portonave_cais_1p5bn_brl_2026
+  - hunt_cycle210
