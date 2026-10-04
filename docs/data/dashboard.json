@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1287,
+    "n_rows": 1293,
     "counts": {
-      "total": 1287,
-      "active": 1089,
+      "total": 1293,
+      "active": 1094,
       "hunt": 42,
-      "archived": 178,
+      "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 171,
+      "proxy": 172,
       "exclude": 18,
-      "documented": 1041,
-      "on_map": 1004
+      "documented": 1046,
+      "on_map": 1008
     }
   },
   "layer_readouts": [
@@ -154,17 +154,17 @@
       "layer": "energy",
       "counts": {
         "us": 143,
-        "prc": 162,
-        "allied": 112,
-        "n": 417
+        "prc": 163,
+        "allied": 116,
+        "n": 422
       },
       "usd": {
         "us": 14563460515.13,
         "us_n": 40,
-        "prc": 6343948313.26,
-        "prc_n": 28,
-        "allied": 9757700738.490002,
-        "allied_n": 47
+        "prc": 6363177919.26,
+        "prc_n": 29,
+        "allied": 10051700738.490002,
+        "allied_n": 50
       },
       "matched_gaps": {
         "n": 1,
@@ -397,23 +397,23 @@
       "country": "Chile",
       "counts": {
         "us": 47,
-        "prc": 39,
-        "allied": 61,
-        "n": 147
+        "prc": 40,
+        "allied": 65,
+        "n": 152
       },
       "usd": {
         "us": 20511000000.0,
         "us_n": 14,
-        "prc": 3048104401.0299997,
-        "prc_n": 13,
-        "allied": 14338062361.0,
-        "allied_n": 26
+        "prc": 3067334007.0299997,
+        "prc_n": 14,
+        "allied": 14632062361.0,
+        "allied_n": 29
       },
       "by_layer": {
         "energy": {
           "us": 32,
-          "prc": 30,
-          "allied": 20
+          "prc": 31,
+          "allied": 24
         },
         "infrastructure": {
           "us": 4,
@@ -2277,7 +2277,12 @@
       "isa_energia_ie_madeira_49pct_1167m_2026",
       "caf_dorada_chiriguana_200m_2026",
       "anillo_vial_periferico_190m_2026",
-      "mota_engil_rota_dos_sertoes_43bn_2026"
+      "mota_engil_rota_dos_sertoes_43bn_2026",
+      "engie_bess_arica_cod_51m_2026",
+      "engie_bess_kallpa_69m_2026",
+      "engie_bess_lile_174m_2026",
+      "grenergy_antofagasta1_seia_520m_2026",
+      "nari_cge_parronal_casas_viejas_19p2m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
@@ -2488,7 +2493,8 @@
       "aes_marahu_doe_lpo_861m_2024",
       "tesla_genera_pr_bess_430mw_2025",
       "convergent_doe_lpo_584m_pr_2025",
-      "jose_carro_morovis_cemetery_2018"
+      "jose_carro_morovis_cemetery_2018",
+      "dfc_patria_pi_fund_v_75m_proposed"
     ]
   }
 }

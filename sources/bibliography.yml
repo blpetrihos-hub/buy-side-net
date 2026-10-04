@@ -11900,3 +11900,56 @@
   supports:
   - mota_engil_rota_dos_sertoes_43bn_2026
   - hunt_cycle183
+- id: engie_bess_arica_construccion_20251202
+  type: company
+  chicago: ENGIE Chile. “Avanzamos en la construcción del proyecto de almacenamiento BESS Arica.” December
+    2, 2025. https://www.engie.cl/avanzamos-en-la-construccion-del-proyecto-de-almacenamiento-bess-arica/.
+  url: https://www.engie.cl/avanzamos-en-la-construccion-del-proyecto-de-almacenamiento-bess-arica/
+  annotation: 'ENGIE Chile: BESS Arica CapEx USD 51m. Supports engie_bess_arica_cod_51m_2026.'
+  supports:
+  - engie_bess_arica_cod_51m_2026
+  - hunt_cycle184
+- id: engie_bess_kallpa_construccion_20260129
+  type: company
+  chicago: ENGIE Chile. “Avanzamos en la construcción de nuestro primer sistema de almacenamiento integrado
+    a un parque eólico en Chile.” January 29, 2026. https://www.engie.cl/avanzamos-en-la-construccion-de-nuestro-primer-sistema-de-almacenamiento-integrado-a-un-parque-eolico-en-chile/.
+  url: https://www.engie.cl/avanzamos-en-la-construccion-de-nuestro-primer-sistema-de-almacenamiento-integrado-a-un-parque-eolico-en-chile/
+  annotation: 'ENGIE Chile: BESS Kallpa CapEx USD 69m. Supports engie_bess_kallpa_69m_2026.'
+  supports:
+  - engie_bess_kallpa_69m_2026
+  - hunt_cycle184
+- id: engie_chile_12m2025_presentation_bess_lile
+  type: company
+  chicago: ENGIE Chile. “12M 2025 Presentation ENGIE Chile.” Investor presentation PDF. https://www.engie.cl/wp-content/uploads/2024/10/12M2025-Presentation-ENGIE-CHILE-VF.pdf.
+  url: https://www.engie.cl/wp-content/uploads/2024/10/12M2025-Presentation-ENGIE-CHILE-VF.pdf
+  annotation: 'ENGIE Chile deck: BESS Lile CapEx USD 174m. Supports engie_bess_lile_174m_2026.'
+  supports:
+  - engie_bess_lile_174m_2026
+  - hunt_cycle184
+- id: pv_magazine_grenergy_antofagasta1_20260828
+  type: press
+  chicago: Ini, Luis. “Grenergy proyecta en Chile un parque solar de 516,9 MWp con un BESS de 430 MW /
+    3.010 MWh.” pv magazine Latinoamérica, August 28, 2026. https://www.pv-magazine-latam.com/2026/08/28/grenergy-proyecta-en-chile-un-parque-solar-de-5169-mwp-con-un-bess-de-430-mw-3-010-mwh/.
+  url: https://www.pv-magazine-latam.com/2026/08/28/grenergy-proyecta-en-chile-un-parque-solar-de-5169-mwp-con-un-bess-de-430-mw-3-010-mwh/
+  annotation: 'pv magazine LatAm: Antofagasta 1 DIA CapEx ~USD 520m. Supports grenergy_antofagasta1_seia_520m_2026.'
+  supports:
+  - grenergy_antofagasta1_seia_520m_2026
+  - hunt_cycle184
+- id: cge_oa_acta_adjudicacion_20260616
+  type: government
+  chicago: CGE Transmisión. “Acta de Adjudicación — Licitación Pública Internacional Obras de Ampliación
+    CGE Transmisión (CGET_OA_1_2025).” June 16, 2026. https://www.coordinador.cl/wp-content/uploads/2026/06/CGET_OA_1_2025_Acta-de-Adjudicacion-Rev.0.pdf.
+  url: https://www.coordinador.cl/wp-content/uploads/2026/06/CGET_OA_1_2025_Acta-de-Adjudicacion-Rev.0.pdf
+  annotation: 'CGE OA acta: Nari Parronal+Casas Viejas VI USD 19.23m. Supports nari_cge_parronal_casas_viejas_19p2m_2026.'
+  supports:
+  - nari_cge_parronal_casas_viejas_19p2m_2026
+  - hunt_cycle184
+- id: dfc_patria_pi_fund_v_policy_review
+  type: government
+  chicago: U.S. International Development Finance Corporation. “Proposed DFC Loan/Guaranty/Equity Investment
+    — PI Fund V (Ontario), L.P.” Policy Review PDF. https://www.dfc.gov/sites/default/files/media/documents/PI%20Fund%20V%20%28Ontario%29%2C%20L.P..pdf.
+  url: https://www.dfc.gov/sites/default/files/media/documents/PI%20Fund%20V%20%28Ontario%29%2C%20L.P..pdf
+  annotation: 'DFC: proposed up to USD 75m for Patria PI Fund V. Supports dfc_patria_pi_fund_v_75m_proposed.'
+  supports:
+  - dfc_patria_pi_fund_v_75m_proposed
+  - hunt_cycle184
