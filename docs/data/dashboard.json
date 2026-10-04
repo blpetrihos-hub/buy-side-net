@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1416,
+    "n_rows": 1419,
     "counts": {
-      "total": 1416,
-      "active": 1217,
+      "total": 1419,
+      "active": 1220,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 175,
+      "proxy": 176,
       "exclude": 18,
-      "documented": 1166,
-      "on_map": 1091
+      "documented": 1168,
+      "on_map": 1094
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 161,
         "prc": 126,
-        "allied": 155,
-        "n": 442
+        "allied": 158,
+        "n": 445
       },
       "usd": {
         "us": 19487730640.12,
         "us_n": 78,
-        "prc": 13785864713.330002,
-        "prc_n": 30,
-        "allied": 18424623324.0,
-        "allied_n": 50
+        "prc": 15157964713.330002,
+        "prc_n": 31,
+        "allied": 18484623324.0,
+        "allied_n": 51
       },
       "matched_gaps": {
         "n": 1,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 97,
         "prc": 88,
-        "allied": 155,
-        "n": 340
+        "allied": 157,
+        "n": 342
       },
       "usd": {
         "us": 6067206020.549999,
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 54,
           "prc": 25,
-          "allied": 43
+          "allied": 45
         },
         "resources": {
           "us": 26,
@@ -752,16 +752,16 @@
       "counts": {
         "us": 5,
         "prc": 0,
-        "allied": 6,
-        "n": 11
+        "allied": 7,
+        "n": 12
       },
       "usd": {
         "us": 208147801.58,
         "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 177600000.0,
-        "allied_n": 5
+        "allied": 237600000.0,
+        "allied_n": 6
       },
       "by_layer": {
         "energy": {
@@ -772,7 +772,7 @@
         "infrastructure": {
           "us": 2,
           "prc": 0,
-          "allied": 2
+          "allied": 3
         },
         "resources": {
           "us": 1,
@@ -918,8 +918,8 @@
       "usd": {
         "us": 73180242.32,
         "us_n": 2,
-        "prc": 148900000.0,
-        "prc_n": 1,
+        "prc": 1521000000.0,
+        "prc_n": 2,
         "allied": 391900000.0,
         "allied_n": 4
       },
@@ -2405,7 +2405,10 @@
       "rio_tinto_codelco_maricunga_ceol_2026",
       "glenfarne_metlen_chile_solar_865m_2025",
       "crrc_tic_trens_eixo_norte_13p48bn_2024",
-      "siemens_energy_petrobras_fpso_p81_p87_2026"
+      "siemens_energy_petrobras_fpso_p81_p87_2026",
+      "pc_terminals_port_royal_haiti_60m_2025",
+      "alstom_salvador_metro_10trains_632p7m_2026",
+      "acciona_roberto_marinho_sp_2p099bn_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
