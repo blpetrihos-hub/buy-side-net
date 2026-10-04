@@ -12351,3 +12351,40 @@
   supports:
   - comsa_qi_tramo3_3411p8m_mxn_2026
   - hunt_cycle192
+- id: sacyr_ruta68_ops_20250702
+  type: company
+  chicago: Sacyr. “Sacyr toma el control de la operación de la concesión de la Ruta 68 en Chile.” July
+    2, 2025. https://sacyr.com/-/inicio-operaciones-ruta-68.
+  url: https://sacyr.com/-/inicio-operaciones-ruta-68
+  annotation: 'Sacyr: Ruta 68 Segunda Concesión USD 1.6bn. Supports sacyr_ruta68_1600m_2025.'
+  supports:
+  - sacyr_ruta68_1600m_2025
+  - hunt_cycle193
+- id: scc_ir_capex_mar2026
+  type: company
+  chicago: Southern Copper Corporation. “Company Presentation” (March 2026). https://southerncoppercorp.com/wp-content/uploads/2026/03/pp260213.pdf.
+  url: https://southerncoppercorp.com/wp-content/uploads/2026/03/pp260213.pdf
+  annotation: 'SCC IR: 2026 CapEx USD 1,925.5m. Supports southern_copper_capex_1925m_2026.'
+  supports:
+  - southern_copper_capex_1925m_2026
+  - hunt_cycle193
+- id: equinix_mo2_monterrey_20251030
+  type: company
+  chicago: Equinix. “Equinix México invierte US$ 81 millones en nuevo centro de datos en Monterrey.” October
+    30, 2025. https://newsroom.equinix.com/2025-10-30-Equinix-Mexico-invierte-US-81-millones-en-nuevo-centro-de-datos-en-Monterrey.
+  url: https://newsroom.equinix.com/2025-10-30-Equinix-Mexico-invierte-US-81-millones-en-nuevo-centro-de-datos-en-Monterrey
+  annotation: 'Equinix: MO2 Monterrey USD 81m. Supports equinix_mo2_monterrey_81m_2025.'
+  supports:
+  - equinix_mo2_monterrey_81m_2025
+  - hunt_cycle193
+- id: equinix_latam_419m_20260526
+  type: company
+  chicago: Equinix. “América Latina é a região de maior crescimento e mais dinâmica para a Equinix.” May
+    26, 2026. https://newsroom.equinix.com/2026-05-26-America-Latina-e-a-regiao-de-maior-crescimento-e-mais-dinamica-para-a-Equinix.
+  url: https://newsroom.equinix.com/2026-05-26-America-Latina-e-a-regiao-de-maior-crescimento-e-mais-dinamica-para-a-Equinix
+  annotation: 'Equinix: Bogotá DC2 ~USD 28m. Supports equinix_bogota_dc2_28m_2025.'
+  supports:
+  - equinix_rj3_45m_2025
+  - hunt_cycle193
+  - equinix_st2_chile_42m_2025
+  - equinix_bogota_dc2_28m_2025
