@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 1353,
+    "n_rows": 1361,
     "counts": {
-      "total": 1353,
-      "active": 1154,
+      "total": 1361,
+      "active": 1162,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1102,
-      "on_map": 1053
+      "documented": 1110,
+      "on_map": 1057
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 150,
+        "us": 153,
         "prc": 125,
-        "allied": 142,
-        "n": 417
+        "allied": 144,
+        "n": 422
       },
       "usd": {
-        "us": 10612730640.119999,
-        "us_n": 71,
+        "us": 15912730640.119999,
+        "us_n": 73,
         "prc": 11210642629.330002,
         "prc_n": 29,
         "allied": 17358258000.0,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 136,
-        "n": 293
+        "allied": 137,
+        "n": 294
       },
       "usd": {
         "us": 28076323566.0,
         "us_n": 41,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 50969458653.2,
-        "allied_n": 50
+        "allied": 56042458653.2,
+        "allied_n": 51
       },
       "matched_gaps": {
         "n": 3,
@@ -154,9 +154,9 @@
       "layer": "energy",
       "counts": {
         "us": 146,
-        "prc": 166,
-        "allied": 130,
-        "n": 442
+        "prc": 167,
+        "allied": 131,
+        "n": 444
       },
       "usd": {
         "us": 14676460515.13,
@@ -362,10 +362,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 91,
-        "prc": 82,
-        "allied": 129,
-        "n": 302
+        "us": 92,
+        "prc": 83,
+        "allied": 131,
+        "n": 306
       },
       "usd": {
         "us": 4047206020.5499997,
@@ -378,13 +378,13 @@
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 49,
-          "allied": 39
+          "prc": 50,
+          "allied": 40
         },
         "infrastructure": {
-          "us": 48,
+          "us": 49,
           "prc": 24,
-          "allied": 35
+          "allied": 36
         },
         "resources": {
           "us": 26,
@@ -396,18 +396,18 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 51,
+        "us": 52,
         "prc": 42,
-        "allied": 71,
-        "n": 164
+        "allied": 72,
+        "n": 166
       },
       "usd": {
-        "us": 21752000000.0,
-        "us_n": 18,
+        "us": 25752000000.0,
+        "us_n": 19,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 18921062361.0,
-        "allied_n": 34
+        "allied": 23994062361.0,
+        "allied_n": 35
       },
       "by_layer": {
         "energy": {
@@ -416,14 +416,14 @@
           "allied": 27
         },
         "infrastructure": {
-          "us": 7,
+          "us": 8,
           "prc": 7,
           "allied": 16
         },
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 28
+          "allied": 29
         }
       }
     },
@@ -842,14 +842,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 48,
+        "us": 49,
         "prc": 19,
-        "allied": 35,
-        "n": 102
+        "allied": 36,
+        "n": 104
       },
       "usd": {
-        "us": 3396456686.7400002,
-        "us_n": 30,
+        "us": 4696456686.74,
+        "us_n": 31,
         "prc": 127039837.81,
         "prc_n": 3,
         "allied": 5391234000.0,
@@ -862,9 +862,9 @@
           "allied": 8
         },
         "infrastructure": {
-          "us": 24,
+          "us": 25,
           "prc": 12,
-          "allied": 20
+          "allied": 21
         },
         "resources": {
           "us": 13,
@@ -2342,7 +2342,15 @@
       "scala_chile_pf_328m_2025",
       "powerchina_ecuador_renewables_400m_2025",
       "bcie_nicaragua_xi_tramo_b_97m_2026",
-      "unacem_fy2025_capex_698p8m_pen"
+      "unacem_fy2025_capex_698p8m_pen",
+      "progress_rail_vli_sd70_200m_brl_2024",
+      "aws_chile_region_4bn_2025",
+      "microsoft_mexico_ai_1p3bn_2024",
+      "isa_energia_fy2025_capex_5p1bn_brl",
+      "sgbh_gate_uhv_18bn_brl_2025",
+      "portonave_ertg_210m_brl_2026",
+      "codelco_fy2025_capex_5073m",
+      "holcim_zapopan_electric_51m_mxn_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",
