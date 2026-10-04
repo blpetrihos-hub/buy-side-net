@@ -12142,3 +12142,57 @@
   supports:
   - ani_pacifico_ferro_280522m_cop_2026
   - hunt_cycle188
+- id: bv_andes_aet_ustda_20210603
+  type: company
+  chicago: Black & Veatch. “Black & Veatch to Conduct Feasibility Studies for Andes Energy Terminal, an
+    LNG Terminal and Power Plant Project in Buenaventura, Colombia.” June 3, 2021. https://www.bv.com/news/black-and-veatch-to-conduct-feasibility-studies-for-andes-energy-terminal-an.
+  url: https://www.bv.com/news/black-and-veatch-to-conduct-feasibility-studies-for-andes-energy-terminal-an
+  annotation: 'BV: Andes AET USTDA FS; CapEx blank. Supports black_veatch_andes_aet_ustda_2021.'
+  supports:
+  - black_veatch_andes_aet_ustda_2021
+  - hunt_cycle189
+- id: mopc_py04_hormigon_20251104
+  type: government
+  chicago: Ministerio de Obras Públicas y Comunicaciones (MOPC). “Firman contratos y se pone en marcha
+    la construcción de la segunda ruta de hormigón del país.” November 4, 2025. https://mopc.gov.py/firman-contratos-y-se-pone-en-marcha-la-construccion-de-la-segunda-ruta-de-hormigon-del-pais/.
+  url: https://mopc.gov.py/firman-contratos-y-se-pone-en-marcha-la-construccion-de-la-segunda-ruta-de-hormigon-del-pais/
+  annotation: 'MOPC: PY04 Lote 2 Caminos del Sur G. 204.140m. Supports mopc_py04_caminos_sur_lote2_204140m_pyg_2025.'
+  supports:
+  - mopc_py04_acaray_lote1_242296m_pyg_2025
+  - hunt_cycle189
+  - mopc_py04_caminos_sur_lote2_204140m_pyg_2025
+- id: votorantim_2q2026_results_20260813
+  type: company
+  chicago: Votorantim Cimentos. “Our Financial Results in the Second Quarter of 2026.” August 13, 2026.
+    https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/.
+  url: https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/
+  annotation: 'Votorantim: Brazil plan R$3.1bn invested of R$5bn. Supports votorantim_brazil_plan_3p1bn_invested_2026.'
+  supports:
+  - votorantim_brazil_plan_3p1bn_invested_2026
+  - hunt_cycle189
+- id: holcim_cpac_schedule13d_20260406
+  type: company
+  chicago: Holcim Ltd. Schedule 13D relating to Cementos Pacasmayo S.A.A. April 6, 2026. https://www.sec.gov/Archives/edgar/data/1221029/0001104659-26-039944.txt.
+  url: https://www.sec.gov/Archives/edgar/data/1221029/0001104659-26-039944.txt
+  annotation: 'Holcim: ASPI cash S/1,850.37m for Pacasmayo control. Supports holcim_pacasmayo_aspi_1850370k_pen_2026.'
+  supports:
+  - holcim_pacasmayo_aspi_1850370k_pen_2026
+  - hunt_cycle189
+- id: fluor_ica_divest_20260716
+  type: company
+  chicago: Fluor Corporation. “Fluor Divests Equity Stake in Mexico JV.” July 16, 2026. https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Divests-Equity-Stake-in-Mexico-JV/default.aspx.
+  url: https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Divests-Equity-Stake-in-Mexico-JV/default.aspx
+  annotation: 'Fluor: ICA-Fluor Daniel Mexico JV exit USD 175m. Supports fluor_ica_mexico_divest_175m_2026.'
+  supports:
+  - fluor_ica_mexico_divest_175m_2026
+  - hunt_cycle189
+- id: proyectos_mexico_cfe_mixto_el_chorro_2026
+  type: government
+  chicago: 'Proyectos México / Secretaría de Economía. “Plan de Fortalecimiento y Expansión del Sistema
+    Eléctrico Nacional: Generación” (CFE esquema mixto award table listing El Chorro — Terralia Energía
+    y Campo). Accessed October 4, 2026. https://www.proyectosmexico.gob.mx/proyectos/plan-de-fortalecimiento-y-expansion-del-sistema-electrico-nacional-generacion/.'
+  url: https://www.proyectosmexico.gob.mx/proyectos/plan-de-fortalecimiento-y-expansion-del-sistema-electrico-nacional-generacion/
+  annotation: 'CFE mixto: El Chorro awarded to Terralia; CapEx blank. Supports terralia_el_chorro_cfe_2026.'
+  supports:
+  - terralia_el_chorro_cfe_2026
+  - hunt_cycle189
