@@ -19173,5 +19173,107 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "haitilibre_idb_les_cayes_rn2_20260624",
+    "type": "press",
+    "chicago": "HaitiLibre. “Haiti - Investments: USD$69 for the modernization of Les Cayes airport and the rehabilitation of RN2.” June 25, 2026. https://www.haitilibre.com/en/news-47842-haiti-investments-usd$69-for-the-modernization-of-les-cayes-airport-and-the-rehabilitation-of-rn2.html.",
+    "url": "https://www.haitilibre.com/en/news-47842-haiti-investments-usd$69-for-the-modernization-of-les-cayes-airport-and-the-rehabilitation-of-rn2.html",
+    "annotation": "HaitiLibre: IDB USD 69m Les Cayes + RN2. Supports idb_haiti_les_cayes_rn2_69m_2026.",
+    "supports": [
+      "idb_haiti_les_cayes_rn2_69m_2026",
+      "hunt_cycle187"
+    ],
+    "map_supports": [
+      "idb_haiti_les_cayes_rn2_69m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "dnit_porto_murtinho_access_20250919",
+    "type": "government",
+    "chicago": "Departamento Nacional de Infraestrutura de Transportes (DNIT). “Em Porto Murtinho (MS), avançam as obras do acesso à Ponte Internacional Bioceânica, na BR-267.” September 19, 2025. https://www.gov.br/dnit/pt-br/assuntos/noticias/em-porto-murtinho-ms-avancam-as-obras-do-acesso-a-ponte-internacional-bioceanica-na-br-267.",
+    "url": "https://www.gov.br/dnit/pt-br/assuntos/noticias/em-porto-murtinho-ms-avancam-as-obras-do-acesso-a-ponte-internacional-bioceanica-na-br-267",
+    "annotation": "DNIT: BR-267 Bioceanic access ~R$472m. Supports dnit_porto_murtinho_access_472m_brl_2025.",
+    "supports": [
+      "dnit_porto_murtinho_access_472m_brl_2025",
+      "hunt_cycle187"
+    ],
+    "map_supports": [
+      "dnit_porto_murtinho_access_472m_brl_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "mopc_py15_fonplata_20260724",
+    "type": "government",
+    "chicago": "Ministerio de Obras Públicas y Comunicaciones (MOPC). “Corredor Bioceánico gana terreno en el Chaco con 11 km continuos de base asfáltica.” July 24, 2026. https://mopc.gov.py/corredor-bioceanico-gana-terreno-en-el-chaco-con-11-km-continuos-de-base-asfaltica/.",
+    "url": "https://mopc.gov.py/corredor-bioceanico-gana-terreno-en-el-chaco-con-11-km-continuos-de-base-asfaltica/",
+    "annotation": "MOPC: PY15 Tramo 3 USD 354.2m Fonplata. Supports mopc_py15_fonplata_354m_2026.",
+    "supports": [
+      "mopc_py15_fonplata_354m_2026",
+      "hunt_cycle187"
+    ],
+    "map_supports": [
+      "mopc_py15_fonplata_354m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "rota_bioceanica_itaipu_ponte_20260716",
+    "type": "press",
+    "chicago": "Rota Bioceânica. “Momentos finais da conexão física da Ponte Bioceânica financiada pela ITAIPU.” July 16, 2026. https://rotabioceanica.com.br/2026/07/momentos-finais-da-conexao-fisica-da-ponte-bioceanica-financiada-pela-itaipu/.",
+    "url": "https://rotabioceanica.com.br/2026/07/momentos-finais-da-conexao-fisica-da-ponte-bioceanica-financiada-pela-itaipu/",
+    "annotation": "Rota Bioceânica/Itaipu: bridge ~USD 103m. Supports itaipu_ponte_bioceanica_103m_2026.",
+    "supports": [
+      "itaipu_ponte_bioceanica_103m_2026",
+      "hunt_cycle187"
+    ],
+    "map_supports": [
+      "itaipu_ponte_bioceanica_103m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "isa_energia_rm_370m_20260623",
+    "type": "company",
+    "chicago": "ISA Energia Brasil. “ISA ENERGIA BRASIL investe R$ 370 milhões em Reforços e Melhorias na rede de transmissão nacional.” June 23, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-370-milhoes-em-reforcos-e-melhorias-na-rede-de-transmissao-nacional/.",
+    "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-370-milhoes-em-reforcos-e-melhorias-na-rede-de-transmissao-nacional/",
+    "annotation": "ISA Energia Brasil: 1T26 R&M CapEx R$370m. Supports isa_energia_rm_370m_brl_1t26.",
+    "supports": [
+      "isa_energia_rm_370m_brl_1t26",
+      "hunt_cycle187"
+    ],
+    "map_supports": [
+      "isa_energia_rm_370m_brl_1t26"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "copel_fr_15_25_capex_20251119",
+    "type": "company",
+    "chicago": "Companhia Paranaense de Energia (Copel). “Fato Relevante | 15/25 — CAPEX de R$ 17,8 bilhões para os próximos 5 anos.” November 19, 2025. https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd35ad?origin=1.",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd35ad?origin=1",
+    "annotation": "Copel: 2026 CapEx plan R$3,021.3m. Supports copel_capex_2026_plan_3021m_brl.",
+    "supports": [
+      "copel_capex_2026_plan_3021m_brl",
+      "hunt_cycle187"
+    ],
+    "map_supports": [
+      "copel_capex_2026_plan_3021m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
