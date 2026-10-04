@@ -11940,10 +11940,12 @@
   chicago: CGE Transmisión. “Acta de Adjudicación — Licitación Pública Internacional Obras de Ampliación
     CGE Transmisión (CGET_OA_1_2025).” June 16, 2026. https://www.coordinador.cl/wp-content/uploads/2026/06/CGET_OA_1_2025_Acta-de-Adjudicacion-Rev.0.pdf.
   url: https://www.coordinador.cl/wp-content/uploads/2026/06/CGET_OA_1_2025_Acta-de-Adjudicacion-Rev.0.pdf
-  annotation: 'CGE OA acta: Nari Parronal+Casas Viejas VI USD 19.23m. Supports nari_cge_parronal_casas_viejas_19p2m_2026.'
+  annotation: 'CGE OA acta: CWE Pitrufquén VI USD 14.23m. Supports cwe_cge_pitrufquen_14p2m_2026.'
   supports:
   - nari_cge_parronal_casas_viejas_19p2m_2026
   - hunt_cycle184
+  - cwe_cge_pitrufquen_14p2m_2026
+  - hunt_cycle185
 - id: dfc_patria_pi_fund_v_policy_review
   type: government
   chicago: U.S. International Development Finance Corporation. “Proposed DFC Loan/Guaranty/Equity Investment
@@ -11953,3 +11955,39 @@
   supports:
   - dfc_patria_pi_fund_v_75m_proposed
   - hunt_cycle184
+- id: fqm_taca_taca_presentation_20260219
+  type: company
+  chicago: First Quantum Minerals Ltd. “Taca Taca — NI 43-101 Technical Report presentation.” February
+    19, 2026. https://www.first-quantum.com/wp-content/uploads/2026/02/Taca-Taca-Presentation-FINAL.pdf.
+  url: https://www.first-quantum.com/wp-content/uploads/2026/02/Taca-Taca-Presentation-FINAL.pdf
+  annotation: 'FQM: Taca Taca initial CapEx USD 4.232bn. Supports fqm_taca_taca_initial_capex_4232m_2026.'
+  supports:
+  - fqm_taca_taca_initial_capex_4232m_2026
+  - hunt_cycle185
+- id: idb_invest_atlas_shangri_la_2024
+  type: government
+  chicago: IDB Invest. “IDB Invest, Bancolombia and Atlas Renewable Energy Announce Investment to Boost
+    Colombia’s Energy Transition.” https://idbinvest.org/en/news-media/idb-invest-bancolombia-and-atlas-renewable-energy-announce-investment-boost-colombias.
+  url: https://idbinvest.org/en/news-media/idb-invest-bancolombia-and-atlas-renewable-energy-announce-investment-boost-colombias
+  annotation: 'IDB Invest: Shangri-La ~USD 113m senior loan. Supports atlas_shangri_la_idb_113m_2024.'
+  supports:
+  - atlas_shangri_la_idb_113m_2024
+  - hunt_cycle185
+- id: engie_brasil_aneel_01_20260327
+  type: company
+  chicago: ENGIE Brasil. “ENGIE arremata lote 2 e sublotes do 3 no leilão da ANEEL e reforça sua atuação
+    em transmissão.” March 27, 2026. https://www.engie.com.br/imprensa/press-releases/engie-arremata-lote-2-e-sublotes-do-3-no-leilao-da-aneel/.
+  url: https://www.engie.com.br/imprensa/press-releases/engie-arremata-lote-2-e-sublotes-do-3-no-leilao-da-aneel/
+  annotation: 'ENGIE Brasil: ANEEL 01/2026 Lots 2+3 CapEx ~R$1.5bn. Supports engie_brasil_aneel_01_2026_15bn.'
+  supports:
+  - engie_brasil_aneel_01_2026_15bn
+  - hunt_cycle185
+- id: seetao_cr19g_mirador_20260801
+  type: press
+  chicago: Seetao. “CR19G Wins 10-Year Mining Deal at Ecuador’s Mirador Copper Mine.” August 1, 2026.
+    https://www.seetaoe.com/details/273290.html.
+  url: https://www.seetaoe.com/details/273290.html
+  annotation: 'Seetao proxy: CR19G Mirador South Pit ~USD 1.537bn. Supports cr19g_mirador_south_pit_1537m_2026.'
+  supports:
+  - cr19g_mirador_south_pit_1537m_2026
+  - hunt_cycle185
