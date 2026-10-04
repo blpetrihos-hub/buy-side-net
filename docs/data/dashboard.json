@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1322,
+    "n_rows": 1326,
     "counts": {
-      "total": 1322,
-      "active": 1123,
+      "total": 1326,
+      "active": 1127,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 174,
       "exclude": 18,
-      "documented": 1073,
-      "on_map": 1031
+      "documented": 1077,
+      "on_map": 1034
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 140,
         "prc": 125,
-        "allied": 133,
-        "n": 398
+        "allied": 135,
+        "n": 400
       },
       "usd": {
         "us": 8644730640.119999,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 86,
         "prc": 70,
-        "allied": 134,
-        "n": 290
+        "allied": 135,
+        "n": 291
       },
       "usd": {
         "us": 27335323566.0,
         "us_n": 40,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 48947458653.2,
-        "allied_n": 48
+        "allied": 49043958653.2,
+        "allied_n": 49
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 146,
         "prc": 165,
-        "allied": 122,
-        "n": 433
+        "allied": 123,
+        "n": 434
       },
       "usd": {
         "us": 14676460515.13,
         "us_n": 41,
         "prc": 6385407871.900001,
         "prc_n": 31,
-        "allied": 11371700738.490002,
-        "allied_n": 52
+        "allied": 11492700738.490002,
+        "allied_n": 53
       },
       "matched_gaps": {
         "n": 1,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 86,
         "prc": 82,
-        "allied": 124,
-        "n": 292
+        "allied": 125,
+        "n": 293
       },
       "usd": {
         "us": 2688206020.5499997,
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 43,
           "prc": 24,
-          "allied": 34
+          "allied": 35
         },
         "resources": {
           "us": 26,
@@ -432,22 +432,22 @@
       "counts": {
         "us": 23,
         "prc": 28,
-        "allied": 23,
-        "n": 74
+        "allied": 24,
+        "n": 75
       },
       "usd": {
         "us": 1528506908.27,
         "us_n": 9,
         "prc": 5776456357.0,
         "prc_n": 5,
-        "allied": 1892500000.0,
-        "allied_n": 8
+        "allied": 2013500000.0,
+        "allied_n": 9
       },
       "by_layer": {
         "energy": {
           "us": 17,
           "prc": 16,
-          "allied": 6
+          "allied": 7
         },
         "infrastructure": {
           "us": 3,
@@ -844,8 +844,8 @@
       "counts": {
         "us": 47,
         "prc": 19,
-        "allied": 30,
-        "n": 96
+        "allied": 31,
+        "n": 97
       },
       "usd": {
         "us": 3315456686.7400002,
@@ -864,7 +864,7 @@
         "infrastructure": {
           "us": 23,
           "prc": 12,
-          "allied": 16
+          "allied": 17
         },
         "resources": {
           "us": 13,
@@ -980,16 +980,16 @@
       "counts": {
         "us": 19,
         "prc": 43,
-        "allied": 38,
-        "n": 100
+        "allied": 39,
+        "n": 101
       },
       "usd": {
         "us": 6097000000.0,
         "us_n": 7,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 19861716636.0,
-        "allied_n": 21
+        "allied": 19958216636.0,
+        "allied_n": 22
       },
       "by_layer": {
         "energy": {
@@ -1005,7 +1005,7 @@
         "resources": {
           "us": 10,
           "prc": 16,
-          "allied": 14
+          "allied": 15
         }
       }
     },
@@ -2311,7 +2311,11 @@
       "votorantim_brazil_plan_3p1bn_invested_2026",
       "holcim_pacasmayo_aspi_1850370k_pen_2026",
       "fluor_ica_mexico_divest_175m_2026",
-      "terralia_el_chorro_cfe_2026"
+      "terralia_el_chorro_cfe_2026",
+      "aqualia_ptar_chincha_96p5m_2025",
+      "sacyr_fortaleza_metro_leste_1230m_brl_2026",
+      "mota_engil_cdmx_metro_l3_25180m_mxn_2026",
+      "scatec_barzalosa_121m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -19464,5 +19464,73 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "proinversion_ptar_chincha_20250107",
+    "type": "government",
+    "chicago": "Agencia de Promoción de la Inversión Privada (PROINVERSIÓN). “FCC Aqualia de España desarrollará la Planta de Tratamiento de Aguas Residuales de Chincha.” January 7, 2025. https://www.gob.pe/institucion/proinversion/noticias/1087293-fcc-aqualia-de-espana-desarrollara-la-planta-de-tratamiento-de-aguas-residuales-de-chincha.",
+    "url": "https://www.gob.pe/institucion/proinversion/noticias/1087293-fcc-aqualia-de-espana-desarrollara-la-planta-de-tratamiento-de-aguas-residuales-de-chincha",
+    "annotation": "ProInversión: Aqualia PTAR Chincha USD 96.5m. Supports aqualia_ptar_chincha_96p5m_2025.",
+    "supports": [
+      "aqualia_ptar_chincha_96p5m_2025",
+      "hunt_cycle190"
+    ],
+    "map_supports": [
+      "aqualia_ptar_chincha_96p5m_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "atlas_publico_sacyr_fortaleza_20260918",
+    "type": "government",
+    "chicago": "Atlas Público (Diário Oficial da União republication). “Governo do Ceará declara Sacyr vencedora de licitação para três estações do Metrô de Fortaleza.” September 18, 2026. https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968.",
+    "url": "https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968",
+    "annotation": "DOU/Atlas Público: Sacyr Fortaleza Linha Leste R$1.230bn. Supports sacyr_fortaleza_metro_leste_1230m_brl_2026.",
+    "supports": [
+      "sacyr_fortaleza_metro_leste_1230m_brl_2026",
+      "hunt_cycle190"
+    ],
+    "map_supports": [
+      "sacyr_fortaleza_metro_leste_1230m_brl_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cdmx_jefatura_metro_l3_20260923",
+    "type": "government",
+    "chicago": "Jefatura de Gobierno de la Ciudad de México. “Gobierno de la Ciudad de México informó que mañana se publicará en la Gaceta Oficial el nombre de la Empresa Ganadora del Concurso de Licitación de la Línea 3 del Metro.” September 23, 2026. https://jefaturadegobierno.cdmx.gob.mx/comunicacion/nota/gobierno-de-la-ciudad-de-mexico-informo-que-manana-se-publicara-en-la-gaceta-oficial-el-nombre-de-la-empresa-ganadora-del-concurso-de-licitacion-de-la-linea-3-del-metro.",
+    "url": "https://jefaturadegobierno.cdmx.gob.mx/comunicacion/nota/gobierno-de-la-ciudad-de-mexico-informo-que-manana-se-publicara-en-la-gaceta-oficial-el-nombre-de-la-empresa-ganadora-del-concurso-de-licitacion-de-la-linea-3-del-metro",
+    "annotation": "CDMX Jefatura: Mota-Engil Metro L3 MXN 25,180m offer. Supports mota_engil_cdmx_metro_l3_25180m_mxn_2026.",
+    "supports": [
+      "mota_engil_cdmx_metro_l3_25180m_mxn_2026",
+      "hunt_cycle190"
+    ],
+    "map_supports": [
+      "mota_engil_cdmx_metro_l3_25180m_mxn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "scatec_barzalosa_fc_20260224",
+    "type": "company",
+    "chicago": "Scatec ASA. “Scatec reaches financial close and starts construction of 130 MW solar power plant in Colombia.” February 24, 2026. https://www.scatec.com/en/scatec-reaches-financial-close-and-starts-construction-of-130-mw-solar-power-plant-in-colombia/.",
+    "url": "https://www.scatec.com/en/scatec-reaches-financial-close-and-starts-construction-of-130-mw-solar-power-plant-in-colombia/",
+    "annotation": "Scatec: Barzalosa Colombia USD 121m FID. Supports scatec_barzalosa_121m_2026.",
+    "supports": [
+      "scatec_barzalosa_121m_2026",
+      "hunt_cycle190"
+    ],
+    "map_supports": [
+      "scatec_barzalosa_121m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
