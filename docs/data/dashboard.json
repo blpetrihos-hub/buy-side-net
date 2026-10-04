@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1298,
+    "n_rows": 1304,
     "counts": {
-      "total": 1298,
-      "active": 1099,
+      "total": 1304,
+      "active": 1105,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 173,
       "exclude": 18,
-      "documented": 1050,
-      "on_map": 1012
+      "documented": 1056,
+      "on_map": 1016
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 139,
         "prc": 125,
-        "allied": 121,
-        "n": 385
+        "allied": 123,
+        "n": 387
       },
       "usd": {
         "us": 8469730640.119999,
         "us_n": 62,
         "prc": 11210642629.330002,
         "prc_n": 29,
-        "allied": 14504058000.0,
-        "allied_n": 41
+        "allied": 15204058000.0,
+        "allied_n": 42
       },
       "matched_gaps": {
         "n": 1,
@@ -130,8 +130,8 @@
       "counts": {
         "us": 86,
         "prc": 70,
-        "allied": 131,
-        "n": 287
+        "allied": 132,
+        "n": 288
       },
       "usd": {
         "us": 27335323566.0,
@@ -154,17 +154,17 @@
       "layer": "energy",
       "counts": {
         "us": 144,
-        "prc": 164,
-        "allied": 117,
-        "n": 425
+        "prc": 165,
+        "allied": 119,
+        "n": 428
       },
       "usd": {
         "us": 14676460515.13,
         "us_n": 41,
-        "prc": 6377407871.900001,
-        "prc_n": 30,
-        "allied": 10051700738.490002,
-        "allied_n": 50
+        "prc": 6385407871.900001,
+        "prc_n": 31,
+        "allied": 11371700738.490002,
+        "allied_n": 52
       },
       "matched_gaps": {
         "n": 1,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 86,
         "prc": 82,
-        "allied": 118,
-        "n": 286
+        "allied": 119,
+        "n": 287
       },
       "usd": {
         "us": 2688206020.5499997,
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 43,
           "prc": 24,
-          "allied": 31
+          "allied": 32
         },
         "resources": {
           "us": 26,
@@ -397,33 +397,33 @@
       "country": "Chile",
       "counts": {
         "us": 47,
-        "prc": 41,
-        "allied": 65,
-        "n": 153
+        "prc": 42,
+        "allied": 68,
+        "n": 157
       },
       "usd": {
         "us": 20511000000.0,
         "us_n": 14,
-        "prc": 3081563959.6699996,
-        "prc_n": 15,
-        "allied": 14632062361.0,
-        "allied_n": 29
+        "prc": 3089563959.6699996,
+        "prc_n": 16,
+        "allied": 16632062361.0,
+        "allied_n": 31
       },
       "by_layer": {
         "energy": {
           "us": 32,
-          "prc": 32,
-          "allied": 24
+          "prc": 33,
+          "allied": 25
         },
         "infrastructure": {
           "us": 4,
           "prc": 7,
-          "allied": 14
+          "allied": 15
         },
         "resources": {
           "us": 11,
           "prc": 2,
-          "allied": 27
+          "allied": 28
         }
       }
     },
@@ -752,22 +752,22 @@
       "counts": {
         "us": 5,
         "prc": 0,
-        "allied": 4,
-        "n": 9
+        "allied": 5,
+        "n": 10
       },
       "usd": {
         "us": 208147801.58,
         "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 157600000.0,
-        "allied_n": 4
+        "allied": 177600000.0,
+        "allied_n": 5
       },
       "by_layer": {
         "energy": {
           "us": 2,
           "prc": 0,
-          "allied": 3
+          "allied": 4
         },
         "infrastructure": {
           "us": 2,
@@ -2287,7 +2287,13 @@
       "atlas_shangri_la_idb_113m_2024",
       "engie_brasil_aneel_01_2026_15bn",
       "cwe_cge_pitrufquen_14p2m_2026",
-      "cr19g_mirador_south_pit_1537m_2026"
+      "cr19g_mirador_south_pit_1537m_2026",
+      "edelmag_guerrico_8m_2026",
+      "sonnedix_chile_refi_1p3bn_2026",
+      "aguas_andinas_capex_189905m_clp_2025",
+      "ecorodovias_rota_gerais_13bn_2026",
+      "efe_caf_ico_700m_2026",
+      "wb_haiti_renewable_af_20m_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",

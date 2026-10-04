@@ -11991,3 +11991,55 @@
   supports:
   - cr19g_mirador_south_pit_1537m_2026
   - hunt_cycle185
+- id: edelmag_guerrico_rca_20260216
+  type: company
+  chicago: Edelmag. “Puerto Williams avanza en autonomía energética tras aprobación de central generadora
+    de EDELMAG.” February 16, 2026. https://www.edelmag.cl/puerto-williams-avanza-en-autonomia-energetica-tras-aprobacion-de-central-generadora-de-edelmag/.
+  url: https://www.edelmag.cl/puerto-williams-avanza-en-autonomia-energetica-tras-aprobacion-de-central-generadora-de-edelmag/
+  annotation: 'Edelmag: Guerrico 1 MW CapEx ~USD 8m after RCA. Supports edelmag_guerrico_8m_2026.'
+  supports:
+  - edelmag_guerrico_8m_2026
+  - hunt_cycle186
+- id: sonnedix_chile_refi_20260910
+  type: company
+  chicago: Sonnedix. “Sonnedix secures USD1.3 billion landmark refinancing to accelerate Chile’s renewable
+    energy and storage pipeline.” September 10, 2026. https://www.sonnedix.com/news/sonnedix-secures-usd1-3-billion-landmark-refinancing-to-accelerate-chiles-renewable-energy-and-storage-pipeline.
+  url: https://www.sonnedix.com/news/sonnedix-secures-usd1-3-billion-landmark-refinancing-to-accelerate-chiles-renewable-energy-and-storage-pipeline
+  annotation: 'Sonnedix: Chile portfolio refinance USD 1.3bn. Supports sonnedix_chile_refi_1p3bn_2026.'
+  supports:
+  - sonnedix_chile_refi_1p3bn_2026
+  - hunt_cycle186
+- id: aguas_andinas_earnings_4t25
+  type: company
+  chicago: Aguas Andinas S.A. “Aguas Andinas and Subsidiaries Earnings Release 4T25.” PDF. https://www.aguasandinasinversionistas.cl/documents/208629/456213/AA+and+Subsidiaries+Earnings+Release+4T25.pdf.
+  url: https://www.aguasandinasinversionistas.cl/documents/208629/456213/AA+and+Subsidiaries+Earnings+Release+4T25.pdf
+  annotation: 'Aguas Andinas: FY2025 CapEx CLP 189,905m. Supports aguas_andinas_capex_189905m_clp_2025.'
+  supports:
+  - aguas_andinas_capex_189905m_clp_2025
+  - hunt_cycle186
+- id: antt_rota_gerais_20260331
+  type: government
+  chicago: Agência Nacional de Transportes Terrestres (ANTT). “Ecorodovias vence primeiro leilão rodoviário
+    federal de 2026 com 19% de desconto e assume 735 km em Minas Gerais.” March 31, 2026. https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/ecorodovias-vence-primeiro-leilao-rodoviario-federal-de-2026-com-19-de-desconto-e-assume-735-km-em-minas-gerais.
+  url: https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/ecorodovias-vence-primeiro-leilao-rodoviario-federal-de-2026-com-19-de-desconto-e-assume-735-km-em-minas-gerais
+  annotation: 'ANTT: Rota das Gerais >R$13bn investments. Supports ecorodovias_rota_gerais_13bn_2026.'
+  supports:
+  - ecorodovias_rota_gerais_13bn_2026
+  - hunt_cycle186
+- id: efe_caf_ico_20260123
+  type: company
+  chicago: EFE Trenes de Chile. “EFE suscribe financiamiento por US$700 millones con CAF e ICO.” January
+    23, 2026. https://www.efe.cl/efe-suscribe-financiamiento-por-us700-millones-con-caf-e-ico/.
+  url: https://www.efe.cl/efe-suscribe-financiamiento-por-us700-millones-con-caf-e-ico/
+  annotation: 'EFE: CAF+ICO financing USD 700m. Supports efe_caf_ico_700m_2026.'
+  supports:
+  - efe_caf_ico_700m_2026
+  - hunt_cycle186
+- id: wb_haiti_renewable_af_20241018
+  type: government
+  chicago: World Bank. “World Bank to Support Sustainable Energy Access in Haiti.” October 18, 2024. https://www.worldbank.org/en/news/press-release/2024/10/18/world-bank-to-support-sustainable-energy-access-in-haiti.
+  url: https://www.worldbank.org/en/news/press-release/2024/10/18/world-bank-to-support-sustainable-energy-access-in-haiti
+  annotation: 'World Bank: Haiti RE for All AF USD 20m. Supports wb_haiti_renewable_af_20m_2024.'
+  supports:
+  - wb_haiti_renewable_af_20m_2024
+  - hunt_cycle186
