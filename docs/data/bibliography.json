@@ -18541,5 +18541,107 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "nadbank_cespt_tijuana_sewer_20260427",
+    "type": "government",
+    "chicago": "North American Development Bank. “Ground broken to rehabilitate additional wastewater collection and conveyance infrastructure in the Tijuana River Area of Baja California.” April 27, 2026. https://nadbank.org/news/press-release/ground-broken-to-rehabilitate-additional-wastewater-collection-and-conveyance-infrastructure-in-the-tijuana-river-area-of-baja-california.",
+    "url": "https://nadbank.org/news/press-release/ground-broken-to-rehabilitate-additional-wastewater-collection-and-conveyance-infrastructure-in-the-tijuana-river-area-of-baja-california",
+    "annotation": "NADBank: CESPT Tijuana sewer grant USD 4.2m. Supports nadbank_cespt_tijuana_sewer_4p2m_2026.",
+    "supports": [
+      "nadbank_cespt_tijuana_sewer_4p2m_2026",
+      "hunt_cycle180"
+    ],
+    "map_supports": [
+      "nadbank_cespt_tijuana_sewer_4p2m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "panorama_finning_alumbrera_250m_20260721",
+    "type": "press",
+    "chicago": "Panorama Minero. “Alumbrera Awards US$250 Million Fleet and Services Contract to Finning.” July 21, 2026. https://www.panorama-minero.com/en/news/alumbrera-awards-us-250-million-fleet-and-services-contract-to-finning.",
+    "url": "https://www.panorama-minero.com/en/news/alumbrera-awards-us-250-million-fleet-and-services-contract-to-finning",
+    "annotation": "Panorama Minero citing Finning: Alumbrera Cat fleet ~USD 250m. Supports caterpillar_finning_alumbrera_250m_2026.",
+    "supports": [
+      "caterpillar_finning_alumbrera_250m_2026",
+      "hunt_cycle180"
+    ],
+    "map_supports": [
+      "caterpillar_finning_alumbrera_250m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "wb_guyana_itc_pr_20250228",
+    "type": "government",
+    "chicago": "World Bank. “Guyana to Enhance Transport Resilience and Safety.” February 28, 2025. https://www.worldbank.org/en/news/press-release/2025/02/28/guyana-to-enhance-transport-resilience-and-safety.",
+    "url": "https://www.worldbank.org/en/news/press-release/2025/02/28/guyana-to-enhance-transport-resilience-and-safety",
+    "annotation": "WB Board: Guyana ITC USD 156m IDA. Supports wb_guyana_itc_156m_2025.",
+    "supports": [
+      "wb_guyana_itc_156m_2025",
+      "hunt_cycle180"
+    ],
+    "map_supports": [
+      "wb_guyana_itc_156m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sandvik_codelco_chuqui_lh515i_20260331",
+    "type": "company",
+    "chicago": "Sandvik Mining. “Sandvik awarded order for 13 Toro® LH515i loaders from Codelco in Chile.” March 31, 2026. https://www.mining.sandvik/en/news-and-media/news-archive/2026/03/sandvik-awarded-order-for-13-lh515i-loaders-from-codelco-in-chile/.",
+    "url": "https://www.mining.sandvik/en/news-and-media/news-archive/2026/03/sandvik-awarded-order-for-13-lh515i-loaders-from-codelco-in-chile/",
+    "annotation": "Sandvik: 13 LH515i for Codelco Chuquicamata UG. Supports sandvik_codelco_chuqui_lh515i_13_2026.",
+    "supports": [
+      "sandvik_codelco_chuqui_lh515i_13_2026",
+      "hunt_cycle180"
+    ],
+    "map_supports": [
+      "sandvik_codelco_chuqui_lh515i_13_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "interconexiones_norte_proyecto_kila",
+    "type": "company",
+    "chicago": "Interconexiones del Norte S.A. “Proyecto – S/E Seccionadora Nueva Lagunas y Línea 2×500 kV Nueva Lagunas – Kimal.” Accessed October 4, 2026. https://interconexionesdelnorte.cl/proyecto/.",
+    "url": "https://interconexionesdelnorte.cl/proyecto/",
+    "annotation": "ISA vehicle: Nueva Lagunas–Kimal referential USD 194.46m. Supports isa_nueva_lagunas_kimal_194p46m_2023.",
+    "supports": [
+      "isa_nueva_lagunas_kimal_194p46m_2023",
+      "hunt_cycle180"
+    ],
+    "map_supports": [
+      "isa_nueva_lagunas_kimal_194p46m_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "dataportuaria_iti_kalmar_ottawa_20260524",
+    "type": "press",
+    "chicago": "DataPortuaria. “ITI avanza en modernización con tres nuevos tracto camiones de última generación.” May 24, 2026. https://dataportuaria.com/es/internacional/puertos/iti-avanza-en-modernizacion-con-tres-nuevos-tracto-camiones.",
+    "url": "https://dataportuaria.com/es/internacional/puertos/iti-avanza-en-modernizacion-con-tres-nuevos-tracto-camiones",
+    "annotation": "DataPortuaria/ITI: three Kalmar Ottawa >USD 600k. Supports kalmar_ottawa_iti_iquique_600k_2026.",
+    "supports": [
+      "kalmar_ottawa_iti_iquique_600k_2026",
+      "hunt_cycle180"
+    ],
+    "map_supports": [
+      "kalmar_ottawa_iti_iquique_600k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
