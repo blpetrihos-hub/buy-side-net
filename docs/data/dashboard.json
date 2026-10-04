@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1427,
+    "n_rows": 1430,
     "counts": {
-      "total": 1427,
-      "active": 1228,
+      "total": 1430,
+      "active": 1231,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 176,
+      "proxy": 177,
       "exclude": 18,
-      "documented": 1176,
-      "on_map": 1100
+      "documented": 1178,
+      "on_map": 1103
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 161,
         "prc": 126,
-        "allied": 160,
-        "n": 447
+        "allied": 161,
+        "n": 448
       },
       "usd": {
         "us": 23042730640.120003,
         "us_n": 80,
         "prc": 15157964713.330002,
         "prc_n": 31,
-        "allied": 18534623324.0,
-        "allied_n": 51
+        "allied": 18723123324.0,
+        "allied_n": 53
       },
       "matched_gaps": {
         "n": 1,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 148,
         "prc": 171,
-        "allied": 151,
-        "n": 470
+        "allied": 153,
+        "n": 472
       },
       "usd": {
         "us": 15541460515.13,
         "us_n": 42,
         "prc": 6785407871.900001,
         "prc_n": 32,
-        "allied": 20816684738.49,
-        "allied_n": 60
+        "allied": 21348684738.49,
+        "allied_n": 61
       },
       "matched_gaps": {
         "n": 1,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 97,
         "prc": 88,
-        "allied": 160,
-        "n": 345
+        "allied": 161,
+        "n": 346
       },
       "usd": {
         "us": 6067206020.549999,
@@ -379,7 +379,7 @@
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 55
+          "allied": 56
         },
         "infrastructure": {
           "us": 54,
@@ -398,27 +398,27 @@
       "counts": {
         "us": 54,
         "prc": 42,
-        "allied": 85,
-        "n": 181
+        "allied": 87,
+        "n": 183
       },
       "usd": {
         "us": 29022000000.0,
         "us_n": 22,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 42471062361.0,
-        "allied_n": 47
+        "allied": 43191562361.0,
+        "allied_n": 50
       },
       "by_layer": {
         "energy": {
           "us": 33,
           "prc": 33,
-          "allied": 29
+          "allied": 30
         },
         "infrastructure": {
           "us": 9,
           "prc": 7,
-          "allied": 16
+          "allied": 17
         },
         "resources": {
           "us": 12,
@@ -2416,7 +2416,10 @@
       "portonave_cais_1p5bn_brl_2026",
       "codelco_enami_qb_10pct_520m_2024",
       "antofagasta_pelambres_water_financing_2bn_2025",
-      "codelco_miga_climate_financing_600m_2025"
+      "codelco_miga_climate_financing_600m_2025",
+      "vestas_aquiraz_factory_130m_brl_2024",
+      "codelco_miga_climate_financing_532m_2024",
+      "indra_efe_comms_chile_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

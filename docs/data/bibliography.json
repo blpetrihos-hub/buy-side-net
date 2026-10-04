@@ -2307,24 +2307,6 @@
     ]
   },
   {
-    "id": "siemens_efe_etcs_20251127",
-    "type": "official",
-    "chicago": "Siemens AG. “Siemens Mobility secures landmark contract for digitalizing rail in Chile, Latin America.” 27 November 2025.",
-    "url": "https://press.siemens.com/global/en/pressrelease/siemens-mobility-secures-landmark-contract-digitalizing-rail-chile-latin-america",
-    "annotation": "Company primary EFE ETCS L2 award notice. Supports siemens_efe_etcs_chile_2025.",
-    "supports": [
-      "siemens_efe_etcs_chile_2025",
-      "hunt_latam_rail_telecom"
-    ],
-    "map_supports": [
-      "hunt_latam_rail_telecom",
-      "siemens_efe_etcs_chile_2025"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "brn_sustentabilidade_2024",
     "type": "official",
     "chicago": "Brazilian Nickel Limited. Relatório de Sustentabilidade 2024 (Portuguese). 2025.",
@@ -21147,6 +21129,59 @@
     ],
     "layers": [
       "energy"
+    ]
+  },
+  {
+    "id": "terra_vestas_aquiraz_130m_20240809",
+    "type": "press",
+    "chicago": "Terra / Reuters. “Vestas investirá R$130 mi para fabricar nova turbina eólica no Ceará.” August 9, 2024. https://www.terra.com.br/economia/vestas-investira-r130-mi-para-fabricar-nova-turbina-eolica-no-ceara,f9d1fbc4a6527698ae571e35682da9c8wlp8f5rc.html.",
+    "url": "https://www.terra.com.br/economia/vestas-investira-r130-mi-para-fabricar-nova-turbina-eolica-no-ceara,f9d1fbc4a6527698ae571e35682da9c8wlp8f5rc.html",
+    "annotation": "Vestas Aquiraz factory CapEx R$130m. Supports vestas_aquiraz_factory_130m_brl_2024.",
+    "supports": [
+      "vestas_aquiraz_factory_130m_brl_2024",
+      "hunt_cycle212"
+    ],
+    "map_supports": [
+      "vestas_aquiraz_factory_130m_brl_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "codelco_miga_climate_532m_20240723",
+    "type": "company",
+    "chicago": "Codelco. “Codelco emitió su primer financiamiento climático por US$532 millones.” July 23, 2024. https://www.codelco.com/codelco-emitio-su-primer-financiamiento-climatico-por-us-532-millones.",
+    "url": "https://www.codelco.com/codelco-emitio-su-primer-financiamiento-climatico-por-us-532-millones",
+    "annotation": "Codelco first MIGA climate financing USD 532m. Supports codelco_miga_climate_financing_532m_2024.",
+    "supports": [
+      "codelco_miga_climate_financing_532m_2024",
+      "hunt_cycle212"
+    ],
+    "map_supports": [
+      "codelco_miga_climate_financing_532m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "efe_siemens_indra_adjudicacion_20251210",
+    "type": "company",
+    "chicago": "EFE Trenes de Chile. “EFE avanza en modernización ferroviaria con nuevas adjudicaciones tecnológicas a Siemens e Indra para los proyectos Melipilla y Batuco.” December 10, 2025. https://www.efe.cl/efe-avanza-en-modernizacion-ferroviaria-con-nuevas-adjudicaciones-tecnologicas-a-siemens-e-indra-para-los-proyectos-melipilla-y-batuco/.",
+    "url": "https://www.efe.cl/efe-avanza-en-modernizacion-ferroviaria-con-nuevas-adjudicaciones-tecnologicas-a-siemens-e-indra-para-los-proyectos-melipilla-y-batuco/",
+    "annotation": "Indra EFE communications 1.480.508 UF (~USD 62.7m). Supports indra_efe_comms_chile_2025.",
+    "supports": [
+      "siemens_efe_etcs_chile_2025",
+      "hunt_cycle212",
+      "indra_efe_comms_chile_2025"
+    ],
+    "map_supports": [
+      "indra_efe_comms_chile_2025",
+      "siemens_efe_etcs_chile_2025"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   }
 ]
