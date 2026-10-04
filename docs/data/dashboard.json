@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1310,
+    "n_rows": 1315,
     "counts": {
-      "total": 1310,
-      "active": 1111,
+      "total": 1315,
+      "active": 1116,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 174,
       "exclude": 18,
-      "documented": 1061,
-      "on_map": 1022
+      "documented": 1066,
+      "on_map": 1026
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 139,
         "prc": 125,
-        "allied": 127,
-        "n": 391
+        "allied": 129,
+        "n": 393
       },
       "usd": {
         "us": 8469730640.119999,
@@ -130,8 +130,8 @@
       "counts": {
         "us": 86,
         "prc": 70,
-        "allied": 132,
-        "n": 288
+        "allied": 134,
+        "n": 290
       },
       "usd": {
         "us": 27335323566.0,
@@ -153,10 +153,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 144,
+        "us": 145,
         "prc": 165,
         "allied": 121,
-        "n": 430
+        "n": 431
       },
       "usd": {
         "us": 14676460515.13,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 86,
         "prc": 82,
-        "allied": 122,
-        "n": 290
+        "allied": 123,
+        "n": 291
       },
       "usd": {
         "us": 2688206020.5499997,
@@ -389,7 +389,7 @@
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 54
+          "allied": 55
         }
       }
     },
@@ -432,8 +432,8 @@
       "counts": {
         "us": 22,
         "prc": 28,
-        "allied": 21,
-        "n": 71
+        "allied": 23,
+        "n": 73
       },
       "usd": {
         "us": 1528506908.27,
@@ -452,7 +452,7 @@
         "infrastructure": {
           "us": 3,
           "prc": 7,
-          "allied": 11
+          "allied": 13
         },
         "resources": {
           "us": 3,
@@ -980,8 +980,8 @@
       "counts": {
         "us": 19,
         "prc": 43,
-        "allied": 36,
-        "n": 98
+        "allied": 37,
+        "n": 99
       },
       "usd": {
         "us": 6097000000.0,
@@ -1005,7 +1005,7 @@
         "resources": {
           "us": 10,
           "prc": 16,
-          "allied": 13
+          "allied": 14
         }
       }
     },
@@ -1162,10 +1162,10 @@
     {
       "country": "Venezuela",
       "counts": {
-        "us": 1,
+        "us": 2,
         "prc": 1,
         "allied": 0,
-        "n": 2
+        "n": 3
       },
       "usd": {
         "us": 0.0,
@@ -1177,7 +1177,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 0,
+          "us": 1,
           "prc": 1,
           "allied": 0
         },
@@ -2299,7 +2299,12 @@
       "mopc_py15_fonplata_354m_2026",
       "itaipu_ponte_bioceanica_103m_2026",
       "isa_energia_rm_370m_brl_1t26",
-      "copel_capex_2026_plan_3021m_brl"
+      "copel_capex_2026_plan_3021m_brl",
+      "unacem_q2_2026_capex_3531m_pen",
+      "votorantim_brazil_plan_2p7bn_invested_2025",
+      "impsa_tocoma_macagua_672mw_2026",
+      "ani_bogota_belencito_284436m_cop_2026",
+      "ani_pacifico_ferro_280522m_cop_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
