@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1424,
+    "n_rows": 1427,
     "counts": {
-      "total": 1424,
-      "active": 1225,
+      "total": 1427,
+      "active": 1228,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 175,
+      "proxy": 176,
       "exclude": 18,
-      "documented": 1174,
-      "on_map": 1097
+      "documented": 1176,
+      "on_map": 1100
     }
   },
   "layer_readouts": [
@@ -111,8 +111,8 @@
         "n": 447
       },
       "usd": {
-        "us": 19487730640.12,
-        "us_n": 78,
+        "us": 23042730640.120003,
+        "us_n": 80,
         "prc": 15157964713.330002,
         "prc_n": 31,
         "allied": 18534623324.0,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 150,
-        "n": 307
+        "allied": 152,
+        "n": 309
       },
       "usd": {
         "us": 28076323566.0,
         "us_n": 41,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 78673458653.2,
-        "allied_n": 64
+        "allied": 81193458653.2,
+        "allied_n": 66
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 148,
         "prc": 171,
-        "allied": 150,
-        "n": 469
+        "allied": 151,
+        "n": 470
       },
       "usd": {
         "us": 15541460515.13,
         "us_n": 42,
         "prc": 6785407871.900001,
         "prc_n": 32,
-        "allied": 20216684738.49,
-        "allied_n": 59
+        "allied": 20816684738.49,
+        "allied_n": 60
       },
       "matched_gaps": {
         "n": 1,
@@ -398,22 +398,22 @@
       "counts": {
         "us": 54,
         "prc": 42,
-        "allied": 82,
-        "n": 178
+        "allied": 85,
+        "n": 181
       },
       "usd": {
-        "us": 26822000000.0,
-        "us_n": 21,
+        "us": 29022000000.0,
+        "us_n": 22,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 39351062361.0,
-        "allied_n": 44
+        "allied": 42471062361.0,
+        "allied_n": 47
       },
       "by_layer": {
         "energy": {
           "us": 33,
           "prc": 33,
-          "allied": 28
+          "allied": 29
         },
         "infrastructure": {
           "us": 9,
@@ -423,7 +423,7 @@
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 38
+          "allied": 40
         }
       }
     },
@@ -984,8 +984,8 @@
         "n": 104
       },
       "usd": {
-        "us": 6097000000.0,
-        "us_n": 7,
+        "us": 7452000000.0,
+        "us_n": 8,
         "prc": 13270524416.0,
         "prc_n": 12,
         "allied": 20578316636.0,
@@ -2413,7 +2413,10 @@
       "casa_dos_ventos_us_pp_1p1bn_2026",
       "mcewen_los_azules_fs_3p17bn_2025",
       "cleantech_laguna_verde_pfs_748m_2026",
-      "portonave_cais_1p5bn_brl_2026"
+      "portonave_cais_1p5bn_brl_2026",
+      "codelco_enami_qb_10pct_520m_2024",
+      "antofagasta_pelambres_water_financing_2bn_2025",
+      "codelco_miga_climate_financing_600m_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

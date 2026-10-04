@@ -1,10 +1,10 @@
 {
   "id": "bechtel_los_pelambres_inco_2024",
-  "retrieved": "2026-10-01",
-  "source_id": "bechtel_los_pelambres_page",
-  "url": "https://www.bechtel.com/projects/los-pelambres-copper-mine/",
+  "retrieved": "2026-10-04",
+  "source_id": "antofagasta_hy2022_inco_capex",
+  "url": "https://www.antofagasta.co.uk/media/4399/antofagasta-hy-2022-results-announcement.pdf",
   "price_year": "2024",
   "evidence": "documented",
-  "quote": "In early 2019, Bechtel began construction of the INCO MLP project at Los Pelambres, which was inaugurated in March 2024. The project considered EPC direct hire for a concentrator plant expansion, a desalinated water plant and a water pipeline.",
-  "note": "Opened Bechtel Los Pelambres project page."
+  "quote": "A detailed review of the project schedule and costs was completed in Q1 2022 resulting in the capital cost estimate for Phase 1 being increased to $2.2 billion (from $1.7 billion).",
+  "note": "Opened Antofagasta HY2022 PDF 2026-10-04; Phase 1 capital cost estimate increased to $2.2 billion (from $1.7 billion) confirmed. CapEx-fill on prior Bechtel presence row."
 }

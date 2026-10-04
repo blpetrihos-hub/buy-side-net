@@ -1026,24 +1026,6 @@
     ]
   },
   {
-    "id": "bechtel_los_pelambres_page",
-    "type": "official",
-    "chicago": "Bechtel. “Los Pelambres Copper Mine.” Company project page. Accessed 1 October 2026.",
-    "url": "https://www.bechtel.com/projects/los-pelambres-copper-mine/",
-    "annotation": "Company primary project description of INCO MLP EPC. Supports bechtel_los_pelambres_inco_2024.",
-    "supports": [
-      "bechtel_los_pelambres_inco_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "bechtel_los_pelambres_inco_2024",
-      "hunt_infra_engineering_epc"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "acciona_collahuasi_desal_20220802",
     "type": "official",
     "chicago": "ACCIONA. “ACCIONA to build and operate Chilean desalination plant for mining firm Doña Ines de Collahuasi.” 2 August 2022.",
@@ -1508,24 +1490,6 @@
     "map_supports": [
       "hunt_infra_port_cranes",
       "zpmc_santos_brasil_sts_rtg_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "fluor_toromocho_expansion_page",
-    "type": "official",
-    "chicago": "Fluor Corporation. “Toromocho Expansion Project — Fluor EPCM Project in Peru.” Company project page. Accessed 1 October 2026.",
-    "url": "https://www.fluor.com/projects/toromocho-expansion-project",
-    "annotation": "Company primary Toromocho Expansion EPCm project description. Supports fluor_toromocho_expansion_peru.",
-    "supports": [
-      "fluor_toromocho_expansion_peru",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "fluor_toromocho_expansion_peru",
-      "hunt_infra_engineering_epc"
     ],
     "layers": [
       "infrastructure"
@@ -20795,23 +20759,6 @@
     ]
   },
   {
-    "id": "statkraft_gran_sul_20260708",
-    "type": "company",
-    "chicago": "Statkraft AS. “Statkraft to invest in 280 MW wind project in Brazil.” July 8, 2026. https://www.globenewswire.com/news-release/2026/07/08/3323837/0/en/Statkraft-to-invest-in-280-MW-wind-project-in-Brazil.html.",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323837/0/en/Statkraft-to-invest-in-280-MW-wind-project-in-Brazil.html",
-    "annotation": "Statkraft Gran Sul 280 MW FID; CapEx blank. Supports statkraft_gran_sul_280mw_2026.",
-    "supports": [
-      "statkraft_gran_sul_280mw_2026",
-      "hunt_cycle205"
-    ],
-    "map_supports": [
-      "statkraft_gran_sul_280mw_2026"
-    ],
-    "layers": [
-      "energy"
-    ]
-  },
-  {
     "id": "konecranes_axia_hydro_20260715",
     "type": "company",
     "chicago": "Konecranes. “Konecranes to modernize cranes at two AXIA Energia hydropower plants in Brazil.” July 15, 2026. https://investors.konecranes.com/press/konecranes-modernize-cranes-two-axia-energia-hydropower-plants-brazil-2469123.",
@@ -21098,6 +21045,108 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "codelco_enami_qb_20241218",
+    "type": "company",
+    "chicago": "Codelco. “Codelco y ENAMI culminan proceso de compraventa del 10% de la Compañía Minera Teck Quebrada Blanca.” December 18, 2024. https://www.codelco.com/codelco-y-enami-culminan-proceso-de-compraventa-del-10-de-la-compania.",
+    "url": "https://www.codelco.com/codelco-y-enami-culminan-proceso-de-compraventa-del-10-de-la-compania",
+    "annotation": "Codelco–ENAMI Quebrada Blanca 10% USD 520m. Supports codelco_enami_qb_10pct_520m_2024.",
+    "supports": [
+      "codelco_enami_qb_10pct_520m_2024",
+      "hunt_cycle211"
+    ],
+    "map_supports": [
+      "codelco_enami_qb_10pct_520m_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "antofagasta_fy24_results_pres_20250218",
+    "type": "company",
+    "chicago": "Antofagasta plc. “Focused on copper” FY2024 Results Presentation. February 18, 2025. https://www.antofagasta.co.uk/media/4748/20250218_anto-fy24-results-presentation-feb25-vf-low-res.pdf.",
+    "url": "https://www.antofagasta.co.uk/media/4748/20250218_anto-fy24-results-presentation-feb25-vf-low-res.pdf",
+    "annotation": "Antofagasta Los Pelambres water infrastructure financing USD 2bn. Supports antofagasta_pelambres_water_financing_2bn_2025.",
+    "supports": [
+      "antofagasta_pelambres_water_financing_2bn_2025",
+      "hunt_cycle211"
+    ],
+    "map_supports": [
+      "antofagasta_pelambres_water_financing_2bn_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "antofagasta_hy2022_inco_capex",
+    "type": "company",
+    "chicago": "Antofagasta plc. “Half Year Results for the Six Months Ended 30 June 2022.” August 17, 2022. https://www.antofagasta.co.uk/media/4399/antofagasta-hy-2022-results-announcement.pdf.",
+    "url": "https://www.antofagasta.co.uk/media/4399/antofagasta-hy-2022-results-announcement.pdf",
+    "annotation": "Los Pelambres INCO Phase 1 CapEx USD 2.2bn. Supports bechtel_los_pelambres_inco_2024 CapEx-fill.",
+    "supports": [
+      "bechtel_los_pelambres_inco_2024",
+      "hunt_cycle211"
+    ],
+    "map_supports": [
+      "bechtel_los_pelambres_inco_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "minem_toromocho_ampliacion_1355m",
+    "type": "government",
+    "chicago": "Ministerio de Energía y Minas (Perú). “MINEM: Ampliación del proyecto minero Toromocho ingresa a su etapa final.” https://www.gob.pe/institucion/minem/noticias/759704-minem-ampliacion-del-proyecto-minero-toromocho-ingresa-a-su-etapa-final.",
+    "url": "https://www.gob.pe/institucion/minem/noticias/759704-minem-ampliacion-del-proyecto-minero-toromocho-ingresa-a-su-etapa-final",
+    "annotation": "Toromocho expansion CapEx USD 1.355bn. Supports fluor_toromocho_expansion_peru CapEx-fill.",
+    "supports": [
+      "fluor_toromocho_expansion_peru",
+      "hunt_cycle211"
+    ],
+    "map_supports": [
+      "fluor_toromocho_expansion_peru"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "gauchazh_statkraft_gran_sul_15bn_20260723",
+    "type": "press",
+    "chicago": "Cosme, Laura. “Santa Vitória do Palmar terá novo parque eólico com investimento de R$ 1,5 bilhão.” GaúchaZH, July 23, 2026. https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html.",
+    "url": "https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html",
+    "annotation": "Statkraft Gran Sul CapEx-fill R$1.5bn (press). Supports statkraft_gran_sul_280mw_2026.",
+    "supports": [
+      "statkraft_gran_sul_280mw_2026",
+      "hunt_cycle211"
+    ],
+    "map_supports": [
+      "statkraft_gran_sul_280mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "codelco_miga_climate_600m_20251231",
+    "type": "company",
+    "chicago": "Codelco. “Codelco completa su programa de financiamiento climático asegurando nuevo crédito por US$ 600 millones.” December 31, 2025. https://www.codelco.com/codelco-completa-su-programa-de-financiamiento-climatico-asegurando.",
+    "url": "https://www.codelco.com/codelco-completa-su-programa-de-financiamiento-climatico-asegurando",
+    "annotation": "Codelco MIGA climate financing USD 600m. Supports codelco_miga_climate_financing_600m_2025.",
+    "supports": [
+      "codelco_miga_climate_financing_600m_2025",
+      "hunt_cycle211"
+    ],
+    "map_supports": [
+      "codelco_miga_climate_financing_600m_2025"
+    ],
+    "layers": [
+      "energy"
     ]
   }
 ]
