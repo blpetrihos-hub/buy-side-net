@@ -11544,3 +11544,19 @@
   - siemens_efe_etcs_chile_2025
   - hunt_cycle212
   - indra_efe_comms_chile_2025
+- id: schwager_chuqui_adjudicacion_202605
+  type: company
+  chicago: Schwager S.A. “Consorcio Schwager-Incimmet se adjudica contrato por más de $104 mil millones con Codelco para desarrollos verticales en Chuquicamata.” May 2026. https://www.schwager.cl/consorcio-schwager-incimmet-se-adjudica-contrato-por-mas-de-104-mil-millones-con-codelco-para-desarrollos-verticales-en-chuquicamata/.
+  url: https://www.schwager.cl/consorcio-schwager-incimmet-se-adjudica-contrato-por-mas-de-104-mil-millones-con-codelco-para-desarrollos-verticales-en-chuquicamata/
+  annotation: Schwager–Incimmet Chuquicamata EPC CLP 104.258bn. Supports schwager_incimmet_chuqui_104bn_clp_2026.
+  supports:
+  - schwager_incimmet_chuqui_104bn_clp_2026
+  - hunt_cycle213
+- id: diario_comercio_graphcoa_jordania_700m
+  type: press
+  chicago: Diário do Comércio. “Graphcoa deve investir R$ 700 mi em planta de grafite em Minas.” https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/.
+  url: https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/
+  annotation: Graphcoa Jordânia CapEx-fill ~R$700m (press). Supports graphcoa_jordania_dfs_capex_2026.
+  supports:
+  - graphcoa_jordania_dfs_capex_2026
+  - hunt_cycle213
