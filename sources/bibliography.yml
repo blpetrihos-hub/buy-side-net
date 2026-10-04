@@ -12097,3 +12097,48 @@
   supports:
   - copel_capex_2026_plan_3021m_brl
   - hunt_cycle187
+- id: unacem_q2_2026_results_20260819
+  type: company
+  chicago: Grupo UNACEM. “Grupo UNACEM’s net income grew 65.5% in the second quarter, reaching S/175.4
+    million.” August 19, 2026. https://grupounacem.com/en/noticias/grupo-unacems-net-income-grew-65-5-in-the-second-quarter-reaching-s-175-4-million/.
+  url: https://grupounacem.com/en/noticias/grupo-unacems-net-income-grew-65-5-in-the-second-quarter-reaching-s-175-4-million/
+  annotation: 'UNACEM: 2Q26 CapEx PEN 353.1m. Supports unacem_q2_2026_capex_3531m_pen.'
+  supports:
+  - unacem_q2_2026_capex_3531m_pen
+  - hunt_cycle188
+- id: votorantim_fy2025_results_20260318
+  type: company
+  chicago: Votorantim Cimentos. “Our 2025 financial results.” March 18, 2026. https://www.votorantimcimentos.com/news/our-2025-financial-results/.
+  url: https://www.votorantimcimentos.com/news/our-2025-financial-results/
+  annotation: 'Votorantim: Brazil plan R$2.7bn invested of R$5bn. Supports votorantim_brazil_plan_2p7bn_invested_2025.'
+  supports:
+  - votorantim_brazil_plan_2p7bn_invested_2025
+  - hunt_cycle188
+- id: impsa_tocoma_macagua_20260812
+  type: company
+  chicago: IMPSA. “IMPSA reactivates the Tocoma and Macagua projects.” August 13, 2026. https://www.impsa.com/en/impsa-restarts-the-tocoma-and-macagua-projects/.
+  url: https://www.impsa.com/en/impsa-restarts-the-tocoma-and-macagua-projects/
+  annotation: 'IMPSA: Tocoma/Macagua phase-1 672 MW; CapEx blank. Supports impsa_tocoma_macagua_672mw_2026.'
+  supports:
+  - impsa_tocoma_macagua_672mw_2026
+  - hunt_cycle188
+- id: ani_bogota_belencito_20260721
+  type: government
+  chicago: Agencia Nacional de Infraestructura (ANI). “ANI adjudicó proyectos de obras públicas en los
+    corredores férreos Bogotá-Belencito y Pacífico con una inversión de $564.958 millones.” July 21, 2026.
+    https://wwwold.ani.gov.co/ani-adjudico-proyectos-de-obras-publicas-en-los-corredores-ferreos-bogota-belencito-y-pacifico-con.
+  url: https://wwwold.ani.gov.co/ani-adjudico-proyectos-de-obras-publicas-en-los-corredores-ferreos-bogota-belencito-y-pacifico-con
+  annotation: 'ANI: Bogotá–Belencito COP 284,436m. Supports ani_bogota_belencito_284436m_cop_2026.'
+  supports:
+  - ani_bogota_belencito_284436m_cop_2026
+  - hunt_cycle188
+- id: ani_pacifico_ferro_20260721
+  type: government
+  chicago: Agencia Nacional de Infraestructura (ANI). “ANI adjudicó proyectos de obras públicas en los
+    corredores férreos Bogotá-Belencito y Pacífico con una inversión de $564.958 millones.” July 21, 2026.
+    https://wwwold.ani.gov.co/ani-adjudico-proyectos-de-obras-publicas-en-los-corredores-ferreos-bogota-belencito-y-pacifico-con.
+  url: https://wwwold.ani.gov.co/ani-adjudico-proyectos-de-obras-publicas-en-los-corredores-ferreos-bogota-belencito-y-pacifico-con
+  annotation: 'ANI: Pacífico ferro COP 280,522m. Supports ani_pacifico_ferro_280522m_cop_2026.'
+  supports:
+  - ani_pacifico_ferro_280522m_cop_2026
+  - hunt_cycle188
