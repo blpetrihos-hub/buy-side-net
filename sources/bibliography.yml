@@ -3272,12 +3272,13 @@
   - hunt_energy_fission_smr
 - id: the_mining_sgq_araxa_3bn_20260916
   type: press
-  chicago: The Mining Brasil. “Projeto Araxá mantém quase R$ 3 bilhões em investimentos.” 16 September 2026.
+  chicago: The Mining Brasil. “Projeto Araxá mantém quase R$ 3 bilhões em investimentos.” September 16, 2026. https://themining.com.br/2026/09/16/projeto-araxa-mantem-quase-r-3-bilhoes-em-investimentos/.
   url: https://themining.com.br/2026/09/16/projeto-araxa-mantem-quase-r-3-bilhoes-em-investimentos/
-  annotation: PT mining press citing St George Brasil DG on ~R$3bn Araxá plan. Supports st_george_araxa_capex_brl3bn_2026 (UNVERIFIED).
+  annotation: St George Araxá CapEx-fill ~USD 577.80m via Fed H.10. Supports st_george_araxa_capex_brl3bn_2026.
   supports:
   - st_george_araxa_capex_brl3bn_2026
   - hunt_fenb_araxa
+  - hunt_cycle222
 - id: albemarle_dle_ted_capex_page
   type: company
   chicago: 'Albemarle Corporation. “Direct Lithium Extraction: Innovation with Purpose.” Albemarle Chile DLE project page. Accessed 1 October 2026.'
@@ -3305,12 +3306,13 @@
   - hunt_res_nickel
 - id: holcim_mx_geocycle_tecoman_20260804
   type: company
-  chicago: Holcim México. “Holcim México invierte cerca de 200 millones de pesos para acelerar la economía circular.” 4 August 2026.
+  chicago: Holcim México. “Holcim México invierte cerca de 200 millones de pesos para acelerar la economía circular.” August 4, 2026. https://www.holcim.com.mx/holcim-mexico-invierte-cerca-de-200-millones-de-pesos-para-acelerar-la-economia-circular.
   url: https://www.holcim.com.mx/holcim-mexico-invierte-cerca-de-200-millones-de-pesos-para-acelerar-la-economia-circular
-  annotation: Company Spanish release on Geocycle Tecomán ~MXN 200m biomass plant. Supports holcim_geocycle_tecoman_mxn200m_2026.
+  annotation: Holcim Geocycle Tecomán CapEx-fill ~USD 11.30m via Fed H.10. Supports holcim_geocycle_tecoman_mxn200m_2026.
   supports:
   - holcim_geocycle_tecoman_mxn200m_2026
   - hunt_infra_building_materials
+  - hunt_cycle222
 - id: apmt_lazaro_phase3_20260320
   type: company
   chicago: APM Terminals. “APM Terminals Lázaro Cárdenas inaugurates Phase II and announces investment for the next stage.” 20 March 2026.
@@ -3572,13 +3574,15 @@
   type: press
   chicago: Alera SCI. “Crecimiento estratégico y operación responsable.” March 18, 2026. https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/.
   url: https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/
-  annotation: SSA Isla de la Palma CapEx-fill ~USD 8.06m via Fed H.10. Supports ssa_lazaro_isla_palma_mxn143m_2025.
+  annotation: SSA TEA Polígono 5 CapEx ~USD 3.06m via Fed H.10. Supports ssa_lazaro_tea_poligono5_mxn54m_2025.
   supports:
   - ssa_lazaro_isla_palma_mxn143m_2025
   - ssa_manzanillo_sts_21m_2025
   - hunt_infra_port_ownership
   - hunt_infra_port_cranes
   - hunt_cycle221
+  - ssa_lazaro_tea_poligono5_mxn54m_2025
+  - hunt_cycle222
 - id: 3a_baltek_sbc_fsc_mix_20250515
   type: company
   chicago: 3A Composites Core Materials. “3A Composites Core Materials officially declares BALTEK® SBC products as FSC™ MIX certified on select markets.” 15 May 2025.
@@ -6346,13 +6350,14 @@
   - aes_dr_bess_138mw_94m_2025
   - hunt_energy_other_renewables
 - id: nadbank_san_quintin_proposal_20260512
-  type: official
-  chicago: North American Development Bank. “Certification and Financing Proposal — Desalination Plant in San Quintín, Baja California.” Published 12 May 2026.
+  type: government
+  chicago: North American Development Bank. “Certification and Financing Proposal — Desalination Plant in San Quintín, Baja California.” May 12, 2026. https://nadbank.org/hubfs/proposals-open-for-public-comment/Planta%20Desaladora%20en%20San%20Quintin%20(Eng)_published.pdf?hsLang=en.
   url: https://nadbank.org/hubfs/proposals-open-for-public-comment/Planta%20Desaladora%20en%20San%20Quintin%20(Eng)_published.pdf?hsLang=en
-  annotation: Proposed NADBank loan up to MXN 665m for 250 lps San Quintín desal (Desaladora Kenton). Supports nadbank_san_quintin_desal_665m_mxn_2026.
+  annotation: NADBank San Quintín CapEx-fill ~USD 37.59m via Fed H.10. Supports nadbank_san_quintin_desal_665m_mxn_2026.
   supports:
   - nadbank_san_quintin_desal_665m_mxn_2026
   - hunt_res_water
+  - hunt_cycle222
 - id: gs_inima_espirito_santo_20251009
   type: company
   chicago: GS Inima. “GS Inima Has Signed the Contract for the Integrated Sanitation Service in the Brazilian State of Espírito Santo.” 9 October 2025.
@@ -10948,10 +10953,11 @@
   type: company
   chicago: Portonave. “Portonave amplia frota de pátio com sete novos guindastes elétricos.” July 8, 2026. https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos.
   url: https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos
-  annotation: 'Portonave: 14 e-RTG CapEx ~R$210m. Supports portonave_ertg_210m_brl_2026.'
+  annotation: Portonave e-RTG CapEx-fill ~USD 40.45m via Fed H.10. Supports portonave_ertg_210m_brl_2026.
   supports:
   - portonave_ertg_210m_brl_2026
   - hunt_cycle195
+  - hunt_cycle222
 - id: codelco_resultados_2025_20260327
   type: company
   chicago: Codelco. “Codelco cerró 2025 con un Ebitda de US$ 6.670 millones, una utilidad consolidada de US$ 2.423 millones y un aporte al Fisco de US$ 1.778 millones.” March 27, 2026. https://www.codelco.com/prensa/2026/codelco-cerro-2025-con-un-ebitda-de-us-6-670-millones-una-utilidad.
@@ -10996,11 +11002,12 @@
   type: company
   chicago: CPFL Energia. “CPFL Energia registra EBITDA de R$ 13,5 bilhões em 2025 e investimento recorde de R$ 6,1 bilhões.” March 6, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61.
   url: https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61
-  annotation: 'CPFL: 2026–2030 CapEx plan R$31.1bn. Supports cpfl_capex_plan_31p1bn_2026_2030.'
+  annotation: CPFL FY2025 CapEx-fill ~USD 1174.86m via Fed H.10. Supports cpfl_fy2025_capex_6p1bn_brl.
   supports:
   - cpfl_fy2025_capex_6p1bn_brl
   - hunt_cycle196
   - cpfl_capex_plan_31p1bn_2026_2030
+  - hunt_cycle222
 - id: microsoft_brazil_14p7bn_20240926
   type: company
   chicago: Microsoft. “Microsoft announces 14.7 billion Reais investment over three years in Cloud and AI infrastructure and provide AI training at scale to upskill 5 million people in Brazil.” September 26, 2024. https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/.
@@ -11090,10 +11097,11 @@
   type: company
   chicago: CTG Brasil. Relatório Anual 2025. https://www.ctgbr.com.br/relatorioanual2025/.
   url: https://www.ctgbr.com.br/relatorioanual2025/
-  annotation: 'CTG Brasil: H2V pilot ~R$60m. Supports ctg_brasil_h2v_pilot_60m_brl_2025.'
+  annotation: CTG Brasil H2V CapEx-fill ~USD 11.56m via Fed H.10. Supports ctg_brasil_h2v_pilot_60m_brl_2025.
   supports:
   - ctg_brasil_h2v_pilot_60m_brl_2025
   - hunt_cycle198
+  - hunt_cycle222
 - id: ascenty_growth_revenue_1bn_2026
   type: company
   chicago: Ascenty. “Ascenty Achieves Over 30% Growth in Enterprise Revenue in 2025 and Accelerates Expansion with a US$ 1 Billion Investment.” https://ascenty.com/en/blog/news-ascenty-en/ascenty-growth-revenue/.

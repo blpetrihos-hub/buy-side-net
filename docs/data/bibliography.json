@@ -5426,12 +5426,13 @@
   {
     "id": "the_mining_sgq_araxa_3bn_20260916",
     "type": "press",
-    "chicago": "The Mining Brasil. “Projeto Araxá mantém quase R$ 3 bilhões em investimentos.” 16 September 2026.",
+    "chicago": "The Mining Brasil. “Projeto Araxá mantém quase R$ 3 bilhões em investimentos.” September 16, 2026. https://themining.com.br/2026/09/16/projeto-araxa-mantem-quase-r-3-bilhoes-em-investimentos/.",
     "url": "https://themining.com.br/2026/09/16/projeto-araxa-mantem-quase-r-3-bilhoes-em-investimentos/",
-    "annotation": "PT mining press citing St George Brasil DG on ~R$3bn Araxá plan. Supports st_george_araxa_capex_brl3bn_2026 (UNVERIFIED).",
+    "annotation": "St George Araxá CapEx-fill ~USD 577.80m via Fed H.10. Supports st_george_araxa_capex_brl3bn_2026.",
     "supports": [
       "st_george_araxa_capex_brl3bn_2026",
-      "hunt_fenb_araxa"
+      "hunt_fenb_araxa",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "hunt_fenb_araxa",
@@ -5500,12 +5501,13 @@
   {
     "id": "holcim_mx_geocycle_tecoman_20260804",
     "type": "company",
-    "chicago": "Holcim México. “Holcim México invierte cerca de 200 millones de pesos para acelerar la economía circular.” 4 August 2026.",
+    "chicago": "Holcim México. “Holcim México invierte cerca de 200 millones de pesos para acelerar la economía circular.” August 4, 2026. https://www.holcim.com.mx/holcim-mexico-invierte-cerca-de-200-millones-de-pesos-para-acelerar-la-economia-circular.",
     "url": "https://www.holcim.com.mx/holcim-mexico-invierte-cerca-de-200-millones-de-pesos-para-acelerar-la-economia-circular",
-    "annotation": "Company Spanish release on Geocycle Tecomán ~MXN 200m biomass plant. Supports holcim_geocycle_tecoman_mxn200m_2026.",
+    "annotation": "Holcim Geocycle Tecomán CapEx-fill ~USD 11.30m via Fed H.10. Supports holcim_geocycle_tecoman_mxn200m_2026.",
     "supports": [
       "holcim_geocycle_tecoman_mxn200m_2026",
-      "hunt_infra_building_materials"
+      "hunt_infra_building_materials",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "holcim_geocycle_tecoman_mxn200m_2026",
@@ -6098,18 +6100,21 @@
     "type": "press",
     "chicago": "Alera SCI. “Crecimiento estratégico y operación responsable.” March 18, 2026. https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/.",
     "url": "https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/",
-    "annotation": "SSA Isla de la Palma CapEx-fill ~USD 8.06m via Fed H.10. Supports ssa_lazaro_isla_palma_mxn143m_2025.",
+    "annotation": "SSA TEA Polígono 5 CapEx ~USD 3.06m via Fed H.10. Supports ssa_lazaro_tea_poligono5_mxn54m_2025.",
     "supports": [
       "ssa_lazaro_isla_palma_mxn143m_2025",
       "ssa_manzanillo_sts_21m_2025",
       "hunt_infra_port_ownership",
       "hunt_infra_port_cranes",
-      "hunt_cycle221"
+      "hunt_cycle221",
+      "ssa_lazaro_tea_poligono5_mxn54m_2025",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "hunt_infra_port_cranes",
       "hunt_infra_port_ownership",
       "ssa_lazaro_isla_palma_mxn143m_2025",
+      "ssa_lazaro_tea_poligono5_mxn54m_2025",
       "ssa_manzanillo_sts_21m_2025"
     ],
     "layers": [
@@ -11660,13 +11665,14 @@
   },
   {
     "id": "nadbank_san_quintin_proposal_20260512",
-    "type": "official",
-    "chicago": "North American Development Bank. “Certification and Financing Proposal — Desalination Plant in San Quintín, Baja California.” Published 12 May 2026.",
+    "type": "government",
+    "chicago": "North American Development Bank. “Certification and Financing Proposal — Desalination Plant in San Quintín, Baja California.” May 12, 2026. https://nadbank.org/hubfs/proposals-open-for-public-comment/Planta%20Desaladora%20en%20San%20Quintin%20(Eng)_published.pdf?hsLang=en.",
     "url": "https://nadbank.org/hubfs/proposals-open-for-public-comment/Planta%20Desaladora%20en%20San%20Quintin%20(Eng)_published.pdf?hsLang=en",
-    "annotation": "Proposed NADBank loan up to MXN 665m for 250 lps San Quintín desal (Desaladora Kenton). Supports nadbank_san_quintin_desal_665m_mxn_2026.",
+    "annotation": "NADBank San Quintín CapEx-fill ~USD 37.59m via Fed H.10. Supports nadbank_san_quintin_desal_665m_mxn_2026.",
     "supports": [
       "nadbank_san_quintin_desal_665m_mxn_2026",
-      "hunt_res_water"
+      "hunt_res_water",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "hunt_res_water",
@@ -19848,10 +19854,11 @@
     "type": "company",
     "chicago": "Portonave. “Portonave amplia frota de pátio com sete novos guindastes elétricos.” July 8, 2026. https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos.",
     "url": "https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos",
-    "annotation": "Portonave: 14 e-RTG CapEx ~R$210m. Supports portonave_ertg_210m_brl_2026.",
+    "annotation": "Portonave e-RTG CapEx-fill ~USD 40.45m via Fed H.10. Supports portonave_ertg_210m_brl_2026.",
     "supports": [
       "portonave_ertg_210m_brl_2026",
-      "hunt_cycle195"
+      "hunt_cycle195",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "portonave_ertg_210m_brl_2026"
@@ -19950,11 +19957,12 @@
     "type": "company",
     "chicago": "CPFL Energia. “CPFL Energia registra EBITDA de R$ 13,5 bilhões em 2025 e investimento recorde de R$ 6,1 bilhões.” March 6, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61.",
     "url": "https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61",
-    "annotation": "CPFL: 2026–2030 CapEx plan R$31.1bn. Supports cpfl_capex_plan_31p1bn_2026_2030.",
+    "annotation": "CPFL FY2025 CapEx-fill ~USD 1174.86m via Fed H.10. Supports cpfl_fy2025_capex_6p1bn_brl.",
     "supports": [
       "cpfl_fy2025_capex_6p1bn_brl",
       "hunt_cycle196",
-      "cpfl_capex_plan_31p1bn_2026_2030"
+      "cpfl_capex_plan_31p1bn_2026_2030",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "cpfl_capex_plan_31p1bn_2026_2030",
@@ -20146,10 +20154,11 @@
     "type": "company",
     "chicago": "CTG Brasil. Relatório Anual 2025. https://www.ctgbr.com.br/relatorioanual2025/.",
     "url": "https://www.ctgbr.com.br/relatorioanual2025/",
-    "annotation": "CTG Brasil: H2V pilot ~R$60m. Supports ctg_brasil_h2v_pilot_60m_brl_2025.",
+    "annotation": "CTG Brasil H2V CapEx-fill ~USD 11.56m via Fed H.10. Supports ctg_brasil_h2v_pilot_60m_brl_2025.",
     "supports": [
       "ctg_brasil_h2v_pilot_60m_brl_2025",
-      "hunt_cycle198"
+      "hunt_cycle198",
+      "hunt_cycle222"
     ],
     "map_supports": [
       "ctg_brasil_h2v_pilot_60m_brl_2025"
