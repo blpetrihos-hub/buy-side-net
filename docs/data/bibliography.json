@@ -18847,5 +18847,73 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "axia_ie_madeira_unwind_20260731",
+    "type": "company",
+    "chicago": "AXIA Energia S.A. / AXIA Energia Nordeste S.A. “Material Fact — Unwinding of cross-holdings in transmission assets.” July 31, 2026. https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Material%20Fact%20-%20Unwinding%20of%20cross-holdings%20in%20transmission%20assets.pdf.",
+    "url": "https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Material%20Fact%20-%20Unwinding%20of%20cross-holdings%20in%20transmission%20assets.pdf",
+    "annotation": "AXIA: ISA acquires remaining 49% IE Madeira for net R$1.167bn. Supports isa_energia_ie_madeira_49pct_1167m_2026.",
+    "supports": [
+      "isa_energia_ie_madeira_49pct_1167m_2026",
+      "hunt_cycle183"
+    ],
+    "map_supports": [
+      "isa_energia_ie_madeira_49pct_1167m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "bnamericas_caf_dorada_chiriguana_20261001",
+    "type": "press",
+    "chicago": "BNamericas. “CAF approves US$200mn for the Colombian railway corridor La Dorada–Chiriguaná.” October 1, 2026 (reprint of CAF press release). https://www.bnamericas.com/en/news/caf-approves-us200mn-for-the-colombian-railway-corridor-la-doradachiriguana.",
+    "url": "https://www.bnamericas.com/en/news/caf-approves-us200mn-for-the-colombian-railway-corridor-la-doradachiriguana",
+    "annotation": "BNamericas/CAF press reprint: up to USD 200m Dorada–Chiriguaná rail loan. Supports caf_dorada_chiriguana_200m_2026.",
+    "supports": [
+      "caf_dorada_chiriguana_200m_2026",
+      "hunt_cycle183"
+    ],
+    "map_supports": [
+      "caf_dorada_chiriguana_200m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cuatrecasas_anillo_vial_190m_20260831",
+    "type": "company",
+    "chicago": "Cuatrecasas. “BBVA Perú, COFIDE, and MUFG Bank close USD 190 million financing deal for primary beltway.” August 31, 2026. https://www.cuatrecasas.com/en/global/art/bbva-peru-cofide-mufg-bank-close-usd-190-million-financing-deal-primary-beltway.",
+    "url": "https://www.cuatrecasas.com/en/global/art/bbva-peru-cofide-mufg-bank-close-usd-190-million-financing-deal-primary-beltway",
+    "annotation": "Cuatrecasas: USD 190m Anillo Vial Periférico land-acquisition financing. Supports anillo_vial_periferico_190m_2026.",
+    "supports": [
+      "anillo_vial_periferico_190m_2026",
+      "hunt_cycle183"
+    ],
+    "map_supports": [
+      "anillo_vial_periferico_190m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "estradas_rota_dos_sertoes_antt_20260929",
+    "type": "press",
+    "chicago": "Estradas. “ANTT assina concessão da Rota dos Sertões por 30 anos entre Bahia e Pernambuco.” September 30, 2026. https://estradas.com.br/antt-assina-concessao-da-rota-dos-sertoes-por-30-anos-entre-bahia-e-pernambuco/.",
+    "url": "https://estradas.com.br/antt-assina-concessao-da-rota-dos-sertoes-por-30-anos-entre-bahia-e-pernambuco/",
+    "annotation": "Estradas/ANTT: Rota dos Sertões ~R$4.3bn CapEx concession signing. Supports mota_engil_rota_dos_sertoes_43bn_2026.",
+    "supports": [
+      "mota_engil_rota_dos_sertoes_43bn_2026",
+      "hunt_cycle183"
+    ],
+    "map_supports": [
+      "mota_engil_rota_dos_sertoes_43bn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
