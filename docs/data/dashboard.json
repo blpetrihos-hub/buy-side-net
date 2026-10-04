@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1438,
+    "n_rows": 1440,
     "counts": {
-      "total": 1438,
-      "active": 1239,
+      "total": 1440,
+      "active": 1241,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 180,
       "exclude": 18,
-      "documented": 1183,
-      "on_map": 1111
+      "documented": 1185,
+      "on_map": 1113
     }
   },
   "layer_readouts": [
@@ -107,12 +107,12 @@
       "counts": {
         "us": 161,
         "prc": 126,
-        "allied": 164,
-        "n": 451
+        "allied": 165,
+        "n": 452
       },
       "usd": {
-        "us": 23042730640.120003,
-        "us_n": 80,
+        "us": 23235330936.720005,
+        "us_n": 81,
         "prc": 15157964713.330002,
         "prc_n": 31,
         "allied": 18726813324.0,
@@ -154,9 +154,9 @@
       "layer": "energy",
       "counts": {
         "us": 148,
-        "prc": 171,
+        "prc": 172,
         "allied": 155,
-        "n": 474
+        "n": 475
       },
       "usd": {
         "us": 15772580871.06,
@@ -368,8 +368,8 @@
         "n": 347
       },
       "usd": {
-        "us": 6298326376.48,
-        "us_n": 22,
+        "us": 6490926673.08,
+        "us_n": 23,
         "prc": 4709751941.95,
         "prc_n": 18,
         "allied": 16355624708.93,
@@ -397,9 +397,9 @@
       "country": "Chile",
       "counts": {
         "us": 54,
-        "prc": 42,
+        "prc": 43,
         "allied": 90,
-        "n": 186
+        "n": 187
       },
       "usd": {
         "us": 29022000000.0,
@@ -412,7 +412,7 @@
       "by_layer": {
         "energy": {
           "us": 33,
-          "prc": 33,
+          "prc": 34,
           "allied": 30
         },
         "infrastructure": {
@@ -844,8 +844,8 @@
       "counts": {
         "us": 49,
         "prc": 19,
-        "allied": 37,
-        "n": 105
+        "allied": 38,
+        "n": 106
       },
       "usd": {
         "us": 4696456686.74,
@@ -864,7 +864,7 @@
         "infrastructure": {
           "us": 25,
           "prc": 12,
-          "allied": 22
+          "allied": 23
         },
         "resources": {
           "us": 13,
@@ -2427,7 +2427,9 @@
       "codelco_fy2026_capex_3289m",
       "enami_nueva_paipote_1700m_2025",
       "siemens_energy_seatrium_p84_p85_2bn_2025",
-      "dpworld_callao_shore_power_3p69m_2026"
+      "dpworld_callao_shore_power_3p69m_2026",
+      "sungrow_bhp_escondida_spence_solar_bess_2026",
+      "timsa_mhc_esp10_manzanillo_300m_mxn_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
