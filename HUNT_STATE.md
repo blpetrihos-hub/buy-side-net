@@ -92,6 +92,10 @@ thin_topup:
   - energy/fission_smr
   rows_found: 0
 
+# === Cycle 195 (seed 20261195) — prior ===
+# Logged 8 sourced rows (3 US / 1 PRC / 3 allied / 1 other). Active after:
+# us386 / prc363 / allied346 / other67 (n=1162). Thin balsa/nickel/fission_smr dry.
+
 # === Cycle 194 (seed 20261194) ===
 # Shuffled order (BRIEF.md numbered + Random(20261194).shuffle): engineering_epc,
 #   fission_smr, lithium, copper, graphite, wind, balsa, power_plants_grid, port_cranes,
