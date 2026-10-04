@@ -20897,5 +20897,56 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "glenfarne_metlen_chile_20251223",
+    "type": "company",
+    "chicago": "Glenfarne Group. “Glenfarne Completes Acquisition of Integrated Utility-Scale Solar and Battery Assets in Chile From Metlen.” December 23, 2025. https://glenfarnegroup.com/glenfarne-completes-acquisition-of-integrated-utility-scale-solar-and-battery-assets-in-chile-from-metlen/.",
+    "url": "https://glenfarnegroup.com/glenfarne-completes-acquisition-of-integrated-utility-scale-solar-and-battery-assets-in-chile-from-metlen/",
+    "annotation": "Glenfarne–METLEN Chile 909 MW solar+BESS acquisition USD 865m. Supports glenfarne_metlen_chile_solar_865m_2025.",
+    "supports": [
+      "glenfarne_metlen_chile_solar_865m_2025",
+      "hunt_cycle207"
+    ],
+    "map_supports": [
+      "glenfarne_metlen_chile_solar_865m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "artesp_tic_trens_concession",
+    "type": "government",
+    "chicago": "ARTESP (Agência de Transporte do Estado de São Paulo). “TIC Trens.” Concession registry page. https://www.artesp.sp.gov.br/artesp/setor-regulado/metroferroviario/tic-trens.",
+    "url": "https://www.artesp.sp.gov.br/artesp/setor-regulado/metroferroviario/tic-trens",
+    "annotation": "TIC Trens CRRC/Comporte SP–Campinas concession CapEx R$13.48bn. Supports crrc_tic_trens_eixo_norte_13p48bn_2024.",
+    "supports": [
+      "crrc_tic_trens_eixo_norte_13p48bn_2024",
+      "hunt_cycle207"
+    ],
+    "map_supports": [
+      "crrc_tic_trens_eixo_norte_13p48bn_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "siemens_energy_fpso_p81_p87_20260810",
+    "type": "company",
+    "chicago": "Siemens Energy. “Siemens Energy advances offshore expansion in Brazil with supply for Petrobras platforms.” August 10, 2026. https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-advances-offshore-expansion-in-brazil-with-supply.html.",
+    "url": "https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-advances-offshore-expansion-in-brazil-with-supply.html",
+    "annotation": "Siemens Energy Petrobras FPSO P-81/P-87 skids; CapEx blank. Supports siemens_energy_petrobras_fpso_p81_p87_2026.",
+    "supports": [
+      "siemens_energy_petrobras_fpso_p81_p87_2026",
+      "hunt_cycle207"
+    ],
+    "map_supports": [
+      "siemens_energy_petrobras_fpso_p81_p87_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
