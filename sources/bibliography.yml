@@ -3939,12 +3939,13 @@
   - hunt_res_lithium
 - id: diario_comercio_boston_metal_20250406
   type: press
-  chicago: Diário do Comércio. “Boston Metal vai investir R$ 1 bilhão até 2026 na planta de Coronel Xavier Chaves.” 6 April 2025.
+  chicago: Diário do Comércio. “Boston Metal vai investir R$ 1 bilhão até 2026 na planta de Coronel Xavier Chaves.” April 6, 2025. https://diariodocomercio.com.br/economia/boston-metal-inicia-producao-escala-industrial-minas-gerais/.
   url: https://diariodocomercio.com.br/economia/boston-metal-inicia-producao-escala-industrial-minas-gerais/
-  annotation: UNVERIFIED press on Boston Metal do Brasil Coronel Xavier Chaves MOE plant CapEx/capacity. Supports boston_metal_coronel_xavier_plant_2025.
+  annotation: Boston Metal Coronel Xavier CapEx-fill ~USD 192.60m via Fed H.10. Supports boston_metal_coronel_xavier_plant_2025.
   supports:
   - boston_metal_coronel_xavier_plant_2025
   - hunt_fenb_araxa
+  - hunt_cycle217
 - id: powerchina_francisco_juana_20260924
   type: company
   chicago: POWERCHINA. “POWERCHINA completes Francisco Juana PV Project in Colombia.” 24 September 2026.
@@ -4811,12 +4812,13 @@
   - hunt_br_power_equip
 - id: wabtec_vale_ptc_2026
   type: company
-  chicago: Wabtec Corporation. “Vale and Wabtec Sign Agreement to Enhance Operational Safety on the EFC and EFVM Railways with Advanced Railway Signaling Technology.” Press release, 2026.
+  chicago: Wabtec Corporation. “Vale and Wabtec Sign Agreement to Enhance Operational Safety on the EFC and EFVM Railways with Advanced Railway Signaling Technology.” 2026. https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-agreement-to-enhance-operational-safety-on-the-efc-and-efvm-railways-with-advanced-railway.
   url: https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-agreement-to-enhance-operational-safety-on-the-efc-and-efvm-railways-with-advanced-railway
-  annotation: Wabtec I-ETMS PTC for Vale EFC/EFVM (~BRL 1bn). Supports wabtec_vale_ptc_brl1bn_2026.
+  annotation: Wabtec Vale PTC CapEx-fill ~USD 192.60m via Fed H.10. Supports wabtec_vale_ptc_brl1bn_2026.
   supports:
   - wabtec_vale_ptc_brl1bn_2026
   - hunt_latam_rail_telecom
+  - hunt_cycle217
 - id: semarnat_gaceta_0040_26_quemado
   type: government
   chicago: Secretaría de Medio Ambiente y Recursos Naturales (Mexico). “Gaceta Ecológica — Proyectos en evaluación de impacto ambiental.” Gaceta 0040-26, August 2026.
@@ -11642,3 +11644,19 @@
   supports:
   - ge_vernova_sao_simao_ug3_2026
   - hunt_cycle216
+- id: immining_bhp_sungrow_escondida_spence_20260601
+  type: press
+  chicago: International Mining. “BHP advances renewable power supply and storage at Escondida & Spence.” June 1, 2026. https://im-mining.com/2026/06/01/bhp-advances-renewable-power-supply-and-storage-at-escondida-spence/.
+  url: https://im-mining.com/2026/06/01/bhp-advances-renewable-power-supply-and-storage-at-escondida-spence/
+  annotation: BHP–Sungrow Escondida/Spence 195 MW solar + 960 MWh BESS. Supports sungrow_bhp_escondida_spence_solar_bess_2026.
+  supports:
+  - sungrow_bhp_escondida_spence_solar_bess_2026
+  - hunt_cycle217
+- id: cluster_timsa_mhc_esp10_20260428
+  type: press
+  chicago: Cluster Industrial. “Hutchison Ports TIMSA invierte 300 MDP en grúas eléctricas para elevar capacidad en Manzanillo.” April 28, 2026. https://clusterindustrial.com.mx/hutchison-ports-timsa-invierte-300-mdp-en-gruas-electricas-para-elevar-capacidad-en-manzanillo/.
+  url: https://clusterindustrial.com.mx/hutchison-ports-timsa-invierte-300-mdp-en-gruas-electricas-para-elevar-capacidad-en-manzanillo/
+  annotation: TIMSA Manzanillo ESP.10 MHC >MXN 300m. Supports timsa_mhc_esp10_manzanillo_300m_mxn_2026.
+  supports:
+  - timsa_mhc_esp10_manzanillo_300m_mxn_2026
+  - hunt_cycle217

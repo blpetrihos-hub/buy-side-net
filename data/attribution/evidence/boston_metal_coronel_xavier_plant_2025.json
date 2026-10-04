@@ -1,10 +1,10 @@
 {
   "id": "boston_metal_coronel_xavier_plant_2025",
-  "retrieved": "2026-10-01",
+  "retrieved": "2026-10-04",
   "source_id": "diario_comercio_boston_metal_20250406",
   "url": "https://diariodocomercio.com.br/economia/boston-metal-inicia-producao-escala-industrial-minas-gerais/",
   "price_year": "2025",
   "evidence": "proxy",
-  "quote": "A Boston Metal do Brasil irá iniciar no próximo mês a produção em escala industrial na unidade em Coronel Xavier Chaves, município próximo de São João del-Rei, no Campo das Vertentes. Com investimentos de R$ 1 bilhão até 2026, o espaço vai abrigar o primeiro hub de metais estratégicos do mundo produzidos a partir da tecnologia de Eletrólise de Óxido Fundido (MOE). A unidade terá capacidade para produzir 12 mil toneladas anuais de produtos à base de tântalo, nióbio e estanho",
-  "note": "Opened Diário do Comércio Boston Metal Coronel Xavier Chaves plant article; CapEx UNVERIFIED proxy."
+  "quote": "A Boston Metal do Brasil irá iniciar no próximo mês a produção em escala industrial na unidade em Coronel Xavier Chaves, município próximo de São João del-Rei, no Campo das Vertentes. Com investimentos de R$ 1 bilhão até 2026, o espaço vai abrigar o primeiro hub de metais estratégicos do mundo produzidos a partir da tecnologia de Eletrólise de Óxido Fundido (MOE).",
+  "note": "Opened Diário do Comércio; R$1bn through 2026 / Coronel Xavier Chaves / Nb-Ta-Sn MOE / 12 ktpy confirmed (UNVERIFIED proxy CapEx). CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
