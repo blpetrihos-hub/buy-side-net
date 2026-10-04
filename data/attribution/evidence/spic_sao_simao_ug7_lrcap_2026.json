@@ -1,10 +1,10 @@
 {
   "id": "spic_sao_simao_ug7_lrcap_2026",
-  "retrieved": "2026-10-02",
-  "source_id": "correio_spic_dongfang_cggc_ug7_20260910",
-  "url": "https://correiosantavitoria.com.br/2026/09/10/spic-brasil-assina-contrato-com-consorcio-dongfang-e-cggc-para-expansao-da-hidreletrica-sao-simao/",
+  "retrieved": "2026-10-04",
+  "source_id": "spic_brasil_sao_simao_ug7_20260319",
+  "url": "https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/",
   "price_year": "2026",
-  "evidence": "proxy",
-  "quote": "A SPIC Brasil vai investir R$ 1,4 bilhão na expansão da Usina Hidrelétrica (UHE) São Simão, um avanço estratégico que adicionará 310 megawatts (MW) de energia limpa e firme ao Sistema Interligado Nacional (SIN).",
-  "note": "Opened Correio Santa Vitória 10 Sep 2026 summarizing SPIC Brasil UG7 contract signing; CapEx R$1.4bn UNVERIFIED press paraphrase of company info. Distinct from GE Vernova six-unit modernization."
+  "evidence": "documented",
+  "quote": "O projeto representa um investimento de mais de R$ 1 bilhão e reforça o papel estratégico da fonte hidrelétrica para a segurança elétrica, modicidade tarifária, sustentabilidade ambiental e resiliência do Sistema Interligado Nacional (SIN). … O contrato de reserva de capacidade é de 15 anos, com início de suprimento previsto para 2030.",
+  "note": "Opened SPIC Brasil Portuguese primary 2026-10-04; >R$1bn CapEx floor confirmed (upgrade from press proxy)."
 }

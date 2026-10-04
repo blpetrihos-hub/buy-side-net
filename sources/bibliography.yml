@@ -10571,10 +10571,12 @@
   type: company
   chicago: Votorantim Cimentos. “Our 2025 financial results.” March 18, 2026. https://www.votorantimcimentos.com/news/our-2025-financial-results/.
   url: https://www.votorantimcimentos.com/news/our-2025-financial-results/
-  annotation: 'Votorantim: Brazil plan R$2.7bn invested of R$5bn. Supports votorantim_brazil_plan_2p7bn_invested_2025.'
+  annotation: 'Votorantim: FY2025 CapEx R$3.7bn. Supports votorantim_fy2025_capex_3p7bn_brl.'
   supports:
   - votorantim_brazil_plan_2p7bn_invested_2025
   - hunt_cycle188
+  - votorantim_fy2025_capex_3p7bn_brl
+  - hunt_cycle197
 - id: impsa_tocoma_macagua_20260812
   type: company
   chicago: IMPSA. “IMPSA reactivates the Tocoma and Macagua projects.” August 13, 2026. https://www.impsa.com/en/impsa-restarts-the-tocoma-and-macagua-projects/.
@@ -10973,3 +10975,51 @@
   - cpfl_fy2025_capex_6p1bn_brl
   - hunt_cycle196
   - cpfl_capex_plan_31p1bn_2026_2030
+- id: microsoft_brazil_14p7bn_20240926
+  type: company
+  chicago: Microsoft. “Microsoft announces 14.7 billion Reais investment over three years in Cloud and AI infrastructure and provide AI training at scale to upskill 5 million people in Brazil.” Microsoft News Center Brasil, September 26, 2024. https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/.
+  url: https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/
+  annotation: 'Microsoft: Brazil cloud/AI CapEx R$14.7bn over 3 years. Supports microsoft_brazil_cloud_ai_14p7bn_brl_2024.'
+  supports:
+  - microsoft_brazil_cloud_ai_14p7bn_brl_2024
+  - hunt_cycle197
+- id: google_canelones_dc_20240829
+  type: company
+  chicago: López, Eduardo. “A new data center in Latin America.” Google Blog, August 29, 2024. https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/a-new-data-center-in-latin-america/.
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/a-new-data-center-in-latin-america/
+  annotation: 'Google: Canelones Uruguay DC >USD 850m. Supports google_uruguay_canelones_850m_2024.'
+  supports:
+  - google_uruguay_canelones_850m_2024
+  - hunt_cycle197
+- id: antofagasta_fy2025_results_20260217
+  type: company
+  chicago: Antofagasta plc. “2025 Full Year Results.” February 17, 2026. https://www.antofagasta.co.uk/investors/news/2026/2025-full-year-results/.
+  url: https://www.antofagasta.co.uk/investors/news/2026/2025-full-year-results/
+  annotation: 'Antofagasta: FY2025 Group CapEx USD 3.7bn. Supports antofagasta_fy2025_capex_3p7bn.'
+  supports:
+  - antofagasta_fy2025_capex_3p7bn
+  - hunt_cycle197
+- id: engie_brasil_fy2025_results_20260225
+  type: company
+  chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia grows 14.6% in revenue and invests R$ 6 billion in 2025.” February 25, 2026. https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-energia-grows-14-6-in-revenue-and-invests-r-6-billion-in-2025/.
+  url: https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-energia-grows-14-6-in-revenue-and-invests-r-6-billion-in-2025/
+  annotation: 'ENGIE Brasil: FY2025 CapEx R$6bn. Supports engie_brasil_fy2025_capex_6bn_brl.'
+  supports:
+  - engie_brasil_fy2025_capex_6bn_brl
+  - hunt_cycle197
+- id: neoenergia_fy2025_results_20260211
+  type: company
+  chicago: Neoenergia. “Neoenergia encerra 2025 com lucro de R$ 5 bilhões.” February 11, 2026. https://www.neoenergia.com/w/2025-tem-lucro-de-5-bilhoes-1.
+  url: https://www.neoenergia.com/w/2025-tem-lucro-de-5-bilhoes-1
+  annotation: 'Neoenergia: FY2025 CapEx R$10.1bn. Supports neoenergia_fy2025_capex_10p1bn_brl.'
+  supports:
+  - neoenergia_fy2025_capex_10p1bn_brl
+  - hunt_cycle197
+- id: spic_brasil_sao_simao_ug7_20260319
+  type: company
+  chicago: SPIC Brasil. “SPIC Brasil expandirá a UHE São Simão em 310 MW via Leilão de Reserva de Capacidade, com mais de R$ 1 bilhão em investimentos.” March 19, 2026. https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/.
+  url: https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/
+  annotation: 'SPIC Brasil: São Simão UG7 >R$1bn LRCAP. Supports spic_sao_simao_ug7_lrcap_2026.'
+  supports:
+  - spic_sao_simao_ug7_lrcap_2026
+  - hunt_cycle197
