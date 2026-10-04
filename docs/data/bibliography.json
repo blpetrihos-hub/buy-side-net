@@ -1389,13 +1389,14 @@
   },
   {
     "id": "appian_graphcoa_20250409",
-    "type": "official",
-    "chicago": "Appian Capital Advisory / Minera Brasil. “Graphcoa’s new graphite plant boosts energy transition in Brazil.” 9 April 2025.",
+    "type": "company",
+    "chicago": "Appian Capital Advisory / Minera Brasil. “Graphcoa’s new graphite plant boosts energy transition in Brazil.” April 9, 2025. https://appiancapitaladvisory.com/graphcoas-new-graphite-plant-boosts-energy-transition-in-brazil/.",
     "url": "https://appiancapitaladvisory.com/graphcoas-new-graphite-plant-boosts-energy-transition-in-brazil/",
-    "annotation": "Investor/company interview on Graphcoa Boa Sorte graphite start-up. Supports graphcoa_boa_sorte_bahia_2024.",
+    "annotation": "Graphcoa Boa Sorte CapEx-fill ~USD 67.41m via Fed H.10. Supports graphcoa_boa_sorte_bahia_2024.",
     "supports": [
       "graphcoa_boa_sorte_bahia_2024",
-      "hunt_res_graphite"
+      "hunt_res_graphite",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "graphcoa_boa_sorte_bahia_2024",
@@ -1479,13 +1480,14 @@
   },
   {
     "id": "santosbrasil_zpmc_20260112",
-    "type": "official",
-    "chicago": "Santos Brasil. “Novos guindastes de operação remota chegam ao Tecon Santos.” 12 January 2026.",
+    "type": "company",
+    "chicago": "Santos Brasil. “Novos guindastes de operação remota chegam ao Tecon Santos.” January 12, 2026. https://www.santosbrasil.com.br/v2021/noticia/novos-guindastes-de-operacao-remota-chegam-ao-tecon-santos.",
     "url": "https://www.santosbrasil.com.br/v2021/noticia/novos-guindastes-de-operacao-remota-chegam-ao-tecon-santos",
-    "annotation": "Terminal operator primary notice of ZPMC STS/RTG delivery. Supports zpmc_santos_brasil_sts_rtg_2026.",
+    "annotation": "ZPMC Tecon Santos CapEx-fill ~USD 57.78m via Fed H.10. Supports zpmc_santos_brasil_sts_rtg_2026.",
     "supports": [
       "zpmc_santos_brasil_sts_rtg_2026",
-      "hunt_infra_port_cranes"
+      "hunt_infra_port_cranes",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "hunt_infra_port_cranes",
@@ -3048,12 +3050,13 @@
   {
     "id": "dpworld_santos_r16bn_20251202",
     "type": "company",
-    "chicago": "DP World. “DP World to invest R$1.6 billion to expand Santos Terminal by 25%.” 2 December 2025.",
+    "chicago": "DP World. “DP World to invest R$1.6 billion to expand Santos Terminal by 25%.” December 2, 2025. https://www.dpworld.com/en/news/usa/dpw-invests-over-1-billion-reais-to-expand-santos-terminal-by-25-percent.",
     "url": "https://www.dpworld.com/en/news/usa/dpw-invests-over-1-billion-reais-to-expand-santos-terminal-by-25-percent",
-    "annotation": "Company primary Santos R$1.6bn expansion-cycle approval. Supports dpworld_santos_r16bn_2025.",
+    "annotation": "DP World Santos CapEx-fill company US$296m dual-quote. Supports dpworld_santos_r16bn_2025.",
     "supports": [
       "dpworld_santos_r16bn_2025",
-      "hunt_infra_port_ownership"
+      "hunt_infra_port_ownership",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "dpworld_santos_r16bn_2025",
@@ -6217,12 +6220,13 @@
   {
     "id": "wabtec_contagem_20251105",
     "type": "company",
-    "chicago": "Wabtec Corporation. “Wabtec to Expand Operations and Workforce in Brazil with R$20 Million Investment.” 5 November 2025.",
+    "chicago": "Wabtec Corporation. “Wabtec to Expand Operations and Workforce in Brazil with R$20 Million Investment.” November 5, 2025. https://www.wabteccorp.com/newsroom/press-releases/wabtec-to-expand-operations-and-workforce-in-brazil-with-r20-million-investment.",
     "url": "https://www.wabteccorp.com/newsroom/press-releases/wabtec-to-expand-operations-and-workforce-in-brazil-with-r20-million-investment",
-    "annotation": "Wabtec primary on Contagem Global Engineering Center / R$20m Brazil expansion. Supports wabtec_contagem_r20m_2025.",
+    "annotation": "Wabtec Contagem CapEx-fill ~USD 3.85m via Fed H.10. Supports wabtec_contagem_r20m_2025.",
     "supports": [
       "wabtec_contagem_r20m_2025",
-      "hunt_infra_engineering_epc"
+      "hunt_infra_engineering_epc",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "hunt_infra_engineering_epc",
@@ -6996,12 +7000,13 @@
   {
     "id": "fluence_tubarao_case",
     "type": "company",
-    "chicago": "Fluence Corporation. “Seawater Desalination for Industrial Water Company.” Case study (ArcelorMittal Tubarão, Vitória, Brazil).",
+    "chicago": "Fluence Corporation. “Seawater Desalination for Industrial Water Company.” Case study (ArcelorMittal Tubarão, Vitória, Brazil). https://www.fluencecorp.com/case/seawater-desalination-for-industrial-water-company/.",
     "url": "https://www.fluencecorp.com/case/seawater-desalination-for-industrial-water-company/",
-    "annotation": "Fluence primary on Tubarão 12,000 m³/day industrial SWRO (COD 2021). CapEx R$50m is secondary PT press only. Supports fluence_arcelormittal_tubarao_desal_2021.",
+    "annotation": "Fluence Tubarão CapEx-fill ~USD 9.63m via Fed H.10. Supports fluence_arcelormittal_tubarao_desal_2021.",
     "supports": [
       "fluence_arcelormittal_tubarao_desal_2021",
-      "hunt_res_water"
+      "hunt_res_water",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "fluence_arcelormittal_tubarao_desal_2021",
@@ -10170,12 +10175,13 @@
   {
     "id": "atlas_luiz_carlos_fc_20240815",
     "type": "company",
-    "chicago": "Atlas Renewable Energy. “Atlas Renewable Energy secures R$1.5 billion for the construction of the Luiz Carlos solar complex in Brazil, coordinated by Itaú BBA.” 15 August 2024.",
+    "chicago": "Atlas Renewable Energy. “Atlas Renewable Energy secures R$1.5 billion for the construction of the Luiz Carlos solar complex in Brazil, coordinated by Itaú BBA.” August 15, 2024. https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-secures-r1-5-billion-for-the-construction-of-the-luiz-carlos-solar-complex-in-brazil-coordinated-by-itau-bba/.",
     "url": "https://atlasrenewableenergy.com/news-and-insights/atlas-renewable-energy-secures-r1-5-billion-for-the-construction-of-the-luiz-carlos-solar-complex-in-brazil-coordinated-by-itau-bba/",
-    "annotation": "Atlas Luiz Carlos Paracatu R$1.5bn project finance. Supports atlas_luiz_carlos_fc_1p5bn_brazil_2024.",
+    "annotation": "Atlas Luiz Carlos CapEx-fill ~USD 288.90m via Fed H.10. Supports atlas_luiz_carlos_fc_1p5bn_brazil_2024.",
     "supports": [
       "atlas_luiz_carlos_fc_1p5bn_brazil_2024",
-      "hunt_energy_solar"
+      "hunt_energy_solar",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "atlas_luiz_carlos_fc_1p5bn_brazil_2024",
@@ -19484,11 +19490,12 @@
     "type": "company",
     "chicago": "Ascenty. “Ascenty expands 60 MW São Paulo campus as SPO05 begins operations and SPO06 construction advances.” 2026. https://ascenty.com/en/blog/news-ascenty-en/ascenty-sao-paulo-campus/.",
     "url": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-sao-paulo-campus/",
-    "annotation": "Ascenty: SPO06 R$600m. Supports ascenty_spo06_600m_brl_2026.",
+    "annotation": "Ascenty SPO05 CapEx-fill ~USD 57.78m via Fed H.10. Supports ascenty_spo05_300m_brl_2025.",
     "supports": [
       "ascenty_spo05_300m_brl_2025",
       "hunt_cycle192",
-      "ascenty_spo06_600m_brl_2026"
+      "ascenty_spo06_600m_brl_2026",
+      "hunt_cycle219"
     ],
     "map_supports": [
       "ascenty_spo05_300m_brl_2025",
