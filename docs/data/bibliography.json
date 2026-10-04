@@ -1608,11 +1608,12 @@
     "type": "company",
     "chicago": "Vestas. “Casa dos Ventos and Vestas announce new partnership for the 828 MW Dom Inocêncio Wind Complex in Brazil.” December 17, 2025. https://www.vestas.com/en/media/company-news/2025/casa-dos-ventos-and-vestas-announce-new-partnership-for-c4283083.",
     "url": "https://www.vestas.com/en/media/company-news/2025/casa-dos-ventos-and-vestas-announce-new-partnership-for-c4283083",
-    "annotation": "Vestas Dom Inocêncio CapEx fill >BRL 5bn floor. Supports vestas_dom_inocencio_br_2025.",
+    "annotation": "Vestas Dom Inocêncio CapEx-fill ~USD 963.00m via Fed H.10. Supports vestas_dom_inocencio_br_2025.",
     "supports": [
       "vestas_dom_inocencio_br_2025",
       "hunt_energy_wind",
-      "hunt_cycle209"
+      "hunt_cycle209",
+      "hunt_cycle218"
     ],
     "map_supports": [
       "hunt_energy_wind",
@@ -4076,14 +4077,15 @@
   },
   {
     "id": "diario_comercio_cbmm_13bn_20260918",
-    "type": "trade_press",
-    "chicago": "Diário do Comércio. “Nióbio: CBMM planeja investimentos de R$ 13 bilhões até 2031.” 18 September 2026.",
+    "type": "press",
+    "chicago": "Diário do Comércio. “CBMM investe R$ 2 bilhões em 2026 no complexo de Araxá.” September 18, 2026. https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/.",
     "url": "https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/",
-    "annotation": "Press citing CBMM note on R$13bn plan and R$2bn 2026 spend. Supports cbmm_araxa_13bn_plan_2026 and cbmm_araxa_2026_spend_2bn.",
+    "annotation": "CBMM Araxá 2026 spend CapEx-fill ~USD 385.20m via Fed H.10. Supports cbmm_araxa_2026_spend_2bn.",
     "supports": [
       "cbmm_araxa_13bn_plan_2026",
       "cbmm_araxa_2026_spend_2bn",
-      "hunt_fenb_araxa"
+      "hunt_fenb_araxa",
+      "hunt_cycle218"
     ],
     "map_supports": [
       "cbmm_araxa_13bn_plan_2026",
@@ -18825,12 +18827,13 @@
   {
     "id": "engie_brasil_aneel_01_20260327",
     "type": "company",
-    "chicago": "ENGIE Brasil. “ENGIE arremata lote 2 e sublotes do 3 no leilão da ANEEL e reforça sua atuação em transmissão.” March 27, 2026. https://www.engie.com.br/imprensa/press-releases/engie-arremata-lote-2-e-sublotes-do-3-no-leilao-da-aneel/.",
+    "chicago": "ENGIE Brasil. “ENGIE arremata Lote 2 e sublotes do 3 no Leilão da ANEEL.” March 27, 2026. https://www.engie.com.br/imprensa/press-releases/engie-arremata-lote-2-e-sublotes-do-3-no-leilao-da-aneel/.",
     "url": "https://www.engie.com.br/imprensa/press-releases/engie-arremata-lote-2-e-sublotes-do-3-no-leilao-da-aneel/",
-    "annotation": "ENGIE Brasil: ANEEL 01/2026 Lots 2+3 CapEx ~R$1.5bn. Supports engie_brasil_aneel_01_2026_15bn.",
+    "annotation": "ENGIE Brasil ANEEL 01/2026 CapEx-fill ~USD 288.90m via Fed H.10. Supports engie_brasil_aneel_01_2026_15bn.",
     "supports": [
       "engie_brasil_aneel_01_2026_15bn",
-      "hunt_cycle185"
+      "hunt_cycle185",
+      "hunt_cycle218"
     ],
     "map_supports": [
       "engie_brasil_aneel_01_2026_15bn"
@@ -19742,10 +19745,11 @@
     "type": "company",
     "chicago": "VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.",
     "url": "https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/",
-    "annotation": "VLI: eight Progress Rail SD70 CapEx ~R$200m. Supports progress_rail_vli_sd70_200m_brl_2024.",
+    "annotation": "Progress Rail VLI SD70 CapEx-fill ~USD 38.52m via Fed H.10. Supports progress_rail_vli_sd70_200m_brl_2024.",
     "supports": [
       "progress_rail_vli_sd70_200m_brl_2024",
-      "hunt_cycle195"
+      "hunt_cycle195",
+      "hunt_cycle218"
     ],
     "map_supports": [
       "progress_rail_vli_sd70_200m_brl_2024"
@@ -20384,10 +20388,11 @@
     "type": "company",
     "chicago": "Wabtec Corporation. “Vale and Wabtec Sign an R$1.8B Services Agreement to Enhance Carajás Railway Locomotive Fleet.” June 5, 2024. https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-an-r18b-services-agreement-to-enhance-caraj-s-railway-locomotive-fleet.",
     "url": "https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-an-r18b-services-agreement-to-enhance-caraj-s-railway-locomotive-fleet",
-    "annotation": "Wabtec Vale EFC MSA: R$1.8bn. Supports wabtec_vale_efc_msa_1p8bn_brl_2024.",
+    "annotation": "Wabtec Vale EFC MSA CapEx-fill ~USD 346.68m via Fed H.10. Supports wabtec_vale_efc_msa_1p8bn_brl_2024.",
     "supports": [
       "wabtec_vale_efc_msa_1p8bn_brl_2024",
-      "hunt_cycle201"
+      "hunt_cycle201",
+      "hunt_cycle218"
     ],
     "map_supports": [
       "wabtec_vale_efc_msa_1p8bn_brl_2024"
