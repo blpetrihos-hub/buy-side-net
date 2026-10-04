@@ -2797,13 +2797,14 @@
   },
   {
     "id": "centaurus_jaguar_bndes_loi_20260323",
-    "type": "official",
-    "chicago": "Centaurus Metals Limited. “Centaurus Receives Letter of Intent for R$1 Billion in Debt Funding from the Brazilian National Development Bank.” ASX announcement, 23 March 2026.",
-    "url": "https://centaurusmetals.com/pdf/464fb39b-afc4-467c-9317-33f1c3870c73/LOI-for-US190M-from-Brazils-National-Development-Bank.pdf?Platform=ListPage",
-    "annotation": "Company primary BNDES FINEM LOI for Jaguar. Supports centaurus_jaguar_bndes_loi_2026.",
+    "type": "company",
+    "chicago": "Centaurus Metals. “BNDES Provides Non-Binding Letter of Intent for R$1 Billion (US$190 Million) of Debt Funding for the Jaguar Nickel Project.” March 23, 2026. https://www.centaurus.com.au/news/bndes-provides-non-binding-letter-of-intent-for-r1-billion-us190-million-of-debt-funding-for-the-jaguar-nickel-project.",
+    "url": "https://www.centaurus.com.au/news/bndes-provides-non-binding-letter-of-intent-for-r1-billion-us190-million-of-debt-funding-for-the-jaguar-nickel-project",
+    "annotation": "Centaurus Jaguar BNDES CapEx-fill company US$190m dual-quote. Supports centaurus_jaguar_bndes_loi_2026.",
     "supports": [
       "centaurus_jaguar_bndes_loi_2026",
-      "hunt_res_nickel"
+      "hunt_res_nickel",
+      "hunt_cycle220"
     ],
     "map_supports": [
       "centaurus_jaguar_bndes_loi_2026",
@@ -2960,12 +2961,13 @@
   {
     "id": "engie_assu_sol_20260223",
     "type": "company",
-    "chicago": "ENGIE Brasil. “Assú Sol Photovoltaic Complex, ENGIE’s largest solar energy asset worldwide, now operating at full commercial capacity.” 23 February 2026.",
+    "chicago": "ENGIE Brasil. “Assú Sol Photovoltaic Complex — ENGIE’s largest solar energy asset worldwide — now operating at full commercial capacity.” February 23, 2026. https://www.engie.com.br/en/imprensa/press-releases/assu-sol-photovoltaic-complex-engies-largest-solar-energy-asset-worldwide-now-operating-at-full-commercial-capacity/.",
     "url": "https://www.engie.com.br/en/imprensa/press-releases/assu-sol-photovoltaic-complex-engies-largest-solar-energy-asset-worldwide-now-operating-at-full-commercial-capacity/",
-    "annotation": "Company primary full commercial operation notice for Assú Sol. Supports engie_assu_sol_2026.",
+    "annotation": "ENGIE Assú Sol CapEx-fill ~USD 635.58m via Fed H.10. Supports engie_assu_sol_2026.",
     "supports": [
       "engie_assu_sol_2026",
-      "hunt_energy_solar"
+      "hunt_energy_solar",
+      "hunt_cycle220"
     ],
     "map_supports": [
       "engie_assu_sol_2026",
@@ -5165,13 +5167,14 @@
   },
   {
     "id": "poder360_byd_bess_20260612",
-    "type": "trade_press",
-    "chicago": "Poder360. “BYD anuncia investimento de até R$ 500 mi em baterias no Brasil.” Poder360, 12 June 2026.",
+    "type": "press",
+    "chicago": "Poder360. “BYD anuncia investimento de até R$ 500 mi em baterias no Brasil.” June 12, 2026. https://www.poder360.com.br/poder-economia/byd-anuncia-investimento-de-ate-r-500-mi-em-baterias-no-brasil/.",
     "url": "https://www.poder360.com.br/poder-economia/byd-anuncia-investimento-de-ate-r-500-mi-em-baterias-no-brasil/",
-    "annotation": "Press on BYD up to R$500m Brazil BESS factory. Supports byd_brazil_bess_factory_500m_2026.",
+    "annotation": "BYD Brazil BESS CapEx-fill ~USD 96.30m via Fed H.10. Supports byd_brazil_bess_factory_500m_2026.",
     "supports": [
       "byd_brazil_bess_factory_500m_2026",
-      "hunt_energy_other_renewables"
+      "hunt_energy_other_renewables",
+      "hunt_cycle220"
     ],
     "map_supports": [
       "byd_brazil_bess_factory_500m_2026",
@@ -10302,12 +10305,13 @@
   {
     "id": "atlas_luiz_carlos_side_b_20251209",
     "type": "company",
-    "chicago": "Atlas Renewable Energy. “ArcelorMittal and Atlas Renewable Energy complete construction of a solar plant in Minas Gerais, Brazil.” 9 December 2025.",
+    "chicago": "Atlas Renewable Energy. “ArcelorMittal and Atlas Renewable Energy complete construction of a solar plant in Minas Gerais, Brazil.” December 9, 2025. https://atlasrenewableenergy.com/news-and-insights/arcelormittal-and-atlas-renewable-energy-complete-construction-of-a-solar-plant-in-minas-gerais-brazil/.",
     "url": "https://atlasrenewableenergy.com/news-and-insights/arcelormittal-and-atlas-renewable-energy-complete-construction-of-a-solar-plant-in-minas-gerais-brazil/",
-    "annotation": "Atlas–ArcelorMittal Luiz Carlos Side B 315 MWp BOT completion R$895m. Supports atlas_luiz_carlos_side_b_bot_2025.",
+    "annotation": "Atlas Luiz Carlos Side B CapEx-fill ~USD 172.38m via Fed H.10. Supports atlas_luiz_carlos_side_b_bot_2025.",
     "supports": [
       "atlas_luiz_carlos_side_b_bot_2025",
-      "hunt_energy_solar"
+      "hunt_energy_solar",
+      "hunt_cycle220"
     ],
     "map_supports": [
       "atlas_luiz_carlos_side_b_bot_2025",
@@ -19490,12 +19494,13 @@
     "type": "company",
     "chicago": "Ascenty. “Ascenty expands 60 MW São Paulo campus as SPO05 begins operations and SPO06 construction advances.” 2026. https://ascenty.com/en/blog/news-ascenty-en/ascenty-sao-paulo-campus/.",
     "url": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-sao-paulo-campus/",
-    "annotation": "Ascenty SPO05 CapEx-fill ~USD 57.78m via Fed H.10. Supports ascenty_spo05_300m_brl_2025.",
+    "annotation": "Ascenty SPO06 CapEx-fill ~USD 115.56m via Fed H.10. Supports ascenty_spo06_600m_brl_2026.",
     "supports": [
       "ascenty_spo05_300m_brl_2025",
       "hunt_cycle192",
       "ascenty_spo06_600m_brl_2026",
-      "hunt_cycle219"
+      "hunt_cycle219",
+      "hunt_cycle220"
     ],
     "map_supports": [
       "ascenty_spo05_300m_brl_2025",
@@ -21144,12 +21149,13 @@
   {
     "id": "diario_comercio_graphcoa_jordania_700m",
     "type": "press",
-    "chicago": "Diário do Comércio. “Graphcoa deve investir R$ 700 mi em planta de grafite em Minas.” https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/.",
+    "chicago": "Diário do Comércio. “Graphcoa planeja R$ 700 milhões em grafite em Jordânia (MG).” 2026. https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/.",
     "url": "https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/",
-    "annotation": "Graphcoa Jordânia CapEx-fill ~R$700m (press). Supports graphcoa_jordania_dfs_capex_2026.",
+    "annotation": "Graphcoa Jordânia CapEx-fill ~USD 134.82m via Fed H.10. Supports graphcoa_jordania_dfs_capex_2026.",
     "supports": [
       "graphcoa_jordania_dfs_capex_2026",
-      "hunt_cycle213"
+      "hunt_cycle213",
+      "hunt_cycle220"
     ],
     "map_supports": [
       "graphcoa_jordania_dfs_capex_2026"
