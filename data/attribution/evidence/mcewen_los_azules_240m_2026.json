@@ -1,10 +1,10 @@
 {
   "id": "mcewen_los_azules_240m_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "bloomberg_linea_bid_posco_20260828",
-  "url": "https://www.bloomberglinea.com/latinoamerica/argentina/el-litio-argentino-tambien-consigue-financiamiento-internacional-us700-millones-para-posco/",
+  "retrieved": "2026-10-04",
+  "source_id": "mcewen_los_azules_termloan_20260827",
+  "url": "https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2026/McEwen-Copper-Completes-US240-Million-Term-Loan-to-Advance-Los-Azules-Toward-Final-Investment-Decision/",
   "price_year": "2026",
-  "evidence": "proxy",
-  "quote": "McEwen Copper cerró recientemente un financiamiento por US$240 millones para continuar avanzando con Los Azules, el proyecto de cobre ubicado en San Juan, antes de alcanzar su decisión final de inversión.",
-  "note": "Opened Bloomberg Línea Spanish 28 Aug 2026. Mark UNVERIFIED proxy (secondary mention)."
+  "evidence": "documented",
+  "quote": "McEwen Copper Inc. … has closed a $240 million senior secured 4-year term loan facility with a syndicate of lenders (the “Term Loan”). Participants include Sprott Natural Resource Investment Partners for $112 million, and Rob McEwen … for $85 million; and other lenders for a total of $43 million. The proceeds of the Term Loan will be used to continue advancing engineering and early works of the Los Azules copper project in San Juan, Argentina",
+  "note": "Opened McEwen company primary 2026-10-04; USD 240m / Sprott USD 112m / Rob McEwen USD 85m / San Juan early works toward FID mid-2027 confirmed. Source upgrade from Bloomberg Línea proxy."
 }

@@ -1641,13 +1641,14 @@
   },
   {
     "id": "vestas_dom_inocencio_20251217",
-    "type": "official",
-    "chicago": "Vestas. “Casa dos Ventos and Vestas announce new partnership for the 828 MW Dom Inocêncio Wind Complex in Brazil.” 17 December 2025.",
+    "type": "company",
+    "chicago": "Vestas. “Casa dos Ventos and Vestas announce new partnership for the 828 MW Dom Inocêncio Wind Complex in Brazil.” December 17, 2025. https://www.vestas.com/en/media/company-news/2025/casa-dos-ventos-and-vestas-announce-new-partnership-for-c4283083.",
     "url": "https://www.vestas.com/en/media/company-news/2025/casa-dos-ventos-and-vestas-announce-new-partnership-for-c4283083",
-    "annotation": "Company primary Dom Inocêncio wind order. Supports vestas_dom_inocencio_br_2025.",
+    "annotation": "Vestas Dom Inocêncio CapEx fill >BRL 5bn floor. Supports vestas_dom_inocencio_br_2025.",
     "supports": [
       "vestas_dom_inocencio_br_2025",
-      "hunt_energy_wind"
+      "hunt_energy_wind",
+      "hunt_cycle209"
     ],
     "map_supports": [
       "hunt_energy_wind",
@@ -5172,8 +5173,7 @@
     ],
     "map_supports": [
       "bid_invest_posco_sal_de_oro_700m_2026",
-      "hunt_res_lithium",
-      "mcewen_los_azules_240m_2026"
+      "hunt_res_lithium"
     ],
     "layers": [
       "resources"
@@ -20997,6 +20997,74 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "antt_epr_regis_bittencourt_20260723",
+    "type": "government",
+    "chicago": "Agência Nacional de Transportes Terrestres (ANTT). “EPR vence o leilão da concessão da Régis Bittencourt com deságio de 22,53%.” July 23, 2026. https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/epr-vence-o-leilao-da-concessao-da-regis-bittencourt-com-desagio-de-22-53.",
+    "url": "https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/epr-vence-o-leilao-da-concessao-da-regis-bittencourt-com-desagio-de-22-53",
+    "annotation": "ANTT EPR Régis Bittencourt R$7.2bn. Supports epr_regis_bittencourt_7p2bn_2026.",
+    "supports": [
+      "epr_regis_bittencourt_7p2bn_2026",
+      "hunt_cycle209"
+    ],
+    "map_supports": [
+      "epr_regis_bittencourt_7p2bn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "casa_dos_ventos_us_pp_20260618",
+    "type": "company",
+    "chicago": "Casa dos Ventos. “Casa dos Ventos raises US$ 1.1 billion in the United States.” June 18, 2026. https://casadosventos.com.br/en/news/captacao-nos-estados-unidos.",
+    "url": "https://casadosventos.com.br/en/news/captacao-nos-estados-unidos",
+    "annotation": "Casa dos Ventos US private placement USD 1.1bn. Supports casa_dos_ventos_us_pp_1p1bn_2026.",
+    "supports": [
+      "casa_dos_ventos_us_pp_1p1bn_2026",
+      "hunt_cycle209"
+    ],
+    "map_supports": [
+      "casa_dos_ventos_us_pp_1p1bn_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mcewen_los_azules_fs_20251007",
+    "type": "company",
+    "chicago": "McEwen Copper Inc. / McEwen Inc. “Los Azules Feasibility Study Confirms Economically Robust Copper Project With Leading ESG Performance.” October 7, 2025. https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2025/Los-Azules-Feasibility-Study-Confirms-Economically-Robust-Copper-Project-With-Leading-ESG-Performance/.",
+    "url": "https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2025/Los-Azules-Feasibility-Study-Confirms-Economically-Robust-Copper-Project-With-Leading-ESG-Performance/",
+    "annotation": "McEwen Los Azules FS initial CapEx USD 3.168bn. Supports mcewen_los_azules_fs_3p17bn_2025.",
+    "supports": [
+      "mcewen_los_azules_fs_3p17bn_2025",
+      "hunt_cycle209"
+    ],
+    "map_supports": [
+      "mcewen_los_azules_fs_3p17bn_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "mcewen_los_azules_termloan_20260827",
+    "type": "company",
+    "chicago": "McEwen Inc. “McEwen Copper Completes US$240 Million Term Loan to Advance Los Azules Toward Final Investment Decision.” August 27, 2026. https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2026/McEwen-Copper-Completes-US240-Million-Term-Loan-to-Advance-Los-Azules-Toward-Final-Investment-Decision/.",
+    "url": "https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2026/McEwen-Copper-Completes-US240-Million-Term-Loan-to-Advance-Los-Azules-Toward-Final-Investment-Decision/",
+    "annotation": "McEwen Los Azules USD 240m term loan company primary. Supports mcewen_los_azules_240m_2026.",
+    "supports": [
+      "mcewen_los_azules_240m_2026",
+      "hunt_cycle209"
+    ],
+    "map_supports": [
+      "mcewen_los_azules_240m_2026"
+    ],
+    "layers": [
+      "resources"
     ]
   }
 ]
