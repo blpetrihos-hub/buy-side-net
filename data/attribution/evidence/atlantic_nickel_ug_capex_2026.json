@@ -1,10 +1,10 @@
 {
   "id": "atlantic_nickel_ug_capex_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "exame_appian_atlantic_ug_20260825",
-  "url": "https://exame.com/invest/mercados/appian-vai-investir-ate-r-700-milhoes-em-grafite-em-mg-com-demanda-de-carros-eletricos/",
+  "retrieved": "2026-10-04",
+  "source_id": "bnamericas_atlantic_nickel_ug_20260327",
+  "url": "https://www.bnamericas.com/pt/noticias/atlantic-nickel-inicia-construcao-de-mina-subterranea-de-r33bi-na-bahia",
   "price_year": "2026",
   "evidence": "proxy",
-  "quote": "O Projeto Underground, na Mina Santa Rita, prevê investimentos de cerca de R$ 3,3 bilhões e deve estender a vida útil da operação para mais de 30 anos. … O projeto teve o desmonte inaugural para a abertura do Portal Sul em 27 de março de 2026 e já ultrapassou 300 metros de túneis construídos. A previsão é que ao final de 2028 o minério já esteja sendo produzido.",
-  "note": "Opened Exame PT interview with Appian Brazil executives (company primary UG CAPEX notice not opened this cycle)."
+  "quote": "A Atlantic Nickel iniciou o processo de construção da maior mina subterrânea de níquel da América Latina, que deve exigir investimentos de cerca de R$3,3 bilhões (US$630 milhões).",
+  "note": "Opened BNamericas PT 2026-10-04; R$3.3bn (US$630m) / construction start / Santa Rita UG / Appian confirmed. CapEx-fill USD 630m UNVERIFIED proxy alongside stored BRL 3.3bn."
 }

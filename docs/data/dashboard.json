@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1436,
+    "n_rows": 1438,
     "counts": {
-      "total": 1436,
-      "active": 1237,
+      "total": 1438,
+      "active": 1239,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 179,
+      "proxy": 180,
       "exclude": 18,
-      "documented": 1182,
-      "on_map": 1109
+      "documented": 1183,
+      "on_map": 1111
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 161,
         "prc": 126,
-        "allied": 162,
-        "n": 449
+        "allied": 164,
+        "n": 451
       },
       "usd": {
         "us": 23042730640.120003,
         "us_n": 80,
         "prc": 15157964713.330002,
         "prc_n": 31,
-        "allied": 18723123324.0,
-        "allied_n": 53
+        "allied": 18726813324.0,
+        "allied_n": 54
       },
       "matched_gaps": {
         "n": 1,
@@ -159,8 +159,8 @@
         "n": 474
       },
       "usd": {
-        "us": 15541460515.13,
-        "us_n": 42,
+        "us": 15772580871.06,
+        "us_n": 43,
         "prc": 6785407871.900001,
         "prc_n": 32,
         "allied": 21457244738.49,
@@ -364,12 +364,12 @@
       "counts": {
         "us": 97,
         "prc": 88,
-        "allied": 161,
-        "n": 346
+        "allied": 162,
+        "n": 347
       },
       "usd": {
-        "us": 6067206020.549999,
-        "us_n": 21,
+        "us": 6298326376.48,
+        "us_n": 22,
         "prc": 4709751941.95,
         "prc_n": 18,
         "allied": 16355624708.93,
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 54,
           "prc": 25,
-          "allied": 47
+          "allied": 48
         },
         "resources": {
           "us": 26,
@@ -980,16 +980,16 @@
       "counts": {
         "us": 19,
         "prc": 43,
-        "allied": 43,
-        "n": 105
+        "allied": 44,
+        "n": 106
       },
       "usd": {
         "us": 7452000000.0,
         "us_n": 8,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 20810176636.0,
-        "allied_n": 25
+        "allied": 20813866636.0,
+        "allied_n": 26
       },
       "by_layer": {
         "energy": {
@@ -1000,7 +1000,7 @@
         "infrastructure": {
           "us": 6,
           "prc": 20,
-          "allied": 19
+          "allied": 20
         },
         "resources": {
           "us": 10,
@@ -2425,7 +2425,9 @@
       "isa_capex_plan_25p5tn_2026_2030",
       "aqualia_ptar_cajamarca_123m_2026",
       "codelco_fy2026_capex_3289m",
-      "enami_nueva_paipote_1700m_2025"
+      "enami_nueva_paipote_1700m_2025",
+      "siemens_energy_seatrium_p84_p85_2bn_2025",
+      "dpworld_callao_shore_power_3p69m_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
