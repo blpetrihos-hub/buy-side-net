@@ -11792,24 +11792,6 @@
     ]
   },
   {
-    "id": "engie_peru_grupo1_20260701",
-    "type": "company",
-    "chicago": "ENGIE Energía Perú. “ENGIE obtiene adjudicación para construir y operar 400 km de líneas de transmisión.” 1 July 2026.",
-    "url": "https://engie-energia.pe/notas-de-prensa/engie-obtiene-adjudicacion-para-construir-y-operar-400-km-de-lineas-de-transmision",
-    "annotation": "ENGIE Perú Grupo 1 transmission APP award; offered CapEx USD 230.8m. Supports engie_peru_grupo1_transmision_230m_2026.",
-    "supports": [
-      "engie_peru_grupo1_transmision_230m_2026",
-      "hunt_br_power_equip"
-    ],
-    "map_supports": [
-      "engie_peru_grupo1_transmision_230m_2026",
-      "hunt_br_power_equip"
-    ],
-    "layers": [
-      "energy"
-    ]
-  },
-  {
     "id": "mcc_belize_compact_page",
     "type": "government",
     "chicago": "Millennium Challenge Corporation. “Belize Compact.” Accessed 2 October 2026.",
@@ -21199,6 +21181,42 @@
     ],
     "layers": [
       "resources"
+    ]
+  },
+  {
+    "id": "andina_engie_grupo1_contratos_20261002",
+    "type": "government",
+    "chicago": "Agencia Andina. “Inician ejecución de cuatro proyectos eléctricos en beneficio de 1.6 millones de peruanos.” October 2, 2026. https://andina.pe/agencia/noticia-inician-ejecucion-cuatro-proyectos-electricos-beneficio-16-millones-peruanos-1094342.aspx.",
+    "url": "https://andina.pe/agencia/noticia-inician-ejecucion-cuatro-proyectos-electricos-beneficio-16-millones-peruanos-1094342.aspx",
+    "annotation": "ENGIE Peru Grupo 1 CapEx-fill >USD 339m / USD 339.36m. Supports engie_peru_grupo1_transmision_230m_2026.",
+    "supports": [
+      "engie_peru_grupo1_transmision_230m_2026",
+      "hunt_cycle214"
+    ],
+    "map_supports": [
+      "engie_peru_grupo1_transmision_230m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "isa_fy2025_results_20260302",
+    "type": "company",
+    "chicago": "ISA. “More investment, greater value: ISA closed 2025 with 31% investment growth and a 48% increase in its share price.” March 2, 2026. https://isa.co/en/press/isa-2025-results-investment-growth-shareholder-value/.",
+    "url": "https://isa.co/en/press/isa-2025-results-investment-growth-shareholder-value/",
+    "annotation": "ISA 2026–2030 CapEx plan COP 25.5tn. Supports isa_capex_plan_25p5tn_2026_2030.",
+    "supports": [
+      "isa_fy2025_invest_6p3tn_cop",
+      "hunt_cycle214",
+      "isa_capex_plan_25p5tn_2026_2030"
+    ],
+    "map_supports": [
+      "isa_capex_plan_25p5tn_2026_2030",
+      "isa_fy2025_invest_6p3tn_cop"
+    ],
+    "layers": [
+      "energy"
     ]
   }
 ]

@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1431,
+    "n_rows": 1433,
     "counts": {
-      "total": 1431,
-      "active": 1232,
+      "total": 1433,
+      "active": 1234,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 178,
       "exclude": 18,
-      "documented": 1178,
-      "on_map": 1104
+      "documented": 1180,
+      "on_map": 1106
     }
   },
   "layer_readouts": [
@@ -155,15 +155,15 @@
       "counts": {
         "us": 148,
         "prc": 171,
-        "allied": 153,
-        "n": 472
+        "allied": 155,
+        "n": 474
       },
       "usd": {
         "us": 15541460515.13,
         "us_n": 42,
         "prc": 6785407871.900001,
         "prc_n": 32,
-        "allied": 21348684738.49,
+        "allied": 21457244738.49,
         "allied_n": 61
       },
       "matched_gaps": {
@@ -432,8 +432,8 @@
       "counts": {
         "us": 24,
         "prc": 28,
-        "allied": 26,
-        "n": 78
+        "allied": 28,
+        "n": 80
       },
       "usd": {
         "us": 1556506908.27,
@@ -447,7 +447,7 @@
         "energy": {
           "us": 17,
           "prc": 16,
-          "allied": 8
+          "allied": 10
         },
         "infrastructure": {
           "us": 4,
@@ -988,7 +988,7 @@
         "us_n": 8,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 20578316636.0,
+        "allied": 20686876636.0,
         "allied_n": 24
       },
       "by_layer": {
@@ -2420,7 +2420,9 @@
       "vestas_aquiraz_factory_130m_brl_2024",
       "codelco_miga_climate_financing_532m_2024",
       "indra_efe_comms_chile_2025",
-      "schwager_incimmet_chuqui_104bn_clp_2026"
+      "schwager_incimmet_chuqui_104bn_clp_2026",
+      "isa_fy2025_invest_6p3tn_cop",
+      "isa_capex_plan_25p5tn_2026_2030"
     ],
     "hunt": [
       "hunt_br_power_equip",

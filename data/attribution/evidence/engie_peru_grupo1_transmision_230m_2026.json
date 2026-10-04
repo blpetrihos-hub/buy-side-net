@@ -1,10 +1,10 @@
 {
   "id": "engie_peru_grupo1_transmision_230m_2026",
-  "retrieved": "2026-10-02",
-  "source_id": "engie_peru_grupo1_20260701",
-  "url": "https://engie-energia.pe/notas-de-prensa/engie-obtiene-adjudicacion-para-construir-y-operar-400-km-de-lineas-de-transmision",
+  "retrieved": "2026-10-04",
+  "source_id": "andina_engie_grupo1_contratos_20261002",
+  "url": "https://andina.pe/agencia/noticia-inician-ejecucion-cuatro-proyectos-electricos-beneficio-16-millones-peruanos-1094342.aspx",
   "price_year": "2026",
   "evidence": "documented",
-  "quote": "El monto de inversión total ofertado para la ejecución de los proyectos asciende a USD 230.8 millones y comprende -además- el desarrollo de seis nuevas subestaciones eléctricas y la ampliación de diez subestaciones existentes.",
-  "note": "Opened ENGIE Energía Perú Spanish press naming USD 230.8m offered investment for Grupo 1 TX APP."
+  "quote": "El Grupo 1 representa una inversión superior a 339 millones de dólares, conforme a la oferta del adjudicatario, y es el resultado de un proceso de adjudicación muy competitivo en el que participaron y presentaron ofertas cuatro operadores de prestigio internacional.",
+  "note": "Opened Andina/ProInversión primary 2026-10-04; >USD 339m per adjudicatario offer / four Grupo 1 contracts signed 2 Oct 2026 / Piura–Lambayeque–Junín–Ayacucho / ENGIE Transmisión Perú confirmed. CapEx-fill uses USD 339.36m (Gestión ProInversión ficha detail)."
 }
