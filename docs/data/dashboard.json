@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 1390,
+    "n_rows": 1396,
     "counts": {
-      "total": 1390,
-      "active": 1191,
+      "total": 1396,
+      "active": 1197,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 175,
       "exclude": 18,
-      "documented": 1140,
-      "on_map": 1069
+      "documented": 1146,
+      "on_map": 1074
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 160,
+        "us": 161,
         "prc": 125,
         "allied": 149,
-        "n": 434
+        "n": 435
       },
       "usd": {
         "us": 19487730640.12,
         "us_n": 78,
         "prc": 11210642629.330002,
         "prc_n": 29,
-        "allied": 17408358000.0,
-        "allied_n": 47
+        "allied": 17978358000.0,
+        "allied_n": 48
       },
       "matched_gaps": {
         "n": 1,
@@ -155,8 +155,8 @@
       "counts": {
         "us": 146,
         "prc": 171,
-        "allied": 137,
-        "n": 454
+        "allied": 142,
+        "n": 459
       },
       "usd": {
         "us": 14676460515.13,
@@ -362,10 +362,10 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 96,
+        "us": 97,
         "prc": 87,
-        "allied": 142,
-        "n": 325
+        "allied": 147,
+        "n": 331
       },
       "usd": {
         "us": 6067206020.549999,
@@ -379,10 +379,10 @@
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 44
+          "allied": 49
         },
         "infrastructure": {
-          "us": 53,
+          "us": 54,
           "prc": 24,
           "allied": 40
         },
@@ -988,8 +988,8 @@
         "us_n": 7,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 20008316636.0,
-        "allied_n": 23
+        "allied": 20578316636.0,
+        "allied_n": 24
       },
       "by_layer": {
         "energy": {
@@ -2379,7 +2379,13 @@
       "weg_itajai_bess_280m_brl_2026",
       "aws_huechuraba_205m_chile_2026",
       "edp_south_america_7bn_brl_2025_2026",
-      "metro_sp_linha17_phase1_5p9bn_brl_2026"
+      "metro_sp_linha17_phase1_5p9bn_brl_2026",
+      "neoenergia_dist_50bn_brl_2026_2030",
+      "neoenergia_brasilia_3p1bn_brl_2026_2030",
+      "neoenergia_ilhabela_200m_brl_2026",
+      "neoenergia_guara2_32m_brl_2026",
+      "neoenergia_coelba_litoral_7bn_brl_2026",
+      "wabtec_vale_efc_msa_1p8bn_brl_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",

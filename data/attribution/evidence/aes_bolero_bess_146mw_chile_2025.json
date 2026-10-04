@@ -1,10 +1,10 @@
 {
   "id": "aes_bolero_bess_146mw_chile_2025",
-  "retrieved": "2026-10-02",
-  "source_id": "aes_andes_construction_20250730",
-  "url": "https://www.aesandes.com/en/press-release/aes-andes-starts-construction-1325-mw-renewables-accelerating-energy-transition",
-  "price_year": "2025",
-  "evidence": "documented",
-  "quote": "Bolero BESS, which will add 146 MW of battery storage to the existing Bolero solar PV project.",
-  "note": "Opened AES Andes English 30 Jul 2025 construction release."
+  "retrieved": "2026-10-04",
+  "source_id": "df_aes_bolero_bess_20260803",
+  "url": "https://www.df.cl/empresas/energia/aes-andes-inicia-operacion-de-nuevo-sistema-de-almacenamiento-de-energia",
+  "price_year": "2026",
+  "evidence": "proxy",
+  "quote": "AES Andes anunció este lunes el inicio de operaciones de Bolero BESS, un nuevo sistema de almacenamiento de energía en baterías ubicado en la Región de Antofagasta, el cual involucra alrededor de US$ 137 millones en inversión.",
+  "note": "Opened Diario Financiero Spanish 2026-10-04 citing AES Andes ~USD 137m; CapEx blank on opened AES Andes pages — evidence=proxy upgrade."
 }

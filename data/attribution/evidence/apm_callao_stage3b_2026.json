@@ -1,10 +1,10 @@
 {
   "id": "apm_callao_stage3b_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "dataportuaria_apm_callao_stage3b_20260702",
-  "url": "https://dataportuaria.com/en/peru/ports/apm-terminals-callao-to-invest-usd-570-million-in-modernizat",
+  "retrieved": "2026-10-04",
+  "source_id": "apm_callao_stage3b_20260626",
+  "url": "https://www.apmterminals.com/en/callao/customer-zone/news-and-alerts/2026/260626-APM-Terminals-launches-next-phase-of-expansion-in-Callao",
   "price_year": "2026",
-  "evidence": "proxy",
-  "quote": "APM Terminals Callao will begin expansion works on the North Pier of the Port of Callao, set to conclude in 2030, with an investment of USD 570 million. The project will increase annual capacity from 1.3 to 1.75 million containers and from 13.5 to 18 million tons in general cargo. … construction of a new Pier 5C … installation of 3 state-of-the-art and largest MalaccaMax cranes on the market",
-  "note": "Opened DataPortuaria English report citing APM Terminals Callao Project Director José Carlos Maia; company primary unreachable this cycle."
+  "evidence": "documented",
+  "quote": "This phase represents an investment of approximately USD 570 million by APM Terminals Callao and will significantly expand the operational capacity of Peru’s first multipurpose terminal.",
+  "note": "Opened APM Terminals English company primary 2026-10-04; USD 570m confirmed; upgrades prior DataPortuaria proxy."
 }
