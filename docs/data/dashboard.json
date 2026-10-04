@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 1383,
+    "n_rows": 1390,
     "counts": {
-      "total": 1383,
-      "active": 1184,
+      "total": 1390,
+      "active": 1191,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 174,
+      "proxy": 175,
       "exclude": 18,
-      "documented": 1134,
-      "on_map": 1063
+      "documented": 1140,
+      "on_map": 1069
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 159,
+        "us": 160,
         "prc": 125,
-        "allied": 146,
-        "n": 430
+        "allied": 149,
+        "n": 434
       },
       "usd": {
-        "us": 19282730640.12,
-        "us_n": 77,
+        "us": 19487730640.12,
+        "us_n": 78,
         "prc": 11210642629.330002,
         "prc_n": 29,
-        "allied": 17358258000.0,
-        "allied_n": 46
+        "allied": 17408358000.0,
+        "allied_n": 47
       },
       "matched_gaps": {
         "n": 1,
@@ -155,8 +155,8 @@
       "counts": {
         "us": 146,
         "prc": 171,
-        "allied": 134,
-        "n": 451
+        "allied": 137,
+        "n": 454
       },
       "usd": {
         "us": 14676460515.13,
@@ -209,8 +209,8 @@
       "counts": {
         "us": 21,
         "prc": 35,
-        "allied": 31,
-        "n": 87
+        "allied": 32,
+        "n": 88
       },
       "usd": {
         "us": 7270869147.0,
@@ -224,7 +224,7 @@
         "energy": {
           "us": 5,
           "prc": 15,
-          "allied": 12
+          "allied": 13
         },
         "infrastructure": {
           "us": 11,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 96,
         "prc": 87,
-        "allied": 138,
-        "n": 321
+        "allied": 142,
+        "n": 325
       },
       "usd": {
         "us": 6067206020.549999,
@@ -379,12 +379,12 @@
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 42
+          "allied": 44
         },
         "infrastructure": {
           "us": 53,
           "prc": 24,
-          "allied": 38
+          "allied": 40
         },
         "resources": {
           "us": 26,
@@ -396,14 +396,14 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 52,
+        "us": 53,
         "prc": 42,
         "allied": 76,
-        "n": 170
+        "n": 171
       },
       "usd": {
-        "us": 25752000000.0,
-        "us_n": 19,
+        "us": 25957000000.0,
+        "us_n": 20,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 37094062361.0,
@@ -416,7 +416,7 @@
           "allied": 27
         },
         "infrastructure": {
-          "us": 8,
+          "us": 9,
           "prc": 7,
           "allied": 16
         },
@@ -980,16 +980,16 @@
       "counts": {
         "us": 19,
         "prc": 43,
-        "allied": 41,
-        "n": 103
+        "allied": 42,
+        "n": 104
       },
       "usd": {
         "us": 6097000000.0,
         "us_n": 7,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 19958216636.0,
-        "allied_n": 22
+        "allied": 20008316636.0,
+        "allied_n": 23
       },
       "by_layer": {
         "energy": {
@@ -1000,7 +1000,7 @@
         "infrastructure": {
           "us": 6,
           "prc": 20,
-          "allied": 18
+          "allied": 19
         },
         "resources": {
           "us": 10,
@@ -2372,7 +2372,14 @@
       "vale_bacaba_copper_290m_2025",
       "vale_carajas_copper_capex_3p5bn_2026_2030",
       "spic_luiz_gonzaga_400m_brl_2024",
-      "chec_francisco_juana_60bn_cop_2025"
+      "chec_francisco_juana_60bn_cop_2025",
+      "azevedo_rota_mogiana_9p4bn_brl_2026",
+      "coviperu_puente_asia_50p1m_2026",
+      "adi_nqn_copahue_geothermal_46p1m_2026",
+      "weg_itajai_bess_280m_brl_2026",
+      "aws_huechuraba_205m_chile_2026",
+      "edp_south_america_7bn_brl_2025_2026",
+      "metro_sp_linha17_phase1_5p9bn_brl_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
