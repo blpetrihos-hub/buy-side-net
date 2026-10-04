@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 1315,
+    "n_rows": 1322,
     "counts": {
-      "total": 1315,
-      "active": 1116,
+      "total": 1322,
+      "active": 1123,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 174,
       "exclude": 18,
-      "documented": 1066,
-      "on_map": 1026
+      "documented": 1073,
+      "on_map": 1031
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 139,
+        "us": 140,
         "prc": 125,
-        "allied": 129,
-        "n": 393
+        "allied": 133,
+        "n": 398
       },
       "usd": {
-        "us": 8469730640.119999,
-        "us_n": 62,
+        "us": 8644730640.119999,
+        "us_n": 63,
         "prc": 11210642629.330002,
         "prc_n": 29,
         "allied": 15661258000.0,
@@ -153,10 +153,10 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 145,
+        "us": 146,
         "prc": 165,
-        "allied": 121,
-        "n": 431
+        "allied": 122,
+        "n": 433
       },
       "usd": {
         "us": 14676460515.13,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 86,
         "prc": 82,
-        "allied": 123,
-        "n": 291
+        "allied": 124,
+        "n": 292
       },
       "usd": {
         "us": 2688206020.5499997,
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 43,
           "prc": 24,
-          "allied": 33
+          "allied": 34
         },
         "resources": {
           "us": 26,
@@ -430,10 +430,10 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 22,
+        "us": 23,
         "prc": 28,
         "allied": 23,
-        "n": 73
+        "n": 74
       },
       "usd": {
         "us": 1528506908.27,
@@ -445,7 +445,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 16,
+          "us": 17,
           "prc": 16,
           "allied": 6
         },
@@ -842,14 +842,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 46,
+        "us": 47,
         "prc": 19,
-        "allied": 29,
-        "n": 94
+        "allied": 30,
+        "n": 96
       },
       "usd": {
-        "us": 3140456686.7400002,
-        "us_n": 28,
+        "us": 3315456686.7400002,
+        "us_n": 29,
         "prc": 127039837.81,
         "prc_n": 3,
         "allied": 3465734000.0,
@@ -859,10 +859,10 @@
         "energy": {
           "us": 11,
           "prc": 5,
-          "allied": 7
+          "allied": 8
         },
         "infrastructure": {
-          "us": 22,
+          "us": 23,
           "prc": 12,
           "allied": 16
         },
@@ -946,8 +946,8 @@
       "counts": {
         "us": 2,
         "prc": 0,
-        "allied": 10,
-        "n": 12
+        "allied": 12,
+        "n": 14
       },
       "usd": {
         "us": 187669691.03,
@@ -966,7 +966,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 0,
-          "allied": 5
+          "allied": 7
         },
         "resources": {
           "us": 1,
@@ -980,8 +980,8 @@
       "counts": {
         "us": 19,
         "prc": 43,
-        "allied": 37,
-        "n": 99
+        "allied": 38,
+        "n": 100
       },
       "usd": {
         "us": 6097000000.0,
@@ -1000,7 +1000,7 @@
         "infrastructure": {
           "us": 6,
           "prc": 20,
-          "allied": 15
+          "allied": 16
         },
         "resources": {
           "us": 10,
@@ -2304,7 +2304,14 @@
       "votorantim_brazil_plan_2p7bn_invested_2025",
       "impsa_tocoma_macagua_672mw_2026",
       "ani_bogota_belencito_284436m_cop_2026",
-      "ani_pacifico_ferro_280522m_cop_2026"
+      "ani_pacifico_ferro_280522m_cop_2026",
+      "black_veatch_andes_aet_ustda_2021",
+      "mopc_py04_acaray_lote1_242296m_pyg_2025",
+      "mopc_py04_caminos_sur_lote2_204140m_pyg_2025",
+      "votorantim_brazil_plan_3p1bn_invested_2026",
+      "holcim_pacasmayo_aspi_1850370k_pen_2026",
+      "fluor_ica_mexico_divest_175m_2026",
+      "terralia_el_chorro_cfe_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
