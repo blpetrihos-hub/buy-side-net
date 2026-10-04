@@ -1,10 +1,10 @@
 {
-  "id": "siemens_efe_etcs_chile_2025",
+  "id": "indra_efe_comms_chile_2025",
   "retrieved": "2026-10-04",
   "source_id": "efe_siemens_indra_adjudicacion_20251210",
   "url": "https://www.efe.cl/efe-avanza-en-modernizacion-ferroviaria-con-nuevas-adjudicaciones-tecnologicas-a-siemens-e-indra-para-los-proyectos-melipilla-y-batuco/",
   "price_year": "2025",
   "evidence": "documented",
   "quote": "En total, el sistema de señalización, adjudicado a Siemens Mobility (Alemania), alcanza una inversión de 2.968.596 UF, mientras que el sistema de comunicaciones, adjudicado a Indra Sistemas Chile S.A., filial del grupo español Indra, considera 1.480.508 UF.",
-  "note": "Opened EFE Spanish primary 2026-10-04; 2.968.596 UF Siemens signaling / 87 km ETCS L2 confirmed. USD 125.8m from PortalPortuario secondary conversion entered as value_usd."
+  "note": "Opened EFE Spanish primary 2026-10-04; 1.480.508 UF Indra communications package confirmed. USD 62.7m from PortalPortuario secondary conversion entered as value_usd."
 }
