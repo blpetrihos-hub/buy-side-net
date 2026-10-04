@@ -1,10 +1,10 @@
 {
   "id": "graphcoa_jordania_dfs_capex_2026",
   "retrieved": "2026-10-04",
-  "source_id": "graphcoa_jordania_rima_2025",
-  "url": "https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf",
+  "source_id": "diario_comercio_graphcoa_jordania_700m",
+  "url": "https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/",
   "price_year": "2026",
-  "evidence": "documented",
-  "quote": "O investimento estimado para essa implantação é de R$ 621,76 milhões.",
-  "note": "Opened Graphcoa RIMA PDF 2026-10-04; R$621.76m implantation CapEx confirmed; upgrades prior BNamericas proxy."
+  "evidence": "proxy",
+  "quote": "A Graphcoa planeja investir em torno de R$ 700 milhões em uma planta voltada à produção de grafite concentrado, com teores de aproximadamente 95% de carbono grafítico, no município de Jordânia, na região do Vale do Jequitinhonha, em Minas Gerais.",
+  "note": "Opened Diário do Comércio 2026-10-04; ~R$700m / Jordânia / ~50 ktpa / 2H 2029 ops confirmed. UNVERIFIED proxy refresh vs prior RIMA R$621.76m; CapEx-fill upgrade."
 }

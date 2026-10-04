@@ -20259,23 +20259,6 @@
     ]
   },
   {
-    "id": "graphcoa_jordania_rima_2025",
-    "type": "company",
-    "chicago": "Graphcoa. “Projeto Grafite Jordânia — Relatório de Impacto Ambiental (RIMA).” https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf.",
-    "url": "https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf",
-    "annotation": "Graphcoa Jordânia RIMA: R$621.76m. Supports graphcoa_jordania_dfs_capex_2026.",
-    "supports": [
-      "graphcoa_jordania_dfs_capex_2026",
-      "hunt_cycle199"
-    ],
-    "map_supports": [
-      "graphcoa_jordania_dfs_capex_2026"
-    ],
-    "layers": [
-      "resources"
-    ]
-  },
-  {
     "id": "lapatria_chec_francisco_juana_20250215",
     "type": "press",
     "chicago": "Carmona Caraballo, Santiago. “Caldas: multinacional china y la Chec construyen dos parques solares por $60 mil millones.” La Patria, February 15, 2025. https://www.lapatria.com/caldas/caldas-multinacional-china-y-la-chec-construyen-dos-parques-solares-por-60-mil-millones-asi.",
@@ -21182,6 +21165,40 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "schwager_chuqui_adjudicacion_202605",
+    "type": "company",
+    "chicago": "Schwager S.A. “Consorcio Schwager-Incimmet se adjudica contrato por más de $104 mil millones con Codelco para desarrollos verticales en Chuquicamata.” May 2026. https://www.schwager.cl/consorcio-schwager-incimmet-se-adjudica-contrato-por-mas-de-104-mil-millones-con-codelco-para-desarrollos-verticales-en-chuquicamata/.",
+    "url": "https://www.schwager.cl/consorcio-schwager-incimmet-se-adjudica-contrato-por-mas-de-104-mil-millones-con-codelco-para-desarrollos-verticales-en-chuquicamata/",
+    "annotation": "Schwager–Incimmet Chuquicamata EPC CLP 104.258bn. Supports schwager_incimmet_chuqui_104bn_clp_2026.",
+    "supports": [
+      "schwager_incimmet_chuqui_104bn_clp_2026",
+      "hunt_cycle213"
+    ],
+    "map_supports": [
+      "schwager_incimmet_chuqui_104bn_clp_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "diario_comercio_graphcoa_jordania_700m",
+    "type": "press",
+    "chicago": "Diário do Comércio. “Graphcoa deve investir R$ 700 mi em planta de grafite em Minas.” https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/.",
+    "url": "https://diariodocomercio.com.br/economia/graphcoa-grafite-minas/",
+    "annotation": "Graphcoa Jordânia CapEx-fill ~R$700m (press). Supports graphcoa_jordania_dfs_capex_2026.",
+    "supports": [
+      "graphcoa_jordania_dfs_capex_2026",
+      "hunt_cycle213"
+    ],
+    "map_supports": [
+      "graphcoa_jordania_dfs_capex_2026"
+    ],
+    "layers": [
+      "resources"
     ]
   }
 ]
