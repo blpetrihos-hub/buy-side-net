@@ -11382,3 +11382,35 @@
   supports:
   - siemens_energy_petrobras_fpso_p81_p87_2026
   - hunt_cycle207
+- id: haitilibre_port_royal_terrier_rouge_20250909
+  type: press
+  chicago: 'HaitiLibre. “Haiti - FLASH : Launch of a $600M port project in Terrier Rouge.” September 9, 2025. https://www.haitilibre.com/en/news-45735-haiti-flash-launch-of-a-$600m-port-project-in-terrier-rouge.html.'
+  url: https://www.haitilibre.com/en/news-45735-haiti-flash-launch-of-a-$600m-port-project-in-terrier-rouge.html
+  annotation: PC Terminals Port Royal Chinourette Phase 1 USD 60m. Supports pc_terminals_port_royal_haiti_60m_2025.
+  supports:
+  - pc_terminals_port_royal_haiti_60m_2025
+  - hunt_cycle208
+- id: g1_alstom_salvador_metro_20260922
+  type: press
+  chicago: g1 BA. “Consórcio vence licitação para compra de trens em Salvador e Lauro.” September 22, 2026. https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml.
+  url: https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml
+  annotation: Alstom Salvador metro 10 trains R$632.7m CTB homologation. Supports alstom_salvador_metro_10trains_632p7m_2026.
+  supports:
+  - alstom_salvador_metro_10trains_632p7m_2026
+  - hunt_cycle208
+- id: acciona_roberto_marinho_20260115
+  type: company
+  chicago: ACCIONA. “ACCIONA awarded road link project in southern São Paulo.” January 15, 2026. https://www.acciona.com/updates/news/acciona-awarded-road-link-southern-sao-paulo.
+  url: https://www.acciona.com/updates/news/acciona-awarded-road-link-southern-sao-paulo
+  annotation: Acciona Roberto Marinho–Imigrantes R$2.099bn. Supports acciona_roberto_marinho_sp_2p099bn_2026.
+  supports:
+  - acciona_roberto_marinho_sp_2p099bn_2026
+  - hunt_cycle208
+- id: mop_panama_cuarto_puente_adenda_20230330
+  type: government
+  chicago: Ministerio de Obras Públicas (Panamá). “MOP y Consorcio Panamá Cuarto Puente (CPCP) firman adenda que permite continuar con la ejecución del proyecto Cuarto Puente sobre el Canal.” March 30, 2023. http://www.mop.gob.pa/index.php/prensa/sala-de-prensa/item/2885-mop-y-consorcio-panama-cuarto-puente-cpcp-firman-adenda-que-permite-continuar-con-la-ejecucion-del-proyecto-cuarto-puente-sobre-el-canal.
+  url: http://www.mop.gob.pa/index.php/prensa/sala-de-prensa/item/2885-mop-y-consorcio-panama-cuarto-puente-cpcp-firman-adenda-que-permite-continuar-con-la-ejecucion-del-proyecto-cuarto-puente-sobre-el-canal
+  annotation: MOP Panama Fourth Bridge adenda USD 1,372.1m. Supports chec_fourth_bridge_panama CapEx fill.
+  supports:
+  - chec_fourth_bridge_panama
+  - hunt_cycle208

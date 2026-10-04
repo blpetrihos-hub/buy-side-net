@@ -1,10 +1,10 @@
 {
   "id": "chec_fourth_bridge_panama",
-  "retrieved": "2026-10-01",
-  "source_id": "chec_americas_fourth_bridge",
-  "url": "https://www.checamerica.com/projects/",
-  "price_year": "2025",
+  "retrieved": "2026-10-04",
+  "source_id": "mop_panama_cuarto_puente_adenda_20230330",
+  "url": "http://www.mop.gob.pa/index.php/prensa/sala-de-prensa/item/2885-mop-y-consorcio-panama-cuarto-puente-cpcp-firman-adenda-que-permite-continuar-con-la-ejecucion-del-proyecto-cuarto-puente-sobre-el-canal",
+  "price_year": "2023",
   "evidence": "documented",
-  "quote": "The Fourth Bridge over the Panama Canal … three-span steel-concrete composite cable-stayed bridge, measuring 965 meters in total length (240m + 485m + 240m). The bridge features a distinctive H-shaped main tower standing approximately 186 meters tall, with a 75-meter navigation clearance",
-  "note": "Opened CHEC Americas projects page Fourth Bridge entry."
+  "quote": "La adenda incorpora modificaciones al contrato original para que el consorcio continúe con el diseño y construcción del proyecto por un valor neto de $1,372.1 millones, luego de separar su construcción de la Tercera Línea del Metro de Panamá. … La adenda incorpora también, la estructura de financiamiento del proyecto presentada por los bancos Santander, Mizuho y Banistmo por un costo aproximado de $716.5 millones … con un cronograma de pagos cuyos desembolsos inician en el año 2026",
+  "note": "Opened MOP Spanish press 2026-10-04; USD 1,372.1m net design+construction / Santander-Mizuho-Banistmo ~USD 716.5m financing / disbursements from 2026 confirmed. CapEx-fill upgrade of prior blank-value CHEC Americas row."
 }
