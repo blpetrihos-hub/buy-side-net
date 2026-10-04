@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1396,
+    "n_rows": 1401,
     "counts": {
-      "total": 1396,
-      "active": 1197,
+      "total": 1401,
+      "active": 1202,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 175,
       "exclude": 18,
-      "documented": 1146,
-      "on_map": 1074
+      "documented": 1151,
+      "on_map": 1077
     }
   },
   "layer_readouts": [
@@ -130,16 +130,16 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 144,
-        "n": 301
+        "allied": 145,
+        "n": 302
       },
       "usd": {
         "us": 28076323566.0,
         "us_n": 41,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 73052458653.2,
-        "allied_n": 58
+        "allied": 73332458653.2,
+        "allied_n": 59
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 146,
         "prc": 171,
-        "allied": 142,
-        "n": 459
+        "allied": 146,
+        "n": 463
       },
       "usd": {
         "us": 14676460515.13,
         "us_n": 41,
         "prc": 6785407871.900001,
         "prc_n": 32,
-        "allied": 12181700738.490002,
-        "allied_n": 55
+        "allied": 19025700738.49,
+        "allied_n": 57
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 97,
         "prc": 87,
-        "allied": 147,
-        "n": 331
+        "allied": 150,
+        "n": 334
       },
       "usd": {
         "us": 6067206020.549999,
         "us_n": 21,
         "prc": 2134529857.95,
         "prc_n": 17,
-        "allied": 8349359384.93,
-        "allied_n": 23
+        "allied": 15149359384.93,
+        "allied_n": 24
       },
       "by_layer": {
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 49
+          "allied": 52
         },
         "infrastructure": {
           "us": 54,
@@ -398,22 +398,22 @@
       "counts": {
         "us": 53,
         "prc": 42,
-        "allied": 76,
-        "n": 171
+        "allied": 78,
+        "n": 173
       },
       "usd": {
         "us": 25957000000.0,
         "us_n": 20,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 37094062361.0,
-        "allied_n": 39
+        "allied": 37418062361.0,
+        "allied_n": 41
       },
       "by_layer": {
         "energy": {
           "us": 32,
           "prc": 33,
-          "allied": 27
+          "allied": 28
         },
         "infrastructure": {
           "us": 9,
@@ -423,7 +423,7 @@
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 33
+          "allied": 34
         }
       }
     },
@@ -2385,7 +2385,12 @@
       "neoenergia_ilhabela_200m_brl_2026",
       "neoenergia_guara2_32m_brl_2026",
       "neoenergia_coelba_litoral_7bn_brl_2026",
-      "wabtec_vale_efc_msa_1p8bn_brl_2024"
+      "wabtec_vale_efc_msa_1p8bn_brl_2024",
+      "aguas_pacifico_aconcagua_exp_280m_2026",
+      "edp_punta_talca_bess_44m_chile_2026",
+      "hitachi_brazil_service_50m_brl_2026",
+      "enel_brasil_25p3bn_brl_2025_2027",
+      "enel_americas_brazil_grids_6p8bn_2026_28"
     ],
     "hunt": [
       "hunt_br_power_equip",

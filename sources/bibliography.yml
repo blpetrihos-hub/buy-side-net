@@ -4343,12 +4343,13 @@
   - hunt_infra_building_materials
 - id: bonatti_argentina_lng_20260730
   type: company
-  chicago: Bonatti S.p.A. “Bonatti, in Joint Venture with Pumpco, Has Been Awarded the EPC Contract for the Complete Pipeline System of the Argentina LNG Project.” 30 July 2026.
+  chicago: Bonatti. “Bonatti, in joint venture with Pumpco, has been awarded the Engineering, Procurement and Construction (EPC) contract for the complete pipeline system of the Argentina LNG project.” July 30, 2026. https://www.bonattinternational.com/bonatti-argentina-lng-project.
   url: https://www.bonattinternational.com/bonatti-argentina-lng-project
-  annotation: Bonatti primary on Pumpco JV Argentina LNG dual 527 km pipelines. Supports pumpco_bonatti_argentina_lng_epc_2026.
+  annotation: 'Pumpco–Bonatti Argentina LNG: CapEx upgrade ~USD 1.2bn proxy. Supports pumpco_bonatti_argentina_lng_epc_2026.'
   supports:
   - pumpco_bonatti_argentina_lng_epc_2026
   - hunt_infra_engineering_epc
+  - hunt_cycle202
 - id: zijin_la_arena_acquisition_20241106
   type: company
   chicago: Zijin Mining Group Co., Ltd. “Announcement in Relation to Acquisition of the La Arena Gold Mine and La Arena II Project in Peru.” 6 November 2024.
@@ -11221,3 +11222,43 @@
   supports:
   - aes_bolero_bess_146mw_chile_2025
   - hunt_cycle201
+- id: aguas_pacifico_aconcagua_rca_20260428
+  type: company
+  chicago: Aguas Pacífico. “Aguas Pacífico obtiene permiso ambiental para proyecto que aumenta la producción de agua desalinizada a 2000 l/s.” April 28, 2026. https://www.aguaspacifico.cl/noticias/aguas-pacfico-obtiene-permiso-ambiental-rcapara-proyecto-que-aumenta-la-produccinde-agua-desalinizada-a-2000-ls.
+  url: https://www.aguaspacifico.cl/noticias/aguas-pacfico-obtiene-permiso-ambiental-rcapara-proyecto-que-aumenta-la-produccinde-agua-desalinizada-a-2000-ls
+  annotation: 'Aguas Pacífico Aconcagua expansion: USD 280m. Supports aguas_pacifico_aconcagua_exp_280m_2026.'
+  supports:
+  - aguas_pacifico_aconcagua_exp_280m_2026
+  - hunt_cycle202
+- id: edp_punta_talca_bess_20260611
+  type: company
+  chicago: EDP. “EDP begins operations at its first storage complex in South America.” June 11, 2026. https://edp.com/en/america-do-sul/brasil/imprensa/noticias/edp-inicia-operacoes-de-seu-primeiro-complexo-de-baterias-america-do-sul.
+  url: https://edp.com/en/america-do-sul/brasil/imprensa/noticias/edp-inicia-operacoes-de-seu-primeiro-complexo-de-baterias-america-do-sul
+  annotation: 'EDP Punta de Talca BESS: USD 44m. Supports edp_punta_talca_bess_44m_chile_2026.'
+  supports:
+  - edp_punta_talca_bess_44m_chile_2026
+  - hunt_cycle202
+- id: hitachi_brazil_service_20260520
+  type: company
+  chicago: Hitachi Energy. “Hitachi Energy announces new R$50 million ($11 million USD) investment to accelerate Brazil’s grid modernization.” May 20, 2026. https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/05/hitachi-energy-announces-new-r-50-million-11-million-usd-investment-to-accelerate-brazil-s-grid-modernization.
+  url: https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/05/hitachi-energy-announces-new-r-50-million-11-million-usd-investment-to-accelerate-brazil-s-grid-modernization
+  annotation: 'Hitachi Brazil Service: R$50m. Supports hitachi_brazil_service_50m_brl_2026.'
+  supports:
+  - hitachi_brazil_service_50m_brl_2026
+  - hunt_cycle202
+- id: enel_brasil_25p3bn_2025
+  type: company
+  chicago: Enel Brasil. “Enel anuncia investimento de R$ 25 bilhões no Brasil.” https://www.enel.com.br/pt/midia/news/d2025-1/Enel-anuncia-investimento-de-R$-25bilhoes-no-Brasil.html.
+  url: https://www.enel.com.br/pt/midia/news/d2025-1/Enel-anuncia-investimento-de-R$-25bilhoes-no-Brasil.html
+  annotation: 'Enel Brasil: R$25.3bn 2025–2027. Supports enel_brasil_25p3bn_brl_2025_2027.'
+  supports:
+  - enel_brasil_25p3bn_brl_2025_2027
+  - hunt_cycle202
+- id: enel_americas_plan_2026_28
+  type: company
+  chicago: Enel Américas. “2025 Results & 2026–2028 Strategic Plan.” February 2026. https://www.enelamericas.com/content/dam/enel-americas/investor/strategic-plan/2026/2025-Results-2026-2028-Strategic-Plan-presentation1.pdf.
+  url: https://www.enelamericas.com/content/dam/enel-americas/investor/strategic-plan/2026/2025-Results-2026-2028-Strategic-Plan-presentation1.pdf
+  annotation: 'Enel Américas Brazil grids: USD 6.8bn 2026–28. Supports enel_americas_brazil_grids_6p8bn_2026_28.'
+  supports:
+  - enel_americas_brazil_grids_6p8bn_2026_28
+  - hunt_cycle202
