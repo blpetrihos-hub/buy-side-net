@@ -20084,5 +20084,75 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "minpre_google_digital_port_20260219",
+    "type": "government",
+    "chicago": "Ministerio de la Presidencia de la República Dominicana. “Google construirá un puerto internacional de intercambio digital en RD.” February 19, 2026. https://minpre.gob.do/comunicacion/notas-de-prensa/google-construira-un-puerto-internacional-de-intercambio-digital-en-rd/.",
+    "url": "https://minpre.gob.do/comunicacion/notas-de-prensa/google-construira-un-puerto-internacional-de-intercambio-digital-en-rd/",
+    "annotation": "Minpre: Google DR Digital Port phase-1 >USD 500m. Supports google_dr_digital_port_500m_2026.",
+    "supports": [
+      "google_dr_digital_port_500m_2026",
+      "hunt_cycle196"
+    ],
+    "map_supports": [
+      "google_dr_digital_port_500m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "aligned_odata_green_financing_20250904",
+    "type": "company",
+    "chicago": "Aligned Data Centers. “ODATA Secures Landmark Green Financing, Setting New Standard for Latin American Data Centers.” September 4, 2025. https://aligneddc.com/press-release/odata-secures-landmark-green-financing/.",
+    "url": "https://aligneddc.com/press-release/odata-secures-landmark-green-financing/",
+    "annotation": "Aligned/ODATA: USD 1.02bn green financing LatAm DCs. Supports odata_aligned_green_financing_1p02bn_2025.",
+    "supports": [
+      "odata_aligned_green_financing_1p02bn_2025",
+      "hunt_cycle196"
+    ],
+    "map_supports": [
+      "odata_aligned_green_financing_1p02bn_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "vli_fca_1p2bn_20260205",
+    "type": "company",
+    "chicago": "VLI Logística. “VLI mantém investimento na FCA acima de R$ 1 bilhão pelo quarto ano consecutivo.” February 5, 2026. https://www.vli-logistica.com.br/vli-mantem-investimento-na-fca-acima-de-r-1-bilhao-pelo-quarto-ano-consecutivo/.",
+    "url": "https://www.vli-logistica.com.br/vli-mantem-investimento-na-fca-acima-de-r-1-bilhao-pelo-quarto-ano-consecutivo/",
+    "annotation": "VLI: FCA 2026 CapEx ~R$1.2bn. Supports vli_fca_capex_1p2bn_brl_2026.",
+    "supports": [
+      "vli_fca_capex_1p2bn_brl_2026",
+      "hunt_cycle196"
+    ],
+    "map_supports": [
+      "vli_fca_capex_1p2bn_brl_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cpfl_fy2025_results_20260306",
+    "type": "company",
+    "chicago": "CPFL Energia. “CPFL Energia registra EBITDA de R$ 13,5 bilhões em 2025 e investimento recorde de R$ 6,1 bilhões.” March 6, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61.",
+    "url": "https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61",
+    "annotation": "CPFL: 2026–2030 CapEx plan R$31.1bn. Supports cpfl_capex_plan_31p1bn_2026_2030.",
+    "supports": [
+      "cpfl_fy2025_capex_6p1bn_brl",
+      "hunt_cycle196",
+      "cpfl_capex_plan_31p1bn_2026_2030"
+    ],
+    "map_supports": [
+      "cpfl_capex_plan_31p1bn_2026_2030",
+      "cpfl_fy2025_capex_6p1bn_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

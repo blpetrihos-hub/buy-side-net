@@ -87,17 +87,17 @@
     }
   },
   "meta": {
-    "n_rows": 1361,
+    "n_rows": 1366,
     "counts": {
-      "total": 1361,
-      "active": 1162,
+      "total": 1366,
+      "active": 1167,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1110,
+      "documented": 1115,
       "on_map": 1057
     }
   },
@@ -105,14 +105,14 @@
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 153,
+        "us": 155,
         "prc": 125,
-        "allied": 144,
-        "n": 422
+        "allied": 145,
+        "n": 425
       },
       "usd": {
-        "us": 15912730640.119999,
-        "us_n": 73,
+        "us": 17432730640.12,
+        "us_n": 75,
         "prc": 11210642629.330002,
         "prc_n": 29,
         "allied": 17358258000.0,
@@ -154,9 +154,9 @@
       "layer": "energy",
       "counts": {
         "us": 146,
-        "prc": 167,
+        "prc": 169,
         "allied": 131,
-        "n": 444
+        "n": 446
       },
       "usd": {
         "us": 14676460515.13,
@@ -362,14 +362,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 92,
-        "prc": 83,
-        "allied": 131,
-        "n": 306
+        "us": 93,
+        "prc": 85,
+        "allied": 132,
+        "n": 310
       },
       "usd": {
-        "us": 4047206020.5499997,
-        "us_n": 19,
+        "us": 5067206020.549999,
+        "us_n": 20,
         "prc": 2134529857.95,
         "prc_n": 17,
         "allied": 4439359384.93,
@@ -378,13 +378,13 @@
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 50,
+          "prc": 52,
           "allied": 40
         },
         "infrastructure": {
-          "us": 49,
+          "us": 50,
           "prc": 24,
-          "allied": 36
+          "allied": 37
         },
         "resources": {
           "us": 26,
@@ -561,14 +561,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 12,
+        "us": 13,
         "prc": 3,
         "allied": 7,
-        "n": 22
+        "n": 23
       },
       "usd": {
-        "us": 1068934461.5699999,
-        "us_n": 7,
+        "us": 1568934461.57,
+        "us_n": 8,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -581,7 +581,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 1,
+          "us": 2,
           "prc": 3,
           "allied": 3
         },
@@ -2350,7 +2350,12 @@
       "sgbh_gate_uhv_18bn_brl_2025",
       "portonave_ertg_210m_brl_2026",
       "codelco_fy2025_capex_5073m",
-      "holcim_zapopan_electric_51m_mxn_2025"
+      "holcim_zapopan_electric_51m_mxn_2025",
+      "google_dr_digital_port_500m_2026",
+      "odata_aligned_green_financing_1p02bn_2025",
+      "vli_fca_capex_1p2bn_brl_2026",
+      "cpfl_fy2025_capex_6p1bn_brl",
+      "cpfl_capex_plan_31p1bn_2026_2030"
     ],
     "hunt": [
       "hunt_br_power_equip",
