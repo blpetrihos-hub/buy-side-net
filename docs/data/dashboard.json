@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1406,
+    "n_rows": 1410,
     "counts": {
-      "total": 1406,
-      "active": 1207,
+      "total": 1410,
+      "active": 1211,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 175,
       "exclude": 18,
-      "documented": 1156,
-      "on_map": 1082
+      "documented": 1160,
+      "on_map": 1086
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 161,
         "prc": 125,
-        "allied": 152,
-        "n": 438
+        "allied": 153,
+        "n": 439
       },
       "usd": {
         "us": 19487730640.12,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 146,
-        "n": 303
+        "allied": 147,
+        "n": 304
       },
       "usd": {
         "us": 28076323566.0,
         "us_n": 41,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 73792458653.2,
-        "allied_n": 60
+        "allied": 74517458653.2,
+        "allied_n": 61
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 147,
         "prc": 171,
-        "allied": 146,
-        "n": 464
+        "allied": 148,
+        "n": 466
       },
       "usd": {
         "us": 14676460515.13,
         "us_n": 41,
         "prc": 6785407871.900001,
         "prc_n": 32,
-        "allied": 19025700738.49,
-        "allied_n": 57
+        "allied": 19116684738.49,
+        "allied_n": 58
       },
       "matched_gaps": {
         "n": 1,
@@ -364,8 +364,8 @@
       "counts": {
         "us": 97,
         "prc": 87,
-        "allied": 151,
-        "n": 335
+        "allied": 152,
+        "n": 336
       },
       "usd": {
         "us": 6067206020.549999,
@@ -379,7 +379,7 @@
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 52
+          "allied": 53
         },
         "infrastructure": {
           "us": 54,
@@ -398,16 +398,16 @@
       "counts": {
         "us": 53,
         "prc": 42,
-        "allied": 79,
-        "n": 174
+        "allied": 80,
+        "n": 175
       },
       "usd": {
         "us": 25957000000.0,
         "us_n": 20,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 37878062361.0,
-        "allied_n": 42
+        "allied": 38603062361.0,
+        "allied_n": 43
       },
       "by_layer": {
         "energy": {
@@ -423,7 +423,7 @@
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 35
+          "allied": 36
         }
       }
     },
@@ -466,22 +466,22 @@
       "counts": {
         "us": 3,
         "prc": 5,
-        "allied": 5,
-        "n": 13
+        "allied": 6,
+        "n": 14
       },
       "usd": {
         "us": 15000000.0,
         "us_n": 1,
         "prc": 465593387.0,
         "prc_n": 1,
-        "allied": 757500000.0,
-        "allied_n": 3
+        "allied": 848484000.0,
+        "allied_n": 4
       },
       "by_layer": {
         "energy": {
           "us": 3,
           "prc": 1,
-          "allied": 3
+          "allied": 4
         },
         "infrastructure": {
           "us": 0,
@@ -946,8 +946,8 @@
       "counts": {
         "us": 2,
         "prc": 0,
-        "allied": 12,
-        "n": 14
+        "allied": 13,
+        "n": 15
       },
       "usd": {
         "us": 187669691.03,
@@ -966,7 +966,7 @@
         "infrastructure": {
           "us": 1,
           "prc": 0,
-          "allied": 7
+          "allied": 8
         },
         "resources": {
           "us": 1,
@@ -2395,7 +2395,11 @@
       "ohla_accesos_norte_fase2_1p7tn_2026",
       "konecranes_transtec_eace_santos_2026",
       "ge_vernova_corpoelec_venezuela_grid_2026",
-      "sacyr_antofagasta_reuse_financing_460m_2026"
+      "sacyr_antofagasta_reuse_financing_460m_2026",
+      "liebherr_psf_paraguay_fcc280_2026",
+      "aldesa_abangares_solar_80m_eur_2026",
+      "kghm_sierra_gorda_4th_line_725m_2026",
+      "statkraft_gran_sul_280mw_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

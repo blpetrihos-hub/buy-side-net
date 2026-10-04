@@ -20778,5 +20778,73 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "liebherr_psf_fcc280_20260526",
+    "type": "company",
+    "chicago": "Liebherr. “Liebherr delivers electric-powered FCC 280 to Paraguay’s leading terminal.” May 26, 2026. https://www.liebherr.com/en-gb/n/liebherr-delivers-electric-powered-fcc-280-to-paraguay%e2%80%99s-leading-terminal-260928-4715716.",
+    "url": "https://www.liebherr.com/en-gb/n/liebherr-delivers-electric-powered-fcc-280-to-paraguay%e2%80%99s-leading-terminal-260928-4715716",
+    "annotation": "Liebherr FCC 280 electric for Puerto Seguro Fluvial; CapEx blank. Supports liebherr_psf_paraguay_fcc280_2026.",
+    "supports": [
+      "liebherr_psf_paraguay_fcc280_2026",
+      "hunt_cycle205"
+    ],
+    "map_supports": [
+      "liebherr_psf_paraguay_fcc280_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "aldesa_abangares_20260924",
+    "type": "company",
+    "chicago": "Aldesa. “Aldesa awarded Costa Rica’s largest solar park in an €80 million project.” September 24, 2026. https://aldesa.com/en/aldesa-se-adjudica-el-mayor-parque-solar-de-costa-rica-por-80-millones-de-euros/.",
+    "url": "https://aldesa.com/en/aldesa-se-adjudica-el-mayor-parque-solar-de-costa-rica-por-80-millones-de-euros/",
+    "annotation": "Aldesa Abangares solar EPC: EUR 80m / 86.3 MWp. Supports aldesa_abangares_solar_80m_eur_2026.",
+    "supports": [
+      "aldesa_abangares_solar_80m_eur_2026",
+      "hunt_cycle205"
+    ],
+    "map_supports": [
+      "aldesa_abangares_solar_80m_eur_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "kghm_sierra_gorda_725m_20261002",
+    "type": "company",
+    "chicago": "KGHM Polska Miedź S.A. “KGHM Polska Miedź S.A. is launching an expansion of the Sierra Gorda mine worth USD 725 million.” October 2, 2026. https://media.kghm.com/en/news-and-press-releases/kghm-polska-miedz-s-a-is-launching-an-expansion-of-the-sierra-gorda-mine-worth-usd-725-million.",
+    "url": "https://media.kghm.com/en/news-and-press-releases/kghm-polska-miedz-s-a-is-launching-an-expansion-of-the-sierra-gorda-mine-worth-usd-725-million",
+    "annotation": "KGHM/South32 Sierra Gorda 4th grinding line: USD 725m. Supports kghm_sierra_gorda_4th_line_725m_2026.",
+    "supports": [
+      "kghm_sierra_gorda_4th_line_725m_2026",
+      "hunt_cycle205"
+    ],
+    "map_supports": [
+      "kghm_sierra_gorda_4th_line_725m_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "statkraft_gran_sul_20260708",
+    "type": "company",
+    "chicago": "Statkraft AS. “Statkraft to invest in 280 MW wind project in Brazil.” July 8, 2026. https://www.globenewswire.com/news-release/2026/07/08/3323837/0/en/Statkraft-to-invest-in-280-MW-wind-project-in-Brazil.html.",
+    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323837/0/en/Statkraft-to-invest-in-280-MW-wind-project-in-Brazil.html",
+    "annotation": "Statkraft Gran Sul 280 MW FID; CapEx blank. Supports statkraft_gran_sul_280mw_2026.",
+    "supports": [
+      "statkraft_gran_sul_280mw_2026",
+      "hunt_cycle205"
+    ],
+    "map_supports": [
+      "statkraft_gran_sul_280mw_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
