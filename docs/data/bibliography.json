@@ -19670,5 +19670,92 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "cpac_sec_6k_4q25_capex",
+    "type": "sec",
+    "chicago": "Cementos Pacasmayo S.A.A. “Consolidated Results for the Fourth Quarter and Year 2025” (Form 6-K Exhibit 99.1). February 12, 2026. https://www.sec.gov/Archives/edgar/data/1221029/000121390026015786/ea027662101ex99-1_cementos.htm.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1221029/000121390026015786/ea027662101ex99-1_cementos.htm",
+    "annotation": "SEC 6-K: Pacasmayo FY2025 CapEx S/144.3m. Supports pacasmayo_capex_144p3m_pen_2025.",
+    "supports": [
+      "pacasmayo_capex_144p3m_pen_2025",
+      "hunt_cycle192"
+    ],
+    "map_supports": [
+      "pacasmayo_capex_144p3m_pen_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ascenty_spo05_spo06_campus",
+    "type": "company",
+    "chicago": "Ascenty. “Ascenty expands 60 MW São Paulo campus as SPO05 begins operations and SPO06 construction advances.” 2026. https://ascenty.com/en/blog/news-ascenty-en/ascenty-sao-paulo-campus/.",
+    "url": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-sao-paulo-campus/",
+    "annotation": "Ascenty: SPO06 R$600m. Supports ascenty_spo06_600m_brl_2026.",
+    "supports": [
+      "ascenty_spo05_300m_brl_2025",
+      "hunt_cycle192",
+      "ascenty_spo06_600m_brl_2026"
+    ],
+    "map_supports": [
+      "ascenty_spo05_300m_brl_2025",
+      "ascenty_spo06_600m_brl_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "forbes_ec_novopan_biomasa_20250723",
+    "type": "press",
+    "chicago": "Forbes Ecuador. “Novopan inauguró su planta de biomasa; invirtió US$ 16 millones.” July 23, 2025. https://www.forbes.com.ec/innovacion/novopan-inauguro-su-planta-biomasa-invirtio-us-16-millones-n75731.",
+    "url": "https://www.forbes.com.ec/innovacion/novopan-inauguro-su-planta-biomasa-invirtio-us-16-millones-n75731",
+    "annotation": "Forbes EC proxy: Novopan biomass ~USD 16m. Supports novopan_biomasa_16m_2025.",
+    "supports": [
+      "novopan_biomasa_16m_2025",
+      "hunt_cycle192"
+    ],
+    "map_supports": [
+      "novopan_biomasa_16m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "canalsolar_aggreko_216m_20260204",
+    "type": "press",
+    "chicago": "Guerra, Raphael. “Aggreko announces a US$216 million investment in Latin America in 2026.” Canal Solar, February 4, 2026. https://canalsolar.com.br/en/Aggreko-Millions-Latin-America-2026/.",
+    "url": "https://canalsolar.com.br/en/Aggreko-Millions-Latin-America-2026/",
+    "annotation": "Canal Solar proxy: Aggreko LatAm CapEx USD 216m. Supports aggreko_latam_capex_216m_2026.",
+    "supports": [
+      "aggreko_latam_capex_216m_2026",
+      "hunt_cycle192"
+    ],
+    "map_supports": [
+      "aggreko_latam_capex_216m_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "eleconomista_comsa_qi_t3_20260215",
+    "type": "press",
+    "chicago": "El Economista. “Consorcio de COMSA gana tramo 3 del tren Querétaro-Irapuato.” February 15, 2026. https://www.eleconomista.com.mx/empresas/consorcio-comsa-gana-tramo-3-tren-queretaro-irapuato-20260215-800027.html.",
+    "url": "https://www.eleconomista.com.mx/empresas/consorcio-comsa-gana-tramo-3-tren-queretaro-irapuato-20260215-800027.html",
+    "annotation": "El Economista: COMSA QI Tramo III MXN 3,411.8m. Supports comsa_qi_tramo3_3411p8m_mxn_2026.",
+    "supports": [
+      "comsa_qi_tramo3_3411p8m_mxn_2026",
+      "hunt_cycle192"
+    ],
+    "map_supports": [
+      "comsa_qi_tramo3_3411p8m_mxn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
