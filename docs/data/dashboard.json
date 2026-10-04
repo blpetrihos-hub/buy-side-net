@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1410,
+    "n_rows": 1413,
     "counts": {
-      "total": 1410,
-      "active": 1211,
+      "total": 1413,
+      "active": 1214,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 175,
       "exclude": 18,
-      "documented": 1160,
-      "on_map": 1086
+      "documented": 1163,
+      "on_map": 1089
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 161,
         "prc": 125,
-        "allied": 153,
-        "n": 439
+        "allied": 154,
+        "n": 440
       },
       "usd": {
         "us": 19487730640.12,
         "us_n": 78,
         "prc": 11210642629.330002,
         "prc_n": 29,
-        "allied": 18198358000.0,
-        "allied_n": 49
+        "allied": 18424623324.0,
+        "allied_n": 50
       },
       "matched_gaps": {
         "n": 1,
@@ -130,8 +130,8 @@
       "counts": {
         "us": 87,
         "prc": 70,
-        "allied": 147,
-        "n": 304
+        "allied": 148,
+        "n": 305
       },
       "usd": {
         "us": 28076323566.0,
@@ -155,8 +155,8 @@
       "counts": {
         "us": 147,
         "prc": 171,
-        "allied": 148,
-        "n": 466
+        "allied": 149,
+        "n": 467
       },
       "usd": {
         "us": 14676460515.13,
@@ -364,27 +364,27 @@
       "counts": {
         "us": 97,
         "prc": 87,
-        "allied": 152,
-        "n": 336
+        "allied": 154,
+        "n": 338
       },
       "usd": {
         "us": 6067206020.549999,
         "us_n": 21,
         "prc": 2134529857.95,
         "prc_n": 17,
-        "allied": 15149359384.93,
-        "allied_n": 24
+        "allied": 15375624708.93,
+        "allied_n": 25
       },
       "by_layer": {
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 53
+          "allied": 54
         },
         "infrastructure": {
           "us": 54,
           "prc": 24,
-          "allied": 41
+          "allied": 42
         },
         "resources": {
           "us": 26,
@@ -398,8 +398,8 @@
       "counts": {
         "us": 53,
         "prc": 42,
-        "allied": 80,
-        "n": 175
+        "allied": 81,
+        "n": 176
       },
       "usd": {
         "us": 25957000000.0,
@@ -423,7 +423,7 @@
         "resources": {
           "us": 12,
           "prc": 2,
-          "allied": 36
+          "allied": 37
         }
       }
     },
@@ -2399,7 +2399,10 @@
       "liebherr_psf_paraguay_fcc280_2026",
       "aldesa_abangares_solar_80m_eur_2026",
       "kghm_sierra_gorda_4th_line_725m_2026",
-      "statkraft_gran_sul_280mw_2026"
+      "statkraft_gran_sul_280mw_2026",
+      "konecranes_axia_manso_mascarenhas_2026",
+      "deme_paranagua_channel_1p22bn_brl_2025",
+      "rio_tinto_codelco_maricunga_ceol_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

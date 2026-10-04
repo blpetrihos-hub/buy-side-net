@@ -20846,5 +20846,56 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "konecranes_axia_hydro_20260715",
+    "type": "company",
+    "chicago": "Konecranes. “Konecranes to modernize cranes at two AXIA Energia hydropower plants in Brazil.” July 15, 2026. https://investors.konecranes.com/press/konecranes-modernize-cranes-two-axia-energia-hydropower-plants-brazil-2469123.",
+    "url": "https://investors.konecranes.com/press/konecranes-modernize-cranes-two-axia-energia-hydropower-plants-brazil-2469123",
+    "annotation": "Konecranes AXIA Manso/Mascarenhas hydro crane mods; CapEx blank. Supports konecranes_axia_manso_mascarenhas_2026.",
+    "supports": [
+      "konecranes_axia_manso_mascarenhas_2026",
+      "hunt_cycle206"
+    ],
+    "map_supports": [
+      "konecranes_axia_manso_mascarenhas_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "agencia_brasil_paranagua_channel_20251022",
+    "type": "government",
+    "chicago": "Agência Brasil. “Porto de Paranaguá é concedido ao Consórcio Canal Galheta Dragagem.” October 22, 2025. https://agenciabrasil.ebc.com.br/economia/noticia/2025-10/porto-de-paranagua-e-concedido-ao-consorcio-canal-galheta-dragagem.",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-10/porto-de-paranagua-e-concedido-ao-consorcio-canal-galheta-dragagem",
+    "annotation": "DEME/FTS Paranaguá channel concession CapEx R$1.22bn / 5yr. Supports deme_paranagua_channel_1p22bn_brl_2025.",
+    "supports": [
+      "deme_paranagua_channel_1p22bn_brl_2025",
+      "hunt_cycle206"
+    ],
+    "map_supports": [
+      "deme_paranagua_channel_1p22bn_brl_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "codelco_maricunga_ceol_20260212",
+    "type": "company",
+    "chicago": "Codelco. “Codelco obtains the definitive CEOL for lithium development in the Maricunga Salt Flat.” February 12, 2026. https://www.codelco.com/en/codelco-obtiene-el-ceol-definitivo-para-el-desarrollo-del-litio-en-el.",
+    "url": "https://www.codelco.com/en/codelco-obtiene-el-ceol-definitivo-para-el-desarrollo-del-litio-en-el",
+    "annotation": "Codelco–Rio Tinto Maricunga CEOL amendment; CapEx blank pending JV. Supports rio_tinto_codelco_maricunga_ceol_2026.",
+    "supports": [
+      "rio_tinto_codelco_maricunga_ceol_2026",
+      "hunt_cycle206"
+    ],
+    "map_supports": [
+      "rio_tinto_codelco_maricunga_ceol_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
