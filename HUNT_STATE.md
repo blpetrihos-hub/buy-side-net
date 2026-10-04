@@ -1,97 +1,102 @@
 updated: 2026-10-04
-cycle: 215
+cycle: 216
 remote: present
 active_layer: energy
 active_subcategory: fission_smr
-next_query: Cycle 216 shuffle_seed=20261216; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us396/prc368/allied383); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed. No U.S. territories.
-next_row_id: (follow cycle-216 shuffled_order)
+next_query: Cycle 217 shuffle_seed=20261217; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us396/prc368/allied385); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed. No U.S. territories.
+next_row_id: (follow cycle-217 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 215) ===
-# Filled this cycle: Peru×water (allied FCC Aqualia PTAR Cajamarca USD 123.3m),
-#   Chile×copper (other Codelco FY2026 Inversión Real USD 3.289bn; ENAMI Nueva
-#   Paipote USD 1.7bn), Brazil×port_cranes CapEx-fill (allied Konecranes Portonave
-#   14 e-RTG USD 37.8m).
+# === Country×subcategory sweep cells touched (session continuing from 216) ===
+# Filled this cycle: Brazil×engineering_epc (allied Siemens Energy Seatrium P-84/P-85
+#   ~R$2bn), Brazil×nickel CapEx-fill (allied Atlantic Nickel UG USD 630m),
+#   Chile×bridges_roads CapEx-fill (allied Sacyr Ruta 57 UF 23.153m), Peru×port_ownership
+#   (allied DP World Callao Shore Power USD 3.69m), Brazil×power_plants_grid CapEx-fill
+#   (us GE Vernova São Simão ~USD 231.12m via Fed H.10).
 # Still thin/empty priority cells: Haiti (beyond Port Royal/RN2/WB/IDB/Solengy),
 #   Venezuela (beyond hydro rehab + GE Vernova grid MoU + El Vigía solar), Nicaragua rail past MoU,
 #   Peru balsa, Colombia graphite mine CapEx.
-# ≥1/3 U.S. hunt budget spent (EnergyX Black Giant/EXIM Argentina/Freeport El Abra/
-#   Array Lupi/Nextracker/AES Andes Hub/Bechtel QB2 desal blank/Fluor Quellaveco/
-#   Wabtec/GE Vernova/USTDA/Equinix/SSA Marine sweeps — 0 new U.S. rows; catalog dense).
-# PRC equal-budget: Zijin Liex RIGI / Goldwind Sento Sé / CAMCE Bluefields / ZPMC
-#   Tecon Santos / PowerChina Vicuña already logged; holdovers unsigned.
+# ≥1/3 U.S. hunt budget spent (GE Vernova São Simão CapEx-fill + Freeport El Abra/
+#   EnergyX/EXIM/Bechtel EIMISA/Fluor Quellaveco/Wabtec/Nextracker/Array Lupi/
+#   USTDA/Equinix/SSA Marine sweeps — 1 US CapEx-fill; catalog dense).
+# PRC equal-budget: Goldwind Sento Sé / PowerChina Conchagua / CAMCE Bluefields /
+#   ZPMC / CCCC El Barro already logged; holdovers unsigned.
 
-# === Cycle 215 (seed 20261215) ===
-# Shuffled order (BRIEF.md numbered + Random(20261215).shuffle): lithium,
-#   port_cranes, other_renewables, nickel, solar, port_ownership, niobium,
-#   power_plants_grid, rail, water, engineering_epc, graphite, fission_smr,
-#   copper, building_materials, wind, bridges_roads, balsa.
-# Logged 3 new + 1 CapEx-fill upgrade (0 US / 0 PRC / 2 allied / 2 other;
-#   ≥1/3 US hunt budget spent):
-#   allied water: aqualia_ptar_cajamarca_123m_2026 (USD 123.3m).
-#   other copper: codelco_fy2026_capex_3289m (USD 3.289bn Inversión Real).
-#   other copper: enami_nueva_paipote_1700m_2025 (USD 1.7bn).
-#   allied port_cranes CapEx-fill: konecranes_portonave_rtg_2025 (USD 37.8m).
-# Thin top-up (balsa/nickel/fission_smr): all dry.
-# Equal-budget misses: lithium, other_renewables, nickel, solar, port_ownership,
-#   niobium, power_plants_grid, rail, engineering_epc, graphite, fission_smr,
-#   building_materials, wind, bridges_roads, balsa (catalog dense; EnergyX/
-#   POSCO IDB / Zijin Liex / ISA / ENGIE Peru / Meitner / Plantabal /
-#   Atlantic Nickel already logged; holdovers unsigned).
+# === Cycle 216 (seed 20261216) ===
+# Shuffled order (BRIEF.md numbered + Random(20261216).shuffle): engineering_epc,
+#   port_cranes, power_plants_grid, bridges_roads, wind, balsa, port_ownership,
+#   building_materials, other_renewables, niobium, copper, graphite, fission_smr,
+#   nickel, water, lithium, solar, rail.
+# Logged 2 new + 3 CapEx-fill upgrades (1 US CapEx-fill / 0 PRC / 4 allied incl.
+#   CapEx-fills; ≥1/3 US hunt budget spent):
+#   allied engineering_epc: siemens_energy_seatrium_p84_p85_2bn_2025 (~R$2bn / ~USD 385.2m).
+#   allied nickel CapEx-fill: atlantic_nickel_ug_capex_2026 (USD 630m).
+#   allied bridges_roads CapEx-fill: sacyr_ruta57_best_offer_2026 (UF 23.153m).
+#   allied port_ownership: dpworld_callao_shore_power_3p69m_2026 (USD 3.69m).
+#   us power_plants_grid CapEx-fill: ge_vernova_sao_simao_ug3_2026 (~USD 231.12m).
+# Thin top-up (balsa/nickel/fission_smr): nickel CapEx-fill only; balsa/fission dry.
+# Equal-budget misses: port_cranes, wind, balsa, building_materials, other_renewables,
+#   niobium, copper, graphite, fission_smr, water, lithium, solar, rail (catalog dense;
+#   APM/Konecranes/Vestas/Goldwind/CBMM/Graphcoa/SQM/EnergyX/holdovers already logged).
 # Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km package decree;
 #   CCECC Nicaragua rail still prefeasibility/feasibility; CHEC San Carlos
 #   central still pre-contract.
-# Active after cycle 215: us396 / prc368 / allied383 / other90 (n=1237).
-shuffle_seed: 20261215
+# Active after cycle 216: us396 / prc368 / allied385 / other90 (n=1239).
+shuffle_seed: 20261216
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- resources/lithium
-- infrastructure/port_cranes
-- energy/other_renewables
-- resources/nickel
-- energy/solar
-- infrastructure/port_ownership
-- resources/niobium
-- energy/power_plants_grid
-- infrastructure/rail
-- resources/water
 - infrastructure/engineering_epc
+- infrastructure/port_cranes
+- energy/power_plants_grid
+- infrastructure/bridges_roads
+- energy/wind
+- resources/balsa
+- infrastructure/port_ownership
+- infrastructure/building_materials
+- energy/other_renewables
+- resources/niobium
+- resources/copper
 - resources/graphite
 - energy/fission_smr
-- resources/copper
-- infrastructure/building_materials
-- energy/wind
-- infrastructure/bridges_roads
-- resources/balsa
+- resources/nickel
+- resources/water
+- resources/lithium
+- energy/solar
+- infrastructure/rail
 rows_found_this_cycle:
-  resources/lithium: 0
-  infrastructure/port_cranes: 1
+  infrastructure/engineering_epc: 1
+  infrastructure/port_cranes: 0
+  energy/power_plants_grid: 1
+  infrastructure/bridges_roads: 1
+  energy/wind: 0
+  resources/balsa: 0
+  infrastructure/port_ownership: 1
+  infrastructure/building_materials: 0
   energy/other_renewables: 0
-  resources/nickel: 0
-  energy/solar: 0
-  infrastructure/port_ownership: 0
   resources/niobium: 0
-  energy/power_plants_grid: 0
-  infrastructure/rail: 0
-  resources/water: 1
-  infrastructure/engineering_epc: 0
+  resources/copper: 0
   resources/graphite: 0
   energy/fission_smr: 0
-  resources/copper: 2
-  infrastructure/building_materials: 0
-  energy/wind: 0
-  infrastructure/bridges_roads: 0
-  resources/balsa: 0
+  resources/nickel: 1
+  resources/water: 0
+  resources/lithium: 0
+  energy/solar: 0
+  infrastructure/rail: 0
 rows_by_side_this_cycle:
-  us: 0
+  us: 1
   prc: 0
-  allied: 2
-  other: 2
+  allied: 4
+  other: 0
 thin_topup_after_shuffle:
 - resources/balsa
 - resources/nickel
 - energy/fission_smr
-thin_topup_rows: 0
+thin_topup_rows: 1
+
+# === Cycle 215 (seed 20261215) — prior ===
+# Logged 3 new + 1 CapEx-fill: Aqualia Cajamarca USD 123.3m; Codelco FY2026 USD 3.289bn;
+#   ENAMI Paipote USD 1.7bn; Konecranes Portonave CapEx-fill USD 37.8m.
+# Active after 215: us396/prc368/allied383/other90 (n=1237).
 
 # === Cycle 214 (seed 20261214) — prior ===
 # Logged 2 new + 1 CapEx-fill: ENGIE Peru USD 339.36m CapEx-fill; ISA COP 6.3tn;
