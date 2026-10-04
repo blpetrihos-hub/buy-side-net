@@ -2780,12 +2780,13 @@
   {
     "id": "gauchazh_tecon_rg_zpmc_20260918",
     "type": "press",
-    "chicago": "GaúchaZH / Zero Hora. “Tecon Rio Grande recebe R$ 290 milhões em equipamentos para movimentação de contêineres.” 18 September 2026.",
+    "chicago": "GaúchaZH / Zero Hora. “Tecon Rio Grande recebe R$ 290 milhões em equipamentos para movimentação de contêineres.” September 18, 2026. https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/09/tecon-rio-grande-recebe-r-290-milhoes-em-equipamentos-para-movimentacao-de-conteineres-cmu738bdl01v1014x2r640dlr.html.",
     "url": "https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/09/tecon-rio-grande-recebe-r-290-milhoes-em-equipamentos-para-movimentacao-de-conteineres-cmu738bdl01v1014x2r640dlr.html",
-    "annotation": "Local press on Tecon Rio Grande ZPMC STS/aRTG delivery. Supports zpmc_tecon_rio_grande_2026 (UNVERIFIED value).",
+    "annotation": "ZPMC Tecon Rio Grande CapEx-fill ~USD 55.85m via Fed H.10. Supports zpmc_tecon_rio_grande_2026.",
     "supports": [
       "zpmc_tecon_rio_grande_2026",
-      "hunt_infra_port_cranes"
+      "hunt_infra_port_cranes",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "hunt_infra_port_cranes",
@@ -2998,12 +2999,13 @@
   {
     "id": "hmt_multirio_zpmc_20260623",
     "type": "press",
-    "chicago": "HMT News. “Multiterminais Adds STS Cranes at Rio Terminal.” 23 June 2026.",
+    "chicago": "HMT News. “Multiterminais Adds STS Cranes at Rio Terminal.” June 23, 2026. https://hmt-news.com/multiterminais-adds-sts-cranes-at-rio-terminal/.",
     "url": "https://hmt-news.com/multiterminais-adds-sts-cranes-at-rio-terminal/",
-    "annotation": "Trade press naming ZPMC OEM and ~R$110m MultiRio STS package. Supports zpmc_multirio_sts_2026 (UNVERIFIED OEM vs Multiterminais primary).",
+    "annotation": "ZPMC MultiRio CapEx-fill company/press dual-quote US$21m. Supports zpmc_multirio_sts_2026.",
     "supports": [
       "zpmc_multirio_sts_2026",
-      "hunt_infra_port_cranes"
+      "hunt_infra_port_cranes",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "hunt_infra_port_cranes",
@@ -3289,12 +3291,13 @@
   {
     "id": "bndes_piaui_niquel_20260713",
     "type": "government",
-    "chicago": "Banco Nacional de Desenvolvimento Econômico e Social. “BNDES aprova R$ 100 mi para apoiar processamento de níquel no Piauí.” Agência BNDES de Notícias, 13 July 2026.",
+    "chicago": "Banco Nacional de Desenvolvimento Econômico e Social. “BNDES aprova R$ 100 mi para apoiar processamento de níquel no Piauí.” July 13, 2026. https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-R$-100-mi-para-apoiar-processamento-de-niquel-no-Piaui/.",
     "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-R$-100-mi-para-apoiar-processamento-de-niquel-no-Piaui/",
-    "annotation": "Official BNDES financing approval for Piauí Níquel Metais. Supports bndes_piaui_nickel_maq_100m_2026.",
+    "annotation": "BNDES Piauí Níquel CapEx-fill ~USD 19.26m via Fed H.10. Supports bndes_piaui_nickel_maq_100m_2026.",
     "supports": [
       "bndes_piaui_nickel_maq_100m_2026",
-      "hunt_res_nickel"
+      "hunt_res_nickel",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "bndes_piaui_nickel_maq_100m_2026",
@@ -6093,14 +6096,15 @@
   {
     "id": "alerasci_ssa_mexico_20260318",
     "type": "press",
-    "chicago": "Alera SCI. “Crecimiento estratégico y operación responsable.” 18 March 2026.",
+    "chicago": "Alera SCI. “Crecimiento estratégico y operación responsable.” March 18, 2026. https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/.",
     "url": "https://alerasci.com/crecimiento-estrategico-y-operacion-responsable/",
-    "annotation": "Spanish logistics press on SSA Marine México 2025 Manzanillo STS and Lázaro Cárdenas auto-yard investments. Supports ssa_lazaro_isla_palma_mxn143m_2025 and ssa_manzanillo_sts_21m_2025.",
+    "annotation": "SSA Isla de la Palma CapEx-fill ~USD 8.06m via Fed H.10. Supports ssa_lazaro_isla_palma_mxn143m_2025.",
     "supports": [
       "ssa_lazaro_isla_palma_mxn143m_2025",
       "ssa_manzanillo_sts_21m_2025",
       "hunt_infra_port_ownership",
-      "hunt_infra_port_cranes"
+      "hunt_infra_port_cranes",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "hunt_infra_port_cranes",
@@ -19373,11 +19377,12 @@
     "type": "company",
     "chicago": "ENGIE Brasil Energia. “ENGIE Brasil wins the Capacity Reserve Auction and will increase the power output of the Jaguara Hydropower Plant.” March 18, 2026. https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-vence-leilao-de-reserva-de-capacidade-e-vai-ampliar-potencia-da-usina-hidreletrica-jaguara/.",
     "url": "https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-vence-leilao-de-reserva-de-capacidade-e-vai-ampliar-potencia-da-usina-hidreletrica-jaguara/",
-    "annotation": "ENGIE: Jaguara modernization R$500m. Supports engie_jaguara_modernization_500m_brl_2026.",
+    "annotation": "ENGIE Jaguara modernization CapEx-fill ~USD 96.30m via Fed H.10. Supports engie_jaguara_modernization_500m_brl_2026.",
     "supports": [
       "engie_jaguara_expansion_1p2bn_brl_2026",
       "hunt_cycle191",
-      "engie_jaguara_modernization_500m_brl_2026"
+      "engie_jaguara_modernization_500m_brl_2026",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "engie_jaguara_expansion_1p2bn_brl_2026",
@@ -19962,12 +19967,13 @@
   {
     "id": "microsoft_brazil_14p7bn_20240926",
     "type": "company",
-    "chicago": "Microsoft. “Microsoft announces 14.7 billion Reais investment over three years in Cloud and AI infrastructure and provide AI training at scale to upskill 5 million people in Brazil.” Microsoft News Center Brasil, September 26, 2024. https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/.",
+    "chicago": "Microsoft. “Microsoft announces 14.7 billion Reais investment over three years in Cloud and AI infrastructure and provide AI training at scale to upskill 5 million people in Brazil.” September 26, 2024. https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/.",
     "url": "https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/",
-    "annotation": "Microsoft: Brazil cloud/AI CapEx R$14.7bn over 3 years. Supports microsoft_brazil_cloud_ai_14p7bn_brl_2024.",
+    "annotation": "Microsoft Brazil CapEx-fill ~USD 2831.22m via Fed H.10. Supports microsoft_brazil_cloud_ai_14p7bn_brl_2024.",
     "supports": [
       "microsoft_brazil_cloud_ai_14p7bn_brl_2024",
-      "hunt_cycle197"
+      "hunt_cycle197",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "microsoft_brazil_cloud_ai_14p7bn_brl_2024"
@@ -20069,10 +20075,11 @@
     "type": "company",
     "chicago": "Amazon. “Amazon reforça compromisso com o Brasil com operação crescente alinhada à estratégia global.” About Amazon Brasil, August 4, 2026. https://www.aboutamazon.com.br/noticias/noticias-da-empresa/amazon-reforca-compromisso-com-o-brasil-com-operacao-crescente-alinhada-a-estrategia-global.",
     "url": "https://www.aboutamazon.com.br/noticias/noticias-da-empresa/amazon-reforca-compromisso-com-o-brasil-com-operacao-crescente-alinhada-a-estrategia-global",
-    "annotation": "Amazon: Brazil 2025 investments >R$19bn. Supports amazon_brazil_invest_19bn_brl_2025.",
+    "annotation": "Amazon Brazil 2025 CapEx-fill ~USD 3659.41m via Fed H.10. Supports amazon_brazil_invest_19bn_brl_2025.",
     "supports": [
       "amazon_brazil_invest_19bn_brl_2025",
-      "hunt_cycle198"
+      "hunt_cycle198",
+      "hunt_cycle221"
     ],
     "map_supports": [
       "amazon_brazil_invest_19bn_brl_2025"
