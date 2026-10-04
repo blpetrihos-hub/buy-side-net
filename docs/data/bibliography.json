@@ -19948,5 +19948,141 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "vli_progress_rail_delivery_20260210",
+    "type": "company",
+    "chicago": "VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.",
+    "url": "https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/",
+    "annotation": "VLI: eight Progress Rail SD70 CapEx ~R$200m. Supports progress_rail_vli_sd70_200m_brl_2024.",
+    "supports": [
+      "progress_rail_vli_sd70_200m_brl_2024",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "progress_rail_vli_sd70_200m_brl_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "amazon_aws_chile_region_20250507",
+    "type": "company",
+    "chicago": "Amazon Web Services. “Amazon to Invest More Than $4 Billion to Launch Infrastructure Region in Chile.” May 7, 2025. https://press.aboutamazon.com/aws/2025/5/amazon-to-invest-more-than-4-billion-to-launch-infrastructure-region-in-chile.",
+    "url": "https://press.aboutamazon.com/aws/2025/5/amazon-to-invest-more-than-4-billion-to-launch-infrastructure-region-in-chile",
+    "annotation": "AWS: Chile Region >USD 4bn. Supports aws_chile_region_4bn_2025.",
+    "supports": [
+      "aws_chile_region_4bn_2025",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "aws_chile_region_4bn_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "microsoft_mexico_1p3bn_20240924",
+    "type": "company",
+    "chicago": "Microsoft. “Microsoft announces $1.3 billion USD investment in Cloud and AI infrastructure supporting inclusive growth through technology and skilling programs in Mexico.” September 24, 2024. https://news.microsoft.com/source/latam/company-news-es/microsoft-announces-1-3-billion-usd-investment-in-cloud-and-ai-infrastructure-supporting-inclusive-growth-through-technology-and-skilling-programs-in-mexico/.",
+    "url": "https://news.microsoft.com/source/latam/company-news-es/microsoft-announces-1-3-billion-usd-investment-in-cloud-and-ai-infrastructure-supporting-inclusive-growth-through-technology-and-skilling-programs-in-mexico/",
+    "annotation": "Microsoft: Mexico AI/cloud USD 1.3bn. Supports microsoft_mexico_ai_1p3bn_2024.",
+    "supports": [
+      "microsoft_mexico_ai_1p3bn_2024",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "microsoft_mexico_ai_1p3bn_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "isa_energia_4t25_results_20260224",
+    "type": "company",
+    "chicago": "ISA ENERGIA BRASIL. “ISA ENERGIA BRASIL divulga os resultados do 4T25 com recorde em investimentos de R$ 5,1 bi no ano.” February 24, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/.",
+    "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/",
+    "annotation": "ISA Energia: FY2025 CapEx R$5.1bn. Supports isa_energia_fy2025_capex_5p1bn_brl.",
+    "supports": [
+      "isa_energia_fy2025_capex_5p1bn_brl",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "isa_energia_fy2025_capex_5p1bn_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "sgbh_gate_silvania_20250630",
+    "type": "company",
+    "chicago": "State Grid Brazil Holding. “Município goiano de Silvânia sedia lançamento do mais caro projeto de Ultra Alta Tensão (800Kv) da história do setor elétrico do Brasil.” June 2025. https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/.",
+    "url": "https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/",
+    "annotation": "SGBH: GATE UHV CapEx R$18bn. Supports sgbh_gate_uhv_18bn_brl_2025.",
+    "supports": [
+      "sgbh_gate_uhv_18bn_brl_2025",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "sgbh_gate_uhv_18bn_brl_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "portonave_ertg_arrival_20260708",
+    "type": "company",
+    "chicago": "Portonave. “Portonave amplia frota de pátio com sete novos guindastes elétricos.” July 8, 2026. https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos.",
+    "url": "https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos",
+    "annotation": "Portonave: 14 e-RTG CapEx ~R$210m. Supports portonave_ertg_210m_brl_2026.",
+    "supports": [
+      "portonave_ertg_210m_brl_2026",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "portonave_ertg_210m_brl_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "codelco_resultados_2025_20260327",
+    "type": "company",
+    "chicago": "Codelco. “Codelco cerró 2025 con un Ebitda de US$ 6.670 millones, una utilidad consolidada de US$ 2.423 millones y un aporte al Fisco de US$ 1.778 millones.” March 27, 2026. https://www.codelco.com/prensa/2026/codelco-cerro-2025-con-un-ebitda-de-us-6-670-millones-una-utilidad.",
+    "url": "https://www.codelco.com/prensa/2026/codelco-cerro-2025-con-un-ebitda-de-us-6-670-millones-una-utilidad",
+    "annotation": "Codelco: FY2025 CapEx USD 5.073bn. Supports codelco_fy2025_capex_5073m.",
+    "supports": [
+      "codelco_fy2025_capex_5073m",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "codelco_fy2025_capex_5073m"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "holcim_mx_zapopan_electric_20251126",
+    "type": "company",
+    "chicago": "Holcim México. “Holcim inaugura la primera planta de concreto 100% eléctrica en México.” November 26, 2025. https://www.holcim.com.mx/holcim-inaugura-la-primera-planta-de-concreto-100-electrica-en-mexico.",
+    "url": "https://www.holcim.com.mx/holcim-inaugura-la-primera-planta-de-concreto-100-electrica-en-mexico",
+    "annotation": "Holcim MX: Zapopan electric plant ~MXN 51m. Supports holcim_zapopan_electric_51m_mxn_2025.",
+    "supports": [
+      "holcim_zapopan_electric_51m_mxn_2025",
+      "hunt_cycle195"
+    ],
+    "map_supports": [
+      "holcim_zapopan_electric_51m_mxn_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
