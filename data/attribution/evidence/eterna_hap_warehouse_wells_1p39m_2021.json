@@ -1,0 +1,10 @@
+{
+  "id": "eterna_hap_warehouse_wells_1p39m_2021",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_eterna_hap_warehouse_wells_1p39m_2021",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0210_9700_W9127816D0102_9700/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "DESIGN AND CONSTRUCTION OF HAP #39285 DISASTER RELIEF WAREHOUSE HAP #39286 DISASTER RELIEF WAREHOUSE& HAP #28375 WATER WELLS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1391882.24; date_signed 2021-07-06."
+}
