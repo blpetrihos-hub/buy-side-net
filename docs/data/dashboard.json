@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1445,
+    "n_rows": 1451,
     "counts": {
-      "total": 1445,
-      "active": 1246,
+      "total": 1451,
+      "active": 1252,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 173,
       "exclude": 18,
-      "documented": 1197,
-      "on_map": 1118
+      "documented": 1203,
+      "on_map": 1124
     }
   },
   "layer_readouts": [
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 148,
-        "prc": 172,
-        "allied": 155,
-        "n": 475
+        "us": 149,
+        "prc": 173,
+        "allied": 159,
+        "n": 481
       },
       "usd": {
-        "us": 16283858581.429998,
-        "us_n": 46,
-        "prc": 23805582175.170002,
-        "prc_n": 44,
-        "allied": 46902132698.70999,
-        "allied_n": 88
+        "us": 20283858581.43,
+        "us_n": 47,
+        "prc": 24000782175.170002,
+        "prc_n": 45,
+        "allied": 49006425412.63999,
+        "allied_n": 92
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 97,
         "prc": 88,
-        "allied": 163,
-        "n": 348
+        "allied": 167,
+        "n": 352
       },
       "usd": {
         "us": 14125227245.099998,
         "us_n": 33,
         "prc": 22742763145.38,
         "prc_n": 34,
-        "allied": 67954714444.440025,
-        "allied_n": 85
+        "allied": 70059007158.37003,
+        "allied_n": 89
       },
       "by_layer": {
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 56
+          "allied": 60
         },
         "infrastructure": {
           "us": 54,
@@ -396,14 +396,14 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 54,
+        "us": 55,
         "prc": 43,
         "allied": 93,
-        "n": 190
+        "n": 191
       },
       "usd": {
-        "us": 36522000000.0,
-        "us_n": 23,
+        "us": 40522000000.0,
+        "us_n": 24,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 49559762361.0,
@@ -411,7 +411,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 33,
+          "us": 34,
           "prc": 34,
           "allied": 30
         },
@@ -431,22 +431,22 @@
       "country": "Colombia",
       "counts": {
         "us": 24,
-        "prc": 28,
+        "prc": 29,
         "allied": 28,
-        "n": 80
+        "n": 81
       },
       "usd": {
         "us": 1556506908.27,
         "us_n": 10,
-        "prc": 5776456357.0,
-        "prc_n": 5,
+        "prc": 5971656357.0,
+        "prc_n": 6,
         "allied": 2266740542.37,
         "allied_n": 11
       },
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 16,
+          "prc": 17,
           "allied": 10
         },
         "infrastructure": {
@@ -2434,7 +2434,13 @@
       "cmpc_rio_grande_tup_1p5bn_brl_2026",
       "ohla_santiago_l7_stations_g5g6_71p8m_eur_2026",
       "colas_santiago_l9_electrical_scada_104m_eur_2026",
-      "colas_vinci_alameda_melipilla_s2_100m_eur_2025"
+      "colas_vinci_alameda_melipilla_s2_100m_eur_2025",
+      "edp_brazil_tx_3p7bn_brl_2026_2028",
+      "edp_goias_tx_450m_brl_2026_2028",
+      "edp_sp_dist_5bn_brl_2025_2030",
+      "andritz_copel_foz_segredo_2026",
+      "powerchina_nencol5_lstk_195p2m_2026",
+      "aes_andes_greentegra_4bn_chile_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
