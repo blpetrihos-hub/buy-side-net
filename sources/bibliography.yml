@@ -27790,3 +27790,153 @@
   supports:
   - hcs_salvador_ground_support_115k_2016
   - hunt_cycle1013
+- id: usaspending_casco_guatemala_awning_120k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GT5025C0007_1900_-NONE-_-NONE-
+    (Casco Guatemala awning). Signed 2025-08-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5025C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5025C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Casco Guatemala awning USD 0.120m. Supports casco_guatemala_awning_120k_2025.'
+  supports:
+  - casco_guatemala_awning_120k_2025
+  - hunt_cycle1014
+- id: usaspending_wave_hnd_mezzanine_120k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19H08026P0265_1900_-NONE-_-NONE-
+    (Wave Honduras mezzanine). Signed 2026-05-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19H08026P0265_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19H08026P0265_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Wave Honduras mezzanine USD 0.120m. Supports wave_hnd_mezzanine_120k_2026.'
+  supports:
+  - wave_hnd_mezzanine_120k_2026
+  - hunt_cycle1014
+- id: usaspending_misc_colombia_gym_bathrooms_119k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20010C0004_1900_-NONE-_-NONE-
+    (Colombia gym bathrooms). Signed 2010-04-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20010C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20010C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia gym bathrooms USD 0.119m. Supports misc_colombia_gym_bathrooms_119k_2010.'
+  supports:
+  - misc_colombia_gym_bathrooms_119k_2010
+  - hunt_cycle1014
+- id: usaspending_romaca_dr_chiller_118k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86017M0632_1900_-NONE-_-NONE-
+    (Romaca DR chiller). Signed 2017-08-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86017M0632_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86017M0632_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Romaca DR chiller USD 0.118m. Supports romaca_dr_chiller_118k_2017.'
+  supports:
+  - romaca_dr_chiller_118k_2017
+  - hunt_cycle1014
+- id: usaspending_misc_brasilia_fence_118k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2525P1094_1900_-NONE-_-NONE-
+    (Brasília fence). Signed 2025-08-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P1094_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P1094_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brasília fence USD 0.118m. Supports misc_brasilia_fence_118k_2025.'
+  supports:
+  - misc_brasilia_fence_118k_2025
+  - hunt_cycle1014
+- id: usaspending_store_q_panama_fence_117k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07017M0407_1900_-NONE-_-NONE-
+    (Store Q Panama fence). Signed 2017-05-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07017M0407_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07017M0407_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Store Q Panama fence USD 0.117m. Supports store_q_panama_fence_117k_2017.'
+  supports:
+  - store_q_panama_fence_117k_2017
+  - hunt_cycle1015
+- id: usaspending_misc_ecuador_asphalt_lot_116k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC3018P0435_1900_-NONE-_-NONE-
+    (Ecuador asphalt lot). Signed 2018-07-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3018P0435_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3018P0435_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador asphalt lot USD 0.116m. Supports misc_ecuador_asphalt_lot_116k_2018.'
+  supports:
+  - misc_ecuador_asphalt_lot_116k_2018
+  - hunt_cycle1015
+- id: usaspending_grupo_azul_electrical_115k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6021P0729_1900_-NONE-_-NONE-
+    (Grupo Azul electrical). Signed 2021-08-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0729_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0729_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Grupo Azul electrical USD 0.115m. Supports grupo_azul_electrical_115k_2021.'
+  supports:
+  - grupo_azul_electrical_115k_2021
+  - hunt_cycle1015
+- id: usaspending_misc_cr_activity_deck_114k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCS80014C0024_1900_-NONE-_-NONE-
+    (CR activity deck). Signed 2014-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80014C0024_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80014C0024_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CR activity deck USD 0.114m. Supports misc_cr_activity_deck_114k_2014.'
+  supports:
+  - misc_cr_activity_deck_114k_2014
+  - hunt_cycle1015
+- id: usaspending_misc_ecuador_handrail_115k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC75014M0554_1900_-NONE-_-NONE-
+    (Ecuador handrail). Signed 2014-08-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75014M0554_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75014M0554_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador handrail USD 0.115m. Supports misc_ecuador_handrail_115k_2014.'
+  supports:
+  - misc_ecuador_handrail_115k_2014
+  - hunt_cycle1015
+- id: usaspending_misc_jamaica_powell_road_109k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37017C0006_1900_-NONE-_-NONE-
+    (Jamaica Powell Plaza road). Signed 2017-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37017C0006_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37017C0006_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Jamaica Powell Plaza road USD 0.109m. Supports misc_jamaica_powell_road_109k_2017.'
+  supports:
+  - misc_jamaica_powell_road_109k_2017
+  - hunt_cycle1016
+- id: usaspending_misc_chile_water_well_107k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C18022P0566_1900_-NONE-_-NONE-
+    (Chile water well). Signed 2022-04-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C18022P0566_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C18022P0566_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Chile water well USD 0.107m. Supports misc_chile_water_well_107k_2022.'
+  supports:
+  - misc_chile_water_well_107k_2022
+  - hunt_cycle1016
+- id: usaspending_misc_jamaica_powell_roof_103k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3720C0007_1900_-NONE-_-NONE-
+    (Jamaica Powell Plaza roof). Signed 2020-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3720C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3720C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Jamaica Powell Plaza roof USD 0.103m. Supports misc_jamaica_powell_roof_103k_2020.'
+  supports:
+  - misc_jamaica_powell_roof_103k_2020
+  - hunt_cycle1016
+- id: usaspending_misc_argentina_parking_road_133k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2026C0001_1900_-NONE-_-NONE-
+    (Argentina parking road). Signed 2026-02-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2026C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2026C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Argentina parking road USD 0.133m. Supports misc_argentina_parking_road_133k_2026.'
+  supports:
+  - misc_argentina_parking_road_133k_2026
+  - hunt_cycle1016
+- id: usaspending_gale_paraguay_ncmr_roof_ae_94k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PA1018C0003_1900_-NONE-_-NONE-
+    (Gale Paraguay NCMR roof A&E). Signed 2018-05-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1018C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1018C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Gale Paraguay NCMR roof A&E USD 0.094m. Supports gale_paraguay_ncmr_roof_ae_94k_2018.'
+  supports:
+  - gale_paraguay_ncmr_roof_ae_94k_2018
+  - hunt_cycle1016
