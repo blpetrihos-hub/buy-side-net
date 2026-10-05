@@ -13499,7 +13499,7 @@
   type: company
   chicago: ISA Energia Brasil. “Earnings Release 2T26.” August 3, 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.
   url: https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf
-  annotation: ISA Greenfield portfolio CapEx ISA Total até 30/06/2026 via Fed H.10. Supports isa_energia_greenfield_capex_30jun26_total_12083p7m_brl.
+  annotation: ISA Triângulo Mineiro CapEx ISA até 30/06/2026 via Fed H.10. Supports isa_energia_triangulo_mineiro_capex_30jun26_519p6m_brl.
   supports:
   - isa_energia_1s26_capex_2275p9m_brl
   - hunt_cycle289
@@ -13535,6 +13535,29 @@
   - isa_energia_jacaranda_capex_aneel_232p3m_brl
   - isa_energia_greenfield_capex_aneel_total_15742p9m_brl
   - isa_energia_greenfield_capex_30jun26_total_12083p7m_brl
+  - isa_energia_paraguacu_capex_aneel_254p8m_brl
+  - hunt_cycle306
+  - isa_energia_paraguacu_capex_30jun26_333p4m_brl
+  - isa_energia_aimores_capex_aneel_170p6m_brl
+  - isa_energia_aimores_capex_30jun26_197p5m_brl
+  - isa_energia_itaunas_capex_aneel_297p8m_brl
+  - isa_energia_itaunas_capex_30jun26_373p8m_brl
+  - isa_energia_tibagi_capex_aneel_134p6m_brl
+  - isa_energia_tibagi_capex_30jun26_117p5m_brl
+  - isa_energia_itaquere_capex_aneel_397p7m_brl
+  - isa_energia_itaquere_capex_30jun26_255p9m_brl
+  - isa_energia_aguapei_capex_aneel_601p9m_brl
+  - isa_energia_aguapei_capex_30jun26_363p4m_brl
+  - isa_energia_bauru_capex_aneel_125p8m_brl
+  - isa_energia_bauru_capex_30jun26_63m_brl
+  - isa_energia_lorena_capex_aneel_237p9m_brl
+  - isa_energia_lorena_capex_30jun26_126p1m_brl
+  - isa_energia_biguacu_capex_aneel_641p4m_brl
+  - isa_energia_biguacu_capex_30jun26_456m_brl
+  - isa_energia_tres_lagoas_capex_aneel_98p8m_brl
+  - isa_energia_tres_lagoas_capex_30jun26_87p1m_brl
+  - isa_energia_triangulo_mineiro_capex_aneel_553p6m_brl
+  - isa_energia_triangulo_mineiro_capex_30jun26_519p6m_brl
 - id: motiva_capex_proforma_xlsx_2026
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
