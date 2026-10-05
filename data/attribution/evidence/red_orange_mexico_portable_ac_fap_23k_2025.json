@@ -1,0 +1,10 @@
+{
+  "id": "red_orange_mexico_portable_ac_fap_23k_2025",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_red_orange_mexico_portable_ac_fap_23k_2025",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5325P0782_1900_-NONE-_-NONE-/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "MEX-GSO/PROPERTY-WAREHOUSE/PORTABLE AC FAP-FY25",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 23100.0; date_signed 2025-05-19."
+}

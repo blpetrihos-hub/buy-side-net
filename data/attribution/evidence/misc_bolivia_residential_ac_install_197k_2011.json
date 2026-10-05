@@ -1,0 +1,10 @@
+{
+  "id": "misc_bolivia_residential_ac_install_197k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_bolivia_residential_ac_install_197k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40011M0912_1900_-NONE-_-NONE-/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "AIR CONDITIONERS FOR RESIDENTIAL USE, ACCESORIES AND INSTALLATION",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 197400.0; date_signed 2011-09-26."
+}
