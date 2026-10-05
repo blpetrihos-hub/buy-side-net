@@ -43944,5 +43944,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_india_apron_1p04m_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0368_9700_W9127823D0073_9700 (Eterna Soto Cano India apron). Signed 2024-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0368_9700_W9127823D0073_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0368_9700_W9127823D0073_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano India apron USD 1.040m. Supports eterna_soto_cano_india_apron_1p04m_2024.",
+    "supports": [
+      "eterna_soto_cano_india_apron_1p04m_2024",
+      "hunt_cycle969"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_india_apron_1p04m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_colombia_2story_school_1p06m_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17C0006_9700_-NONE-_-NONE- (Seobra Colombia 2-story school). Signed 2017-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0006_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0006_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra Colombia 2-story school USD 1.057m. Supports seobra_colombia_2story_school_1p06m_2017.",
+    "supports": [
+      "seobra_colombia_2story_school_1p06m_2017",
+      "hunt_cycle969"
+    ],
+    "map_supports": [
+      "seobra_colombia_2story_school_1p06m_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_kuk_peru_post_security_1p09m_2006",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SALMEC02D0051O121_1900_SALMEC02D0051_1900 (KUK Peru post security). Signed 2006-06-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC02D0051O121_1900_SALMEC02D0051_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC02D0051O121_1900_SALMEC02D0051_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: KUK Peru post security USD 1.094m. Supports kuk_peru_post_security_1p09m_2006.",
+    "supports": [
+      "kuk_peru_post_security_1p09m_2006",
+      "hunt_cycle969"
+    ],
+    "map_supports": [
+      "kuk_peru_post_security_1p09m_2006"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_hap42189_school_1p04m_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0436_9700_W9127817D0097_9700 (Seobra HAP #42189 school). Signed 2022-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0436_9700_W9127817D0097_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0436_9700_W9127817D0097_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra HAP #42189 school USD 1.039m. Supports seobra_hap42189_school_1p04m_2022.",
+    "supports": [
+      "seobra_hap42189_school_1p04m_2022",
+      "hunt_cycle969"
+    ],
+    "map_supports": [
+      "seobra_hap42189_school_1p04m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_hap42212_school_1p01m_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0439_9700_W9127817D0095_9700 (Eterna HAP #42212 school). Signed 2022-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0439_9700_W9127817D0095_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0439_9700_W9127817D0095_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna HAP #42212 school USD 1.006m. Supports eterna_hap42212_school_1p01m_2022.",
+    "supports": [
+      "eterna_hap42212_school_1p01m_2022",
+      "hunt_cycle969"
+    ],
+    "map_supports": [
+      "eterna_hap42212_school_1p01m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_warehouse_r71_r73_999k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825FA297_9700_W9127823D0073_9700 (Eterna Soto Cano R71/R73). Signed 2025-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA297_9700_W9127823D0073_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA297_9700_W9127823D0073_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano R71/R73 USD 0.999m. Supports eterna_soto_cano_warehouse_r71_r73_999k_2025.",
+    "supports": [
+      "eterna_soto_cano_warehouse_r71_r73_999k_2025",
+      "hunt_cycle970"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_warehouse_r71_r73_999k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_venturia_bolivia_elevator_987k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026P0015_1900_-NONE-_-NONE- (Venturia Bolivia elevator). Signed 2026-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026P0015_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026P0015_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Venturia Bolivia elevator USD 0.987m. Supports venturia_bolivia_elevator_987k_2026.",
+    "supports": [
+      "venturia_bolivia_elevator_987k_2026",
+      "hunt_cycle970"
+    ],
+    "map_supports": [
+      "venturia_bolivia_elevator_987k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bonatti_comalapa_apron_984k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0386_9700_W9127823D0072_9700 (Bonatti Comalapa apron). Signed 2024-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0386_9700_W9127823D0072_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0386_9700_W9127823D0072_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bonatti Comalapa apron USD 0.984m. Supports bonatti_comalapa_apron_984k_2024.",
+    "supports": [
+      "bonatti_comalapa_apron_984k_2024",
+      "hunt_cycle970"
+    ],
+    "map_supports": [
+      "bonatti_comalapa_apron_984k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_tecpro_soto_cano_12plex_p2_973k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0493_9700_W9127816D0103_9700 (TecPro Soto Cano 12-plex Phase II). Signed 2019-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0493_9700_W9127816D0103_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0493_9700_W9127816D0103_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: TecPro Soto Cano 12-plex Phase II USD 0.973m. Supports tecpro_soto_cano_12plex_p2_973k_2019.",
+    "supports": [
+      "tecpro_soto_cano_12plex_p2_973k_2019",
+      "hunt_cycle970"
+    ],
+    "map_supports": [
+      "tecpro_soto_cano_12plex_p2_973k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_tres_esquinas_health_957k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0205_9700_W9127817D0097_9700 (Seobra Tres Esquinas health). Signed 2021-06-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0205_9700_W9127817D0097_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0205_9700_W9127817D0097_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra Tres Esquinas health USD 0.957m. Supports seobra_tres_esquinas_health_957k_2021.",
+    "supports": [
+      "seobra_tres_esquinas_health_957k_2021",
+      "hunt_cycle970"
+    ],
+    "map_supports": [
+      "seobra_tres_esquinas_health_957k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_puerto_cortes_clinic_952k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825F0072_9700_W9127823D0073_9700 (Eterna Puerto Cortés clinic). Signed 2025-01-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825F0072_9700_W9127823D0073_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825F0072_9700_W9127823D0073_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Puerto Cortés clinic USD 0.952m. Supports eterna_puerto_cortes_clinic_952k_2025.",
+    "supports": [
+      "eterna_puerto_cortes_clinic_952k_2025",
+      "hunt_cycle971"
+    ],
+    "map_supports": [
+      "eterna_puerto_cortes_clinic_952k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proksol_lima_security_admin_928k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811C0031_9700_-NONE-_-NONE- (Proksol Lima security/admin). Signed 2011-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811C0031_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811C0031_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Proksol Lima security/admin USD 0.928m. Supports proksol_lima_security_admin_928k_2011.",
+    "supports": [
+      "proksol_lima_security_admin_928k_2011",
+      "hunt_cycle971"
+    ],
+    "map_supports": [
+      "proksol_lima_security_admin_928k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_absolute_storage_semar_prefab_928k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE19F0019_1900_GS07F9481S_4730 (Absolute Storage SEMAR prefab). Signed 2019-01-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE19F0019_1900_GS07F9481S_4730/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE19F0019_1900_GS07F9481S_4730/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Absolute Storage SEMAR prefab USD 0.928m. Supports absolute_storage_semar_prefab_928k_2019.",
+    "supports": [
+      "absolute_storage_semar_prefab_928k_2019",
+      "hunt_cycle971"
+    ],
+    "map_supports": [
+      "absolute_storage_semar_prefab_928k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bonatti_la_union_pier_927k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0351_9700_W9127823D0072_9700 (Bonatti La Unión pier). Signed 2024-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0351_9700_W9127823D0072_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0351_9700_W9127823D0072_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bonatti La Unión pier USD 0.927m. Supports bonatti_la_union_pier_927k_2024.",
+    "supports": [
+      "bonatti_la_union_pier_927k_2024",
+      "hunt_cycle971"
+    ],
+    "map_supports": [
+      "bonatti_la_union_pier_927k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_hap_medical_clinic_1p15m_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0460_9700_W9127821D0075_9700 (Eterna HAP medical clinic). Signed 2021-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0460_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0460_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna HAP medical clinic USD 1.148m. Supports eterna_hap_medical_clinic_1p15m_2021.",
+    "supports": [
+      "eterna_hap_medical_clinic_1p15m_2021",
+      "hunt_cycle971"
+    ],
+    "map_supports": [
+      "eterna_hap_medical_clinic_1p15m_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
