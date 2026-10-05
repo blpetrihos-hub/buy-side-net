@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6941,
+    "n_rows": 6947,
     "counts": {
-      "total": 6941,
-      "active": 6742,
+      "total": 6947,
+      "active": 6748,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6668,
-      "on_map": 6574
+      "documented": 6674,
+      "on_map": 6580
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2626,
-        "n": 3027
+        "allied": 2632,
+        "n": 3033
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 326336266864.5704,
-        "allied_n": 2555
+        "allied": 326502819021.7003,
+        "allied_n": 2561
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5509,
-        "n": 5764
+        "allied": 5515,
+        "n": 5770
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 470204972840.37,
-        "allied_n": 5428
+        "allied": 470371524997.49994,
+        "allied_n": 5434
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2492
+          "allied": 2498
         },
         "infrastructure": {
           "us": 68,
@@ -7930,7 +7930,13 @@
       "axia_hold_ambiental_infra_2t23_52m_brl",
       "axia_hold_empresas_investidas_2t23_13m_brl",
       "axia_hold_aquisicoes_2t23_0m_brl",
-      "axia_hold_total_2t23_434m_brl"
+      "axia_hold_total_2t23_434m_brl",
+      "axia_hold_imob_intang_1t23_246m_brl",
+      "axia_hold_geracao_1t23_158m_brl",
+      "axia_hold_transmissao_1t23_48m_brl",
+      "axia_hold_ambiental_infra_1t23_40m_brl",
+      "axia_hold_aquisicoes_1t23_64m_brl",
+      "axia_hold_total_1t23_310m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
