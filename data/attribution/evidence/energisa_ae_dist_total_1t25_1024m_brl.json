@@ -1,0 +1,10 @@
+{
+  "id": "energisa_ae_dist_total_1t25_1024m_brl",
+  "retrieved": "2026-10-05",
+  "source_id": "energisa_base_historica_jun26_xlsx",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "Ativo Elétrico Total Distribuidoras … 1T25=1023.8519950491232",
+  "note": "Opened Energisa Base histórica Investimentos xlsx; Ativo Elétrico Total Distribuidoras 1T25 R$1,023.852m confirmed."
+}
