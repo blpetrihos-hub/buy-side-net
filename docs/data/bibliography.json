@@ -23088,16 +23088,40 @@
     "type": "company",
     "chicago": "Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.",
     "url": "https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip",
-    "annotation": "Alupar 2T26 company release (ZIP) Lot 7 TESP R$1,089m ANEEL CapEx via Fed H.10. Supports alupar_lote7_tesp_1089m_brl_2026.",
+    "annotation": "Alupar 2T26 company release (ZIP): Lot 7 TESP R$1,089m; TAP/TPC/TCN CapEx previsto R$498.52m / R$2,597.23m / R$1,390.64m via Fed H.10.",
     "supports": [
       "alupar_lote7_tesp_1089m_brl_2026",
-      "hunt_cycle260"
+      "hunt_cycle260",
+      "alupar_tap_capex_previsto_498p52m_brl",
+      "hunt_cycle261",
+      "alupar_tpc_capex_previsto_2597p23m_brl",
+      "alupar_tcn_capex_previsto_1390p64m_brl"
     ],
     "map_supports": [
-      "alupar_lote7_tesp_1089m_brl_2026"
+      "alupar_lote7_tesp_1089m_brl_2026",
+      "alupar_tap_capex_previsto_498p52m_brl",
+      "alupar_tcn_capex_previsto_1390p64m_brl",
+      "alupar_tpc_capex_previsto_2597p23m_brl"
     ],
     "layers": [
       "energy"
+    ]
+  },
+  {
+    "id": "gerdau_2q26_sec_6k_2026",
+    "type": "company",
+    "chicago": "Gerdau S.A. “Form 6-K Exhibit 99.1 — Quarterly Results 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1073404/000110465926090494/tm2621830d2_ex99-1.htm.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1073404/000110465926090494/tm2621830d2_ex99-1.htm",
+    "annotation": "Gerdau 2Q26 Brazil CapEx R$800m (80% of R$1.0bn) via Fed H.10. Supports gerdau_2q26_brazil_capex_800m_brl.",
+    "supports": [
+      "gerdau_2q26_brazil_capex_800m_brl",
+      "hunt_cycle261"
+    ],
+    "map_supports": [
+      "gerdau_2q26_brazil_capex_800m_brl"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   }
 ]
