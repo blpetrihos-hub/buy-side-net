@@ -747,13 +747,14 @@
   },
   {
     "id": "hutchison_eit_ensenada_news",
-    "type": "official",
-    "chicago": "Hutchison Ports Mexico. “Hutchison Ports EIT invierte 2,300 millones de pesos en ampliación de su Terminal.” Company newsroom, 22 May 2023.",
+    "type": "company",
+    "chicago": "Hutchison Ports México. “Hutchison Ports EIT invierte 2,300 millones de pesos en ampliación de su Terminal.” https://www.hutchisonports.com.mx/newsroom/Hutchison-Ports-eit-invierte-2300-millones-de-pesos-en-ampliacion-de-su-Terminal.",
     "url": "https://www.hutchisonports.com.mx/newsroom/Hutchison-Ports-eit-invierte-2300-millones-de-pesos-en-ampliacion-de-su-Terminal",
-    "annotation": "Company primary notice of Ensenada terminal expansion investment. Supports hutchison_eit_ensenada_2022.",
+    "annotation": "Hutchison EIT Ensenada CapEx-fill ~USD 129.99m via Fed H.10. Supports hutchison_eit_ensenada_2022.",
     "supports": [
       "hutchison_eit_ensenada_2022",
-      "hunt_infra_port_ownership"
+      "hunt_infra_port_ownership",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "hunt_infra_port_ownership",
@@ -1827,13 +1828,14 @@
   },
   {
     "id": "ictsi_rio_brasil_20251215",
-    "type": "official",
-    "chicago": "International Container Terminal Services, Inc. “ICTSI to invest R$948 million to expand, modernize Rio Brasil Terminal.” 15 December 2025.",
+    "type": "company",
+    "chicago": "ICTSI. “ICTSI to invest R$948 million to expand, modernize Rio Brasil Terminal.” December 15, 2025. https://ictsi.com/press-releases/ictsi-invest-r948-million-expand-modernize-rio-brasil-terminal.",
     "url": "https://ictsi.com/press-releases/ictsi-invest-r948-million-expand-modernize-rio-brasil-terminal",
-    "annotation": "Operator primary Rio Brasil expansion announcement. Supports ictsi_rio_brasil_expansion_2025.",
+    "annotation": "ICTSI Rio Brasil CapEx-fill ~USD 182.58m via Fed H.10. Supports ictsi_rio_brasil_expansion_2025.",
     "supports": [
       "ictsi_rio_brasil_expansion_2025",
-      "hunt_infra_port_ownership"
+      "hunt_infra_port_ownership",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "hunt_infra_port_ownership",
@@ -3512,12 +3514,13 @@
   {
     "id": "votorantim_2q26_xambioa_20260813",
     "type": "company",
-    "chicago": "Votorantim Cimentos. “Our Financial Results in the Second Quarter of 2026.” 13 August 2026.",
+    "chicago": "Votorantim Cimentos. “Our Financial Results in the Second Quarter of 2026.” August 13, 2026. https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/.",
     "url": "https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/",
-    "annotation": "Company primary on R$260m Xambioá grinding expansion. Supports votorantim_xambioa_grind_2026.",
+    "annotation": "Votorantim Xambioá CapEx-fill ~USD 50.08m via Fed H.10. Supports votorantim_xambioa_grind_2026.",
     "supports": [
       "votorantim_xambioa_grind_2026",
-      "hunt_infra_building_materials"
+      "hunt_infra_building_materials",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "hunt_infra_building_materials",
@@ -4092,14 +4095,15 @@
   {
     "id": "diario_comercio_cbmm_13bn_20260918",
     "type": "press",
-    "chicago": "Diário do Comércio. “CBMM investe R$ 2 bilhões em 2026 no complexo de Araxá.” September 18, 2026. https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/.",
+    "chicago": "Diário do Comércio. “Mineira CBMM planeja investimentos de R$ 13 bilhões até 2031.” September 18, 2026. https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/.",
     "url": "https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/",
-    "annotation": "CBMM Araxá 2026 spend CapEx-fill ~USD 385.20m via Fed H.10. Supports cbmm_araxa_2026_spend_2bn.",
+    "annotation": "CBMM R$13bn CapEx-fill ~USD 2503.80m via Fed H.10 (proxy press). Supports cbmm_araxa_13bn_plan_2026.",
     "supports": [
       "cbmm_araxa_13bn_plan_2026",
       "cbmm_araxa_2026_spend_2bn",
       "hunt_fenb_araxa",
-      "hunt_cycle218"
+      "hunt_cycle218",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "cbmm_araxa_13bn_plan_2026",
@@ -19105,12 +19109,13 @@
     "type": "company",
     "chicago": "Votorantim Cimentos. “Our 2025 financial results.” March 18, 2026. https://www.votorantimcimentos.com/news/our-2025-financial-results/.",
     "url": "https://www.votorantimcimentos.com/news/our-2025-financial-results/",
-    "annotation": "Votorantim: FY2025 CapEx R$3.7bn. Supports votorantim_fy2025_capex_3p7bn_brl.",
+    "annotation": "Votorantim FY2025 CapEx-fill ~USD 712.62m via Fed H.10. Supports votorantim_fy2025_capex_3p7bn_brl.",
     "supports": [
       "votorantim_brazil_plan_2p7bn_invested_2025",
       "hunt_cycle188",
       "votorantim_fy2025_capex_3p7bn_brl",
-      "hunt_cycle197"
+      "hunt_cycle197",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "votorantim_brazil_plan_2p7bn_invested_2025",
@@ -19822,12 +19827,13 @@
   {
     "id": "isa_energia_4t25_results_20260224",
     "type": "company",
-    "chicago": "ISA ENERGIA BRASIL. “ISA ENERGIA BRASIL divulga os resultados do 4T25 com recorde em investimentos de R$ 5,1 bi no ano.” February 24, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/.",
+    "chicago": "ISA Energia Brasil. “ISA ENERGIA BRASIL divulga os resultados do 4T25 com recorde em investimentos de R$ 5,1 bi no ano.” February 24, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/.",
     "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/",
-    "annotation": "ISA Energia: FY2025 CapEx R$5.1bn. Supports isa_energia_fy2025_capex_5p1bn_brl.",
+    "annotation": "ISA Energia FY2025 CapEx-fill ~USD 982.26m via Fed H.10. Supports isa_energia_fy2025_capex_5p1bn_brl.",
     "supports": [
       "isa_energia_fy2025_capex_5p1bn_brl",
-      "hunt_cycle195"
+      "hunt_cycle195",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "isa_energia_fy2025_capex_5p1bn_brl"
@@ -20056,10 +20062,11 @@
     "type": "company",
     "chicago": "Neoenergia. “Neoenergia encerra 2025 com lucro de R$ 5 bilhões.” February 11, 2026. https://www.neoenergia.com/w/2025-tem-lucro-de-5-bilhoes-1.",
     "url": "https://www.neoenergia.com/w/2025-tem-lucro-de-5-bilhoes-1",
-    "annotation": "Neoenergia: FY2025 CapEx R$10.1bn. Supports neoenergia_fy2025_capex_10p1bn_brl.",
+    "annotation": "Neoenergia FY2025 CapEx-fill ~USD 1945.27m via Fed H.10. Supports neoenergia_fy2025_capex_10p1bn_brl.",
     "supports": [
       "neoenergia_fy2025_capex_10p1bn_brl",
-      "hunt_cycle197"
+      "hunt_cycle197",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "neoenergia_fy2025_capex_10p1bn_brl"
@@ -20445,12 +20452,13 @@
   {
     "id": "stategrid_gate_silvania_18bn",
     "type": "company",
-    "chicago": "State Grid Brazil Holding. “Município goiano de Silvânia sedia lançamento do mais caro projeto de Ultra Alta Tensão (800Kv) da história do setor elétrico do Brasil.” https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/.",
+    "chicago": "State Grid Brazil Holding. “Município goiano de Silvânia sedia lançamento do mais caro projeto de ultra alta tensão (±800 kV) da história do setor elétrico do Brasil.” https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/.",
     "url": "https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/",
-    "annotation": "State Grid GATE: R$18bn. Supports state_grid_ne_uhv_construction_2026.",
+    "annotation": "State Grid GATE UHV CapEx-fill ~USD 3466.81m via Fed H.10. Supports state_grid_ne_uhv_construction_2026.",
     "supports": [
       "state_grid_ne_uhv_construction_2026",
-      "hunt_cycle201"
+      "hunt_cycle201",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "state_grid_ne_uhv_construction_2026"
@@ -20991,12 +20999,13 @@
   {
     "id": "portonave_cais_2bn_program_2026",
     "type": "company",
-    "chicago": "Portonave. “Investimentos da Portonave na modernização do cais e em novos equipamentos chegam a R$ 2 bilhões.” https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes.",
+    "chicago": "Portonave. “Investimentos da Portonave na modernização do cais e em novos equipamentos chegam a R$ 2 bilhões.” November 28, 2025. https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes.",
     "url": "https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes",
-    "annotation": "Portonave quay modernization R$1.5bn. Supports portonave_cais_1p5bn_brl_2026.",
+    "annotation": "Portonave quay CapEx-fill ~USD 288.90m via Fed H.10. Supports portonave_cais_1p5bn_brl_2026.",
     "supports": [
       "portonave_cais_1p5bn_brl_2026",
-      "hunt_cycle210"
+      "hunt_cycle210",
+      "hunt_cycle228"
     ],
     "map_supports": [
       "portonave_cais_1p5bn_brl_2026"
