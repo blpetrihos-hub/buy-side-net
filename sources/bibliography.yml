@@ -17986,7 +17986,7 @@
   type: company
   chicago: TAESA — Transmissora Aliança de Energia Elétrica S.A. “Auxiliar Release Site 2T26 — Capex Projetos.” Retrieved October 5, 2026. https://ri.taesa.com.br/wp-content/uploads/2018/11/Auxiliar-Release_TAESA_Site_2T26.xlsx.
   url: https://ri.taesa.com.br/wp-content/uploads/2018/11/Auxiliar-Release_TAESA_Site_2T26.xlsx
-  annotation: TAESA Total FY2017 CapEx via Fed H.10. Supports taesa_projetos_fy2017_capex_109m_brl.
+  annotation: TAESA Total FY2015_2016 CapEx via Fed H.10. Supports taesa_projetos_fy2015_2016_capex_27m_brl.
   supports:
   - taesa_ananai_fy2025_651m_brl
   - hunt_cycle562
@@ -18077,3 +18077,7 @@
   - taesa_paraguacu_fy2017_5m_brl
   - taesa_ivai_fy2017_8m_brl
   - taesa_projetos_fy2017_capex_109m_brl
+  - taesa_mariana_fy2015_2016_25m_brl
+  - hunt_cycle571
+  - taesa_miracema_fy2015_2016_1m_brl
+  - taesa_projetos_fy2015_2016_capex_27m_brl
