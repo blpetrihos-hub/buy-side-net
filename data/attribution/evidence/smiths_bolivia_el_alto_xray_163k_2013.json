@@ -1,0 +1,10 @@
+{
+  "id": "smiths_bolivia_el_alto_xray_163k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_smiths_bolivia_el_alto_xray_163k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40013M0119_1900_-NONE-_-NONE-/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "NAS-FELCN X-RAY MACHINE TO BE INTALLED AT EL ALTO AIRPORT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 162600.0; date_signed 2012-12-05."
+}

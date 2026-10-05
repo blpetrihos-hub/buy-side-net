@@ -1,0 +1,10 @@
+{
+  "id": "marago_colombia_tumaco_observation_towers_123k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_marago_colombia_tumaco_observation_towers_123k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL15C0005_9700_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF CONSTRUCTION OF OBSERVATION TOWERS - TUMACO COLOMBIA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 122995.94; date_signed 2015-09-24."
+}
