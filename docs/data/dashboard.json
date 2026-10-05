@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6076,
+    "n_rows": 6091,
     "counts": {
-      "total": 6076,
-      "active": 5877,
+      "total": 6091,
+      "active": 5892,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5803,
-      "on_map": 5709
+      "documented": 5818,
+      "on_map": 5724
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1814,
-        "n": 2215
+        "allied": 1829,
+        "n": 2230
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 232075466133.69006,
-        "allied_n": 1743
+        "allied": 233263973076.55005,
+        "allied_n": 1758
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4644,
-        "n": 4899
+        "allied": 4659,
+        "n": 4914
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 360775205068.4091,
-        "allied_n": 4563
+        "allied": 361963712011.26917,
+        "allied_n": 4578
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1680
+          "allied": 1695
         },
         "infrastructure": {
           "us": 68,
@@ -7065,7 +7065,22 @@
       "neoenergia_hidro_1t26_1m_brl",
       "neoenergia_eolicas_1t26_14m_brl",
       "neoenergia_chafariz_1t26_9m_brl",
-      "neoenergia_termica_1t26_0m_brl"
+      "neoenergia_termica_1t26_0m_brl",
+      "neoenergia_redes_2t26_2063m_brl",
+      "neoenergia_dist_2t26_1984m_brl",
+      "neoenergia_coelba_2t26_1068m_brl",
+      "neoenergia_pernambuco_2t26_365m_brl",
+      "neoenergia_cosern_2t26_124m_brl",
+      "neoenergia_elektro_2t26_338m_brl",
+      "neoenergia_brasilia_2t26_88m_brl",
+      "neoenergia_tx_2t26_80m_brl",
+      "neoenergia_geracao_2t26_29m_brl",
+      "neoenergia_hidro_2t26_5m_brl",
+      "neoenergia_eolicas_2t26_17m_brl",
+      "neoenergia_chafariz_2t26_8m_brl",
+      "neoenergia_oitis_2t26_2m_brl",
+      "neoenergia_solar_2t26_0m_brl",
+      "neoenergia_termica_2t26_0m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
