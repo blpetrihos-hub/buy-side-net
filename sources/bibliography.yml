@@ -22431,7 +22431,7 @@
     October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.
   url: https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf
   accessed: '2026-10-05'
-  annotation: 'Haiti PIP: Trou-du-Nord 20m HTG. Supports haiti_pip_route_trou_du_nord_20m_htg_fy2526.'
+  annotation: Haiti PIP FY2025–26. Supports haiti_pip_urbaine_gonaives_41m_htg_fy2526.
   supports:
   - haiti_pip_maillage_routier_9625m_htg_fy2526
   - hunt_cycle898
@@ -22480,6 +22480,12 @@
   - hunt_cycle907
   - haiti_pip_sainte_suzanne_76m_htg_fy2526
   - haiti_pip_route_trou_du_nord_20m_htg_fy2526
+  - haiti_pip_route_pignon_bois_laurence_20m_htg_fy2526
+  - hunt_cycle908
+  - haiti_pip_urbaine_miragoane_40m_htg_fy2526
+  - haiti_pip_urbaine_hinche_50m_htg_fy2526
+  - haiti_pip_urbaine_jacmel_30m_htg_fy2526
+  - haiti_pip_urbaine_gonaives_41m_htg_fy2526
 - id: usaspending_gdg_cap_haitien_drw_20100831
   type: government
   chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-
