@@ -1,0 +1,10 @@
+{
+  "id": "nv5_brasilia_nec_cx_2p09m_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_nv5_brasilia_nec_cx_20190730",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F2509_1900_19AQMM19D0019_1900/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "COMMISSIONING DESIGN SERVICES FOR BRASILIA NEC D/B/B PROJECT.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 2,089,737; date_signed 2019-07-30."
+}
