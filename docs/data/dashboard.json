@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1756,
+    "n_rows": 1762,
     "counts": {
-      "total": 1756,
-      "active": 1557,
+      "total": 1762,
+      "active": 1563,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 184,
       "exclude": 18,
-      "documented": 1487,
-      "on_map": 1419
+      "documented": 1493,
+      "on_map": 1425
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 127,
-        "allied": 239,
-        "n": 547
+        "allied": 240,
+        "n": 548
       },
       "usd": {
         "us": 46248647492.65,
         "us_n": 114,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 68682238195.58002,
-        "allied_n": 165
+        "allied": 70068960331.13002,
+        "allied_n": 166
       },
       "matched_gaps": {
         "n": 1,
@@ -153,14 +153,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 182,
+        "us": 187,
         "prc": 205,
         "allied": 265,
-        "n": 652
+        "n": 657
       },
       "usd": {
-        "us": 33959652751.359997,
-        "us_n": 77,
+        "us": 34081568739.109997,
+        "us_n": 82,
         "prc": 43269035868.26999,
         "prc_n": 72,
         "allied": 109114813694.80006,
@@ -362,29 +362,29 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 120,
+        "us": 125,
         "prc": 121,
-        "allied": 367,
-        "n": 608
+        "allied": 368,
+        "n": 614
       },
       "usd": {
-        "us": 20965027110.149994,
-        "us_n": 58,
+        "us": 21086943097.899994,
+        "us_n": 63,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 160331182732.76,
-        "allied_n": 286
+        "allied": 161717904868.31,
+        "allied_n": 287
       },
       "by_layer": {
         "energy": {
-          "us": 27,
+          "us": 32,
           "prc": 86,
           "allied": 159
         },
         "infrastructure": {
           "us": 67,
           "prc": 26,
-          "allied": 116
+          "allied": 117
         },
         "resources": {
           "us": 26,
@@ -2745,7 +2745,13 @@
       "rumo_conteiner_recorrente_2t26_2m_brl",
       "motiva_fy2025_capex_87bn_brl",
       "motiva_fy2025_roads_65bn_brl",
-      "motiva_fy2025_rails_13bn_brl"
+      "motiva_fy2025_rails_13bn_brl",
+      "aes_brasil_2024e_cajuina_373p8m_brl",
+      "aes_brasil_2024e_tucano_14p4m_brl",
+      "aes_brasil_2024e_cap_interest_93p8m_brl",
+      "aes_brasil_2025e_cap_interest_101p1m_brl",
+      "aes_brasil_2026e_cap_interest_49p9m_brl",
+      "motiva_2026_highways_plan_72bn_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
