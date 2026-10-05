@@ -1,0 +1,10 @@
+{
+  "id": "astrophysics_peru_lima_mail_xray_69k_2010",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_astrophysics_peru_lima_mail_xray_69k_2010",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC10F0060_1900_GS07F0182T_4730/",
+  "price_year": "2010",
+  "evidence": "documented",
+  "quote": "CONTRACTOR IS REQURIED TO SUPPLY, TRANSPORT AND DELIVER 2 EACH, MAIL PARCEL X-RAY MACHINES, PLUS EXIT AND ENTRANCE ROLLER TABLES, ON-SITE OPERATOR USEAGE TRAINING AND 2-YEARS OF WARRANTY AND MAINTENANCE FOR THE NAS OFFICE IN LIMA, PERU.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 69330.78; date_signed 2010-05-21."
+}
