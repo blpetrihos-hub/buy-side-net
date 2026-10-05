@@ -32145,3 +32145,138 @@
   supports:
   - misc_mexico_ipc_ups_contingency_15k_2017
   - hunt_cycle1161
+- id: usaspending_valkyrie_colombia_bogota_tss_security_installation_239k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F0228_1900_SAQMMA07D0026_1900 (valkyrie_colombia_bogota_tss_security_installation_239k_2010). Signed 2010-12-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F0228_1900_SAQMMA07D0026_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F0228_1900_SAQMMA07D0026_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: valkyrie_colombia_bogota_tss_security_installation_239k_2010 USD 0.239m. Supports valkyrie_colombia_bogota_tss_security_installation_239k_2010.'
+  supports:
+  - valkyrie_colombia_bogota_tss_security_installation_239k_2010
+  - hunt_cycle1162
+- id: usaspending_spectrum_electrical_brazil_brasilia_electrical_work_139k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16F4973_1900_SAQMMA15D0025_1900 (spectrum_electrical_brazil_brasilia_electrical_work_139k_2016). Signed 2016-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F4973_1900_SAQMMA15D0025_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F4973_1900_SAQMMA15D0025_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: spectrum_electrical_brazil_brasilia_electrical_work_139k_2016 USD 0.139m. Supports spectrum_electrical_brazil_brasilia_electrical_work_139k_2016.'
+  supports:
+  - spectrum_electrical_brazil_brasilia_electrical_work_139k_2016
+  - hunt_cycle1162
+- id: usaspending_misc_haiti_cas20_cas21_tiles_install_15k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7023P1309_1900_-NONE-_-NONE- (misc_haiti_cas20_cas21_tiles_install_15k_2023). Signed 2023-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P1309_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P1309_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_haiti_cas20_cas21_tiles_install_15k_2023 USD 0.015m. Supports misc_haiti_cas20_cas21_tiles_install_15k_2023.'
+  supports:
+  - misc_haiti_cas20_cas21_tiles_install_15k_2023
+  - hunt_cycle1162
+- id: usaspending_misc_brazil_spds_residence_door_security_locks_15k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR9319P0672_1900_-NONE-_-NONE- (misc_brazil_spds_residence_door_security_locks_15k_2019). Signed 2019-07-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9319P0672_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9319P0672_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_spds_residence_door_security_locks_15k_2019 USD 0.015m. Supports misc_brazil_spds_residence_door_security_locks_15k_2019.'
+  supports:
+  - misc_brazil_spds_residence_door_security_locks_15k_2019
+  - hunt_cycle1162
+- id: usaspending_misc_mexico_led_lamp_fixture_replacement_15k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11513M0462_1900_-NONE-_-NONE- (misc_mexico_led_lamp_fixture_replacement_15k_2013). Signed 2013-09-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11513M0462_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11513M0462_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_led_lamp_fixture_replacement_15k_2013 USD 0.015m. Supports misc_mexico_led_lamp_fixture_replacement_15k_2013.'
+  supports:
+  - misc_mexico_led_lamp_fixture_replacement_15k_2013
+  - hunt_cycle1162
+- id: usaspending_spectrum_electrical_uruguay_fire_alarm_upgrade_122k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F1064_1900_SAQMMA08D0007_1900 (spectrum_electrical_uruguay_fire_alarm_upgrade_122k_2012). Signed 2012-03-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F1064_1900_SAQMMA08D0007_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F1064_1900_SAQMMA08D0007_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: spectrum_electrical_uruguay_fire_alarm_upgrade_122k_2012 USD 0.122m. Supports spectrum_electrical_uruguay_fire_alarm_upgrade_122k_2012.'
+  supports:
+  - spectrum_electrical_uruguay_fire_alarm_upgrade_122k_2012
+  - hunt_cycle1163
+- id: usaspending_valkyrie_brazil_brasilia_security_installation_119k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F3006_1900_SAQMMA07D0026_1900 (valkyrie_brazil_brasilia_security_installation_119k_2012). Signed 2012-08-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F3006_1900_SAQMMA07D0026_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F3006_1900_SAQMMA07D0026_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: valkyrie_brazil_brasilia_security_installation_119k_2012 USD 0.119m. Supports valkyrie_brazil_brasilia_security_installation_119k_2012.'
+  supports:
+  - valkyrie_brazil_brasilia_security_installation_119k_2012
+  - hunt_cycle1163
+- id: usaspending_misc_mexico_merida_cgr_pool_barrier_fence_replacement_15k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5224P0104_1900_-NONE-_-NONE- (misc_mexico_merida_cgr_pool_barrier_fence_replacement_15k_2024). Signed 2024-06-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5224P0104_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5224P0104_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_merida_cgr_pool_barrier_fence_replacement_15k_2024 USD 0.015m. Supports misc_mexico_merida_cgr_pool_barrier_fence_replacement_15k_2024.'
+  supports:
+  - misc_mexico_merida_cgr_pool_barrier_fence_replacement_15k_2024
+  - hunt_cycle1163
+- id: usaspending_misc_peru_cmr_pool_bathrooms_upgrade_15k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014C0018_1900_-NONE-_-NONE- (misc_peru_cmr_pool_bathrooms_upgrade_15k_2014). Signed 2014-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0018_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0018_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_cmr_pool_bathrooms_upgrade_15k_2014 USD 0.015m. Supports misc_peru_cmr_pool_bathrooms_upgrade_15k_2014.'
+  supports:
+  - misc_peru_cmr_pool_bathrooms_upgrade_15k_2014
+  - hunt_cycle1163
+- id: usaspending_misc_peru_corah_da_ups_15k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50015M1583_1900_-NONE-_-NONE- (misc_peru_corah_da_ups_15k_2015). Signed 2015-06-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50015M1583_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50015M1583_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_corah_da_ups_15k_2015 USD 0.015m. Supports misc_peru_corah_da_ups_15k_2015.'
+  supports:
+  - misc_peru_corah_da_ups_15k_2015
+  - hunt_cycle1163
+- id: usaspending_cummins_honduras_housing_6_complete_gensets_117k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80015F0195_1900_GS07F9004D_4730 (cummins_honduras_housing_6_complete_gensets_117k_2015). Signed 2015-04-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80015F0195_1900_GS07F9004D_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80015F0195_1900_GS07F9004D_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cummins_honduras_housing_6_complete_gensets_117k_2015 USD 0.117m. Supports cummins_honduras_housing_6_complete_gensets_117k_2015.'
+  supports:
+  - cummins_honduras_housing_6_complete_gensets_117k_2015
+  - hunt_cycle1164
+- id: usaspending_applied_security_colombia_bogota_tss_security_installation_115k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA10F2260_1900_SAQMMA07D0030_1900 (applied_security_colombia_bogota_tss_security_installation_115k_2010). Signed 2010-06-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10F2260_1900_SAQMMA07D0030_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10F2260_1900_SAQMMA07D0030_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_colombia_bogota_tss_security_installation_115k_2010 USD 0.115m. Supports applied_security_colombia_bogota_tss_security_installation_115k_2010.'
+  supports:
+  - applied_security_colombia_bogota_tss_security_installation_115k_2010
+  - hunt_cycle1164
+- id: usaspending_misc_honduras_new_properties_acs_supply_install_15k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80016M0754_1900_-NONE-_-NONE- (misc_honduras_new_properties_acs_supply_install_15k_2016). Signed 2016-05-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80016M0754_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80016M0754_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_new_properties_acs_supply_install_15k_2016 USD 0.015m. Supports misc_honduras_new_properties_acs_supply_install_15k_2016.'
+  supports:
+  - misc_honduras_new_properties_acs_supply_install_15k_2016
+  - hunt_cycle1164
+- id: usaspending_misc_honduras_windows_and_frames_15k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19H08023K0603_1900_-NONE-_-NONE- (misc_honduras_windows_and_frames_15k_2023). Signed 2023-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19H08023K0603_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19H08023K0603_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_windows_and_frames_15k_2023 USD 0.015m. Supports misc_honduras_windows_and_frames_15k_2023.'
+  supports:
+  - misc_honduras_windows_and_frames_15k_2023
+  - hunt_cycle1164
+- id: usaspending_misc_costa_rica_bedroom_closets_install_15k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCS80017M0726_1900_-NONE-_-NONE- (misc_costa_rica_bedroom_closets_install_15k_2017). Signed 2017-09-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80017M0726_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80017M0726_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_bedroom_closets_install_15k_2017 USD 0.015m. Supports misc_costa_rica_bedroom_closets_install_15k_2017.'
+  supports:
+  - misc_costa_rica_bedroom_closets_install_15k_2017
+  - hunt_cycle1164
