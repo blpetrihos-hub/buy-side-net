@@ -22582,5 +22582,92 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "cirion_anniversary_300m_20240801",
+    "type": "company",
+    "chicago": "Cirion Technologies. “anniversary with investments, expansions and strategic alliances.” August 1, 2024. https://blog.ciriontechnologies.com/en/new-anniversary-investments-expansions-strategic-alliances.",
+    "url": "https://blog.ciriontechnologies.com/en/new-anniversary-investments-expansions-strategic-alliances",
+    "annotation": "Cirion NEW >USD 300m 2024 LatAm CapEx soft floor. Supports cirion_latam_300m_2024.",
+    "supports": [
+      "cirion_latam_300m_2024",
+      "hunt_cycle253"
+    ],
+    "map_supports": [
+      "cirion_latam_300m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "gerdau_4q25_latibex_presentation_2026",
+    "type": "company",
+    "chicago": "Gerdau S.A. “Notice to the Market — Presentation of the 4Q25 earnings conference call.” Latibex hechos relevantes, 2026. https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Notice%20to%20the%20Market%20-%20Presentation%20of%20the%204Q25%20earnings%20conference%20call.pdf.",
+    "url": "https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Notice%20to%20the%20Market%20-%20Presentation%20of%20the%204Q25%20earnings%20conference%20call.pdf",
+    "annotation": "Gerdau 2026 plan NEW R$4.7bn ~USD 905.22m via Fed H.10. Supports gerdau_2026_capex_plan_4p7bn_brl.",
+    "supports": [
+      "gerdau_fy2025_capex_6p1bn_brl",
+      "hunt_cycle253",
+      "gerdau_2026_capex_plan_4p7bn_brl"
+    ],
+    "map_supports": [
+      "gerdau_2026_capex_plan_4p7bn_brl",
+      "gerdau_fy2025_capex_6p1bn_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "neoenergia_1t26_results_20260428",
+    "type": "company",
+    "chicago": "Neoenergia. “Neoenergia registra lucro de R$ 1,2 bilhão no 1T26, alta de 28% em relação ao 1T25.” April 28, 2026. https://www.neoenergia.com/w/lucro-bilhao-alta-primeiro-trimestre-2026.",
+    "url": "https://www.neoenergia.com/w/lucro-bilhao-alta-primeiro-trimestre-2026",
+    "annotation": "Neoenergia 1T26 NEW R$1.8bn ~USD 346.68m via Fed H.10. Supports neoenergia_1t26_capex_1p8bn_brl.",
+    "supports": [
+      "neoenergia_1t26_capex_1p8bn_brl",
+      "hunt_cycle253"
+    ],
+    "map_supports": [
+      "neoenergia_1t26_capex_1p8bn_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "copel_2t26_cvm_1553068",
+    "type": "company",
+    "chicago": "Copel. “2T26 Resultados” presentation (CVM IPE protocol 1553068). 2026. https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1553068.",
+    "url": "https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1553068",
+    "annotation": "Copel 2T26 NEW R$957.2m ~USD 184.36m via Fed H.10. Supports copel_2t26_capex_957p2m_brl.",
+    "supports": [
+      "copel_2t26_capex_957p2m_brl",
+      "hunt_cycle253"
+    ],
+    "map_supports": [
+      "copel_2t26_capex_957p2m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "aegea_2t26_6m26_cvm_1553072",
+    "type": "company",
+    "chicago": "Aegea Saneamento. “Resultados Aegea 2T26 e 6M26” presentation (CVM IPE protocol 1553072). August 6, 2026. https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1553072.",
+    "url": "https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1553072",
+    "annotation": "Aegea 6M26 NEW R$832m ~USD 160.24m via Fed H.10. Supports aegea_6m26_capex_832m_brl.",
+    "supports": [
+      "aegea_6m26_capex_832m_brl",
+      "hunt_cycle253"
+    ],
+    "map_supports": [
+      "aegea_6m26_capex_832m_brl"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]
