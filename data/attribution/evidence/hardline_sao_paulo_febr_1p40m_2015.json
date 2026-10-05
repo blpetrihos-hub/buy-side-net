@@ -1,0 +1,10 @@
+{
+  "id": "hardline_sao_paulo_febr_1p40m_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hardline_sao_paulo_febr_1p40m_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F2323_1900_SAQMMA14D0085_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF NATI-HARDLINE (HNC, LLC) - SAQMMA14-D-0085- TO: SAQMMA15-F-2323- FEBR R&R PROJECT - US EMBASSY SAO PAULO, BRAZIL - PERIOD OF PERFORMANCE - 18 MONTHS FROM ISSUANCE OF NTP  TO REMOVE AND REPLACE 15 FE/BR DOORS, ADD 2 PERIMETER CAC FIXED WINDOWS, REMOVE 4 NON-RATED COMPOUND CAC FIXED WINDOWS AND REPLACE THEM WITH 4 FE FIXED WINDOWS, AND TO REMOVE AND REPLACE 23 DELAMINATED/FOGGED FEBR GLAZING PANELS.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1399452.0; date_signed 2015-08-13."
+}

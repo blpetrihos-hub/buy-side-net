@@ -1,0 +1,10 @@
+{
+  "id": "millenium_jamaica_household_generator_108k_2010",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_millenium_jamaica_household_generator_108k_2010",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37010F0017_1900_GS07F5791R_4730/",
+  "price_year": "2010",
+  "evidence": "documented",
+  "quote": "GSO - HOUSEHOLD GENERATOR (EOFY)",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 108090.0; date_signed 2010-09-30."
+}
