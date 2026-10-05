@@ -1,0 +1,36 @@
+"""Cycle 504 hunt: shuffle_seed=20261504; Equatorial Investimentos 4T22.
+Shuffle: wind, copper, solar, graphite, lithium, nickel, engineering_epc, bridges_roads, port_ownership, port_cranes, balsa, power_plants_grid, building_materials, rail, water, niobium, other_renewables, fission_smr.
+Thin/US CapEx dry. OTHER: NEW Equatorial Investimentos 4T22 faces."""
+ITEMS = [
+    ("equatorial_ma_4t22_283m_brl", "Maranhão Total", 283.3321541900002, "-2.53", "-44.30", "Equatorial Maranhão distribution (São Luís pin).", True, "power_plants_grid", "ma"),
+    ("equatorial_ma_eletricos_4t22_225m_brl", "Maranhão Ativos elétricos", 224.52380130515513, "-2.53", "-44.30", "Equatorial Maranhão distribution (São Luís pin).", False, "power_plants_grid", "ma_eletricos"),
+    ("equatorial_ma_oe_4t22_21m_brl", "Maranhão Obrigações especiais", 20.816778915, "-2.53", "-44.30", "Equatorial Maranhão distribution (São Luís pin).", False, "power_plants_grid", "ma_oe"),
+    ("equatorial_ma_nonelectric_4t22_38m_brl", "Maranhão Ativos não elétricos", 37.99157396984507, "-2.53", "-44.30", "Equatorial Maranhão distribution (São Luís pin).", False, "power_plants_grid", "ma_nonelectric"),
+    ("equatorial_ma_pe_4t22_19m_brl", "Maranhão Projetos Estratégicos", 18.54733731, "-2.53", "-44.30", "Equatorial Maranhão distribution (São Luís pin).", False, "power_plants_grid", "ma_pe"),
+    ("equatorial_pa_4t22_596m_brl", "Pará Total", 596.4150305320438, "-1.46", "-48.50", "Equatorial Pará distribution (Belém pin).", True, "power_plants_grid", "pa"),
+    ("equatorial_pa_eletricos_4t22_412m_brl", "Pará Ativos elétricos", 412.41912048491463, "-1.46", "-48.50", "Equatorial Pará distribution (Belém pin).", False, "power_plants_grid", "pa_eletricos"),
+    ("equatorial_pa_oe_4t22_116m_brl", "Pará Obrigações especiais", 115.95925981081459, "-1.46", "-48.50", "Equatorial Pará distribution (Belém pin).", False, "power_plants_grid", "pa_oe"),
+    ("equatorial_pa_nonelectric_4t22_68m_brl", "Pará Ativos não elétricos", 68.03665023631457, "-1.46", "-48.50", "Equatorial Pará distribution (Belém pin).", False, "power_plants_grid", "pa_nonelectric"),
+    ("equatorial_pa_pe_4t22_6m_brl", "Pará Projetos Estratégicos", 5.70123513, "-1.46", "-48.50", "Equatorial Pará distribution (Belém pin).", False, "power_plants_grid", "pa_pe"),
+    ("equatorial_pi_4t22_251m_brl", "Piauí Total", 250.9845024199991, "-5.09", "-42.80", "Equatorial Piauí distribution (Teresina pin).", True, "power_plants_grid", "pi"),
+    ("equatorial_pi_eletricos_4t22_197m_brl", "Piauí Ativos elétricos", 197.46753788799012, "-5.09", "-42.80", "Equatorial Piauí distribution (Teresina pin).", False, "power_plants_grid", "pi_eletricos"),
+    ("equatorial_pi_oe_4t22_36m_brl", "Piauí Obrigações especiais", 36.23426159200898, "-5.09", "-42.80", "Equatorial Piauí distribution (Teresina pin).", False, "power_plants_grid", "pi_oe"),
+    ("equatorial_pi_nonelectric_4t22_17m_brl", "Piauí Ativos não elétricos", 17.28270294, "-5.09", "-42.80", "Equatorial Piauí distribution (Teresina pin).", False, "power_plants_grid", "pi_nonelectric"),
+    ("equatorial_pi_pe_4t22_4m_brl", "Piauí Projetos Estratégicos", 3.87881681, "-5.09", "-42.80", "Equatorial Piauí distribution (Teresina pin).", False, "power_plants_grid", "pi_pe"),
+    ("equatorial_al_4t22_141m_brl", "Alagoas Total", 141.48520546000074, "-9.67", "-35.74", "Equatorial Alagoas distribution (Maceió pin).", True, "power_plants_grid", "al"),
+    ("equatorial_al_eletricos_4t22_151m_brl", "Alagoas Ativos elétricos", 150.6039485800005, "-9.67", "-35.74", "Equatorial Alagoas distribution (Maceió pin).", False, "power_plants_grid", "al_eletricos"),
+    ("equatorial_al_pe_4t22_2m_brl", "Alagoas Projetos Estratégicos", 2.21289286, "-9.67", "-35.74", "Equatorial Alagoas distribution (Maceió pin).", False, "power_plants_grid", "al_pe"),
+    ("equatorial_rs_4t22_257m_brl", "CEEE-D (RS) Total", 256.889, "-30.03", "-51.23", "Equatorial CEEE-D Rio Grande do Sul (Porto Alegre pin).", True, "power_plants_grid", "rs"),
+    ("equatorial_rs_eletricos_4t22_231m_brl", "CEEE-D (RS) Ativos elétricos", 231.31458005000002, "-30.03", "-51.23", "Equatorial CEEE-D Rio Grande do Sul (Porto Alegre pin).", False, "power_plants_grid", "rs_eletricos"),
+    ("equatorial_rs_oe_4t22_1m_brl", "CEEE-D (RS) Obrigações especiais", 0.7411863399999999, "-30.03", "-51.23", "Equatorial CEEE-D Rio Grande do Sul (Porto Alegre pin).", False, "power_plants_grid", "rs_oe"),
+    ("equatorial_rs_nonelectric_4t22_25m_brl", "CEEE-D (RS) Ativos não elétricos", 24.83323361, "-30.03", "-51.23", "Equatorial CEEE-D Rio Grande do Sul (Porto Alegre pin).", False, "power_plants_grid", "rs_nonelectric"),
+    ("equatorial_rs_pe_4t22_0m_brl", "CEEE-D (RS) Projetos Estratégicos", 0.14247984, "-30.03", "-51.23", "Equatorial CEEE-D Rio Grande do Sul (Porto Alegre pin).", False, "power_plants_grid", "rs_pe"),
+    ("equatorial_ap_4t22_95m_brl", "CEA (AP) Total", 94.63165509, "0.03", "-51.07", "Equatorial CEA Amapá (Macapá pin).", True, "power_plants_grid", "ap"),
+    ("equatorial_ap_eletricos_4t22_79m_brl", "CEA (AP) Ativos elétricos", 78.66882864000002, "0.03", "-51.07", "Equatorial CEA Amapá (Macapá pin).", False, "power_plants_grid", "ap_eletricos"),
+    ("equatorial_ap_oe_4t22_2m_brl", "CEA (AP) Obrigações especiais", 1.5338515299999993, "0.03", "-51.07", "Equatorial CEA Amapá (Macapá pin).", False, "power_plants_grid", "ap_oe"),
+    ("equatorial_ap_nonelectric_4t22_14m_brl", "CEA (AP) Ativos não elétricos", 14.428974919999993, "0.03", "-51.07", "Equatorial CEA Amapá (Macapá pin).", False, "power_plants_grid", "ap_nonelectric"),
+    ("equatorial_ap_pe_4t22_0m_brl", "CEA (AP) Projetos Estratégicos", 0.28228819, "0.03", "-51.07", "Equatorial CEA Amapá (Macapá pin).", False, "power_plants_grid", "ap_pe"),
+    ("equatorial_tx_4t22_12m_brl", "Transmissão", 12.36226647000004, "-15.78", "-47.93", "Equatorial transmission SPEs (Brasília pin).", True, "power_plants_grid", "tx"),
+    ("equatorial_echo_4t22_26m_brl", "Echoenergia", 25.991813330000003, "-8.05", "-34.88", "Equatorial Echoenergia renewables (Recife pin).", True, "other_renewables", "echo"),
+    ("equatorial_saneamento_4t22_39m_brl", "Saneamento", 38.90601810000001, "-23.55", "-46.63", "Equatorial sanitation (São Paulo HQ pin).", True, "water", "saneamento")
+]
