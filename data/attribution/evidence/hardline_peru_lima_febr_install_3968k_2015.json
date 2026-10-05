@@ -1,0 +1,10 @@
+{
+  "id": "hardline_peru_lima_febr_install_3968k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hardline_peru_lima_febr_install_3968k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F0335_1900_SAQMMA14D0085_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF HNC - SAQMMA14D0085 - TO:SAQMMA16F0335 - FEBR R&R PROJECT -  US EMBASSY LIMA, PERU.  INSTALL 48 FE/BR DOORS, 86 FE/BR WINDOW UNITS, TWO GLAZING PANELS IN THE CHANCERY, ANNEX, AND CAC BUILDINGS.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 3968035.55; date_signed 2015-12-16."
+}
