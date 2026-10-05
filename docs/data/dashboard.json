@@ -87,17 +87,17 @@
     }
   },
   "meta": {
-    "n_rows": 9581,
+    "n_rows": 9596,
     "counts": {
-      "total": 9581,
-      "active": 9382,
+      "total": 9596,
+      "active": 9397,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 9308,
+      "documented": 9323,
       "on_map": 8548
     }
   },
@@ -105,18 +105,18 @@
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 519,
+        "us": 524,
         "prc": 129,
-        "allied": 3592,
-        "n": 4240
+        "allied": 3596,
+        "n": 4249
       },
       "usd": {
-        "us": 47412050466.77001,
-        "us_n": 452,
+        "us": 47412170142.80001,
+        "us_n": 457,
         "prc": 17322325919.350002,
         "prc_n": 40,
-        "allied": 145007033149.79993,
-        "allied_n": 3479
+        "allied": 145007139654.2099,
+        "allied_n": 3483
       },
       "matched_gaps": {
         "n": 1,
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 279,
+        "us": 280,
         "prc": 210,
-        "allied": 4168,
-        "n": 4657
+        "allied": 4173,
+        "n": 4663
       },
       "usd": {
-        "us": 36781817884.33,
-        "us_n": 175,
+        "us": 36781837767.08,
+        "us_n": 176,
         "prc": 43269216900.41999,
         "prc_n": 73,
-        "allied": 383614263741.1406,
-        "allied_n": 4090
+        "allied": 383614399340.8606,
+        "allied_n": 4095
       },
       "matched_gaps": {
         "n": 1,
@@ -243,16 +243,16 @@
       "counts": {
         "us": 16,
         "prc": 0,
-        "allied": 17,
-        "n": 33
+        "allied": 18,
+        "n": 34
       },
       "usd": {
         "us": 555989564.6,
         "us_n": 16,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 3126235.0000000005,
-        "allied_n": 16
+        "allied": 3161009.0000000005,
+        "allied_n": 17
       },
       "by_layer": {
         "energy": {
@@ -263,7 +263,7 @@
         "infrastructure": {
           "us": 13,
           "prc": 0,
-          "allied": 13
+          "allied": 14
         }
       }
     },
@@ -372,14 +372,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 161,
+        "us": 162,
         "prc": 125,
         "allied": 6997,
-        "n": 7283
+        "n": 7284
       },
       "usd": {
-        "us": 21350833123.179996,
-        "us_n": 99,
+        "us": 21350868075.569996,
+        "us_n": 100,
         "prc": 42011016838.479996,
         "prc_n": 61,
         "allied": 527467213220.40015,
@@ -392,7 +392,7 @@
           "allied": 3941
         },
         "infrastructure": {
-          "us": 96,
+          "us": 97,
           "prc": 26,
           "allied": 2888
         },
@@ -440,14 +440,14 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 53,
+        "us": 55,
         "prc": 29,
         "allied": 124,
-        "n": 206
+        "n": 208
       },
       "usd": {
-        "us": 2886549970.069999,
-        "us_n": 39,
+        "us": 2886604852.269999,
+        "us_n": 41,
         "prc": 5971656357.0,
         "prc_n": 6,
         "allied": 2376680653.3199973,
@@ -455,12 +455,12 @@
       },
       "by_layer": {
         "energy": {
-          "us": 26,
+          "us": 27,
           "prc": 17,
           "allied": 22
         },
         "infrastructure": {
-          "us": 24,
+          "us": 25,
           "prc": 7,
           "allied": 96
         },
@@ -476,22 +476,22 @@
       "counts": {
         "us": 7,
         "prc": 5,
-        "allied": 40,
-        "n": 52
+        "allied": 41,
+        "n": 53
       },
       "usd": {
         "us": 27151364.900000002,
         "us_n": 5,
         "prc": 465593387.0,
         "prc_n": 1,
-        "allied": 858928495.93,
-        "allied_n": 38
+        "allied": 858960467.93,
+        "allied_n": 39
       },
       "by_layer": {
         "energy": {
           "us": 3,
           "prc": 1,
-          "allied": 12
+          "allied": 13
         },
         "infrastructure": {
           "us": 4,
@@ -641,22 +641,22 @@
       "counts": {
         "us": 29,
         "prc": 2,
-        "allied": 30,
-        "n": 61
+        "allied": 31,
+        "n": 62
       },
       "usd": {
         "us": 1088729743.63,
         "us_n": 21,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 166130682.24000007,
-        "allied_n": 29
+        "allied": 166150550.63000005,
+        "allied_n": 30
       },
       "by_layer": {
         "energy": {
           "us": 15,
           "prc": 1,
-          "allied": 3
+          "allied": 4
         },
         "infrastructure": {
           "us": 14,
@@ -704,27 +704,27 @@
       "counts": {
         "us": 19,
         "prc": 0,
-        "allied": 28,
-        "n": 47
+        "allied": 30,
+        "n": 49
       },
       "usd": {
         "us": 343231661.77000004,
         "us_n": 12,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 285426944.45,
-        "allied_n": 25
+        "allied": 285481641.99,
+        "allied_n": 27
       },
       "by_layer": {
         "energy": {
           "us": 5,
           "prc": 0,
-          "allied": 6
+          "allied": 7
         },
         "infrastructure": {
           "us": 13,
           "prc": 0,
-          "allied": 20
+          "allied": 21
         },
         "resources": {
           "us": 1,
@@ -772,16 +772,16 @@
       "counts": {
         "us": 63,
         "prc": 0,
-        "allied": 88,
-        "n": 151
+        "allied": 89,
+        "n": 152
       },
       "usd": {
         "us": 478720439.72000015,
         "us_n": 63,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 887143849.91,
-        "allied_n": 36
+        "allied": 887175819.91,
+        "allied_n": 37
       },
       "by_layer": {
         "energy": {
@@ -792,7 +792,7 @@
         "infrastructure": {
           "us": 53,
           "prc": 0,
-          "allied": 66
+          "allied": 67
         },
         "resources": {
           "us": 1,
@@ -869,27 +869,27 @@
       "counts": {
         "us": 104,
         "prc": 19,
-        "allied": 92,
-        "n": 215
+        "allied": 94,
+        "n": 217
       },
       "usd": {
         "us": 11245120781.119999,
         "us_n": 89,
         "prc": 312365273.57,
         "prc_n": 4,
-        "allied": 11860567682.589998,
-        "allied_n": 81
+        "allied": 11860619519.869997,
+        "allied_n": 83
       },
       "by_layer": {
         "energy": {
           "us": 15,
           "prc": 5,
-          "allied": 17
+          "allied": 18
         },
         "infrastructure": {
           "us": 72,
           "prc": 12,
-          "allied": 64
+          "allied": 65
         },
         "resources": {
           "us": 17,
@@ -901,14 +901,14 @@
     {
       "country": "Nicaragua",
       "counts": {
-        "us": 13,
+        "us": 14,
         "prc": 15,
         "allied": 11,
-        "n": 39
+        "n": 40
       },
       "usd": {
-        "us": 83418341.14999999,
-        "us_n": 12,
+        "us": 83434291.14999999,
+        "us_n": 13,
         "prc": 1375052570.1,
         "prc_n": 8,
         "allied": 101898322.5,
@@ -921,7 +921,7 @@
           "allied": 1
         },
         "infrastructure": {
-          "us": 9,
+          "us": 10,
           "prc": 9,
           "allied": 10
         },
@@ -1005,22 +1005,22 @@
       "counts": {
         "us": 43,
         "prc": 44,
-        "allied": 114,
-        "n": 201
+        "allied": 115,
+        "n": 202
       },
       "usd": {
         "us": 17921388884.70999,
         "us_n": 33,
         "prc": 13270705448.15,
         "prc_n": 13,
-        "allied": 25574429987.4,
-        "allied_n": 98
+        "allied": 25574446972.32,
+        "allied_n": 99
       },
       "by_layer": {
         "energy": {
           "us": 6,
           "prc": 8,
-          "allied": 29
+          "allied": 30
         },
         "infrastructure": {
           "us": 22,
@@ -1114,14 +1114,14 @@
     {
       "country": "Suriname",
       "counts": {
-        "us": 8,
+        "us": 9,
         "prc": 8,
         "allied": 5,
-        "n": 21
+        "n": 22
       },
       "usd": {
-        "us": 127411339.89,
-        "us_n": 6,
+        "us": 127428224.89,
+        "us_n": 7,
         "prc": 150000000.0,
         "prc_n": 1,
         "allied": 420747.49,
@@ -1134,7 +1134,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 7,
+          "us": 8,
           "prc": 1,
           "allied": 4
         },
@@ -1216,14 +1216,14 @@
     {
       "country": "Venezuela",
       "counts": {
-        "us": 8,
+        "us": 9,
         "prc": 1,
         "allied": 6,
-        "n": 15
+        "n": 16
       },
       "usd": {
-        "us": 18866134.770000003,
-        "us_n": 5,
+        "us": 18883023.960000005,
+        "us_n": 6,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 329932.49,
@@ -1236,7 +1236,7 @@
           "allied": 2
         },
         "infrastructure": {
-          "us": 6,
+          "us": 7,
           "prc": 0,
           "allied": 4
         }
@@ -10624,7 +10624,22 @@
       "habersham_guatemala_metal_door_screen_20k_2023",
       "misc_brazil_rso_security_solid_doors_20k_2017",
       "misc_peru_lima_fcs_offices_construction_20k_2016",
-      "misc_guatemala_milgp_generators_35k_2010"
+      "misc_guatemala_milgp_generators_35k_2010",
+      "greener_concepts_colombia_icass_playground_equipment_35k_2015",
+      "critical_power_colombia_electrical_generator_30kva_20k_2012",
+      "misc_el_salvador_iml_air_conditioners_20k_2024",
+      "misc_bahamas_nec_anti_climb_gate_system_35k_2025",
+      "misc_guatemala_canopy_roof_sheets_replacement_20k_2013",
+      "applied_security_brazil_recife_tss_installation_35k_2012",
+      "harden_suriname_metal_door_screen_17k_2024",
+      "misc_guatemala_cmr_air_conditioning_system_35k_2020",
+      "misc_mexico_puebla_tv_aluminum_windows_doors_20k_2013",
+      "misc_peru_power_stabilizer_transformer_17k_2019",
+      "norshield_nicaragua_security_glazing_ng225_16k_2023",
+      "valkyrie_venezuela_caracas_tss_installation_17k_2012",
+      "misc_costa_rica_inl_annex_126kw_emergency_generator_32k_2019",
+      "misc_haiti_cas_kitchen_renovation_32k_2025",
+      "misc_mexico_hmo_low_voltage_diesel_standby_generators_32k_2018"
     ],
     "hunt": [
       "hunt_br_power_equip",
