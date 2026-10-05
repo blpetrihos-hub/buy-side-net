@@ -30210,3 +30210,138 @@
   supports:
   - misc_panama_yaviza_barracks_renovation_32k_2010
   - hunt_cycle1118
+- id: usaspending_frazier_dominican_republic_ac_ladders_offices_28k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID517O1100096_7200_-NONE-_-NONE- (frazier_dominican_republic_ac_ladders_offices_28k_2011). Signed 2011-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID517O1100096_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID517O1100096_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: frazier_dominican_republic_ac_ladders_offices_28k_2011 USD 0.028m. Supports frazier_dominican_republic_ac_ladders_offices_28k_2011.'
+  supports:
+  - frazier_dominican_republic_ac_ladders_offices_28k_2011
+  - hunt_cycle1119
+- id: usaspending_aes_brazil_sao_paulo_security_installation_28k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F0177_1900_SAQMMA07D0031_1900 (aes_brazil_sao_paulo_security_installation_28k_2012). Signed 2012-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F0177_1900_SAQMMA07D0031_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F0177_1900_SAQMMA07D0031_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: aes_brazil_sao_paulo_security_installation_28k_2012 USD 0.028m. Supports aes_brazil_sao_paulo_security_installation_28k_2012.'
+  supports:
+  - aes_brazil_sao_paulo_security_installation_28k_2012
+  - hunt_cycle1119
+- id: usaspending_misc_ecuador_asphalt_road_repair_38k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC3021P0479_1900_-NONE-_-NONE- (misc_ecuador_asphalt_road_repair_38k_2021). Signed 2021-07-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3021P0479_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3021P0479_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_ecuador_asphalt_road_repair_38k_2021 USD 0.038m. Supports misc_ecuador_asphalt_road_repair_38k_2021.'
+  supports:
+  - misc_ecuador_asphalt_road_repair_38k_2021
+  - hunt_cycle1119
+- id: usaspending_perez_romo_mexico_carpet_floor_replace_38k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX1119P0223_1900_-NONE-_-NONE- (perez_romo_mexico_carpet_floor_replace_38k_2019). Signed 2019-06-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1119P0223_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1119P0223_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: perez_romo_mexico_carpet_floor_replace_38k_2019 USD 0.038m. Supports perez_romo_mexico_carpet_floor_replace_38k_2019.'
+  supports:
+  - perez_romo_mexico_carpet_floor_replace_38k_2019
+  - hunt_cycle1119
+- id: usaspending_misc_guatemala_public_ministry_renovation_materials_37k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GT5021P0448_1900_-NONE-_-NONE- (misc_guatemala_public_ministry_renovation_materials_37k_2021). Signed 2021-04-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5021P0448_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5021P0448_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_guatemala_public_ministry_renovation_materials_37k_2021 USD 0.037m. Supports misc_guatemala_public_ministry_renovation_materials_37k_2021.'
+  supports:
+  - misc_guatemala_public_ministry_renovation_materials_37k_2021
+  - hunt_cycle1119
+- id: usaspending_dynamic_insights_mexico_central_ups_batteries_28k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5323P1771_1900_-NONE-_-NONE- (dynamic_insights_mexico_central_ups_batteries_28k_2023). Signed 2023-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5323P1771_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5323P1771_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: dynamic_insights_mexico_central_ups_batteries_28k_2023 USD 0.028m. Supports dynamic_insights_mexico_central_ups_batteries_28k_2023.'
+  supports:
+  - dynamic_insights_mexico_central_ups_batteries_28k_2023
+  - hunt_cycle1120
+- id: usaspending_tidewater_panama_annex_generator_fuel_tank_25k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0719P0884_1900_-NONE-_-NONE- (tidewater_panama_annex_generator_fuel_tank_25k_2019). Signed 2019-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0884_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0884_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: tidewater_panama_annex_generator_fuel_tank_25k_2019 USD 0.025m. Supports tidewater_panama_annex_generator_fuel_tank_25k_2019.'
+  supports:
+  - tidewater_panama_annex_generator_fuel_tank_25k_2019
+  - hunt_cycle1120
+- id: usaspending_misc_brazil_dcr_windows_doors_grills_replacement_37k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2520P0810_1900_-NONE-_-NONE- (misc_brazil_dcr_windows_doors_grills_replacement_37k_2020). Signed 2020-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2520P0810_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2520P0810_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_dcr_windows_doors_grills_replacement_37k_2020 USD 0.037m. Supports misc_brazil_dcr_windows_doors_grills_replacement_37k_2020.'
+  supports:
+  - misc_brazil_dcr_windows_doors_grills_replacement_37k_2020
+  - hunt_cycle1120
+- id: usaspending_misc_brazil_embassy_sand_volleyball_court_37k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25012M2360_1900_-NONE-_-NONE- (misc_brazil_embassy_sand_volleyball_court_37k_2012). Signed 2012-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25012M2360_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25012M2360_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_embassy_sand_volleyball_court_37k_2012 USD 0.037m. Supports misc_brazil_embassy_sand_volleyball_court_37k_2012.'
+  supports:
+  - misc_brazil_embassy_sand_volleyball_court_37k_2012
+  - hunt_cycle1120
+- id: usaspending_misc_brazil_niv_refurbishment_addition_37k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR82011M1205_1900_-NONE-_-NONE- (misc_brazil_niv_refurbishment_addition_37k_2010). Signed 2010-11-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82011M1205_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82011M1205_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_niv_refurbishment_addition_37k_2010 USD 0.037m. Supports misc_brazil_niv_refurbishment_addition_37k_2010.'
+  supports:
+  - misc_brazil_niv_refurbishment_addition_37k_2010
+  - hunt_cycle1120
+- id: usaspending_hy_security_jamaica_cacs_gate_operators_25k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37013M0971_1900_-NONE-_-NONE- (hy_security_jamaica_cacs_gate_operators_25k_2013). Signed 2013-08-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M0971_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M0971_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hy_security_jamaica_cacs_gate_operators_25k_2013 USD 0.025m. Supports hy_security_jamaica_cacs_gate_operators_25k_2013.'
+  supports:
+  - hy_security_jamaica_cacs_gate_operators_25k_2013
+  - hunt_cycle1121
+- id: usaspending_flex_court_colombia_outdoor_basketball_court_25k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11P0084_9700_-NONE-_-NONE- (flex_court_colombia_outdoor_basketball_court_25k_2011). Signed 2011-03-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0084_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0084_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: flex_court_colombia_outdoor_basketball_court_25k_2011 USD 0.025m. Supports flex_court_colombia_outdoor_basketball_court_25k_2011.'
+  supports:
+  - flex_court_colombia_outdoor_basketball_court_25k_2011
+  - hunt_cycle1121
+- id: usaspending_misc_costa_rica_dcmr_perimeter_wall_painting_36k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8018C0011_1900_-NONE-_-NONE- (misc_costa_rica_dcmr_perimeter_wall_painting_36k_2018). Signed 2018-06-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8018C0011_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8018C0011_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_dcmr_perimeter_wall_painting_36k_2018 USD 0.036m. Supports misc_costa_rica_dcmr_perimeter_wall_painting_36k_2018.'
+  supports:
+  - misc_costa_rica_dcmr_perimeter_wall_painting_36k_2018
+  - hunt_cycle1121
+- id: usaspending_misc_brazil_dcr_new_guard_booth_36k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2519P1201_1900_-NONE-_-NONE- (misc_brazil_dcr_new_guard_booth_36k_2019). Signed 2019-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P1201_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P1201_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_dcr_new_guard_booth_36k_2019 USD 0.036m. Supports misc_brazil_dcr_new_guard_booth_36k_2019.'
+  supports:
+  - misc_brazil_dcr_new_guard_booth_36k_2019
+  - hunt_cycle1121
+- id: usaspending_marko_mexico_guadalajara_msgr_emergency_generator_37k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX3021P0022_1900_-NONE-_-NONE- (marko_mexico_guadalajara_msgr_emergency_generator_37k_2020). Signed 2020-11-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX3021P0022_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX3021P0022_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: marko_mexico_guadalajara_msgr_emergency_generator_37k_2020 USD 0.037m. Supports marko_mexico_guadalajara_msgr_emergency_generator_37k_2020.'
+  supports:
+  - marko_mexico_guadalajara_msgr_emergency_generator_37k_2020
+  - hunt_cycle1121

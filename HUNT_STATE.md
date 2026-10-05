@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1118
+cycle: 1121
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1119 shuffle_seed=20262119; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us874/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.024–0.037m (Hy-Security Jamaica gate operators; Brazil DCR windows/doors grills; Brazil sand volleyball court; misc sub-$0.037m from 20–38k band). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1119 shuffled_order)
+next_query: Cycle 1122 shuffle_seed=20262122; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us880/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.022–0.037m (Hy-Security Colombia barrier/gate; Perez Romo CCS carpet; Escobal clinic roof; Gordon Tupper renovation; misc sub-$0.037m). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1122 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1118) ===
-# Filled this batch: Jamaica×power_plants_grid NEW×1 us (Anacordia fuel mgmt); Guyana×power_plants_grid NEW×1 us (Alban residential gen); Brazil×building_materials NEW×2 other (electrical warehouse; official residency M&R); Argentina×building_materials NEW×1 other (OBC guards bathroom); Mexico×building_materials NEW×2 us (Bentley FAC carpet; Interface NIV carpet); Honduras×water NEW×1 us (Syncroflo pump heads); Costa Rica×water/power_plants_grid NEW×2 other (water filter; INL generator K-35); Trinidad and Tobago×building_materials NEW×1 other (car park awnings); Belize×building_materials NEW×1 other (pool resurfacing); Panama×water/building_materials NEW×2 (Balco NEC pump us; Yaviza barracks other); Mexico×power_plants_grid NEW×1 other (CG residence generator).
-# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank. Anacordia/Alban residential/Syncroflo/Bentley FAC/Interface NIV/Balco/Brazil warehouse/residency/Argentina bathroom/CR water filter/TTO awnings/Belize pool/CR generator/Mexico CG gen/Yaviza holdovers closed.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx — Anacordia Jamaica, Alban Guyana, Bentley Mexico, Syncroflo Honduras, Interface Mexico, Balco Panama).
+# === Country×subcategory sweep cells touched (session continuing from 1121) ===
+# Filled this batch: Dominican Republic×power_plants_grid NEW×1 us (Frazier A/Cs); Brazil×building_materials NEW×5 (AES Sao Paulo security us; windows/doors grills; volleyball court; NIV refurb; DCR guard booth other); Ecuador×bridges_roads NEW×1 other (asphalt road); Mexico×building_materials/power_plants_grid NEW×3 (Perez Romo carpet other; Dynamic Insights UPS batteries us; Marko MSGR generator other); Guatemala×building_materials NEW×1 other (Public Ministry reno materials); Panama×water NEW×1 us (Tidewater annex fuel tank); Jamaica×building_materials NEW×1 us (Hy-Security CACS gates); Colombia×building_materials NEW×1 us (Flex Court basketball); Costa Rica×building_materials NEW×1 other (DCMR wall painting).
+# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (6 US CapEx — Frazier DR, AES Brazil, Dynamic Insights Mexico, Tidewater Panama, Hy-Security Jamaica, Flex Court Colombia).
+
+# === Cycle 1121 (seed 20262121) ===
+# Shuffled: engineering_epc, bridges_roads, building_materials, port_cranes, solar, lithium, balsa, port_ownership, other_renewables, graphite, niobium, water, rail, power_plants_grid, copper, nickel, fission_smr, wind.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   hy_security_jamaica_cacs_gate_operators_25k_2013 flex_court_colombia_outdoor_basketball_court_25k_2011 misc_costa_rica_dcmr_perimeter_wall_painting_36k_2018 misc_brazil_dcr_new_guard_booth_36k_2019 marko_mexico_guadalajara_msgr_emergency_generator_37k_2020.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Hy-Security Colombia; Escobal roof; Gordon Tupper; thin.
+# Active after cycle 1121: us880 / prc410 / allied1564 / other6453 (n=9307).
+
+# === Cycle 1120 (seed 20262120) ===
+# Shuffled: solar, engineering_epc, water, niobium, other_renewables, power_plants_grid, lithium, rail, bridges_roads, port_cranes, wind, building_materials, copper, balsa, nickel, graphite, fission_smr, port_ownership.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   dynamic_insights_mexico_central_ups_batteries_28k_2023 tidewater_panama_annex_generator_fuel_tank_25k_2019 misc_brazil_dcr_windows_doors_grills_replacement_37k_2020 misc_brazil_embassy_sand_volleyball_court_37k_2012 misc_brazil_niv_refurbishment_addition_37k_2010.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Hy-Security Jamaica; Flex Court Colombia; CR wall paint; Brazil guard booth; Marko generator; thin.
+# Active after cycle 1120: us878 / prc410 / allied1564 / other6450 (n=9302).
+
+# === Cycle 1119 (seed 20262119) ===
+# Shuffled: rail, niobium, water, engineering_epc, port_ownership, nickel, port_cranes, wind, copper, building_materials, graphite, power_plants_grid, balsa, lithium, bridges_roads, other_renewables, solar, fission_smr.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   frazier_dominican_republic_ac_ladders_offices_28k_2011 aes_brazil_sao_paulo_security_installation_28k_2012 misc_ecuador_asphalt_road_repair_38k_2021 perez_romo_mexico_carpet_floor_replace_38k_2019 misc_guatemala_public_ministry_renovation_materials_37k_2021.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Dynamic Insights; Tidewater Panama tank; Brazil windows/volleyball/NIV; thin.
+# Active after cycle 1119: us876 / prc410 / allied1564 / other6447 (n=9297).
 
 # === Cycle 1118 (seed 20262118) ===
 # Shuffled: balsa, graphite, copper, lithium, power_plants_grid, fission_smr, solar, nickel, port_cranes, rail, other_renewables, building_materials, bridges_roads, engineering_epc, water, niobium, port_ownership, wind.
