@@ -1,10 +1,10 @@
 {
   "id": "aes_panama_pese_10mw_2021",
-  "retrieved": "2026-10-02",
-  "source_id": "aes_panama_solar40mw_20200214",
+  "retrieved": "2026-10-05",
+  "source_id": "aes_panama_four_solar_20200214",
   "url": "https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables",
-  "price_year": "2021",
+  "price_year": "2020",
   "evidence": "documented",
-  "quote": "AES continues to contribute towards the diversification and strengthening of the energy sector in Panama, this time through the announcement of a solar project that contemplates four smaller projects of 10MW each that are distributed through three provinces in the country, with an investment of more than USD $50 million. … Pesé Solar (District of Pesé, Herrera Province), Mayorca Solar (District of Pocrí, Los Santos Province), and Cedro & Caoba Solar (both in the district of Boquerón, Chiriquí Province).",
-  "note": "Opened AES Panamá 14 Feb 2020 release (Pesé Solar 10 MW / >USD 50m four-park portfolio)."
+  "quote": "AES continues to contribute towards the diversification and strengthening of the energy sector in Panama, this time through the announcement of a solar project that contemplates four smaller projects of 10MW each that are distributed through three provinces in the country, with an investment of more than USD $50 million. … Pesé Solar (District of Pesé, Herrera Province), Mayorca Solar (District of Pocrí, Los Santos Province), and Cedro & Caoba Solar (both in the district of Boquerón, Chiriquí Province)",
+  "note": "Opened AES Panamá English; >USD 50m / 4×10 MW Pesé–Mayorca–Cedro–Caoba confirmed. CapEx-fill enter USD 50m floor."
 }
