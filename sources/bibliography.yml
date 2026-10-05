@@ -18673,7 +18673,7 @@
   type: company
   chicago: AXIA Energia S.A. (ex-Eletrobras). “Guia de Modelagem — 2T26 — Excel — Capex Realizado (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2
-  annotation: AXIA Total CapEx FY2025 CapEx via Fed H.10. Supports axia_consol_total_fy2025_9608m_brl.
+  annotation: AXIA Total CapEx FY2024 CapEx via Fed H.10. Supports axia_consol_total_fy2024_8157m_brl.
   supports:
   - axia_consol_imob_intang_2t26_2212m_brl
   - hunt_cycle632
@@ -18833,3 +18833,11 @@
   - axia_consol_empresas_investidas_fy2025_590m_brl
   - axia_consol_hvdc_itaipu_fy2025_1031m_brl
   - axia_consol_total_fy2025_9608m_brl
+  - axia_consol_imob_intang_fy2024_7223m_brl
+  - hunt_cycle653
+  - axia_consol_geracao_fy2024_2595m_brl
+  - axia_consol_transmissao_fy2024_3706m_brl
+  - axia_consol_ambiental_infra_fy2024_922m_brl
+  - axia_consol_empresas_investidas_fy2024_486m_brl
+  - axia_consol_hvdc_itaipu_fy2024_448m_brl
+  - axia_consol_total_fy2024_8157m_brl
