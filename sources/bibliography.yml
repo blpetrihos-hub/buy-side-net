@@ -13583,7 +13583,7 @@
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2
-  annotation: Motiva Outros / Others FY2017 CapEx excl. maint. via Fed H.10. Supports motiva_outros_exmaint_fy2017_143m_brl.
+  annotation: Motiva Outros / Others 4T17 CapEx via Fed H.10. Supports motiva_outros_4t17_37m_brl.
   supports:
   - motiva_autoban_2t26_136m_brl
   - hunt_cycle294
@@ -15191,6 +15191,21 @@
   - motiva_vlt_carioca_exmaint_fy2017_83m_brl
   - motiva_metro_bahia_exmaint_fy2017_511m_brl
   - motiva_outros_exmaint_fy2017_143m_brl
+  - motiva_roads_4t17_374m_brl
+  - hunt_cycle392
+  - motiva_vialagos_4t17_2m_brl
+  - motiva_autoban_4t17_47m_brl
+  - motiva_viaoeste_4t17_15m_brl
+  - motiva_rodoanel_oeste_4t17_10m_brl
+  - motiva_spvias_4t17_40m_brl
+  - motiva_viario_4t17_13m_brl
+  - motiva_pantanal_4t17_46m_brl
+  - motiva_renovias_4t17_7m_brl
+  - motiva_rails_4t17_444m_brl
+  - motiva_viaquatro_4t17_41m_brl
+  - motiva_vlt_carioca_4t17_13m_brl
+  - motiva_metro_bahia_4t17_390m_brl
+  - motiva_outros_4t17_37m_brl
 - id: vli_progress_rail_sd70_20260210
   type: company
   chicago: VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.
