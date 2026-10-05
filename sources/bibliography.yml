@@ -13430,7 +13430,7 @@
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2
-  annotation: Motiva ViaRio 2T26 CapEx via Fed H.10. Supports motiva_viario_2t26_2m_brl.
+  annotation: Motiva ViaRio 1T26 CapEx via Fed H.10. Supports motiva_viario_1t26_2m_brl.
   supports:
   - motiva_autoban_2t26_136m_brl
   - hunt_cycle294
@@ -13467,3 +13467,23 @@
   - motiva_outros_2t26_12m_brl
   - motiva_roads_exmaint_2t26_1454m_brl
   - motiva_viario_2t26_2m_brl
+  - motiva_autoban_exmaint_2t26_44m_brl
+  - hunt_cycle296
+  - motiva_viaoeste_exmaint_2t26_133m_brl
+  - motiva_rodoanel_oeste_exmaint_2t26_17m_brl
+  - motiva_spvias_exmaint_2t26_50m_brl
+  - motiva_pantanal_exmaint_2t26_204m_brl
+  - motiva_viasul_exmaint_2t26_178m_brl
+  - motiva_viacosteira_exmaint_2t26_70m_brl
+  - motiva_rio_sp_exmaint_2t26_334m_brl
+  - motiva_sorocabana_exmaint_2t26_126m_brl
+  - motiva_pr_vias_exmaint_2t26_185m_brl
+  - motiva_minas_sp_exmaint_2t26_116m_brl
+  - motiva_rails_exmaint_2t26_208m_brl
+  - motiva_viaquatro_exmaint_2t26_72m_brl
+  - motiva_vlt_carioca_exmaint_2t26_20m_brl
+  - motiva_metro_bahia_exmaint_2t26_18m_brl
+  - motiva_viamobilidade_exmaint_2t26_13m_brl
+  - motiva_viamobilidade_l89_exmaint_2t26_85m_brl
+  - motiva_outros_1t26_13m_brl
+  - motiva_viario_1t26_2m_brl
