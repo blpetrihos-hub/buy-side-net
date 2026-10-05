@@ -1,0 +1,10 @@
+{
+  "id": "comp_roof_guatemala_1p17m_2008",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_comp_roof_guatemala_1p17m_2008",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA08F6846_1900_SALMEC07D0032_1900/",
+  "price_year": "2008",
+  "evidence": "documented",
+  "quote": "GUATEMALA ROOF REPLACEMENT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1171424; date_signed 2008-09-24."
+}
