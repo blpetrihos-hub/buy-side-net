@@ -12872,7 +12872,7 @@
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (RI ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
   url: https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip
-  annotation: Alupar TCN CapEx Realizado via Fed H.10. Supports alupar_tcn_capex_realizado_35p1m_brl.
+  annotation: Alupar Geral CapEx Realizado USD. Supports alupar_geral_capex_realizado_1p2m_usd.
   supports:
   - alupar_lote7_tesp_1089m_brl_2026
   - hunt_cycle260
@@ -12890,6 +12890,14 @@
   - hunt_cycle298
   - alupar_tpc_capex_realizado_305p8m_brl
   - alupar_tcn_capex_realizado_35p1m_brl
+  - alupar_tes_capex_realizado_25p03m_usd
+  - hunt_cycle299
+  - alupar_tel_capex_realizado_4p3m_usd
+  - alupar_sed_capex_realizado_3p6m_usd
+  - alupar_tep_capex_realizado_13p5m_usd
+  - alupar_tsa_capex_realizado_0p4m_usd
+  - alupar_ter_capex_realizado_6p4m_usd
+  - alupar_geral_capex_realizado_1p2m_usd
 - id: gerdau_2q26_sec_6k_2026
   type: company
   chicago: Gerdau S.A. “Form 6-K Exhibit 99.1 — Quarterly Results 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1073404/000110465926090494/tm2621830d2_ex99-1.htm.
