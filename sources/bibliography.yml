@@ -16531,7 +16531,7 @@
   type: company
   chicago: Equatorial Energia S.A. “Dados Financeiros e Operacionais — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2
-  annotation: Equatorial Geramar 1T17 CapEx via Fed H.10. Supports equatorial_geramar_1t17_1m_brl.
+  annotation: Equatorial Echoenergia 2T26 CapEx via Fed H.10. Supports equatorial_echo_2t26_48m_brl.
   supports:
   - equatorial_ma_1t26_273m_brl
   - hunt_cycle491
@@ -17439,3 +17439,12 @@
   - equatorial_pa_oe_1t17_39m_brl
   - equatorial_pa_nonelectric_1t17_33m_brl
   - equatorial_geramar_1t17_1m_brl
+  - equatorial_ma_pe_2t26_7m_brl
+  - hunt_cycle528
+  - equatorial_pa_pe_2t26_8m_brl
+  - equatorial_pi_pe_2t26_3m_brl
+  - equatorial_al_pe_2t26_3m_brl
+  - equatorial_rs_pe_2t26_6m_brl
+  - equatorial_ap_pe_2t26_1m_brl
+  - equatorial_go_pe_2t26_18m_brl
+  - equatorial_echo_2t26_48m_brl
