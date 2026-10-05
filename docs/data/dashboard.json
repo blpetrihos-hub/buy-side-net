@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1965,
+    "n_rows": 1980,
     "counts": {
-      "total": 1965,
-      "active": 1766,
+      "total": 1980,
+      "active": 1781,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1692,
-      "on_map": 1612
+      "documented": 1707,
+      "on_map": 1627
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 384,
-        "n": 785
+        "allied": 399,
+        "n": 800
       },
       "usd": {
-        "us": 36624056364.53999,
-        "us_n": 87,
+        "us": 36729056364.53999,
+        "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 120870954459.21,
-        "allied_n": 313
+        "allied": 121028501501.81001,
+        "allied_n": 328
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 547,
-        "n": 802
+        "allied": 562,
+        "n": 817
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 175632644568.98996,
-        "allied_n": 466
+        "allied": 175790191611.58994,
+        "allied_n": 481
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 264
+          "allied": 279
         },
         "infrastructure": {
           "us": 68,
@@ -402,8 +402,8 @@
         "n": 225
       },
       "usd": {
-        "us": 55891583350.0,
-        "us_n": 45,
+        "us": 55996583350.0,
+        "us_n": 46,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 53364462361.0,
@@ -2954,7 +2954,22 @@
       "neoenergia_pe_renovacao_ativos_6m26_232m_brl",
       "neoenergia_cosern_renovacao_ativos_6m26_37m_brl",
       "neoenergia_elektro_renovacao_ativos_6m26_115m_brl",
-      "neoenergia_brasilia_renovacao_ativos_6m26_67m_brl"
+      "neoenergia_brasilia_renovacao_ativos_6m26_67m_brl",
+      "neoenergia_coelba_melhoria_rede_6m26_96m_brl",
+      "neoenergia_pe_melhoria_rede_6m26_47m_brl",
+      "neoenergia_cosern_melhoria_rede_6m26_43m_brl",
+      "neoenergia_elektro_melhoria_rede_6m26_48m_brl",
+      "neoenergia_brasilia_melhoria_rede_6m26_42m_brl",
+      "neoenergia_coelba_perdas_inadimplencia_6m26_49m_brl",
+      "neoenergia_pe_perdas_inadimplencia_6m26_52m_brl",
+      "neoenergia_cosern_perdas_inadimplencia_6m26_6m_brl",
+      "neoenergia_elektro_perdas_inadimplencia_6m26_5m_brl",
+      "neoenergia_brasilia_perdas_inadimplencia_6m26_24m_brl",
+      "neoenergia_coelba_outros_dist_6m26_134m_brl",
+      "neoenergia_pe_outros_dist_6m26_120m_brl",
+      "neoenergia_cosern_outros_dist_6m26_22m_brl",
+      "neoenergia_elektro_outros_dist_6m26_87m_brl",
+      "neoenergia_brasilia_outros_dist_6m26_43m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

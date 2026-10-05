@@ -23029,7 +23029,7 @@
     "type": "company",
     "chicago": "Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
-    "annotation": "Neoenergia Brasília Renovação de Ativos 6M26 via Fed H.10. Supports neoenergia_brasilia_renovacao_ativos_6m26_67m_brl.",
+    "annotation": "Neoenergia Brasília Outros (Dist) 6M26 via Fed H.10. Supports neoenergia_brasilia_outros_dist_6m26_43m_brl.",
     "supports": [
       "neoenergia_6m26_capex_4bn_brl",
       "hunt_cycle257",
@@ -23095,25 +23095,50 @@
       "neoenergia_pe_renovacao_ativos_6m26_232m_brl",
       "neoenergia_cosern_renovacao_ativos_6m26_37m_brl",
       "neoenergia_elektro_renovacao_ativos_6m26_115m_brl",
-      "neoenergia_brasilia_renovacao_ativos_6m26_67m_brl"
+      "neoenergia_brasilia_renovacao_ativos_6m26_67m_brl",
+      "neoenergia_coelba_melhoria_rede_6m26_96m_brl",
+      "hunt_cycle302",
+      "neoenergia_pe_melhoria_rede_6m26_47m_brl",
+      "neoenergia_cosern_melhoria_rede_6m26_43m_brl",
+      "neoenergia_elektro_melhoria_rede_6m26_48m_brl",
+      "neoenergia_brasilia_melhoria_rede_6m26_42m_brl",
+      "neoenergia_coelba_perdas_inadimplencia_6m26_49m_brl",
+      "neoenergia_pe_perdas_inadimplencia_6m26_52m_brl",
+      "neoenergia_cosern_perdas_inadimplencia_6m26_6m_brl",
+      "neoenergia_elektro_perdas_inadimplencia_6m26_5m_brl",
+      "neoenergia_brasilia_perdas_inadimplencia_6m26_24m_brl",
+      "neoenergia_coelba_outros_dist_6m26_134m_brl",
+      "neoenergia_pe_outros_dist_6m26_120m_brl",
+      "neoenergia_cosern_outros_dist_6m26_22m_brl",
+      "neoenergia_elektro_outros_dist_6m26_87m_brl",
+      "neoenergia_brasilia_outros_dist_6m26_43m_brl"
     ],
     "map_supports": [
       "neoenergia_2t26_capex_2095m_brl",
       "neoenergia_6m26_capex_4bn_brl",
       "neoenergia_brasilia_capex_6m26_228m_brl",
       "neoenergia_brasilia_expansao_rede_6m26_65m_brl",
+      "neoenergia_brasilia_melhoria_rede_6m26_42m_brl",
       "neoenergia_brasilia_novas_ligacoes_6m26_32m_brl",
       "neoenergia_brasilia_novas_ses_rds_6m26_33m_brl",
+      "neoenergia_brasilia_outros_dist_6m26_43m_brl",
+      "neoenergia_brasilia_perdas_inadimplencia_6m26_24m_brl",
       "neoenergia_brasilia_renovacao_ativos_6m26_67m_brl",
       "neoenergia_coelba_capex_6m26_1919m_brl",
       "neoenergia_coelba_expansao_rede_6m26_1415m_brl",
+      "neoenergia_coelba_melhoria_rede_6m26_96m_brl",
       "neoenergia_coelba_novas_ligacoes_6m26_707m_brl",
       "neoenergia_coelba_novas_ses_rds_6m26_552m_brl",
+      "neoenergia_coelba_outros_dist_6m26_134m_brl",
+      "neoenergia_coelba_perdas_inadimplencia_6m26_49m_brl",
       "neoenergia_coelba_renovacao_ativos_6m26_223m_brl",
       "neoenergia_cosern_capex_6m26_240m_brl",
       "neoenergia_cosern_expansao_rede_6m26_137m_brl",
+      "neoenergia_cosern_melhoria_rede_6m26_43m_brl",
       "neoenergia_cosern_novas_ligacoes_6m26_101m_brl",
       "neoenergia_cosern_novas_ses_rds_6m26_37m_brl",
+      "neoenergia_cosern_outros_dist_6m26_22m_brl",
+      "neoenergia_cosern_perdas_inadimplencia_6m26_6m_brl",
       "neoenergia_cosern_renovacao_ativos_6m26_37m_brl",
       "neoenergia_customers_2q26_7m_brl",
       "neoenergia_customers_6m26_19m_brl",
@@ -23121,8 +23146,11 @@
       "neoenergia_dist_6m26_3696m_brl",
       "neoenergia_elektro_capex_6m26_564m_brl",
       "neoenergia_elektro_expansao_rede_6m26_349m_brl",
+      "neoenergia_elektro_melhoria_rede_6m26_48m_brl",
       "neoenergia_elektro_novas_ligacoes_6m26_219m_brl",
       "neoenergia_elektro_novas_ses_rds_6m26_130m_brl",
+      "neoenergia_elektro_outros_dist_6m26_87m_brl",
+      "neoenergia_elektro_perdas_inadimplencia_6m26_5m_brl",
       "neoenergia_elektro_renovacao_ativos_6m26_115m_brl",
       "neoenergia_gen_customers_2q26_29m_brl",
       "neoenergia_gen_customers_6m26_57m_brl",
@@ -23140,8 +23168,11 @@
       "neoenergia_outros_dist_6m26_405m_brl",
       "neoenergia_pe_capex_6m26_746m_brl",
       "neoenergia_pe_expansao_rede_6m26_299m_brl",
+      "neoenergia_pe_melhoria_rede_6m26_47m_brl",
       "neoenergia_pe_novas_ligacoes_6m26_219m_brl",
       "neoenergia_pe_novas_ses_rds_6m26_79m_brl",
+      "neoenergia_pe_outros_dist_6m26_120m_brl",
+      "neoenergia_pe_perdas_inadimplencia_6m26_52m_brl",
       "neoenergia_pe_renovacao_ativos_6m26_232m_brl",
       "neoenergia_perdas_6m26_137m_brl",
       "neoenergia_renovacao_ativos_6m26_674m_brl",
@@ -24752,6 +24783,23 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "aes_corp_2025_annual_report_20260320",
+    "type": "company",
+    "chicago": "The AES Corporation. “2025 Annual Report / Form 10-K.” March 20, 2026. https://www.aes.com/sites/vault/files/2026-03/AES-Corp-2025-Annual-Report-03-20-2026.pdf.",
+    "url": "https://www.aes.com/sites/vault/files/2026-03/AES-Corp-2025-Annual-Report-03-20-2026.pdf",
+    "annotation": "AES Atacama Solar acquisition CapEx USD105m from AES Corp 2025 AR. Supports aes_atacama_solar_acquisition_2025.",
+    "supports": [
+      "aes_atacama_solar_acquisition_2025",
+      "hunt_cycle302"
+    ],
+    "map_supports": [
+      "aes_atacama_solar_acquisition_2025"
+    ],
+    "layers": [
+      "energy"
     ]
   }
 ]
