@@ -1,0 +1,10 @@
+{
+  "id": "aes_brasil_2025e_capex_214p2m_brl",
+  "retrieved": "2026-10-05",
+  "source_id": "aes_brasil_mf_capex_20240226",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "Total Investments 712.7 214.2 136.7 125.5 159.5 1,348.4",
+  "note": "Opened AES Brasil Material Fact PDF; 2025E Total Investments R$214.2m confirmed."
+}
