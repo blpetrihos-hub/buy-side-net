@@ -39660,3 +39660,228 @@
   supports:
   - misc_colombia_radar_towers_bsolano_pizarro_174k_2015
   - hunt_cycle1328
+- id: usaspending_ceepco_haiti_housing_site_prep_10257k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521C1300009_7200_-NONE-_-NONE- (ceepco_haiti_housing_site_prep_10257k_2013). Signed 2013-08-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1300009_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1300009_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ceepco_haiti_housing_site_prep_10257k_2013 USD 10.257m. Supports ceepco_haiti_housing_site_prep_10257k_2013.'
+  supports:
+  - ceepco_haiti_housing_site_prep_10257k_2013
+  - hunt_cycle1329
+- id: usaspending_human_tech_guatemala_data_storage_878k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24F0021_1900_19AQMM21D0007_1900 (human_tech_guatemala_data_storage_878k_2024). Signed 2024-04-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0021_1900_19AQMM21D0007_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0021_1900_19AQMM21D0007_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: human_tech_guatemala_data_storage_878k_2024 USD 0.878m. Supports human_tech_guatemala_data_storage_878k_2024.'
+  supports:
+  - human_tech_guatemala_data_storage_878k_2024
+  - hunt_cycle1329
+- id: usaspending_eterna_honduras_tigres_facility_5226k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0005_9700_W9127816D0102_9700 (eterna_honduras_tigres_facility_5226k_2016). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0005_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0005_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_tigres_facility_5226k_2016 USD 5.226m. Supports eterna_honduras_tigres_facility_5226k_2016.'
+  supports:
+  - eterna_honduras_tigres_facility_5226k_2016
+  - hunt_cycle1329
+- id: usaspending_eterna_guatemala_las_montanitas_2941k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127813D0020_9700 (eterna_guatemala_las_montanitas_2941k_2013). Signed 2013-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0020_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0020_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_guatemala_las_montanitas_2941k_2013 USD 2.941m. Supports eterna_guatemala_las_montanitas_2941k_2013.'
+  supports:
+  - eterna_guatemala_las_montanitas_2941k_2013
+  - hunt_cycle1329
+- id: usaspending_eterna_nicaragua_barracks_ops_gravel_2470k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0020_9700_W9127811D0046_9700 (eterna_nicaragua_barracks_ops_gravel_2470k_2012). Signed 2012-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0020_9700_W9127811D0046_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0020_9700_W9127811D0046_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_nicaragua_barracks_ops_gravel_2470k_2012 USD 2.470m. Supports eterna_nicaragua_barracks_ops_gravel_2470k_2012.'
+  supports:
+  - eterna_nicaragua_barracks_ops_gravel_2470k_2012
+  - hunt_cycle1329
+- id: usaspending_alutiiq_guatemala_rol_cgc_it_606k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F0154_1900_19AQMM20D0010_1900 (alutiiq_guatemala_rol_cgc_it_606k_2022). Signed 2022-12-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0154_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0154_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_guatemala_rol_cgc_it_606k_2022 USD 0.606m. Supports alutiiq_guatemala_rol_cgc_it_606k_2022.'
+  supports:
+  - alutiiq_guatemala_rol_cgc_it_606k_2022
+  - hunt_cycle1330
+- id: usaspending_alutiiq_guatemala_it_equipment_417k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24F0037_1900_19AQMM20D0010_1900 (alutiiq_guatemala_it_equipment_417k_2024). Signed 2024-06-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0037_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0037_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_guatemala_it_equipment_417k_2024 USD 0.417m. Supports alutiiq_guatemala_it_equipment_417k_2024.'
+  supports:
+  - alutiiq_guatemala_it_equipment_417k_2024
+  - hunt_cycle1330
+- id: usaspending_estudios_panama_cn_rotary_wing_hangar_2390k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127813D0010_9700 (estudios_panama_cn_rotary_wing_hangar_2390k_2016). Signed 2016-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0010_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0010_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_panama_cn_rotary_wing_hangar_2390k_2016 USD 2.390m. Supports estudios_panama_cn_rotary_wing_hangar_2390k_2016.'
+  supports:
+  - estudios_panama_cn_rotary_wing_hangar_2390k_2016
+  - hunt_cycle1330
+- id: usaspending_estudios_honduras_disaster_warehouses_2119k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0008_9700_W9127811D0050_9700 (estudios_honduras_disaster_warehouses_2119k_2012). Signed 2012-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127811D0050_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127811D0050_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_honduras_disaster_warehouses_2119k_2012 USD 2.119m. Supports estudios_honduras_disaster_warehouses_2119k_2012.'
+  supports:
+  - estudios_honduras_disaster_warehouses_2119k_2012
+  - hunt_cycle1330
+- id: usaspending_estudios_colombia_air_force_admin_1822k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0010_9700_W9127811D0050_9700 (estudios_colombia_air_force_admin_1822k_2013). Signed 2013-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127811D0050_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127811D0050_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_air_force_admin_1822k_2013 USD 1.822m. Supports estudios_colombia_air_force_admin_1822k_2013.'
+  supports:
+  - estudios_colombia_air_force_admin_1822k_2013
+  - hunt_cycle1330
+- id: usaspending_alutiiq_guatemala_biometric_bdsp_311k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24F0065_1900_19AQMM20D0010_1900 (alutiiq_guatemala_biometric_bdsp_311k_2024). Signed 2024-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0065_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0065_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_guatemala_biometric_bdsp_311k_2024 USD 0.311m. Supports alutiiq_guatemala_biometric_bdsp_311k_2024.'
+  supports:
+  - alutiiq_guatemala_biometric_bdsp_311k_2024
+  - hunt_cycle1331
+- id: usaspending_alutiiq_guatemala_tag_it_equipment_262k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24P0126_1900_-NONE-_-NONE- (alutiiq_guatemala_tag_it_equipment_262k_2024). Signed 2024-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24P0126_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24P0126_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_guatemala_tag_it_equipment_262k_2024 USD 0.262m. Supports alutiiq_guatemala_tag_it_equipment_262k_2024.'
+  supports:
+  - alutiiq_guatemala_tag_it_equipment_262k_2024
+  - hunt_cycle1331
+- id: usaspending_eterna_elsalvador_cuscatlan_barracks_1737k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W9127813D0020_9700 (eterna_elsalvador_cuscatlan_barracks_1737k_2013). Signed 2013-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127813D0020_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127813D0020_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_elsalvador_cuscatlan_barracks_1737k_2013 USD 1.737m. Supports eterna_elsalvador_cuscatlan_barracks_1737k_2013.'
+  supports:
+  - eterna_elsalvador_cuscatlan_barracks_1737k_2013
+  - hunt_cycle1331
+- id: usaspending_estudios_colombia_rotary_wing_training_1666k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0009_9700_W9127809D0077_9700 (estudios_colombia_rotary_wing_training_1666k_2011). Signed 2011-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127809D0077_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127809D0077_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_rotary_wing_training_1666k_2011 USD 1.666m. Supports estudios_colombia_rotary_wing_training_1666k_2011.'
+  supports:
+  - estudios_colombia_rotary_wing_training_1666k_2011
+  - hunt_cycle1331
+- id: usaspending_estudios_costarica_cn_barracks_flamingo_1531k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0007_9700_W9127811D0050_9700 (estudios_costarica_cn_barracks_flamingo_1531k_2012). Signed 2012-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0007_9700_W9127811D0050_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0007_9700_W9127811D0050_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_costarica_cn_barracks_flamingo_1531k_2012 USD 1.531m. Supports estudios_costarica_cn_barracks_flamingo_1531k_2012.'
+  supports:
+  - estudios_costarica_cn_barracks_flamingo_1531k_2012
+  - hunt_cycle1331
+- id: usaspending_alutiiq_colombia_prefabricated_containers_1149k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F0192_1900_19AQMM19D0050_1900 (alutiiq_colombia_prefabricated_containers_1149k_2019). Signed 2019-11-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0192_1900_19AQMM19D0050_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0192_1900_19AQMM19D0050_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_colombia_prefabricated_containers_1149k_2019 USD 1.149m. Supports alutiiq_colombia_prefabricated_containers_1149k_2019.'
+  supports:
+  - alutiiq_colombia_prefabricated_containers_1149k_2019
+  - hunt_cycle1332
+- id: usaspending_alutiiq_mexico_inami_biometric_19061k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC11C0001_1900_-NONE-_-NONE- (alutiiq_mexico_inami_biometric_19061k_2010). Signed 2010-12-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_inami_biometric_19061k_2010 USD 19.061m. Supports alutiiq_mexico_inami_biometric_19061k_2010.'
+  supports:
+  - alutiiq_mexico_inami_biometric_19061k_2010
+  - hunt_cycle1332
+- id: usaspending_eterna_honduras_continuing_education_1430k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0023_9700_W9127813D0020_9700 (eterna_honduras_continuing_education_1430k_2016). Signed 2016-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0023_9700_W9127813D0020_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0023_9700_W9127813D0020_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_continuing_education_1430k_2016 USD 1.430m. Supports eterna_honduras_continuing_education_1430k_2016.'
+  supports:
+  - eterna_honduras_continuing_education_1430k_2016
+  - hunt_cycle1332
+- id: usaspending_eterna_honduras_hamra_landing_zone_1374k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0013_9700_W9127811D0046_9700 (eterna_honduras_hamra_landing_zone_1374k_2011). Signed 2011-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0013_9700_W9127811D0046_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0013_9700_W9127811D0046_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_hamra_landing_zone_1374k_2011 USD 1.374m. Supports eterna_honduras_hamra_landing_zone_1374k_2011.'
+  supports:
+  - eterna_honduras_hamra_landing_zone_1374k_2011
+  - hunt_cycle1332
+- id: usaspending_estudios_colombia_training_flandes_1364k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0012_9700_W9127809D0077_9700 (estudios_colombia_training_flandes_1364k_2012). Signed 2012-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0077_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0077_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_training_flandes_1364k_2012 USD 1.364m. Supports estudios_colombia_training_flandes_1364k_2012.'
+  supports:
+  - estudios_colombia_training_flandes_1364k_2012
+  - hunt_cycle1332
+- id: usaspending_isobox_panama_mobile_container_office_90k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0722P0257_1900_-NONE-_-NONE- (isobox_panama_mobile_container_office_90k_2022). Signed 2022-03-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0257_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0257_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: isobox_panama_mobile_container_office_90k_2022 USD 0.090m. Supports isobox_panama_mobile_container_office_90k_2022.'
+  supports:
+  - isobox_panama_mobile_container_office_90k_2022
+  - hunt_cycle1333
+- id: usaspending_isobox_panama_container_living_units_67k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0724P0841_1900_-NONE-_-NONE- (isobox_panama_container_living_units_67k_2024). Signed 2024-08-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0724P0841_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0724P0841_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: isobox_panama_container_living_units_67k_2024 USD 0.067m. Supports isobox_panama_container_living_units_67k_2024.'
+  supports:
+  - isobox_panama_container_living_units_67k_2024
+  - hunt_cycle1333
+- id: usaspending_eterna_honduras_booster_pump_1318k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127816D0102_9700 (eterna_honduras_booster_pump_1318k_2016). Signed 2016-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_booster_pump_1318k_2016 USD 1.318m. Supports eterna_honduras_booster_pump_1318k_2016.'
+  supports:
+  - eterna_honduras_booster_pump_1318k_2016
+  - hunt_cycle1333
+- id: usaspending_eterna_honduras_guanaja_cn_facility_1253k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0007_9700_W9127809D0071_9700 (eterna_honduras_guanaja_cn_facility_1253k_2010). Signed 2010-06-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0007_9700_W9127809D0071_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0007_9700_W9127809D0071_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_guanaja_cn_facility_1253k_2010 USD 1.253m. Supports eterna_honduras_guanaja_cn_facility_1253k_2010.'
+  supports:
+  - eterna_honduras_guanaja_cn_facility_1253k_2010
+  - hunt_cycle1333
+- id: usaspending_eterna_costarica_cn_pier_boat_ramp_1214k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0015_9700_W9127811D0046_9700 (eterna_costarica_cn_pier_boat_ramp_1214k_2012). Signed 2012-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0015_9700_W9127811D0046_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0015_9700_W9127811D0046_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_costarica_cn_pier_boat_ramp_1214k_2012 USD 1.214m. Supports eterna_costarica_cn_pier_boat_ramp_1214k_2012.'
+  supports:
+  - eterna_costarica_cn_pier_boat_ramp_1214k_2012
+  - hunt_cycle1333
