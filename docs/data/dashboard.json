@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 5367,
+    "n_rows": 5384,
     "counts": {
-      "total": 5367,
-      "active": 5168,
+      "total": 5384,
+      "active": 5185,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5094,
-      "on_map": 5000
+      "documented": 5111,
+      "on_map": 5017
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1105,
-        "n": 1506
+        "allied": 1122,
+        "n": 1523
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 148610324236.9102,
-        "allied_n": 1034
+        "allied": 148818443995.9501,
+        "allied_n": 1051
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 3935,
-        "n": 4190
+        "allied": 3952,
+        "n": 4207
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 277310063171.6297,
-        "allied_n": 3854
+        "allied": 277518182930.6698,
+        "allied_n": 3871
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 971
+          "allied": 988
         },
         "infrastructure": {
           "us": 68,
@@ -6356,7 +6356,24 @@
       "equatorial_al_eletricos_2t21_53m_brl",
       "equatorial_al_nonelectric_2t21_6m_brl",
       "equatorial_geramar_2t21_1m_brl",
-      "equatorial_tx_2t21_44m_brl"
+      "equatorial_tx_2t21_44m_brl",
+      "equatorial_ma_1t21_137m_brl",
+      "equatorial_ma_eletricos_1t21_123m_brl",
+      "equatorial_ma_oe_1t21_7m_brl",
+      "equatorial_ma_nonelectric_1t21_7m_brl",
+      "equatorial_pa_1t21_186m_brl",
+      "equatorial_pa_eletricos_1t21_140m_brl",
+      "equatorial_pa_oe_1t21_30m_brl",
+      "equatorial_pa_nonelectric_1t21_17m_brl",
+      "equatorial_pi_1t21_77m_brl",
+      "equatorial_pi_eletricos_1t21_54m_brl",
+      "equatorial_pi_oe_1t21_8m_brl",
+      "equatorial_pi_nonelectric_1t21_15m_brl",
+      "equatorial_al_1t21_49m_brl",
+      "equatorial_al_eletricos_1t21_38m_brl",
+      "equatorial_al_nonelectric_1t21_11m_brl",
+      "equatorial_geramar_1t21_0m_brl",
+      "equatorial_tx_1t21_181m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
