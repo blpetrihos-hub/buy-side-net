@@ -19052,7 +19052,7 @@
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2
-  annotation: Energisa Transmissão GEMINI Consolidado 2T22 CapEx via Fed H.10. Supports energisa_tx_gemini_consolidado_2t22_12m_brl.
+  annotation: Energisa Transmissão GEMINI Consolidado 1T22 CapEx via Fed H.10. Supports energisa_tx_gemini_consolidado_1t22_11m_brl.
   supports:
   - energisa_dist_total_2t26_1567m_brl
   - hunt_cycle681
@@ -19574,3 +19574,20 @@
   - energisa_tx_ett_2t22_131m_brl
   - energisa_tx_eam_2t22_12m_brl
   - energisa_tx_gemini_consolidado_2t22_12m_brl
+  - energisa_dist_emr_1t22_27m_brl
+  - hunt_cycle756
+  - energisa_dist_enf_1t22_9m_brl
+  - energisa_dist_ebo_1t22_5m_brl
+  - energisa_dist_epb_1t22_71m_brl
+  - energisa_dist_ese_1t22_68m_brl
+  - energisa_dist_emt_1t22_231m_brl
+  - energisa_dist_ems_1t22_212m_brl
+  - energisa_dist_eto_1t22_88m_brl
+  - energisa_dist_ess_1t22_47m_brl
+  - energisa_dist_ero_1t22_141m_brl
+  - energisa_dist_eac_1t22_59m_brl
+  - energisa_tx_epa_ii_1t22_31m_brl
+  - energisa_tx_ett_1t22_72m_brl
+  - energisa_tx_eam_1t22_27m_brl
+  - energisa_tx_eap_1t22_3m_brl
+  - energisa_tx_gemini_consolidado_1t22_11m_brl
