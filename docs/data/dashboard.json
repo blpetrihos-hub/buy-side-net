@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8215,
+    "n_rows": 8220,
     "counts": {
-      "total": 8215,
-      "active": 8016,
+      "total": 8220,
+      "active": 8021,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7942,
-      "on_map": 7847
+      "documented": 7947,
+      "on_map": 7852
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3900,
-        "n": 4301
+        "allied": 3905,
+        "n": 4306
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383238714220.2306,
-        "allied_n": 3829
+        "allied": 383264110375.3506,
+        "allied_n": 3834
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6783,
-        "n": 7038
+        "allied": 6788,
+        "n": 7043
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527107420196.0302,
-        "allied_n": 6702
+        "allied": 527132816351.1502,
+        "allied_n": 6707
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3766
+          "allied": 3771
         },
         "infrastructure": {
           "us": 68,
@@ -9204,7 +9204,12 @@
       "axia_txproj_reforco_na_se_imperatriz_instalacao_do_4_tr23_27m_brl",
       "axia_txproj_melhoria_na_se_itabera_substituicao_do_banco__27m_brl",
       "axia_txproj_reforco_na_se_porto_franco_substituicao_do_tr_27m_brl",
-      "axia_txproj_reforco_se_nova_mutum_substituicao_tf1_230_69_27m_brl"
+      "axia_txproj_reforco_se_nova_mutum_substituicao_tf1_230_69_27m_brl",
+      "axia_txproj_reforco_na_se_ji_parana_substituicao_do_tr1_2_27m_brl",
+      "axia_txproj_reforco_na_se_ji_parana_substituicao_do_tr2_2_27m_brl",
+      "axia_txproj_reforco_seccionamento_da_lt_banabuiu_milagres_26m_brl",
+      "axia_txproj_reforco_na_se_picos_substituicao_do_04t2_39_m_26m_brl",
+      "axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__26m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
