@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1459,
+    "n_rows": 1463,
     "counts": {
-      "total": 1459,
-      "active": 1260,
+      "total": 1463,
+      "active": 1264,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1205,
-      "on_map": 1132
+      "documented": 1206,
+      "on_map": 1135
     }
   },
   "layer_readouts": [
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 150,
-        "prc": 174,
-        "allied": 161,
-        "n": 485
+        "us": 152,
+        "prc": 175,
+        "allied": 162,
+        "n": 489
       },
       "usd": {
         "us": 21273858581.43,
         "us_n": 48,
         "prc": 24077822293.819996,
         "prc_n": 45,
-        "allied": 49950166865.99999,
-        "allied_n": 94
+        "allied": 51336889001.549995,
+        "allied_n": 95
       },
       "matched_gaps": {
         "n": 1,
@@ -363,23 +363,23 @@
       "country": "Brazil",
       "counts": {
         "us": 98,
-        "prc": 89,
-        "allied": 170,
-        "n": 357
+        "prc": 90,
+        "allied": 171,
+        "n": 359
       },
       "usd": {
         "us": 14579556029.099998,
         "us_n": 36,
         "prc": 22819803264.030003,
         "prc_n": 34,
-        "allied": 71099048760.03003,
-        "allied_n": 92
+        "allied": 72485770895.58003,
+        "allied_n": 93
       },
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 55,
-          "allied": 62
+          "prc": 56,
+          "allied": 63
         },
         "infrastructure": {
           "us": 55,
@@ -396,10 +396,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 56,
+        "us": 58,
         "prc": 43,
         "allied": 93,
-        "n": 192
+        "n": 194
       },
       "usd": {
         "us": 41512000000.0,
@@ -411,7 +411,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 35,
+          "us": 37,
           "prc": 34,
           "allied": 30
         },
@@ -2448,7 +2448,11 @@
       "portonave_electric_equip_500m_brl_2026",
       "aes_andes_solar_oriente_990m_2024",
       "seven_seas_antigua_waas_23m_2024",
-      "ctg_ilha_jupia_mod_1p5bn_spent_2026"
+      "ctg_ilha_jupia_mod_1p5bn_spent_2026",
+      "aes_andes_altos_del_sol_1375m_2024",
+      "aes_andes_llanos_del_sol_635m_2024",
+      "sungrow_roca_bess_400mwh_500m_brl_2025",
+      "isa_energia_rm_carteira_7p2bn_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

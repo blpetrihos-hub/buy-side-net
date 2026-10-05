@@ -21767,5 +21767,73 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "electromineria_aes_altos_del_sol_1375m_2025",
+    "type": "press",
+    "chicago": "Electrominería. “AES Andes obtiene aprobación ambiental de mega proyecto solar por US$1.375 millones en Antofagasta.” 2025. https://electromineria.cl/aes-andes-obtiene-aprobacion-ambiental-de-mega-proyecto-solar-por-us1-375-millones-en-antofagasta/.",
+    "url": "https://electromineria.cl/aes-andes-obtiene-aprobacion-ambiental-de-mega-proyecto-solar-por-us1-375-millones-en-antofagasta/",
+    "annotation": "AES Altos del Sol NEW USD 1.375bn (press). Supports aes_andes_altos_del_sol_1375m_2024.",
+    "supports": [
+      "aes_andes_altos_del_sol_1375m_2024",
+      "hunt_cycle242"
+    ],
+    "map_supports": [
+      "aes_andes_altos_del_sol_1375m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "electromineria_aes_llanos_del_sol_635m_20240708",
+    "type": "press",
+    "chicago": "Electrominería. “Tarapacá: AES Andes ingresó proyecto solar con almacenamiento por US$635 millones.” July 8, 2024. https://electromineria.cl/tarapaca-aes-andes-ingreso-proyecto-solar-con-almacenamiento-por-us635-millones/.",
+    "url": "https://electromineria.cl/tarapaca-aes-andes-ingreso-proyecto-solar-con-almacenamiento-por-us635-millones/",
+    "annotation": "AES Llanos del Sol NEW USD 635m (press). Supports aes_andes_llanos_del_sol_635m_2024.",
+    "supports": [
+      "aes_andes_llanos_del_sol_635m_2024",
+      "hunt_cycle242"
+    ],
+    "map_supports": [
+      "aes_andes_llanos_del_sol_635m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "pv_magazine_br_sungrow_roca_bess_20250811",
+    "type": "press",
+    "chicago": "Neris, Alessandra. “Sungrow fornecerá 400 MWh em soluções de armazenamento para o Grupo Roca.” pv magazine Brasil, August 11, 2025. https://www.pv-magazine-brasil.com/2025/08/11/sungrow-fornecera-400-mwh-em-solucoes-de-armazenamento-para-o-grupo-roca/.",
+    "url": "https://www.pv-magazine-brasil.com/2025/08/11/sungrow-fornecera-400-mwh-em-solucoes-de-armazenamento-para-o-grupo-roca/",
+    "annotation": "Sungrow–Roca BESS NEW R$500m ~USD 96.30m via Fed H.10 (press). Supports sungrow_roca_bess_400mwh_500m_brl_2025.",
+    "supports": [
+      "sungrow_roca_bess_400mwh_500m_brl_2025",
+      "hunt_cycle242"
+    ],
+    "map_supports": [
+      "sungrow_roca_bess_400mwh_500m_brl_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "isa_energia_rm_815m_carteira_7p2bn_20260903",
+    "type": "company",
+    "chicago": "ISA Energia Brasil. “ISA ENERGIA BRASIL investe R$ 815,4 milhões na modernização da rede de transmissão no 1º semestre.” September 3, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-8154-milhoes-na-modernizacao-da-rede-de-transmissao-no-1-semestre/.",
+    "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-8154-milhoes-na-modernizacao-da-rede-de-transmissao-no-1-semestre/",
+    "annotation": "ISA R&M carteira NEW R$7.2bn ~USD 1386.72m via Fed H.10. Supports isa_energia_rm_carteira_7p2bn_2026.",
+    "supports": [
+      "isa_energia_rm_carteira_7p2bn_2026",
+      "hunt_cycle242"
+    ],
+    "map_supports": [
+      "isa_energia_rm_carteira_7p2bn_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
