@@ -1,0 +1,10 @@
+{
+  "id": "obera_bahamas_bpc_equipment_1010k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_obera_bahamas_bpc_equipment_1010k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489020F0119_9700_FA489016D0013_9700/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "THIS PROCUREMENT PROVIDES EQUIPMENT TO BUILD PARTNER CAPACITY (BPC) IN BAHAMAS AS PART OF THE DOD SECURITY COOPERATION PROGRAM.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1010174.85; date_signed 2020-09-30."
+}

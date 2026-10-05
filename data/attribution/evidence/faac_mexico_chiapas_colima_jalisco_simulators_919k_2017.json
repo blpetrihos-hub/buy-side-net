@@ -1,0 +1,10 @@
+{
+  "id": "faac_mexico_chiapas_colima_jalisco_simulators_919k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_faac_mexico_chiapas_colima_jalisco_simulators_919k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0022_1900_SWHARC16D0002_1900/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "INL MEXICO FIXED AND PORTABLE FIREARMS TRAINING SIMULATORS FOR THE CHIAPAS, COLIMA, JALISCO, OAXACA, AND SAN LUIS POTOSI STATE POLICE ACADEMIES. INCLUDES INSTALLATION AND 3-YEAR IN-COUNTRY WARRANTY.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 918714.96; date_signed 2017-06-29."
+}
