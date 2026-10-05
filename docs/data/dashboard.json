@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8391,
+    "n_rows": 8406,
     "counts": {
-      "total": 8391,
-      "active": 8192,
+      "total": 8406,
+      "active": 8207,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8118,
-      "on_map": 8020
+      "documented": 8133,
+      "on_map": 8029
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 182,
         "prc": 129,
-        "allied": 2976,
-        "n": 3287
+        "allied": 2985,
+        "n": 3296
       },
       "usd": {
         "us": 46364207670.61,
@@ -130,8 +130,8 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 270,
-        "n": 432
+        "allied": 272,
+        "n": 434
       },
       "usd": {
         "us": 46048237410.93,
@@ -155,8 +155,8 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 4070,
-        "n": 4471
+        "allied": 4074,
+        "n": 4475
       },
       "usd": {
         "us": 36729056364.53999,
@@ -752,8 +752,8 @@
       "counts": {
         "us": 5,
         "prc": 0,
-        "allied": 13,
-        "n": 18
+        "allied": 28,
+        "n": 33
       },
       "usd": {
         "us": 208147801.58,
@@ -767,17 +767,17 @@
         "energy": {
           "us": 2,
           "prc": 0,
-          "allied": 6
+          "allied": 10
         },
         "infrastructure": {
           "us": 2,
           "prc": 0,
-          "allied": 6
+          "allied": 15
         },
         "resources": {
           "us": 1,
           "prc": 0,
-          "allied": 1
+          "allied": 3
         }
       }
     },
@@ -9380,7 +9380,22 @@
       "haiti_pip_debarcadere_fort_liberte_160m_htg_fy2526",
       "haiti_pip_dinepa_hal1103_1608m_htg_fy2526",
       "haiti_pip_caracol_solar_hag1060_171m_htg_fy2526",
-      "haiti_pip_peligre_hal1140_1388m_htg_fy2526"
+      "haiti_pip_peligre_hal1140_1388m_htg_fy2526",
+      "haiti_pip_hag1048_storage_nord_197m_htg_fy2526",
+      "haiti_pip_bm_renewables_access_1564m_htg_fy2526",
+      "haiti_pip_bm_services_energetiques_64m_htg_fy2526",
+      "haiti_pip_hag1053_energie_prive_280m_htg_fy2526",
+      "haiti_pip_hal1135_wash_grand_nord_1608m_htg_fy2526",
+      "haiti_pip_pont_lacul_chantal_100m_htg_fy2526",
+      "haiti_pip_pont_cote_de_fer_100m_htg_fy2526",
+      "haiti_pip_pont_digue_riviere_55m_htg_fy2526",
+      "haiti_pip_route_port_saint_louis_120m_htg_fy2526",
+      "haiti_pip_route_deviation_peligre_147m_htg_fy2526",
+      "haiti_pip_rn2_etang_miragoane_60m_htg_fy2526",
+      "haiti_pip_rutap_4020m_htg_fy2526",
+      "haiti_pip_hal1104_transport_3394m_htg_fy2526",
+      "haiti_pip_cap_haitien_urbain_3762m_htg_fy2526",
+      "haiti_pip_bm_wash_rural_2210m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",
