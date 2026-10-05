@@ -12501,7 +12501,7 @@
   type: company
   chicago: AES Brasil Energia S.A. “Material Fact” (investment projections 2024–2028). February 26, 2024. https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1.
   url: https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1
-  annotation: AES Brasil 2024E Pipeline CapEx R$130.6m via Fed H.10. Supports aes_brasil_2024e_pipeline_130p6m_brl.
+  annotation: AES Brasil 2026E Capitalized Interest R$49.9m via Fed H.10. Supports aes_brasil_2026e_cap_interest_49p9m_brl.
   supports:
   - aes_brasil_capex_plan_1348m_brl_2024_2028
   - hunt_cycle254
@@ -12516,6 +12516,12 @@
   - aes_brasil_2024e_modernization_193p9m_brl
   - aes_brasil_2024e_expansion_388p2m_brl
   - aes_brasil_2024e_pipeline_130p6m_brl
+  - aes_brasil_2024e_cajuina_373p8m_brl
+  - hunt_cycle286
+  - aes_brasil_2024e_tucano_14p4m_brl
+  - aes_brasil_2024e_cap_interest_93p8m_brl
+  - aes_brasil_2025e_cap_interest_101p1m_brl
+  - aes_brasil_2026e_cap_interest_49p9m_brl
 - id: sabesp_2q26_sec_6k_2026
   type: company
   chicago: Companhia de Saneamento Básico do Estado de São Paulo — Sabesp. “Form 6-K — Earnings Release 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.
@@ -13051,7 +13057,7 @@
   type: company
   chicago: Motiva S.A. “Motiva encerra 2025 com lucro líquido de R$ 3,27 bilhões….” 2026. https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/.
   url: https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/
-  annotation: Motiva FY2025 trilhos CapEx R$1.3bn via Fed H.10. Supports motiva_fy2025_rails_13bn_brl.
+  annotation: Motiva 2026 highways CapEx plan R$7.2bn via Fed H.10. Supports motiva_2026_highways_plan_72bn_brl.
   supports:
   - motiva_2026_capex_plan_8p3bn_brl
   - hunt_cycle267
@@ -13060,6 +13066,8 @@
   - hunt_cycle285
   - motiva_fy2025_roads_65bn_brl
   - motiva_fy2025_rails_13bn_brl
+  - motiva_2026_highways_plan_72bn_brl
+  - hunt_cycle286
 - id: byd_brasil_bess_500m_20260901
   type: company
   chicago: BYD Brasil. “BYD avança em estratégia de armazenamento de energia no Brasil após anunciar investimento de até R$ 500 milhões no país.” September 1, 2026. https://bydbrasil.com.br/byd-avanca-em-estrategia-de-armazenamento-de-energia-no-brasil-apos-anunciar-investimento-de-ate-r-500-milhoes-no-pais/.
