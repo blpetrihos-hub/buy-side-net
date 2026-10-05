@@ -1,0 +1,10 @@
+{
+  "id": "trane_lima_chiller_461k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_trane_lima_chiller_461k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGE50017C0012_1900_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF LIMA, PERU - CHILLER REPLACEMENT PROJECT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 460535; date_signed 2017-02-28."
+}

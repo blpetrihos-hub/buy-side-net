@@ -44754,5 +44754,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_misc_peru_clinic_478k_2009",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL09C0029_9700_-NONE-_-NONE- (Peru clinic). Signed 2009-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL09C0029_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL09C0029_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Peru clinic construction USD 0.478m. Supports misc_peru_clinic_478k_2009.",
+    "supports": [
+      "misc_peru_clinic_478k_2009",
+      "hunt_cycle978"
+    ],
+    "map_supports": [
+      "misc_peru_clinic_478k_2009"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bonatti_nejapa_drw_476k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0004_9700_W9127809D0064_9700 (Bonatti Nejapa DRW). Signed 2010-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127809D0064_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127809D0064_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bonatti Nejapa DRW USD 0.476m. Supports bonatti_nejapa_drw_476k_2010.",
+    "supports": [
+      "bonatti_nejapa_drw_476k_2010",
+      "hunt_cycle978"
+    ],
+    "map_supports": [
+      "bonatti_nejapa_drw_476k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mercadal_mout_chile_467k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL12C0001_9700_-NONE-_-NONE- (Mercadal MOUT Chile). Signed 2012-01-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0001_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0001_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mercadal MOUT Chile USD 0.467m. Supports mercadal_mout_chile_467k_2012.",
+    "supports": [
+      "mercadal_mout_chile_467k_2012",
+      "hunt_cycle978"
+    ],
+    "map_supports": [
+      "mercadal_mout_chile_467k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_tabcon_guyana_cmr_roof_464k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5019C0017_1900_-NONE-_-NONE- (Tabcon Guyana CMR roof). Signed 2019-08-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5019C0017_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5019C0017_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tabcon Guyana CMR roof USD 0.464m. Supports tabcon_guyana_cmr_roof_464k_2019.",
+    "supports": [
+      "tabcon_guyana_cmr_roof_464k_2019",
+      "hunt_cycle978"
+    ],
+    "map_supports": [
+      "tabcon_guyana_cmr_roof_464k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_trane_lima_chiller_461k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGE50017C0012_1900_-NONE-_-NONE- (Trane Lima chiller). Signed 2017-02-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGE50017C0012_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGE50017C0012_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Trane Lima chiller USD 0.461m. Supports trane_lima_chiller_461k_2017.",
+    "supports": [
+      "trane_lima_chiller_461k_2017",
+      "hunt_cycle978"
+    ],
+    "map_supports": [
+      "trane_lima_chiller_461k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ect_hap8800_warehouse_cr_458k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0011_9700_W9127809D0071_9700 (ECT HAP 8800 warehouse). Signed 2010-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127809D0071_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127809D0071_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ECT HAP 8800 warehouse USD 0.458m. Supports ect_hap8800_warehouse_cr_458k_2010.",
+    "supports": [
+      "ect_hap8800_warehouse_cr_458k_2010",
+      "hunt_cycle979"
+    ],
+    "map_supports": [
+      "ect_hap8800_warehouse_cr_458k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_peru_six_classroom_454k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0014_9700_-NONE-_-NONE- (Peru six-classroom). Signed 2010-05-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0014_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0014_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Peru six-classroom school USD 0.454m. Supports misc_peru_six_classroom_454k_2010.",
+    "supports": [
+      "misc_peru_six_classroom_454k_2010",
+      "hunt_cycle979"
+    ],
+    "map_supports": [
+      "misc_peru_six_classroom_454k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_arboleda_quito_wtp_454k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5022C0041_1900_-NONE-_-NONE- (Arboleda Quito WTP). Signed 2022-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0041_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0041_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Arboleda Quito WTP USD 0.454m. Supports arboleda_quito_wtp_454k_2022.",
+    "supports": [
+      "arboleda_quito_wtp_454k_2022",
+      "hunt_cycle979"
+    ],
+    "map_supports": [
+      "arboleda_quito_wtp_454k_2022"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_proyectos_2nd_floor_451k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12C0024_9700_-NONE-_-NONE- (Proyectos 2nd floor). Signed 2012-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0024_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0024_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Proyectos 2nd floor USD 0.451m. Supports proyectos_2nd_floor_451k_2012.",
+    "supports": [
+      "proyectos_2nd_floor_451k_2012",
+      "hunt_cycle979"
+    ],
+    "map_supports": [
+      "proyectos_2nd_floor_451k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_sao_paulo_stormwater_451k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0044_1900_-NONE-_-NONE- (São Paulo storm water). Signed 2020-08-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0044_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0044_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: São Paulo storm water USD 0.451m. Supports misc_sao_paulo_stormwater_451k_2020.",
+    "supports": [
+      "misc_sao_paulo_stormwater_451k_2020",
+      "hunt_cycle979"
+    ],
+    "map_supports": [
+      "misc_sao_paulo_stormwater_451k_2020"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_andrade_quito_classroom_451k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5023C0021_1900_-NONE-_-NONE- (Andrade Quito classroom). Signed 2023-07-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0021_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0021_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Andrade Quito classroom USD 0.451m. Supports andrade_quito_classroom_451k_2023.",
+    "supports": [
+      "andrade_quito_classroom_451k_2023",
+      "hunt_cycle980"
+    ],
+    "map_supports": [
+      "andrade_quito_classroom_451k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_maheias_san_antonio_school_448k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL21C0005_9700_-NONE-_-NONE- (Maheias San Antonio school). Signed 2021-07-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL21C0005_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL21C0005_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Maheias San Antonio school USD 0.448m. Supports maheias_san_antonio_school_448k_2021.",
+    "supports": [
+      "maheias_san_antonio_school_448k_2021",
+      "hunt_cycle980"
+    ],
+    "map_supports": [
+      "maheias_san_antonio_school_448k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_css_santo_domingo_pko_436k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL12C0002_9700_-NONE-_-NONE- (CSS Santo Domingo PKO). Signed 2012-01-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0002_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0002_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: CSS Santo Domingo PKO USD 0.436m. Supports css_santo_domingo_pko_436k_2012.",
+    "supports": [
+      "css_santo_domingo_pko_436k_2012",
+      "hunt_cycle980"
+    ],
+    "map_supports": [
+      "css_santo_domingo_pko_436k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_montevideo_warehouse_442k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W9127809D0081_9700 (Seobra Montevideo warehouse). Signed 2010-12-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127809D0081_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127809D0081_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra Montevideo warehouse USD 0.442m. Supports seobra_montevideo_warehouse_442k_2010.",
+    "supports": [
+      "seobra_montevideo_warehouse_442k_2010",
+      "hunt_cycle980"
+    ],
+    "map_supports": [
+      "seobra_montevideo_warehouse_442k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_san_pedro_school_440k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL21C0006_9700_-NONE-_-NONE- (Seobra San Pedro school). Signed 2021-06-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL21C0006_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL21C0006_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra San Pedro school USD 0.440m. Supports seobra_san_pedro_school_440k_2021.",
+    "supports": [
+      "seobra_san_pedro_school_440k_2021",
+      "hunt_cycle980"
+    ],
+    "map_supports": [
+      "seobra_san_pedro_school_440k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
