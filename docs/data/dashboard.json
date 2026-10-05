@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8370,
+    "n_rows": 8375,
     "counts": {
-      "total": 8370,
-      "active": 8171,
+      "total": 8375,
+      "active": 8176,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8097,
-      "on_map": 8001
+      "documented": 8102,
+      "on_map": 8006
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 4055,
-        "n": 4456
+        "allied": 4060,
+        "n": 4461
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383583459574.86053,
-        "allied_n": 3984
+        "allied": 383586091922.8505,
+        "allied_n": 3989
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6938,
-        "n": 7193
+        "allied": 6943,
+        "n": 7198
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527452165550.66016,
-        "allied_n": 6857
+        "allied": 527454797898.65015,
+        "allied_n": 6862
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3921
+          "allied": 3926
         },
         "infrastructure": {
           "us": 68,
@@ -9359,7 +9359,12 @@
       "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_ba_3m_brl_v4",
       "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_ba_3m_brl_v2",
       "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_ba_3m_brl_v3",
-      "axia_txproj_melhoria_na_se_sao_jose_substituicao_do_banco_3m_brl"
+      "axia_txproj_melhoria_na_se_sao_jose_substituicao_do_banco_3m_brl",
+      "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_ba_3m_brl",
+      "axia_txproj_melhoria_na_se_campo_grande_substituicao_de_b_3m_brl",
+      "axia_txproj_melhoria_na_se_ji_parana_substituicao_do_banc_3m_brl",
+      "axia_txproj_melhoria_na_se_b_esperanca_substituicao_de_re_3m_brl",
+      "axia_txproj_melhoria_na_se_ji_parana_substituicao_do_banc_2m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
