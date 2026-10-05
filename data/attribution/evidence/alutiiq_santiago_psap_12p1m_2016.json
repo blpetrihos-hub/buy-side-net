@@ -1,0 +1,10 @@
+{
+  "id": "alutiiq_santiago_psap_12p1m_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_alutiiq_santiago_psap_20160907",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0007_1900_-NONE-_-NONE-/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "INL SANTO DOMINGO NORTHERN REGION PUBLIC SAFETY ANSWERING POINT (PSAP) PROJECT: THE MAIN OBJECTIVE OF THIS PROJECT IS TO PROVIDE A PSAP IN THE CITY OF SANTIAGO",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 12,143,990.10; date_signed 2016-09-07."
+}

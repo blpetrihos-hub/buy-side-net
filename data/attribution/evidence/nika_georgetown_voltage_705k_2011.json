@@ -1,0 +1,10 @@
+{
+  "id": "nika_georgetown_voltage_705k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_nika_georgetown_voltage_20110124",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F0517_1900_SAQMMA08D0020_1900/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "PHASE I SERVICES DESIGN/BUILD FOR ELECTRICAL VOLTAGE UPGRADE AT US EMBASSY GEORGETOWN,GUYANA.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 705,179.00; date_signed 2011-01-24."
+}
