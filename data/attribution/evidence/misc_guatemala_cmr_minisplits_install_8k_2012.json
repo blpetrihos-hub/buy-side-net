@@ -1,0 +1,10 @@
+{
+  "id": "misc_guatemala_cmr_minisplits_install_8k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_guatemala_cmr_minisplits_install_8k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGT50012M0587_1900_-NONE-_-NONE-/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "FM-PROGRAM- MINISPLITS AND MATERIALS FOR INSTALLATION AT CMR",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 7952.02; date_signed 2012-09-12."
+}

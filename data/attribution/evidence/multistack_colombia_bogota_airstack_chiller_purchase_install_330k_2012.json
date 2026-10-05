@@ -1,0 +1,10 @@
+{
+  "id": "multistack_colombia_bogota_airstack_chiller_purchase_install_330k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_multistack_colombia_bogota_airstack_chiller_purchase_install_330k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGE50012C0083_1900_-NONE-_-NONE-/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "AMEMB BOGOTA, COLOMBIA; PURCHASE AND INSTALLATION OF AN AIRSTACK CHILLER UNIT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 330270.53; date_signed 2012-09-27."
+}
