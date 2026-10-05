@@ -17452,7 +17452,7 @@
   type: company
   chicago: Neoenergia S.A. “Planilhas — Empresas CVM — CAPEX Neoenergia (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/3982d6a2-c4c0-2d4b-9824-e8e1c073d5c2?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/3982d6a2-c4c0-2d4b-9824-e8e1c073d5c2?origin=2
-  annotation: Neoenergia Térmica FY2022 CapEx via Fed H.10. Supports neoenergia_termica_fy2022_54m_brl.
+  annotation: Neoenergia Térmica 4T22 CapEx via Fed H.10. Supports neoenergia_termica_4t22_32m_brl.
   supports:
   - neoenergia_4t25_capex_2469m_brl
   - hunt_cycle529
@@ -17698,3 +17698,20 @@
   - neoenergia_oitis_fy2022_827m_brl
   - neoenergia_solar_fy2022_464m_brl
   - neoenergia_termica_fy2022_54m_brl
+  - neoenergia_4t22_capex_2774m_brl
+  - hunt_cycle544
+  - neoenergia_redes_4t22_2520m_brl
+  - neoenergia_dist_4t22_1414m_brl
+  - neoenergia_coelba_4t22_541m_brl
+  - neoenergia_pernambuco_4t22_304m_brl
+  - neoenergia_cosern_4t22_91m_brl
+  - neoenergia_elektro_4t22_367m_brl
+  - neoenergia_brasilia_4t22_110m_brl
+  - neoenergia_tx_4t22_1106m_brl
+  - neoenergia_geracao_4t22_251m_brl
+  - neoenergia_hidro_4t22_21m_brl
+  - neoenergia_eolicas_4t22_182m_brl
+  - neoenergia_chafariz_4t22_129m_brl
+  - neoenergia_oitis_4t22_285m_brl
+  - neoenergia_solar_4t22_10m_brl
+  - neoenergia_termica_4t22_32m_brl
