@@ -12663,7 +12663,7 @@
   type: company
   chicago: Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia Brasília 6M26 CapEx via Fed H.10. Supports neoenergia_brasilia_capex_6m26_228m_brl.
+  annotation: Neoenergia 6M26 Movimentação Material (Estoque x Obra) via Fed H.10. Supports neoenergia_material_6m26_310m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12702,6 +12702,12 @@
   - neoenergia_cosern_capex_6m26_240m_brl
   - neoenergia_elektro_capex_6m26_564m_brl
   - neoenergia_brasilia_capex_6m26_228m_brl
+  - neoenergia_investimento_bruto_6m26_4066m_brl
+  - hunt_cycle291
+  - neoenergia_investimento_liquido_6m26_4005m_brl
+  - neoenergia_perdas_6m26_137m_brl
+  - neoenergia_outros_dist_6m26_405m_brl
+  - neoenergia_material_6m26_310m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
@@ -12869,9 +12875,9 @@
   - ecorodovias_1s26_capex_2520p9m_brl
 - id: aegea_2t26_6m26_release_mziq
   type: company
-  chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
+  chicago: Aegea Saneamento e Participações S.A. “Release de Resultados 2T26 / 6M26.” https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea Demais outorga 6M26 R$3m via Fed H.10. Supports aegea_demais_outorga_6m26_3m_brl.
+  annotation: Aegea 6M26 Investimentos Proforma R$3.809bn via Fed H.10. Supports aegea_6m26_investimentos_3809m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12915,6 +12921,9 @@
   - hunt_cycle283
   - aegea_demais_outorga_6m26_3m_brl
   - hunt_cycle285
+  - aegea_2t26_investimentos_1901m_brl
+  - hunt_cycle291
+  - aegea_6m26_investimentos_3809m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13364,7 +13373,7 @@
   type: company
   chicago: ISA Energia Brasil. “Earnings Release 2T26.” 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.
   url: https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf
-  annotation: ISA 2T26 R&M energized R$290.8m via Fed H.10. Supports isa_energia_2t26_rm_energized_290p8m_brl.
+  annotation: ISA 1S26 R&M energized ~R$475m via Fed H.10. Supports isa_energia_1s26_rm_energized_475m_brl.
   supports:
   - isa_energia_1s26_capex_2275p9m_brl
   - hunt_cycle289
@@ -13374,3 +13383,5 @@
   - isa_energia_itatiaia_2t26_52p2m_brl
   - isa_energia_2t26_rm_energized_290p8m_brl
   - hunt_cycle290
+  - isa_energia_1s26_rm_energized_475m_brl
+  - hunt_cycle291
