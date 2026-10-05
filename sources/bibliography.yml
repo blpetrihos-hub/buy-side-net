@@ -12501,10 +12501,12 @@
   type: company
   chicago: AES Brasil Energia S.A. “Material Fact” (investment projections 2024–2028). February 26, 2024. https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1.
   url: https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1
-  annotation: AES Brasil NEW R$1,348.4m CapEx plan ~USD 259.70m via Fed H.10. Supports aes_brasil_capex_plan_1348m_brl_2024_2028.
+  annotation: AES Brasil CapEx plan + 2026E nested R$136.7m via Fed H.10. Supports aes_brasil_capex_plan_1348m_brl_2024_2028; aes_brasil_2026e_capex_136p7m_brl.
   supports:
   - aes_brasil_capex_plan_1348m_brl_2024_2028
   - hunt_cycle254
+  - aes_brasil_2026e_capex_136p7m_brl
+  - hunt_cycle283
 - id: sabesp_2q26_sec_6k_2026
   type: company
   chicago: Companhia de Saneamento Básico do Estado de São Paulo — Sabesp. “Form 6-K — Earnings Release 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.
@@ -12741,7 +12743,7 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo Porto e Terminais 6M26 CapEx R$41m via Fed H.10. Supports rumo_porto_terminais_6m26_41m_brl.
+  annotation: Rumo Contêiner Expansão 6M26 CapEx R$32m via Fed H.10. Supports rumo_conteiner_expansao_6m26_32m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
@@ -12772,6 +12774,8 @@
   - hunt_cycle282
   - rumo_conteiner_6m26_40m_brl
   - rumo_porto_terminais_6m26_41m_brl
+  - rumo_conteiner_expansao_6m26_32m_brl
+  - hunt_cycle283
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (company ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -12811,7 +12815,7 @@
   type: company
   chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea Demais 6M26 Capex R$682m via Fed H.10. Supports aegea_demais_6m26_682m_brl.
+  annotation: Aegea Corsan outorga 6M26 R$41m via Fed H.10. Supports aegea_corsan_outorga_6m26_41m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12851,6 +12855,8 @@
   - aegea_teresina_6m26_82m_brl
   - aegea_prolagos_6m26_69m_brl
   - aegea_demais_6m26_682m_brl
+  - aegea_corsan_outorga_6m26_41m_brl
+  - hunt_cycle283
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13232,15 +13238,20 @@
   type: press
   chicago: Klein, Jefferson. “CPFL investirá R$ 3,9 bilhões no sistema gaúcho de transmissão até 2029.” Jornal do Comércio, April 24, 2025. https://www.jornaldocomercio.com/economia/2025/04/1199907-cpfl-investira-rs-39-bilhoes-no-sistema-gaucho-de-transmissao-ate-2029.html.
   url: https://www.jornaldocomercio.com/economia/2025/04/1199907-cpfl-investira-rs-39-bilhoes-no-sistema-gaucho-de-transmissao-ate-2029.html
-  annotation: CPFL TX RS ~R$3.9bn 2025–2029 via Fed H.10 (UNVERIFIED press). Supports cpfl_tx_rs_3p9bn_2025_2029.
+  annotation: CPFL Nova Prata 2 ~R$78m via Fed H.10 (UNVERIFIED press). Supports cpfl_nova_prata_2_78m_brl_2025.
   supports:
   - cpfl_tx_rs_3p9bn_2025_2029
   - hunt_cycle282
+  - cpfl_tx_rs_2025_638m_brl
+  - hunt_cycle283
+  - cpfl_nova_prata_2_78m_brl_2025
 - id: scco_2q26_ex99_20260721
   type: company
   chicago: Southern Copper Corporation. “Southern Copper Corporation Reports 2Q26 Results” (SEC Exhibit 99.1). July 21, 2026. https://www.sec.gov/Archives/edgar/data/1001838/000110465926085515/scco-20260721xex99d1.htm.
   url: https://www.sec.gov/Archives/edgar/data/1001838/000110465926085515/scco-20260721xex99d1.htm
-  annotation: Southern Copper 6M26 CapEx USD864.7m SEC. Supports southern_copper_6m26_capex_864p7m_usd.
+  annotation: Southern Copper 2Q26 CapEx USD422.8m SEC. Supports southern_copper_2q26_capex_422p8m_usd.
   supports:
   - southern_copper_6m26_capex_864p7m_usd
   - hunt_cycle282
+  - southern_copper_2q26_capex_422p8m_usd
+  - hunt_cycle283
