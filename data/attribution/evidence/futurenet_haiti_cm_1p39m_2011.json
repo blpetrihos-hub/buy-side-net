@@ -1,0 +1,10 @@
+{
+  "id": "futurenet_haiti_cm_1p39m_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_futurenet_haiti_cm_20110912",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_JM01_9700_N0017809D5730_9700/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "HAITI- ENGINEERING TECHNICIANS (2) AND CONSTRUCTION MANAGERS (2)",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1,392,374.21; date_signed 2011-09-12."
+}
