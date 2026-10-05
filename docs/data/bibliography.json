@@ -22659,7 +22659,7 @@
     "type": "company",
     "chicago": "AES Brasil Energia S.A. “Material Fact” (investment projections 2024–2028). February 26, 2024. https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1",
-    "annotation": "AES Brasil 2028E CapEx R$159.5m via Fed H.10. Supports aes_brasil_2028e_capex_159p5m_brl.",
+    "annotation": "AES Brasil 2024E Pipeline CapEx R$130.6m via Fed H.10. Supports aes_brasil_2024e_pipeline_130p6m_brl.",
     "supports": [
       "aes_brasil_capex_plan_1348m_brl_2024_2028",
       "hunt_cycle254",
@@ -22668,9 +22668,18 @@
       "aes_brasil_2025e_capex_214p2m_brl",
       "hunt_cycle284",
       "aes_brasil_2027e_capex_125p5m_brl",
-      "aes_brasil_2028e_capex_159p5m_brl"
+      "aes_brasil_2028e_capex_159p5m_brl",
+      "aes_brasil_2024e_capex_712p7m_brl",
+      "hunt_cycle285",
+      "aes_brasil_2024e_modernization_193p9m_brl",
+      "aes_brasil_2024e_expansion_388p2m_brl",
+      "aes_brasil_2024e_pipeline_130p6m_brl"
     ],
     "map_supports": [
+      "aes_brasil_2024e_capex_712p7m_brl",
+      "aes_brasil_2024e_expansion_388p2m_brl",
+      "aes_brasil_2024e_modernization_193p9m_brl",
+      "aes_brasil_2024e_pipeline_130p6m_brl",
       "aes_brasil_2025e_capex_214p2m_brl",
       "aes_brasil_2026e_capex_136p7m_brl",
       "aes_brasil_2027e_capex_125p5m_brl",
@@ -23150,7 +23159,7 @@
     "type": "company",
     "chicago": "Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2",
-    "annotation": "Rumo Contêiner Recorrente 6M26 CapEx R$8m via Fed H.10. Supports rumo_conteiner_recorrente_6m26_8m_brl.",
+    "annotation": "Rumo Contêiner Recorrente 2T26 CapEx R$2m via Fed H.10. Supports rumo_conteiner_recorrente_2t26_2m_brl.",
     "supports": [
       "rumo_2t26_capex_1597m_brl",
       "hunt_cycle260",
@@ -23184,7 +23193,9 @@
       "rumo_conteiner_expansao_6m26_32m_brl",
       "hunt_cycle283",
       "rumo_conteiner_recorrente_6m26_8m_brl",
-      "hunt_cycle284"
+      "hunt_cycle284",
+      "rumo_conteiner_recorrente_2t26_2m_brl",
+      "hunt_cycle285"
     ],
     "map_supports": [
       "rumo_2t26_capex_1597m_brl",
@@ -23194,6 +23205,7 @@
       "rumo_conteiner_2t26_21m_brl",
       "rumo_conteiner_6m26_40m_brl",
       "rumo_conteiner_expansao_6m26_32m_brl",
+      "rumo_conteiner_recorrente_2t26_2m_brl",
       "rumo_conteiner_recorrente_6m26_8m_brl",
       "rumo_expansao_norte_2t26_979m_brl",
       "rumo_expansao_norte_6m26_2207m_brl",
@@ -23288,7 +23300,7 @@
     "type": "company",
     "chicago": "Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2",
-    "annotation": "Aegea Corsan outorga 6M26 R$41m via Fed H.10. Supports aegea_corsan_outorga_6m26_41m_brl.",
+    "annotation": "Aegea Demais outorga 6M26 R$3m via Fed H.10. Supports aegea_demais_outorga_6m26_3m_brl.",
     "supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
       "hunt_cycle262",
@@ -23329,7 +23341,9 @@
       "aegea_prolagos_6m26_69m_brl",
       "aegea_demais_6m26_682m_brl",
       "aegea_corsan_outorga_6m26_41m_brl",
-      "hunt_cycle283"
+      "hunt_cycle283",
+      "aegea_demais_outorga_6m26_3m_brl",
+      "hunt_cycle285"
     ],
     "map_supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
@@ -23344,6 +23358,7 @@
       "aegea_demais_2t26_356m_brl",
       "aegea_demais_6m26_682m_brl",
       "aegea_demais_outorga_2t26_3m_brl",
+      "aegea_demais_outorga_6m26_3m_brl",
       "aegea_guariroba_2t26_49m_brl",
       "aegea_guariroba_6m26_87m_brl",
       "aegea_manaus_2t26_91m_brl",
@@ -23715,16 +23730,23 @@
   {
     "id": "motiva_fy2025_results_8p3bn_2026",
     "type": "company",
-    "chicago": "Motiva. “Motiva encerra 2025 com forte crescimento e resultados recordes.” 2026. https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/.",
+    "chicago": "Motiva S.A. “Motiva encerra 2025 com lucro líquido de R$ 3,27 bilhões….” 2026. https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/.",
     "url": "https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/",
-    "annotation": "Motiva 2026 CapEx plan R$8.3bn + Linha 4 R$941m via Fed H.10. Supports motiva_2026_capex_plan_8p3bn_brl; motiva_linha4_2026_941m_brl.",
+    "annotation": "Motiva FY2025 trilhos CapEx R$1.3bn via Fed H.10. Supports motiva_fy2025_rails_13bn_brl.",
     "supports": [
       "motiva_2026_capex_plan_8p3bn_brl",
       "hunt_cycle267",
-      "motiva_linha4_2026_941m_brl"
+      "motiva_linha4_2026_941m_brl",
+      "motiva_fy2025_capex_87bn_brl",
+      "hunt_cycle285",
+      "motiva_fy2025_roads_65bn_brl",
+      "motiva_fy2025_rails_13bn_brl"
     ],
     "map_supports": [
       "motiva_2026_capex_plan_8p3bn_brl",
+      "motiva_fy2025_capex_87bn_brl",
+      "motiva_fy2025_rails_13bn_brl",
+      "motiva_fy2025_roads_65bn_brl",
       "motiva_linha4_2026_941m_brl"
     ],
     "layers": [
@@ -23770,7 +23792,7 @@
     "type": "company",
     "chicago": "CPFL Transmissão. “Formulário de Referência 2026” (FR_CPFL Transmissão 2026). May 28, 2026. https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D.",
     "url": "https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D",
-    "annotation": "CPFL TX 2029 CapEx R$799m via Fed H.10. Supports cpfl_tx_2029_capex_799m_brl.",
+    "annotation": "CPFL TX 2030 CapEx R$605m via Fed H.10. Supports cpfl_tx_2030_capex_605m_brl.",
     "supports": [
       "cpfl_tx_2026_capex_856m_brl",
       "hunt_cycle268",
@@ -23778,14 +23800,17 @@
       "cpfl_tx_2026_2030_4540m_brl",
       "cpfl_tx_2028_capex_1059m_brl",
       "hunt_cycle284",
-      "cpfl_tx_2029_capex_799m_brl"
+      "cpfl_tx_2029_capex_799m_brl",
+      "cpfl_tx_2030_capex_605m_brl",
+      "hunt_cycle285"
     ],
     "map_supports": [
       "cpfl_tx_2026_2030_4540m_brl",
       "cpfl_tx_2026_capex_856m_brl",
       "cpfl_tx_2027_capex_1221m_brl",
       "cpfl_tx_2028_capex_1059m_brl",
-      "cpfl_tx_2029_capex_799m_brl"
+      "cpfl_tx_2029_capex_799m_brl",
+      "cpfl_tx_2030_capex_605m_brl"
     ],
     "layers": [
       "energy"

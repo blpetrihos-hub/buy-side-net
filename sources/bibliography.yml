@@ -12501,7 +12501,7 @@
   type: company
   chicago: AES Brasil Energia S.A. “Material Fact” (investment projections 2024–2028). February 26, 2024. https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1.
   url: https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1
-  annotation: AES Brasil 2028E CapEx R$159.5m via Fed H.10. Supports aes_brasil_2028e_capex_159p5m_brl.
+  annotation: AES Brasil 2024E Pipeline CapEx R$130.6m via Fed H.10. Supports aes_brasil_2024e_pipeline_130p6m_brl.
   supports:
   - aes_brasil_capex_plan_1348m_brl_2024_2028
   - hunt_cycle254
@@ -12511,6 +12511,11 @@
   - hunt_cycle284
   - aes_brasil_2027e_capex_125p5m_brl
   - aes_brasil_2028e_capex_159p5m_brl
+  - aes_brasil_2024e_capex_712p7m_brl
+  - hunt_cycle285
+  - aes_brasil_2024e_modernization_193p9m_brl
+  - aes_brasil_2024e_expansion_388p2m_brl
+  - aes_brasil_2024e_pipeline_130p6m_brl
 - id: sabesp_2q26_sec_6k_2026
   type: company
   chicago: Companhia de Saneamento Básico do Estado de São Paulo — Sabesp. “Form 6-K — Earnings Release 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.
@@ -12747,7 +12752,7 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo Contêiner Recorrente 6M26 CapEx R$8m via Fed H.10. Supports rumo_conteiner_recorrente_6m26_8m_brl.
+  annotation: Rumo Contêiner Recorrente 2T26 CapEx R$2m via Fed H.10. Supports rumo_conteiner_recorrente_2t26_2m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
@@ -12782,6 +12787,8 @@
   - hunt_cycle283
   - rumo_conteiner_recorrente_6m26_8m_brl
   - hunt_cycle284
+  - rumo_conteiner_recorrente_2t26_2m_brl
+  - hunt_cycle285
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (company ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -12821,7 +12828,7 @@
   type: company
   chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea Corsan outorga 6M26 R$41m via Fed H.10. Supports aegea_corsan_outorga_6m26_41m_brl.
+  annotation: Aegea Demais outorga 6M26 R$3m via Fed H.10. Supports aegea_demais_outorga_6m26_3m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12863,6 +12870,8 @@
   - aegea_demais_6m26_682m_brl
   - aegea_corsan_outorga_6m26_41m_brl
   - hunt_cycle283
+  - aegea_demais_outorga_6m26_3m_brl
+  - hunt_cycle285
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13040,13 +13049,17 @@
   - porto_itapoa_fase_iii_815m_brl_2024
 - id: motiva_fy2025_results_8p3bn_2026
   type: company
-  chicago: Motiva. “Motiva encerra 2025 com forte crescimento e resultados recordes.” 2026. https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/.
+  chicago: Motiva S.A. “Motiva encerra 2025 com lucro líquido de R$ 3,27 bilhões….” 2026. https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/.
   url: https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/
-  annotation: Motiva 2026 CapEx plan R$8.3bn + Linha 4 R$941m via Fed H.10. Supports motiva_2026_capex_plan_8p3bn_brl; motiva_linha4_2026_941m_brl.
+  annotation: Motiva FY2025 trilhos CapEx R$1.3bn via Fed H.10. Supports motiva_fy2025_rails_13bn_brl.
   supports:
   - motiva_2026_capex_plan_8p3bn_brl
   - hunt_cycle267
   - motiva_linha4_2026_941m_brl
+  - motiva_fy2025_capex_87bn_brl
+  - hunt_cycle285
+  - motiva_fy2025_roads_65bn_brl
+  - motiva_fy2025_rails_13bn_brl
 - id: byd_brasil_bess_500m_20260901
   type: company
   chicago: BYD Brasil. “BYD avança em estratégia de armazenamento de energia no Brasil após anunciar investimento de até R$ 500 milhões no país.” September 1, 2026. https://bydbrasil.com.br/byd-avanca-em-estrategia-de-armazenamento-de-energia-no-brasil-apos-anunciar-investimento-de-ate-r-500-milhoes-no-pais/.
@@ -13067,7 +13080,7 @@
   type: company
   chicago: CPFL Transmissão. “Formulário de Referência 2026” (FR_CPFL Transmissão 2026). May 28, 2026. https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D.
   url: https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D
-  annotation: CPFL TX 2029 CapEx R$799m via Fed H.10. Supports cpfl_tx_2029_capex_799m_brl.
+  annotation: CPFL TX 2030 CapEx R$605m via Fed H.10. Supports cpfl_tx_2030_capex_605m_brl.
   supports:
   - cpfl_tx_2026_capex_856m_brl
   - hunt_cycle268
@@ -13076,6 +13089,8 @@
   - cpfl_tx_2028_capex_1059m_brl
   - hunt_cycle284
   - cpfl_tx_2029_capex_799m_brl
+  - cpfl_tx_2030_capex_605m_brl
+  - hunt_cycle285
 - id: scala_dfs_2025_fy_capex_1823m
   type: company
   chicago: Scala Data Centers S.A. “Demonstrações Financeiras 2025.” March 26, 2026. https://scaladatacenters.com/wp-content/uploads/2026/04/2025-Demonstracoes-Financeiras.pdf.

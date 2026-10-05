@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1746,
+    "n_rows": 1756,
     "counts": {
-      "total": 1746,
-      "active": 1547,
+      "total": 1756,
+      "active": 1557,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 184,
       "exclude": 18,
-      "documented": 1477,
-      "on_map": 1409
+      "documented": 1487,
+      "on_map": 1419
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 127,
-        "allied": 235,
-        "n": 543
+        "allied": 239,
+        "n": 547
       },
       "usd": {
         "us": 46248647492.65,
         "us_n": 114,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 65503948101.010025,
-        "allied_n": 161
+        "allied": 68682238195.58002,
+        "allied_n": 165
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 193,
-        "n": 355
+        "allied": 194,
+        "n": 356
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 115309323006.49,
-        "allied_n": 124
+        "allied": 115309900807.38,
+        "allied_n": 125
       },
       "matched_gaps": {
         "n": 3,
@@ -153,16 +153,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 178,
-        "prc": 204,
+        "us": 182,
+        "prc": 205,
         "allied": 265,
-        "n": 647
+        "n": 652
       },
       "usd": {
-        "us": 33685120288.579998,
-        "us_n": 73,
-        "prc": 43152512688.81999,
-        "prc_n": 71,
+        "us": 33959652751.359997,
+        "us_n": 77,
+        "prc": 43269035868.26999,
+        "prc_n": 72,
         "allied": 109114813694.80006,
         "allied_n": 194
       },
@@ -362,34 +362,34 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 116,
-        "prc": 120,
-        "allied": 362,
-        "n": 598
+        "us": 120,
+        "prc": 121,
+        "allied": 367,
+        "n": 608
       },
       "usd": {
-        "us": 20690494647.369995,
-        "us_n": 54,
-        "prc": 41894493659.03,
-        "prc_n": 60,
-        "allied": 157152314837.30002,
-        "allied_n": 281
+        "us": 20965027110.149994,
+        "us_n": 58,
+        "prc": 42011016838.479996,
+        "prc_n": 61,
+        "allied": 160331182732.76,
+        "allied_n": 286
       },
       "by_layer": {
         "energy": {
-          "us": 23,
-          "prc": 85,
+          "us": 27,
+          "prc": 86,
           "allied": 159
         },
         "infrastructure": {
           "us": 67,
           "prc": 26,
-          "allied": 112
+          "allied": 116
         },
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 91
+          "allied": 92
         }
       }
     },
@@ -2735,7 +2735,17 @@
       "aes_brasil_2027e_capex_125p5m_brl",
       "aes_brasil_2028e_capex_159p5m_brl",
       "cpfl_tx_2028_capex_1059m_brl",
-      "cpfl_tx_2029_capex_799m_brl"
+      "cpfl_tx_2029_capex_799m_brl",
+      "aegea_demais_outorga_6m26_3m_brl",
+      "aes_brasil_2024e_capex_712p7m_brl",
+      "aes_brasil_2024e_modernization_193p9m_brl",
+      "aes_brasil_2024e_expansion_388p2m_brl",
+      "aes_brasil_2024e_pipeline_130p6m_brl",
+      "cpfl_tx_2030_capex_605m_brl",
+      "rumo_conteiner_recorrente_2t26_2m_brl",
+      "motiva_fy2025_capex_87bn_brl",
+      "motiva_fy2025_roads_65bn_brl",
+      "motiva_fy2025_rails_13bn_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
