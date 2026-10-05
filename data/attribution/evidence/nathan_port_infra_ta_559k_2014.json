@@ -1,0 +1,10 @@
+{
+  "id": "nathan_port_infra_ta_559k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_nathan_port_infra_ta_20140904",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1400014_7200_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "TECHNICAL ASSISTANCE FOR PORT INFRASTRUCTURE AND OPERATIONS PLANNING AND PROJECT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 558,625.15; date_signed 2014-09-04."
+}

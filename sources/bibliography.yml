@@ -22790,3 +22790,153 @@
   supports:
   - palgag_port_de_paix_eoc_1p93m_2011
   - hunt_cycle913
+- id: usaspending_panexus_haiti_construction_20130712
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13C0174_1900_-NONE-_-NONE-
+    (Panexus Haiti S.A.; local construction). Signed 12 July 2013. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13C0174_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13C0174_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Panexus Haiti construction USD 17.056m. Supports panexus_haiti_construction_17p1m_2013.'
+  supports:
+  - panexus_haiti_construction_17p1m_2013
+  - hunt_cycle914
+- id: usaspending_northern_ports_feasibility_20110923
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521TO1100001_7200_AIDEDHI000800025_7200
+    (northern ports feasibility). Signed 23 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1100001_7200_AIDEDHI000800025_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1100001_7200_AIDEDHI000800025_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: northern ports feasibility USD 4.154m. Supports northern_ports_feasibility_4p15m_2011.'
+  supports:
+  - northern_ports_feasibility_4p15m_2011
+  - hunt_cycle914
+- id: usaspending_sca_carrefour_cdb_fire_20160929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945016C0109_9700_-NONE-_-NONE-
+    (SCA LLC; Carrefour/Croix-des-Bouquets fire stations). Signed 29 September 2016. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945016C0109_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945016C0109_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: SCA Carrefour/CdB fire stations USD 1.612m. Supports sca_carrefour_cdb_fire_1p61m_2016.'
+  supports:
+  - sca_carrefour_cdb_fire_1p61m_2016
+  - hunt_cycle914
+- id: usaspending_olgoonik_recp_msg_20220608
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22C0110_1900_-NONE-_-NONE-
+    (Olgoonik Federal; MSG residence A&E). Signed 8 June 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0110_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0110_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Olgoonik MSG A&E USD 1.404m. Supports olgoonik_recp_msg_ae_1p40m_2022.'
+  supports:
+  - olgoonik_recp_msg_ae_1p40m_2022
+  - hunt_cycle914
+- id: usaspending_cap_haitien_urgent_port_ae_20150929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521TO1500006_7200_AIDEDHI000800024_7200
+    (Cap-Haïtien urgent port A&E). Signed 29 September 2015. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1500006_7200_AIDEDHI000800024_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1500006_7200_AIDEDHI000800024_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Cap-Haïtien urgent port A&E USD 1.028m. Supports cap_haitien_urgent_port_ae_1p03m_2015.'
+  supports:
+  - cap_haitien_urgent_port_ae_1p03m_2015
+  - hunt_cycle914
+- id: usaspending_annum_cmr_design_20221223
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F0220_1900_19AQMM19D0059_1900
+    (Annum Architects; CMR design). Signed 23 December 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0220_1900_19AQMM19D0059_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0220_1900_19AQMM19D0059_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Annum CMR design USD 1.190m. Supports annum_cmr_design_1p19m_2022.'
+  supports:
+  - annum_cmr_design_1p19m_2022
+  - hunt_cycle915
+- id: usaspending_futurenet_haiti_cm_20110912
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_JM01_9700_N0017809D5730_9700
+    (FutureNet Group; Haiti engineering/CM). Signed 12 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_JM01_9700_N0017809D5730_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_JM01_9700_N0017809D5730_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: FutureNet Haiti CM USD 1.392m. Supports futurenet_haiti_cm_1p39m_2011.'
+  supports:
+  - futurenet_haiti_cm_1p39m_2011
+  - hunt_cycle915
+- id: usaspending_edh_electrical_20070129
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC07M0025_1900_-NONE-_-NONE-
+    (Électricité d'Haïti; electrical connection). Signed 29 January 2007. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC07M0025_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC07M0025_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EDH electrical connection USD 1.034m. Supports edh_electrical_connection_1p03m_2007.'
+  supports:
+  - edh_electrical_connection_1p03m_2007
+  - hunt_cycle915
+- id: usaspending_slsco_gonaives_fire_20110818
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0064_9700_-NONE-_-NONE-
+    (SLSCO; Gonaïves fire/EMS). Signed 18 August 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0064_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0064_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: SLSCO Gonaïves fire/EMS USD 0.722m. Supports slsco_gonaives_fire_ems_722k_2011.'
+  supports:
+  - slsco_gonaives_fire_ems_722k_2011
+  - hunt_cycle915
+- id: usaspending_css_les_cayes_fire_20110920
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0062_9700_-NONE-_-NONE-
+    (CSS; Les Cayes fire station). Signed 20 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0062_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0062_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CSS Les Cayes fire station USD 0.719m. Supports css_les_cayes_fire_719k_2011.'
+  supports:
+  - css_les_cayes_fire_719k_2011
+  - hunt_cycle915
+- id: usaspending_css_cap_haitien_fire_20110823
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0065_9700_-NONE-_-NONE-
+    (CSS; Cap-Haïtien fire/EMS). Signed 23 August 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0065_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0065_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CSS Cap-Haïtien fire/EMS USD 0.707m. Supports css_cap_haitien_fire_ems_707k_2011.'
+  supports:
+  - css_cap_haitien_fire_ems_707k_2011
+  - hunt_cycle916
+- id: usaspending_ycf_jeremie_fire_20110927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0061_9700_-NONE-_-NONE-
+    (YCF Group; Jérémie fire/EMS). Signed 27 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0061_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0061_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: YCF Jérémie fire/EMS USD 0.663m. Supports ycf_jeremie_fire_ems_663k_2011.'
+  supports:
+  - ycf_jeremie_fire_ems_663k_2011
+  - hunt_cycle916
+- id: usaspending_newco_haiti_eoc_20090926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL09C0032_9700_-NONE-_-NONE-
+    (Newco Structures; Haiti EOC). Signed 26 September 2009. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL09C0032_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL09C0032_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Newco Haiti EOC USD 0.569m. Supports newco_haiti_eoc_569k_2009.'
+  supports:
+  - newco_haiti_eoc_569k_2009
+  - hunt_cycle916
+- id: usaspending_newco_haiti_drw_20090924
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL09C0040_9700_-NONE-_-NONE-
+    (Newco Structures; Haiti DRW). Signed 24 September 2009. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL09C0040_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL09C0040_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Newco Haiti DRW USD 0.465m. Supports newco_haiti_drw_465k_2009.'
+  supports:
+  - newco_haiti_drw_465k_2009
+  - hunt_cycle916
+- id: usaspending_nathan_port_infra_ta_20140904
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521C1400014_7200_-NONE-_-NONE-
+    (Nathan Associates; port infrastructure TA). Signed 4 September 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1400014_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1400014_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Nathan port infrastructure TA USD 0.559m. Supports nathan_port_infra_ta_559k_2014.'
+  supports:
+  - nathan_port_infra_ta_559k_2014
+  - hunt_cycle916

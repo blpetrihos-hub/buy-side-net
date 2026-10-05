@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 913
+cycle: 916
 remote: present
 active_layer: infrastructure
-active_subcategory: bridges_roads
-next_query: Cycle 914 shuffle_seed=20261914; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us492/prc409/allied1551); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Venezuela CapEx-fill blanks, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; CapEx planilha + AXIA TX + Haiti PIP + USASpending Haiti US loaded; diversify thin/Venezuela CapEx / Copel / PRC. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
-next_row_id: (follow cycle-914 shuffled_order)
+active_subcategory: building_materials
+next_query: Cycle 917 shuffle_seed=20261917; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us505/prc409/allied1551); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Venezuela CapEx-fill blanks, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; CapEx planilha + AXIA TX + Haiti PIP + USASpending Haiti US loaded; diversify thin/Venezuela CapEx / Copel / PRC. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
+next_row_id: (follow cycle-917 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 913) ===
-# Filled this batch: Haiti×building_materials NEW×10 (DFS prison; CCE HNP Academy; CSS Jacmel/Miragoâne/Fort-Liberté; Global Communities; Palgag US; Palgag Israel×2); Haiti×power_plants_grid NEW×2 us (Spectrum switchgear; Olgoonik electrical); Haiti×port_ownership NEW×2 us (Nathan customs/regulatory); Haiti×bridges_roads NEW×5 (BM municipal; UE urbain; FER travaux; études; Rue des Hall); Haiti×water NEW×2 other (PAP/Ouanaminthe drainage).
+# === Country×subcategory sweep cells touched (session continuing from 916) ===
+# Filled this batch: Haiti×building_materials NEW×9 (Panexus; SCA fire; SLSCO/CSS/YCF/Newco fire-EOC-DRW suite); Haiti×port_ownership NEW×3 us (northern ports feasibility; Cap-Haïtien urgent port A&E; Nathan port TA); Haiti×engineering_epc NEW×3 us (Olgoonik MSG A&E; Annum CMR; FutureNet CM); Haiti×power_plants_grid NEW×1 other (EDH electrical).
 # Still thin: Venezuela CapEx blanks, Nicaragua rail, Peru balsa, Colombia graphite.
-# ≥1/3 U.S. hunt budget spent (heavy US CapEx batch). PRC CapEx-blank. Thin top-up dry.
+# ≥1/3 U.S. hunt budget spent (heavy US CapEx). PRC CapEx-blank. Thin top-up dry.
+
+# === Cycle 916 (seed 20261916) ===
+# Shuffled: port_ownership, water, power_plants_grid, rail, wind, lithium, balsa, engineering_epc, nickel, fission_smr, niobium, building_materials, copper, bridges_roads, solar, port_cranes, graphite, other_renewables.
+# Logged 5 NEW (5 US / 0 PRC / 0 allied / 0 other):
+#   css_cap_haitien_fire_ems_707k_2011 ycf_jeremie_fire_ems_663k_2011 newco_haiti_eoc_569k_2009 newco_haiti_drw_465k_2009 nathan_port_infra_ta_559k_2014.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Venezuela CapEx-fill; thin; Copel; PRC; diversify beyond Haiti USASpending.
+# Active after cycle 916: us505 / prc409 / allied1551 / other5817 (n=8282).
+
+# === Cycle 915 (seed 20261915) ===
+# Shuffled: niobium, port_ownership, nickel, wind, rail, copper, balsa, power_plants_grid, port_cranes, bridges_roads, solar, lithium, building_materials, water, fission_smr, other_renewables, engineering_epc, graphite.
+# Logged 5 NEW (4 US / 0 PRC / 0 allied / 1 other):
+#   annum_cmr_design_1p19m_2022 futurenet_haiti_cm_1p39m_2011 edh_electrical_connection_1p03m_2007 slsco_gonaives_fire_ems_722k_2011 css_les_cayes_fire_719k_2011.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: CSS Cap-Haïtien/YCF/Newco fire suite; Venezuela; thin.
+# Active after cycle 915: us500 / prc409 / allied1551 / other5817 (n=8277).
+
+# === Cycle 914 (seed 20261914) ===
+# Shuffled: niobium, water, balsa, nickel, lithium, rail, building_materials, other_renewables, bridges_roads, power_plants_grid, port_ownership, fission_smr, solar, port_cranes, copper, engineering_epc, wind, graphite.
+# Logged 5 NEW (4 US / 0 PRC / 0 allied / 1 other):
+#   panexus_haiti_construction_17p1m_2013 northern_ports_feasibility_4p15m_2011 sca_carrefour_cdb_fire_1p61m_2016 olgoonik_recp_msg_ae_1p40m_2022 cap_haitien_urgent_port_ae_1p03m_2015.
+# Thin top-up dry. Equal-budget misses: niobium/water/balsa/nickel/lithium/rail/other_renewables/bridges_roads/fission/solar/port_cranes/copper/wind/graphite dry; PRC CapEx-blank.
+# Holdovers: Annum/FutureNet/EDH/SLSCO; Venezuela; thin.
+# Active after cycle 914: us496 / prc409 / allied1551 / other5816 (n=8272).
 
 # === Cycle 913 (seed 20261913) ===
 # Shuffled: bridges_roads, other_renewables, building_materials, power_plants_grid, port_cranes, lithium, balsa, solar, water, port_ownership, graphite, nickel, fission_smr, engineering_epc, rail, niobium, wind, copper.
