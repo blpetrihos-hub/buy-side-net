@@ -1,35 +1,39 @@
 updated: 2026-10-05
-cycle: 558
+cycle: 559
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 559 shuffle_seed=20261559; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1054); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx. Holdovers: CRBC Corentyne; CSCEC Nicaragua 290 km; CCECC Nicaragua rail; Progress Rail VLI R$430m; Ascenty USD; Equinix SP USD109m SEC; ENGIE Colibri; Wabtec Vale CapEx blank; Motiva Capex Proforma exhausted; Rumo CAPEX 1T21–1T26 loaded; Equatorial Investimentos 1T17–2T26 loaded; Neoenergia CAPEX 6M26/1T26/2T26 nested leftovers then diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales CapEx; Bechtel QB2 desal. No U.S. territories.
-next_row_id: (follow cycle-559 shuffled_order)
+next_query: Cycle 560 shuffle_seed=20261560; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1068); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx. Holdovers: CRBC Corentyne; CSCEC Nicaragua 290 km; CCECC Nicaragua rail; Progress Rail VLI R$430m; Ascenty USD; Equinix SP USD109m SEC; ENGIE Colibri; Wabtec Vale CapEx blank; Motiva Capex Proforma exhausted; Rumo CAPEX 1T21–1T26 loaded; Equatorial Investimentos 1T17–2T26 loaded; Neoenergia CAPEX 1T26/2T26 nested leftovers then diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales CapEx; Bechtel QB2 desal. No U.S. territories.
+next_row_id: (follow cycle-560 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 558) ===
-# Filled this cycle: Brazil×power_plants_grid/wind/solar NEW×15 allied
-#   (Neoenergia CAPEX planilha Empresas CVM FY2025).
+# === Country×subcategory sweep cells touched (session continuing from 559) ===
+# Filled this cycle: Brazil×power_plants_grid/wind/solar NEW×14 allied
+#   (Neoenergia CAPEX planilha Empresas CVM 6M26).
 # Still thin/empty priority cells: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa,
 #   Colombia graphite mine CapEx.
 # ≥1/3 U.S. hunt budget spent (Progress Rail/AES/Bechtel/Wabtec/Equinix CapEx dry).
 # PRC equal-budget: CapEx-blank COD faces.
 
-# === Cycle 558 (seed 20261558) ===
-# Shuffled order (BRIEF.md numbered + Random(20261558).shuffle): copper, port_cranes, bridges_roads, wind, engineering_epc, graphite,
-#   fission_smr, niobium, balsa, water, power_plants_grid, rail,
-#   solar, lithium, port_ownership, nickel, other_renewables, building_materials.
-# Logged 15 NEW (0 US / 0 PRC / 15 allied / 0 other; ≥1/3 US hunt budget spent —
+# === Cycle 559 (seed 20261559) ===
+# Shuffled order (BRIEF.md numbered + Random(20261559).shuffle): wind, building_materials, engineering_epc, rail, graphite, copper,
+#   niobium, lithium, port_ownership, nickel, port_cranes, solar,
+#   balsa, water, fission_smr, other_renewables, bridges_roads, power_plants_grid.
+# Logged 14 NEW (0 US / 0 PRC / 14 allied / 0 other; ≥1/3 US hunt budget spent —
 #   CapEx dry this pass; PRC CapEx-blank):
-#   allied faces: neoenergia_fy2025_capex_10098m_brl; neoenergia_redes_fy2025_9796m_brl; neoenergia_dist_fy2025_6524m_brl; neoenergia_coelba_fy2025_3491m_brl; neoenergia_pernambuco_fy2025_1076m_brl; neoenergia_cosern_fy2025_537m_brl;
-#     neoenergia_elektro_fy2025_1058m_brl; neoenergia_brasilia_fy2025_363m_brl; neoenergia_tx_fy2025_3272m_brl; neoenergia_geracao_fy2025_289m_brl; neoenergia_hidro_fy2025_57m_brl; neoenergia_eolicas_fy2025_180m_brl;
-#     neoenergia_chafariz_fy2025_80m_brl; neoenergia_oitis_fy2025_5m_brl; neoenergia_termica_fy2025_24m_brl.
+#   allied faces: neoenergia_6m26_capex_3979m_brl; neoenergia_redes_6m26_3913m_brl; neoenergia_coelba_6m26_1919m_brl; neoenergia_pernambuco_6m26_746m_brl; neoenergia_cosern_6m26_240m_brl; neoenergia_elektro_6m26_564m_brl;
+#     neoenergia_brasilia_6m26_228m_brl; neoenergia_geracao_6m26_57m_brl; neoenergia_hidro_6m26_6m_brl; neoenergia_eolicas_6m26_31m_brl; neoenergia_chafariz_6m26_17m_brl; neoenergia_oitis_6m26_2m_brl;
+#     neoenergia_solar_6m26_0m_brl; neoenergia_termica_6m26_0m_brl.
 # Thin top-up (balsa/nickel/fission_smr): dry.
-# Equal-budget misses: copper, port_cranes, bridges_roads, engineering_epc, graphite, fission_smr, niobium, balsa,
-#   water, rail, solar, lithium, port_ownership, nickel, other_renewables, building_materials (catalog dense; thin dry; US CapEx dry).
-# Holdovers: Motiva/Rumo/Equatorial CapEx seams largely loaded; Neoenergia CAPEX 6M26/1T26/2T26 nested leftovers then diversify US CapEx / thin balsa-nickel-fission_smr-niobium;
+# Equal-budget misses: building_materials, engineering_epc, rail, graphite, copper, niobium, lithium, port_ownership,
+#   nickel, port_cranes, balsa, water, fission_smr, other_renewables, bridges_roads (catalog dense; thin dry; US CapEx dry).
+# Holdovers: Motiva/Rumo/Equatorial CapEx seams largely loaded; Neoenergia CAPEX 1T26/2T26 nested leftovers then diversify US CapEx / thin balsa-nickel-fission_smr-niobium;
 #   Progress Rail VLI; AES Arenales; Bechtel QB2; thin balsa/nickel/fission_smr/niobium.
-# Active after cycle 558: us466 / prc407 / allied1054 / other3922 (n=5849).
+# Active after cycle 559: us466 / prc407 / allied1068 / other3922 (n=5863).
+
+# === Cycle 558 (seed 20261558) summary ===
+# Prior CapEx planilha cycle. Active after: see prior coverage.
+
 
 # === Cycle 557 (seed 20261557) summary ===
 # Prior CapEx planilha cycle. Active after: see prior coverage.
@@ -988,50 +992,50 @@ dry_streak: 0
 # === Cycle 318 (seed 20261318) summary ===
 # Logged 22 NEW Motiva 3T25 excl.-maint CapEx. Active after: us466/prc407/allied602/other590 (n=2065).
 
-shuffle_seed: 20261558
+shuffle_seed: 20261559
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- resources/copper
-- infrastructure/port_cranes
-- infrastructure/bridges_roads
 - energy/wind
+- infrastructure/building_materials
 - infrastructure/engineering_epc
-- resources/graphite
-- energy/fission_smr
-- resources/niobium
-- resources/balsa
-- resources/water
-- energy/power_plants_grid
 - infrastructure/rail
-- energy/solar
+- resources/graphite
+- resources/copper
+- resources/niobium
 - resources/lithium
 - infrastructure/port_ownership
 - resources/nickel
+- infrastructure/port_cranes
+- energy/solar
+- resources/balsa
+- resources/water
+- energy/fission_smr
 - energy/other_renewables
-- infrastructure/building_materials
+- infrastructure/bridges_roads
+- energy/power_plants_grid
 rows_found_this_cycle:
-  resources/copper: 0
-  infrastructure/port_cranes: 0
-  infrastructure/bridges_roads: 0
   energy/wind: 3
+  infrastructure/building_materials: 0
   infrastructure/engineering_epc: 0
-  resources/graphite: 0
-  energy/fission_smr: 0
-  resources/niobium: 0
-  resources/balsa: 0
-  resources/water: 0
-  energy/power_plants_grid: 12
   infrastructure/rail: 0
-  energy/solar: 0
+  resources/graphite: 0
+  resources/copper: 0
+  resources/niobium: 0
   resources/lithium: 0
   infrastructure/port_ownership: 0
   resources/nickel: 0
+  infrastructure/port_cranes: 0
+  energy/solar: 1
+  resources/balsa: 0
+  resources/water: 0
+  energy/fission_smr: 0
   energy/other_renewables: 0
-  infrastructure/building_materials: 0
+  infrastructure/bridges_roads: 0
+  energy/power_plants_grid: 10
 rows_by_side_this_cycle:
   us: 0
   prc: 0
-  allied: 15
+  allied: 14
   other: 0
 thin_topup:
   budget: 0.5_source_family_min
@@ -1043,6 +1047,6 @@ thin_topup:
 coverage_cumulative_active_rows:
   us: 466
   prc: 407
-  allied: 1054
+  allied: 1068
   other: 3922
-  n: 5849
+  n: 5863
