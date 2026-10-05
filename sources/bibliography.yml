@@ -25840,3 +25840,153 @@
   supports:
   - mfg_turbo_lodging_702k_2018
   - hunt_cycle974
+- id: usaspending_western_necocli_barrier_701k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0134_1900_-NONE-_-NONE-
+    (Western Necoclí barrier). Signed 2017-06-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0134_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0134_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Western Necoclí barrier USD 0.701m. Supports western_necocli_barrier_701k_2017.'
+  supports:
+  - western_necocli_barrier_701k_2017
+  - hunt_cycle975
+- id: usaspending_marago_carabineros_690k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0086_1900_-NONE-_-NONE-
+    (Marago Carabineros). Signed 2018-04-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0086_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0086_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marago Carabineros USD 0.690m. Supports marago_carabineros_690k_2018.'
+  supports:
+  - marago_carabineros_690k_2018
+  - hunt_cycle975
+- id: usaspending_marago_popayan_cefop_688k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC15C0005_1900_-NONE-_-NONE-
+    (Marago Popayán CEFOP). Signed 2015-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC15C0005_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC15C0005_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marago Popayán CEFOP USD 0.688m. Supports marago_popayan_cefop_688k_2015.'
+  supports:
+  - marago_popayan_cefop_688k_2015
+  - hunt_cycle975
+- id: usaspending_kwaan_espinal_modular_668k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F1722_1900_19AQMM23D0037_1900
+    (Kwaan Espinal modular). Signed 2023-09-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1722_1900_19AQMM23D0037_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1722_1900_19AQMM23D0037_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Kwaan Espinal modular USD 0.668m. Supports kwaan_espinal_modular_668k_2023.'
+  supports:
+  - kwaan_espinal_modular_668k_2023
+  - hunt_cycle975
+- id: usaspending_seobra_slv_fitness_664k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0496_9700_W9127816D0098_9700
+    (Seobra SLV fitness). Signed 2017-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0496_9700_W9127816D0098_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0496_9700_W9127816D0098_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Seobra SLV fitness USD 0.664m. Supports seobra_slv_fitness_664k_2017.'
+  supports:
+  - seobra_slv_fitness_664k_2017
+  - hunt_cycle975
+- id: usaspending_marago_cenop_warehouses_659k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0100_1900_-NONE-_-NONE-
+    (Marago CENOP warehouses). Signed 2019-07-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0100_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0100_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marago CENOP warehouses USD 0.659m. Supports marago_cenop_warehouses_659k_2019.'
+  supports:
+  - marago_cenop_warehouses_659k_2019
+  - hunt_cycle976
+- id: usaspending_kunkel_panama_egress_653k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330219CF0010397_3300_-NONE-_-NONE-
+    (Kunkel Panama egress). Signed 2019-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330219CF0010397_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330219CF0010397_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Kunkel Panama egress USD 0.653m. Supports kunkel_panama_egress_653k_2019.'
+  supports:
+  - kunkel_panama_egress_653k_2019
+  - hunt_cycle976
+- id: usaspending_martinez_mexico_accessibility_630k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F4166_1900_SAQMMA08D0002_1900
+    (Martinez Mexico accessibility). Signed 2011-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F4166_1900_SAQMMA08D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F4166_1900_SAQMMA08D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Martinez Mexico accessibility USD 0.630m. Supports martinez_mexico_accessibility_630k_2011.'
+  supports:
+  - martinez_mexico_accessibility_630k_2011
+  - hunt_cycle976
+- id: usaspending_john_d_darien_lumber_607k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0048_9700_-NONE-_-NONE-
+    (John D Darién lumber). Signed 2011-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0048_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0048_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: John D Darién lumber yard USD 0.607m. Supports john_d_darien_lumber_607k_2011.'
+  supports:
+  - john_d_darien_lumber_607k_2011
+  - hunt_cycle976
+- id: usaspending_power_engineers_lima_electrical_590k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA10F1225_1900_SALMEC05D0010_1900
+    (POWER Engineers Lima electrical). Signed 2010-04-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10F1225_1900_SALMEC05D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10F1225_1900_SALMEC05D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: POWER Engineers Lima electrical USD 0.590m. Supports power_engineers_lima_electrical_590k_2010.'
+  supports:
+  - power_engineers_lima_electrical_590k_2010
+  - hunt_cycle976
+- id: usaspending_misc_ecuador_patios_595k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC75013C0001_1900_-NONE-_-NONE-
+    (Ecuador patios/soil). Signed 2013-04-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75013C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75013C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador patios/soil stabilization USD 0.595m. Supports misc_ecuador_patios_595k_2013.'
+  supports:
+  - misc_ecuador_patios_595k_2013
+  - hunt_cycle977
+- id: usaspending_hulke_exuma_opbat_583k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0035_9700_-NONE-_-NONE-
+    (Hulke Exuma OPBAT). Signed 2010-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0035_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0035_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Hulke Exuma OPBAT USD 0.583m. Supports hulke_exuma_opbat_583k_2010.'
+  supports:
+  - hulke_exuma_opbat_583k_2010
+  - hunt_cycle977
+- id: usaspending_partenon_hap28294_drw_572k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0169_9700_W9127813D0012_9700
+    (Partenon HAP 28294 DRW). Signed 2018-01-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0169_9700_W9127813D0012_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0169_9700_W9127813D0012_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Partenon HAP 28294 DRW USD 0.572m. Supports partenon_hap28294_drw_572k_2018.'
+  supports:
+  - partenon_hap28294_drw_572k_2018
+  - hunt_cycle977
+- id: usaspending_seobra_chiman_clinic_488k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0023_9700_-NONE-_-NONE-
+    (Seobra Chimán clinic). Signed 2011-06-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0023_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0023_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Seobra Chimán clinic USD 0.488m. Supports seobra_chiman_clinic_488k_2011.'
+  supports:
+  - seobra_chiman_clinic_488k_2011
+  - hunt_cycle977
+- id: usaspending_almeida_brasilia_embassy_480k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5025C0136_1900_-NONE-_-NONE-
+    (Almeida Brasília embassy). Signed 2025-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025C0136_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025C0136_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Almeida Brasília embassy USD 0.480m. Supports almeida_brasilia_embassy_480k_2025.'
+  supports:
+  - almeida_brasilia_embassy_480k_2025
+  - hunt_cycle977
