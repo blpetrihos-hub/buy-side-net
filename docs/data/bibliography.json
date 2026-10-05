@@ -2590,24 +2590,6 @@
     ]
   },
   {
-    "id": "compras_dominicana_la_gina_20260519",
-    "type": "official",
-    "chicago": "República Dominicana. Dirección General de Contrataciones Públicas / EGEHID. “EGEHID-CCC-LPN-2025-0032 — Presa La Gina” (Award DO1.AWD.1951818). Compras Dominicana, 19 May 2026.",
-    "url": "https://comunidad.comprasdominicana.gob.do/Public/Tendering/OpportunityDetail/Index?asPopupView=true&isModal=true&noticeUID=DO1.NTC.1617547",
-    "annotation": "Official procurement award for La Gina multipurpose dam/hydro. Supports acciona_la_gina_dr_2026.",
-    "supports": [
-      "acciona_la_gina_dr_2026",
-      "hunt_energy_other_renewables"
-    ],
-    "map_supports": [
-      "acciona_la_gina_dr_2026",
-      "hunt_energy_other_renewables"
-    ],
-    "layers": [
-      "energy"
-    ]
-  },
-  {
     "id": "ormat_dominica_ppa_20231206",
     "type": "official",
     "chicago": "Ormat Technologies, Inc. “Ormat Signed Historic 25-Year Power Purchase Agreement With Dominica Electricity Services Ltd.” 6 December 2023.",
@@ -21716,6 +21698,74 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "aes_andes_solar_oriente_sea_20240908",
+    "type": "company",
+    "chicago": "AES Andes. “AES Andes submits a new renewable project to SEA and reaches US$3 billion in photovoltaic parks with battery storage.” September 8, 2024. https://www.aesandes.com/en/press-release/aes-andes-submits-new-renewable-project-sea-and-reaches-us3-billion-photovoltaic.",
+    "url": "https://www.aesandes.com/en/press-release/aes-andes-submits-new-renewable-project-sea-and-reaches-us3-billion-photovoltaic",
+    "annotation": "AES Solar Oriente NEW USD 990m. Supports aes_andes_solar_oriente_990m_2024.",
+    "supports": [
+      "aes_andes_solar_oriente_990m_2024",
+      "hunt_cycle241"
+    ],
+    "map_supports": [
+      "aes_andes_solar_oriente_990m_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "antigua_news_seven_seas_waas_20240312",
+    "type": "press",
+    "chicago": "Antigua News. “Multi-million dollar water agreement signed between APUA and Seven Seas.” March 12, 2024. https://antigua.news/2024/03/12/multi-million-dollar-water-agreement-signed-between-apua-and-seven-seas/.",
+    "url": "https://antigua.news/2024/03/12/multi-million-dollar-water-agreement-signed-between-apua-and-seven-seas/",
+    "annotation": "Seven Seas Antigua WaaS NEW USD 23m SSWG investment (press). Supports seven_seas_antigua_waas_23m_2024.",
+    "supports": [
+      "seven_seas_antigua_waas_23m_2024",
+      "hunt_cycle241"
+    ],
+    "map_supports": [
+      "seven_seas_antigua_waas_23m_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "ilha_news_ctg_ilha_solteira_1p5bn_20260703",
+    "type": "press",
+    "chicago": "Mariano, Rodrigo. “CTG Brasil celebra 10 anos de concessão da UHE Ilha Solteira.” Ilha News, July 3, 2026. https://ilha.news/ctg-brasil-celebra-10-anos-de-concessao-da-uhe-ilha-solteira/.",
+    "url": "https://ilha.news/ctg-brasil-celebra-10-anos-de-concessao-da-uhe-ilha-solteira/",
+    "annotation": "CTG Ilha+Jupiá mod NEW R$1.5bn spent ~USD 288.90m via Fed H.10 (proxy). Supports ctg_ilha_jupia_mod_1p5bn_spent_2026.",
+    "supports": [
+      "ctg_ilha_jupia_mod_1p5bn_spent_2026",
+      "hunt_cycle241"
+    ],
+    "map_supports": [
+      "ctg_ilha_jupia_mod_1p5bn_spent_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "bnamericas_acciona_la_gina_108m_20260529",
+    "type": "press",
+    "chicago": "BNamericas. “Acciona lands Dominican hydro project with US$108mn bid.” May 29, 2026. https://www.bnamericas.com/en/news/acciona-lands-dominican-hydro-project-with-us108mn-bid.",
+    "url": "https://www.bnamericas.com/en/news/acciona-lands-dominican-hydro-project-with-us108mn-bid",
+    "annotation": "Acciona La Gina CapEx-fill USD 108m dual (proxy). Supports acciona_la_gina_dr_2026.",
+    "supports": [
+      "acciona_la_gina_dr_2026",
+      "hunt_cycle241"
+    ],
+    "map_supports": [
+      "acciona_la_gina_dr_2026"
+    ],
+    "layers": [
+      "energy"
     ]
   }
 ]

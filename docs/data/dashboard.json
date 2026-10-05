@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1456,
+    "n_rows": 1459,
     "counts": {
-      "total": 1456,
-      "active": 1257,
+      "total": 1459,
+      "active": 1260,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 174,
+      "proxy": 176,
       "exclude": 18,
       "documented": 1205,
-      "on_map": 1129
+      "on_map": 1132
     }
   },
   "layer_readouts": [
@@ -128,10 +128,10 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 87,
+        "us": 88,
         "prc": 70,
         "allied": 155,
-        "n": 312
+        "n": 313
       },
       "usd": {
         "us": 35648237410.93,
@@ -153,14 +153,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 149,
-        "prc": 173,
+        "us": 150,
+        "prc": 174,
         "allied": 161,
-        "n": 483
+        "n": 485
       },
       "usd": {
-        "us": 20283858581.43,
-        "us_n": 47,
+        "us": 21273858581.43,
+        "us_n": 48,
         "prc": 24077822293.819996,
         "prc_n": 45,
         "allied": 49950166865.99999,
@@ -178,10 +178,10 @@
     {
       "country": "Antigua and Barbuda",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 1,
         "allied": 1,
-        "n": 4
+        "n": 5
       },
       "usd": {
         "us": 0.0,
@@ -198,7 +198,7 @@
           "allied": 1
         },
         "resources": {
-          "us": 2,
+          "us": 3,
           "prc": 1,
           "allied": 0
         }
@@ -363,9 +363,9 @@
       "country": "Brazil",
       "counts": {
         "us": 98,
-        "prc": 88,
+        "prc": 89,
         "allied": 170,
-        "n": 356
+        "n": 357
       },
       "usd": {
         "us": 14579556029.099998,
@@ -378,7 +378,7 @@
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 54,
+          "prc": 55,
           "allied": 62
         },
         "infrastructure": {
@@ -396,14 +396,14 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 55,
+        "us": 56,
         "prc": 43,
         "allied": 93,
-        "n": 191
+        "n": 192
       },
       "usd": {
-        "us": 40522000000.0,
-        "us_n": 24,
+        "us": 41512000000.0,
+        "us_n": 25,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 49559762361.0,
@@ -411,7 +411,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 34,
+          "us": 35,
           "prc": 34,
           "allied": 30
         },
@@ -2445,7 +2445,10 @@
       "vicuna_stage1_capex_7p1bn_2026",
       "arcelormittal_babilonia_centro_wind_4p2bn_2025",
       "arcelormittal_babilonia_centro_solar_700m_2025",
-      "portonave_electric_equip_500m_brl_2026"
+      "portonave_electric_equip_500m_brl_2026",
+      "aes_andes_solar_oriente_990m_2024",
+      "seven_seas_antigua_waas_23m_2024",
+      "ctg_ilha_jupia_mod_1p5bn_spent_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
