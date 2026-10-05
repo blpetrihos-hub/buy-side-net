@@ -1,0 +1,10 @@
+{
+  "id": "misc_colombia_facmilgp_new_ac_unit_install_14k_2023",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_colombia_facmilgp_new_ac_unit_install_14k_2023",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02023P1630_1900_-NONE-_-NONE-/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "PR11937430 PROP ID X3010 INSTALL NEW AC UNIT FOR FACMILGP BLDG",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 14192.7; date_signed 2023-08-23."
+}
