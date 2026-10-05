@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6174,
+    "n_rows": 6183,
     "counts": {
-      "total": 6174,
-      "active": 5975,
+      "total": 6183,
+      "active": 5984,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5901,
-      "on_map": 5807
+      "documented": 5910,
+      "on_map": 5816
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1912,
-        "n": 2313
+        "allied": 1921,
+        "n": 2322
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 236695339960.88013,
-        "allied_n": 1841
+        "allied": 236865983823.6801,
+        "allied_n": 1850
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4742,
-        "n": 4997
+        "allied": 4751,
+        "n": 5006
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 365395078895.5992,
-        "allied_n": 4661
+        "allied": 365565722758.3991,
+        "allied_n": 4670
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1778
+          "allied": 1787
         },
         "infrastructure": {
           "us": 68,
@@ -7163,7 +7163,16 @@
       "taesa_projetos_fy2017_capex_109m_brl",
       "taesa_mariana_fy2015_2016_25m_brl",
       "taesa_miracema_fy2015_2016_1m_brl",
-      "taesa_projetos_fy2015_2016_capex_27m_brl"
+      "taesa_projetos_fy2015_2016_capex_27m_brl",
+      "taesa_ananai_6m26_224m_brl",
+      "taesa_tangara_6m26_92m_brl",
+      "taesa_saira_6m26_5m_brl",
+      "taesa_jurua_6m26_12m_brl",
+      "taesa_novatrans_6m26_1m_brl",
+      "taesa_sao_pedro_6m26_24m_brl",
+      "taesa_ate_6m26_72m_brl",
+      "taesa_ate_iii_6m26_11m_brl",
+      "taesa_projetos_6m26_capex_445m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
