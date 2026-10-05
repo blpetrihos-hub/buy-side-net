@@ -1,0 +1,10 @@
+{
+  "id": "misc_mexico_storm_drain_66k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_mexico_storm_drain_66k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX50013M0077_1900_-NONE-_-NONE-/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "OBO/MV RELOCATION OF STORM DRAIN NCC",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 65956.41; date_signed 2013-07-17."
+}
