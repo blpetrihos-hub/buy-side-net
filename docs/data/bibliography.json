@@ -33326,5 +33326,40 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "taesa_auxiliar_release_2t26_xlsx",
+    "type": "company",
+    "chicago": "TAESA — Transmissora Aliança de Energia Elétrica S.A. “Auxiliar Release Site 2T26 — Capex Projetos.” Retrieved October 5, 2026. https://ri.taesa.com.br/wp-content/uploads/2018/11/Auxiliar-Release_TAESA_Site_2T26.xlsx.",
+    "url": "https://ri.taesa.com.br/wp-content/uploads/2018/11/Auxiliar-Release_TAESA_Site_2T26.xlsx",
+    "annotation": "TAESA Total FY2025 CapEx via Fed H.10. Supports taesa_projetos_fy2025_capex_1782m_brl.",
+    "supports": [
+      "taesa_ananai_fy2025_651m_brl",
+      "hunt_cycle562",
+      "taesa_pitiguari_fy2025_55m_brl",
+      "taesa_tangara_fy2025_626m_brl",
+      "taesa_saira_fy2025_251m_brl",
+      "taesa_novatrans_fy2025_18m_brl",
+      "taesa_tsn_fy2025_22m_brl",
+      "taesa_sao_pedro_fy2025_62m_brl",
+      "taesa_ate_fy2025_57m_brl",
+      "taesa_ate_iii_fy2025_37m_brl",
+      "taesa_projetos_fy2025_capex_1782m_brl"
+    ],
+    "map_supports": [
+      "taesa_ananai_fy2025_651m_brl",
+      "taesa_ate_fy2025_57m_brl",
+      "taesa_ate_iii_fy2025_37m_brl",
+      "taesa_novatrans_fy2025_18m_brl",
+      "taesa_pitiguari_fy2025_55m_brl",
+      "taesa_projetos_fy2025_capex_1782m_brl",
+      "taesa_saira_fy2025_251m_brl",
+      "taesa_sao_pedro_fy2025_62m_brl",
+      "taesa_tangara_fy2025_626m_brl",
+      "taesa_tsn_fy2025_22m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
