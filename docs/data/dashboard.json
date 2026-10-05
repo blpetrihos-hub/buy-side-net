@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6748,
+    "n_rows": 6755,
     "counts": {
-      "total": 6748,
-      "active": 6549,
+      "total": 6755,
+      "active": 6556,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6475,
-      "on_map": 6381
+      "documented": 6482,
+      "on_map": 6388
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2433,
-        "n": 2834
+        "allied": 2440,
+        "n": 2841
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 283657268200.84,
-        "allied_n": 2362
+        "allied": 284373519649.9801,
+        "allied_n": 2369
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5316,
-        "n": 5571
+        "allied": 5323,
+        "n": 5578
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 427525974176.63965,
-        "allied_n": 5235
+        "allied": 428242225625.7797,
+        "allied_n": 5242
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2299
+          "allied": 2306
         },
         "infrastructure": {
           "us": 68,
@@ -7737,7 +7737,14 @@
       "axia_consol_ambiental_infra_2t24_114m_brl",
       "axia_consol_empresas_investidas_2t24_481m_brl",
       "axia_consol_hvdc_itaipu_2t24_161m_brl",
-      "axia_consol_total_2t24_2161m_brl"
+      "axia_consol_total_2t24_2161m_brl",
+      "axia_consol_imob_intang_1t24_1216m_brl",
+      "axia_consol_geracao_1t24_502m_brl",
+      "axia_consol_transmissao_1t24_627m_brl",
+      "axia_consol_ambiental_infra_1t24_88m_brl",
+      "axia_consol_empresas_investidas_1t24_5m_brl",
+      "axia_consol_hvdc_itaipu_1t24_31m_brl",
+      "axia_consol_total_1t24_1252m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
