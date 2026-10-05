@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8047,
+    "n_rows": 8051,
     "counts": {
-      "total": 8047,
-      "active": 7848,
+      "total": 8051,
+      "active": 7852,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7774,
-      "on_map": 7680
+      "documented": 7778,
+      "on_map": 7684
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3732,
-        "n": 4133
+        "allied": 3736,
+        "n": 4137
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 376862243021.4906,
-        "allied_n": 3661
+        "allied": 377192359929.8806,
+        "allied_n": 3665
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6615,
-        "n": 6870
+        "allied": 6619,
+        "n": 6874
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 520730948997.2902,
-        "allied_n": 6534
+        "allied": 521061065905.68024,
+        "allied_n": 6538
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3598
+          "allied": 3602
         },
         "infrastructure": {
           "us": 68,
@@ -9036,7 +9036,11 @@
       "energisa_ae_dist_total_4t19_608m_brl",
       "energisa_ae_tx_total_4t19_123m_brl",
       "energisa_ae_reenergisa_4t19_2m_brl",
-      "energisa_ae_total_4t19_752m_brl"
+      "energisa_ae_total_4t19_752m_brl",
+      "energisa_ae_dist_total_3t19_728m_brl",
+      "energisa_ae_tx_total_3t19_121m_brl",
+      "energisa_ae_reenergisa_3t19_4m_brl",
+      "energisa_ae_total_3t19_861m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
