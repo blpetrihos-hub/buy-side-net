@@ -1,0 +1,10 @@
+{
+  "id": "misc_costa_rica_inl_electrical_generator_k35_37k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_costa_rica_inl_electrical_generator_k35_37k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80016M0195_1900_-NONE-_-NONE-/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "INL/1930.0  ELECTRICAL GENERATOR K-35 IN13CRNB 14",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 37291.08; date_signed 2016-02-26."
+}

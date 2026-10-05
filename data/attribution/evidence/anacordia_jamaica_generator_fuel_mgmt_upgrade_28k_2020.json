@@ -1,0 +1,10 @@
+{
+  "id": "anacordia_jamaica_generator_fuel_mgmt_upgrade_28k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_anacordia_jamaica_generator_fuel_mgmt_upgrade_28k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3720P1012_1900_-NONE-_-NONE-/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "FAC - GENERATOR FUEL MGMT SYSTEM UPGRADE - (7901/REST/8000)",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 27927.5; date_signed 2020-09-29."
+}
