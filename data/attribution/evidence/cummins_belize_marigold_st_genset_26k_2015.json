@@ -1,0 +1,10 @@
+{
+  "id": "cummins_belize_marigold_st_genset_26k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_cummins_belize_marigold_st_genset_26k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20015M0369_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "FM - MECHANICAL - MARIGOLD ST GENSET",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 25999.99; date_signed 2015-09-28."
+}
