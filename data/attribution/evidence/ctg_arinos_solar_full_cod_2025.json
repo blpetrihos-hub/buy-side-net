@@ -1,10 +1,10 @@
 {
   "id": "ctg_arinos_solar_full_cod_2025",
-  "retrieved": "2026-10-02",
-  "source_id": "ctg_brasil_sustentabilidade_2025_20260617",
-  "url": "https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/",
+  "retrieved": "2026-10-05",
+  "source_id": "ctg_brasil_balanco_2024_arinos_21bn",
+  "url": "https://estadaori.estadao.com.br/wp-content/uploads/2025/03/china-three-gorges-brasil-energia-sa-balanco-2025-03-14_01-46-59.pdf",
   "price_year": "2025",
   "evidence": "documented",
-  "quote": "Com a entrada em operação comercial plena do Complexo Solar Arinos (MG) e a finalização da construção do Complexo Eólico Serra da Palmeira (PB), a companhia adicionou 1 GW de capacidade instalada.",
-  "note": "Opened CTG Brasil 17 Jun 2026 sustainability release (Arinos full COD)."
+  "quote": "Com investimento total estimado de R$ 2,1 bilhões e capacidade instalada de 412 MWp (340 MWac), representa o primeiro projeto greenfield construído pela CTG Brasil.",
+  "note": "Opened CTG Brasil company balanço PDF (Estadão RI republication); Arinos investimento total estimado R$2.1bn confirmed. CapEx USD via Fed H.10 Sep 25 2026 5.1921."
 }
