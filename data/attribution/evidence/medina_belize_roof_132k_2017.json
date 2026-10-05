@@ -1,0 +1,10 @@
+{
+  "id": "medina_belize_roof_132k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_medina_belize_roof_132k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17P0730_9700_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF /G3/BTH BLZ 2017 ROOF AND TRUSS SYSTEM",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 132361.54; date_signed 2017-04-13."
+}

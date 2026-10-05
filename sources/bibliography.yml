@@ -27640,3 +27640,153 @@
   supports:
   - carolina_water_paraguay_111k_2023
   - hunt_cycle1010
+- id: usaspending_york_panama_chiller_143k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07014M0677_1900_-NONE-_-NONE-
+    (York Panama chiller). Signed 2014-08-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0677_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0677_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: York Panama chiller USD 0.143m. Supports york_panama_chiller_143k_2014.'
+  supports:
+  - york_panama_chiller_143k_2014
+  - hunt_cycle1011
+- id: usaspending_egarco_ecuador_asphalt_142k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7520P1039_1900_-NONE-_-NONE-
+    (Egarco Ecuador asphalt). Signed 2020-09-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7520P1039_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7520P1039_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Egarco Ecuador asphalt USD 0.142m. Supports egarco_ecuador_asphalt_142k_2020.'
+  supports:
+  - egarco_ecuador_asphalt_142k_2020
+  - hunt_cycle1011
+- id: usaspending_misc_argentina_ada_entrance_141k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAR20016M0864_1900_-NONE-_-NONE-
+    (Argentina ADA entrance). Signed 2016-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20016M0864_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20016M0864_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Argentina ADA entrance USD 0.141m. Supports misc_argentina_ada_entrance_141k_2016.'
+  supports:
+  - misc_argentina_ada_entrance_141k_2016
+  - hunt_cycle1011
+- id: usaspending_misc_ecuador_asphalt_139k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7519P0540_1900_-NONE-_-NONE-
+    (Ecuador asphalt resurfacing). Signed 2019-07-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7519P0540_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7519P0540_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador asphalt resurfacing USD 0.139m. Supports misc_ecuador_asphalt_139k_2019.'
+  supports:
+  - misc_ecuador_asphalt_139k_2019
+  - hunt_cycle1011
+- id: usaspending_misc_guyana_cmr_roof_139k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGY20015M0048_1900_-NONE-_-NONE-
+    (Guyana CMR roof). Signed 2014-11-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGY20015M0048_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGY20015M0048_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Guyana CMR roof USD 0.139m. Supports misc_guyana_cmr_roof_139k_2014.'
+  supports:
+  - misc_guyana_cmr_roof_139k_2014
+  - hunt_cycle1011
+- id: usaspending_contemporary_guyana_fence_136k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2026C0001_1900_-NONE-_-NONE-
+    (Contemporary Guyana fence). Signed 2025-12-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2026C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2026C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Contemporary Guyana fence USD 0.136m. Supports contemporary_guyana_fence_136k_2025.'
+  supports:
+  - contemporary_guyana_fence_136k_2025
+  - hunt_cycle1012
+- id: usaspending_misc_cr_vet_clinic_mv_133k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8023P0376_1900_-NONE-_-NONE-
+    (CR vet clinic MV). Signed 2023-02-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8023P0376_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8023P0376_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CR vet clinic MV USD 0.133m. Supports misc_cr_vet_clinic_mv_133k_2023.'
+  supports:
+  - misc_cr_vet_clinic_mv_133k_2023
+  - hunt_cycle1012
+- id: usaspending_medina_belize_roof_132k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17P0730_9700_-NONE-_-NONE-
+    (Medina Belize roof). Signed 2017-04-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17P0730_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17P0730_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Medina Belize roof USD 0.132m. Supports medina_belize_roof_132k_2017.'
+  supports:
+  - medina_belize_roof_132k_2017
+  - hunt_cycle1012
+- id: usaspending_misc_murcielago_transformer_130k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8019P0171_1900_-NONE-_-NONE-
+    (Murciélago transformer). Signed 2018-12-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8019P0171_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8019P0171_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Murciélago transformer USD 0.130m. Supports misc_murcielago_transformer_130k_2018.'
+  supports:
+  - misc_murcielago_transformer_130k_2018
+  - hunt_cycle1012
+- id: usaspending_davalos_vista_alegre_sniper_124k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_H9228126CE004_9700_-NONE-_-NONE-
+    (Dávalos Vista Alegre sniper). Signed 2026-05-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228126CE004_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228126CE004_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Dávalos Vista Alegre sniper USD 0.124m. Supports davalos_vista_alegre_sniper_124k_2026.'
+  supports:
+  - davalos_vista_alegre_sniper_124k_2026
+  - hunt_cycle1012
+- id: usaspending_ricketts_jcf_shed_124k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37016C0001_1900_-NONE-_-NONE-
+    (Ricketts JCF shed). Signed 2016-04-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37016C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37016C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ricketts JCF shed USD 0.124m. Supports ricketts_jcf_shed_124k_2016.'
+  supports:
+  - ricketts_jcf_shed_124k_2016
+  - hunt_cycle1013
+- id: usaspending_misc_nicaragua_casa_grande_road_124k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SNU70013M0350_1900_-NONE-_-NONE-
+    (Nicaragua Casa Grande road). Signed 2013-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70013M0350_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70013M0350_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Nicaragua Casa Grande road USD 0.124m. Supports misc_nicaragua_casa_grande_road_124k_2013.'
+  supports:
+  - misc_nicaragua_casa_grande_road_124k_2013
+  - hunt_cycle1013
+- id: usaspending_nobelcons_helipad_121k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0329_9700_-NONE-_-NONE-
+    (Nobelcons helipad). Signed 2011-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0329_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0329_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Nobelcons helipad USD 0.121m. Supports nobelcons_helipad_121k_2011.'
+  supports:
+  - nobelcons_helipad_121k_2011
+  - hunt_cycle1013
+- id: usaspending_goberdan_dalli_boat_ramp_117k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0343_9700_-NONE-_-NONE-
+    (Goberdan Dalli boat ramp). Signed 2011-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0343_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0343_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Goberdan Dalli boat ramp USD 0.117m. Supports goberdan_dalli_boat_ramp_117k_2011.'
+  supports:
+  - goberdan_dalli_boat_ramp_117k_2011
+  - hunt_cycle1013
+- id: usaspending_hcs_salvador_ground_support_115k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0011_9700_W9127814D0057_9700
+    (HCS El Salvador ground support). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127814D0057_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127814D0057_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HCS El Salvador ground support USD 0.115m. Supports hcs_salvador_ground_support_115k_2016.'
+  supports:
+  - hcs_salvador_ground_support_115k_2016
+  - hunt_cycle1013
