@@ -1,0 +1,10 @@
+{
+  "id": "mesan_martinez_panama_balboa_building_reno_567k_2010",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_mesan_martinez_panama_balboa_building_reno_567k_2010",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC10F0094_1900_SAQMMA08D0015_1900/",
+  "price_year": "2010",
+  "evidence": "documented",
+  "quote": "THE CONTRACTOR WILL PROVIDE ALL PLANT, LABOR, MATERIALS, ETC. REQUIRED TO PROVIDE CONSTRUCTION/RENOVATION SERVICES ON BUILDING #745-BALBOA, FOR THE PANAMA MATADOR BUILDING, RENOVATION PROJECT.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 567420.0; date_signed 2010-09-03."
+}
