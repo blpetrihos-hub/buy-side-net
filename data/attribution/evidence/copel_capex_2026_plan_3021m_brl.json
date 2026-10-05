@@ -1,10 +1,10 @@
 {
   "id": "copel_capex_2026_plan_3021m_brl",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "copel_fr_15_25_capex_20251119",
-  "url": "https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd35ad?origin=1",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd3b3d",
   "price_year": "2026",
   "evidence": "documented",
   "quote": "Para 2026, o plano de investimento prevê um Capex de, aproximadamente, R$ 3,0 bilhões … Total Geral 3.021,3",
-  "note": "Opened Copel Fato Relevante 15/25 PDF 2026-10-04."
+  "note": "Opened Copel CapEx plan PDF excerpt; R$3,021.3m 2026 Total Geral confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
