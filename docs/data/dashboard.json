@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1800,
+    "n_rows": 1808,
     "counts": {
-      "total": 1800,
-      "active": 1601,
+      "total": 1808,
+      "active": 1609,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1527,
-      "on_map": 1463
+      "documented": 1535,
+      "on_map": 1471
     }
   },
   "layer_readouts": [
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 194,
-        "n": 356
+        "allied": 196,
+        "n": 358
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 115309900807.38,
-        "allied_n": 125
+        "allied": 116409648501.00002,
+        "allied_n": 127
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 294,
-        "n": 695
+        "allied": 300,
+        "n": 701
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 114795251282.66005,
-        "allied_n": 223
+        "allied": 116605308870.14005,
+        "allied_n": 229
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 129,
         "prc": 125,
-        "allied": 397,
-        "n": 651
+        "allied": 405,
+        "n": 659
       },
       "usd": {
         "us": 21129430723.329994,
         "us_n": 67,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 167398342456.17004,
-        "allied_n": 316
+        "allied": 170308147737.27005,
+        "allied_n": 324
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 188
+          "allied": 194
         },
         "infrastructure": {
           "us": 67,
@@ -389,7 +389,7 @@
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 92
+          "allied": 94
         }
       }
     },
@@ -2789,7 +2789,15 @@
       "cemig_2026_dist_plan_5269m_brl",
       "cemig_2026_tx_plan_632m_brl",
       "cemig_2026_gen_plan_197m_brl",
-      "cemig_2026_gd_plan_375m_brl"
+      "cemig_2026_gd_plan_375m_brl",
+      "aegea_2t26_investimentos_1901m_brl",
+      "aegea_6m26_investimentos_3809m_brl",
+      "neoenergia_investimento_bruto_6m26_4066m_brl",
+      "neoenergia_investimento_liquido_6m26_4005m_brl",
+      "neoenergia_perdas_6m26_137m_brl",
+      "neoenergia_outros_dist_6m26_405m_brl",
+      "neoenergia_material_6m26_310m_brl",
+      "isa_energia_1s26_rm_energized_475m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

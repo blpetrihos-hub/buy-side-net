@@ -22971,7 +22971,7 @@
     "type": "company",
     "chicago": "Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
-    "annotation": "Neoenergia Brasília 6M26 CapEx via Fed H.10. Supports neoenergia_brasilia_capex_6m26_228m_brl.",
+    "annotation": "Neoenergia 6M26 Movimentação Material (Estoque x Obra) via Fed H.10. Supports neoenergia_material_6m26_310m_brl.",
     "supports": [
       "neoenergia_6m26_capex_4bn_brl",
       "hunt_cycle257",
@@ -23009,7 +23009,13 @@
       "neoenergia_pe_capex_6m26_746m_brl",
       "neoenergia_cosern_capex_6m26_240m_brl",
       "neoenergia_elektro_capex_6m26_564m_brl",
-      "neoenergia_brasilia_capex_6m26_228m_brl"
+      "neoenergia_brasilia_capex_6m26_228m_brl",
+      "neoenergia_investimento_bruto_6m26_4066m_brl",
+      "hunt_cycle291",
+      "neoenergia_investimento_liquido_6m26_4005m_brl",
+      "neoenergia_perdas_6m26_137m_brl",
+      "neoenergia_outros_dist_6m26_405m_brl",
+      "neoenergia_material_6m26_310m_brl"
     ],
     "map_supports": [
       "neoenergia_6m26_capex_4bn_brl",
@@ -23025,13 +23031,18 @@
       "neoenergia_gen_customers_6m26_57m_brl",
       "neoenergia_hydro_2q26_5m_brl",
       "neoenergia_hydro_6m26_6m_brl",
+      "neoenergia_investimento_bruto_6m26_4066m_brl",
+      "neoenergia_investimento_liquido_6m26_4005m_brl",
+      "neoenergia_material_6m26_310m_brl",
       "neoenergia_melhoria_rede_6m26_276m_brl",
       "neoenergia_network_expansion_6m26_2265m_brl",
       "neoenergia_networks_2q26_2063m_brl",
       "neoenergia_networks_6m26_3913m_brl",
       "neoenergia_novas_ligacoes_6m26_1278m_brl",
       "neoenergia_novas_ses_rds_6m26_831m_brl",
+      "neoenergia_outros_dist_6m26_405m_brl",
       "neoenergia_pe_capex_6m26_746m_brl",
+      "neoenergia_perdas_6m26_137m_brl",
       "neoenergia_renovacao_ativos_6m26_674m_brl",
       "neoenergia_tx_2q26_80m_brl",
       "neoenergia_tx_6m26_218m_brl",
@@ -23374,9 +23385,9 @@
   {
     "id": "aegea_2t26_6m26_release_mziq",
     "type": "company",
-    "chicago": "Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
+    "chicago": "Aegea Saneamento e Participações S.A. “Release de Resultados 2T26 / 6M26.” https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2",
-    "annotation": "Aegea Demais outorga 6M26 R$3m via Fed H.10. Supports aegea_demais_outorga_6m26_3m_brl.",
+    "annotation": "Aegea 6M26 Investimentos Proforma R$3.809bn via Fed H.10. Supports aegea_6m26_investimentos_3809m_brl.",
     "supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
       "hunt_cycle262",
@@ -23419,11 +23430,16 @@
       "aegea_corsan_outorga_6m26_41m_brl",
       "hunt_cycle283",
       "aegea_demais_outorga_6m26_3m_brl",
-      "hunt_cycle285"
+      "hunt_cycle285",
+      "aegea_2t26_investimentos_1901m_brl",
+      "hunt_cycle291",
+      "aegea_6m26_investimentos_3809m_brl"
     ],
     "map_supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
+      "aegea_2t26_investimentos_1901m_brl",
       "aegea_6m26_ecosystem_capex_3407m_brl",
+      "aegea_6m26_investimentos_3809m_brl",
       "aegea_aguas_do_rio_2t26_347m_brl",
       "aegea_aguas_do_rio_6m26_663m_brl",
       "aegea_brusque_outorga_2t26_50m_brl",
@@ -24355,7 +24371,7 @@
     "type": "company",
     "chicago": "ISA Energia Brasil. “Earnings Release 2T26.” 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.",
     "url": "https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf",
-    "annotation": "ISA 2T26 R&M energized R$290.8m via Fed H.10. Supports isa_energia_2t26_rm_energized_290p8m_brl.",
+    "annotation": "ISA 1S26 R&M energized ~R$475m via Fed H.10. Supports isa_energia_1s26_rm_energized_475m_brl.",
     "supports": [
       "isa_energia_1s26_capex_2275p9m_brl",
       "hunt_cycle289",
@@ -24364,11 +24380,14 @@
       "isa_energia_piraque_2t26_84p4m_brl",
       "isa_energia_itatiaia_2t26_52p2m_brl",
       "isa_energia_2t26_rm_energized_290p8m_brl",
-      "hunt_cycle290"
+      "hunt_cycle290",
+      "isa_energia_1s26_rm_energized_475m_brl",
+      "hunt_cycle291"
     ],
     "map_supports": [
       "isa_energia_1s26_capex_2275p9m_brl",
       "isa_energia_1s26_licitados_1460p4m_brl",
+      "isa_energia_1s26_rm_energized_475m_brl",
       "isa_energia_2t26_rm_energized_290p8m_brl",
       "isa_energia_itatiaia_2t26_52p2m_brl",
       "isa_energia_piraque_2t26_84p4m_brl",
