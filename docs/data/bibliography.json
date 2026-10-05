@@ -19410,13 +19410,16 @@
     "type": "company",
     "chicago": "Equinix. “Equinix México invierte US$ 81 millones en nuevo centro de datos en Monterrey.” October 30, 2025. https://newsroom.equinix.com/2025-10-30-Equinix-Mexico-invierte-US-81-millones-en-nuevo-centro-de-datos-en-Monterrey.",
     "url": "https://newsroom.equinix.com/2025-10-30-Equinix-Mexico-invierte-US-81-millones-en-nuevo-centro-de-datos-en-Monterrey",
-    "annotation": "Equinix: MO2 Monterrey USD 81m. Supports equinix_mo2_monterrey_81m_2025.",
+    "annotation": "Equinix MO2 total build-out ~USD189m. Supports equinix_mo2_total_189m_buildout; equinix_mo2_monterrey_81m_2025.",
     "supports": [
       "equinix_mo2_monterrey_81m_2025",
-      "hunt_cycle193"
+      "hunt_cycle193",
+      "equinix_mo2_total_189m_buildout",
+      "hunt_cycle270"
     ],
     "map_supports": [
-      "equinix_mo2_monterrey_81m_2025"
+      "equinix_mo2_monterrey_81m_2025",
+      "equinix_mo2_total_189m_buildout"
     ],
     "layers": [
       "infrastructure"
@@ -19451,12 +19454,15 @@
     "type": "company",
     "chicago": "Equinix. “Equinix fortalece liderança na América Latina com inauguração de novo data center SP6 em São Paulo.” April 16, 2026. https://newsroom.equinix.com/2026-04-16-Equinix-fortalece-lideranca-na-America-Latina-com-inauguracao-de-novo-data-center-SP6-em-Sao-Paulo.",
     "url": "https://newsroom.equinix.com/2026-04-16-Equinix-fortalece-lideranca-na-America-Latina-com-inauguracao-de-novo-data-center-SP6-em-Sao-Paulo",
-    "annotation": "Equinix: SP6 Santana de Parnaíba USD 114m. Supports equinix_sp6_114m_2026.",
+    "annotation": "Equinix Brazil avg ~R$1bn/yr via Fed H.10. Supports equinix_brazil_avg_1bn_brl_yr; equinix_sp6_114m_2026.",
     "supports": [
       "equinix_sp6_114m_2026",
-      "hunt_cycle194"
+      "hunt_cycle194",
+      "equinix_brazil_avg_1bn_brl_yr",
+      "hunt_cycle270"
     ],
     "map_supports": [
+      "equinix_brazil_avg_1bn_brl_yr",
       "equinix_sp6_114m_2026"
     ],
     "layers": [
@@ -22751,18 +22757,23 @@
   {
     "id": "cemig_1s26_results_presentation_20260630",
     "type": "company",
-    "chicago": "Companhia Energética de Minas Gerais — Cemig. “Resultados 1S26 / 2T26” presentation. 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.",
+    "chicago": "Cemig. “Resultados 1S26 / 2T26” (company RI presentation PDF). June 30, 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.",
     "url": "https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf",
-    "annotation": "Cemig 1S26/2T26 CapEx via Fed H.10. Supports cemig_1s26_capex_3p28bn_brl; cemig_2t26_capex_1805p3m_brl.",
+    "annotation": "Cemig TX 1S26 CapEx R$275.2m via Fed H.10. Supports cemig_tx_1s26_275p2m_brl; cemig_1s26_capex_3p28bn_brl.",
     "supports": [
       "cemig_1s26_capex_3p28bn_brl",
       "hunt_cycle256",
       "cemig_2t26_capex_1805p3m_brl",
-      "hunt_cycle262"
+      "hunt_cycle262",
+      "cemig_dist_1s26_2640m_brl",
+      "hunt_cycle270",
+      "cemig_tx_1s26_275p2m_brl"
     ],
     "map_supports": [
       "cemig_1s26_capex_3p28bn_brl",
-      "cemig_2t26_capex_1805p3m_brl"
+      "cemig_2t26_capex_1805p3m_brl",
+      "cemig_dist_1s26_2640m_brl",
+      "cemig_tx_1s26_275p2m_brl"
     ],
     "layers": [
       "energy"
@@ -22841,15 +22852,18 @@
   {
     "id": "neoenergia_2q26_release_mziq",
     "type": "company",
-    "chicago": "Neoenergia S.A. “Release 2Q26 / 6M26.” July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
+    "chicago": "Neoenergia S.A. “Results as of June 30, 2026” (2Q26/6M26 earnings release). July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
-    "annotation": "Neoenergia 6M26 NEW R$4.0bn ~USD 770.40m via Fed H.10. Supports neoenergia_6m26_capex_4bn_brl.",
+    "annotation": "Neoenergia Dist 6M26 CapEx R$3.696bn via Fed H.10. Supports neoenergia_dist_6m26_3696m_brl; neoenergia_6m26_capex_4bn_brl.",
     "supports": [
       "neoenergia_6m26_capex_4bn_brl",
-      "hunt_cycle257"
+      "hunt_cycle257",
+      "neoenergia_dist_6m26_3696m_brl",
+      "hunt_cycle270"
     ],
     "map_supports": [
-      "neoenergia_6m26_capex_4bn_brl"
+      "neoenergia_6m26_capex_4bn_brl",
+      "neoenergia_dist_6m26_3696m_brl"
     ],
     "layers": [
       "energy"
@@ -23647,6 +23661,61 @@
     "map_supports": [
       "rumo_hortolandia_viaduct_57m_brl_2026",
       "rumo_malha_paulista_8bn_spent_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cpfl_fr_2026_budget_6308m",
+    "type": "company",
+    "chicago": "CPFL Energia S.A. “Formulário de Referência.” Company RI PDF (Portuguese). https://ri.cpfl.com.br/Download.aspx?Arquivo=+NxF6ZeI3ozQLDsdjlbLlQ%3D%3D&linguagem=pt.",
+    "url": "https://ri.cpfl.com.br/Download.aspx?Arquivo=+NxF6ZeI3ozQLDsdjlbLlQ%3D%3D&linguagem=pt",
+    "annotation": "CPFL 2026 CapEx budget R$6.308bn via Fed H.10. Supports cpfl_2026_budget_6308m_brl.",
+    "supports": [
+      "cpfl_2026_budget_6308m_brl",
+      "hunt_cycle270"
+    ],
+    "map_supports": [
+      "cpfl_2026_budget_6308m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "copel_2026_3bn_program_news",
+    "type": "company",
+    "chicago": "Copel. “Copel investe R$ 3 bilhões em obras de geração, transmissão e distribuição de energia em todo o Paraná.” Company news. https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/.",
+    "url": "https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/",
+    "annotation": "Copel LRCAP Segredo R$541m via Fed H.10. Supports copel_lrcap_segredo_541m_brl_2026.",
+    "supports": [
+      "copel_disco_2026_plan_1940m_brl",
+      "hunt_cycle270",
+      "copel_lrcap_foz_areia_190m_brl_2026",
+      "copel_lrcap_segredo_541m_brl_2026"
+    ],
+    "map_supports": [
+      "copel_disco_2026_plan_1940m_brl",
+      "copel_lrcap_foz_areia_190m_brl_2026",
+      "copel_lrcap_segredo_541m_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "motiva_1t26_company_news_20260430",
+    "type": "company",
+    "chicago": "Motiva. “Motiva tem alta de 16,3% no Lucro Líquido Ajustado no 1T26.” April 30, 2026. https://www.motiva.com.br/noticias/motiva-avanca-eficiencia-operacional-lucro-ajustado-1t26/.",
+    "url": "https://www.motiva.com.br/noticias/motiva-avanca-eficiencia-operacional-lucro-ajustado-1t26/",
+    "annotation": "Motiva 1T26 CapEx R$1.473bn via Fed H.10. Supports motiva_1t26_capex_1473m_brl.",
+    "supports": [
+      "motiva_1t26_capex_1473m_brl",
+      "hunt_cycle270"
+    ],
+    "map_supports": [
+      "motiva_1t26_capex_1473m_brl"
     ],
     "layers": [
       "infrastructure"
