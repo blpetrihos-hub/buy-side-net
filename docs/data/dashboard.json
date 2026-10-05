@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 3073,
+    "n_rows": 3081,
     "counts": {
-      "total": 3073,
-      "active": 2874,
+      "total": 3081,
+      "active": 2882,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 2800,
-      "on_map": 2706
+      "documented": 2808,
+      "on_map": 2714
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 1327,
-        "n": 1636
+        "allied": 1335,
+        "n": 1644
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 103793547300.02985,
-        "allied_n": 1253
+        "allied": 103808570123.17984,
+        "allied_n": 1261
       },
       "matched_gaps": {
         "n": 1,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 1641,
-        "n": 1896
+        "allied": 1649,
+        "n": 1904
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 221988031021.68918,
-        "allied_n": 1560
+        "allied": 222003053844.8391,
+        "allied_n": 1568
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 1204
+          "allied": 1212
         },
         "resources": {
           "us": 26,
@@ -4062,7 +4062,15 @@
       "motiva_vlt_carioca_exmaint_4t20_4m_brl",
       "motiva_metro_bahia_exmaint_4t20_19m_brl",
       "motiva_viamobilidade_exmaint_4t20_17m_brl",
-      "motiva_outros_exmaint_4t20_7m_brl"
+      "motiva_outros_exmaint_4t20_7m_brl",
+      "motiva_vialagos_1t26_1m_brl",
+      "motiva_renovias_1t26_2m_brl",
+      "motiva_sa_1t26_13m_brl",
+      "motiva_outros_exmaint_1t26_13m_brl",
+      "motiva_sa_exmaint_1t26_13m_brl",
+      "motiva_sa_2t26_12m_brl",
+      "motiva_outros_exmaint_2t26_12m_brl",
+      "motiva_sa_exmaint_2t26_12m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
