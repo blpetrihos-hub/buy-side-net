@@ -5106,25 +5106,6 @@
     ]
   },
   {
-    "id": "poder360_byd_bess_20260612",
-    "type": "press",
-    "chicago": "Poder360. “BYD anuncia investimento de até R$ 500 mi em baterias no Brasil.” June 12, 2026. https://www.poder360.com.br/poder-economia/byd-anuncia-investimento-de-ate-r-500-mi-em-baterias-no-brasil/.",
-    "url": "https://www.poder360.com.br/poder-economia/byd-anuncia-investimento-de-ate-r-500-mi-em-baterias-no-brasil/",
-    "annotation": "BYD Brazil BESS CapEx-fill ~USD 96.30m via Fed H.10. Supports byd_brazil_bess_factory_500m_2026.",
-    "supports": [
-      "byd_brazil_bess_factory_500m_2026",
-      "hunt_energy_other_renewables",
-      "hunt_cycle220"
-    ],
-    "map_supports": [
-      "byd_brazil_bess_factory_500m_2026",
-      "hunt_energy_other_renewables"
-    ],
-    "layers": [
-      "energy"
-    ]
-  },
-  {
     "id": "sacyr_antofagasta_reuse_20250508",
     "type": "company",
     "chicago": "Sacyr. “Sacyr se adjudica la concesión del tratamiento de agua para el reúso y de su comercialización en Antofagasta (Chile).” Press release, 8 May 2025.",
@@ -23078,7 +23059,7 @@
     "type": "company",
     "chicago": "Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.",
     "url": "https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip",
-    "annotation": "Alupar 2T26 company ZIP: Palca Peru CapEx USD 220m; also supports prior Lot 7/TAP/TPC/TCN rows.",
+    "annotation": "Alupar 6M26 Custo de Infraestrutura R$649.2m via Fed H.10. Supports alupar_6m26_custo_infra_649p2m_brl.",
     "supports": [
       "alupar_lote7_tesp_1089m_brl_2026",
       "hunt_cycle260",
@@ -23087,9 +23068,12 @@
       "alupar_tpc_capex_previsto_2597p23m_brl",
       "alupar_tcn_capex_previsto_1390p64m_brl",
       "alupar_palca_peru_capex_220m_usd",
-      "hunt_cycle264"
+      "hunt_cycle264",
+      "alupar_6m26_custo_infra_649p2m_brl",
+      "hunt_cycle267"
     ],
     "map_supports": [
+      "alupar_6m26_custo_infra_649p2m_brl",
       "alupar_lote7_tesp_1089m_brl_2026",
       "alupar_palca_peru_capex_220m_usd",
       "alupar_tap_capex_previsto_498p52m_brl",
@@ -23441,6 +23425,78 @@
     ],
     "map_supports": [
       "atlas_latam_2bn_plan_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "microsoft_chile_central_20250618",
+    "type": "company",
+    "chicago": "Microsoft. “Microsoft inaugura su primera Región de Datacenters en Chile para acelerar la innovación y el desarrollo económico local” (citing IDC). June 18, 2025. https://news.microsoft.com/es-xl/microsoft-inaugura-su-primera-region-de-datacenters-en-chile-para-acelerar-la-innovacion-y-el-desarrollo-economico-local/.",
+    "url": "https://news.microsoft.com/es-xl/microsoft-inaugura-su-primera-region-de-datacenters-en-chile-para-acelerar-la-innovacion-y-el-desarrollo-economico-local/",
+    "annotation": "Microsoft Chile Central IDC ~USD 3.3bn direct-investment estimate (proxy). Supports microsoft_chile_central_3p3bn_idc_2025.",
+    "supports": [
+      "microsoft_chile_central_3p3bn_idc_2025",
+      "hunt_cycle267"
+    ],
+    "map_supports": [
+      "microsoft_chile_central_3p3bn_idc_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "porto_itapoa_fase_iv_20241101",
+    "type": "company",
+    "chicago": "Porto Itapoá. “Porto Itapoá anuncia Fase IV de expansão com Investimentos de R$ 500 milhões.” November 1, 2024. https://www.portoitapoa.com/porto-itapoa-anuncia-fase-iv-de-expansao-com-investimentos-de-r-500-milhoes/.",
+    "url": "https://www.portoitapoa.com/porto-itapoa-anuncia-fase-iv-de-expansao-com-investimentos-de-r-500-milhoes/",
+    "annotation": "Porto Itapoá Fase IV R$500m + Fase III R$815m via Fed H.10. Supports porto_itapoa_fase_iv_500m_brl_2024; porto_itapoa_fase_iii_815m_brl_2024.",
+    "supports": [
+      "porto_itapoa_fase_iv_500m_brl_2024",
+      "hunt_cycle267",
+      "porto_itapoa_fase_iii_815m_brl_2024"
+    ],
+    "map_supports": [
+      "porto_itapoa_fase_iii_815m_brl_2024",
+      "porto_itapoa_fase_iv_500m_brl_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "motiva_fy2025_results_8p3bn_2026",
+    "type": "company",
+    "chicago": "Motiva. “Motiva encerra 2025 com forte crescimento e resultados recordes.” 2026. https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/.",
+    "url": "https://www.motiva.com.br/noticias/motiva-encerra-2025-com-lucro-liquido-de-3-bilhoes/",
+    "annotation": "Motiva 2026 CapEx plan R$8.3bn + Linha 4 R$941m via Fed H.10. Supports motiva_2026_capex_plan_8p3bn_brl; motiva_linha4_2026_941m_brl.",
+    "supports": [
+      "motiva_2026_capex_plan_8p3bn_brl",
+      "hunt_cycle267",
+      "motiva_linha4_2026_941m_brl"
+    ],
+    "map_supports": [
+      "motiva_2026_capex_plan_8p3bn_brl",
+      "motiva_linha4_2026_941m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "byd_brasil_bess_500m_20260901",
+    "type": "company",
+    "chicago": "BYD Brasil. “BYD avança em estratégia de armazenamento de energia no Brasil após anunciar investimento de até R$ 500 milhões no país.” September 1, 2026. https://bydbrasil.com.br/byd-avanca-em-estrategia-de-armazenamento-de-energia-no-brasil-apos-anunciar-investimento-de-ate-r-500-milhoes-no-pais/.",
+    "url": "https://bydbrasil.com.br/byd-avanca-em-estrategia-de-armazenamento-de-energia-no-brasil-apos-anunciar-investimento-de-ate-r-500-milhoes-no-pais/",
+    "annotation": "BYD Brazil BESS ≤R$500m company primary via Fed H.10. Supports byd_brazil_bess_factory_500m_2026.",
+    "supports": [
+      "byd_brazil_bess_factory_500m_2026",
+      "hunt_cycle267"
+    ],
+    "map_supports": [
+      "byd_brazil_bess_factory_500m_2026"
     ],
     "layers": [
       "energy"

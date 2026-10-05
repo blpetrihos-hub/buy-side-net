@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 1583,
+    "n_rows": 1589,
     "counts": {
-      "total": 1583,
-      "active": 1384,
+      "total": 1589,
+      "active": 1390,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 179,
       "exclude": 18,
-      "documented": 1319,
-      "on_map": 1247
+      "documented": 1325,
+      "on_map": 1253
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 175,
+        "us": 176,
         "prc": 126,
-        "allied": 199,
-        "n": 500
+        "allied": 203,
+        "n": 505
       },
       "usd": {
         "us": 44955217878.43001,
         "us_n": 108,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 58160368431.89002,
-        "allied_n": 125
+        "allied": 60193457162.84003,
+        "allied_n": 129
       },
       "matched_gaps": {
         "n": 1,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 156,
         "prc": 184,
-        "allied": 222,
-        "n": 562
+        "allied": 223,
+        "n": 563
       },
       "usd": {
         "us": 23626161117.969997,
         "us_n": 51,
-        "prc": 33325525535.28,
-        "prc_n": 53,
-        "allied": 103176264745.45003,
-        "allied_n": 151
+        "prc": 33421825683.579994,
+        "prc_n": 54,
+        "allied": 103301300858.01003,
+        "allied_n": 152
       },
       "matched_gaps": {
         "n": 1,
@@ -364,27 +364,27 @@
       "counts": {
         "us": 109,
         "prc": 99,
-        "allied": 256,
-        "n": 464
+        "allied": 261,
+        "n": 469
       },
       "usd": {
         "us": 19523590504.539997,
         "us_n": 47,
-        "prc": 32067506505.489998,
-        "prc_n": 42,
-        "allied": 141358100550.2201,
-        "allied_n": 175
+        "prc": 32163806653.79,
+        "prc_n": 43,
+        "allied": 143516225393.7301,
+        "allied_n": 180
       },
       "by_layer": {
         "energy": {
           "us": 19,
           "prc": 65,
-          "allied": 116
+          "allied": 117
         },
         "infrastructure": {
           "us": 64,
           "prc": 25,
-          "allied": 76
+          "allied": 80
         },
         "resources": {
           "us": 26,
@@ -396,10 +396,10 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 60,
+        "us": 61,
         "prc": 43,
         "allied": 98,
-        "n": 201
+        "n": 202
       },
       "usd": {
         "us": 43412000000.0,
@@ -416,7 +416,7 @@
           "allied": 34
         },
         "infrastructure": {
-          "us": 9,
+          "us": 10,
           "prc": 7,
           "allied": 22
         },
@@ -2572,7 +2572,13 @@
       "energisa_2t26_capex_1713m_brl",
       "energisa_6m26_capex_3267m_brl",
       "santos_brasil_tecon_2p6bn_brl_2019_2031",
-      "santos_brasil_tecon_invested_1p6bn_may2025"
+      "santos_brasil_tecon_invested_1p6bn_may2025",
+      "microsoft_chile_central_3p3bn_idc_2025",
+      "porto_itapoa_fase_iv_500m_brl_2024",
+      "porto_itapoa_fase_iii_815m_brl_2024",
+      "motiva_2026_capex_plan_8p3bn_brl",
+      "motiva_linha4_2026_941m_brl",
+      "alupar_6m26_custo_infra_649p2m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
