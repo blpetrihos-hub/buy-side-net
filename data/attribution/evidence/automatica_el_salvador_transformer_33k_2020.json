@@ -1,0 +1,10 @@
+{
+  "id": "automatica_el_salvador_transformer_33k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_automatica_el_salvador_transformer_33k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6020P0915_1900_-NONE-_-NONE-/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "TRANSFORMER",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 32883; date_signed 2020-09-29."
+}
