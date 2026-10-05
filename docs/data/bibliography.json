@@ -784,13 +784,14 @@
   },
   {
     "id": "alstom_mexico_47trains_20251226",
-    "type": "official",
-    "chicago": "Alstom. “Alstom to supply 47 trains and associated maintenance for new rail corridors in Mexico.” 26 December 2025.",
+    "type": "company",
+    "chicago": "Alstom. “Alstom to supply 47 trains and associated maintenance for new rail corridors in Mexico.” December 26, 2025. https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico.",
     "url": "https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico",
-    "annotation": "Company primary release on MXN 20.2bn / 47 DMU Mexico award. Supports alstom_mexico_dmu_2025.",
+    "annotation": "Alstom Mexico DMU CapEx-fill company EUR 920m → ~USD 1048.80m via Fed H.10. Supports alstom_mexico_dmu_2025.",
     "supports": [
       "alstom_mexico_dmu_2025",
-      "hunt_latam_rail_telecom"
+      "hunt_latam_rail_telecom",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "alstom_mexico_dmu_2025",
@@ -2985,13 +2986,14 @@
   },
   {
     "id": "ndb_serra_da_palmeira_2025",
-    "type": "mdb",
-    "chicago": "New Development Bank. “Serra da Palmeira Wind Power Project.” Project page / public disclosure summary. Financing approval 17 September 2025.",
+    "type": "company",
+    "chicago": "New Development Bank. “Serra da Palmeira Wind Power Project.” https://www.ndb.int/project/serra-da-palmeira-wind-power-project/.",
     "url": "https://www.ndb.int/project/serra-da-palmeira-wind-power-project/",
-    "annotation": "MDB primary project page for CTG Serra da Palmeira 648 MW wind. Supports ctg_serra_da_palmeira_2025.",
+    "annotation": "CTG Serra da Palmeira CapEx-fill ~USD 833.38m via Fed H.10. Supports ctg_serra_da_palmeira_2025.",
     "supports": [
       "ctg_serra_da_palmeira_2025",
-      "hunt_energy_wind"
+      "hunt_energy_wind",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "ctg_serra_da_palmeira_2025",
@@ -4769,12 +4771,13 @@
   {
     "id": "stgm_asx_aud60m_20260617",
     "type": "company",
-    "chicago": "St George Mining Limited. “St George Secures A$60 Million to Accelerate Development of the World-Class Rare Earths-Niobium Araxá Project.” ASX release, 17 June 2026.",
+    "chicago": "St George Mining Limited. “A$60M Secured for Araxá Rare Earths & Niobium Project.” June 17, 2026. https://www.stgm.com.au/pdf/daec3170-d1c5-4743-b8f8-3c6c12f7dd90/Platform/ListPage/A60M-secured-for-Araxa-Rare-EarthsNiobium-Project.pdf.",
     "url": "https://www.stgm.com.au/pdf/daec3170-d1c5-4743-b8f8-3c6c12f7dd90/Platform/ListPage/A60M-secured-for-Araxa-Rare-EarthsNiobium-Project.pdf",
-    "annotation": "ASX placement A$60m for Araxá Nb-REE. Supports st_george_araxa_raise_aud60m_2026.",
+    "annotation": "St George Araxá CapEx-fill ~USD 42.20m via Fed H.10 AUD. Supports st_george_araxa_raise_aud60m_2026.",
     "supports": [
       "st_george_araxa_raise_aud60m_2026",
-      "hunt_fenb_araxa"
+      "hunt_fenb_araxa",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "hunt_fenb_araxa",
@@ -5315,12 +5318,13 @@
   {
     "id": "statkraft_weg_seabra_20250918",
     "type": "company",
-    "chicago": "Statkraft Brasil. “Parceria inovadora entre Petrobras, WEG e Statkraft coloca em operação o maior aerogerador onshore das Américas.” Press release, 18 September 2025.",
+    "chicago": "Statkraft Brasil. “Parceria inovadora entre Petrobras, WEG e Statkraft coloca em operação o maior aerogerador onshore das Américas.” September 18, 2025. https://www.statkraft.com.br/sala-de-comunicacao/ultimas-noticias/2025/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-operacao-o-maior-aerogerador-onshore-das-americas/.",
     "url": "https://www.statkraft.com.br/sala-de-comunicacao/ultimas-noticias/2025/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-operacao-o-maior-aerogerador-onshore-das-americas/",
-    "annotation": "Company release on WEG 7 MW Seabra turbine / Petrobras R$130m. Supports weg_statkraft_seabra_7mw_2025.",
+    "annotation": "Statkraft/WEG Seabra CapEx-fill ~USD 25.04m via Fed H.10. Supports weg_statkraft_seabra_7mw_2025.",
     "supports": [
       "weg_statkraft_seabra_7mw_2025",
-      "hunt_energy_wind"
+      "hunt_energy_wind",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "hunt_energy_wind",
@@ -8538,12 +8542,13 @@
   {
     "id": "acciona_pernambuco_20260429",
     "type": "company",
-    "chicago": "ACCIONA. “ACCIONA Signs Sanitation Contract for 153 Municipalities in Pernambuco (Brazil).” 29 April 2026.",
+    "chicago": "ACCIONA. “ACCIONA signs sanitation contract for 153 municipalities in Pernambuco (Brazil).” April 29, 2026. https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-153-municipalities-pernambuco-brazil.",
     "url": "https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-153-municipalities-pernambuco-brazil",
-    "annotation": "ACCIONA/BRK Pernambuco 35-year sanitation concession (BRL 15.4bn). Supports acciona_brk_pernambuco_sanitation_2026.",
+    "annotation": "ACCIONA BRK Pernambuco CapEx-fill company EUR 2.68bn → ~USD 3055.20m via Fed H.10. Supports acciona_brk_pernambuco_sanitation_2026.",
     "supports": [
       "acciona_brk_pernambuco_sanitation_2026",
-      "hunt_res_water"
+      "hunt_res_water",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "acciona_brk_pernambuco_sanitation_2026",
@@ -18475,10 +18480,11 @@
     "type": "company",
     "chicago": "WEG. “WEG announces investments to expand transformer production capacity in Brazil.” September 25, 2024. https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil.",
     "url": "https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil",
-    "annotation": "WEG: R$543m Betim+Gravataí transformer CapEx. Supports weg_brazil_xfmr_543m_brl_2024.",
+    "annotation": "WEG Brazil transformer CapEx-fill ~USD 104.58m via Fed H.10. Supports weg_brazil_xfmr_543m_brl_2024.",
     "supports": [
       "weg_brazil_xfmr_543m_brl_2024",
-      "hunt_cycle181"
+      "hunt_cycle181",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "weg_brazil_xfmr_543m_brl_2024"
@@ -19300,13 +19306,14 @@
   },
   {
     "id": "atlas_publico_sacyr_fortaleza_20260918",
-    "type": "government",
-    "chicago": "Atlas Público (Diário Oficial da União republication). “Governo do Ceará declara Sacyr vencedora de licitação para três estações do Metrô de Fortaleza.” September 18, 2026. https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968.",
+    "type": "press",
+    "chicago": "Atlas Público / Governo do Ceará. “Governo do Ceará declara Sacyr vencedora de licitação” (Metro Leste). 2026. https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968.",
     "url": "https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968",
-    "annotation": "DOU/Atlas Público: Sacyr Fortaleza Linha Leste R$1.230bn. Supports sacyr_fortaleza_metro_leste_1230m_brl_2026.",
+    "annotation": "Sacyr Fortaleza Metro CapEx-fill ~USD 237.02m via Fed H.10. Supports sacyr_fortaleza_metro_leste_1230m_brl_2026.",
     "supports": [
       "sacyr_fortaleza_metro_leste_1230m_brl_2026",
-      "hunt_cycle190"
+      "hunt_cycle190",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "sacyr_fortaleza_metro_leste_1230m_brl_2026"
@@ -19951,10 +19958,11 @@
     "type": "company",
     "chicago": "VLI Logística. “VLI mantém investimento na FCA acima de R$ 1 bilhão pelo quarto ano consecutivo.” February 5, 2026. https://www.vli-logistica.com.br/vli-mantem-investimento-na-fca-acima-de-r-1-bilhao-pelo-quarto-ano-consecutivo/.",
     "url": "https://www.vli-logistica.com.br/vli-mantem-investimento-na-fca-acima-de-r-1-bilhao-pelo-quarto-ano-consecutivo/",
-    "annotation": "VLI: FCA 2026 CapEx ~R$1.2bn. Supports vli_fca_capex_1p2bn_brl_2026.",
+    "annotation": "VLI FCA CapEx-fill ~USD 231.12m via Fed H.10. Supports vli_fca_capex_1p2bn_brl_2026.",
     "supports": [
       "vli_fca_capex_1p2bn_brl_2026",
-      "hunt_cycle196"
+      "hunt_cycle196",
+      "hunt_cycle229"
     ],
     "map_supports": [
       "vli_fca_capex_1p2bn_brl_2026"
@@ -21423,6 +21431,23 @@
     ],
     "map_supports": [
       "ssa_guaymas_tum_concession_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cmpc_rio_grande_tup_20260914",
+    "type": "company",
+    "chicago": "CMPC. “Assinamos contrato para a instalação do Terminal Rio Grande do Sul S.A.” September 14, 2026. https://www.cmpc.com/pt-br/assinamos-contrato-para-a-instalacao-do-terminal-rio-grande-do-sul-s-a/.",
+    "url": "https://www.cmpc.com/pt-br/assinamos-contrato-para-a-instalacao-do-terminal-rio-grande-do-sul-s-a/",
+    "annotation": "CMPC Rio Grande TUP ~USD 288.90m via Fed H.10. Supports cmpc_rio_grande_tup_1p5bn_brl_2026.",
+    "supports": [
+      "cmpc_rio_grande_tup_1p5bn_brl_2026",
+      "hunt_cycle229"
+    ],
+    "map_supports": [
+      "cmpc_rio_grande_tup_1p5bn_brl_2026"
     ],
     "layers": [
       "infrastructure"
