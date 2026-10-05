@@ -1921,13 +1921,14 @@
   },
   {
     "id": "caf_medellin_santiago_20241209",
-    "type": "official",
-    "chicago": "CAF. “CAF to supply metro units in Colombia and Chile.” 9 December 2024.",
+    "type": "company",
+    "chicago": "CAF. “CAF to supply metro units to Colombia and Chile.” December 9, 2024. https://www.cafmobility.com/en/press-room/caf-to-supply-metro-units-colombia-and-chile/.",
     "url": "https://www.cafmobility.com/en/press-room/caf-to-supply-metro-units-colombia-and-chile/",
-    "annotation": "Company primary Medellín/Santiago metro award notice. Supports caf_medellin_santiago_metro_2024.",
+    "annotation": "CAF Medellín/Santiago CapEx-fill USD 228.00m via Fed H.10. Supports caf_medellin_santiago_metro_2024.",
     "supports": [
       "caf_medellin_santiago_metro_2024",
-      "hunt_latam_rail_telecom"
+      "hunt_latam_rail_telecom",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "caf_medellin_santiago_metro_2024",
@@ -2228,13 +2229,14 @@
   },
   {
     "id": "jica_chachimbiro_20241025",
-    "type": "official",
-    "chicago": "Japan International Cooperation Agency. “Signing of Japanese ODA Loan Agreement for Ecuador: … Construction of a Geothermal Power Plant.” 25 October 2024.",
+    "type": "company",
+    "chicago": "Japan International Cooperation Agency (JICA). “Signing of Japanese ODA Loan Agreement with Ecuador: Supporting geothermal development toward the country’s first geothermal power plant.” October 25, 2024. https://www.jica.go.jp/english/information/press/2024/20241025_41.html.",
     "url": "https://www.jica.go.jp/english/information/press/2024/20241025_41.html",
-    "annotation": "JICA primary ODA loan notice for Chachimbiro Phase I. Supports jica_chachimbiro_ecuador_2024.",
+    "annotation": "JICA Chachimbiro CapEx-fill ~USD 41.88m via Fed H.10. Supports jica_chachimbiro_ecuador_2024.",
     "supports": [
       "jica_chachimbiro_ecuador_2024",
-      "hunt_energy_other_renewables"
+      "hunt_energy_other_renewables",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "hunt_energy_other_renewables",
@@ -3500,12 +3502,13 @@
   {
     "id": "caf_trivia_maint_20251120",
     "type": "company",
-    "chicago": "CAF. “CAF awarded comprehensive maintenance of trains operating on São Paulo commuter lines 11, 12, and 13.” 20 November 2025.",
+    "chicago": "CAF. “CAF awarded maintenance of trains operating on São Paulo commuter lines.” November 20, 2025. https://www.cafmobility.com/en/press-room/caf-awarded-maintenance-of-rains-operating-on-s%C3%A3o-paulo-commuter-lines/.",
     "url": "https://www.cafmobility.com/en/press-room/caf-awarded-maintenance-of-rains-operating-on-s%C3%A3o-paulo-commuter-lines/",
-    "annotation": "Company primary on CAF €500m Trivia Trens SP maintenance. Supports caf_trivia_sp_maint_2025.",
+    "annotation": "CAF Trivia SP CapEx-fill USD 570.00m via Fed H.10. Supports caf_trivia_sp_maint_2025.",
     "supports": [
       "caf_trivia_sp_maint_2025",
-      "hunt_latam_rail_telecom"
+      "hunt_latam_rail_telecom",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "caf_trivia_sp_maint_2025",
@@ -8205,13 +8208,14 @@
   },
   {
     "id": "aesbe_cagece_dessal_20260717",
-    "type": "trade_association",
-    "chicago": "Associação Brasileira das Empresas Estaduais de Saneamento (AESBE). “Cagece Autoriza Início das Obras da Planta de Dessalinização de Fortaleza.” 17 July 2026.",
+    "type": "press",
+    "chicago": "AESBE. “Cagece autoriza início das obras da Planta de Dessalinização de Fortaleza.” July 17, 2026. https://aesbe.org.br/cagece-autoriza-inicio-das-obras-da-planta-de-dessalinizacao-de-fortaleza-marco-para-a-seguranca-hidrica-do-brasil/.",
     "url": "https://aesbe.org.br/cagece-autoriza-inicio-das-obras-da-planta-de-dessalinizacao-de-fortaleza-marco-para-a-seguranca-hidrica-do-brasil/",
-    "annotation": "AESBE/Cagece authorization for Fortaleza seawater desal PPP (>R$3.1bn). Supports cagece_dessal_fortaleza_auth_2026.",
+    "annotation": "Cagece Fortaleza desal CapEx-fill ~USD 597.06m via Fed H.10 (proxy). Supports cagece_dessal_fortaleza_auth_2026.",
     "supports": [
       "cagece_dessal_fortaleza_auth_2026",
-      "hunt_res_water"
+      "hunt_res_water",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "cagece_dessal_fortaleza_auth_2026",
@@ -12396,13 +12400,14 @@
   },
   {
     "id": "cdb_bndes_rmb5bn_20241128",
-    "type": "government",
-    "chicago": "China Development Bank. “中国一带一路网：携手服务深化中巴战略对接 中国国开行与巴西开发银行合作不断深化.” 28 November 2024. https://www.cdb.com.cn/ep/202411/t20241128_12218.html.",
+    "type": "company",
+    "chicago": "China Development Bank. “中国国开行与巴西开发银行签署50亿元人民币贷款协议.” November 28, 2024. https://www.cdb.com.cn/ep/202411/t20241128_12218.html.",
     "url": "https://www.cdb.com.cn/ep/202411/t20241128_12218.html",
-    "annotation": "CDB primary reprint: RMB 5bn CDB–BNDES loan in Xi Brazil visit outcomes. Supports cdb_bndes_rmb5bn_2024.",
+    "annotation": "CDB–BNDES RMB 5bn CapEx-fill ~USD 745.05m via Fed H.10. Supports cdb_bndes_rmb5bn_2024.",
     "supports": [
       "cdb_bndes_rmb5bn_2024",
-      "hunt_infra_engineering_epc"
+      "hunt_infra_engineering_epc",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "cdb_bndes_rmb5bn_2024",
@@ -18729,12 +18734,13 @@
   {
     "id": "estradas_rota_dos_sertoes_antt_20260929",
     "type": "press",
-    "chicago": "Estradas. “ANTT assina concessão da Rota dos Sertões por 30 anos entre Bahia e Pernambuco.” September 30, 2026. https://estradas.com.br/antt-assina-concessao-da-rota-dos-sertoes-por-30-anos-entre-bahia-e-pernambuco/.",
+    "chicago": "Estradas. “ANTT assina concessão da Rota dos Sertões por 30 anos entre Bahia e Pernambuco.” September 29, 2026. https://estradas.com.br/antt-assina-concessao-da-rota-dos-sertoes-por-30-anos-entre-bahia-e-pernambuco/.",
     "url": "https://estradas.com.br/antt-assina-concessao-da-rota-dos-sertoes-por-30-anos-entre-bahia-e-pernambuco/",
-    "annotation": "Estradas/ANTT: Rota dos Sertões ~R$4.3bn CapEx concession signing. Supports mota_engil_rota_dos_sertoes_43bn_2026.",
+    "annotation": "Mota-Engil Rota dos Sertões CapEx-fill ~USD 828.18m via Fed H.10 (proxy). Supports mota_engil_rota_dos_sertoes_43bn_2026.",
     "supports": [
       "mota_engil_rota_dos_sertoes_43bn_2026",
-      "hunt_cycle183"
+      "hunt_cycle183",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "mota_engil_rota_dos_sertoes_43bn_2026"
@@ -20425,14 +20431,15 @@
     "type": "company",
     "chicago": "Neoenergia. “Neoenergia renova mais três concessões e anuncia investimentos de R$ 50 bilhões em distribuição no país.” May 8, 2026. https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia.",
     "url": "https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia",
-    "annotation": "Neoenergia Coelba litoral CapEx-fill ~USD 1348.19m via Fed H.10. Supports neoenergia_coelba_litoral_7bn_brl_2026.",
+    "annotation": "Neoenergia Ilhabela CapEx-fill ~USD 38.52m via Fed H.10. Supports neoenergia_ilhabela_200m_brl_2026.",
     "supports": [
       "neoenergia_dist_50bn_brl_2026_2030",
       "hunt_cycle201",
       "neoenergia_ilhabela_200m_brl_2026",
       "neoenergia_coelba_litoral_7bn_brl_2026",
       "hunt_cycle231",
-      "hunt_cycle232"
+      "hunt_cycle232",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "neoenergia_coelba_litoral_7bn_brl_2026",
@@ -20878,12 +20885,13 @@
   {
     "id": "g1_alstom_salvador_metro_20260922",
     "type": "press",
-    "chicago": "g1 BA. “Consórcio vence licitação para compra de trens em Salvador e Lauro.” September 22, 2026. https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml.",
+    "chicago": "G1 Bahia. “Empresa vence licitação para fornecimento de trens para metrô de Salvador e Lauro de Freitas.” September 22, 2026. https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml.",
     "url": "https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml",
-    "annotation": "Alstom Salvador metro 10 trains R$632.7m CTB homologation. Supports alstom_salvador_metro_10trains_632p7m_2026.",
+    "annotation": "Alstom Salvador CapEx-fill ~USD 121.86m via Fed H.10 (proxy). Supports alstom_salvador_metro_10trains_632p7m_2026.",
     "supports": [
       "alstom_salvador_metro_10trains_632p7m_2026",
-      "hunt_cycle208"
+      "hunt_cycle208",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "alstom_salvador_metro_10trains_632p7m_2026"
@@ -21118,12 +21126,13 @@
   {
     "id": "gauchazh_statkraft_gran_sul_15bn_20260723",
     "type": "press",
-    "chicago": "Cosme, Laura. “Santa Vitória do Palmar terá novo parque eólico com investimento de R$ 1,5 bilhão.” GaúchaZH, July 23, 2026. https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html.",
+    "chicago": "GaúchaZH. “Santa Vitória do Palmar terá novo parque eólico com investimento de R$ 1,5 bilhão.” July 23, 2026. https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html.",
     "url": "https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html",
-    "annotation": "Statkraft Gran Sul CapEx-fill R$1.5bn (press). Supports statkraft_gran_sul_280mw_2026.",
+    "annotation": "Statkraft Gran Sul CapEx-fill ~USD 288.90m via Fed H.10 (proxy). Supports statkraft_gran_sul_280mw_2026.",
     "supports": [
       "statkraft_gran_sul_280mw_2026",
-      "hunt_cycle211"
+      "hunt_cycle211",
+      "hunt_cycle233"
     ],
     "map_supports": [
       "statkraft_gran_sul_280mw_2026"

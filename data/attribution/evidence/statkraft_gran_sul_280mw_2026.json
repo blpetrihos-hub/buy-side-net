@@ -1,10 +1,10 @@
 {
   "id": "statkraft_gran_sul_280mw_2026",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "gauchazh_statkraft_gran_sul_15bn_20260723",
   "url": "https://gauchazh.clicrbs.com.br/zona-sul/economia/noticia/2026/07/santa-vitoria-do-palmar-tera-novo-parque-eolico-com-investimento-de-r-15-bilhao-cmrwjwq0701370163akppasn7.html",
   "price_year": "2026",
   "evidence": "proxy",
-  "quote": "Com investimento superior a R$ 1,5 bilhão, o Projeto Gran Sul, da empresa norueguesa Statkraft, tem início das obras previsto para janeiro do próximo ano. A primeira etapa contará com capacidade instalada de 280 megawatts (MW).",
-  "note": "Opened GaúchaZH 2026-10-04; R$1.5bn first-phase / 280 MW / Jan 2027 construction / 2029 COD confirmed. UNVERIFIED proxy vs company CapEx silence; CapEx-fill on prior FID row."
+  "quote": "Com investimento superior a R$ 1,5 bilhão, o Projeto Gran Sul, da empresa norueguesa Statkraft, tem início das obras previsto para janeiro do próximo ano.",
+  "note": "Opened GaúchaZH Portuguese; >R$1.5bn / 280 MW Gran Sul confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }

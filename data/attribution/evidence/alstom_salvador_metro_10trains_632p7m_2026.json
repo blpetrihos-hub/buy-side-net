@@ -1,10 +1,10 @@
 {
   "id": "alstom_salvador_metro_10trains_632p7m_2026",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "g1_alstom_salvador_metro_20260922",
   "url": "https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml",
   "price_year": "2026",
   "evidence": "proxy",
-  "quote": "A Companhia de Transportes do Estado da Bahia (CTB) divulgou que o Consórcio Grupo Alstom venceu uma licitação para o fornecimento de 10 novos trens para o Sistema Metroviário de Salvador e Lauro de Freitas (SMSL). … Segundo a CTB, a escolha foi tomada com base na proposta de menor preço. Serão investidos R$ 632.719.519,37 para a aquisição dos veículos.",
-  "note": "Opened G1 BA 22 Sep 2026 citing CTB DOE; R$632,719,519.37 / 10 four-car trains / Consórcio Grupo Alstom confirmed. Diário do Transporte corroborates CRRC rival bid and pending contract formalization. FX blank."
+  "quote": "Serão investidos R$ 632.719.519,37 para a aquisição dos veículos.",
+  "note": "Opened G1 Portuguese; R$632,719,519.37 / 10 trains / Consórcio Grupo Alstom confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
