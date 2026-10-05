@@ -1,10 +1,10 @@
 {
   "id": "envision_casa_ventos_630mw_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "envision_casa_ventos_20260108",
-  "url": "https://www.prnewswire.com/news-releases/envision-breaks-into-brazil-with-630mw-casa-dos-ventos-project-deploying-ai-driven-wind-power-at-scale-302656544.html",
+  "retrieved": "2026-10-05",
+  "source_id": "megawhat_mme_envision_800m_20260120",
+  "url": "https://megawhat.uol.com.br/economia-e-politica/envision-energy-quer-ampliar-investimentos-em-energia-no-brasil-diz-mme/",
   "price_year": "2026",
-  "evidence": "documented",
-  "quote": "Envision Energy … has signed a 630MW wind turbine supply and a 30-year long-term service agreement with Casa dos Ventos … Envision will supply its customized 8.xMW Galileo AI wind turbines",
-  "note": "Opened Envision PRNewswire release."
+  "evidence": "proxy",
+  "quote": "Para o MME, o contrato de serviços de longo prazo firmado com a Envision é um sinal concreto de confiança no mercado brasileiro. Segundo a pasta, o conjunto do fornecimento de equipamentos e dos serviços associados representa um compromisso econômico que pode ultrapassar US$ 800 milhões ao longo do ciclo contratual.",
+  "note": "Opened MegaWhat Portuguese citing MME; >USD 800m equipment+services cycle / 630 MW / 30-year LTSA confirmed. CapEx-fill enter USD 800m floor as UNVERIFIED proxy."
 }
