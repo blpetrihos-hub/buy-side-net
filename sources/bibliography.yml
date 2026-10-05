@@ -39030,3 +39030,93 @@
   supports:
   - anahi_mexico_cgr_perimeter_wall_188k_2023
   - hunt_cycle1314
+- id: usaspending_leidos_honduras_vacis_ip6500_20460k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F0435_1900_GS35F285DA_4732 (leidos_honduras_vacis_ip6500_20460k_2021). Signed 2021-01-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0435_1900_GS35F285DA_4732/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0435_1900_GS35F285DA_4732/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: leidos_honduras_vacis_ip6500_20460k_2021 USD 20.460m. Supports leidos_honduras_vacis_ip6500_20460k_2021.'
+  supports:
+  - leidos_honduras_vacis_ip6500_20460k_2021
+  - hunt_cycle1315
+- id: usaspending_rapiscan_panama_mobile_nii_11074k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1420_1900_19AQMM21D0044_1900 (rapiscan_panama_mobile_nii_11074k_2022). Signed 2022-08-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1420_1900_19AQMM21D0044_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1420_1900_19AQMM21D0044_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: rapiscan_panama_mobile_nii_11074k_2022 USD 11.074m. Supports rapiscan_panama_mobile_nii_11074k_2022.'
+  supports:
+  - rapiscan_panama_mobile_nii_11074k_2022
+  - hunt_cycle1315
+- id: usaspending_misc_mexico_juarez_k9_kennels_197k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53011M0298_1900_-NONE-_-NONE- (misc_mexico_juarez_k9_kennels_197k_2011). Signed 2011-01-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53011M0298_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53011M0298_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_juarez_k9_kennels_197k_2011 USD 0.197m. Supports misc_mexico_juarez_k9_kennels_197k_2011.'
+  supports:
+  - misc_mexico_juarez_k9_kennels_197k_2011
+  - hunt_cycle1315
+- id: usaspending_misc_mexico_ssp_canine_kennels_191k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53010M0580_1900_-NONE-_-NONE- (misc_mexico_ssp_canine_kennels_191k_2010). Signed 2010-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0580_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0580_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_ssp_canine_kennels_191k_2010 USD 0.191m. Supports misc_mexico_ssp_canine_kennels_191k_2010.'
+  supports:
+  - misc_mexico_ssp_canine_kennels_191k_2010
+  - hunt_cycle1315
+- id: usaspending_misc_colombia_santa_marta_bastion_wall_188k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15013M0873_1900_-NONE-_-NONE- (misc_colombia_santa_marta_bastion_wall_188k_2013). Signed 2013-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0873_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0873_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_santa_marta_bastion_wall_188k_2013 USD 0.188m. Supports misc_colombia_santa_marta_bastion_wall_188k_2013.'
+  supports:
+  - misc_colombia_santa_marta_bastion_wall_188k_2013
+  - hunt_cycle1315
+- id: usaspending_leidos_honduras_vacis_m6500_mobile_3200k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE22P0038_1900_-NONE-_-NONE- (leidos_honduras_vacis_m6500_mobile_3200k_2022). Signed 2022-06-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE22P0038_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE22P0038_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: leidos_honduras_vacis_m6500_mobile_3200k_2022 USD 3.200m. Supports leidos_honduras_vacis_m6500_mobile_3200k_2022.'
+  supports:
+  - leidos_honduras_vacis_m6500_mobile_3200k_2022
+  - hunt_cycle1316
+- id: usaspending_culmen_mexico_prison_nii_1597k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM26F0703_1900_19AQMM21D0041_1900 (culmen_mexico_prison_nii_1597k_2026). Signed 2026-06-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0703_1900_19AQMM21D0041_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0703_1900_19AQMM21D0041_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: culmen_mexico_prison_nii_1597k_2026 USD 1.597m. Supports culmen_mexico_prison_nii_1597k_2026.'
+  supports:
+  - culmen_mexico_prison_nii_1597k_2026
+  - hunt_cycle1316
+- id: usaspending_misc_elsalvador_fiber_coax_cabling_184k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SES60015M1130_1900_-NONE-_-NONE- (misc_elsalvador_fiber_coax_cabling_184k_2015). Signed 2015-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60015M1130_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60015M1130_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_elsalvador_fiber_coax_cabling_184k_2015 USD 0.184m. Supports misc_elsalvador_fiber_coax_cabling_184k_2015.'
+  supports:
+  - misc_elsalvador_fiber_coax_cabling_184k_2015
+  - hunt_cycle1316
+- id: usaspending_misc_argentina_chancery_awnings_195k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2024C0008_1900_-NONE-_-NONE- (misc_argentina_chancery_awnings_195k_2024). Signed 2024-09-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2024C0008_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2024C0008_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_argentina_chancery_awnings_195k_2024 USD 0.195m. Supports misc_argentina_chancery_awnings_195k_2024.'
+  supports:
+  - misc_argentina_chancery_awnings_195k_2024
+  - hunt_cycle1316
+- id: usaspending_mfg_colombia_cmr_bathrooms_guardhouse_167k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02024C0010_1900_-NONE-_-NONE- (mfg_colombia_cmr_bathrooms_guardhouse_167k_2024). Signed 2024-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024C0010_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024C0010_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mfg_colombia_cmr_bathrooms_guardhouse_167k_2024 USD 0.167m. Supports mfg_colombia_cmr_bathrooms_guardhouse_167k_2024.'
+  supports:
+  - mfg_colombia_cmr_bathrooms_guardhouse_167k_2024
+  - hunt_cycle1316

@@ -1,0 +1,10 @@
+{
+  "id": "leidos_honduras_vacis_ip6500_20460k_2021",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_leidos_honduras_vacis_ip6500_20460k_2021",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0435_1900_GS35F285DA_4732/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "VACIS IP6500 FULLSCAN INTEGRATED CARGO INSPECTION SYSTEM",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 20459614.0; date_signed 2021-01-13."
+}

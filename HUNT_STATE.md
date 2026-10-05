@@ -1,16 +1,32 @@
 updated: 2026-10-05
-cycle: 1314
+cycle: 1316
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1315 shuffle_seed=20262315; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1266/prc410/allied1565); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending named CapEx thinning after Leidos x-ray/VACIS + Cambridge C4I + IsoBOX; residual misc fence/wall/power/kennel stock; company/PRC/DFC/Spanish-Portuguese still needed for thin. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1315 shuffled_order)
+next_query: Cycle 1317 shuffle_seed=20262317; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1270/prc410/allied1565); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending named CapEx thinning after Leidos/Rapiscan/Culmen NII tranche; residual misc kennel/wall/construction stock; company/PRC/DFC/Spanish-Portuguese still needed for thin. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1317 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1314) ===
-# Filled this batch: US Leidos Mexico VIP6500/x-ray portal/VACIS IP6500; Cambridge Bahamas C4I minor construction; IsoBOX Panama modular ops center/classrooms; other IDAC BRCNA fence; Anahi Mexico CGR wall; misc Colombia perimeter lights; Ecuador emergency power; Mexico security wall; Trinidad NEC fence; Suriname permanent power; Guatemala perimeter wall; Brazil rec center wall.
+# === Country×subcategory sweep cells touched (session continuing from 1316) ===
+# Filled this batch: US Leidos Honduras VACIS IP6500/M6500; Rapiscan Panama mobile NII; Culmen Mexico prison NII; other MFG CMR bathrooms/guardhouse; misc Mexico Juarez/SSP kennels; Colombia Santa Marta bastion wall; El Salvador fiber/coax; Argentina chancery awnings.
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx across 1312-1314).
+# ≥1/3 U.S. hunt budget spent (4 US CapEx across 1315-1316).
+
+# === Cycle 1316 (seed 20262316) ===
+# Shuffled: engineering_epc, building_materials, copper, nickel, lithium, balsa, power_plants_grid, wind, port_ownership, bridges_roads, port_cranes, solar, rail, graphite, niobium, other_renewables, fission_smr, water
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   leidos_honduras_vacis_m6500_mobile_3200k_2022 culmen_mexico_prison_nii_1597k_2026 misc_elsalvador_fiber_coax_cabling_184k_2015 misc_argentina_chancery_awnings_195k_2024 mfg_colombia_cmr_bathrooms_guardhouse_167k_2024.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1316: us1270 / prc410 / allied1565 / other7037 (n=10282).
+
+# === Cycle 1315 (seed 20262315) ===
+# Shuffled: other_renewables, port_cranes, lithium, engineering_epc, nickel, water, building_materials, solar, graphite, wind, niobium, power_plants_grid, bridges_roads, balsa, port_ownership, fission_smr, copper, rail
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   leidos_honduras_vacis_ip6500_20460k_2021 rapiscan_panama_mobile_nii_11074k_2022 misc_mexico_juarez_k9_kennels_197k_2011 misc_mexico_ssp_canine_kennels_191k_2010 misc_colombia_santa_marta_bastion_wall_188k_2013.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1315: us1268 / prc410 / allied1565 / other7034 (n=10277).
 
 # === Cycle 1314 (seed 20262314) ===
 # Shuffled: nickel, solar, rail, bridges_roads, fission_smr, graphite, wind, niobium, water, lithium, balsa, power_plants_grid, engineering_epc, port_cranes, building_materials, port_ownership, other_renewables, copper
