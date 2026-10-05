@@ -35353,7 +35353,7 @@
     "type": "company",
     "chicago": "Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2",
-    "annotation": "Energisa Ativo Elétrico Total 2T22 CapEx via Fed H.10. Supports energisa_ae_total_2t22_1152m_brl.",
+    "annotation": "Energisa Ativo Elétrico Total 1T22 CapEx via Fed H.10. Supports energisa_ae_total_1t22_1003m_brl.",
     "supports": [
       "energisa_dist_total_2t26_1567m_brl",
       "hunt_cycle681",
@@ -36483,9 +36483,14 @@
       "energisa_ae_dist_total_2t22_996m_brl",
       "hunt_cycle814",
       "energisa_ae_tx_total_2t22_156m_brl",
-      "energisa_ae_total_2t22_1152m_brl"
+      "energisa_ae_total_2t22_1152m_brl",
+      "energisa_ae_dist_total_1t22_859m_brl",
+      "hunt_cycle815",
+      "energisa_ae_tx_total_1t22_144m_brl",
+      "energisa_ae_total_1t22_1003m_brl"
     ],
     "map_supports": [
+      "energisa_ae_dist_total_1t22_859m_brl",
       "energisa_ae_dist_total_1t23_947m_brl",
       "energisa_ae_dist_total_1t24_1039m_brl",
       "energisa_ae_dist_total_1t25_1024m_brl",
@@ -36509,6 +36514,7 @@
       "energisa_ae_reenergisa_2t26_5m_brl",
       "energisa_ae_reenergisa_3t25_51m_brl",
       "energisa_ae_reenergisa_4t25_15m_brl",
+      "energisa_ae_total_1t22_1003m_brl",
       "energisa_ae_total_1t23_1048m_brl",
       "energisa_ae_total_1t24_1135m_brl",
       "energisa_ae_total_1t25_1088m_brl",
@@ -36526,6 +36532,7 @@
       "energisa_ae_total_4t23_1142m_brl",
       "energisa_ae_total_4t24_1620m_brl",
       "energisa_ae_total_4t25_1444m_brl",
+      "energisa_ae_tx_total_1t22_144m_brl",
       "energisa_ae_tx_total_1t23_101m_brl",
       "energisa_ae_tx_total_1t24_88m_brl",
       "energisa_ae_tx_total_1t25_40m_brl",
