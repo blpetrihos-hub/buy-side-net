@@ -14118,24 +14118,6 @@
     ]
   },
   {
-    "id": "ctg_brasil_sustentabilidade_2025_20260617",
-    "type": "company",
-    "chicago": "CTG Brasil. “CTG Brasil se prepara para novo ciclo de crescimento sustentável.” June 17, 2026. https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/.",
-    "url": "https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/",
-    "annotation": "CTG Brasil primary: Arinos solar full COD in 2025 portfolio. Supports ctg_arinos_solar_full_cod_2025.",
-    "supports": [
-      "ctg_arinos_solar_full_cod_2025",
-      "hunt_energy_solar"
-    ],
-    "map_supports": [
-      "ctg_arinos_solar_full_cod_2025",
-      "hunt_energy_solar"
-    ],
-    "layers": [
-      "energy"
-    ]
-  },
-  {
     "id": "invenergy_patria_600mw_20240701",
     "type": "company",
     "chicago": "Invenergy LLC. “Invenergy and Patria Investments Acquire 600 MW Brazil Wind Portfolio from ContourGlobal and Eletrobras.” July 1, 2024. https://invenergy.com/news/invenergy-and-patria-investments-acquire-600-mw-brazil-wind-portfolio-from-contourglobal-and-eletrobras.",
@@ -23370,6 +23352,95 @@
     ],
     "map_supports": [
       "taesa_reforcos_melhorias_193p4m_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "votorantim_cimentos_1q26_results",
+    "type": "company",
+    "chicago": "Votorantim Cimentos. “Our Financial Results in the First Quarter of 2026.” 2026. https://www.votorantimcimentos.com/news/our-financial-results-in-the-first-quarter-of-2026/.",
+    "url": "https://www.votorantimcimentos.com/news/our-financial-results-in-the-first-quarter-of-2026/",
+    "annotation": "Votorantim Cimentos 1T26 CapEx R$742m via Fed H.10. Supports votorantim_cimentos_1t26_capex_742m_brl.",
+    "supports": [
+      "votorantim_cimentos_1t26_capex_742m_brl",
+      "hunt_cycle266"
+    ],
+    "map_supports": [
+      "votorantim_cimentos_1t26_capex_742m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ctg_brasil_balanco_2024_arinos_21bn",
+    "type": "company",
+    "chicago": "China Three Gorges Brasil Energia S.A. “Demonstrações financeiras / Balanço 2024” (Arinos CapEx). Republished Estadão RI, March 2025. https://estadaori.estadao.com.br/wp-content/uploads/2025/03/china-three-gorges-brasil-energia-sa-balanco-2025-03-14_01-46-59.pdf.",
+    "url": "https://estadaori.estadao.com.br/wp-content/uploads/2025/03/china-three-gorges-brasil-energia-sa-balanco-2025-03-14_01-46-59.pdf",
+    "annotation": "CTG Arinos CapEx R$2.1bn via Fed H.10. Supports ctg_arinos_solar_full_cod_2025.",
+    "supports": [
+      "ctg_arinos_solar_full_cod_2025",
+      "hunt_cycle266"
+    ],
+    "map_supports": [
+      "ctg_arinos_solar_full_cod_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "energisa_2t26_release_20260806",
+    "type": "company",
+    "chicago": "Energisa S.A. “Release de Resultados 2T26.” August 6, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/c4a851a2-10c3-3c55-3d68-fcf7f6306b96?origin=2.",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/c4a851a2-10c3-3c55-3d68-fcf7f6306b96?origin=2",
+    "annotation": "Energisa 2T26/6M26 CapEx via Fed H.10. Supports energisa_2t26_capex_1713m_brl; energisa_6m26_capex_3267m_brl.",
+    "supports": [
+      "energisa_2t26_capex_1713m_brl",
+      "hunt_cycle266",
+      "energisa_6m26_capex_3267m_brl"
+    ],
+    "map_supports": [
+      "energisa_2t26_capex_1713m_brl",
+      "energisa_6m26_capex_3267m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "santos_brasil_tecon_record_202507",
+    "type": "company",
+    "chicago": "Santos Brasil. “Santos Brasil movimenta 135 mil contêineres no Tecon Santos em julho e bate novo recorde histórico.” 2025. https://www.santosbrasil.com.br/v2021/noticia/santos-brasil-movimenta-135-mil-conteineres-no-tecon-santos-em-julho-e-bate-novo-recorde-historico.",
+    "url": "https://www.santosbrasil.com.br/v2021/noticia/santos-brasil-movimenta-135-mil-conteineres-no-tecon-santos-em-julho-e-bate-novo-recorde-historico",
+    "annotation": "Santos Brasil Tecon R$2.6bn program + R$1.6bn invested via Fed H.10. Supports santos_brasil_tecon_2p6bn_brl_2019_2031; santos_brasil_tecon_invested_1p6bn_may2025.",
+    "supports": [
+      "santos_brasil_tecon_2p6bn_brl_2019_2031",
+      "hunt_cycle266",
+      "santos_brasil_tecon_invested_1p6bn_may2025"
+    ],
+    "map_supports": [
+      "santos_brasil_tecon_2p6bn_brl_2019_2031",
+      "santos_brasil_tecon_invested_1p6bn_may2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "naturenews_atlas_2bn_20260309",
+    "type": "press",
+    "chicago": "Naturenews Africa. “Atlas renewable energy plans $2bn investment in latin America” (citing CEO Carlos Barrera). March 9, 2026. https://naturenews.africa/atlas-renewable-energy-plans-2bn-investment-in-latin-america/.",
+    "url": "https://naturenews.africa/atlas-renewable-energy-plans-2bn-investment-in-latin-america/",
+    "annotation": "Atlas LatAm ~USD 2bn 3–4yr plan via CEO press (proxy). Supports atlas_latam_2bn_plan_2026.",
+    "supports": [
+      "atlas_latam_2bn_plan_2026",
+      "hunt_cycle266"
+    ],
+    "map_supports": [
+      "atlas_latam_2bn_plan_2026"
     ],
     "layers": [
       "energy"
