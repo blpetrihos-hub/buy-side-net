@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8165,
+    "n_rows": 8170,
     "counts": {
-      "total": 8165,
-      "active": 7966,
+      "total": 8170,
+      "active": 7971,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7892,
-      "on_map": 7798
+      "documented": 7897,
+      "on_map": 7803
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3850,
-        "n": 4251
+        "allied": 3855,
+        "n": 4256
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382941286442.2606,
-        "allied_n": 3779
+        "allied": 382975003819.8106,
+        "allied_n": 3784
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6733,
-        "n": 6988
+        "allied": 6738,
+        "n": 6993
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526809992418.06024,
-        "allied_n": 6652
+        "allied": 526843709795.6102,
+        "allied_n": 6657
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3716
+          "allied": 3721
         },
         "infrastructure": {
           "us": 68,
@@ -9154,7 +9154,12 @@
       "axia_txproj_se_guarulhos_instalacao_do_segundo_banco_de_r_37m_brl",
       "axia_txproj_reforco_na_se_pinhalzinho_2_instalacao_do_4_a_36m_brl",
       "axia_txproj_reforco_se_sinop_instalacao_do_4_atf_230_138__36m_brl",
-      "axia_txproj_reforco_recondutoramento_lt_230_kvsapeacu_san_36m_brl"
+      "axia_txproj_reforco_recondutoramento_lt_230_kvsapeacu_san_36m_brl",
+      "axia_txproj_reforco_recondutoramento_lt_230_kvsapeacu_san_36m_brl_v2",
+      "axia_txproj_seccionamento_da_lt_230_kv_olindina_catu_c1_n_35m_brl",
+      "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl",
+      "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl_v2",
+      "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl_v3"
     ],
     "hunt": [
       "hunt_br_power_equip",
