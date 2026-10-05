@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6616,
+    "n_rows": 6624,
     "counts": {
-      "total": 6616,
-      "active": 6417,
+      "total": 6624,
+      "active": 6425,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6343,
-      "on_map": 6249
+      "documented": 6351,
+      "on_map": 6257
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2354,
-        "n": 2755
+        "allied": 2362,
+        "n": 2763
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 270703754902.9699,
-        "allied_n": 2283
+        "allied": 270771630521.69992,
+        "allied_n": 2291
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5184,
-        "n": 5439
+        "allied": 5192,
+        "n": 5447
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 399403493837.6897,
-        "allied_n": 5103
+        "allied": 399471369456.4197,
+        "allied_n": 5111
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2220
+          "allied": 2228
         },
         "infrastructure": {
           "us": 68,
@@ -7605,7 +7605,15 @@
       "isa_energia_gf_coligadas_2t19_57m_brl",
       "isa_energia_gf_total_2t19_147m_brl",
       "isa_energia_consolidado_2t19_139m_brl",
-      "isa_energia_2t19_capex_168m_brl"
+      "isa_energia_2t19_capex_168m_brl",
+      "isa_energia_rm_isa_1t19_17m_brl",
+      "isa_energia_rm_total_1t19_17m_brl",
+      "isa_energia_biguacu_1t19_2m_brl",
+      "isa_energia_gf_controladas_1t19_52m_brl",
+      "isa_energia_gf_coligadas_1t19_38m_brl",
+      "isa_energia_gf_total_1t19_71m_brl",
+      "isa_energia_consolidado_1t19_69m_brl",
+      "isa_energia_1t19_capex_88m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
