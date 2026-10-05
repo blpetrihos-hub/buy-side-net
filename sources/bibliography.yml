@@ -26140,3 +26140,153 @@
   supports:
   - seobra_san_pedro_school_440k_2021
   - hunt_cycle980
+- id: usaspending_bendig_oij_sanjose_438k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0200_1900_-NONE-_-NONE-
+    (Bendig OIJ San José). Signed 2018-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0200_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0200_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bendig OIJ San José USD 0.438m. Supports bendig_oij_sanjose_438k_2018.'
+  supports:
+  - bendig_oij_sanjose_438k_2018
+  - hunt_cycle981
+- id: usaspending_misc_el_bambu_clinic_436k_2008
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL08C0008_9700_-NONE-_-NONE-
+    (El Bambú clinic). Signed 2008-08-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL08C0008_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL08C0008_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: El Bambú clinic USD 0.436m. Supports misc_el_bambu_clinic_436k_2008.'
+  supports:
+  - misc_el_bambu_clinic_436k_2008
+  - hunt_cycle981
+- id: usaspending_ect_hap7594_warehouse_cr_436k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0023_9700_W9127809D0071_9700
+    (ECT HAP 7594 warehouse). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0023_9700_W9127809D0071_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0023_9700_W9127809D0071_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ECT HAP 7594 warehouse USD 0.436m. Supports ect_hap7594_warehouse_cr_436k_2010.'
+  supports:
+  - ect_hap7594_warehouse_cr_436k_2010
+  - hunt_cycle981
+- id: usaspending_equipos_pavana_432k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0222_1900_-NONE-_-NONE-
+    (Equipos Pavana). Signed 2018-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0222_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0222_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Equipos Pavana USD 0.432m. Supports equipos_pavana_432k_2018.'
+  supports:
+  - equipos_pavana_432k_2018
+  - hunt_cycle981
+- id: usaspending_misc_villa_garzon_hydrosan_429k_2008
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC08C0012_1900_-NONE-_-NONE-
+    (Villa Garzón hydro-sanitary). Signed 2008-02-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC08C0012_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC08C0012_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Villa Garzón hydro-sanitary USD 0.429m. Supports misc_villa_garzon_hydrosan_429k_2008.'
+  supports:
+  - misc_villa_garzon_hydrosan_429k_2008
+  - hunt_cycle981
+- id: usaspending_partenon_lima_cmr_roof_428k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGE50017C0022_1900_-NONE-_-NONE-
+    (Partenon Lima CMR roof). Signed 2017-04-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGE50017C0022_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGE50017C0022_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Partenon Lima CMR roof USD 0.428m. Supports partenon_lima_cmr_roof_428k_2017.'
+  supports:
+  - partenon_lima_cmr_roof_428k_2017
+  - hunt_cycle982
+- id: usaspending_proyectos_cicor_425k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0061_1900_-NONE-_-NONE-
+    (Proyectos CICOR). Signed 2018-03-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0061_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0061_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proyectos CICOR USD 0.425m. Supports proyectos_cicor_425k_2018.'
+  supports:
+  - proyectos_cicor_425k_2018
+  - hunt_cycle982
+- id: usaspending_seapac_guyana_elevator_420k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5021C0006_1900_-NONE-_-NONE-
+    (Sea Pac Georgetown elevator). Signed 2021-02-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0006_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0006_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Sea Pac Georgetown elevator USD 0.420m. Supports seapac_guyana_elevator_420k_2021.'
+  supports:
+  - seapac_guyana_elevator_420k_2021
+  - hunt_cycle982
+- id: usaspending_proyectos_warehouse_exp_419k_2009
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC09C0001_1900_-NONE-_-NONE-
+    (Proyectos warehouse expansion). Signed 2009-06-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proyectos warehouse expansion USD 0.419m. Supports proyectos_warehouse_exp_419k_2009.'
+  supports:
+  - proyectos_warehouse_exp_419k_2009
+  - hunt_cycle982
+- id: usaspending_marago_diran_facatativa_419k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0236_1900_-NONE-_-NONE-
+    (Marago DIRAN Facatativá). Signed 2018-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0236_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0236_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marago DIRAN Facatativá USD 0.419m. Supports marago_diran_facatativa_419k_2018.'
+  supports:
+  - marago_diran_facatativa_419k_2018
+  - hunt_cycle982
+- id: usaspending_sepdes_sono_bouy_warehouse_415k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0009_9700_W9127813D0022_9700
+    (SEP DES sono-bouy warehouse). Signed 2013-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127813D0022_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127813D0022_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: SEP DES sono-bouy warehouse USD 0.415m. Supports sepdes_sono_bouy_warehouse_415k_2013.'
+  supports:
+  - sepdes_sono_bouy_warehouse_415k_2013
+  - hunt_cycle983
+- id: usaspending_john_d_belize_warehouse_448k_2006
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6247006C6017_9700_-NONE-_-NONE-
+    (John D Belize warehouse). Signed 2006-08-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6247006C6017_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6247006C6017_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: John D Belize warehouse USD 0.448m. Supports john_d_belize_warehouse_448k_2006.'
+  supports:
+  - john_d_belize_warehouse_448k_2006
+  - hunt_cycle983
+- id: usaspending_medina_hattieville_411k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL14C0029_9700_-NONE-_-NONE-
+    (Medina Hattieville). Signed 2014-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL14C0029_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL14C0029_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Medina Hattieville community center USD 0.411m. Supports medina_hattieville_411k_2014.'
+  supports:
+  - medina_hattieville_411k_2014
+  - hunt_cycle983
+- id: usaspending_seobra_gamboa_shop_406k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330221CF0010433_3300_-NONE-_-NONE-
+    (Seobra Gamboa shop). Signed 2021-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330221CF0010433_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330221CF0010433_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Seobra Gamboa shop USD 0.406m. Supports seobra_gamboa_shop_406k_2021.'
+  supports:
+  - seobra_gamboa_shop_406k_2021
+  - hunt_cycle983
+- id: usaspending_eei_guayaquil_vetting_404k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026C0123_1900_-NONE-_-NONE-
+    (EEI Guayaquil vetting). Signed 2026-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0123_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0123_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EEI Guayaquil vetting center USD 0.404m. Supports eei_guayaquil_vetting_404k_2026.'
+  supports:
+  - eei_guayaquil_vetting_404k_2026
+  - hunt_cycle983
