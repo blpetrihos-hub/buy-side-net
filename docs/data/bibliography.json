@@ -38337,5 +38337,33 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "haiti_mpce_pip_fy2025_2026",
+    "type": "government",
+    "chicago": "République d'Haïti, Ministère de la Planification et de la Coopération Externe. “Programmes d'Investissements Publics — Exercice 2025-2026.” Budget Général de la République d'Haïti. Retrieved October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.",
+    "url": "https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf",
+    "accessed": "2026-10-05",
+    "annotation": "Haiti PIP FY2025–26: HA-L1140 Péligre 1,388,451,301 HTG. Supports haiti_pip_peligre_hal1140_1388m_htg_fy2526.",
+    "supports": [
+      "haiti_pip_maillage_routier_9625m_htg_fy2526",
+      "hunt_cycle898",
+      "haiti_pip_debarcadere_fort_liberte_160m_htg_fy2526",
+      "haiti_pip_dinepa_hal1103_1608m_htg_fy2526",
+      "haiti_pip_caracol_solar_hag1060_171m_htg_fy2526",
+      "haiti_pip_peligre_hal1140_1388m_htg_fy2526"
+    ],
+    "map_supports": [
+      "haiti_pip_caracol_solar_hag1060_171m_htg_fy2526",
+      "haiti_pip_debarcadere_fort_liberte_160m_htg_fy2526",
+      "haiti_pip_dinepa_hal1103_1608m_htg_fy2526",
+      "haiti_pip_maillage_routier_9625m_htg_fy2526",
+      "haiti_pip_peligre_hal1140_1388m_htg_fy2526"
+    ],
+    "layers": [
+      "infrastructure",
+      "resources",
+      "energy"
+    ]
   }
 ]

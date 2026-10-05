@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8386,
+    "n_rows": 8391,
     "counts": {
-      "total": 8386,
-      "active": 8187,
+      "total": 8391,
+      "active": 8192,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8113,
-      "on_map": 8017
+      "documented": 8118,
+      "on_map": 8020
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 182,
         "prc": 129,
-        "allied": 2974,
-        "n": 3285
+        "allied": 2976,
+        "n": 3287
       },
       "usd": {
         "us": 46364207670.61,
@@ -130,8 +130,8 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 269,
-        "n": 431
+        "allied": 270,
+        "n": 432
       },
       "usd": {
         "us": 46048237410.93,
@@ -155,8 +155,8 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 4068,
-        "n": 4469
+        "allied": 4070,
+        "n": 4471
       },
       "usd": {
         "us": 36729056364.53999,
@@ -752,8 +752,8 @@
       "counts": {
         "us": 5,
         "prc": 0,
-        "allied": 8,
-        "n": 13
+        "allied": 13,
+        "n": 18
       },
       "usd": {
         "us": 208147801.58,
@@ -767,17 +767,17 @@
         "energy": {
           "us": 2,
           "prc": 0,
-          "allied": 4
+          "allied": 6
         },
         "infrastructure": {
           "us": 2,
           "prc": 0,
-          "allied": 4
+          "allied": 6
         },
         "resources": {
           "us": 1,
           "prc": 0,
-          "allied": 0
+          "allied": 1
         }
       }
     },
@@ -9375,7 +9375,12 @@
       "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_b_1m_brl_v3",
       "cscec_litoral_tramo1_masachapa_919m_rmb_2024",
       "cscec_litoral_tramo2_poneloya_886m_rmb_2024",
-      "pc_terminals_chinourette_600m_envelope_2025"
+      "pc_terminals_chinourette_600m_envelope_2025",
+      "haiti_pip_maillage_routier_9625m_htg_fy2526",
+      "haiti_pip_debarcadere_fort_liberte_160m_htg_fy2526",
+      "haiti_pip_dinepa_hal1103_1608m_htg_fy2526",
+      "haiti_pip_caracol_solar_hag1060_171m_htg_fy2526",
+      "haiti_pip_peligre_hal1140_1388m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",
