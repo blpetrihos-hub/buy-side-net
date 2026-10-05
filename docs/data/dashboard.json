@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 4635,
+    "n_rows": 4649,
     "counts": {
-      "total": 4635,
-      "active": 4436,
+      "total": 4649,
+      "active": 4450,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 4362,
-      "on_map": 4268
+      "documented": 4376,
+      "on_map": 4282
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 2889,
-        "n": 3198
+        "allied": 2903,
+        "n": 3212
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 140674870064.01974,
-        "allied_n": 2815
+        "allied": 141141319678.23975,
+        "allied_n": 2829
       },
       "matched_gaps": {
         "n": 1,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 3203,
-        "n": 3458
+        "allied": 3217,
+        "n": 3472
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 258869353785.67938,
-        "allied_n": 3122
+        "allied": 259335803399.89938,
+        "allied_n": 3136
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 2766
+          "allied": 2780
         },
         "resources": {
           "us": 26,
@@ -5624,7 +5624,21 @@
       "rumo_expansao_sul_3t22_2m_brl",
       "rumo_conteiner_3t22_12m_brl",
       "rumo_conteiner_recorrente_3t22_1m_brl",
-      "rumo_conteiner_expansao_3t22_11m_brl"
+      "rumo_conteiner_expansao_3t22_11m_brl",
+      "rumo_2t22_capex_678m_brl",
+      "rumo_norte_2t22_586m_brl",
+      "rumo_norte_recorrente_2t22_200m_brl",
+      "rumo_expansao_norte_2t22_387m_brl",
+      "rumo_material_rodante_2t22_96m_brl",
+      "rumo_capacitacao_2t22_278m_brl",
+      "rumo_porto_terminais_2t22_10m_brl",
+      "rumo_fmt_2t22_3m_brl",
+      "rumo_sul_2t22_86m_brl",
+      "rumo_sul_recorrente_2t22_84m_brl",
+      "rumo_expansao_sul_2t22_1m_brl",
+      "rumo_conteiner_2t22_6m_brl",
+      "rumo_conteiner_recorrente_2t22_1m_brl",
+      "rumo_conteiner_expansao_2t22_5m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
