@@ -3143,13 +3143,14 @@
   - hunt_infra_bridges_roads
   - hunt_cycle225
 - id: eco_aca_transnordestina_20260727
-  type: trade_press
-  chicago: Abreu, Patrícia. “Grupo ACA de Famalicão ganha contrato de 61 milhões na ferrovia do Brasil.” ECO, 27 July 2026.
+  type: press
+  chicago: ECO. “Grupo ACA de Famalicão ganha contrato de 61 milhões na ferrovia do Brasil.” July 27, 2026. https://eco.sapo.pt/2026/07/27/grupo-aca-de-famalicao-ganha-contrato-de-61-milhoes-na-ferrovia-do-brasil/.
   url: https://eco.sapo.pt/2026/07/27/grupo-aca-de-famalicao-ganha-contrato-de-61-milhoes-na-ferrovia-do-brasil/
-  annotation: Press on ACA Transnordestina SPS 04 R$312.8m. Supports aca_transnordestina_sps04_2026.
+  annotation: ACA Transnordestina CapEx-fill ~USD 60.25m via Fed H.10 (proxy). Supports aca_transnordestina_sps04_2026.
   supports:
   - aca_transnordestina_sps04_2026
   - hunt_latam_rail_telecom
+  - hunt_cycle234
 - id: larepublica_tren_macho_20260622
   type: trade_press
   chicago: 'Tosso, Valeria. “Así avanza el Tren Macho tras casi 100 años: nueva ruta costará US$339 millones e iniciará obras en mayo de 2027.” La República (Peru), 22 June 2026.'
@@ -5895,12 +5896,13 @@
   - hunt_energy_power_plants_grid
 - id: jiangxi_solgold_effective_20260305
   type: company
-  chicago: Jiangxi Copper Company Limited. “Announcement in Relation to the Effective Formal Offer to Acquire All the Shares in SolGold Plc by a Wholly-Owned Subsidiary.” HKEX, 5 March 2026.
+  chicago: Jiangxi Copper Company Limited. “Announcement — SolGold plc scheme of arrangement becomes effective.” March 5, 2026. https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0305/2026030500033.pdf.
   url: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0305/2026030500033.pdf
-  annotation: Jiangxi Copper JCHK SolGold scheme effective; Cascabel–Alpala Ecuador core asset. Supports jiangxi_copper_solgold_cascabel_2026.
+  annotation: Jiangxi Cascabel CapEx-fill ~USD 1148.78m via Fed H.10. Supports jiangxi_copper_solgold_cascabel_2026.
   supports:
   - jiangxi_copper_solgold_cascabel_2026
   - hunt_res_copper
+  - hunt_cycle234
 - id: dpr_coquimbo_illapel_crcc_20241129
   type: government
   chicago: Delegación Presidencial Regional de Coquimbo. “Firman contrato para la construcción del nuevo Hospital de Illapel con empresa china.” 29 November 2024.
@@ -6120,13 +6122,14 @@
   - camce_punta_huete_road_71p96m_2025
   - hunt_infra_bridges_roads
 - id: aiddata_camce_punta_huete_section_a_107086
-  type: database
-  chicago: AidData. “CAMCE provides RMB 1.43 billion loan — via deferred payment agreement — for Section A of Punta Huete International Airport Reconstruction, Expansion, and Upgrading Project (Linked to Record ID#107143).” China.AidData.org project 107086.
+  type: gov
+  chicago: AidData / Asamblea Nacional de Nicaragua. “CAMCE Punta Huete International Airport credit facilities (project 107086).” 2024. https://china.aiddata.org/projects/107086.
   url: https://china.aiddata.org/projects/107086
-  annotation: CAMCE deferred-payment credit facilities for Punta Huete airport Sections A+B totaling RMB 2,874,652,142.91 (Nicaragua MHCP). Supports camce_punta_huete_airport_credit_2p875bn_rmb_2024.
+  annotation: CAMCE Punta Huete CapEx-fill ~USD 428.35m via Fed H.10. Supports camce_punta_huete_airport_credit_2p875bn_rmb_2024.
   supports:
   - camce_punta_huete_airport_credit_2p875bn_rmb_2024
   - hunt_infra_engineering_epc
+  - hunt_cycle234
 - id: ancisa_crbc_red_maule_20210527
   type: company
   chicago: Ancisa / Grupo Puentes. “Grupo Puentes recibe los terrenos donde construirá tres hospitales en Chile.” 27 May 2021.
@@ -8142,13 +8145,14 @@
   - seaboard_estrella_del_mar_iv_2025
   - hunt_energy_power_plants_grid
 - id: fortescue_alta_copper_asx_20260310
-  type: filing
-  chicago: Fortescue Ltd. “Fortescue Completes Acquisition of Alta Copper.” ASX announcement PDF, 10 March 2026. https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/regulatory/asx-announcements/automated/03066248-fortescue-completes-acquisition-of-alta-copper.pdf.
+  type: company
+  chicago: Fortescue. “Fortescue completes acquisition of Alta Copper.” March 10, 2026. https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/regulatory/asx-announcements/automated/03066248-fortescue-completes-acquisition-of-alta-copper.pdf.
   url: https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/regulatory/asx-announcements/automated/03066248-fortescue-completes-acquisition-of-alta-copper.pdf
-  annotation: Fortescue ASX primary. Supports fortescue_canariaco_alta_copper_2026.
+  annotation: Fortescue Cañariaco CapEx-fill ~USD 98.30m via Fed H.10. Supports fortescue_canariaco_alta_copper_2026.
   supports:
   - fortescue_canariaco_alta_copper_2026
   - hunt_res_copper
+  - hunt_cycle234
 - id: bri_ccecc_cajamarca_highway_20260803
   type: press
   chicago: Belt and Road Portal / People’s Daily. “中企承建秘鲁高原公路改造与维护项目惠及20余万人.” 3 August 2026. https://www.yidaiyilu.gov.cn/p/0I8FISU5.html.
@@ -9251,13 +9255,14 @@
   - dfc_techmet_brazil_nickel_30m_equity
   - hunt_res_nickel
 - id: asamblea_cscec_litoral_fase2_decreto_8885_2024
-  type: government
-  chicago: Asamblea Nacional de la República de Nicaragua. “Decreto A.N. Nº. 8885 — Aprobación de Acuerdos de Facilidad de Crédito CSCEC International (Carretera Litoral del Pacífico, Fase II).” August 14, 2024. http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument.
+  type: gov
+  chicago: Asamblea Nacional de Nicaragua. “Decreto A.N. Nº 8885 — Facilidades de crédito CSCEC Litoral Pacífico Fase 2.” August 14, 2024. http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument.
   url: http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument
-  annotation: 'Asamblea decree: CSCEC International RMB 1.805bn Litoral Pacífico Fase II. Supports cscec_litoral_pacifico_fase2_nicaragua_2024.'
+  annotation: CSCEC Litoral Pacífico Fase 2 CapEx-fill ~USD 268.92m via Fed H.10. Supports cscec_litoral_pacifico_fase2_nicaragua_2024.
   supports:
   - cscec_litoral_pacifico_fase2_nicaragua_2024
   - hunt_infra_bridges_roads
+  - hunt_cycle234
 - id: apm_tcbuen_terminal_page
   type: company
   chicago: APM Terminals. “Nuestra terminal de contenedores — TCBUEN Buenaventura.” Accessed October 2, 2026. https://www.apmterminals.com/es/buenaventura/about/our-terminal.
@@ -10365,20 +10370,22 @@
   - hunt_cycle181
 - id: epiroc_peru_pit_viper_20260715
   type: company
-  chicago: Epiroc AB. “Epiroc wins large order for mining equipment in Peru.” July 15, 2026. https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260715-epiroc-wins-large-order-for-mining-equipment-in-peru.
+  chicago: Epiroc. “Epiroc wins large order for mining equipment in Peru.” July 15, 2026. https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260715-epiroc-wins-large-order-for-mining-equipment-in-peru.
   url: https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260715-epiroc-wins-large-order-for-mining-equipment-in-peru
-  annotation: 'Epiroc: ~SEK 210m Pit Viper 351 Peru copper order. Supports epiroc_peru_pit_viper_sek210m_2026.'
+  annotation: Epiroc Peru Pit Viper CapEx-fill ~USD 21.20m via Fed H.10. Supports epiroc_peru_pit_viper_sek210m_2026.
   supports:
   - epiroc_peru_pit_viper_sek210m_2026
   - hunt_cycle181
+  - hunt_cycle234
 - id: sandvik_cominvi_mexico_20260703
   type: company
-  chicago: Sandvik AB. “Sandvik wins large underground equipment order in Mexico from mining contractor CoMinVi.” July 3, 2026. https://www.home.sandvik/en/news-and-media/news/2026/07/sandvik-wins-large-underground-equipment-order-in-mexico-from-mining-contractor-cominvi/.
+  chicago: Sandvik. “Sandvik wins large underground equipment order in Mexico from mining contractor CoMinVi.” July 3, 2026. https://www.home.sandvik/en/news-and-media/news/2026/07/sandvik-wins-large-underground-equipment-order-in-mexico-from-mining-contractor-cominvi/.
   url: https://www.home.sandvik/en/news-and-media/news/2026/07/sandvik-wins-large-underground-equipment-order-in-mexico-from-mining-contractor-cominvi/
-  annotation: 'Sandvik: ~SEK 340m CoMinVi Mexico 46-unit underground fleet. Supports sandvik_cominvi_mexico_sek340m_2026.'
+  annotation: Sandvik CoMinVi CapEx-fill ~USD 34.33m via Fed H.10. Supports sandvik_cominvi_mexico_sek340m_2026.
   supports:
   - sandvik_cominvi_mexico_sek340m_2026
   - hunt_cycle181
+  - hunt_cycle234
 - id: nadbank_nuevo_laredo_beif_20251003
   type: official
   chicago: North American Development Bank. “Groundbreaking ceremony for the rehabilitation of two wastewater sewer mains in Nuevo Laredo, Tamaulipas.” October 3, 2025. https://nadbank.org/news/press-release/groundbreaking-ceremony-for-the-rehabilitation-of-two-wastewater-sewer-mains-in-nuevo-laredo-tamaulipas.
@@ -11297,12 +11304,13 @@
   type: company
   chicago: Neoenergia. “Neoenergia anuncia plano recorde de R$ 3,1 bilhões para fortalecer a infraestrutura elétrica do DF.” August 6, 2026. https://www.neoenergia.com/w/plano-recorde-de-3bi-para-fortalecer-infraestrutura-df.
   url: https://www.neoenergia.com/w/plano-recorde-de-3bi-para-fortalecer-infraestrutura-df
-  annotation: Neoenergia Brasília CapEx-fill ~USD 597.06m via Fed H.10. Supports neoenergia_brasilia_3p1bn_brl_2026_2030.
+  annotation: Neoenergia Guará 2 CapEx-fill ~USD 6.16m via Fed H.10. Supports neoenergia_guara2_32m_brl_2026.
   supports:
   - neoenergia_brasilia_3p1bn_brl_2026_2030
   - hunt_cycle201
   - neoenergia_guara2_32m_brl_2026
   - hunt_cycle232
+  - hunt_cycle234
 - id: wabtec_vale_efc_msa_20240605
   type: company
   chicago: Wabtec Corporation. “Vale and Wabtec Sign an R$1.8B Services Agreement to Enhance Carajás Railway Locomotive Fleet.” June 5, 2024. https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-an-r18b-services-agreement-to-enhance-caraj-s-railway-locomotive-fleet.
@@ -11534,13 +11542,14 @@
   - chec_fourth_bridge_panama
   - hunt_cycle208
 - id: antt_epr_regis_bittencourt_20260723
-  type: government
-  chicago: Agência Nacional de Transportes Terrestres (ANTT). “EPR vence o leilão da concessão da Régis Bittencourt com deságio de 22,53%.” July 23, 2026. https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/epr-vence-o-leilao-da-concessao-da-regis-bittencourt-com-desagio-de-22-53.
+  type: company
+  chicago: ANTT. “EPR vence o leilão da concessão da Régis Bittencourt com deságio de 22,53%.” July 23, 2026. https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/epr-vence-o-leilao-da-concessao-da-regis-bittencourt-com-desagio-de-22-53.
   url: https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/epr-vence-o-leilao-da-concessao-da-regis-bittencourt-com-desagio-de-22-53
-  annotation: ANTT EPR Régis Bittencourt R$7.2bn. Supports epr_regis_bittencourt_7p2bn_2026.
+  annotation: EPR Régis Bittencourt CapEx-fill ~USD 1386.72m via Fed H.10. Supports epr_regis_bittencourt_7p2bn_2026.
   supports:
   - epr_regis_bittencourt_7p2bn_2026
   - hunt_cycle209
+  - hunt_cycle234
 - id: casa_dos_ventos_us_pp_20260618
   type: company
   chicago: Casa dos Ventos. “Casa dos Ventos raises US$ 1.1 billion in the United States.” June 18, 2026. https://casadosventos.com.br/en/news/captacao-nos-estados-unidos.
