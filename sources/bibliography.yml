@@ -18673,7 +18673,7 @@
   type: company
   chicago: AXIA Energia S.A. (ex-Eletrobras). “Guia de Modelagem — 2T26 — Excel — Capex Realizado (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2
-  annotation: AXIA Total CapEx 2T22 CapEx via Fed H.10. Supports axia_consol_total_2t22_2548m_brl.
+  annotation: AXIA Total CapEx 1T22 CapEx via Fed H.10. Supports axia_consol_total_1t22_502m_brl.
   supports:
   - axia_consol_imob_intang_2t26_2212m_brl
   - hunt_cycle632
@@ -18803,3 +18803,10 @@
   - axia_consol_empresas_investidas_2t22_1617m_brl
   - axia_consol_eletronuclear_2t22_323m_brl
   - axia_consol_total_2t22_2548m_brl
+  - axia_consol_imob_intang_1t22_360m_brl
+  - hunt_cycle649
+  - axia_consol_geracao_1t22_93m_brl
+  - axia_consol_transmissao_1t22_227m_brl
+  - axia_consol_ambiental_infra_1t22_41m_brl
+  - axia_consol_eletronuclear_1t22_142m_brl
+  - axia_consol_total_1t22_502m_brl
