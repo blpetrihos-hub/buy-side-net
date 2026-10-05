@@ -1,0 +1,10 @@
+{
+  "id": "fdc_chile_fire_alarm_upgrade_681k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_fdc_chile_fire_alarm_upgrade_681k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1663_1900_SAQMMA14D0055_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::CT::IGF FIRE ALARM UPGRADE",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 681509.0; date_signed 2015-06-09."
+}
