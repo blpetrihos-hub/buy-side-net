@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8054,
+    "n_rows": 8057,
     "counts": {
-      "total": 8054,
-      "active": 7855,
+      "total": 8057,
+      "active": 7858,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7781,
-      "on_map": 7687
+      "documented": 7784,
+      "on_map": 7690
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3739,
-        "n": 4140
+        "allied": 3742,
+        "n": 4143
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 377438580149.0606,
-        "allied_n": 3668
+        "allied": 377618854026.6806,
+        "allied_n": 3671
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6622,
-        "n": 6877
+        "allied": 6625,
+        "n": 6880
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 521307286124.8602,
-        "allied_n": 6541
+        "allied": 521487560002.4802,
+        "allied_n": 6544
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3605
+          "allied": 3608
         },
         "infrastructure": {
           "us": 68,
@@ -9043,7 +9043,10 @@
       "energisa_ae_total_3t19_861m_brl",
       "energisa_ae_dist_total_2t19_569m_brl",
       "energisa_ae_tx_total_2t19_70m_brl",
-      "energisa_ae_total_2t19_640m_brl"
+      "energisa_ae_total_2t19_640m_brl",
+      "energisa_ae_dist_total_1t19_417m_brl",
+      "energisa_ae_tx_total_1t19_50m_brl",
+      "energisa_ae_total_1t19_468m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
