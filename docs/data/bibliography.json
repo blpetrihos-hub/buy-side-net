@@ -73014,5 +73014,455 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_alutiiq_mexico_p25_radio_network_43402k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0113_1900_-NONE-_-NONE- (alutiiq_mexico_p25_radio_network_43402k_2018). Signed 2018-06-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0113_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0113_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_mexico_p25_radio_network_43402k_2018 USD 43.403m. Supports alutiiq_mexico_p25_radio_network_43402k_2018.",
+    "supports": [
+      "alutiiq_mexico_p25_radio_network_43402k_2018",
+      "hunt_cycle1292"
+    ],
+    "map_supports": [
+      "alutiiq_mexico_p25_radio_network_43402k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_mexico_setec_it_comms_18259k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16C0006_1900_-NONE-_-NONE- (alutiiq_mexico_setec_it_comms_18259k_2016). Signed 2016-07-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0006_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0006_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_mexico_setec_it_comms_18259k_2016 USD 18.260m. Supports alutiiq_mexico_setec_it_comms_18259k_2016.",
+    "supports": [
+      "alutiiq_mexico_setec_it_comms_18259k_2016",
+      "hunt_cycle1292"
+    ],
+    "map_supports": [
+      "alutiiq_mexico_setec_it_comms_18259k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_industrias_bendig_costarica_oij_shooting_range_511k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23C0074_1900_-NONE-_-NONE- (industrias_bendig_costarica_oij_shooting_range_511k_2023). Signed 2023-06-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23C0074_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23C0074_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: industrias_bendig_costarica_oij_shooting_range_511k_2023 USD 0.511m. Supports industrias_bendig_costarica_oij_shooting_range_511k_2023.",
+    "supports": [
+      "industrias_bendig_costarica_oij_shooting_range_511k_2023",
+      "hunt_cycle1292"
+    ],
+    "map_supports": [
+      "industrias_bendig_costarica_oij_shooting_range_511k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_industrias_bendig_costarica_puerto_viejo_police_422k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23C0034_1900_-NONE-_-NONE- (industrias_bendig_costarica_puerto_viejo_police_422k_2023). Signed 2023-04-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23C0034_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23C0034_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: industrias_bendig_costarica_puerto_viejo_police_422k_2023 USD 0.423m. Supports industrias_bendig_costarica_puerto_viejo_police_422k_2023.",
+    "supports": [
+      "industrias_bendig_costarica_puerto_viejo_police_422k_2023",
+      "hunt_cycle1292"
+    ],
+    "map_supports": [
+      "industrias_bendig_costarica_puerto_viejo_police_422k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_industrias_bendig_costarica_inl_rappel_403k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0159_1900_-NONE-_-NONE- (industrias_bendig_costarica_inl_rappel_403k_2019). Signed 2019-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0159_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0159_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: industrias_bendig_costarica_inl_rappel_403k_2019 USD 0.403m. Supports industrias_bendig_costarica_inl_rappel_403k_2019.",
+    "supports": [
+      "industrias_bendig_costarica_inl_rappel_403k_2019",
+      "hunt_cycle1292"
+    ],
+    "map_supports": [
+      "industrias_bendig_costarica_inl_rappel_403k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_colombia_bogota_radio_comms_15350k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19WHAR18C0001_1900_-NONE-_-NONE- (alutiiq_colombia_bogota_radio_comms_15350k_2018). Signed 2018-02-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19WHAR18C0001_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19WHAR18C0001_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_colombia_bogota_radio_comms_15350k_2018 USD 15.351m. Supports alutiiq_colombia_bogota_radio_comms_15350k_2018.",
+    "supports": [
+      "alutiiq_colombia_bogota_radio_comms_15350k_2018",
+      "hunt_cycle1293"
+    ],
+    "map_supports": [
+      "alutiiq_colombia_bogota_radio_comms_15350k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_human_tech_colombia_rapid_shelter_systems_270k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24F0053_1900_19AQMM21D0007_1900 (human_tech_colombia_rapid_shelter_systems_270k_2024). Signed 2024-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0053_1900_19AQMM21D0007_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0053_1900_19AQMM21D0007_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: human_tech_colombia_rapid_shelter_systems_270k_2024 USD 0.270m. Supports human_tech_colombia_rapid_shelter_systems_270k_2024.",
+    "supports": [
+      "human_tech_colombia_rapid_shelter_systems_270k_2024",
+      "hunt_cycle1293"
+    ],
+    "map_supports": [
+      "human_tech_colombia_rapid_shelter_systems_270k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_industrias_bendig_costarica_mag_monitoring_center_342k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0162_1900_-NONE-_-NONE- (industrias_bendig_costarica_mag_monitoring_center_342k_2019). Signed 2019-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0162_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0162_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: industrias_bendig_costarica_mag_monitoring_center_342k_2019 USD 0.343m. Supports industrias_bendig_costarica_mag_monitoring_center_342k_2019.",
+    "supports": [
+      "industrias_bendig_costarica_mag_monitoring_center_342k_2019",
+      "hunt_cycle1293"
+    ],
+    "map_supports": [
+      "industrias_bendig_costarica_mag_monitoring_center_342k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_desarrollo_integral_colombia_cmr_ramps_212k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02024C0013_1900_-NONE-_-NONE- (desarrollo_integral_colombia_cmr_ramps_212k_2024). Signed 2024-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024C0013_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024C0013_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: desarrollo_integral_colombia_cmr_ramps_212k_2024 USD 0.213m. Supports desarrollo_integral_colombia_cmr_ramps_212k_2024.",
+    "supports": [
+      "desarrollo_integral_colombia_cmr_ramps_212k_2024",
+      "hunt_cycle1293"
+    ],
+    "map_supports": [
+      "desarrollo_integral_colombia_cmr_ramps_212k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_desarrollo_integral_colombia_ctg_security_158k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02024C0007_1900_-NONE-_-NONE- (desarrollo_integral_colombia_ctg_security_158k_2024). Signed 2024-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024C0007_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024C0007_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: desarrollo_integral_colombia_ctg_security_158k_2024 USD 0.159m. Supports desarrollo_integral_colombia_ctg_security_158k_2024.",
+    "supports": [
+      "desarrollo_integral_colombia_ctg_security_158k_2024",
+      "hunt_cycle1293"
+    ],
+    "map_supports": [
+      "desarrollo_integral_colombia_ctg_security_158k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ics_brazil_consular_expansion_hubzone_256k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F0730_1900_SAQMMA08D0005_1900 (ics_brazil_consular_expansion_hubzone_256k_2012). Signed 2012-03-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F0730_1900_SAQMMA08D0005_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F0730_1900_SAQMMA08D0005_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ics_brazil_consular_expansion_hubzone_256k_2012 USD 0.256m. Supports ics_brazil_consular_expansion_hubzone_256k_2012.",
+    "supports": [
+      "ics_brazil_consular_expansion_hubzone_256k_2012",
+      "hunt_cycle1294"
+    ],
+    "map_supports": [
+      "ics_brazil_consular_expansion_hubzone_256k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_kva_honduras_power_systems_electrical_212k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11C0253_1900_-NONE-_-NONE- (kva_honduras_power_systems_electrical_212k_2011). Signed 2011-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11C0253_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11C0253_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: kva_honduras_power_systems_electrical_212k_2011 USD 0.213m. Supports kva_honduras_power_systems_electrical_212k_2011.",
+    "supports": [
+      "kva_honduras_power_systems_electrical_212k_2011",
+      "hunt_cycle1294"
+    ],
+    "map_supports": [
+      "kva_honduras_power_systems_electrical_212k_2011"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_norma_gutierrez_mexico_double_pane_window_159k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5322C0005_1900_-NONE-_-NONE- (norma_gutierrez_mexico_double_pane_window_159k_2022). Signed 2022-04-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5322C0005_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5322C0005_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norma_gutierrez_mexico_double_pane_window_159k_2022 USD 0.159m. Supports norma_gutierrez_mexico_double_pane_window_159k_2022.",
+    "supports": [
+      "norma_gutierrez_mexico_double_pane_window_159k_2022",
+      "hunt_cycle1294"
+    ],
+    "map_supports": [
+      "norma_gutierrez_mexico_double_pane_window_159k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_norma_gutierrez_mexico_cmr_electrical_substation_148k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5318C0004_1900_-NONE-_-NONE- (norma_gutierrez_mexico_cmr_electrical_substation_148k_2018). Signed 2018-08-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5318C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5318C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norma_gutierrez_mexico_cmr_electrical_substation_148k_2018 USD 0.149m. Supports norma_gutierrez_mexico_cmr_electrical_substation_148k_2018.",
+    "supports": [
+      "norma_gutierrez_mexico_cmr_electrical_substation_148k_2018",
+      "hunt_cycle1294"
+    ],
+    "map_supports": [
+      "norma_gutierrez_mexico_cmr_electrical_substation_148k_2018"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_desarrollo_integral_colombia_med_unit_99k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02023C0005_1900_-NONE-_-NONE- (desarrollo_integral_colombia_med_unit_99k_2023). Signed 2023-09-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02023C0005_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02023C0005_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: desarrollo_integral_colombia_med_unit_99k_2023 USD 0.100m. Supports desarrollo_integral_colombia_med_unit_99k_2023.",
+    "supports": [
+      "desarrollo_integral_colombia_med_unit_99k_2023",
+      "hunt_cycle1294"
+    ],
+    "map_supports": [
+      "desarrollo_integral_colombia_med_unit_99k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mesan_mexico_tijuana_multimedia_gps_377k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F1240_1900_SAQMMA08D0015_1900 (mesan_mexico_tijuana_multimedia_gps_377k_2011). Signed 2011-04-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F1240_1900_SAQMMA08D0015_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F1240_1900_SAQMMA08D0015_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: mesan_mexico_tijuana_multimedia_gps_377k_2011 USD 0.377m. Supports mesan_mexico_tijuana_multimedia_gps_377k_2011.",
+    "supports": [
+      "mesan_mexico_tijuana_multimedia_gps_377k_2011",
+      "hunt_cycle1295"
+    ],
+    "map_supports": [
+      "mesan_mexico_tijuana_multimedia_gps_377k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hollingsworth_brazil_brasilia_nec_ae_147k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5021F0433_1900_SGE50016D0009_1900 (hollingsworth_brazil_brasilia_nec_ae_147k_2021). Signed 2021-08-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021F0433_1900_SGE50016D0009_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021F0433_1900_SGE50016D0009_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hollingsworth_brazil_brasilia_nec_ae_147k_2021 USD 0.147m. Supports hollingsworth_brazil_brasilia_nec_ae_147k_2021.",
+    "supports": [
+      "hollingsworth_brazil_brasilia_nec_ae_147k_2021",
+      "hunt_cycle1295"
+    ],
+    "map_supports": [
+      "hollingsworth_brazil_brasilia_nec_ae_147k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_desarrollo_integral_colombia_chancery_bathroom_95k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02026C0011_1900_-NONE-_-NONE- (desarrollo_integral_colombia_chancery_bathroom_95k_2026). Signed 2026-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02026C0011_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02026C0011_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: desarrollo_integral_colombia_chancery_bathroom_95k_2026 USD 0.095m. Supports desarrollo_integral_colombia_chancery_bathroom_95k_2026.",
+    "supports": [
+      "desarrollo_integral_colombia_chancery_bathroom_95k_2026",
+      "hunt_cycle1295"
+    ],
+    "map_supports": [
+      "desarrollo_integral_colombia_chancery_bathroom_95k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fabio_garzon_colombia_construction_120k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11P0153_9700_-NONE-_-NONE- (fabio_garzon_colombia_construction_120k_2011). Signed 2011-07-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0153_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0153_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: fabio_garzon_colombia_construction_120k_2011 USD 0.121m. Supports fabio_garzon_colombia_construction_120k_2011.",
+    "supports": [
+      "fabio_garzon_colombia_construction_120k_2011",
+      "hunt_cycle1295"
+    ],
+    "map_supports": [
+      "fabio_garzon_colombia_construction_120k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fabio_garzon_colombia_construction_94k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11P0155_9700_-NONE-_-NONE- (fabio_garzon_colombia_construction_94k_2011). Signed 2011-07-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0155_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0155_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: fabio_garzon_colombia_construction_94k_2011 USD 0.094m. Supports fabio_garzon_colombia_construction_94k_2011.",
+    "supports": [
+      "fabio_garzon_colombia_construction_94k_2011",
+      "hunt_cycle1295"
+    ],
+    "map_supports": [
+      "fabio_garzon_colombia_construction_94k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hollingsworth_jamaica_design_services_138k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5020F0460_1900_SGE50016D0009_1900 (hollingsworth_jamaica_design_services_138k_2020). Signed 2020-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020F0460_1900_SGE50016D0009_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020F0460_1900_SGE50016D0009_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hollingsworth_jamaica_design_services_138k_2020 USD 0.139m. Supports hollingsworth_jamaica_design_services_138k_2020.",
+    "supports": [
+      "hollingsworth_jamaica_design_services_138k_2020",
+      "hunt_cycle1296"
+    ],
+    "map_supports": [
+      "hollingsworth_jamaica_design_services_138k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_mexico_emc_install_116k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC14M0042_1900_-NONE-_-NONE- (alutiiq_mexico_emc_install_116k_2014). Signed 2014-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC14M0042_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC14M0042_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_mexico_emc_install_116k_2014 USD 0.117m. Supports alutiiq_mexico_emc_install_116k_2014.",
+    "supports": [
+      "alutiiq_mexico_emc_install_116k_2014",
+      "hunt_cycle1296"
+    ],
+    "map_supports": [
+      "alutiiq_mexico_emc_install_116k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fabio_garzon_colombia_construction_88k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11P0151_9700_-NONE-_-NONE- (fabio_garzon_colombia_construction_88k_2011). Signed 2011-07-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0151_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0151_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: fabio_garzon_colombia_construction_88k_2011 USD 0.088m. Supports fabio_garzon_colombia_construction_88k_2011.",
+    "supports": [
+      "fabio_garzon_colombia_construction_88k_2011",
+      "hunt_cycle1296"
+    ],
+    "map_supports": [
+      "fabio_garzon_colombia_construction_88k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_usgo_renovation_phase2_244k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2521C0008_1900_-NONE-_-NONE- (misc_brazil_usgo_renovation_phase2_244k_2021). Signed 2021-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2521C0008_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2521C0008_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_brazil_usgo_renovation_phase2_244k_2021 USD 0.245m. Supports misc_brazil_usgo_renovation_phase2_244k_2021.",
+    "supports": [
+      "misc_brazil_usgo_renovation_phase2_244k_2021",
+      "hunt_cycle1296"
+    ],
+    "map_supports": [
+      "misc_brazil_usgo_renovation_phase2_244k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_ecuador_consular_renovation_239k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7520C0007_1900_-NONE-_-NONE- (misc_ecuador_consular_renovation_239k_2020). Signed 2020-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7520C0007_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7520C0007_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_ecuador_consular_renovation_239k_2020 USD 0.239m. Supports misc_ecuador_consular_renovation_239k_2020.",
+    "supports": [
+      "misc_ecuador_consular_renovation_239k_2020",
+      "hunt_cycle1296"
+    ],
+    "map_supports": [
+      "misc_ecuador_consular_renovation_239k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
