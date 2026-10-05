@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8145,
+    "n_rows": 8150,
     "counts": {
-      "total": 8145,
-      "active": 7946,
+      "total": 8150,
+      "active": 7951,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7872,
-      "on_map": 7778
+      "documented": 7877,
+      "on_map": 7783
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3830,
-        "n": 4231
+        "allied": 3835,
+        "n": 4236
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382795687870.5904,
-        "allied_n": 3759
+        "allied": 382833158766.3705,
+        "allied_n": 3764
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6713,
-        "n": 6968
+        "allied": 6718,
+        "n": 6973
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526664393846.39,
-        "allied_n": 6632
+        "allied": 526701864742.1701,
+        "allied_n": 6637
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3696
+          "allied": 3701
         },
         "infrastructure": {
           "us": 68,
@@ -9134,7 +9134,12 @@
       "axia_txproj_melhoria_na_se_c_paulista_susbtituicao_do_tra_43m_brl",
       "axia_txproj_melhoria_na_se_foz_do_iguacu_revitalizacao_do_43m_brl",
       "axia_txproj_melhoria_na_se_blumenau_substituicao_do_autot_42m_brl",
-      "axia_txproj_se_gravatai_3_instalacao_do_2_transformador_2_41m_brl"
+      "axia_txproj_se_gravatai_3_instalacao_do_2_transformador_2_41m_brl",
+      "axia_txproj_reforco_na_se_lucas_do_rio_verde_instalacao_d_40m_brl",
+      "axia_txproj_reforco_na_se_rondonopolis_substituicao_do_tr_39m_brl",
+      "axia_txproj_reforco_na_se_ibiuna_instalacao_das_fases_pri_39m_brl",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v2"
     ],
     "hunt": [
       "hunt_br_power_equip",
