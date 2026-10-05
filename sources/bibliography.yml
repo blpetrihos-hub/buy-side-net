@@ -12693,7 +12693,7 @@
   type: company
   chicago: Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia Brasília Outros (Dist) 6M26 via Fed H.10. Supports neoenergia_brasilia_outros_dist_6m26_43m_brl.
+  annotation: Neoenergia Brasília Investimento Líquido 6M26 via Fed H.10. Supports neoenergia_brasilia_investimento_liquido_6m26_248m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12776,6 +12776,22 @@
   - neoenergia_cosern_outros_dist_6m26_22m_brl
   - neoenergia_elektro_outros_dist_6m26_87m_brl
   - neoenergia_brasilia_outros_dist_6m26_43m_brl
+  - neoenergia_coelba_material_6m26_175m_brl
+  - hunt_cycle303
+  - neoenergia_pe_material_6m26_66m_brl
+  - neoenergia_cosern_material_6m26_26m_brl
+  - neoenergia_elektro_material_6m26_23m_brl
+  - neoenergia_brasilia_material_6m26_21m_brl
+  - neoenergia_coelba_investimento_bruto_6m26_2092m_brl
+  - neoenergia_pe_investimento_bruto_6m26_815m_brl
+  - neoenergia_cosern_investimento_bruto_6m26_271m_brl
+  - neoenergia_elektro_investimento_bruto_6m26_626m_brl
+  - neoenergia_brasilia_investimento_bruto_6m26_262m_brl
+  - neoenergia_coelba_investimento_liquido_6m26_2093m_brl
+  - neoenergia_pe_investimento_liquido_6m26_811m_brl
+  - neoenergia_cosern_investimento_liquido_6m26_266m_brl
+  - neoenergia_elektro_investimento_liquido_6m26_586m_brl
+  - neoenergia_brasilia_investimento_liquido_6m26_248m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
