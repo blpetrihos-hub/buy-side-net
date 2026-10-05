@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 4153,
+    "n_rows": 4164,
     "counts": {
-      "total": 4153,
-      "active": 3954,
+      "total": 4164,
+      "active": 3965,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 3880,
-      "on_map": 3786
+      "documented": 3891,
+      "on_map": 3797
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 2407,
-        "n": 2716
+        "allied": 2418,
+        "n": 2727
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 125010041152.52963,
-        "allied_n": 2333
+        "allied": 125219193888.22963,
+        "allied_n": 2344
       },
       "matched_gaps": {
         "n": 1,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 2721,
-        "n": 2976
+        "allied": 2732,
+        "n": 2987
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 243204524874.18903,
-        "allied_n": 2640
+        "allied": 243413677609.889,
+        "allied_n": 2651
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 2284
+          "allied": 2295
         },
         "resources": {
           "us": 26,
@@ -5142,7 +5142,18 @@
       "motiva_renovias_fy2012_23m_brl",
       "motiva_rails_fy2012_16m_brl",
       "motiva_viaquatro_fy2012_11m_brl",
-      "motiva_outros_fy2012_21m_brl"
+      "motiva_outros_fy2012_21m_brl",
+      "motiva_roads_exmaint_fy2012_666m_brl",
+      "motiva_vialagos_exmaint_fy2012_3m_brl",
+      "motiva_autoban_exmaint_fy2012_171m_brl",
+      "motiva_viaoeste_exmaint_fy2012_51m_brl",
+      "motiva_rodoanel_oeste_exmaint_fy2012_45m_brl",
+      "motiva_spvias_exmaint_fy2012_73m_brl",
+      "motiva_viario_exmaint_fy2012_13m_brl",
+      "motiva_renovias_exmaint_fy2012_15m_brl",
+      "motiva_rails_exmaint_fy2012_16m_brl",
+      "motiva_viaquatro_exmaint_fy2012_11m_brl",
+      "motiva_outros_exmaint_fy2012_21m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
