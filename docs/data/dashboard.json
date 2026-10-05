@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1453,
+    "n_rows": 1455,
     "counts": {
-      "total": 1453,
-      "active": 1254,
+      "total": 1455,
+      "active": 1256,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 173,
+      "proxy": 174,
       "exclude": 18,
-      "documented": 1203,
-      "on_map": 1126
+      "documented": 1204,
+      "on_map": 1128
     }
   },
   "layer_readouts": [
@@ -111,8 +111,8 @@
         "n": 459
       },
       "usd": {
-        "us": 30963485939.530003,
-        "us_n": 95,
+        "us": 32963485939.530003,
+        "us_n": 96,
         "prc": 17053401133.600002,
         "prc_n": 38,
         "allied": 43757811759.26002,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 149,
         "prc": 173,
-        "allied": 159,
-        "n": 481
+        "allied": 161,
+        "n": 483
       },
       "usd": {
         "us": 20283858581.43,
         "us_n": 47,
         "prc": 24000782175.170002,
         "prc_n": 45,
-        "allied": 49006425412.63999,
-        "allied_n": 92
+        "allied": 49950166865.99999,
+        "allied_n": 94
       },
       "matched_gaps": {
         "n": 1,
@@ -213,8 +213,8 @@
         "n": 90
       },
       "usd": {
-        "us": 7370869147.0,
-        "us_n": 4,
+        "us": 9370869147.0,
+        "us_n": 5,
         "prc": 3894732659.07,
         "prc_n": 14,
         "allied": 33445356187.2,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 98,
         "prc": 88,
-        "allied": 167,
-        "n": 353
+        "allied": 169,
+        "n": 355
       },
       "usd": {
         "us": 14545227245.099998,
         "us_n": 35,
         "prc": 22742763145.38,
         "prc_n": 34,
-        "allied": 70059007158.37003,
-        "allied_n": 89
+        "allied": 71002748611.73003,
+        "allied_n": 91
       },
       "by_layer": {
         "energy": {
           "us": 17,
           "prc": 54,
-          "allied": 60
+          "allied": 62
         },
         "infrastructure": {
           "us": 55,
@@ -2442,7 +2442,9 @@
       "powerchina_nencol5_lstk_195p2m_2026",
       "aes_andes_greentegra_4bn_chile_2026",
       "equinix_latam_419m_2025_2026",
-      "vicuna_stage1_capex_7p1bn_2026"
+      "vicuna_stage1_capex_7p1bn_2026",
+      "arcelormittal_babilonia_centro_wind_4p2bn_2025",
+      "arcelormittal_babilonia_centro_solar_700m_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

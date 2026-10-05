@@ -4939,12 +4939,13 @@
   - hunt_infra_engineering_epc
 - id: halliburton_ypf_zeus_20260413
   type: company
-  chicago: Halliburton. “YPF Awards Halliburton Multibillion-Dollar Long-Term Unconventional Completions Contract in Argentina.” Press release, 13 April 2026.
+  chicago: Halliburton. “YPF Awards Halliburton Multibillion-Dollar Long-Term Unconventional Completions Contract in Argentina.” Press release, April 13, 2026. https://www.halliburton.com/en/about-us/press-release/ypf-awards-halliburton-multibillion-dollar-long-term-unconventional-completions-contract-argentina.
   url: https://www.halliburton.com/en/about-us/press-release/ypf-awards-halliburton-multibillion-dollar-long-term-unconventional-completions-contract-argentina
-  annotation: Halliburton YPF Vaca Muerta ZEUS electric frac award. Supports halliburton_ypf_zeus_vaca_muerta_2026.
+  annotation: Halliburton YPF ZEUS CapEx-fill USD 2bn multibillion soft floor. Supports halliburton_ypf_zeus_vaca_muerta_2026.
   supports:
   - halliburton_ypf_zeus_vaca_muerta_2026
   - hunt_infra_engineering_epc
+  - hunt_cycle239
 - id: halliburton_pampa_digital_20260609
   type: company
   chicago: Halliburton. “Pampa Energía Selects Halliburton to Support Enterprise Digital Transformation.” Press release, 9 June 2026.
@@ -11971,3 +11972,20 @@
   supports:
   - konecranes_super_terminais_manaus_2025
   - hunt_cycle238
+- id: megawhat_mme_envision_800m_20260120
+  type: press
+  chicago: Souto, Poliana. “Envision Energy quer ampliar investimentos em energia no Brasil, diz MME.” MegaWhat, January 20, 2026. https://megawhat.uol.com.br/economia-e-politica/envision-energy-quer-ampliar-investimentos-em-energia-no-brasil-diz-mme/.
+  url: https://megawhat.uol.com.br/economia-e-politica/envision-energy-quer-ampliar-investimentos-em-energia-no-brasil-diz-mme/
+  annotation: Envision Casa dos Ventos CapEx-fill USD 800m MME floor (proxy). Supports envision_casa_ventos_630mw_2026.
+  supports:
+  - envision_casa_ventos_630mw_2026
+  - hunt_cycle239
+- id: arcelormittal_babilonia_centro_cod_20251125
+  type: company
+  chicago: ArcelorMittal Brasil. “ArcelorMittal e Casa dos Ventos antecipam operação comercial plena de parque eólico.” November 25, 2025. https://brasil.arcelormittal.com/box_templates/NEWS/809e49d6-0be9-4644-93af-ea6b781afa43.
+  url: https://brasil.arcelormittal.com/box_templates/NEWS/809e49d6-0be9-4644-93af-ea6b781afa43
+  annotation: ArcelorMittal Babilônia Centro solar NEW ~USD 134.82m via Fed H.10. Supports arcelormittal_babilonia_centro_solar_700m_2025.
+  supports:
+  - arcelormittal_babilonia_centro_wind_4p2bn_2025
+  - hunt_cycle239
+  - arcelormittal_babilonia_centro_solar_700m_2025
