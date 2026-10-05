@@ -1,0 +1,10 @@
+{
+  "id": "hardline_nati_trinidad_febr_1681k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hardline_nati_trinidad_febr_1681k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F4413_1900_SAQMMA14D0085_1900/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF HNC, LLC - SAQMMA14-D-0085 - TO: SAQMMA14-F-4413 - FEBR REPLACEMENT AND REPAIR PROJECT - US EMBASSY PORT OF SPAIN, TRINIDAD AND TOBAGO - PERIOD OF PERFORMANCE: 18 MONTHS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1680773.9; date_signed 2014-09-28."
+}

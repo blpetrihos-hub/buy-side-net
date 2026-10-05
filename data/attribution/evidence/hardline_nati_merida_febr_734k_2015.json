@@ -1,0 +1,10 @@
+{
+  "id": "hardline_nati_merida_febr_734k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hardline_nati_merida_febr_734k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F3366_1900_SAQMMA14D0085_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF HNC - SAQMMA14D0085 - TO:SAQMMA15F3366 - FEBR R&R PROJECT -  US CONSULATE GENERAL MERIDA, MEXICO. REPLACE 13 EXISTING FEBR DOORS AND REPLACE 2 NON-RATED WITH FEBR DOORS AT POST.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 734437.0; date_signed 2015-09-29."
+}
