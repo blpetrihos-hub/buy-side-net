@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 1569,
+    "n_rows": 1577,
     "counts": {
-      "total": 1569,
-      "active": 1370,
+      "total": 1577,
+      "active": 1378,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 178,
       "exclude": 18,
-      "documented": 1306,
-      "on_map": 1233
+      "documented": 1314,
+      "on_map": 1241
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 174,
+        "us": 175,
         "prc": 126,
-        "allied": 190,
-        "n": 490
+        "allied": 196,
+        "n": 497
       },
       "usd": {
-        "us": 43655217878.43001,
-        "us_n": 107,
+        "us": 44955217878.43001,
+        "us_n": 108,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 54351312365.940025,
-        "allied_n": 116
+        "allied": 57208537766.07002,
+        "allied_n": 122
       },
       "matched_gaps": {
         "n": 1,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 155,
         "prc": 184,
-        "allied": 219,
-        "n": 558
+        "allied": 220,
+        "n": 559
       },
       "usd": {
         "us": 23626161117.969997,
         "us_n": 51,
         "prc": 32921064912.409996,
         "prc_n": 52,
-        "allied": 102179866371.00003,
-        "allied_n": 148
+        "allied": 102217115268.36003,
+        "allied_n": 149
       },
       "matched_gaps": {
         "n": 1,
@@ -364,27 +364,27 @@
       "counts": {
         "us": 109,
         "prc": 99,
-        "allied": 244,
-        "n": 452
+        "allied": 251,
+        "n": 459
       },
       "usd": {
         "us": 19523590504.539997,
         "us_n": 47,
         "prc": 31663045882.620003,
         "prc_n": 41,
-        "allied": 136552646109.8201,
-        "allied_n": 163
+        "allied": 139447120407.3101,
+        "allied_n": 170
       },
       "by_layer": {
         "energy": {
           "us": 19,
           "prc": 65,
-          "allied": 113
+          "allied": 114
         },
         "infrastructure": {
           "us": 64,
           "prc": 25,
-          "allied": 67
+          "allied": 73
         },
         "resources": {
           "us": 26,
@@ -430,14 +430,14 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 24,
+        "us": 25,
         "prc": 29,
         "allied": 30,
-        "n": 83
+        "n": 84
       },
       "usd": {
-        "us": 1556506908.27,
-        "us_n": 10,
+        "us": 2856506908.27,
+        "us_n": 11,
         "prc": 5971656357.0,
         "prc_n": 6,
         "allied": 2266740542.37,
@@ -450,7 +450,7 @@
           "allied": 12
         },
         "infrastructure": {
-          "us": 4,
+          "us": 5,
           "prc": 7,
           "allied": 14
         },
@@ -2558,7 +2558,15 @@
       "alupar_2t26_capex_354m_brl",
       "mrs_baixada_santista_2bn_brl_2026",
       "rumo_2026_capex_plan_55bn_brl",
-      "rumo_ferrovia_mt_1bn_brl_2026"
+      "rumo_ferrovia_mt_1bn_brl_2026",
+      "odata_colombia_bg02_bg03_1p3bn_2024",
+      "metro_sp_2t26_capex_1061m_brl",
+      "metro_sp_6m26_capex_2132m_brl",
+      "metro_sp_2026_capex_plan_6336m_brl",
+      "metro_sp_linha2_verde_2026_plan_28bn_brl",
+      "motiva_viaquatro_signaling_676m_brl_2026",
+      "motiva_2t26_capex_1830m_brl",
+      "taesa_reforcos_melhorias_193p4m_brl_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

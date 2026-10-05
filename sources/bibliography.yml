@@ -12713,14 +12713,17 @@
   - aegea_6m26_ecosystem_capex_3407m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
-  chicago: Motiva S.A. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento.” July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
+  chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
   url: https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/
-  annotation: Motiva 2T26 roads/rails CapEx and 1S26 consolidated via Fed H.10. Supports motiva_2t26_roads_capex_1640m_brl; motiva_2t26_rails_capex_175m_brl; motiva_1s26_capex_3304m_brl.
+  annotation: Motiva 2T26 CapEx R$1.83bn + ViaQuatro signaling R$676m via Fed H.10. Supports motiva_2t26_capex_1830m_brl; motiva_viaquatro_signaling_676m_brl_2026.
   supports:
   - motiva_2t26_roads_capex_1640m_brl
   - hunt_cycle263
   - motiva_2t26_rails_capex_175m_brl
   - motiva_1s26_capex_3304m_brl
+  - motiva_viaquatro_signaling_676m_brl_2026
+  - hunt_cycle265
+  - motiva_2t26_capex_1830m_brl
 - id: motiva_2026_investment_plan_oe_20260210
   type: press
   chicago: Revista O Empreiteiro. “Motiva prevê R$ 8,33 bilhões em investimentos em 2026.” February 10, 2026. https://revistaoe.com.br/motiva-investimentos-2026/.
@@ -12770,3 +12773,37 @@
   - rumo_2026_capex_plan_55bn_brl
   - hunt_cycle264
   - rumo_ferrovia_mt_1bn_brl_2026
+- id: odata_aligned_colombia_1p3bn_20241023
+  type: company
+  chicago: Aligned Data Centers. “ODATA Announces $1.3B Expansion in Colombia, Boosting Digital Development in the Country.” October 23, 2024. https://aligneddc.com/press-release/odata-announces-1-3b-expansion-in-colombia-boosting-digital-development-in-the-country/.
+  url: https://aligneddc.com/press-release/odata-announces-1-3b-expansion-in-colombia-boosting-digital-development-in-the-country/
+  annotation: ODATA Colombia BG02+BG03 CapEx USD 1.3bn company English. Supports odata_colombia_bg02_bg03_1p3bn_2024.
+  supports:
+  - odata_colombia_bg02_bg03_1p3bn_2024
+  - hunt_cycle265
+- id: metro_sp_2t26_release_2026
+  type: company
+  chicago: Companhia do Metropolitano de São Paulo — Metrô. “Release de resultados 2T26.” 2026. https://af0020-61294dc44a8f38122c35-endpoint.azureedge.net/blobaf00201eecb0af9a/wp-content/uploads/2026/05/Release-de-resultado_2T26.pdf.
+  url: https://af0020-61294dc44a8f38122c35-endpoint.azureedge.net/blobaf00201eecb0af9a/wp-content/uploads/2026/05/Release-de-resultado_2T26.pdf
+  annotation: Metro SP 2T26/6M26 CapEx via Fed H.10. Supports metro_sp_2t26_capex_1061m_brl; metro_sp_6m26_capex_2132m_brl.
+  supports:
+  - metro_sp_2t26_capex_1061m_brl
+  - hunt_cycle265
+  - metro_sp_6m26_capex_2132m_brl
+- id: metro_sp_df2025_capex_plan_2026
+  type: company
+  chicago: Companhia do Metropolitano de São Paulo — Metrô. “Demonstrações financeiras 2025” (2026 CapEx program). https://ri.metrosp.com.br/wp-content/uploads/2025/11/Demonstracao-financeira-Metro-2025.pdf.
+  url: https://ri.metrosp.com.br/wp-content/uploads/2025/11/Demonstracao-financeira-Metro-2025.pdf
+  annotation: Metro SP 2026 CapEx plan R$6,336m + Linha 2-Verde R$2.8bn via Fed H.10. Supports metro_sp_2026_capex_plan_6336m_brl; metro_sp_linha2_verde_2026_plan_28bn_brl.
+  supports:
+  - metro_sp_2026_capex_plan_6336m_brl
+  - hunt_cycle265
+  - metro_sp_linha2_verde_2026_plan_28bn_brl
+- id: taesa_2t26_release_2026
+  type: company
+  chicago: TAESA. “Divulgação de Resultados 2T26.” 2026. https://ri.taesa.com.br/wp-content/uploads/2018/11/TAESA_Release-2T26.pdf.
+  url: https://ri.taesa.com.br/wp-content/uploads/2018/11/TAESA_Release-2T26.pdf
+  annotation: TAESA Despacho 200 reforços R$184.5m + melhorias R$8.9m via Fed H.10. Supports taesa_reforcos_melhorias_193p4m_brl_2026.
+  supports:
+  - taesa_reforcos_melhorias_193p4m_brl_2026
+  - hunt_cycle265
