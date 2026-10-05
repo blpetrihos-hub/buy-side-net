@@ -1,11 +1,27 @@
 updated: 2026-10-05
-cycle: 879
+cycle: 880
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 880 shuffle_seed=20261880; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1531); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; Progress Rail VLI; Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA CapEx/Energisa/Cemig loaded; AXIA Capex de Transmissão projects remaining (b043..b059; 17 batches); diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales; Bechtel QB2. No U.S. territories.
-next_row_id: (follow cycle-880 shuffled_order)
+next_query: Cycle 881 shuffle_seed=20261881; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1531); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; Progress Rail VLI; Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA CapEx/Energisa/Cemig loaded; AXIA Capex de Transmissão projects remaining (b044..b059; 16 batches); diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales; Bechtel QB2. No U.S. territories.
+next_row_id: (follow cycle-881 shuffled_order)
 dry_streak: 0
+
+# === Country×subcategory sweep cells touched (session continuing from 880) ===
+# Filled this cycle: Brazil×power_plants_grid NEW×5 other (AXIA Capex de Transmissão projects b043).
+# Still thin: Haiti, Venezuela, Nicaragua rail, Peru balsa, Colombia graphite.
+# ≥1/3 U.S. hunt budget spent (CapEx dry). PRC CapEx-blank.
+
+# === Cycle 880 (seed 20261880) ===
+# Shuffled: bridges_roads, port_ownership, engineering_epc, lithium, fission_smr, port_cranes, power_plants_grid, nickel, rail, balsa, solar, copper, niobium, other_renewables, wind, water, graphite, building_materials.
+# Logged 5 NEW (0 US / 0 PRC / 0 allied / 5 other; US CapEx dry):
+#   other: axia_txproj_melhoria_na_se_samambaia_substituicao_do_tran_10m_brl; axia_txproj_reforco_na_se_s_da_mesa_substituicao_do_atf_r_9m_brl; axia_txproj_melhoria_na_se_brasilia_sul_substituicao_da_f_9m_brl; axia_txproj_melhoria_na_se_p_dutra_substituicao_do_reator_9m_brl; axia_txproj_reforco_na_se_ivaipora_instalacao_da_fase_res_9m_brl; .
+# Thin top-up dry. Equal-budget misses: catalog dense; thin dry; US CapEx dry.
+# Holdovers: Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA/Energisa/Cemig loaded; AXIA Capex de Transmissão projects remaining (b044..b059; 16 batches).
+# Active after cycle 880: us466 / prc407 / allied1531 / other5702 (n=8106).
+
+# === Cycle 879 (seed 20261879) summary ===
+# Prior CapEx cycle. Active after: see prior coverage.
 
 # === Country×subcategory sweep cells touched (session continuing from 879) ===
 # Filled this cycle: Brazil×power_plants_grid NEW×5 other (AXIA Capex de Transmissão projects b042).
@@ -2789,46 +2805,46 @@ dry_streak: 0
 # === Cycle 318 (seed 20261318) summary ===
 # Logged 22 NEW Motiva 3T25 excl.-maint CapEx. Active after: us466/prc407/allied602/other590 (n=2065).
 
-shuffle_seed: 20261879
+shuffle_seed: 20261880
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- infrastructure/engineering_epc
-- energy/wind
-- resources/water
 - infrastructure/bridges_roads
 - infrastructure/port_ownership
+- infrastructure/engineering_epc
+- resources/lithium
+- energy/fission_smr
+- infrastructure/port_cranes
 - energy/power_plants_grid
-- energy/other_renewables
-- infrastructure/building_materials
+- resources/nickel
+- infrastructure/rail
 - resources/balsa
 - energy/solar
-- infrastructure/port_cranes
-- energy/fission_smr
 - resources/copper
-- resources/graphite
-- resources/nickel
-- resources/lithium
 - resources/niobium
-- infrastructure/rail
+- energy/other_renewables
+- energy/wind
+- resources/water
+- resources/graphite
+- infrastructure/building_materials
 rows_found_this_cycle:
-  infrastructure/engineering_epc: 0
-  energy/wind: 0
-  resources/water: 0
   infrastructure/bridges_roads: 0
   infrastructure/port_ownership: 0
+  infrastructure/engineering_epc: 0
+  resources/lithium: 0
+  energy/fission_smr: 0
+  infrastructure/port_cranes: 0
   energy/power_plants_grid: 5
-  energy/other_renewables: 0
-  infrastructure/building_materials: 0
+  resources/nickel: 0
+  infrastructure/rail: 0
   resources/balsa: 0
   energy/solar: 0
-  infrastructure/port_cranes: 0
-  energy/fission_smr: 0
   resources/copper: 0
-  resources/graphite: 0
-  resources/nickel: 0
-  resources/lithium: 0
   resources/niobium: 0
-  infrastructure/rail: 0
+  energy/other_renewables: 0
+  energy/wind: 0
+  resources/water: 0
+  resources/graphite: 0
+  infrastructure/building_materials: 0
 rows_by_side_this_cycle:
   us: 0
   prc: 0
@@ -2845,5 +2861,5 @@ coverage_cumulative_active_rows:
   us: 466
   prc: 407
   allied: 1531
-  other: 5697
-  n: 8101
+  other: 5702
+  n: 8106
