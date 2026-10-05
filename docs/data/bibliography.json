@@ -23140,7 +23140,7 @@
     "type": "company",
     "chicago": "Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2",
-    "annotation": "Rumo Sul 6M26 CapEx R$343m via Fed H.10. Supports rumo_sul_6m26_343m_brl.",
+    "annotation": "Rumo Porto e Terminais 6M26 CapEx R$41m via Fed H.10. Supports rumo_porto_terminais_6m26_41m_brl.",
     "supports": [
       "rumo_2t26_capex_1597m_brl",
       "hunt_cycle260",
@@ -23166,7 +23166,11 @@
       "hunt_cycle281",
       "rumo_capacitacao_6m26_949m_brl",
       "rumo_fmt_6m26_671m_brl",
-      "rumo_sul_6m26_343m_brl"
+      "rumo_sul_6m26_343m_brl",
+      "rumo_norte_recorrente_6m26_780m_brl",
+      "hunt_cycle282",
+      "rumo_conteiner_6m26_40m_brl",
+      "rumo_porto_terminais_6m26_41m_brl"
     ],
     "map_supports": [
       "rumo_2t26_capex_1597m_brl",
@@ -23174,6 +23178,7 @@
       "rumo_capacitacao_2t26_483m_brl",
       "rumo_capacitacao_6m26_949m_brl",
       "rumo_conteiner_2t26_21m_brl",
+      "rumo_conteiner_6m26_40m_brl",
       "rumo_expansao_norte_2t26_979m_brl",
       "rumo_expansao_norte_6m26_2207m_brl",
       "rumo_fmt_2t26_342m_brl",
@@ -23183,7 +23188,9 @@
       "rumo_norte_2t26_1393m_brl",
       "rumo_norte_6m26_2988m_brl",
       "rumo_norte_recorrente_2t26_415m_brl",
+      "rumo_norte_recorrente_6m26_780m_brl",
       "rumo_porto_terminais_2t26_39m_brl",
+      "rumo_porto_terminais_6m26_41m_brl",
       "rumo_sul_2t26_183m_brl",
       "rumo_sul_6m26_343m_brl"
     ],
@@ -23265,7 +23272,7 @@
     "type": "company",
     "chicago": "Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2",
-    "annotation": "Aegea PPPs 6M26 Capex R$475m via Fed H.10. Supports aegea_ppps_6m26_475m_brl.",
+    "annotation": "Aegea Demais 6M26 Capex R$682m via Fed H.10. Supports aegea_demais_6m26_682m_brl.",
     "supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
       "hunt_cycle262",
@@ -23299,7 +23306,12 @@
       "hunt_cycle281",
       "aegea_aguas_do_rio_6m26_663m_brl",
       "aegea_novas_operacoes_6m26_339m_brl",
-      "aegea_ppps_6m26_475m_brl"
+      "aegea_ppps_6m26_475m_brl",
+      "aegea_manaus_6m26_164m_brl",
+      "hunt_cycle282",
+      "aegea_teresina_6m26_82m_brl",
+      "aegea_prolagos_6m26_69m_brl",
+      "aegea_demais_6m26_682m_brl"
     ],
     "map_supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
@@ -23311,10 +23323,12 @@
       "aegea_corsan_6m26_845m_brl",
       "aegea_corsan_outorga_2t26_20m_brl",
       "aegea_demais_2t26_356m_brl",
+      "aegea_demais_6m26_682m_brl",
       "aegea_demais_outorga_2t26_3m_brl",
       "aegea_guariroba_2t26_49m_brl",
       "aegea_guariroba_6m26_87m_brl",
       "aegea_manaus_2t26_91m_brl",
+      "aegea_manaus_6m26_164m_brl",
       "aegea_novas_operacoes_2t26_186m_brl",
       "aegea_novas_operacoes_6m26_339m_brl",
       "aegea_outorgas_2t26_73m_brl",
@@ -23323,7 +23337,9 @@
       "aegea_ppps_2t26_237m_brl",
       "aegea_ppps_6m26_475m_brl",
       "aegea_prolagos_2t26_39m_brl",
-      "aegea_teresina_2t26_38m_brl"
+      "aegea_prolagos_6m26_69m_brl",
+      "aegea_teresina_2t26_38m_brl",
+      "aegea_teresina_6m26_82m_brl"
     ],
     "layers": [
       "resources"
@@ -24050,14 +24066,17 @@
     "type": "company",
     "chicago": "Freeport-McMoRan Inc. “Technical Report Summary of Mineral Reserves and Mineral Resources for Cerro Verde Mine, Arequipa, Peru.” Effective date December 31, 2024; report date January 31, 2025. https://www.fcx.com/sites/fcx/files/documents/operations/TRS-CerroVerde.pdf.",
     "url": "https://www.fcx.com/sites/fcx/files/documents/operations/TRS-CerroVerde.pdf",
-    "annotation": "Freeport Cerro Verde Supporting Infra/Env CapEx USD2.4bn TRS nested. Supports fcx_cerro_verde_infra_env_capex_2p4bn_2024.",
+    "annotation": "Freeport Cerro Verde Concentrator CapEx USD1.1bn TRS nested. Supports fcx_cerro_verde_concentrator_1p1bn_2024.",
     "supports": [
       "fcx_cerro_verde_lom_sustaining_5p2bn_2024",
       "hunt_cycle281",
       "fcx_cerro_verde_mine_capex_1p7bn_2024",
-      "fcx_cerro_verde_infra_env_capex_2p4bn_2024"
+      "fcx_cerro_verde_infra_env_capex_2p4bn_2024",
+      "fcx_cerro_verde_concentrator_1p1bn_2024",
+      "hunt_cycle282"
     ],
     "map_supports": [
+      "fcx_cerro_verde_concentrator_1p1bn_2024",
       "fcx_cerro_verde_infra_env_capex_2p4bn_2024",
       "fcx_cerro_verde_lom_sustaining_5p2bn_2024",
       "fcx_cerro_verde_mine_capex_1p7bn_2024"
@@ -24071,16 +24090,53 @@
     "type": "press",
     "chicago": "Sá, Nelson de. “Chinesa investe R$ 2,84 bi em novo terminal em Santos.” Folha de S.Paulo, March 5, 2025. https://www1.folha.uol.com.br/mercado/2025/03/chinesa-investe-r-284-bi-e-abre-em-marco-novo-terminal-em-santos.shtml.",
     "url": "https://www1.folha.uol.com.br/mercado/2025/03/chinesa-investe-r-284-bi-e-abre-em-marco-novo-terminal-em-santos.shtml",
-    "annotation": "COFCO STS11 CapEx-fill R$1.64bn direct via Fed H.10 (UNVERIFIED Folha). Supports cofco_sts11_santos_port_2023.",
+    "annotation": "COFCO STS11 rolling stock R$1.2bn via Fed H.10 (UNVERIFIED Folha). Supports cofco_sts11_rolling_stock_1p2bn_2025.",
     "supports": [
       "cofco_sts11_santos_port_2023",
-      "hunt_cycle281"
+      "hunt_cycle281",
+      "cofco_sts11_rolling_stock_1p2bn_2025",
+      "hunt_cycle282"
     ],
     "map_supports": [
+      "cofco_sts11_rolling_stock_1p2bn_2025",
       "cofco_sts11_santos_port_2023"
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "jornal_comercio_cpfl_tx_rs_20250424",
+    "type": "press",
+    "chicago": "Klein, Jefferson. “CPFL investirá R$ 3,9 bilhões no sistema gaúcho de transmissão até 2029.” Jornal do Comércio, April 24, 2025. https://www.jornaldocomercio.com/economia/2025/04/1199907-cpfl-investira-rs-39-bilhoes-no-sistema-gaucho-de-transmissao-ate-2029.html.",
+    "url": "https://www.jornaldocomercio.com/economia/2025/04/1199907-cpfl-investira-rs-39-bilhoes-no-sistema-gaucho-de-transmissao-ate-2029.html",
+    "annotation": "CPFL TX RS ~R$3.9bn 2025–2029 via Fed H.10 (UNVERIFIED press). Supports cpfl_tx_rs_3p9bn_2025_2029.",
+    "supports": [
+      "cpfl_tx_rs_3p9bn_2025_2029",
+      "hunt_cycle282"
+    ],
+    "map_supports": [
+      "cpfl_tx_rs_3p9bn_2025_2029"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "scco_2q26_ex99_20260721",
+    "type": "company",
+    "chicago": "Southern Copper Corporation. “Southern Copper Corporation Reports 2Q26 Results” (SEC Exhibit 99.1). July 21, 2026. https://www.sec.gov/Archives/edgar/data/1001838/000110465926085515/scco-20260721xex99d1.htm.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926085515/scco-20260721xex99d1.htm",
+    "annotation": "Southern Copper 6M26 CapEx USD864.7m SEC. Supports southern_copper_6m26_capex_864p7m_usd.",
+    "supports": [
+      "southern_copper_6m26_capex_864p7m_usd",
+      "hunt_cycle282"
+    ],
+    "map_supports": [
+      "southern_copper_6m26_capex_864p7m_usd"
+    ],
+    "layers": [
+      "resources"
     ]
   }
 ]
