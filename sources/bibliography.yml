@@ -13010,7 +13010,7 @@
   type: company
   chicago: Aegea Saneamento e Participações S.A. “Release de Resultados 2T26 / 6M26.” https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea 6M26 Investimentos Proforma R$3.809bn via Fed H.10. Supports aegea_6m26_investimentos_3809m_brl.
+  annotation: Aegea face via Fed H.10. Supports aegea_outorgas_6m26_402m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -13057,6 +13057,12 @@
   - aegea_2t26_investimentos_1901m_brl
   - hunt_cycle291
   - aegea_6m26_investimentos_3809m_brl
+  - aegea_societario_capex_2t26_1480m_brl
+  - hunt_cycle310
+  - aegea_societario_capex_6m26_2744m_brl
+  - aegea_societario_investimentos_2t26_1554m_brl
+  - aegea_societario_investimentos_6m26_3145m_brl
+  - aegea_outorgas_6m26_402m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13577,7 +13583,7 @@
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2
-  annotation: Motiva ViaMobilidade L 8/9 FY2025 CapEx excl. maint. via Fed H.10. Supports motiva_viamobilidade_l89_exmaint_fy2025_830m_brl.
+  annotation: Motiva Motiva S.A. FY2025 CapEx excl. maint. via Fed H.10. Supports motiva_sa_exmaint_fy2025_78m_brl.
   supports:
   - motiva_autoban_2t26_136m_brl
   - hunt_cycle294
@@ -13695,6 +13701,11 @@
   - motiva_metro_bahia_exmaint_fy2025_89m_brl
   - motiva_viamobilidade_exmaint_fy2025_95m_brl
   - motiva_viamobilidade_l89_exmaint_fy2025_830m_brl
+  - motiva_outros_fy2025_116m_brl
+  - hunt_cycle310
+  - motiva_sa_fy2025_78m_brl
+  - motiva_outros_exmaint_fy2025_69m_brl
+  - motiva_sa_exmaint_fy2025_78m_brl
 - id: vli_progress_rail_sd70_20260210
   type: company
   chicago: VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.

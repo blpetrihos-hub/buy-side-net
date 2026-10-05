@@ -23643,7 +23643,7 @@
     "type": "company",
     "chicago": "Aegea Saneamento e Participações S.A. “Release de Resultados 2T26 / 6M26.” https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2",
-    "annotation": "Aegea 6M26 Investimentos Proforma R$3.809bn via Fed H.10. Supports aegea_6m26_investimentos_3809m_brl.",
+    "annotation": "Aegea face via Fed H.10. Supports aegea_outorgas_6m26_402m_brl.",
     "supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
       "hunt_cycle262",
@@ -23689,7 +23689,13 @@
       "hunt_cycle285",
       "aegea_2t26_investimentos_1901m_brl",
       "hunt_cycle291",
-      "aegea_6m26_investimentos_3809m_brl"
+      "aegea_6m26_investimentos_3809m_brl",
+      "aegea_societario_capex_2t26_1480m_brl",
+      "hunt_cycle310",
+      "aegea_societario_capex_6m26_2744m_brl",
+      "aegea_societario_investimentos_2t26_1554m_brl",
+      "aegea_societario_investimentos_6m26_3145m_brl",
+      "aegea_outorgas_6m26_402m_brl"
     ],
     "map_supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
@@ -23714,12 +23720,17 @@
       "aegea_novas_operacoes_2t26_186m_brl",
       "aegea_novas_operacoes_6m26_339m_brl",
       "aegea_outorgas_2t26_73m_brl",
+      "aegea_outorgas_6m26_402m_brl",
       "aegea_para_outorga_6m26_285m_brl",
       "aegea_piaui_outorga_6m26_22m_brl",
       "aegea_ppps_2t26_237m_brl",
       "aegea_ppps_6m26_475m_brl",
       "aegea_prolagos_2t26_39m_brl",
       "aegea_prolagos_6m26_69m_brl",
+      "aegea_societario_capex_2t26_1480m_brl",
+      "aegea_societario_capex_6m26_2744m_brl",
+      "aegea_societario_investimentos_2t26_1554m_brl",
+      "aegea_societario_investimentos_6m26_3145m_brl",
       "aegea_teresina_2t26_38m_brl",
       "aegea_teresina_6m26_82m_brl"
     ],
@@ -24762,7 +24773,7 @@
     "type": "company",
     "chicago": "Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2",
-    "annotation": "Motiva ViaMobilidade L 8/9 FY2025 CapEx excl. maint. via Fed H.10. Supports motiva_viamobilidade_l89_exmaint_fy2025_830m_brl.",
+    "annotation": "Motiva Motiva S.A. FY2025 CapEx excl. maint. via Fed H.10. Supports motiva_sa_exmaint_fy2025_78m_brl.",
     "supports": [
       "motiva_autoban_2t26_136m_brl",
       "hunt_cycle294",
@@ -24879,7 +24890,12 @@
       "motiva_vlt_carioca_exmaint_fy2025_39m_brl",
       "motiva_metro_bahia_exmaint_fy2025_89m_brl",
       "motiva_viamobilidade_exmaint_fy2025_95m_brl",
-      "motiva_viamobilidade_l89_exmaint_fy2025_830m_brl"
+      "motiva_viamobilidade_l89_exmaint_fy2025_830m_brl",
+      "motiva_outros_fy2025_116m_brl",
+      "hunt_cycle310",
+      "motiva_sa_fy2025_78m_brl",
+      "motiva_outros_exmaint_fy2025_69m_brl",
+      "motiva_sa_exmaint_fy2025_78m_brl"
     ],
     "map_supports": [
       "motiva_autoban_1t26_129m_brl",
@@ -24898,6 +24914,8 @@
       "motiva_minas_sp_exmaint_2t26_116m_brl",
       "motiva_outros_1t26_13m_brl",
       "motiva_outros_2t26_12m_brl",
+      "motiva_outros_exmaint_fy2025_69m_brl",
+      "motiva_outros_fy2025_116m_brl",
       "motiva_pantanal_1t26_160m_brl",
       "motiva_pantanal_2t26_204m_brl",
       "motiva_pantanal_exmaint_1t26_160m_brl",
@@ -24931,6 +24949,8 @@
       "motiva_rodoanel_oeste_exmaint_2t26_17m_brl",
       "motiva_rodoanel_oeste_exmaint_fy2025_76m_brl",
       "motiva_rodoanel_oeste_fy2025_76m_brl",
+      "motiva_sa_exmaint_fy2025_78m_brl",
+      "motiva_sa_fy2025_78m_brl",
       "motiva_sorocabana_1t26_108m_brl",
       "motiva_sorocabana_2t26_126m_brl",
       "motiva_sorocabana_exmaint_1t26_108m_brl",
