@@ -64554,5 +64554,545 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_hdr_honduras_barracks_811k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0008_9700_W9127810D0022_9700 (hdr_honduras_barracks_811k_2011). Signed 2010-04-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_honduras_barracks_811k_2011 USD 0.811m. Supports hdr_honduras_barracks_811k_2011.",
+    "supports": [
+      "hdr_honduras_barracks_811k_2011",
+      "hunt_cycle1198"
+    ],
+    "map_supports": [
+      "hdr_honduras_barracks_811k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hdr_panama_design_build_641k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0006_9700_W9127810D0022_9700 (hdr_panama_design_build_641k_2011). Signed 2010-04-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_panama_design_build_641k_2011 USD 0.641m. Supports hdr_panama_design_build_641k_2011.",
+    "supports": [
+      "hdr_panama_design_build_641k_2011",
+      "hunt_cycle1198"
+    ],
+    "map_supports": [
+      "hdr_panama_design_build_641k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dominican_chancery_roof_waterproofing_13k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86011M1556_1900_-NONE-_-NONE- (misc_dominican_chancery_roof_waterproofing_13k_2011). Signed 2011-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M1556_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M1556_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_dominican_chancery_roof_waterproofing_13k_2011 USD 0.013m. Supports misc_dominican_chancery_roof_waterproofing_13k_2011.",
+    "supports": [
+      "misc_dominican_chancery_roof_waterproofing_13k_2011",
+      "hunt_cycle1198"
+    ],
+    "map_supports": [
+      "misc_dominican_chancery_roof_waterproofing_13k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_jamaica_powell_plaza_security_cameras_upgrade_13k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37010M0980_1900_-NONE-_-NONE- (misc_jamaica_powell_plaza_security_cameras_upgrade_13k_2010). Signed 2010-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37010M0980_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37010M0980_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_jamaica_powell_plaza_security_cameras_upgrade_13k_2010 USD 0.013m. Supports misc_jamaica_powell_plaza_security_cameras_upgrade_13k_2010.",
+    "supports": [
+      "misc_jamaica_powell_plaza_security_cameras_upgrade_13k_2010",
+      "hunt_cycle1198"
+    ],
+    "map_supports": [
+      "misc_jamaica_powell_plaza_security_cameras_upgrade_13k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_panama_corozal_cctv_cameras_install_13k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07015M0802_1900_-NONE-_-NONE- (misc_panama_corozal_cctv_cameras_install_13k_2015). Signed 2015-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07015M0802_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07015M0802_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_panama_corozal_cctv_cameras_install_13k_2015 USD 0.013m. Supports misc_panama_corozal_cctv_cameras_install_13k_2015.",
+    "supports": [
+      "misc_panama_corozal_cctv_cameras_install_13k_2015",
+      "hunt_cycle1198"
+    ],
+    "map_supports": [
+      "misc_panama_corozal_cctv_cameras_install_13k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hdr_belize_san_pedro_cn_ops_center_design_371k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0016_9700_W9127810D0022_9700 (hdr_belize_san_pedro_cn_ops_center_design_371k_2012). Signed 2010-11-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0016_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0016_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_belize_san_pedro_cn_ops_center_design_371k_2012 USD 0.371m. Supports hdr_belize_san_pedro_cn_ops_center_design_371k_2012.",
+    "supports": [
+      "hdr_belize_san_pedro_cn_ops_center_design_371k_2012",
+      "hunt_cycle1199"
+    ],
+    "map_supports": [
+      "hdr_belize_san_pedro_cn_ops_center_design_371k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hdr_guatemala_southcom_cn_projects_256k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0031_9700_W9127810D0022_9700 (hdr_guatemala_southcom_cn_projects_256k_2012). Signed 2012-01-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0031_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0031_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_guatemala_southcom_cn_projects_256k_2012 USD 0.256m. Supports hdr_guatemala_southcom_cn_projects_256k_2012.",
+    "supports": [
+      "hdr_guatemala_southcom_cn_projects_256k_2012",
+      "hunt_cycle1199"
+    ],
+    "map_supports": [
+      "hdr_guatemala_southcom_cn_projects_256k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_cdj_2nd_floor_renovation_13k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11516M0444_1900_-NONE-_-NONE- (misc_mexico_cdj_2nd_floor_renovation_13k_2016). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516M0444_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516M0444_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_mexico_cdj_2nd_floor_renovation_13k_2016 USD 0.013m. Supports misc_mexico_cdj_2nd_floor_renovation_13k_2016.",
+    "supports": [
+      "misc_mexico_cdj_2nd_floor_renovation_13k_2016",
+      "hunt_cycle1199"
+    ],
+    "map_supports": [
+      "misc_mexico_cdj_2nd_floor_renovation_13k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_nvl_enclose_generator_annex_13k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX61010M0084_1900_-NONE-_-NONE- (misc_mexico_nvl_enclose_generator_annex_13k_2010). Signed 2010-09-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX61010M0084_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX61010M0084_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_mexico_nvl_enclose_generator_annex_13k_2010 USD 0.013m. Supports misc_mexico_nvl_enclose_generator_annex_13k_2010.",
+    "supports": [
+      "misc_mexico_nvl_enclose_generator_annex_13k_2010",
+      "hunt_cycle1199"
+    ],
+    "map_supports": [
+      "misc_mexico_nvl_enclose_generator_annex_13k_2010"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_nogales_security_grills_new_residences_13k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX60011M0075_1900_-NONE-_-NONE- (misc_mexico_nogales_security_grills_new_residences_13k_2011). Signed 2011-06-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX60011M0075_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX60011M0075_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_mexico_nogales_security_grills_new_residences_13k_2011 USD 0.013m. Supports misc_mexico_nogales_security_grills_new_residences_13k_2011.",
+    "supports": [
+      "misc_mexico_nogales_security_grills_new_residences_13k_2011",
+      "hunt_cycle1199"
+    ],
+    "map_supports": [
+      "misc_mexico_nogales_security_grills_new_residences_13k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hdr_nicaragua_southcom_cn_fy12_231k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0039_9700_W9127810D0022_9700 (hdr_nicaragua_southcom_cn_fy12_231k_2012). Signed 2012-07-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0039_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0039_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_nicaragua_southcom_cn_fy12_231k_2012 USD 0.231m. Supports hdr_nicaragua_southcom_cn_fy12_231k_2012.",
+    "supports": [
+      "hdr_nicaragua_southcom_cn_fy12_231k_2012",
+      "hunt_cycle1200"
+    ],
+    "map_supports": [
+      "hdr_nicaragua_southcom_cn_fy12_231k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hdr_costa_rica_southcom_cn_infrastructure_225k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0029_9700_W9127810D0022_9700 (hdr_costa_rica_southcom_cn_infrastructure_225k_2012). Signed 2011-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0029_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0029_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_costa_rica_southcom_cn_infrastructure_225k_2012 USD 0.225m. Supports hdr_costa_rica_southcom_cn_infrastructure_225k_2012.",
+    "supports": [
+      "hdr_costa_rica_southcom_cn_infrastructure_225k_2012",
+      "hunt_cycle1200"
+    ],
+    "map_supports": [
+      "hdr_costa_rica_southcom_cn_infrastructure_225k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_bahamas_msgr_generator_exhaust_stack_replace_13k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50016M0829_1900_-NONE-_-NONE- (misc_bahamas_msgr_generator_exhaust_stack_replace_13k_2016). Signed 2016-09-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50016M0829_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50016M0829_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_bahamas_msgr_generator_exhaust_stack_replace_13k_2016 USD 0.013m. Supports misc_bahamas_msgr_generator_exhaust_stack_replace_13k_2016.",
+    "supports": [
+      "misc_bahamas_msgr_generator_exhaust_stack_replace_13k_2016",
+      "hunt_cycle1200"
+    ],
+    "map_supports": [
+      "misc_bahamas_msgr_generator_exhaust_stack_replace_13k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_fence_upgrade_13k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2522P1715_1900_-NONE-_-NONE- (misc_brazil_fence_upgrade_13k_2022). Signed 2022-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2522P1715_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2522P1715_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_brazil_fence_upgrade_13k_2022 USD 0.013m. Supports misc_brazil_fence_upgrade_13k_2022.",
+    "supports": [
+      "misc_brazil_fence_upgrade_13k_2022",
+      "hunt_cycle1200"
+    ],
+    "map_supports": [
+      "misc_brazil_fence_upgrade_13k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_paraguay_cmr_handicap_bathroom_renovation_13k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PA1023P0488_1900_-NONE-_-NONE- (misc_paraguay_cmr_handicap_bathroom_renovation_13k_2023). Signed 2023-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1023P0488_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1023P0488_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_paraguay_cmr_handicap_bathroom_renovation_13k_2023 USD 0.013m. Supports misc_paraguay_cmr_handicap_bathroom_renovation_13k_2023.",
+    "supports": [
+      "misc_paraguay_cmr_handicap_bathroom_renovation_13k_2023",
+      "hunt_cycle1200"
+    ],
+    "map_supports": [
+      "misc_paraguay_cmr_handicap_bathroom_renovation_13k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_johnson_controls_mexico_tij_msgr_fabrication_194k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18P1094_1900_-NONE-_-NONE- (johnson_controls_mexico_tij_msgr_fabrication_194k_2018). Signed 2018-05-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18P1094_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18P1094_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: johnson_controls_mexico_tij_msgr_fabrication_194k_2018 USD 0.194m. Supports johnson_controls_mexico_tij_msgr_fabrication_194k_2018.",
+    "supports": [
+      "johnson_controls_mexico_tij_msgr_fabrication_194k_2018",
+      "hunt_cycle1201"
+    ],
+    "map_supports": [
+      "johnson_controls_mexico_tij_msgr_fabrication_194k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_hdr_honduras_soto_cano_barracks_design_188k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0022_9700_W9127810D0022_9700 (hdr_honduras_soto_cano_barracks_design_188k_2011). Signed 2011-02-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0022_9700_W9127810D0022_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0022_9700_W9127810D0022_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hdr_honduras_soto_cano_barracks_design_188k_2011 USD 0.188m. Supports hdr_honduras_soto_cano_barracks_design_188k_2011.",
+    "supports": [
+      "hdr_honduras_soto_cano_barracks_design_188k_2011",
+      "hunt_cycle1201"
+    ],
+    "map_supports": [
+      "hdr_honduras_soto_cano_barracks_design_188k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dominican_make_ready_los_bambues_48_13k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8624C0040_1900_-NONE-_-NONE- (misc_dominican_make_ready_los_bambues_48_13k_2024). Signed 2024-06-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8624C0040_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8624C0040_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_dominican_make_ready_los_bambues_48_13k_2024 USD 0.013m. Supports misc_dominican_make_ready_los_bambues_48_13k_2024.",
+    "supports": [
+      "misc_dominican_make_ready_los_bambues_48_13k_2024",
+      "hunt_cycle1201"
+    ],
+    "map_supports": [
+      "misc_dominican_make_ready_los_bambues_48_13k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_fmc_electrical_data_cabling_phase2_13k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25017M0438_1900_-NONE-_-NONE- (misc_brazil_fmc_electrical_data_cabling_phase2_13k_2017). Signed 2017-03-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25017M0438_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25017M0438_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_brazil_fmc_electrical_data_cabling_phase2_13k_2017 USD 0.013m. Supports misc_brazil_fmc_electrical_data_cabling_phase2_13k_2017.",
+    "supports": [
+      "misc_brazil_fmc_electrical_data_cabling_phase2_13k_2017",
+      "hunt_cycle1201"
+    ],
+    "map_supports": [
+      "misc_brazil_fmc_electrical_data_cabling_phase2_13k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_peru_lima_elec_water_heaters_replace_13k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50016C0010_1900_-NONE-_-NONE- (misc_peru_lima_elec_water_heaters_replace_13k_2016). Signed 2016-03-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50016C0010_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50016C0010_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_peru_lima_elec_water_heaters_replace_13k_2016 USD 0.013m. Supports misc_peru_lima_elec_water_heaters_replace_13k_2016.",
+    "supports": [
+      "misc_peru_lima_elec_water_heaters_replace_13k_2016",
+      "hunt_cycle1201"
+    ],
+    "map_supports": [
+      "misc_peru_lima_elec_water_heaters_replace_13k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_norshield_brazil_metal_door_screen_9k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16M0256_1900_-NONE-_-NONE- (norshield_brazil_metal_door_screen_9k_2016). Signed 2016-01-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M0256_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M0256_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norshield_brazil_metal_door_screen_9k_2016 USD 0.010m. Supports norshield_brazil_metal_door_screen_9k_2016.",
+    "supports": [
+      "norshield_brazil_metal_door_screen_9k_2016",
+      "hunt_cycle1202"
+    ],
+    "map_supports": [
+      "norshield_brazil_metal_door_screen_9k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_norshield_jamaica_metal_door_screen_9k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17M0199_1900_-NONE-_-NONE- (norshield_jamaica_metal_door_screen_9k_2017). Signed 2017-01-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17M0199_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17M0199_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norshield_jamaica_metal_door_screen_9k_2017 USD 0.009m. Supports norshield_jamaica_metal_door_screen_9k_2017.",
+    "supports": [
+      "norshield_jamaica_metal_door_screen_9k_2017",
+      "hunt_cycle1202"
+    ],
+    "map_supports": [
+      "norshield_jamaica_metal_door_screen_9k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dominican_gso_generator_autodialers_13k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86011M1392_1900_-NONE-_-NONE- (misc_dominican_gso_generator_autodialers_13k_2011). Signed 2011-08-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M1392_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M1392_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_dominican_gso_generator_autodialers_13k_2011 USD 0.013m. Supports misc_dominican_gso_generator_autodialers_13k_2011.",
+    "supports": [
+      "misc_dominican_gso_generator_autodialers_13k_2011",
+      "hunt_cycle1202"
+    ],
+    "map_supports": [
+      "misc_dominican_gso_generator_autodialers_13k_2011"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dominican_maag_paz_res_generator_13k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86010M0201_1900_-NONE-_-NONE- (misc_dominican_maag_paz_res_generator_13k_2010). Signed 2010-09-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86010M0201_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86010M0201_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_dominican_maag_paz_res_generator_13k_2010 USD 0.013m. Supports misc_dominican_maag_paz_res_generator_13k_2010.",
+    "supports": [
+      "misc_dominican_maag_paz_res_generator_13k_2010",
+      "hunt_cycle1202"
+    ],
+    "map_supports": [
+      "misc_dominican_maag_paz_res_generator_13k_2010"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_uruguay_security_grills_residence_13k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19UY6018P0080_1900_-NONE-_-NONE- (misc_uruguay_security_grills_residence_13k_2018). Signed 2017-12-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6018P0080_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6018P0080_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_uruguay_security_grills_residence_13k_2018 USD 0.013m. Supports misc_uruguay_security_grills_residence_13k_2018.",
+    "supports": [
+      "misc_uruguay_security_grills_residence_13k_2018",
+      "hunt_cycle1202"
+    ],
+    "map_supports": [
+      "misc_uruguay_security_grills_residence_13k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_norshield_brazil_metal_door_screen_9k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19P0967_1900_-NONE-_-NONE- (norshield_brazil_metal_door_screen_9k_2019). Signed 2019-06-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19P0967_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19P0967_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norshield_brazil_metal_door_screen_9k_2019 USD 0.009m. Supports norshield_brazil_metal_door_screen_9k_2019.",
+    "supports": [
+      "norshield_brazil_metal_door_screen_9k_2019",
+      "hunt_cycle1203"
+    ],
+    "map_supports": [
+      "norshield_brazil_metal_door_screen_9k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_harden_argentina_metal_door_screen_frame_9k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24P0055_1900_-NONE-_-NONE- (harden_argentina_metal_door_screen_frame_9k_2024). Signed 2023-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24P0055_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24P0055_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: harden_argentina_metal_door_screen_frame_9k_2024 USD 0.009m. Supports harden_argentina_metal_door_screen_frame_9k_2024.",
+    "supports": [
+      "harden_argentina_metal_door_screen_frame_9k_2024",
+      "hunt_cycle1203"
+    ],
+    "map_supports": [
+      "harden_argentina_metal_door_screen_frame_9k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_nogales_portofino_security_grills_13k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX60016M0087_1900_-NONE-_-NONE- (misc_mexico_nogales_portofino_security_grills_13k_2016). Signed 2016-07-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX60016M0087_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX60016M0087_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_mexico_nogales_portofino_security_grills_13k_2016 USD 0.013m. Supports misc_mexico_nogales_portofino_security_grills_13k_2016.",
+    "supports": [
+      "misc_mexico_nogales_portofino_security_grills_13k_2016",
+      "hunt_cycle1203"
+    ],
+    "map_supports": [
+      "misc_mexico_nogales_portofino_security_grills_13k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_venezuela_chancery_fan_coils_consular_13k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30013M0449_1900_-NONE-_-NONE- (misc_venezuela_chancery_fan_coils_consular_13k_2013). Signed 2013-06-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30013M0449_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30013M0449_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_venezuela_chancery_fan_coils_consular_13k_2013 USD 0.013m. Supports misc_venezuela_chancery_fan_coils_consular_13k_2013.",
+    "supports": [
+      "misc_venezuela_chancery_fan_coils_consular_13k_2013",
+      "hunt_cycle1203"
+    ],
+    "map_supports": [
+      "misc_venezuela_chancery_fan_coils_consular_13k_2013"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dominican_make_ready_los_bambues_27_14k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8624C0054_1900_-NONE-_-NONE- (misc_dominican_make_ready_los_bambues_27_14k_2024). Signed 2024-07-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8624C0054_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8624C0054_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_dominican_make_ready_los_bambues_27_14k_2024 USD 0.014m. Supports misc_dominican_make_ready_los_bambues_27_14k_2024.",
+    "supports": [
+      "misc_dominican_make_ready_los_bambues_27_14k_2024",
+      "hunt_cycle1203"
+    ],
+    "map_supports": [
+      "misc_dominican_make_ready_los_bambues_27_14k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
