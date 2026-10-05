@@ -36285,3 +36285,93 @@
   supports:
   - misc_mexico_gdl_ncgr_alarm_cctv_49k_2026
   - hunt_cycle1253
+- id: usaspending_daikin_jamaica_fac_evaporators_30k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3725P0677_1900_-NONE-_-NONE- (daikin_jamaica_fac_evaporators_30k_2025). Signed 2025-06-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3725P0677_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3725P0677_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: daikin_jamaica_fac_evaporators_30k_2025 USD 0.030m. Supports daikin_jamaica_fac_evaporators_30k_2025.'
+  supports:
+  - daikin_jamaica_fac_evaporators_30k_2025
+  - hunt_cycle1254
+- id: usaspending_inside_air_bahamas_chancery_chiller_replacement_10k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50011M0886_1900_-NONE-_-NONE- (inside_air_bahamas_chancery_chiller_replacement_10k_2011). Signed 2011-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50011M0886_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50011M0886_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: inside_air_bahamas_chancery_chiller_replacement_10k_2011 USD 0.010m. Supports inside_air_bahamas_chancery_chiller_replacement_10k_2011.'
+  supports:
+  - inside_air_bahamas_chancery_chiller_replacement_10k_2011
+  - hunt_cycle1254
+- id: usaspending_misc_mexico_tres_canadas_make_ready_38k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53012L0007_1900_SMX53012A0011_1900 (misc_mexico_tres_canadas_make_ready_38k_2012). Signed 2012-02-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53012L0007_1900_SMX53012A0011_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53012L0007_1900_SMX53012A0011_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_tres_canadas_make_ready_38k_2012 USD 0.038m. Supports misc_mexico_tres_canadas_make_ready_38k_2012.'
+  supports:
+  - misc_mexico_tres_canadas_make_ready_38k_2012
+  - hunt_cycle1254
+- id: usaspending_misc_dominican_usaid_director_glq_make_ready_37k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86012M1333_1900_-NONE-_-NONE- (misc_dominican_usaid_director_glq_make_ready_37k_2012). Signed 2012-06-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86012M1333_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86012M1333_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_dominican_usaid_director_glq_make_ready_37k_2012 USD 0.037m. Supports misc_dominican_usaid_director_glq_make_ready_37k_2012.'
+  supports:
+  - misc_dominican_usaid_director_glq_make_ready_37k_2012
+  - hunt_cycle1254
+- id: usaspending_misc_brazil_msgq_rui_barbosa_make_ready_36k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR82012M0146_1900_-NONE-_-NONE- (misc_brazil_msgq_rui_barbosa_make_ready_36k_2012). Signed 2011-12-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82012M0146_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82012M0146_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_msgq_rui_barbosa_make_ready_36k_2012 USD 0.036m. Supports misc_brazil_msgq_rui_barbosa_make_ready_36k_2012.'
+  supports:
+  - misc_brazil_msgq_rui_barbosa_make_ready_36k_2012
+  - hunt_cycle1254
+- id: usaspending_york_panama_cooling_towers_vsd_7k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07014M0151_1900_-NONE-_-NONE- (york_panama_cooling_towers_vsd_7k_2014). Signed 2014-01-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0151_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0151_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: york_panama_cooling_towers_vsd_7k_2014 USD 0.007m. Supports york_panama_cooling_towers_vsd_7k_2014.'
+  supports:
+  - york_panama_cooling_towers_vsd_7k_2014
+  - hunt_cycle1255
+- id: usaspending_johnson_controls_panama_cooling_tower_vsd_7k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07011M0480_1900_-NONE-_-NONE- (johnson_controls_panama_cooling_tower_vsd_7k_2011). Signed 2011-08-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07011M0480_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07011M0480_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: johnson_controls_panama_cooling_tower_vsd_7k_2011 USD 0.007m. Supports johnson_controls_panama_cooling_tower_vsd_7k_2011.'
+  supports:
+  - johnson_controls_panama_cooling_tower_vsd_7k_2011
+  - hunt_cycle1255
+- id: usaspending_misc_dominican_dcm_make_ready_35k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86012M1337_1900_-NONE-_-NONE- (misc_dominican_dcm_make_ready_35k_2012). Signed 2012-06-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86012M1337_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86012M1337_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_dominican_dcm_make_ready_35k_2012 USD 0.035m. Supports misc_dominican_dcm_make_ready_35k_2012.'
+  supports:
+  - misc_dominican_dcm_make_ready_35k_2012
+  - hunt_cycle1255
+- id: usaspending_misc_argentina_estrada_make_ready_31k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAR20014M0410_1900_-NONE-_-NONE- (misc_argentina_estrada_make_ready_31k_2014). Signed 2014-07-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20014M0410_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20014M0410_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_argentina_estrada_make_ready_31k_2014 USD 0.031m. Supports misc_argentina_estrada_make_ready_31k_2014.'
+  supports:
+  - misc_argentina_estrada_make_ready_31k_2014
+  - hunt_cycle1255
+- id: usaspending_misc_brazil_make_ready_bar_grills_29k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR8222P0225_1900_-NONE-_-NONE- (misc_brazil_make_ready_bar_grills_29k_2022). Signed 2022-06-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8222P0225_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8222P0225_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_make_ready_bar_grills_29k_2022 USD 0.029m. Supports misc_brazil_make_ready_bar_grills_29k_2022.'
+  supports:
+  - misc_brazil_make_ready_bar_grills_29k_2022
+  - hunt_cycle1255
