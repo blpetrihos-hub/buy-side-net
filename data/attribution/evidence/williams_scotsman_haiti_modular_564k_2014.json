@@ -1,0 +1,10 @@
+{
+  "id": "williams_scotsman_haiti_modular_564k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_williams_scotsman_haiti_modular_564k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0121_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "PURCHASE&DELIVER 40 \"WILLIAMS SCOTSMAN\" MODULAR BUILDINGS TOTAL: $501,980 + 1% SURCHAGE FUNDING SOURCE: USE 'CN' APPROPRIATION CONTRACTING OFFICE : AQM CONTRACT ORDER : TIM FARRELL POST CONTACT: MS SAARLAS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 563959.4; date_signed 2014-07-23."
+}
