@@ -1,43 +1,47 @@
 updated: 2026-10-05
-cycle: 488
+cycle: 489
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 489 shuffle_seed=20261489; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied602); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed (Contraloría aval only); Pacto Coronel Vivida Huawei BESS R$30m if PRC equipment CapEx separable; Progress Rail VLI R$430m if company dual confirms distinct from R$200m eight-loco and R$600m 27-loco cumulative; Equatorial ADMS company primary if openable (MA/AP pages 403); Ascenty Vinhedo/Osasco/Sumaré USD breakouts if company primary opens (Valor press USD720/360/120 — company AI page 403); GATE R$20bn acceleration if State Grid company confirms vs R$18bn; Alupar TECP CapEx if distinct company face opens beyond RAP/debt; Ada Franco da Rocha R$2.7bn if company CapEx figure opens; KIO QRO2/2026 nested breakouts; Grenergy €3.7bn Chile ~45% if separable primary; Equinix São Paulo cabinets USD109m if company SEC/10-Q primary opens (SEC browse 403); AXIA 2026–2027 plan R$12–14bn if distinct company primary beyond 2Q26 nested; WEG transformers Americas R$2.1bn if LatAm-only CapEx separable; EPR Litoral Pioneiro 1S26 CapEx R$619.4m if company dual URL opens beyond financialfilings; Alupar 1S26 CapEx R$489.2m if company face opens beyond 2T26 Custo Infra nested; TCP green R$300m if company primary opens beyond trade press; ENGIE Colibri Aneel CapEx R$1.5747bn if company PDF host opens (1Q26 presentation / FRE 403); Cemig Gasmig / Energisa gás LoB / Cemig 2026 gás plan if taxonomy-fit (natural gas out of 18-subcat list); Wabtec Vale 50 loco CapEx if company/Vale dual discloses figure (press CapEx blank); CREC Cañas–Bebedero CRC→USD FX if Fed H.10 CRC retrieved; Motiva FY2025 aeroportos R$780m if taxonomy-fit (airports out of 18-subcat list); Motiva Capex Proforma exhausted (1T10–2T26); Rumo CapEx planilha 2T21–1T21 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium; Antamina Segundo ITS if SENACE approval confirms beyond presented USD729m; AES Andes Arenales 300 MW BESS project CapEx if distinct from Pampas+Cristales USD1.1bn (AES Corp AR lists MW/COD only); SSA Guaymas STS/ERTG CapEx if dollar figure distinct from MXN424.8m TUM concession; Bechtel QB2 desal CapEx if company primary opens; Alupar unlabeled 2T26-only US$5.51 eighth USD cash line if project name opens. No U.S. territories.
-next_row_id: (follow cycle-489 shuffled_order)
+next_query: Cycle 490 shuffle_seed=20261490; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied602); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed (Contraloría aval only); Pacto Coronel Vivida Huawei BESS R$30m if PRC equipment CapEx separable; Progress Rail VLI R$430m if company dual confirms distinct from R$200m eight-loco and R$600m 27-loco cumulative; Equatorial ADMS company primary if openable (MA/AP pages 403); Ascenty Vinhedo/Osasco/Sumaré USD breakouts if company primary opens (Valor press USD720/360/120 — company AI page 403); GATE R$20bn acceleration if State Grid company confirms vs R$18bn; Alupar TECP CapEx if distinct company face opens beyond RAP/debt; Ada Franco da Rocha R$2.7bn if company CapEx figure opens; KIO QRO2/2026 nested breakouts; Grenergy €3.7bn Chile ~45% if separable primary; Equinix São Paulo cabinets USD109m if company SEC/10-Q primary opens (SEC browse 403); AXIA 2026–2027 plan R$12–14bn if distinct company primary beyond 2Q26 nested; WEG transformers Americas R$2.1bn if LatAm-only CapEx separable; EPR Litoral Pioneiro 1S26 CapEx R$619.4m if company dual URL opens beyond financialfilings; Alupar 1S26 CapEx R$489.2m if company face opens beyond 2T26 Custo Infra nested; TCP green R$300m if company primary opens beyond trade press; ENGIE Colibri Aneel CapEx R$1.5747bn if company PDF host opens (1Q26 presentation / FRE 403); Cemig Gasmig / Energisa gás LoB / Cemig 2026 gás plan if taxonomy-fit (natural gas out of 18-subcat list); Wabtec Vale 50 loco CapEx if company/Vale dual discloses figure (press CapEx blank); CREC Cañas–Bebedero CRC→USD FX if Fed H.10 CRC retrieved; Motiva FY2025 aeroportos R$780m if taxonomy-fit (airports out of 18-subcat list); Motiva Capex Proforma exhausted (1T10–2T26); Rumo CapEx planilha 1T21 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium; Antamina Segundo ITS if SENACE approval confirms beyond presented USD729m; AES Andes Arenales 300 MW BESS project CapEx if distinct from Pampas+Cristales USD1.1bn (AES Corp AR lists MW/COD only); SSA Guaymas STS/ERTG CapEx if dollar figure distinct from MXN424.8m TUM concession; Bechtel QB2 desal CapEx if company primary opens; Alupar unlabeled 2T26-only US$5.51 eighth USD cash line if project name opens. No U.S. territories.
+next_row_id: (follow cycle-490 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 488) ===
+# === Country×subcategory sweep cells touched (session continuing from 489) ===
 # Filled this cycle: Brazil×rail NEW×13 + Brazil×port_ownership NEW×1 other
-#   (Rumo RI CAPEX planilha 3T21).
+#   (Rumo RI CAPEX planilha 2T21).
 # Still thin/empty priority cells: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa,
 #   Colombia graphite mine CapEx.
 # ≥1/3 U.S. hunt budget spent (Progress Rail VLI R$430m absent; AES Arenales blank;
 #   Bechtel 403; Wabtec/Equinix CapEx-fill blanks).
 # PRC equal-budget: Goldwind/Sungrow/BYD CapEx-blank COD faces.
 
-# === Cycle 488 (seed 20261488) ===
-# Shuffled order (BRIEF.md numbered + Random(20261488).shuffle): power_plants_grid, balsa, copper, solar, lithium, wind,
-#   port_ownership, port_cranes, rail, nickel, other_renewables, fission_smr,
-#   water, niobium, bridges_roads, engineering_epc, graphite, building_materials.
+# === Cycle 489 (seed 20261489) ===
+# Shuffled order (BRIEF.md numbered + Random(20261489).shuffle): nickel, bridges_roads, lithium, copper, rail, balsa,
+#   water, solar, building_materials, fission_smr, graphite, power_plants_grid,
+#   other_renewables, niobium, engineering_epc, port_ownership, wind, port_cranes.
 # Logged 14 NEW (0 US / 0 PRC / 0 allied / 14 other; ≥1/3 US hunt budget spent —
 #   CapEx dry this pass; PRC CapEx-blank):
-#   other rail NEW: rumo_3t21_capex_774m_brl; rumo_norte_3t21_566m_brl; rumo_norte_recorrente_3t21_157m_brl; rumo_expansao_norte_3t21_409m_brl; rumo_material_rodante_3t21_60m_brl;
-#     rumo_capacitacao_3t21_286m_brl; rumo_fmt_3t21_8m_brl; rumo_sul_3t21_192m_brl; rumo_sul_recorrente_3t21_106m_brl; rumo_expansao_sul_3t21_86m_brl;
-#     rumo_conteiner_3t21_17m_brl; rumo_conteiner_recorrente_3t21_2m_brl; rumo_conteiner_expansao_3t21_15m_brl.
-#   other port_ownership NEW: rumo_porto_terminais_3t21_54m_brl.
+#   other rail NEW: rumo_2t21_capex_1041m_brl; rumo_norte_2t21_854m_brl; rumo_norte_recorrente_2t21_138m_brl; rumo_expansao_norte_2t21_716m_brl; rumo_material_rodante_2t21_190m_brl;
+#     rumo_capacitacao_2t21_386m_brl; rumo_fmt_2t21_43m_brl; rumo_sul_2t21_171m_brl; rumo_sul_recorrente_2t21_132m_brl; rumo_expansao_sul_2t21_39m_brl;
+#     rumo_conteiner_2t21_16m_brl; rumo_conteiner_recorrente_2t21_2m_brl; rumo_conteiner_expansao_2t21_15m_brl.
+#   other port_ownership NEW: rumo_porto_terminais_2t21_97m_brl.
 # Thin top-up (balsa/nickel/fission_smr): dry.
-# Equal-budget misses: power_plants_grid, balsa, copper, solar, lithium, wind, port_cranes, nickel,
-#   other_renewables, fission_smr, water, niobium, bridges_roads, engineering_epc, graphite, building_materials (catalog dense; thin dry; US CapEx dry).
+# Equal-budget misses: nickel, bridges_roads, lithium, copper, balsa, water, solar, building_materials,
+#   fission_smr, graphite, power_plants_grid, other_renewables, niobium, engineering_epc, wind, port_cranes (catalog dense; thin dry; US CapEx dry).
 # Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km; CCECC Nicaragua rail;
 #   CHEC San Carlos; Progress Rail VLI R$430m; Alupar TECP CapEx; Ada R$2.7bn;
 #   Equinix SP USD109m SEC; EPR Litoral 1S26; Alupar 1S26; TCP R$300m; Ascenty;
 #   ENGIE Colibri; Equatorial ADMS; Cemig Gasmig; Energisa gás; Wabtec Vale CapEx blank;
 #   CREC Cañas CRC→USD FX; Motiva FY2025 airports taxonomy-out; Motiva Capex Proforma exhausted;
-#   Rumo CapEx planilha 2T21–1T21 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium;
+#   Rumo CapEx planilha 1T21 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium;
 #   Antamina Segundo ITS; AES Arenales CapEx; SSA Guaymas STS dollar; Bechtel QB2
 #   desal; Alupar unlabeled US$5.51 2T26 USD cash line.
-# Active after cycle 488: us466 / prc407 / allied602 / other3017 (n=4492).
+# Active after cycle 489: us466 / prc407 / allied602 / other3031 (n=4506).
+
+# === Cycle 488 (seed 20261488) summary ===
+# Prior Motiva/Rumo CapEx cycle. Active after: see prior coverage.
+
 
 # === Cycle 487 (seed 20261487) summary ===
 # Prior Motiva/Rumo CapEx cycle. Active after: see prior coverage.
@@ -716,46 +720,46 @@ dry_streak: 0
 # === Cycle 318 (seed 20261318) summary ===
 # Logged 22 NEW Motiva 3T25 excl.-maint CapEx. Active after: us466/prc407/allied602/other590 (n=2065).
 
-shuffle_seed: 20261488
+shuffle_seed: 20261489
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- energy/power_plants_grid
-- resources/balsa
-- resources/copper
-- energy/solar
-- resources/lithium
-- energy/wind
-- infrastructure/port_ownership
-- infrastructure/port_cranes
-- infrastructure/rail
 - resources/nickel
-- energy/other_renewables
-- energy/fission_smr
-- resources/water
-- resources/niobium
 - infrastructure/bridges_roads
-- infrastructure/engineering_epc
-- resources/graphite
+- resources/lithium
+- resources/copper
+- infrastructure/rail
+- resources/balsa
+- resources/water
+- energy/solar
 - infrastructure/building_materials
+- energy/fission_smr
+- resources/graphite
+- energy/power_plants_grid
+- energy/other_renewables
+- resources/niobium
+- infrastructure/engineering_epc
+- infrastructure/port_ownership
+- energy/wind
+- infrastructure/port_cranes
 rows_found_this_cycle:
-  energy/power_plants_grid: 0
-  resources/balsa: 0
-  resources/copper: 0
-  energy/solar: 0
-  resources/lithium: 0
-  energy/wind: 0
-  infrastructure/port_ownership: 1
-  infrastructure/port_cranes: 0
-  infrastructure/rail: 13
   resources/nickel: 0
-  energy/other_renewables: 0
-  energy/fission_smr: 0
-  resources/water: 0
-  resources/niobium: 0
   infrastructure/bridges_roads: 0
-  infrastructure/engineering_epc: 0
-  resources/graphite: 0
+  resources/lithium: 0
+  resources/copper: 0
+  infrastructure/rail: 13
+  resources/balsa: 0
+  resources/water: 0
+  energy/solar: 0
   infrastructure/building_materials: 0
+  energy/fission_smr: 0
+  resources/graphite: 0
+  energy/power_plants_grid: 0
+  energy/other_renewables: 0
+  resources/niobium: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/port_ownership: 1
+  energy/wind: 0
+  infrastructure/port_cranes: 0
 rows_by_side_this_cycle:
   us: 0
   prc: 0
@@ -772,5 +776,5 @@ coverage_cumulative_active_rows:
   us: 466
   prc: 407
   allied: 602
-  other: 3017
-  n: 4492
+  other: 3031
+  n: 4506
