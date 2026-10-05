@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6788,
+    "n_rows": 6794,
     "counts": {
-      "total": 6788,
-      "active": 6589,
+      "total": 6794,
+      "active": 6595,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6515,
-      "on_map": 6421
+      "documented": 6521,
+      "on_map": 6427
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2473,
-        "n": 2874
+        "allied": 2479,
+        "n": 2880
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 290077304529.12006,
-        "allied_n": 2402
+        "allied": 290642250312.7001,
+        "allied_n": 2408
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5356,
-        "n": 5611
+        "allied": 5362,
+        "n": 5617
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 433946010504.9197,
-        "allied_n": 5275
+        "allied": 434510956288.4997,
+        "allied_n": 5281
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2339
+          "allied": 2345
         },
         "infrastructure": {
           "us": 68,
@@ -7777,7 +7777,13 @@
       "axia_consol_transmissao_4t22_827m_brl",
       "axia_consol_ambiental_infra_4t22_189m_brl",
       "axia_consol_empresas_investidas_4t22_19m_brl",
-      "axia_consol_total_4t22_1597m_brl"
+      "axia_consol_total_4t22_1597m_brl",
+      "axia_consol_imob_intang_3t22_948m_brl",
+      "axia_consol_geracao_3t22_311m_brl",
+      "axia_consol_transmissao_3t22_536m_brl",
+      "axia_consol_ambiental_infra_3t22_102m_brl",
+      "axia_consol_empresas_investidas_3t22_44m_brl",
+      "axia_consol_total_3t22_992m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
