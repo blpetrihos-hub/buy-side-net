@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8095,
+    "n_rows": 8100,
     "counts": {
-      "total": 8095,
-      "active": 7896,
+      "total": 8100,
+      "active": 7901,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7822,
-      "on_map": 7728
+      "documented": 7827,
+      "on_map": 7733
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3780,
-        "n": 4181
+        "allied": 3785,
+        "n": 4186
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382086729085.52057,
-        "allied_n": 3709
+        "allied": 382245519209.74054,
+        "allied_n": 3714
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6663,
-        "n": 6918
+        "allied": 6668,
+        "n": 6923
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 525955435061.3202,
-        "allied_n": 6582
+        "allied": 526114225185.54016,
+        "allied_n": 6587
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3646
+          "allied": 3651
         },
         "infrastructure": {
           "us": 68,
@@ -9084,7 +9084,12 @@
       "axia_txproj_se_acu_iii_compensacoes_sincronas_2_x_200_300_536m_brl",
       "axia_txproj_se_500_138_kv_cuiaba_norte_seccionamento_da_l_293m_brl",
       "axia_txproj_se_paracatu_4_compensacao_sincrona_1_x_200_30_283m_brl",
-      "axia_txproj_se_joao_camara_iii_compensacao_sincrona_1_x_2_269m_brl"
+      "axia_txproj_se_joao_camara_iii_compensacao_sincrona_1_x_2_269m_brl",
+      "axia_txproj_se_230_88kv_dom_pedro_i_seccionamento_da_lt_2_225m_brl",
+      "axia_txproj_se_230_138_kv_chapecoense_e_seccionamento_de__191m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_banco_151m_brl",
+      "axia_txproj_se_230_138_kv_iguatemi_2_e_seccionamento_em_2_151m_brl",
+      "axia_txproj_se_p_dutra_substituicao_do_bc1_500_kv_390mvar_107m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
