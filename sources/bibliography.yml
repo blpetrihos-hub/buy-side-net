@@ -12870,9 +12870,9 @@
   - hunt_cycle285
 - id: alupar_2t26_release_20260806
   type: company
-  chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (company ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
+  chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (RI ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
   url: https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip
-  annotation: Alupar Custo de Infraestrutura 2T26 CapEx R$379.2m via Fed H.10. Supports alupar_2t26_custo_infra_379p2m_brl.
+  annotation: Alupar TCN CapEx Realizado via Fed H.10. Supports alupar_tcn_capex_realizado_35p1m_brl.
   supports:
   - alupar_lote7_tesp_1089m_brl_2026
   - hunt_cycle260
@@ -12886,6 +12886,10 @@
   - hunt_cycle267
   - alupar_2t26_custo_infra_379p2m_brl
   - hunt_cycle279
+  - alupar_tap_capex_realizado_226p1m_brl
+  - hunt_cycle298
+  - alupar_tpc_capex_realizado_305p8m_brl
+  - alupar_tcn_capex_realizado_35p1m_brl
 - id: gerdau_2q26_sec_6k_2026
   type: company
   chicago: Gerdau S.A. “Form 6-K Exhibit 99.1 — Quarterly Results 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1073404/000110465926090494/tm2621830d2_ex99-1.htm.
@@ -13508,3 +13512,11 @@
   - motiva_metro_bahia_exmaint_1t26_14m_brl
   - motiva_viamobilidade_exmaint_1t26_9m_brl
   - motiva_viamobilidade_l89_exmaint_1t26_101m_brl
+- id: vli_progress_rail_sd70_20260210
+  type: company
+  chicago: VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.
+  url: https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/
+  annotation: Progress Rail VLI 27-loco cumulative CapEx via Fed H.10. Supports progress_rail_vli_27loco_600m_brl_2026.
+  supports:
+  - progress_rail_vli_27loco_600m_brl_2026
+  - hunt_cycle298
