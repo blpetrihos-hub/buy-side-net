@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1052
+cycle: 1055
 remote: present
-active_layer: energy
-active_subcategory: other_renewables
-next_query: Cycle 1053 shuffle_seed=20262053; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us742/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.04–0.069m (Siemens Belize switchgear allied; ABB Ecuador breakers allied; SLV gym parking; Ayre HND HVAC RTU; Gordon STRI Gamboa). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1053 shuffled_order)
+active_layer: infrastructure
+active_subcategory: engineering_epc
+next_query: Cycle 1056 shuffle_seed=20262056; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us748/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.04–0.068m (Alerco Chile barracks San Fernando; Argentina Las Heras; Ayre HND HVAC RTU; Gordon STRI Gamboa). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1056 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1052) ===
-# Filled this batch: Ecuador×power_plants_grid/water NEW×3 (OEG electrical us; generators control other; Procunsa sanitary other); Jamaica×power_plants_grid NEW×1 us (GE 4000A breaker); Belize×building_materials NEW×1 other (electrical/plumbing); Honduras×building_materials NEW×1 other (Juan Parodi fire HVAC); Saint Kitts×building_materials NEW×1 us (Boykin HVAC); El Salvador×power_plants_grid NEW×1 us (OEG generator); Mexico×building_materials NEW×1 other (Seneca kitchen); Colombia×engineering_epc NEW×1 other (800m range); Haiti×engineering_epc/building_materials NEW×2 (Miyamoto HUEH us; CJTF fence other); Barbados×engineering_epc NEW×1 us (Wiss seismicity); Brazil×building_materials NEW×1 other (RSO fences); Dominican Republic×other_renewables NEW×1 other (NEC PV equipment).
-# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank this batch.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx this batch — OEG×2, GE Jamaica, Boykin, Miyamoto, Wiss).
+# === Country×subcategory sweep cells touched (session continuing from 1055) ===
+# Filled this batch: Dominican Republic×power_plants_grid/water NEW×2 us (Fluid Solutions fuel monitor; potable water); Ecuador×water/power_plants_grid NEW×3 (Pentair booster us; Fluid Solutions fuel tank us; ABB switchgear allied); Belize×power_plants_grid NEW×1 allied (Siemens switchgear); Haiti×power_plants_grid NEW×1 other (NEC alternator gen3); Argentina×building_materials NEW×1 other (CMR fire detection); Guatemala×engineering_epc NEW×1 us (Baskerville design/build); El Salvador×power_plants_grid/bridges_roads NEW×2 other (Ibarra electrical; gym parking); Chile×building_materials/water NEW×2 (Alerco latrine other; Diplomat LMS water us); Guyana×building_materials NEW×1 other (Crandella patio); Panama×power_plants_grid NEW×1 other (AG Proyectos albergue generator).
+# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank this batch. Siemens/ABB holdovers closed.
+# ≥1/3 U.S. hunt budget spent (6 US CapEx this batch — Fluid Solutions×3, Pentair, Baskerville, Diplomat).
+
+# === Cycle 1055 (seed 20262055) ===
+# Shuffled: rail, niobium, copper, other_renewables, wind, building_materials, graphite, power_plants_grid, nickel, fission_smr, lithium, bridges_roads, port_cranes, solar, port_ownership, water, balsa, engineering_epc.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   diplomat_chile_lms_water_56k_2010 fluid_solutions_dr_potable_water_68k_2024 crandella_guyana_patio_67k_2019 ag_proyectos_panama_albergue_generator_67k_2026 misc_salvador_gym_parking_68k_2016.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: USASpending residual; thin; company CapEx.
+# Active after cycle 1055: us748 / prc410 / allied1564 / other6255 (n=8977).
+
+# === Cycle 1054 (seed 20262054) ===
+# Shuffled: port_ownership, other_renewables, solar, balsa, bridges_roads, water, port_cranes, copper, nickel, rail, engineering_epc, power_plants_grid, lithium, wind, graphite, niobium, building_materials, fission_smr.
+# Logged 5 NEW (2 US / 0 PRC / 1 allied / 2 other):
+#   fluid_solutions_ecuador_fuel_tank_63k_2022 baskerville_gtm_design_build_61k_2014 abb_ecuador_switchgear_breakers_68k_2023 ibarra_salvador_electrical_67k_2014 alerco_chile_latrine_67k_2010.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Diplomat Chile; Fluid Solutions DR potable; Crandella; AG Proyectos; SLV gym parking; thin.
+# Active after cycle 1054: us746 / prc410 / allied1564 / other6252 (n=8972).
+
+# === Cycle 1053 (seed 20262053) ===
+# Shuffled: graphite, wind, water, copper, port_cranes, niobium, port_ownership, engineering_epc, nickel, fission_smr, building_materials, balsa, bridges_roads, other_renewables, rail, solar, power_plants_grid, lithium.
+# Logged 5 NEW (2 US / 0 PRC / 1 allied / 2 other):
+#   fluid_solutions_dr_fuel_monitor_67k_2023 pentair_ecuador_water_booster_67k_2014 siemens_belize_switchgear_69k_2024 misc_haiti_nec_alternator_gen3_68k_2019 misc_argentina_cmr_fire_detection_68k_2019.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Fluid Solutions Ecuador fuel tank; Baskerville; ABB Ecuador; Ibarra; Alerco latrine; thin.
+# Active after cycle 1053: us744 / prc410 / allied1563 / other6250 (n=8967).
 
 # === Cycle 1052 (seed 20262052) ===
 # Shuffled: other_renewables, copper, rail, niobium, nickel, port_ownership, engineering_epc, building_materials, fission_smr, wind, solar, lithium, graphite, balsa, port_cranes, bridges_roads, power_plants_grid, water.

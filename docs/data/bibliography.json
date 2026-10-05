@@ -51504,5 +51504,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_fluid_solutions_dr_fuel_monitor_67k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8623P1857_1900_-NONE-_-NONE- (Fluid Solutions DR fuel monitor). Signed 2023-07-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8623P1857_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8623P1857_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fluid Solutions DR fuel monitor USD 0.067m. Supports fluid_solutions_dr_fuel_monitor_67k_2023.",
+    "supports": [
+      "fluid_solutions_dr_fuel_monitor_67k_2023",
+      "hunt_cycle1053"
+    ],
+    "map_supports": [
+      "fluid_solutions_dr_fuel_monitor_67k_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_pentair_ecuador_water_booster_67k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC75014M0741_1900_-NONE-_-NONE- (Pentair Ecuador water booster). Signed 2014-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75014M0741_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75014M0741_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Pentair Ecuador water booster USD 0.067m. Supports pentair_ecuador_water_booster_67k_2014.",
+    "supports": [
+      "pentair_ecuador_water_booster_67k_2014",
+      "hunt_cycle1053"
+    ],
+    "map_supports": [
+      "pentair_ecuador_water_booster_67k_2014"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_siemens_belize_switchgear_69k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BH2024P0288_1900_-NONE-_-NONE- (Siemens Belize switchgear). Signed 2024-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BH2024P0288_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BH2024P0288_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Siemens Belize switchgear USD 0.069m. Supports siemens_belize_switchgear_69k_2024.",
+    "supports": [
+      "siemens_belize_switchgear_69k_2024",
+      "hunt_cycle1053"
+    ],
+    "map_supports": [
+      "siemens_belize_switchgear_69k_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_haiti_nec_alternator_gen3_68k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7019P0539_1900_-NONE-_-NONE- (Haiti NEC alternator gen3). Signed 2019-08-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7019P0539_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7019P0539_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Haiti NEC alternator gen3 USD 0.068m. Supports misc_haiti_nec_alternator_gen3_68k_2019.",
+    "supports": [
+      "misc_haiti_nec_alternator_gen3_68k_2019",
+      "hunt_cycle1053"
+    ],
+    "map_supports": [
+      "misc_haiti_nec_alternator_gen3_68k_2019"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_argentina_cmr_fire_detection_68k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2019C0014_1900_-NONE-_-NONE- (Argentina CMR fire detection). Signed 2019-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2019C0014_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2019C0014_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Argentina CMR fire detection USD 0.068m. Supports misc_argentina_cmr_fire_detection_68k_2019.",
+    "supports": [
+      "misc_argentina_cmr_fire_detection_68k_2019",
+      "hunt_cycle1053"
+    ],
+    "map_supports": [
+      "misc_argentina_cmr_fire_detection_68k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fluid_solutions_ecuador_fuel_tank_63k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7522C0013_1900_-NONE-_-NONE- (Fluid Solutions Ecuador fuel tank). Signed 2022-08-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0013_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0013_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fluid Solutions Ecuador fuel tank USD 0.063m. Supports fluid_solutions_ecuador_fuel_tank_63k_2022.",
+    "supports": [
+      "fluid_solutions_ecuador_fuel_tank_63k_2022",
+      "hunt_cycle1054"
+    ],
+    "map_supports": [
+      "fluid_solutions_ecuador_fuel_tank_63k_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_baskerville_gtm_design_build_61k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0042_9700_W9127810D0015_9700 (Baskerville Guatemala design/build). Signed 2014-04-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0042_9700_W9127810D0015_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0042_9700_W9127810D0015_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Baskerville Guatemala design/build USD 0.061m. Supports baskerville_gtm_design_build_61k_2014.",
+    "supports": [
+      "baskerville_gtm_design_build_61k_2014",
+      "hunt_cycle1054"
+    ],
+    "map_supports": [
+      "baskerville_gtm_design_build_61k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_abb_ecuador_switchgear_breakers_68k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7523P0855_1900_-NONE-_-NONE- (ABB Ecuador switchgear). Signed 2023-05-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7523P0855_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7523P0855_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ABB Ecuador switchgear USD 0.068m. Supports abb_ecuador_switchgear_breakers_68k_2023.",
+    "supports": [
+      "abb_ecuador_switchgear_breakers_68k_2023",
+      "hunt_cycle1054"
+    ],
+    "map_supports": [
+      "abb_ecuador_switchgear_breakers_68k_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_ibarra_salvador_electrical_67k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL15P0001_9700_-NONE-_-NONE- (Ibarra El Salvador electrical). Signed 2014-11-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL15P0001_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL15P0001_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Ibarra El Salvador electrical USD 0.067m. Supports ibarra_salvador_electrical_67k_2014.",
+    "supports": [
+      "ibarra_salvador_electrical_67k_2014",
+      "hunt_cycle1054"
+    ],
+    "map_supports": [
+      "ibarra_salvador_electrical_67k_2014"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_alerco_chile_latrine_67k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810P0125_9700_-NONE-_-NONE- (Alerco Chile latrine). Signed 2010-03-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0125_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0125_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Alerco Chile latrine USD 0.067m. Supports alerco_chile_latrine_67k_2010.",
+    "supports": [
+      "alerco_chile_latrine_67k_2010",
+      "hunt_cycle1054"
+    ],
+    "map_supports": [
+      "alerco_chile_latrine_67k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_diplomat_chile_lms_water_56k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AIDTRNC001000060_7200_-NONE-_-NONE- (Diplomat Chile LMS water). Signed 2010-03-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AIDTRNC001000060_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AIDTRNC001000060_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Diplomat Chile LMS water USD 0.056m. Supports diplomat_chile_lms_water_56k_2010.",
+    "supports": [
+      "diplomat_chile_lms_water_56k_2010",
+      "hunt_cycle1055"
+    ],
+    "map_supports": [
+      "diplomat_chile_lms_water_56k_2010"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_fluid_solutions_dr_potable_water_68k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8624C0077_1900_-NONE-_-NONE- (Fluid Solutions DR potable water). Signed 2024-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8624C0077_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8624C0077_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fluid Solutions DR potable water USD 0.068m. Supports fluid_solutions_dr_potable_water_68k_2024.",
+    "supports": [
+      "fluid_solutions_dr_potable_water_68k_2024",
+      "hunt_cycle1055"
+    ],
+    "map_supports": [
+      "fluid_solutions_dr_potable_water_68k_2024"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_crandella_guyana_patio_67k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2019C0004_1900_-NONE-_-NONE- (Crandella Guyana patio). Signed 2019-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2019C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2019C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Crandella Guyana patio USD 0.067m. Supports crandella_guyana_patio_67k_2019.",
+    "supports": [
+      "crandella_guyana_patio_67k_2019",
+      "hunt_cycle1055"
+    ],
+    "map_supports": [
+      "crandella_guyana_patio_67k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ag_proyectos_panama_albergue_generator_67k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026P0060_1900_-NONE-_-NONE- (AG Proyectos Panama albergue generator). Signed 2026-07-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026P0060_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026P0060_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: AG Proyectos Panama albergue generator USD 0.067m. Supports ag_proyectos_panama_albergue_generator_67k_2026.",
+    "supports": [
+      "ag_proyectos_panama_albergue_generator_67k_2026",
+      "hunt_cycle1055"
+    ],
+    "map_supports": [
+      "ag_proyectos_panama_albergue_generator_67k_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_salvador_gym_parking_68k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SES60016M1242_1900_-NONE-_-NONE- (El Salvador gym parking). Signed 2016-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60016M1242_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60016M1242_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: El Salvador gym parking USD 0.068m. Supports misc_salvador_gym_parking_68k_2016.",
+    "supports": [
+      "misc_salvador_gym_parking_68k_2016",
+      "hunt_cycle1055"
+    ],
+    "map_supports": [
+      "misc_salvador_gym_parking_68k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
