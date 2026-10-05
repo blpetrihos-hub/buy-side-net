@@ -1,10 +1,10 @@
 {
   "id": "crrc_salvador_metro_2026",
-  "retrieved": "2026-10-01",
+  "retrieved": "2026-10-04",
   "source_id": "railwaygazette_salvador_crrc_20260717",
   "url": "https://www.railwaygazette.com/metro-metro-categories/2026/07/17/crrc-wins-salvador-metro-train-order/",
   "price_year": "2026",
-  "evidence": "proxy",
+  "evidence": "documented",
   "quote": "The Bahia state government has selected a consortium of CRRC Changchun Railway Vehicles and CRRC Brasil Equipamentos Ferroviários to supply 10 four-car metro trainsets for use in the city of Salvador. The contract has a value of R$490.4m ... CRRC’s bid beat rival Alstom’s R$614.4m offer.",
-  "note": "Opened Railway Gazette article (non-paywalled)."
+  "note": "Opened Railway Gazette; R$490.4m / 10 four-car sets confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }

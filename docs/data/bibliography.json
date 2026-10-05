@@ -1371,13 +1371,14 @@
   },
   {
     "id": "railwaygazette_salvador_crrc_20260717",
-    "type": "journalism",
-    "chicago": "Railway Gazette International. “CRRC wins Salvador metro train order.” 17 July 2026.",
+    "type": "press",
+    "chicago": "Railway Gazette. “CRRC wins Salvador metro train order.” July 17, 2026. https://www.railwaygazette.com/metro-metro-categories/2026/07/17/crrc-wins-salvador-metro-train-order/.",
     "url": "https://www.railwaygazette.com/metro-metro-categories/2026/07/17/crrc-wins-salvador-metro-train-order/",
-    "annotation": "Industry journalism on CRRC Salvador metro award. Supports crrc_salvador_metro_2026 (UNVERIFIED proxy pending contract signature).",
+    "annotation": "CRRC Salvador CapEx-fill ~USD 94.45m via Fed H.10. Supports crrc_salvador_metro_2026.",
     "supports": [
       "crrc_salvador_metro_2026",
-      "hunt_latam_rail_telecom"
+      "hunt_latam_rail_telecom",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "crrc_salvador_metro_2026",
@@ -3816,12 +3817,13 @@
   {
     "id": "votorantim_nobres_cuiaba_20250804",
     "type": "company",
-    "chicago": "Votorantim Cimentos. “We announced R$330 million investment to expand and modernize Cuiabá and Nobres plants in Brazil.” 4 August 2025.",
+    "chicago": "Votorantim Cimentos. “We announced R$330 million investment to expand and modernize Cuiabá and Nobres plants in Brazil.” August 4, 2025. https://www.votorantimcimentos.com/news/we-announced-r330-million-investment-to-expand-and-modernize-cuiaba-and-nobres-plants-in-brazil/.",
     "url": "https://www.votorantimcimentos.com/news/we-announced-r330-million-investment-to-expand-and-modernize-cuiaba-and-nobres-plants-in-brazil/",
-    "annotation": "Company primary on R$330m Nobres/Cuiabá cement expansions. Supports votorantim_nobres_cuiaba_330m_2025.",
+    "annotation": "Votorantim Nobres/Cuiabá CapEx-fill ~USD 63.56m via Fed H.10. Supports votorantim_nobres_cuiaba_330m_2025.",
     "supports": [
       "votorantim_nobres_cuiaba_330m_2025",
-      "hunt_infra_building_materials"
+      "hunt_infra_building_materials",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "hunt_infra_building_materials",
@@ -8619,12 +8621,13 @@
   {
     "id": "cnnbrasil_state_grid_mantiqueira_20251128",
     "type": "press",
-    "chicago": "Monteiro, Renan. “State Grid Assina Contrato para Compra da Linha de Transmissão Mantiqueira.” CNN Brasil, 28 November 2025.",
-    "url": "https://www.cnnbrasil.com.br/economia/investimentos/state-grid-assina-contrato-para-compra-da-linha-de-transmissao-mantiqueira-2/",
-    "annotation": "Press on State Grid Mantiqueira acquisition (~R$7bn UNVERIFIED EV). Supports state_grid_mantiqueira_tx_2025.",
+    "chicago": "CNN Brasil. “State Grid assina contrato para compra da linha de transmissão Mantiqueira.” November 28, 2025. https://www.cnnbrasil.com.br/economia/investimentos/state-grid-assina-contrato-para-compra-da-linha-de-transmissao-mantiqueira/.",
+    "url": "https://www.cnnbrasil.com.br/economia/investimentos/state-grid-assina-contrato-para-compra-da-linha-de-transmissao-mantiqueira/",
+    "annotation": "State Grid Mantiqueira CapEx-fill ~USD 1348.20m via Fed H.10. Supports state_grid_mantiqueira_tx_2025.",
     "supports": [
       "state_grid_mantiqueira_tx_2025",
-      "hunt_br_power_equip"
+      "hunt_br_power_equip",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "hunt_br_power_equip",
@@ -8727,12 +8730,13 @@
   {
     "id": "metrocptm_crrc_line4_20260331",
     "type": "press",
-    "chicago": "Meier, Ricardo. “Motiva fecha compra de seis novos trens para a Linha 4-Amarela na China.” Metrô CPTM, 31 March 2026.",
+    "chicago": "Metrô CPTM. “Motiva fecha compra de seis novos trens para a Linha 4-Amarela na China.” March 31, 2026. https://www.metrocptm.com.br/motiva-fecha-compra-de-seis-novos-trens-para-a-linha-4-amarela-na-china/.",
     "url": "https://www.metrocptm.com.br/motiva-fecha-compra-de-seis-novos-trens-para-a-linha-4-amarela-na-china/",
-    "annotation": "Press on CRRC Changchun six Line 4 trains (~R$600m UNVERIFIED). Supports crrc_motiva_line4_6trains_2026.",
+    "annotation": "CRRC Motiva Line 4 CapEx-fill ~USD 115.56m via Fed H.10. Supports crrc_motiva_line4_6trains_2026.",
     "supports": [
       "crrc_motiva_line4_6trains_2026",
-      "hunt_latam_rail_telecom"
+      "hunt_latam_rail_telecom",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "crrc_motiva_line4_6trains_2026",
@@ -19395,12 +19399,13 @@
   {
     "id": "mcti_finep_mrn_20250617",
     "type": "government",
-    "chicago": "Ministério da Ciência, Tecnologia e Inovação (MCTI). “MCTI e FINEP investem R$ 30 milhões para projeto de microrreator nuclear.” June 17, 2025. https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/06/mcti-e-finep-investem-r-30-milhoes-para-projeto-de-microrreator-nuclear.",
-    "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/06/mcti-e-finep-investem-r-30-milhoes-para-projeto-de-microrreator-nuclear",
-    "annotation": "MCTI/Finep: MRN R$50m. Supports finep_diamante_mrn_50m_brl_2025.",
+    "chicago": "Ministério da Ciência, Tecnologia e Inovação. “MCTI e Finep investem R$ 30 milhões para projeto de microreator nuclear.” June 17, 2025. https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/06/mcti-e-finep-investem-r-30-milhoes-para-projeto-de-microreator-nuclear.",
+    "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/06/mcti-e-finep-investem-r-30-milhoes-para-projeto-de-microreator-nuclear",
+    "annotation": "FINEP Diamante CapEx-fill ~USD 9.63m via Fed H.10. Supports finep_diamante_mrn_50m_brl_2025.",
     "supports": [
       "finep_diamante_mrn_50m_brl_2025",
-      "hunt_cycle191"
+      "hunt_cycle191",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "finep_diamante_mrn_50m_brl_2025"
@@ -20307,12 +20312,13 @@
   {
     "id": "weg_itajai_bess_20260204",
     "type": "company",
-    "chicago": "WEG. “WEG anuncia nova fábrica de sistemas de armazenamento de energia em baterias (BESS) em Itajaí/SC.” February 4, 2026. https://www.weg.net/institutional/BR/pt/news/resultados-e-investimentos/weg-anuncia-nova-fabrica-de-sistemas-de-armazenamento-de-energia-em-baterias-bess-em-itajai-sc.",
-    "url": "https://www.weg.net/institutional/BR/pt/news/resultados-e-investimentos/weg-anuncia-nova-fabrica-de-sistemas-de-armazenamento-de-energia-em-baterias-bess-em-itajai-sc",
-    "annotation": "WEG Itajaí BESS: R$280m. Supports weg_itajai_bess_280m_brl_2026.",
+    "chicago": "WEG. “WEG anuncia nova fábrica de sistemas de armazenamento de energia.” February 4, 2026. https://www.weg.net/institutional/BR/pt/news/resultados-e-investimentos/weg-anuncia-nova-fabrica-de-sistemas-de-armazenamento-de-energia.",
+    "url": "https://www.weg.net/institutional/BR/pt/news/resultados-e-investimentos/weg-anuncia-nova-fabrica-de-sistemas-de-armazenamento-de-energia",
+    "annotation": "WEG Itajaí BESS CapEx-fill ~USD 53.93m via Fed H.10. Supports weg_itajai_bess_280m_brl_2026.",
     "supports": [
       "weg_itajai_bess_280m_brl_2026",
-      "hunt_cycle200"
+      "hunt_cycle200",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "weg_itajai_bess_280m_brl_2026"
@@ -20341,12 +20347,13 @@
   {
     "id": "edp_sa_7bn_20250618",
     "type": "company",
-    "chicago": "EDP. “EDP reinforces energy transition actions with investment of R$ 7 billion in South America.” June 18, 2025. https://edp.com/en/south-america/brazil/media/news/edp-reinforces-energy-transition-actions-investment-r-7-billion.",
+    "chicago": "EDP. “EDP reinforces energy transition actions with investment of R$ 7 billion.” June 18, 2025. https://edp.com/en/south-america/brazil/media/news/edp-reinforces-energy-transition-actions-investment-r-7-billion.",
     "url": "https://edp.com/en/south-america/brazil/media/news/edp-reinforces-energy-transition-actions-investment-r-7-billion",
-    "annotation": "EDP SA: R$7bn 2025–26 CapEx. Supports edp_south_america_7bn_brl_2025_2026.",
+    "annotation": "EDP SA CapEx-fill ~USD 1348.20m via Fed H.10. Supports edp_south_america_7bn_brl_2025_2026.",
     "supports": [
       "edp_south_america_7bn_brl_2025_2026",
-      "hunt_cycle200"
+      "hunt_cycle200",
+      "hunt_cycle226"
     ],
     "map_supports": [
       "edp_south_america_7bn_brl_2025_2026"
