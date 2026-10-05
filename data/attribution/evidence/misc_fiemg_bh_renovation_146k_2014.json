@@ -1,0 +1,10 @@
+{
+  "id": "misc_fiemg_bh_renovation_146k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_fiemg_bh_renovation_146k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25014C0012_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "FIEMG BH EXISTING BUILDING INSIDE RENOVATION IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 146489.09; date_signed 2014-01-27."
+}

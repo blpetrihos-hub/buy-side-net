@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1007
+cycle: 1010
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1008 shuffle_seed=20262008; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us680/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.11–0.15m (Eterna Soto Cano helo ramp; Bonatti SOSCO shoothouse; Proksol Ayacucho school; Atlas Haiti school/maternity; FIEMG BH renovation; Redguard Montevideo; CDA Antigua fence). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1008 shuffled_order)
+next_query: Cycle 1011 shuffle_seed=20262011; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us683/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.10–0.13m (Nobelcons Santa Barbara helipad; Goberdan’s Dalli boat ramp; Davalos Vista Alegre sniper tower; Ricketts JCF shed; Nicaragua Casa Grande road; Jamaica Powell Plaza roof/road). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1011 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1007) ===
-# Filled this batch: Bahamas×building_materials NEW×2 other (Beachfront facilities; CMR roof); Argentina×building_materials NEW×1 other (OBC domes); Colombia×water/building_materials NEW×3 (SEOBRA Macarena water other; Santa Marta rapel other; PSI Cúcuta T-wall us); El Salvador×building_materials NEW×2 other (Eterna covered storage; Dictores obstacle); Peru×building_materials NEW×2 other (Von Humboldt clinic; Zurite school); Panama×building_materials NEW×1 other (DICE BCI handrail); Ecuador×power_plants_grid NEW×1 other (ZIBA electrical); Guatemala×building_materials NEW×1 other (NEC fence); Belize×building_materials NEW×1 us (Hermosa family care); Jamaica×building_materials NEW×1 us (ML Engineering Kingston HVAC).
+# === Country×subcategory sweep cells touched (session continuing from 1010) ===
+# Filled this batch: Colombia×bridges_roads NEW×1 other (EEI asphalt); Honduras×bridges_roads/building_materials NEW×2 other (Eterna helo ramp; Bonatti SOSCO shoothouse); Haiti×building_materials NEW×2 other (Atlas Edeze Gousse school; Atlas HUEH maternity); Panama×building_materials NEW×2 other (CYM Ancon bathrooms; Abeher outdoor storage); Argentina×building_materials NEW×1 other (OBC basement); Peru×building_materials NEW×1 other (Proksol Ayacucho school); Brazil×building_materials NEW×1 other (FIEMG BH renovation); Antigua×building_materials NEW×1 us (CDA fence); Guatemala×building_materials NEW×1 other (Bonatti Poptún fence); Nicaragua×building_materials NEW×1 other (MCAC retention); Uruguay×building_materials NEW×1 us (Redguard Montevideo); Paraguay×water NEW×1 us (Carolina Water).
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank this batch.
 # ≥1/3 U.S. hunt budget spent (3 US CapEx this batch).
+
+# === Cycle 1010 (seed 20262010) ===
+# Shuffled: power_plants_grid, port_ownership, engineering_epc, copper, niobium, graphite, wind, lithium, bridges_roads, building_materials, nickel, port_cranes, fission_smr, solar, balsa, water, other_renewables, rail.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   bonatti_poptun_fence_143k_2010 abeher_outdoor_storage_141k_2011 misc_nicaragua_retention_133k_2022 redguard_montevideo_112k_2025 carolina_water_paraguay_111k_2023.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: USASpending sub-$0.13m; thin; company CapEx.
+# Active after cycle 1010: us683 / prc410 / allied1562 / other6097 (n=8752).
+
+# === Cycle 1009 (seed 20262009) ===
+# Shuffled: other_renewables, fission_smr, wind, water, graphite, bridges_roads, building_materials, rail, nickel, copper, engineering_epc, power_plants_grid, port_cranes, solar, lithium, niobium, port_ownership, balsa.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   misc_argentina_obc_basement_147k_2018 bonatti_sosco_shootsouse_147k_2010 proksol_ayacucho_school_147k_2010 misc_fiemg_bh_renovation_146k_2014 cda_antigua_fence_144k_2013.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Bonatti Poptún; Abeher storage; Nicaragua retention; Redguard; Carolina Water; thin.
+# Active after cycle 1009: us681 / prc410 / allied1562 / other6094 (n=8747).
+
+# === Cycle 1008 (seed 20262008) ===
+# Shuffled: lithium, other_renewables, water, copper, engineering_epc, nickel, building_materials, graphite, port_ownership, rail, fission_smr, port_cranes, bridges_roads, niobium, wind, balsa, solar, power_plants_grid.
+# Logged 5 NEW (0 US / 0 PRC / 0 allied / 5 other):
+#   eei_colombia_asphalt_154k_2026 eterna_helo_ramp_154k_2011 atlas_edeze_gousse_school_150k_2014 atlas_hueh_maternity_149k_2012 cym_ancon_bathrooms_149k_2021.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank. Note: ≥1/3 U.S. hunt budget searching; rows landed other.
+# Holdovers: OBC basement; SOSCO shoothouse; Ayacucho school; FIEMG BH; CDA Antigua; thin.
+# Active after cycle 1008: us680 / prc410 / allied1562 / other6090 (n=8742).
 
 # === Cycle 1007 (seed 20262007) ===
 # Shuffled: port_ownership, power_plants_grid, lithium, copper, fission_smr, graphite, other_renewables, building_materials, bridges_roads, water, port_cranes, wind, engineering_epc, balsa, niobium, solar, rail, nickel.
