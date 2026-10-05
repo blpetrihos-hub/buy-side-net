@@ -1,0 +1,10 @@
+{
+  "id": "motiva_autoban_exmaint_fy2017_137m_brl",
+  "retrieved": "2026-10-05",
+  "source_id": "motiva_capex_proforma_xlsx_2026",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "excl. maint AutoBAn … FY2017=137.39999999999998",
+  "note": "Opened Motiva Capex Proforma xlsx; AutoBAn excl. maint. FY2017 R$137.400m confirmed."
+}
