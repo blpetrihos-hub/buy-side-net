@@ -1,0 +1,10 @@
+{
+  "id": "pavimentaciones_peru_asphalt_66k_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_pavimentaciones_peru_asphalt_66k_2019",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019C0025_1900_-NONE-_-NONE-/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "ASPHALT REPAIR PARKING LOTS 2019",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 65917.63; date_signed 2019-09-23."
+}

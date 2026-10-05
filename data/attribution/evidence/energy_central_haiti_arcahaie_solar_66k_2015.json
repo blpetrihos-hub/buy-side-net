@@ -1,0 +1,10 @@
+{
+  "id": "energy_central_haiti_arcahaie_solar_66k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_energy_central_haiti_arcahaie_solar_66k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHA70015M1088_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "INL-COR-INSTALLATION OF SOLAR PANEL AT ARCAHAIE PRISON",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 65567.20; date_signed 2015-06-03."
+}

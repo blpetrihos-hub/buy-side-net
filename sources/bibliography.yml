@@ -27375,3 +27375,138 @@
   supports:
   - misc_salvador_gym_parking_68k_2016
   - hunt_cycle1055
+- id: usaspending_wholesale_solar_coibita_60k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330519P00432018_3300_-NONE-_-NONE- (Wholesale Solar Coibita). Signed 2019-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330519P00432018_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330519P00432018_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Wholesale Solar Coibita USD 0.060m. Supports wholesale_solar_coibita_60k_2019.'
+  supports:
+  - wholesale_solar_coibita_60k_2019
+  - hunt_cycle1056
+- id: usaspending_muka_brazil_circuit_breakers_60k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2525P1292_1900_-NONE-_-NONE- (Muka Brazil circuit breakers). Signed 2025-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P1292_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P1292_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Muka Brazil circuit breakers USD 0.060m. Supports muka_brazil_circuit_breakers_60k_2025.'
+  supports:
+  - muka_brazil_circuit_breakers_60k_2025
+  - hunt_cycle1056
+- id: usaspending_alerco_chile_barracks_san_fernando_61k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810P0225_9700_-NONE-_-NONE- (Alerco San Fernando barracks). Signed 2010-04-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0225_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0225_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Alerco San Fernando barracks USD 0.061m. Supports alerco_chile_barracks_san_fernando_61k_2010.'
+  supports:
+  - alerco_chile_barracks_san_fernando_61k_2010
+  - hunt_cycle1056
+- id: usaspending_misc_argentina_las_heras_67k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2018P0858_1900_-NONE-_-NONE- (Argentina Las Heras). Signed 2018-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018P0858_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018P0858_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Argentina Las Heras USD 0.067m. Supports misc_argentina_las_heras_67k_2018.'
+  supports:
+  - misc_argentina_las_heras_67k_2018
+  - hunt_cycle1056
+- id: usaspending_gordon_stri_gamboa_repairs_68k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330221CF0010440_3300_-NONE-_-NONE- (Gordon STRI Gamboa). Signed 2021-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330221CF0010440_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330221CF0010440_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Gordon STRI Gamboa USD 0.068m. Supports gordon_stri_gamboa_repairs_68k_2021.'
+  supports:
+  - gordon_stri_gamboa_repairs_68k_2021
+  - hunt_cycle1056
+- id: usaspending_cummins_honduras_cmr_generators_59k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80014F0204_1900_GS07F9004D_4730 (Cummins Honduras CMR generators). Signed 2014-05-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80014F0204_1900_GS07F9004D_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80014F0204_1900_GS07F9004D_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Cummins Honduras CMR generators USD 0.059m. Supports cummins_honduras_cmr_generators_59k_2014.'
+  supports:
+  - cummins_honduras_cmr_generators_59k_2014
+  - hunt_cycle1057
+- id: usaspending_nesi_peru_chancery_roof_56k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014M0855_1900_-NONE-_-NONE- (Nesi Peru chancery roof). Signed 2014-04-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0855_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0855_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Nesi Peru chancery roof USD 0.056m. Supports nesi_peru_chancery_roof_56k_2014.'
+  supports:
+  - nesi_peru_chancery_roof_56k_2014
+  - hunt_cycle1057
+- id: usaspending_isobox_panama_corozal_repairs_58k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_H9228122C0001_9700_-NONE-_-NONE- (Isobox Corozal East). Signed 2022-04-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228122C0001_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228122C0001_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Isobox Corozal East USD 0.058m. Supports isobox_panama_corozal_repairs_58k_2022.'
+  supports:
+  - isobox_panama_corozal_repairs_58k_2022
+  - hunt_cycle1057
+- id: usaspending_energy_central_haiti_arcahaie_solar_66k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHA70015M1088_1900_-NONE-_-NONE- (Energy Central Arcahaie solar). Signed 2015-06-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHA70015M1088_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHA70015M1088_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Energy Central Arcahaie solar USD 0.066m. Supports energy_central_haiti_arcahaie_solar_66k_2015.'
+  supports:
+  - energy_central_haiti_arcahaie_solar_66k_2015
+  - hunt_cycle1057
+- id: usaspending_pavimentaciones_peru_asphalt_66k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PE5019C0025_1900_-NONE-_-NONE- (Pavimentaciones Peru asphalt). Signed 2019-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019C0025_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019C0025_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Pavimentaciones Peru asphalt USD 0.066m. Supports pavimentaciones_peru_asphalt_66k_2019.'
+  supports:
+  - pavimentaciones_peru_asphalt_66k_2019
+  - hunt_cycle1057
+- id: usaspending_mckinney_stri_fire_ae_61k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F10CW10175_3300_F06CC10332_3300 (McKinney STRI fire A/E). Signed 2010-04-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F10CW10175_3300_F06CC10332_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F10CW10175_3300_F06CC10332_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: McKinney STRI fire A/E USD 0.061m. Supports mckinney_stri_fire_ae_61k_2010.'
+  supports:
+  - mckinney_stri_fire_ae_61k_2010
+  - hunt_cycle1058
+- id: usaspending_simplified_safety_peru_guardrail_59k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PE5019P2010_1900_-NONE-_-NONE- (Simplified Safety Peru guardrail). Signed 2019-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019P2010_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019P2010_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Simplified Safety Peru guardrail USD 0.059m. Supports simplified_safety_peru_guardrail_59k_2019.'
+  supports:
+  - simplified_safety_peru_guardrail_59k_2019
+  - hunt_cycle1058
+- id: usaspending_ayre_honduras_hvac_rtu_69k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19H08019P0657_1900_-NONE-_-NONE- (Ayre Honduras HVAC RTU). Signed 2019-08-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19H08019P0657_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19H08019P0657_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ayre Honduras HVAC RTU USD 0.069m. Supports ayre_honduras_hvac_rtu_69k_2019.'
+  supports:
+  - ayre_honduras_hvac_rtu_69k_2019
+  - hunt_cycle1058
+- id: usaspending_gerardo_leon_mexico_generator_65k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX6024P0097_1900_-NONE-_-NONE- (Gerardo Leon Mexico generator). Signed 2024-07-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6024P0097_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6024P0097_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Gerardo Leon Mexico generator USD 0.065m. Supports gerardo_leon_mexico_generator_65k_2024.'
+  supports:
+  - gerardo_leon_mexico_generator_65k_2024
+  - hunt_cycle1058
+- id: usaspending_misc_brazil_shis_fence_66k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2525P1234_1900_-NONE-_-NONE- (Brazil SHIS fence). Signed 2025-09-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P1234_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P1234_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brazil SHIS fence USD 0.066m. Supports misc_brazil_shis_fence_66k_2025.'
+  supports:
+  - misc_brazil_shis_fence_66k_2025
+  - hunt_cycle1058
