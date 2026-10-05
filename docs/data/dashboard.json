@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8155,
+    "n_rows": 8160,
     "counts": {
-      "total": 8155,
-      "active": 7956,
+      "total": 8160,
+      "active": 7961,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7882,
-      "on_map": 7788
+      "documented": 7887,
+      "on_map": 7793
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3840,
-        "n": 4241
+        "allied": 3845,
+        "n": 4246
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382870200079.1306,
-        "allied_n": 3769
+        "allied": 382906496325.9306,
+        "allied_n": 3774
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6723,
-        "n": 6978
+        "allied": 6728,
+        "n": 6983
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526738906054.93024,
-        "allied_n": 6642
+        "allied": 526775202301.7302,
+        "allied_n": 6647
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3706
+          "allied": 3711
         },
         "infrastructure": {
           "us": 68,
@@ -9144,7 +9144,12 @@
       "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v6",
       "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v3",
       "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v4",
-      "axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl"
+      "axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl",
+      "axia_txproj_melhoria_na_se_u_sobradinho_substituicao_do_t_38m_brl",
+      "axia_txproj_reforco_na_se_teixeira_de_freitas_ii_instalac_38m_brl",
+      "axia_txproj_melhoria_na_se_vila_do_conde_substituicao_do__38m_brl",
+      "axia_txproj_reforco_se_rondonopolis_instalacao_do_3_atf_2_37m_brl",
+      "axia_txproj_se_guarulhos_instalacao_do_primeiro_banco_de__37m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
