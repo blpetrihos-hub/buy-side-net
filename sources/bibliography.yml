@@ -11602,11 +11602,14 @@
   type: company
   chicago: Portonave. “Investimentos da Portonave na modernização do cais e em novos equipamentos chegam a R$ 2 bilhões.” November 28, 2025. https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes.
   url: https://www.portonave.com.br/pt/todas-as-noticias/investimentos-da-portonave-na-modernizacao-do-cais-e-em-novos-equipamentos-chegam-a-rusd-2-bilhoes
-  annotation: Portonave quay CapEx-fill ~USD 288.90m via Fed H.10. Supports portonave_cais_1p5bn_brl_2026.
+  annotation: Portonave R$2bn program + R$439m equipment via Fed H.10. Supports portonave_2bn_program_brl_2025; portonave_equip_439m_brl_2025.
   supports:
   - portonave_cais_1p5bn_brl_2026
   - hunt_cycle210
   - hunt_cycle228
+  - portonave_2bn_program_brl_2025
+  - hunt_cycle268
+  - portonave_equip_439m_brl_2025
 - id: codelco_enami_qb_20241218
   type: company
   chicago: Codelco. “Codelco y ENAMI culminan proceso de compraventa del 10% de la Compañía Minera Teck Quebrada Blanca.” December 18, 2024. https://www.codelco.com/codelco-y-enami-culminan-proceso-de-compraventa-del-10-de-la-compania.
@@ -12893,3 +12896,21 @@
   supports:
   - byd_brazil_bess_factory_500m_2026
   - hunt_cycle267
+- id: odata_sp04_announce_20250317
+  type: company
+  chicago: ODATA. “ODATA anuncia novo data center em São Paulo.” March 17, 2025. https://odatadc.com/imprensa/odata-anuncia-novo-data-center-em-sao-paulo/.
+  url: https://odatadc.com/imprensa/odata-anuncia-novo-data-center-em-sao-paulo/
+  annotation: ODATA SP04 >R$2.6bn via Fed H.10. Supports odata_sp04_2p6bn_brl_2025.
+  supports:
+  - odata_sp04_2p6bn_brl_2025
+  - hunt_cycle268
+- id: cpfl_tx_fr_2026_20260528
+  type: company
+  chicago: CPFL Transmissão. “Formulário de Referência 2026” (FR_CPFL Transmissão 2026). May 28, 2026. https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D.
+  url: https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D
+  annotation: CPFL Transmissão 2026 R$856m / 2027 R$1.221bn / 2026–2030 R$4.540bn via Fed H.10. Supports cpfl_tx_2026_capex_856m_brl; cpfl_tx_2027_capex_1221m_brl; cpfl_tx_2026_2030_4540m_brl.
+  supports:
+  - cpfl_tx_2026_capex_856m_brl
+  - hunt_cycle268
+  - cpfl_tx_2027_capex_1221m_brl
+  - cpfl_tx_2026_2030_4540m_brl

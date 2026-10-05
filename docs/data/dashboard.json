@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 1589,
+    "n_rows": 1595,
     "counts": {
-      "total": 1589,
-      "active": 1390,
+      "total": 1595,
+      "active": 1396,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 179,
       "exclude": 18,
-      "documented": 1325,
-      "on_map": 1253
+      "documented": 1331,
+      "on_map": 1259
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 176,
+        "us": 177,
         "prc": 126,
-        "allied": 203,
-        "n": 505
+        "allied": 205,
+        "n": 508
       },
       "usd": {
-        "us": 44955217878.43001,
-        "us_n": 108,
+        "us": 45455978649.600006,
+        "us_n": 109,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 60193457162.84003,
-        "allied_n": 129
+        "allied": 60663209286.260025,
+        "allied_n": 131
       },
       "matched_gaps": {
         "n": 1,
@@ -154,15 +154,15 @@
       "layer": "energy",
       "counts": {
         "us": 156,
-        "prc": 184,
+        "prc": 187,
         "allied": 223,
-        "n": 563
+        "n": 566
       },
       "usd": {
         "us": 23626161117.969997,
         "us_n": 51,
-        "prc": 33421825683.579994,
-        "prc_n": 54,
+        "prc": 34696261846.2,
+        "prc_n": 57,
         "allied": 103301300858.01003,
         "allied_n": 152
       },
@@ -362,29 +362,29 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 109,
-        "prc": 99,
-        "allied": 261,
-        "n": 469
+        "us": 110,
+        "prc": 102,
+        "allied": 263,
+        "n": 475
       },
       "usd": {
-        "us": 19523590504.539997,
-        "us_n": 47,
-        "prc": 32163806653.79,
-        "prc_n": 43,
-        "allied": 143516225393.7301,
-        "allied_n": 180
+        "us": 20024351275.709995,
+        "us_n": 48,
+        "prc": 33438242816.410004,
+        "prc_n": 46,
+        "allied": 143985977517.1501,
+        "allied_n": 182
       },
       "by_layer": {
         "energy": {
           "us": 19,
-          "prc": 65,
+          "prc": 68,
           "allied": 117
         },
         "infrastructure": {
-          "us": 64,
+          "us": 65,
           "prc": 25,
-          "allied": 80
+          "allied": 82
         },
         "resources": {
           "us": 26,
@@ -2578,7 +2578,13 @@
       "porto_itapoa_fase_iii_815m_brl_2024",
       "motiva_2026_capex_plan_8p3bn_brl",
       "motiva_linha4_2026_941m_brl",
-      "alupar_6m26_custo_infra_649p2m_brl"
+      "alupar_6m26_custo_infra_649p2m_brl",
+      "odata_sp04_2p6bn_brl_2025",
+      "portonave_2bn_program_brl_2025",
+      "portonave_equip_439m_brl_2025",
+      "cpfl_tx_2026_capex_856m_brl",
+      "cpfl_tx_2027_capex_1221m_brl",
+      "cpfl_tx_2026_2030_4540m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
