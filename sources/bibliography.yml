@@ -31650,3 +31650,93 @@
   supports:
   - sarti_guatemala_aviation_landing_zone_lights_access_gate_9k_2019
   - hunt_cycle1150
+- id: usaspending_norshield_belize_metal_door_screen_25k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22P0891_1900_-NONE-_-NONE- (norshield_belize_metal_door_screen_25k_2022). Signed 2022-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0891_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0891_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: norshield_belize_metal_door_screen_25k_2022 USD 0.025m. Supports norshield_belize_metal_door_screen_25k_2022.'
+  supports:
+  - norshield_belize_metal_door_screen_25k_2022
+  - hunt_cycle1151
+- id: usaspending_cummins_belize_generator_bme_19k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBH20016M0418_1900_-NONE-_-NONE- (cummins_belize_generator_bme_19k_2016). Signed 2016-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20016M0418_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20016M0418_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cummins_belize_generator_bme_19k_2016 USD 0.019m. Supports cummins_belize_generator_bme_19k_2016.'
+  supports:
+  - cummins_belize_generator_bme_19k_2016
+  - hunt_cycle1151
+- id: usaspending_misc_mexico_cdj_motor_pump_replacement_gov_prop_14k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11515M0471_1900_-NONE-_-NONE- (misc_mexico_cdj_motor_pump_replacement_gov_prop_14k_2015). Signed 2015-09-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11515M0471_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11515M0471_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_cdj_motor_pump_replacement_gov_prop_14k_2015 USD 0.014m. Supports misc_mexico_cdj_motor_pump_replacement_gov_prop_14k_2015.'
+  supports:
+  - misc_mexico_cdj_motor_pump_replacement_gov_prop_14k_2015
+  - hunt_cycle1151
+- id: usaspending_misc_haiti_air_conditioning_units_7k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10P9021_9700_-NONE-_-NONE- (misc_haiti_air_conditioning_units_7k_2010). Signed 2010-05-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10P9021_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10P9021_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_haiti_air_conditioning_units_7k_2010 USD 0.007m. Supports misc_haiti_air_conditioning_units_7k_2010.'
+  supports:
+  - misc_haiti_air_conditioning_units_7k_2010
+  - hunt_cycle1151
+- id: usaspending_dicec_panama_galeta_aerogenerator_generator_install_10k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F13PO7300000285315_3300_-NONE-_-NONE- (dicec_panama_galeta_aerogenerator_generator_install_10k_2013). Signed 2013-08-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F13PO7300000285315_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F13PO7300000285315_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: dicec_panama_galeta_aerogenerator_generator_install_10k_2013 USD 0.010m. Supports dicec_panama_galeta_aerogenerator_generator_install_10k_2013.'
+  supports:
+  - dicec_panama_galeta_aerogenerator_generator_install_10k_2013
+  - hunt_cycle1151
+- id: usaspending_summit_electric_mexico_cdj_lighting_fixture_replacement_8k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11516M0061_1900_-NONE-_-NONE- (summit_electric_mexico_cdj_lighting_fixture_replacement_8k_2016). Signed 2016-01-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516M0061_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516M0061_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: summit_electric_mexico_cdj_lighting_fixture_replacement_8k_2016 USD 0.008m. Supports summit_electric_mexico_cdj_lighting_fixture_replacement_8k_2016.'
+  supports:
+  - summit_electric_mexico_cdj_lighting_fixture_replacement_8k_2016
+  - hunt_cycle1152
+- id: usaspending_solar_electric_colombia_solar_powered_street_lights_12k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11F0015_9700_GS07F0288M_4730 (solar_electric_colombia_solar_powered_street_lights_12k_2011). Signed 2011-08-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11F0015_9700_GS07F0288M_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11F0015_9700_GS07F0288M_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: solar_electric_colombia_solar_powered_street_lights_12k_2011 USD 0.012m. Supports solar_electric_colombia_solar_powered_street_lights_12k_2011.'
+  supports:
+  - solar_electric_colombia_solar_powered_street_lights_12k_2011
+  - hunt_cycle1152
+- id: usaspending_misc_paraguay_rso_split_ac_units_guard_positions_7k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPA10011M0252_1900_-NONE-_-NONE- (misc_paraguay_rso_split_ac_units_guard_positions_7k_2011). Signed 2011-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPA10011M0252_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPA10011M0252_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_paraguay_rso_split_ac_units_guard_positions_7k_2011 USD 0.007m. Supports misc_paraguay_rso_split_ac_units_guard_positions_7k_2011.'
+  supports:
+  - misc_paraguay_rso_split_ac_units_guard_positions_7k_2011
+  - hunt_cycle1152
+- id: usaspending_osegueda_el_salvador_latrine_septic_tank_construct_26k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810P0156_9700_-NONE-_-NONE- (osegueda_el_salvador_latrine_septic_tank_construct_26k_2010). Signed 2010-06-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0156_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0156_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: osegueda_el_salvador_latrine_septic_tank_construct_26k_2010 USD 0.026m. Supports osegueda_el_salvador_latrine_septic_tank_construct_26k_2010.'
+  supports:
+  - osegueda_el_salvador_latrine_septic_tank_construct_26k_2010
+  - hunt_cycle1152
+- id: usaspending_misc_honduras_cmr_hvac_purchase_install_8k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80013M0847_1900_-NONE-_-NONE- (misc_honduras_cmr_hvac_purchase_install_8k_2013). Signed 2013-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80013M0847_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80013M0847_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_cmr_hvac_purchase_install_8k_2013 USD 0.008m. Supports misc_honduras_cmr_hvac_purchase_install_8k_2013.'
+  supports:
+  - misc_honduras_cmr_hvac_purchase_install_8k_2013
+  - hunt_cycle1152
