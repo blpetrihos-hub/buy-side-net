@@ -27940,3 +27940,153 @@
   supports:
   - gale_paraguay_ncmr_roof_ae_94k_2018
   - hunt_cycle1016
+- id: usaspending_jj_soto_cano_generator_110k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127811D0047_9700
+    (J&J Soto Cano generator). Signed 2011-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127811D0047_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127811D0047_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: J&J Soto Cano generator USD 0.110m. Supports jj_soto_cano_generator_110k_2011.'
+  supports:
+  - jj_soto_cano_generator_110k_2011
+  - hunt_cycle1017
+- id: usaspending_eeii_guaymaral_expansion_109k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01520C0001_1900_-NONE-_-NONE-
+    (EEII Guaymaral expansion). Signed 2020-01-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EEII Guaymaral expansion USD 0.109m. Supports eeii_guaymaral_expansion_109k_2020.'
+  supports:
+  - eeii_guaymaral_expansion_109k_2020
+  - hunt_cycle1017
+- id: usaspending_misc_jamaica_guard_booths_109k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3721C0001_1900_-NONE-_-NONE-
+    (Jamaica guard booths). Signed 2021-07-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3721C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3721C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Jamaica guard booths USD 0.109m. Supports misc_jamaica_guard_booths_109k_2021.'
+  supports:
+  - misc_jamaica_guard_booths_109k_2021
+  - hunt_cycle1017
+- id: usaspending_mode_powell_ae_100k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3724F0039_1900_19JM3724D0001_1900
+    (MODE Powell A&E). Signed 2024-05-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3724F0039_1900_19JM3724D0001_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3724F0039_1900_19JM3724D0001_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: MODE Powell A&E USD 0.100m. Supports mode_powell_ae_100k_2024.'
+  supports:
+  - mode_powell_ae_100k_2024
+  - hunt_cycle1017
+- id: usaspending_misc_barbados_solar_91k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BB2118C0004_1900_-NONE-_-NONE-
+    (Barbados solar). Signed 2018-07-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2118C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2118C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Barbados solar USD 0.091m. Supports misc_barbados_solar_91k_2018.'
+  supports:
+  - misc_barbados_solar_91k_2018
+  - hunt_cycle1017
+- id: usaspending_beaver_peru_water_tower_93k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL13C0008_9700_-NONE-_-NONE-
+    (Beaver Peru water tower). Signed 2013-04-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0008_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0008_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Beaver Peru water tower USD 0.093m. Supports beaver_peru_water_tower_93k_2013.'
+  supports:
+  - beaver_peru_water_tower_93k_2013
+  - hunt_cycle1018
+- id: usaspending_misc_uruguay_canalizations_100k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19UY6022P0714_1900_-NONE-_-NONE-
+    (Uruguay canalizations). Signed 2022-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6022P0714_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6022P0714_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Uruguay canalizations USD 0.100m. Supports misc_uruguay_canalizations_100k_2022.'
+  supports:
+  - misc_uruguay_canalizations_100k_2022
+  - hunt_cycle1018
+- id: usaspending_carranza_corn_island_pier_94k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0142_9700_-NONE-_-NONE-
+    (Carranza Corn Island pier). Signed 2011-03-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0142_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0142_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Carranza Corn Island pier USD 0.094m. Supports carranza_corn_island_pier_94k_2011.'
+  supports:
+  - carranza_corn_island_pier_94k_2011
+  - hunt_cycle1018
+- id: usaspending_multistack_salvador_chiller_107k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SES60010M0578_1900_-NONE-_-NONE-
+    (Multistack El Salvador chiller). Signed 2010-06-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60010M0578_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60010M0578_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Multistack El Salvador chiller USD 0.107m. Supports multistack_salvador_chiller_107k_2010.'
+  supports:
+  - multistack_salvador_chiller_107k_2010
+  - hunt_cycle1018
+- id: usaspending_tecniservicios_cr_inl_annex_108k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8025P0612_1900_-NONE-_-NONE-
+    (Tecniservicios CR INL annex). Signed 2025-06-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8025P0612_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8025P0612_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Tecniservicios CR INL annex USD 0.108m. Supports tecniservicios_cr_inl_annex_108k_2025.'
+  supports:
+  - tecniservicios_cr_inl_annex_108k_2025
+  - hunt_cycle1018
+- id: usaspending_eaton_suriname_electrical_95k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19NS5019P0494_1900_-NONE-_-NONE-
+    (Eaton Suriname electrical). Signed 2019-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NS5019P0494_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NS5019P0494_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eaton Suriname electrical USD 0.095m. Supports eaton_suriname_electrical_95k_2019.'
+  supports:
+  - eaton_suriname_electrical_95k_2019
+  - hunt_cycle1019
+- id: usaspending_relyant_guapi_hospital_87k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823F0499_9700_W9127823D0063_9700
+    (Relyant Guapi hospital). Signed 2023-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0499_9700_W9127823D0063_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0499_9700_W9127823D0063_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Relyant Guapi hospital USD 0.087m. Supports relyant_guapi_hospital_87k_2023.'
+  supports:
+  - relyant_guapi_hospital_87k_2023
+  - hunt_cycle1019
+- id: usaspending_maheias_ladyville_clinic_96k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17P0728_9700_-NONE-_-NONE-
+    (Maheias Ladyville clinic). Signed 2017-03-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17P0728_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17P0728_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Maheias Ladyville clinic USD 0.096m. Supports maheias_ladyville_clinic_96k_2017.'
+  supports:
+  - maheias_ladyville_clinic_96k_2017
+  - hunt_cycle1019
+- id: usaspending_misc_dr_k9_range_98k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8622C0035_1900_-NONE-_-NONE-
+    (DR K9 range). Signed 2022-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8622C0035_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8622C0035_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: DR K9 range USD 0.098m. Supports misc_dr_k9_range_98k_2022.'
+  supports:
+  - misc_dr_k9_range_98k_2022
+  - hunt_cycle1019
+- id: usaspending_carranza_hap_school_100k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0333_9700_-NONE-_-NONE-
+    (Carranza HAP school). Signed 2011-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0333_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0333_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Carranza HAP school USD 0.100m. Supports carranza_hap_school_100k_2011.'
+  supports:
+  - carranza_hap_school_100k_2011
+  - hunt_cycle1019

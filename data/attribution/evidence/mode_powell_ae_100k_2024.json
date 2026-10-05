@@ -1,0 +1,10 @@
+{
+  "id": "mode_powell_ae_100k_2024",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_mode_powell_ae_100k_2024",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3724F0039_1900_19JM3724D0001_1900/",
+  "price_year": "2024",
+  "evidence": "documented",
+  "quote": "FAC - A& E SERVICES - RENOVATION OF APTS AT POWELL PLAZA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 99515.92; date_signed 2024-05-16."
+}
