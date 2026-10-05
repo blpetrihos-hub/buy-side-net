@@ -12507,7 +12507,7 @@
   type: company
   chicago: Equatorial S.A. “Resultados do segundo trimestre de 2026 (2T26).” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2
-  annotation: Equatorial Renováveis 2T26 CapEx R$48m via Fed H.10. Supports equatorial_renovaveis_2t26_48m_brl.
+  annotation: Equatorial Saneamento 2T26 CapEx R$12m via Fed H.10. Supports equatorial_saneamento_2t26_12m_brl.
   supports:
   - equatorial_2t26_capex_2p6bn_brl
   - hunt_cycle254
@@ -12515,6 +12515,8 @@
   - hunt_cycle271
   - equatorial_renovaveis_2t26_48m_brl
   - hunt_cycle273
+  - equatorial_saneamento_2t26_12m_brl
+  - hunt_cycle274
 - id: cpfl_2t26_results_20260813
   type: company
   chicago: CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26, alta de 21,3%.” August 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.
@@ -12543,7 +12545,7 @@
   type: company
   chicago: Cemig. “Resultados 1S26 / 2T26” (company RI presentation PDF). https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
   url: https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf
-  annotation: Cemig TX 2T26 CapEx R$165.9m via Fed H.10. Supports cemig_tx_2t26_165p9m_brl.
+  annotation: Cemig Gen 1S26 CapEx R$30m via Fed H.10. Supports cemig_gen_1s26_30m_brl.
   supports:
   - cemig_1s26_capex_3p28bn_brl
   - hunt_cycle256
@@ -12557,6 +12559,8 @@
   - cemig_dist_2t26_1360m_brl
   - hunt_cycle273
   - cemig_tx_2t26_165p9m_brl
+  - cemig_gen_1s26_30m_brl
+  - hunt_cycle274
 - id: votorantim_cimentos_2t26_results_2026
   type: company
   chicago: Votorantim Cimentos. “Nossos resultados financeiros no segundo trimestre de 2026.” 2026. https://www.votorantimcimentos.com.br/noticia/nossos-resultados-financeiros-no-segundo-trimestre-de-2026/.
@@ -12567,13 +12571,16 @@
   - hunt_cycle256
 - id: isa_energia_2t26_news_20260803
   type: company
-  chicago: ISA Energia Brasil. “Com energização de grandes projetos, ISA ENERGIA BRASIL amplia receita líquida em 21% no trimestre.” August 3, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/com-energizacao-de-grandes-projetos-isa-energia-brasil-amplia-receita-liquida-em-21-no-trimestre/.
+  chicago: ISA Energia Brasil. “Com energização de grandes projetos, ISA Energia Brasil amplia receita líquida em 21% no trimestre.” August 3, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/com-energizacao-de-grandes-projetos-isa-energia-brasil-amplia-receita-liquida-em-21-no-trimestre/.
   url: https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/com-energizacao-de-grandes-projetos-isa-energia-brasil-amplia-receita-liquida-em-21-no-trimestre/
-  annotation: ISA remanescente NEW ~R$4.6bn ~USD 885.96m via Fed H.10. Supports isa_energia_remanescente_4p6bn_brl_2026.
+  annotation: ISA Energia 2T26 licitados CapEx R$608.1m via Fed H.10. Supports isa_energia_2t26_licitados_608p1m_brl.
   supports:
   - isa_energia_2t26_capex_1053p5m_brl
   - hunt_cycle257
   - isa_energia_remanescente_4p6bn_brl_2026
+  - isa_energia_2t26_rm_445p4m_brl
+  - hunt_cycle274
+  - isa_energia_2t26_licitados_608p1m_brl
 - id: light_1t26_release_mziq
   type: company
   chicago: Light S.A. “Release de Resultados 1T26.” 2026. https://api.mziq.com/mzfilemanager/v2/d/50b51302-4c48-4351-b296-bfcbe65fd70a/586839ac-be1f-07e6-6fdb-c67da0fac283?origin=2.
@@ -12701,11 +12708,14 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo 2T26/6M26 CapEx via Fed H.10. Supports rumo_2t26_capex_1597m_brl; rumo_6m26_capex_3371m_brl.
+  annotation: Rumo Operação Sul 2T26 CapEx R$183m via Fed H.10. Supports rumo_sul_2t26_183m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
   - rumo_6m26_capex_3371m_brl
+  - rumo_norte_2t26_1393m_brl
+  - hunt_cycle274
+  - rumo_sul_2t26_183m_brl
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -12743,7 +12753,7 @@
   type: company
   chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea Corsan 2T26 Capex R$484m via Fed H.10. Supports aegea_corsan_2t26_484m_brl.
+  annotation: Aegea PPPs 2T26 Capex R$237m via Fed H.10. Supports aegea_ppps_2t26_237m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12752,6 +12762,9 @@
   - hunt_cycle272
   - aegea_corsan_2t26_484m_brl
   - hunt_cycle273
+  - aegea_manaus_2t26_91m_brl
+  - hunt_cycle274
+  - aegea_ppps_2t26_237m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13040,13 +13053,15 @@
   type: company
   chicago: CPFL Energia S.A. “Relatório de Administração e Demonstrações Financeiras” (2025). Company RI PDF. https://ri.cpfl.com.br/Download.aspx?Arquivo=xGWXwO4pmQpCskEpHHDQQg%3D%3D.
   url: https://ri.cpfl.com.br/Download.aspx?Arquivo=xGWXwO4pmQpCskEpHHDQQg%3D%3D
-  annotation: CPFL FY2025 generation CapEx R$270m via Fed H.10. Supports cpfl_fy2025_gen_270m_brl; cpfl_fy2025_capex_6p1bn_brl.
+  annotation: CPFL FY2025 other-segment CapEx R$74m via Fed H.10. Supports cpfl_fy2025_other_74m_brl.
   supports:
   - cpfl_fy2025_dist_4964m_brl
   - hunt_cycle271
   - cpfl_fy2025_tx_804m_brl
   - cpfl_fy2025_gen_270m_brl
   - hunt_cycle272
+  - cpfl_fy2025_other_74m_brl
+  - hunt_cycle274
 - id: vli_2t26_dcs_20260630
   type: company
   chicago: VLI S.A. “Demonstrações Contábeis 2T26” (as of June 30, 2026). https://www.vli-logistica.com.br/wp-content/uploads/2026/08/VLISA_DCs_2T_30062026.pdf.
@@ -13060,7 +13075,7 @@
   type: company
   chicago: AES Andes S.A. “US$ 530 million 8.150% Junior Notes due 2055 Green Bond Impact Report.” June 2026. https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf.
   url: https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf
-  annotation: AES Andes Wind Colombia green allocation US$2.90m. Supports aes_andes_green_wind_colombia_2p9m.
+  annotation: AES Andes Energy Purchases Chile green allocation US$87.80m. Supports aes_andes_green_purchases_chile_87p8m.
   supports:
   - aes_andes_green_bond_530m_20240610
   - hunt_cycle272
@@ -13070,3 +13085,5 @@
   - hunt_cycle273
   - aes_andes_green_wind_chile_10p4m
   - aes_andes_green_wind_colombia_2p9m
+  - aes_andes_green_purchases_chile_87p8m
+  - hunt_cycle274
