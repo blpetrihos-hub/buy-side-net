@@ -1,0 +1,10 @@
+{
+  "id": "industrias_bendig_costarica_construction_745k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_industrias_bendig_costarica_construction_745k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0160_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "TOTAL FIRM FIXED-PRICE: CONSTRUCTION SERVICES, INCLUDING ALL LABOR, MATERIALS, EQUIPMENT, OVERHEAD, OTHER INDIRECT COSTS, COSTS FOR INSURANCE (OTHER THAN DBA), LETTER OF CREDITS, AND PROFIT: (SEE SECTION C.1.3.1) IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 745379.0; date_signed 2014-09-01."
+}
