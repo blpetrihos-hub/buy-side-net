@@ -34642,7 +34642,7 @@
     "type": "company",
     "chicago": "AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2",
-    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v2.",
+    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl.",
     "supports": [
       "axia_consol_imob_intang_2t26_2212m_brl",
       "hunt_cycle632",
@@ -35094,7 +35094,13 @@
       "axia_txproj_reforco_na_se_rondonopolis_substituicao_do_tr_39m_brl",
       "axia_txproj_reforco_na_se_ibiuna_instalacao_das_fases_pri_39m_brl",
       "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl",
-      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v2"
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v2",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v5",
+      "hunt_cycle850",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v6",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v3",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v4",
+      "axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl"
     ],
     "map_supports": [
       "axia_consol_ambiental_infra_1t22_41m_brl",
@@ -35432,6 +35438,10 @@
       "axia_txproj_melhoria_na_se_foz_do_iguacu_revitalizacao_do_47m_brl",
       "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl",
       "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v2",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v3",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v4",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v5",
+      "axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v6",
       "axia_txproj_melhoria_na_se_itumbiara_substituicao_do_tran_53m_brl",
       "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_t_46m_brl",
       "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_banco_151m_brl",
@@ -35465,6 +35475,7 @@
       "axia_txproj_reforco_na_se_vitoria_substituicao_do_atr1_34_79m_brl",
       "axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl",
       "axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl_v2",
+      "axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl",
       "axia_txproj_revitalizacao_completa_das_instalacoes_do_bip_2184m_brl",
       "axia_txproj_se_230_138_kv_chapecoense_e_seccionamento_de__191m_brl",
       "axia_txproj_se_230_138_kv_iguatemi_2_e_seccionamento_em_2_151m_brl",
