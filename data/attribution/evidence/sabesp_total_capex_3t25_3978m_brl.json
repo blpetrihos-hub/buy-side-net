@@ -1,0 +1,10 @@
+{
+  "id": "sabesp_total_capex_3t25_3978m_brl",
+  "retrieved": "2026-10-05",
+  "source_id": "sabesp_planilha_resultados_2t26_xlsx",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/9e47ee51-f833-4a23-af98-2bac9e54e0b3/eb218c60-13a0-8dbc-2220-48fdd1abf99a?origin=2",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "Total CapEx … 3T25=3978.3040000000005",
+  "note": "Opened Sabesp Planilha de Resultados 2T26 xlsx; Total CapEx 3T25 R$3,978.304m confirmed."
+}
