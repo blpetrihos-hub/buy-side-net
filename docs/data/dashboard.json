@@ -87,28 +87,28 @@
     }
   },
   "meta": {
-    "n_rows": 1470,
+    "n_rows": 1475,
     "counts": {
-      "total": 1470,
-      "active": 1271,
+      "total": 1475,
+      "active": 1276,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1211,
-      "on_map": 1141
+      "documented": 1215,
+      "on_map": 1146
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 163,
+        "us": 164,
         "prc": 126,
         "allied": 171,
-        "n": 460
+        "n": 461
       },
       "usd": {
         "us": 33002005998.850002,
@@ -154,17 +154,17 @@
       "layer": "energy",
       "counts": {
         "us": 153,
-        "prc": 177,
-        "allied": 166,
-        "n": 496
+        "prc": 178,
+        "allied": 169,
+        "n": 500
       },
       "usd": {
         "us": 23173858581.43,
         "us_n": 49,
-        "prc": 24077822293.819996,
-        "prc_n": 45,
-        "allied": 53333351107.439995,
-        "allied_n": 99
+        "prc": 24080711298.269997,
+        "prc_n": 46,
+        "allied": 54287762617.229996,
+        "allied_n": 102
       },
       "matched_gaps": {
         "n": 1,
@@ -362,27 +362,27 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 98,
-        "prc": 92,
-        "allied": 174,
-        "n": 364
+        "us": 99,
+        "prc": 93,
+        "allied": 177,
+        "n": 369
       },
       "usd": {
         "us": 14618076088.419998,
         "us_n": 37,
-        "prc": 22819803264.030003,
-        "prc_n": 34,
-        "allied": 73853233001.47005,
-        "allied_n": 96
+        "prc": 22822692268.480003,
+        "prc_n": 35,
+        "allied": 74807644511.26006,
+        "allied_n": 99
       },
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 58,
-          "allied": 66
+          "prc": 59,
+          "allied": 69
         },
         "infrastructure": {
-          "us": 55,
+          "us": 56,
           "prc": 25,
           "allied": 51
         },
@@ -2459,7 +2459,12 @@
       "gen_metro_dune_plus_629m_2025",
       "byd_manaus_bus_battery_50m_brl_2026",
       "edp_es_dist_5bn_brl_2025_2030",
-      "neoenergia_cosern_estivas_100m_brl_2026"
+      "neoenergia_cosern_estivas_100m_brl_2026",
+      "wabtec_contagem_loco_line_150m_brl_2025",
+      "ctg_flex_bess_ilha_solteira_15m_brl_2026",
+      "isa_energia_rm_815m_brl_1s26",
+      "neoenergia_cosern_4p1bn_brl_2026_2030",
+      "neoenergia_cosern_tabatinga_40m_brl_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
