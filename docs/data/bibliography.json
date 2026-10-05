@@ -52314,5 +52314,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_usmax_mexico_tss_65k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17F1288_1900_SAQMMA13D0055_1900 (USMAX Mexico TSS). Signed 2017-04-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F1288_1900_SAQMMA13D0055_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F1288_1900_SAQMMA13D0055_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: USMAX Mexico TSS USD 0.065m. Supports usmax_mexico_tss_65k_2017.",
+    "supports": [
+      "usmax_mexico_tss_65k_2017",
+      "hunt_cycle1062"
+    ],
+    "map_supports": [
+      "usmax_mexico_tss_65k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_trinity_guyana_camera_mounts_38k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2023C0001_1900_-NONE-_-NONE- (Trinity Guyana camera mounts). Signed 2023-07-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2023C0001_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2023C0001_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Trinity Guyana camera mounts USD 0.038m. Supports trinity_guyana_camera_mounts_38k_2023.",
+    "supports": [
+      "trinity_guyana_camera_mounts_38k_2023",
+      "hunt_cycle1062"
+    ],
+    "map_supports": [
+      "trinity_guyana_camera_mounts_38k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_argentina_led_panels_66k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAR20016M0849_1900_-NONE-_-NONE- (Argentina LED panels). Signed 2016-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20016M0849_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20016M0849_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Argentina LED panels USD 0.066m. Supports misc_argentina_led_panels_66k_2016.",
+    "supports": [
+      "misc_argentina_led_panels_66k_2016",
+      "hunt_cycle1062"
+    ],
+    "map_supports": [
+      "misc_argentina_led_panels_66k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_flores_ecuador_dcr_kitchen_bath_65k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7524C0020_1900_-NONE-_-NONE- (Flores Ecuador DCR kitchen/bath). Signed 2024-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7524C0020_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7524C0020_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Flores Ecuador DCR kitchen/bath USD 0.065m. Supports flores_ecuador_dcr_kitchen_bath_65k_2024.",
+    "supports": [
+      "flores_ecuador_dcr_kitchen_bath_65k_2024",
+      "hunt_cycle1062"
+    ],
+    "map_supports": [
+      "flores_ecuador_dcr_kitchen_bath_65k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_cooling_tower_drift_65k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR93016M0748_1900_-NONE-_-NONE- (Brazil cooling tower drift). Signed 2016-08-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR93016M0748_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR93016M0748_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Brazil cooling tower drift USD 0.065m. Supports misc_brazil_cooling_tower_drift_65k_2016.",
+    "supports": [
+      "misc_brazil_cooling_tower_drift_65k_2016",
+      "hunt_cycle1062"
+    ],
+    "map_supports": [
+      "misc_brazil_cooling_tower_drift_65k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_daikin_uruguay_chancery_chillers_36k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19UY6026P0251_1900_-NONE-_-NONE- (Daikin Uruguay chillers). Signed 2026-04-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6026P0251_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6026P0251_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Daikin Uruguay chillers USD 0.036m. Supports daikin_uruguay_chancery_chillers_36k_2026.",
+    "supports": [
+      "daikin_uruguay_chancery_chillers_36k_2026",
+      "hunt_cycle1063"
+    ],
+    "map_supports": [
+      "daikin_uruguay_chancery_chillers_36k_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_fluid_solutions_guyana_fire_pump_36k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2026P0234_1900_-NONE-_-NONE- (Fluid Solutions Guyana fire pump). Signed 2026-06-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2026P0234_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2026P0234_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fluid Solutions Guyana fire pump USD 0.036m. Supports fluid_solutions_guyana_fire_pump_36k_2026.",
+    "supports": [
+      "fluid_solutions_guyana_fire_pump_36k_2026",
+      "hunt_cycle1063"
+    ],
+    "map_supports": [
+      "fluid_solutions_guyana_fire_pump_36k_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_little_amigos_65k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53010M0814_1900_-NONE-_-NONE- (Mexico Little Amigos remodel). Signed 2010-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0814_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0814_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico Little Amigos remodel USD 0.065m. Supports misc_mexico_little_amigos_65k_2010.",
+    "supports": [
+      "misc_mexico_little_amigos_65k_2010",
+      "hunt_cycle1063"
+    ],
+    "map_supports": [
+      "misc_mexico_little_amigos_65k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_coyservic_honduras_coe_office_64k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0250_9700_-NONE-_-NONE- (Coyservic Honduras COE office). Signed 2011-06-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0250_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0250_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Coyservic Honduras COE office USD 0.064m. Supports coyservic_honduras_coe_office_64k_2011.",
+    "supports": [
+      "coyservic_honduras_coe_office_64k_2011",
+      "hunt_cycle1063"
+    ],
+    "map_supports": [
+      "coyservic_honduras_coe_office_64k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_mail_room_renovation_64k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR82012C0004_1900_-NONE-_-NONE- (Brazil mail room renovation). Signed 2012-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82012C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82012C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Brazil mail room renovation USD 0.064m. Supports misc_brazil_mail_room_renovation_64k_2012.",
+    "supports": [
+      "misc_brazil_mail_room_renovation_64k_2012",
+      "hunt_cycle1063"
+    ],
+    "map_supports": [
+      "misc_brazil_mail_room_renovation_64k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_multistack_peru_chiller_coils_55k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PE5025P1524_1900_-NONE-_-NONE- (Multistack Peru chiller coils). Signed 2025-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5025P1524_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5025P1524_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Multistack Peru chiller coils USD 0.055m. Supports multistack_peru_chiller_coils_55k_2025.",
+    "supports": [
+      "multistack_peru_chiller_coils_55k_2025",
+      "hunt_cycle1064"
+    ],
+    "map_supports": [
+      "multistack_peru_chiller_coils_55k_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_hallpass_honduras_cmr_led_53k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80013F0353_1900_GS07F0413Y_4732 (Hallpass Honduras CMR LED). Signed 2013-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80013F0353_1900_GS07F0413Y_4732/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80013F0353_1900_GS07F0413Y_4732/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Hallpass Honduras CMR LED USD 0.053m. Supports hallpass_honduras_cmr_led_53k_2013.",
+    "supports": [
+      "hallpass_honduras_cmr_led_53k_2013",
+      "hunt_cycle1064"
+    ],
+    "map_supports": [
+      "hallpass_honduras_cmr_led_53k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_warehouse_chillers_64k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25016M1709_1900_-NONE-_-NONE- (Brazil warehouse chillers). Signed 2016-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25016M1709_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25016M1709_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Brazil warehouse chillers USD 0.064m. Supports misc_brazil_warehouse_chillers_64k_2016.",
+    "supports": [
+      "misc_brazil_warehouse_chillers_64k_2016",
+      "hunt_cycle1064"
+    ],
+    "map_supports": [
+      "misc_brazil_warehouse_chillers_64k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_honduras_comayagua_transformer_64k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80017M0830_1900_-NONE-_-NONE- (Honduras Comayagua transformer). Signed 2017-07-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80017M0830_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80017M0830_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Honduras Comayagua transformer USD 0.064m. Supports misc_honduras_comayagua_transformer_64k_2017.",
+    "supports": [
+      "misc_honduras_comayagua_transformer_64k_2017",
+      "hunt_cycle1064"
+    ],
+    "map_supports": [
+      "misc_honduras_comayagua_transformer_64k_2017"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_pavimentaciones_peru_asphalt_de_64k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PE5020C0010_1900_-NONE-_-NONE- (Pavimentaciones Peru lots D&E). Signed 2020-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5020C0010_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5020C0010_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Pavimentaciones Peru lots D&E USD 0.064m. Supports pavimentaciones_peru_asphalt_de_64k_2020.",
+    "supports": [
+      "pavimentaciones_peru_asphalt_de_64k_2020",
+      "hunt_cycle1064"
+    ],
+    "map_supports": [
+      "pavimentaciones_peru_asphalt_de_64k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
