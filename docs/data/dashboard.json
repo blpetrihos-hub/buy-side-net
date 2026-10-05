@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 8446,
+    "n_rows": 8466,
     "counts": {
-      "total": 8446,
-      "active": 8247,
+      "total": 8466,
+      "active": 8267,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8173,
-      "on_map": 8064
+      "documented": 8193,
+      "on_map": 8080
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 194,
+        "us": 203,
         "prc": 129,
-        "allied": 3009,
-        "n": 3332
+        "allied": 3016,
+        "n": 3348
       },
       "usd": {
-        "us": 46432145751.26999,
-        "us_n": 127,
+        "us": 46464296592.25999,
+        "us_n": 136,
         "prc": 17322325919.350002,
         "prc_n": 40,
-        "allied": 144622841755.1098,
-        "allied_n": 2901
+        "allied": 144628329019.0198,
+        "allied_n": 2903
       },
       "matched_gaps": {
         "n": 1,
@@ -130,8 +130,8 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 272,
-        "n": 434
+        "allied": 274,
+        "n": 436
       },
       "usd": {
         "us": 46048237410.93,
@@ -153,14 +153,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 195,
+        "us": 197,
         "prc": 209,
         "allied": 4075,
-        "n": 4479
+        "n": 4481
       },
       "usd": {
-        "us": 36736465952.21999,
-        "us_n": 91,
+        "us": 36746349460.909996,
+        "us_n": 93,
         "prc": 43269035868.26999,
         "prc_n": 72,
         "allied": 383588398487.8005,
@@ -750,34 +750,34 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 20,
+        "us": 31,
         "prc": 0,
-        "allied": 53,
-        "n": 73
+        "allied": 62,
+        "n": 93
       },
       "usd": {
-        "us": 283495469.92,
-        "us_n": 20,
+        "us": 325529819.6000001,
+        "us_n": 31,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 844606744.74,
-        "allied_n": 8
+        "allied": 850094008.65,
+        "allied_n": 10
       },
       "by_layer": {
         "energy": {
-          "us": 5,
+          "us": 7,
           "prc": 0,
           "allied": 11
         },
         "infrastructure": {
-          "us": 14,
+          "us": 23,
           "prc": 0,
-          "allied": 39
+          "allied": 46
         },
         "resources": {
           "us": 1,
           "prc": 0,
-          "allied": 3
+          "allied": 5
         }
       }
     },
@@ -9435,7 +9435,27 @@
       "phs_chdc_settlement_cm_6p28m_2011",
       "uep_chp_electrical_renewal_4p67m_2023",
       "haiti_pip_rehab_urbaine_national_262m_htg_fy2526",
-      "haiti_pip_rues_pap_metro_100m_htg_fy2526"
+      "haiti_pip_rues_pap_metro_100m_htg_fy2526",
+      "dfs_fort_liberte_prison_6p74m_2014",
+      "spectrum_haiti_switchgear_7p02m_2021",
+      "nathan_cap_haitien_customs_5p97m_2016",
+      "haiti_pip_bm_municipal_resilience_322m_htg_fy2526",
+      "haiti_pip_drainage_pap_metro_100m_htg_fy2526",
+      "nathan_cap_haitien_port_reg_3p07m_2015",
+      "cce_hnp_academy_repairs_4p97m_2011",
+      "css_jacmel_eoc_drw_fs_2p13m_2011",
+      "haiti_pip_dev_urbain_national_531m_htg_fy2526",
+      "haiti_pip_travaux_ponctuels_100m_htg_fy2526",
+      "css_miragoane_eoc_drw_fs_2p11m_2011",
+      "css_fort_liberte_eoc_drw_fs_2p04m_2011",
+      "olgoonik_stecher_roumain_electrical_2p87m_2020",
+      "palgag_gonaives_clusters_3p55m_2011",
+      "haiti_pip_etudes_routes_50m_htg_fy2526",
+      "global_communities_nazon_debris_3p39m_2011",
+      "palgag_us_modular_1p73m_2016",
+      "palgag_port_de_paix_eoc_1p93m_2011",
+      "haiti_pip_rue_des_hall_delmas_18m_htg_fy2526",
+      "haiti_pip_drainage_ouanaminthe_20m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",
