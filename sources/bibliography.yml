@@ -2370,12 +2370,13 @@
   - hunt_fenb_araxa
 - id: ohla_br040_20250505
   type: company
-  chicago: OHLA. “OHLA Wins $1 Billion Highway Concession Contract in Brazil for BR-040.” 5 May 2025.
+  chicago: OHLA. “OHLA Wins $1 Billion Highway Concession Contract in Brazil for BR-040.” May 5, 2025. https://www.ohla-group.com/en/ohla-wins-1-billion-highway-concession-contract-in-brazil-for-br-040/.
   url: https://www.ohla-group.com/en/ohla-wins-1-billion-highway-concession-contract-in-brazil-for-br-040/
-  annotation: Company primary on OHLA BR-040 ~€850m concession. Supports ohla_br040_concession_2025.
+  annotation: OHLA BR-040 CapEx-fill ~USD 969.00m via Fed H.10. Supports ohla_br040_concession_2025.
   supports:
   - ohla_br040_concession_2025
   - hunt_infra_bridges_roads
+  - hunt_cycle230
 - id: lithium_chile_arizaro_spa_20251222
   type: company
   chicago: Lithium Chile Inc. “Lithium Chile Executes the Formal Agreement for the Sale of Its Argentine, Arizaro Project.” 22 December 2025.
@@ -3911,12 +3912,13 @@
   - hunt_fenb_araxa
 - id: diario_transporte_crrc_sp_20250723
   type: press
-  chicago: Pelegi, Alexandre. “Contrato para 44 novos trens do Metrô de SP é assinado com estatal chinesa quase quatro meses após homologação da licitação.” Diário do Transporte, 23 July 2025.
+  chicago: Diário do Transporte. “Contrato para 44 novos trens do Metrô de SP é assinado com estatal chinesa.” July 23, 2025. https://diariodotransporte.com.br/2025/07/23/contrato-para-44-novos-trens-do-metro-de-sp-e-assinado-com-estatal-chinesa-quase-quatro-meses-apos-homologacao-da-licitacao/.
   url: https://diariodotransporte.com.br/2025/07/23/contrato-para-44-novos-trens-do-metro-de-sp-e-assinado-com-estatal-chinesa-quase-quatro-meses-apos-homologacao-da-licitacao/
-  annotation: Trade press citing DOE extract on CRRC Sifang R$3.104bn Frota R contract. Supports crrc_sp_metro_frota_r_44_2025.
+  annotation: CRRC SP Metro CapEx-fill ~USD 597.89m via Fed H.10 (proxy). Supports crrc_sp_metro_frota_r_44_2025.
   supports:
   - crrc_sp_metro_frota_r_44_2025
   - hunt_latam_rail_telecom
+  - hunt_cycle230
 - id: lithium_ionic_exim_20241127
   type: company
   chicago: Lithium Ionic Corp. “Lithium Ionic Secures LOI from EXIM for US$266M, Representing 100% of Bandeira Project CAPEX.” 27 November 2024.
@@ -6677,12 +6679,13 @@
   - hunt_infra_bridges_roads
 - id: acciona_paraiba_cagepa_2026
   type: company
-  chicago: ACCIONA. “ACCIONA Signs Sanitation Contract for 85 Municipalities in Paraíba, Brasil.” 2026. https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-85-municipalities-paraiba-brasil.
+  chicago: ACCIONA. “ACCIONA signs sanitation contract for 85 municipalities in Paraíba, Brasil.” 2026. https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-85-municipalities-paraiba-brasil.
   url: https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-85-municipalities-paraiba-brasil
-  annotation: 'ACCIONA primary: Cagepa Paraíba sewerage PPP ~EUR 498m / 85 municipalities. Supports acciona_cagepa_paraiba_498m_eur_2026.'
+  annotation: ACCIONA Paraíba CapEx-fill ~USD 567.72m via Fed H.10. Supports acciona_cagepa_paraiba_498m_eur_2026.
   supports:
   - acciona_cagepa_paraiba_498m_eur_2026
   - hunt_res_water
+  - hunt_cycle230
 - id: lithium_ionic_yahua_offtake_20260325
   type: company
   chicago: Lithium Ionic Corp. “Lithium Ionic Secures Offtake Agreements with Leading Integrated Lithium Producers … for Bandeira Project Production.” 25 March 2026. https://www.lithiumionic.com/_resources/news/nr-20260325.pdf.
@@ -7999,12 +8002,13 @@
   - hunt_energy_wind
 - id: vergnet_claybury_20230612
   type: company
-  chicago: Vergnet SA. “Un nouveau contrat d’un montant de 1,6 M EUR.” Actusnews Wire, 12 June 2023. https://www.actusnews.com/fr/vergnet/cp/2023/06/12/un-nouveau-contrat-d_un-montant-de-1-6-m-eur.
+  chicago: Vergnet / Actusnews. “Un nouveau contrat d’un montant de 1,6 M€.” June 12, 2023. https://www.actusnews.com/fr/vergnet/cp/2023/06/12/un-nouveau-contrat-d_un-montant-de-1-6-m-eur.
   url: https://www.actusnews.com/fr/vergnet/cp/2023/06/12/un-nouveau-contrat-d_un-montant-de-1-6-m-eur
-  annotation: 'Vergnet company wire: Claybury 875 kW / EUR 1.6m. Supports vergnet_claybury_barbados_2025.'
+  annotation: Vergnet Claybury CapEx-fill ~USD 1.82m via Fed H.10. Supports vergnet_claybury_barbados_2025.
   supports:
   - vergnet_claybury_barbados_2025
   - hunt_energy_wind
+  - hunt_cycle230
 - id: konecranes_arawak_nassau_20240411
   type: company
   chicago: Konecranes. “Bahamas port goes electric with Konecranes Gottwald Generation 6 Mobile Harbor Crane.” 11 April 2024. https://www.konecranes.com/en-us/press-releases/bahamas-port-goes-electric-with-konecranes-gottwald-generation-6-mobile-harbor-crane.
@@ -10678,10 +10682,11 @@
   type: company
   chicago: Votorantim Cimentos. “Our Financial Results in the Second Quarter of 2026.” August 13, 2026. https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/.
   url: https://www.votorantimcimentos.com/news/our-financial-results-in-the-second-quarter-of-2026/
-  annotation: 'Votorantim: Brazil plan R$3.1bn invested of R$5bn. Supports votorantim_brazil_plan_3p1bn_invested_2026.'
+  annotation: Votorantim Brazil plan cumulative CapEx-fill ~USD 597.06m via Fed H.10. Supports votorantim_brazil_plan_3p1bn_invested_2026.
   supports:
   - votorantim_brazil_plan_3p1bn_invested_2026
   - hunt_cycle189
+  - hunt_cycle230
 - id: holcim_cpac_schedule13d_20260406
   type: company
   chicago: Holcim Ltd. Schedule 13D relating to Cementos Pacasmayo S.A.A. April 6, 2026. https://www.sec.gov/Archives/edgar/data/1221029/0001104659-26-039944.txt.
@@ -10724,13 +10729,14 @@
   - hunt_cycle190
   - hunt_cycle229
 - id: cdmx_jefatura_metro_l3_20260923
-  type: government
-  chicago: Jefatura de Gobierno de la Ciudad de México. “Gobierno de la Ciudad de México informó que mañana se publicará en la Gaceta Oficial el nombre de la Empresa Ganadora del Concurso de Licitación de la Línea 3 del Metro.” September 23, 2026. https://jefaturadegobierno.cdmx.gob.mx/comunicacion/nota/gobierno-de-la-ciudad-de-mexico-informo-que-manana-se-publicara-en-la-gaceta-oficial-el-nombre-de-la-empresa-ganadora-del-concurso-de-licitacion-de-la-linea-3-del-metro.
+  type: company
+  chicago: Jefatura de Gobierno CDMX. “Gobierno de la Ciudad de México informó que mañana se publicará en la Gaceta Oficial el nombre de la empresa ganadora del concurso de licitación de la Línea 3 del Metro.” September 23, 2026. https://jefaturadegobierno.cdmx.gob.mx/comunicacion/nota/gobierno-de-la-ciudad-de-mexico-informo-que-manana-se-publicara-en-la-gaceta-oficial-el-nombre-de-la-empresa-ganadora-del-concurso-de-licitacion-de-la-linea-3-del-metro.
   url: https://jefaturadegobierno.cdmx.gob.mx/comunicacion/nota/gobierno-de-la-ciudad-de-mexico-informo-que-manana-se-publicara-en-la-gaceta-oficial-el-nombre-de-la-empresa-ganadora-del-concurso-de-licitacion-de-la-linea-3-del-metro
-  annotation: 'CDMX Jefatura: Mota-Engil Metro L3 MXN 25,180m offer. Supports mota_engil_cdmx_metro_l3_25180m_mxn_2026.'
+  annotation: Mota-Engil CDMX L3 CapEx-fill ~USD 1423.15m via Fed H.10. Supports mota_engil_cdmx_metro_l3_25180m_mxn_2026.
   supports:
   - mota_engil_cdmx_metro_l3_25180m_mxn_2026
   - hunt_cycle190
+  - hunt_cycle230
 - id: scatec_barzalosa_fc_20260224
   type: company
   chicago: Scatec ASA. “Scatec reaches financial close and starts construction of 130 MW solar power plant in Colombia.” February 24, 2026. https://www.scatec.com/en/scatec-reaches-financial-close-and-starts-construction-of-130-mw-solar-power-plant-in-colombia/.
@@ -10978,12 +10984,13 @@
   - hunt_cycle228
 - id: sgbh_gate_silvania_20250630
   type: company
-  chicago: State Grid Brazil Holding. “Município goiano de Silvânia sedia lançamento do mais caro projeto de Ultra Alta Tensão (800Kv) da história do setor elétrico do Brasil.” June 2025. https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/.
+  chicago: State Grid Brazil Holding. “Município goiano de Silvânia sedia lançamento do mais caro projeto de ultra alta tensão (±800 kV) da história do setor elétrico do Brasil.” https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/.
   url: https://stategrid.com.br/municipio-goiano-de-silvania-sedia-lancamento-do-mais-caro-projeto-de-ultra-alta-tensao-800kv-da-historia-do-setor-eletrico-do-brasil/
-  annotation: 'SGBH: GATE UHV CapEx R$18bn. Supports sgbh_gate_uhv_18bn_brl_2025.'
+  annotation: SGBH GATE UHV CapEx-fill ~USD 3466.81m via Fed H.10. Supports sgbh_gate_uhv_18bn_brl_2025.
   supports:
   - sgbh_gate_uhv_18bn_brl_2025
   - hunt_cycle195
+  - hunt_cycle230
 - id: portonave_ertg_arrival_20260708
   type: company
   chicago: Portonave. “Portonave amplia frota de pátio com sete novos guindastes elétricos.” July 8, 2026. https://www.portonave.com.br/pt/todas-as-noticias/portonave-amplia-frota-de-patio-com-sete-novos-guindastes-eletricos.
@@ -11332,12 +11339,13 @@
   - hunt_cycle227
 - id: enel_brasil_25p3bn_2025
   type: company
-  chicago: Enel Brasil. “Enel anuncia investimento de R$ 25 bilhões no Brasil.” https://www.enel.com.br/pt/midia/news/d2025-1/Enel-anuncia-investimento-de-R$-25bilhoes-no-Brasil.html.
+  chicago: Enel Brasil. “Enel anuncia investimento de R$ 25 bilhões no Brasil.” January 15, 2025. https://www.enel.com.br/pt/midia/news/d2025-1/Enel-anuncia-investimento-de-R$-25bilhoes-no-Brasil.html.
   url: https://www.enel.com.br/pt/midia/news/d2025-1/Enel-anuncia-investimento-de-R$-25bilhoes-no-Brasil.html
-  annotation: 'Enel Brasil: R$25.3bn 2025–2027. Supports enel_brasil_25p3bn_brl_2025_2027.'
+  annotation: Enel Brasil CapEx-fill ~USD 4872.79m via Fed H.10. Supports enel_brasil_25p3bn_brl_2025_2027.
   supports:
   - enel_brasil_25p3bn_brl_2025_2027
   - hunt_cycle202
+  - hunt_cycle230
 - id: enel_americas_plan_2026_28
   type: company
   chicago: Enel Américas. “2025 Results & 2026–2028 Strategic Plan.” February 2026. https://www.enelamericas.com/content/dam/enel-americas/investor/strategic-plan/2026/2025-Results-2026-2028-Strategic-Plan-presentation1.pdf.
@@ -11606,12 +11614,13 @@
   - hunt_cycle211
 - id: terra_vestas_aquiraz_130m_20240809
   type: press
-  chicago: Terra / Reuters. “Vestas investirá R$130 mi para fabricar nova turbina eólica no Ceará.” August 9, 2024. https://www.terra.com.br/economia/vestas-investira-r130-mi-para-fabricar-nova-turbina-eolica-no-ceara,f9d1fbc4a6527698ae571e35682da9c8wlp8f5rc.html.
+  chicago: Terra / Agencia Estado. “Vestas investirá R$130 mi para fabricar nova turbina eólica no Ceará.” August 9, 2024. https://www.terra.com.br/economia/vestas-investira-r130-mi-para-fabricar-nova-turbina-eolica-no-ceara,f9d1fbc4a6527698ae571e35682da9c8wlp8f5rc.html.
   url: https://www.terra.com.br/economia/vestas-investira-r130-mi-para-fabricar-nova-turbina-eolica-no-ceara,f9d1fbc4a6527698ae571e35682da9c8wlp8f5rc.html
-  annotation: Vestas Aquiraz factory CapEx R$130m. Supports vestas_aquiraz_factory_130m_brl_2024.
+  annotation: Vestas Aquiraz CapEx-fill ~USD 25.04m via Fed H.10 (proxy). Supports vestas_aquiraz_factory_130m_brl_2024.
   supports:
   - vestas_aquiraz_factory_130m_brl_2024
   - hunt_cycle212
+  - hunt_cycle230
 - id: codelco_miga_climate_532m_20240723
   type: company
   chicago: Codelco. “Codelco emitió su primer financiamiento climático por US$532 millones.” July 23, 2024. https://www.codelco.com/codelco-emitio-su-primer-financiamiento-climatico-por-us-532-millones.
