@@ -1,10 +1,10 @@
 {
   "id": "acciona_la_gina_dr_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "compras_dominicana_la_gina_20260519",
-  "url": "https://comunidad.comprasdominicana.gob.do/Public/Tendering/OpportunityDetail/Index?asPopupView=true&isModal=true&noticeUID=DO1.NTC.1617547",
+  "retrieved": "2026-10-05",
+  "source_id": "bnamericas_acciona_la_gina_108m_20260529",
+  "url": "https://www.bnamericas.com/en/news/acciona-lands-dominican-hydro-project-with-us108mn-bid",
   "price_year": "2026",
-  "evidence": "documented",
-  "quote": "Award DO1.AWD.1951818 | Award Date 19/05/2026 11:52 | Award Value 6,362,123,311.24 Dominican Pesos | Awarded Company CONSORCIO A&H - PRESA LA GINA | Request Name: Contratación de una Compañía para la Construcción del Proyecto Aprovechamiento Múltiple de las Aguas en la Cuenca Alta Río Bani, Presa La Gina",
-  "note": "Opened Dominican Republic Compras Dominicana award record for EGEHID-CCC-LPN-2025-0032."
+  "evidence": "proxy",
+  "quote": "The winner of the 45-month contract, with a score of 99.02 points, is Consorcio A&H La Gina (Acciona Construcción- Acciona Infraestructuras México-Hage Constructora), which submitted an offer of 6.36bn pesos (US$108mn).",
+  "note": "Opened BNamericas English; DOP 6.36bn / US$108mn dual / Acciona consortium / 45-month confirmed. CapEx-fill enter USD 108m; DOP award retained on Compras Dominicana prior source."
 }
