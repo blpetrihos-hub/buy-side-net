@@ -1,0 +1,10 @@
+{
+  "id": "mcgrath_mexico_prefabricated_office_building_16k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_mcgrath_mexico_prefabricated_office_building_16k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AGVCHA26212_12K3_GS07F0401X_4732/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "1 EA STANDARDS 8 X 20' PREFABRICATED OFFICE BUILDING",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 15961.5; date_signed 2012-09-21."
+}

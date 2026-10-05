@@ -1,0 +1,10 @@
+{
+  "id": "misc_dominican_republic_dnp_ups_system_31k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_dominican_republic_dnp_ups_system_31k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86014M0657_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "INL - UPS SYSTEM FOR INF TECH DEPT AT DNP: IGF::CL::IGF FOR CLOSELY ASSOCIATED",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 31000; date_signed 2014-02-25."
+}
