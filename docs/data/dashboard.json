@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1840,
+    "n_rows": 1860,
     "counts": {
-      "total": 1840,
-      "active": 1641,
+      "total": 1860,
+      "active": 1661,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1567,
-      "on_map": 1501
+      "documented": 1587,
+      "on_map": 1521
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 127,
-        "allied": 240,
-        "n": 548
+        "allied": 256,
+        "n": 564
       },
       "usd": {
         "us": 46248647492.65,
         "us_n": 114,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 70068960331.13002,
-        "allied_n": 166
+        "allied": 70419107670.37001,
+        "allied_n": 182
       },
       "matched_gaps": {
         "n": 1,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 332,
-        "n": 733
+        "allied": 336,
+        "n": 737
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 117610393517.98001,
-        "allied_n": 261
+        "allied": 118494833340.02,
+        "allied_n": 265
       },
       "matched_gaps": {
         "n": 1,
@@ -364,27 +364,27 @@
       "counts": {
         "us": 129,
         "prc": 125,
-        "allied": 437,
-        "n": 691
+        "allied": 457,
+        "n": 711
       },
       "usd": {
         "us": 21129430723.329994,
         "us_n": 67,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 171313232385.11005,
-        "allied_n": 356
+        "allied": 172547819546.39,
+        "allied_n": 376
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 226
+          "allied": 230
         },
         "infrastructure": {
           "us": 67,
           "prc": 26,
-          "allied": 117
+          "allied": 133
         },
         "resources": {
           "us": 26,
@@ -2829,7 +2829,27 @@
       "isa_energia_serra_dourada_realized_1844p5m_brl",
       "isa_energia_itatiaia_realized_549p7m_brl",
       "isa_energia_jacaranda_188p8m_brl",
-      "isa_energia_jacaranda_2t26_13p5m_brl"
+      "isa_energia_jacaranda_2t26_13p5m_brl",
+      "motiva_autoban_2t26_136m_brl",
+      "motiva_viaoeste_2t26_133m_brl",
+      "motiva_rodoanel_oeste_2t26_22m_brl",
+      "motiva_spvias_2t26_110m_brl",
+      "motiva_pantanal_2t26_204m_brl",
+      "motiva_viasul_2t26_203m_brl",
+      "motiva_viacosteira_2t26_74m_brl",
+      "motiva_rio_sp_2t26_334m_brl",
+      "motiva_sorocabana_2t26_126m_brl",
+      "motiva_pr_vias_2t26_185m_brl",
+      "motiva_minas_sp_2t26_116m_brl",
+      "motiva_viaquatro_2t26_40m_brl",
+      "motiva_vlt_carioca_2t26_20m_brl",
+      "motiva_metro_bahia_2t26_18m_brl",
+      "motiva_viamobilidade_2t26_12m_brl",
+      "motiva_viamobilidade_l89_2t26_85m_brl",
+      "energisa_dist_2t26_1568m_brl",
+      "energisa_dist_6m26_3022m_brl",
+      "isa_energia_minuano_2t26_1p9m_brl",
+      "isa_energia_ivai_2t26_0p2m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
