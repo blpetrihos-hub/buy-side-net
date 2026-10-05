@@ -1,0 +1,10 @@
+{
+  "id": "jeff_smith_brazil_modular_vault_205k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_jeff_smith_brazil_modular_vault_205k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11M2623_1900_-NONE-_-NONE-/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "THE PURPOSE OF THIS REQUEST IS TO PURCHASE A MODULAR VAULT FOR THE COURIER OFFICE IN SAO PAULO BRASIL.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 205277.1; date_signed 2011-09-29."
+}
