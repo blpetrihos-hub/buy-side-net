@@ -1,10 +1,10 @@
 {
   "id": "konecranes_super_terminais_manaus_2025",
-  "retrieved": "2026-10-01",
-  "source_id": "konecranes_super_terminais_20250710",
-  "url": "https://news.cision.com/konecranes-oyj/r/super-terminais-orders-three-more-konecranes-gottwald-esp-10-mobile-harbor-cranes-to-expand-its-amaz,c4205040",
-  "price_year": "2025",
-  "evidence": "documented",
-  "quote": "Port of Manaus operator Super Terminais … has placed a repeat order for three Konecranes Gottwald ESP.10 pedestal-mounted cranes. The deal was booked in Q2 2025, with handover scheduled for Q3 2026.",
-  "note": "Opened Konecranes Cision English release 10 Jul 2025."
+  "retrieved": "2026-10-05",
+  "source_id": "logweb_super_terminais_konecranes_20260708",
+  "url": "https://logweb.com.br/super-terminais-guindastes-eletricos-infraestrutura-portuaria-manaus/",
+  "price_year": "2026",
+  "evidence": "press",
+  "quote": "A Super Terminais… recebeu três novos guindastes elétricos da fabricante alemã Konecranes. O investimento de R$ 120 milhões integra o plano de transição energética da companhia e amplia para seis o número de equipamentos elétricos em operação no terminal.",
+  "note": "Opened Logweb Portuguese; R$120m / three Gottwald ESP 10 / Manaus confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921."
 }

@@ -3939,24 +3939,6 @@
     ]
   },
   {
-    "id": "konecranes_super_terminais_20250710",
-    "type": "company",
-    "chicago": "Konecranes. “Super Terminais orders three more Konecranes Gottwald ESP.10 Mobile Harbor Cranes to expand its Amazon River operations.” 10 July 2025.",
-    "url": "https://news.cision.com/konecranes-oyj/r/super-terminais-orders-three-more-konecranes-gottwald-esp-10-mobile-harbor-cranes-to-expand-its-amaz,c4205040",
-    "annotation": "Company primary on Manaus ESP.10 MHC repeat order. Supports konecranes_super_terminais_manaus_2025.",
-    "supports": [
-      "konecranes_super_terminais_manaus_2025",
-      "hunt_infra_port_cranes"
-    ],
-    "map_supports": [
-      "hunt_infra_port_cranes",
-      "konecranes_super_terminais_manaus_2025"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "elfinanciero_crrc_pachuca_20250912",
     "type": "press",
     "chicago": "El Financiero. “China mete las manos en la obra México-Pachuca: CRRC Zhuzhou Locomotive.” September 12, 2025. https://www.elfinanciero.com.mx/empresas/2025/09/12/china-mete-las-manos-en-la-obra-mexico-pachuca-crrc-zhuzhou-locomotive/.",
@@ -6369,24 +6351,6 @@
     ]
   },
   {
-    "id": "g1_crrc_araraquara_20260325",
-    "type": "press",
-    "chicago": "g1 São Carlos e Araraquara. “Fábrica de trens é inaugurada em Araraquara, e contratos de R$ 5,6 bilhões do BNDES são assinados.” 25 March 2026.",
-    "url": "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/03/25/fabrica-de-trens-e-inaugurada-em-araraquara-e-contratos-de-r-56-bilhoes-do-bndes-sao-assinados.ghtml",
-    "annotation": "Brazilian press on CRRC Araraquara factory installation and related BNDES SP mobility contracts. Supports crrc_araraquara_factory_2026.",
-    "supports": [
-      "crrc_araraquara_factory_2026",
-      "hunt_latam_rail_telecom"
-    ],
-    "map_supports": [
-      "crrc_araraquara_factory_2026",
-      "hunt_latam_rail_telecom"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "larepublica_chancay_sierra_20260123",
     "type": "press",
     "chicago": "Torres, Aarón. “Perú adjudica proyecto del tren que unirá el Megapuerto de Chancay con la sierra central … inversión de US$420 millones.” La República, 23 January 2026 (updated 29 January 2026).",
@@ -6597,24 +6561,6 @@
     "map_supports": [
       "dfc_yilport_puerto_bolivar_150m_2023",
       "hunt_infra_port_ownership"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
-    "id": "rigzone_mcdermott_brava_20250714",
-    "type": "press",
-    "chicago": "Rigzone. “McDermott Wins Contract for BRAVA Energia’s Projects Offshore Brazil.” 14 July 2025.",
-    "url": "https://www.rigzone.com/news/mcdermott_wins_contract_for_brava_energias_projects_offshore_brazil-14-jul-2025-181125-article/",
-    "annotation": "Trade press citing McDermott sizeable Papa-Terra/Atlanta subsea T&I award. Supports mcdermott_brava_papa_terra_atlanta_2025.",
-    "supports": [
-      "mcdermott_brava_papa_terra_atlanta_2025",
-      "hunt_infra_engineering_epc"
-    ],
-    "map_supports": [
-      "hunt_infra_engineering_epc",
-      "mcdermott_brava_papa_terra_atlanta_2025"
     ],
     "layers": [
       "infrastructure"
@@ -19570,15 +19516,18 @@
     "type": "company",
     "chicago": "Equinix. “América Latina é a região de maior crescimento e mais dinâmica para a Equinix.” May 26, 2026. https://newsroom.equinix.com/2026-05-26-America-Latina-e-a-regiao-de-maior-crescimento-e-mais-dinamica-para-a-Equinix.",
     "url": "https://newsroom.equinix.com/2026-05-26-America-Latina-e-a-regiao-de-maior-crescimento-e-mais-dinamica-para-a-Equinix",
-    "annotation": "Equinix: Bogotá DC2 ~USD 28m. Supports equinix_bogota_dc2_28m_2025.",
+    "annotation": "Equinix LatAm NEW USD 419m floor. Supports equinix_latam_419m_2025_2026.",
     "supports": [
       "equinix_rj3_45m_2025",
       "hunt_cycle193",
       "equinix_st2_chile_42m_2025",
-      "equinix_bogota_dc2_28m_2025"
+      "equinix_bogota_dc2_28m_2025",
+      "equinix_latam_419m_2025_2026",
+      "hunt_cycle238"
     ],
     "map_supports": [
       "equinix_bogota_dc2_28m_2025",
+      "equinix_latam_419m_2025_2026",
       "equinix_rj3_45m_2025",
       "equinix_st2_chile_42m_2025"
     ],
@@ -21663,6 +21612,74 @@
     ],
     "layers": [
       "energy"
+    ]
+  },
+  {
+    "id": "mcdermott_brava_20250707",
+    "type": "company",
+    "chicago": "McDermott. “McDermott Awarded Offshore Contract by Brazil’s BRAVA Energia.” July 7, 2025. https://www.mcdermott.com/press-release-detail/123052/mcdermott-awarded-offshore-contract-brazils-brava-energia.",
+    "url": "https://www.mcdermott.com/press-release-detail/123052/mcdermott-awarded-offshore-contract-brazils-brava-energia",
+    "annotation": "McDermott Brava CapEx-fill USD 1m floor. Supports mcdermott_brava_papa_terra_atlanta_2025.",
+    "supports": [
+      "mcdermott_brava_papa_terra_atlanta_2025",
+      "hunt_cycle238"
+    ],
+    "map_supports": [
+      "mcdermott_brava_papa_terra_atlanta_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "atarde_crrc_araraquara_50m_20260324",
+    "type": "press",
+    "chicago": "Abreu, Yuri. “CRRC Brasil inaugura nova fábrica de trens de R$ 50 milhões.” A Tarde, March 24, 2026. https://atarde.com.br/economia/fabrica-de-trens-chinesa-inaugura-fabrica-de-r-50-milhoes-no-brasil-1383605.",
+    "url": "https://atarde.com.br/economia/fabrica-de-trens-chinesa-inaugura-fabrica-de-r-50-milhoes-no-brasil-1383605",
+    "annotation": "CRRC Araraquara CapEx-fill ~USD 9.63m via Fed H.10 (proxy). Supports crrc_araraquara_factory_2026.",
+    "supports": [
+      "crrc_araraquara_factory_2026",
+      "hunt_cycle238"
+    ],
+    "map_supports": [
+      "crrc_araraquara_factory_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "lundin_vicuna_pea_20260216",
+    "type": "company",
+    "chicago": "Lundin Mining. “Lundin Mining Announces Vicuña Integrated Technical Study Results Highlighting a World-Class Mining District.” February 16, 2026. https://www.lundinmining.com/news/lundin-mining-announces-vicua-integrated-technical-study-results-highlighting-a-world-class-mining-district.",
+    "url": "https://www.lundinmining.com/news/lundin-mining-announces-vicua-integrated-technical-study-results-highlighting-a-world-class-mining-district",
+    "annotation": "Vicuña Stage 1 NEW USD 7.1bn. Supports vicuna_stage1_capex_7p1bn_2026.",
+    "supports": [
+      "vicuna_stage1_capex_7p1bn_2026",
+      "hunt_cycle238"
+    ],
+    "map_supports": [
+      "vicuna_stage1_capex_7p1bn_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "logweb_super_terminais_konecranes_20260708",
+    "type": "press",
+    "chicago": "Logweb. “Super Terminais amplia infraestrutura portuária com três novos guindastes elétricos e investimento de R$ 120 milhões.” July 8, 2026. https://logweb.com.br/super-terminais-guindastes-eletricos-infraestrutura-portuaria-manaus/.",
+    "url": "https://logweb.com.br/super-terminais-guindastes-eletricos-infraestrutura-portuaria-manaus/",
+    "annotation": "Konecranes Manaus CapEx-fill ~USD 23.11m via Fed H.10 (proxy). Supports konecranes_super_terminais_manaus_2025.",
+    "supports": [
+      "konecranes_super_terminais_manaus_2025",
+      "hunt_cycle238"
+    ],
+    "map_supports": [
+      "konecranes_super_terminais_manaus_2025"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   }
 ]

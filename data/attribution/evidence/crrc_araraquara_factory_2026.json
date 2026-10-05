@@ -1,10 +1,10 @@
 {
   "id": "crrc_araraquara_factory_2026",
-  "retrieved": "2026-10-01",
-  "source_id": "g1_crrc_araraquara_20260325",
-  "url": "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/03/25/fabrica-de-trens-e-inaugurada-em-araraquara-e-contratos-de-r-56-bilhoes-do-bndes-sao-assinados.ghtml",
+  "retrieved": "2026-10-05",
+  "source_id": "atarde_crrc_araraquara_50m_20260324",
+  "url": "https://atarde.com.br/economia/fabrica-de-trens-chinesa-inaugura-fabrica-de-r-50-milhoes-no-brasil-1383605",
   "price_year": "2026",
-  "evidence": "documented",
-  "quote": "Araraquara (SP) realizou … a cerimônia de instalação da fábrica da CRRC Brasil Equipamentos Ferroviários. A unidade integra o Consórcio C2, formado pela empresa chinesa e pela brasileira Comporte Participações. O grupo será responsável pela produção dos trens do Trem Intercidades (TIC) Eixo Norte … A empresa também produzirá composições do metrô de São Paulo.",
-  "note": "Opened G1 coverage of CRRC Araraquara factory installation."
+  "evidence": "press",
+  "quote": "Com um investimento inicial de R$ 50 milhões, a previsão é que a planta gere cerca de 100 empregos diretos, com a produção efetiva começando já no segundo semestre deste ano.",
+  "note": "Opened A Tarde Portuguese; R$50m initial / Araraquara / Frota R confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921."
 }
