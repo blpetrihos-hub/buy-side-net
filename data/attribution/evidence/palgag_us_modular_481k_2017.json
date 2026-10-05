@@ -1,0 +1,10 @@
+{
+  "id": "palgag_us_modular_481k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_palgag_us_modular_20170912",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0235_1900_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "HAITI MODULAR IGF::OT::IGF IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 481,375.78; date_signed 2017-09-12."
+}

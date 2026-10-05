@@ -23090,3 +23090,153 @@
   supports:
   - epik_bridgetown_water_1p42m_2024
   - hunt_cycle919
+- id: usaspending_alutiiq_santiago_psap_20160907
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16C0007_1900_-NONE-_-NONE-
+    (Alutiiq; Santiago PSAP). Signed 7 September 2016. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Alutiiq Santiago PSAP USD 12.144m. Supports alutiiq_santiago_psap_12p1m_2016.'
+  supports:
+  - alutiiq_santiago_psap_12p1m_2016
+  - hunt_cycle920
+- id: usaspending_jacobs_guatemala_port_ae_20251202
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127826FA025_9700_W9127820D0031_9700
+    (Jacobs; Guatemala port A&E). Signed 2 December 2025. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127826FA025_9700_W9127820D0031_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127826FA025_9700_W9127820D0031_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Jacobs Guatemala port A&E USD 22.207m. Supports jacobs_guatemala_port_ae_22p2m_2025.'
+  supports:
+  - jacobs_guatemala_port_ae_22p2m_2025
+  - hunt_cycle920
+- id: usaspending_ds_san_salvador_design_20240926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F2487_1900_19AQMM19D0060_1900
+    (D+S International; San Salvador design). Signed 26 September 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F2487_1900_19AQMM19D0060_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F2487_1900_19AQMM19D0060_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: D+S San Salvador design USD 17.902m. Supports ds_san_salvador_design_17p9m_2024.'
+  supports:
+  - ds_san_salvador_design_17p9m_2024
+  - hunt_cycle920
+- id: usaspending_chugach_belmopan_hvac_20220926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22C0148_1900_-NONE-_-NONE-
+    (Chugach; Belmopan HVAC). Signed 26 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0148_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22C0148_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Chugach Belmopan HVAC USD 5.895m. Supports chugach_belmopan_hvac_5p90m_2022.'
+  supports:
+  - chugach_belmopan_hvac_5p90m_2022
+  - hunt_cycle920
+- id: usaspending_roofing_managua_20130828
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F2639_1900_SALMEC07D0028_1900
+    (Roofing Resources; Managua roof). Signed 28 August 2013. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F2639_1900_SALMEC07D0028_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F2639_1900_SALMEC07D0028_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Roofing Resources Managua USD 3.766m. Supports roofing_resources_managua_roof_3p77m_2013.'
+  supports:
+  - roofing_resources_managua_roof_3p77m_2013
+  - hunt_cycle920
+- id: usaspending_otak_cdema_barbados_20130927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0004_9700_N6945012D0038_9700
+    (Otak; CDEMA Bridgetown). Signed 27 September 2013. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_N6945012D0038_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_N6945012D0038_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Otak CDEMA Barbados USD 4.015m. Supports otak_cdema_barbados_4p01m_2013.'
+  supports:
+  - otak_cdema_barbados_4p01m_2013
+  - hunt_cycle921
+- id: usaspending_ped_antigua_trinidad_20260105
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945026F0008_9700_N6945025D0018_9700
+    (PED Concepts; Antigua/Trinidad). Signed 5 January 2026. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945026F0008_9700_N6945025D0018_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945026F0008_9700_N6945025D0018_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: PED Antigua/Trinidad USD 2.693m. Supports ped_concepts_antigua_trinidad_2p69m_2026.'
+  supports:
+  - ped_concepts_antigua_trinidad_2p69m_2026
+  - hunt_cycle921
+- id: usaspending_bozdemir_managua_water_20260923
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026C0115_1900_-NONE-_-NONE-
+    (Bozdemir; Managua water). Signed 23 September 2026. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0115_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0115_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bozdemir Managua water USD 1.924m. Supports bozdemir_managua_water_1p92m_2026.'
+  supports:
+  - bozdemir_managua_water_1p92m_2026
+  - hunt_cycle921
+- id: usaspending_bonatti_hunting_caye_20120810
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0008_9700_W9127811D0044_9700
+    (Bonatti; Hunting Caye). Signed 10 August 2012. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti Hunting Caye USD 1.800m. Supports bonatti_hunting_caye_ops_1p80m_2012.'
+  supports:
+  - bonatti_hunting_caye_ops_1p80m_2012
+  - hunt_cycle921
+- id: usaspending_bonatti_san_pedro_20110927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127811D0044_9700
+    (Bonatti; San Pedro ops). Signed 27 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti San Pedro USD 1.760m. Supports bonatti_san_pedro_ops_1p76m_2011.'
+  supports:
+  - bonatti_san_pedro_ops_1p76m_2011
+  - hunt_cycle921
+- id: usaspending_eterna_el_bluff_20110920
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0004_9700_W9127811D0046_9700
+    (Eterna; El Bluff ops/boat ramp). Signed 20 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127811D0046_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127811D0046_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna El Bluff USD 1.432m. Supports eterna_el_bluff_ops_1p43m_2011.'
+  supports:
+  - eterna_el_bluff_ops_1p43m_2011
+  - hunt_cycle922
+- id: usaspending_nika_georgetown_voltage_20110124
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F0517_1900_SAQMMA08D0020_1900
+    (NIKA & EMR; Georgetown voltage). Signed 24 January 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F0517_1900_SAQMMA08D0020_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F0517_1900_SAQMMA08D0020_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: NIKA Georgetown voltage USD 0.705m. Supports nika_georgetown_voltage_705k_2011.'
+  supports:
+  - nika_georgetown_voltage_705k_2011
+  - hunt_cycle922
+- id: usaspending_swanke_barbados_nrl_design_20120711
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F2295_1900_SAQMMA09D0005_1900
+    (Swanke; Bridgetown NRL design). Signed 11 July 2012. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2295_1900_SAQMMA09D0005_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2295_1900_SAQMMA09D0005_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Swanke Barbados NRL design USD 0.863m. Supports swanke_barbados_nrl_design_863k_2012.'
+  supports:
+  - swanke_barbados_nrl_design_863k_2012
+  - hunt_cycle922
+- id: usaspending_blackwell_managua_design_20230928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F2541_1900_19AQMM19D0066_1900
+    (Blackwell; Managua design). Signed 28 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2541_1900_19AQMM19D0066_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2541_1900_19AQMM19D0066_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Blackwell Managua design USD 0.910m. Supports blackwell_managua_design_910k_2023.'
+  supports:
+  - blackwell_managua_design_910k_2023
+  - hunt_cycle922
+- id: usaspending_palgag_us_modular_20170912
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0235_1900_-NONE-_-NONE-
+    (Palgag US; Haiti modular 2017). Signed 12 September 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0235_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0235_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Palgag US modular 2017 USD 0.481m. Supports palgag_us_modular_481k_2017.'
+  supports:
+  - palgag_us_modular_481k_2017
+  - hunt_cycle922
