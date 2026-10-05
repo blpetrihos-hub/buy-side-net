@@ -1,0 +1,10 @@
+{
+  "id": "energisa_ae_tx_total_4t20_67m_brl",
+  "retrieved": "2026-10-05",
+  "source_id": "energisa_base_historica_jun26_xlsx",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "Ativo Elétrico Total Transmissoras … 4T20=67.1",
+  "note": "Opened Energisa Base histórica Investimentos xlsx; Ativo Elétrico Total Transmissoras 4T20 R$67.100m confirmed."
+}
