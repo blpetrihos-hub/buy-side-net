@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8421,
+    "n_rows": 8431,
     "counts": {
-      "total": 8421,
-      "active": 8222,
+      "total": 8431,
+      "active": 8232,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8148,
-      "on_map": 8043
+      "documented": 8158,
+      "on_map": 8050
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 190,
         "prc": 129,
-        "allied": 2989,
-        "n": 3308
+        "allied": 2999,
+        "n": 3318
       },
       "usd": {
         "us": 46414179314.06999,
@@ -752,8 +752,8 @@
       "counts": {
         "us": 15,
         "prc": 0,
-        "allied": 33,
-        "n": 48
+        "allied": 43,
+        "n": 58
       },
       "usd": {
         "us": 260855140.08,
@@ -772,7 +772,7 @@
         "infrastructure": {
           "us": 10,
           "prc": 0,
-          "allied": 19
+          "allied": 29
         },
         "resources": {
           "us": 1,
@@ -9410,7 +9410,17 @@
       "cherokee_usembassy_pap_hvac_7p4m_2021",
       "crowley_haiti_docking_barges_8p1m_2010",
       "cemex_haiti_dla_houses_7p0m_2012",
-      "haiti_pip_haut_du_cap_berges_92m_htg_fy2526"
+      "haiti_pip_haut_du_cap_berges_92m_htg_fy2526",
+      "haiti_pip_lavictoire_urbaine_127m_htg_fy2526",
+      "haiti_pip_carrefour44_cotes_de_fer_67m_htg_fy2526",
+      "haiti_pip_betonnage_ouanaminthe_100m_htg_fy2526",
+      "haiti_pip_gare_ouanaminthe_50m_htg_fy2526",
+      "haiti_pip_gonaives_anse_rouge_50m_htg_fy2526",
+      "haiti_pip_afd_hinche_straphael_304m_htg_fy2526",
+      "haiti_pip_fer_routes_interurbaines_1100m_htg_fy2526",
+      "haiti_pip_fer_routes_urbaines_430m_htg_fy2526",
+      "haiti_pip_ue_st_raphael_contournement_250m_htg_fy2526",
+      "haiti_pip_integration_routiere_locale_527m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",
