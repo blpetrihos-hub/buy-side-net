@@ -1,0 +1,2 @@
+"""Cycle 835: Energisa Ativo Elétrico CapEx 1T17 (other)."""
+ITEMS = [["energisa_ae_dist_total_1t17_317m_brl", "Ativo Elétrico Total Distribuidoras", 317.37852355, "-21.76", "-43.35", "Energisa Group Brazil distribution/transmission footprint (Cataguases MG pin).", true, "power_plants_grid", "ae_dist_total"], ["energisa_ae_total_1t17_317m_brl", "Ativo Elétrico Total", 317.37852355, "-21.76", "-43.35", "Energisa Group Brazil distribution/transmission footprint (Cataguases MG pin).", true, "power_plants_grid", "ae_total"]]
