@@ -1,0 +1,10 @@
+{
+  "id": "misc_mexico_la_gavia8_make_ready_18k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_mexico_la_gavia8_make_ready_18k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53012L0014_1900_SMX53012A0011_1900/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "MX-FAC 7901 LA GAVIA 8 MAKE READY",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 18421.33; date_signed 2012-02-15."
+}
