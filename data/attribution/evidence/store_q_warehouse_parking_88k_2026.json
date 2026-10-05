@@ -1,0 +1,10 @@
+{
+  "id": "store_q_warehouse_parking_88k_2026",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_store_q_warehouse_parking_88k_2026",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0726P0640_1900_-NONE-_-NONE-/",
+  "price_year": "2026",
+  "evidence": "documented",
+  "quote": "NEC - WAREHOUSE PARKING LOT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 88107.28; date_signed 2026-09-29."
+}
