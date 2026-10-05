@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6145,
+    "n_rows": 6155,
     "counts": {
-      "total": 6145,
-      "active": 5946,
+      "total": 6155,
+      "active": 5956,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5872,
-      "on_map": 5778
+      "documented": 5882,
+      "on_map": 5788
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1883,
-        "n": 2284
+        "allied": 1893,
+        "n": 2294
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 236288568134.4301,
-        "allied_n": 1812
+        "allied": 236564564359.47012,
+        "allied_n": 1822
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4713,
-        "n": 4968
+        "allied": 4723,
+        "n": 4978
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 364988307069.1491,
-        "allied_n": 4632
+        "allied": 365264303294.18915,
+        "allied_n": 4642
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1749
+          "allied": 1759
         },
         "infrastructure": {
           "us": 68,
@@ -7134,7 +7134,17 @@
       "taesa_este_fy2020_122m_brl",
       "taesa_edte_fy2020_1m_brl",
       "taesa_santana_fy2020_151m_brl",
-      "taesa_projetos_fy2020_capex_1535m_brl"
+      "taesa_projetos_fy2020_capex_1535m_brl",
+      "taesa_mariana_fy2019_55m_brl",
+      "taesa_miracema_fy2019_110m_brl",
+      "taesa_janauba_fy2019_116m_brl",
+      "taesa_aimores_fy2019_65m_brl",
+      "taesa_paraguacu_fy2019_110m_brl",
+      "taesa_ivai_fy2019_46m_brl",
+      "taesa_este_fy2019_6m_brl",
+      "taesa_edte_fy2019_175m_brl",
+      "taesa_santana_fy2019_32m_brl",
+      "taesa_projetos_fy2019_capex_718m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
