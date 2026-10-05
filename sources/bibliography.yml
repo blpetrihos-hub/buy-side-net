@@ -41640,3 +41640,228 @@
   supports:
   - sabillon_honduras_scab_construction_materials_18k_2016
   - hunt_cycle1372
+- id: usaspending_obera_dominican_republic_safe_boat_1000k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489024F0162_9700_FA489023D0008_9700 (obera_dominican_republic_safe_boat_1000k_2024). Signed 2024-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0162_9700_FA489023D0008_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0162_9700_FA489023D0008_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: obera_dominican_republic_safe_boat_1000k_2024 USD 1.000m. Supports obera_dominican_republic_safe_boat_1000k_2024.'
+  supports:
+  - obera_dominican_republic_safe_boat_1000k_2024
+  - hunt_cycle1373
+- id: usaspending_virtra_costa_rica_six_firearms_simulators_790k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16F0043_1900_SWHARC16D0003_1900 (virtra_costa_rica_six_firearms_simulators_790k_2016). Signed 2016-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0043_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0043_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_costa_rica_six_firearms_simulators_790k_2016 USD 0.790m. Supports virtra_costa_rica_six_firearms_simulators_790k_2016.'
+  supports:
+  - virtra_costa_rica_six_firearms_simulators_790k_2016
+  - hunt_cycle1373
+- id: usaspending_bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0011_9700_W9127811D0044_9700 (bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012). Signed 2012-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012 USD 3.244m. Supports bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012.'
+  supports:
+  - bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012
+  - hunt_cycle1373
+- id: usaspending_bonatti_guatemala_cn_ctoc_barracks_latrine_2907k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W9127813D0017_9700 (bonatti_guatemala_cn_ctoc_barracks_latrine_2907k_2014). Signed 2014-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127813D0017_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127813D0017_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_guatemala_cn_ctoc_barracks_latrine_2907k_2014 USD 2.907m. Supports bonatti_guatemala_cn_ctoc_barracks_latrine_2907k_2014.'
+  supports:
+  - bonatti_guatemala_cn_ctoc_barracks_latrine_2907k_2014
+  - hunt_cycle1373
+- id: usaspending_rogers_panama_san_lorenzo_canopy_crane_2298k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330225FF0010444_3300_F15CC10192_3300 (rogers_panama_san_lorenzo_canopy_crane_2298k_2025). Signed 2025-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330225FF0010444_3300_F15CC10192_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330225FF0010444_3300_F15CC10192_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: rogers_panama_san_lorenzo_canopy_crane_2298k_2025 USD 2.298m. Supports rogers_panama_san_lorenzo_canopy_crane_2298k_2025.'
+  supports:
+  - rogers_panama_san_lorenzo_canopy_crane_2298k_2025
+  - hunt_cycle1373
+- id: usaspending_obera_guatemala_weapons_proficiency_equipment_467k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489024F0123_9700_FA489023D0008_9700 (obera_guatemala_weapons_proficiency_equipment_467k_2024). Signed 2024-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0123_9700_FA489023D0008_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0123_9700_FA489023D0008_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: obera_guatemala_weapons_proficiency_equipment_467k_2024 USD 0.467m. Supports obera_guatemala_weapons_proficiency_equipment_467k_2024.'
+  supports:
+  - obera_guatemala_weapons_proficiency_equipment_467k_2024
+  - hunt_cycle1374
+- id: usaspending_astrophysics_el_salvador_xray_units_205k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC11F0076_1900_GS07F0182T_4730 (astrophysics_el_salvador_xray_units_205k_2011). Signed 2011-07-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11F0076_1900_GS07F0182T_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11F0076_1900_GS07F0182T_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: astrophysics_el_salvador_xray_units_205k_2011 USD 0.205m. Supports astrophysics_el_salvador_xray_units_205k_2011.'
+  supports:
+  - astrophysics_el_salvador_xray_units_205k_2011
+  - hunt_cycle1374
+- id: usaspending_bonatti_honduras_soto_cano_barracks_roadway_fence_1697k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0006_9700_W9127811D0044_9700 (bonatti_honduras_soto_cano_barracks_roadway_fence_1697k_2011). Signed 2011-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_honduras_soto_cano_barracks_roadway_fence_1697k_2011 USD 1.697m. Supports bonatti_honduras_soto_cano_barracks_roadway_fence_1697k_2011.'
+  supports:
+  - bonatti_honduras_soto_cano_barracks_roadway_fence_1697k_2011
+  - hunt_cycle1374
+- id: usaspending_bonatti_belize_hunting_caye_cn_pier_fueling_1501k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127811D0044_9700 (bonatti_belize_hunting_caye_cn_pier_fueling_1501k_2011). Signed 2011-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_belize_hunting_caye_cn_pier_fueling_1501k_2011 USD 1.501m. Supports bonatti_belize_hunting_caye_cn_pier_fueling_1501k_2011.'
+  supports:
+  - bonatti_belize_hunting_caye_cn_pier_fueling_1501k_2011
+  - hunt_cycle1374
+- id: usaspending_bonatti_belize_san_pedro_cn_pier_fueling_1334k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W9127811D0044_9700 (bonatti_belize_san_pedro_cn_pier_fueling_1334k_2011). Signed 2011-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_belize_san_pedro_cn_pier_fueling_1334k_2011 USD 1.334m. Supports bonatti_belize_san_pedro_cn_pier_fueling_1334k_2011.'
+  supports:
+  - bonatti_belize_san_pedro_cn_pier_fueling_1334k_2011
+  - hunt_cycle1374
+- id: usaspending_hunter_haiti_usaid_warehouse_safe_haven_183k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521C1300002_7200_-NONE-_-NONE- (hunter_haiti_usaid_warehouse_safe_haven_183k_2012). Signed 2012-12-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1300002_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1300002_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hunter_haiti_usaid_warehouse_safe_haven_183k_2012 USD 0.183m. Supports hunter_haiti_usaid_warehouse_safe_haven_183k_2012.'
+  supports:
+  - hunter_haiti_usaid_warehouse_safe_haven_183k_2012
+  - hunt_cycle1375
+- id: usaspending_virtra_mexico_semar_firearms_simulator_176k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC17F0023_1900_SWHARC16D0003_1900 (virtra_mexico_semar_firearms_simulator_176k_2017). Signed 2017-07-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0023_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0023_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_mexico_semar_firearms_simulator_176k_2017 USD 0.176m. Supports virtra_mexico_semar_firearms_simulator_176k_2017.'
+  supports:
+  - virtra_mexico_semar_firearms_simulator_176k_2017
+  - hunt_cycle1375
+- id: usaspending_bonatti_honduras_soto_cano_fire_trainer_1214k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0330_9700_W9127823D0072_9700 (bonatti_honduras_soto_cano_fire_trainer_1214k_2024). Signed 2024-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0330_9700_W9127823D0072_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0330_9700_W9127823D0072_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_honduras_soto_cano_fire_trainer_1214k_2024 USD 1.214m. Supports bonatti_honduras_soto_cano_fire_trainer_1214k_2024.'
+  supports:
+  - bonatti_honduras_soto_cano_fire_trainer_1214k_2024
+  - hunt_cycle1375
+- id: usaspending_bonatti_el_salvador_tepetitan_schools_862k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0011_9700_W9127809D0064_9700 (bonatti_el_salvador_tepetitan_schools_862k_2012). Signed 2012-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127809D0064_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127809D0064_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_el_salvador_tepetitan_schools_862k_2012 USD 0.862m. Supports bonatti_el_salvador_tepetitan_schools_862k_2012.'
+  supports:
+  - bonatti_el_salvador_tepetitan_schools_862k_2012
+  - hunt_cycle1375
+- id: usaspending_bonatti_guatemala_conred_hp_expansion_780k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0465_9700_W9127821D0076_9700 (bonatti_guatemala_conred_hp_expansion_780k_2021). Signed 2021-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0465_9700_W9127821D0076_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0465_9700_W9127821D0076_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_guatemala_conred_hp_expansion_780k_2021 USD 0.780m. Supports bonatti_guatemala_conred_hp_expansion_780k_2021.'
+  supports:
+  - bonatti_guatemala_conred_hp_expansion_780k_2021
+  - hunt_cycle1375
+- id: usaspending_virtra_mexico_gendarmeria_firearms_simulators_159k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC17F0036_1900_SWHARC16D0003_1900 (virtra_mexico_gendarmeria_firearms_simulators_159k_2017). Signed 2017-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0036_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0036_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_mexico_gendarmeria_firearms_simulators_159k_2017 USD 0.159m. Supports virtra_mexico_gendarmeria_firearms_simulators_159k_2017.'
+  supports:
+  - virtra_mexico_gendarmeria_firearms_simulators_159k_2017
+  - hunt_cycle1376
+- id: usaspending_gemalto_guatemala_fingerprint_devices_install_141k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SINLEC14C0019_1900_-NONE-_-NONE- (gemalto_guatemala_fingerprint_devices_install_141k_2014). Signed 2014-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SINLEC14C0019_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SINLEC14C0019_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: gemalto_guatemala_fingerprint_devices_install_141k_2014 USD 0.141m. Supports gemalto_guatemala_fingerprint_devices_install_141k_2014.'
+  supports:
+  - gemalto_guatemala_fingerprint_devices_install_141k_2014
+  - hunt_cycle1376
+- id: usaspending_bonatti_honduras_j6_warehouse_facility_756k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127820F0467_9700_W9127816D0099_9700 (bonatti_honduras_j6_warehouse_facility_756k_2020). Signed 2020-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0467_9700_W9127816D0099_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0467_9700_W9127816D0099_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_honduras_j6_warehouse_facility_756k_2020 USD 0.756m. Supports bonatti_honduras_j6_warehouse_facility_756k_2020.'
+  supports:
+  - bonatti_honduras_j6_warehouse_facility_756k_2020
+  - hunt_cycle1376
+- id: usaspending_bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0398_9700_W9127821D0076_9700 (bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021). Signed 2021-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0398_9700_W9127821D0076_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0398_9700_W9127821D0076_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021 USD 0.699m. Supports bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021.'
+  supports:
+  - bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021
+  - hunt_cycle1376
+- id: usaspending_bonatti_guatemala_sofa_maintenance_facility_684k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127816D0099_9700 (bonatti_guatemala_sofa_maintenance_facility_684k_2016). Signed 2016-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127816D0099_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127816D0099_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_guatemala_sofa_maintenance_facility_684k_2016 USD 0.684m. Supports bonatti_guatemala_sofa_maintenance_facility_684k_2016.'
+  supports:
+  - bonatti_guatemala_sofa_maintenance_facility_684k_2016
+  - hunt_cycle1376
+- id: usaspending_carolina_peru_firefighting_equipment_117k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL20F0027_9700_W912CL17D0101_9700 (carolina_peru_firefighting_equipment_117k_2020). Signed 2020-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL20F0027_9700_W912CL17D0101_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL20F0027_9700_W912CL17D0101_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: carolina_peru_firefighting_equipment_117k_2020 USD 0.117m. Supports carolina_peru_firefighting_equipment_117k_2020.'
+  supports:
+  - carolina_peru_firefighting_equipment_117k_2020
+  - hunt_cycle1377
+- id: usaspending_gemalto_el_salvador_pnc_biometric_scanner_57k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SES60016M0453_1900_-NONE-_-NONE- (gemalto_el_salvador_pnc_biometric_scanner_57k_2016). Signed 2016-03-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60016M0453_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60016M0453_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: gemalto_el_salvador_pnc_biometric_scanner_57k_2016 USD 0.057m. Supports gemalto_el_salvador_pnc_biometric_scanner_57k_2016.'
+  supports:
+  - gemalto_el_salvador_pnc_biometric_scanner_57k_2016
+  - hunt_cycle1377
+- id: usaspending_bonatti_guatemala_tecun_uman_vehicle_judicial_683k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0005_9700_W9127811D0044_9700 (bonatti_guatemala_tecun_uman_vehicle_judicial_683k_2011). Signed 2011-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0005_9700_W9127811D0044_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0005_9700_W9127811D0044_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_guatemala_tecun_uman_vehicle_judicial_683k_2011 USD 0.683m. Supports bonatti_guatemala_tecun_uman_vehicle_judicial_683k_2011.'
+  supports:
+  - bonatti_guatemala_tecun_uman_vehicle_judicial_683k_2011
+  - hunt_cycle1377
+- id: usaspending_bonatti_guatemala_san_jose_boat_maintenance_facility_665k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0455_9700_W9127821D0076_9700 (bonatti_guatemala_san_jose_boat_maintenance_facility_665k_2022). Signed 2022-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0455_9700_W9127821D0076_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0455_9700_W9127821D0076_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_guatemala_san_jose_boat_maintenance_facility_665k_2022 USD 0.665m. Supports bonatti_guatemala_san_jose_boat_maintenance_facility_665k_2022.'
+  supports:
+  - bonatti_guatemala_san_jose_boat_maintenance_facility_665k_2022
+  - hunt_cycle1377
+- id: usaspending_bonatti_el_salvador_nejapa_eoc_646k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0006_9700_W9127809D0064_9700 (bonatti_el_salvador_nejapa_eoc_646k_2010). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127809D0064_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127809D0064_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bonatti_el_salvador_nejapa_eoc_646k_2010 USD 0.646m. Supports bonatti_el_salvador_nejapa_eoc_646k_2010.'
+  supports:
+  - bonatti_el_salvador_nejapa_eoc_646k_2010
+  - hunt_cycle1377
