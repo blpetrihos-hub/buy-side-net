@@ -28390,3 +28390,153 @@
   supports:
   - york_panama_chiller_supplies_95k_2014
   - hunt_cycle1025
+- id: usaspending_nobelcons_lita_helipad_107k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0330_9700_-NONE-_-NONE-
+    (Nobelcons Lita helipad). Signed 2011-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0330_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0330_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Nobelcons Lita helipad USD 0.107m. Supports nobelcons_lita_helipad_107k_2011.'
+  supports:
+  - nobelcons_lita_helipad_107k_2011
+  - hunt_cycle1026
+- id: usaspending_misc_brazil_dcmr_renovation_106k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2521P0931_1900_-NONE-_-NONE-
+    (Brazil DCMR renovation). Signed 2021-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2521P0931_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2521P0931_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brazil DCMR renovation USD 0.106m. Supports misc_brazil_dcmr_renovation_106k_2021.'
+  supports:
+  - misc_brazil_dcmr_renovation_106k_2021
+  - hunt_cycle1026
+- id: usaspending_cruise_haiti_generators_95k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AIDTRNC001000073_7200_-NONE-_-NONE-
+    (Cruise Haiti generators). Signed 2010-04-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AIDTRNC001000073_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AIDTRNC001000073_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Cruise Haiti generators USD 0.095m. Supports cruise_haiti_generators_95k_2010.'
+  supports:
+  - cruise_haiti_generators_95k_2010
+  - hunt_cycle1026
+- id: usaspending_misc_guatemala_electrical_94k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GT5019P0843_1900_-NONE-_-NONE-
+    (Guatemala electrical). Signed 2019-08-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5019P0843_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5019P0843_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Guatemala electrical USD 0.094m. Supports misc_guatemala_electrical_94k_2019.'
+  supports:
+  - misc_guatemala_electrical_94k_2019
+  - hunt_cycle1026
+- id: usaspending_misc_honduras_roofs_92k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID522O1300070_7200_-NONE-_-NONE-
+    (Honduras roofs). Signed 2013-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID522O1300070_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID522O1300070_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Honduras roofs USD 0.092m. Supports misc_honduras_roofs_92k_2013.'
+  supports:
+  - misc_honduras_roofs_92k_2013
+  - hunt_cycle1026
+- id: usaspending_misc_juarez_generator_92k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11516C0004_1900_-NONE-_-NONE-
+    (Juárez generator). Signed 2016-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Juárez generator USD 0.092m. Supports misc_juarez_generator_92k_2016.'
+  supports:
+  - misc_juarez_generator_92k_2016
+  - hunt_cycle1027
+- id: usaspending_misc_colombia_parking_asphalt_92k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02020C0008_1900_-NONE-_-NONE-
+    (Colombia parking asphalt). Signed 2020-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02020C0008_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02020C0008_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia parking asphalt USD 0.092m. Supports misc_colombia_parking_asphalt_92k_2020.'
+  supports:
+  - misc_colombia_parking_asphalt_92k_2020
+  - hunt_cycle1027
+- id: usaspending_bolanos_ecuador_ac_92k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7521P0641_1900_-NONE-_-NONE-
+    (Bolaños Ecuador A/C). Signed 2021-05-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7521P0641_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7521P0641_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bolaños Ecuador A/C USD 0.092m. Supports bolanos_ecuador_ac_92k_2021.'
+  supports:
+  - bolanos_ecuador_ac_92k_2021
+  - hunt_cycle1027
+- id: usaspending_hcs_colombia_force_protection_91k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0021_9700_W9127810D0050_9700
+    (HCS Colombia force protection). Signed 2011-06-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0021_9700_W9127810D0050_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0021_9700_W9127810D0050_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HCS Colombia force protection USD 0.091m. Supports hcs_colombia_force_protection_91k_2011.'
+  supports:
+  - hcs_colombia_force_protection_91k_2011
+  - hunt_cycle1027
+- id: usaspending_wkl_panama_fence_91k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0719P0819_1900_-NONE-_-NONE-
+    (WKL Panama fence). Signed 2019-08-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0819_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0819_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: WKL Panama fence USD 0.091m. Supports wkl_panama_fence_91k_2019.'
+  supports:
+  - wkl_panama_fence_91k_2019
+  - hunt_cycle1027
+- id: usaspending_misc_cr_parking_pavement_90k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCS80015C0038_1900_-NONE-_-NONE-
+    (CR parking pavement). Signed 2015-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80015C0038_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80015C0038_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CR parking pavement USD 0.090m. Supports misc_cr_parking_pavement_90k_2015.'
+  supports:
+  - misc_cr_parking_pavement_90k_2015
+  - hunt_cycle1028
+- id: usaspending_atlas_haiti_darius_denis_90k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521BC1500002_7200_AID521E1200002_7200
+    (Atlas Darius Denis). Signed 2014-11-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1500002_7200_AID521E1200002_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1500002_7200_AID521E1200002_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Atlas Darius Denis USD 0.090m. Supports atlas_haiti_darius_denis_90k_2014.'
+  supports:
+  - atlas_haiti_darius_denis_90k_2014
+  - hunt_cycle1028
+- id: usaspending_cummins_honduras_generators_87k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80015F0339_1900_GS07F9004D_4730
+    (Cummins Honduras generators). Signed 2015-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80015F0339_1900_GS07F9004D_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80015F0339_1900_GS07F9004D_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Cummins Honduras generators USD 0.087m. Supports cummins_honduras_generators_87k_2015.'
+  supports:
+  - cummins_honduras_generators_87k_2015
+  - hunt_cycle1028
+- id: usaspending_merrick_reynosa_ae_85k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AG32KWD140291_12K3_AG6395C110097_12K3
+    (Merrick Reynosa A&E). Signed 2014-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AG32KWD140291_12K3_AG6395C110097_12K3/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AG32KWD140291_12K3_AG6395C110097_12K3/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Merrick Reynosa A&E USD 0.085m. Supports merrick_reynosa_ae_85k_2014.'
+  supports:
+  - merrick_reynosa_ae_85k_2014
+  - hunt_cycle1028
+- id: usaspending_misc_brazil_go_fences_89k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2521P0768_1900_-NONE-_-NONE-
+    (Brazil GO fences). Signed 2021-09-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2521P0768_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2521P0768_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brazil GO fences USD 0.089m. Supports misc_brazil_go_fences_89k_2021.'
+  supports:
+  - misc_brazil_go_fences_89k_2021
+  - hunt_cycle1028
