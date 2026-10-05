@@ -34642,7 +34642,7 @@
     "type": "company",
     "chicago": "AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2",
-    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_melhoria_na_se_sao_joao_do_piaui_substituicao_34m_brl.",
+    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_reforco_na_se_maceio_ii_instalacao_do_3_tr_23_33m_brl.",
     "supports": [
       "axia_consol_imob_intang_2t26_2212m_brl",
       "hunt_cycle632",
@@ -35124,7 +35124,13 @@
       "axia_txproj_reforco_na_se_porto_franco_4_tr_230_69_13_8_k_34m_brl",
       "axia_txproj_reforco_na_se_sinop_substituicao_do_tf_230_13_34m_brl",
       "axia_txproj_melhoria_na_se_bandeirantes_substituicao_do_t_34m_brl",
-      "axia_txproj_melhoria_na_se_sao_joao_do_piaui_substituicao_34m_brl"
+      "axia_txproj_melhoria_na_se_sao_joao_do_piaui_substituicao_34m_brl",
+      "axia_txproj_reforco_na_se_tucurui_instalacao_do_3_atf_230_33m_brl",
+      "hunt_cycle855",
+      "axia_txproj_reforco_na_se_nobres_instalacao_do_3_tf_230_1_33m_brl",
+      "axia_txproj_reforco_na_se_mirueira_instalacao_do_3_tr_230_33m_brl",
+      "axia_txproj_reforco_na_se_olindina_instalacao_do_3_banco__33m_brl",
+      "axia_txproj_reforco_na_se_maceio_ii_instalacao_do_3_tr_23_33m_brl"
     ],
     "map_supports": [
       "axia_consol_ambiental_infra_1t22_41m_brl",
@@ -35496,7 +35502,11 @@
       "axia_txproj_reforco_na_se_itabaiana_substituicao_do_1_e_2_58m_brl",
       "axia_txproj_reforco_na_se_ivaipora_instalacao_das_fases_p_46m_brl",
       "axia_txproj_reforco_na_se_lucas_do_rio_verde_instalacao_d_40m_brl",
+      "axia_txproj_reforco_na_se_maceio_ii_instalacao_do_3_tr_23_33m_brl",
       "axia_txproj_reforco_na_se_maraba_substituicao_do_tr1_500__71m_brl",
+      "axia_txproj_reforco_na_se_mirueira_instalacao_do_3_tr_230_33m_brl",
+      "axia_txproj_reforco_na_se_nobres_instalacao_do_3_tf_230_1_33m_brl",
+      "axia_txproj_reforco_na_se_olindina_instalacao_do_3_banco__33m_brl",
       "axia_txproj_reforco_na_se_pinhalzinho_2_instalacao_do_4_a_36m_brl",
       "axia_txproj_reforco_na_se_pocos_de_caldas_instalacao_do_2_80m_brl",
       "axia_txproj_reforco_na_se_porto_franco_4_tr_230_69_13_8_k_34m_brl",
@@ -35509,6 +35519,7 @@
       "axia_txproj_reforco_na_se_sinop_substituicao_do_tf_230_13_34m_brl",
       "axia_txproj_reforco_na_se_teixeira_de_freitas_ii_instalac_38m_brl",
       "axia_txproj_reforco_na_se_teresina_ii_instalacao_do_2_ban_58m_brl",
+      "axia_txproj_reforco_na_se_tucurui_instalacao_do_3_atf_230_33m_brl",
       "axia_txproj_reforco_na_se_vitoria_substituicao_do_atr1_34_79m_brl",
       "axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl",
       "axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl_v2",
