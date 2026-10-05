@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6392,
+    "n_rows": 6405,
     "counts": {
-      "total": 6392,
-      "active": 6193,
+      "total": 6405,
+      "active": 6206,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6119,
-      "on_map": 6025
+      "documented": 6132,
+      "on_map": 6038
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2130,
-        "n": 2531
+        "allied": 2143,
+        "n": 2544
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 263357859767.13998,
-        "allied_n": 2059
+        "allied": 263897179029.26996,
+        "allied_n": 2072
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4960,
-        "n": 5215
+        "allied": 4973,
+        "n": 5228
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 392057598701.8597,
-        "allied_n": 4879
+        "allied": 392596917963.9896,
+        "allied_n": 4892
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1996
+          "allied": 2009
         },
         "infrastructure": {
           "us": 68,
@@ -7381,7 +7381,20 @@
       "isa_energia_gf_controladas_3t24_492m_brl",
       "isa_energia_gf_total_3t24_492m_brl",
       "isa_energia_consolidado_3t24_868m_brl",
-      "isa_energia_3t24_capex_868m_brl"
+      "isa_energia_3t24_capex_868m_brl",
+      "isa_energia_rm_isa_2t24_281m_brl",
+      "isa_energia_rm_total_2t24_340m_brl",
+      "isa_energia_piraque_gf_2t24_149m_brl",
+      "isa_energia_serra_dourada_2t24_37m_brl",
+      "isa_energia_riacho_grande_2t24_49m_brl",
+      "isa_energia_itatiaia_2t24_5m_brl",
+      "isa_energia_minuano_2t24_48m_brl",
+      "isa_energia_jacaranda_2t24_2m_brl",
+      "isa_energia_triangulo_mineiro_2t24_9m_brl",
+      "isa_energia_gf_controladas_2t24_300m_brl",
+      "isa_energia_gf_total_2t24_300m_brl",
+      "isa_energia_consolidado_2t24_640m_brl",
+      "isa_energia_2t24_capex_640m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
