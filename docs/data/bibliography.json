@@ -22038,5 +22038,73 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "equinix_latam_brazil_270m_20260526",
+    "type": "company",
+    "chicago": "Equinix. “América Latina é a região de maior crescimento e mais dinâmica para a Equinix.” May 26, 2026. https://newsroom.equinix.com/2026-05-26-America-Latina-e-a-regiao-de-maior-crescimento-e-mais-dinamica-para-a-Equinix.",
+    "url": "https://newsroom.equinix.com/2026-05-26-America-Latina-e-a-regiao-de-maior-crescimento-e-mais-dinamica-para-a-Equinix",
+    "annotation": "Equinix Brazil NEW USD 270m nested. Supports equinix_brazil_270m_2025_2026.",
+    "supports": [
+      "equinix_brazil_270m_2025_2026",
+      "hunt_cycle246"
+    ],
+    "map_supports": [
+      "equinix_brazil_270m_2025_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cpfl_rge_9p3bn_20260223",
+    "type": "company",
+    "chicago": "CPFL Energia. “Região Central recebe R$ 163 milhões em investimentos na rede elétrica.” February 23, 2026. https://www.grupocpfl.com.br/noticia/regiao-central-recebe-r-163-milhoes-em-investimentos-na-rede-eletrica.",
+    "url": "https://www.grupocpfl.com.br/noticia/regiao-central-recebe-r-163-milhoes-em-investimentos-na-rede-eletrica",
+    "annotation": "CPFL RGE NEW R$9.3bn ~USD 1791.18m via Fed H.10. Supports cpfl_rge_9p3bn_brl_2025_2029.",
+    "supports": [
+      "cpfl_rge_9p3bn_brl_2025_2029",
+      "hunt_cycle246"
+    ],
+    "map_supports": [
+      "cpfl_rge_9p3bn_brl_2025_2029"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_coelba_25bn_20260608",
+    "type": "company",
+    "chicago": "Neoenergia. “Neoenergia vai investir R$ 25 bilhões na Bahia até 2030.” June 8, 2026. https://www.neoenergia.com/w/investimentos-bahia-farm-show-bilhoes-energia-2030-coelba.",
+    "url": "https://www.neoenergia.com/w/investimentos-bahia-farm-show-bilhoes-energia-2030-coelba",
+    "annotation": "Neoenergia Coelba NEW ~R$25bn ~USD 4815.01m via Fed H.10. Supports neoenergia_coelba_25bn_brl_2026_2030.",
+    "supports": [
+      "neoenergia_coelba_25bn_brl_2026_2030",
+      "hunt_cycle246"
+    ],
+    "map_supports": [
+      "neoenergia_coelba_25bn_brl_2026_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_pernambuco_9p7bn_20260710",
+    "type": "company",
+    "chicago": "Neoenergia Pernambuco. “Neoenergia Pernambuco investirá R$ 2,8 bilhões no Sertão em plano recorde de R$ 9,7 bilhões até 2030, no Estado.” July 10, 2026. https://www.neoenergia.com/web/pernambuco/w/investimento-sertao-plano-recorde-pernambuco-1.",
+    "url": "https://www.neoenergia.com/web/pernambuco/w/investimento-sertao-plano-recorde-pernambuco-1",
+    "annotation": "Neoenergia Pernambuco NEW R$9.7bn ~USD 1868.22m via Fed H.10. Supports neoenergia_pernambuco_9p7bn_brl_2026_2030.",
+    "supports": [
+      "neoenergia_pernambuco_9p7bn_brl_2026_2030",
+      "hunt_cycle246"
+    ],
+    "map_supports": [
+      "neoenergia_pernambuco_9p7bn_brl_2026_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
