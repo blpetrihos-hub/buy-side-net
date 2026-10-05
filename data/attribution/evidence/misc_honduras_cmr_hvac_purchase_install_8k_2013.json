@@ -1,0 +1,10 @@
+{
+  "id": "misc_honduras_cmr_hvac_purchase_install_8k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_honduras_cmr_hvac_purchase_install_8k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80013M0847_1900_-NONE-_-NONE-/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "PURCHASE AND INSTALLATION OF HVCA FOR CMR",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 7984.52; date_signed 2013-09-25."
+}
