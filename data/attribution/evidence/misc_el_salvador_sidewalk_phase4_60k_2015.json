@@ -1,0 +1,10 @@
+{
+  "id": "misc_el_salvador_sidewalk_phase4_60k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_el_salvador_sidewalk_phase4_60k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60015M0950_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF 7901- SIDEWALK RENOVATION PROJECT PHASE 4",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 60060; date_signed 2015-08-31."
+}

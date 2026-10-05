@@ -1,0 +1,10 @@
+{
+  "id": "mckinney_panama_gamboa_lab_permit_drawings_52k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_mckinney_panama_gamboa_lab_permit_drawings_52k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_F11CW10311_3300_F06CC10332_3300/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "WORK ORDER NO. 6 AGAINST SMITHSONIAN'S ID/IQ CONTRACT F06CC10332 FOR SUPPLEMENTAL PERMIT DRAWINGS FOR REPLACEMENT OF GAMBOA LABORATORY FACILITIES AT SMITHSONIAN TROPICAL RESEARCH INSTITUTE.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 51926.18; date_signed 2011-04-26."
+}

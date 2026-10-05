@@ -28320,3 +28320,138 @@
   supports:
   - misc_peru_chancery_computer_room_ac_61k_2010
   - hunt_cycle1076
+- id: usaspending_maga_mexico_warehouse_facilities_54k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX6126C0002_1900_-NONE-_-NONE- (Maga Mexico warehouse). Signed 2025-12-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6126C0002_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6126C0002_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Maga Mexico warehouse USD 0.054m. Supports maga_mexico_warehouse_facilities_54k_2025.'
+  supports:
+  - maga_mexico_warehouse_facilities_54k_2025
+  - hunt_cycle1077
+- id: usaspending_carolina_water_mexico_guadalajara_water_plant_53k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX3024P0466_1900_-NONE-_-NONE- (Carolina Water Guadalajara plant). Signed 2024-08-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX3024P0466_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX3024P0466_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Carolina Water Guadalajara plant USD 0.053m. Supports carolina_water_mexico_guadalajara_water_plant_53k_2024.'
+  supports:
+  - carolina_water_mexico_guadalajara_water_plant_53k_2024
+  - hunt_cycle1077
+- id: usaspending_misc_argentina_chiller_2_repair_61k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2022P1015_1900_-NONE-_-NONE- (Argentina chiller 2 repair). Signed 2022-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2022P1015_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2022P1015_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Argentina chiller 2 repair USD 0.061m. Supports misc_argentina_chiller_2_repair_61k_2022.'
+  supports:
+  - misc_argentina_chiller_2_repair_61k_2022
+  - hunt_cycle1077
+- id: usaspending_misc_guatemala_master_bathroom_remodel_61k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GT5026C0019_1900_-NONE-_-NONE- (Guatemala master bathroom). Signed 2026-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5026C0019_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5026C0019_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Guatemala master bathroom USD 0.061m. Supports misc_guatemala_master_bathroom_remodel_61k_2026.'
+  supports:
+  - misc_guatemala_master_bathroom_remodel_61k_2026
+  - hunt_cycle1077
+- id: usaspending_misc_brazil_loading_dock_roof_60k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR93011C0009_1900_-NONE-_-NONE- (Brazil loading dock roof). Signed 2011-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR93011C0009_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR93011C0009_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brazil loading dock roof USD 0.060m. Supports misc_brazil_loading_dock_roof_60k_2011.'
+  supports:
+  - misc_brazil_loading_dock_roof_60k_2011
+  - hunt_cycle1077
+- id: usaspending_hcs_honduras_osc_renovations_53k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0009_9700_W9127814D0057_9700 (HCS Honduras OSC renovations). Signed 2016-05-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127814D0057_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127814D0057_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HCS Honduras OSC renovations USD 0.053m. Supports hcs_honduras_osc_renovations_53k_2016.'
+  supports:
+  - hcs_honduras_osc_renovations_53k_2016
+  - hunt_cycle1078
+- id: usaspending_seal_haiti_cas_roof_survey_52k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F2831_1900_19AQMM19D0048_1900 (Seal Haiti CAS roof survey). Signed 2021-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F2831_1900_19AQMM19D0048_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F2831_1900_19AQMM19D0048_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Seal Haiti CAS roof survey USD 0.052m. Supports seal_haiti_cas_roof_survey_52k_2021.'
+  supports:
+  - seal_haiti_cas_roof_survey_52k_2021
+  - hunt_cycle1078
+- id: usaspending_misc_dr_compressed_air_system_60k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8622P1848_1900_-NONE-_-NONE- (DR compressed air system). Signed 2022-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8622P1848_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8622P1848_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: DR compressed air system USD 0.060m. Supports misc_dr_compressed_air_system_60k_2022.'
+  supports:
+  - misc_dr_compressed_air_system_60k_2022
+  - hunt_cycle1078
+- id: usaspending_huracan_peru_ancon_access_roads_60k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810P0215_9700_-NONE-_-NONE- (Huracan Peru Ancon roads). Signed 2010-04-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0215_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0215_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Huracan Peru Ancon roads USD 0.060m. Supports huracan_peru_ancon_access_roads_60k_2010.'
+  supports:
+  - huracan_peru_ancon_access_roads_60k_2010
+  - hunt_cycle1078
+- id: usaspending_estruconsult_costa_rica_oij_incinerator_ae_61k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8020F0171_1900_19CS8019D0009_1900 (Estruconsult OIJ incinerator A&E). Signed 2020-02-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8020F0171_1900_19CS8019D0009_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8020F0171_1900_19CS8019D0009_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Estruconsult OIJ incinerator A&E USD 0.061m. Supports estruconsult_costa_rica_oij_incinerator_ae_61k_2020.'
+  supports:
+  - estruconsult_costa_rica_oij_incinerator_ae_61k_2020
+  - hunt_cycle1078
+- id: usaspending_mckinney_panama_gamboa_lab_permit_drawings_52k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F11CW10311_3300_F06CC10332_3300 (McKinney Gamboa lab drawings). Signed 2011-04-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F11CW10311_3300_F06CC10332_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F11CW10311_3300_F06CC10332_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: McKinney Gamboa lab drawings USD 0.052m. Supports mckinney_panama_gamboa_lab_permit_drawings_52k_2011.'
+  supports:
+  - mckinney_panama_gamboa_lab_permit_drawings_52k_2011
+  - hunt_cycle1079
+- id: usaspending_jj_honduras_paint_apron_52k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0280_9700_-NONE-_-NONE- (J&J Honduras paint apron). Signed 2011-08-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0280_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0280_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: J&J Honduras paint apron USD 0.052m. Supports jj_honduras_paint_apron_52k_2011.'
+  supports:
+  - jj_honduras_paint_apron_52k_2011
+  - hunt_cycle1079
+- id: usaspending_misc_costa_rica_msgr_security_cameras_61k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8021P0911_1900_-NONE-_-NONE- (Costa Rica MSGR cameras). Signed 2021-07-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8021P0911_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8021P0911_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Costa Rica MSGR cameras USD 0.061m. Supports misc_costa_rica_msgr_security_cameras_61k_2021.'
+  supports:
+  - misc_costa_rica_msgr_security_cameras_61k_2021
+  - hunt_cycle1079
+- id: usaspending_misc_el_salvador_sidewalk_phase4_60k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SES60015M0950_1900_-NONE-_-NONE- (El Salvador sidewalk phase 4). Signed 2015-08-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60015M0950_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60015M0950_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: El Salvador sidewalk phase 4 USD 0.060m. Supports misc_el_salvador_sidewalk_phase4_60k_2015.'
+  supports:
+  - misc_el_salvador_sidewalk_phase4_60k_2015
+  - hunt_cycle1079
+- id: usaspending_servin_venezuela_perimeter_fence_pathway_60k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19VE3018C0003_1900_-NONE-_-NONE- (Servin Venezuela perimeter fence pathway). Signed 2018-08-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19VE3018C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19VE3018C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Servin Venezuela perimeter fence pathway USD 0.060m. Supports servin_venezuela_perimeter_fence_pathway_60k_2018.'
+  supports:
+  - servin_venezuela_perimeter_fence_pathway_60k_2018
+  - hunt_cycle1079

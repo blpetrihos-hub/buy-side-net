@@ -1,0 +1,10 @@
+{
+  "id": "estruconsult_costa_rica_oij_incinerator_ae_61k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_estruconsult_costa_rica_oij_incinerator_ae_61k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8020F0171_1900_19CS8019D0009_1900/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "INL 1930.0 TO#4, OIJ INCINERATOR, A&E SERVICES, 19D0009",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 60709.31; date_signed 2020-02-21."
+}
