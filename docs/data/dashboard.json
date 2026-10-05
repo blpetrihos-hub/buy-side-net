@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6203,
+    "n_rows": 6215,
     "counts": {
-      "total": 6203,
-      "active": 6004,
+      "total": 6215,
+      "active": 6016,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5930,
-      "on_map": 5836
+      "documented": 5942,
+      "on_map": 5848
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1941,
-        "n": 2342
+        "allied": 1953,
+        "n": 2354
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 240474735581.15012,
-        "allied_n": 1870
+        "allied": 245046638279.47018,
+        "allied_n": 1882
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4771,
-        "n": 5026
+        "allied": 4783,
+        "n": 5038
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 369174474515.8692,
-        "allied_n": 4690
+        "allied": 373746377214.1893,
+        "allied_n": 4702
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1807
+          "allied": 1819
         },
         "infrastructure": {
           "us": 68,
@@ -7192,7 +7192,19 @@
       "taesa_sao_pedro_lifetime_94m_brl",
       "taesa_ate_lifetime_145m_brl",
       "taesa_ate_iii_lifetime_54m_brl",
-      "taesa_projetos_lifetime_capex_9373m_brl"
+      "taesa_projetos_lifetime_capex_9373m_brl",
+      "isa_energia_rm_isa_fy2025_1661m_brl",
+      "isa_energia_rm_total_fy2025_1690m_brl",
+      "isa_energia_piraque_gf_fy2025_2047m_brl",
+      "isa_energia_serra_dourada_fy2025_696m_brl",
+      "isa_energia_riacho_grande_fy2025_337m_brl",
+      "isa_energia_itatiaia_fy2025_140m_brl",
+      "isa_energia_jacaranda_fy2025_133m_brl",
+      "isa_energia_gf_controladas_fy2025_3403m_brl",
+      "isa_energia_gf_coligadas_fy2025_22m_brl",
+      "isa_energia_gf_total_fy2025_3414m_brl",
+      "isa_energia_consolidado_fy2025_5093m_brl",
+      "isa_energia_fy2025_capex_5104m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

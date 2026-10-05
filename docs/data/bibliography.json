@@ -33576,5 +33576,44 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "isa_energia_kit_investidor_2t26_xlsx",
+    "type": "company",
+    "chicago": "ISA Energia Brasil S.A. “Kit Investidor 2T26 — CapEx (planilha RI).” Retrieved October 5, 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6756-Kit-Investidor-2T26.xlsx.",
+    "url": "https://ri.isaenergiabrasil.com.br/pt/documentos/6756-Kit-Investidor-2T26.xlsx",
+    "annotation": "ISA Energia TOTAL (consolidado + coligadas) FY2025 CapEx via Fed H.10. Supports isa_energia_fy2025_capex_5104m_brl.",
+    "supports": [
+      "isa_energia_rm_isa_fy2025_1661m_brl",
+      "hunt_cycle574",
+      "isa_energia_rm_total_fy2025_1690m_brl",
+      "isa_energia_piraque_gf_fy2025_2047m_brl",
+      "isa_energia_serra_dourada_fy2025_696m_brl",
+      "isa_energia_riacho_grande_fy2025_337m_brl",
+      "isa_energia_itatiaia_fy2025_140m_brl",
+      "isa_energia_jacaranda_fy2025_133m_brl",
+      "isa_energia_gf_controladas_fy2025_3403m_brl",
+      "isa_energia_gf_coligadas_fy2025_22m_brl",
+      "isa_energia_gf_total_fy2025_3414m_brl",
+      "isa_energia_consolidado_fy2025_5093m_brl",
+      "isa_energia_fy2025_capex_5104m_brl"
+    ],
+    "map_supports": [
+      "isa_energia_consolidado_fy2025_5093m_brl",
+      "isa_energia_fy2025_capex_5104m_brl",
+      "isa_energia_gf_coligadas_fy2025_22m_brl",
+      "isa_energia_gf_controladas_fy2025_3403m_brl",
+      "isa_energia_gf_total_fy2025_3414m_brl",
+      "isa_energia_itatiaia_fy2025_140m_brl",
+      "isa_energia_jacaranda_fy2025_133m_brl",
+      "isa_energia_piraque_gf_fy2025_2047m_brl",
+      "isa_energia_riacho_grande_fy2025_337m_brl",
+      "isa_energia_rm_isa_fy2025_1661m_brl",
+      "isa_energia_rm_total_fy2025_1690m_brl",
+      "isa_energia_serra_dourada_fy2025_696m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
