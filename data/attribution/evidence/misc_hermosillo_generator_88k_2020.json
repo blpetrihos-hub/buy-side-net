@@ -1,0 +1,10 @@
+{
+  "id": "misc_hermosillo_generator_88k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_hermosillo_generator_88k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5720P0051_1900_-NONE-_-NONE-/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "HMO/FAC/OBO/SUPPLY OF THE CGR POWER GENERATOR CATERPILL",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 87552; date_signed 2020-03-12."
+}

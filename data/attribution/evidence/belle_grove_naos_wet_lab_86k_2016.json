@@ -1,0 +1,10 @@
+{
+  "id": "belle_grove_naos_wet_lab_86k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_belle_grove_naos_wet_lab_86k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CC10530_3300_-NONE-_-NONE-/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "TO CONSTRUCT A WET LAB AT BLDG 356 NAOS MARINE LABORATORY (STRI)      IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 86276.68; date_signed 2016-08-23."
+}
