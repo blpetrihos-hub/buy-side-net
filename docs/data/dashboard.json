@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6296,
+    "n_rows": 6308,
     "counts": {
-      "total": 6296,
-      "active": 6097,
+      "total": 6308,
+      "active": 6109,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6023,
-      "on_map": 5929
+      "documented": 6035,
+      "on_map": 5941
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2034,
-        "n": 2435
+        "allied": 2046,
+        "n": 2447
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 254845046663.56003,
-        "allied_n": 1963
+        "allied": 255769639964.92,
+        "allied_n": 1975
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4864,
-        "n": 5119
+        "allied": 4876,
+        "n": 5131
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 383544785598.27936,
-        "allied_n": 4783
+        "allied": 384469378899.6394,
+        "allied_n": 4795
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1900
+          "allied": 1912
         },
         "infrastructure": {
           "us": 68,
@@ -7285,7 +7285,19 @@
       "isa_energia_gf_coligadas_fy2017_37m_brl",
       "isa_energia_gf_total_fy2017_35m_brl",
       "isa_energia_consolidado_fy2017_238m_brl",
-      "isa_energia_fy2017_capex_256m_brl"
+      "isa_energia_fy2017_capex_256m_brl",
+      "isa_energia_rm_isa_2t26_424m_brl",
+      "isa_energia_rm_total_2t26_445m_brl",
+      "isa_energia_piraque_gf_2t26_84m_brl",
+      "isa_energia_serra_dourada_2t26_456m_brl",
+      "isa_energia_itatiaia_2t26_52m_brl",
+      "isa_energia_minuano_2t26_2m_brl",
+      "isa_energia_jacaranda_2t26_14m_brl",
+      "isa_energia_gf_controladas_2t26_608m_brl",
+      "isa_energia_gf_coligadas_2t26_0m_brl",
+      "isa_energia_gf_total_2t26_608m_brl",
+      "isa_energia_consolidado_2t26_1053m_brl",
+      "isa_energia_2t26_capex_1053m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
