@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6696,
+    "n_rows": 6702,
     "counts": {
-      "total": 6696,
-      "active": 6497,
+      "total": 6702,
+      "active": 6503,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6423,
-      "on_map": 6329
+      "documented": 6429,
+      "on_map": 6335
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2381,
-        "n": 2782
+        "allied": 2387,
+        "n": 2788
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 273826157384.59995,
-        "allied_n": 2310
+        "allied": 274601163813.77997,
+        "allied_n": 2316
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5264,
-        "n": 5519
+        "allied": 5270,
+        "n": 5525
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 417694863360.39954,
-        "allied_n": 5183
+        "allied": 418469869789.5796,
+        "allied_n": 5189
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2247
+          "allied": 2253
         },
         "infrastructure": {
           "us": 68,
@@ -7685,7 +7685,13 @@
       "axia_consol_transmissao_2t26_1721m_brl",
       "axia_consol_ambiental_infra_2t26_194m_brl",
       "axia_consol_empresas_investidas_2t26_733m_brl",
-      "axia_consol_hvdc_itaipu_2t26_172m_brl"
+      "axia_consol_hvdc_itaipu_2t26_172m_brl",
+      "axia_consol_imob_intang_1t26_1314m_brl",
+      "axia_consol_geracao_1t26_185m_brl",
+      "axia_consol_transmissao_1t26_977m_brl",
+      "axia_consol_ambiental_infra_1t26_152m_brl",
+      "axia_consol_hvdc_itaipu_1t26_41m_brl",
+      "axia_consol_total_1t26_1355m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
