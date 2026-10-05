@@ -12294,3 +12294,35 @@
   supports:
   - energisa_4states_18bn_brl_2026_2030
   - hunt_cycle249
+- id: google_cloud_mexico_region_20241204
+  type: company
+  chicago: Google Cloud. “Google Cloud announces 41st cloud region in Mexico.” December 4, 2024. https://cloud.google.com/blog/products/infrastructure/google-cloud-announces-41st-cloud-region-in-mexico.
+  url: https://cloud.google.com/blog/products/infrastructure/google-cloud-announces-41st-cloud-region-in-mexico
+  annotation: Google LatAm NEW USD 1.2bn. Supports google_latam_1p2bn_2022.
+  supports:
+  - google_latam_1p2bn_2022
+  - hunt_cycle250
+- id: enel_brasil_1q26_1p5bn
+  type: company
+  chicago: Enel Brasil. “Enel Brasil eleva em 31% investimentos em distribuição de energia no primeiro trimestre de 2026.” 2026. https://www.enel.com.br/pt-saopaulo/investimentos/d2026-enel-brasil-eleva-investimentos-em-distribuicao-de-energia-no-primeiro-trimestre-de-2026.html.
+  url: https://www.enel.com.br/pt-saopaulo/investimentos/d2026-enel-brasil-eleva-investimentos-em-distribuicao-de-energia-no-primeiro-trimestre-de-2026.html
+  annotation: Enel Q1 2026 NEW R$1.5bn ~USD 288.90m via Fed H.10. Supports enel_brasil_1p5bn_brl_1q26.
+  supports:
+  - enel_brasil_1p5bn_brl_1q26
+  - hunt_cycle250
+- id: isa_energia_4t25_autorizado_12p3bn
+  type: company
+  chicago: ISA Energia Brasil. “ISA ENERGIA BRASIL divulga os resultados do 4T25 com recorde em investimentos de R$ 5,1 bi no ano.” February 24, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/.
+  url: https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-divulga-os-resultados-do-4t25-com-recorde-em-investimentos-de-r-51-bi-no-ano/
+  annotation: ISA autorizado NEW R$12.3bn ~USD 2368.98m via Fed H.10. Supports isa_energia_autorizado_12p3bn_brl_2030.
+  supports:
+  - isa_energia_autorizado_12p3bn_brl_2030
+  - hunt_cycle250
+- id: light_fr_10bn_20260511
+  type: company
+  chicago: Light S.A. / Light Serviços de Eletricidade S.A. “Fato Relevante” (5-year investment plan). May 11, 2026. https://investidor10.com.br/acoes/link_comunicado/LIGT3/41763/.
+  url: https://investidor10.com.br/acoes/link_comunicado/LIGT3/41763/
+  annotation: Light SESA NEW ~R$10bn floor ~USD 1926.00m via Fed H.10. Supports light_sesa_10bn_brl_2026_2030.
+  supports:
+  - light_sesa_10bn_brl_2026_2030
+  - hunt_cycle250
