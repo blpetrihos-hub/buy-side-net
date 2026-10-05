@@ -1,0 +1,10 @@
+{
+  "id": "cbgg_cap_haitien_port_prefab_2p2m_2021",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_cbgg_cap_haitien_prefab_20210719",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052121C00001_7200_-NONE-_-NONE-/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "PURCHASING OF ONE(1) PRE-ENGINEERED BUILDING, 5 PREFAB OFFICES, AND SEVERAL EQUIPMENT AS PART OF THE CAP-HAITIEN PORT REHABILITATION AND PRIVATE OPERATOR AWARD THROUGH GSA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 2,164,058.02; date_signed 2021-07-19."
+}

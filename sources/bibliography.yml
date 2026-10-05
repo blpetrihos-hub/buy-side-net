@@ -22431,7 +22431,7 @@
     October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.
   url: https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf
   accessed: '2026-10-05'
-  annotation: Haiti PIP FY2025–26. Supports haiti_pip_integration_routiere_locale_527m_htg_fy2526.
+  annotation: 'Haiti PIP: Trou-du-Nord 20m HTG. Supports haiti_pip_route_trou_du_nord_20m_htg_fy2526.'
   supports:
   - haiti_pip_maillage_routier_9625m_htg_fy2526
   - hunt_cycle898
@@ -22476,6 +22476,10 @@
   - haiti_pip_fer_routes_urbaines_430m_htg_fy2526
   - haiti_pip_ue_st_raphael_contournement_250m_htg_fy2526
   - haiti_pip_integration_routiere_locale_527m_htg_fy2526
+  - haiti_pip_place_armes_ouanaminthe_40m_htg_fy2526
+  - hunt_cycle907
+  - haiti_pip_sainte_suzanne_76m_htg_fy2526
+  - haiti_pip_route_trou_du_nord_20m_htg_fy2526
 - id: usaspending_gdg_cap_haitien_drw_20100831
   type: government
   chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-
@@ -22586,3 +22590,23 @@
   supports:
   - cemex_haiti_dla_houses_7p0m_2012
   - hunt_cycle904
+- id: usaspending_trigon_cap_haitien_cm_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_72052123F00002_7200_7200AA21D00010_7200
+    (Trigon Associates; Cap-Haïtien Port CM TO). https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052123F00002_7200_7200AA21D00010_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052123F00002_7200_7200AA21D00010_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Trigon Cap-Haïtien CM TO USD 2.968m. Supports trigon_cap_haitien_cm_to_3p0m_2023.'
+  supports:
+  - trigon_cap_haitien_cm_to_3p0m_2023
+  - hunt_cycle907
+- id: usaspending_cbgg_cap_haitien_prefab_20210719
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_72052121C00001_7200_-NONE-_-NONE-
+    (CBGG JV; Cap-Haïtien Port prefab). Signed 19 July 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052121C00001_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052121C00001_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CBGG Cap-Haïtien Port prefab USD 2.164m. Supports cbgg_cap_haitien_port_prefab_2p2m_2021.'
+  supports:
+  - cbgg_cap_haitien_port_prefab_2p2m_2021
+  - hunt_cycle907

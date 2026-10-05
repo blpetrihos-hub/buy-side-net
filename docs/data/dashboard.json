@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 8431,
+    "n_rows": 8436,
     "counts": {
-      "total": 8431,
-      "active": 8232,
+      "total": 8436,
+      "active": 8237,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8158,
-      "on_map": 8050
+      "documented": 8163,
+      "on_map": 8055
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 190,
+        "us": 192,
         "prc": 129,
-        "allied": 2999,
-        "n": 3318
+        "allied": 3002,
+        "n": 3323
       },
       "usd": {
-        "us": 46414179314.06999,
-        "us_n": 123,
+        "us": 46419310896.69999,
+        "us_n": 125,
         "prc": 17322325919.350002,
         "prc_n": 40,
         "allied": 144622841755.1098,
@@ -750,14 +750,14 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 15,
+        "us": 17,
         "prc": 0,
-        "allied": 43,
-        "n": 58
+        "allied": 46,
+        "n": 63
       },
       "usd": {
-        "us": 260855140.08,
-        "us_n": 15,
+        "us": 265986722.71000004,
+        "us_n": 17,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 844606744.74,
@@ -770,9 +770,9 @@
           "allied": 11
         },
         "infrastructure": {
-          "us": 10,
+          "us": 12,
           "prc": 0,
-          "allied": 29
+          "allied": 32
         },
         "resources": {
           "us": 1,
@@ -9420,7 +9420,12 @@
       "haiti_pip_fer_routes_interurbaines_1100m_htg_fy2526",
       "haiti_pip_fer_routes_urbaines_430m_htg_fy2526",
       "haiti_pip_ue_st_raphael_contournement_250m_htg_fy2526",
-      "haiti_pip_integration_routiere_locale_527m_htg_fy2526"
+      "haiti_pip_integration_routiere_locale_527m_htg_fy2526",
+      "trigon_cap_haitien_cm_to_3p0m_2023",
+      "cbgg_cap_haitien_port_prefab_2p2m_2021",
+      "haiti_pip_place_armes_ouanaminthe_40m_htg_fy2526",
+      "haiti_pip_sainte_suzanne_76m_htg_fy2526",
+      "haiti_pip_route_trou_du_nord_20m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",
