@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8235,
+    "n_rows": 8240,
     "counts": {
-      "total": 8235,
-      "active": 8036,
+      "total": 8240,
+      "active": 8041,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7962,
-      "on_map": 7866
+      "documented": 7967,
+      "on_map": 7871
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3920,
-        "n": 4321
+        "allied": 3925,
+        "n": 4326
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383329902403.6307,
-        "allied_n": 3849
+        "allied": 383347657894.46063,
+        "allied_n": 3854
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6803,
-        "n": 7058
+        "allied": 6808,
+        "n": 7063
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527198608379.4303,
-        "allied_n": 6722
+        "allied": 527216363870.26025,
+        "allied_n": 6727
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3786
+          "allied": 3791
         },
         "infrastructure": {
           "us": 68,
@@ -9224,7 +9224,12 @@
       "axia_txproj_reforco_na_se_biguacu_substituicao_do_3_atf_2_20m_brl",
       "axia_txproj_reforco_na_se_biguacu_substituicao_do_2_atf_2_20m_brl",
       "axia_txproj_reforco_na_se_biguacu_substituicao_do_1_atf_2_20m_brl",
-      "axia_txproj_melhoria_na_se_ita_substituicao_do_reator_mon_19m_brl"
+      "axia_txproj_melhoria_na_se_ita_substituicao_do_reator_mon_19m_brl",
+      "axia_txproj_melhoria_na_se_santo_angelo_substituicao_do_b_19m_brl",
+      "axia_txproj_melhoria_na_se_angelim_ii_substituicao_de_3_r_18m_brl",
+      "axia_txproj_melhoria_na_se_angelim_ii_substituicao_de_3_r_18m_brl_v2",
+      "axia_txproj_melhoria_na_se_olindina_ii_substituicao_de_3__18m_brl",
+      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_r_18m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
