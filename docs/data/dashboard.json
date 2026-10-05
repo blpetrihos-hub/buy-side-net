@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8085,
+    "n_rows": 8090,
     "counts": {
-      "total": 8085,
-      "active": 7886,
+      "total": 8090,
+      "active": 7891,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7812,
-      "on_map": 7718
+      "documented": 7817,
+      "on_map": 7723
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3770,
-        "n": 4171
+        "allied": 3775,
+        "n": 4176
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 380103766536.08057,
-        "allied_n": 3699
+        "allied": 381716381084.7106,
+        "allied_n": 3704
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6653,
-        "n": 6908
+        "allied": 6658,
+        "n": 6913
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 523972472511.8802,
-        "allied_n": 6572
+        "allied": 525585087060.5102,
+        "allied_n": 6577
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3636
+          "allied": 3641
         },
         "infrastructure": {
           "us": 68,
@@ -9074,7 +9074,12 @@
       "cemig_dist_1s26_2637m_brl",
       "cemig_gd_1s26_237m_brl",
       "cemig_holding_1s26_4m_brl",
-      "cemig_total_1s26_3282m_brl"
+      "cemig_total_1s26_3282m_brl",
+      "axia_txproj_se_500_230_kv_zebu_iii_se_500_230_138_kv_bom__2650m_brl",
+      "axia_txproj_revitalizacao_completa_das_instalacoes_do_bip_2184m_brl",
+      "axia_txproj_se_500_kv_teresina_iv_se_500_kv_crateus_diver_1769m_brl",
+      "axia_txproj_se_500_230_kv_morada_nova_lt_500_kv_morada_no_983m_brl",
+      "axia_txproj_lt_500_kv_janauba_6_presidente_juscelino_c1_787m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
