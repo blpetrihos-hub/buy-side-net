@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 1916,
+    "n_rows": 1920,
     "counts": {
-      "total": 1916,
-      "active": 1717,
+      "total": 1920,
+      "active": 1721,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1643,
-      "on_map": 1577
+      "documented": 1647,
+      "on_map": 1581
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 181,
+        "us": 182,
         "prc": 127,
         "allied": 312,
-        "n": 620
+        "n": 621
       },
       "usd": {
-        "us": 46248647492.65,
-        "us_n": 114,
+        "us": 46364207670.61,
+        "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
         "allied": 71914841573.77994,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 336,
-        "n": 737
+        "allied": 339,
+        "n": 740
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 118494833340.02,
-        "allied_n": 265
+        "allied": 118604037708.19,
+        "allied_n": 268
       },
       "matched_gaps": {
         "n": 1,
@@ -362,27 +362,27 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 129,
+        "us": 130,
         "prc": 125,
-        "allied": 513,
-        "n": 767
+        "allied": 516,
+        "n": 771
       },
       "usd": {
-        "us": 21129430723.329994,
-        "us_n": 67,
+        "us": 21244990901.289993,
+        "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 174043553449.79996,
-        "allied_n": 432
+        "allied": 174152757817.96997,
+        "allied_n": 435
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 230
+          "allied": 233
         },
         "infrastructure": {
-          "us": 67,
+          "us": 68,
           "prc": 26,
           "allied": 189
         },
@@ -2905,7 +2905,11 @@
       "motiva_vlt_carioca_exmaint_1t26_3m_brl",
       "motiva_metro_bahia_exmaint_1t26_14m_brl",
       "motiva_viamobilidade_exmaint_1t26_9m_brl",
-      "motiva_viamobilidade_l89_exmaint_1t26_101m_brl"
+      "motiva_viamobilidade_l89_exmaint_1t26_101m_brl",
+      "progress_rail_vli_27loco_600m_brl_2026",
+      "alupar_tap_capex_realizado_226p1m_brl",
+      "alupar_tpc_capex_realizado_305p8m_brl",
+      "alupar_tcn_capex_realizado_35p1m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
