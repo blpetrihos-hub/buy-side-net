@@ -1,0 +1,10 @@
+{
+  "id": "crosby_guatemala_cdc_seismic_evaluation_49k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_crosby_guatemala_cdc_seismic_evaluation_49k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F1448_1900_SAQMMA08D0068_1900/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF  SEISMIC EVALUATION CDC BUILDING GUATEMALA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 48910; date_signed 2013-05-02."
+}
