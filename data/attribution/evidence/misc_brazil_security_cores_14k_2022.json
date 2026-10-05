@@ -1,0 +1,10 @@
+{
+  "id": "misc_brazil_security_cores_14k_2022",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_brazil_security_cores_14k_2022",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2523P0161_1900_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "SECURITY CORES",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 14100.0; date_signed 2022-12-02."
+}

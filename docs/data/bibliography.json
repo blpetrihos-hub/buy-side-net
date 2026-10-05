@@ -63744,5 +63744,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_cummins_mexico_40kw_onan_gaseous_generator_11k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AG3267D170071_12K3_GS07F017DA_4732 (cummins_mexico_40kw_onan_gaseous_generator_11k_2017). Signed 2017-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AG3267D170071_12K3_GS07F017DA_4732/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AG3267D170071_12K3_GS07F017DA_4732/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: cummins_mexico_40kw_onan_gaseous_generator_11k_2017 USD 0.011m. Supports cummins_mexico_40kw_onan_gaseous_generator_11k_2017.",
+    "supports": [
+      "cummins_mexico_40kw_onan_gaseous_generator_11k_2017",
+      "hunt_cycle1189"
+    ],
+    "map_supports": [
+      "cummins_mexico_40kw_onan_gaseous_generator_11k_2017"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_fabrication_designs_guatemala_metal_door_screen_11k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18P0362_1900_-NONE-_-NONE- (fabrication_designs_guatemala_metal_door_screen_11k_2018). Signed 2018-02-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18P0362_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18P0362_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: fabrication_designs_guatemala_metal_door_screen_11k_2018 USD 0.011m. Supports fabrication_designs_guatemala_metal_door_screen_11k_2018.",
+    "supports": [
+      "fabrication_designs_guatemala_metal_door_screen_11k_2018",
+      "hunt_cycle1189"
+    ],
+    "map_supports": [
+      "fabrication_designs_guatemala_metal_door_screen_11k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_chancery_stackable_units_replace_14k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53017M1574_1900_-NONE-_-NONE- (misc_mexico_chancery_stackable_units_replace_14k_2017). Signed 2017-08-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53017M1574_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53017M1574_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_mexico_chancery_stackable_units_replace_14k_2017 USD 0.014m. Supports misc_mexico_chancery_stackable_units_replace_14k_2017.",
+    "supports": [
+      "misc_mexico_chancery_stackable_units_replace_14k_2017",
+      "hunt_cycle1189"
+    ],
+    "map_supports": [
+      "misc_mexico_chancery_stackable_units_replace_14k_2017"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_variable_frequency_drivers_replace_14k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX1123P0202_1900_-NONE-_-NONE- (misc_mexico_variable_frequency_drivers_replace_14k_2023). Signed 2023-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1123P0202_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1123P0202_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_mexico_variable_frequency_drivers_replace_14k_2023 USD 0.014m. Supports misc_mexico_variable_frequency_drivers_replace_14k_2023.",
+    "supports": [
+      "misc_mexico_variable_frequency_drivers_replace_14k_2023",
+      "hunt_cycle1189"
+    ],
+    "map_supports": [
+      "misc_mexico_variable_frequency_drivers_replace_14k_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_guyana_steel_louvres_install_14k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGY20010M0239_1900_-NONE-_-NONE- (misc_guyana_steel_louvres_install_14k_2010). Signed 2010-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGY20010M0239_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGY20010M0239_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_guyana_steel_louvres_install_14k_2010 USD 0.014m. Supports misc_guyana_steel_louvres_install_14k_2010.",
+    "supports": [
+      "misc_guyana_steel_louvres_install_14k_2010",
+      "hunt_cycle1189"
+    ],
+    "map_supports": [
+      "misc_guyana_steel_louvres_install_14k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_harden_mexico_metal_door_frame_11k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24P1218_1900_-NONE-_-NONE- (harden_mexico_metal_door_frame_11k_2024). Signed 2024-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24P1218_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24P1218_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: harden_mexico_metal_door_frame_11k_2024 USD 0.011m. Supports harden_mexico_metal_door_frame_11k_2024.",
+    "supports": [
+      "harden_mexico_metal_door_frame_11k_2024",
+      "hunt_cycle1190"
+    ],
+    "map_supports": [
+      "harden_mexico_metal_door_frame_11k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_norshield_costa_rica_metal_door_screen_11k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23P0063_1900_-NONE-_-NONE- (norshield_costa_rica_metal_door_screen_11k_2022). Signed 2022-11-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23P0063_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23P0063_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norshield_costa_rica_metal_door_screen_11k_2022 USD 0.011m. Supports norshield_costa_rica_metal_door_screen_11k_2022.",
+    "supports": [
+      "norshield_costa_rica_metal_door_screen_11k_2022",
+      "hunt_cycle1190"
+    ],
+    "map_supports": [
+      "norshield_costa_rica_metal_door_screen_11k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_panama_cmr_cctv_equipment_supply_14k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0725P0718_1900_-NONE-_-NONE- (misc_panama_cmr_cctv_equipment_supply_14k_2025). Signed 2025-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0725P0718_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0725P0718_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_panama_cmr_cctv_equipment_supply_14k_2025 USD 0.014m. Supports misc_panama_cmr_cctv_equipment_supply_14k_2025.",
+    "supports": [
+      "misc_panama_cmr_cctv_equipment_supply_14k_2025",
+      "hunt_cycle1190"
+    ],
+    "map_supports": [
+      "misc_panama_cmr_cctv_equipment_supply_14k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19TD5519P0177_1900_-NONE-_-NONE- (misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019). Signed 2019-05-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19TD5519P0177_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19TD5519P0177_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019 USD 0.014m. Supports misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019.",
+    "supports": [
+      "misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019",
+      "hunt_cycle1190"
+    ],
+    "map_supports": [
+      "misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_el_salvador_soyapango_holding_cell_cctv_14k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6019P0383_1900_-NONE-_-NONE- (misc_el_salvador_soyapango_holding_cell_cctv_14k_2019). Signed 2019-03-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6019P0383_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6019P0383_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_el_salvador_soyapango_holding_cell_cctv_14k_2019 USD 0.014m. Supports misc_el_salvador_soyapango_holding_cell_cctv_14k_2019.",
+    "supports": [
+      "misc_el_salvador_soyapango_holding_cell_cctv_14k_2019",
+      "hunt_cycle1190"
+    ],
+    "map_supports": [
+      "misc_el_salvador_soyapango_holding_cell_cctv_14k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_norshield_belize_metal_door_steel_11k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19P0946_1900_-NONE-_-NONE- (norshield_belize_metal_door_steel_11k_2019). Signed 2019-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19P0946_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19P0946_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norshield_belize_metal_door_steel_11k_2019 USD 0.011m. Supports norshield_belize_metal_door_steel_11k_2019.",
+    "supports": [
+      "norshield_belize_metal_door_steel_11k_2019",
+      "hunt_cycle1191"
+    ],
+    "map_supports": [
+      "norshield_belize_metal_door_steel_11k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_norshield_el_salvador_metal_door_screen_frame_10k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM25P0588_1900_-NONE-_-NONE- (norshield_el_salvador_metal_door_screen_frame_10k_2025). Signed 2025-03-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM25P0588_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM25P0588_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: norshield_el_salvador_metal_door_screen_frame_10k_2025 USD 0.01m. Supports norshield_el_salvador_metal_door_screen_frame_10k_2025.",
+    "supports": [
+      "norshield_el_salvador_metal_door_screen_frame_10k_2025",
+      "hunt_cycle1191"
+    ],
+    "map_supports": [
+      "norshield_el_salvador_metal_door_screen_frame_10k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_guyana_steel_structure_fabricate_install_14k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2021P0223_1900_-NONE-_-NONE- (misc_guyana_steel_structure_fabricate_install_14k_2021). Signed 2021-07-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2021P0223_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2021P0223_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_guyana_steel_structure_fabricate_install_14k_2021 USD 0.014m. Supports misc_guyana_steel_structure_fabricate_install_14k_2021.",
+    "supports": [
+      "misc_guyana_steel_structure_fabricate_install_14k_2021",
+      "hunt_cycle1191"
+    ],
+    "map_supports": [
+      "misc_guyana_steel_structure_fabricate_install_14k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19UY6024P0681_1900_-NONE-_-NONE- (misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024). Signed 2024-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6024P0681_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6024P0681_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024 USD 0.014m. Supports misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024.",
+    "supports": [
+      "misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024",
+      "hunt_cycle1191"
+    ],
+    "map_supports": [
+      "misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_security_cores_14k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2523P0161_1900_-NONE-_-NONE- (misc_brazil_security_cores_14k_2022). Signed 2022-12-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2523P0161_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2523P0161_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_brazil_security_cores_14k_2022 USD 0.014m. Supports misc_brazil_security_cores_14k_2022.",
+    "supports": [
+      "misc_brazil_security_cores_14k_2022",
+      "hunt_cycle1191"
+    ],
+    "map_supports": [
+      "misc_brazil_security_cores_14k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
