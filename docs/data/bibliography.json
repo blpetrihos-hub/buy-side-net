@@ -22406,7 +22406,7 @@
     "type": "company",
     "chicago": "CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26.” August 13, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.",
     "url": "https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213",
-    "annotation": "CPFL 2T26 Dist soft ~R$1.2bn via Fed H.10. Supports cpfl_2t26_dist_soft_1200m_brl.",
+    "annotation": "CPFL 2T26 non-Dist soft ~R$300m via Fed H.10. Supports cpfl_2t26_nondist_soft_300m_brl.",
     "supports": [
       "cpfl_1h26_capex_2p8bn_brl",
       "hunt_cycle251",
@@ -22415,13 +22415,16 @@
       "cpfl_1h26_nondist_soft_560m_brl",
       "hunt_cycle276",
       "cpfl_2t26_dist_soft_1200m_brl",
-      "hunt_cycle278"
+      "hunt_cycle278",
+      "cpfl_2t26_nondist_soft_300m_brl",
+      "hunt_cycle279"
     ],
     "map_supports": [
       "cpfl_1h26_capex_2p8bn_brl",
       "cpfl_1h26_dist_2240m_brl",
       "cpfl_1h26_nondist_soft_560m_brl",
-      "cpfl_2t26_dist_soft_1200m_brl"
+      "cpfl_2t26_dist_soft_1200m_brl",
+      "cpfl_2t26_nondist_soft_300m_brl"
     ],
     "layers": [
       "energy"
@@ -22904,9 +22907,9 @@
   {
     "id": "neoenergia_2q26_release_mziq",
     "type": "company",
-    "chicago": "Neoenergia S.A. “Results as of June 30, 2026” (2Q26/6M26 earnings release). July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
+    "chicago": "Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
-    "annotation": "Neoenergia Gen+Customers 2Q26 CapEx R$29m via Fed H.10. Supports neoenergia_gen_customers_2q26_29m_brl.",
+    "annotation": "Neoenergia Networks 6M26 CapEx R$3,913m via Fed H.10. Supports neoenergia_networks_6m26_3913m_brl.",
     "supports": [
       "neoenergia_6m26_capex_4bn_brl",
       "hunt_cycle257",
@@ -22931,7 +22934,9 @@
       "neoenergia_customers_2q26_7m_brl",
       "neoenergia_networks_2q26_2063m_brl",
       "hunt_cycle278",
-      "neoenergia_gen_customers_2q26_29m_brl"
+      "neoenergia_gen_customers_2q26_29m_brl",
+      "neoenergia_networks_6m26_3913m_brl",
+      "hunt_cycle279"
     ],
     "map_supports": [
       "neoenergia_6m26_capex_4bn_brl",
@@ -22945,6 +22950,7 @@
       "neoenergia_hydro_6m26_6m_brl",
       "neoenergia_network_expansion_6m26_2265m_brl",
       "neoenergia_networks_2q26_2063m_brl",
+      "neoenergia_networks_6m26_3913m_brl",
       "neoenergia_tx_2q26_80m_brl",
       "neoenergia_tx_6m26_218m_brl",
       "neoenergia_wind_2q26_17m_brl",
@@ -23147,7 +23153,7 @@
     "type": "company",
     "chicago": "Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2",
-    "annotation": "Rumo Norte Recorrente 2T26 CapEx R$415m via Fed H.10. Supports rumo_norte_recorrente_2t26_415m_brl.",
+    "annotation": "Rumo Contêiner 2T26 CapEx R$21m via Fed H.10. Supports rumo_conteiner_2t26_21m_brl.",
     "supports": [
       "rumo_2t26_capex_1597m_brl",
       "hunt_cycle260",
@@ -23163,12 +23169,15 @@
       "rumo_material_rodante_2t26_115m_brl",
       "hunt_cycle277",
       "rumo_fmt_2t26_342m_brl",
-      "rumo_norte_recorrente_2t26_415m_brl"
+      "rumo_norte_recorrente_2t26_415m_brl",
+      "rumo_conteiner_2t26_21m_brl",
+      "hunt_cycle279"
     ],
     "map_supports": [
       "rumo_2t26_capex_1597m_brl",
       "rumo_6m26_capex_3371m_brl",
       "rumo_capacitacao_2t26_483m_brl",
+      "rumo_conteiner_2t26_21m_brl",
       "rumo_expansao_norte_2t26_979m_brl",
       "rumo_fmt_2t26_342m_brl",
       "rumo_material_rodante_2t26_115m_brl",
@@ -23184,9 +23193,9 @@
   {
     "id": "alupar_2t26_release_20260806",
     "type": "company",
-    "chicago": "Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.",
+    "chicago": "Alupar Investimento S.A. “Release de Resultados 2T26” (company ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.",
     "url": "https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip",
-    "annotation": "Alupar 6M26 Custo de Infraestrutura R$649.2m via Fed H.10. Supports alupar_6m26_custo_infra_649p2m_brl.",
+    "annotation": "Alupar Custo de Infraestrutura 2T26 CapEx R$379.2m via Fed H.10. Supports alupar_2t26_custo_infra_379p2m_brl.",
     "supports": [
       "alupar_lote7_tesp_1089m_brl_2026",
       "hunt_cycle260",
@@ -23197,9 +23206,12 @@
       "alupar_palca_peru_capex_220m_usd",
       "hunt_cycle264",
       "alupar_6m26_custo_infra_649p2m_brl",
-      "hunt_cycle267"
+      "hunt_cycle267",
+      "alupar_2t26_custo_infra_379p2m_brl",
+      "hunt_cycle279"
     ],
     "map_supports": [
+      "alupar_2t26_custo_infra_379p2m_brl",
       "alupar_6m26_custo_infra_649p2m_brl",
       "alupar_lote7_tesp_1089m_brl_2026",
       "alupar_palca_peru_capex_220m_usd",
@@ -23252,7 +23264,7 @@
     "type": "company",
     "chicago": "Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2",
-    "annotation": "Aegea Piauí outorga 6M26 R$22m via Fed H.10. Supports aegea_piaui_outorga_6m26_22m_brl.",
+    "annotation": "Aegea Demais Concessões outorga 2T26 R$3m via Fed H.10. Supports aegea_demais_outorga_2t26_3m_brl.",
     "supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
       "hunt_cycle262",
@@ -23276,7 +23288,10 @@
       "hunt_cycle277",
       "aegea_brusque_outorga_2t26_50m_brl",
       "hunt_cycle278",
-      "aegea_piaui_outorga_6m26_22m_brl"
+      "aegea_piaui_outorga_6m26_22m_brl",
+      "aegea_corsan_outorga_2t26_20m_brl",
+      "hunt_cycle279",
+      "aegea_demais_outorga_2t26_3m_brl"
     ],
     "map_supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
@@ -23284,7 +23299,9 @@
       "aegea_aguas_do_rio_2t26_347m_brl",
       "aegea_brusque_outorga_2t26_50m_brl",
       "aegea_corsan_2t26_484m_brl",
+      "aegea_corsan_outorga_2t26_20m_brl",
       "aegea_demais_2t26_356m_brl",
+      "aegea_demais_outorga_2t26_3m_brl",
       "aegea_guariroba_2t26_49m_brl",
       "aegea_manaus_2t26_91m_brl",
       "aegea_novas_operacoes_2t26_186m_brl",
@@ -23347,18 +23364,25 @@
     "type": "company",
     "chicago": "Copel (Companhia Paranaense de Energia). “Destaques 2T26” CapEx table (RI republication). 2026. https://investidor10.com.br/acoes/link_comunicado/CPLE3/46836/.",
     "url": "https://investidor10.com.br/acoes/link_comunicado/CPLE3/46836/",
-    "annotation": "Copel GeT 1S26 CapEx R$617.7m via Fed H.10. Supports copel_get_1s26_617p7m_brl.",
+    "annotation": "Copel LRCAP 2T26 CapEx R$317.9m via Fed H.10. Supports copel_lrcap_2t26_317p9m_brl.",
     "supports": [
       "copel_1s26_capex_1538p8m_brl",
       "hunt_cycle264",
       "copel_disco_1s26_917p7m_brl",
       "hunt_cycle278",
-      "copel_get_1s26_617p7m_brl"
+      "copel_get_1s26_617p7m_brl",
+      "copel_disco_2t26_479p1m_brl",
+      "hunt_cycle279",
+      "copel_get_2t26_476p4m_brl",
+      "copel_lrcap_2t26_317p9m_brl"
     ],
     "map_supports": [
       "copel_1s26_capex_1538p8m_brl",
       "copel_disco_1s26_917p7m_brl",
-      "copel_get_1s26_617p7m_brl"
+      "copel_disco_2t26_479p1m_brl",
+      "copel_get_1s26_617p7m_brl",
+      "copel_get_2t26_476p4m_brl",
+      "copel_lrcap_2t26_317p9m_brl"
     ],
     "layers": [
       "energy"
@@ -23938,7 +23962,7 @@
     "type": "company",
     "chicago": "AES Andes S.A. “US$ 530 million 8.150% Junior Notes due 2055 Green Bond Impact Report.” June 2026. https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf.",
     "url": "https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf",
-    "annotation": "AES Andes Wind Chile June 2026 report add US$5.47m. Supports aes_andes_green_wind_chile_added_5p5m.",
+    "annotation": "AES Andes Solar+BESS Chile June 2026 report add US$4.54m. Supports aes_andes_green_solar_bess_added_4p5m.",
     "supports": [
       "aes_andes_green_bond_530m_20240610",
       "hunt_cycle272",
@@ -23958,7 +23982,9 @@
       "aes_andes_green_solar_bess_jun2025_188p1m",
       "aes_andes_green_wind_chile_jun2025_4p9m",
       "hunt_cycle278",
-      "aes_andes_green_wind_chile_added_5p5m"
+      "aes_andes_green_wind_chile_added_5p5m",
+      "aes_andes_green_solar_bess_added_4p5m",
+      "hunt_cycle279"
     ],
     "map_supports": [
       "aes_andes_green_alloc_331p7m_20260331",
@@ -23967,6 +23993,7 @@
       "aes_andes_green_bond_530m_20240610",
       "aes_andes_green_pending_198p3m",
       "aes_andes_green_purchases_chile_87p8m",
+      "aes_andes_green_solar_bess_added_4p5m",
       "aes_andes_green_solar_bess_chile_192p7m",
       "aes_andes_green_solar_bess_jun2025_188p1m",
       "aes_andes_green_wind_chile_10p4m",
