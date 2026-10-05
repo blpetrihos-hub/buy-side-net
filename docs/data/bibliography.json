@@ -34640,9 +34640,9 @@
   {
     "id": "axia_guia_modelagem_2t26_xlsx",
     "type": "company",
-    "chicago": "AXIA Energia S.A. (ex-Eletrobras). “Guia de Modelagem — 2T26 — Excel — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.",
+    "chicago": "AXIA Energia S.A. (ex-Eletrobras). “Guia de Modelagem — 2T26 — Excel — Capex Realizado (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2",
-    "annotation": "AXIA Total TX growth CapEx CapEx. Supports axia_tx_growth_total_tx_18841m_brl_2t26.",
+    "annotation": "AXIA Holding Total CapEx 2T26 CapEx via Fed H.10. Supports axia_hold_total_2t26_818m_brl.",
     "supports": [
       "axia_consol_imob_intang_2t26_2212m_brl",
       "hunt_cycle632",
@@ -34834,7 +34834,15 @@
       "axia_tx_growth_reforco_4046m_brl_2t26",
       "axia_tx_growth_melhoria_ex_hvdc_2817m_brl_2t26",
       "axia_tx_growth_tne_3300m_brl_2t26",
-      "axia_tx_growth_total_tx_18841m_brl_2t26"
+      "axia_tx_growth_total_tx_18841m_brl_2t26",
+      "axia_hold_imob_intang_2t26_646m_brl",
+      "hunt_cycle657",
+      "axia_hold_geracao_2t26_85m_brl",
+      "axia_hold_transmissao_2t26_453m_brl",
+      "axia_hold_ambiental_infra_2t26_108m_brl",
+      "axia_hold_empresas_investidas_2t26_1m_brl",
+      "axia_hold_hvdc_itaipu_2t26_172m_brl",
+      "axia_hold_total_2t26_818m_brl"
     ],
     "map_supports": [
       "axia_consol_ambiental_infra_1t22_41m_brl",
@@ -34995,6 +35003,13 @@
       "axia_consol_transmissao_fy2025_5498m_brl",
       "axia_consol_transmissao_ytd25_1854m_brl",
       "axia_consol_transmissao_ytd26_2698m_brl",
+      "axia_hold_ambiental_infra_2t26_108m_brl",
+      "axia_hold_empresas_investidas_2t26_1m_brl",
+      "axia_hold_geracao_2t26_85m_brl",
+      "axia_hold_hvdc_itaipu_2t26_172m_brl",
+      "axia_hold_imob_intang_2t26_646m_brl",
+      "axia_hold_total_2t26_818m_brl",
+      "axia_hold_transmissao_2t26_453m_brl",
       "axia_tx_growth_leilao_012023_787m_brl_2t26",
       "axia_tx_growth_leilao_012024_5593m_brl_2t26",
       "axia_tx_growth_leilao_012026_668m_brl_2t26",
