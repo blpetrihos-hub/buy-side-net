@@ -6499,12 +6499,13 @@
   - hunt_energy_other_renewables
 - id: cbi_vmos_punta_colorada_20250116
   type: company
-  chicago: CB&I. “CB&I Awarded Crude Oil Exportation Storage Contract for Vaca Muerta Oil Sur Project in Argentina.” News release PDF, 16 January 2025.
+  chicago: CB&I. “CB&I Awarded Crude Oil Exportation Storage Contract for Vaca Muerta Sur Project in Argentina.” January 16, 2025. https://www.cbi.com/wp-content/uploads/2025/01/CBI-Awarded-Crude-Oil-Exportation-Storage-Contract-for-Vaca-Muerta-Sur-Project-in-Argentina-FINAL.pdf.
   url: https://www.cbi.com/wp-content/uploads/2025/01/CBI-Awarded-Crude-Oil-Exportation-Storage-Contract-for-Vaca-Muerta-Sur-Project-in-Argentina-FINAL.pdf
-  annotation: 'CB&I primary: VMOS Punta Colorada 630,000 m³ storage EPC; significant = USD 100–250m. Supports cbi_vmos_punta_colorada_storage_2025.'
+  annotation: CB&I VMOS CapEx-fill USD 100m floor. Supports cbi_vmos_punta_colorada_storage_2025.
   supports:
   - cbi_vmos_punta_colorada_storage_2025
   - hunt_infra_engineering_epc
+  - hunt_cycle235
 - id: trina_storage_latam_1203mwh_20260122
   type: company
   chicago: Trina Storage / Trinasolar. “Trina Storage Strengthens Its Global Energy Storage Portfolio with 1.203GWh of New BESS Contracts in Latin America.” Newsroom, 22 January 2026.
@@ -10420,12 +10421,13 @@
   - hunt_cycle182
 - id: sandvik_marmato_aris_20260401
   type: company
-  chicago: Sandvik AB. “Sandvik wins large underground mining equipment order in Colombia.” April 1, 2026. https://www.home.sandvik/en/news-and-media/news/2026/04/sandvik-wins-large-underground-mining-equipment-order-in-colombia/.
+  chicago: Sandvik. “Sandvik wins large underground mining equipment order in Colombia.” April 1, 2026. https://www.home.sandvik/en/news-and-media/news/2026/04/sandvik-wins-large-underground-mining-equipment-order-in-colombia/.
   url: https://www.home.sandvik/en/news-and-media/news/2026/04/sandvik-wins-large-underground-mining-equipment-order-in-colombia/
-  annotation: 'Sandvik: ~SEK 250m Marmato underground fleet for Aris Mining. Supports sandvik_marmato_ug_sek250m_2026.'
+  annotation: Sandvik Marmato CapEx-fill ~USD 25.24m via Fed H.10. Supports sandvik_marmato_ug_sek250m_2026.
   supports:
   - sandvik_marmato_ug_sek250m_2026
   - hunt_cycle182
+  - hunt_cycle235
 - id: axia_ie_madeira_unwind_20260731
   type: company
   chicago: AXIA Energia S.A. / AXIA Energia Nordeste S.A. “Material Fact — Unwinding of cross-holdings in transmission assets.” July 31, 2026. https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Material%20Fact%20-%20Unwinding%20of%20cross-holdings%20in%20transmission%20assets.pdf.
@@ -11477,12 +11479,13 @@
   - hunt_cycle206
 - id: codelco_maricunga_ceol_20260212
   type: company
-  chicago: Codelco. “Codelco obtains the definitive CEOL for lithium development in the Maricunga Salt Flat.” February 12, 2026. https://www.codelco.com/en/codelco-obtiene-el-ceol-definitivo-para-el-desarrollo-del-litio-en-el.
+  chicago: Codelco. “Codelco obtiene el CEOL definitivo para el desarrollo del litio en el Salar de Maricunga.” February 12, 2026. https://www.codelco.com/en/codelco-obtiene-el-ceol-definitivo-para-el-desarrollo-del-litio-en-el.
   url: https://www.codelco.com/en/codelco-obtiene-el-ceol-definitivo-para-el-desarrollo-del-litio-en-el
-  annotation: Codelco–Rio Tinto Maricunga CEOL amendment; CapEx blank pending JV. Supports rio_tinto_codelco_maricunga_ceol_2026.
+  annotation: Rio Tinto Maricunga CapEx-fill up-to USD 900m. Supports rio_tinto_codelco_maricunga_ceol_2026.
   supports:
   - rio_tinto_codelco_maricunga_ceol_2026
   - hunt_cycle206
+  - hunt_cycle235
 - id: glenfarne_metlen_chile_20251223
   type: company
   chicago: Glenfarne Group. “Glenfarne Completes Acquisition of Integrated Utility-Scale Solar and Battery Assets in Chile From Metlen.” December 23, 2025. https://glenfarnegroup.com/glenfarne-completes-acquisition-of-integrated-utility-scale-solar-and-battery-assets-in-chile-from-metlen/.
@@ -11805,3 +11808,51 @@
   supports:
   - cmpc_rio_grande_tup_1p5bn_brl_2026
   - hunt_cycle229
+- id: ohla_ferrocarriles_monografico_202609
+  type: company
+  chicago: OHLA. “Infraestructuras Ferroviarias” (monográfico). September 2026. https://www.ohla-group.com/wp-content/uploads/2026/09/monografico-ferrocarriles-2026-esp-1.pdf.
+  url: https://www.ohla-group.com/wp-content/uploads/2026/09/monografico-ferrocarriles-2026-esp-1.pdf
+  annotation: OHLA Santiago L7 G5–6 stations NEW ~USD 81.85m via Fed H.10. Supports ohla_santiago_l7_stations_g5g6_71p8m_eur_2026.
+  supports:
+  - ohla_santiago_l7_stations_g5g6_71p8m_eur_2026
+  - hunt_cycle235
+- id: ess_news_huawei_aggreko_amazonas_20260303
+  type: press
+  chicago: ESS News. “Huawei and Aggreko win Brazil’s largest battery storage contract, will replace diesel in the Amazon.” March 3, 2026. https://www.ess-news.com/2026/03/03/huawei-and-aggreko-win-brazils-largest-battery-storage-contract-will-replace-diesel-in-the-amazon/.
+  url: https://www.ess-news.com/2026/03/03/huawei-and-aggreko-win-brazils-largest-battery-storage-contract-will-replace-diesel-in-the-amazon/
+  annotation: Huawei/Aggreko Amazonas CapEx-fill USD 165m (proxy). Supports huawei_aggreko_amazonas_bess_2026.
+  supports:
+  - huawei_aggreko_amazonas_bess_2026
+  - hunt_cycle235
+- id: elabra_continuidad_seia_20260318
+  type: company
+  chicago: Minera El Abra. “Minera El Abra, filial de Freeport-McMoRan, ingresa proyecto de Continuidad Operacional para evaluación ambiental.” March 18, 2026. https://www.elabra.cl/minera-el-abra-filial-de-freeport-mcmoran-ingresa-proyecto-de-continuidad-operacional-para-evaluacion-ambiental/.
+  url: https://www.elabra.cl/minera-el-abra-filial-de-freeport-mcmoran-ingresa-proyecto-de-continuidad-operacional-para-evaluacion-ambiental/
+  annotation: FCX El Abra Continuidad CapEx-fill USD 7.5bn. Supports fcx_el_abra_desal_aqueduct_2026.
+  supports:
+  - fcx_el_abra_desal_aqueduct_2026
+  - hunt_cycle235
+- id: oceaneering_petrobras_umbilicals_20240610
+  type: company
+  chicago: Oceaneering International. “Oceaneering Announces Manufactured Products Contracts with Petrobras.” June 10, 2024. https://investors.oceaneering.com/news/news-details/2024/Oceaneering-Announces-Manufactured-Products-Contracts-with-Petrobras/default.aspx.
+  url: https://investors.oceaneering.com/news/news-details/2024/Oceaneering-Announces-Manufactured-Products-Contracts-with-Petrobras/default.aspx
+  annotation: Oceaneering Petrobras umbilicals CapEx-fill USD 120m floor. Supports oceaneering_petrobras_umbilicals_2024.
+  supports:
+  - oceaneering_petrobras_umbilicals_2024
+  - hunt_cycle235
+- id: seatrade_zpmc_lirquen_2022
+  type: press
+  chicago: Seatrade Maritime. “DP World Lirquen receives first quay cranes.” 2022. https://www.seatrade-maritime.com/ports-logistics/dp-world-lirquen-receives-first-quay-cranes.
+  url: https://www.seatrade-maritime.com/ports-logistics/dp-world-lirquen-receives-first-quay-cranes
+  annotation: ZPMC Lirquén CapEx-fill USD 45m (proxy). Supports zpmc_dpworld_lirquen_2022.
+  supports:
+  - zpmc_dpworld_lirquen_2022
+  - hunt_cycle235
+- id: aes_panama_four_solar_20200214
+  type: company
+  chicago: AES Panamá. “AES Panamá aumenta su apuesta a las energías renovables.” February 14, 2020. https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables.
+  url: https://www.aespanama.com/en/press-release/aes-panama-aumenta-su-apuesta-las-energias-renovables
+  annotation: AES Panama four-park CapEx-fill USD 50m floor. Supports aes_panama_pese_10mw_2021.
+  supports:
+  - aes_panama_pese_10mw_2021
+  - hunt_cycle235

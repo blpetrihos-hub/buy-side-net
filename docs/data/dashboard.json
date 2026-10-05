@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1442,
+    "n_rows": 1443,
     "counts": {
-      "total": 1442,
-      "active": 1243,
+      "total": 1443,
+      "active": 1244,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 173,
       "exclude": 18,
-      "documented": 1194,
-      "on_map": 1115
+      "documented": 1195,
+      "on_map": 1116
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 162,
         "prc": 126,
-        "allied": 167,
-        "n": 455
+        "allied": 168,
+        "n": 456
       },
       "usd": {
-        "us": 30323485939.530003,
-        "us_n": 91,
+        "us": 30543485939.530003,
+        "us_n": 93,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 41943399759.26002,
-        "allied_n": 93
+        "allied": 42025251759.26002,
+        "allied_n": 94
       },
       "matched_gaps": {
         "n": 1,
@@ -134,12 +134,12 @@
         "n": 311
       },
       "usd": {
-        "us": 28113908626.93,
-        "us_n": 42,
+        "us": 35613908626.93,
+        "us_n": 43,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 94983799409.1,
-        "allied_n": 83
+        "allied": 95909039951.47,
+        "allied_n": 85
       },
       "matched_gaps": {
         "n": 3,
@@ -159,8 +159,8 @@
         "n": 475
       },
       "usd": {
-        "us": 16233858581.429998,
-        "us_n": 45,
+        "us": 16283858581.429998,
+        "us_n": 46,
         "prc": 23805582175.170002,
         "prc_n": 44,
         "allied": 46677368152.56999,
@@ -213,8 +213,8 @@
         "n": 89
       },
       "usd": {
-        "us": 7270869147.0,
-        "us_n": 3,
+        "us": 7370869147.0,
+        "us_n": 4,
         "prc": 3894732659.07,
         "prc_n": 14,
         "allied": 26345356187.2,
@@ -368,8 +368,8 @@
         "n": 348
       },
       "usd": {
-        "us": 14005227245.099998,
-        "us_n": 32,
+        "us": 14125227245.099998,
+        "us_n": 33,
         "prc": 22742763145.38,
         "prc_n": 34,
         "allied": 67729949898.300026,
@@ -398,16 +398,16 @@
       "counts": {
         "us": 54,
         "prc": 43,
-        "allied": 90,
-        "n": 187
+        "allied": 91,
+        "n": 188
       },
       "usd": {
-        "us": 29022000000.0,
-        "us_n": 22,
+        "us": 36522000000.0,
+        "us_n": 23,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 48345350361.0,
-        "allied_n": 53
+        "allied": 49327202361.0,
+        "allied_n": 55
       },
       "by_layer": {
         "energy": {
@@ -418,7 +418,7 @@
         "infrastructure": {
           "us": 9,
           "prc": 7,
-          "allied": 18
+          "allied": 19
         },
         "resources": {
           "us": 12,
@@ -440,8 +440,8 @@
         "us_n": 10,
         "prc": 5776456357.0,
         "prc_n": 5,
-        "allied": 2241500000.0,
-        "allied_n": 10
+        "allied": 2266740542.37,
+        "allied_n": 11
       },
       "by_layer": {
         "energy": {
@@ -916,8 +916,8 @@
         "n": 22
       },
       "usd": {
-        "us": 73180242.32,
-        "us_n": 2,
+        "us": 123180242.32,
+        "us_n": 3,
         "prc": 1521000000.0,
         "prc_n": 2,
         "allied": 391900000.0,
@@ -2431,7 +2431,8 @@
       "sungrow_bhp_escondida_spence_solar_bess_2026",
       "timsa_mhc_esp10_manzanillo_300m_mxn_2026",
       "ssa_lazaro_tea_poligono5_mxn54m_2025",
-      "cmpc_rio_grande_tup_1p5bn_brl_2026"
+      "cmpc_rio_grande_tup_1p5bn_brl_2026",
+      "ohla_santiago_l7_stations_g5g6_71p8m_eur_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
