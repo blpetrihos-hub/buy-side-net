@@ -2900,14 +2900,17 @@
   {
     "id": "aes_andes_pampas_cristales_20250730",
     "type": "company",
-    "chicago": "AES Andes. “AES Andes starts construction on 1,325 MW of renewables, accelerating the energy transition.” 30 July 2025.",
+    "chicago": "AES Andes. “AES Andes starts construction on 1,325 MW of renewables, accelerating the energy transition.” July 30, 2025. https://www.aesandes.com/en/press-release/aes-andes-starts-construction-1325-mw-renewables-accelerating-energy-transition.",
     "url": "https://www.aesandes.com/en/press-release/aes-andes-starts-construction-1325-mw-renewables-accelerating-energy-transition",
-    "annotation": "Company primary construction-start notice for Pampas/Cristales hybrid+BESS package. Supports aes_andes_pampas_cristales_2025.",
+    "annotation": "AES Andes Greentegra spent >USD2.3bn. Supports aes_andes_greentegra_spent_2p3bn_20250730; aes_andes_pampas_cristales_2025.",
     "supports": [
       "aes_andes_pampas_cristales_2025",
-      "hunt_energy_other_renewables"
+      "hunt_energy_other_renewables",
+      "aes_andes_greentegra_spent_2p3bn_20250730",
+      "hunt_cycle271"
     ],
     "map_supports": [
+      "aes_andes_greentegra_spent_2p3bn_20250730",
       "aes_andes_pampas_cristales_2025",
       "hunt_energy_other_renewables"
     ],
@@ -22691,13 +22694,16 @@
     "type": "company",
     "chicago": "Equatorial S.A. “Resultados do segundo trimestre de 2026 (2T26).” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2",
-    "annotation": "Equatorial 2T26 NEW ~R$2.6bn ~USD 500.76m via Fed H.10. Supports equatorial_2t26_capex_2p6bn_brl.",
+    "annotation": "Equatorial Dist 2T26 CapEx R$2.527bn via Fed H.10. Supports equatorial_dist_2t26_2527m_brl; equatorial_2t26_capex_2p6bn_brl.",
     "supports": [
       "equatorial_2t26_capex_2p6bn_brl",
-      "hunt_cycle254"
+      "hunt_cycle254",
+      "equatorial_dist_2t26_2527m_brl",
+      "hunt_cycle271"
     ],
     "map_supports": [
-      "equatorial_2t26_capex_2p6bn_brl"
+      "equatorial_2t26_capex_2p6bn_brl",
+      "equatorial_dist_2t26_2527m_brl"
     ],
     "layers": [
       "energy"
@@ -22854,16 +22860,19 @@
     "type": "company",
     "chicago": "Neoenergia S.A. “Results as of June 30, 2026” (2Q26/6M26 earnings release). July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
-    "annotation": "Neoenergia Dist 6M26 CapEx R$3.696bn via Fed H.10. Supports neoenergia_dist_6m26_3696m_brl; neoenergia_6m26_capex_4bn_brl.",
+    "annotation": "Neoenergia TX 6M26 CapEx R$218m via Fed H.10. Supports neoenergia_tx_6m26_218m_brl; neoenergia_6m26_capex_4bn_brl.",
     "supports": [
       "neoenergia_6m26_capex_4bn_brl",
       "hunt_cycle257",
       "neoenergia_dist_6m26_3696m_brl",
-      "hunt_cycle270"
+      "hunt_cycle270",
+      "neoenergia_tx_6m26_218m_brl",
+      "hunt_cycle271"
     ],
     "map_supports": [
       "neoenergia_6m26_capex_4bn_brl",
-      "neoenergia_dist_6m26_3696m_brl"
+      "neoenergia_dist_6m26_3696m_brl",
+      "neoenergia_tx_6m26_218m_brl"
     ],
     "layers": [
       "energy"
@@ -23716,6 +23725,61 @@
     ],
     "map_supports": [
       "motiva_1t26_capex_1473m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "equinix_st2_pudahuel_46m_20250407",
+    "type": "company",
+    "chicago": "Equinix. “Con una inversión de US$ 50 millones, Equinix inaugura la segunda expansión de su centro de datos en Pudahuel.” April 7, 2025. https://newsroom.equinix.com/2025-04-07-Con-una-inversion-de-US-50-millones,-Equinix-inaugura-la-segunda-expansion-de-su-centro-de-datos-en-Pudahuel.",
+    "url": "https://newsroom.equinix.com/2025-04-07-Con-una-inversion-de-US-50-millones,-Equinix-inaugura-la-segunda-expansion-de-su-centro-de-datos-en-Pudahuel",
+    "annotation": "Equinix ST2 Pudahuel phase-2 CapEx USD46m. Supports equinix_st2_pudahuel_46m_20250407.",
+    "supports": [
+      "equinix_st2_pudahuel_46m_20250407",
+      "hunt_cycle271"
+    ],
+    "map_supports": [
+      "equinix_st2_pudahuel_46m_20250407"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cpfl_admin_dfs_2025_investments",
+    "type": "company",
+    "chicago": "CPFL Energia S.A. “Relatório de Administração e Demonstrações Financeiras” (2025). Company RI PDF. https://ri.cpfl.com.br/Download.aspx?Arquivo=xGWXwO4pmQpCskEpHHDQQg%3D%3D.",
+    "url": "https://ri.cpfl.com.br/Download.aspx?Arquivo=xGWXwO4pmQpCskEpHHDQQg%3D%3D",
+    "annotation": "CPFL FY2025 TX CapEx R$804m via Fed H.10. Supports cpfl_fy2025_tx_804m_brl; cpfl_fy2025_capex_6p1bn_brl.",
+    "supports": [
+      "cpfl_fy2025_dist_4964m_brl",
+      "hunt_cycle271",
+      "cpfl_fy2025_tx_804m_brl"
+    ],
+    "map_supports": [
+      "cpfl_fy2025_dist_4964m_brl",
+      "cpfl_fy2025_tx_804m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "vli_2t26_dcs_20260630",
+    "type": "company",
+    "chicago": "VLI S.A. “Demonstrações Contábeis 2T26” (as of June 30, 2026). https://www.vli-logistica.com.br/wp-content/uploads/2026/08/VLISA_DCs_2T_30062026.pdf.",
+    "url": "https://www.vli-logistica.com.br/wp-content/uploads/2026/08/VLISA_DCs_2T_30062026.pdf",
+    "annotation": "VLI TPSL CapEx R$80m via Fed H.10. Supports vli_tpsl_80m_brl_2026.",
+    "supports": [
+      "vli_tiplam_38m_brl_2026",
+      "hunt_cycle271",
+      "vli_tpsl_80m_brl_2026"
+    ],
+    "map_supports": [
+      "vli_tiplam_38m_brl_2026",
+      "vli_tpsl_80m_brl_2026"
     ],
     "layers": [
       "infrastructure"
