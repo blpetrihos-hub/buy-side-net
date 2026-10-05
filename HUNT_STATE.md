@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 965
+cycle: 968
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 966 shuffle_seed=20261966; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us645/prc409/allied1560); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (27), balsa (27), fission_smr (30), niobium (31). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual (San Marcos clinic; Siquirres done; P-03/P-04 Soto Cano; Montevideo materials; Nariño fire; steel towers Peru). No U.S. territories.
-next_row_id: (follow cycle-966 shuffled_order)
+next_query: Cycle 969 shuffle_seed=20261969; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us647/prc409/allied1560); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (27), balsa (27), fission_smr (30), niobium (31). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual thinning below ~USD1m; India apron Soto Cano; Seobra school; HAP medical clinics. No U.S. territories.
+next_row_id: (follow cycle-969 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 965) ===
-# Filled this batch: Colombia×building_materials NEW×5 (Jardín de Tamana police other; CCOPI office other; Tumaco utilities other; Greenway fire us; Sur de Bolívar health other); Haiti×building_materials NEW×1 allied (Palgag Gonaïves-Hatte school); Chile×building_materials NEW×1 us (ECT elevator); Jamaica×building_materials NEW×1 us (Sea Pac Powell elevator); Honduras×building_materials NEW×4 other (HAP warehouses; ARFOR HQ; Bonatti warehouse/ATCALS; Bonatti arms room); Mexico×building_materials NEW×2 us (Global Vision clinics; Olgoonik SEMAR materials); Costa Rica×building_materials NEW×1 other (Bonatti Siquirres warehouse).
+# === Country×subcategory sweep cells touched (session continuing from 968) ===
+# Filled this batch: Honduras×building_materials/bridges_roads NEW×9 (San Marcos/Trujillo clinics; P-03/P-04; San Lorenzo EOC; Soto roof; COPECO Santa Bárbara; AOB 8 Mile; 12-plex; road Phase III); Uruguay×building_materials NEW×1 us (Olgoonik Montevideo materials); Peru×power_plants_grid NEW×1 other (steel towers/WiFi); Colombia×building_materials NEW×3 (SIART CENOP; Nariño fire; Isla Gallinazo clinic); Suriname×building_materials NEW×1 us (KUK post security); Dominican Republic×building_materials NEW×1 other (Castillo ERC barracks).
 # Still thin: nickel/balsa/fission_smr/niobium; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (5 US CapEx this batch).
+# ≥1/3 U.S. hunt budget spent (2 US CapEx this batch; U.S. sources hunted across USASpending).
+
+# === Cycle 968 (seed 20261968) ===
+# Shuffled: fission_smr, water, lithium, power_plants_grid, solar, balsa, copper, building_materials, port_cranes, engineering_epc, niobium, nickel, rail, port_ownership, other_renewables, wind, bridges_roads, graphite.
+# Logged 5 NEW (0 US / 0 PRC / 0 allied / 5 other):
+#   bonatti_soto_cano_aob_8mile_1p06m_2019 eterna_soto_cano_12plex_1p06m_2019 eterna_scab_road_phase3_1p06m_2022 castillo_dr_erc_barracks_1p04m_2023 eterna_isla_gallinazo_clinic_1p02m_2021.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank. Note: ≥1/3 U.S. hunt budget searching USASpending; rows landed other.
+# Holdovers: USASpending thinning; India apron; thin minerals; PRC.
+# Active after cycle 968: us647 / prc409 / allied1560 / other5946 (n=8562).
+
+# === Cycle 967 (seed 20261967) ===
+# Shuffled: niobium, water, graphite, fission_smr, copper, building_materials, nickel, lithium, power_plants_grid, engineering_epc, port_ownership, port_cranes, wind, rail, bridges_roads, other_renewables, solar, balsa.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   marago_siart_cenop_1p14m_2024 eterna_narino_fire_station_1p13m_2024 eterna_soto_cano_roof_1p11m_2020 eterna_copeco_santa_barbara_1p08m_2022 kuk_suriname_post_security_1p14m_2005.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: AOB 8 Mile; 12-plex; road Phase III; Castillo DR; Isla Gallinazo; thin.
+# Active after cycle 967: us647 / prc409 / allied1560 / other5941 (n=8557).
+
+# === Cycle 966 (seed 20261966) ===
+# Shuffled: lithium, bridges_roads, power_plants_grid, niobium, other_renewables, nickel, wind, copper, building_materials, balsa, port_cranes, engineering_epc, graphite, solar, water, rail, fission_smr, port_ownership.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   bonatti_san_marcos_trujillo_clinics_1p22m_2019 eterna_soto_cano_p03_p04_1p25m_2018 olgoonik_montevideo_materials_1p23m_2026 infraestructuras_peru_steel_towers_1p17m_2012 eterna_san_lorenzo_eoc_drw_1p15m_2018.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: SIART CENOP; Nariño fire; Soto roof; COPECO SB; KUK Suriname; thin.
+# Active after cycle 966: us646 / prc409 / allied1560 / other5937 (n=8552).
 
 # === Cycle 965 (seed 20261965) ===
 # Shuffled: port_cranes, fission_smr, bridges_roads, graphite, copper, nickel, port_ownership, balsa, power_plants_grid, rail, engineering_epc, wind, water, other_renewables, niobium, building_materials, solar, lithium.
