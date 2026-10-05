@@ -1,10 +1,10 @@
 {
   "id": "crrc_motiva_line4_6trains_2026",
-  "retrieved": "2026-10-02",
-  "url": "https://www.metrocptm.com.br/motiva-fecha-compra-de-seis-novos-trens-para-a-linha-4-amarela-na-china/",
+  "retrieved": "2026-10-04",
   "source_id": "metrocptm_crrc_line4_20260331",
-  "evidence": "proxy",
+  "url": "https://www.metrocptm.com.br/motiva-fecha-compra-de-seis-novos-trens-para-a-linha-4-amarela-na-china/",
   "price_year": "2026",
-  "quote": "A Motiva \u2026 assinou na China o contrato para a compra de seis novos trens destinados \u00e0 Linha 4-Amarela \u2026 com a fabricante CRRC Changchun Railway Vehicles \u2026 O investimento previsto \u00e9 de cerca de R$ 600 milh\u00f5es",
-  "note": "Opened Metr\u00f4 CPTM Portuguese press 31 Mar 2026; R$600m UNVERIFIED."
+  "evidence": "documented",
+  "quote": "A Motiva … assinou na China o contrato para a compra de seis novos trens destinados à Linha 4-Amarela … com a fabricante CRRC Changchun Railway Vehicles … O investimento previsto é de cerca de R$ 600 milhões",
+  "note": "Opened Metro CPTM Portuguese; ~R$600m / six CRRC trains confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
