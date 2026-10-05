@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8205,
+    "n_rows": 8210,
     "counts": {
-      "total": 8205,
-      "active": 8006,
+      "total": 8210,
+      "active": 8011,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7932,
-      "on_map": 7837
+      "documented": 7937,
+      "on_map": 7842
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3890,
-        "n": 4291
+        "allied": 3895,
+        "n": 4296
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383185753354.8706,
-        "allied_n": 3819
+        "allied": 383212595202.68054,
+        "allied_n": 3824
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6773,
-        "n": 7028
+        "allied": 6778,
+        "n": 7033
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527054459330.6702,
-        "allied_n": 6692
+        "allied": 527081301178.48016,
+        "allied_n": 6697
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3756
+          "allied": 3761
         },
         "infrastructure": {
           "us": 68,
@@ -9194,7 +9194,12 @@
       "axia_txproj_reforco_na_se_pocos_de_caldas_instalar_o_1_re_29m_brl",
       "axia_txproj_reforco_na_se_coremas_instalacao_do_4_tr_230__29m_brl",
       "axia_txproj_seccionamento_da_lt_138kv_rondonopolis_couto__29m_brl",
-      "axia_txproj_reforco_se_nova_mutum_instalacao_do_4_atf_230_28m_brl"
+      "axia_txproj_reforco_se_nova_mutum_instalacao_do_4_atf_230_28m_brl",
+      "axia_txproj_reforco_na_se_santo_antonio_de_jesus_instalac_28m_brl",
+      "axia_txproj_reforco_na_se_zebu_instalacao_do_4_tf_230_69_28m_brl",
+      "axia_txproj_reforco_na_se_serra_da_mesa_substituicao_do_a_28m_brl_v2",
+      "axia_txproj_reforco_na_se_serra_da_mesa_substituicao_do_a_28m_brl",
+      "axia_txproj_reforco_na_se_sorriso_substituicao_do_tf_230__28m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
