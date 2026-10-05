@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8310,
+    "n_rows": 8315,
     "counts": {
-      "total": 8310,
-      "active": 8111,
+      "total": 8315,
+      "active": 8116,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8037,
-      "on_map": 7941
+      "documented": 8042,
+      "on_map": 7946
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3995,
-        "n": 4396
+        "allied": 4000,
+        "n": 4401
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383527072710.0309,
-        "allied_n": 3924
+        "allied": 383534134563.9909,
+        "allied_n": 3929
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6878,
-        "n": 7133
+        "allied": 6883,
+        "n": 7138
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527395778685.8305,
-        "allied_n": 6797
+        "allied": 527402840539.7905,
+        "allied_n": 6802
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3861
+          "allied": 3866
         },
         "infrastructure": {
           "us": 68,
@@ -9299,7 +9299,12 @@
       "axia_txproj_reforco_na_se_coelho_neto_instalacao_de_reato_8m_brl",
       "axia_txproj_melhoria_na_se_passo_fundo_substituicao_do_au_8m_brl",
       "axia_txproj_melhoria_na_se_coxipo_substituicao_do_reator__8m_brl",
-      "axia_txproj_melhoria_na_se_coxipo_substituicao_do_reator__8m_brl_v2"
+      "axia_txproj_melhoria_na_se_coxipo_substituicao_do_reator__8m_brl_v2",
+      "axia_txproj_melhoria_na_se_rio_verde_fur_substituicao_de__8m_brl",
+      "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_r_7m_brl",
+      "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_r_7m_brl_v2",
+      "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_r_7m_brl_v3",
+      "axia_txproj_melhoria_na_se_natal_ii_substituicao_de_reato_7m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
