@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8115,
+    "n_rows": 8120,
     "counts": {
-      "total": 8115,
-      "active": 7916,
+      "total": 8120,
+      "active": 7921,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7842,
-      "on_map": 7748
+      "documented": 7847,
+      "on_map": 7753
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3800,
-        "n": 4201
+        "allied": 3805,
+        "n": 4206
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382496278880.57056,
-        "allied_n": 3729
+        "allied": 382557744647.4205,
+        "allied_n": 3734
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6683,
-        "n": 6938
+        "allied": 6688,
+        "n": 6943
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526364984856.3702,
-        "allied_n": 6602
+        "allied": 526426450623.2201,
+        "allied_n": 6607
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3666
+          "allied": 3671
         },
         "infrastructure": {
           "us": 68,
@@ -9104,7 +9104,12 @@
       "axia_txproj_reforco_na_se_colinas_substituicao_do_bc1_cr__80m_brl",
       "axia_txproj_reforco_na_se_vitoria_substituicao_do_atr1_34_79m_brl",
       "axia_txproj_reforco_na_se_presidente_dutra_substituicao_d_77m_brl",
-      "axia_txproj_seccionamento_da_lt_345_kv_venda_das_pedras_m_73m_brl"
+      "axia_txproj_seccionamento_da_lt_345_kv_venda_das_pedras_m_73m_brl",
+      "axia_txproj_reforco_na_se_maraba_substituicao_do_tr1_500__71m_brl",
+      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_do_b_69m_brl",
+      "axia_txproj_melhoria_na_se_campinas_substituicao_do_trans_64m_brl",
+      "axia_txproj_se_campinas_instalacao_do_1_reator_de_barra_5_58m_brl",
+      "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_tr_58m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
