@@ -12326,3 +12326,59 @@
   supports:
   - light_sesa_10bn_brl_2026_2030
   - hunt_cycle250
+- id: atlas_draco_bndes_1bn_20250728
+  type: company
+  chicago: Atlas Renewable Energy. “BNDES Approves BRL 1B Financing for Atlas Renewable Energy’s 11 Solar Plants in Brazil Powering Data Centers.” July 28, 2025. https://atlasrenewableenergy.com/news-and-insights/bndes-approves-brl-1b-financing-for-atlas-renewable-energys-11-solar-plants-in-brazil-powering-data-centers/.
+  url: https://atlasrenewableenergy.com/news-and-insights/bndes-approves-brl-1b-financing-for-atlas-renewable-energys-11-solar-plants-in-brazil-powering-data-centers/
+  annotation: Atlas Draco NEW R$1bn ~USD 192.60m via Fed H.10. Supports atlas_draco_bndes_1bn_brl_2025.
+  supports:
+  - atlas_draco_bndes_1bn_brl_2025
+  - hunt_cycle251
+- id: odata_deltaflow_630m_20260917
+  type: company
+  chicago: ODATA / Aligned Data Centers. “ODATA Brings Next-Generation Cooling to Latin America with DeltaFlow~™ Liquid Cooling Technology.” September 17, 2026. https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology/.
+  url: https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology/
+  annotation: ODATA DeltaFlow NEW USD 630m. Supports odata_deltaflow_630m_2026.
+  supports:
+  - odata_deltaflow_630m_2026
+  - hunt_cycle251
+- id: kio_cumulative_900m_20260813
+  type: company
+  chicago: KIO Data Centers. “KIO Data Centers Surpasses $900 Million USD in Investment and Sets the Stage for a New Phase of Growth Through 2030.” August 14, 2026. https://kiodatacenters.com/en/newsroom/expansion/kio-data-centers-invest-growth-2030.
+  url: https://kiodatacenters.com/en/newsroom/expansion/kio-data-centers-invest-growth-2030
+  annotation: KIO cumulative NEW >USD 900m floor. Supports kio_cumulative_900m_latam_2026.
+  supports:
+  - kio_cumulative_900m_latam_2026
+  - hunt_cycle251
+- id: cpfl_2t26_1h26_2p8bn
+  type: company
+  chicago: CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26, alta de 21,3%.” August 13, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.
+  url: https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213
+  annotation: CPFL 1H26 NEW R$2.8bn ~USD 539.28m via Fed H.10. Supports cpfl_1h26_capex_2p8bn_brl.
+  supports:
+  - cpfl_1h26_capex_2p8bn_brl
+  - hunt_cycle251
+- id: taesa_4t25_greenfield_4p3bn
+  type: company
+  chicago: TAESA. “Earnings Release 4Q25 and 2025.” March 2026. https://ri.taesa.com.br/wp-content/uploads/2026/03/Release-4T25_ing.pdf.
+  url: https://ri.taesa.com.br/wp-content/uploads/2026/03/Release-4T25_ing.pdf
+  annotation: TAESA greenfield NEW R$4.3bn ~USD 828.18m via Fed H.10. Supports taesa_greenfield_4p3bn_brl_aneel.
+  supports:
+  - taesa_greenfield_4p3bn_brl_aneel
+  - hunt_cycle251
+- id: taesa_4t25_fy2025_capex_1p783bn
+  type: company
+  chicago: TAESA. “Earnings Release 4Q25 and 2025.” March 2026. https://ri.taesa.com.br/wp-content/uploads/2026/03/Release-4T25_ing.pdf.
+  url: https://ri.taesa.com.br/wp-content/uploads/2026/03/Release-4T25_ing.pdf
+  annotation: TAESA FY2025 NEW R$1.783bn ~USD 343.37m via Fed H.10. Supports taesa_fy2025_capex_1p783bn_brl.
+  supports:
+  - taesa_fy2025_capex_1p783bn_brl
+  - hunt_cycle251
+- id: alupar_sustentabilidade_8p1bn
+  type: company
+  chicago: Alupar Investimento S.A. “Relatório de Sustentabilidade” (Novo Ciclo de Crescimento). https://rs.alupar.com.br/.
+  url: https://rs.alupar.com.br/
+  annotation: Alupar growth-cycle NEW R$8.1bn ~USD 1559.99m via Fed H.10. Supports alupar_growth_cycle_8p1bn_brl.
+  supports:
+  - alupar_growth_cycle_8p1bn_brl
+  - hunt_cycle251
