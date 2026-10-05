@@ -95,9 +95,9 @@
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 181,
+      "proxy": 178,
       "exclude": 18,
-      "documented": 1185,
+      "documented": 1188,
       "on_map": 1114
     }
   },
@@ -115,8 +115,8 @@
         "us_n": 91,
         "prc": 15215744802.310001,
         "prc_n": 32,
-        "allied": 19688074566.54,
-        "allied_n": 62
+        "allied": 21012387664.86,
+        "allied_n": 65
       },
       "matched_gaps": {
         "n": 1,
@@ -138,8 +138,8 @@
         "us_n": 42,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 86795913299.79001,
-        "allied_n": 73
+        "allied": 88914516562.44,
+        "allied_n": 74
       },
       "matched_gaps": {
         "n": 3,
@@ -161,10 +161,10 @@
       "usd": {
         "us": 16233858581.429998,
         "us_n": 45,
-        "prc": 14324447374.22,
-        "prc_n": 38,
-        "allied": 24596629573.14,
-        "allied_n": 66
+        "prc": 14690387937.769999,
+        "prc_n": 40,
+        "allied": 24605729573.14,
+        "allied_n": 67
       },
       "matched_gaps": {
         "n": 1,
@@ -370,10 +370,10 @@
       "usd": {
         "us": 14005227245.099998,
         "us_n": 32,
-        "prc": 12306571533.249998,
-        "prc_n": 25,
-        "allied": 20845592275.03,
-        "allied_n": 38
+        "prc": 12672512096.8,
+        "prc_n": 27,
+        "allied": 24294726172.68,
+        "allied_n": 42
       },
       "by_layer": {
         "energy": {
@@ -852,8 +852,8 @@
         "us_n": 35,
         "prc": 127039837.81,
         "prc_n": 3,
-        "allied": 5667279157.68,
-        "allied_n": 16
+        "allied": 5670161621.0,
+        "allied_n": 17
       },
       "by_layer": {
         "energy": {
