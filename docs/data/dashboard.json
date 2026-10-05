@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8140,
+    "n_rows": 8145,
     "counts": {
-      "total": 8140,
-      "active": 7941,
+      "total": 8145,
+      "active": 7946,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7867,
-      "on_map": 7773
+      "documented": 7872,
+      "on_map": 7778
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3825,
-        "n": 4226
+        "allied": 3830,
+        "n": 4231
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382754604927.09033,
-        "allied_n": 3754
+        "allied": 382795687870.5904,
+        "allied_n": 3759
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6708,
-        "n": 6963
+        "allied": 6713,
+        "n": 6968
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526623310902.88995,
-        "allied_n": 6627
+        "allied": 526664393846.39,
+        "allied_n": 6632
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3691
+          "allied": 3696
         },
         "infrastructure": {
           "us": 68,
@@ -9129,7 +9129,12 @@
       "axia_txproj_reforco_na_se_camacari_iv_instalacao_do_1_ban_46m_brl",
       "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_t_46m_brl",
       "axia_txproj_reforco_na_se_ivaipora_instalacao_das_fases_p_46m_brl",
-      "axia_txproj_melhoria_na_se_marimbondo_500_kv_substituicao_45m_brl"
+      "axia_txproj_melhoria_na_se_marimbondo_500_kv_substituicao_45m_brl",
+      "axia_txproj_melhoria_na_c_paulista_substituicao_do_transf_43m_brl",
+      "axia_txproj_melhoria_na_se_c_paulista_susbtituicao_do_tra_43m_brl",
+      "axia_txproj_melhoria_na_se_foz_do_iguacu_revitalizacao_do_43m_brl",
+      "axia_txproj_melhoria_na_se_blumenau_substituicao_do_autot_42m_brl",
+      "axia_txproj_se_gravatai_3_instalacao_do_2_transformador_2_41m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
