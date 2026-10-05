@@ -15780,12 +15780,13 @@
   {
     "id": "cr_presidencia_canas_bebedero_20220324",
     "type": "government",
-    "chicago": "Presidencia de la República de Costa Rica. “Cañas recibe planta potabilizadora más moderna del país por parte de AyA y la República Popular China.” March 24, 2022. https://presidencia.gobiernocarlosalvarado.cr/comunicados/2022/03/canas-recibe-planta-potabilizadora-mas-moderna-del-pais-por-parte-de-aya-y-la-republica-popular-china/.",
+    "chicago": "Presidencia de la República de Costa Rica. “Cañas recibe planta potabilizadora más moderna del país.” March 24, 2022. https://presidencia.gobiernocarlosalvarado.cr/comunicados/2022/03/canas-recibe-planta-potabilizadora-mas-moderna-del-pais-por-parte-de-aya-y-la-republica-popular-china/.",
     "url": "https://presidencia.gobiernocarlosalvarado.cr/comunicados/2022/03/canas-recibe-planta-potabilizadora-mas-moderna-del-pais-por-parte-de-aya-y-la-republica-popular-china/",
-    "annotation": "CR Presidency: Cañas–Bebedero plant PRC grant ₡9,815m / 126 L/s / ~37k people. Supports crec_canas_bebedero_water_costa_rica_2022.",
+    "annotation": "CREC Cañas–Bebedero PRC grant CapEx-fill ₡9,815m. Supports crec_canas_bebedero_water_costa_rica_2022.",
     "supports": [
       "crec_canas_bebedero_water_costa_rica_2022",
-      "hunt_resources_water"
+      "hunt_resources_water",
+      "hunt_cycle280"
     ],
     "map_supports": [
       "crec_canas_bebedero_water_costa_rica_2022"
@@ -16753,10 +16754,11 @@
     "type": "company",
     "chicago": "Freeport-McMoRan. “Cerro Verde Completes First Works for Taxes Projects in Arequipa.” July 24, 2026. https://fcx.com/freeport-features/07242026.",
     "url": "https://fcx.com/freeport-features/07242026",
-    "annotation": "Freeport primary: Cerro Verde OxI Uchumayo road within >USD 14m package. Supports fcx_cerro_verde_oxi_uchumayo_2026.",
+    "annotation": "Freeport Cerro Verde OxI package CapEx-fill >USD14m. Supports fcx_cerro_verde_oxi_uchumayo_2026.",
     "supports": [
       "fcx_cerro_verde_oxi_uchumayo_2026",
-      "hunt_infra_bridges_roads"
+      "hunt_infra_bridges_roads",
+      "hunt_cycle280"
     ],
     "map_supports": [
       "fcx_cerro_verde_oxi_uchumayo_2026",
@@ -22712,9 +22714,9 @@
   {
     "id": "equatorial_2t26_release_20260812",
     "type": "company",
-    "chicago": "Equatorial S.A. “Release de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.",
+    "chicago": "Equatorial S.A. “Resultados 2T26” (company MZ IQ PDF). August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2",
-    "annotation": "Equatorial Projetos Estratégicos 2T26 CapEx R$46m via Fed H.10. Supports equatorial_projetos_estrategicos_2t26_46m_brl.",
+    "annotation": "Equatorial Outros 2T26 CapEx R$13m via Fed H.10. Supports equatorial_outros_2t26_13m_brl.",
     "supports": [
       "equatorial_2t26_capex_2p6bn_brl",
       "hunt_cycle254",
@@ -22727,12 +22729,15 @@
       "equatorial_dist_nonelectric_2t26_134m_brl",
       "hunt_cycle277",
       "equatorial_projetos_estrategicos_2t26_46m_brl",
-      "hunt_cycle278"
+      "hunt_cycle278",
+      "equatorial_outros_2t26_13m_brl",
+      "hunt_cycle280"
     ],
     "map_supports": [
       "equatorial_2t26_capex_2p6bn_brl",
       "equatorial_dist_2t26_2527m_brl",
       "equatorial_dist_nonelectric_2t26_134m_brl",
+      "equatorial_outros_2t26_13m_brl",
       "equatorial_projetos_estrategicos_2t26_46m_brl",
       "equatorial_renovaveis_2t26_48m_brl",
       "equatorial_saneamento_2t26_12m_brl"
@@ -23153,7 +23158,7 @@
     "type": "company",
     "chicago": "Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2",
-    "annotation": "Rumo Contêiner 2T26 CapEx R$21m via Fed H.10. Supports rumo_conteiner_2t26_21m_brl.",
+    "annotation": "Rumo Expansão Norte 6M26 CapEx R$2,207m via Fed H.10. Supports rumo_expansao_norte_6m26_2207m_brl.",
     "supports": [
       "rumo_2t26_capex_1597m_brl",
       "hunt_cycle260",
@@ -23171,7 +23176,10 @@
       "rumo_fmt_2t26_342m_brl",
       "rumo_norte_recorrente_2t26_415m_brl",
       "rumo_conteiner_2t26_21m_brl",
-      "hunt_cycle279"
+      "hunt_cycle279",
+      "rumo_norte_6m26_2988m_brl",
+      "hunt_cycle280",
+      "rumo_expansao_norte_6m26_2207m_brl"
     ],
     "map_supports": [
       "rumo_2t26_capex_1597m_brl",
@@ -23179,9 +23187,11 @@
       "rumo_capacitacao_2t26_483m_brl",
       "rumo_conteiner_2t26_21m_brl",
       "rumo_expansao_norte_2t26_979m_brl",
+      "rumo_expansao_norte_6m26_2207m_brl",
       "rumo_fmt_2t26_342m_brl",
       "rumo_material_rodante_2t26_115m_brl",
       "rumo_norte_2t26_1393m_brl",
+      "rumo_norte_6m26_2988m_brl",
       "rumo_norte_recorrente_2t26_415m_brl",
       "rumo_porto_terminais_2t26_39m_brl",
       "rumo_sul_2t26_183m_brl"
@@ -23264,7 +23274,7 @@
     "type": "company",
     "chicago": "Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2",
-    "annotation": "Aegea Demais Concessões outorga 2T26 R$3m via Fed H.10. Supports aegea_demais_outorga_2t26_3m_brl.",
+    "annotation": "Aegea Guariroba 6M26 Capex R$87m via Fed H.10. Supports aegea_guariroba_6m26_87m_brl.",
     "supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
       "hunt_cycle262",
@@ -23291,7 +23301,9 @@
       "aegea_piaui_outorga_6m26_22m_brl",
       "aegea_corsan_outorga_2t26_20m_brl",
       "hunt_cycle279",
-      "aegea_demais_outorga_2t26_3m_brl"
+      "aegea_demais_outorga_2t26_3m_brl",
+      "aegea_guariroba_6m26_87m_brl",
+      "hunt_cycle280"
     ],
     "map_supports": [
       "aegea_2t26_ecosystem_capex_1828m_brl",
@@ -23303,6 +23315,7 @@
       "aegea_demais_2t26_356m_brl",
       "aegea_demais_outorga_2t26_3m_brl",
       "aegea_guariroba_2t26_49m_brl",
+      "aegea_guariroba_6m26_87m_brl",
       "aegea_manaus_2t26_91m_brl",
       "aegea_novas_operacoes_2t26_186m_brl",
       "aegea_outorgas_2t26_73m_brl",
@@ -23364,7 +23377,7 @@
     "type": "company",
     "chicago": "Copel (Companhia Paranaense de Energia). “Destaques 2T26” CapEx table (RI republication). 2026. https://investidor10.com.br/acoes/link_comunicado/CPLE3/46836/.",
     "url": "https://investidor10.com.br/acoes/link_comunicado/CPLE3/46836/",
-    "annotation": "Copel LRCAP 2T26 CapEx R$317.9m via Fed H.10. Supports copel_lrcap_2t26_317p9m_brl.",
+    "annotation": "Copel Eólica 2T26 CapEx R$19.2m via Fed H.10. Supports copel_eolica_2t26_19p2m_brl.",
     "supports": [
       "copel_1s26_capex_1538p8m_brl",
       "hunt_cycle264",
@@ -23374,15 +23387,24 @@
       "copel_disco_2t26_479p1m_brl",
       "hunt_cycle279",
       "copel_get_2t26_476p4m_brl",
-      "copel_lrcap_2t26_317p9m_brl"
+      "copel_lrcap_2t26_317p9m_brl",
+      "copel_geracao_2t26_371p5m_brl",
+      "hunt_cycle280",
+      "copel_tx_2t26_90p8m_brl",
+      "copel_hydro_2t26_34p4m_brl",
+      "copel_eolica_2t26_19p2m_brl"
     ],
     "map_supports": [
       "copel_1s26_capex_1538p8m_brl",
       "copel_disco_1s26_917p7m_brl",
       "copel_disco_2t26_479p1m_brl",
+      "copel_eolica_2t26_19p2m_brl",
+      "copel_geracao_2t26_371p5m_brl",
       "copel_get_1s26_617p7m_brl",
       "copel_get_2t26_476p4m_brl",
-      "copel_lrcap_2t26_317p9m_brl"
+      "copel_hydro_2t26_34p4m_brl",
+      "copel_lrcap_2t26_317p9m_brl",
+      "copel_tx_2t26_90p8m_brl"
     ],
     "layers": [
       "energy"
