@@ -1,36 +1,40 @@
 updated: 2026-10-05
-cycle: 499
+cycle: 500
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 500 shuffle_seed=20261500; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied602); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed (Contraloría aval only); Progress Rail VLI R$430m if company dual confirms; Equatorial ADMS if openable; Ascenty USD breakouts if company primary opens; GATE R$20bn if State Grid confirms; Alupar TECP CapEx; Ada Franco da Rocha R$2.7bn; Equinix SP USD109m SEC; EPR Litoral 1S26; Alupar 1S26; TCP green R$300m; ENGIE Colibri; Wabtec Vale CapEx blank; CREC Cañas CRC→USD FX; Motiva Capex Proforma exhausted; Rumo CAPEX planilha 1T21–1T26 loaded; Equatorial Investimentos 4T23–1T17 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium; Antamina Segundo ITS; AES Arenales CapEx; SSA Guaymas STS dollar; Bechtel QB2 desal. No U.S. territories.
-next_row_id: (follow cycle-500 shuffled_order)
+next_query: Cycle 501 shuffle_seed=20261501; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied602); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed (Contraloría aval only); Progress Rail VLI R$430m if company dual confirms; Equatorial ADMS if openable; Ascenty USD breakouts if company primary opens; GATE R$20bn if State Grid confirms; Alupar TECP CapEx; Ada Franco da Rocha R$2.7bn; Equinix SP USD109m SEC; EPR Litoral 1S26; Alupar 1S26; TCP green R$300m; ENGIE Colibri; Wabtec Vale CapEx blank; CREC Cañas CRC→USD FX; Motiva Capex Proforma exhausted; Rumo CAPEX planilha 1T21–1T26 loaded; Equatorial Investimentos 3T23–1T17 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium; Antamina Segundo ITS; AES Arenales CapEx; SSA Guaymas STS dollar; Bechtel QB2 desal. No U.S. territories.
+next_row_id: (follow cycle-501 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 499) ===
+# === Country×subcategory sweep cells touched (session continuing from 500) ===
 # Filled this cycle: Brazil×power_plants_grid/other_renewables/water NEW×36 other
-#   (Equatorial Investimentos planilha 1T24).
+#   (Equatorial Investimentos planilha 4T23).
 # Still thin/empty priority cells: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa,
 #   Colombia graphite mine CapEx.
 # ≥1/3 U.S. hunt budget spent (Progress Rail/AES/Bechtel/Wabtec/Equinix CapEx dry).
 # PRC equal-budget: CapEx-blank COD faces.
 
-# === Cycle 499 (seed 20261499) ===
-# Shuffled order (BRIEF.md numbered + Random(20261499).shuffle): rail, solar, port_ownership, graphite, wind, building_materials,
-#   niobium, nickel, fission_smr, lithium, water, other_renewables,
-#   copper, balsa, power_plants_grid, engineering_epc, port_cranes, bridges_roads.
+# === Cycle 500 (seed 20261500) ===
+# Shuffled order (BRIEF.md numbered + Random(20261500).shuffle): port_cranes, copper, lithium, rail, port_ownership, building_materials,
+#   graphite, power_plants_grid, nickel, bridges_roads, niobium, other_renewables,
+#   solar, water, engineering_epc, wind, fission_smr, balsa.
 # Logged 36 NEW (0 US / 0 PRC / 0 allied / 36 other; ≥1/3 US hunt budget spent —
 #   CapEx dry this pass; PRC CapEx-blank):
-#   other faces: equatorial_ma_1t24_220m_brl; equatorial_ma_eletricos_1t24_207m_brl; equatorial_ma_oe_1t24_6m_brl; equatorial_ma_nonelectric_1t24_8m_brl; equatorial_ma_pe_1t24_1m_brl; equatorial_pa_1t24_521m_brl;
-#     equatorial_pa_eletricos_1t24_350m_brl; equatorial_pa_oe_1t24_160m_brl; equatorial_pa_nonelectric_1t24_10m_brl; equatorial_pa_pe_1t24_1m_brl; equatorial_pi_1t24_132m_brl; equatorial_pi_eletricos_1t24_104m_brl;
-#     equatorial_pi_oe_1t24_23m_brl; equatorial_pi_nonelectric_1t24_5m_brl; equatorial_pi_pe_1t24_1m_brl; equatorial_al_1t24_99m_brl; equatorial_al_eletricos_1t24_90m_brl; equatorial_al_oe_1t24_1m_brl;
-#     equatorial_al_nonelectric_1t24_8m_brl; equatorial_al_pe_1t24_5m_brl; equatorial_rs_1t24_127m_brl; equatorial_rs_eletricos_1t24_114m_brl; equatorial_rs_oe_1t24_3m_brl; equatorial_rs_nonelectric_1t24_10m_brl; equatorial_rs_pe_1t24_1m_brl; equatorial_ap_1t24_88m_brl; equatorial_ap_eletricos_1t24_57m_brl; equatorial_ap_oe_1t24_28m_brl; equatorial_ap_nonelectric_1t24_3m_brl; equatorial_ap_pe_1t24_1m_brl; equatorial_go_1t24_323m_brl; equatorial_go_eletricos_1t24_323m_brl; equatorial_go_nonelectric_1t24_29m_brl; equatorial_tx_1t24_8m_brl; equatorial_echo_1t24_183m_brl; equatorial_saneamento_1t24_20m_brl.
+#   other faces: equatorial_ma_4t23_391m_brl; equatorial_ma_eletricos_4t23_338m_brl; equatorial_ma_oe_4t23_4m_brl; equatorial_ma_nonelectric_4t23_49m_brl; equatorial_ma_pe_4t23_6m_brl; equatorial_pa_4t23_775m_brl;
+#     equatorial_pa_eletricos_4t23_399m_brl; equatorial_pa_oe_4t23_329m_brl; equatorial_pa_nonelectric_4t23_46m_brl; equatorial_pa_pe_4t23_7m_brl; equatorial_pi_4t23_221m_brl; equatorial_pi_eletricos_4t23_163m_brl;
+#     equatorial_pi_oe_4t23_27m_brl; equatorial_pi_nonelectric_4t23_31m_brl; equatorial_pi_pe_4t23_3m_brl; equatorial_al_4t23_217m_brl; equatorial_al_eletricos_4t23_190m_brl; equatorial_al_oe_4t23_2m_brl;
+#     equatorial_al_nonelectric_4t23_25m_brl; equatorial_al_pe_4t23_3m_brl; equatorial_rs_4t23_37m_brl; equatorial_rs_oe_4t23_2m_brl; equatorial_rs_nonelectric_4t23_39m_brl; equatorial_rs_pe_4t23_3m_brl; equatorial_ap_4t23_95m_brl; equatorial_ap_eletricos_4t23_22m_brl; equatorial_ap_oe_4t23_58m_brl; equatorial_ap_nonelectric_4t23_15m_brl; equatorial_ap_pe_4t23_1m_brl; equatorial_go_4t23_290m_brl; equatorial_go_eletricos_4t23_219m_brl; equatorial_go_nonelectric_4t23_96m_brl; equatorial_go_pe_4t23_8m_brl; equatorial_tx_4t23_25m_brl; equatorial_echo_4t23_526m_brl; equatorial_saneamento_4t23_15m_brl.
 # Thin top-up (balsa/nickel/fission_smr): dry.
-# Equal-budget misses: rail, solar, port_ownership, graphite, wind, building_materials, niobium, nickel,
-#   fission_smr, lithium, copper, balsa, engineering_epc, port_cranes, bridges_roads (catalog dense; thin dry; US CapEx dry).
-# Holdovers: Motiva Capex Proforma exhausted; Rumo CAPEX 1T21–1T26 loaded; Equatorial Investimentos 4T23–1T17 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium;
+# Equal-budget misses: port_cranes, copper, lithium, rail, port_ownership, building_materials, graphite, nickel,
+#   bridges_roads, niobium, solar, engineering_epc, wind, fission_smr, balsa (catalog dense; thin dry; US CapEx dry).
+# Holdovers: Motiva Capex Proforma exhausted; Rumo CAPEX 1T21–1T26 loaded; Equatorial Investimentos 3T23–1T17 by-quarter if cols present; diversify US CapEx / thin balsa-nickel-fission_smr-niobium;
 #   Progress Rail VLI; AES Arenales; Bechtel QB2; thin balsa/nickel/fission_smr/niobium.
-# Active after cycle 499: us466 / prc407 / allied602 / other3380 (n=4855).
+# Active after cycle 500: us466 / prc407 / allied602 / other3416 (n=4891).
+
+# === Cycle 499 (seed 20261499) summary ===
+# Prior CapEx planilha cycle. Active after: see prior coverage.
+
 
 # === Cycle 498 (seed 20261498) summary ===
 # Prior CapEx planilha cycle. Active after: see prior coverage.
@@ -753,46 +757,46 @@ dry_streak: 0
 # === Cycle 318 (seed 20261318) summary ===
 # Logged 22 NEW Motiva 3T25 excl.-maint CapEx. Active after: us466/prc407/allied602/other590 (n=2065).
 
-shuffle_seed: 20261499
+shuffle_seed: 20261500
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- infrastructure/rail
-- energy/solar
-- infrastructure/port_ownership
-- resources/graphite
-- energy/wind
-- infrastructure/building_materials
-- resources/niobium
-- resources/nickel
-- energy/fission_smr
-- resources/lithium
-- resources/water
-- energy/other_renewables
-- resources/copper
-- resources/balsa
-- energy/power_plants_grid
-- infrastructure/engineering_epc
 - infrastructure/port_cranes
+- resources/copper
+- resources/lithium
+- infrastructure/rail
+- infrastructure/port_ownership
+- infrastructure/building_materials
+- resources/graphite
+- energy/power_plants_grid
+- resources/nickel
 - infrastructure/bridges_roads
+- resources/niobium
+- energy/other_renewables
+- energy/solar
+- resources/water
+- infrastructure/engineering_epc
+- energy/wind
+- energy/fission_smr
+- resources/balsa
 rows_found_this_cycle:
-  infrastructure/rail: 0
-  energy/solar: 0
-  infrastructure/port_ownership: 0
-  resources/graphite: 0
-  energy/wind: 0
-  infrastructure/building_materials: 0
-  resources/niobium: 0
-  resources/nickel: 0
-  energy/fission_smr: 0
-  resources/lithium: 0
-  resources/water: 1
-  energy/other_renewables: 1
-  resources/copper: 0
-  resources/balsa: 0
-  energy/power_plants_grid: 34
-  infrastructure/engineering_epc: 0
   infrastructure/port_cranes: 0
+  resources/copper: 0
+  resources/lithium: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  infrastructure/building_materials: 0
+  resources/graphite: 0
+  energy/power_plants_grid: 34
+  resources/nickel: 0
   infrastructure/bridges_roads: 0
+  resources/niobium: 0
+  energy/other_renewables: 1
+  energy/solar: 0
+  resources/water: 1
+  infrastructure/engineering_epc: 0
+  energy/wind: 0
+  energy/fission_smr: 0
+  resources/balsa: 0
 rows_by_side_this_cycle:
   us: 0
   prc: 0
@@ -809,5 +813,5 @@ coverage_cumulative_active_rows:
   us: 466
   prc: 407
   allied: 602
-  other: 3380
-  n: 4855
+  other: 3416
+  n: 4891
