@@ -42864,5 +42864,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_vistas_brazil_chiller_2p84m_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F2735_1900_SAQMMA08D0006_1900 (Vistas Brazil chiller). Signed 2012-08-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2735_1900_SAQMMA08D0006_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2735_1900_SAQMMA08D0006_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Vistas Brazil chiller USD 2.838m. Supports vistas_brazil_chiller_2p84m_2012.",
+    "supports": [
+      "vistas_brazil_chiller_2p84m_2012",
+      "hunt_cycle957"
+    ],
+    "map_supports": [
+      "vistas_brazil_chiller_2p84m_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proyectos_civiles_caucasia_2p33m_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F0796_1900_19AQMM21D0039_1900 (Proyectos Civiles Caucasia). Signed 2022-05-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0796_1900_19AQMM21D0039_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0796_1900_19AQMM21D0039_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Proyectos Civiles Caucasia USD 2.334m. Supports proyectos_civiles_caucasia_2p33m_2022.",
+    "supports": [
+      "proyectos_civiles_caucasia_2p33m_2022",
+      "hunt_cycle957"
+    ],
+    "map_supports": [
+      "proyectos_civiles_caucasia_2p33m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eei_caucasia_admin_lodging_2p29m_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM26F0994_1900_19AQMM21D0037_1900 (EEI Caucasia admin). Signed 2026-07-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0994_1900_19AQMM21D0037_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0994_1900_19AQMM21D0037_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: EEI Caucasia admin USD 2.295m. Supports eei_caucasia_admin_lodging_2p29m_2026.",
+    "supports": [
+      "eei_caucasia_admin_lodging_2p29m_2026",
+      "hunt_cycle957"
+    ],
+    "map_supports": [
+      "eei_caucasia_admin_lodging_2p29m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_guayaquil_antinarcotics_facility_2p23m_2009",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC09C0002_1900_-NONE-_-NONE- (Guayaquil anti-narcotics facility). Signed 2009-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09C0002_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09C0002_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Guayaquil anti-narcotics facility USD 2.231m. Supports guayaquil_antinarcotics_facility_2p23m_2009.",
+    "supports": [
+      "guayaquil_antinarcotics_facility_2p23m_2009",
+      "hunt_cycle957"
+    ],
+    "map_supports": [
+      "guayaquil_antinarcotics_facility_2p23m_2009"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_anastasia_mexico_clinics_1p96m_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA251821C0001_9700_-NONE-_-NONE- (Anastasia Mexico clinics). Signed 2021-05-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA251821C0001_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA251821C0001_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Anastasia Mexico clinics USD 1.964m. Supports anastasia_mexico_clinics_1p96m_2021.",
+    "supports": [
+      "anastasia_mexico_clinics_1p96m_2021",
+      "hunt_cycle957"
+    ],
+    "map_supports": [
+      "anastasia_mexico_clinics_1p96m_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_sea_pac_colombia_elevator_1p96m_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5023C0026_1900_-NONE-_-NONE- (Sea Pac Colombia elevator). Signed 2023-07-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0026_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0026_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Sea Pac Colombia elevator USD 1.955m. Supports sea_pac_colombia_elevator_1p96m_2023.",
+    "supports": [
+      "sea_pac_colombia_elevator_1p96m_2023",
+      "hunt_cycle958"
+    ],
+    "map_supports": [
+      "sea_pac_colombia_elevator_1p96m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_trinity_bhate_monterrey_fence_1p90m_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16F4006_1900_SAQMMA14D0044_1900 (Trinity/Bhate Monterrey). Signed 2016-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F4006_1900_SAQMMA14D0044_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F4006_1900_SAQMMA14D0044_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Trinity/Bhate Monterrey USD 1.895m. Supports trinity_bhate_monterrey_fence_1p90m_2016.",
+    "supports": [
+      "trinity_bhate_monterrey_fence_1p90m_2016",
+      "hunt_cycle958"
+    ],
+    "map_supports": [
+      "trinity_bhate_monterrey_fence_1p90m_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cfe_ncc_acolhuas_feeders_1p90m_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5021C0005_1900_-NONE-_-NONE- (CFE NCC Acolhuas feeders). Signed 2021-02-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0005_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0005_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: CFE NCC Acolhuas feeders USD 1.900m. Supports cfe_ncc_acolhuas_feeders_1p90m_2021.",
+    "supports": [
+      "cfe_ncc_acolhuas_feeders_1p90m_2021",
+      "hunt_cycle958"
+    ],
+    "map_supports": [
+      "cfe_ncc_acolhuas_feeders_1p90m_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_serrano_ecuador_residence_3p29m_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5020C0027_1900_-NONE-_-NONE- (Serrano Ecuador residence). Signed 2020-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020C0027_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020C0027_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Serrano Ecuador residence USD 3.286m. Supports serrano_ecuador_residence_3p29m_2020.",
+    "supports": [
+      "serrano_ecuador_residence_3p29m_2020",
+      "hunt_cycle958"
+    ],
+    "map_supports": [
+      "serrano_ecuador_residence_3p29m_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_falcon_spectrum_rio_elevators_2p69m_2009",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA09F2722_1900_SAQMMA08D0016_1900 (Falcon Spectrum Rio elevators). Signed 2009-08-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA09F2722_1900_SAQMMA08D0016_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA09F2722_1900_SAQMMA08D0016_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Falcon Spectrum Rio elevators USD 2.689m. Supports falcon_spectrum_rio_elevators_2p69m_2009.",
+    "supports": [
+      "falcon_spectrum_rio_elevators_2p69m_2009",
+      "hunt_cycle958"
+    ],
+    "map_supports": [
+      "falcon_spectrum_rio_elevators_2p69m_2009"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_obera_mexico_ssc_7p80m_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489023C0035_9700_-NONE-_-NONE- (Obera Mexico SSC). Signed 2023-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489023C0035_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489023C0035_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Obera Mexico SSC USD 7.798m. Supports obera_mexico_ssc_7p80m_2023.",
+    "supports": [
+      "obera_mexico_ssc_7p80m_2023",
+      "hunt_cycle959"
+    ],
+    "map_supports": [
+      "obera_mexico_ssc_7p80m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_obera_mexico_fy24_ssc_7p74m_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489024F0168_9700_FA489023D0008_9700 (Obera Mexico FY24 SSC). Signed 2024-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0168_9700_FA489023D0008_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0168_9700_FA489023D0008_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Obera Mexico FY24 SSC USD 7.742m. Supports obera_mexico_fy24_ssc_7p74m_2024.",
+    "supports": [
+      "obera_mexico_fy24_ssc_7p74m_2024",
+      "hunt_cycle959"
+    ],
+    "map_supports": [
+      "obera_mexico_fy24_ssc_7p74m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_obera_costa_rica_ssc_4p82m_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489024F0158_9700_FA489023D0008_9700 (Obera Costa Rica SSC). Signed 2024-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0158_9700_FA489023D0008_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0158_9700_FA489023D0008_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Obera Costa Rica SSC USD 4.817m. Supports obera_costa_rica_ssc_4p82m_2024.",
+    "supports": [
+      "obera_costa_rica_ssc_4p82m_2024",
+      "hunt_cycle959"
+    ],
+    "map_supports": [
+      "obera_costa_rica_ssc_4p82m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_solustart_haiti_small_reno_2p94m_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521TO1500005_7200_AID521I1500002_7200 (Solustart Haiti small reno). Signed 2015-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1500005_7200_AID521I1500002_7200/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1500005_7200_AID521I1500002_7200/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Solustart Haiti small reno USD 2.944m. Supports solustart_haiti_small_reno_2p94m_2015.",
+    "supports": [
+      "solustart_haiti_small_reno_2p94m_2015",
+      "hunt_cycle959"
+    ],
+    "map_supports": [
+      "solustart_haiti_small_reno_2p94m_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_panama_rural_clinic_1p97m_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0213_9700_W9127817D0097_9700 (Seobra Panama rural clinic). Signed 2017-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0213_9700_W9127817D0097_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0213_9700_W9127817D0097_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra Panama rural clinic USD 1.971m. Supports seobra_panama_rural_clinic_1p97m_2017.",
+    "supports": [
+      "seobra_panama_rural_clinic_1p97m_2017",
+      "hunt_cycle959"
+    ],
+    "map_supports": [
+      "seobra_panama_rural_clinic_1p97m_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

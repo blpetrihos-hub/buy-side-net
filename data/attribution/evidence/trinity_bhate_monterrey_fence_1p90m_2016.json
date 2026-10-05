@@ -1,0 +1,10 @@
+{
+  "id": "trinity_bhate_monterrey_fence_1p90m_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_trinity_bhate_monterrey_fence_1p90m_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F4006_1900_SAQMMA14D0044_1900/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "TASK ORDER FOR CONSTRUCTION OF A FENCE, CONSULAR CANOPY AND DRAINAGE FOR THE MONTERREY, MEXICO NEW CONSULATE COMPOUND.  IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1895287; date_signed 2016-09-09."
+}
