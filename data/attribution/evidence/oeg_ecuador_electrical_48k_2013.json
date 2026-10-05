@@ -1,0 +1,10 @@
+{
+  "id": "oeg_ecuador_electrical_48k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_oeg_ecuador_electrical_48k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F2273_1900_SAQMMA12D0192_1900/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "ELECTRICAL WORK ECUADOR IGF::CT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 47988; date_signed 2013-08-02."
+}
