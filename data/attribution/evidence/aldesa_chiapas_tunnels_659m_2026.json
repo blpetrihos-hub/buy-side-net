@@ -1,10 +1,10 @@
 {
   "id": "aldesa_chiapas_tunnels_659m_2026",
-  "retrieved": "2026-10-01",
+  "retrieved": "2026-10-04",
   "source_id": "aldesa_chiapas_tuneles_20260827",
   "url": "https://aldesa.com/aldesa-se-adjudica-la-construccion-de-dos-tuneles-en-mexico-por-33-millones-de-euros/",
   "price_year": "2026",
   "evidence": "documented",
-  "quote": "Aldesa… ha sido adjudicataria para la construcción de dos túneles en México en el tramo entre Palenque y Ocosingo, perteneciente a la carretera Palenque-San Cristóbal de las Casas, en el estado de Chiapas… adjudicadas por la Secretaría de Infraestructura, Comunicaciones y Transporte por más de 659 millones de pesos mexicanos (unos 33 millones de euros)… El primero de los túneles tendrá una longitud de 320 metros… Proacon México… El segundo… 200 metros…",
-  "note": "Opened Aldesa company Spanish release 27 Aug 2026."
+  "quote": "Las actuaciones para sendos proyectos, adjudicadas por la Secretaría de Infraestructura, Comunicaciones y Transporte por más de 659 millones de pesos mexicanos (unos 33 millones de euros), tienen un plazo previsto de ejecución de unos 17 meses.",
+  "note": "Opened Aldesa Spanish; >MXN 659m / ~EUR 33m dual confirmed. CapEx-fill uses company EUR × Fed H.10 Sep 25 2026 1.1400 USD/EUR."
 }
