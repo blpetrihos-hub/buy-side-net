@@ -19052,7 +19052,7 @@
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2
-  annotation: Energisa Total CapEx 3T17 CapEx via Fed H.10. Supports energisa_total_3t17_518m_brl.
+  annotation: Energisa Total CapEx 2T17 CapEx via Fed H.10. Supports energisa_total_2t17_682m_brl.
   supports:
   - energisa_dist_total_2t26_1567m_brl
   - hunt_cycle681
@@ -19251,3 +19251,6 @@
   - energisa_tx_total_3t17_3m_brl
   - energisa_reenergisa_3t17_3m_brl
   - energisa_total_3t17_518m_brl
+  - energisa_dist_total_2t17_682m_brl
+  - hunt_cycle717
+  - energisa_total_2t17_682m_brl
