@@ -1,11 +1,40 @@
 updated: 2026-10-05
-cycle: 941
+cycle: 944
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 942 shuffle_seed=20261942; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us597/prc409/allied1556); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; USASpending LatAm diplomatic CapEx seam largely exhausted this wake — diversify thin/PRC/company CapEx (DFC/EXIM/company decks). AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
-next_row_id: (follow cycle-942 shuffled_order)
+next_query: Cycle 945 shuffle_seed=20261945; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us602/prc409/allied1558); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; USASpending page-3 residual (Bonatti GT medical/DRW; Eterna Soto Cano chapel; Brasilia NEC power misc); diversify thin/PRC/company CapEx. AES Arenales CapEx blank (BNamericas $356m UNVERIFIED paywall — need company primary); Bechtel QB2 desal CapEx blank. No U.S. territories.
+next_row_id: (follow cycle-945 shuffled_order)
 dry_streak: 0
+
+# === Country×subcategory sweep cells touched (session continuing from 944) ===
+# Filled this batch: Brazil×building_materials/engineering_epc NEW×2 us (Vistas Recife consular; Desbuild Rio consular elec); Haiti×building_materials NEW×2 (Palgag commissariats allied; Edifice HNP Academy us); Colombia×building_materials NEW×1 other (Seobra ARWS); Peru×building_materials/engineering_epc NEW×2 (Eterna Callao parking other; Sea Pac Lima elevator us); Panama×building_materials NEW×3 other (EEI Fort Sherman; Eterna maritime; Kunkel Gamboa shop); Honduras×building_materials NEW×1 us (Tidewater Tegucigalpa NEC ESW); El Salvador×bridges_roads/building_materials NEW×2 (Civing San Antonio bridge other; Palgag roof allied); Mexico×building_materials NEW×1 other (AKJ ENAPROC); Guatemala×building_materials NEW×1 other (Bonatti Champerico school).
+# Still thin: Peru balsa, Colombia graphite, Nicaragua rail, thin minerals. Thin top-up dry. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (5 US CapEx this batch).
+
+# === Cycle 944 (seed 20261944) ===
+# Shuffled: copper, building_materials, nickel, other_renewables, bridges_roads, wind, fission_smr, power_plants_grid, port_ownership, solar, rail, water, niobium, graphite, lithium, balsa, engineering_epc, port_cranes.
+# Logged 5 NEW (1 US / 0 PRC / 1 allied / 3 other):
+#   tidewater_tegucigalpa_nec_esw_1p88m_2017 civing_san_antonio_bridge_1p84m_2013 palgag_el_salvador_roof_1p59m_2026 akj_enaproc_5p70m_2024 bonatti_champerico_school_1p22m_2025.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Bonatti GT medical/DRW; Eterna chapel; thin; PRC.
+# Active after cycle 944: us602 / prc409 / allied1558 / other5853 (n=8422).
+
+# === Cycle 943 (seed 20261943) ===
+# Shuffled: wind, rail, other_renewables, port_ownership, nickel, fission_smr, water, building_materials, engineering_epc, power_plants_grid, port_cranes, graphite, niobium, balsa, bridges_roads, lithium, solar, copper.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   eterna_callao_parking_2p56m_2023 sea_pac_lima_elevator_2p00m_2021 eei_fort_sherman_1p63m_2025 eterna_panama_maritime_1p54m_2022 kunkel_gamboa_shop_1p33m_2024.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Tidewater Tegucigalpa; Civing bridge; Palgag ES roof; AKJ ENAPROC; Bonatti Champerico; thin.
+# Active after cycle 943: us601 / prc409 / allied1557 / other5850 (n=8417).
+
+# === Cycle 942 (seed 20261942) ===
+# Shuffled: port_ownership, rail, nickel, graphite, wind, balsa, port_cranes, engineering_epc, bridges_roads, power_plants_grid, fission_smr, water, building_materials, copper, other_renewables, lithium, niobium, solar.
+# Logged 5 NEW (3 US / 0 PRC / 1 allied / 1 other):
+#   vistas_recife_consular_1p04m_2012 desbuild_rio_consular_elec_810k_2015 palgag_haiti_commissariats_4p40m_2013 edifice_hnp_academy_reno_4p11m_2014 seobra_colombia_arws_5p82m_2022.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Eterna Callao parking; Sea Pac Lima; EEI Fort Sherman; Eterna Panama maritime; Kunkel Gamboa shop; thin.
+# Active after cycle 942: us600 / prc409 / allied1557 / other5846 (n=8412).
 
 # === Country×subcategory sweep cells touched (session continuing from 941) ===
 # Filled this batch: Costa Rica×engineering_epc/building_materials NEW×2 (Sea Pac San José elevator us; Bendig OIJ incinerator other); El Salvador×engineering_epc NEW×1 us (Sea Pac San Salvador elevators); Peru×building_materials NEW×1 other (Serrano NAMRU-6 admin); Brazil×building_materials/engineering_epc NEW×3 us (Horizon Brasília FCU; NV5 Brasília NEC CX; Sterling Royale Brasília); Ecuador×building_materials NEW×2 other (Eterna El Coca boat; Serrano Shushufindi hospital); Dominican Republic×building_materials/port_ownership NEW×3 (Palgag PEB allied; Fortuna Isla Saona pier other; Marenco boat ramp/pier other); Barbados×building_materials NEW×1 us (Mesan Bridgetown CMR); Honduras×power_plants_grid/building_materials NEW×2 other (Eterna SCAB grid; Eterna FY23 DB).

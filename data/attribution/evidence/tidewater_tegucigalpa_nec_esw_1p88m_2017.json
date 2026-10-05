@@ -1,0 +1,10 @@
+{
+  "id": "tidewater_tegucigalpa_nec_esw_1p88m_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_tidewater_tegucigalpa_nec_esw_1p88m_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F0034_1900_SAQMMA14D0045_1900/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "TASK ORDER AWARD FOR EARLY SITE WORK FOR THE NEW EMBASSY COMPOUND (NEC) IN TEGUCIGALPA, HONDURAS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1878127.98; date_signed 2017-10-26."
+}
