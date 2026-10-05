@@ -1,24 +1,28 @@
 updated: 2026-10-05
-cycle: 801
+cycle: 802
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 802 shuffle_seed=20261802; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1531); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; Progress Rail VLI; Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA CapEx loaded; Energisa Ativo Elétrico CapEx remaining (2t25..1t17; 34 periods); diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales; Bechtel QB2. No U.S. territories.
-next_row_id: (follow cycle-802 shuffled_order)
+next_query: Cycle 803 shuffle_seed=20261803; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1531); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; Progress Rail VLI; Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA CapEx loaded; Energisa Ativo Elétrico CapEx remaining (1t25..1t17; 33 periods); diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales; Bechtel QB2. No U.S. territories.
+next_row_id: (follow cycle-803 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 801) ===
-# Filled this cycle: Brazil×power_plants_grid NEW×4 other (Energisa Ativo Elétrico CapEx 3T25).
+# === Country×subcategory sweep cells touched (session continuing from 802) ===
+# Filled this cycle: Brazil×power_plants_grid NEW×4 other (Energisa Ativo Elétrico CapEx 2T25).
 # Still thin: Haiti, Venezuela, Nicaragua rail, Peru balsa, Colombia graphite.
 # ≥1/3 U.S. hunt budget spent (CapEx dry). PRC CapEx-blank.
 
-# === Cycle 801 (seed 20261801) ===
-# Shuffled: lithium, engineering_epc, water, wind, fission_smr, niobium, other_renewables, nickel, balsa, copper, graphite, rail, building_materials, port_ownership, solar, port_cranes, bridges_roads, power_plants_grid.
+# === Cycle 802 (seed 20261802) ===
+# Shuffled: water, copper, balsa, power_plants_grid, lithium, solar, engineering_epc, rail, port_ownership, building_materials, port_cranes, nickel, graphite, bridges_roads, wind, fission_smr, niobium, other_renewables.
 # Logged 4 NEW (0 US / 0 PRC / 0 allied / 4 other; US CapEx dry):
-#   other: energisa_ae_dist_total_3t25_1392m_brl; energisa_ae_tx_total_3t25_62m_brl; energisa_ae_reenergisa_3t25_51m_brl; energisa_ae_total_3t25_1525m_brl; .
+#   other: energisa_ae_dist_total_2t25_1216m_brl; energisa_ae_tx_total_2t25_70m_brl; energisa_ae_reenergisa_2t25_78m_brl; energisa_ae_total_2t25_1376m_brl; .
 # Thin top-up dry. Equal-budget misses: catalog dense; thin dry; US CapEx dry.
-# Holdovers: Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA loaded; Energisa Ativo Elétrico CapEx remaining (2t25..1t17; 34 periods).
-# Active after cycle 801: us466 / prc407 / allied1531 / other5372 (n=7776).
+# Holdovers: Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA/Sabesp/AXIA loaded; Energisa Ativo Elétrico CapEx remaining (1t25..1t17; 33 periods).
+# Active after cycle 802: us466 / prc407 / allied1531 / other5376 (n=7780).
+
+# === Cycle 801 (seed 20261801) summary ===
+# Prior CapEx cycle. Active after: see prior coverage.
+
 
 # === Cycle 800 (seed 20261800) summary ===
 # Prior CapEx cycle. Active after: see prior coverage.
@@ -1949,46 +1953,46 @@ dry_streak: 0
 # === Cycle 318 (seed 20261318) summary ===
 # Logged 22 NEW Motiva 3T25 excl.-maint CapEx. Active after: us466/prc407/allied602/other590 (n=2065).
 
-shuffle_seed: 20261801
+shuffle_seed: 20261802
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- resources/lithium
-- infrastructure/engineering_epc
 - resources/water
+- resources/copper
+- resources/balsa
+- energy/power_plants_grid
+- resources/lithium
+- energy/solar
+- infrastructure/engineering_epc
+- infrastructure/rail
+- infrastructure/port_ownership
+- infrastructure/building_materials
+- infrastructure/port_cranes
+- resources/nickel
+- resources/graphite
+- infrastructure/bridges_roads
 - energy/wind
 - energy/fission_smr
 - resources/niobium
 - energy/other_renewables
-- resources/nickel
-- resources/balsa
-- resources/copper
-- resources/graphite
-- infrastructure/rail
-- infrastructure/building_materials
-- infrastructure/port_ownership
-- energy/solar
-- infrastructure/port_cranes
-- infrastructure/bridges_roads
-- energy/power_plants_grid
 rows_found_this_cycle:
-  resources/lithium: 0
-  infrastructure/engineering_epc: 0
   resources/water: 0
+  resources/copper: 0
+  resources/balsa: 0
+  energy/power_plants_grid: 4
+  resources/lithium: 0
+  energy/solar: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/rail: 0
+  infrastructure/port_ownership: 0
+  infrastructure/building_materials: 0
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  resources/graphite: 0
+  infrastructure/bridges_roads: 0
   energy/wind: 0
   energy/fission_smr: 0
   resources/niobium: 0
   energy/other_renewables: 0
-  resources/nickel: 0
-  resources/balsa: 0
-  resources/copper: 0
-  resources/graphite: 0
-  infrastructure/rail: 0
-  infrastructure/building_materials: 0
-  infrastructure/port_ownership: 0
-  energy/solar: 0
-  infrastructure/port_cranes: 0
-  infrastructure/bridges_roads: 0
-  energy/power_plants_grid: 4
 rows_by_side_this_cycle:
   us: 0
   prc: 0
@@ -2005,5 +2009,5 @@ coverage_cumulative_active_rows:
   us: 466
   prc: 407
   allied: 1531
-  other: 5372
-  n: 7776
+  other: 5376
+  n: 7780
