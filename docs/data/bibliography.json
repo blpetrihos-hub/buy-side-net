@@ -22480,5 +22480,107 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "john_deere_catalao_700m_20240422",
+    "type": "company",
+    "chicago": "John Deere Brasil. “John Deere anuncia investimento na fábrica de Catalão.” April 22, 2024. https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2024/abr/john-deere-anuncia-investimento-na-f%C3%A1brica-de-catal%C3%A3o/.",
+    "url": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2024/abr/john-deere-anuncia-investimento-na-f%C3%A1brica-de-catal%C3%A3o/",
+    "annotation": "John Deere Catalão NEW R$700m ~USD 134.82m via Fed H.10. Supports john_deere_catalao_700m_brl_2024.",
+    "supports": [
+      "john_deere_catalao_700m_brl_2024",
+      "hunt_cycle252"
+    ],
+    "map_supports": [
+      "john_deere_catalao_700m_brl_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "scala_ai_city_500m_20240911",
+    "type": "company",
+    "chicago": "Scala Data Centers. “With an initial investment of USD 500 million, Scala Data Centers and Rio Grande do Sul Government Sign Agreement for Largest Digital Infrastructure Project in the State of Southern Brazil.” September 11, 2024. https://scaladatacenters.com/en/with-an-initial-investment-of-usd-500-million-scala-data-centers-and-rio-grande-do-sul-government-sign-agreement-for-largest-digital-infrastructure-project-in-the-state-of-southern-brazil/.",
+    "url": "https://scaladatacenters.com/en/with-an-initial-investment-of-usd-500-million-scala-data-centers-and-rio-grande-do-sul-government-sign-agreement-for-largest-digital-infrastructure-project-in-the-state-of-southern-brazil/",
+    "annotation": "Scala AI City NEW USD 500m. Supports scala_ai_city_500m_2024.",
+    "supports": [
+      "scala_ai_city_500m_2024",
+      "hunt_cycle252"
+    ],
+    "map_supports": [
+      "scala_ai_city_500m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "scala_dfs_2025_cumulative_12bn",
+    "type": "company",
+    "chicago": "Scala Data Centers S.A. “Demonstrações Financeiras” (exercício 2025). March 26, 2026. https://scaladatacenters.com/wp-content/uploads/2026/04/2025-Demonstracoes-Financeiras.pdf.",
+    "url": "https://scaladatacenters.com/wp-content/uploads/2026/04/2025-Demonstracoes-Financeiras.pdf",
+    "annotation": "Scala cumulative NEW >R$12bn ~USD 2311.20m via Fed H.10. Supports scala_cumulative_12bn_brl_2025.",
+    "supports": [
+      "scala_cumulative_12bn_brl_2025",
+      "hunt_cycle252"
+    ],
+    "map_supports": [
+      "scala_cumulative_12bn_brl_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "tecto_2bn_plan_20260407",
+    "type": "company",
+    "chicago": "Tecto Data Centers. “Tecto Data Centers anuncia plano de investimento de US$ 2 bilhões e amplia atuação comercial ao oferecer soluções para o mercado enterprise.” April 7/14, 2026. https://tecto.com/radar-tecto/tecto-data-centers-anuncia-plano-de-investimento-de-us-2-bilhoes-e-amplia-atuacao-comercial-ao-oferecer-solucoes-para-o-mercado-enterprise/.",
+    "url": "https://tecto.com/radar-tecto/tecto-data-centers-anuncia-plano-de-investimento-de-us-2-bilhoes-e-amplia-atuacao-comercial-ao-oferecer-solucoes-para-o-mercado-enterprise/",
+    "annotation": "Tecto NEW USD 2bn CapEx plan. Supports tecto_2bn_latam_2026_2028.",
+    "supports": [
+      "tecto_2bn_latam_2026_2028",
+      "hunt_cycle252"
+    ],
+    "map_supports": [
+      "tecto_2bn_latam_2026_2028"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "grenergy_central_oasis_900m_20260511",
+    "type": "company",
+    "chicago": "Grenergy. “Grenergy secures a new $268 million financing for Central Oasis.” May 11, 2026. https://grenergy.eu/grenergy-secures-a-new-268-million-financing-for-central-oasis/.",
+    "url": "https://grenergy.eu/grenergy-secures-a-new-268-million-financing-for-central-oasis/",
+    "annotation": "Grenergy Central Oasis NEW USD 900m. Supports grenergy_central_oasis_900m_chile.",
+    "supports": [
+      "grenergy_central_oasis_900m_chile",
+      "hunt_cycle252"
+    ],
+    "map_supports": [
+      "grenergy_central_oasis_900m_chile"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "grenergy_monte_aguila_268m_20260511",
+    "type": "company",
+    "chicago": "Grenergy. “Grenergy secures a new $268 million financing for Central Oasis.” May 11, 2026. https://grenergy.eu/grenergy-secures-a-new-268-million-financing-for-central-oasis/.",
+    "url": "https://grenergy.eu/grenergy-secures-a-new-268-million-financing-for-central-oasis/",
+    "annotation": "Grenergy Monte Águila NEW USD 268m financing. Supports grenergy_monte_aguila_268m_fin_2026.",
+    "supports": [
+      "grenergy_monte_aguila_268m_fin_2026",
+      "hunt_cycle252"
+    ],
+    "map_supports": [
+      "grenergy_monte_aguila_268m_fin_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
