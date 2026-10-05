@@ -22431,7 +22431,7 @@
     October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.
   url: https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf
   accessed: '2026-10-05'
-  annotation: 'Haiti PIP FY2025–26: CDB mini-réseau 55,400,000 HTG. Supports haiti_pip_minireseau_cdb_55p4m_htg_fy2526.'
+  annotation: 'Haiti PIP: Carrefour Joute 100m HTG. Supports haiti_pip_route_carrefour_joute_100m_htg_fy2526.'
   supports:
   - haiti_pip_maillage_routier_9625m_htg_fy2526
   - hunt_cycle898
@@ -22459,6 +22459,9 @@
   - haiti_pip_bm_wash_rural_2210m_htg_fy2526
   - haiti_pip_minireseau_cdb_55p4m_htg_fy2526
   - hunt_cycle902
+  - haiti_pip_route_tabarre39_100m_htg_fy2526
+  - hunt_cycle903
+  - haiti_pip_route_carrefour_joute_100m_htg_fy2526
 - id: usaspending_gdg_cap_haitien_drw_20100831
   type: government
   chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-
@@ -22499,3 +22502,33 @@
   supports:
   - ute_ppseld_td_materials_2p33m_2014
   - hunt_cycle902
+- id: usaspending_wsp_cap_haitien_cm_20160926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521TO1600006_7200_AIDOAAI1500050_7200
+    (WSP USA Solutions Inc; Cap-Haïtien Port CM). Signed 26 September 2016. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1600006_7200_AIDOAAI1500050_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1600006_7200_AIDOAAI1500050_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: WSP Cap-Haïtien Port CM USD 2.296m. Supports wsp_cap_haitien_port_cm_2p3m_2016.'
+  supports:
+  - wsp_cap_haitien_port_cm_2p3m_2016
+  - hunt_cycle903
+- id: usaspending_gdg_les_cayes_drw_20100831
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0037_9700_-NONE-_-NONE-
+    (GDG Beton & Construction S.A.; Les Cayes DRW). Signed 31 August 2010. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0037_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0037_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: GDG Les Cayes DRW USD 1.193m. Supports gdg_les_cayes_drw_1p19m_2010.'
+  supports:
+  - gdg_les_cayes_drw_1p19m_2010
+  - hunt_cycle903
+- id: usaspending_peco_ppseld_td_20141203
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521O1500002_7200_-NONE-_-NONE-
+    (PECO International Electric; PPSELD T&D). Signed 3 December 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O1500002_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O1500002_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: PECO PPSELD T&D USD 0.402m. Supports peco_ppseld_td_materials_402k_2014.'
+  supports:
+  - peco_ppseld_td_materials_402k_2014
+  - hunt_cycle903
