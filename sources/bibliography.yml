@@ -12629,9 +12629,9 @@
   - hunt_cycle255
 - id: cemig_1s26_results_presentation_20260630
   type: company
-  chicago: Companhia Energética de Minas Gerais — CEMIG. “Resultados 2T26” materials. August 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
+  chicago: Cemig. “Resultados 1S26 / 2T26” (company RI presentation PDF). June 30, 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
   url: https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf
-  annotation: Cemig 2026 GD plan R$375m via Fed H.10. Supports cemig_2026_gd_plan_375m_brl.
+  annotation: Cemig TX CapEx COD Total via Fed H.10. Supports cemig_tx_rm_lote1_total_1166p79m_brl.
   supports:
   - cemig_1s26_capex_3p28bn_brl
   - hunt_cycle256
@@ -12653,6 +12653,14 @@
   - cemig_2026_tx_plan_632m_brl
   - cemig_2026_gen_plan_197m_brl
   - cemig_2026_gd_plan_375m_brl
+  - cemig_rea_rm_capex_924p6m_brl
+  - hunt_cycle304
+  - cemig_lote1_leilao022022_capex_242p2m_brl
+  - cemig_tx_capex_cod2026_263p61m_brl
+  - cemig_tx_capex_cod2027_491p35m_brl
+  - cemig_tx_capex_cod2028_403p43m_brl
+  - cemig_tx_capex_cod2029_8p4m_brl
+  - cemig_tx_rm_lote1_total_1166p79m_brl
 - id: votorantim_cimentos_2t26_results_2026
   type: company
   chicago: Votorantim Cimentos. “Nossos resultados financeiros no segundo trimestre de 2026.” 2026. https://www.votorantimcimentos.com.br/noticia/nossos-resultados-financeiros-no-segundo-trimestre-de-2026/.
