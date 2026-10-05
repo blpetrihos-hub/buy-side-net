@@ -1,0 +1,10 @@
+{
+  "id": "misc_haiti_stecher_roumain_cctv_164k_2023",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_haiti_stecher_roumain_cctv_164k_2023",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P0704_1900_-NONE-_-NONE-/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "CCTV INSTALLATION AT STECHER ROUMAIN",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 163900.0; date_signed 2023-06-21."
+}
