@@ -40974,5 +40974,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_emr_tijuana_msgr_20150313",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15C0085_1900_-NONE-_-NONE- (EMR; Tijuana MSGR). Signed 13 March 2015. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0085_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0085_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: EMR Tijuana MSGR USD 9.601m. Supports emr_tijuana_msgr_9p60m_2015.",
+    "supports": [
+      "emr_tijuana_msgr_9p60m_2015",
+      "hunt_cycle936"
+    ],
+    "map_supports": [
+      "emr_tijuana_msgr_9p60m_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ics_lima_msgr_20180927",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F4387_1900_SAQMMA14D0059_1900 (ICS; Lima MSGR). Signed 27 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F4387_1900_SAQMMA14D0059_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F4387_1900_SAQMMA14D0059_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ICS Lima MSGR reno USD 5.469m. Supports ics_lima_msgr_reno_5p47m_2018.",
+    "supports": [
+      "ics_lima_msgr_reno_5p47m_2018",
+      "hunt_cycle936"
+    ],
+    "map_supports": [
+      "ics_lima_msgr_reno_5p47m_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_venesco_lima_ahu_20231218",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F0140_1900_19AQMM23D0015_1900 (Venesco; Lima AHU). Signed 18 December 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0140_1900_19AQMM23D0015_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0140_1900_19AQMM23D0015_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Venesco Lima AHU USD 5.246m. Supports venesco_lima_ahu_5p25m_2023.",
+    "supports": [
+      "venesco_lima_ahu_5p25m_2023",
+      "hunt_cycle936"
+    ],
+    "map_supports": [
+      "venesco_lima_ahu_5p25m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eei_gorgona_pier_20170202",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0087_1900_-NONE-_-NONE- (EEI; Gorgona ColNav pier). Signed 2 February 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0087_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0087_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: EEI Gorgona pier USD 8.179m. Supports eei_gorgona_colnav_pier_8p18m_2017.",
+    "supports": [
+      "eei_gorgona_colnav_pier_8p18m_2017",
+      "hunt_cycle936"
+    ],
+    "map_supports": [
+      "eei_gorgona_colnav_pier_8p18m_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_pv_20180914",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818C0023_9700_-NONE-_-NONE- (Eterna; Soto Cano 2 MW PV). Signed 14 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818C0023_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818C0023_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano PV USD 8.141m. Supports eterna_soto_cano_pv_8p14m_2018.",
+    "supports": [
+      "eterna_soto_cano_pv_8p14m_2018",
+      "hunt_cycle936"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_pv_8p14m_2018"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_nbc_san_salvador_roof_20180918",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F3908_1900_SAQMMA13D0134_1900 (NBC; San Salvador roof). Signed 18 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F3908_1900_SAQMMA13D0134_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F3908_1900_SAQMMA13D0134_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: NBC San Salvador roof USD 5.676m. Supports nbc_san_salvador_roof_5p68m_2018.",
+    "supports": [
+      "nbc_san_salvador_roof_5p68m_2018",
+      "hunt_cycle937"
+    ],
+    "map_supports": [
+      "nbc_san_salvador_roof_5p68m_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_tidewater_rio_cgr_20220928",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F4215_1900_19AQMM22D0058_1900 (Tidewater; Rio CGR). Signed 28 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F4215_1900_19AQMM22D0058_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F4215_1900_19AQMM22D0058_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tidewater Rio CGR USD 2.467m. Supports tidewater_rio_cgr_2p47m_2022.",
+    "supports": [
+      "tidewater_rio_cgr_2p47m_2022",
+      "hunt_cycle937"
+    ],
+    "map_supports": [
+      "tidewater_rio_cgr_2p47m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_framaco_bozdemir_lima_msg_20220927",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5022C0038_1900_-NONE-_-NONE- (Framaco-Bozdemir; Lima MSG). Signed 27 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0038_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0038_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Framaco-Bozdemir Lima MSG USD 3.516m. Supports framaco_bozdemir_lima_msg_3p52m_2022.",
+    "supports": [
+      "framaco_bozdemir_lima_msg_3p52m_2022",
+      "hunt_cycle937"
+    ],
+    "map_supports": [
+      "framaco_bozdemir_lima_msg_3p52m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_omni_acahuapa_bridge_20131203",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID519C1400001_7200_-NONE-_-NONE- (Omni; Acahuapa Bridge). Signed 3 December 2013. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID519C1400001_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID519C1400001_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Omni Acahuapa Bridge USD 4.286m. Supports omni_acahuapa_bridge_4p29m_2013.",
+    "supports": [
+      "omni_acahuapa_bridge_4p29m_2013",
+      "hunt_cycle937"
+    ],
+    "map_supports": [
+      "omni_acahuapa_bridge_4p29m_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_bridge_20210928",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0444_9700_W9127821D0075_9700 (Eterna; Soto Cano bridge). Signed 28 September 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0444_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0444_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano bridge USD 7.637m. Supports eterna_soto_cano_bridge_7p64m_2021.",
+    "supports": [
+      "eterna_soto_cano_bridge_7p64m_2021",
+      "hunt_cycle937"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_bridge_7p64m_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_almeida_brasilia_cmr_20200630",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5020C0018_1900_-NONE-_-NONE- (Almeida França; Brasília CMR). Signed 30 June 2020. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020C0018_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020C0018_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Almeida Brasília CMR USD 2.557m. Supports almeida_brasilia_cmr_2p56m_2020.",
+    "supports": [
+      "almeida_brasilia_cmr_2p56m_2020",
+      "hunt_cycle938"
+    ],
+    "map_supports": [
+      "almeida_brasilia_cmr_2p56m_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_relyant_guatemala_ha_20230918",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823C0024_9700_-NONE-_-NONE- (Relyant; Guatemala HA DB). Signed 18 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823C0024_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823C0024_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Relyant Guatemala HA USD 2.924m. Supports relyant_guatemala_ha_db_2p92m_2023.",
+    "supports": [
+      "relyant_guatemala_ha_db_2p92m_2023",
+      "hunt_cycle938"
+    ],
+    "map_supports": [
+      "relyant_guatemala_ha_db_2p92m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_torres_solola_20240806",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24C0084_1900_-NONE-_-NONE- (Torres; Sololá municipal). Signed 6 August 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24C0084_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24C0084_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Torres Sololá municipal USD 1.804m. Supports torres_solola_municipal_1p80m_2024.",
+    "supports": [
+      "torres_solola_municipal_1p80m_2024",
+      "hunt_cycle938"
+    ],
+    "map_supports": [
+      "torres_solola_municipal_1p80m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_chitre_eoc_20210608",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0182_9700_W9127816D0102_9700 (Eterna; Chitré EOC). Signed 8 June 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0182_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0182_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Chitré EOC USD 1.676m. Supports eterna_chitre_eoc_1p68m_2021.",
+    "supports": [
+      "eterna_chitre_eoc_1p68m_2021",
+      "hunt_cycle938"
+    ],
+    "map_supports": [
+      "eterna_chitre_eoc_1p68m_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ect_sd_cmr_roof_20230421",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5023C0009_1900_-NONE-_-NONE- (ECT; Santo Domingo CMR roof). Signed 21 April 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0009_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0009_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ECT Santo Domingo CMR roof USD 0.665m. Supports ect_santo_domingo_cmr_roof_665k_2023.",
+    "supports": [
+      "ect_santo_domingo_cmr_roof_665k_2023",
+      "hunt_cycle938"
+    ],
+    "map_supports": [
+      "ect_santo_domingo_cmr_roof_665k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

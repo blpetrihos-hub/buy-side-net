@@ -1,0 +1,10 @@
+{
+  "id": "emr_tijuana_msgr_9p60m_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_emr_tijuana_msgr_20150313",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0085_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::CL::IGF  BASE CONTRACT FOR TIJUANA, MEXICO MARINE SECURITY GUARD RESIDENCE (MSGR).",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 9,600,586.50; date_signed 2015-03-13."
+}

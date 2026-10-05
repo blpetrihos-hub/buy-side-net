@@ -1,0 +1,10 @@
+{
+  "id": "venesco_lima_ahu_5p25m_2023",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_venesco_lima_ahu_20231218",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0140_1900_19AQMM23D0015_1900/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "AIR HANDLING REPLACEMENT UNITS AT U.S. EMBASSY LIMA PERU.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 5,245,515.54; date_signed 2023-12-18."
+}
