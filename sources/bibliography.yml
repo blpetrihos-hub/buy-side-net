@@ -31560,3 +31560,93 @@
   supports:
   - soged_haiti_mission_director_onan_generator_26k_2011
   - hunt_cycle1148
+- id: usaspending_norshield_panama_metal_door_screen_14k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19P0391_1900_-NONE-_-NONE- (norshield_panama_metal_door_screen_14k_2019). Signed 2019-03-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19P0391_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19P0391_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: norshield_panama_metal_door_screen_14k_2019 USD 0.014m. Supports norshield_panama_metal_door_screen_14k_2019.'
+  supports:
+  - norshield_panama_metal_door_screen_14k_2019
+  - hunt_cycle1149
+- id: usaspending_portable_air_group_mexico_portable_air_conditioner_14k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N0018913F0135_9700_GS06F0024T_4730 (portable_air_group_mexico_portable_air_conditioner_14k_2013). Signed 2013-05-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0018913F0135_9700_GS06F0024T_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0018913F0135_9700_GS06F0024T_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: portable_air_group_mexico_portable_air_conditioner_14k_2013 USD 0.014m. Supports portable_air_group_mexico_portable_air_conditioner_14k_2013.'
+  supports:
+  - portable_air_group_mexico_portable_air_conditioner_14k_2013
+  - hunt_cycle1149
+- id: usaspending_misc_mexico_ice_juarez_cubicle_construction_27k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11510M0281_1900_-NONE-_-NONE- (misc_mexico_ice_juarez_cubicle_construction_27k_2010). Signed 2010-08-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11510M0281_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11510M0281_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_ice_juarez_cubicle_construction_27k_2010 USD 0.027m. Supports misc_mexico_ice_juarez_cubicle_construction_27k_2010.'
+  supports:
+  - misc_mexico_ice_juarez_cubicle_construction_27k_2010
+  - hunt_cycle1149
+- id: usaspending_misc_argentina_goyena_windows_25k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2019P0395_1900_-NONE-_-NONE- (misc_argentina_goyena_windows_25k_2019). Signed 2019-03-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2019P0395_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2019P0395_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_argentina_goyena_windows_25k_2019 USD 0.025m. Supports misc_argentina_goyena_windows_25k_2019.'
+  supports:
+  - misc_argentina_goyena_windows_25k_2019
+  - hunt_cycle1149
+- id: usaspending_ferreteria_epa_el_salvador_fap_air_conditioning_units_27k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SES60016M0112_1900_-NONE-_-NONE- (ferreteria_epa_el_salvador_fap_air_conditioning_units_27k_2015). Signed 2015-11-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60016M0112_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SES60016M0112_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ferreteria_epa_el_salvador_fap_air_conditioning_units_27k_2015 USD 0.027m. Supports ferreteria_epa_el_salvador_fap_air_conditioning_units_27k_2015.'
+  supports:
+  - ferreteria_epa_el_salvador_fap_air_conditioning_units_27k_2015
+  - hunt_cycle1149
+- id: usaspending_bw_color_prints_brazil_science_on_a_sphere_install_16k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_DOCAB133009CQ0068T0035_1330_DOCAB133009CQ0068_1330 (bw_color_prints_brazil_science_on_a_sphere_install_16k_2012). Signed 2012-04-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_DOCAB133009CQ0068T0035_1330_DOCAB133009CQ0068_1330/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_DOCAB133009CQ0068T0035_1330_DOCAB133009CQ0068_1330/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bw_color_prints_brazil_science_on_a_sphere_install_16k_2012 USD 0.016m. Supports bw_color_prints_brazil_science_on_a_sphere_install_16k_2012.'
+  supports:
+  - bw_color_prints_brazil_science_on_a_sphere_install_16k_2012
+  - hunt_cycle1150
+- id: usaspending_frank_p_frey_dominican_republic_roof_material_hoist_5k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86010M1514_1900_-NONE-_-NONE- (frank_p_frey_dominican_republic_roof_material_hoist_5k_2010). Signed 2010-09-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86010M1514_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86010M1514_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: frank_p_frey_dominican_republic_roof_material_hoist_5k_2010 USD 0.005m. Supports frank_p_frey_dominican_republic_roof_material_hoist_5k_2010.'
+  supports:
+  - frank_p_frey_dominican_republic_roof_material_hoist_5k_2010
+  - hunt_cycle1150
+- id: usaspending_fg_sas_colombia_tulua_base_electrical_installation_11k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01523P0380_1900_-NONE-_-NONE- (fg_sas_colombia_tulua_base_electrical_installation_11k_2023). Signed 2023-08-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01523P0380_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01523P0380_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: fg_sas_colombia_tulua_base_electrical_installation_11k_2023 USD 0.011m. Supports fg_sas_colombia_tulua_base_electrical_installation_11k_2023.'
+  supports:
+  - fg_sas_colombia_tulua_base_electrical_installation_11k_2023
+  - hunt_cycle1150
+- id: usaspending_misc_uruguay_stgl_residence_metal_grills_doors_11k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SUY60010M0855_1900_-NONE-_-NONE- (misc_uruguay_stgl_residence_metal_grills_doors_11k_2010). Signed 2010-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60010M0855_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60010M0855_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_uruguay_stgl_residence_metal_grills_doors_11k_2010 USD 0.011m. Supports misc_uruguay_stgl_residence_metal_grills_doors_11k_2010.'
+  supports:
+  - misc_uruguay_stgl_residence_metal_grills_doors_11k_2010
+  - hunt_cycle1150
+- id: usaspending_sarti_guatemala_aviation_landing_zone_lights_access_gate_9k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM19C0003_9700_-NONE-_-NONE- (sarti_guatemala_aviation_landing_zone_lights_access_gate_9k_2019). Signed 2019-04-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM19C0003_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM19C0003_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: sarti_guatemala_aviation_landing_zone_lights_access_gate_9k_2019 USD 0.009m. Supports sarti_guatemala_aviation_landing_zone_lights_access_gate_9k_2019.'
+  supports:
+  - sarti_guatemala_aviation_landing_zone_lights_access_gate_9k_2019
+  - hunt_cycle1150
