@@ -1,10 +1,10 @@
 {
   "id": "progress_rail_vli_sd70_2026",
-  "retrieved": "2026-10-02",
-  "url": "https://www.progressrail.com/en/company/news/press-releases/2026-vli-and-progress-rail-celebrate",
-  "source_id": "progress_rail_vli_20260210",
-  "evidence": "documented",
+  "retrieved": "2026-10-05",
+  "source_id": "vli_progress_rail_sd70_200m_20260210",
+  "url": "https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/",
   "price_year": "2026",
-  "quote": "VLI \u2026 and Progress Rail, a Caterpillar company, celebrated the delivery of eight new EMD SD70ACe-BB locomotives \u2026 In addition \u2026 signed a 10-year Maintenance Services Agreement (MSA) focused on VLI\u2019s Northern Corridor",
-  "note": "Opened Progress Rail company press release 10 Feb 2026."
+  "evidence": "documented",
+  "quote": "As máquinas foram adquiridas em 2024, com um investimento de cerca de R$ 200 milhões, que reforça o compromisso da VLI de integrar regiões e impulsionar a indústria ferroviária nacional.",
+  "note": "Opened VLI Portuguese (companion Progress Rail English confirms delivery/MSA without CapEx); ~R$200m eight SD70ACe-BB confirmed. CapEx USD via Fed H.10 Sep 25 2026 5.1921."
 }
