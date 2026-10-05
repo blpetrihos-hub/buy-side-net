@@ -29265,3 +29265,138 @@
   supports:
   - misc_dr_k9_academy_ac_installation_56k_2023
   - hunt_cycle1097
+- id: usaspending_interface_colombia_usaid_carpet_34k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20014M0769_1900_-NONE-_-NONE- (interface_colombia_usaid_carpet_34k_2014). Signed 2014-03-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20014M0769_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20014M0769_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: interface_colombia_usaid_carpet_34k_2014 USD 0.034m. Supports interface_colombia_usaid_carpet_34k_2014.'
+  supports:
+  - interface_colombia_usaid_carpet_34k_2014
+  - hunt_cycle1098
+- id: usaspending_clarke_brazil_fire_pump_drive_34k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25011M0671_1900_-NONE-_-NONE- (clarke_brazil_fire_pump_drive_34k_2011). Signed 2011-02-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25011M0671_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25011M0671_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: clarke_brazil_fire_pump_drive_34k_2011 USD 0.034m. Supports clarke_brazil_fire_pump_drive_34k_2011.'
+  supports:
+  - clarke_brazil_fire_pump_drive_34k_2011
+  - hunt_cycle1098
+- id: usaspending_mario_guatemala_aldea_euc_plumbing_55k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM19P0029_9700_-NONE-_-NONE- (mario_guatemala_aldea_euc_plumbing_55k_2019). Signed 2019-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM19P0029_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM19P0029_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mario_guatemala_aldea_euc_plumbing_55k_2019 USD 0.055m. Supports mario_guatemala_aldea_euc_plumbing_55k_2019.'
+  supports:
+  - mario_guatemala_aldea_euc_plumbing_55k_2019
+  - hunt_cycle1098
+- id: usaspending_misc_brazil_generation_day_tank_55k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR9320P0309_1900_-NONE-_-NONE- (misc_brazil_generation_day_tank_55k_2020). Signed 2020-05-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9320P0309_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9320P0309_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_generation_day_tank_55k_2020 USD 0.055m. Supports misc_brazil_generation_day_tank_55k_2020.'
+  supports:
+  - misc_brazil_generation_day_tank_55k_2020
+  - hunt_cycle1098
+- id: usaspending_wkl_panama_door_relocation_wall_repair_54k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07016M0777_1900_-NONE-_-NONE- (wkl_panama_door_relocation_wall_repair_54k_2016). Signed 2016-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07016M0777_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07016M0777_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: wkl_panama_door_relocation_wall_repair_54k_2016 USD 0.054m. Supports wkl_panama_door_relocation_wall_repair_54k_2016.'
+  supports:
+  - wkl_panama_door_relocation_wall_repair_54k_2016
+  - hunt_cycle1098
+- id: usaspending_apollo_jamaica_motorpool_car_park_canopy_33k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37013M1071_1900_-NONE-_-NONE- (apollo_jamaica_motorpool_car_park_canopy_33k_2013). Signed 2013-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M1071_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M1071_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: apollo_jamaica_motorpool_car_park_canopy_33k_2013 USD 0.033m. Supports apollo_jamaica_motorpool_car_park_canopy_33k_2013.'
+  supports:
+  - apollo_jamaica_motorpool_car_park_canopy_33k_2013
+  - hunt_cycle1099
+- id: usaspending_psi_mexico_semar_unopes_roof_materials_33k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX9026P0033_1900_-NONE-_-NONE- (psi_mexico_semar_unopes_roof_materials_33k_2026). Signed 2026-03-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX9026P0033_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX9026P0033_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: psi_mexico_semar_unopes_roof_materials_33k_2026 USD 0.033m. Supports psi_mexico_semar_unopes_roof_materials_33k_2026.'
+  supports:
+  - psi_mexico_semar_unopes_roof_materials_33k_2026
+  - hunt_cycle1099
+- id: usaspending_misc_mexico_tile_floor_construction_54k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX1125P0113_1900_-NONE-_-NONE- (misc_mexico_tile_floor_construction_54k_2025). Signed 2025-04-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1125P0113_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1125P0113_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_tile_floor_construction_54k_2025 USD 0.054m. Supports misc_mexico_tile_floor_construction_54k_2025.'
+  supports:
+  - misc_mexico_tile_floor_construction_54k_2025
+  - hunt_cycle1099
+- id: usaspending_misc_costa_rica_coast_guard_generators_54k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCS80017M0061_1900_-NONE-_-NONE- (misc_costa_rica_coast_guard_generators_54k_2017). Signed 2017-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80017M0061_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80017M0061_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_coast_guard_generators_54k_2017 USD 0.054m. Supports misc_costa_rica_coast_guard_generators_54k_2017.'
+  supports:
+  - misc_costa_rica_coast_guard_generators_54k_2017
+  - hunt_cycle1099
+- id: usaspending_misc_colombia_cartagena_ac_replace_54k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02018P1082_1900_-NONE-_-NONE- (misc_colombia_cartagena_ac_replace_54k_2018). Signed 2018-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02018P1082_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02018P1082_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_cartagena_ac_replace_54k_2018 USD 0.054m. Supports misc_colombia_cartagena_ac_replace_54k_2018.'
+  supports:
+  - misc_colombia_cartagena_ac_replace_54k_2018
+  - hunt_cycle1099
+- id: usaspending_alpha_tec_panama_building_59_flooring_32k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0722P0889_1900_-NONE-_-NONE- (alpha_tec_panama_building_59_flooring_32k_2022). Signed 2022-08-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0889_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0889_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alpha_tec_panama_building_59_flooring_32k_2022 USD 0.032m. Supports alpha_tec_panama_building_59_flooring_32k_2022.'
+  supports:
+  - alpha_tec_panama_building_59_flooring_32k_2022
+  - hunt_cycle1100
+- id: usaspending_ssi_peru_chancery_hvac_pumps_31k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50012M0643_1900_-NONE-_-NONE- (ssi_peru_chancery_hvac_pumps_31k_2012). Signed 2012-05-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50012M0643_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50012M0643_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ssi_peru_chancery_hvac_pumps_31k_2012 USD 0.031m. Supports ssi_peru_chancery_hvac_pumps_31k_2012.'
+  supports:
+  - ssi_peru_chancery_hvac_pumps_31k_2012
+  - hunt_cycle1100
+- id: usaspending_misc_argentina_chancery_ext_paint_parking_54k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2018P0880_1900_-NONE-_-NONE- (misc_argentina_chancery_ext_paint_parking_54k_2018). Signed 2018-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018P0880_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018P0880_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_argentina_chancery_ext_paint_parking_54k_2018 USD 0.054m. Supports misc_argentina_chancery_ext_paint_parking_54k_2018.'
+  supports:
+  - misc_argentina_chancery_ext_paint_parking_54k_2018
+  - hunt_cycle1100
+- id: usaspending_mejores_panama_gamboa_bat_flight_cage_53k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F12CC10332_3300_-NONE-_-NONE- (mejores_panama_gamboa_bat_flight_cage_53k_2012). Signed 2012-05-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F12CC10332_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F12CC10332_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mejores_panama_gamboa_bat_flight_cage_53k_2012 USD 0.053m. Supports mejores_panama_gamboa_bat_flight_cage_53k_2012.'
+  supports:
+  - mejores_panama_gamboa_bat_flight_cage_53k_2012
+  - hunt_cycle1100
+- id: usaspending_bolanos_ecuador_cmr_perimeter_wall_53k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7524C0018_1900_-NONE-_-NONE- (bolanos_ecuador_cmr_perimeter_wall_53k_2024). Signed 2024-09-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7524C0018_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7524C0018_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bolanos_ecuador_cmr_perimeter_wall_53k_2024 USD 0.053m. Supports bolanos_ecuador_cmr_perimeter_wall_53k_2024.'
+  supports:
+  - bolanos_ecuador_cmr_perimeter_wall_53k_2024
+  - hunt_cycle1100

@@ -87,17 +87,17 @@
     }
   },
   "meta": {
-    "n_rows": 9386,
+    "n_rows": 9401,
     "counts": {
-      "total": 9386,
-      "active": 9187,
+      "total": 9401,
+      "active": 9202,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 9113,
+      "documented": 9128,
       "on_map": 8548
     }
   },
@@ -105,18 +105,18 @@
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 470,
+        "us": 474,
         "prc": 129,
-        "allied": 3506,
-        "n": 4105
+        "allied": 3511,
+        "n": 4114
       },
       "usd": {
-        "us": 47410660273.600006,
-        "us_n": 403,
+        "us": 47410792526.16,
+        "us_n": 407,
         "prc": 17322325919.350002,
         "prc_n": 40,
-        "allied": 145003544387.70996,
-        "allied_n": 3393
+        "allied": 145003812742.97995,
+        "allied_n": 3398
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 105,
         "prc": 70,
-        "allied": 295,
-        "n": 470
+        "allied": 296,
+        "n": 471
       },
       "usd": {
         "us": 46053790479.759995,
         "us_n": 61,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 133455799900.22003,
-        "allied_n": 220
+        "allied": 133455854900.22003,
+        "allied_n": 221
       },
       "matched_gaps": {
         "n": 3,
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 257,
+        "us": 259,
         "prc": 210,
-        "allied": 4143,
-        "n": 4610
+        "allied": 4146,
+        "n": 4615
       },
       "usd": {
-        "us": 36781220528.65,
-        "us_n": 153,
+        "us": 36781286065.65,
+        "us_n": 155,
         "prc": 43269216900.41999,
         "prc_n": 73,
-        "allied": 383613245125.80054,
-        "allied_n": 4065
+        "allied": 383613407840.7806,
+        "allied_n": 4068
       },
       "matched_gaps": {
         "n": 1,
@@ -209,16 +209,16 @@
       "counts": {
         "us": 28,
         "prc": 35,
-        "allied": 54,
-        "n": 117
+        "allied": 55,
+        "n": 118
       },
       "usd": {
         "us": 9384225020.57,
         "us_n": 12,
         "prc": 3894732659.07,
         "prc_n": 14,
-        "allied": 33452812251.94,
-        "allied_n": 41
+        "allied": 33452866096.94,
+        "allied_n": 42
       },
       "by_layer": {
         "energy": {
@@ -229,7 +229,7 @@
         "infrastructure": {
           "us": 18,
           "prc": 5,
-          "allied": 23
+          "allied": 24
         },
         "resources": {
           "us": 5,
@@ -372,24 +372,24 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 155,
+        "us": 156,
         "prc": 125,
-        "allied": 6981,
-        "n": 7261
+        "allied": 6982,
+        "n": 7263
       },
       "usd": {
-        "us": 21350651035.149994,
-        "us_n": 93,
+        "us": 21350685255.349995,
+        "us_n": 94,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527466540176.5602,
-        "allied_n": 6900
+        "allied": 527466595059.7002,
+        "allied_n": 6901
       },
       "by_layer": {
         "energy": {
-          "us": 38,
+          "us": 39,
           "prc": 90,
-          "allied": 3938
+          "allied": 3939
         },
         "infrastructure": {
           "us": 91,
@@ -440,27 +440,27 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 45,
+        "us": 46,
         "prc": 29,
-        "allied": 113,
-        "n": 187
+        "allied": 114,
+        "n": 189
       },
       "usd": {
-        "us": 2886323182.45,
-        "us_n": 31,
+        "us": 2886357640.6899996,
+        "us_n": 32,
         "prc": 5971656357.0,
         "prc_n": 6,
-        "allied": 2376235002.549998,
-        "allied_n": 94
+        "allied": 2376288868.389998,
+        "allied_n": 95
       },
       "by_layer": {
         "energy": {
           "us": 24,
           "prc": 17,
-          "allied": 19
+          "allied": 20
         },
         "infrastructure": {
-          "us": 18,
+          "us": 19,
           "prc": 7,
           "allied": 88
         },
@@ -476,22 +476,22 @@
       "counts": {
         "us": 7,
         "prc": 5,
-        "allied": 31,
-        "n": 43
+        "allied": 32,
+        "n": 44
       },
       "usd": {
         "us": 27151364.900000002,
         "us_n": 5,
         "prc": 465593387.0,
         "prc_n": 1,
-        "allied": 858597048.0699999,
-        "allied_n": 29
+        "allied": 858651014.0699999,
+        "allied_n": 30
       },
       "by_layer": {
         "energy": {
           "us": 3,
           "prc": 1,
-          "allied": 7
+          "allied": 8
         },
         "infrastructure": {
           "us": 4,
@@ -607,16 +607,16 @@
       "counts": {
         "us": 31,
         "prc": 17,
-        "allied": 56,
-        "n": 104
+        "allied": 57,
+        "n": 105
       },
       "usd": {
         "us": 1471784159.4499998,
         "us_n": 23,
         "prc": 2385909740.0,
         "prc_n": 8,
-        "allied": 928352977.6699998,
-        "allied_n": 44
+        "allied": 928406217.7199998,
+        "allied_n": 45
       },
       "by_layer": {
         "energy": {
@@ -627,7 +627,7 @@
         "infrastructure": {
           "us": 12,
           "prc": 3,
-          "allied": 34
+          "allied": 35
         },
         "resources": {
           "us": 11,
@@ -699,16 +699,16 @@
       "counts": {
         "us": 17,
         "prc": 0,
-        "allied": 23,
-        "n": 40
+        "allied": 24,
+        "n": 41
       },
       "usd": {
         "us": 343191016.87000006,
         "us_n": 10,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 285216231.39,
-        "allied_n": 20
+        "allied": 285271231.39,
+        "allied_n": 21
       },
       "by_layer": {
         "energy": {
@@ -724,7 +724,7 @@
         "resources": {
           "us": 1,
           "prc": 0,
-          "allied": 1
+          "allied": 2
         }
       }
     },
@@ -828,14 +828,14 @@
     {
       "country": "Jamaica",
       "counts": {
-        "us": 22,
+        "us": 23,
         "prc": 12,
         "allied": 10,
-        "n": 44
+        "n": 45
       },
       "usd": {
-        "us": 1226880798.7400002,
-        "us_n": 22,
+        "us": 1226913958.9600003,
+        "us_n": 23,
         "prc": 294000000.0,
         "prc_n": 2,
         "allied": 342633693.76,
@@ -848,7 +848,7 @@
           "allied": 2
         },
         "infrastructure": {
-          "us": 15,
+          "us": 16,
           "prc": 12,
           "allied": 8
         }
@@ -857,18 +857,18 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 88,
+        "us": 89,
         "prc": 19,
-        "allied": 78,
-        "n": 185
+        "allied": 79,
+        "n": 187
       },
       "usd": {
-        "us": 11244646562.009998,
-        "us_n": 73,
+        "us": 11244679299.109999,
+        "us_n": 74,
         "prc": 312365273.57,
         "prc_n": 4,
-        "allied": 11859999442.609999,
-        "allied_n": 67
+        "allied": 11860053427.9,
+        "allied_n": 68
       },
       "by_layer": {
         "energy": {
@@ -877,9 +877,9 @@
           "allied": 13
         },
         "infrastructure": {
-          "us": 59,
+          "us": 60,
           "prc": 12,
-          "allied": 57
+          "allied": 58
         },
         "resources": {
           "us": 16,
@@ -925,18 +925,18 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 27,
+        "us": 28,
         "prc": 5,
-        "allied": 73,
-        "n": 105
+        "allied": 75,
+        "n": 108
       },
       "usd": {
-        "us": 130450052.06,
-        "us_n": 19,
+        "us": 130481949.06,
+        "us_n": 20,
         "prc": 1521000000.0,
         "prc_n": 2,
-        "allied": 439490551.1299997,
-        "allied_n": 71
+        "allied": 439597836.0599997,
+        "allied_n": 73
       },
       "by_layer": {
         "energy": {
@@ -945,9 +945,9 @@
           "allied": 8
         },
         "infrastructure": {
-          "us": 15,
+          "us": 16,
           "prc": 3,
-          "allied": 64
+          "allied": 66
         },
         "resources": {
           "us": 0,
@@ -993,14 +993,14 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 39,
+        "us": 40,
         "prc": 44,
         "allied": 106,
-        "n": 189
+        "n": 190
       },
       "usd": {
-        "us": 17921289672.799995,
-        "us_n": 29,
+        "us": 17921320989.599995,
+        "us_n": 30,
         "prc": 13270705448.15,
         "prc_n": 13,
         "allied": 25574104605.57,
@@ -1008,7 +1008,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 5,
+          "us": 6,
           "prc": 8,
           "allied": 28
         },
@@ -10419,7 +10419,22 @@
       "waypoint_honduras_obs_course_materials_36k_2022",
       "sumistradora_honduras_gracias_adios_school_55k_2016",
       "arcadia_colombia_acs_installation_davaa_56k_2021",
-      "misc_dr_k9_academy_ac_installation_56k_2023"
+      "misc_dr_k9_academy_ac_installation_56k_2023",
+      "interface_colombia_usaid_carpet_34k_2014",
+      "clarke_brazil_fire_pump_drive_34k_2011",
+      "mario_guatemala_aldea_euc_plumbing_55k_2019",
+      "misc_brazil_generation_day_tank_55k_2020",
+      "wkl_panama_door_relocation_wall_repair_54k_2016",
+      "apollo_jamaica_motorpool_car_park_canopy_33k_2013",
+      "psi_mexico_semar_unopes_roof_materials_33k_2026",
+      "misc_mexico_tile_floor_construction_54k_2025",
+      "misc_costa_rica_coast_guard_generators_54k_2017",
+      "misc_colombia_cartagena_ac_replace_54k_2018",
+      "alpha_tec_panama_building_59_flooring_32k_2022",
+      "ssi_peru_chancery_hvac_pumps_31k_2012",
+      "misc_argentina_chancery_ext_paint_parking_54k_2018",
+      "mejores_panama_gamboa_bat_flight_cage_53k_2012",
+      "bolanos_ecuador_cmr_perimeter_wall_53k_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",
