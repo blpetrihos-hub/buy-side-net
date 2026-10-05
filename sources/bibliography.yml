@@ -34845,3 +34845,93 @@
   supports:
   - misc_colombia_ups_uninterruptible_power_supply_13k_2012
   - hunt_cycle1221
+- id: usaspending_fabrication_designs_venezuela_msgq_window_glass_replace_3k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30014M0396_1900_-NONE-_-NONE- (fabrication_designs_venezuela_msgq_window_glass_replace_3k_2014). Signed 2014-07-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0396_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0396_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: fabrication_designs_venezuela_msgq_window_glass_replace_3k_2014 USD 0.003m. Supports fabrication_designs_venezuela_msgq_window_glass_replace_3k_2014.'
+  supports:
+  - fabrication_designs_venezuela_msgq_window_glass_replace_3k_2014
+  - hunt_cycle1222
+- id: usaspending_fabrication_designs_mexico_metal_door_screen_3k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22P0031_1900_-NONE-_-NONE- (fabrication_designs_mexico_metal_door_screen_3k_2021). Signed 2021-11-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0031_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0031_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: fabrication_designs_mexico_metal_door_screen_3k_2021 USD 0.003m. Supports fabrication_designs_mexico_metal_door_screen_3k_2021.'
+  supports:
+  - fabrication_designs_mexico_metal_door_screen_3k_2021
+  - hunt_cycle1222
+- id: usaspending_misc_mexico_cgr_back_patio_floor_replace_13k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX1118C0002_1900_-NONE-_-NONE- (misc_mexico_cgr_back_patio_floor_replace_13k_2018). Signed 2018-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1118C0002_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1118C0002_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_cgr_back_patio_floor_replace_13k_2018 USD 0.013m. Supports misc_mexico_cgr_back_patio_floor_replace_13k_2018.'
+  supports:
+  - misc_mexico_cgr_back_patio_floor_replace_13k_2018
+  - hunt_cycle1222
+- id: usaspending_misc_dominican_usms_office_generator_13k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86016M0931_1900_-NONE-_-NONE- (misc_dominican_usms_office_generator_13k_2016). Signed 2016-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86016M0931_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86016M0931_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_dominican_usms_office_generator_13k_2016 USD 0.013m. Supports misc_dominican_usms_office_generator_13k_2016.'
+  supports:
+  - misc_dominican_usms_office_generator_13k_2016
+  - hunt_cycle1222
+- id: usaspending_misc_colombia_torre95_apt301_make_ready_13k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02024P0763_1900_-NONE-_-NONE- (misc_colombia_torre95_apt301_make_ready_13k_2024). Signed 2024-04-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024P0763_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024P0763_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_torre95_apt301_make_ready_13k_2024 USD 0.013m. Supports misc_colombia_torre95_apt301_make_ready_13k_2024.'
+  supports:
+  - misc_colombia_torre95_apt301_make_ready_13k_2024
+  - hunt_cycle1222
+- id: usaspending_norshield_mexico_metal_door_screen_2k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16M0244_1900_-NONE-_-NONE- (norshield_mexico_metal_door_screen_2k_2016). Signed 2016-01-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M0244_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M0244_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: norshield_mexico_metal_door_screen_2k_2016 USD 0.002m. Supports norshield_mexico_metal_door_screen_2k_2016.'
+  supports:
+  - norshield_mexico_metal_door_screen_2k_2016
+  - hunt_cycle1223
+- id: usaspending_generac_jamaica_fire_brigade_light_tower_donation_3k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37011F0004_1900_GS07F0211M_4730 (generac_jamaica_fire_brigade_light_tower_donation_3k_2011). Signed 2011-03-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37011F0004_1900_GS07F0211M_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37011F0004_1900_GS07F0211M_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: generac_jamaica_fire_brigade_light_tower_donation_3k_2011 USD 0.003m. Supports generac_jamaica_fire_brigade_light_tower_donation_3k_2011.'
+  supports:
+  - generac_jamaica_fire_brigade_light_tower_donation_3k_2011
+  - hunt_cycle1223
+- id: usaspending_misc_ecuador_ups_electricity_shortages_13k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC3024P0638_1900_-NONE-_-NONE- (misc_ecuador_ups_electricity_shortages_13k_2024). Signed 2024-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3024P0638_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3024P0638_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_ecuador_ups_electricity_shortages_13k_2024 USD 0.013m. Supports misc_ecuador_ups_electricity_shortages_13k_2024.'
+  supports:
+  - misc_ecuador_ups_electricity_shortages_13k_2024
+  - hunt_cycle1223
+- id: usaspending_misc_el_salvador_cctv_systems_cat_pnc_13k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6021P0442_1900_-NONE-_-NONE- (misc_el_salvador_cctv_systems_cat_pnc_13k_2021). Signed 2021-04-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0442_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0442_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_el_salvador_cctv_systems_cat_pnc_13k_2021 USD 0.013m. Supports misc_el_salvador_cctv_systems_cat_pnc_13k_2021.'
+  supports:
+  - misc_el_salvador_cctv_systems_cat_pnc_13k_2021
+  - hunt_cycle1223
+- id: usaspending_misc_mexico_dea_office_renovation_pb_13k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53010M0601_1900_-NONE-_-NONE- (misc_mexico_dea_office_renovation_pb_13k_2010). Signed 2010-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0601_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0601_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_dea_office_renovation_pb_13k_2010 USD 0.013m. Supports misc_mexico_dea_office_renovation_pb_13k_2010.'
+  supports:
+  - misc_mexico_dea_office_renovation_pb_13k_2010
+  - hunt_cycle1223
