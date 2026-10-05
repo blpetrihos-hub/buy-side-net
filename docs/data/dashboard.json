@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8043,
+    "n_rows": 8047,
     "counts": {
-      "total": 8043,
-      "active": 7844,
+      "total": 8047,
+      "active": 7848,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7770,
-      "on_map": 7676
+      "documented": 7774,
+      "on_map": 7680
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3728,
-        "n": 4129
+        "allied": 3732,
+        "n": 4133
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 376576116020.85065,
-        "allied_n": 3657
+        "allied": 376862243021.4906,
+        "allied_n": 3661
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6611,
-        "n": 6866
+        "allied": 6615,
+        "n": 6870
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 520444821996.65027,
-        "allied_n": 6530
+        "allied": 520730948997.2902,
+        "allied_n": 6534
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3594
+          "allied": 3598
         },
         "infrastructure": {
           "us": 68,
@@ -9032,7 +9032,11 @@
       "energisa_ae_total_2t20_548m_brl",
       "energisa_ae_dist_total_1t20_495m_brl",
       "energisa_ae_tx_total_1t20_69m_brl",
-      "energisa_ae_total_1t20_564m_brl"
+      "energisa_ae_total_1t20_564m_brl",
+      "energisa_ae_dist_total_4t19_608m_brl",
+      "energisa_ae_tx_total_4t19_123m_brl",
+      "energisa_ae_reenergisa_4t19_2m_brl",
+      "energisa_ae_total_4t19_752m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
