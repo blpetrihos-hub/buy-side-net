@@ -23164,5 +23164,43 @@
     "layers": [
       "resources"
     ]
+  },
+  {
+    "id": "motiva_2t26_company_news_20260729",
+    "type": "company",
+    "chicago": "Motiva S.A. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento.” July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.",
+    "url": "https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/",
+    "annotation": "Motiva 2T26 roads/rails CapEx and 1S26 consolidated via Fed H.10. Supports motiva_2t26_roads_capex_1640m_brl; motiva_2t26_rails_capex_175m_brl; motiva_1s26_capex_3304m_brl.",
+    "supports": [
+      "motiva_2t26_roads_capex_1640m_brl",
+      "hunt_cycle263",
+      "motiva_2t26_rails_capex_175m_brl",
+      "motiva_1s26_capex_3304m_brl"
+    ],
+    "map_supports": [
+      "motiva_1s26_capex_3304m_brl",
+      "motiva_2t26_rails_capex_175m_brl",
+      "motiva_2t26_roads_capex_1640m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "motiva_2026_investment_plan_oe_20260210",
+    "type": "press",
+    "chicago": "Revista O Empreiteiro. “Motiva prevê R$ 8,33 bilhões em investimentos em 2026.” February 10, 2026. https://revistaoe.com.br/motiva-investimentos-2026/.",
+    "url": "https://revistaoe.com.br/motiva-investimentos-2026/",
+    "annotation": "Motiva 2026 highways CapEx plan ~R$7.16bn via Fed H.10 (UNVERIFIED proxy trade press of company table). Supports motiva_2026_highways_plan_7167m_brl.",
+    "supports": [
+      "motiva_2026_highways_plan_7167m_brl",
+      "hunt_cycle263"
+    ],
+    "map_supports": [
+      "motiva_2026_highways_plan_7167m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
