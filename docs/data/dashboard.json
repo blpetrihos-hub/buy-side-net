@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1709,
+    "n_rows": 1720,
     "counts": {
-      "total": 1709,
-      "active": 1510,
+      "total": 1720,
+      "active": 1521,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 179,
+      "proxy": 180,
       "exclude": 18,
-      "documented": 1445,
-      "on_map": 1372
+      "documented": 1455,
+      "on_map": 1383
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 126,
-        "allied": 225,
-        "n": 532
+        "allied": 229,
+        "n": 536
       },
       "usd": {
         "us": 46248647492.65,
         "us_n": 114,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 64837358474.470024,
-        "allied_n": 151
+        "allied": 65320785218.95002,
+        "allied_n": 155
       },
       "matched_gaps": {
         "n": 1,
@@ -128,18 +128,18 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 88,
+        "us": 91,
         "prc": 70,
-        "allied": 180,
-        "n": 338
+        "allied": 184,
+        "n": 345
       },
       "usd": {
-        "us": 35648237410.93,
-        "us_n": 44,
+        "us": 44948237410.93,
+        "us_n": 47,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 112345686009.9,
-        "allied_n": 111
+        "allied": 112792903898.62,
+        "allied_n": 115
       },
       "matched_gaps": {
         "n": 3,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 112,
         "prc": 114,
-        "allied": 343,
-        "n": 569
+        "allied": 351,
+        "n": 577
       },
       "usd": {
         "us": 20568020118.759995,
         "us_n": 50,
         "prc": 41536642307.94,
         "prc_n": 58,
-        "allied": 155838588214.17004,
-        "allied_n": 262
+        "allied": 156769232847.37003,
+        "allied_n": 270
       },
       "by_layer": {
         "energy": {
@@ -384,12 +384,12 @@
         "infrastructure": {
           "us": 67,
           "prc": 25,
-          "allied": 102
+          "allied": 106
         },
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 82
+          "allied": 86
         }
       }
     },
@@ -978,14 +978,14 @@
     {
       "country": "Peru",
       "counts": {
-        "us": 19,
+        "us": 22,
         "prc": 43,
         "allied": 45,
-        "n": 107
+        "n": 110
       },
       "usd": {
-        "us": 7466000000.0,
-        "us_n": 9,
+        "us": 16766000000.0,
+        "us_n": 12,
         "prc": 13270524416.0,
         "prc_n": 12,
         "allied": 22653371379.0,
@@ -1003,7 +1003,7 @@
           "allied": 20
         },
         "resources": {
-          "us": 10,
+          "us": 13,
           "prc": 16,
           "allied": 16
         }
@@ -2698,7 +2698,18 @@
       "rumo_norte_6m26_2988m_brl",
       "rumo_expansao_norte_6m26_2207m_brl",
       "equatorial_outros_2t26_13m_brl",
-      "aegea_guariroba_6m26_87m_brl"
+      "aegea_guariroba_6m26_87m_brl",
+      "fcx_cerro_verde_lom_sustaining_5p2bn_2024",
+      "fcx_cerro_verde_mine_capex_1p7bn_2024",
+      "fcx_cerro_verde_infra_env_capex_2p4bn_2024",
+      "rumo_material_rodante_6m26_547m_brl",
+      "rumo_capacitacao_6m26_949m_brl",
+      "rumo_fmt_6m26_671m_brl",
+      "rumo_sul_6m26_343m_brl",
+      "aegea_corsan_6m26_845m_brl",
+      "aegea_aguas_do_rio_6m26_663m_brl",
+      "aegea_novas_operacoes_6m26_339m_brl",
+      "aegea_ppps_6m26_475m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
