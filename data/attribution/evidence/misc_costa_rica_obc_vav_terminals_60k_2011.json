@@ -1,0 +1,10 @@
+{
+  "id": "misc_costa_rica_obc_vav_terminals_60k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_costa_rica_obc_vav_terminals_60k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80011C0027_1900_-NONE-_-NONE-/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "OBC SINGLE DUCT VAV TERMINALS INSTALLATION PROJECT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 60000; date_signed 2011-09-28."
+}
