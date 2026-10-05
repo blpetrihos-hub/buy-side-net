@@ -1,0 +1,10 @@
+{
+  "id": "spectrum_electrical_bahamas_nassau_electrical_work_900k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_spectrum_electrical_bahamas_nassau_electrical_work_900k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F2898_1900_SAQMMA12D0194_1900/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "ELECTRICAL WORK NASSAU IGF::CL::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 899984.99; date_signed 2016-07-21."
+}
