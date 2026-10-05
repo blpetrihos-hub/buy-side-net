@@ -29670,3 +29670,138 @@
   supports:
   - corporate_computing_barbados_camera_install_53k_2017
   - hunt_cycle1106
+- id: usaspending_interface_colombia_bogota_embassy_carpet_tiles_30k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20016M0208_1900_-NONE-_-NONE- (interface_colombia_bogota_embassy_carpet_tiles_30k_2016). Signed 2016-02-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20016M0208_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20016M0208_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: interface_colombia_bogota_embassy_carpet_tiles_30k_2016 USD 0.030m. Supports interface_colombia_bogota_embassy_carpet_tiles_30k_2016.'
+  supports:
+  - interface_colombia_bogota_embassy_carpet_tiles_30k_2016
+  - hunt_cycle1107
+- id: usaspending_harden_belize_metal_door_screen_29k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24P0977_1900_-NONE-_-NONE- (harden_belize_metal_door_screen_29k_2024). Signed 2024-09-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24P0977_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24P0977_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: harden_belize_metal_door_screen_29k_2024 USD 0.029m. Supports harden_belize_metal_door_screen_29k_2024.'
+  supports:
+  - harden_belize_metal_door_screen_29k_2024
+  - hunt_cycle1107
+- id: usaspending_misc_uruguay_cmr_pool_barrier_53k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SUY60011C0500_1900_-NONE-_-NONE- (misc_uruguay_cmr_pool_barrier_53k_2011). Signed 2011-06-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60011C0500_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60011C0500_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_uruguay_cmr_pool_barrier_53k_2011 USD 0.053m. Supports misc_uruguay_cmr_pool_barrier_53k_2011.'
+  supports:
+  - misc_uruguay_cmr_pool_barrier_53k_2011
+  - hunt_cycle1107
+- id: usaspending_misc_peru_chancery_elevator_door_operators_53k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBL40010M0744_1900_-NONE-_-NONE- (misc_peru_chancery_elevator_door_operators_53k_2010). Signed 2010-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40010M0744_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40010M0744_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_chancery_elevator_door_operators_53k_2010 USD 0.053m. Supports misc_peru_chancery_elevator_door_operators_53k_2010.'
+  supports:
+  - misc_peru_chancery_elevator_door_operators_53k_2010
+  - hunt_cycle1107
+- id: usaspending_misc_bahamas_cmr_tile_52k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50014M0250_1900_-NONE-_-NONE- (misc_bahamas_cmr_tile_52k_2014). Signed 2014-01-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50014M0250_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50014M0250_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_bahamas_cmr_tile_52k_2014 USD 0.052m. Supports misc_bahamas_cmr_tile_52k_2014.'
+  supports:
+  - misc_bahamas_cmr_tile_52k_2014
+  - hunt_cycle1107
+- id: usaspending_norshield_brazil_febr_door_cac_nurse_29k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR8118P0410_1900_-NONE-_-NONE- (norshield_brazil_febr_door_cac_nurse_29k_2018). Signed 2018-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8118P0410_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8118P0410_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: norshield_brazil_febr_door_cac_nurse_29k_2018 USD 0.029m. Supports norshield_brazil_febr_door_cac_nurse_29k_2018.'
+  supports:
+  - norshield_brazil_febr_door_cac_nurse_29k_2018
+  - hunt_cycle1108
+- id: usaspending_lotus_argentina_grundfos_water_pumps_29k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2024P0520_1900_-NONE-_-NONE- (lotus_argentina_grundfos_water_pumps_29k_2024). Signed 2024-04-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2024P0520_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2024P0520_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: lotus_argentina_grundfos_water_pumps_29k_2024 USD 0.029m. Supports lotus_argentina_grundfos_water_pumps_29k_2024.'
+  supports:
+  - lotus_argentina_grundfos_water_pumps_29k_2024
+  - hunt_cycle1108
+- id: usaspending_misc_venezuela_cmr_chiller_install_52k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30010M0433_1900_-NONE-_-NONE- (misc_venezuela_cmr_chiller_install_52k_2010). Signed 2010-05-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30010M0433_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30010M0433_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_venezuela_cmr_chiller_install_52k_2010 USD 0.052m. Supports misc_venezuela_cmr_chiller_install_52k_2010.'
+  supports:
+  - misc_venezuela_cmr_chiller_install_52k_2010
+  - hunt_cycle1108
+- id: usaspending_misc_barbados_hurricane_shutters_install_51k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BB2121C0014_1900_-NONE-_-NONE- (misc_barbados_hurricane_shutters_install_51k_2021). Signed 2021-07-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2121C0014_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2121C0014_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_barbados_hurricane_shutters_install_51k_2021 USD 0.051m. Supports misc_barbados_hurricane_shutters_install_51k_2021.'
+  supports:
+  - misc_barbados_hurricane_shutters_install_51k_2021
+  - hunt_cycle1108
+- id: usaspending_misc_bahamas_residential_generator_install_51k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50017C0003_1900_-NONE-_-NONE- (misc_bahamas_residential_generator_install_51k_2017). Signed 2017-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_bahamas_residential_generator_install_51k_2017 USD 0.051m. Supports misc_bahamas_residential_generator_install_51k_2017.'
+  supports:
+  - misc_bahamas_residential_generator_install_51k_2017
+  - hunt_cycle1108
+- id: usaspending_jeff_smith_brazil_recife_febr_window_28k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR8124P0372_1900_-NONE-_-NONE- (jeff_smith_brazil_recife_febr_window_28k_2024). Signed 2024-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8124P0372_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8124P0372_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: jeff_smith_brazil_recife_febr_window_28k_2024 USD 0.028m. Supports jeff_smith_brazil_recife_febr_window_28k_2024.'
+  supports:
+  - jeff_smith_brazil_recife_febr_window_28k_2024
+  - hunt_cycle1109
+- id: usaspending_solar_direct_jamaica_solar_pump_pool_28k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37013M1029_1900_-NONE-_-NONE- (solar_direct_jamaica_solar_pump_pool_28k_2013). Signed 2013-08-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M1029_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M1029_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: solar_direct_jamaica_solar_pump_pool_28k_2013 USD 0.028m. Supports solar_direct_jamaica_solar_pump_pool_28k_2013.'
+  supports:
+  - solar_direct_jamaica_solar_pump_pool_28k_2013
+  - hunt_cycle1109
+- id: usaspending_misc_bahamas_msg_windows_install_51k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50016M1183_1900_-NONE-_-NONE- (misc_bahamas_msg_windows_install_51k_2016). Signed 2016-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50016M1183_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50016M1183_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_bahamas_msg_windows_install_51k_2016 USD 0.051m. Supports misc_bahamas_msg_windows_install_51k_2016.'
+  supports:
+  - misc_bahamas_msg_windows_install_51k_2016
+  - hunt_cycle1109
+- id: usaspending_misc_panama_exhibit_av_install_55k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330523P00494468_3300_-NONE-_-NONE- (misc_panama_exhibit_av_install_55k_2023). Signed 2023-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330523P00494468_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330523P00494468_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_panama_exhibit_av_install_55k_2023 USD 0.055m. Supports misc_panama_exhibit_av_install_55k_2023.'
+  supports:
+  - misc_panama_exhibit_av_install_55k_2023
+  - hunt_cycle1109
+- id: usaspending_misc_peru_usaid_office_renovation_28k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_72052724P00009_7200_-NONE-_-NONE- (misc_peru_usaid_office_renovation_28k_2024). Signed 2024-01-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052724P00009_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052724P00009_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_usaid_office_renovation_28k_2024 USD 0.028m. Supports misc_peru_usaid_office_renovation_28k_2024.'
+  supports:
+  - misc_peru_usaid_office_renovation_28k_2024
+  - hunt_cycle1109
