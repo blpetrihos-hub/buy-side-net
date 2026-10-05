@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1058
+cycle: 1061
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1059 shuffle_seed=20262059; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us754/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.04–0.066m (Argentina Villate remodel; Mexico storm drain; Suriname Dolliz drainage; Tidewater Panama fuel monitor; Monaco HND D-21). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1059 shuffled_order)
+next_query: Cycle 1062 shuffle_seed=20262062; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us760/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.04–0.066m (Argentina LED panels; misc residual sub-$0.05m). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1062 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1058) ===
-# Filled this batch: Panama×solar/building_materials/engineering_epc NEW×4 (Wholesale Solar Coibita us; Gordon Gamboa other; Isobox Corozal other; McKinney STRI fire A/E us); Brazil×power_plants_grid/building_materials NEW×2 (Muka breakers us; SHIS fence other); Chile×building_materials NEW×1 other (Alerco San Fernando barracks); Argentina×building_materials NEW×1 other (Las Heras); Honduras×power_plants_grid/building_materials NEW×2 (Cummins CMR generators us; Ayre HVAC RTU other); Peru×building_materials/bridges_roads NEW×3 (Nesi chancery roof us; Simplified Safety guardrail us; Pavimentaciones asphalt other); Haiti×solar NEW×1 other (Energy Central Arcahaie); Mexico×power_plants_grid NEW×1 other (Gerardo Leon POR generator).
-# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank this batch. Alerco barracks/Las Heras/Gordon/Ayre holdovers closed.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx — Wholesale Solar, Muka, Cummins, Nesi, McKinney, Simplified Safety).
+# === Country×subcategory sweep cells touched (session continuing from 1061) ===
+# Filled this batch: Panama×power_plants_grid/building_materials NEW×3 (Tidewater fuel monitor us; Urbanus carports other; Moderno Tupper windows other); Honduras×building_materials NEW×1 us (Monaco D-21); Argentina×building_materials NEW×1 other (Villate); Mexico×water/building_materials NEW×2 other (storm drain; CDJ offices); Suriname×water/building_materials NEW×2 (Dolliz drainage other; Applied Security TSS us); Dominican Republic×power_plants_grid NEW×2 (Fluid Solutions fuel dispensers us; 35 kVA generators other); Jamaica×power_plants_grid NEW×1 us (Tidewater fuel pump); Belize×building_materials NEW×1 other (HVAC BAS); Nicaragua×building_materials NEW×1 us (Norshield Managua glazings); Guatemala×building_materials NEW×1 other (Sarti windows/doors).
+# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank. Villate/storm-drain/Dolliz/Tidewater/Monaco holdovers closed.
+# ≥1/3 U.S. hunt budget spent (6 US CapEx — Tidewater×2, Monaco, Fluid Solutions, Applied Security, Norshield).
+
+# === Cycle 1061 (seed 20262061) ===
+# Shuffled: port_cranes, fission_smr, solar, copper, lithium, rail, graphite, nickel, water, balsa, power_plants_grid, port_ownership, other_renewables, niobium, engineering_epc, wind, bridges_roads, building_materials.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   applied_security_suriname_tss_55k_2015 norshield_nicaragua_managua_glazing_54k_2023 moderno_panama_tupper_windows_65k_2010 misc_mexico_cdj_offices_65k_2014 sarti_guatemala_windows_doors_66k_2012.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: USASpending residual; thin; company CapEx.
+# Active after cycle 1061: us760 / prc410 / allied1564 / other6273 (n=9007).
+
+# === Cycle 1060 (seed 20262060) ===
+# Shuffled: fission_smr, wind, graphite, port_ownership, solar, copper, power_plants_grid, other_renewables, water, port_cranes, bridges_roads, niobium, engineering_epc, building_materials, balsa, rail, lithium, nickel.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   fluid_solutions_dr_fuel_dispensers_65k_2025 tidewater_jamaica_fuel_pump_55k_2022 urbanus_panama_carports_64k_2015 misc_dr_35kva_generators_66k_2015 misc_belize_hvac_bas_66k_2014.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Applied Security Suriname; Norshield Managua; Moderno Tupper; Mexico CDJ; Sarti GTM; thin.
+# Active after cycle 1060: us758 / prc410 / allied1564 / other6270 (n=9002).
+
+# === Cycle 1059 (seed 20262059) ===
+# Shuffled: balsa, solar, lithium, port_cranes, niobium, port_ownership, water, bridges_roads, graphite, fission_smr, power_plants_grid, copper, building_materials, nickel, rail, wind, engineering_epc, other_renewables.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   tidewater_panama_fuel_monitor_58k_2019 monaco_honduras_d21_57k_2012 misc_argentina_villate_66k_2018 misc_mexico_storm_drain_66k_2013 dolliz_suriname_drainage_66k_2021.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Fluid Solutions DR dispensers; Tidewater Jamaica; Urbanus carports; DR generators; Belize HVAC BAS; thin.
+# Active after cycle 1059: us756 / prc410 / allied1564 / other6267 (n=8997).
 
 # === Cycle 1058 (seed 20262058) ===
 # Shuffled: niobium, port_ownership, power_plants_grid, copper, engineering_epc, port_cranes, water, bridges_roads, fission_smr, balsa, building_materials, other_renewables, solar, wind, rail, lithium, nickel, graphite.

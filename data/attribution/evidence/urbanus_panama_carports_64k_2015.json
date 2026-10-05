@@ -1,0 +1,10 @@
+{
+  "id": "urbanus_panama_carports_64k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_urbanus_panama_carports_64k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07015M0713_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF CARPORTS INSTALLATION - U.S. EMBASSY COMPOUND - 2015",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 64400.54; date_signed 2015-08-04."
+}
