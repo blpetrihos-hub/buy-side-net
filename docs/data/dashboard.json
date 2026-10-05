@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8255,
+    "n_rows": 8260,
     "counts": {
-      "total": 8255,
-      "active": 8056,
+      "total": 8260,
+      "active": 8061,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7982,
-      "on_map": 7886
+      "documented": 7987,
+      "on_map": 7891
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3940,
-        "n": 4341
+        "allied": 3945,
+        "n": 4346
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383396628028.3007,
-        "allied_n": 3869
+        "allied": 383411817724.39075,
+        "allied_n": 3874
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6823,
-        "n": 7078
+        "allied": 6828,
+        "n": 7083
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527265334004.10034,
-        "allied_n": 6742
+        "allied": 527280523700.19037,
+        "allied_n": 6747
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3806
+          "allied": 3811
         },
         "infrastructure": {
           "us": 68,
@@ -9244,7 +9244,12 @@
       "axia_txproj_reforco_na_se_sideropolis_instalacao_do_4_tf__16m_brl",
       "axia_txproj_melhoria_na_se_imperatriz_substituicao_do_rea_16m_brl",
       "axia_txproj_reforco_na_se_maraba_substituicao_do_tf3_230__16m_brl",
-      "axia_txproj_melhoria_na_se_samambaia_substituicao_do_tran_16m_brl"
+      "axia_txproj_melhoria_na_se_samambaia_substituicao_do_tran_16m_brl",
+      "axia_txproj_melhoria_na_se_fortaleza_substituicao_do_tran_16m_brl",
+      "axia_txproj_melhoria_na_se_sao_luis_i_substituicao_do_tra_16m_brl",
+      "axia_txproj_reforco_na_se_coletora_porto_velho_fase_reser_16m_brl",
+      "axia_txproj_reforco_na_se_bom_jesus_da_lapa_substituicao__16m_brl",
+      "axia_txproj_melhoria_na_se_u_sobradinho_substituicao_do_r_15m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
