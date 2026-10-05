@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 5199,
+    "n_rows": 5230,
     "counts": {
-      "total": 5199,
-      "active": 5000,
+      "total": 5230,
+      "active": 5031,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 4926,
-      "on_map": 4832
+      "documented": 4957,
+      "on_map": 4863
     }
   },
   "layer_readouts": [
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 214,
-        "n": 376
+        "allied": 215,
+        "n": 377
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 118271607445.52,
-        "allied_n": 145
+        "allied": 118279100756.13,
+        "allied_n": 146
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 939,
-        "n": 1340
+        "allied": 969,
+        "n": 1370
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 145779270960.97025,
-        "allied_n": 868
+        "allied": 146419804265.02026,
+        "allied_n": 898
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 3767,
-        "n": 4022
+        "allied": 3798,
+        "n": 4053
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 274467173451.85962,
-        "allied_n": 3686
+        "allied": 275115200066.5195,
+        "allied_n": 3717
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 805
+          "allied": 835
         },
         "infrastructure": {
           "us": 68,
@@ -389,7 +389,7 @@
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 112
+          "allied": 113
         }
       }
     },
@@ -6188,7 +6188,38 @@
       "equatorial_go_nonelectric_1t23_62m_brl",
       "equatorial_tx_1t23_6m_brl",
       "equatorial_echo_1t23_182m_brl",
-      "equatorial_saneamento_1t23_15m_brl"
+      "equatorial_saneamento_1t23_15m_brl",
+      "equatorial_ma_4t22_283m_brl",
+      "equatorial_ma_eletricos_4t22_225m_brl",
+      "equatorial_ma_oe_4t22_21m_brl",
+      "equatorial_ma_nonelectric_4t22_38m_brl",
+      "equatorial_ma_pe_4t22_19m_brl",
+      "equatorial_pa_4t22_596m_brl",
+      "equatorial_pa_eletricos_4t22_412m_brl",
+      "equatorial_pa_oe_4t22_116m_brl",
+      "equatorial_pa_nonelectric_4t22_68m_brl",
+      "equatorial_pa_pe_4t22_6m_brl",
+      "equatorial_pi_4t22_251m_brl",
+      "equatorial_pi_eletricos_4t22_197m_brl",
+      "equatorial_pi_oe_4t22_36m_brl",
+      "equatorial_pi_nonelectric_4t22_17m_brl",
+      "equatorial_pi_pe_4t22_4m_brl",
+      "equatorial_al_4t22_141m_brl",
+      "equatorial_al_eletricos_4t22_151m_brl",
+      "equatorial_al_pe_4t22_2m_brl",
+      "equatorial_rs_4t22_257m_brl",
+      "equatorial_rs_eletricos_4t22_231m_brl",
+      "equatorial_rs_oe_4t22_1m_brl",
+      "equatorial_rs_nonelectric_4t22_25m_brl",
+      "equatorial_rs_pe_4t22_0m_brl",
+      "equatorial_ap_4t22_95m_brl",
+      "equatorial_ap_eletricos_4t22_79m_brl",
+      "equatorial_ap_oe_4t22_2m_brl",
+      "equatorial_ap_nonelectric_4t22_14m_brl",
+      "equatorial_ap_pe_4t22_0m_brl",
+      "equatorial_tx_4t22_12m_brl",
+      "equatorial_echo_4t22_26m_brl",
+      "equatorial_saneamento_4t22_39m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

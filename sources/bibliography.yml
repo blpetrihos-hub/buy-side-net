@@ -16531,7 +16531,7 @@
   type: company
   chicago: Equatorial Energia S.A. “Dados Financeiros e Operacionais — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2
-  annotation: Equatorial Saneamento 1T23 CapEx via Fed H.10. Supports equatorial_saneamento_1t23_15m_brl.
+  annotation: Equatorial Saneamento 4T22 CapEx via Fed H.10. Supports equatorial_saneamento_4t22_39m_brl.
   supports:
   - equatorial_ma_1t26_273m_brl
   - hunt_cycle491
@@ -17026,3 +17026,35 @@
   - equatorial_tx_1t23_6m_brl
   - equatorial_echo_1t23_182m_brl
   - equatorial_saneamento_1t23_15m_brl
+  - equatorial_ma_4t22_283m_brl
+  - hunt_cycle504
+  - equatorial_ma_eletricos_4t22_225m_brl
+  - equatorial_ma_oe_4t22_21m_brl
+  - equatorial_ma_nonelectric_4t22_38m_brl
+  - equatorial_ma_pe_4t22_19m_brl
+  - equatorial_pa_4t22_596m_brl
+  - equatorial_pa_eletricos_4t22_412m_brl
+  - equatorial_pa_oe_4t22_116m_brl
+  - equatorial_pa_nonelectric_4t22_68m_brl
+  - equatorial_pa_pe_4t22_6m_brl
+  - equatorial_pi_4t22_251m_brl
+  - equatorial_pi_eletricos_4t22_197m_brl
+  - equatorial_pi_oe_4t22_36m_brl
+  - equatorial_pi_nonelectric_4t22_17m_brl
+  - equatorial_pi_pe_4t22_4m_brl
+  - equatorial_al_4t22_141m_brl
+  - equatorial_al_eletricos_4t22_151m_brl
+  - equatorial_al_pe_4t22_2m_brl
+  - equatorial_rs_4t22_257m_brl
+  - equatorial_rs_eletricos_4t22_231m_brl
+  - equatorial_rs_oe_4t22_1m_brl
+  - equatorial_rs_nonelectric_4t22_25m_brl
+  - equatorial_rs_pe_4t22_0m_brl
+  - equatorial_ap_4t22_95m_brl
+  - equatorial_ap_eletricos_4t22_79m_brl
+  - equatorial_ap_oe_4t22_2m_brl
+  - equatorial_ap_nonelectric_4t22_14m_brl
+  - equatorial_ap_pe_4t22_0m_brl
+  - equatorial_tx_4t22_12m_brl
+  - equatorial_echo_4t22_26m_brl
+  - equatorial_saneamento_4t22_39m_brl
