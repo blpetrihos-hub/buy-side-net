@@ -20269,9 +20269,9 @@
   - energisa_ae_total_1t17_317m_brl
 - id: cemig_resultados_2t26_xlsx
   type: company
-  chicago: Cemig. “Planilha de Resultados 2T26 / 1S26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://media.sumaq.report/cemig-39dnnuek/docs/Cemig-2026-06-30-r7GLBrCc.xlsx.
+  chicago: Cemig S.A. “Planilha de Resultados 2T26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://media.sumaq.report/cemig-39dnnuek/docs/Cemig-2026-06-30-r7GLBrCc.xlsx.
   url: https://media.sumaq.report/cemig-39dnnuek/docs/Cemig-2026-06-30-r7GLBrCc.xlsx
-  annotation: Cemig TOTAL CapEx 1S25 CapEx. Supports cemig_total_1s25_2753m_brl.
+  annotation: Cemig TOTAL CapEx 1S26 CapEx via Fed H.10. Supports cemig_total_1s26_3282m_brl.
   supports:
   - cemig_gen_1s25_109m_brl
   - hunt_cycle797
@@ -20280,3 +20280,10 @@
   - cemig_gd_1s25_122m_brl
   - cemig_holding_1s25_2m_brl
   - cemig_total_1s25_2753m_brl
+  - cemig_gen_1s26_37m_brl
+  - hunt_cycle836
+  - cemig_tx_1s26_275m_brl
+  - cemig_dist_1s26_2637m_brl
+  - cemig_gd_1s26_237m_brl
+  - cemig_holding_1s26_4m_brl
+  - cemig_total_1s26_3282m_brl
