@@ -52584,5 +52584,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_fluid_solutions_mexico_merida_fire_pump_52k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5223P0211_1900_-NONE-_-NONE- (Fluid Solutions Merida fire pump). Signed 2023-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5223P0211_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5223P0211_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fluid Solutions Merida fire pump USD 0.052m. Supports fluid_solutions_mexico_merida_fire_pump_52k_2023.",
+    "supports": [
+      "fluid_solutions_mexico_merida_fire_pump_52k_2023",
+      "hunt_cycle1065"
+    ],
+    "map_supports": [
+      "fluid_solutions_mexico_merida_fire_pump_52k_2023"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_price_consulting_peru_residence_roof_ae_52k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50017C0039_1900_-NONE-_-NONE- (Price Consulting Peru roof A&E). Signed 2017-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50017C0039_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50017C0039_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Price Consulting Peru roof A&E USD 0.052m. Supports price_consulting_peru_residence_roof_ae_52k_2017.",
+    "supports": [
+      "price_consulting_peru_residence_roof_ae_52k_2017",
+      "hunt_cycle1065"
+    ],
+    "map_supports": [
+      "price_consulting_peru_residence_roof_ae_52k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cme_panama_tupper_exterior_paint_65k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33312925P00527554_3300_-NONE-_-NONE- (CME Tupper exterior paint). Signed 2025-09-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33312925P00527554_3300_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33312925P00527554_3300_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: CME Tupper exterior paint USD 0.065m. Supports cme_panama_tupper_exterior_paint_65k_2025.",
+    "supports": [
+      "cme_panama_tupper_exterior_paint_65k_2025",
+      "hunt_cycle1065"
+    ],
+    "map_supports": [
+      "cme_panama_tupper_exterior_paint_65k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_climatizadora_panama_cooling_tower_fill_65k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0722P0669_1900_-NONE-_-NONE- (Climatizadora cooling-tower fill). Signed 2022-07-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0669_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0669_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Climatizadora cooling-tower fill USD 0.065m. Supports climatizadora_panama_cooling_tower_fill_65k_2022.",
+    "supports": [
+      "climatizadora_panama_cooling_tower_fill_65k_2022",
+      "hunt_cycle1065"
+    ],
+    "map_supports": [
+      "climatizadora_panama_cooling_tower_fill_65k_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_bj_soluciones_panama_tupper_york_chiller_64k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F15PO7390000319130_3300_-NONE-_-NONE- (BJ Soluciones Tupper York chiller). Signed 2015-02-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F15PO7390000319130_3300_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_F15PO7390000319130_3300_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: BJ Soluciones Tupper York chiller USD 0.064m. Supports bj_soluciones_panama_tupper_york_chiller_64k_2015.",
+    "supports": [
+      "bj_soluciones_panama_tupper_york_chiller_64k_2015",
+      "hunt_cycle1065"
+    ],
+    "map_supports": [
+      "bj_soluciones_panama_tupper_york_chiller_64k_2015"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_applied_security_mexico_tss_62k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F0641_1900_19AQMM19D0002_1900 (Applied Security Mexico TSS). Signed 2022-02-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0641_1900_19AQMM19D0002_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0641_1900_19AQMM19D0002_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Applied Security Mexico TSS USD 0.062m. Supports applied_security_mexico_tss_62k_2022.",
+    "supports": [
+      "applied_security_mexico_tss_62k_2022",
+      "hunt_cycle1066"
+    ],
+    "map_supports": [
+      "applied_security_mexico_tss_62k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_orion_guyana_tss_34k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F0107_1900_19AQMM19D0008_1900 (Orion Guyana TSS). Signed 2019-11-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0107_1900_19AQMM19D0008_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0107_1900_19AQMM19D0008_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Orion Guyana TSS USD 0.034m. Supports orion_guyana_tss_34k_2019.",
+    "supports": [
+      "orion_guyana_tss_34k_2019",
+      "hunt_cycle1066"
+    ],
+    "map_supports": [
+      "orion_guyana_tss_34k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_bfl_york_chiller_64k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53017M1694_1900_-NONE-_-NONE- (Mexico BFL York chiller). Signed 2017-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53017M1694_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53017M1694_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico BFL York chiller USD 0.064m. Supports misc_mexico_bfl_york_chiller_64k_2017.",
+    "supports": [
+      "misc_mexico_bfl_york_chiller_64k_2017",
+      "hunt_cycle1066"
+    ],
+    "map_supports": [
+      "misc_mexico_bfl_york_chiller_64k_2017"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_la_macarena_fence_64k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT10P0219_9700_-NONE-_-NONE- (Colombia La Macarena fence). Signed 2010-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10P0219_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10P0219_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Colombia La Macarena fence USD 0.064m. Supports misc_colombia_la_macarena_fence_64k_2010.",
+    "supports": [
+      "misc_colombia_la_macarena_fence_64k_2010",
+      "hunt_cycle1066"
+    ],
+    "map_supports": [
+      "misc_colombia_la_macarena_fence_64k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_vinpar_colombia_cmr_facade_63k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02025P1743_1900_-NONE-_-NONE- (Vinpar Colombia CMR facade). Signed 2025-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02025P1743_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02025P1743_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Vinpar Colombia CMR facade USD 0.063m. Supports vinpar_colombia_cmr_facade_63k_2025.",
+    "supports": [
+      "vinpar_colombia_cmr_facade_63k_2025",
+      "hunt_cycle1066"
+    ],
+    "map_supports": [
+      "vinpar_colombia_cmr_facade_63k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_johnson_controls_barbados_chiller_compressor_58k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21015M0838_1900_-NONE-_-NONE- (Johnson Controls Barbados compressor). Signed 2015-08-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21015M0838_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21015M0838_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Johnson Controls Barbados compressor USD 0.058m. Supports johnson_controls_barbados_chiller_compressor_58k_2015.",
+    "supports": [
+      "johnson_controls_barbados_chiller_compressor_58k_2015",
+      "hunt_cycle1067"
+    ],
+    "map_supports": [
+      "johnson_controls_barbados_chiller_compressor_58k_2015"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_valkyrie_uruguay_telecom_cabling_50k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F3970_1900_19AQMM21D0155_1900 (Valkyrie Uruguay telecom cabling). Signed 2022-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F3970_1900_19AQMM21D0155_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F3970_1900_19AQMM21D0155_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Valkyrie Uruguay telecom cabling USD 0.050m. Supports valkyrie_uruguay_telecom_cabling_50k_2022.",
+    "supports": [
+      "valkyrie_uruguay_telecom_cabling_50k_2022",
+      "hunt_cycle1067"
+    ],
+    "map_supports": [
+      "valkyrie_uruguay_telecom_cabling_50k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dr_cmr_cctv_63k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8625P1555_1900_-NONE-_-NONE- (DR CMR CCTV). Signed 2025-06-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8625P1555_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8625P1555_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: DR CMR CCTV USD 0.063m. Supports misc_dr_cmr_cctv_63k_2025.",
+    "supports": [
+      "misc_dr_cmr_cctv_63k_2025",
+      "hunt_cycle1067"
+    ],
+    "map_supports": [
+      "misc_dr_cmr_cctv_63k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_limon_mexico_cmr_driveway_63k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5321C0003_1900_-NONE-_-NONE- (Limón Mexico CMR driveway). Signed 2021-04-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5321C0003_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5321C0003_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Limón Mexico CMR driveway USD 0.063m. Supports limon_mexico_cmr_driveway_63k_2021.",
+    "supports": [
+      "limon_mexico_cmr_driveway_63k_2021",
+      "hunt_cycle1067"
+    ],
+    "map_supports": [
+      "limon_mexico_cmr_driveway_63k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_santa_marta_barracks_ae_63k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15017M0452_1900_-NONE-_-NONE- (Colombia Santa Marta barracks A&E). Signed 2017-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017M0452_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017M0452_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Colombia Santa Marta barracks A&E USD 0.063m. Supports misc_colombia_santa_marta_barracks_ae_63k_2017.",
+    "supports": [
+      "misc_colombia_santa_marta_barracks_ae_63k_2017",
+      "hunt_cycle1067"
+    ],
+    "map_supports": [
+      "misc_colombia_santa_marta_barracks_ae_63k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

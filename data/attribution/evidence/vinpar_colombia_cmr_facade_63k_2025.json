@@ -1,0 +1,10 @@
+{
+  "id": "vinpar_colombia_cmr_facade_63k_2025",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_vinpar_colombia_cmr_facade_63k_2025",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02025P1743_1900_-NONE-_-NONE-/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "PR15468587 CMR FACADE REPAIR 7919 XJ-1D-0119",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 63319.47; date_signed 2025-09-23."
+}
