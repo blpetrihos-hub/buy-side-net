@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1785,
+    "n_rows": 1800,
     "counts": {
-      "total": 1785,
-      "active": 1586,
+      "total": 1800,
+      "active": 1601,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1512,
-      "on_map": 1448
+      "documented": 1527,
+      "on_map": 1463
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 279,
-        "n": 680
+        "allied": 294,
+        "n": 695
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 111330025266.22006,
-        "allied_n": 208
+        "allied": 114795251282.66005,
+        "allied_n": 223
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 129,
         "prc": 125,
-        "allied": 382,
-        "n": 636
+        "allied": 397,
+        "n": 651
       },
       "usd": {
         "us": 21129430723.329994,
         "us_n": 67,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 163933116439.73,
-        "allied_n": 301
+        "allied": 167398342456.17004,
+        "allied_n": 316
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 173
+          "allied": 188
         },
         "infrastructure": {
           "us": 67,
@@ -2774,7 +2774,22 @@
       "isa_energia_itatiaia_2t26_52p2m_brl",
       "equatorial_pa_2t26_716m_brl",
       "equatorial_go_2t26_675m_brl",
-      "equatorial_ma_2t26_330m_brl"
+      "equatorial_ma_2t26_330m_brl",
+      "neoenergia_coelba_capex_6m26_1919m_brl",
+      "neoenergia_pe_capex_6m26_746m_brl",
+      "neoenergia_cosern_capex_6m26_240m_brl",
+      "neoenergia_elektro_capex_6m26_564m_brl",
+      "neoenergia_brasilia_capex_6m26_228m_brl",
+      "isa_energia_2t26_rm_energized_290p8m_brl",
+      "equatorial_pi_2t26_239m_brl",
+      "equatorial_al_2t26_188m_brl",
+      "equatorial_rs_2t26_282m_brl",
+      "equatorial_ap_2t26_97m_brl",
+      "cemig_2026_capex_plan_6725m_brl",
+      "cemig_2026_dist_plan_5269m_brl",
+      "cemig_2026_tx_plan_632m_brl",
+      "cemig_2026_gen_plan_197m_brl",
+      "cemig_2026_gd_plan_375m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
