@@ -40515,3 +40515,228 @@
   supports:
   - estudios_colombia_classroom_building_344k_2022
   - hunt_cycle1347
+- id: usaspending_muscogee_mexico_setec_oral_trials_courtrooms_15412k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC14C0004_1900_-NONE-_-NONE- (muscogee_mexico_setec_oral_trials_courtrooms_15412k_2014). Signed 2014-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC14C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC14C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: muscogee_mexico_setec_oral_trials_courtrooms_15412k_2014 USD 15.412m. Supports muscogee_mexico_setec_oral_trials_courtrooms_15412k_2014.'
+  supports:
+  - muscogee_mexico_setec_oral_trials_courtrooms_15412k_2014
+  - hunt_cycle1348
+- id: usaspending_obera_jamaica_tmpi_equipment_3452k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489024F0125_9700_FA489023D0008_9700 (obera_jamaica_tmpi_equipment_3452k_2024). Signed 2024-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0125_9700_FA489023D0008_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0125_9700_FA489023D0008_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: obera_jamaica_tmpi_equipment_3452k_2024 USD 3.452m. Supports obera_jamaica_tmpi_equipment_3452k_2024.'
+  supports:
+  - obera_jamaica_tmpi_equipment_3452k_2024
+  - hunt_cycle1348
+- id: usaspending_estudios_colombia_construction_incidental_design_451k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0004_9700_W9127809D0077_9700 (estudios_colombia_construction_incidental_design_451k_2011). Signed 2011-06-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127809D0077_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127809D0077_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_construction_incidental_design_451k_2011 USD 0.451m. Supports estudios_colombia_construction_incidental_design_451k_2011.'
+  supports:
+  - estudios_colombia_construction_incidental_design_451k_2011
+  - hunt_cycle1348
+- id: usaspending_estudios_colombia_sofa_parking_container_storage_426k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127813D0010_9700 (estudios_colombia_sofa_parking_container_storage_426k_2016). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127813D0010_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127813D0010_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_sofa_parking_container_storage_426k_2016 USD 0.426m. Supports estudios_colombia_sofa_parking_container_storage_426k_2016.'
+  supports:
+  - estudios_colombia_sofa_parking_container_storage_426k_2016
+  - hunt_cycle1348
+- id: usaspending_proyectos_panama_medical_clinic_hap_355k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0021_9700_-NONE-_-NONE- (proyectos_panama_medical_clinic_hap_355k_2011). Signed 2011-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0021_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0021_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_panama_medical_clinic_hap_355k_2011 USD 0.355m. Supports proyectos_panama_medical_clinic_hap_355k_2011.'
+  supports:
+  - proyectos_panama_medical_clinic_hap_355k_2011
+  - hunt_cycle1348
+- id: usaspending_tsymmetry_colombia_cop_equipment_phase_vi_2700k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F0965_1900_SAQMMA15D0080_1900 (tsymmetry_colombia_cop_equipment_phase_vi_2700k_2021). Signed 2021-03-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0965_1900_SAQMMA15D0080_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0965_1900_SAQMMA15D0080_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: tsymmetry_colombia_cop_equipment_phase_vi_2700k_2021 USD 2.700m. Supports tsymmetry_colombia_cop_equipment_phase_vi_2700k_2021.'
+  supports:
+  - tsymmetry_colombia_cop_equipment_phase_vi_2700k_2021
+  - hunt_cycle1349
+- id: usaspending_faac_mexico_le_training_simulators_2410k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19F1081_1900_SWHARC16D0002_1900 (faac_mexico_le_training_simulators_2410k_2019). Signed 2019-03-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1081_1900_SWHARC16D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1081_1900_SWHARC16D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: faac_mexico_le_training_simulators_2410k_2019 USD 2.410m. Supports faac_mexico_le_training_simulators_2410k_2019.'
+  supports:
+  - faac_mexico_le_training_simulators_2410k_2019
+  - hunt_cycle1349
+- id: usaspending_proyectos_colombia_containers_336k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01518C0004_1900_-NONE-_-NONE- (proyectos_colombia_containers_336k_2018). Signed 2018-08-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01518C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01518C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_colombia_containers_336k_2018 USD 0.336m. Supports proyectos_colombia_containers_336k_2018.'
+  supports:
+  - proyectos_colombia_containers_336k_2018
+  - hunt_cycle1349
+- id: usaspending_estudios_colombia_tulua_warehouse_304k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0031_1900_-NONE-_-NONE- (estudios_colombia_tulua_warehouse_304k_2020). Signed 2020-02-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0031_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0031_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_tulua_warehouse_304k_2020 USD 0.304m. Supports estudios_colombia_tulua_warehouse_304k_2020.'
+  supports:
+  - estudios_colombia_tulua_warehouse_304k_2020
+  - hunt_cycle1349
+- id: usaspending_marago_colombia_tower_construction_292k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0181_1900_-NONE-_-NONE- (marago_colombia_tower_construction_292k_2017). Signed 2017-06-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0181_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0181_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: marago_colombia_tower_construction_292k_2017 USD 0.292m. Supports marago_colombia_tower_construction_292k_2017.'
+  supports:
+  - marago_colombia_tower_construction_292k_2017
+  - hunt_cycle1349
+- id: usaspending_faac_mexico_driving_simulators_2258k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC17F0030_1900_SWHARC16D0002_1900 (faac_mexico_driving_simulators_2258k_2017). Signed 2017-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0030_1900_SWHARC16D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0030_1900_SWHARC16D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: faac_mexico_driving_simulators_2258k_2017 USD 2.258m. Supports faac_mexico_driving_simulators_2258k_2017.'
+  supports:
+  - faac_mexico_driving_simulators_2258k_2017
+  - hunt_cycle1350
+- id: usaspending_edge_colombia_motorola_radio_telecom_2170k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24P0136_1900_-NONE-_-NONE- (edge_colombia_motorola_radio_telecom_2170k_2024). Signed 2024-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24P0136_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24P0136_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: edge_colombia_motorola_radio_telecom_2170k_2024 USD 2.170m. Supports edge_colombia_motorola_radio_telecom_2170k_2024.'
+  supports:
+  - edge_colombia_motorola_radio_telecom_2170k_2024
+  - hunt_cycle1350
+- id: usaspending_mfg_colombia_slab_shack_271k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12C0020_9700_-NONE-_-NONE- (mfg_colombia_slab_shack_271k_2012). Signed 2012-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0020_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0020_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mfg_colombia_slab_shack_271k_2012 USD 0.271m. Supports mfg_colombia_slab_shack_271k_2012.'
+  supports:
+  - mfg_colombia_slab_shack_271k_2012
+  - hunt_cycle1350
+- id: usaspending_proyectos_colombia_inl_bogota_construction_247k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01520C0002_1900_-NONE-_-NONE- (proyectos_colombia_inl_bogota_construction_247k_2020). Signed 2020-01-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520C0002_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520C0002_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_colombia_inl_bogota_construction_247k_2020 USD 0.247m. Supports proyectos_colombia_inl_bogota_construction_247k_2020.'
+  supports:
+  - proyectos_colombia_inl_bogota_construction_247k_2020
+  - hunt_cycle1350
+- id: usaspending_marago_colombia_caucasia_communications_tower_243k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F0936_1900_19AQMM21D0036_1900 (marago_colombia_caucasia_communications_tower_243k_2023). Signed 2023-06-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0936_1900_19AQMM21D0036_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0936_1900_19AQMM21D0036_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: marago_colombia_caucasia_communications_tower_243k_2023 USD 0.243m. Supports marago_colombia_caucasia_communications_tower_243k_2023.'
+  supports:
+  - marago_colombia_caucasia_communications_tower_243k_2023
+  - hunt_cycle1350
+- id: usaspending_virtra_mexico_le_training_simulators_1922k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19F1077_1900_SWHARC16D0003_1900 (virtra_mexico_le_training_simulators_1922k_2019). Signed 2019-03-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1077_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F1077_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_mexico_le_training_simulators_1922k_2019 USD 1.922m. Supports virtra_mexico_le_training_simulators_1922k_2019.'
+  supports:
+  - virtra_mexico_le_training_simulators_1922k_2019
+  - hunt_cycle1351
+- id: usaspending_human_tech_haiti_rigid_shelters_1876k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE26F0001_1900_19AQMM21D0007_1900 (human_tech_haiti_rigid_shelters_1876k_2025). Signed 2025-12-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE26F0001_1900_19AQMM21D0007_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE26F0001_1900_19AQMM21D0007_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: human_tech_haiti_rigid_shelters_1876k_2025 USD 1.876m. Supports human_tech_haiti_rigid_shelters_1876k_2025.'
+  supports:
+  - human_tech_haiti_rigid_shelters_1876k_2025
+  - hunt_cycle1351
+- id: usaspending_proyectos_colombia_ammo_bunkers_224k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12C0015_9700_-NONE-_-NONE- (proyectos_colombia_ammo_bunkers_224k_2012). Signed 2012-08-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0015_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0015_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_colombia_ammo_bunkers_224k_2012 USD 0.224m. Supports proyectos_colombia_ammo_bunkers_224k_2012.'
+  supports:
+  - proyectos_colombia_ammo_bunkers_224k_2012
+  - hunt_cycle1351
+- id: usaspending_proyectos_colombia_construction_199k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT10C0040_9700_-NONE-_-NONE- (proyectos_colombia_construction_199k_2010). Signed 2010-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10C0040_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10C0040_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_colombia_construction_199k_2010 USD 0.199m. Supports proyectos_colombia_construction_199k_2010.'
+  supports:
+  - proyectos_colombia_construction_199k_2010
+  - hunt_cycle1351
+- id: usaspending_mfg_colombia_construct_school_139k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12P0347_9700_-NONE-_-NONE- (mfg_colombia_construct_school_139k_2012). Signed 2012-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12P0347_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12P0347_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mfg_colombia_construct_school_139k_2012 USD 0.139m. Supports mfg_colombia_construct_school_139k_2012.'
+  supports:
+  - mfg_colombia_construct_school_139k_2012
+  - hunt_cycle1351
+- id: usaspending_airborne_colombia_system_installation_1331k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SINLEC16C0014_1900_-NONE-_-NONE- (airborne_colombia_system_installation_1331k_2016). Signed 2016-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SINLEC16C0014_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SINLEC16C0014_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: airborne_colombia_system_installation_1331k_2016 USD 1.331m. Supports airborne_colombia_system_installation_1331k_2016.'
+  supports:
+  - airborne_colombia_system_installation_1331k_2016
+  - hunt_cycle1352
+- id: usaspending_tsymmetry_colombia_cnp_servers_install_1278k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17F4799_1900_SAQMMA15D0080_1900 (tsymmetry_colombia_cnp_servers_install_1278k_2017). Signed 2017-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F4799_1900_SAQMMA15D0080_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F4799_1900_SAQMMA15D0080_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: tsymmetry_colombia_cnp_servers_install_1278k_2017 USD 1.278m. Supports tsymmetry_colombia_cnp_servers_install_1278k_2017.'
+  supports:
+  - tsymmetry_colombia_cnp_servers_install_1278k_2017
+  - hunt_cycle1352
+- id: usaspending_proyectos_colombia_bogota_inl_construction_131k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01519C0001_1900_-NONE-_-NONE- (proyectos_colombia_bogota_inl_construction_131k_2018). Signed 2018-10-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01519C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01519C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_colombia_bogota_inl_construction_131k_2018 USD 0.131m. Supports proyectos_colombia_bogota_inl_construction_131k_2018.'
+  supports:
+  - proyectos_colombia_bogota_inl_construction_131k_2018
+  - hunt_cycle1352
+- id: usaspending_mfg_colombia_bogota_ups_equipment_97k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01520P0222_1900_-NONE-_-NONE- (mfg_colombia_bogota_ups_equipment_97k_2020). Signed 2020-06-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520P0222_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520P0222_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mfg_colombia_bogota_ups_equipment_97k_2020 USD 0.097m. Supports mfg_colombia_bogota_ups_equipment_97k_2020.'
+  supports:
+  - mfg_colombia_bogota_ups_equipment_97k_2020
+  - hunt_cycle1352
+- id: usaspending_estudios_colombia_caucasia_utilities_control_room_40k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18P1831_1900_-NONE-_-NONE- (estudios_colombia_caucasia_utilities_control_room_40k_2018). Signed 2018-09-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18P1831_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18P1831_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: estudios_colombia_caucasia_utilities_control_room_40k_2018 USD 0.040m. Supports estudios_colombia_caucasia_utilities_control_room_40k_2018.'
+  supports:
+  - estudios_colombia_caucasia_utilities_control_room_40k_2018
+  - hunt_cycle1352
