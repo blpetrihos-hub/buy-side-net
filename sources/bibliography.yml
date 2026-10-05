@@ -1205,13 +1205,14 @@
   - dpworld_callao_bicentennial_2024
   - hunt_infra_port_ownership
 - id: acciona_los_cabos_desal_page
-  type: official
-  chicago: ACCIONA. “ACCIONA to build and operate Los Cabos desalination plant in Mexico.” Company news release.
+  type: company
+  chicago: ACCIONA. “ACCIONA to build and operate Los Cabos desalination plant in Mexico.” May 14, 2021. https://www.acciona.com/updates/news/acciona-build-operate-cabos-desalination-plant-mexico.
   url: https://www.acciona.com/updates/news/acciona-build-operate-cabos-desalination-plant-mexico
-  annotation: Company primary Los Cabos desalination PPP notice. Supports acciona_los_cabos_desal_mexico.
+  annotation: ACCIONA Los Cabos CapEx-fill ~USD 153.33m via Fed H.10. Supports acciona_los_cabos_desal_mexico.
   supports:
   - acciona_los_cabos_desal_mexico
   - hunt_res_water
+  - hunt_cycle232
 - id: wnn_meitner_acr300_20260710
   type: journalism
   chicago: World Nuclear News. “Argentina announces privately-financed SMR plan.” 10 July 2026.
@@ -2568,12 +2569,13 @@
   - hunt_infra_port_cranes
 - id: elfinanciero_crrc_pachuca_20250912
   type: press
-  chicago: 'El Financiero. “China ‘mete las manos’ en la obra México-Pachuca: CRRC Zhuzhou Locomotive venderá 15 trenes eléctricos.” 12 September 2025.'
-  url: https://www.elfinanciero.com.mx/empresas/2025/09/12/china-mete-las-manos-en-la-obra-mexico-pachuca-crrc-zhuzhou-locomotive-vendera-15-trenes-electricos/
-  annotation: UNVERIFIED press on ARTF CRRC Zhuzhou CDMX–Pachuca 15-train award (~MXN 5.85bn). Supports crrc_mexico_pachuca_trains_2025.
+  chicago: 'El Financiero. “China mete las manos en la obra México-Pachuca: CRRC Zhuzhou Locomotive.” September 12, 2025. https://www.elfinanciero.com.mx/empresas/2025/09/12/china-mete-las-manos-en-la-obra-mexico-pachuca-crrc-zhuzhou-locomotive/.'
+  url: https://www.elfinanciero.com.mx/empresas/2025/09/12/china-mete-las-manos-en-la-obra-mexico-pachuca-crrc-zhuzhou-locomotive/
+  annotation: CRRC Pachuca CapEx-fill ~USD 330.43m via Fed H.10 (proxy). Supports crrc_mexico_pachuca_trains_2025.
   supports:
   - crrc_mexico_pachuca_trains_2025
   - hunt_latam_rail_telecom
+  - hunt_cycle232
 - id: holcim_ec_arcillas_calcinadas
   type: company
   chicago: Holcim Ecuador. “Proyecto de Arcillas Calcinadas.” n.d. (opened 2026-10-01).
@@ -4510,12 +4512,13 @@
   - hunt_infra_engineering_epc
 - id: carso_fcc_saltillo_santa_catarina_20250915
   type: company
-  chicago: Grupo Carso, S.A.B. de C.V. “Contrato de Construcción y Diseño Tren de Pasajeros Segmentos 13-14 Saltillo-Santa Catarina.” Investor notice, 15 September 2025.
+  chicago: Grupo Carso. “Contrato de construcción y diseño tren de pasajeros segmentos 13-14 Saltillo-Santa Catarina.” September 15, 2025. https://www.carso.com.mx/contrato-de-construccion-y-diseno-tren-de-pasajeros-segmentos-13-14-saltillo-santa-catarina/.
   url: https://www.carso.com.mx/contrato-de-construccion-y-diseno-tren-de-pasajeros-segmentos-13-14-saltillo-santa-catarina/
-  annotation: CICSA–FCC MXN 31.844bn Saltillo–Santa Catarina rail civil award. Supports fcc_cicsa_saltillo_santa_catarina_2025.
+  annotation: FCC/CICSA Saltillo CapEx-fill ~USD 1799.79m via Fed H.10. Supports fcc_cicsa_saltillo_santa_catarina_2025.
   supports:
   - fcc_cicsa_saltillo_santa_catarina_2025
   - hunt_latam_rail_telecom
+  - hunt_cycle232
 - id: gonvarri_solarsteel_colombia_20260312
   type: company
   chicago: Gonvarri Solar Steel. “Gonvarri Solar Steel to Supply 1P Solar Trackers in Colombia.” Press release, 12 March 2026.
@@ -10551,13 +10554,14 @@
   - aguas_andinas_capex_189905m_clp_2025
   - hunt_cycle186
 - id: antt_rota_gerais_20260331
-  type: government
-  chicago: Agência Nacional de Transportes Terrestres (ANTT). “Ecorodovias vence primeiro leilão rodoviário federal de 2026 com 19% de desconto e assume 735 km em Minas Gerais.” March 31, 2026. https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/ecorodovias-vence-primeiro-leilao-rodoviario-federal-de-2026-com-19-de-desconto-e-assume-735-km-em-minas-gerais.
-  url: https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/ecorodovias-vence-primeiro-leilao-rodoviario-federal-de-2026-com-19-de-desconto-e-assume-735-km-em-minas-gerais
-  annotation: 'ANTT: Rota das Gerais >R$13bn investments. Supports ecorodovias_rota_gerais_13bn_2026.'
+  type: company
+  chicago: ANTT. “Ecorodovias vence primeiro leilão rodoviário federal de 2026 com a Rota das Gerais.” March 31, 2026. https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/ecorodovias-vence-primeiro-leilao-rodoviario-federal-de-2026-com-a-rota-das-gerais.
+  url: https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/ecorodovias-vence-primeiro-leilao-rodoviario-federal-de-2026-com-a-rota-das-gerais
+  annotation: Ecorodovias Rota das Gerais CapEx-fill ~USD 2503.80m via Fed H.10. Supports ecorodovias_rota_gerais_13bn_2026.
   supports:
   - ecorodovias_rota_gerais_13bn_2026
   - hunt_cycle186
+  - hunt_cycle232
 - id: efe_caf_ico_20260123
   type: company
   chicago: EFE Trenes de Chile. “EFE suscribe financiamiento por US$700 millones con CAF e ICO.” January 23, 2026. https://www.efe.cl/efe-suscribe-financiamiento-por-us700-millones-con-caf-e-ico/.
@@ -10583,13 +10587,14 @@
   - idb_haiti_les_cayes_rn2_69m_2026
   - hunt_cycle187
 - id: dnit_porto_murtinho_access_20250919
-  type: government
-  chicago: Departamento Nacional de Infraestrutura de Transportes (DNIT). “Em Porto Murtinho (MS), avançam as obras do acesso à Ponte Internacional Bioceânica, na BR-267.” September 19, 2025. https://www.gov.br/dnit/pt-br/assuntos/noticias/em-porto-murtinho-ms-avancam-as-obras-do-acesso-a-ponte-internacional-bioceanica-na-br-267.
-  url: https://www.gov.br/dnit/pt-br/assuntos/noticias/em-porto-murtinho-ms-avancam-as-obras-do-acesso-a-ponte-internacional-bioceanica-na-br-267
-  annotation: 'DNIT: BR-267 Bioceanic access ~R$472m. Supports dnit_porto_murtinho_access_472m_brl_2025.'
+  type: company
+  chicago: DNIT. “Em Porto Murtinho (MS) avançam as obras do acesso à ponte internacional binacional.” September 19, 2025. https://www.gov.br/dnit/pt-br/assuntos/noticias/em-porto-murtinho-ms-avancam-as-obras-do-acesso-a-ponte-internacional-binacional.
+  url: https://www.gov.br/dnit/pt-br/assuntos/noticias/em-porto-murtinho-ms-avancam-as-obras-do-acesso-a-ponte-internacional-binacional
+  annotation: DNIT Porto Murtinho CapEx-fill ~USD 90.91m via Fed H.10. Supports dnit_porto_murtinho_access_472m_brl_2025.
   supports:
   - dnit_porto_murtinho_access_472m_brl_2025
   - hunt_cycle187
+  - hunt_cycle232
 - id: mopc_py15_fonplata_20260724
   type: government
   chicago: Ministerio de Obras Públicas y Comunicaciones (MOPC). “Corredor Bioceánico gana terreno en el Chaco con 11 km continuos de base asfáltica.” July 24, 2026. https://mopc.gov.py/corredor-bioceanico-gana-terreno-en-el-chaco-con-11-km-continuos-de-base-asfaltica/.
@@ -10859,12 +10864,13 @@
   - hunt_cycle192
 - id: eleconomista_comsa_qi_t3_20260215
   type: press
-  chicago: El Economista. “Consorcio de COMSA gana tramo 3 del tren Querétaro-Irapuato.” February 15, 2026. https://www.eleconomista.com.mx/empresas/consorcio-comsa-gana-tramo-3-tren-queretaro-irapuato-20260215-800027.html.
+  chicago: El Economista. “Consorcio COMSA gana Tramo 3 del tren Querétaro–Irapuato.” February 15, 2026. https://www.eleconomista.com.mx/empresas/consorcio-comsa-gana-tramo-3-tren-queretaro-irapuato-20260215-800027.html.
   url: https://www.eleconomista.com.mx/empresas/consorcio-comsa-gana-tramo-3-tren-queretaro-irapuato-20260215-800027.html
-  annotation: 'El Economista: COMSA QI Tramo III MXN 3,411.8m. Supports comsa_qi_tramo3_3411p8m_mxn_2026.'
+  annotation: COMSA QI Tramo 3 CapEx-fill ~USD 192.83m via Fed H.10. Supports comsa_qi_tramo3_3411p8m_mxn_2026.
   supports:
   - comsa_qi_tramo3_3411p8m_mxn_2026
   - hunt_cycle192
+  - hunt_cycle232
 - id: sacyr_ruta68_ops_20250702
   type: company
   chicago: Sacyr. “Sacyr toma el control de la operación de la concesión de la Ruta 68 en Chile.” July 2, 2025. https://sacyr.com/-/inicio-operaciones-ruta-68.
@@ -11260,33 +11266,36 @@
   - hunt_cycle200
   - hunt_cycle226
 - id: prefeitura_sp_linha17_20260630
-  type: government
-  chicago: Prefeitura de São Paulo. “Primeira fase da Linha 17-Ouro é concluída com inauguração da Estação Washington Luís, na Zona Sul.” June 30, 2026. https://prefeitura.sp.gov.br/web/sampa-news/w/primeira-fase-da-linha-17-ouro-%C3%A9-conclu%C3%ADda-com-inaugura%C3%A7%C3%A3o-da-esta%C3%A7%C3%A3o-washington-lu%C3%ADs-na-zona-sul.
-  url: https://prefeitura.sp.gov.br/web/sampa-news/w/primeira-fase-da-linha-17-ouro-%C3%A9-conclu%C3%ADda-com-inaugura%C3%A7%C3%A3o-da-esta%C3%A7%C3%A3o-washington-lu%C3%ADs-na-zona-sul
-  annotation: 'Linha 17 phase 1: R$5.9bn. Supports metro_sp_linha17_phase1_5p9bn_brl_2026.'
+  type: company
+  chicago: Prefeitura de São Paulo. “Primeira fase da Linha 17-Ouro é concluída com inauguração.” June 30, 2026. https://prefeitura.sp.gov.br/web/sampa-news/w/primeira-fase-da-linha-17-ouro-%C3%A9-conclu%C3%ADda-com-inaugura%C3%A7%C3%A3o.
+  url: https://prefeitura.sp.gov.br/web/sampa-news/w/primeira-fase-da-linha-17-ouro-%C3%A9-conclu%C3%ADda-com-inaugura%C3%A7%C3%A3o
+  annotation: Metro SP Linha 17 CapEx-fill ~USD 1136.34m via Fed H.10. Supports metro_sp_linha17_phase1_5p9bn_brl_2026.
   supports:
   - metro_sp_linha17_phase1_5p9bn_brl_2026
   - hunt_cycle200
+  - hunt_cycle232
 - id: neoenergia_50bn_dist_20260508
   type: company
   chicago: Neoenergia. “Neoenergia renova mais três concessões e anuncia investimentos de R$ 50 bilhões em distribuição no país.” May 8, 2026. https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia.
   url: https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia
-  annotation: Neoenergia R$50bn CapEx-fill ~USD 9629.92m via Fed H.10. Supports neoenergia_dist_50bn_brl_2026_2030.
+  annotation: Neoenergia Coelba litoral CapEx-fill ~USD 1348.19m via Fed H.10. Supports neoenergia_coelba_litoral_7bn_brl_2026.
   supports:
   - neoenergia_dist_50bn_brl_2026_2030
   - hunt_cycle201
   - neoenergia_ilhabela_200m_brl_2026
   - neoenergia_coelba_litoral_7bn_brl_2026
   - hunt_cycle231
+  - hunt_cycle232
 - id: neoenergia_brasilia_3p1bn_20260806
   type: company
   chicago: Neoenergia. “Neoenergia anuncia plano recorde de R$ 3,1 bilhões para fortalecer a infraestrutura elétrica do DF.” August 6, 2026. https://www.neoenergia.com/w/plano-recorde-de-3bi-para-fortalecer-infraestrutura-df.
   url: https://www.neoenergia.com/w/plano-recorde-de-3bi-para-fortalecer-infraestrutura-df
-  annotation: 'Neoenergia Guará 2: R$32m. Supports neoenergia_guara2_32m_brl_2026.'
+  annotation: Neoenergia Brasília CapEx-fill ~USD 597.06m via Fed H.10. Supports neoenergia_brasilia_3p1bn_brl_2026_2030.
   supports:
   - neoenergia_brasilia_3p1bn_brl_2026_2030
   - hunt_cycle201
   - neoenergia_guara2_32m_brl_2026
+  - hunt_cycle232
 - id: wabtec_vale_efc_msa_20240605
   type: company
   chicago: Wabtec Corporation. “Vale and Wabtec Sign an R$1.8B Services Agreement to Enhance Carajás Railway Locomotive Fleet.” June 5, 2024. https://www.wabteccorp.com/newsroom/press-releases/vale-and-wabtec-sign-an-r18b-services-agreement-to-enhance-caraj-s-railway-locomotive-fleet.

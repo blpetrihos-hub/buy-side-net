@@ -1,10 +1,10 @@
 {
   "id": "neoenergia_coelba_litoral_7bn_brl_2026",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "neoenergia_50bn_dist_20260508",
   "url": "https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia",
   "price_year": "2026",
   "evidence": "documented",
-  "quote": "O projeto, de mais de R$ 7 bilhões, contempla a implantação de 18 novas subestações e a modernização e ampliação de outras 10 unidades, com incorporação de tecnologias avançadas e automação.",
-  "note": "Opened Neoenergia Portuguese company primary 2026-10-04; >R$7bn coastal package confirmed."
+  "quote": "O projeto, de mais de R$ 7 bilhões, contempla a implantação de 18 novas subestações e a modernização e ampliação de outras 10 unidades",
+  "note": "Opened Neoenergia Portuguese; >R$7bn Bahia litoral package confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
