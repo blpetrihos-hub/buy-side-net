@@ -12524,12 +12524,14 @@
   - hunt_cycle255
 - id: cemig_1s26_results_presentation_20260630
   type: company
-  chicago: Cemig. “Teleconferência / Apresentação de Resultados” (1S26 / 2T26). June 30, 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
+  chicago: Companhia Energética de Minas Gerais — Cemig. “Resultados 1S26 / 2T26” presentation. 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
   url: https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf
-  annotation: Cemig 1S26 NEW R$3.28bn ~USD 631.73m via Fed H.10. Supports cemig_1s26_capex_3p28bn_brl.
+  annotation: Cemig 1S26/2T26 CapEx via Fed H.10. Supports cemig_1s26_capex_3p28bn_brl; cemig_2t26_capex_1805p3m_brl.
   supports:
   - cemig_1s26_capex_3p28bn_brl
   - hunt_cycle256
+  - cemig_2t26_capex_1805p3m_brl
+  - hunt_cycle262
 - id: votorantim_cimentos_2t26_results_2026
   type: company
   chicago: Votorantim Cimentos. “Nossos resultados financeiros no segundo trimestre de 2026.” 2026. https://www.votorantimcimentos.com.br/noticia/nossos-resultados-financeiros-no-segundo-trimestre-de-2026/.
@@ -12686,3 +12688,21 @@
   supports:
   - gerdau_2q26_brazil_capex_800m_brl
   - hunt_cycle261
+- id: ecorodovias_2t26_release_2026
+  type: company
+  chicago: EcoRodovias Infraestrutura e Logística S.A. “Release de Resultados 2T26.” 2026. https://investidor10.com.br/acoes/link_comunicado/ECOR3/46416/.
+  url: https://investidor10.com.br/acoes/link_comunicado/ECOR3/46416/
+  annotation: Ecorodovias 2T26/1S26 CapEx via Fed H.10. Supports ecorodovias_2t26_capex_1547p2m_brl; ecorodovias_1s26_capex_2520p9m_brl.
+  supports:
+  - ecorodovias_2t26_capex_1547p2m_brl
+  - hunt_cycle262
+  - ecorodovias_1s26_capex_2520p9m_brl
+- id: aegea_2t26_6m26_release_mziq
+  type: company
+  chicago: Aegea Saneamento e Participações S.A. “Aegea 2T26 & 6M26.” August 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
+  url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
+  annotation: Aegea ecosystem 2T26/6M26 CapEx via Fed H.10. Supports aegea_2t26_ecosystem_capex_1828m_brl; aegea_6m26_ecosystem_capex_3407m_brl.
+  supports:
+  - aegea_2t26_ecosystem_capex_1828m_brl
+  - hunt_cycle262
+  - aegea_6m26_ecosystem_capex_3407m_brl
