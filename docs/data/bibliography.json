@@ -49614,5 +49614,275 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_akj_mexico_roof_80k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5326C0035_1900_-NONE-_-NONE- (AKJ Mexico roof). Signed 2026-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5326C0035_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5326C0035_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: AKJ Mexico roof USD 0.080m. Supports akj_mexico_roof_80k_2026.",
+    "supports": [
+      "akj_mexico_roof_80k_2026",
+      "hunt_cycle1032"
+    ],
+    "map_supports": [
+      "akj_mexico_roof_80k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_acct_peru_warehouse_80k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810P0372_9700_-NONE-_-NONE- (ACCT Peru warehouse). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0372_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0372_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ACCT Peru warehouse USD 0.080m. Supports acct_peru_warehouse_80k_2010.",
+    "supports": [
+      "acct_peru_warehouse_80k_2010",
+      "hunt_cycle1032"
+    ],
+    "map_supports": [
+      "acct_peru_warehouse_80k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_constecoin_ecuador_generator_platforms_80k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC3025P0426_1900_-NONE-_-NONE- (Constecoin generator platforms). Signed 2025-05-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3025P0426_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3025P0426_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Constecoin generator platforms USD 0.080m. Supports constecoin_ecuador_generator_platforms_80k_2025.",
+    "supports": [
+      "constecoin_ecuador_generator_platforms_80k_2025",
+      "hunt_cycle1032"
+    ],
+    "map_supports": [
+      "constecoin_ecuador_generator_platforms_80k_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_siegel_jamaica_roof_ae_79k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F0433_1900_19AQMM19D0046_1900 (Siegel Jamaica roof A&E). Signed 2020-01-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0433_1900_19AQMM19D0046_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0433_1900_19AQMM19D0046_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Siegel Jamaica roof A&E USD 0.079m. Supports siegel_jamaica_roof_ae_79k_2020.",
+    "supports": [
+      "siegel_jamaica_roof_ae_79k_2020",
+      "hunt_cycle1032"
+    ],
+    "map_supports": [
+      "siegel_jamaica_roof_ae_79k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_dip_colombia_hsi_renovation_79k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02026C0006_1900_-NONE-_-NONE- (DIP HSI renovation). Signed 2026-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02026C0006_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02026C0006_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: DIP HSI renovation USD 0.079m. Supports dip_colombia_hsi_renovation_79k_2026.",
+    "supports": [
+      "dip_colombia_hsi_renovation_79k_2026",
+      "hunt_cycle1032"
+    ],
+    "map_supports": [
+      "dip_colombia_hsi_renovation_79k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_cmr_renovation_79k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53015C0002_1900_-NONE-_-NONE- (Mexico CMR renovation). Signed 2015-02-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53015C0002_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53015C0002_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico CMR renovation USD 0.079m. Supports misc_mexico_cmr_renovation_79k_2015.",
+    "supports": [
+      "misc_mexico_cmr_renovation_79k_2015",
+      "hunt_cycle1033"
+    ],
+    "map_supports": [
+      "misc_mexico_cmr_renovation_79k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_chang_nejapa_fence_79k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0336_9700_-NONE-_-NONE- (Chang Nejapa fence). Signed 2011-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0336_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0336_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Chang Nejapa fence USD 0.079m. Supports chang_nejapa_fence_79k_2011.",
+    "supports": [
+      "chang_nejapa_fence_79k_2011",
+      "hunt_cycle1033"
+    ],
+    "map_supports": [
+      "chang_nejapa_fence_79k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_juarez_consulate_renovation_79k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11517M0020_1900_-NONE-_-NONE- (Juárez consulate renovation). Signed 2016-10-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11517M0020_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11517M0020_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Juárez consulate renovation USD 0.079m. Supports misc_juarez_consulate_renovation_79k_2016.",
+    "supports": [
+      "misc_juarez_consulate_renovation_79k_2016",
+      "hunt_cycle1033"
+    ],
+    "map_supports": [
+      "misc_juarez_consulate_renovation_79k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_abb_ecuador_switchgear_77k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7523P1678_1900_-NONE-_-NONE- (ABB Ecuador switchgear). Signed 2023-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7523P1678_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7523P1678_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: ABB Ecuador switchgear USD 0.077m. Supports abb_ecuador_switchgear_77k_2023.",
+    "supports": [
+      "abb_ecuador_switchgear_77k_2023",
+      "hunt_cycle1033"
+    ],
+    "map_supports": [
+      "abb_ecuador_switchgear_77k_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_store_q_visitor_parking_79k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0720P0254_1900_-NONE-_-NONE- (Store Q visitor parking). Signed 2020-02-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0720P0254_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0720P0254_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Store Q visitor parking USD 0.079m. Supports store_q_visitor_parking_79k_2020.",
+    "supports": [
+      "store_q_visitor_parking_79k_2020",
+      "hunt_cycle1033"
+    ],
+    "map_supports": [
+      "store_q_visitor_parking_79k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_romero_bejuco_restrooms_78k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0024_9700_-NONE-_-NONE- (Romero Bejuco restrooms). Signed 2011-06-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0024_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0024_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Romero Bejuco restrooms USD 0.078m. Supports romero_bejuco_restrooms_78k_2011.",
+    "supports": [
+      "romero_bejuco_restrooms_78k_2011",
+      "hunt_cycle1034"
+    ],
+    "map_supports": [
+      "romero_bejuco_restrooms_78k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_treyco_colombia_mezzanine_78k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02019P1436_1900_-NONE-_-NONE- (Treyco mezzanine). Signed 2019-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02019P1436_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02019P1436_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Treyco mezzanine USD 0.078m. Supports treyco_colombia_mezzanine_78k_2019.",
+    "supports": [
+      "treyco_colombia_mezzanine_78k_2019",
+      "hunt_cycle1034"
+    ],
+    "map_supports": [
+      "treyco_colombia_mezzanine_78k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seal_haiti_roof_ae_73k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F2827_1900_19AQMM19D0048_1900 (Seal Haiti roof A&E). Signed 2023-09-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2827_1900_19AQMM19D0048_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2827_1900_19AQMM19D0048_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seal Haiti roof A&E USD 0.073m. Supports seal_haiti_roof_ae_73k_2023.",
+    "supports": [
+      "seal_haiti_roof_ae_73k_2023",
+      "hunt_cycle1034"
+    ],
+    "map_supports": [
+      "seal_haiti_roof_ae_73k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_waite_peru_roof_pavers_70k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014M0741_1900_-NONE-_-NONE- (Waite Peru roof pavers). Signed 2014-03-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0741_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0741_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Waite Peru roof pavers USD 0.070m. Supports waite_peru_roof_pavers_70k_2014.",
+    "supports": [
+      "waite_peru_roof_pavers_70k_2014",
+      "hunt_cycle1034"
+    ],
+    "map_supports": [
+      "waite_peru_roof_pavers_70k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eaton_belize_electrical_61k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BH2019P0316_1900_-NONE-_-NONE- (Eaton Belize electrical). Signed 2019-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BH2019P0316_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BH2019P0316_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eaton Belize electrical USD 0.061m. Supports eaton_belize_electrical_61k_2019.",
+    "supports": [
+      "eaton_belize_electrical_61k_2019",
+      "hunt_cycle1034"
+    ],
+    "map_supports": [
+      "eaton_belize_electrical_61k_2019"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
