@@ -49344,5 +49344,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_olc_peru_ups_94k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50017C0043_1900_-NONE-_-NONE- (OLC Peru UPS). Signed 2017-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50017C0043_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50017C0043_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: OLC Peru UPS USD 0.094m. Supports olc_peru_ups_94k_2017.",
+    "supports": [
+      "olc_peru_ups_94k_2017",
+      "hunt_cycle1029"
+    ],
+    "map_supports": [
+      "olc_peru_ups_94k_2017"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_fg_colombia_conat_generator_92k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01522P0431_1900_-NONE-_-NONE- (FG CONAT generator). Signed 2022-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01522P0431_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01522P0431_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: FG CONAT generator USD 0.092m. Supports fg_colombia_conat_generator_92k_2022.",
+    "supports": [
+      "fg_colombia_conat_generator_92k_2022",
+      "hunt_cycle1029"
+    ],
+    "map_supports": [
+      "fg_colombia_conat_generator_92k_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_lincoln_colombia_generators_90k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15011M1088_1900_-NONE-_-NONE- (Lincoln Colombia generators). Signed 2011-06-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15011M1088_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15011M1088_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Lincoln Colombia generators USD 0.090m. Supports lincoln_colombia_generators_90k_2011.",
+    "supports": [
+      "lincoln_colombia_generators_90k_2011",
+      "hunt_cycle1029"
+    ],
+    "map_supports": [
+      "lincoln_colombia_generators_90k_2011"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_comayagua_generator_89k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80017M0718_1900_-NONE-_-NONE- (Comayagua generator). Signed 2017-07-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80017M0718_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80017M0718_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Comayagua generator USD 0.089m. Supports misc_comayagua_generator_89k_2017.",
+    "supports": [
+      "misc_comayagua_generator_89k_2017",
+      "hunt_cycle1029"
+    ],
+    "map_supports": [
+      "misc_comayagua_generator_89k_2017"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_sumba_jamaica_guardrails_89k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3722C0009_1900_-NONE-_-NONE- (Sumba Jamaica guardrails). Signed 2022-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3722C0009_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3722C0009_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Sumba Jamaica guardrails USD 0.089m. Supports sumba_jamaica_guardrails_89k_2022.",
+    "supports": [
+      "sumba_jamaica_guardrails_89k_2022",
+      "hunt_cycle1029"
+    ],
+    "map_supports": [
+      "sumba_jamaica_guardrails_89k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mh_cr_asphalt_89k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8019C0006_1900_-NONE-_-NONE- (MH CR asphalt). Signed 2019-08-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8019C0006_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8019C0006_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: MH CR asphalt USD 0.089m. Supports mh_cr_asphalt_89k_2019.",
+    "supports": [
+      "mh_cr_asphalt_89k_2019",
+      "hunt_cycle1030"
+    ],
+    "map_supports": [
+      "mh_cr_asphalt_89k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_atlas_haiti_semiramis_89k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521BC1400016_7200_AID521E1200002_7200 (Atlas Semiramis). Signed 2014-07-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1400016_7200_AID521E1200002_7200/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1400016_7200_AID521E1200002_7200/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Atlas Semiramis USD 0.089m. Supports atlas_haiti_semiramis_89k_2014.",
+    "supports": [
+      "atlas_haiti_semiramis_89k_2014",
+      "hunt_cycle1030"
+    ],
+    "map_supports": [
+      "atlas_haiti_semiramis_89k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_barbados_chiller_coils_88k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21011M0646_1900_-NONE-_-NONE- (Barbados chiller coils). Signed 2011-12-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21011M0646_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21011M0646_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Barbados chiller coils USD 0.088m. Supports misc_barbados_chiller_coils_88k_2011.",
+    "supports": [
+      "misc_barbados_chiller_coils_88k_2011",
+      "hunt_cycle1030"
+    ],
+    "map_supports": [
+      "misc_barbados_chiller_coils_88k_2011"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_store_q_warehouse_parking_88k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0726P0640_1900_-NONE-_-NONE- (Store Q warehouse parking). Signed 2026-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0726P0640_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0726P0640_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Store Q warehouse parking USD 0.088m. Supports store_q_warehouse_parking_88k_2026.",
+    "supports": [
+      "store_q_warehouse_parking_88k_2026",
+      "hunt_cycle1030"
+    ],
+    "map_supports": [
+      "store_q_warehouse_parking_88k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cummins_belize_generator_86k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBH20013M0036_1900_-NONE-_-NONE- (Cummins Belize generator). Signed 2012-12-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20013M0036_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20013M0036_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Cummins Belize generator USD 0.086m. Supports cummins_belize_generator_86k_2012.",
+    "supports": [
+      "cummins_belize_generator_86k_2012",
+      "hunt_cycle1030"
+    ],
+    "map_supports": [
+      "cummins_belize_generator_86k_2012"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_panama_bathrooms_90k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07010M0496_1900_-NONE-_-NONE- (Panama CMR bathrooms). Signed 2010-07-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07010M0496_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07010M0496_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Panama CMR bathrooms USD 0.090m. Supports misc_panama_bathrooms_90k_2010.",
+    "supports": [
+      "misc_panama_bathrooms_90k_2010",
+      "hunt_cycle1031"
+    ],
+    "map_supports": [
+      "misc_panama_bathrooms_90k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_urbanus_panama_asphalt_82k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0719P0894_1900_-NONE-_-NONE- (Urbanus Panama asphalt). Signed 2019-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0894_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0894_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Urbanus Panama asphalt USD 0.082m. Supports urbanus_panama_asphalt_82k_2019.",
+    "supports": [
+      "urbanus_panama_asphalt_82k_2019",
+      "hunt_cycle1031"
+    ],
+    "map_supports": [
+      "urbanus_panama_asphalt_82k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cummins_nicaragua_generators_78k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SNU70012F0003_1900_GS07F9004D_4730 (Cummins Nicaragua generators). Signed 2012-01-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70012F0003_1900_GS07F9004D_4730/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70012F0003_1900_GS07F9004D_4730/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Cummins Nicaragua generators USD 0.078m. Supports cummins_nicaragua_generators_78k_2012.",
+    "supports": [
+      "cummins_nicaragua_generators_78k_2012",
+      "hunt_cycle1031"
+    ],
+    "map_supports": [
+      "cummins_nicaragua_generators_78k_2012"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_cummins_belize_mlo_generators_86k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBH20012M0313_1900_-NONE-_-NONE- (Cummins Belize MLO generators). Signed 2012-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20012M0313_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20012M0313_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Cummins Belize MLO generators USD 0.086m. Supports cummins_belize_mlo_generators_86k_2012.",
+    "supports": [
+      "cummins_belize_mlo_generators_86k_2012",
+      "hunt_cycle1031"
+    ],
+    "map_supports": [
+      "cummins_belize_mlo_generators_86k_2012"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_machinery_bahamas_generator_92k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL18P0808_9700_-NONE-_-NONE- (Machinery Bahamas generator). Signed 2018-05-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL18P0808_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL18P0808_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Machinery Bahamas generator USD 0.092m. Supports machinery_bahamas_generator_92k_2018.",
+    "supports": [
+      "machinery_bahamas_generator_92k_2018",
+      "hunt_cycle1031"
+    ],
+    "map_supports": [
+      "machinery_bahamas_generator_92k_2018"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

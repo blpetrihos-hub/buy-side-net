@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1028
+cycle: 1031
 remote: present
-active_layer: infrastructure
-active_subcategory: building_materials
-next_query: Cycle 1029 shuffle_seed=20262029; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us702/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.07–0.09m (OLC Peru UPS; Comayagua generator; Urbanus Panama asphalt; PAN CMR bathrooms; Cummins Belize/Nicaragua residential generators; Lincoln COL generators). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1029 shuffled_order)
+active_layer: energy
+active_subcategory: power_plants_grid
+next_query: Cycle 1032 shuffle_seed=20262032; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us706/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.07–0.08m. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1032 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1028) ===
-# Filled this batch: Ecuador×building_materials/power_plants_grid NEW×2 other (Nobelcons Lita helipad; Bolaños A/C); Brazil×building_materials NEW×2 other (DCMR renovation; GO fences); Haiti×power_plants_grid/building_materials NEW×2 us/other (Cruise generators; Atlas Darius Denis); Guatemala×power_plants_grid NEW×1 other; Honduras×building_materials/power_plants_grid NEW×2 other/us (roofs; Cummins generators); Mexico×power_plants_grid/engineering_epc NEW×2 other/us (Juárez generator; Merrick Reynosa A&E); Colombia×bridges_roads/building_materials NEW×2 other/us (parking asphalt; HCS force protection); Panama×building_materials NEW×1 other (WKL fence); Costa Rica×bridges_roads NEW×1 other (parking pavement).
+# === Country×subcategory sweep cells touched (session continuing from 1031) ===
+# Filled this batch: Peru×power_plants_grid NEW×1 other (OLC UPS); Colombia×power_plants_grid NEW×2 other/us (FG CONAT; Lincoln generators); Honduras×power_plants_grid NEW×1 other (Comayagua); Jamaica×building_materials NEW×1 other (Sumba guardrails); Costa Rica×bridges_roads NEW×1 other (MH asphalt); Haiti×building_materials NEW×1 other (Atlas Semiramis); Barbados×power_plants_grid NEW×1 other (chiller coils); Panama×bridges_roads/building_materials NEW×3 other (Store Q parking; CMR bathrooms; Urbanus asphalt); Belize×power_plants_grid NEW×2 us (Cummins residential; Cummins MLO); Nicaragua×power_plants_grid NEW×1 us (Cummins residential); Bahamas×power_plants_grid NEW×1 other (Machinery Tradewinds).
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank this batch.
-# ≥1/3 U.S. hunt budget spent (4 US CapEx this batch — Cruise, HCS, Cummins, Merrick).
+# ≥1/3 U.S. hunt budget spent (4 US CapEx this batch — Lincoln, Cummins Belize×2, Cummins Nicaragua).
+
+# === Cycle 1031 (seed 20262031) ===
+# Shuffled: balsa, solar, port_cranes, lithium, rail, graphite, other_renewables, power_plants_grid, water, building_materials, engineering_epc, port_ownership, bridges_roads, wind, nickel, fission_smr, niobium, copper.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   misc_panama_bathrooms_90k_2010 urbanus_panama_asphalt_82k_2019 cummins_nicaragua_generators_78k_2012 cummins_belize_mlo_generators_86k_2012 machinery_bahamas_generator_92k_2018.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: USASpending sub-$0.08m; thin; company CapEx.
+# Active after cycle 1031: us706 / prc410 / allied1562 / other6179 (n=8857).
+
+# === Cycle 1030 (seed 20262030) ===
+# Shuffled: fission_smr, graphite, building_materials, water, bridges_roads, nickel, niobium, lithium, other_renewables, balsa, port_ownership, engineering_epc, power_plants_grid, wind, port_cranes, copper, solar, rail.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   mh_cr_asphalt_89k_2019 atlas_haiti_semiramis_89k_2014 misc_barbados_chiller_coils_88k_2011 store_q_warehouse_parking_88k_2026 cummins_belize_generator_86k_2012.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Panama bathrooms; Urbanus; Cummins Nicaragua; Cummins Belize MLO; Machinery Bahamas; thin.
+# Active after cycle 1030: us704 / prc410 / allied1562 / other6176 (n=8852).
+
+# === Cycle 1029 (seed 20262029) ===
+# Shuffled: lithium, power_plants_grid, solar, nickel, port_ownership, other_renewables, building_materials, niobium, engineering_epc, fission_smr, wind, balsa, graphite, bridges_roads, copper, water, port_cranes, rail.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   olc_peru_ups_94k_2017 fg_colombia_conat_generator_92k_2022 lincoln_colombia_generators_90k_2011 misc_comayagua_generator_89k_2017 sumba_jamaica_guardrails_89k_2022.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: MH asphalt; Atlas Semiramis; Barbados chiller; Store Q parking; Cummins Belize; thin.
+# Active after cycle 1029: us703 / prc410 / allied1562 / other6172 (n=8847).
 
 # === Cycle 1028 (seed 20262028) ===
 # Shuffled: graphite, port_cranes, lithium, rail, bridges_roads, water, copper, port_ownership, wind, fission_smr, other_renewables, nickel, power_plants_grid, building_materials, niobium, engineering_epc, solar, balsa.
