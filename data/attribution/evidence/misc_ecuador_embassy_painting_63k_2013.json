@@ -1,0 +1,10 @@
+{
+  "id": "misc_ecuador_embassy_painting_63k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_ecuador_embassy_painting_63k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75013C0004_1900_-NONE-_-NONE-/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF 1900-L-1/1-PR2507819PAINTING SERV EMBASSY INST AND RESIDENCES",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 62912.83; date_signed 2013-07-26."
+}

@@ -28050,3 +28050,138 @@
   supports:
   - misc_uruguay_cmr_parking_62k_2023
   - hunt_cycle1070
+- id: usaspending_hcs_honduras_jlsa_renovations_59k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0010_9700_W9127814D0057_9700 (HCS Honduras JLSA renovations). Signed 2016-08-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127814D0057_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127814D0057_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HCS Honduras JLSA renovations USD 0.059m. Supports hcs_honduras_jlsa_renovations_59k_2016.'
+  supports:
+  - hcs_honduras_jlsa_renovations_59k_2016
+  - hunt_cycle1071
+- id: usaspending_patterson_pump_mexico_juarez_sprinkler_57k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11511M0246_1900_-NONE-_-NONE- (Patterson Pump Juarez sprinkler). Signed 2011-03-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11511M0246_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11511M0246_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Patterson Pump Juarez sprinkler USD 0.057m. Supports patterson_pump_mexico_juarez_sprinkler_57k_2011.'
+  supports:
+  - patterson_pump_mexico_juarez_sprinkler_57k_2011
+  - hunt_cycle1071
+- id: usaspending_misc_ecuador_embassy_painting_63k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC75013C0004_1900_-NONE-_-NONE- (Ecuador embassy painting). Signed 2013-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75013C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC75013C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador embassy painting USD 0.063m. Supports misc_ecuador_embassy_painting_63k_2013.'
+  supports:
+  - misc_ecuador_embassy_painting_63k_2013
+  - hunt_cycle1071
+- id: usaspending_misc_mexico_puebla_asphalt_63k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53012M0742_1900_-NONE-_-NONE- (Mexico Puebla asphalt). Signed 2012-04-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53012M0742_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53012M0742_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Mexico Puebla asphalt USD 0.063m. Supports misc_mexico_puebla_asphalt_63k_2012.'
+  supports:
+  - misc_mexico_puebla_asphalt_63k_2012
+  - hunt_cycle1071
+- id: usaspending_misc_colombia_tulua_aravi_building_63k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15012M1008_1900_-NONE-_-NONE- (Colombia Tulua ARAVI). Signed 2012-04-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15012M1008_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15012M1008_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia Tulua ARAVI USD 0.063m. Supports misc_colombia_tulua_aravi_building_63k_2012.'
+  supports:
+  - misc_colombia_tulua_aravi_building_63k_2012
+  - hunt_cycle1071
+- id: usaspending_osc_mexico_hvac_replacement_57k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA521517P8019_9700_-NONE-_-NONE- (OSC Mexico HVAC). Signed 2017-07-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA521517P8019_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA521517P8019_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: OSC Mexico HVAC USD 0.057m. Supports osc_mexico_hvac_replacement_57k_2017.'
+  supports:
+  - osc_mexico_hvac_replacement_57k_2017
+  - hunt_cycle1072
+- id: usaspending_applied_security_mexico_tss_install_57k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1283_1900_19AQMM19D0002_1900 (Applied Security Mexico TSS install). Signed 2022-03-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1283_1900_19AQMM19D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1283_1900_19AQMM19D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Applied Security Mexico TSS install USD 0.057m. Supports applied_security_mexico_tss_install_57k_2022.'
+  supports:
+  - applied_security_mexico_tss_install_57k_2022
+  - hunt_cycle1072
+- id: usaspending_tecniservicios_costa_rica_lagos_patio_62k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8024P0820_1900_-NONE-_-NONE- (Tecniservicios Lagos patio). Signed 2024-06-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8024P0820_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8024P0820_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Tecniservicios Lagos patio USD 0.062m. Supports tecniservicios_costa_rica_lagos_patio_62k_2024.'
+  supports:
+  - tecniservicios_costa_rica_lagos_patio_62k_2024
+  - hunt_cycle1072
+- id: usaspending_misc_dr_2demarzo_dormitories_62k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86011M0785_1900_-NONE-_-NONE- (DR 2 de Marzo dorms). Signed 2011-04-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M0785_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M0785_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: DR 2 de Marzo dorms USD 0.062m. Supports misc_dr_2demarzo_dormitories_62k_2011.'
+  supports:
+  - misc_dr_2demarzo_dormitories_62k_2011
+  - hunt_cycle1072
+- id: usaspending_misc_haiti_water_well_61k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0016_9700_-NONE-_-NONE- (Haiti water well). Signed 2010-04-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0016_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0016_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Haiti water well USD 0.061m. Supports misc_haiti_water_well_61k_2010.'
+  supports:
+  - misc_haiti_water_well_61k_2010
+  - hunt_cycle1072
+- id: usaspending_hmt_peru_chancery_roof_fans_58k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014M0867_1900_-NONE-_-NONE- (HMT Peru chancery roof fans). Signed 2014-05-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0867_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0867_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HMT Peru chancery roof fans USD 0.058m. Supports hmt_peru_chancery_roof_fans_58k_2014.'
+  supports:
+  - hmt_peru_chancery_roof_fans_58k_2014
+  - hunt_cycle1073
+- id: usaspending_brown_campbell_panama_gamboa_dock_grating_57k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33312920P00442447_3300_-NONE-_-NONE- (Brown-Campbell Gamboa dock grating). Signed 2020-03-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33312920P00442447_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33312920P00442447_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brown-Campbell Gamboa dock grating USD 0.057m. Supports brown_campbell_panama_gamboa_dock_grating_57k_2020.'
+  supports:
+  - brown_campbell_panama_gamboa_dock_grating_57k_2020
+  - hunt_cycle1073
+- id: usaspending_egarco_ecuador_msgq_cabinets_61k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7522C0006_1900_-NONE-_-NONE- (Egarco Ecuador MSGQ cabinets). Signed 2022-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0006_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0006_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Egarco Ecuador MSGQ cabinets USD 0.061m. Supports egarco_ecuador_msgq_cabinets_61k_2022.'
+  supports:
+  - egarco_ecuador_msgq_cabinets_61k_2022
+  - hunt_cycle1073
+- id: usaspending_misc_mexico_safety_metal_doors_61k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX7224P0180_1900_-NONE-_-NONE- (Mexico safety metal doors). Signed 2024-05-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX7224P0180_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX7224P0180_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Mexico safety metal doors USD 0.061m. Supports misc_mexico_safety_metal_doors_61k_2024.'
+  supports:
+  - misc_mexico_safety_metal_doors_61k_2024
+  - hunt_cycle1073
+- id: usaspending_ibarra_el_salvador_windows_doors_62k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM18P0040_9700_-NONE-_-NONE- (Ibarra El Salvador windows/doors). Signed 2018-05-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM18P0040_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM18P0040_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ibarra El Salvador windows/doors USD 0.062m. Supports ibarra_el_salvador_windows_doors_62k_2018.'
+  supports:
+  - ibarra_el_salvador_windows_doors_62k_2018
+  - hunt_cycle1073
