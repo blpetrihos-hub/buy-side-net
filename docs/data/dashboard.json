@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6848,
+    "n_rows": 6856,
     "counts": {
-      "total": 6848,
-      "active": 6649,
+      "total": 6856,
+      "active": 6657,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6575,
-      "on_map": 6481
+      "documented": 6583,
+      "on_map": 6489
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2533,
-        "n": 2934
+        "allied": 2541,
+        "n": 2942
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 312627348259.76996,
-        "allied_n": 2462
+        "allied": 319884849213.31995,
+        "allied_n": 2470
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5416,
-        "n": 5671
+        "allied": 5424,
+        "n": 5679
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 456496054235.5696,
-        "allied_n": 5335
+        "allied": 463753555189.11957,
+        "allied_n": 5343
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2399
+          "allied": 2407
         },
         "infrastructure": {
           "us": 68,
@@ -7837,7 +7837,15 @@
       "axia_consol_ambiental_infra_fy2022_411m_brl",
       "axia_consol_empresas_investidas_fy2022_1679m_brl",
       "axia_consol_eletronuclear_fy2022_465m_brl",
-      "axia_consol_total_fy2022_5639m_brl"
+      "axia_consol_total_fy2022_5639m_brl",
+      "axia_tx_growth_leilao_012023_787m_brl_2t26",
+      "axia_tx_growth_leilao_012024_5593m_brl_2t26",
+      "axia_tx_growth_leilao_042025_1630m_brl_2t26",
+      "axia_tx_growth_leilao_012026_668m_brl_2t26",
+      "axia_tx_growth_reforco_4046m_brl_2t26",
+      "axia_tx_growth_melhoria_ex_hvdc_2817m_brl_2t26",
+      "axia_tx_growth_tne_3300m_brl_2t26",
+      "axia_tx_growth_total_tx_18841m_brl_2t26"
     ],
     "hunt": [
       "hunt_br_power_equip",
