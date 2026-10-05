@@ -1,0 +1,10 @@
+{
+  "id": "sabillon_guatemala_building_materials_296k_2022",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_sabillon_guatemala_building_materials_296k_2022",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL22P0007_9700_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "BUILDING MATERIALS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 296342.77; date_signed 2022-03-25."
+}

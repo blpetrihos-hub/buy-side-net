@@ -1,0 +1,10 @@
+{
+  "id": "qa_colombia_material_installation_42k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_qa_colombia_material_installation_42k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT17P0231_9700_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "MATERIAL INSTALLATION",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 41785.33; date_signed 2017-09-26."
+}
