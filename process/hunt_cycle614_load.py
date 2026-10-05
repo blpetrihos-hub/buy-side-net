@@ -1,0 +1,2 @@
+"""Cycle 614: Sabesp CapEx 2T26 (other/water)."""
+ITEMS = [["sabesp_agua_capex_2t26_1050m_brl", "Água", 1050.4, "-23.55", "-46.63", "Sabesp São Paulo state water/sewage concession (São Paulo pin).", false, "water", "agua"], ["sabesp_esgoto_capex_2t26_2680m_brl", "Esgoto", 2680.1000000000004, "-23.55", "-46.63", "Sabesp São Paulo state water/sewage concession (São Paulo pin).", false, "water", "esgoto"]]
