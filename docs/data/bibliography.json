@@ -43134,5 +43134,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_mexico_nec_perimeter_fence_basin_2p28m_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17M0107_1900_-NONE-_-NONE- (Mexico NEC perimeter fence/basin). Signed 2017-01-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17M0107_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17M0107_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico NEC perimeter fence/basin USD 2.282m. Supports mexico_nec_perimeter_fence_basin_2p28m_2017.",
+    "supports": [
+      "mexico_nec_perimeter_fence_basin_2p28m_2017",
+      "hunt_cycle960"
+    ],
+    "map_supports": [
+      "mexico_nec_perimeter_fence_basin_2p28m_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_olgoonik_nassau_febr_2p27m_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F3944_1900_SAQMMA13D0124_1900 (Olgoonik Nassau FE/BR). Signed 2013-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F3944_1900_SAQMMA13D0124_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F3944_1900_SAQMMA13D0124_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Olgoonik Nassau FE/BR USD 2.271m. Supports olgoonik_nassau_febr_2p27m_2013.",
+    "supports": [
+      "olgoonik_nassau_febr_2p27m_2013",
+      "hunt_cycle960"
+    ],
+    "map_supports": [
+      "olgoonik_nassau_febr_2p27m_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_meptek_mexico_hvac_1p86m_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5024F0707_1900_19GE5024D0049_1900 (Meptek Mexico HVAC). Signed 2024-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024F0707_1900_19GE5024D0049_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024F0707_1900_19GE5024D0049_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Meptek Mexico HVAC USD 1.861m. Supports meptek_mexico_hvac_1p86m_2024.",
+    "supports": [
+      "meptek_mexico_hvac_1p86m_2024",
+      "hunt_cycle960"
+    ],
+    "map_supports": [
+      "meptek_mexico_hvac_1p86m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proyectos_civiles_mansilla_kennels_1p76m_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F1720_1900_19AQMM21D0039_1900 (Proyectos Civiles Mansilla kennels). Signed 2023-08-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1720_1900_19AQMM21D0039_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1720_1900_19AQMM21D0039_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Proyectos Civiles Mansilla kennels USD 1.758m. Supports proyectos_civiles_mansilla_kennels_1p76m_2023.",
+    "supports": [
+      "proyectos_civiles_mansilla_kennels_1p76m_2023",
+      "hunt_cycle960"
+    ],
+    "map_supports": [
+      "proyectos_civiles_mansilla_kennels_1p76m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_serrano_galapagos_indigenous_school_1p75m_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825FA273_9700_W9127823D0060_9700 (Serrano Galápagos indigenous school). Signed 2025-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA273_9700_W9127823D0060_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA273_9700_W9127823D0060_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Serrano Galápagos indigenous school USD 1.748m. Supports serrano_galapagos_indigenous_school_1p75m_2025.",
+    "supports": [
+      "serrano_galapagos_indigenous_school_1p75m_2025",
+      "hunt_cycle960"
+    ],
+    "map_supports": [
+      "serrano_galapagos_indigenous_school_1p75m_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_falcon_spectrum_brazil_fire_alarm_1p73m_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F2435_1900_SAQMMA08D0016_1900 (Falcon Spectrum Brazil fire alarm). Signed 2012-07-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2435_1900_SAQMMA08D0016_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2435_1900_SAQMMA08D0016_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Falcon Spectrum Brazil fire alarm USD 1.729m. Supports falcon_spectrum_brazil_fire_alarm_1p73m_2012.",
+    "supports": [
+      "falcon_spectrum_brazil_fire_alarm_1p73m_2012",
+      "hunt_cycle961"
+    ],
+    "map_supports": [
+      "falcon_spectrum_brazil_fire_alarm_1p73m_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ecuainger_catamayo_police_1p70m_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC10C0003_1900_-NONE-_-NONE- (Ecuainger Catamayo police). Signed 2010-02-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC10C0003_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC10C0003_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Ecuainger Catamayo police USD 1.704m. Supports ecuainger_catamayo_police_1p70m_2010.",
+    "supports": [
+      "ecuainger_catamayo_police_1p70m_2010",
+      "hunt_cycle961"
+    ],
+    "map_supports": [
+      "ecuainger_catamayo_police_1p70m_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mfg_muzu_lodging_1p70m_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0169_1900_-NONE-_-NONE- (MFG Muzu lodging). Signed 2020-08-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0169_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0169_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: MFG Muzu lodging USD 1.696m. Supports mfg_muzu_lodging_1p70m_2020.",
+    "supports": [
+      "mfg_muzu_lodging_1p70m_2020",
+      "hunt_cycle961"
+    ],
+    "map_supports": [
+      "mfg_muzu_lodging_1p70m_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_colibri_chapicuy_clinic_1p68m_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL16C0001_9700_-NONE-_-NONE- (Colibrí Chapicuy clinic). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL16C0001_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL16C0001_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Colibrí Chapicuy clinic USD 1.682m. Supports colibri_chapicuy_clinic_1p68m_2016.",
+    "supports": [
+      "colibri_chapicuy_clinic_1p68m_2016",
+      "hunt_cycle961"
+    ],
+    "map_supports": [
+      "colibri_chapicuy_clinic_1p68m_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_marago_diran_dicar_base_1p64m_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0121_1900_-NONE-_-NONE- (Marago DIRAN/DICAR base). Signed 2018-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0121_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0121_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Marago DIRAN/DICAR base USD 1.640m. Supports marago_diran_dicar_base_1p64m_2018.",
+    "supports": [
+      "marago_diran_dicar_base_1p64m_2018",
+      "hunt_cycle961"
+    ],
+    "map_supports": [
+      "marago_diran_dicar_base_1p64m_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_florencia_police_1p63m_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0489_9700_W9127817D0095_9700 (Eterna Florencia police). Signed 2019-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0489_9700_W9127817D0095_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0489_9700_W9127817D0095_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Florencia police USD 1.629m. Supports eterna_florencia_police_1p63m_2019.",
+    "supports": [
+      "eterna_florencia_police_1p63m_2019",
+      "hunt_cycle962"
+    ],
+    "map_supports": [
+      "eterna_florencia_police_1p63m_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_palgag_us_terrier_rouge_1p59m_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16C0138_1900_-NONE-_-NONE- (Palgag US Terrier Rouge). Signed 2016-06-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0138_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0138_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Palgag US Terrier Rouge USD 1.588m. Supports palgag_us_terrier_rouge_1p59m_2016.",
+    "supports": [
+      "palgag_us_terrier_rouge_1p59m_2016",
+      "hunt_cycle962"
+    ],
+    "map_supports": [
+      "palgag_us_terrier_rouge_1p59m_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_montajes_savart_bogota_canopy_1p57m_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14C0060_1900_-NONE-_-NONE- (Montajes Savart Bogotá canopy). Signed 2014-02-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0060_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0060_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Montajes Savart Bogotá canopy USD 1.569m. Supports montajes_savart_bogota_canopy_1p57m_2014.",
+    "supports": [
+      "montajes_savart_bogota_canopy_1p57m_2014",
+      "hunt_cycle962"
+    ],
+    "map_supports": [
+      "montajes_savart_bogota_canopy_1p57m_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mesan_trinidad_consular_waiting_1p56m_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F4440_1900_SAQMMA08D0015_1900 (Mesan Trinidad consular waiting). Signed 2011-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F4440_1900_SAQMMA08D0015_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F4440_1900_SAQMMA08D0015_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mesan Trinidad consular waiting USD 1.565m. Supports mesan_trinidad_consular_waiting_1p56m_2011.",
+    "supports": [
+      "mesan_trinidad_consular_waiting_1p56m_2011",
+      "hunt_cycle962"
+    ],
+    "map_supports": [
+      "mesan_trinidad_consular_waiting_1p56m_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "serfor_peru_balsa_tornillo_chain_2025",
+    "type": "government",
+    "chicago": "Servicio Nacional Forestal y de Fauna Silvestre (SERFOR). “MIDAGRI: SERFOR promueve la cadena productiva de plantaciones forestales comerciales de madera tornillo y balsa.” Gob.pe. https://www.gob.pe/institucion/serfor/noticias/1219301-midagri-serfor-promueve-la-cadena-productiva-de-plantaciones-forestales-comerciales-de-madera-tornillo-y-balsa.",
+    "url": "https://www.gob.pe/institucion/serfor/noticias/1219301-midagri-serfor-promueve-la-cadena-productiva-de-plantaciones-forestales-comerciales-de-madera-tornillo-y-balsa",
+    "accessed": "2026-10-05",
+    "annotation": "SERFOR Peru tornillo y balsa productive chain (presence). Supports serfor_peru_balsa_tornillo_chain_2025.",
+    "supports": [
+      "serfor_peru_balsa_tornillo_chain_2025",
+      "hunt_cycle962"
+    ],
+    "map_supports": [
+      "serfor_peru_balsa_tornillo_chain_2025"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]

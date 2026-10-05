@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 959
+cycle: 962
 remote: present
-active_layer: infrastructure
-active_subcategory: building_materials
-next_query: Cycle 960 shuffle_seed=20261960; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us636/prc409/allied1559); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (26), nickel (27), fission_smr (30), niobium (31). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual + thin/PRC/company CapEx. No U.S. territories.
-next_row_id: (follow cycle-960 shuffled_order)
+active_layer: resources
+active_subcategory: balsa
+next_query: Cycle 963 shuffle_seed=20261963; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us640/prc409/allied1559); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (27), fission_smr (30), niobium (31), balsa (27). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual (Jardín de Tamá; Gonaïves-Hatte school; Chile elevator; Kingston Powell elevator; Tumaco utilities; Greenway fire; Soto Cano warehouse/HQ). No U.S. territories.
+next_row_id: (follow cycle-963 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 959) ===
-# Filled this batch: Brazil×building_materials NEW×2 us (Vistas chiller; Falcon Spectrum Rio elevators); Colombia×building_materials NEW×3 (Proyectos Civiles Caucasia other; EEI Caucasia other; Sea Pac elevator us); Ecuador×building_materials NEW×2 other (Guayaquil anti-narcotics; Serrano residence); Mexico×building_materials/power_plants_grid NEW×5 (Anastasia clinics us; Trinity/Bhate Monterrey us; CFE Acolhuas feeders other; Obera SSC×2 us); Costa Rica×building_materials NEW×1 us (Obera SSC); Haiti×building_materials NEW×1 other (Solustart small reno); Panama×building_materials NEW×1 other (Seobra rural clinic).
-# Still thin: Peru balsa, Colombia graphite, Nicaragua rail, thin minerals. Thin top-up dry. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (8 US CapEx this batch).
+# === Country×subcategory sweep cells touched (session continuing from 962) ===
+# Filled this batch: Mexico×building_materials NEW×2 (NEC fence/basin other; Meptek HVAC other); Bahamas×building_materials NEW×1 us (Olgoonik Nassau FE/BR); Colombia×building_materials NEW×5 (Mansilla kennels; Muzu lodging; DIRAN/DICAR base; Florencia police; Bogotá canopy); Ecuador×building_materials NEW×2 other (Galápagos indigenous school; Catamayo police); Brazil×building_materials NEW×1 us (Falcon Spectrum fire alarm); Uruguay×building_materials NEW×1 other (Chapicuy clinic); Haiti×building_materials NEW×1 us (Palgag US Terrier Rouge); Trinidad×building_materials NEW×1 us (Mesan consular waiting); Peru×balsa NEW×1 other (SERFOR tornillo y balsa chain presence — thin top-up).
+# Still thin: nickel, fission_smr, niobium, graphite; Nicaragua rail. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (4 US CapEx this batch). Thin top-up: Peru balsa SERFOR presence.
+
+# === Cycle 962 (seed 20261962) ===
+# Shuffled: port_ownership, other_renewables, balsa, port_cranes, engineering_epc, water, bridges_roads, niobium, power_plants_grid, nickel, fission_smr, wind, solar, graphite, building_materials, lithium, copper, rail.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   eterna_florencia_police_1p63m_2019 palgag_us_terrier_rouge_1p59m_2016 montajes_savart_bogota_canopy_1p57m_2014 mesan_trinidad_consular_waiting_1p56m_2011 serfor_peru_balsa_tornillo_chain_2025.
+# Thin top-up: Peru balsa SERFOR presence. Equal-budget misses: nickel/fission_smr/niobium dry; PRC CapEx-blank.
+# Holdovers: Jardín de Tamá; Gonaïves-Hatte school; Chile elevator; Kingston elevator; Tumaco; Soto Cano; thin minerals.
+# Active after cycle 962: us640 / prc409 / allied1559 / other5924 (n=8532).
+
+# === Cycle 961 (seed 20261961) ===
+# Shuffled: port_cranes, lithium, bridges_roads, nickel, other_renewables, engineering_epc, graphite, building_materials, fission_smr, power_plants_grid, balsa, rail, water, solar, port_ownership, wind, copper, niobium.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   falcon_spectrum_brazil_fire_alarm_1p73m_2012 ecuainger_catamayo_police_1p70m_2010 mfg_muzu_lodging_1p70m_2020 colibri_chapicuy_clinic_1p68m_2016 marago_diran_dicar_base_1p64m_2018.
+# Thin top-up dry pending 962. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Florencia police; Terrier Rouge; Bogotá canopy; Mesan Trinidad; Peru balsa SERFOR; thin.
+# Active after cycle 961: us638 / prc409 / allied1559 / other5921 (n=8527).
+
+# === Cycle 960 (seed 20261960) ===
+# Shuffled: bridges_roads, graphite, niobium, other_renewables, water, building_materials, balsa, solar, port_cranes, port_ownership, engineering_epc, rail, power_plants_grid, copper, nickel, fission_smr, lithium, wind.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   mexico_nec_perimeter_fence_basin_2p28m_2017 olgoonik_nassau_febr_2p27m_2013 meptek_mexico_hvac_1p86m_2024 proyectos_civiles_mansilla_kennels_1p76m_2023 serrano_galapagos_indigenous_school_1p75m_2025.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Falcon Spectrum fire; Catamayo; Muzu; Chapicuy; DIRAN/DICAR; thin.
+# Active after cycle 960: us637 / prc409 / allied1559 / other5917 (n=8522).
 
 # === Cycle 959 (seed 20261959) ===
 # Shuffled: power_plants_grid, building_materials, port_ownership, engineering_epc, balsa, graphite, copper, rail, fission_smr, water, port_cranes, lithium, niobium, wind, nickel, other_renewables, solar, bridges_roads.
