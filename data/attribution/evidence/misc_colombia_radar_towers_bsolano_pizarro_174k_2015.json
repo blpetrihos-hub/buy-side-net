@@ -1,0 +1,10 @@
+{
+  "id": "misc_colombia_radar_towers_bsolano_pizarro_174k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_colombia_radar_towers_bsolano_pizarro_174k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0006_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "NAVY-COASTGUARD-2ND PHASE RADARS TOWERS BSOLANO-PIZARRO 3.IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 174376.18; date_signed 2015-09-22."
+}

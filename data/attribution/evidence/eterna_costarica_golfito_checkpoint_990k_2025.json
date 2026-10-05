@@ -1,0 +1,10 @@
+{
+  "id": "eterna_costarica_golfito_checkpoint_990k_2025",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_eterna_costarica_golfito_checkpoint_990k_2025",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA115_9700_W9127823D0073_9700/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "INSPECTION CHECKPOINT 35, GULFITO, COSTA RICA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 989902.32; date_signed 2025-08-19."
+}

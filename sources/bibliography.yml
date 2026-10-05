@@ -39435,3 +39435,228 @@
   supports:
   - eterna_honduras_latrine_november_block_1151k_2017
   - hunt_cycle1323
+- id: usaspending_alutiiq_mexico_guanajuato_it_infra_2872k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMR22F5011_1900_19AQMM20D0010_1900 (alutiiq_mexico_guanajuato_it_infra_2872k_2022). Signed 2022-08-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR22F5011_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR22F5011_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_guanajuato_it_infra_2872k_2022 USD 2.872m. Supports alutiiq_mexico_guanajuato_it_infra_2872k_2022.'
+  supports:
+  - alutiiq_mexico_guanajuato_it_infra_2872k_2022
+  - hunt_cycle1324
+- id: usaspending_alutiiq_mexico_sidel_criminal_info_system_2624k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16M0023_1900_-NONE-_-NONE- (alutiiq_mexico_sidel_criminal_info_system_2624k_2016). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16M0023_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16M0023_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_sidel_criminal_info_system_2624k_2016 USD 2.624m. Supports alutiiq_mexico_sidel_criminal_info_system_2624k_2016.'
+  supports:
+  - alutiiq_mexico_sidel_criminal_info_system_2624k_2016
+  - hunt_cycle1324
+- id: usaspending_eterna_colombia_tolemaida_arws_5298k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823F0021_9700_W9127817D0095_9700 (eterna_colombia_tolemaida_arws_5298k_2022). Signed 2022-12-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0021_9700_W9127817D0095_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0021_9700_W9127817D0095_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_colombia_tolemaida_arws_5298k_2022 USD 5.298m. Supports eterna_colombia_tolemaida_arws_5298k_2022.'
+  supports:
+  - eterna_colombia_tolemaida_arws_5298k_2022
+  - hunt_cycle1324
+- id: usaspending_eterna_belize_hap_two_projects_1865k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0416_9700_W9127821D0075_9700 (eterna_belize_hap_two_projects_1865k_2022). Signed 2022-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0416_9700_W9127821D0075_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0416_9700_W9127821D0075_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_belize_hap_two_projects_1865k_2022 USD 1.865m. Supports eterna_belize_hap_two_projects_1865k_2022.'
+  supports:
+  - eterna_belize_hap_two_projects_1865k_2022
+  - hunt_cycle1324
+- id: usaspending_marago_colombia_pijaos_utilities_1139k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0157_1900_-NONE-_-NONE- (marago_colombia_pijaos_utilities_1139k_2019). Signed 2019-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0157_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0157_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: marago_colombia_pijaos_utilities_1139k_2019 USD 1.139m. Supports marago_colombia_pijaos_utilities_1139k_2019.'
+  supports:
+  - marago_colombia_pijaos_utilities_1139k_2019
+  - hunt_cycle1324
+- id: usaspending_alutiiq_mexico_codis_genetics_it_2093k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMR23F5012_1900_19AQMM20D0010_1900 (alutiiq_mexico_codis_genetics_it_2093k_2023). Signed 2023-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR23F5012_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR23F5012_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_codis_genetics_it_2093k_2023 USD 2.093m. Supports alutiiq_mexico_codis_genetics_it_2093k_2023.'
+  supports:
+  - alutiiq_mexico_codis_genetics_it_2093k_2023
+  - hunt_cycle1325
+- id: usaspending_alutiiq_guatemala_pnc_it_equipment_1368k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F2444_1900_19AQMM20D0010_1900 (alutiiq_guatemala_pnc_it_equipment_1368k_2022). Signed 2022-07-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2444_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2444_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_guatemala_pnc_it_equipment_1368k_2022 USD 1.368m. Supports alutiiq_guatemala_pnc_it_equipment_1368k_2022.'
+  supports:
+  - alutiiq_guatemala_pnc_it_equipment_1368k_2022
+  - hunt_cycle1325
+- id: usaspending_marago_colombia_tumaco_fuel_system_1054k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F2255_1900_19AQMM21D0036_1900 (marago_colombia_tumaco_fuel_system_1054k_2022). Signed 2022-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2255_1900_19AQMM21D0036_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2255_1900_19AQMM21D0036_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: marago_colombia_tumaco_fuel_system_1054k_2022 USD 1.054m. Supports marago_colombia_tumaco_fuel_system_1054k_2022.'
+  supports:
+  - marago_colombia_tumaco_fuel_system_1054k_2022
+  - hunt_cycle1325
+- id: usaspending_eterna_honduras_sonaguera_fire_station_1031k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0367_9700_W9127823D0073_9700 (eterna_honduras_sonaguera_fire_station_1031k_2024). Signed 2024-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0367_9700_W9127823D0073_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0367_9700_W9127823D0073_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_sonaguera_fire_station_1031k_2024 USD 1.031m. Supports eterna_honduras_sonaguera_fire_station_1031k_2024.'
+  supports:
+  - eterna_honduras_sonaguera_fire_station_1031k_2024
+  - hunt_cycle1325
+- id: usaspending_eterna_costarica_golfito_checkpoint_990k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825FA115_9700_W9127823D0073_9700 (eterna_costarica_golfito_checkpoint_990k_2025). Signed 2025-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA115_9700_W9127823D0073_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA115_9700_W9127823D0073_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_costarica_golfito_checkpoint_990k_2025 USD 0.990m. Supports eterna_costarica_golfito_checkpoint_990k_2025.'
+  supports:
+  - eterna_costarica_golfito_checkpoint_990k_2025
+  - hunt_cycle1325
+- id: usaspending_alutiiq_mexico_high_impact_it_infra_938k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMR23F5001_1900_19AQMM20D0010_1900 (alutiiq_mexico_high_impact_it_infra_938k_2022). Signed 2022-11-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR23F5001_1900_19AQMM20D0010_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR23F5001_1900_19AQMM20D0010_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_high_impact_it_infra_938k_2022 USD 0.938m. Supports alutiiq_mexico_high_impact_it_infra_938k_2022.'
+  supports:
+  - alutiiq_mexico_high_impact_it_infra_938k_2022
+  - hunt_cycle1326
+- id: usaspending_alutiiq_mexico_satellite_sct_equipment_1979k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16M0014_1900_-NONE-_-NONE- (alutiiq_mexico_satellite_sct_equipment_1979k_2016). Signed 2016-05-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16M0014_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16M0014_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_satellite_sct_equipment_1979k_2016 USD 1.979m. Supports alutiiq_mexico_satellite_sct_equipment_1979k_2016.'
+  supports:
+  - alutiiq_mexico_satellite_sct_equipment_1979k_2016
+  - hunt_cycle1326
+- id: usaspending_eterna_elsalvador_gse_storage_comalapa_948k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0650_9700_W9127816D0102_9700 (eterna_elsalvador_gse_storage_comalapa_948k_2019). Signed 2019-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0650_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0650_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_elsalvador_gse_storage_comalapa_948k_2019 USD 0.948m. Supports eterna_elsalvador_gse_storage_comalapa_948k_2019.'
+  supports:
+  - eterna_elsalvador_gse_storage_comalapa_948k_2019
+  - hunt_cycle1326
+- id: usaspending_eterna_honduras_12plex_phase3_936k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127820F0363_9700_W9127816D0102_9700 (eterna_honduras_12plex_phase3_936k_2020). Signed 2020-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0363_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0363_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_12plex_phase3_936k_2020 USD 0.936m. Supports eterna_honduras_12plex_phase3_936k_2020.'
+  supports:
+  - eterna_honduras_12plex_phase3_936k_2020
+  - hunt_cycle1326
+- id: usaspending_eterna_honduras_12plex_phase4_931k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127820F0377_9700_W9127816D0102_9700 (eterna_honduras_12plex_phase4_931k_2020). Signed 2020-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0377_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0377_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_12plex_phase4_931k_2020 USD 0.931m. Supports eterna_honduras_12plex_phase4_931k_2020.'
+  supports:
+  - eterna_honduras_12plex_phase4_931k_2020
+  - hunt_cycle1326
+- id: usaspending_alutiiq_mexico_telecom_satellite_equipment_1902k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16C0341_1900_-NONE-_-NONE- (alutiiq_mexico_telecom_satellite_equipment_1902k_2016). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0341_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0341_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_telecom_satellite_equipment_1902k_2016 USD 1.902m. Supports alutiiq_mexico_telecom_satellite_equipment_1902k_2016.'
+  supports:
+  - alutiiq_mexico_telecom_satellite_equipment_1902k_2016
+  - hunt_cycle1327
+- id: usaspending_alutiiq_mexico_biometric_76_workstations_562k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F1338_1900_19AQMM18D0038_1900 (alutiiq_mexico_biometric_76_workstations_562k_2018). Signed 2018-04-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1338_1900_19AQMM18D0038_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1338_1900_19AQMM18D0038_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_biometric_76_workstations_562k_2018 USD 0.562m. Supports alutiiq_mexico_biometric_76_workstations_562k_2018.'
+  supports:
+  - alutiiq_mexico_biometric_76_workstations_562k_2018
+  - hunt_cycle1327
+- id: usaspending_eterna_panama_fiberglass_shop_907k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0427_9700_W9127821D0075_9700 (eterna_panama_fiberglass_shop_907k_2022). Signed 2022-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0427_9700_W9127821D0075_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0427_9700_W9127821D0075_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_panama_fiberglass_shop_907k_2022 USD 0.907m. Supports eterna_panama_fiberglass_shop_907k_2022.'
+  supports:
+  - eterna_panama_fiberglass_shop_907k_2022
+  - hunt_cycle1327
+- id: usaspending_eterna_colombia_guaviare_school_897k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0206_9700_W9127817D0095_9700 (eterna_colombia_guaviare_school_897k_2021). Signed 2021-06-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0206_9700_W9127817D0095_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0206_9700_W9127817D0095_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_colombia_guaviare_school_897k_2021 USD 0.897m. Supports eterna_colombia_guaviare_school_897k_2021.'
+  supports:
+  - eterna_colombia_guaviare_school_897k_2021
+  - hunt_cycle1327
+- id: usaspending_proyectos_colombia_mariquita_auditorium_866k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F0627_1900_19AQMM21D0039_1900 (proyectos_colombia_mariquita_auditorium_866k_2022). Signed 2022-04-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0627_1900_19AQMM21D0039_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0627_1900_19AQMM21D0039_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: proyectos_colombia_mariquita_auditorium_866k_2022 USD 0.866m. Supports proyectos_colombia_mariquita_auditorium_866k_2022.'
+  supports:
+  - proyectos_colombia_mariquita_auditorium_866k_2022
+  - hunt_cycle1327
+- id: usaspending_alutiiq_mexico_conatrib_regional_judicial_17290k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0075_1900_-NONE-_-NONE- (alutiiq_mexico_conatrib_regional_judicial_17290k_2020). Signed 2020-05-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0075_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0075_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_conatrib_regional_judicial_17290k_2020 USD 17.290m. Supports alutiiq_mexico_conatrib_regional_judicial_17290k_2020.'
+  supports:
+  - alutiiq_mexico_conatrib_regional_judicial_17290k_2020
+  - hunt_cycle1328
+- id: usaspending_alutiiq_mexico_prison_xray_machines_3119k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE20C0013_1900_-NONE-_-NONE- (alutiiq_mexico_prison_xray_machines_3119k_2020). Signed 2020-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE20C0013_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE20C0013_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alutiiq_mexico_prison_xray_machines_3119k_2020 USD 3.119m. Supports alutiiq_mexico_prison_xray_machines_3119k_2020.'
+  supports:
+  - alutiiq_mexico_prison_xray_machines_3119k_2020
+  - hunt_cycle1328
+- id: usaspending_eterna_honduras_octaplex_housing_865k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0278_9700_W9127816D0102_9700 (eterna_honduras_octaplex_housing_865k_2017). Signed 2017-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0278_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0278_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: eterna_honduras_octaplex_housing_865k_2017 USD 0.865m. Supports eterna_honduras_octaplex_housing_865k_2017.'
+  supports:
+  - eterna_honduras_octaplex_housing_865k_2017
+  - hunt_cycle1328
+- id: usaspending_misc_colombia_jlsf_relocation_1079k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12C0021_9700_-NONE-_-NONE- (misc_colombia_jlsf_relocation_1079k_2012). Signed 2012-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0021_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0021_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_jlsf_relocation_1079k_2012 USD 1.079m. Supports misc_colombia_jlsf_relocation_1079k_2012.'
+  supports:
+  - misc_colombia_jlsf_relocation_1079k_2012
+  - hunt_cycle1328
+- id: usaspending_misc_colombia_radar_towers_bsolano_pizarro_174k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15015C0006_1900_-NONE-_-NONE- (misc_colombia_radar_towers_bsolano_pizarro_174k_2015). Signed 2015-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0006_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0006_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_radar_towers_bsolano_pizarro_174k_2015 USD 0.174m. Supports misc_colombia_radar_towers_bsolano_pizarro_174k_2015.'
+  supports:
+  - misc_colombia_radar_towers_bsolano_pizarro_174k_2015
+  - hunt_cycle1328
