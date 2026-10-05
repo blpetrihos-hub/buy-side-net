@@ -34935,3 +34935,273 @@
   supports:
   - misc_mexico_dea_office_renovation_pb_13k_2010
   - hunt_cycle1223
+- id: usaspending_fortis_colombia_cctv_various_5p42m_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16C0002_1900_-NONE-_-NONE- (fortis_colombia_cctv_various_5p42m_2016). Signed 2015-12-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0002_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0002_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: fortis_colombia_cctv_various_5p42m_2016 USD 5.420m. Supports fortis_colombia_cctv_various_5p42m_2016.'
+  supports:
+  - fortis_colombia_cctv_various_5p42m_2016
+  - hunt_cycle1224
+- id: usaspending_hardline_sao_paulo_febr_1p40m_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15F2323_1900_SAQMMA14D0085_1900 (hardline_sao_paulo_febr_1p40m_2015). Signed 2015-08-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F2323_1900_SAQMMA14D0085_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F2323_1900_SAQMMA14D0085_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hardline_sao_paulo_febr_1p40m_2015 USD 1.399m. Supports hardline_sao_paulo_febr_1p40m_2015.'
+  supports:
+  - hardline_sao_paulo_febr_1p40m_2015
+  - hunt_cycle1224
+- id: usaspending_misc_el_salvador_grilles_doors_windows_izalco_13k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6022P0502_1900_-NONE-_-NONE- (misc_el_salvador_grilles_doors_windows_izalco_13k_2022). Signed 2022-06-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6022P0502_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6022P0502_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_el_salvador_grilles_doors_windows_izalco_13k_2022 USD 0.013m. Supports misc_el_salvador_grilles_doors_windows_izalco_13k_2022.'
+  supports:
+  - misc_el_salvador_grilles_doors_windows_izalco_13k_2022
+  - hunt_cycle1224
+- id: usaspending_misc_colombia_concrete_slab_screening_cartagena_13k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20017C0009_1900_-NONE-_-NONE- (misc_colombia_concrete_slab_screening_cartagena_13k_2017). Signed 2017-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20017C0009_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20017C0009_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_concrete_slab_screening_cartagena_13k_2017 USD 0.013m. Supports misc_colombia_concrete_slab_screening_cartagena_13k_2017.'
+  supports:
+  - misc_colombia_concrete_slab_screening_cartagena_13k_2017
+  - hunt_cycle1224
+- id: usaspending_misc_honduras_security_system_doj_13k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80012M0242_1900_-NONE-_-NONE- (misc_honduras_security_system_doj_13k_2012). Signed 2012-03-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80012M0242_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80012M0242_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_security_system_doj_13k_2012 USD 0.013m. Supports misc_honduras_security_system_doj_13k_2012.'
+  supports:
+  - misc_honduras_security_system_doj_13k_2012
+  - hunt_cycle1224
+- id: usaspending_olgoonik_belize_febr_doors_windows_1p40m_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F3952_1900_SAQMMA13D0124_1900 (olgoonik_belize_febr_doors_windows_1p40m_2013). Signed 2013-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F3952_1900_SAQMMA13D0124_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F3952_1900_SAQMMA13D0124_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: olgoonik_belize_febr_doors_windows_1p40m_2013 USD 1.397m. Supports olgoonik_belize_febr_doors_windows_1p40m_2013.'
+  supports:
+  - olgoonik_belize_febr_doors_windows_1p40m_2013
+  - hunt_cycle1225
+- id: usaspending_us_pan_american_honduras_300kw_generator_465k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM22P0030_9700_-NONE-_-NONE- (us_pan_american_honduras_300kw_generator_465k_2022). Signed 2022-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM22P0030_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM22P0030_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: us_pan_american_honduras_300kw_generator_465k_2022 USD 0.465m. Supports us_pan_american_honduras_300kw_generator_465k_2022.'
+  supports:
+  - us_pan_american_honduras_300kw_generator_465k_2022
+  - hunt_cycle1225
+- id: usaspending_misc_chile_infrared_motion_sensors_res_13k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCI80012M1132_1900_-NONE-_-NONE- (misc_chile_infrared_motion_sensors_res_13k_2012). Signed 2012-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCI80012M1132_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCI80012M1132_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_chile_infrared_motion_sensors_res_13k_2012 USD 0.013m. Supports misc_chile_infrared_motion_sensors_res_13k_2012.'
+  supports:
+  - misc_chile_infrared_motion_sensors_res_13k_2012
+  - hunt_cycle1225
+- id: usaspending_misc_colombia_ac_jungla_instructors_13k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15016M0275_1900_-NONE-_-NONE- (misc_colombia_ac_jungla_instructors_13k_2016). Signed 2016-03-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15016M0275_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15016M0275_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_ac_jungla_instructors_13k_2016 USD 0.013m. Supports misc_colombia_ac_jungla_instructors_13k_2016.'
+  supports:
+  - misc_colombia_ac_jungla_instructors_13k_2016
+  - hunt_cycle1225
+- id: usaspending_misc_peru_security_upgrades_rinconada_del_lago_13k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014M0465_1900_-NONE-_-NONE- (misc_peru_security_upgrades_rinconada_del_lago_13k_2014). Signed 2014-01-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0465_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014M0465_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_security_upgrades_rinconada_del_lago_13k_2014 USD 0.013m. Supports misc_peru_security_upgrades_rinconada_del_lago_13k_2014.'
+  supports:
+  - misc_peru_security_upgrades_rinconada_del_lago_13k_2014
+  - hunt_cycle1225
+- id: usaspending_regional_engineering_barbados_tw24_hvac_generators_298k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W569QE24P0024_9700_-NONE-_-NONE- (regional_engineering_barbados_tw24_hvac_generators_298k_2024). Signed 2024-05-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W569QE24P0024_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W569QE24P0024_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: regional_engineering_barbados_tw24_hvac_generators_298k_2024 USD 0.298m. Supports regional_engineering_barbados_tw24_hvac_generators_298k_2024.'
+  supports:
+  - regional_engineering_barbados_tw24_hvac_generators_298k_2024
+  - hunt_cycle1226
+- id: usaspending_psi_colombia_generators_257k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT18P0125_9700_-NONE-_-NONE- (psi_colombia_generators_257k_2018). Signed 2018-09-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT18P0125_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT18P0125_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: psi_colombia_generators_257k_2018 USD 0.257m. Supports psi_colombia_generators_257k_2018.'
+  supports:
+  - psi_colombia_generators_257k_2018
+  - hunt_cycle1226
+- id: usaspending_misc_el_salvador_electrical_platform_escalon_13k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6021P0125_1900_-NONE-_-NONE- (misc_el_salvador_electrical_platform_escalon_13k_2020). Signed 2020-12-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0125_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0125_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_el_salvador_electrical_platform_escalon_13k_2020 USD 0.013m. Supports misc_el_salvador_electrical_platform_escalon_13k_2020.'
+  supports:
+  - misc_el_salvador_electrical_platform_escalon_13k_2020
+  - hunt_cycle1226
+- id: usaspending_misc_dominican_inl_security_syst_dncd_omega_13k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86015M2016_1900_-NONE-_-NONE- (misc_dominican_inl_security_syst_dncd_omega_13k_2015). Signed 2015-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86015M2016_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86015M2016_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_dominican_inl_security_syst_dncd_omega_13k_2015 USD 0.013m. Supports misc_dominican_inl_security_syst_dncd_omega_13k_2015.'
+  supports:
+  - misc_dominican_inl_security_syst_dncd_omega_13k_2015
+  - hunt_cycle1226
+- id: usaspending_misc_brazil_new_ac_equipment_obo610_13k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR9321P0089_1900_-NONE-_-NONE- (misc_brazil_new_ac_equipment_obo610_13k_2020). Signed 2020-12-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9321P0089_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9321P0089_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_new_ac_equipment_obo610_13k_2020 USD 0.013m. Supports misc_brazil_new_ac_equipment_obo610_13k_2020.'
+  supports:
+  - misc_brazil_new_ac_equipment_obo610_13k_2020
+  - hunt_cycle1226
+- id: usaspending_marathon_electric_mexico_generator_218k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPMYM226P5111_9700_-NONE-_-NONE- (marathon_electric_mexico_generator_218k_2025). Signed 2025-12-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPMYM226P5111_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPMYM226P5111_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: marathon_electric_mexico_generator_218k_2025 USD 0.218m. Supports marathon_electric_mexico_generator_218k_2025.'
+  supports:
+  - marathon_electric_mexico_generator_218k_2025
+  - hunt_cycle1227
+- id: usaspending_atelier4_guatemala_metal_door_screen_214k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22P0594_1900_-NONE-_-NONE- (atelier4_guatemala_metal_door_screen_214k_2022). Signed 2022-05-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0594_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0594_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: atelier4_guatemala_metal_door_screen_214k_2022 USD 0.214m. Supports atelier4_guatemala_metal_door_screen_214k_2022.'
+  supports:
+  - atelier4_guatemala_metal_door_screen_214k_2022
+  - hunt_cycle1227
+- id: usaspending_misc_mexico_aphis_tij_electrical_setup_13k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX72015M0241_1900_-NONE-_-NONE- (misc_mexico_aphis_tij_electrical_setup_13k_2015). Signed 2015-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX72015M0241_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX72015M0241_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_aphis_tij_electrical_setup_13k_2015 USD 0.013m. Supports misc_mexico_aphis_tij_electrical_setup_13k_2015.'
+  supports:
+  - misc_mexico_aphis_tij_electrical_setup_13k_2015
+  - hunt_cycle1227
+- id: usaspending_misc_bolivia_heat_pumps_motor_pool_13k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBL40013M0577_1900_-NONE-_-NONE- (misc_bolivia_heat_pumps_motor_pool_13k_2013). Signed 2013-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40013M0577_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40013M0577_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_bolivia_heat_pumps_motor_pool_13k_2013 USD 0.013m. Supports misc_bolivia_heat_pumps_motor_pool_13k_2013.'
+  supports:
+  - misc_bolivia_heat_pumps_motor_pool_13k_2013
+  - hunt_cycle1227
+- id: usaspending_misc_brazil_electrical_meter_guard_shack_13k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR8218P0331_1900_-NONE-_-NONE- (misc_brazil_electrical_meter_guard_shack_13k_2018). Signed 2018-04-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8218P0331_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8218P0331_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_electrical_meter_guard_shack_13k_2018 USD 0.013m. Supports misc_brazil_electrical_meter_guard_shack_13k_2018.'
+  supports:
+  - misc_brazil_electrical_meter_guard_shack_13k_2018
+  - hunt_cycle1227
+- id: usaspending_native_instinct_honduras_kohler_125kw_174k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM21F0072_9700_47QSWA19D00AP_4732 (native_instinct_honduras_kohler_125kw_174k_2021). Signed 2021-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM21F0072_9700_47QSWA19D00AP_4732/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM21F0072_9700_47QSWA19D00AP_4732/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: native_instinct_honduras_kohler_125kw_174k_2021 USD 0.174m. Supports native_instinct_honduras_kohler_125kw_174k_2021.'
+  supports:
+  - native_instinct_honduras_kohler_125kw_174k_2021
+  - hunt_cycle1228
+- id: usaspending_millenium_jamaica_household_generator_108k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37010F0017_1900_GS07F5791R_4730 (millenium_jamaica_household_generator_108k_2010). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37010F0017_1900_GS07F5791R_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37010F0017_1900_GS07F5791R_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: millenium_jamaica_household_generator_108k_2010 USD 0.108m. Supports millenium_jamaica_household_generator_108k_2010.'
+  supports:
+  - millenium_jamaica_household_generator_108k_2010
+  - hunt_cycle1228
+- id: usaspending_misc_brazil_renovation_project_13k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR82013F0001_1900_SBR82012D0003_1900 (misc_brazil_renovation_project_13k_2012). Signed 2012-12-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82013F0001_1900_SBR82012D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR82013F0001_1900_SBR82012D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_renovation_project_13k_2012 USD 0.013m. Supports misc_brazil_renovation_project_13k_2012.'
+  supports:
+  - misc_brazil_renovation_project_13k_2012
+  - hunt_cycle1228
+- id: usaspending_misc_nicaragua_submersible_well_pump_13k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19NU7023P0193_1900_-NONE-_-NONE- (misc_nicaragua_submersible_well_pump_13k_2023). Signed 2023-05-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NU7023P0193_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NU7023P0193_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_nicaragua_submersible_well_pump_13k_2023 USD 0.013m. Supports misc_nicaragua_submersible_well_pump_13k_2023.'
+  supports:
+  - misc_nicaragua_submersible_well_pump_13k_2023
+  - hunt_cycle1228
+- id: usaspending_misc_peru_dea_make_ready_gergye_11k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50012M0015_1900_-NONE-_-NONE- (misc_peru_dea_make_ready_gergye_11k_2011). Signed 2011-10-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50012M0015_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50012M0015_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_dea_make_ready_gergye_11k_2011 USD 0.011m. Supports misc_peru_dea_make_ready_gergye_11k_2011.'
+  supports:
+  - misc_peru_dea_make_ready_gergye_11k_2011
+  - hunt_cycle1228
+- id: usaspending_rrds_colombia_portable_generators_104k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01520P0164_1900_-NONE-_-NONE- (rrds_colombia_portable_generators_104k_2020). Signed 2020-04-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520P0164_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01520P0164_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: rrds_colombia_portable_generators_104k_2020 USD 0.104m. Supports rrds_colombia_portable_generators_104k_2020.'
+  supports:
+  - rrds_colombia_portable_generators_104k_2020
+  - hunt_cycle1229
+- id: usaspending_bp_consort_brazil_ac_generator_102k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPMYM220P2209_9700_-NONE-_-NONE- (bp_consort_brazil_ac_generator_102k_2020). Signed 2020-07-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPMYM220P2209_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPMYM220P2209_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bp_consort_brazil_ac_generator_102k_2020 USD 0.102m. Supports bp_consort_brazil_ac_generator_102k_2020.'
+  supports:
+  - bp_consort_brazil_ac_generator_102k_2020
+  - hunt_cycle1229
+- id: usaspending_misc_brazil_motorpool_bathroom_renovation_11k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25017M0825_1900_-NONE-_-NONE- (misc_brazil_motorpool_bathroom_renovation_11k_2017). Signed 2017-06-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25017M0825_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25017M0825_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_motorpool_bathroom_renovation_11k_2017 USD 0.011m. Supports misc_brazil_motorpool_bathroom_renovation_11k_2017.'
+  supports:
+  - misc_brazil_motorpool_bathroom_renovation_11k_2017
+  - hunt_cycle1229
+- id: usaspending_misc_colombia_torre95_x50035_make_ready_13k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02023P0855_1900_-NONE-_-NONE- (misc_colombia_torre95_x50035_make_ready_13k_2023). Signed 2023-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02023P0855_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02023P0855_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_torre95_x50035_make_ready_13k_2023 USD 0.013m. Supports misc_colombia_torre95_x50035_make_ready_13k_2023.'
+  supports:
+  - misc_colombia_torre95_x50035_make_ready_13k_2023
+  - hunt_cycle1229
+- id: usaspending_misc_colombia_rubber_floor_playground_14k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20016M0788_1900_-NONE-_-NONE- (misc_colombia_rubber_floor_playground_14k_2016). Signed 2016-09-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20016M0788_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20016M0788_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_rubber_floor_playground_14k_2016 USD 0.014m. Supports misc_colombia_rubber_floor_playground_14k_2016.'
+  supports:
+  - misc_colombia_rubber_floor_playground_14k_2016
+  - hunt_cycle1229
