@@ -1,0 +1,10 @@
+{
+  "id": "iscar_colombia_warehouse_deck_74k_2024",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_iscar_colombia_warehouse_deck_74k_2024",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024P1978_1900_-NONE-_-NONE-/",
+  "price_year": "2024",
+  "evidence": "documented",
+  "quote": "PR12630183: EOY GSO PR3 FINISH THE DECKING IN THE WAREHOUSE",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 74450.6; date_signed 2024-09-27."
+}
