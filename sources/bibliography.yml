@@ -13583,7 +13583,7 @@
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2
-  annotation: Motiva Outros / Others 1T22 CapEx via Fed H.10. Supports motiva_outros_1t22_3m_brl.
+  annotation: Motiva Outros / Others 1T22 CapEx excl. maint. via Fed H.10. Supports motiva_outros_exmaint_1t22_3m_brl.
   supports:
   - motiva_autoban_2t26_136m_brl
   - hunt_cycle294
@@ -14453,6 +14453,26 @@
   - motiva_viamobilidade_1t22_8m_brl
   - motiva_viamobilidade_l89_1t22_45m_brl
   - motiva_outros_1t22_3m_brl
+  - motiva_roads_exmaint_1t22_183m_brl
+  - hunt_cycle348
+  - motiva_vialagos_exmaint_1t22_0m_brl
+  - motiva_autoban_exmaint_1t22_7m_brl
+  - motiva_viaoeste_exmaint_1t22_30m_brl
+  - motiva_rodoanel_oeste_exmaint_1t22_4m_brl
+  - motiva_spvias_exmaint_1t22_3m_brl
+  - motiva_viario_exmaint_1t22_0p4m_brl
+  - motiva_pantanal_exmaint_1t22_9m_brl
+  - motiva_renovias_exmaint_1t22_0m_brl
+  - motiva_viasul_exmaint_1t22_110m_brl
+  - motiva_viacosteira_exmaint_1t22_12m_brl
+  - motiva_rio_sp_exmaint_1t22_5m_brl
+  - motiva_rails_exmaint_1t22_88m_brl
+  - motiva_viaquatro_exmaint_1t22_11m_brl
+  - motiva_vlt_carioca_exmaint_1t22_19m_brl
+  - motiva_metro_bahia_exmaint_1t22_6m_brl
+  - motiva_viamobilidade_exmaint_1t22_8m_brl
+  - motiva_viamobilidade_l89_exmaint_1t22_45m_brl
+  - motiva_outros_exmaint_1t22_3m_brl
 - id: vli_progress_rail_sd70_20260210
   type: company
   chicago: VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.
