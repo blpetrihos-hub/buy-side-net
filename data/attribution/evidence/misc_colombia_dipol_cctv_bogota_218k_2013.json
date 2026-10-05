@@ -1,0 +1,10 @@
+{
+  "id": "misc_colombia_dipol_cctv_bogota_218k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_colombia_dipol_cctv_bogota_218k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0619_1900_-NONE-_-NONE-/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "INTERD (D). CCTV SYSTEM FOR CNP DIPOL AT BOGOTA.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 218198.37; date_signed 2013-03-22."
+}
