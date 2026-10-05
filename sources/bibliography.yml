@@ -22940,3 +22940,153 @@
   supports:
   - nathan_port_infra_ta_559k_2014
   - hunt_cycle916
+- id: usaspending_bl_harbert_paramaribo_nec_20130928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13C0248_1900_-NONE-_-NONE-
+    (BL Harbert; Paramaribo NEC). Signed 28 September 2013. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13C0248_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13C0248_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: BL Harbert Paramaribo NEC USD 121.193m. Supports bl_harbert_paramaribo_nec_121m_2013.'
+  supports:
+  - bl_harbert_paramaribo_nec_121m_2013
+  - hunt_cycle917
+- id: usaspending_yates_desbuild_kingston_nox_20050928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SALMEC05C0039_1900_-NONE-_-NONE-
+    (Yates Desbuild JV; Kingston USAID NOX). Signed 28 September 2005. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0039_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0039_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Yates Desbuild Kingston NOX USD 83.049m. Supports yates_desbuild_kingston_nox_83m_2005.'
+  supports:
+  - yates_desbuild_kingston_nox_83m_2005
+  - hunt_cycle917
+- id: usaspending_desbuild_kingston_nox_20050907
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SALMEC05C0029_1900_-NONE-_-NONE-
+    (Desbuild; Kingston USAID NOX). Signed 7 September 2005. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0029_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC05C0029_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Desbuild Kingston NOX USD 12.905m. Supports desbuild_kingston_nox_12p9m_2005.'
+  supports:
+  - desbuild_kingston_nox_12p9m_2005
+  - hunt_cycle917
+- id: usaspending_eg_qflow_santo_domingo_20230918
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F2535_1900_19AQMM22D0056_1900
+    (EG Designbuild; Santo Domingo Q-Flow). Signed 18 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2535_1900_19AQMM22D0056_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2535_1900_19AQMM22D0056_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EG Designbuild Santo Domingo Q-Flow USD 3.346m. Supports eg_designbuild_santo_domingo_qflow_3p35m_2023.'
+  supports:
+  - eg_designbuild_santo_domingo_qflow_3p35m_2023
+  - hunt_cycle917
+- id: usaspending_akea_dominican_dorm_20120928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945012C0064_9700_-NONE-_-NONE-
+    (Akea; Dominican dormitory). Signed 28 September 2012. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945012C0064_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945012C0064_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Akea Dominican dormitory USD 1.872m. Supports akea_dominican_dormitory_1p87m_2012.'
+  supports:
+  - akea_dominican_dormitory_1p87m_2012
+  - hunt_cycle917
+- id: usaspending_eeii_mahdia_eoc_20230928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823F0467_9700_W9127823D0058_9700
+    (EEII; Mahdia EOC/DRW). Signed 28 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0467_9700_W9127823D0058_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0467_9700_W9127823D0058_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EEII Mahdia EOC/DRW USD 2.421m. Supports eeii_mahdia_eoc_drw_2p42m_2023.'
+  supports:
+  - eeii_mahdia_eoc_drw_2p42m_2023
+  - hunt_cycle918
+- id: usaspending_tidewater_georgetown_fire_20160929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16F5504_1900_SAQMMA14D0045_1900
+    (Tidewater; Georgetown fire protection). Signed 29 September 2016. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F5504_1900_SAQMMA14D0045_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F5504_1900_SAQMMA14D0045_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Tidewater Georgetown fire USD 2.305m. Supports tidewater_georgetown_fire_2p30m_2016.'
+  supports:
+  - tidewater_georgetown_fire_2p30m_2016
+  - hunt_cycle918
+- id: usaspending_fluid_georgetown_water_20230928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5023F0658_1900_19GE5023D0048_1900
+    (Fluid Solutions; Georgetown water). Signed 28 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023F0658_1900_19GE5023D0048_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023F0658_1900_19GE5023D0048_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Fluid Solutions Georgetown water USD 1.332m. Supports fluid_solutions_georgetown_water_1p33m_2023.'
+  supports:
+  - fluid_solutions_georgetown_water_1p33m_2023
+  - hunt_cycle918
+- id: usaspending_krueck_georgetown_design_20240924
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F2387_1900_19AQMM19D0063_1900
+    (Krueck & Sexton; Georgetown design). Signed 24 September 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F2387_1900_19AQMM19D0063_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F2387_1900_19AQMM19D0063_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Krueck & Sexton Georgetown design USD 1.131m. Supports krueck_sexton_georgetown_design_1p13m_2024.'
+  supports:
+  - krueck_sexton_georgetown_design_1p13m_2024
+  - hunt_cycle918
+- id: usaspending_spectrum_georgetown_generator_20220419
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1586_1900_19AQMM18D0072_1900
+    (Spectrum; Georgetown PCC generator). Signed 19 April 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1586_1900_19AQMM18D0072_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1586_1900_19AQMM18D0072_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Spectrum Georgetown PCC generator USD 0.738m. Supports spectrum_georgetown_pcc_generator_738k_2022.'
+  supports:
+  - spectrum_georgetown_pcc_generator_738k_2022
+  - hunt_cycle918
+- id: usaspending_palgag_barbados_nrl_20150306
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC15C0003_1900_-NONE-_-NONE-
+    (Palgag; Bridgetown NRL). Signed 6 March 2015. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC15C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC15C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Palgag Barbados NRL USD 7.687m. Supports palgag_barbados_nrl_7p69m_2015.'
+  supports:
+  - palgag_barbados_nrl_7p69m_2015
+  - hunt_cycle919
+- id: usaspending_framaco_barbados_re_20210924
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5021C0053_1900_-NONE-_-NONE-
+    (Framaco-Bozdemir; Bridgetown renewable). Signed 24 September 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0053_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0053_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Framaco Barbados renewable USD 4.452m. Supports framaco_barbados_renewable_4p45m_2021.'
+  supports:
+  - framaco_barbados_renewable_4p45m_2021
+  - hunt_cycle919
+- id: usaspending_qmax_bridgetown_roof_20230926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F3253_1900_19AQMM19D0083_1900
+    (Q-Max; Bridgetown roof). Signed 26 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F3253_1900_19AQMM19D0083_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F3253_1900_19AQMM19D0083_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Q-Max Bridgetown roof USD 2.814m. Supports qmax_bridgetown_roof_2p81m_2023.'
+  supports:
+  - qmax_bridgetown_roof_2p81m_2023
+  - hunt_cycle919
+- id: usaspending_horizon_bridgetown_hvac_20160928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16F5171_1900_SAQMMA14D0056_1900
+    (Horizon/ICS; Bridgetown HVAC). Signed 28 September 2016. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F5171_1900_SAQMMA14D0056_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F5171_1900_SAQMMA14D0056_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Horizon Bridgetown HVAC USD 1.557m. Supports horizon_bridgetown_hvac_1p56m_2016.'
+  supports:
+  - horizon_bridgetown_hvac_1p56m_2016
+  - hunt_cycle919
+- id: usaspending_epik_bridgetown_water_20240419
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5024F0277_1900_19GE5023D0049_1900
+    (EPIK-Aquashine; Bridgetown water). Signed 19 April 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024F0277_1900_19GE5023D0049_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024F0277_1900_19GE5023D0049_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EPIK Bridgetown water USD 1.419m. Supports epik_bridgetown_water_1p42m_2024.'
+  supports:
+  - epik_bridgetown_water_1p42m_2024
+  - hunt_cycle919
