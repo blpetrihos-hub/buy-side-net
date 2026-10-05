@@ -45294,5 +45294,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_misc_tegucigalpa_elevator_415k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16M2836_1900_-NONE-_-NONE- (Tegucigalpa elevator). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M2836_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M2836_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tegucigalpa elevator USD 0.415m. Supports misc_tegucigalpa_elevator_415k_2016.",
+    "supports": [
+      "misc_tegucigalpa_elevator_415k_2016",
+      "hunt_cycle984"
+    ],
+    "map_supports": [
+      "misc_tegucigalpa_elevator_415k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_partenon_uruguay_training_399k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17C0009_9700_-NONE-_-NONE- (Partenon Uruguay training village). Signed 2017-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0009_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0009_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Partenon Uruguay training village USD 0.399m. Supports partenon_uruguay_training_399k_2017.",
+    "supports": [
+      "partenon_uruguay_training_399k_2017",
+      "hunt_cycle984"
+    ],
+    "map_supports": [
+      "partenon_uruguay_training_399k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_romero_alto_caballero_clinic_398k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0037_9700_-NONE-_-NONE- (Romero Alto Caballero clinic). Signed 2011-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0037_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0037_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Romero Alto Caballero clinic USD 0.398m. Supports romero_alto_caballero_clinic_398k_2011.",
+    "supports": [
+      "romero_alto_caballero_clinic_398k_2011",
+      "hunt_cycle984"
+    ],
+    "map_supports": [
+      "romero_alto_caballero_clinic_398k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proksol_ancon_gpoi_396k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0007_9700_W9127809D0078_9700 (Proksol Ancón GPOI). Signed 2011-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0007_9700_W9127809D0078_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0007_9700_W9127809D0078_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Proksol Ancón GPOI USD 0.396m. Supports proksol_ancon_gpoi_396k_2011.",
+    "supports": [
+      "proksol_ancon_gpoi_396k_2011",
+      "hunt_cycle984"
+    ],
+    "map_supports": [
+      "proksol_ancon_gpoi_396k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_john_d_corozal_admin_393k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM22C0002_9700_-NONE-_-NONE- (John D Corozal admin). Signed 2022-03-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM22C0002_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM22C0002_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: John D Corozal admin USD 0.393m. Supports john_d_corozal_admin_393k_2022.",
+    "supports": [
+      "john_d_corozal_admin_393k_2022",
+      "hunt_cycle984"
+    ],
+    "map_supports": [
+      "john_d_corozal_admin_393k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_lumbaqui_hanger_386k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0004_9700_W9127809D0081_9700 (Seobra Lumbaquí hangar). Signed 2011-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127809D0081_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0004_9700_W9127809D0081_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Seobra Lumbaquí hangar USD 0.386m. Supports seobra_lumbaqui_hanger_386k_2011.",
+    "supports": [
+      "seobra_lumbaqui_hanger_386k_2011",
+      "hunt_cycle985"
+    ],
+    "map_supports": [
+      "seobra_lumbaqui_hanger_386k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_jinotega_clinic_384k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0010_9700_W9127809D0071_9700 (Eterna Jinotega clinic). Signed 2010-08-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127809D0071_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127809D0071_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Jinotega clinic USD 0.384m. Supports eterna_jinotega_clinic_384k_2010.",
+    "supports": [
+      "eterna_jinotega_clinic_384k_2010",
+      "hunt_cycle985"
+    ],
+    "map_supports": [
+      "eterna_jinotega_clinic_384k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ycf_haiti_firestations_377k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945012C0031_9700_-NONE-_-NONE- (YCF Haiti fire stations). Signed 2012-02-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945012C0031_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945012C0031_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: YCF Haiti fire stations USD 0.377m. Supports ycf_haiti_firestations_377k_2012.",
+    "supports": [
+      "ycf_haiti_firestations_377k_2012",
+      "hunt_cycle985"
+    ],
+    "map_supports": [
+      "ycf_haiti_firestations_377k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_bucaramanga_siu_377k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15015C003_1900_-NONE-_-NONE- (Bucaramanga SIU). Signed 2014-10-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C003_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C003_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bucaramanga SIU USD 0.377m. Supports misc_bucaramanga_siu_377k_2014.",
+    "supports": [
+      "misc_bucaramanga_siu_377k_2014",
+      "hunt_cycle985"
+    ],
+    "map_supports": [
+      "misc_bucaramanga_siu_377k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_taxiway_a_375k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0012_9700_W9127809D0071_9700 (Eterna Soto Cano Taxiway A). Signed 2010-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0071_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0071_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano Taxiway A USD 0.375m. Supports eterna_soto_cano_taxiway_a_375k_2010.",
+    "supports": [
+      "eterna_soto_cano_taxiway_a_375k_2010",
+      "hunt_cycle985"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_taxiway_a_375k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_milbau_uruguay_workshop_369k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17C0004_9700_-NONE-_-NONE- (Milbau Uruguay workshop). Signed 2017-03-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0004_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0004_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Milbau Uruguay workshop USD 0.369m. Supports milbau_uruguay_workshop_369k_2017.",
+    "supports": [
+      "milbau_uruguay_workshop_369k_2017",
+      "hunt_cycle986"
+    ],
+    "map_supports": [
+      "milbau_uruguay_workshop_369k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bendig_icd_warehouse_367k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16C0247_1900_-NONE-_-NONE- (Bendig ICD warehouse). Signed 2016-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0247_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0247_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bendig ICD warehouse USD 0.367m. Supports bendig_icd_warehouse_367k_2016.",
+    "supports": [
+      "bendig_icd_warehouse_367k_2016",
+      "hunt_cycle986"
+    ],
+    "map_supports": [
+      "bendig_icd_warehouse_367k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_recreativa_guatemala_cmr_roof_357k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5020C0039_1900_-NONE-_-NONE- (Recreativa Guatemala CMR roof). Signed 2020-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020C0039_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020C0039_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Recreativa Guatemala CMR roof USD 0.357m. Supports recreativa_guatemala_cmr_roof_357k_2020.",
+    "supports": [
+      "recreativa_guatemala_cmr_roof_357k_2020",
+      "hunt_cycle986"
+    ],
+    "map_supports": [
+      "recreativa_guatemala_cmr_roof_357k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_jj_soto_cano_n61_dorms_356k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W9127811D0047_9700 (J&J Soto Cano N61 dorms). Signed 2012-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127811D0047_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127811D0047_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: J&J Soto Cano N61 dorms USD 0.356m. Supports jj_soto_cano_n61_dorms_356k_2012.",
+    "supports": [
+      "jj_soto_cano_n61_dorms_356k_2012",
+      "hunt_cycle986"
+    ],
+    "map_supports": [
+      "jj_soto_cano_n61_dorms_356k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_rogers_bocas_coastline_334k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330226FF0010291_3300_33330226DF0010098_3300 (Rogers Bocas coastline). Signed 2026-06-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330226FF0010291_3300_33330226DF0010098_3300/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330226FF0010291_3300_33330226DF0010098_3300/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Rogers Bocas coastline USD 0.334m. Supports rogers_bocas_coastline_334k_2026.",
+    "supports": [
+      "rogers_bocas_coastline_334k_2026",
+      "hunt_cycle986"
+    ],
+    "map_supports": [
+      "rogers_bocas_coastline_334k_2026"
+    ],
+    "layers": [
+      "resources"
+    ]
   }
 ]

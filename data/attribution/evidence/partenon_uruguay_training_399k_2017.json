@@ -1,0 +1,10 @@
+{
+  "id": "partenon_uruguay_training_399k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_partenon_uruguay_training_399k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0009_9700_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF::CONSTRUCT TRAINING VILLAGE",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 399301.68; date_signed 2017-09-28."
+}

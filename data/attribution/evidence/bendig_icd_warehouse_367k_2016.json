@@ -1,0 +1,10 @@
+{
+  "id": "bendig_icd_warehouse_367k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_bendig_icd_warehouse_367k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0247_1900_-NONE-_-NONE-/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "COSTA RICA ICD WAREHOUSE IMPROVEMENT IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 367199.30; date_signed 2016-09-23."
+}
