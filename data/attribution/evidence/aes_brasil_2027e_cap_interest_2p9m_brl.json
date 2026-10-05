@@ -1,0 +1,10 @@
+{
+  "id": "aes_brasil_2027e_cap_interest_2p9m_brl",
+  "retrieved": "2026-10-05",
+  "source_id": "aes_brasil_mf_capex_20240226",
+  "url": "https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1",
+  "price_year": "2027",
+  "evidence": "documented",
+  "quote": "Capitalized Interest and Labor² 93.8 101.1 49.9 2.9 3.5 251.2",
+  "note": "Opened AES Brasil Material Fact PDF; 2027E Capitalized Interest and Labor R$2.9m confirmed."
+}
