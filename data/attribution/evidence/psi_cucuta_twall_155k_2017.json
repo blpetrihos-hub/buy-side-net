@@ -1,0 +1,10 @@
+{
+  "id": "psi_cucuta_twall_155k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_psi_cucuta_twall_155k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017C0012_1900_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF INL BOGOTA- CONCRETE DEFENSE T-WALL FOR CUCUTA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 154984.18; date_signed 2017-08-15."
+}

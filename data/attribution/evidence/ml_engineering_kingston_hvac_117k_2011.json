@@ -1,0 +1,10 @@
+{
+  "id": "ml_engineering_kingston_hvac_117k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_ml_engineering_kingston_hvac_117k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3419_1900_SALMEC07D0001_1900/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "INSTALLATION OF HVAC UNITS AT THE U.S. EMBASSY IN KINGSTON, JAMAICA.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 117121.90; date_signed 2011-09-16."
+}
