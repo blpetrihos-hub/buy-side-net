@@ -28185,3 +28185,138 @@
   supports:
   - ibarra_el_salvador_windows_doors_62k_2018
   - hunt_cycle1073
+- id: usaspending_hcs_honduras_ae_support_58k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0044_9700_W9127810D0050_9700 (HCS Honduras A&E). Signed 2013-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0044_9700_W9127810D0050_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0044_9700_W9127810D0050_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HCS Honduras A&E USD 0.058m. Supports hcs_honduras_ae_support_58k_2013.'
+  supports:
+  - hcs_honduras_ae_support_58k_2013
+  - hunt_cycle1074
+- id: usaspending_ganahl_jamaica_plaza_deck_repair_58k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37016M1332_1900_-NONE-_-NONE- (Ganahl Jamaica deck repair). Signed 2016-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37016M1332_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37016M1332_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ganahl Jamaica deck repair USD 0.058m. Supports ganahl_jamaica_plaza_deck_repair_58k_2016.'
+  supports:
+  - ganahl_jamaica_plaza_deck_repair_58k_2016
+  - hunt_cycle1074
+- id: usaspending_carranza_belize_kd_range_62k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810P0122_9700_-NONE-_-NONE- (Carranza Belize K-D range). Signed 2010-03-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0122_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810P0122_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Carranza Belize K-D range USD 0.062m. Supports carranza_belize_kd_range_62k_2010.'
+  supports:
+  - carranza_belize_kd_range_62k_2010
+  - hunt_cycle1074
+- id: usaspending_misc_honduras_transformer_100kva_61k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM11P0052_9700_-NONE-_-NONE- (Honduras 100 kVA transformer). Signed 2011-08-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM11P0052_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM11P0052_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Honduras 100 kVA transformer USD 0.061m. Supports misc_honduras_transformer_100kva_61k_2011.'
+  supports:
+  - misc_honduras_transformer_100kva_61k_2011
+  - hunt_cycle1074
+- id: usaspending_misc_colombia_facilities_remodeling_63k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15011CN010_1900_-NONE-_-NONE- (Colombia facilities remodeling). Signed 2011-05-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15011CN010_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15011CN010_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia facilities remodeling USD 0.063m. Supports misc_colombia_facilities_remodeling_63k_2011.'
+  supports:
+  - misc_colombia_facilities_remodeling_63k_2011
+  - hunt_cycle1074
+- id: usaspending_baskerville_peru_callao_mic_expansion_56k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0325_9700_W9127814D0075_9700 (Baskerville Callao MIC). Signed 2018-06-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0325_9700_W9127814D0075_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0325_9700_W9127814D0075_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Baskerville Callao MIC USD 0.056m. Supports baskerville_peru_callao_mic_expansion_56k_2018.'
+  supports:
+  - baskerville_peru_callao_mic_expansion_56k_2018
+  - hunt_cycle1075
+- id: usaspending_mount_airey_argentina_cabling_54k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2018P0217_1900_-NONE-_-NONE- (Mount Airey Argentina cabling). Signed 2018-01-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018P0217_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018P0217_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Mount Airey Argentina cabling USD 0.054m. Supports mount_airey_argentina_cabling_54k_2018.'
+  supports:
+  - mount_airey_argentina_cabling_54k_2018
+  - hunt_cycle1075
+- id: usaspending_sistemas_honduras_nec_tower_movement_62k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80017M0085_1900_-NONE-_-NONE- (Honduras NEC tower movement). Signed 2016-11-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80017M0085_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80017M0085_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Honduras NEC tower movement USD 0.062m. Supports sistemas_honduras_nec_tower_movement_62k_2016.'
+  supports:
+  - sistemas_honduras_nec_tower_movement_62k_2016
+  - hunt_cycle1075
+- id: usaspending_misc_colombia_cartagena_diran_access_control_62k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15013M0981_1900_-NONE-_-NONE- (Colombia Cartagena DIRAN access control). Signed 2013-07-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0981_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0981_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia Cartagena DIRAN access control USD 0.062m. Supports misc_colombia_cartagena_diran_access_control_62k_2013.'
+  supports:
+  - misc_colombia_cartagena_diran_access_control_62k_2013
+  - hunt_cycle1075
+- id: usaspending_misc_colombia_condoto_container_remodel_62k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15013M0919_1900_-NONE-_-NONE- (Colombia Condoto container remodel). Signed 2013-06-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0919_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15013M0919_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia Condoto container remodel USD 0.062m. Supports misc_colombia_condoto_container_remodel_62k_2013.'
+  supports:
+  - misc_colombia_condoto_container_remodel_62k_2013
+  - hunt_cycle1075
+- id: usaspending_grotheer_colombia_chiller_design_53k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20012M1278_1900_-NONE-_-NONE- (Grotheer Colombia chiller design). Signed 2012-04-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20012M1278_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20012M1278_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Grotheer Colombia chiller design USD 0.053m. Supports grotheer_colombia_chiller_design_53k_2012.'
+  supports:
+  - grotheer_colombia_chiller_design_53k_2012
+  - hunt_cycle1076
+- id: usaspending_valkyrie_paraguay_telecom_cabling_53k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F2246_1900_19AQMM21D0155_1900 (Valkyrie Paraguay telecom cabling). Signed 2022-06-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2246_1900_19AQMM21D0155_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2246_1900_19AQMM21D0155_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Valkyrie Paraguay telecom cabling USD 0.053m. Supports valkyrie_paraguay_telecom_cabling_53k_2022.'
+  supports:
+  - valkyrie_paraguay_telecom_cabling_53k_2022
+  - hunt_cycle1076
+- id: usaspending_wkl_panama_mpr_motor_pool_repair_61k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07015M0938_1900_-NONE-_-NONE- (WKL Panama MPR/motor pool). Signed 2015-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07015M0938_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07015M0938_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: WKL Panama MPR/motor pool USD 0.061m. Supports wkl_panama_mpr_motor_pool_repair_61k_2015.'
+  supports:
+  - wkl_panama_mpr_motor_pool_repair_61k_2015
+  - hunt_cycle1076
+- id: usaspending_misc_nicaragua_buildings_1_2_renovation_61k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0003_9700_-NONE-_-NONE- (Nicaragua buildings 1&2 renovation). Signed 2010-01-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0003_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0003_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Nicaragua buildings 1&2 renovation USD 0.061m. Supports misc_nicaragua_buildings_1_2_renovation_61k_2010.'
+  supports:
+  - misc_nicaragua_buildings_1_2_renovation_61k_2010
+  - hunt_cycle1076
+- id: usaspending_misc_peru_chancery_computer_room_ac_61k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50010C0049_1900_-NONE-_-NONE- (Peru chancery computer room AC). Signed 2010-05-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50010C0049_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50010C0049_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Peru chancery computer room AC USD 0.061m. Supports misc_peru_chancery_computer_room_ac_61k_2010.'
+  supports:
+  - misc_peru_chancery_computer_room_ac_61k_2010
+  - hunt_cycle1076
