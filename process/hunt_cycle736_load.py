@@ -1,0 +1,2 @@
+"""Cycle 736: Energisa Investimentos CapEx 3T12 (other)."""
+ITEMS = [["energisa_dist_total_3t12_127m_brl", "Total Distribuidoras", 127.1935266, "-21.76", "-43.35", "Energisa Group Brazil distribution/transmission footprint (Cataguases MG pin).", true, "power_plants_grid", "dist_total"], ["energisa_total_3t12_127m_brl", "Total CapEx", 127.1935266, "-21.76", "-43.35", "Energisa Group Brazil distribution/transmission footprint (Cataguases MG pin).", true, "power_plants_grid", "total"]]
