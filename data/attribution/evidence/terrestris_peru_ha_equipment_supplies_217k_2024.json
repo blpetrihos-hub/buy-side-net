@@ -1,0 +1,10 @@
+{
+  "id": "terrestris_peru_ha_equipment_supplies_217k_2024",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_terrestris_peru_ha_equipment_supplies_217k_2024",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL25F0003_9700_W912CL23D0109_9700/",
+  "price_year": "2024",
+  "evidence": "documented",
+  "quote": "PERSONNEL, EQUIPMENT, SUPPLIES, TRANSPORTATION, TOOLS, MATERIALS, SUPERVISION, AND OTHER ITEMS ALONG WITH NON-PERSONAL SERVICES NECESSARY TO PERFORM THE WORK.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 217417.08; date_signed 2024-12-06."
+}
