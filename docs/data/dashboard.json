@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 8481,
+    "n_rows": 8496,
     "counts": {
-      "total": 8481,
-      "active": 8282,
+      "total": 8496,
+      "active": 8297,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8208,
-      "on_map": 8095
+      "documented": 8223,
+      "on_map": 8110
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 216,
+        "us": 225,
         "prc": 129,
-        "allied": 3017,
-        "n": 3362
+        "allied": 3019,
+        "n": 3373
       },
       "usd": {
-        "us": 46479481988.25998,
-        "us_n": 149,
+        "us": 46709652912.04998,
+        "us_n": 158,
         "prc": 17322325919.350002,
         "prc_n": 40,
-        "allied": 144645385124.0198,
-        "allied_n": 2904
+        "allied": 144655493082.42978,
+        "allied_n": 2906
       },
       "matched_gaps": {
         "n": 1,
@@ -128,14 +128,14 @@
     {
       "layer": "resources",
       "counts": {
-        "us": 92,
+        "us": 94,
         "prc": 70,
         "allied": 274,
-        "n": 436
+        "n": 438
       },
       "usd": {
-        "us": 46048237410.93,
-        "us_n": 48,
+        "us": 46050989249.96,
+        "us_n": 50,
         "prc": 15219856772.0,
         "prc_n": 35,
         "allied": 133452410930.43001,
@@ -153,14 +153,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 197,
+        "us": 199,
         "prc": 209,
         "allied": 4076,
-        "n": 4482
+        "n": 4484
       },
       "usd": {
-        "us": 36746349460.909996,
-        "us_n": 93,
+        "us": 36751539633.579994,
+        "us_n": 95,
         "prc": 43269035868.26999,
         "prc_n": 72,
         "allied": 383589432501.16046,
@@ -270,27 +270,32 @@
     {
       "country": "Barbados",
       "counts": {
-        "us": 1,
+        "us": 5,
         "prc": 2,
-        "allied": 1,
-        "n": 4
+        "allied": 2,
+        "n": 9
       },
       "usd": {
-        "us": 500000000.0,
-        "us_n": 1,
+        "us": 510242280.45000005,
+        "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 1824000.0,
-        "allied_n": 1
+        "allied": 9510676.11,
+        "allied_n": 2
       },
       "by_layer": {
         "energy": {
-          "us": 0,
+          "us": 1,
+          "prc": 0,
+          "allied": 1
+        },
+        "infrastructure": {
+          "us": 2,
           "prc": 0,
           "allied": 1
         },
         "resources": {
-          "us": 1,
+          "us": 2,
           "prc": 2,
           "allied": 0
         }
@@ -561,14 +566,14 @@
     {
       "country": "Dominican Republic",
       "counts": {
-        "us": 13,
+        "us": 15,
         "prc": 3,
         "allied": 7,
-        "n": 23
+        "n": 25
       },
       "usd": {
-        "us": 1568934461.57,
-        "us_n": 8,
+        "us": 1574152727.1,
+        "us_n": 10,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 1710000000.0,
@@ -581,7 +586,7 @@
           "allied": 3
         },
         "infrastructure": {
-          "us": 2,
+          "us": 4,
           "prc": 3,
           "allied": 3
         },
@@ -721,29 +726,34 @@
     {
       "country": "Guyana",
       "counts": {
-        "us": 9,
+        "us": 13,
         "prc": 21,
-        "allied": 1,
-        "n": 31
+        "allied": 2,
+        "n": 36
       },
       "usd": {
-        "us": 534967000.0,
-        "us_n": 2,
+        "us": 540472620.3100001,
+        "us_n": 6,
         "prc": 878803358.73,
         "prc_n": 11,
-        "allied": 156000000.0,
-        "allied_n": 1
+        "allied": 158421282.3,
+        "allied_n": 2
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 11,
           "allied": 0
         },
         "infrastructure": {
-          "us": 7,
+          "us": 9,
           "prc": 10,
-          "allied": 1
+          "allied": 2
+        },
+        "resources": {
+          "us": 1,
+          "prc": 0,
+          "allied": 0
         }
       }
     },
@@ -813,14 +823,14 @@
     {
       "country": "Jamaica",
       "counts": {
-        "us": 3,
+        "us": 5,
         "prc": 12,
         "allied": 4,
-        "n": 19
+        "n": 21
       },
       "usd": {
-        "us": 1106526629.58,
-        "us_n": 3,
+        "us": 1202480218.88,
+        "us_n": 5,
         "prc": 294000000.0,
         "prc_n": 2,
         "allied": 342000000.0,
@@ -833,7 +843,7 @@
           "allied": 2
         },
         "infrastructure": {
-          "us": 1,
+          "us": 3,
           "prc": 12,
           "allied": 2
         }
@@ -1060,14 +1070,14 @@
     {
       "country": "Suriname",
       "counts": {
-        "us": 2,
+        "us": 3,
         "prc": 8,
         "allied": 0,
-        "n": 10
+        "n": 11
       },
       "usd": {
-        "us": 0.0,
-        "us_n": 0,
+        "us": 121193179.9,
+        "us_n": 1,
         "prc": 150000000.0,
         "prc_n": 1,
         "allied": 0.0,
@@ -1080,7 +1090,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 1,
           "allied": 0
         },
@@ -9470,7 +9480,22 @@
       "ycf_jeremie_fire_ems_663k_2011",
       "newco_haiti_eoc_569k_2009",
       "newco_haiti_drw_465k_2009",
-      "nathan_port_infra_ta_559k_2014"
+      "nathan_port_infra_ta_559k_2014",
+      "bl_harbert_paramaribo_nec_121m_2013",
+      "yates_desbuild_kingston_nox_83m_2005",
+      "desbuild_kingston_nox_12p9m_2005",
+      "eg_designbuild_santo_domingo_qflow_3p35m_2023",
+      "akea_dominican_dormitory_1p87m_2012",
+      "eeii_mahdia_eoc_drw_2p42m_2023",
+      "tidewater_georgetown_fire_2p30m_2016",
+      "fluid_solutions_georgetown_water_1p33m_2023",
+      "krueck_sexton_georgetown_design_1p13m_2024",
+      "spectrum_georgetown_pcc_generator_738k_2022",
+      "palgag_barbados_nrl_7p69m_2015",
+      "framaco_barbados_renewable_4p45m_2021",
+      "qmax_bridgetown_roof_2p81m_2023",
+      "horizon_bridgetown_hvac_1p56m_2016",
+      "epik_bridgetown_water_1p42m_2024"
     ],
     "hunt": [
       "hunt_br_power_equip",

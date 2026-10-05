@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 916
+cycle: 919
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 917 shuffle_seed=20261917; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us505/prc409/allied1551); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Venezuela CapEx-fill blanks, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; CapEx planilha + AXIA TX + Haiti PIP + USASpending Haiti US loaded; diversify thin/Venezuela CapEx / Copel / PRC. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
-next_row_id: (follow cycle-917 shuffled_order)
+next_query: Cycle 920 shuffle_seed=20261920; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us518/prc409/allied1552); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Venezuela CapEx-fill blanks, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; CapEx planilha + AXIA TX + Haiti PIP + USASpending Haiti/Caribbean US loaded; diversify thin/Venezuela CapEx / Copel / PRC. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
+next_row_id: (follow cycle-920 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 916) ===
-# Filled this batch: Haiti×building_materials NEW×9 (Panexus; SCA fire; SLSCO/CSS/YCF/Newco fire-EOC-DRW suite); Haiti×port_ownership NEW×3 us (northern ports feasibility; Cap-Haïtien urgent port A&E; Nathan port TA); Haiti×engineering_epc NEW×3 us (Olgoonik MSG A&E; Annum CMR; FutureNet CM); Haiti×power_plants_grid NEW×1 other (EDH electrical).
+# === Country×subcategory sweep cells touched (session continuing from 919) ===
+# Filled this batch: Suriname×engineering_epc NEW×1 us (BL Harbert Paramaribo NEC); Jamaica×engineering_epc NEW×2 us (Yates/Desbuild Kingston NOX); DR×engineering_epc/building_materials NEW×2 us (EG Q-Flow; Akea dorm); Guyana×building_materials/water/engineering_epc/power NEW×5 (EEII Mahdia other; Tidewater/Fluid/Krueck/Spectrum us); Barbados×building_materials/other_renewables/water NEW×5 (Palgag allied; Framaco/Q-Max/Horizon/EPIK us).
 # Still thin: Venezuela CapEx blanks, Nicaragua rail, Peru balsa, Colombia graphite.
 # ≥1/3 U.S. hunt budget spent (heavy US CapEx). PRC CapEx-blank. Thin top-up dry.
+
+# === Cycle 919 (seed 20261919) ===
+# Shuffled: wind, balsa, nickel, fission_smr, port_ownership, solar, rail, building_materials, power_plants_grid, port_cranes, copper, niobium, lithium, bridges_roads, graphite, other_renewables, engineering_epc, water.
+# Logged 5 NEW (4 US / 0 PRC / 1 allied / 0 other):
+#   palgag_barbados_nrl_7p69m_2015 framaco_barbados_renewable_4p45m_2021 qmax_bridgetown_roof_2p81m_2023 horizon_bridgetown_hvac_1p56m_2016 epik_bridgetown_water_1p42m_2024.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Venezuela CapEx-fill; thin; Copel; PRC; more Caribbean residual.
+# Active after cycle 919: us518 / prc409 / allied1552 / other5818 (n=8297).
+
+# === Cycle 918 (seed 20261918) ===
+# Shuffled: port_cranes, water, other_renewables, bridges_roads, wind, lithium, copper, niobium, balsa, port_ownership, nickel, fission_smr, building_materials, graphite, engineering_epc, power_plants_grid, solar, rail.
+# Logged 5 NEW (4 US / 0 PRC / 0 allied / 1 other):
+#   eeii_mahdia_eoc_drw_2p42m_2023 tidewater_georgetown_fire_2p30m_2016 fluid_solutions_georgetown_water_1p33m_2023 krueck_sexton_georgetown_design_1p13m_2024 spectrum_georgetown_pcc_generator_738k_2022.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Barbados suite; Venezuela; thin.
+# Active after cycle 918: us514 / prc409 / allied1551 / other5818 (n=8292).
+
+# === Cycle 917 (seed 20261917) ===
+# Shuffled: other_renewables, wind, power_plants_grid, building_materials, port_cranes, graphite, rail, fission_smr, lithium, engineering_epc, nickel, port_ownership, copper, bridges_roads, water, solar, balsa, niobium.
+# Logged 5 NEW (5 US / 0 PRC / 0 allied / 0 other):
+#   bl_harbert_paramaribo_nec_121m_2013 yates_desbuild_kingston_nox_83m_2005 desbuild_kingston_nox_12p9m_2005 eg_designbuild_santo_domingo_qflow_3p35m_2023 akea_dominican_dormitory_1p87m_2012.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Guyana/Barbados USASpending; Venezuela; thin.
+# Active after cycle 917: us510 / prc409 / allied1551 / other5817 (n=8287).
 
 # === Cycle 916 (seed 20261916) ===
 # Shuffled: port_ownership, water, power_plants_grid, rail, wind, lithium, balsa, engineering_epc, nickel, fission_smr, niobium, building_materials, copper, bridges_roads, solar, port_cranes, graphite, other_renewables.

@@ -1,0 +1,10 @@
+{
+  "id": "fluid_solutions_georgetown_water_1p33m_2023",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_fluid_georgetown_water_20230928",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023F0658_1900_19GE5023D0048_1900/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "D/B POTABLE WATER TREATMENT SYSTEM UPGRADES PROJECT,  U.S. EMBASSY GEORGETOWN, GUYANA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1,332,382.03; date_signed 2023-09-28."
+}

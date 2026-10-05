@@ -1,0 +1,10 @@
+{
+  "id": "framaco_barbados_renewable_4p45m_2021",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_framaco_barbados_re_20210924",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0053_1900_-NONE-_-NONE-/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "DESIGN BUILD RENEWABLE ENERGY INSTALLATION SOLICITATION                                PROJECT. U.S.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 4,452,016.47; date_signed 2021-09-24."
+}
