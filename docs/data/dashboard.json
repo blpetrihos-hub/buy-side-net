@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8240,
+    "n_rows": 8245,
     "counts": {
-      "total": 8240,
-      "active": 8041,
+      "total": 8245,
+      "active": 8046,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7967,
-      "on_map": 7871
+      "documented": 7972,
+      "on_map": 7876
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3925,
-        "n": 4326
+        "allied": 3930,
+        "n": 4331
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383347657894.46063,
-        "allied_n": 3854
+        "allied": 383364568145.7907,
+        "allied_n": 3859
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6808,
-        "n": 7063
+        "allied": 6813,
+        "n": 7068
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527216363870.26025,
-        "allied_n": 6727
+        "allied": 527233274121.59033,
+        "allied_n": 6732
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3791
+          "allied": 3796
         },
         "infrastructure": {
           "us": 68,
@@ -9229,7 +9229,12 @@
       "axia_txproj_melhoria_na_se_angelim_ii_substituicao_de_3_r_18m_brl",
       "axia_txproj_melhoria_na_se_angelim_ii_substituicao_de_3_r_18m_brl_v2",
       "axia_txproj_melhoria_na_se_olindina_ii_substituicao_de_3__18m_brl",
-      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_r_18m_brl"
+      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_r_18m_brl",
+      "axia_txproj_melhoria_se_p_dutra_substituicao_do_reator_rt_18m_brl",
+      "axia_txproj_melhoria_na_se_afonso_iv_substituicao_do_tran_18m_brl",
+      "axia_txproj_melhoria_na_se_p_dutra_substituicao_de_reator_17m_brl",
+      "axia_txproj_melhoria_na_se_presidente_dutra_substituicao__17m_brl",
+      "axia_txproj_melhoria_na_se_presidente_dutra_substituicao__17m_brl_v2"
     ],
     "hunt": [
       "hunt_br_power_equip",
