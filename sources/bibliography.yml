@@ -16531,7 +16531,7 @@
   type: company
   chicago: Equatorial Energia S.A. “Dados Financeiros e Operacionais — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2
-  annotation: Equatorial Saneamento 3T23 CapEx via Fed H.10. Supports equatorial_saneamento_3t23_18m_brl.
+  annotation: Equatorial Saneamento 2T23 CapEx via Fed H.10. Supports equatorial_saneamento_2t23_25m_brl.
   supports:
   - equatorial_ma_1t26_273m_brl
   - hunt_cycle491
@@ -16952,3 +16952,40 @@
   - equatorial_tx_3t23_54m_brl
   - equatorial_echo_3t23_1095m_brl
   - equatorial_saneamento_3t23_18m_brl
+  - equatorial_ma_2t23_232m_brl
+  - hunt_cycle502
+  - equatorial_ma_eletricos_2t23_197m_brl
+  - equatorial_ma_oe_2t23_21m_brl
+  - equatorial_ma_nonelectric_2t23_14m_brl
+  - equatorial_ma_pe_2t23_1m_brl
+  - equatorial_pa_2t23_478m_brl
+  - equatorial_pa_eletricos_2t23_319m_brl
+  - equatorial_pa_oe_2t23_134m_brl
+  - equatorial_pa_nonelectric_2t23_25m_brl
+  - equatorial_pa_pe_2t23_2m_brl
+  - equatorial_pi_2t23_275m_brl
+  - equatorial_pi_eletricos_2t23_219m_brl
+  - equatorial_pi_oe_2t23_49m_brl
+  - equatorial_pi_nonelectric_2t23_7m_brl
+  - equatorial_pi_pe_2t23_1m_brl
+  - equatorial_al_2t23_168m_brl
+  - equatorial_al_eletricos_2t23_153m_brl
+  - equatorial_al_oe_2t23_3m_brl
+  - equatorial_al_nonelectric_2t23_12m_brl
+  - equatorial_al_pe_2t23_0m_brl
+  - equatorial_rs_2t23_211m_brl
+  - equatorial_rs_eletricos_2t23_188m_brl
+  - equatorial_rs_oe_2t23_1m_brl
+  - equatorial_rs_nonelectric_2t23_21m_brl
+  - equatorial_rs_pe_2t23_11m_brl
+  - equatorial_ap_2t23_150m_brl
+  - equatorial_ap_eletricos_2t23_132m_brl
+  - equatorial_ap_oe_2t23_12m_brl
+  - equatorial_ap_nonelectric_2t23_5m_brl
+  - equatorial_ap_pe_2t23_1m_brl
+  - equatorial_go_2t23_475m_brl
+  - equatorial_go_eletricos_2t23_418m_brl
+  - equatorial_go_nonelectric_2t23_82m_brl
+  - equatorial_tx_2t23_16m_brl
+  - equatorial_echo_2t23_642m_brl
+  - equatorial_saneamento_2t23_25m_brl
