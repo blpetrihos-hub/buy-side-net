@@ -17448,3 +17448,25 @@
   - equatorial_ap_pe_2t26_1m_brl
   - equatorial_go_pe_2t26_18m_brl
   - equatorial_echo_2t26_48m_brl
+- id: neoenergia_capex_planilha_xlsx_2026
+  type: company
+  chicago: Neoenergia S.A. “Planilhas — Empresas CVM — CAPEX Neoenergia (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/3982d6a2-c4c0-2d4b-9824-e8e1c073d5c2?origin=2.
+  url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/3982d6a2-c4c0-2d4b-9824-e8e1c073d5c2?origin=2
+  annotation: Neoenergia Térmica 4T25 CapEx via Fed H.10. Supports neoenergia_termica_4t25_2m_brl.
+  supports:
+  - neoenergia_4t25_capex_2469m_brl
+  - hunt_cycle529
+  - neoenergia_redes_4t25_2338m_brl
+  - neoenergia_dist_4t25_1718m_brl
+  - neoenergia_coelba_4t25_824m_brl
+  - neoenergia_pernambuco_4t25_325m_brl
+  - neoenergia_cosern_4t25_151m_brl
+  - neoenergia_elektro_4t25_284m_brl
+  - neoenergia_brasilia_4t25_134m_brl
+  - neoenergia_tx_4t25_620m_brl
+  - neoenergia_geracao_4t25_128m_brl
+  - neoenergia_hidro_4t25_20m_brl
+  - neoenergia_eolicas_4t25_95m_brl
+  - neoenergia_chafariz_4t25_47m_brl
+  - neoenergia_oitis_4t25_3m_brl
+  - neoenergia_termica_4t25_2m_brl
