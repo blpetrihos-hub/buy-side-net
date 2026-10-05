@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 4206,
+    "n_rows": 4216,
     "counts": {
-      "total": 4206,
-      "active": 4007,
+      "total": 4216,
+      "active": 4017,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 3933,
-      "on_map": 3839
+      "documented": 3943,
+      "on_map": 3849
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 2460,
-        "n": 2769
+        "allied": 2470,
+        "n": 2779
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 125519816964.03969,
-        "allied_n": 2386
+        "allied": 125591589296.05971,
+        "allied_n": 2396
       },
       "matched_gaps": {
         "n": 1,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 2774,
-        "n": 3029
+        "allied": 2784,
+        "n": 3039
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 243714300685.69897,
-        "allied_n": 2693
+        "allied": 243786073017.71893,
+        "allied_n": 2703
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 2337
+          "allied": 2347
         },
         "resources": {
           "us": 26,
@@ -5195,7 +5195,17 @@
       "motiva_renovias_exmaint_3t12_5m_brl",
       "motiva_rails_exmaint_3t12_4m_brl",
       "motiva_viaquatro_exmaint_3t12_1m_brl",
-      "motiva_outros_exmaint_3t12_2m_brl"
+      "motiva_outros_exmaint_3t12_2m_brl",
+      "motiva_roads_2t12_235m_brl",
+      "motiva_vialagos_2t12_0m_brl",
+      "motiva_autoban_2t12_60m_brl",
+      "motiva_viaoeste_2t12_17m_brl",
+      "motiva_rodoanel_oeste_2t12_13m_brl",
+      "motiva_spvias_2t12_22m_brl",
+      "motiva_viario_2t12_10m_brl",
+      "motiva_renovias_2t12_5m_brl",
+      "motiva_rails_2t12_5m_brl",
+      "motiva_viaquatro_2t12_5m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
