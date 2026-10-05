@@ -1,0 +1,10 @@
+{
+  "id": "solar_direct_jamaica_solar_pump_pool_28k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_solar_direct_jamaica_solar_pump_pool_28k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37013M1029_1900_-NONE-_-NONE-/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF FAC - SOLAR PUMP AND POOL TREATMENT SYSTEM PPLZ (7901.3)",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 28000; date_signed 2013-08-28."
+}
