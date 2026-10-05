@@ -1,0 +1,10 @@
+{
+  "id": "boland_trane_barbados_meter_56k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_boland_trane_barbados_meter_56k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F4379_1900_SAQMMA13D0169_1900/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "PURCHASE AND INSTALL POWER QUALITY METER (METERNET) IGF::CL::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 56170; date_signed 2014-09-27."
+}

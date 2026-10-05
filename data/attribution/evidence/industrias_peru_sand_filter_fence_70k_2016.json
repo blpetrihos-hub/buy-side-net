@@ -1,0 +1,10 @@
+{
+  "id": "industrias_peru_sand_filter_fence_70k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_industrias_peru_sand_filter_fence_70k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50016C0008_1900_-NONE-_-NONE-/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "LIMA FY2106 FAC REPLACE SAND FILTER FENCE IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 69863.16; date_signed 2016-03-31."
+}

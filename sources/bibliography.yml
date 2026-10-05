@@ -26970,3 +26970,138 @@
   supports:
   - misc_haiti_reyes_razor_wire_69k_2023
   - hunt_cycle1046
+- id: usaspending_bmk_guyana_febr_doors_55k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2018C0002_1900_-NONE-_-NONE- (BMK Guyana FEBR doors). Signed 2018-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2018C0002_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2018C0002_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: BMK Guyana FEBR doors USD 0.055m. Supports bmk_guyana_febr_doors_55k_2018.'
+  supports:
+  - bmk_guyana_febr_doors_55k_2018
+  - hunt_cycle1047
+- id: usaspending_alban_guyana_residence_generators_55k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGY20015M0033_1900_-NONE-_-NONE- (Alban Guyana residence generators). Signed 2014-11-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGY20015M0033_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGY20015M0033_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Alban Guyana residence generators USD 0.055m. Supports alban_guyana_residence_generators_55k_2014.'
+  supports:
+  - alban_guyana_residence_generators_55k_2014
+  - hunt_cycle1047
+- id: usaspending_industrias_peru_sand_filter_fence_70k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50016C0008_1900_-NONE-_-NONE- (Industrias Peru sand filter fence). Signed 2016-03-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50016C0008_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50016C0008_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Industrias Peru sand filter fence USD 0.070m. Supports industrias_peru_sand_filter_fence_70k_2016.'
+  supports:
+  - industrias_peru_sand_filter_fence_70k_2016
+  - hunt_cycle1047
+- id: usaspending_misc_gtm_main_transformer_70k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGT50017M0866_1900_-NONE-_-NONE- (Guatemala main transformer). Signed 2017-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGT50017M0866_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGT50017M0866_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Guatemala main transformer USD 0.070m. Supports misc_gtm_main_transformer_70k_2017.'
+  supports:
+  - misc_gtm_main_transformer_70k_2017
+  - hunt_cycle1047
+- id: usaspending_trazo_paraguay_grouting_69k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PA1026C0009_1900_-NONE-_-NONE- (Trazo Paraguay grouting). Signed 2026-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1026C0009_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1026C0009_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Trazo Paraguay grouting USD 0.069m. Supports trazo_paraguay_grouting_69k_2026.'
+  supports:
+  - trazo_paraguay_grouting_69k_2026
+  - hunt_cycle1047
+- id: usaspending_boland_trane_barbados_meter_56k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14F4379_1900_SAQMMA13D0169_1900 (Boland Trane Barbados meter). Signed 2014-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F4379_1900_SAQMMA13D0169_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F4379_1900_SAQMMA13D0169_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Boland Trane Barbados meter USD 0.056m. Supports boland_trane_barbados_meter_56k_2014.'
+  supports:
+  - boland_trane_barbados_meter_56k_2014
+  - hunt_cycle1048
+- id: usaspending_applied_security_ecuador_tss_49k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F0148_1900_SAQMMA07D0030_1900 (Applied Security Ecuador TSS). Signed 2011-11-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F0148_1900_SAQMMA07D0030_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F0148_1900_SAQMMA07D0030_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Applied Security Ecuador TSS USD 0.049m. Supports applied_security_ecuador_tss_49k_2011.'
+  supports:
+  - applied_security_ecuador_tss_49k_2011
+  - hunt_cycle1048
+- id: usaspending_misc_brazil_mezzanine_fan_coils_70k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR8223P0520_1900_-NONE-_-NONE- (Brazil mezzanine fan coils). Signed 2023-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8223P0520_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8223P0520_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brazil mezzanine fan coils USD 0.070m. Supports misc_brazil_mezzanine_fan_coils_70k_2023.'
+  supports:
+  - misc_brazil_mezzanine_fan_coils_70k_2023
+  - hunt_cycle1048
+- id: usaspending_misc_peru_parking_asphalt_70k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50013C0029_1900_-NONE-_-NONE- (Peru parking asphalt). Signed 2013-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50013C0029_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50013C0029_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Peru parking asphalt USD 0.070m. Supports misc_peru_parking_asphalt_70k_2013.'
+  supports:
+  - misc_peru_parking_asphalt_70k_2013
+  - hunt_cycle1048
+- id: usaspending_misc_brazil_embassy_lighting_69k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25016M1680_1900_-NONE-_-NONE- (Brazil embassy lighting). Signed 2016-11-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25016M1680_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25016M1680_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Brazil embassy lighting USD 0.069m. Supports misc_brazil_embassy_lighting_69k_2016.'
+  supports:
+  - misc_brazil_embassy_lighting_69k_2016
+  - hunt_cycle1048
+- id: usaspending_cummins_panama_cmr_generator_49k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07014M0796_1900_-NONE-_-NONE- (Cummins Panama CMR generator). Signed 2014-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0796_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0796_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Cummins Panama CMR generator USD 0.049m. Supports cummins_panama_cmr_generator_49k_2014.'
+  supports:
+  - cummins_panama_cmr_generator_49k_2014
+  - hunt_cycle1049
+- id: usaspending_fluid_solutions_belize_fire_pump_49k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBH20017M0138_1900_-NONE-_-NONE- (Fluid Solutions Belize fire pump). Signed 2017-05-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20017M0138_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20017M0138_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Fluid Solutions Belize fire pump USD 0.049m. Supports fluid_solutions_belize_fire_pump_49k_2017.'
+  supports:
+  - fluid_solutions_belize_fire_pump_49k_2017
+  - hunt_cycle1049
+- id: usaspending_misc_ecuador_cmr_roof_69k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7523P0846_1900_-NONE-_-NONE- (Ecuador CMR roof). Signed 2023-05-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7523P0846_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7523P0846_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador CMR roof USD 0.069m. Supports misc_ecuador_cmr_roof_69k_2023.'
+  supports:
+  - misc_ecuador_cmr_roof_69k_2023
+  - hunt_cycle1049
+- id: usaspending_misc_peru_cmr_baths_69k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50013C0033_1900_-NONE-_-NONE- (Peru CMR baths). Signed 2013-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50013C0033_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50013C0033_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Peru CMR baths USD 0.069m. Supports misc_peru_cmr_baths_69k_2013.'
+  supports:
+  - misc_peru_cmr_baths_69k_2013
+  - hunt_cycle1049
+- id: usaspending_miscelaneos_cr_fbu_remodel_50k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8021P1315_1900_-NONE-_-NONE- (CR FBU remodel). Signed 2021-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8021P1315_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8021P1315_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CR FBU remodel USD 0.050m. Supports miscelaneos_cr_fbu_remodel_50k_2021.'
+  supports:
+  - miscelaneos_cr_fbu_remodel_50k_2021
+  - hunt_cycle1049

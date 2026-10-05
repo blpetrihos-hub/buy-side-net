@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1046
+cycle: 1049
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1047 shuffle_seed=20262047; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us730/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.05–0.07m (CR FBU remodel; Ecuador sanitary drain; COL range; Peru sand-filter fence; Brazil mezzanine fan coils; GTM transformer; Peru asphalt parking; Trazo Paraguay grouting; Brazil embassy lighting; Siemens Belize switchgear allied). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1047 shuffled_order)
+next_query: Cycle 1050 shuffle_seed=20262050; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us736/prc410/allied1562); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual ~USD0.045–0.070m (Ecuador generators control; Belize electrical/plumbing; Juan Parodi fire-station HVAC; Mexico Seneca kitchen; Procunsa sanitary; COL range; Siemens Belize switchgear allied; ABB Ecuador breakers allied). Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1050 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1046) ===
-# Filled this batch: Uruguay×building_materials NEW×2 (Keller fire panel us; Santilli Libano windows other); Guyana×building_materials NEW×1 us (Project Services CAMS); Mexico×building_materials NEW×3 other (NIV waterproof; ODC remodel; Mazatlán DEA surveillance); Dominican Republic×power_plants_grid/building_materials NEW×2 (Fluid Solutions controller us; roof truss other); Guatemala×power_plants_grid NEW×1 us (MCMG generator); Honduras×power_plants_grid NEW×1 other (Mathews genset); Argentina×engineering_epc NEW×1 us (Thompson EOC design); Brazil×power_plants_grid NEW×1 us (Export 220Volt transformers); Venezuela×building_materials NEW×1 other (delta barriers); Barbados×power_plants_grid NEW×1 other (generator install); Haiti×building_materials NEW×1 other (Reyes razor wire).
+# === Country×subcategory sweep cells touched (session continuing from 1049) ===
+# Filled this batch: Guyana×building_materials/power_plants_grid NEW×2 us (BMK FEBR doors; Alban residence generators); Peru×water/bridges_roads/building_materials NEW×3 other (sand-filter fence; parking asphalt; CMR baths); Guatemala×power_plants_grid NEW×1 other (main transformer); Paraguay×building_materials NEW×1 other (Trazo grouting); Barbados×power_plants_grid NEW×1 us (Boland Trane meter); Ecuador×building_materials NEW×2 (Applied Security TSS us; CMR roof other); Brazil×building_materials NEW×2 other (mezzanine fan coils; embassy lighting); Panama×power_plants_grid NEW×1 us (Cummins CMR generator); Belize×water NEW×1 us (Fluid Solutions fire pump); Costa Rica×building_materials NEW×1 other (FBU remodel).
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank this batch.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx this batch — Keller, Project Services, Fluid Solutions, MCMG, Thompson, Export 220Volt).
+# ≥1/3 U.S. hunt budget spent (6 US CapEx this batch — BMK, Alban, Boland Trane, Applied Security, Cummins, Fluid Solutions).
+
+# === Cycle 1049 (seed 20262049) ===
+# Shuffled: building_materials, port_ownership, engineering_epc, bridges_roads, wind, power_plants_grid, nickel, fission_smr, other_renewables, water, lithium, port_cranes, copper, graphite, solar, rail, balsa, niobium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   cummins_panama_cmr_generator_49k_2014 fluid_solutions_belize_fire_pump_49k_2017 misc_ecuador_cmr_roof_69k_2023 misc_peru_cmr_baths_69k_2013 miscelaneos_cr_fbu_remodel_50k_2021.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: USASpending residual ~USD0.045–0.070m; thin; company CapEx.
+# Active after cycle 1049: us736 / prc410 / allied1562 / other6239 (n=8947).
+
+# === Cycle 1048 (seed 20262048) ===
+# Shuffled: water, port_cranes, engineering_epc, building_materials, graphite, nickel, bridges_roads, solar, wind, niobium, other_renewables, port_ownership, fission_smr, balsa, copper, power_plants_grid, rail, lithium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   boland_trane_barbados_meter_56k_2014 applied_security_ecuador_tss_49k_2011 misc_brazil_mezzanine_fan_coils_70k_2023 misc_peru_parking_asphalt_70k_2013 misc_brazil_embassy_lighting_69k_2016.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Cummins Panama; Fluid Solutions Belize; Ecuador CMR roof; Peru CMR baths; CR FBU; thin.
+# Active after cycle 1048: us734 / prc410 / allied1562 / other6236 (n=8942).
+
+# === Cycle 1047 (seed 20262047) ===
+# Shuffled: fission_smr, balsa, rail, graphite, lithium, wind, building_materials, niobium, power_plants_grid, solar, copper, bridges_roads, other_renewables, engineering_epc, water, nickel, port_ownership, port_cranes.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   bmk_guyana_febr_doors_55k_2018 alban_guyana_residence_generators_55k_2014 industrias_peru_sand_filter_fence_70k_2016 misc_gtm_main_transformer_70k_2017 trazo_paraguay_grouting_69k_2026.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Boland Trane; Applied Security Ecuador; Brazil fan coils; Peru asphalt; Brazil lighting; thin.
+# Active after cycle 1047: us732 / prc410 / allied1562 / other6233 (n=8937).
 
 # === Cycle 1046 (seed 20262046) ===
 # Shuffled: water, engineering_epc, solar, rail, wind, building_materials, other_renewables, niobium, bridges_roads, lithium, port_ownership, balsa, graphite, port_cranes, power_plants_grid, copper, nickel, fission_smr.
