@@ -1,11 +1,40 @@
 updated: 2026-10-05
-cycle: 929
+cycle: 932
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 930 shuffle_seed=20261930; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us563/prc409/allied1553); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; USASpending residual (EMR Paramaribo ESW; Greenway Asunción; Trison Georgetown; Baker Tandil AE; Vistas Brasilia; Castries pier; SCA Dominica ODM; more Jamaica/Brazil); diversify thin/PRC. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
-next_row_id: (follow cycle-930 shuffled_order)
+next_query: Cycle 933 shuffle_seed=20261933; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us576/prc409/allied1553); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; USASpending residual (Hardline Kingston FEBR; Tidewater Managua DB; Palgag Managua roof; Edifice Quito; Serrano Bariloche EOC; Naku BA CMR; Horizon Brasília CW; Tidewater Rio ESW; Trison Recife CAC; Veyka SD slope; Palgag SD HVAC; Spectrum SD elec; Bendig Sierpe; Kunkel STRI); diversify thin/PRC. CBMM Araxá CapEx already dense — verify 2026 R$2bn face before new row. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
+next_row_id: (follow cycle-933 shuffled_order)
 dry_streak: 0
+
+# === Country×subcategory sweep cells touched (session continuing from 932) ===
+# Filled this batch: Suriname×building_materials NEW×1 us (EMR Paramaribo ESW); Paraguay×engineering_epc NEW×1 us (Greenway Asunción DB); Guyana×building_materials NEW×1 us (Trison Georgetown P2); Saint Lucia×port_ownership NEW×1 other (Castries pier); Dominica×building_materials NEW×1 us (SCA ODM); Argentina×engineering_epc NEW×1 us (Baker Tandil F-16 AE); Brazil×building_materials NEW×2 us (Vistas Brasília DB; Tidewater São Paulo canopy); Jamaica×building_materials NEW×2 us (Desbuild Powell Plaza; PED boat facility); Uruguay×building_materials NEW×1 us (Edifice Montevideo MSGR); Bolivia×building_materials NEW×2 us (Hardline La Paz FEBR; Competition Roofing La Paz); Panama×port_ownership NEW×1 other (Bonatti pier); Belize×building_materials NEW×1 us (Neal's Belmopan fire).
+# Still thin: Peru balsa, Colombia graphite, Nicaragua rail, thin minerals. Thin top-up dry. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (13 US CapEx this batch).
+
+# === Cycle 932 (seed 20261932) ===
+# Shuffled: copper, bridges_roads, wind, other_renewables, port_ownership, niobium, building_materials, lithium, nickel, solar, fission_smr, power_plants_grid, rail, balsa, water, engineering_epc, graphite, port_cranes.
+# Logged 5 NEW (4 US / 0 PRC / 0 allied / 1 other):
+#   edifice_montevideo_msgr_3p63m_2018 hardline_lapaz_febr_1p77m_2016 comp_roof_lapaz_1p01m_2015 bonatti_panama_pier_4p64m_2022 neals_belmopan_fire_849k_2018.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Hardline Kingston; Tidewater Managua DB; Palgag Managua roof; Edifice Quito; thin; PRC.
+# Active after cycle 932: us576 / prc409 / allied1553 / other5824 (n=8362).
+
+# === Cycle 931 (seed 20261931) ===
+# Shuffled: balsa, other_renewables, nickel, engineering_epc, fission_smr, graphite, solar, port_cranes, wind, power_plants_grid, port_ownership, niobium, copper, bridges_roads, building_materials, water, lithium, rail.
+# Logged 5 NEW (5 US / 0 PRC / 0 allied / 0 other):
+#   baker_tandil_f16_ae_8p25m_2025 vistas_brasilia_db_6p96m_2012 tidewater_sao_paulo_canopy_4p44m_2023 desbuild_powell_plaza_5p22m_2018 ped_jamaica_boat_facility_2p53m_2023.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Edifice Montevideo; Hardline/Comp Roof La Paz; Bonatti Panama pier; Neal's Belmopan; thin.
+# Active after cycle 931: us572 / prc409 / allied1553 / other5823 (n=8357).
+
+# === Cycle 930 (seed 20261930) ===
+# Shuffled: copper, water, other_renewables, port_cranes, building_materials, wind, nickel, lithium, graphite, solar, rail, engineering_epc, port_ownership, bridges_roads, balsa, niobium, fission_smr, power_plants_grid.
+# Logged 5 NEW (4 US / 0 PRC / 0 allied / 1 other):
+#   emr_paramaribo_esw_4p91m_2011 greenway_asuncion_db_8p44m_2012 trison_georgetown_p2_5p49m_2018 castries_pier_db_1p33m_2009 sca_dominica_odm_1p69m_2020.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Baker Tandil; Vistas Brasília; Tidewater SP; Desbuild Powell; PED Jamaica boat; thin.
+# Active after cycle 930: us567 / prc409 / allied1553 / other5823 (n=8352).
 
 # === Country×subcategory sweep cells touched (session continuing from 929) ===
 # Filled this batch: Venezuela×building_materials/engineering_epc NEW×3 us (CCE Caracas MSGQ; NVE Caracas electrical; AECOM Caracas electrical — CapEx-fill); Costa Rica×building_materials NEW×2 (Horizon MSGR us; Eterna schools other); Panama×building_materials NEW×1 us (Roofing NEC); Bolivia×power_plants_grid NEW×1 us (Amentum La Paz); Jamaica×building_materials/solar NEW×2 us (Tabcon NEC roof; Futron PV); Peru×port_ownership/building_materials NEW×2 (AECOM Callao P2 us; Palgag NAMRU-6 allied); Belize×building_materials NEW×1 us (Desbuild MSGR); Ecuador×building_materials NEW×1 us (Montage Guayaquil MSGR); Nicaragua×building_materials NEW×1 us (Tidewater consular); Chile×power_plants_grid NEW×1 us (Interim Santiago power).

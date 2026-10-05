@@ -1,0 +1,10 @@
+{
+  "id": "comp_roof_lapaz_1p01m_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_comp_roof_lapaz_20150715",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1983_1900_SAQMMA13D0127_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "LA PAZ, BOLIVIA CHANCERY ROOF REPLACEMENT PROJECT. IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1,011,500.05; date_signed 2015-07-15."
+}
