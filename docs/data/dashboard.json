@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1808,
+    "n_rows": 1816,
     "counts": {
-      "total": 1808,
-      "active": 1609,
+      "total": 1816,
+      "active": 1617,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1535,
-      "on_map": 1471
+      "documented": 1543,
+      "on_map": 1479
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 300,
-        "n": 701
+        "allied": 308,
+        "n": 709
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 116605308870.14005,
-        "allied_n": 229
+        "allied": 117009962093.30003,
+        "allied_n": 237
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 129,
         "prc": 125,
-        "allied": 405,
-        "n": 659
+        "allied": 413,
+        "n": 667
       },
       "usd": {
         "us": 21129430723.329994,
         "us_n": 67,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 170308147737.27005,
-        "allied_n": 324
+        "allied": 170712800960.43002,
+        "allied_n": 332
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 194
+          "allied": 202
         },
         "infrastructure": {
           "us": 67,
@@ -2797,7 +2797,15 @@
       "neoenergia_perdas_6m26_137m_brl",
       "neoenergia_outros_dist_6m26_405m_brl",
       "neoenergia_material_6m26_310m_brl",
-      "isa_energia_1s26_rm_energized_475m_brl"
+      "isa_energia_1s26_rm_energized_475m_brl",
+      "equatorial_pa_eletricos_2t26_362m_brl",
+      "equatorial_pa_oe_2t26_329m_brl",
+      "equatorial_go_eletricos_2t26_611m_brl",
+      "equatorial_ma_eletricos_2t26_279m_brl",
+      "equatorial_pi_eletricos_2t26_179m_brl",
+      "equatorial_pi_oe_2t26_49m_brl",
+      "equatorial_rs_eletricos_2t26_262m_brl",
+      "equatorial_ma_oe_2t26_30m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
