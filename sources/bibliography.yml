@@ -38895,3 +38895,138 @@
   supports:
   - misc_brazil_rdj_perimeter_fence_236k_2013
   - hunt_cycle1311
+- id: usaspending_leidos_mexico_vip6500_xray_5252k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC11F0039_1900_GS07F0210J_4730 (leidos_mexico_vip6500_xray_5252k_2011). Signed 2011-04-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11F0039_1900_GS07F0210J_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11F0039_1900_GS07F0210J_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: leidos_mexico_vip6500_xray_5252k_2011 USD 5.252m. Supports leidos_mexico_vip6500_xray_5252k_2011.'
+  supports:
+  - leidos_mexico_vip6500_xray_5252k_2011
+  - hunt_cycle1312
+- id: usaspending_leidos_mexico_xray_portal_install_2122k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19WHAR18P0001_1900_-NONE-_-NONE- (leidos_mexico_xray_portal_install_2122k_2017). Signed 2017-10-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19WHAR18P0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19WHAR18P0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: leidos_mexico_xray_portal_install_2122k_2017 USD 2.122m. Supports leidos_mexico_xray_portal_install_2122k_2017.'
+  supports:
+  - leidos_mexico_xray_portal_install_2122k_2017
+  - hunt_cycle1312
+- id: usaspending_misc_colombia_perimeter_lights_360k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT16C0003_9700_-NONE-_-NONE- (misc_colombia_perimeter_lights_360k_2016). Signed 2016-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT16C0003_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT16C0003_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_perimeter_lights_360k_2016 USD 0.360m. Supports misc_colombia_perimeter_lights_360k_2016.'
+  supports:
+  - misc_colombia_perimeter_lights_360k_2016
+  - hunt_cycle1312
+- id: usaspending_misc_ecuador_emergency_power_stations_352k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7525P0152_1900_-NONE-_-NONE- (misc_ecuador_emergency_power_stations_352k_2024). Signed 2024-11-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7525P0152_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7525P0152_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_ecuador_emergency_power_stations_352k_2024 USD 0.352m. Supports misc_ecuador_emergency_power_stations_352k_2024.'
+  supports:
+  - misc_ecuador_emergency_power_stations_352k_2024
+  - hunt_cycle1312
+- id: usaspending_misc_mexico_security_wall_perimeter_244k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX7223P0115_1900_-NONE-_-NONE- (misc_mexico_security_wall_perimeter_244k_2023). Signed 2023-02-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX7223P0115_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX7223P0115_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_security_wall_perimeter_244k_2023 USD 0.244m. Supports misc_mexico_security_wall_perimeter_244k_2023.'
+  supports:
+  - misc_mexico_security_wall_perimeter_244k_2023
+  - hunt_cycle1312
+- id: usaspending_leidos_mexico_vacis_ip6500_install_1886k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F0065_1900_GS07F0210J_4730 (leidos_mexico_vacis_ip6500_install_1886k_2017). Signed 2017-12-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F0065_1900_GS07F0210J_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F0065_1900_GS07F0210J_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: leidos_mexico_vacis_ip6500_install_1886k_2017 USD 1.886m. Supports leidos_mexico_vacis_ip6500_install_1886k_2017.'
+  supports:
+  - leidos_mexico_vacis_ip6500_install_1886k_2017
+  - hunt_cycle1313
+- id: usaspending_cambridge_bahamas_c4i_minor_construction_913k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N0003919F0349_9700_N0003915D0037_9700 (cambridge_bahamas_c4i_minor_construction_913k_2019). Signed 2019-07-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0003919F0349_9700_N0003915D0037_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0003919F0349_9700_N0003915D0037_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cambridge_bahamas_c4i_minor_construction_913k_2019 USD 0.913m. Supports cambridge_bahamas_c4i_minor_construction_913k_2019.'
+  supports:
+  - cambridge_bahamas_c4i_minor_construction_913k_2019
+  - hunt_cycle1313
+- id: usaspending_misc_trinidad_nec_chain_link_fence_232k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19TD5523C0005_1900_-NONE-_-NONE- (misc_trinidad_nec_chain_link_fence_232k_2023). Signed 2023-05-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19TD5523C0005_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19TD5523C0005_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_trinidad_nec_chain_link_fence_232k_2023 USD 0.232m. Supports misc_trinidad_nec_chain_link_fence_232k_2023.'
+  supports:
+  - misc_trinidad_nec_chain_link_fence_232k_2023
+  - hunt_cycle1313
+- id: usaspending_misc_suriname_paramaribo_permanent_power_222k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14C0168_1900_-NONE-_-NONE- (misc_suriname_paramaribo_permanent_power_222k_2014). Signed 2014-08-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0168_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0168_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_suriname_paramaribo_permanent_power_222k_2014 USD 0.222m. Supports misc_suriname_paramaribo_permanent_power_222k_2014.'
+  supports:
+  - misc_suriname_paramaribo_permanent_power_222k_2014
+  - hunt_cycle1313
+- id: usaspending_misc_guatemala_perimeter_wall_220k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GT5022C0021_1900_-NONE-_-NONE- (misc_guatemala_perimeter_wall_220k_2022). Signed 2022-08-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5022C0021_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GT5022C0021_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_guatemala_perimeter_wall_220k_2022 USD 0.220m. Supports misc_guatemala_perimeter_wall_220k_2022.'
+  supports:
+  - misc_guatemala_perimeter_wall_220k_2022
+  - hunt_cycle1313
+- id: usaspending_isobox_panama_modular_ops_center_102k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0721P0578_1900_-NONE-_-NONE- (isobox_panama_modular_ops_center_102k_2021). Signed 2021-06-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0721P0578_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0721P0578_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: isobox_panama_modular_ops_center_102k_2021 USD 0.102m. Supports isobox_panama_modular_ops_center_102k_2021.'
+  supports:
+  - isobox_panama_modular_ops_center_102k_2021
+  - hunt_cycle1314
+- id: usaspending_isobox_panama_modular_classrooms_76k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0724P0021_1900_-NONE-_-NONE- (isobox_panama_modular_classrooms_76k_2023). Signed 2023-11-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0724P0021_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0724P0021_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: isobox_panama_modular_classrooms_76k_2023 USD 0.076m. Supports isobox_panama_modular_classrooms_76k_2023.'
+  supports:
+  - isobox_panama_modular_classrooms_76k_2023
+  - hunt_cycle1314
+- id: usaspending_idac_colombia_brcna_chain_link_fence_211k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15017C0011_1900_-NONE-_-NONE- (idac_colombia_brcna_chain_link_fence_211k_2017). Signed 2017-07-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017C0011_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017C0011_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: idac_colombia_brcna_chain_link_fence_211k_2017 USD 0.211m. Supports idac_colombia_brcna_chain_link_fence_211k_2017.'
+  supports:
+  - idac_colombia_brcna_chain_link_fence_211k_2017
+  - hunt_cycle1314
+- id: usaspending_misc_brazil_rec_center_perimeter_wall_210k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR9321P0104_1900_-NONE-_-NONE- (misc_brazil_rec_center_perimeter_wall_210k_2021). Signed 2021-01-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9321P0104_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR9321P0104_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_rec_center_perimeter_wall_210k_2021 USD 0.210m. Supports misc_brazil_rec_center_perimeter_wall_210k_2021.'
+  supports:
+  - misc_brazil_rec_center_perimeter_wall_210k_2021
+  - hunt_cycle1314
+- id: usaspending_anahi_mexico_cgr_perimeter_wall_188k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX1123P0153_1900_-NONE-_-NONE- (anahi_mexico_cgr_perimeter_wall_188k_2023). Signed 2023-07-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1123P0153_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1123P0153_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: anahi_mexico_cgr_perimeter_wall_188k_2023 USD 0.188m. Supports anahi_mexico_cgr_perimeter_wall_188k_2023.'
+  supports:
+  - anahi_mexico_cgr_perimeter_wall_188k_2023
+  - hunt_cycle1314
