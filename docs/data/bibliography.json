@@ -6267,24 +6267,6 @@
     ]
   },
   {
-    "id": "ssa_mexico_guaymas_tum_20251016",
-    "type": "company",
-    "chicago": "SSA Marine México. “SSA Marine Mexico to Operate New Multi-Use Terminal at the Port of Guaymas.” 16 October 2025.",
-    "url": "https://www.ssamarine.mx/ssa-ing/newsdetails?id=245",
-    "annotation": "Company primary on Guaymas TUM partial rights transfer / 18-year concession. Supports ssa_guaymas_tum_concession_2025.",
-    "supports": [
-      "ssa_guaymas_tum_concession_2025",
-      "hunt_infra_port_ownership"
-    ],
-    "map_supports": [
-      "hunt_infra_port_ownership",
-      "ssa_guaymas_tum_concession_2025"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "dpworld_caucedo_20250509",
     "type": "company",
     "chicago": "DP World. “DP World Signs Agreement to Launch $760M Port and Free Trade Zone in Dominican Republic.” 9 May 2025.",
@@ -7908,12 +7890,13 @@
   {
     "id": "aldesa_chiapas_tuneles_20260827",
     "type": "company",
-    "chicago": "Aldesa Construcción. “Aldesa Se Adjudica la Construcción de Dos Túneles en México por 33 Millones de Euros.” 27 August 2026.",
+    "chicago": "Aldesa. “Aldesa se adjudica la construcción de dos túneles en México por 33 millones de euros.” August 27, 2026. https://aldesa.com/aldesa-se-adjudica-la-construccion-de-dos-tuneles-en-mexico-por-33-millones-de-euros/.",
     "url": "https://aldesa.com/aldesa-se-adjudica-la-construccion-de-dos-tuneles-en-mexico-por-33-millones-de-euros/",
-    "annotation": "Aldesa primary on SICT Chiapas twin-tunnel award MXN 659m. Supports aldesa_chiapas_tunnels_659m_2026.",
+    "annotation": "Aldesa Chiapas CapEx-fill company EUR 33m dual → ~USD 37.62m via Fed H.10. Supports aldesa_chiapas_tunnels_659m_2026.",
     "supports": [
       "aldesa_chiapas_tunnels_659m_2026",
-      "hunt_infra_bridges_roads"
+      "hunt_infra_bridges_roads",
+      "hunt_cycle223"
     ],
     "map_supports": [
       "aldesa_chiapas_tunnels_659m_2026",
@@ -12341,12 +12324,13 @@
   {
     "id": "cbmm_results_2024_release_20250424",
     "type": "company",
-    "chicago": "Companhia Brasileira de Metalurgia e Mineração (CBMM). “CBMM mantém estratégia de desenvolvimento de tecnologia para aplicações de Nióbio” (Release de Resultados 2024). 24 April 2025. https://cbmm.com/-/media/CBMM/MEDIA-CENTER/Noticias-Internas/resultado-final-2024/CBMM_Release-de-Resultados-2025---Final---22042025.pdf.",
+    "chicago": "CBMM. “Release de Resultados 2024.” April 24, 2025. https://cbmm.com/-/media/CBMM/MEDIA-CENTER/Noticias-Internas/resultado-final-2024/CBMM_Release-de-Resultados-2025---Final---22042025.pdf.",
     "url": "https://cbmm.com/-/media/CBMM/MEDIA-CENTER/Noticias-Internas/resultado-final-2024/CBMM_Release-de-Resultados-2025---Final---22042025.pdf",
-    "annotation": "CBMM primary: 2024 CapEx R$630m at Araxá. Supports cbmm_araxa_capex_630m_2024.",
+    "annotation": "CBMM Araxá 2024 CapEx-fill ~USD 121.34m via Fed H.10. Supports cbmm_araxa_capex_630m_2024.",
     "supports": [
       "cbmm_araxa_capex_630m_2024",
-      "hunt_fenb_araxa"
+      "hunt_fenb_araxa",
+      "hunt_cycle223"
     ],
     "map_supports": [
       "cbmm_araxa_capex_630m_2024",
@@ -19347,12 +19331,13 @@
   {
     "id": "holcim_mexico_ecopact_56mdp_20250625",
     "type": "company",
-    "chicago": "Holcim México. “Holcim México impulsa la construcción sostenible con inversión de 56 millones en infraestructura para su concreto bajo en carbono.” June 25, 2025. https://www.holcim.com.mx/holcim-mexico-impulsa-la-construccion-sostenible-con-inversion-de-56-millones-en-infraestructura.",
+    "chicago": "Holcim México. “Holcim México impulsa la construcción sostenible con inversión de 56 millones en infraestructura.” June 25, 2025. https://www.holcim.com.mx/holcim-mexico-impulsa-la-construccion-sostenible-con-inversion-de-56-millones-en-infraestructura.",
     "url": "https://www.holcim.com.mx/holcim-mexico-impulsa-la-construccion-sostenible-con-inversion-de-56-millones-en-infraestructura",
-    "annotation": "Holcim México: ECOPact silos MXN 56m. Supports holcim_mexico_ecopact_silos_56mdp_2025.",
+    "annotation": "Holcim ECOPact CapEx-fill ~USD 3.17m via Fed H.10. Supports holcim_mexico_ecopact_silos_56mdp_2025.",
     "supports": [
       "holcim_mexico_ecopact_silos_56mdp_2025",
-      "hunt_cycle191"
+      "hunt_cycle191",
+      "hunt_cycle223"
     ],
     "map_supports": [
       "holcim_mexico_ecopact_silos_56mdp_2025"
@@ -19957,12 +19942,13 @@
     "type": "company",
     "chicago": "CPFL Energia. “CPFL Energia registra EBITDA de R$ 13,5 bilhões em 2025 e investimento recorde de R$ 6,1 bilhões.” March 6, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61.",
     "url": "https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61",
-    "annotation": "CPFL FY2025 CapEx-fill ~USD 1174.86m via Fed H.10. Supports cpfl_fy2025_capex_6p1bn_brl.",
+    "annotation": "CPFL 2026–2030 CapEx-fill ~USD 5990.28m via Fed H.10. Supports cpfl_capex_plan_31p1bn_2026_2030.",
     "supports": [
       "cpfl_fy2025_capex_6p1bn_brl",
       "hunt_cycle196",
       "cpfl_capex_plan_31p1bn_2026_2030",
-      "hunt_cycle222"
+      "hunt_cycle222",
+      "hunt_cycle223"
     ],
     "map_supports": [
       "cpfl_capex_plan_31p1bn_2026_2030",
@@ -20066,10 +20052,11 @@
     "type": "company",
     "chicago": "SPIC Brasil. “SPIC Brasil expandirá a UHE São Simão em 310 MW via Leilão de Reserva de Capacidade, com mais de R$ 1 bilhão em investimentos.” March 19, 2026. https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/.",
     "url": "https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/",
-    "annotation": "SPIC Brasil: São Simão UG7 >R$1bn LRCAP. Supports spic_sao_simao_ug7_lrcap_2026.",
+    "annotation": "SPIC São Simão UG7 CapEx-fill ~USD 192.60m via Fed H.10. Supports spic_sao_simao_ug7_lrcap_2026.",
     "supports": [
       "spic_sao_simao_ug7_lrcap_2026",
-      "hunt_cycle197"
+      "hunt_cycle197",
+      "hunt_cycle223"
     ],
     "map_supports": [
       "spic_sao_simao_ug7_lrcap_2026"
@@ -20842,10 +20829,11 @@
     "type": "company",
     "chicago": "ACCIONA. “ACCIONA awarded road link project in southern São Paulo.” January 15, 2026. https://www.acciona.com/updates/news/acciona-awarded-road-link-southern-sao-paulo.",
     "url": "https://www.acciona.com/updates/news/acciona-awarded-road-link-southern-sao-paulo",
-    "annotation": "Acciona Roberto Marinho–Imigrantes R$2.099bn. Supports acciona_roberto_marinho_sp_2p099bn_2026.",
+    "annotation": "ACCIONA Roberto Marinho CapEx-fill ~USD 404.27m via Fed H.10. Supports acciona_roberto_marinho_sp_2p099bn_2026.",
     "supports": [
       "acciona_roberto_marinho_sp_2p099bn_2026",
-      "hunt_cycle208"
+      "hunt_cycle208",
+      "hunt_cycle223"
     ],
     "map_supports": [
       "acciona_roberto_marinho_sp_2p099bn_2026"
@@ -21381,6 +21369,23 @@
     ],
     "map_supports": [
       "timsa_mhc_esp10_manzanillo_300m_mxn_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "radar_sonora_ssa_guaymas_20260919",
+    "type": "press",
+    "chicago": "Radar Sonora. “Activarán grúas gigantes antes de cerrar el año.” September 19, 2026. https://www.radarsonora.com/activaran-gruas-gigantes-antes-de-cerrar-el-ano/.",
+    "url": "https://www.radarsonora.com/activaran-gruas-gigantes-antes-de-cerrar-el-ano/",
+    "annotation": "SSA Guaymas TUM CapEx-fill ~USD 24.01m via Fed H.10 (ASIPONA MXN 424.8m). Supports ssa_guaymas_tum_concession_2025.",
+    "supports": [
+      "ssa_guaymas_tum_concession_2025",
+      "hunt_cycle223"
+    ],
+    "map_supports": [
+      "ssa_guaymas_tum_concession_2025"
     ],
     "layers": [
       "infrastructure"
