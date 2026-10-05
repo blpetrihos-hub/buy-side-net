@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8270,
+    "n_rows": 8275,
     "counts": {
-      "total": 8270,
-      "active": 8071,
+      "total": 8275,
+      "active": 8076,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7997,
-      "on_map": 7901
+      "documented": 8002,
+      "on_map": 7906
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3955,
-        "n": 4356
+        "allied": 3960,
+        "n": 4361
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383439814625.2608,
-        "allied_n": 3884
+        "allied": 383453424387.0108,
+        "allied_n": 3889
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6838,
-        "n": 7093
+        "allied": 6843,
+        "n": 7098
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527308520601.0604,
-        "allied_n": 6757
+        "allied": 527322130362.8104,
+        "allied_n": 6762
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3821
+          "allied": 3826
         },
         "infrastructure": {
           "us": 68,
@@ -9259,7 +9259,12 @@
       "axia_txproj_reforco_na_se_jacarepagua_instalacao_do_1_rea_14m_brl",
       "axia_txproj_reforco_na_se_bom_jesus_da_lapa_substituicao__14m_brl",
       "axia_txproj_melhoria_na_se_campina_grande_ii_substituicao_14m_brl",
-      "axia_txproj_melhoria_na_se_campina_grande_ii_substituicao_14m_brl_v2"
+      "axia_txproj_melhoria_na_se_campina_grande_ii_substituicao_14m_brl_v2",
+      "axia_txproj_melhoria_na_se_pirapama_ii_substituicao_do_tr_14m_brl",
+      "axia_txproj_reforco_na_se_s_joao_do_piaui_substituicao_do_14m_brl",
+      "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl",
+      "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl_v2",
+      "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl_v3"
     ],
     "hunt": [
       "hunt_br_power_equip",
