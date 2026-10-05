@@ -1,0 +1,10 @@
+{
+  "id": "zarza_paraguay_building_electrical_wiring_56k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_zarza_paraguay_building_electrical_wiring_56k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID526O1500031_7200_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::CL,CT::IGF. GENERAL MAINTENANCE AND REPAIR OF THE BUILDING, INCLUDING ELECTRIC WIRING, INSTALLATION OF LIGHT FIXTUR",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 55856; date_signed 2015-09-22."
+}
