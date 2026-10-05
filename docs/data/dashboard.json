@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 7503,
+    "n_rows": 7516,
     "counts": {
-      "total": 7503,
-      "active": 7304,
+      "total": 7516,
+      "active": 7317,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7230,
-      "on_map": 7136
+      "documented": 7243,
+      "on_map": 7149
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3188,
-        "n": 3589
+        "allied": 3201,
+        "n": 3602
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 361424163476.0607,
-        "allied_n": 3117
+        "allied": 361585423659.7907,
+        "allied_n": 3130
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6071,
-        "n": 6326
+        "allied": 6084,
+        "n": 6339
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 505292869451.86035,
-        "allied_n": 5990
+        "allied": 505454129635.59033,
+        "allied_n": 6003
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3054
+          "allied": 3067
         },
         "infrastructure": {
           "us": 68,
@@ -8492,7 +8492,20 @@
       "energisa_dist_eac_3t21_75m_brl",
       "energisa_tx_epa_ii_3t21_44m_brl",
       "energisa_tx_ett_3t21_173m_brl",
-      "energisa_tx_eam_3t21_9m_brl"
+      "energisa_tx_eam_3t21_9m_brl",
+      "energisa_dist_emr_2t21_19m_brl",
+      "energisa_dist_enf_2t21_2m_brl",
+      "energisa_dist_ebo_2t21_5m_brl",
+      "energisa_dist_epb_2t21_46m_brl",
+      "energisa_dist_ese_2t21_33m_brl",
+      "energisa_dist_emt_2t21_132m_brl",
+      "energisa_dist_ems_2t21_92m_brl",
+      "energisa_dist_eto_2t21_78m_brl",
+      "energisa_dist_ess_2t21_32m_brl",
+      "energisa_dist_ero_2t21_216m_brl",
+      "energisa_dist_eac_2t21_60m_brl",
+      "energisa_tx_epa_ii_2t21_39m_brl",
+      "energisa_tx_ett_2t21_83m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
