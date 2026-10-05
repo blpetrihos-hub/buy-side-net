@@ -1318,13 +1318,14 @@
   - worley_rincon_lithium_epc_2025
   - hunt_infra_engineering_epc
 - id: folha_cbmm_capex_20251030
-  type: journalism
-  chicago: Folha de S.Paulo / Reuters (Marta Nogueira). “CBMM prevê elevar produção de ferrobióbio em 5% neste ano e investir R$ 10 bi em 5 anos.” 30 October 2025.
+  type: press
+  chicago: Folha de S.Paulo. “CBMM prevê elevar produção de ferro-nióbio em 5% neste ano e investir R$ 10 bi em 5 anos.” October 30, 2025. https://www1.folha.uol.com.br/mercado/2025/10/cbmm-preve-elevar-producao-de-ferrobiobio-em-5-neste-ano-e-investir-r-10-bi-em-5-anos.shtml.
   url: https://www1.folha.uol.com.br/mercado/2025/10/cbmm-preve-elevar-producao-de-ferrobiobio-em-5-neste-ano-e-investir-r-10-bi-em-5-anos.shtml
-  annotation: Press interview on CBMM capex/production plan. Supports cbmm_araxa_capex_plan_2025 (UNVERIFIED proxy).
+  annotation: CBMM 5-year CapEx-fill ~USD 1926.00m via Fed H.10. Supports cbmm_araxa_capex_plan_2025.
   supports:
   - cbmm_araxa_capex_plan_2025
   - hunt_fenb_araxa
+  - hunt_cycle227
 - id: hydrorein_vista_alegre_20250130
   type: official
   chicago: Hydro Rein. “Hydro Rein acquires stake in Brazil’s largest single-phase solar complex, Vista Alegre.” 30 January 2025.
@@ -2259,12 +2260,13 @@
   - hunt_energy_solar
 - id: simpar_fr_aratu_ictsi_20260723
   type: company
-  chicago: SIMPAR S.A. “Fato Relevante — Alienação da CS Porto Aratu (HSIM / ATU12–ATU18) to ICTSI Americas B.V.” Comissão de Valores Mobiliários (CVM) Material Fact, 23 July 2026.
+  chicago: SIMPAR / CVM. Material Fact — ICTSI Americas acquisition of HSIM (Aratu). July 23, 2026. https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1547175.
   url: https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1547175
-  annotation: Official SIMPAR CVM Material Fact on Aratu terminal sale to ICTSI. Supports ictsi_aratu_hsim_2026.
+  annotation: ICTSI Aratu CapEx-fill ~USD 346.68m via Fed H.10. Supports ictsi_aratu_hsim_2026.
   supports:
   - ictsi_aratu_hsim_2026
   - hunt_infra_port_ownership
+  - hunt_cycle227
 - id: atkinsrealis_cnea_piap_20250521
   type: company
   chicago: AtkinsRéalis / Candu Energy Inc. “AtkinsRéalis secures supply of Heavy water and future of CANDU technology around the world.” Trade release, 21 May 2025.
@@ -2988,13 +2990,14 @@
   - powerchina_chancay_sierra_rail_2026
   - hunt_latam_rail_telecom
 - id: razon_icave_fase2_20260126
-  type: trade_press
-  chicago: La Razón. “Hutchison Ports ICAVE arranca Fase II en Veracruz con inversión superior a 4,500 millones de pesos.” 26 January 2026.
+  type: press
+  chicago: La Razón. “Hutchison Ports ICAVE arranca Fase II en Veracruz con inversión superior a 4,500 millones de pesos.” January 26, 2026. https://www.razon.com.mx/negocios/2026/01/26/hutchison-ports-icave-arranca-fase-ii-en-veracruz-con-inversion-superior-a-4500-millones-de-pesos/.
   url: https://www.razon.com.mx/negocios/2026/01/26/hutchison-ports-icave-arranca-fase-ii-en-veracruz-con-inversion-superior-a-4500-millones-de-pesos/
-  annotation: Press on ICAVE Veracruz Phase II >MXN 4.5bn. Supports hutchison_icave_fase2_4500m_mxn_2026.
+  annotation: Hutchison ICAVE Fase II CapEx-fill ~USD 254.34m via Fed H.10. Supports hutchison_icave_fase2_4500m_mxn_2026.
   supports:
   - hutchison_icave_fase2_4500m_mxn_2026
   - hunt_infra_port_ownership
+  - hunt_cycle227
 - id: cidades_minerais_graphcoa_8m_20260725
   type: trade_press
   chicago: Luciano, Raquel. “Graphcoa aposta em investimento de US$ 8 milhões para ampliar projeto de grafite em Minas Gerais.” Cidades & Minerais, 25 July 2026.
@@ -10586,12 +10589,13 @@
   - hunt_cycle187
 - id: isa_energia_rm_370m_20260623
   type: company
-  chicago: ISA Energia Brasil. “ISA ENERGIA BRASIL investe R$ 370 milhões em Reforços e Melhorias na rede de transmissão nacional.” June 23, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-370-milhoes-em-reforcos-e-melhorias-na-rede-de-transmissao-nacional/.
+  chicago: ISA Energia Brasil. “ISA Energia Brasil investe R$ 370 milhões em reforços e melhorias na rede de transmissão nacional.” June 23, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-370-milhoes-em-reforcos-e-melhorias-na-rede-de-transmissao-nacional/.
   url: https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-370-milhoes-em-reforcos-e-melhorias-na-rede-de-transmissao-nacional/
-  annotation: 'ISA Energia Brasil: 1T26 R&M CapEx R$370m. Supports isa_energia_rm_370m_brl_1t26.'
+  annotation: ISA Energia R&M CapEx-fill ~USD 71.26m via Fed H.10. Supports isa_energia_rm_370m_brl_1t26.
   supports:
   - isa_energia_rm_370m_brl_1t26
   - hunt_cycle187
+  - hunt_cycle227
 - id: copel_fr_15_25_capex_20251119
   type: company
   chicago: Companhia Paranaense de Energia (Copel). “Fato Relevante | 15/25 — CAPEX de R$ 17,8 bilhões para os próximos 5 anos.” November 19, 2025. https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd35ad?origin=1.
@@ -10785,13 +10789,14 @@
   - fcx_el_abra_sulfolix_741m_2025
   - hunt_cycle191
 - id: valor_weg_jaguara_20260727
-  type: company
-  chicago: Laurence, Felipe. “WEG assina contrato de R$ 1,2 bi com a Engie Brasil para expansão na usina de Jaguara.” Valor Econômico, July 27, 2026. https://valor.globo.com/empresas/noticia/2026/07/27/weg-assina-contrato-de-r-12-bi-com-a-engie-brasil-para-expanso-na-usina-de-jaguara.ghtml.
+  type: press
+  chicago: Valor Econômico. “WEG assina contrato de R$ 1,2 bi com a ENGIE Brasil para expansão na usina de Jaguara.” July 27, 2026. https://valor.globo.com/empresas/noticia/2026/07/27/weg-assina-contrato-de-r-12-bi-com-a-engie-brasil-para-expanso-na-usina-de-jaguara.ghtml.
   url: https://valor.globo.com/empresas/noticia/2026/07/27/weg-assina-contrato-de-r-12-bi-com-a-engie-brasil-para-expanso-na-usina-de-jaguara.ghtml
-  annotation: 'Valor/WEG: Jaguara expansion R$1.2bn. Supports engie_jaguara_expansion_1p2bn_brl_2026.'
+  annotation: ENGIE Jaguara expansion CapEx-fill ~USD 231.12m via Fed H.10. Supports engie_jaguara_expansion_1p2bn_brl_2026.
   supports:
   - engie_jaguara_expansion_1p2bn_brl_2026
   - hunt_cycle191
+  - hunt_cycle227
 - id: cpac_sec_6k_4q25_capex
   type: sec
   chicago: Cementos Pacasmayo S.A.A. “Consolidated Results for the Fourth Quarter and Year 2025” (Form 6-K Exhibit 99.1). February 12, 2026. https://www.sec.gov/Archives/edgar/data/1221029/000121390026015786/ea027662101ex99-1_cementos.htm.
@@ -11304,10 +11309,11 @@
   type: company
   chicago: Hitachi Energy. “Hitachi Energy announces new R$50 million ($11 million USD) investment to accelerate Brazil’s grid modernization.” May 20, 2026. https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/05/hitachi-energy-announces-new-r-50-million-11-million-usd-investment-to-accelerate-brazil-s-grid-modernization.
   url: https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/05/hitachi-energy-announces-new-r-50-million-11-million-usd-investment-to-accelerate-brazil-s-grid-modernization
-  annotation: 'Hitachi Brazil Service: R$50m. Supports hitachi_brazil_service_50m_brl_2026.'
+  annotation: Hitachi Brazil CapEx-fill company dual US$11m. Supports hitachi_brazil_service_50m_brl_2026.
   supports:
   - hitachi_brazil_service_50m_brl_2026
   - hunt_cycle202
+  - hunt_cycle227
 - id: enel_brasil_25p3bn_2025
   type: company
   chicago: Enel Brasil. “Enel anuncia investimento de R$ 25 bilhões no Brasil.” https://www.enel.com.br/pt/midia/news/d2025-1/Enel-anuncia-investimento-de-R$-25bilhoes-no-Brasil.html.
@@ -11716,10 +11722,11 @@
   type: press
   chicago: Cluster Industrial. “Hutchison Ports TIMSA invierte 300 MDP en grúas eléctricas para elevar capacidad en Manzanillo.” April 28, 2026. https://clusterindustrial.com.mx/hutchison-ports-timsa-invierte-300-mdp-en-gruas-electricas-para-elevar-capacidad-en-manzanillo/.
   url: https://clusterindustrial.com.mx/hutchison-ports-timsa-invierte-300-mdp-en-gruas-electricas-para-elevar-capacidad-en-manzanillo/
-  annotation: TIMSA Manzanillo ESP.10 MHC >MXN 300m. Supports timsa_mhc_esp10_manzanillo_300m_mxn_2026.
+  annotation: TIMSA MHC CapEx-fill ~USD 16.96m via Fed H.10. Supports timsa_mhc_esp10_manzanillo_300m_mxn_2026.
   supports:
   - timsa_mhc_esp10_manzanillo_300m_mxn_2026
   - hunt_cycle217
+  - hunt_cycle227
 - id: radar_sonora_ssa_guaymas_20260919
   type: press
   chicago: Radar Sonora. “Activarán grúas gigantes antes de cerrar el año.” September 19, 2026. https://www.radarsonora.com/activaran-gruas-gigantes-antes-de-cerrar-el-ano/.

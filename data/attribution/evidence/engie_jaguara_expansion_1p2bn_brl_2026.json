@@ -1,10 +1,10 @@
 {
   "id": "engie_jaguara_expansion_1p2bn_brl_2026",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "valor_weg_jaguara_20260727",
   "url": "https://valor.globo.com/empresas/noticia/2026/07/27/weg-assina-contrato-de-r-12-bi-com-a-engie-brasil-para-expanso-na-usina-de-jaguara.ghtml",
   "price_year": "2026",
   "evidence": "documented",
-  "quote": "O projeto prevê um investimento total de R$ 1,2 bilhão, que permitirá ampliar a capacidade instalada da usina em 232 megawatts (MW), por meio da instalação de duas novas unidades geradoras em poços já existentes, cada uma com 116 MW de potência.",
-  "note": "Opened Valor Econômico Portuguese article 2026-10-04; ENGIE LRCAP English press corroborates auction/CapEx."
+  "quote": "O projeto prevê um investimento total de R$ 1,2 bilhão, que permitirá ampliar a capacidade instalada da usina em 232 megawatts (MW), por meio da instalação de duas novas unidades geradoras em poços já existentes.",
+  "note": "Opened Valor Portuguese; R$1.2bn / +232 MW confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }

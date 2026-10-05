@@ -1,10 +1,10 @@
 {
   "id": "ictsi_aratu_hsim_2026",
-  "retrieved": "2026-10-01",
+  "retrieved": "2026-10-05",
   "source_id": "simpar_fr_aratu_ictsi_20260723",
   "url": "https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1547175",
   "price_year": "2026",
   "evidence": "documented",
-  "quote": "on July 23, 2026, the Company and CS Brasil Holding … entered into a binding purchase and sale agreement with ICTSI AMERICAS B.V. for the sale of 100% of the stake in HSIM … which wholly owns ATU12 … and ATU18 … (together, “CS Porto Aratu”), for an Enterprise Value of R$ 1.8 billion",
-  "note": "Opened SIMPAR CVM Material Fact / Fato Relevante PDF via ENET (protocol 1547175)."
+  "quote": "on July 23, 2026, the Company and CS Brasil Holding … entered into a binding purchase and sale agreement with ICTSI AMERICAS B.V. for the sale of 100% of the stake in HSIM … which wholly owns ATU12 … and ATU18",
+  "note": "Opened SIMPAR CVM IPE English; HSIM/ATU12–18 Aratu SPA confirmed; CapEx-fill uses stored R$1.8bn face via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
