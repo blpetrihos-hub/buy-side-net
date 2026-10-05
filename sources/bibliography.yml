@@ -35205,3 +35205,273 @@
   supports:
   - misc_colombia_rubber_floor_playground_14k_2016
   - hunt_cycle1229
+- id: usaspending_oes_mexico_psu_forced_entry_3p83m_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F3244_1900_SAQMMA07D0009_1900 (oes_mexico_psu_forced_entry_3p83m_2011). Signed 2011-09-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3244_1900_SAQMMA07D0009_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3244_1900_SAQMMA07D0009_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: oes_mexico_psu_forced_entry_3p83m_2011 USD 3.832m. Supports oes_mexico_psu_forced_entry_3p83m_2011.'
+  supports:
+  - oes_mexico_psu_forced_entry_3p83m_2011
+  - hunt_cycle1230
+- id: usaspending_jj_maintenance_panama_pier_jet_docks_1p67m_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0014_9700_W9127809D0068_9700 (jj_maintenance_panama_pier_jet_docks_1p67m_2010). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0014_9700_W9127809D0068_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0014_9700_W9127809D0068_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: jj_maintenance_panama_pier_jet_docks_1p67m_2010 USD 1.672m. Supports jj_maintenance_panama_pier_jet_docks_1p67m_2010.'
+  supports:
+  - jj_maintenance_panama_pier_jet_docks_1p67m_2010
+  - hunt_cycle1230
+- id: usaspending_misc_colombia_tolemaida_parking_shops_renovation_1p40m_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0010_9700_W9127809D0077_9700 (misc_colombia_tolemaida_parking_shops_renovation_1p40m_2012). Signed 2012-09-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127809D0077_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127809D0077_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_tolemaida_parking_shops_renovation_1p40m_2012 USD 1.401m. Supports misc_colombia_tolemaida_parking_shops_renovation_1p40m_2012.'
+  supports:
+  - misc_colombia_tolemaida_parking_shops_renovation_1p40m_2012
+  - hunt_cycle1230
+- id: usaspending_misc_honduras_renovation_1p32m_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0219_9700_W9127816D0099_9700 (misc_honduras_renovation_1p32m_2017). Signed 2017-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0219_9700_W9127816D0099_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0219_9700_W9127816D0099_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_renovation_1p32m_2017 USD 1.319m. Supports misc_honduras_renovation_1p32m_2017.'
+  supports:
+  - misc_honduras_renovation_1p32m_2017
+  - hunt_cycle1230
+- id: usaspending_misc_colombia_brcna_cucuta_renovations_1p18m_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1806_1900_19AQMM21D0037_1900 (misc_colombia_brcna_cucuta_renovations_1p18m_2022). Signed 2022-07-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1806_1900_19AQMM21D0037_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1806_1900_19AQMM21D0037_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_brcna_cucuta_renovations_1p18m_2022 USD 1.184m. Supports misc_colombia_brcna_cucuta_renovations_1p18m_2022.'
+  supports:
+  - misc_colombia_brcna_cucuta_renovations_1p18m_2022
+  - hunt_cycle1230
+- id: usaspending_horizon_havana_embassy_space_renovation_1p22m_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F2980_1900_19AQMM22D0063_1900 (horizon_havana_embassy_space_renovation_1p22m_2023). Signed 2023-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2980_1900_19AQMM22D0063_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F2980_1900_19AQMM22D0063_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: horizon_havana_embassy_space_renovation_1p22m_2023 USD 1.217m. Supports horizon_havana_embassy_space_renovation_1p22m_2023.'
+  supports:
+  - horizon_havana_embassy_space_renovation_1p22m_2023
+  - hunt_cycle1231
+- id: usaspending_wells_global_bahamas_south_bimini_generator_807k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_6973GH25F01203_6920_6973GH22D00017_6920 (wells_global_bahamas_south_bimini_generator_807k_2025). Signed 2025-08-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_6973GH25F01203_6920_6973GH22D00017_6920/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_6973GH25F01203_6920_6973GH22D00017_6920/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: wells_global_bahamas_south_bimini_generator_807k_2025 USD 0.807m. Supports wells_global_bahamas_south_bimini_generator_807k_2025.'
+  supports:
+  - wells_global_bahamas_south_bimini_generator_807k_2025
+  - hunt_cycle1231
+- id: usaspending_misc_honduras_metal_dorms_renovation_1p06m_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0011_9700_W9127811D0046_9700 (misc_honduras_metal_dorms_renovation_1p06m_2011). Signed 2011-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127811D0046_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127811D0046_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_metal_dorms_renovation_1p06m_2011 USD 1.061m. Supports misc_honduras_metal_dorms_renovation_1p06m_2011.'
+  supports:
+  - misc_honduras_metal_dorms_renovation_1p06m_2011
+  - hunt_cycle1231
+- id: usaspending_misc_paraguay_motor_pool_barracks_renovation_958k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0012_9700_W9127809D0078_9700 (misc_paraguay_motor_pool_barracks_renovation_958k_2012). Signed 2012-03-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0078_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0078_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_paraguay_motor_pool_barracks_renovation_958k_2012 USD 0.958m. Supports misc_paraguay_motor_pool_barracks_renovation_958k_2012.'
+  supports:
+  - misc_paraguay_motor_pool_barracks_renovation_958k_2012
+  - hunt_cycle1231
+- id: usaspending_misc_honduras_soto_cano_hvac_renovation_948k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127813D0018_9700 (misc_honduras_soto_cano_hvac_renovation_948k_2014). Signed 2014-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0018_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0018_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_soto_cano_hvac_renovation_948k_2014 USD 0.948m. Supports misc_honduras_soto_cano_hvac_renovation_948k_2014.'
+  supports:
+  - misc_honduras_soto_cano_hvac_renovation_948k_2014
+  - hunt_cycle1231
+- id: usaspending_hsu_brazil_rio_pcc_generator_replacement_569k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15F1968_1900_SAQMMA14D0058_1900 (hsu_brazil_rio_pcc_generator_replacement_569k_2015). Signed 2015-07-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1968_1900_SAQMMA14D0058_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1968_1900_SAQMMA14D0058_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hsu_brazil_rio_pcc_generator_replacement_569k_2015 USD 0.569m. Supports hsu_brazil_rio_pcc_generator_replacement_569k_2015.'
+  supports:
+  - hsu_brazil_rio_pcc_generator_replacement_569k_2015
+  - hunt_cycle1232
+- id: usaspending_us21_panama_inl_cctv_access_alarm_561k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE22C0007_1900_-NONE-_-NONE- (us21_panama_inl_cctv_access_alarm_561k_2022). Signed 2022-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE22C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE22C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: us21_panama_inl_cctv_access_alarm_561k_2022 USD 0.561m. Supports us21_panama_inl_cctv_access_alarm_561k_2022.'
+  supports:
+  - us21_panama_inl_cctv_access_alarm_561k_2022
+  - hunt_cycle1232
+- id: usaspending_misc_mexico_nld_residence_make_ready_803k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX6121P0166_1900_-NONE-_-NONE- (misc_mexico_nld_residence_make_ready_803k_2021). Signed 2021-07-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6121P0166_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6121P0166_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_nld_residence_make_ready_803k_2021 USD 0.803m. Supports misc_mexico_nld_residence_make_ready_803k_2021.'
+  supports:
+  - misc_mexico_nld_residence_make_ready_803k_2021
+  - hunt_cycle1232
+- id: usaspending_misc_honduras_ups_joc_battery_building_792k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0328_9700_W9127823D0073_9700 (misc_honduras_ups_joc_battery_building_792k_2024). Signed 2024-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0328_9700_W9127823D0073_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0328_9700_W9127823D0073_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_ups_joc_battery_building_792k_2024 USD 0.792m. Supports misc_honduras_ups_joc_battery_building_792k_2024.'
+  supports:
+  - misc_honduras_ups_joc_battery_building_792k_2024
+  - hunt_cycle1232
+- id: usaspending_misc_honduras_sierra_tanks_soto_cano_785k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0537_9700_W9127816D0099_9700 (misc_honduras_sierra_tanks_soto_cano_785k_2018). Signed 2018-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0537_9700_W9127816D0099_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0537_9700_W9127816D0099_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_sierra_tanks_soto_cano_785k_2018 USD 0.785m. Supports misc_honduras_sierra_tanks_soto_cano_785k_2018.'
+  supports:
+  - misc_honduras_sierra_tanks_soto_cano_785k_2018
+  - hunt_cycle1232
+- id: usaspending_hsu_bahamas_nassau_pcc_isc_server_room_542k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15F3219_1900_SAQMMA14D0058_1900 (hsu_bahamas_nassau_pcc_isc_server_room_542k_2015). Signed 2015-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F3219_1900_SAQMMA14D0058_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F3219_1900_SAQMMA14D0058_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hsu_bahamas_nassau_pcc_isc_server_room_542k_2015 USD 0.542m. Supports hsu_bahamas_nassau_pcc_isc_server_room_542k_2015.'
+  supports:
+  - hsu_bahamas_nassau_pcc_isc_server_room_542k_2015
+  - hunt_cycle1233
+- id: usaspending_alban_tractor_haiti_generators_513k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N0003310P9017_9700_-NONE-_-NONE- (alban_tractor_haiti_generators_513k_2010). Signed 2010-02-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0003310P9017_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0003310P9017_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: alban_tractor_haiti_generators_513k_2010 USD 0.513m. Supports alban_tractor_haiti_generators_513k_2010.'
+  supports:
+  - alban_tractor_haiti_generators_513k_2010
+  - hunt_cycle1233
+- id: usaspending_misc_mexico_nld_residence_make_ready_750k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX6122P0083_1900_-NONE-_-NONE- (misc_mexico_nld_residence_make_ready_750k_2022). Signed 2022-03-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6122P0083_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX6122P0083_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_nld_residence_make_ready_750k_2022 USD 0.750m. Supports misc_mexico_nld_residence_make_ready_750k_2022.'
+  supports:
+  - misc_mexico_nld_residence_make_ready_750k_2022
+  - hunt_cycle1233
+- id: usaspending_misc_el_salvador_diesel_generator_water_well_735k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0010_9700_W9127809D0064_9700 (misc_el_salvador_diesel_generator_water_well_735k_2012). Signed 2012-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127809D0064_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127809D0064_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_el_salvador_diesel_generator_water_well_735k_2012 USD 0.735m. Supports misc_el_salvador_diesel_generator_water_well_735k_2012.'
+  supports:
+  - misc_el_salvador_diesel_generator_water_well_735k_2012
+  - hunt_cycle1233
+- id: usaspending_misc_honduras_dorm_l02_l04_renovation_733k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0012_9700_W9127811D0046_9700 (misc_honduras_dorm_l02_l04_renovation_733k_2011). Signed 2011-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127811D0046_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127811D0046_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_dorm_l02_l04_renovation_733k_2011 USD 0.733m. Supports misc_honduras_dorm_l02_l04_renovation_733k_2011.'
+  supports:
+  - misc_honduras_dorm_l02_l04_renovation_733k_2011
+  - hunt_cycle1233
+- id: usaspending_hsu_mexico_city_sprinkler_office_renovation_450k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F3573_1900_SAQMMA14D0058_1900 (hsu_mexico_city_sprinkler_office_renovation_450k_2018). Signed 2018-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F3573_1900_SAQMMA14D0058_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F3573_1900_SAQMMA14D0058_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hsu_mexico_city_sprinkler_office_renovation_450k_2018 USD 0.450m. Supports hsu_mexico_city_sprinkler_office_renovation_450k_2018.'
+  supports:
+  - hsu_mexico_city_sprinkler_office_renovation_450k_2018
+  - hunt_cycle1234
+- id: usaspending_koniag_haiti_esps_installation_441k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F4029_1900_SAQMMA13D0121_1900 (koniag_haiti_esps_installation_441k_2013). Signed 2013-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F4029_1900_SAQMMA13D0121_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F4029_1900_SAQMMA13D0121_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: koniag_haiti_esps_installation_441k_2013 USD 0.441m. Supports koniag_haiti_esps_installation_441k_2013.'
+  supports:
+  - koniag_haiti_esps_installation_441k_2013
+  - hunt_cycle1234
+- id: usaspending_misc_colombia_larandia_cctv_infrastructure_714k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0049_9700_-NONE-_-NONE- (misc_colombia_larandia_cctv_infrastructure_714k_2010). Signed 2010-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0049_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0049_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_larandia_cctv_infrastructure_714k_2010 USD 0.714m. Supports misc_colombia_larandia_cctv_infrastructure_714k_2010.'
+  supports:
+  - misc_colombia_larandia_cctv_infrastructure_714k_2010
+  - hunt_cycle1234
+- id: usaspending_misc_haiti_embassy_generator_engines_665k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC13M0015_1900_-NONE-_-NONE- (misc_haiti_embassy_generator_engines_665k_2013). Signed 2013-08-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC13M0015_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC13M0015_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_haiti_embassy_generator_engines_665k_2013 USD 0.665m. Supports misc_haiti_embassy_generator_engines_665k_2013.'
+  supports:
+  - misc_haiti_embassy_generator_engines_665k_2013
+  - hunt_cycle1234
+- id: usaspending_misc_colombia_cefop_cucuta_construction_637k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC15C0006_1900_-NONE-_-NONE- (misc_colombia_cefop_cucuta_construction_637k_2015). Signed 2015-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC15C0006_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC15C0006_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_cefop_cucuta_construction_637k_2015 USD 0.637m. Supports misc_colombia_cefop_cucuta_construction_637k_2015.'
+  supports:
+  - misc_colombia_cefop_cucuta_construction_637k_2015
+  - hunt_cycle1234
+- id: usaspending_reagent_world_honduras_ac_ventilation_375k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0233_1900_-NONE-_-NONE- (reagent_world_honduras_ac_ventilation_375k_2018). Signed 2018-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0233_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0233_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: reagent_world_honduras_ac_ventilation_375k_2018 USD 0.375m. Supports reagent_world_honduras_ac_ventilation_375k_2018.'
+  supports:
+  - reagent_world_honduras_ac_ventilation_375k_2018
+  - hunt_cycle1235
+- id: usaspending_waypoint_chile_50kw_generator_368k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_M2710024F0024_9700_N6264921D0034_9700 (waypoint_chile_50kw_generator_368k_2024). Signed 2024-08-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_M2710024F0024_9700_N6264921D0034_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_M2710024F0024_9700_N6264921D0034_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: waypoint_chile_50kw_generator_368k_2024 USD 0.368m. Supports waypoint_chile_50kw_generator_368k_2024.'
+  supports:
+  - waypoint_chile_50kw_generator_368k_2024
+  - hunt_cycle1235
+- id: usaspending_misc_nicaragua_bluefields_hospital_renovation_630k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127813D0014_9700 (misc_nicaragua_bluefields_hospital_renovation_630k_2013). Signed 2013-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0014_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0014_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_nicaragua_bluefields_hospital_renovation_630k_2013 USD 0.630m. Supports misc_nicaragua_bluefields_hospital_renovation_630k_2013.'
+  supports:
+  - misc_nicaragua_bluefields_hospital_renovation_630k_2013
+  - hunt_cycle1235
+- id: usaspending_misc_guatemala_barracks_renovations_electrical_615k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM19C0002_9700_-NONE-_-NONE- (misc_guatemala_barracks_renovations_electrical_615k_2019). Signed 2019-04-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM19C0002_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM19C0002_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_guatemala_barracks_renovations_electrical_615k_2019 USD 0.615m. Supports misc_guatemala_barracks_renovations_electrical_615k_2019.'
+  supports:
+  - misc_guatemala_barracks_renovations_electrical_615k_2019
+  - hunt_cycle1235
+- id: usaspending_misc_colombia_villagarzon_tumaco_ops_rooms_reno_579k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0020_1900_-NONE-_-NONE- (misc_colombia_villagarzon_tumaco_ops_rooms_reno_579k_2018). Signed 2018-12-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0020_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0020_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_colombia_villagarzon_tumaco_ops_rooms_reno_579k_2018 USD 0.579m. Supports misc_colombia_villagarzon_tumaco_ops_rooms_reno_579k_2018.'
+  supports:
+  - misc_colombia_villagarzon_tumaco_ops_rooms_reno_579k_2018
+  - hunt_cycle1235
