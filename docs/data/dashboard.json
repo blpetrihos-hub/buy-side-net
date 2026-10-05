@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8355,
+    "n_rows": 8360,
     "counts": {
-      "total": 8355,
-      "active": 8156,
+      "total": 8360,
+      "active": 8161,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8082,
-      "on_map": 7986
+      "documented": 8087,
+      "on_map": 7991
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 4040,
-        "n": 4441
+        "allied": 4045,
+        "n": 4446
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383573409302.91064,
-        "allied_n": 3969
+        "allied": 383577103842.8706,
+        "allied_n": 3974
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6923,
-        "n": 7178
+        "allied": 6928,
+        "n": 7183
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527442115278.71027,
-        "allied_n": 6842
+        "allied": 527445809818.6702,
+        "allied_n": 6847
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3906
+          "allied": 3911
         },
         "infrastructure": {
           "us": 68,
@@ -9344,7 +9344,12 @@
       "axia_txproj_reforco_na_se_ibiuna_instalacao_da_fase_reser_4m_brl_v2",
       "axia_txproj_se_guarulhos_instalacao_de_uma_fase_reserva_p_4m_brl",
       "axia_txproj_se_guarulhos_instalacao_de_uma_fase_reserva_p_4m_brl_v2",
-      "axia_txproj_melhoria_na_se_bandeirantes_substituicao_do_r_4m_brl"
+      "axia_txproj_melhoria_na_se_bandeirantes_substituicao_do_r_4m_brl",
+      "axia_txproj_melhoria_na_se_gravatai_2_substituicao_do_ban_4m_brl",
+      "axia_txproj_melhoria_na_se_gravatai_2_substituicao_do_ban_4m_brl_v2",
+      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_do_r_4m_brl",
+      "axia_txproj_melhoria_na_se_campos_substituicao_do_reator__4m_brl",
+      "axia_txproj_melhoria_na_se_itutinga_substituicao_do_reato_4m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
