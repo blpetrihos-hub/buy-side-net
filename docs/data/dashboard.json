@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6645,
+    "n_rows": 6648,
     "counts": {
-      "total": 6645,
-      "active": 6446,
+      "total": 6648,
+      "active": 6449,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6372,
-      "on_map": 6278
+      "documented": 6375,
+      "on_map": 6281
     }
   },
   "layer_readouts": [
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 224,
-        "n": 386
+        "allied": 227,
+        "n": 389
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 122275842340.84,
-        "allied_n": 155
+        "allied": 123808305891.23,
+        "allied_n": 158
       },
       "matched_gaps": {
         "n": 3,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5213,
-        "n": 5468
+        "allied": 5216,
+        "n": 5471
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 405491949737.96967,
-        "allied_n": 5132
+        "allied": 407024413288.3597,
+        "allied_n": 5135
       },
       "by_layer": {
         "energy": {
@@ -389,7 +389,7 @@
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 122
+          "allied": 125
         }
       }
     },
@@ -7634,7 +7634,10 @@
       "sabesp_total_capex_1t26_3728m_brl",
       "sabesp_agua_capex_4t25_2106m_brl",
       "sabesp_esgoto_capex_4t25_2665m_brl",
-      "sabesp_total_capex_4t25_4771m_brl"
+      "sabesp_total_capex_4t25_4771m_brl",
+      "sabesp_agua_capex_3t25_1155m_brl",
+      "sabesp_esgoto_capex_3t25_2823m_brl",
+      "sabesp_total_capex_3t25_3978m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
