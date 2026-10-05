@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6966,
+    "n_rows": 6972,
     "counts": {
-      "total": 6966,
-      "active": 6767,
+      "total": 6972,
+      "active": 6773,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6693,
-      "on_map": 6599
+      "documented": 6699,
+      "on_map": 6605
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2651,
-        "n": 3052
+        "allied": 2657,
+        "n": 3058
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 327619857060.2303,
-        "allied_n": 2580
+        "allied": 327706128993.9403,
+        "allied_n": 2586
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5534,
-        "n": 5789
+        "allied": 5540,
+        "n": 5795
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 471488563036.0299,
-        "allied_n": 5453
+        "allied": 471574834969.7399,
+        "allied_n": 5459
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2517
+          "allied": 2523
         },
         "infrastructure": {
           "us": 68,
@@ -7955,7 +7955,13 @@
       "axia_hold_ambiental_infra_2t22_20m_brl",
       "axia_hold_empresas_investidas_2t22_1600m_brl",
       "axia_hold_eletronuclear_2t22_323m_brl",
-      "axia_hold_total_2t22_2038m_brl"
+      "axia_hold_total_2t22_2038m_brl",
+      "axia_hold_imob_intang_1t22_55m_brl",
+      "axia_hold_geracao_1t22_36m_brl",
+      "axia_hold_transmissao_1t22_10m_brl",
+      "axia_hold_ambiental_infra_1t22_9m_brl",
+      "axia_hold_eletronuclear_1t22_142m_brl",
+      "axia_hold_total_1t22_197m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
