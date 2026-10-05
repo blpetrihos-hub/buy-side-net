@@ -12611,3 +12611,29 @@
   supports:
   - copasa_1s26_capex_1537p8m_brl
   - hunt_cycle258
+- id: axia_2q26_6k_20260806
+  type: company
+  chicago: AXIA Energia S.A. “Form 6-K — 2Q26 Earnings Presentation.” August 6, 2026. https://www.sec.gov/Archives/edgar/data/1439124/000129281426004105/axia20260806_6k2.htm.
+  url: https://www.sec.gov/Archives/edgar/data/1439124/000129281426004105/axia20260806_6k2.htm
+  annotation: AXIA 2Q26/6M26 CapEx and TX contracted ~R$15.54bn via Fed H.10. Supports axia_2q26_capex_3117m_brl; axia_6m26_capex_4472m_brl; axia_tx_contracted_15p54bn_brl_2026.
+  supports:
+  - axia_2q26_capex_3117m_brl
+  - hunt_cycle259
+  - axia_6m26_capex_4472m_brl
+  - axia_tx_contracted_15p54bn_brl_2026
+- id: weg_itajai_bess_330m_20260925
+  type: company
+  chicago: WEG S.A. “WEG amplia projeto da fábrica de sistemas de armazenamento de energia em baterias (BESS) em Itajaí / SC.” September 25, 2026. https://developers.weg.net/institutional/BR/pt/news/geral/weg-amplia-projeto-da-fabrica-de-sistemas-de-armazenamento-de-energia-em-baterias-bess-em-itajai-sc.
+  url: https://developers.weg.net/institutional/BR/pt/news/geral/weg-amplia-projeto-da-fabrica-de-sistemas-de-armazenamento-de-energia-em-baterias-bess-em-itajai-sc
+  annotation: WEG Itajaí BESS NEW R$330m ~USD 63.56m via Fed H.10. Supports weg_itajai_bess_330m_brl_2026.
+  supports:
+  - weg_itajai_bess_330m_brl_2026
+  - hunt_cycle259
+- id: weg_na_generators_165m_20260928
+  type: company
+  chicago: WEG S.A. “WEG anuncia investimento de US$ 165 milhões para ampliar produção de geradores na América do Norte.” September 28, 2026. https://developers.weg.net/institutional/BR/pt/news/geral/weg-anuncia-investimento-de-us-165-milhoes-para-ampliar-producao-de-geradores-na-america-do-norte.
+  url: https://developers.weg.net/institutional/BR/pt/news/geral/weg-anuncia-investimento-de-us-165-milhoes-para-ampliar-producao-de-geradores-na-america-do-norte
+  annotation: WEG Mexico Atotonilco NEW USD 24m Phase 1. Supports weg_mexico_atotonilco_generators_24m_2026.
+  supports:
+  - weg_mexico_atotonilco_generators_24m_2026
+  - hunt_cycle259
