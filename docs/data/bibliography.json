@@ -34504,7 +34504,7 @@
     "type": "company",
     "chicago": "Companhia de Saneamento Básico do Estado de São Paulo (Sabesp). “Planilha de Resultados 2T26 — Investimentos CAPEX / Reconciliação Capex (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/9e47ee51-f833-4a23-af98-2bac9e54e0b3/eb218c60-13a0-8dbc-2220-48fdd1abf99a?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/9e47ee51-f833-4a23-af98-2bac9e54e0b3/eb218c60-13a0-8dbc-2220-48fdd1abf99a?origin=2",
-    "annotation": "Sabesp Total CapEx 2T22 CapEx via Fed H.10. Supports sabesp_total_capex_2t22_1240m_brl.",
+    "annotation": "Sabesp Total CapEx 1T22 CapEx via Fed H.10. Supports sabesp_total_capex_1t22_981m_brl.",
     "supports": [
       "sabesp_agua_capex_2t26_1050m_brl",
       "hunt_cycle614",
@@ -34572,9 +34572,14 @@
       "sabesp_agua_capex_2t22_588m_brl",
       "hunt_cycle630",
       "sabesp_esgoto_capex_2t22_652m_brl",
-      "sabesp_total_capex_2t22_1240m_brl"
+      "sabesp_total_capex_2t22_1240m_brl",
+      "sabesp_agua_capex_1t22_288m_brl",
+      "hunt_cycle631",
+      "sabesp_esgoto_capex_1t22_693m_brl",
+      "sabesp_total_capex_1t22_981m_brl"
     ],
     "map_supports": [
+      "sabesp_agua_capex_1t22_288m_brl",
       "sabesp_agua_capex_1t23_504m_brl",
       "sabesp_agua_capex_1t24_669m_brl",
       "sabesp_agua_capex_1t25_615m_brl",
@@ -34592,6 +34597,7 @@
       "sabesp_agua_capex_4t23_1043m_brl",
       "sabesp_agua_capex_4t24_966m_brl",
       "sabesp_agua_capex_4t25_2106m_brl",
+      "sabesp_esgoto_capex_1t22_693m_brl",
       "sabesp_esgoto_capex_1t23_732m_brl",
       "sabesp_esgoto_capex_1t24_751m_brl",
       "sabesp_esgoto_capex_1t25_2236m_brl",
@@ -34609,6 +34615,7 @@
       "sabesp_esgoto_capex_4t23_1306m_brl",
       "sabesp_esgoto_capex_4t24_1784m_brl",
       "sabesp_esgoto_capex_4t25_2665m_brl",
+      "sabesp_total_capex_1t22_981m_brl",
       "sabesp_total_capex_1t23_1236m_brl",
       "sabesp_total_capex_1t24_1420m_brl",
       "sabesp_total_capex_1t25_2851m_brl",

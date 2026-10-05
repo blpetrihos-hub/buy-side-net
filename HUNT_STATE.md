@@ -1,24 +1,28 @@
 updated: 2026-10-05
-cycle: 630
+cycle: 631
 remote: present
 active_layer: infrastructure
 active_subcategory: bridges_roads
-next_query: Cycle 631 shuffle_seed=20261631; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1531); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; Progress Rail VLI; Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA CapEx loaded; Sabesp Planilha CapEx remaining pre-2t22; Axia Capex Realizado; diversify US CapEx / thin; diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales; Bechtel QB2. No U.S. territories.
-next_row_id: (follow cycle-631 shuffled_order)
+next_query: Cycle 632 shuffle_seed=20261632; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us466/prc407/allied1531); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa, Colombia graphite. Holdovers: CRBC Corentyne; Progress Rail VLI; Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA CapEx loaded; Sabesp Planilha CapEx remaining pre-1t22; Axia Capex Realizado; diversify US CapEx / thin; diversify US CapEx / thin balsa-nickel-fission_smr-niobium; AES Arenales; Bechtel QB2. No U.S. territories.
+next_row_id: (follow cycle-632 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 630) ===
-# Filled this cycle: Brazil×water NEW×3 other (Sabesp Planilha CapEx 2T22).
+# === Country×subcategory sweep cells touched (session continuing from 631) ===
+# Filled this cycle: Brazil×water NEW×3 other (Sabesp Planilha CapEx 1T22).
 # Still thin: Haiti, Venezuela, Nicaragua rail, Peru balsa, Colombia graphite.
 # ≥1/3 U.S. hunt budget spent (CapEx dry). PRC CapEx-blank.
 
-# === Cycle 630 (seed 20261630) ===
-# Shuffled: water, port_cranes, building_materials, solar, port_ownership, power_plants_grid, rail, balsa, niobium, other_renewables, nickel, lithium, copper, bridges_roads, wind, engineering_epc, fission_smr, graphite.
+# === Cycle 631 (seed 20261631) ===
+# Shuffled: port_cranes, bridges_roads, solar, balsa, fission_smr, lithium, engineering_epc, building_materials, niobium, power_plants_grid, nickel, copper, rail, other_renewables, port_ownership, wind, water, graphite.
 # Logged 3 NEW (0 US / 0 PRC / 0 allied / 3 other; US CapEx dry):
-#   other: sabesp_agua_capex_2t22_588m_brl; sabesp_esgoto_capex_2t22_652m_brl; sabesp_total_capex_2t22_1240m_brl.
+#   other: sabesp_agua_capex_1t22_288m_brl; sabesp_esgoto_capex_1t22_693m_brl; sabesp_total_capex_1t22_981m_brl.
 # Thin top-up dry. Equal-budget misses: catalog dense; thin dry; US CapEx dry.
-# Holdovers: Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA loaded; Sabesp Planilha CapEx remaining pre-2t22; Axia Capex Realizado; diversify US CapEx / thin.
-# Active after cycle 630: us466 / prc407 / allied1531 / other4084 (n=6488).
+# Holdovers: Motiva/Rumo/Equatorial/Neoenergia/TAESA/ISA loaded; Sabesp Planilha CapEx remaining pre-1t22; Axia Capex Realizado; diversify US CapEx / thin.
+# Active after cycle 631: us466 / prc407 / allied1531 / other4087 (n=6491).
+
+# === Cycle 630 (seed 20261630) summary ===
+# Prior CapEx cycle. Active after: see prior coverage.
+
 
 # === Cycle 629 (seed 20261629) summary ===
 # Prior CapEx cycle. Active after: see prior coverage.
@@ -1265,45 +1269,45 @@ dry_streak: 0
 # === Cycle 318 (seed 20261318) summary ===
 # Logged 22 NEW Motiva 3T25 excl.-maint CapEx. Active after: us466/prc407/allied602/other590 (n=2065).
 
-shuffle_seed: 20261630
+shuffle_seed: 20261631
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- resources/water
 - infrastructure/port_cranes
-- infrastructure/building_materials
-- energy/solar
-- infrastructure/port_ownership
-- energy/power_plants_grid
-- infrastructure/rail
-- resources/balsa
-- resources/niobium
-- energy/other_renewables
-- resources/nickel
-- resources/lithium
-- resources/copper
 - infrastructure/bridges_roads
-- energy/wind
-- infrastructure/engineering_epc
+- energy/solar
+- resources/balsa
 - energy/fission_smr
+- resources/lithium
+- infrastructure/engineering_epc
+- infrastructure/building_materials
+- resources/niobium
+- energy/power_plants_grid
+- resources/nickel
+- resources/copper
+- infrastructure/rail
+- energy/other_renewables
+- infrastructure/port_ownership
+- energy/wind
+- resources/water
 - resources/graphite
 rows_found_this_cycle:
-  resources/water: 3
   infrastructure/port_cranes: 0
-  infrastructure/building_materials: 0
-  energy/solar: 0
-  infrastructure/port_ownership: 0
-  energy/power_plants_grid: 0
-  infrastructure/rail: 0
-  resources/balsa: 0
-  resources/niobium: 0
-  energy/other_renewables: 0
-  resources/nickel: 0
-  resources/lithium: 0
-  resources/copper: 0
   infrastructure/bridges_roads: 0
-  energy/wind: 0
-  infrastructure/engineering_epc: 0
+  energy/solar: 0
+  resources/balsa: 0
   energy/fission_smr: 0
+  resources/lithium: 0
+  infrastructure/engineering_epc: 0
+  infrastructure/building_materials: 0
+  resources/niobium: 0
+  energy/power_plants_grid: 0
+  resources/nickel: 0
+  resources/copper: 0
+  infrastructure/rail: 0
+  energy/other_renewables: 0
+  infrastructure/port_ownership: 0
+  energy/wind: 0
+  resources/water: 3
   resources/graphite: 0
 rows_by_side_this_cycle:
   us: 0
@@ -1321,5 +1325,5 @@ coverage_cumulative_active_rows:
   us: 466
   prc: 407
   allied: 1531
-  other: 4084
-  n: 6488
+  other: 4087
+  n: 6491
