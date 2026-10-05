@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8170,
+    "n_rows": 8175,
     "counts": {
-      "total": 8170,
-      "active": 7971,
+      "total": 8175,
+      "active": 7976,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7897,
-      "on_map": 7803
+      "documented": 7902,
+      "on_map": 7808
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3855,
-        "n": 4256
+        "allied": 3860,
+        "n": 4261
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382975003819.8106,
-        "allied_n": 3784
+        "allied": 383008062697.14056,
+        "allied_n": 3789
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6738,
-        "n": 6993
+        "allied": 6743,
+        "n": 6998
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526843709795.6102,
-        "allied_n": 6657
+        "allied": 526876768672.9402,
+        "allied_n": 6662
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3721
+          "allied": 3726
         },
         "infrastructure": {
           "us": 68,
@@ -9159,7 +9159,12 @@
       "axia_txproj_seccionamento_da_lt_230_kv_olindina_catu_c1_n_35m_brl",
       "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl",
       "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl_v2",
-      "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl_v3"
+      "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl_v3",
+      "axia_txproj_reforco_na_se_campinas_substituicao_do_banco__35m_brl_v4",
+      "axia_txproj_reforco_na_se_porto_franco_4_tr_230_69_13_8_k_34m_brl",
+      "axia_txproj_reforco_na_se_sinop_substituicao_do_tf_230_13_34m_brl",
+      "axia_txproj_melhoria_na_se_bandeirantes_substituicao_do_t_34m_brl",
+      "axia_txproj_melhoria_na_se_sao_joao_do_piaui_substituicao_34m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
