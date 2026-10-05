@@ -1,0 +1,10 @@
+{
+  "id": "venesco_panama_pol_econ_rso_carpet_28k_2022",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_venesco_panama_pol_econ_rso_carpet_28k_2022",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0722P0615_1900_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "POL/ECON AND RSO CARPET REPLACEMENT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 27584; date_signed 2022-06-08."
+}
