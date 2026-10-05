@@ -18673,7 +18673,7 @@
   type: company
   chicago: AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2
-  annotation: AXIA TX project CapEx via Fed H.10. Supports axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl.
+  annotation: AXIA TX project CapEx via Fed H.10. Supports axia_txproj_se_guarulhos_instalacao_do_primeiro_banco_de__37m_brl.
   supports:
   - axia_consol_imob_intang_2t26_2212m_brl
   - hunt_cycle632
@@ -19132,6 +19132,12 @@
   - axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v3
   - axia_txproj_melhoria_na_se_ibiuna_revitalizacao_do_transf_38m_brl_v4
   - axia_txproj_reforco_seccionamento_da_lt_p_afonso_iii_bom__38m_brl
+  - axia_txproj_melhoria_na_se_u_sobradinho_substituicao_do_t_38m_brl
+  - hunt_cycle851
+  - axia_txproj_reforco_na_se_teixeira_de_freitas_ii_instalac_38m_brl
+  - axia_txproj_melhoria_na_se_vila_do_conde_substituicao_do__38m_brl
+  - axia_txproj_reforco_se_rondonopolis_instalacao_do_3_atf_2_37m_brl
+  - axia_txproj_se_guarulhos_instalacao_do_primeiro_banco_de__37m_brl
 - id: energisa_base_historica_jun26_xlsx
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
