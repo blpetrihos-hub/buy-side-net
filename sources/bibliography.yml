@@ -31425,3 +31425,138 @@
   supports:
   - misc_jamaica_police_college_office_renovation_29k_2021
   - hunt_cycle1145
+- id: usaspending_sanx_global_mexico_embassy_ups_25k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5324P1492_1900_-NONE-_-NONE- (sanx_global_mexico_embassy_ups_25k_2024). Signed 2024-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5324P1492_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5324P1492_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: sanx_global_mexico_embassy_ups_25k_2024 USD 0.025m. Supports sanx_global_mexico_embassy_ups_25k_2024.'
+  supports:
+  - sanx_global_mexico_embassy_ups_25k_2024
+  - hunt_cycle1146
+- id: usaspending_fabrication_designs_brazil_metal_door_screen_10k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17M0265_1900_-NONE-_-NONE- (fabrication_designs_brazil_metal_door_screen_10k_2017). Signed 2017-02-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17M0265_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17M0265_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: fabrication_designs_brazil_metal_door_screen_10k_2017 USD 0.010m. Supports fabrication_designs_brazil_metal_door_screen_10k_2017.'
+  supports:
+  - fabrication_designs_brazil_metal_door_screen_10k_2017
+  - hunt_cycle1146
+- id: usaspending_misc_uruguay_cmr_solar_panel_heating_system_25k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SUY60012M0321_1900_-NONE-_-NONE- (misc_uruguay_cmr_solar_panel_heating_system_25k_2012). Signed 2012-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60012M0321_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60012M0321_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_uruguay_cmr_solar_panel_heating_system_25k_2012 USD 0.025m. Supports misc_uruguay_cmr_solar_panel_heating_system_25k_2012.'
+  supports:
+  - misc_uruguay_cmr_solar_panel_heating_system_25k_2012
+  - hunt_cycle1146
+- id: usaspending_misc_barbados_rss_air_wing_hangar_roof_refurbish_10k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21016M0146_1900_-NONE-_-NONE- (misc_barbados_rss_air_wing_hangar_roof_refurbish_10k_2015). Signed 2015-12-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21016M0146_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21016M0146_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_barbados_rss_air_wing_hangar_roof_refurbish_10k_2015 USD 0.010m. Supports misc_barbados_rss_air_wing_hangar_roof_refurbish_10k_2015.'
+  supports:
+  - misc_barbados_rss_air_wing_hangar_roof_refurbish_10k_2015
+  - hunt_cycle1146
+- id: usaspending_misc_haiti_reyes_ahu_condensing_air_duct_install_28k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7023P1397_1900_-NONE-_-NONE- (misc_haiti_reyes_ahu_condensing_air_duct_install_28k_2023). Signed 2023-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P1397_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P1397_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_haiti_reyes_ahu_condensing_air_duct_install_28k_2023 USD 0.028m. Supports misc_haiti_reyes_ahu_condensing_air_duct_install_28k_2023.'
+  supports:
+  - misc_haiti_reyes_ahu_condensing_air_duct_install_28k_2023
+  - hunt_cycle1146
+- id: usaspending_mst_maritime_chile_15kw_power_generator_10k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL24P0028_9700_-NONE-_-NONE- (mst_maritime_chile_15kw_power_generator_10k_2024). Signed 2024-08-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL24P0028_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL24P0028_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: mst_maritime_chile_15kw_power_generator_10k_2024 USD 0.010m. Supports mst_maritime_chile_15kw_power_generator_10k_2024.'
+  supports:
+  - mst_maritime_chile_15kw_power_generator_10k_2024
+  - hunt_cycle1147
+- id: usaspending_daikin_paraguay_air_cooled_chillers_split_system_26k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PA1023P0237_1900_-NONE-_-NONE- (daikin_paraguay_air_cooled_chillers_split_system_26k_2023). Signed 2023-05-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1023P0237_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1023P0237_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: daikin_paraguay_air_cooled_chillers_split_system_26k_2023 USD 0.026m. Supports daikin_paraguay_air_cooled_chillers_split_system_26k_2023.'
+  supports:
+  - daikin_paraguay_air_cooled_chillers_split_system_26k_2023
+  - hunt_cycle1147
+- id: usaspending_a1_security_guyana_cctv_installation_18k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2023P0214_1900_-NONE-_-NONE- (a1_security_guyana_cctv_installation_18k_2023). Signed 2023-05-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2023P0214_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2023P0214_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: a1_security_guyana_cctv_installation_18k_2023 USD 0.018m. Supports a1_security_guyana_cctv_installation_18k_2023.'
+  supports:
+  - a1_security_guyana_cctv_installation_18k_2023
+  - hunt_cycle1147
+- id: usaspending_misc_panama_panel_boards_generator_connection_29k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F16CC10396_3300_-NONE-_-NONE- (misc_panama_panel_boards_generator_connection_29k_2016). Signed 2016-06-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CC10396_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CC10396_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_panama_panel_boards_generator_connection_29k_2016 USD 0.029m. Supports misc_panama_panel_boards_generator_connection_29k_2016.'
+  supports:
+  - misc_panama_panel_boards_generator_connection_29k_2016
+  - hunt_cycle1147
+- id: usaspending_misc_brazil_solid_security_doors_locks_11k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR8124P0117_1900_-NONE-_-NONE- (misc_brazil_solid_security_doors_locks_11k_2024). Signed 2024-02-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8124P0117_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR8124P0117_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_solid_security_doors_locks_11k_2024 USD 0.011m. Supports misc_brazil_solid_security_doors_locks_11k_2024.'
+  supports:
+  - misc_brazil_solid_security_doors_locks_11k_2024
+  - hunt_cycle1147
+- id: usaspending_harden_haiti_chancery_windows_replacement_20k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7024P0645_1900_-NONE-_-NONE- (harden_haiti_chancery_windows_replacement_20k_2024). Signed 2024-07-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7024P0645_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7024P0645_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: harden_haiti_chancery_windows_replacement_20k_2024 USD 0.020m. Supports harden_haiti_chancery_windows_replacement_20k_2024.'
+  supports:
+  - harden_haiti_chancery_windows_replacement_20k_2024
+  - hunt_cycle1148
+- id: usaspending_ross_technology_dominican_republic_mcac_scac_gate_motor_drive_17k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86017M0352_1900_-NONE-_-NONE- (ross_technology_dominican_republic_mcac_scac_gate_motor_drive_17k_2017). Signed 2017-02-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86017M0352_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86017M0352_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ross_technology_dominican_republic_mcac_scac_gate_motor_drive_17k_2017 USD 0.017m. Supports ross_technology_dominican_republic_mcac_scac_gate_motor_drive_17k_2017.'
+  supports:
+  - ross_technology_dominican_republic_mcac_scac_gate_motor_drive_17k_2017
+  - hunt_cycle1148
+- id: usaspending_misc_costa_rica_dcr_sidewalk_construction_30k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCS80010C0004_1900_-NONE-_-NONE- (misc_costa_rica_dcr_sidewalk_construction_30k_2010). Signed 2010-01-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80010C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80010C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_dcr_sidewalk_construction_30k_2010 USD 0.030m. Supports misc_costa_rica_dcr_sidewalk_construction_30k_2010.'
+  supports:
+  - misc_costa_rica_dcr_sidewalk_construction_30k_2010
+  - hunt_cycle1148
+- id: usaspending_misc_suriname_prison_surveillance_cameras_27k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SNS50016M0297_1900_-NONE-_-NONE- (misc_suriname_prison_surveillance_cameras_27k_2016). Signed 2016-03-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNS50016M0297_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNS50016M0297_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_suriname_prison_surveillance_cameras_27k_2016 USD 0.027m. Supports misc_suriname_prison_surveillance_cameras_27k_2016.'
+  supports:
+  - misc_suriname_prison_surveillance_cameras_27k_2016
+  - hunt_cycle1148
+- id: usaspending_soged_haiti_mission_director_onan_generator_26k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521O001100221_7200_-NONE-_-NONE- (soged_haiti_mission_director_onan_generator_26k_2011). Signed 2011-07-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O001100221_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O001100221_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: soged_haiti_mission_director_onan_generator_26k_2011 USD 0.026m. Supports soged_haiti_mission_director_onan_generator_26k_2011.'
+  supports:
+  - soged_haiti_mission_director_onan_generator_26k_2011
+  - hunt_cycle1148
