@@ -1,11 +1,40 @@
 updated: 2026-10-05
-cycle: 932
+cycle: 935
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 933 shuffle_seed=20261933; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us576/prc409/allied1553); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; USASpending residual (Hardline Kingston FEBR; Tidewater Managua DB; Palgag Managua roof; Edifice Quito; Serrano Bariloche EOC; Naku BA CMR; Horizon Brasília CW; Tidewater Rio ESW; Trison Recife CAC; Veyka SD slope; Palgag SD HVAC; Spectrum SD elec; Bendig Sierpe; Kunkel STRI); diversify thin/PRC. CBMM Araxá CapEx already dense — verify 2026 R$2bn face before new row. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
-next_row_id: (follow cycle-933 shuffled_order)
+next_query: Cycle 936 shuffle_seed=20261936; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us583/prc409/allied1555); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Peru balsa, Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; USASpending LatAm diplomatic CapEx seam largely mined this wake — diversify thin/PRC/company CapEx; page-2 USASpending residual if any. AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank. No U.S. territories.
+next_row_id: (follow cycle-936 shuffled_order)
 dry_streak: 0
+
+# === Country×subcategory sweep cells touched (session continuing from 935) ===
+# Filled this batch: Jamaica×building_materials NEW×1 us (Hardline Kingston FEBR); Nicaragua×building_materials NEW×2 (Tidewater Managua DB us; Palgag Managua roof allied); Ecuador×building_materials NEW×1 us (Edifice Quito); Argentina×building_materials NEW×2 (Serrano Bariloche EOC other; Naku BA CMR other); Brazil×building_materials/engineering_epc NEW×3 us (Horizon Brasília CW; Tidewater Rio ESW; Trison Recife CAC); Dominican Republic×bridges_roads/building_materials/engineering_epc NEW×3 (Veyka slope other; Palgag HVAC allied; Spectrum elec us); Costa Rica×building_materials NEW×1 other (Bendig Sierpe); Panama×building_materials NEW×2 other (Kunkel Gamboa B56; Kunkel Tupper).
+# Still thin: Peru balsa, Colombia graphite, Nicaragua rail, thin minerals. Thin top-up dry. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (7 US CapEx this batch).
+
+# === Cycle 935 (seed 20261935) ===
+# Shuffled: copper, port_cranes, engineering_epc, wind, niobium, building_materials, other_renewables, port_ownership, water, solar, nickel, graphite, lithium, power_plants_grid, rail, bridges_roads, balsa, fission_smr.
+# Logged 5 NEW (1 US / 0 PRC / 1 allied / 3 other):
+#   palgag_santo_domingo_hvac_2p49m_2024 spectrum_santo_domingo_elec_1p75m_2015 bendig_sierpe_base_camp_1p41m_2022 kunkel_gamboa_b56_4p63m_2024 kunkel_tupper_4p19m_2019.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: USASpending seam thinning; thin; PRC.
+# Active after cycle 935: us583 / prc409 / allied1555 / other5830 (n=8377).
+
+# === Cycle 934 (seed 20261934) ===
+# Shuffled: port_ownership, niobium, wind, water, engineering_epc, fission_smr, rail, building_materials, port_cranes, solar, graphite, bridges_roads, copper, lithium, other_renewables, power_plants_grid, balsa, nickel.
+# Logged 5 NEW (3 US / 0 PRC / 0 allied / 2 other):
+#   naku_buenos_aires_cmr_2p15m_2010 horizon_brasilia_cw_elec_5p56m_2017 tidewater_rio_esw_3p56m_2019 trison_recife_cac_2p94m_2024 veyka_santo_domingo_slope_4p36m_2025.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Palgag SD HVAC; Spectrum SD; Bendig Sierpe; Kunkel STRI; thin.
+# Active after cycle 934: us582 / prc409 / allied1554 / other5827 (n=8372).
+
+# === Cycle 933 (seed 20261933) ===
+# Shuffled: engineering_epc, building_materials, water, lithium, other_renewables, wind, nickel, niobium, bridges_roads, port_cranes, port_ownership, fission_smr, power_plants_grid, rail, graphite, balsa, solar, copper.
+# Logged 5 NEW (3 US / 0 PRC / 1 allied / 1 other):
+#   hardline_kingston_febr_2p88m_2017 tidewater_managua_db_1p96m_2021 palgag_managua_roof_1p50m_2024 edifice_quito_reno_3p45m_2016 serrano_bariloche_eoc_3p50m_2024.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Naku BA; Horizon Brasília; Tidewater Rio; Trison Recife; Veyka SD; thin.
+# Active after cycle 933: us579 / prc409 / allied1554 / other5825 (n=8367).
 
 # === Country×subcategory sweep cells touched (session continuing from 932) ===
 # Filled this batch: Suriname×building_materials NEW×1 us (EMR Paramaribo ESW); Paraguay×engineering_epc NEW×1 us (Greenway Asunción DB); Guyana×building_materials NEW×1 us (Trison Georgetown P2); Saint Lucia×port_ownership NEW×1 other (Castries pier); Dominica×building_materials NEW×1 us (SCA ODM); Argentina×engineering_epc NEW×1 us (Baker Tandil F-16 AE); Brazil×building_materials NEW×2 us (Vistas Brasília DB; Tidewater São Paulo canopy); Jamaica×building_materials NEW×2 us (Desbuild Powell Plaza; PED boat facility); Uruguay×building_materials NEW×1 us (Edifice Montevideo MSGR); Bolivia×building_materials NEW×2 us (Hardline La Paz FEBR; Competition Roofing La Paz); Panama×port_ownership NEW×1 other (Bonatti pier); Belize×building_materials NEW×1 us (Neal's Belmopan fire).
