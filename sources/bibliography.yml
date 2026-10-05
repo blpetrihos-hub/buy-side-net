@@ -16531,7 +16531,7 @@
   type: company
   chicago: Equatorial Energia S.A. “Dados Financeiros e Operacionais — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2
-  annotation: Equatorial Transmissão 2T20 CapEx via Fed H.10. Supports equatorial_tx_2t20_191m_brl.
+  annotation: Equatorial Transmissão 1T20 CapEx via Fed H.10. Supports equatorial_tx_1t20_410m_brl.
   supports:
   - equatorial_ma_1t26_273m_brl
   - hunt_cycle491
@@ -17273,3 +17273,20 @@
   - equatorial_al_nonelectric_2t20_3m_brl
   - equatorial_geramar_2t20_3m_brl
   - equatorial_tx_2t20_191m_brl
+  - equatorial_ma_1t20_134m_brl
+  - hunt_cycle515
+  - equatorial_ma_eletricos_1t20_95m_brl
+  - equatorial_ma_oe_1t20_20m_brl
+  - equatorial_ma_nonelectric_1t20_19m_brl
+  - equatorial_pa_1t20_161m_brl
+  - equatorial_pa_eletricos_1t20_84m_brl
+  - equatorial_pa_oe_1t20_61m_brl
+  - equatorial_pa_nonelectric_1t20_16m_brl
+  - equatorial_pi_1t20_74m_brl
+  - equatorial_pi_eletricos_1t20_41m_brl
+  - equatorial_pi_oe_1t20_21m_brl
+  - equatorial_pi_nonelectric_1t20_13m_brl
+  - equatorial_al_1t20_34m_brl
+  - equatorial_al_eletricos_1t20_30m_brl
+  - equatorial_al_nonelectric_1t20_4m_brl
+  - equatorial_tx_1t20_410m_brl
