@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8383,
+    "n_rows": 8386,
     "counts": {
-      "total": 8383,
-      "active": 8184,
+      "total": 8386,
+      "active": 8187,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8110,
-      "on_map": 8014
+      "documented": 8113,
+      "on_map": 8017
     }
   },
   "layer_readouts": [
@@ -106,17 +106,17 @@
       "layer": "infrastructure",
       "counts": {
         "us": 182,
-        "prc": 127,
-        "allied": 2973,
-        "n": 3282
+        "prc": 129,
+        "allied": 2974,
+        "n": 3285
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
-        "prc": 17053401133.600002,
-        "prc_n": 38,
-        "allied": 144015835010.3698,
-        "allied_n": 2899
+        "prc": 17322325919.350002,
+        "prc_n": 40,
+        "allied": 144615835010.3698,
+        "allied_n": 2900
       },
       "matched_gaps": {
         "n": 1,
@@ -752,16 +752,16 @@
       "counts": {
         "us": 5,
         "prc": 0,
-        "allied": 7,
-        "n": 12
+        "allied": 8,
+        "n": 13
       },
       "usd": {
         "us": 208147801.58,
         "us_n": 5,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 237600000.0,
-        "allied_n": 6
+        "allied": 837600000.0,
+        "allied_n": 7
       },
       "by_layer": {
         "energy": {
@@ -772,7 +772,7 @@
         "infrastructure": {
           "us": 2,
           "prc": 0,
-          "allied": 3
+          "allied": 4
         },
         "resources": {
           "us": 1,
@@ -877,15 +877,15 @@
       "country": "Nicaragua",
       "counts": {
         "us": 2,
-        "prc": 13,
+        "prc": 15,
         "allied": 1,
-        "n": 16
+        "n": 18
       },
       "usd": {
         "us": 68335371.34,
         "us_n": 1,
-        "prc": 1106127784.35,
-        "prc_n": 6,
+        "prc": 1375052570.1,
+        "prc_n": 8,
         "allied": 97000000.0,
         "allied_n": 1
       },
@@ -897,7 +897,7 @@
         },
         "infrastructure": {
           "us": 1,
-          "prc": 7,
+          "prc": 9,
           "allied": 1
         },
         "resources": {
@@ -9372,7 +9372,10 @@
       "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v4",
       "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_b_1m_brl",
       "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_b_1m_brl_v2",
-      "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_b_1m_brl_v3"
+      "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_b_1m_brl_v3",
+      "cscec_litoral_tramo1_masachapa_919m_rmb_2024",
+      "cscec_litoral_tramo2_poneloya_886m_rmb_2024",
+      "pc_terminals_chinourette_600m_envelope_2025"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -9267,13 +9267,16 @@
   - hunt_res_nickel
 - id: asamblea_cscec_litoral_fase2_decreto_8885_2024
   type: gov
-  chicago: Asamblea Nacional de Nicaragua. “Decreto A.N. Nº 8885 — Facilidades de crédito CSCEC Litoral Pacífico Fase 2.” August 14, 2024. http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument.
+  chicago: Asamblea Nacional de la República de Nicaragua. “Decreto A.N. Nº 8885 — Decreto de Aprobación del Acuerdo de Facilidad de Crédito Tramo I … y Tramo II … CSCEC International … Carretera Litoral del Pacífico, Fase II.” Approved August 14, 2024. http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument.
   url: http://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/fa84bfd254ad2a9c06258b7b0063a04e?OpenDocument
   annotation: CSCEC Litoral Pacífico Fase 2 CapEx-fill ~USD 268.92m via Fed H.10. Supports cscec_litoral_pacifico_fase2_nicaragua_2024.
   supports:
   - cscec_litoral_pacifico_fase2_nicaragua_2024
   - hunt_infra_bridges_roads
   - hunt_cycle234
+  - cscec_litoral_tramo1_masachapa_919m_rmb_2024
+  - hunt_cycle897
+  - cscec_litoral_tramo2_poneloya_886m_rmb_2024
 - id: apm_tcbuen_terminal_page
   type: company
   chicago: APM Terminals. “Nuestra terminal de contenedores — TCBUEN Buenaventura.” Accessed October 2, 2026. https://www.apmterminals.com/es/buenaventura/about/our-terminal.
@@ -11538,6 +11541,8 @@
   supports:
   - pc_terminals_port_royal_haiti_60m_2025
   - hunt_cycle208
+  - pc_terminals_chinourette_600m_envelope_2025
+  - hunt_cycle897
 - id: g1_alstom_salvador_metro_20260922
   type: press
   chicago: G1 Bahia. “Empresa vence licitação para fornecimento de trens para metrô de Salvador e Lauro de Freitas.” September 22, 2026. https://g1.globo.com/ba/bahia/noticia/2026/09/22/empresa-vence-licitacao-para-fornecimento-de-trens-para-metro-de-salvador-e-lauro-de-freitas.ghtml.
