@@ -12206,3 +12206,35 @@
   supports:
   - neoenergia_pernambuco_9p7bn_brl_2026_2030
   - hunt_cycle246
+- id: equinix_brazil_234m_ai_20260415
+  type: company
+  chicago: 'Arnaud, Victor. “Brazil: From Regional Leader to Global AI Infrastructure Hub.” Equinix Interconnections, April 15, 2026. https://blog.equinix.com/blog/2026/04/15/brazil-from-regional-leader-to-global-ai-infrastructure-hub/.'
+  url: https://blog.equinix.com/blog/2026/04/15/brazil-from-regional-leader-to-global-ai-infrastructure-hub/
+  annotation: Equinix Brazil AI NEW USD 234m nested. Supports equinix_brazil_234m_ai_2026.
+  supports:
+  - equinix_brazil_234m_ai_2026
+  - hunt_cycle247
+- id: cpfl_smart_meters_1p2bn_20250226
+  type: company
+  chicago: CPFL Energia. “CPFL Energia prevê investir R$ 1,2 bilhão em projeto de medidores inteligentes.” February 26, 2025. https://www.grupocpfl.com.br/noticia/cpfl-energia-preve-investir-r-12-bilhao-em-projeto-de-medidores-inteligentes.
+  url: https://www.grupocpfl.com.br/noticia/cpfl-energia-preve-investir-r-12-bilhao-em-projeto-de-medidores-inteligentes
+  annotation: CPFL smart meters NEW R$1.2bn ~USD 231.12m via Fed H.10. Supports cpfl_smart_meters_1p2bn_brl_2025_2029.
+  supports:
+  - cpfl_smart_meters_1p2bn_brl_2025_2029
+  - hunt_cycle247
+- id: engie_fy2025_capex_6bn_20260225
+  type: company
+  chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia cresce 14,6% em receita e investe R$ 6 bilhões em 2025.” February 25, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-cresce-146-em-receita-e-investe-r-6-bilhoes-em-2025/.
+  url: https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-cresce-146-em-receita-e-investe-r-6-bilhoes-em-2025/
+  annotation: ENGIE FY2025 NEW R$6bn ~USD 1155.60m via Fed H.10. Supports engie_fy2025_capex_6bn_brl.
+  supports:
+  - engie_fy2025_capex_6bn_brl
+  - hunt_cycle247
+- id: otempo_equatorial_quantum_170m_20260619
+  type: press
+  chicago: Neves, Marco Aurélio. “Grupo Equatorial investe R$ 170 milhões em projeto de redes inteligentes.” O Tempo, June 19, 2026. https://www.otempo.com.br/economia/2026/6/19/grupo-equatorial-investe-r-170-milhoes-em-projeto-de-redes-inteligentes.
+  url: https://www.otempo.com.br/economia/2026/6/19/grupo-equatorial-investe-r-170-milhoes-em-projeto-de-redes-inteligentes
+  annotation: Equatorial Quantum NEW >R$170m floor ~USD 32.74m via Fed H.10 (press). Supports equatorial_quantum_170m_brl_2026.
+  supports:
+  - equatorial_quantum_170m_brl_2026
+  - hunt_cycle247
