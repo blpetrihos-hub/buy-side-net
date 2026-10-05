@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 7098,
+    "n_rows": 7103,
     "counts": {
-      "total": 7098,
-      "active": 6899,
+      "total": 7103,
+      "active": 6904,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6825,
-      "on_map": 6731
+      "documented": 6830,
+      "on_map": 6736
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2783,
-        "n": 3184
+        "allied": 2788,
+        "n": 3189
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 346952553239.7906,
-        "allied_n": 2712
+        "allied": 347492334060.65063,
+        "allied_n": 2717
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5666,
-        "n": 5921
+        "allied": 5671,
+        "n": 5926
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 490821259215.5902,
-        "allied_n": 5585
+        "allied": 491361040036.45026,
+        "allied_n": 5590
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2649
+          "allied": 2654
         },
         "infrastructure": {
           "us": 68,
@@ -8087,7 +8087,12 @@
       "energisa_tx_total_2t22_157m_brl",
       "energisa_reenergisa_2t22_146m_brl",
       "energisa_holding_2t22_83m_brl",
-      "energisa_total_2t22_1603m_brl"
+      "energisa_total_2t22_1603m_brl",
+      "energisa_dist_total_1t22_958m_brl",
+      "energisa_tx_total_1t22_144m_brl",
+      "energisa_reenergisa_1t22_100m_brl",
+      "energisa_holding_1t22_199m_brl",
+      "energisa_total_1t22_1401m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
