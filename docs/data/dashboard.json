@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6183,
+    "n_rows": 6203,
     "counts": {
-      "total": 6183,
-      "active": 5984,
+      "total": 6203,
+      "active": 6004,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5910,
-      "on_map": 5816
+      "documented": 5930,
+      "on_map": 5836
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1921,
-        "n": 2322
+        "allied": 1941,
+        "n": 2342
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 236865983823.6801,
-        "allied_n": 1850
+        "allied": 240474735581.15012,
+        "allied_n": 1870
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4751,
-        "n": 5006
+        "allied": 4771,
+        "n": 5026
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 365565722758.3991,
-        "allied_n": 4670
+        "allied": 369174474515.8692,
+        "allied_n": 4690
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1787
+          "allied": 1807
         },
         "infrastructure": {
           "us": 68,
@@ -7172,7 +7172,27 @@
       "taesa_sao_pedro_6m26_24m_brl",
       "taesa_ate_6m26_72m_brl",
       "taesa_ate_iii_6m26_11m_brl",
-      "taesa_projetos_6m26_capex_445m_brl"
+      "taesa_projetos_6m26_capex_445m_brl",
+      "taesa_mariana_lifetime_176m_brl",
+      "taesa_miracema_lifetime_268m_brl",
+      "taesa_janauba_lifetime_974m_brl",
+      "taesa_aimores_lifetime_208m_brl",
+      "taesa_paraguacu_lifetime_363m_brl",
+      "taesa_ivai_lifetime_1174m_brl",
+      "taesa_este_lifetime_303m_brl",
+      "taesa_edte_lifetime_191m_brl",
+      "taesa_santana_lifetime_694m_brl",
+      "taesa_ananai_lifetime_1868m_brl",
+      "taesa_pitiguari_lifetime_235m_brl",
+      "taesa_tangara_lifetime_1018m_brl",
+      "taesa_saira_lifetime_1243m_brl",
+      "taesa_jurua_lifetime_13m_brl",
+      "taesa_novatrans_lifetime_236m_brl",
+      "taesa_tsn_lifetime_107m_brl",
+      "taesa_sao_pedro_lifetime_94m_brl",
+      "taesa_ate_lifetime_145m_brl",
+      "taesa_ate_iii_lifetime_54m_brl",
+      "taesa_projetos_lifetime_capex_9373m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
