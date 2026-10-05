@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8135,
+    "n_rows": 8140,
     "counts": {
-      "total": 8135,
-      "active": 7936,
+      "total": 8140,
+      "active": 7941,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7862,
-      "on_map": 7768
+      "documented": 7867,
+      "on_map": 7773
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3820,
-        "n": 4221
+        "allied": 3825,
+        "n": 4226
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382710341091.4604,
-        "allied_n": 3749
+        "allied": 382754604927.09033,
+        "allied_n": 3754
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6703,
-        "n": 6958
+        "allied": 6708,
+        "n": 6963
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526579047067.26,
-        "allied_n": 6622
+        "allied": 526623310902.88995,
+        "allied_n": 6627
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3686
+          "allied": 3691
         },
         "infrastructure": {
           "us": 68,
@@ -9124,7 +9124,12 @@
       "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_dos_a_51m_brl",
       "axia_txproj_reforco_na_se_b_fluminense_instalacao_das_fas_50m_brl",
       "axia_txproj_seccionamento_da_lt_500_kv_luiz_gonzaga_milag_48m_brl",
-      "axia_txproj_reforco_na_se_presidente_dutra_instalacao_do__48m_brl"
+      "axia_txproj_reforco_na_se_presidente_dutra_instalacao_do__48m_brl",
+      "axia_txproj_melhoria_na_se_foz_do_iguacu_revitalizacao_do_47m_brl",
+      "axia_txproj_reforco_na_se_camacari_iv_instalacao_do_1_ban_46m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_t_46m_brl",
+      "axia_txproj_reforco_na_se_ivaipora_instalacao_das_fases_p_46m_brl",
+      "axia_txproj_melhoria_na_se_marimbondo_500_kv_substituicao_45m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
