@@ -1,0 +1,10 @@
+{
+  "id": "hsu_bahamas_nassau_pcc_isc_server_room_542k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hsu_bahamas_nassau_pcc_isc_server_room_542k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F3219_1900_SAQMMA14D0058_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF HSU DEVELOPMENT INC. - SAQMMA14D0058- TO: SAQMMA15F3219 - FAC DESIGN/BUILD SERVICES FOR PCC AND ISC SERVER ROOM UPGRADES - US EMBASSY NASSAU, BAHAMAS - PERIOD OF PERFORMANCE: 09/18/2015 TO 04/25/2016",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 541975.65; date_signed 2015-09-18."
+}
