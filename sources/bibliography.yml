@@ -32685,3 +32685,138 @@
   supports:
   - misc_brazil_new_cgr_pool_fence_side_gate_14k_2011
   - hunt_cycle1173
+- id: usaspending_valkyrie_mexico_obo_telecommunications_cabling_services_133k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F0101_1900_19AQMM21D0155_1900 (valkyrie_mexico_obo_telecommunications_cabling_services_133k_2022). Signed 2022-12-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0101_1900_19AQMM21D0155_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F0101_1900_19AQMM21D0155_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: valkyrie_mexico_obo_telecommunications_cabling_services_133k_2022 USD 0.133m. Supports valkyrie_mexico_obo_telecommunications_cabling_services_133k_2022.'
+  supports:
+  - valkyrie_mexico_obo_telecommunications_cabling_services_133k_2022
+  - hunt_cycle1174
+- id: usaspending_valkyrie_guatemala_nec_stcs_cabling_109k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1821_1900_19AQMM21D0155_1900 (valkyrie_guatemala_nec_stcs_cabling_109k_2022). Signed 2022-05-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1821_1900_19AQMM21D0155_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1821_1900_19AQMM21D0155_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: valkyrie_guatemala_nec_stcs_cabling_109k_2022 USD 0.109m. Supports valkyrie_guatemala_nec_stcs_cabling_109k_2022.'
+  supports:
+  - valkyrie_guatemala_nec_stcs_cabling_109k_2022
+  - hunt_cycle1174
+- id: usaspending_misc_mexico_odc_security_upgrades_14k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53013M0463_1900_-NONE-_-NONE- (misc_mexico_odc_security_upgrades_14k_2013). Signed 2013-02-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53013M0463_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53013M0463_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_odc_security_upgrades_14k_2013 USD 0.014m. Supports misc_mexico_odc_security_upgrades_14k_2013.'
+  supports:
+  - misc_mexico_odc_security_upgrades_14k_2013
+  - hunt_cycle1174
+- id: usaspending_misc_trinidad_warehouse_storage_racks_supply_install_14k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_STD55013M0099_1900_-NONE-_-NONE- (misc_trinidad_warehouse_storage_racks_supply_install_14k_2013). Signed 2013-02-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_STD55013M0099_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_STD55013M0099_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_trinidad_warehouse_storage_racks_supply_install_14k_2013 USD 0.014m. Supports misc_trinidad_warehouse_storage_racks_supply_install_14k_2013.'
+  supports:
+  - misc_trinidad_warehouse_storage_racks_supply_install_14k_2013
+  - hunt_cycle1174
+- id: usaspending_misc_barbados_cmr_security_cameras_equipment_14k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21013M0634_1900_-NONE-_-NONE- (misc_barbados_cmr_security_cameras_equipment_14k_2013). Signed 2013-08-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21013M0634_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21013M0634_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_barbados_cmr_security_cameras_equipment_14k_2013 USD 0.014m. Supports misc_barbados_cmr_security_cameras_equipment_14k_2013.'
+  supports:
+  - misc_barbados_cmr_security_cameras_equipment_14k_2013
+  - hunt_cycle1174
+- id: usaspending_johnson_controls_jamaica_bas_stand_alone_replacement_90k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3720P0317_1900_-NONE-_-NONE- (johnson_controls_jamaica_bas_stand_alone_replacement_90k_2020). Signed 2020-02-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3720P0317_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3720P0317_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: johnson_controls_jamaica_bas_stand_alone_replacement_90k_2020 USD 0.09m. Supports johnson_controls_jamaica_bas_stand_alone_replacement_90k_2020.'
+  supports:
+  - johnson_controls_jamaica_bas_stand_alone_replacement_90k_2020
+  - hunt_cycle1175
+- id: usaspending_applied_security_uruguay_technical_security_service_install_73k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1752_1900_19AQMM19D0002_1900 (applied_security_uruguay_technical_security_service_install_73k_2022). Signed 2022-05-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1752_1900_19AQMM19D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1752_1900_19AQMM19D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_uruguay_technical_security_service_install_73k_2022 USD 0.073m. Supports applied_security_uruguay_technical_security_service_install_73k_2022.'
+  supports:
+  - applied_security_uruguay_technical_security_service_install_73k_2022
+  - hunt_cycle1175
+- id: usaspending_misc_el_salvador_aid_servers_room_door_division_replace_14k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6020P0817_1900_-NONE-_-NONE- (misc_el_salvador_aid_servers_room_door_division_replace_14k_2020). Signed 2020-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6020P0817_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6020P0817_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_el_salvador_aid_servers_room_door_division_replace_14k_2020 USD 0.014m. Supports misc_el_salvador_aid_servers_room_door_division_replace_14k_2020.'
+  supports:
+  - misc_el_salvador_aid_servers_room_door_division_replace_14k_2020
+  - hunt_cycle1175
+- id: usaspending_misc_brazil_intelbras_amt8000_alarm_system_14k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2520P0983_1900_-NONE-_-NONE- (misc_brazil_intelbras_amt8000_alarm_system_14k_2020). Signed 2020-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2520P0983_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2520P0983_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_intelbras_amt8000_alarm_system_14k_2020 USD 0.014m. Supports misc_brazil_intelbras_amt8000_alarm_system_14k_2020.'
+  supports:
+  - misc_brazil_intelbras_amt8000_alarm_system_14k_2020
+  - hunt_cycle1175
+- id: usaspending_misc_barbados_schaller_security_grills_14k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21010M0669_1900_-NONE-_-NONE- (misc_barbados_schaller_security_grills_14k_2010). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21010M0669_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21010M0669_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_barbados_schaller_security_grills_14k_2010 USD 0.014m. Supports misc_barbados_schaller_security_grills_14k_2010.'
+  supports:
+  - misc_barbados_schaller_security_grills_14k_2010
+  - hunt_cycle1175
+- id: usaspending_applied_security_mexico_technical_security_systems_install_38k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17F2060_1900_SAQMMA13D0054_1900 (applied_security_mexico_technical_security_systems_install_38k_2017). Signed 2017-06-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F2060_1900_SAQMMA13D0054_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F2060_1900_SAQMMA13D0054_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_mexico_technical_security_systems_install_38k_2017 USD 0.038m. Supports applied_security_mexico_technical_security_systems_install_38k_2017.'
+  supports:
+  - applied_security_mexico_technical_security_systems_install_38k_2017
+  - hunt_cycle1176
+- id: usaspending_norshield_uruguay_metal_door_screen_19k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20P1350_1900_-NONE-_-NONE- (norshield_uruguay_metal_door_screen_19k_2020). Signed 2020-08-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20P1350_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20P1350_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: norshield_uruguay_metal_door_screen_19k_2020 USD 0.019m. Supports norshield_uruguay_metal_door_screen_19k_2020.'
+  supports:
+  - norshield_uruguay_metal_door_screen_19k_2020
+  - hunt_cycle1176
+- id: usaspending_misc_mexico_chancery_two_restrooms_renovation_14k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53016C0006_1900_-NONE-_-NONE- (misc_mexico_chancery_two_restrooms_renovation_14k_2016). Signed 2016-08-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53016C0006_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53016C0006_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_chancery_two_restrooms_renovation_14k_2016 USD 0.014m. Supports misc_mexico_chancery_two_restrooms_renovation_14k_2016.'
+  supports:
+  - misc_mexico_chancery_two_restrooms_renovation_14k_2016
+  - hunt_cycle1176
+- id: usaspending_misc_haiti_tabarre_blts_genset_install_14k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHA70011M0316_1900_-NONE-_-NONE- (misc_haiti_tabarre_blts_genset_install_14k_2011). Signed 2011-01-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHA70011M0316_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHA70011M0316_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_haiti_tabarre_blts_genset_install_14k_2011 USD 0.014m. Supports misc_haiti_tabarre_blts_genset_install_14k_2011.'
+  supports:
+  - misc_haiti_tabarre_blts_genset_install_14k_2011
+  - hunt_cycle1176
+- id: usaspending_misc_dominican_republic_cbpo_lafuente_generator_transfer_14k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86011M1358_1900_-NONE-_-NONE- (misc_dominican_republic_cbpo_lafuente_generator_transfer_14k_2011). Signed 2011-08-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M1358_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86011M1358_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_dominican_republic_cbpo_lafuente_generator_transfer_14k_2011 USD 0.014m. Supports misc_dominican_republic_cbpo_lafuente_generator_transfer_14k_2011.'
+  supports:
+  - misc_dominican_republic_cbpo_lafuente_generator_transfer_14k_2011
+  - hunt_cycle1176
