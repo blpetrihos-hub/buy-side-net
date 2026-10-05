@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1927,
+    "n_rows": 1944,
     "counts": {
-      "total": 1927,
-      "active": 1728,
+      "total": 1944,
+      "active": 1745,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1654,
-      "on_map": 1581
+      "documented": 1671,
+      "on_map": 1591
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 346,
-        "n": 747
+        "allied": 363,
+        "n": 764
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 118658467708.19,
-        "allied_n": 275
+        "allied": 119495210540.57002,
+        "allied_n": 292
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 516,
-        "n": 771
+        "allied": 526,
+        "n": 781
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 174152757817.96997,
-        "allied_n": 435
+        "allied": 174256900650.34995,
+        "allied_n": 445
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 233
+          "allied": 243
         },
         "infrastructure": {
           "us": 68,
@@ -398,22 +398,22 @@
       "counts": {
         "us": 80,
         "prc": 43,
-        "allied": 100,
-        "n": 223
+        "allied": 102,
+        "n": 225
       },
       "usd": {
         "us": 55891583350.0,
         "us_n": 45,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 53178562361.0,
-        "allied_n": 64
+        "allied": 53364462361.0,
+        "allied_n": 66
       },
       "by_layer": {
         "energy": {
           "us": 57,
           "prc": 34,
-          "allied": 36
+          "allied": 38
         },
         "infrastructure": {
           "us": 11,
@@ -432,22 +432,22 @@
       "counts": {
         "us": 26,
         "prc": 29,
-        "allied": 31,
-        "n": 86
+        "allied": 32,
+        "n": 87
       },
       "usd": {
         "us": 2859408200.27,
         "us_n": 12,
         "prc": 5971656357.0,
         "prc_n": 6,
-        "allied": 2270340542.37,
-        "allied_n": 12
+        "allied": 2315540542.37,
+        "allied_n": 13
       },
       "by_layer": {
         "energy": {
           "us": 18,
           "prc": 17,
-          "allied": 13
+          "allied": 14
         },
         "infrastructure": {
           "us": 5,
@@ -980,22 +980,22 @@
       "counts": {
         "us": 23,
         "prc": 43,
-        "allied": 53,
-        "n": 119
+        "allied": 57,
+        "n": 123
       },
       "usd": {
         "us": 17866000000.0,
         "us_n": 13,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 25002901379.0,
-        "allied_n": 38
+        "allied": 25504401379.0,
+        "allied_n": 42
       },
       "by_layer": {
         "energy": {
           "us": 3,
           "prc": 7,
-          "allied": 13
+          "allied": 17
         },
         "infrastructure": {
           "us": 6,
@@ -2916,7 +2916,24 @@
       "alupar_tep_capex_realizado_13p5m_usd",
       "alupar_tsa_capex_realizado_0p4m_usd",
       "alupar_ter_capex_realizado_6p4m_usd",
-      "alupar_geral_capex_realizado_1p2m_usd"
+      "alupar_geral_capex_realizado_1p2m_usd",
+      "alupar_tes_capex_previsto_38p9m_usd",
+      "alupar_tel_capex_previsto_40m_usd",
+      "alupar_sed_capex_previsto_45p2m_usd",
+      "alupar_tep_capex_previsto_145p9m_usd",
+      "alupar_tsa_capex_previsto_19p6m_usd",
+      "alupar_ter_capex_previsto_400p2m_usd",
+      "alupar_geral_capex_previsto_42p8m_usd",
+      "alupar_tap_capex_1t26_45p59m_brl",
+      "alupar_tap_capex_2t26_41p55m_brl",
+      "alupar_tpc_capex_1t26_50p79m_brl",
+      "alupar_tpc_capex_2t26_113p01m_brl",
+      "alupar_tcn_capex_1t26_9p17m_brl",
+      "alupar_tcn_capex_2t26_9p61m_brl",
+      "energisa_tx_2t26_63m_brl",
+      "energisa_tx_6m26_100m_brl",
+      "energisa_reenergisa_2t26_36m_brl",
+      "energisa_reenergisa_6m26_72m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
