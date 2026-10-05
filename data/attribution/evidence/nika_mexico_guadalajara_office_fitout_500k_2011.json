@@ -1,0 +1,10 @@
+{
+  "id": "nika_mexico_guadalajara_office_fitout_500k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_nika_mexico_guadalajara_office_fitout_500k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F1795_1900_SAQMMA08D0020_1900/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "TASK ORDER FOR OFFICE FIT-OUT FOR U.S. CONSULATE GUADALAJARA FOR PAG",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 500000.0; date_signed 2011-06-09."
+}
