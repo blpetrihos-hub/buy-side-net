@@ -23440,3 +23440,153 @@
   supports:
   - wsp_ciudad_juarez_cm_929k_2018
   - hunt_cycle926
+- id: usaspending_cce_caracas_msgq_20090930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA09F4609_1900_SAQMMA08D0003_1900
+    (CCE; Caracas MSGQ). Signed 30 September 2009. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA09F4609_1900_SAQMMA08D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA09F4609_1900_SAQMMA08D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CCE Caracas MSGQ USD 11.597m. Supports cce_caracas_msgq_11p6m_2009.'
+  supports:
+  - cce_caracas_msgq_11p6m_2009
+  - hunt_cycle927
+- id: usaspending_nve_caracas_electrical_20260918
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM26F1456_1900_19AQMM24D0035_1900
+    (NVE; Caracas electrical). Signed 18 September 2026. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F1456_1900_19AQMM24D0035_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F1456_1900_19AQMM24D0035_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: NVE Caracas electrical USD 4.437m. Supports nve_caracas_electrical_4p44m_2026.'
+  supports:
+  - nve_caracas_electrical_4p44m_2026
+  - hunt_cycle927
+- id: usaspending_aecom_caracas_electrical_20140927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14F4390_1900_SAQMMA12D0193_1900
+    (AECOM; Caracas electrical). Signed 27 September 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F4390_1900_SAQMMA12D0193_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F4390_1900_SAQMMA12D0193_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: AECOM Caracas electrical USD 1.908m. Supports aecom_caracas_electrical_1p91m_2014.'
+  supports:
+  - aecom_caracas_electrical_1p91m_2014
+  - hunt_cycle927
+- id: usaspending_horizon_costa_rica_msgr_20190313
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19F0678_1900_SAQMMA14D0056_1900
+    (Horizon; Costa Rica MSGR). Signed 13 March 2019. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F0678_1900_SAQMMA14D0056_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F0678_1900_SAQMMA14D0056_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Horizon Costa Rica MSGR USD 6.374m. Supports horizon_costa_rica_msgr_6p37m_2019.'
+  supports:
+  - horizon_costa_rica_msgr_6p37m_2019
+  - hunt_cycle927
+- id: usaspending_roofing_panama_nec_20150928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15F3907_1900_SAQMMA13D0137_1900
+    (Roofing Resources; Panama NEC roof). Signed 28 September 2015. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F3907_1900_SAQMMA13D0137_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F3907_1900_SAQMMA13D0137_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Roofing Panama NEC USD 5.191m. Supports roofing_panama_nec_5p19m_2015.'
+  supports:
+  - roofing_panama_nec_5p19m_2015
+  - hunt_cycle927
+- id: usaspending_amentum_lapaz_power_20231220
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F0150_1900_19AQMM18D0073_1900
+    (Amentum; La Paz power plant). Signed 20 December 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0150_1900_19AQMM18D0073_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0150_1900_19AQMM18D0073_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Amentum La Paz power plant USD 9.998m. Supports amentum_lapaz_power_plant_10m_2023.'
+  supports:
+  - amentum_lapaz_power_plant_10m_2023
+  - hunt_cycle928
+- id: usaspending_tabcon_kingston_nec_roof_20240925
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F2351_1900_19AQMM19D0084_1900
+    (Tabcon; Kingston NEC roof). Signed 25 September 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F2351_1900_19AQMM19D0084_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F2351_1900_19AQMM19D0084_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Tabcon Kingston NEC roof USD 6.020m. Supports tabcon_kingston_nec_roof_6p02m_2024.'
+  supports:
+  - tabcon_kingston_nec_roof_6p02m_2024
+  - hunt_cycle928
+- id: usaspending_futron_kingston_pv_20240320
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F0649_1900_19AQMM22D0075_1900
+    (Futron; Kingston PV). Signed 20 March 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0649_1900_19AQMM22D0075_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0649_1900_19AQMM22D0075_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Futron Kingston PV USD 2.189m. Supports futron_kingston_pv_2p19m_2024.'
+  supports:
+  - futron_kingston_pv_2p19m_2024
+  - hunt_cycle928
+- id: usaspending_aecom_callao_harbor_p2_20240606
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0117_9700_W9127821D0040_9700
+    (AECOM; Callao Phase 2). Signed 6 June 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0117_9700_W9127821D0040_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0117_9700_W9127821D0040_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: AECOM Callao harbor P2 USD 14.450m. Supports aecom_callao_harbor_p2_14p5m_2024.'
+  supports:
+  - aecom_callao_harbor_p2_14p5m_2024
+  - hunt_cycle928
+- id: usaspending_desbuild_belize_msgr_20150226
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15C0021_1900_-NONE-_-NONE-
+    (Desbuild; Belize MSGR). Signed 26 February 2015. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0021_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15C0021_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Desbuild Belize MSGR USD 13.983m. Supports desbuild_belize_msgr_14m_2015.'
+  supports:
+  - desbuild_belize_msgr_14m_2015
+  - hunt_cycle928
+- id: usaspending_montage_guayaquil_msgr_20140930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14C0200_1900_-NONE-_-NONE-
+    (Montage; Guayaquil MSGR). Signed 30 September 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0200_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0200_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Montage Guayaquil MSGR USD 16.653m. Supports montage_guayaquil_msgr_16p7m_2014.'
+  supports:
+  - montage_guayaquil_msgr_16p7m_2014
+  - hunt_cycle929
+- id: usaspending_tidewater_managua_consular_20250305
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM25F0451_1900_19AQMM22D0058_1900
+    (Tidewater; Managua consular). Signed 5 March 2025. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM25F0451_1900_19AQMM22D0058_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM25F0451_1900_19AQMM22D0058_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Tidewater Managua consular USD 6.273m. Supports tidewater_managua_consular_6p27m_2025.'
+  supports:
+  - tidewater_managua_consular_6p27m_2025
+  - hunt_cycle929
+- id: usaspending_interim_santiago_power_20230927
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F3324_1900_19AQMM18D0140_1900
+    (Interim Homes; Santiago power). Signed 27 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F3324_1900_19AQMM18D0140_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F3324_1900_19AQMM18D0140_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Interim Santiago power USD 6.226m. Supports interim_santiago_power_6p23m_2023.'
+  supports:
+  - interim_santiago_power_6p23m_2023
+  - hunt_cycle929
+- id: usaspending_palgag_namru6_lima_20180925
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0650_9700_W9127817D0096_9700
+    (Palgag; NAMRU-6 Lima). Signed 25 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0650_9700_W9127817D0096_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0650_9700_W9127817D0096_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Palgag NAMRU-6 Lima USD 25.383m. Supports palgag_namru6_lima_25p4m_2018.'
+  supports:
+  - palgag_namru6_lima_25p4m_2018
+  - hunt_cycle929
+- id: usaspending_eterna_cr_schools_20210930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0494_9700_W9127821D0075_9700
+    (Eterna; CR schools). Signed 30 September 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0494_9700_W9127821D0075_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0494_9700_W9127821D0075_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna CR schools USD 1.775m. Supports eterna_carrillo_coco_schools_1p78m_2021.'
+  supports:
+  - eterna_carrillo_coco_schools_1p78m_2021
+  - hunt_cycle929
