@@ -1,0 +1,10 @@
+{
+  "id": "isobox_corozal_east_repairs_201k_2021",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_isobox_corozal_east_repairs_201k_2021",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228121C0003_9700_-NONE-_-NONE-/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "COROZAL EAST FACILITY REPAIRS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 201230.86; date_signed 2021-05-26."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "spectrum_belmopan_electrical_171k_2018",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_spectrum_belmopan_electrical_171k_2018",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F0161_1900_19AQMM18D0072_1900/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "US EMBASSY BELMOPAN BELIZE -RESIDENCE ONLY- ELECTRICAL DISTRIBUTION SYSTEM MINOR CONSTRUCTION",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 170904.07; date_signed 2018-11-26."
+}

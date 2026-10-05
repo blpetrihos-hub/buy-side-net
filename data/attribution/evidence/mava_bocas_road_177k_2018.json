@@ -1,0 +1,10 @@
+{
+  "id": "mava_bocas_road_177k_2018",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_mava_bocas_road_177k_2018",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330218CF0010383_3300_-NONE-_-NONE-/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF STRI - BOCAS DEL TORO STATION INTERNAL ROAD REPAIRS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 176680.27; date_signed 2018-09-07."
+}
