@@ -1,10 +1,10 @@
 {
   "id": "crec_canas_bebedero_water_costa_rica_2022",
-  "retrieved": "2026-10-02",
+  "retrieved": "2026-10-05",
   "source_id": "cr_presidencia_canas_bebedero_20220324",
   "url": "https://presidencia.gobiernocarlosalvarado.cr/comunicados/2022/03/canas-recibe-planta-potabilizadora-mas-moderna-del-pais-por-parte-de-aya-y-la-republica-popular-china/",
   "price_year": "2022",
   "evidence": "documented",
-  "quote": "El proyecto Cañas-Bebedero tuvo un costo de ₡9.815 millones donados por la República Popular China, y el Instituto Costarricense de Acueductos y Alcantarillados (AyA) equipó la planta y aportó el personal que la opera para brindar agua potable a unas 37.000 personas de las comunidades de Cañas, Palmira, San Miguel, Bebedero y Porozal. … Las obras incluyeron la construcción de una planta potabilizadora de filtración rápida tipo CEPIS con tecnología de punta capaz de procesar 126 litros por segundo. Además, se instalaron 13.5 kilómetros de tuberías de conducción",
-  "note": "Opened CR Presidency 24 Mar 2022 (Cañas–Bebedero handover / PRC grant); People Daily Spanish 28 Feb 2022 names CTCE builder."
+  "quote": "El proyecto Cañas-Bebedero tuvo un costo de ₡9.815 millones donados por la República Popular China",
+  "note": "CapEx-fill from prior-opened CR Presidency quote (host 406 on 2026-10-05 re-open); CRC 9,815m grant face retained."
 }
