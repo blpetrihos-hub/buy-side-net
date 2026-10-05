@@ -13430,7 +13430,7 @@
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2
-  annotation: Motiva ViaMobilidade L 8/9 2T26 CapEx via Fed H.10. Supports motiva_viamobilidade_l89_2t26_85m_brl.
+  annotation: Motiva ViaRio 2T26 CapEx via Fed H.10. Supports motiva_viario_2t26_2m_brl.
   supports:
   - motiva_autoban_2t26_136m_brl
   - hunt_cycle294
@@ -13449,3 +13449,21 @@
   - motiva_metro_bahia_2t26_18m_brl
   - motiva_viamobilidade_2t26_12m_brl
   - motiva_viamobilidade_l89_2t26_85m_brl
+  - motiva_autoban_1t26_129m_brl
+  - hunt_cycle295
+  - motiva_viaoeste_1t26_127m_brl
+  - motiva_rodoanel_oeste_1t26_11m_brl
+  - motiva_spvias_1t26_61m_brl
+  - motiva_pantanal_1t26_160m_brl
+  - motiva_viasul_1t26_197m_brl
+  - motiva_viacosteira_1t26_49m_brl
+  - motiva_rio_sp_1t26_312m_brl
+  - motiva_sorocabana_1t26_108m_brl
+  - motiva_pr_vias_1t26_214m_brl
+  - motiva_vlt_carioca_1t26_3m_brl
+  - motiva_metro_bahia_1t26_14m_brl
+  - motiva_viamobilidade_1t26_8m_brl
+  - motiva_viamobilidade_l89_1t26_101m_brl
+  - motiva_outros_2t26_12m_brl
+  - motiva_roads_exmaint_2t26_1454m_brl
+  - motiva_viario_2t26_2m_brl
