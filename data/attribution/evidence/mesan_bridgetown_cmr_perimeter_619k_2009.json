@@ -1,0 +1,10 @@
+{
+  "id": "mesan_bridgetown_cmr_perimeter_619k_2009",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_mesan_bridgetown_cmr_20090914",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09F0058_1900_SAQMMA08D0015_1900/",
+  "price_year": "2009",
+  "evidence": "documented",
+  "quote": "PERIMETER SECURITY UPGRADE OF CHIEF OF MISSION RESIDENCE IN BRIDGETOWN, BARBADOS.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 618,896; date_signed 2009-09-14."
+}

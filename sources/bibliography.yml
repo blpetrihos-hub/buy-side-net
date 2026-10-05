@@ -24040,3 +24040,153 @@
   supports:
   - ect_santo_domingo_cmr_roof_665k_2023
   - hunt_cycle938
+- id: usaspending_sea_pac_san_jose_elevator_20240926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5024C0051_1900_-NONE-_-NONE-
+    (Sea Pac; San José elevator). Signed 26 September 2024. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024C0051_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024C0051_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Sea Pac San José elevator USD 0.899m. Supports sea_pac_san_jose_elevator_899k_2024.'
+  supports:
+  - sea_pac_san_jose_elevator_899k_2024
+  - hunt_cycle939
+- id: usaspending_sea_pac_san_salvador_elev_20220921
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5022C0039_1900_-NONE-_-NONE-
+    (Sea Pac; San Salvador elevators). Signed 21 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0039_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0039_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Sea Pac San Salvador elevators USD 2.819m. Supports sea_pac_san_salvador_elevators_2p82m_2022.'
+  supports:
+  - sea_pac_san_salvador_elevators_2p82m_2022
+  - hunt_cycle939
+- id: usaspending_serrano_namru6_admin_20170929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0487_9700_W9127813D0014_9700
+    (Serrano; NAMRU-6 admin). Signed 29 September 2017. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0487_9700_W9127813D0014_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0487_9700_W9127813D0014_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Serrano NAMRU-6 admin USD 3.720m. Supports serrano_namru6_admin_3p72m_2017.'
+  supports:
+  - serrano_namru6_admin_3p72m_2017
+  - hunt_cycle939
+- id: usaspending_horizon_brasilia_fcu_20180926
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F4595_1900_SAQMMA14D0056_1900
+    (Horizon; Brasília FCU). Signed 26 September 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F4595_1900_SAQMMA14D0056_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F4595_1900_SAQMMA14D0056_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Horizon Brasília FCU USD 1.772m. Supports horizon_brasilia_fcu_1p77m_2018.'
+  supports:
+  - horizon_brasilia_fcu_1p77m_2018
+  - hunt_cycle939
+- id: usaspending_eterna_el_coca_boat_20220922
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0385_9700_W9127817D0095_9700
+    (Eterna; El Coca boat). Signed 22 September 2022. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0385_9700_W9127817D0095_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0385_9700_W9127817D0095_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna El Coca boat facility USD 1.287m. Supports eterna_el_coca_boat_1p29m_2022.'
+  supports:
+  - eterna_el_coca_boat_1p29m_2022
+  - hunt_cycle939
+- id: usaspending_serrano_shushufindi_20210706
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0218_9700_W9127817D0098_9700
+    (Serrano; Shushufindi hospital). Signed 6 July 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0218_9700_W9127817D0098_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0218_9700_W9127817D0098_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Serrano Shushufindi hospital USD 1.310m. Supports serrano_shushufindi_hospital_1p31m_2021.'
+  supports:
+  - serrano_shushufindi_hospital_1p31m_2021
+  - hunt_cycle940
+- id: usaspending_palgag_dr_peb_20091103
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0002_9700_-NONE-_-NONE-
+    (Palgag; DR PEB). Signed 3 November 2009. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0002_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0002_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Palgag DR PEB USD 0.711m. Supports palgag_dr_peb_711k_2009.'
+  supports:
+  - palgag_dr_peb_711k_2009
+  - hunt_cycle940
+- id: usaspending_fortuna_isla_saona_pier_20110928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0085_9700_-NONE-_-NONE-
+    (Fortuna; Isla Saona pier). Signed 28 September 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0085_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0085_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Fortuna Isla Saona pier USD 0.792m. Supports fortuna_isla_saona_pier_792k_2011.'
+  supports:
+  - fortuna_isla_saona_pier_792k_2011
+  - hunt_cycle940
+- id: usaspending_marenco_dr_pier_20090925
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945009C0096_9700_-NONE-_-NONE-
+    (Marenco; DR boat ramp/pier). Signed 25 September 2009. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945009C0096_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945009C0096_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marenco DR boat ramp/pier USD 0.930m. Supports marenco_dr_boat_ramp_pier_930k_2009.'
+  supports:
+  - marenco_dr_boat_ramp_pier_930k_2009
+  - hunt_cycle940
+- id: usaspending_mesan_bridgetown_cmr_20090914
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC09F0058_1900_SAQMMA08D0015_1900
+    (Mesan; Bridgetown CMR). Signed 14 September 2009. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09F0058_1900_SAQMMA08D0015_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09F0058_1900_SAQMMA08D0015_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Mesan Bridgetown CMR perimeter USD 0.619m. Supports mesan_bridgetown_cmr_perimeter_619k_2009.'
+  supports:
+  - mesan_bridgetown_cmr_perimeter_619k_2009
+  - hunt_cycle940
+- id: usaspending_eterna_scab_grid_20200928
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127820F0498_9700_W9127816D0102_9700
+    (Eterna; SCAB grid). Signed 28 September 2020. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0498_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0498_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna SCAB grid USD 9.705m. Supports eterna_scab_grid_9p71m_2020.'
+  supports:
+  - eterna_scab_grid_9p71m_2020
+  - hunt_cycle941
+- id: usaspending_eterna_honduras_fy23_20230929
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823C0031_9700_-NONE-_-NONE-
+    (Eterna; Honduras FY23 DB). Signed 29 September 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823C0031_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823C0031_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna Honduras FY23 DB USD 7.004m. Supports eterna_honduras_fy23_db_7p00m_2023.'
+  supports:
+  - eterna_honduras_fy23_db_7p00m_2023
+  - hunt_cycle941
+- id: usaspending_nv5_brasilia_nec_cx_20190730
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19F2509_1900_19AQMM19D0019_1900
+    (NV5; Brasília NEC CX). Signed 30 July 2019. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F2509_1900_19AQMM19D0019_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F2509_1900_19AQMM19D0019_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: NV5 Brasília NEC CX USD 2.090m. Supports nv5_brasilia_nec_cx_2p09m_2019.'
+  supports:
+  - nv5_brasilia_nec_cx_2p09m_2019
+  - hunt_cycle941
+- id: usaspending_sterling_royale_brasilia_20100920
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA10F4384_1900_SAQMMA08D0038_1900
+    (Sterling Royale; Brasília DB). Signed 20 September 2010. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10F4384_1900_SAQMMA08D0038_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10F4384_1900_SAQMMA08D0038_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Sterling Royale Brasília USD 2.638m. Supports sterling_royale_brasilia_db_2p64m_2010.'
+  supports:
+  - sterling_royale_brasilia_db_2p64m_2010
+  - hunt_cycle941
+- id: usaspending_bendig_oij_incinerator_20210930
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21C0172_1900_-NONE-_-NONE-
+    (Bendig; OIJ incinerator). Signed 30 September 2021. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21C0172_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21C0172_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bendig OIJ incinerator USD 0.983m. Supports bendig_oij_incinerator_983k_2021.'
+  supports:
+  - bendig_oij_incinerator_983k_2021
+  - hunt_cycle941
