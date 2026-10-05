@@ -2417,12 +2417,13 @@
   - hunt_latam_rail_telecom
 - id: invest_minas_graph_plus_20241003
   type: government
-  chicago: Invest Minas. “Investimento privado de R$ 200 milhões para extração de grafite é anunciado na Exposibram 2024.” 3 October 2024.
+  chicago: InvestMinas. “Governo anuncia investimento privado superior a R$ 200 milhões na Exposibram 2024.” October 3, 2024. https://investminas.mg.gov.br/2024/10/03/governo-anuncia-investimento-privado-superior-a-r-200-milhoes-na-exposibram-2024/.
   url: https://investminas.mg.gov.br/2024/10/03/governo-anuncia-investimento-privado-superior-a-r-200-milhoes-na-exposibram-2024/
-  annotation: State investment agency primary on Graph+/New Mining >R$200m Santa Maria do Salto graphite plant. Supports graph_plus_santa_maria_salto_2024.
+  annotation: Graph+ CapEx-fill ~USD 38.52m via Fed H.10. Supports graph_plus_santa_maria_salto_2024.
   supports:
   - graph_plus_santa_maria_salto_2024
   - hunt_res_graphite
+  - hunt_cycle224
 - id: a3_composites_ecuador_balsa
   type: company
   chicago: 3A Composites Core Materials. “Production site in Ecuador.” Accessed 1 October 2026.
@@ -2766,12 +2767,13 @@
   - hunt_infra_port_cranes
 - id: ohla_metro_l9_20260727
   type: company
-  chicago: OHLA Group. “OHLA secures its largest-ever contract for the Santiago Metro and surpasses €700 million in projects across the network.” 27 July 2026.
+  chicago: OHLA. “OHLA secures its largest-ever contract for the Santiago Metro and surpasses €700 million in projects across the network.” July 27, 2026. https://www.ohla-group.com/en/ohla-secures-its-largest-ever-contract-for-the-santiago-metro-and-surpasses-e700-million-in-projects-across-the-network/.
   url: https://www.ohla-group.com/en/ohla-secures-its-largest-ever-contract-for-the-santiago-metro-and-surpasses-e700-million-in-projects-across-the-network/
-  annotation: Company primary on EUR 144.3m Santiago Metro Line 9 civil award. Supports ohla_metro_santiago_l9_2026.
+  annotation: OHLA Metro L9 CapEx-fill ~USD 164.50m via Fed H.10. Supports ohla_metro_santiago_l9_2026.
   supports:
   - ohla_metro_santiago_l9_2026
   - hunt_latam_rail_telecom
+  - hunt_cycle224
 - id: idb_invest_calcem_15037
   type: ifi
   chicago: IDB Invest. “CALCEM - Increasing production capacity of lime in Peru.” Project 15037-01 (signed 15 December 2025).
@@ -6037,12 +6039,13 @@
   - hunt_infra_engineering_epc
 - id: ceec_brasil_coremas_2025
   type: company
-  chicago: CEEC Brasil. “China Energy adquire usinas fotovoltaicas na Paraíba, e marca entrada no mercado de energias renováveis no Brasil.” November 2025.
+  chicago: CEEC Brasil. “China Energy adquire usinas fotovoltaicas na Paraíba e marca entrada no mercado de energias renováveis no Brasil.” November 2025. https://ceecbrasil.com.br/china-energy-adquire-usinas-fotovoltaicas-na-paraiba-e-marca-entrada-no-mercado-de-energias-renovaveis-no-brasil/.
   url: https://ceecbrasil.com.br/china-energy-adquire-usinas-fotovoltaicas-na-paraiba-e-marca-entrada-no-mercado-de-energias-renovaveis-no-brasil/
-  annotation: CEEC Brasil / China Energy acquires Coremas I–III PV (93.41 MWp) for ~R$520m EV. Supports ceec_coremas_solar_520m_2025.
+  annotation: CEEC Coremas CapEx-fill ~USD 100.15m via Fed H.10. Supports ceec_coremas_solar_520m_2025.
   supports:
   - ceec_coremas_solar_520m_2025
   - hunt_energy_solar
+  - hunt_cycle224
 - id: cummins_cdbs_monterrey_logistics_20241003
   type: company
   chicago: Cummins Inc. “Cummins Drivetrain and Braking Systems invests to boost production capacity.” 3 October 2024.
@@ -10721,13 +10724,14 @@
   - hunt_cycle191
   - hunt_cycle223
 - id: t21_timsa_ertg_manzanillo_20260701
-  type: company
+  type: press
   chicago: T21. “Hutchison Ports TIMSA suma dos nuevas grúas eléctricas en Manzanillo.” July 1, 2026. https://t21.com.mx/hutchison-ports-timsa-suma-dos-nuevas-gruas-electricas-en-manzanillo/.
   url: https://t21.com.mx/hutchison-ports-timsa-suma-dos-nuevas-gruas-electricas-en-manzanillo/
-  annotation: 'TIMSA: Manzanillo e-RTG MXN 70m+. Supports timsa_ertg_manzanillo_70m_mxn_2026.'
+  annotation: TIMSA e-RTG CapEx-fill ~USD 3.96m via Fed H.10. Supports timsa_ertg_manzanillo_70m_mxn_2026.
   supports:
   - timsa_ertg_manzanillo_70m_mxn_2026
   - hunt_cycle191
+  - hunt_cycle224
 - id: engie_brasil_jaguara_lrcap_20260318
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil wins the Capacity Reserve Auction and will increase the power output of the Jaguara Hydropower Plant.” March 18, 2026. https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-vence-leilao-de-reserva-de-capacidade-e-vai-ampliar-potencia-da-usina-hidreletrica-jaguara/.
@@ -11043,10 +11047,11 @@
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia grows 14.6% in revenue and invests R$ 6 billion in 2025.” February 25, 2026. https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-energia-grows-14-6-in-revenue-and-invests-r-6-billion-in-2025/.
   url: https://www.engie.com.br/en/imprensa/press-releases/engie-brasil-energia-grows-14-6-in-revenue-and-invests-r-6-billion-in-2025/
-  annotation: 'ENGIE Brasil: FY2025 CapEx R$6bn. Supports engie_brasil_fy2025_capex_6bn_brl.'
+  annotation: ENGIE Brasil FY2025 CapEx-fill ~USD 1155.60m via Fed H.10. Supports engie_brasil_fy2025_capex_6bn_brl.
   supports:
   - engie_brasil_fy2025_capex_6bn_brl
   - hunt_cycle197
+  - hunt_cycle224
 - id: neoenergia_fy2025_results_20260211
   type: company
   chicago: Neoenergia. “Neoenergia encerra 2025 com lucro de R$ 5 bilhões.” February 11, 2026. https://www.neoenergia.com/w/2025-tem-lucro-de-5-bilhoes-1.
@@ -11084,12 +11089,13 @@
   - novandino_salar_futuro_3bn_2026
 - id: cbmm_crescimento_diversificacao_2025
   type: company
-  chicago: CBMM. “CBMM avança em sua estratégia de crescimento e diversificação.” Company news. https://cbmm.com/pt/midias/noticias/cbmm-crescimento-diversificacao-niobio.
+  chicago: 'CBMM. “CBMM: crescimento e diversificação do nióbio.” 2026. https://cbmm.com/pt/midias/noticias/cbmm-crescimento-diversificacao-niobio.'
   url: https://cbmm.com/pt/midias/noticias/cbmm-crescimento-diversificacao-niobio
-  annotation: 'CBMM: FY2025 CapEx R$1.1bn. Supports cbmm_araxa_2025_spend_1p1bn.'
+  annotation: CBMM 2025 CapEx-fill ~USD 211.86m via Fed H.10. Supports cbmm_araxa_2025_spend_1p1bn.
   supports:
   - cbmm_araxa_2025_spend_1p1bn
   - hunt_cycle198
+  - hunt_cycle224
 - id: cbmm_rs_2025
   type: company
   chicago: CBMM. Relatório de Sustentabilidade 2025. https://cbmm.com/relatorio-sustentabilidade/pdf/CBMM_RS25_D16_02.pdf.
@@ -11133,12 +11139,13 @@
   - hunt_cycle199
 - id: spic_luiz_gonzaga_20241106
   type: company
-  chicago: SPIC Brasil. “SPIC Brasil anuncia investimento de R$ 400 milhões em novo solar em parceria com a Recurrent Energy.” November 6, 2024. https://www.spicbrasil.com.br/destaque/investimento-complexo-solar-luiz-gonzaga/.
+  chicago: SPIC Brasil. “Investimento Complexo Solar Luiz Gonzaga.” November 2024. https://www.spicbrasil.com.br/destaque/investimento-complexo-solar-luiz-gonzaga/.
   url: https://www.spicbrasil.com.br/destaque/investimento-complexo-solar-luiz-gonzaga/
-  annotation: 'SPIC Luiz Gonzaga: ~R$400m. Supports spic_luiz_gonzaga_400m_brl_2024.'
+  annotation: SPIC Luiz Gonzaga CapEx-fill company dual ~US$70m. Supports spic_luiz_gonzaga_400m_brl_2024.
   supports:
   - spic_luiz_gonzaga_400m_brl_2024
   - hunt_cycle199
+  - hunt_cycle224
 - id: graphcoa_jordania_rima_2025
   type: company
   chicago: Graphcoa. “Projeto Grafite Jordânia — Relatório de Impacto Ambiental (RIMA).” https://graphcoa.com/wp-content/uploads/2025/11/RIMA.pdf.

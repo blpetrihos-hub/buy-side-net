@@ -1,10 +1,10 @@
 {
   "id": "graph_plus_santa_maria_salto_2024",
-  "retrieved": "2026-10-01",
+  "retrieved": "2026-10-04",
   "source_id": "invest_minas_graph_plus_20241003",
   "url": "https://investminas.mg.gov.br/2024/10/03/governo-anuncia-investimento-privado-superior-a-r-200-milhoes-na-exposibram-2024/",
   "price_year": "2024",
-  "evidence": "documented",
+  "evidence": "proxy",
   "quote": "aporte de mais de R$ 200 milhões, a ser feito até 2028, pela Graph+. A planta da empresa, subsidiária da New Mining, será voltada para a extração de grafite no município de Santa Maria do Salto",
-  "note": "Opened Invest Minas official Portuguese release 3 Oct 2024."
+  "note": "Opened InvestMinas Portuguese; >R$200m / Santa Maria do Salto confirmed (UNVERIFIED proxy). CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }

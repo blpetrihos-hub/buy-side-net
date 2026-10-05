@@ -95,9 +95,9 @@
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 180,
+      "proxy": 181,
       "exclude": 18,
-      "documented": 1186,
+      "documented": 1185,
       "on_map": 1114
     }
   },
@@ -115,8 +115,8 @@
         "us_n": 91,
         "prc": 15215744802.310001,
         "prc_n": 32,
-        "allied": 19519616244.34,
-        "allied_n": 60
+        "allied": 19688074566.54,
+        "allied_n": 62
       },
       "matched_gaps": {
         "n": 1,
@@ -138,8 +138,8 @@
         "us_n": 42,
         "prc": 14071081772.0,
         "prc_n": 34,
-        "allied": 86584052973.53,
-        "allied_n": 72
+        "allied": 86795913299.79001,
+        "allied_n": 73
       },
       "matched_gaps": {
         "n": 3,
@@ -161,10 +161,10 @@
       "usd": {
         "us": 16233858581.429998,
         "us_n": 45,
-        "prc": 14154295219.99,
-        "prc_n": 36,
-        "allied": 23441027793.51,
-        "allied_n": 65
+        "prc": 14324447374.22,
+        "prc_n": 38,
+        "allied": 24596629573.14,
+        "allied_n": 66
       },
       "matched_gaps": {
         "n": 1,
@@ -370,10 +370,10 @@
       "usd": {
         "us": 14005227245.099998,
         "us_n": 32,
-        "prc": 12136419379.019999,
-        "prc_n": 23,
-        "allied": 19478130169.14,
-        "allied_n": 36
+        "prc": 12306571533.249998,
+        "prc_n": 25,
+        "allied": 20845592275.03,
+        "allied_n": 38
       },
       "by_layer": {
         "energy": {
@@ -406,8 +406,8 @@
         "us_n": 22,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 48180848361.0,
-        "allied_n": 52
+        "allied": 48345350361.0,
+        "allied_n": 53
       },
       "by_layer": {
         "energy": {
@@ -852,8 +852,8 @@
         "us_n": 35,
         "prc": 127039837.81,
         "prc_n": 3,
-        "allied": 5663322835.4800005,
-        "allied_n": 15
+        "allied": 5667279157.68,
+        "allied_n": 16
       },
       "by_layer": {
         "energy": {

@@ -1,10 +1,10 @@
 {
   "id": "ceec_coremas_solar_520m_2025",
-  "retrieved": "2026-10-02",
+  "retrieved": "2026-10-04",
   "source_id": "ceec_brasil_coremas_2025",
   "url": "https://ceecbrasil.com.br/china-energy-adquire-usinas-fotovoltaicas-na-paraiba-e-marca-entrada-no-mercado-de-energias-renovaveis-no-brasil/",
   "price_year": "2025",
   "evidence": "documented",
-  "quote": "A CEEC Brasil, empresa do grupo China Energy, acaba de adquirir três usinas fotovoltaicas por um valor aproximado de R$ 520 milhões (enterprise value). O contrato de compra firmado em 4 de novembro com a FIP Coremas, controlada pela Nordic Power Partners (uma joint venture com a European Energy e Impact Fund Denmark), inclui as unidades Coremas I, II e III, localizadas no município de Coremas, na Paraíba. Com capacidade instalada de 93,41 MWp",
-  "note": "Opened CEEC Brasil company release (Nov 2025 acquisition announcement)."
+  "quote": "A CEEC Brasil, empresa do grupo China Energy, acaba de adquirir três usinas fotovoltaicas por um valor aproximado de R$ 520 milhões (enterprise value). O contrato de compra firmado em 4 de novembro com a FIP Coremas, controlada pela Nordic Power Partners.",
+  "note": "Opened CEEC Brasil Portuguese; ~R$520m EV / Coremas I–III confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
