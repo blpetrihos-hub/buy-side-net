@@ -50694,5 +50694,275 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_keller_uruguay_fire_panel_60k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19UY6022P0143_1900_-NONE-_-NONE- (Keller Uruguay fire panel). Signed 2022-02-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6022P0143_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19UY6022P0143_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Keller Uruguay fire panel USD 0.060m. Supports keller_uruguay_fire_panel_60k_2022.",
+    "supports": [
+      "keller_uruguay_fire_panel_60k_2022",
+      "hunt_cycle1044"
+    ],
+    "map_supports": [
+      "keller_uruguay_fire_panel_60k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_project_services_guyana_cams_63k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5020P0006_1900_-NONE-_-NONE- (Project Services Guyana CAMS). Signed 2019-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020P0006_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5020P0006_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Project Services Guyana CAMS USD 0.063m. Supports project_services_guyana_cams_63k_2019.",
+    "supports": [
+      "project_services_guyana_cams_63k_2019",
+      "hunt_cycle1044"
+    ],
+    "map_supports": [
+      "project_services_guyana_cams_63k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_niv_waterproof_71k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53013M1227_1900_-NONE-_-NONE- (Mexico NIV waterproof). Signed 2013-08-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53013M1227_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53013M1227_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico NIV waterproof USD 0.071m. Supports misc_mexico_niv_waterproof_71k_2013.",
+    "supports": [
+      "misc_mexico_niv_waterproof_71k_2013",
+      "hunt_cycle1044"
+    ],
+    "map_supports": [
+      "misc_mexico_niv_waterproof_71k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_odc_remodel_71k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53010M0907_1900_-NONE-_-NONE- (Mexico ODC remodel). Signed 2010-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0907_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53010M0907_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico ODC remodel USD 0.071m. Supports misc_mexico_odc_remodel_71k_2010.",
+    "supports": [
+      "misc_mexico_odc_remodel_71k_2010",
+      "hunt_cycle1044"
+    ],
+    "map_supports": [
+      "misc_mexico_odc_remodel_71k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_santilli_uruguay_libano_windows_71k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SUY60017C0001_1900_-NONE-_-NONE- (Santilli Uruguay Libano windows). Signed 2017-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60017C0001_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SUY60017C0001_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Santilli Uruguay Libano windows USD 0.071m. Supports santilli_uruguay_libano_windows_71k_2017.",
+    "supports": [
+      "santilli_uruguay_libano_windows_71k_2017",
+      "hunt_cycle1044"
+    ],
+    "map_supports": [
+      "santilli_uruguay_libano_windows_71k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fluid_solutions_dr_controller_63k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8626P1454_1900_-NONE-_-NONE- (Fluid Solutions DR controller). Signed 2026-08-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8626P1454_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8626P1454_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fluid Solutions DR controller USD 0.063m. Supports fluid_solutions_dr_controller_63k_2026.",
+    "supports": [
+      "fluid_solutions_dr_controller_63k_2026",
+      "hunt_cycle1045"
+    ],
+    "map_supports": [
+      "fluid_solutions_dr_controller_63k_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_mcmg_guatemala_generator_65k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM25P0014_9700_-NONE-_-NONE- (MCMG Guatemala generator). Signed 2025-05-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM25P0014_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM25P0014_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: MCMG Guatemala generator USD 0.065m. Supports mcmg_guatemala_generator_65k_2025.",
+    "supports": [
+      "mcmg_guatemala_generator_65k_2025",
+      "hunt_cycle1045"
+    ],
+    "map_supports": [
+      "mcmg_guatemala_generator_65k_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mazatlan_dea_surveillance_72k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53016M1429_1900_-NONE-_-NONE- (Mazatlán DEA surveillance). Signed 2016-08-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53016M1429_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53016M1429_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mazatlán DEA surveillance USD 0.072m. Supports misc_mazatlan_dea_surveillance_72k_2016.",
+    "supports": [
+      "misc_mazatlan_dea_surveillance_72k_2016",
+      "hunt_cycle1045"
+    ],
+    "map_supports": [
+      "misc_mazatlan_dea_surveillance_72k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mathews_honduras_genset_install_71k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID522O1600091_7200_-NONE-_-NONE- (Mathews Honduras genset). Signed 2016-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID522O1600091_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID522O1600091_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mathews Honduras genset USD 0.071m. Supports mathews_honduras_genset_install_71k_2016.",
+    "supports": [
+      "mathews_honduras_genset_install_71k_2016",
+      "hunt_cycle1045"
+    ],
+    "map_supports": [
+      "mathews_honduras_genset_install_71k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dr_roof_truss_71k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA470416M2002_9700_-NONE-_-NONE- (DR roof truss). Signed 2016-02-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470416M2002_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470416M2002_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: DR roof truss USD 0.071m. Supports misc_dr_roof_truss_71k_2016.",
+    "supports": [
+      "misc_dr_roof_truss_71k_2016",
+      "hunt_cycle1045"
+    ],
+    "map_supports": [
+      "misc_dr_roof_truss_71k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_thompson_argentina_eoc_design_71k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0662_9700_W9127814D0067_9700 (Thompson Argentina EOC design). Signed 2018-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0662_9700_W9127814D0067_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0662_9700_W9127814D0067_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Thompson Argentina EOC design USD 0.071m. Supports thompson_argentina_eoc_design_71k_2018.",
+    "supports": [
+      "thompson_argentina_eoc_design_71k_2018",
+      "hunt_cycle1046"
+    ],
+    "map_supports": [
+      "thompson_argentina_eoc_design_71k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_export_220volt_brazil_transformers_65k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2524P1304_1900_-NONE-_-NONE- (Export 220Volt Brazil transformers). Signed 2024-08-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2524P1304_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2524P1304_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Export 220Volt Brazil transformers USD 0.065m. Supports export_220volt_brazil_transformers_65k_2024.",
+    "supports": [
+      "export_220volt_brazil_transformers_65k_2024",
+      "hunt_cycle1046"
+    ],
+    "map_supports": [
+      "export_220volt_brazil_transformers_65k_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_venezuela_delta_barriers_70k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30014M0321_1900_-NONE-_-NONE- (Venezuela delta barriers). Signed 2014-08-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0321_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0321_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Venezuela delta barriers USD 0.070m. Supports misc_venezuela_delta_barriers_70k_2014.",
+    "supports": [
+      "misc_venezuela_delta_barriers_70k_2014",
+      "hunt_cycle1046"
+    ],
+    "map_supports": [
+      "misc_venezuela_delta_barriers_70k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_barbados_generator_install_70k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BB2122P1089_1900_-NONE-_-NONE- (Barbados generator install). Signed 2022-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2122P1089_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2122P1089_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Barbados generator install USD 0.070m. Supports misc_barbados_generator_install_70k_2022.",
+    "supports": [
+      "misc_barbados_generator_install_70k_2022",
+      "hunt_cycle1046"
+    ],
+    "map_supports": [
+      "misc_barbados_generator_install_70k_2022"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_haiti_reyes_razor_wire_69k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7023P1304_1900_-NONE-_-NONE- (Haiti Reyes razor wire). Signed 2023-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P1304_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7023P1304_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Haiti Reyes razor wire USD 0.069m. Supports misc_haiti_reyes_razor_wire_69k_2023.",
+    "supports": [
+      "misc_haiti_reyes_razor_wire_69k_2023",
+      "hunt_cycle1046"
+    ],
+    "map_supports": [
+      "misc_haiti_reyes_razor_wire_69k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
