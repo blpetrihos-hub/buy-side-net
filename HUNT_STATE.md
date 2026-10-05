@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1188
+cycle: 1191
 remote: present
-active_layer: energy
+active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1189 shuffle_seed=20262189; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1014/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending US CapEx (Cummins Mexico 40kW Onan; Fabrication Designs Guatemala; Harden Mexico doors; Norshield Costa Rica/Belize/El Salvador/Jamaica/Uruguay residual); company/PRC sources. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1189 shuffled_order)
+next_query: Cycle 1192 shuffle_seed=20262192; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1020/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending US CapEx (Fabrication Designs Venezuela/Ecuador; Norshield Jamaica/Brazil/Uruguay residual); company/PRC sources. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1192 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1188) ===
-# Filled this batch: Brazil×building_materials NEW×4 (Fabrication Designs doors us; Norshield steel/frame us×2; alarm receiver other; OBO651 make-ready other); Chile×building_materials NEW×1 other (grills); Costa Rica×building_materials NEW×1 other (CompStat cabling); Guatemala×building_materials/power_plants_grid NEW×2 other (network drops; gen pre-heaters); Belize×building_materials NEW×1 us (Harden doors); El Salvador×building_materials NEW×1 us (Hy-Security gate drivers); Dominican Republic×power_plants_grid NEW×1 other (Kim Gutierrez gen); Mexico×building_materials/water NEW×3 (Ross doors us; CDJ fence other; flush valves other).
+# === Country×subcategory sweep cells touched (session continuing from 1191) ===
+# Filled this batch: Mexico×power_plants_grid NEW×3 (Cummins Onan 40kW us; stackable units other; VFDs other); Guatemala×building_materials NEW×1 us (Fabrication Designs doors); Guyana×building_materials NEW×2 other (steel louvres; steel structure); Panama×building_materials NEW×1 other (CMR CCTV); Trinidad and Tobago×power_plants_grid NEW×1 other (chancery AC coils); El Salvador×building_materials NEW×2 (Norshield doors us; Soyapango CCTV other); Costa Rica×building_materials NEW×1 us (Norshield doors); Belize×building_materials NEW×1 us (Norshield steel); Uruguay×building_materials NEW×1 other (CMR awning); Brazil×building_materials NEW×1 other (security cores); Harden Mexico doors us.
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx — Fabrication Designs Brazil, Norshield Brazil×2, Harden Belize, Hy-Security SLV, Ross Mexico).
+# ≥1/3 U.S. hunt budget spent (6 US CapEx — Cummins Mexico, Fabrication Designs GTM, Harden Mexico, Norshield CRI/BLZ/SLV).
+
+# === Cycle 1191 (seed 20262191) ===
+# Shuffled: fission_smr, nickel, bridges_roads, water, graphite, balsa, rail, port_ownership, power_plants_grid, wind, other_renewables, engineering_epc, solar, niobium, lithium, copper, port_cranes, building_materials.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   norshield_belize_metal_door_steel_11k_2019 norshield_el_salvador_metal_door_screen_frame_10k_2025 misc_guyana_steel_structure_fabricate_install_14k_2021 misc_uruguay_cmr_barbecue_metal_awning_replace_14k_2024 misc_brazil_security_cores_14k_2022.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Fabrication Designs VEN/ECU; Norshield JAM/BRA/URY; residual other CapEx; thin.
+# Active after cycle 1191: us1020 / prc410 / allied1564 / other6663 (n=9657).
+
+# === Cycle 1190 (seed 20262190) ===
+# Shuffled: balsa, engineering_epc, copper, fission_smr, port_cranes, building_materials, rail, bridges_roads, lithium, nickel, water, graphite, other_renewables, port_ownership, wind, niobium, power_plants_grid, solar.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   harden_mexico_metal_door_frame_11k_2024 norshield_costa_rica_metal_door_screen_11k_2022 misc_panama_cmr_cctv_equipment_supply_14k_2025 misc_trinidad_chancery_ac_condenser_coils_replace_14k_2019 misc_el_salvador_soyapango_holding_cell_cctv_14k_2019.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Norshield BLZ/SLV; GUY steel; URY awning; BRA cores; thin.
+# Active after cycle 1190: us1018 / prc410 / allied1564 / other6660 (n=9652).
+
+# === Cycle 1189 (seed 20262189) ===
+# Shuffled: lithium, rail, port_ownership, wind, solar, water, other_renewables, fission_smr, balsa, power_plants_grid, building_materials, bridges_roads, niobium, engineering_epc, graphite, port_cranes, nickel, copper.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   cummins_mexico_40kw_onan_gaseous_generator_11k_2017 fabrication_designs_guatemala_metal_door_screen_11k_2018 misc_mexico_chancery_stackable_units_replace_14k_2017 misc_mexico_variable_frequency_drivers_replace_14k_2023 misc_guyana_steel_louvres_install_14k_2010.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Harden MEX; Norshield CRI/BLZ/SLV/JAM/URY; residual other; thin.
+# Active after cycle 1189: us1016 / prc410 / allied1564 / other6657 (n=9647).
 
 # === Cycle 1188 (seed 20262188) ===
 # Shuffled: solar, niobium, building_materials, other_renewables, bridges_roads, graphite, wind, copper, fission_smr, port_cranes, lithium, water, engineering_epc, balsa, rail, nickel, power_plants_grid, port_ownership.
