@@ -1,0 +1,10 @@
+{
+  "id": "misc_costarica_obc_elevator_upgrade_32k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_costarica_obc_elevator_upgrade_32k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80014M0505_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "FAC/OBO/ICASS 1901.0 UPGRADE OBC ELEVATORS REPLACEMENT PARTS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 32986.16; date_signed 2014-08-27."
+}

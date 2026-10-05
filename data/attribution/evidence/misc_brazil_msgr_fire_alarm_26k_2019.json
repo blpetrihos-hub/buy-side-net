@@ -1,0 +1,10 @@
+{
+  "id": "misc_brazil_msgr_fire_alarm_26k_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_brazil_msgr_fire_alarm_26k_2019",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P0985_1900_-NONE-_-NONE-/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "BSB-FAC: MSGR FIRE ALARM SOLICITATION",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 26280.12; date_signed 2019-07-31."
+}
