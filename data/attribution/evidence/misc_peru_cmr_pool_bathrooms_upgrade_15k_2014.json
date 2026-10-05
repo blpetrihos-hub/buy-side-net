@@ -1,0 +1,10 @@
+{
+  "id": "misc_peru_cmr_pool_bathrooms_upgrade_15k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_peru_cmr_pool_bathrooms_upgrade_15k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0018_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "LIMA- CONTRACT SERVICES TO UPGRADE POOL BATHROOMS AT CMR IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 14999.99; date_signed 2014-09-25."
+}

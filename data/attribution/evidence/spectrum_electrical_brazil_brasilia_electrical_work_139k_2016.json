@@ -1,0 +1,10 @@
+{
+  "id": "spectrum_electrical_brazil_brasilia_electrical_work_139k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_spectrum_electrical_brazil_brasilia_electrical_work_139k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F4973_1900_SAQMMA15D0025_1900/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "ELECTRICAL WORK BRASILIA IGF::CL::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 138710.6; date_signed 2016-09-24."
+}

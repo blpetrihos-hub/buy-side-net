@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 1161
+cycle: 1164
 remote: present
 active_layer: energy
 active_subcategory: building_materials
-next_query: Cycle 1162 shuffle_seed=20262162; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us960/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending US CapEx (Valkyrie Bogota TSS; Spectrum Brasilia electrical; Spectrum Uruguay fire alarm; Valkyrie Brasilia security; Cummins HND 6 gensets; Applied Security Bogota TSS; Cummins Ecuador residences #2); company/PRC sources. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1162 shuffled_order)
+next_query: Cycle 1165 shuffle_seed=20262165; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us966/prc410/allied1564); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending US CapEx (Cummins HND diesel 6 gens#2; Applied Security MEX/BHS/PER/Tijuana HLA-IDS; Fabrication Designs Santiago/SLV; Norshield HND/BRA/NIC/CRI/MEX/URY doors; Cummins ECU residences#2; BCS Haiti UPS; Hy-Security Brazil gate); company/PRC sources. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1165 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1161) ===
-# Filled this batch: Haiti×power_plants_grid NEW×1 us (Cummins embassy gen); Panama×building_materials NEW×1 us (Norshield doors); Costa Rica×building_materials NEW×1 other (fire control); El Salvador×power_plants_grid/building_materials NEW×2 (75kVA transformers other; Hy-Security gate drivers us); Ecuador×building_materials/power_plants_grid NEW×2 (armored doors other; Cummins residential gens us); Peru×building_materials NEW×3 other (CMR windows; DCR bathrooms; Callao glass doors); Brazil×power_plants_grid NEW×2 (CMR lighting cables other; Spectrum Rio electrical us); Dominican Republic×building_materials NEW×1 us (Ross consular doors); Bolivia×power_plants_grid NEW×1 other (heat pump); Mexico×power_plants_grid NEW×1 other (IPC UPS).
+# === Country×subcategory sweep cells touched (session continuing from 1164) ===
+# Filled this batch: Colombia×building_materials NEW×2 us (Valkyrie Bogota TSS; Applied Security Bogota TSS); Brazil×power_plants_grid/building_materials NEW×3 (Spectrum Brasilia electrical us; Valkyrie Brasilia security us; SPDS door locks other); Haiti×building_materials NEW×1 other (CAS tiles); Mexico×power_plants_grid/building_materials NEW×2 other (LED fixtures; Merida pool fence); Uruguay×building_materials NEW×1 us (Spectrum fire alarm); Peru×building_materials/power_plants_grid NEW×2 other (CMR bathrooms; CORAH UPS); Honduras×power_plants_grid/building_materials NEW×3 (Cummins 6 gensets us; A/Cs other; windows other); Costa Rica×building_materials NEW×1 other (bedroom closets).
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (6 US CapEx — Cummins Haiti, Norshield Panama, Cummins Ecuador, Hy-Security SLV, Ross DOM, Spectrum Rio).
+# ≥1/3 U.S. hunt budget spent (6 US CapEx — Valkyrie Bogota, Spectrum Brasilia, Spectrum Uruguay, Valkyrie Brasilia, Cummins Honduras, Applied Security Bogota).
+
+# === Cycle 1164 (seed 20262164) ===
+# Shuffled: engineering_epc, graphite, port_ownership, port_cranes, other_renewables, water, copper, rail, nickel, wind, bridges_roads, solar, fission_smr, power_plants_grid, building_materials, balsa, niobium, lithium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   cummins_honduras_housing_6_complete_gensets_117k_2015 applied_security_colombia_bogota_tss_security_installation_115k_2010 misc_honduras_new_properties_acs_supply_install_15k_2016 misc_honduras_windows_and_frames_15k_2023 misc_costa_rica_bedroom_closets_install_15k_2017.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Cummins HND#2; Applied Security MEX/BHS/PER; Fabrication Designs CHL/SLV; Norshield doors; thin.
+# Active after cycle 1164: us966 / prc410 / allied1564 / other6582 (n=9522).
+
+# === Cycle 1163 (seed 20262163) ===
+# Shuffled: port_ownership, building_materials, balsa, copper, nickel, lithium, water, power_plants_grid, solar, rail, niobium, fission_smr, port_cranes, bridges_roads, wind, engineering_epc, other_renewables, graphite.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   spectrum_electrical_uruguay_fire_alarm_upgrade_122k_2012 valkyrie_brazil_brasilia_security_installation_119k_2012 misc_mexico_merida_cgr_pool_barrier_fence_replacement_15k_2024 misc_peru_cmr_pool_bathrooms_upgrade_15k_2014 misc_peru_corah_da_ups_15k_2015.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Cummins HND; Applied Security Bogota; thin.
+# Active after cycle 1163: us964 / prc410 / allied1564 / other6579 (n=9517).
+
+# === Cycle 1162 (seed 20262162) ===
+# Shuffled: power_plants_grid, rail, bridges_roads, engineering_epc, fission_smr, lithium, other_renewables, building_materials, nickel, niobium, balsa, port_ownership, port_cranes, graphite, water, copper, solar, wind.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   valkyrie_colombia_bogota_tss_security_installation_239k_2010 spectrum_electrical_brazil_brasilia_electrical_work_139k_2016 misc_haiti_cas20_cas21_tiles_install_15k_2023 misc_brazil_spds_residence_door_security_locks_15k_2019 misc_mexico_led_lamp_fixture_replacement_15k_2013.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Spectrum URY; Valkyrie Brasilia security; Cummins HND; Applied Security Bogota; thin.
+# Active after cycle 1162: us962 / prc410 / allied1564 / other6576 (n=9512).
 
 # === Cycle 1161 (seed 20262161) ===
 # Shuffled: solar, engineering_epc, building_materials, water, fission_smr, graphite, balsa, nickel, lithium, wind, port_ownership, copper, port_cranes, power_plants_grid, other_renewables, niobium, bridges_roads, rail.
