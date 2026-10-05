@@ -21953,5 +21953,90 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "valor_wabtec_contagem_150m_20251013",
+    "type": "press",
+    "chicago": "Revista Ferroviária (citing Valor Econômico). “Após ampliação, Wabtec monta centro de engenharia no país.” October 13, 2025. https://revistaferroviaria.com.br/2025/10/apos-ampliacao-wabtec-monta-centro-de-engenharia-no-pais/.",
+    "url": "https://revistaferroviaria.com.br/2025/10/apos-ampliacao-wabtec-monta-centro-de-engenharia-no-pais/",
+    "annotation": "Wabtec Contagem loco line NEW R$150m ~USD 28.89m via Fed H.10 (press). Supports wabtec_contagem_loco_line_150m_brl_2025.",
+    "supports": [
+      "wabtec_contagem_loco_line_150m_brl_2025",
+      "hunt_cycle245"
+    ],
+    "map_supports": [
+      "wabtec_contagem_loco_line_150m_brl_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "ctg_flex_bess_ilha_solteira_20260129",
+    "type": "company",
+    "chicago": "CTG Brasil. “Inauguramos laboratório para testes de sistema de armazenamento de energia com baterias.” January 29, 2026. https://www.ctgbr.com.br/inauguramos-laboratorio-para-testes-de-sistema-de-armazenamento-de-energia-com-baterias/.",
+    "url": "https://www.ctgbr.com.br/inauguramos-laboratorio-para-testes-de-sistema-de-armazenamento-de-energia-com-baterias/",
+    "annotation": "CTG Flex BESS NEW R$15m ~USD 2.89m via Fed H.10. Supports ctg_flex_bess_ilha_solteira_15m_brl_2026.",
+    "supports": [
+      "ctg_flex_bess_ilha_solteira_15m_brl_2026",
+      "hunt_cycle245"
+    ],
+    "map_supports": [
+      "ctg_flex_bess_ilha_solteira_15m_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "isa_energia_rm_815m_1s26_20260903",
+    "type": "company",
+    "chicago": "ISA Energia Brasil. “ISA ENERGIA BRASIL investe R$ 815,4 milhões na modernização da rede de transmissão no 1º semestre.” September 3, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-8154-milhoes-na-modernizacao-da-rede-de-transmissao-no-1-semestre/.",
+    "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/isa-energia-brasil-investe-r-8154-milhoes-na-modernizacao-da-rede-de-transmissao-no-1-semestre/",
+    "annotation": "ISA R&M 1H2026 NEW R$815.4m ~USD 157.05m via Fed H.10. Supports isa_energia_rm_815m_brl_1s26.",
+    "supports": [
+      "isa_energia_rm_815m_brl_1s26",
+      "hunt_cycle245"
+    ],
+    "map_supports": [
+      "isa_energia_rm_815m_brl_1s26"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_cosern_4p1bn_20260512",
+    "type": "company",
+    "chicago": "Neoenergia Cosern. “Neoenergia Cosern anuncia investimento recorde de R$ 4,1 bilhões no RN.” May 12, 2026. https://www.neoenergia.com/web/rn/w/ampliacao-ivestimentos-bilhoes-rede-eletrica-cosern-1.",
+    "url": "https://www.neoenergia.com/web/rn/w/ampliacao-ivestimentos-bilhoes-rede-eletrica-cosern-1",
+    "annotation": "Neoenergia Cosern NEW R$4.1bn ~USD 789.66m via Fed H.10. Supports neoenergia_cosern_4p1bn_brl_2026_2030.",
+    "supports": [
+      "neoenergia_cosern_4p1bn_brl_2026_2030",
+      "hunt_cycle245"
+    ],
+    "map_supports": [
+      "neoenergia_cosern_4p1bn_brl_2026_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_cosern_tabatinga_40m_20260512",
+    "type": "company",
+    "chicago": "Neoenergia Cosern. “Neoenergia Cosern anuncia investimento recorde de R$ 4,1 bilhões no RN.” May 12, 2026. https://www.neoenergia.com/web/rn/w/ampliacao-ivestimentos-bilhoes-rede-eletrica-cosern-1.",
+    "url": "https://www.neoenergia.com/web/rn/w/ampliacao-ivestimentos-bilhoes-rede-eletrica-cosern-1",
+    "annotation": "Neoenergia Cosern Tabatinga NEW R$40m ~USD 7.70m via Fed H.10. Supports neoenergia_cosern_tabatinga_40m_brl_2026.",
+    "supports": [
+      "neoenergia_cosern_tabatinga_40m_brl_2026",
+      "hunt_cycle245"
+    ],
+    "map_supports": [
+      "neoenergia_cosern_tabatinga_40m_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
