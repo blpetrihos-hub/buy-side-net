@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 2002,
+    "n_rows": 2017,
     "counts": {
-      "total": 2002,
-      "active": 1803,
+      "total": 2017,
+      "active": 1818,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1729,
-      "on_map": 1649
+      "documented": 1744,
+      "on_map": 1664
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 421,
-        "n": 822
+        "allied": 436,
+        "n": 837
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 123316857658.29002,
-        "allied_n": 350
+        "allied": 132317416199.15002,
+        "allied_n": 365
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 584,
-        "n": 839
+        "allied": 599,
+        "n": 854
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 178078547768.06995,
-        "allied_n": 503
+        "allied": 187079106308.92996,
+        "allied_n": 518
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 301
+          "allied": 316
         },
         "infrastructure": {
           "us": 68,
@@ -2991,7 +2991,22 @@
       "cemig_tx_capex_cod2027_491p35m_brl",
       "cemig_tx_capex_cod2028_403p43m_brl",
       "cemig_tx_capex_cod2029_8p4m_brl",
-      "cemig_tx_rm_lote1_total_1166p79m_brl"
+      "cemig_tx_rm_lote1_total_1166p79m_brl",
+      "isa_energia_agua_vermelha_capex_aneel_94p2m_brl",
+      "isa_energia_agua_vermelha_capex_30jun26_87p1m_brl",
+      "isa_energia_riacho_grande_capex_aneel_1140p6m_brl",
+      "isa_energia_riacho_grande_capex_30jun26_922p1m_brl",
+      "isa_energia_piraque_capex_aneel_3653p6m_brl",
+      "isa_energia_piraque_capex_30jun26_3866p1m_brl",
+      "isa_energia_minuano_capex_aneel_681p6m_brl",
+      "isa_energia_minuano_capex_30jun26_737p6m_brl",
+      "isa_energia_ivai_capex_aneel_968p2m_brl",
+      "isa_energia_ivai_capex_30jun26_1064p4m_brl",
+      "isa_energia_serra_dourada_capex_aneel_3156p8m_brl",
+      "isa_energia_itatiaia_capex_aneel_2300p6m_brl",
+      "isa_energia_jacaranda_capex_aneel_232p3m_brl",
+      "isa_energia_greenfield_capex_aneel_total_15742p9m_brl",
+      "isa_energia_greenfield_capex_30jun26_total_12083p7m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
