@@ -27190,3 +27190,153 @@
   supports:
   - spectrum_belmopan_electrical_171k_2018
   - hunt_cycle1001
+- id: usaspending_aj_estructuras_pads_184k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6023P0810_1900_-NONE-_-NONE-
+    (AJ Estructuras pads). Signed 2023-06-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6023P0810_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6023P0810_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: AJ Estructuras pads USD 0.184m. Supports aj_estructuras_pads_184k_2023.'
+  supports:
+  - aj_estructuras_pads_184k_2023
+  - hunt_cycle1002
+- id: usaspending_misc_barbados_handrails_183k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21011C0003_1900_-NONE-_-NONE-
+    (Barbados handrails). Signed 2011-08-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21011C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21011C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Barbados handrails USD 0.183m. Supports misc_barbados_handrails_183k_2011.'
+  supports:
+  - misc_barbados_handrails_183k_2011
+  - hunt_cycle1002
+- id: usaspending_misc_paraguay_cmr_roof_177k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PA1020C0008_1900_-NONE-_-NONE-
+    (Paraguay CMR roof). Signed 2020-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1020C0008_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PA1020C0008_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Paraguay CMR roof USD 0.177m. Supports misc_paraguay_cmr_roof_177k_2020.'
+  supports:
+  - misc_paraguay_cmr_roof_177k_2020
+  - hunt_cycle1002
+- id: usaspending_proyectos_corozal_bldg9_171k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL13C0015_9700_-NONE-_-NONE-
+    (Proyectos Corozal Bldg 9). Signed 2013-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0015_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0015_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proyectos Corozal Bldg 9 USD 0.171m. Supports proyectos_corozal_bldg9_171k_2013.'
+  supports:
+  - proyectos_corozal_bldg9_171k_2013
+  - hunt_cycle1002
+- id: usaspending_misc_colombia_school_169k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT16C0001_9700_-NONE-_-NONE-
+    (Colombia school). Signed 2016-06-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT16C0001_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT16C0001_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Colombia school USD 0.169m. Supports misc_colombia_school_169k_2016.'
+  supports:
+  - misc_colombia_school_169k_2016
+  - hunt_cycle1002
+- id: usaspending_ecm_jacmel_boat_ramp_169k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0107_1900_-NONE-_-NONE-
+    (ECM Jacmel boat ramp). Signed 2017-03-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0107_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0107_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ECM Jacmel boat ramp USD 0.169m. Supports ecm_jacmel_boat_ramp_169k_2017.'
+  supports:
+  - ecm_jacmel_boat_ramp_169k_2017
+  - hunt_cycle1003
+- id: usaspending_misc_monterrey_garage_roof_168k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5622C0004_1900_-NONE-_-NONE-
+    (Monterrey garage roof). Signed 2022-07-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5622C0004_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5622C0004_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Monterrey garage roof USD 0.168m. Supports misc_monterrey_garage_roof_168k_2022.'
+  supports:
+  - misc_monterrey_garage_roof_168k_2022
+  - hunt_cycle1003
+- id: usaspending_misc_suriname_paving_167k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19NS5019P0587_1900_-NONE-_-NONE-
+    (Suriname paving). Signed 2019-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NS5019P0587_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NS5019P0587_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Suriname paving USD 0.167m. Supports misc_suriname_paving_167k_2019.'
+  supports:
+  - misc_suriname_paving_167k_2019
+  - hunt_cycle1003
+- id: usaspending_ace_tres_canadas_roof_166k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53014F0613_1900_GS07F177AA_4732
+    (Ace Tres Canadas roof). Signed 2014-08-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53014F0613_1900_GS07F177AA_4732/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53014F0613_1900_GS07F177AA_4732/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ace Tres Canadas roof USD 0.166m. Supports ace_tres_canadas_roof_166k_2014.'
+  supports:
+  - ace_tres_canadas_roof_166k_2014
+  - hunt_cycle1003
+- id: usaspending_castro_shootsouse_164k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_H9228125C0004_9700_-NONE-_-NONE-
+    (Castro shoothouse). Signed 2025-04-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125C0004_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125C0004_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Castro shoothouse USD 0.164m. Supports castro_shootsouse_164k_2025.'
+  supports:
+  - castro_shootsouse_164k_2025
+  - hunt_cycle1003
+- id: usaspending_tw_tupper_roof_164k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330222FF0010048_3300_33330220DF0010213_3300
+    (TW Tupper roof). Signed 2021-12-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330222FF0010048_3300_33330220DF0010213_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330222FF0010048_3300_33330220DF0010213_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: TW Tupper roof USD 0.164m. Supports tw_tupper_roof_164k_2022.'
+  supports:
+  - tw_tupper_roof_164k_2022
+  - hunt_cycle1004
+- id: usaspending_mfg_scan_eagle_macarena_163k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11C0016_9700_-NONE-_-NONE-
+    (MFG Scan Eagle La Macarena). Signed 2011-07-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0016_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0016_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: MFG Scan Eagle La Macarena USD 0.163m. Supports mfg_scan_eagle_macarena_163k_2011.'
+  supports:
+  - mfg_scan_eagle_macarena_163k_2011
+  - hunt_cycle1004
+- id: usaspending_energy_central_haiti_pv_159k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7022C0001_1900_-NONE-_-NONE-
+    (Energy Central HNP PV). Signed 2022-03-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7022C0001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7022C0001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Energy Central HNP PV USD 0.159m. Supports energy_central_haiti_pv_159k_2022.'
+  supports:
+  - energy_central_haiti_pv_159k_2022
+  - hunt_cycle1004
+- id: usaspending_ace_cdj_nob_roof_164k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX11516F0068_1900_GS07F177AA_4732
+    (Ace CDJ NOB roof). Signed 2016-07-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516F0068_1900_GS07F177AA_4732/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX11516F0068_1900_GS07F177AA_4732/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ace CDJ NOB roof USD 0.164m. Supports ace_cdj_nob_roof_164k_2016.'
+  supports:
+  - ace_cdj_nob_roof_164k_2016
+  - hunt_cycle1004
+- id: usaspending_mckinney_gamboa_ae_161k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F16CW10590_3300_F06CC10332_3300
+    (McKinney Gamboa A&E). Signed 2016-09-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CW10590_3300_F06CC10332_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CW10590_3300_F06CC10332_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: McKinney Gamboa A&E USD 0.161m. Supports mckinney_gamboa_ae_161k_2016.'
+  supports:
+  - mckinney_gamboa_ae_161k_2016
+  - hunt_cycle1004
