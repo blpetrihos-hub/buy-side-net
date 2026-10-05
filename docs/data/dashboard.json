@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8325,
+    "n_rows": 8330,
     "counts": {
-      "total": 8325,
-      "active": 8126,
+      "total": 8330,
+      "active": 8131,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8052,
-      "on_map": 7956
+      "documented": 8057,
+      "on_map": 7961
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 4010,
-        "n": 4411
+        "allied": 4015,
+        "n": 4416
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383545661150.5209,
-        "allied_n": 3939
+        "allied": 383551004719.2109,
+        "allied_n": 3944
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6893,
-        "n": 7148
+        "allied": 6898,
+        "n": 7153
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527414367126.3205,
-        "allied_n": 6812
+        "allied": 527419710695.0105,
+        "allied_n": 6817
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3876
+          "allied": 3881
         },
         "infrastructure": {
           "us": 68,
@@ -9314,7 +9314,12 @@
       "axia_txproj_melhoria_na_se_presidente_dutra_substituicao__6m_brl",
       "axia_txproj_melhoria_na_se_sinop_substituicao_do_reator_d_6m_brl",
       "axia_txproj_melhoria_na_se_blumenau_substituicao_do_reato_6m_brl",
-      "axia_txproj_instalacao_da_fase_reserva_500_kv_66_66_mvar__6m_brl"
+      "axia_txproj_instalacao_da_fase_reserva_500_kv_66_66_mvar__6m_brl",
+      "axia_txproj_reforco_na_se_b_fluminense_instalacao_da_fase_6m_brl",
+      "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_r_6m_brl",
+      "axia_txproj_melhoria_na_se_maraba_6m_brl",
+      "axia_txproj_melhoria_na_se_pocos_de_caldas_substituicao_d_6m_brl",
+      "axia_txproj_melhoria_na_se_itumbiara_substituicao_do_reat_5m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
