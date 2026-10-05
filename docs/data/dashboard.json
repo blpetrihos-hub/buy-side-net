@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8330,
+    "n_rows": 8335,
     "counts": {
-      "total": 8330,
-      "active": 8131,
+      "total": 8335,
+      "active": 8136,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8057,
-      "on_map": 7961
+      "documented": 8062,
+      "on_map": 7966
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 4015,
-        "n": 4416
+        "allied": 4020,
+        "n": 4421
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383551004719.2109,
-        "allied_n": 3944
+        "allied": 383555976853.2408,
+        "allied_n": 3949
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6898,
-        "n": 7153
+        "allied": 6903,
+        "n": 7158
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527419710695.0105,
-        "allied_n": 6817
+        "allied": 527424682829.0404,
+        "allied_n": 6822
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3881
+          "allied": 3886
         },
         "infrastructure": {
           "us": 68,
@@ -9319,7 +9319,12 @@
       "axia_txproj_melhoria_na_se_rondonopolis_substituicao_do_r_6m_brl",
       "axia_txproj_melhoria_na_se_maraba_6m_brl",
       "axia_txproj_melhoria_na_se_pocos_de_caldas_substituicao_d_6m_brl",
-      "axia_txproj_melhoria_na_se_itumbiara_substituicao_do_reat_5m_brl"
+      "axia_txproj_melhoria_na_se_itumbiara_substituicao_do_reat_5m_brl",
+      "axia_txproj_melhoria_na_se_rio_verde_fur_substituicao_do__5m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_r_5m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_r_5m_brl_v2",
+      "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_r_5m_brl_v3",
+      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_r_5m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
