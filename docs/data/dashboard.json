@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 2053,
+    "n_rows": 2071,
     "counts": {
-      "total": 2053,
-      "active": 1854,
+      "total": 2071,
+      "active": 1872,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1780,
-      "on_map": 1686
+      "documented": 1798,
+      "on_map": 1704
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 312,
-        "n": 621
+        "allied": 330,
+        "n": 639
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 71914841573.77994,
-        "allied_n": 238
+        "allied": 73401293876.28996,
+        "allied_n": 256
       },
       "matched_gaps": {
         "n": 1,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 621,
-        "n": 876
+        "allied": 639,
+        "n": 894
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 188313327529.61993,
-        "allied_n": 540
+        "allied": 189799779832.1299,
+        "allied_n": 558
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 189
+          "allied": 207
         },
         "resources": {
           "us": 26,
@@ -3042,7 +3042,25 @@
       "alupar_ter_capex_1t26_1p98m_usd",
       "alupar_ter_capex_2t26_0p55m_usd",
       "alupar_geral_capex_1t26_0p19m_usd",
-      "alupar_geral_capex_2t26_0p45m_usd"
+      "alupar_geral_capex_2t26_0p45m_usd",
+      "motiva_vialagos_fy2025_7m_brl",
+      "motiva_autoban_fy2025_923m_brl",
+      "motiva_viaoeste_fy2025_791m_brl",
+      "motiva_rodoanel_oeste_fy2025_76m_brl",
+      "motiva_spvias_fy2025_132m_brl",
+      "motiva_viario_fy2025_6m_brl",
+      "motiva_pantanal_fy2025_390m_brl",
+      "motiva_renovias_fy2025_61m_brl",
+      "motiva_viasul_fy2025_1026m_brl",
+      "motiva_viacosteira_fy2025_411m_brl",
+      "motiva_rio_sp_fy2025_1723m_brl",
+      "motiva_sorocabana_fy2025_465m_brl",
+      "motiva_pr_vias_fy2025_406m_brl",
+      "motiva_viaquatro_fy2025_257m_brl",
+      "motiva_vlt_carioca_fy2025_39m_brl",
+      "motiva_metro_bahia_fy2025_89m_brl",
+      "motiva_viamobilidade_fy2025_84m_brl",
+      "motiva_viamobilidade_l89_fy2025_830m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
