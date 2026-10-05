@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8105,
+    "n_rows": 8110,
     "counts": {
-      "total": 8105,
-      "active": 7906,
+      "total": 8110,
+      "active": 7911,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7832,
-      "on_map": 7738
+      "documented": 7837,
+      "on_map": 7743
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3790,
-        "n": 4191
+        "allied": 3795,
+        "n": 4196
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382338283986.2106,
-        "allied_n": 3719
+        "allied": 382421339780.39056,
+        "allied_n": 3724
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6673,
-        "n": 6928
+        "allied": 6678,
+        "n": 6933
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526206989962.0102,
-        "allied_n": 6592
+        "allied": 526290045756.1902,
+        "allied_n": 6597
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3656
+          "allied": 3661
         },
         "infrastructure": {
           "us": 68,
@@ -9094,7 +9094,12 @@
       "axia_txproj_se_sao_joao_do_piaui_instalacao_do_terceiro_a_98m_brl",
       "axia_txproj_melhoria_na_se_f_iguacu_60hz_substituicao_do__95m_brl",
       "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_trafo_93m_brl",
-      "axia_txproj_se_pocos_de_caldas_instalacao_do_novo_transfo_89m_brl"
+      "axia_txproj_se_pocos_de_caldas_instalacao_do_novo_transfo_89m_brl",
+      "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_t_87m_brl",
+      "axia_txproj_reforco_na_se_coletora_porto_velho_substituic_87m_brl",
+      "axia_txproj_reforco_na_se_sao_jose_substituicao_do_tr11_p_87m_brl",
+      "axia_txproj_reforco_na_se_sao_jose_substituicao_do_tr12_p_87m_brl",
+      "axia_txproj_se_campos_adequacao_do_setor_de_138_kv_83m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
