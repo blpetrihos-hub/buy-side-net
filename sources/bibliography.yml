@@ -19052,7 +19052,7 @@
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2
-  annotation: Energisa Transmissão EGO I 3T17 CapEx via Fed H.10. Supports energisa_tx_ego_i_3t17_2m_brl.
+  annotation: Energisa Distribuição EAC 2T17 CapEx via Fed H.10. Supports energisa_dist_eac_2t17_10m_brl.
   supports:
   - energisa_dist_total_2t26_1567m_brl
   - hunt_cycle681
@@ -19861,3 +19861,15 @@
   - energisa_dist_eac_3t17_14m_brl
   - energisa_tx_epa_i_3t17_2m_brl
   - energisa_tx_ego_i_3t17_2m_brl
+  - energisa_dist_emr_2t17_23m_brl
+  - hunt_cycle775
+  - energisa_dist_enf_2t17_2m_brl
+  - energisa_dist_ebo_2t17_3m_brl
+  - energisa_dist_epb_2t17_36m_brl
+  - energisa_dist_ese_2t17_31m_brl
+  - energisa_dist_emt_2t17_256m_brl
+  - energisa_dist_ems_2t17_193m_brl
+  - energisa_dist_eto_2t17_51m_brl
+  - energisa_dist_ess_2t17_36m_brl
+  - energisa_dist_ero_2t17_41m_brl
+  - energisa_dist_eac_2t17_10m_brl
