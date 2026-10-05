@@ -1,0 +1,10 @@
+{
+  "id": "daikin_jamaica_fac_evaporators_30k_2025",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_daikin_jamaica_fac_evaporators_30k_2025",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3725P0677_1900_-NONE-_-NONE-/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "FAC - EVAPORATORS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 29596.0; date_signed 2025-06-02."
+}
