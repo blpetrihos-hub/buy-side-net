@@ -48534,5 +48534,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_aa_colombia_hazmat_107k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11F0012_9700_GS28F0010B_4730 (A&A Colombia HAZMAT). Signed 2011-05-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11F0012_9700_GS28F0010B_4730/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11F0012_9700_GS28F0010B_4730/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: A&A Colombia HAZMAT USD 0.107m. Supports aa_colombia_hazmat_107k_2011.",
+    "supports": [
+      "aa_colombia_hazmat_107k_2011",
+      "hunt_cycle1020"
+    ],
+    "map_supports": [
+      "aa_colombia_hazmat_107k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_serrano_peru_incinerator_109k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0789_9700_W9127818D0034_9700 (Serrano Peru incinerator). Signed 2018-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0789_9700_W9127818D0034_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0789_9700_W9127818D0034_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Serrano Peru incinerator USD 0.109m. Supports serrano_peru_incinerator_109k_2018.",
+    "supports": [
+      "serrano_peru_incinerator_109k_2018",
+      "hunt_cycle1020"
+    ],
+    "map_supports": [
+      "serrano_peru_incinerator_109k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_orellana_salvador_roof_109k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6021P0304_1900_-NONE-_-NONE- (Orellana ILEA roof). Signed 2021-02-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0304_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6021P0304_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Orellana ILEA roof USD 0.109m. Supports orellana_salvador_roof_109k_2021.",
+    "supports": [
+      "orellana_salvador_roof_109k_2021",
+      "hunt_cycle1020"
+    ],
+    "map_supports": [
+      "orellana_salvador_roof_109k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_tumaco_kennels_107k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15015C0004_1900_-NONE-_-NONE- (Tumaco kennels). Signed 2015-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tumaco kennels USD 0.107m. Supports misc_tumaco_kennels_107k_2015.",
+    "supports": [
+      "misc_tumaco_kennels_107k_2015",
+      "hunt_cycle1020"
+    ],
+    "map_supports": [
+      "misc_tumaco_kennels_107k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_tumaco_fence_106k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15015C0005_1900_-NONE-_-NONE- (Tumaco fence). Signed 2015-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0005_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15015C0005_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tumaco fence USD 0.106m. Supports misc_tumaco_fence_106k_2015.",
+    "supports": [
+      "misc_tumaco_fence_106k_2015",
+      "hunt_cycle1020"
+    ],
+    "map_supports": [
+      "misc_tumaco_fence_106k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_inecon_helipad_105k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11C0015_9700_-NONE-_-NONE- (Inecon helipad). Signed 2011-06-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0015_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0015_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Inecon helipad USD 0.105m. Supports inecon_helipad_105k_2011.",
+    "supports": [
+      "inecon_helipad_105k_2011",
+      "hunt_cycle1021"
+    ],
+    "map_supports": [
+      "inecon_helipad_105k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_chile_parking_expansion_105k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C18023P1449_1900_-NONE-_-NONE- (Chile parking expansion). Signed 2023-08-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C18023P1449_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C18023P1449_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Chile parking expansion USD 0.105m. Supports misc_chile_parking_expansion_105k_2023.",
+    "supports": [
+      "misc_chile_parking_expansion_105k_2023",
+      "hunt_cycle1021"
+    ],
+    "map_supports": [
+      "misc_chile_parking_expansion_105k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_nogales_fence_104k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX60016M0090_1900_-NONE-_-NONE- (Nogales fence). Signed 2016-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX60016M0090_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX60016M0090_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Nogales fence USD 0.104m. Supports misc_nogales_fence_104k_2016.",
+    "supports": [
+      "misc_nogales_fence_104k_2016",
+      "hunt_cycle1021"
+    ],
+    "map_supports": [
+      "misc_nogales_fence_104k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_fuel_storage_104k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT10C0039_9700_-NONE-_-NONE- (Colombia fuel storage). Signed 2010-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10C0039_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10C0039_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Colombia fuel storage USD 0.104m. Supports misc_colombia_fuel_storage_104k_2010.",
+    "supports": [
+      "misc_colombia_fuel_storage_104k_2010",
+      "hunt_cycle1021"
+    ],
+    "map_supports": [
+      "misc_colombia_fuel_storage_104k_2010"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_red_orange_dr_generator_89k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8618P0394_1900_-NONE-_-NONE- (Red Orange DR generator). Signed 2018-05-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8618P0394_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8618P0394_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Red Orange DR generator USD 0.089m. Supports red_orange_dr_generator_89k_2018.",
+    "supports": [
+      "red_orange_dr_generator_89k_2018",
+      "hunt_cycle1021"
+    ],
+    "map_supports": [
+      "red_orange_dr_generator_89k_2018"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_merida_fence_103k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5218C0006_1900_-NONE-_-NONE- (Mérida fence). Signed 2018-08-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5218C0006_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5218C0006_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mérida fence USD 0.103m. Supports misc_merida_fence_103k_2018.",
+    "supports": [
+      "misc_merida_fence_103k_2018",
+      "hunt_cycle1022"
+    ],
+    "map_supports": [
+      "misc_merida_fence_103k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dr_roofing_103k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA470417P1001_9700_-NONE-_-NONE- (DR roofing). Signed 2017-02-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470417P1001_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470417P1001_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: DR roofing USD 0.103m. Supports misc_dr_roofing_103k_2017.",
+    "supports": [
+      "misc_dr_roofing_103k_2017",
+      "hunt_cycle1022"
+    ],
+    "map_supports": [
+      "misc_dr_roofing_103k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_inecon_classrooms_102k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT13P0161_9700_-NONE-_-NONE- (Inecon classrooms). Signed 2013-08-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT13P0161_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT13P0161_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Inecon classrooms USD 0.102m. Supports inecon_classrooms_102k_2013.",
+    "supports": [
+      "inecon_classrooms_102k_2013",
+      "hunt_cycle1022"
+    ],
+    "map_supports": [
+      "inecon_classrooms_102k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_zenith_jamaica_gate_99k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3726C0004_1900_-NONE-_-NONE- (Zenith Jamaica gate). Signed 2026-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3726C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3726C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Zenith Jamaica gate USD 0.099m. Supports zenith_jamaica_gate_99k_2026.",
+    "supports": [
+      "zenith_jamaica_gate_99k_2026",
+      "hunt_cycle1022"
+    ],
+    "map_supports": [
+      "zenith_jamaica_gate_99k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_jay_henges_booth_96k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM10P0055_9700_-NONE-_-NONE- (Jay Henges booth). Signed 2010-07-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM10P0055_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM10P0055_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Jay Henges booth USD 0.096m. Supports jay_henges_booth_96k_2010.",
+    "supports": [
+      "jay_henges_booth_96k_2010",
+      "hunt_cycle1022"
+    ],
+    "map_supports": [
+      "jay_henges_booth_96k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
