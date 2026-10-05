@@ -1,103 +1,108 @@
 updated: 2026-10-05
-cycle: 228
+cycle: 229
 remote: present
 active_layer: energy
 active_subcategory: fission_smr
-next_query: Cycle 229 shuffle_seed=20261229; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us397/prc369/allied385); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed (Contraloría aval only). No U.S. territories.
-next_row_id: (follow cycle-229 shuffled_order)
+next_query: Cycle 230 shuffle_seed=20261230; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us397/prc369/allied386); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: balsa (25), nickel (26), fission_smr (29), niobium (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Haiti (beyond RN2/WB/IDB/Solengy/Port Royal), Venezuela (beyond Tocoma/Macagua/GE Vernova grid/El Vigía solar; Chevron oil out of taxonomy), Nicaragua rail past MoU, Peru balsa, Colombia graphite mine CapEx (framework only). Holdovers: CRBC Corentyne if signed; CSCEC Nicaragua 290 km if decree; CCECC Nicaragua rail if feasibility past MoU; CHEC San Carlos central if contract signed (Contraloría aval only). No U.S. territories.
+next_row_id: (follow cycle-230 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 228) ===
-# Filled this cycle (CapEx-fills): Brazil×building_materials CapEx-fill (other Votorantim
-#   Xambioá ~USD 50.08m; other Votorantim FY2025 CapEx ~USD 712.62m), Brazil×power_plants_grid
-#   CapEx-fill (allied ISA Energia FY2025 ~USD 982.26m; allied Neoenergia FY2025 ~USD 1945.27m;
-#   prc State Grid GATE UHV ~USD 3466.81m), Mexico×port_ownership CapEx-fill (other Hutchison
-#   EIT Ensenada ~USD 129.99m), Brazil×port_ownership CapEx-fill (other ICTSI Rio Brasil
-#   ~USD 182.58m; other Portonave quay ~USD 288.90m), Brazil×niobium CapEx-fill (allied CBMM
-#   R$13bn plan ~USD 2503.80m).
+# === Country×subcategory sweep cells touched (session continuing from 229) ===
+# Filled this cycle: Brazil×port_ownership NEW (allied CMPC Rio Grande TUP ~USD 288.90m),
+#   Brazil×niobium CapEx-fill (allied St George A$60m ~USD 42.20m), Brazil×wind CapEx-fill
+#   (prc CTG Serra da Palmeira ~USD 833.38m; allied Statkraft/WEG Seabra ~USD 25.04m),
+#   Brazil×rail CapEx-fill (allied VLI FCA ~USD 231.12m; allied Sacyr Fortaleza Metro
+#   ~USD 237.02m), Mexico×rail CapEx-fill (allied Alstom DMU company EUR dual
+#   ~USD 1048.80m), Brazil×water CapEx-fill (allied ACCIONA BRK company EUR dual
+#   ~USD 3055.20m), Brazil×power_plants_grid CapEx-fill (other WEG transformers
+#   ~USD 104.58m).
 # Still thin/empty priority cells: Haiti, Venezuela, Nicaragua rail past MoU, Peru balsa,
 #   Colombia graphite mine CapEx.
-# ≥1/3 U.S. hunt budget spent (honest US residual — blank-USD CapEx exhausted; Freeport OxI
-#   >USD 14m is university+road package with road-only share undisclosed; Freeport/EnergyX/
-#   EXIM/Bechtel/Fluor/USTDA/Nextracker/Jervois/Wabtec/Fluence/SSA/Atlas/Ascenty/Progress Rail/
-#   GE Vernova/Oceaneering/AES/NFE sweeps).
-# PRC equal-budget: State Grid GATE UHV CapEx-fill; CTG/CRRC CapEx already dense; holdovers
-#   unsigned (CRBC Corentyne financing still unresolved Jul 2026).
+# ≥1/3 U.S. hunt budget spent (honest US residual — blank-USD CapEx exhausted; Freeport/
+#   EnergyX/EXIM/Bechtel/Fluor/USTDA/Nextracker/Jervois/Wabtec/Fluence/SSA/Atlas/Ascenty/
+#   Progress Rail/GE Vernova/Oceaneering/AES/NFE sweeps).
+# PRC equal-budget: CTG Serra da Palmeira CapEx-fill; holdovers unsigned.
 
-# === Cycle 228 (seed 20261228) ===
-# Shuffled order (BRIEF.md numbered + Random(20261228).shuffle): building_materials,
-#   power_plants_grid, port_ownership, balsa, port_cranes, solar, engineering_epc,
-#   bridges_roads, nickel, wind, niobium, other_renewables, copper, lithium, graphite,
-#   rail, water, fission_smr.
-# Logged 0 new + 9 CapEx-fill upgrades (0 US / 1 PRC / 3 allied / 5 other; ≥1/3 US hunt
+# === Cycle 229 (seed 20261229) ===
+# Shuffled order (BRIEF.md numbered + Random(20261229).shuffle): niobium, wind, rail,
+#   fission_smr, copper, water, building_materials, port_ownership, port_cranes, nickel,
+#   power_plants_grid, solar, bridges_roads, other_renewables, graphite, engineering_epc,
+#   balsa, lithium.
+# Logged 1 new + 8 CapEx-fill upgrades (0 US / 1 PRC / 7 allied / 1 other; ≥1/3 US hunt
 #   budget via honest residual sweeps):
-#   other building_materials CapEx-fill: votorantim_xambioa_grind_2026 (~USD 50.08m).
-#   other building_materials CapEx-fill: votorantim_fy2025_capex_3p7bn_brl (~USD 712.62m).
-#   allied power_plants_grid CapEx-fill: isa_energia_fy2025_capex_5p1bn_brl (~USD 982.26m).
-#   allied power_plants_grid CapEx-fill: neoenergia_fy2025_capex_10p1bn_brl (~USD 1945.27m).
-#   prc power_plants_grid CapEx-fill: state_grid_ne_uhv_construction_2026 (~USD 3466.81m).
-#   other port_ownership CapEx-fill: hutchison_eit_ensenada_2022 (~USD 129.99m).
-#   other port_ownership CapEx-fill: ictsi_rio_brasil_expansion_2025 (~USD 182.58m).
-#   other port_ownership CapEx-fill: portonave_cais_1p5bn_brl_2026 (~USD 288.90m).
-#   allied niobium CapEx-fill (thin next): cbmm_araxa_13bn_plan_2026 (~USD 2503.80m).
-# Thin top-up (balsa/nickel/fission_smr): dry; next-thinnest niobium CapEx-fill.
-# Equal-budget misses: balsa, port_cranes, solar, engineering_epc, bridges_roads, nickel,
-#   wind, other_renewables, copper, lithium, graphite, rail, water, fission_smr
-#   (catalog dense; Konecranes/ZPMC/Aldesa/Bechtel/Sacyr/Jervois/Vestas/CTG/Freeport/
-#   EnergyX/Graphcoa/Wabtec/Acciona/FINEP/holdovers already logged).
+#   allied port_ownership NEW: cmpc_rio_grande_tup_1p5bn_brl_2026 (~USD 288.90m).
+#   allied niobium CapEx-fill: st_george_araxa_raise_aud60m_2026 (~USD 42.20m).
+#   prc wind CapEx-fill: ctg_serra_da_palmeira_2025 (~USD 833.38m).
+#   allied wind CapEx-fill: weg_statkraft_seabra_7mw_2025 (~USD 25.04m).
+#   allied rail CapEx-fill: vli_fca_capex_1p2bn_brl_2026 (~USD 231.12m).
+#   allied rail CapEx-fill: alstom_mexico_dmu_2025 (company EUR dual ~USD 1048.80m).
+#   allied rail CapEx-fill: sacyr_fortaleza_metro_leste_1230m_brl_2026 (~USD 237.02m).
+#   allied water CapEx-fill: acciona_brk_pernambuco_sanitation_2026 (company EUR dual
+#     ~USD 3055.20m).
+#   other power_plants_grid CapEx-fill: weg_brazil_xfmr_543m_brl_2024 (~USD 104.58m).
+# Thin top-up (balsa/nickel/fission_smr): dry (niobium CapEx already in shuffle).
+# Equal-budget misses: fission_smr, copper, building_materials, port_cranes, nickel,
+#   solar, bridges_roads, other_renewables, graphite, engineering_epc, balsa, lithium
+#   (catalog dense; Freeport/EnergyX/Holcim/Konecranes/Jervois/Aldesa/Sacyr/BYD/Graphcoa/
+#   Bechtel/Plantabal/holdovers already logged).
 # Holdovers still unsigned: CRBC Corentyne; CSCEC 290 km; CCECC Nicaragua rail
 #   prefeasibility; CHEC San Carlos Contraloría aval only.
-# Active after cycle 228: us397 / prc369 / allied385 / other91 (n=1242).
-shuffle_seed: 20261228
+# Active after cycle 229: us397 / prc369 / allied386 / other91 (n=1243).
+shuffle_seed: 20261229
 budget_per_subcategory: 1_source_family_min
 shuffled_order:
-- infrastructure/building_materials
-- energy/power_plants_grid
-- infrastructure/port_ownership
-- resources/balsa
-- infrastructure/port_cranes
-- energy/solar
-- infrastructure/engineering_epc
-- infrastructure/bridges_roads
-- resources/nickel
-- energy/wind
 - resources/niobium
-- energy/other_renewables
-- resources/copper
-- resources/lithium
-- resources/graphite
+- energy/wind
 - infrastructure/rail
-- resources/water
 - energy/fission_smr
+- resources/copper
+- resources/water
+- infrastructure/building_materials
+- infrastructure/port_ownership
+- infrastructure/port_cranes
+- resources/nickel
+- energy/power_plants_grid
+- energy/solar
+- infrastructure/bridges_roads
+- energy/other_renewables
+- resources/graphite
+- infrastructure/engineering_epc
+- resources/balsa
+- resources/lithium
 rows_found_this_cycle:
-  infrastructure/building_materials: 2
-  energy/power_plants_grid: 3
-  infrastructure/port_ownership: 3
-  resources/balsa: 0
-  infrastructure/port_cranes: 0
-  energy/solar: 0
-  infrastructure/engineering_epc: 0
-  infrastructure/bridges_roads: 0
-  resources/nickel: 0
-  energy/wind: 0
   resources/niobium: 1
-  energy/other_renewables: 0
-  resources/copper: 0
-  resources/lithium: 0
-  resources/graphite: 0
-  infrastructure/rail: 0
-  resources/water: 0
+  energy/wind: 2
+  infrastructure/rail: 3
   energy/fission_smr: 0
+  resources/copper: 0
+  resources/water: 1
+  infrastructure/building_materials: 0
+  infrastructure/port_ownership: 1
+  infrastructure/port_cranes: 0
+  resources/nickel: 0
+  energy/power_plants_grid: 1
+  energy/solar: 0
+  infrastructure/bridges_roads: 0
+  energy/other_renewables: 0
+  resources/graphite: 0
+  infrastructure/engineering_epc: 0
+  resources/balsa: 0
+  resources/lithium: 0
 rows_by_side_this_cycle:
   us: 0
   prc: 1
-  allied: 3
-  other: 5
+  allied: 7
+  other: 1
 thin_topup_after_shuffle:
 - resources/balsa
 - resources/nickel
 - energy/fission_smr
 thin_topup_rows: 0
+
+# === Cycle 228 (seed 20261228) — prior ===
+# Logged 0 new + 9 CapEx-fill: Votorantim Xambioá/FY2025; ISA FY2025; Neoenergia FY2025;
+#   State Grid GATE; Hutchison EIT; ICTSI Rio; Portonave quay; CBMM R$13bn.
+# Active after 228: us397/prc369/allied385/other91 (n=1242).
 
 # === Cycle 227 (seed 20261227) — prior ===
 # Logged 0 new + 7 CapEx-fill: Hutchison ICAVE Fase II; ICTSI Aratu; Hitachi Brazil;

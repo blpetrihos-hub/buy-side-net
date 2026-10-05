@@ -957,13 +957,14 @@
   - crrc_ba_line_b_2025
   - hunt_latam_rail_telecom
 - id: alstom_mexico_47trains_20251226
-  type: official
-  chicago: Alstom. “Alstom to supply 47 trains and associated maintenance for new rail corridors in Mexico.” 26 December 2025.
+  type: company
+  chicago: Alstom. “Alstom to supply 47 trains and associated maintenance for new rail corridors in Mexico.” December 26, 2025. https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico.
   url: https://www.alstom.com/press-releases-news/2025/12/alstom-supply-47-trains-and-associated-maintenance-new-rail-corridors-mexico
-  annotation: Company primary release on MXN 20.2bn / 47 DMU Mexico award. Supports alstom_mexico_dmu_2025.
+  annotation: Alstom Mexico DMU CapEx-fill company EUR 920m → ~USD 1048.80m via Fed H.10. Supports alstom_mexico_dmu_2025.
   supports:
   - alstom_mexico_dmu_2025
   - hunt_latam_rail_telecom
+  - hunt_cycle229
 - id: chinalco_peru_history
   type: official
   chicago: Chinalco Peru. “Our History.” Company page. Accessed 1 October 2026.
@@ -2071,13 +2072,14 @@
   - hunt_energy_solar
   - hunt_cycle220
 - id: ndb_serra_da_palmeira_2025
-  type: mdb
-  chicago: New Development Bank. “Serra da Palmeira Wind Power Project.” Project page / public disclosure summary. Financing approval 17 September 2025.
+  type: company
+  chicago: New Development Bank. “Serra da Palmeira Wind Power Project.” https://www.ndb.int/project/serra-da-palmeira-wind-power-project/.
   url: https://www.ndb.int/project/serra-da-palmeira-wind-power-project/
-  annotation: MDB primary project page for CTG Serra da Palmeira 648 MW wind. Supports ctg_serra_da_palmeira_2025.
+  annotation: CTG Serra da Palmeira CapEx-fill ~USD 833.38m via Fed H.10. Supports ctg_serra_da_palmeira_2025.
   supports:
   - ctg_serra_da_palmeira_2025
   - hunt_energy_wind
+  - hunt_cycle229
 - id: hmt_multirio_zpmc_20260623
   type: press
   chicago: HMT News. “Multiterminais Adds STS Cranes at Rio Terminal.” June 23, 2026. https://hmt-news.com/multiterminais-adds-sts-cranes-at-rio-terminal/.
@@ -2971,12 +2973,13 @@
   - hunt_cycle225
 - id: stgm_asx_aud60m_20260617
   type: company
-  chicago: St George Mining Limited. “St George Secures A$60 Million to Accelerate Development of the World-Class Rare Earths-Niobium Araxá Project.” ASX release, 17 June 2026.
+  chicago: St George Mining Limited. “A$60M Secured for Araxá Rare Earths & Niobium Project.” June 17, 2026. https://www.stgm.com.au/pdf/daec3170-d1c5-4743-b8f8-3c6c12f7dd90/Platform/ListPage/A60M-secured-for-Araxa-Rare-EarthsNiobium-Project.pdf.
   url: https://www.stgm.com.au/pdf/daec3170-d1c5-4743-b8f8-3c6c12f7dd90/Platform/ListPage/A60M-secured-for-Araxa-Rare-EarthsNiobium-Project.pdf
-  annotation: ASX placement A$60m for Araxá Nb-REE. Supports st_george_araxa_raise_aud60m_2026.
+  annotation: St George Araxá CapEx-fill ~USD 42.20m via Fed H.10 AUD. Supports st_george_araxa_raise_aud60m_2026.
   supports:
   - st_george_araxa_raise_aud60m_2026
   - hunt_fenb_araxa
+  - hunt_cycle229
 - id: forbes_ec_aima_balsa_spain_20260508
   type: trade_press
   chicago: Villanueva, Julissa. “La balsa ecuatoriana conquista la industria eólica mundial.” Forbes Ecuador, 8 May 2026.
@@ -3231,12 +3234,13 @@
   - hunt_energy_wind
 - id: statkraft_weg_seabra_20250918
   type: company
-  chicago: Statkraft Brasil. “Parceria inovadora entre Petrobras, WEG e Statkraft coloca em operação o maior aerogerador onshore das Américas.” Press release, 18 September 2025.
+  chicago: Statkraft Brasil. “Parceria inovadora entre Petrobras, WEG e Statkraft coloca em operação o maior aerogerador onshore das Américas.” September 18, 2025. https://www.statkraft.com.br/sala-de-comunicacao/ultimas-noticias/2025/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-operacao-o-maior-aerogerador-onshore-das-americas/.
   url: https://www.statkraft.com.br/sala-de-comunicacao/ultimas-noticias/2025/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-operacao-o-maior-aerogerador-onshore-das-americas/
-  annotation: Company release on WEG 7 MW Seabra turbine / Petrobras R$130m. Supports weg_statkraft_seabra_7mw_2025.
+  annotation: Statkraft/WEG Seabra CapEx-fill ~USD 25.04m via Fed H.10. Supports weg_statkraft_seabra_7mw_2025.
   supports:
   - weg_statkraft_seabra_7mw_2025
   - hunt_energy_wind
+  - hunt_cycle229
 - id: polaris_cfe_cim_20260707
   type: company
   chicago: Polaris Renewable Energy Inc. “Polaris Announces Execution of Mixed Investment Agreement for the Three Mexico Projects.” Press release, 7 July 2026.
@@ -4710,12 +4714,13 @@
   - hunt_br_power_equip
 - id: acciona_pernambuco_20260429
   type: company
-  chicago: ACCIONA. “ACCIONA Signs Sanitation Contract for 153 Municipalities in Pernambuco (Brazil).” 29 April 2026.
+  chicago: ACCIONA. “ACCIONA signs sanitation contract for 153 municipalities in Pernambuco (Brazil).” April 29, 2026. https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-153-municipalities-pernambuco-brazil.
   url: https://www.acciona.com/updates/news/acciona-signs-sanitation-contract-153-municipalities-pernambuco-brazil
-  annotation: ACCIONA/BRK Pernambuco 35-year sanitation concession (BRL 15.4bn). Supports acciona_brk_pernambuco_sanitation_2026.
+  annotation: ACCIONA BRK Pernambuco CapEx-fill company EUR 2.68bn → ~USD 3055.20m via Fed H.10. Supports acciona_brk_pernambuco_sanitation_2026.
   supports:
   - acciona_brk_pernambuco_sanitation_2026
   - hunt_res_water
+  - hunt_cycle229
 - id: baker_hughes_petrobras_tm_20260318
   type: company
   chicago: Baker Hughes. “Baker Hughes, Petrobras Sign Strategic Service Agreement for Critical Turbomachinery Equipment.” Press release, 18 March 2026.
@@ -10312,10 +10317,11 @@
   type: company
   chicago: WEG. “WEG announces investments to expand transformer production capacity in Brazil.” September 25, 2024. https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil.
   url: https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil
-  annotation: 'WEG: R$543m Betim+Gravataí transformer CapEx. Supports weg_brazil_xfmr_543m_brl_2024.'
+  annotation: WEG Brazil transformer CapEx-fill ~USD 104.58m via Fed H.10. Supports weg_brazil_xfmr_543m_brl_2024.
   supports:
   - weg_brazil_xfmr_543m_brl_2024
   - hunt_cycle181
+  - hunt_cycle229
 - id: bcie_siepac_segundo_20250428
   type: official
   chicago: Banco Centroamericano de Integración Económica (BCIE). “En beneficio de 50 millones de centroamericanos, BCIE fortalece la integración energética regional con el financiamiento del Segundo Circuito SIEPAC.” April 28, 2025. https://www.bcie.org/noticias/en-beneficio-de-50-millones-de-centroamericanos-bcie-fortalece-la-integracion-energetica-regional-con-el-financiamiento-del-segundo-circuito-siepac.
@@ -10709,13 +10715,14 @@
   - aqualia_ptar_chincha_96p5m_2025
   - hunt_cycle190
 - id: atlas_publico_sacyr_fortaleza_20260918
-  type: government
-  chicago: Atlas Público (Diário Oficial da União republication). “Governo do Ceará declara Sacyr vencedora de licitação para três estações do Metrô de Fortaleza.” September 18, 2026. https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968.
+  type: press
+  chicago: Atlas Público / Governo do Ceará. “Governo do Ceará declara Sacyr vencedora de licitação” (Metro Leste). 2026. https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968.
   url: https://atlaspublico.com.br/noticias/governo-do-ceara-declara-sacyr-vencedora-de-licitacao-para-87968
-  annotation: 'DOU/Atlas Público: Sacyr Fortaleza Linha Leste R$1.230bn. Supports sacyr_fortaleza_metro_leste_1230m_brl_2026.'
+  annotation: Sacyr Fortaleza Metro CapEx-fill ~USD 237.02m via Fed H.10. Supports sacyr_fortaleza_metro_leste_1230m_brl_2026.
   supports:
   - sacyr_fortaleza_metro_leste_1230m_brl_2026
   - hunt_cycle190
+  - hunt_cycle229
 - id: cdmx_jefatura_metro_l3_20260923
   type: government
   chicago: Jefatura de Gobierno de la Ciudad de México. “Gobierno de la Ciudad de México informó que mañana se publicará en la Gaceta Oficial el nombre de la Empresa Ganadora del Concurso de Licitación de la Línea 3 del Metro.” September 23, 2026. https://jefaturadegobierno.cdmx.gob.mx/comunicacion/nota/gobierno-de-la-ciudad-de-mexico-informo-que-manana-se-publicara-en-la-gaceta-oficial-el-nombre-de-la-empresa-ganadora-del-concurso-de-licitacion-de-la-linea-3-del-metro.
@@ -11023,10 +11030,11 @@
   type: company
   chicago: VLI Logística. “VLI mantém investimento na FCA acima de R$ 1 bilhão pelo quarto ano consecutivo.” February 5, 2026. https://www.vli-logistica.com.br/vli-mantem-investimento-na-fca-acima-de-r-1-bilhao-pelo-quarto-ano-consecutivo/.
   url: https://www.vli-logistica.com.br/vli-mantem-investimento-na-fca-acima-de-r-1-bilhao-pelo-quarto-ano-consecutivo/
-  annotation: 'VLI: FCA 2026 CapEx ~R$1.2bn. Supports vli_fca_capex_1p2bn_brl_2026.'
+  annotation: VLI FCA CapEx-fill ~USD 231.12m via Fed H.10. Supports vli_fca_capex_1p2bn_brl_2026.
   supports:
   - vli_fca_capex_1p2bn_brl_2026
   - hunt_cycle196
+  - hunt_cycle229
 - id: cpfl_fy2025_results_20260306
   type: company
   chicago: CPFL Energia. “CPFL Energia registra EBITDA de R$ 13,5 bilhões em 2025 e investimento recorde de R$ 6,1 bilhões.” March 6, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61.
@@ -11744,3 +11752,11 @@
   supports:
   - ssa_guaymas_tum_concession_2025
   - hunt_cycle223
+- id: cmpc_rio_grande_tup_20260914
+  type: company
+  chicago: CMPC. “Assinamos contrato para a instalação do Terminal Rio Grande do Sul S.A.” September 14, 2026. https://www.cmpc.com/pt-br/assinamos-contrato-para-a-instalacao-do-terminal-rio-grande-do-sul-s-a/.
+  url: https://www.cmpc.com/pt-br/assinamos-contrato-para-a-instalacao-do-terminal-rio-grande-do-sul-s-a/
+  annotation: CMPC Rio Grande TUP ~USD 288.90m via Fed H.10. Supports cmpc_rio_grande_tup_1p5bn_brl_2026.
+  supports:
+  - cmpc_rio_grande_tup_1p5bn_brl_2026
+  - hunt_cycle229
