@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1762,
+    "n_rows": 1766,
     "counts": {
-      "total": 1762,
-      "active": 1563,
+      "total": 1766,
+      "active": 1567,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
-      "proxy": 184,
+      "proxy": 186,
       "exclude": 18,
-      "documented": 1493,
-      "on_map": 1425
+      "documented": 1495,
+      "on_map": 1429
     }
   },
   "layer_readouts": [
@@ -153,14 +153,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 187,
-        "prc": 205,
+        "us": 189,
+        "prc": 207,
         "allied": 265,
-        "n": 657
+        "n": 661
       },
       "usd": {
-        "us": 34081568739.109997,
-        "us_n": 82,
+        "us": 34082801381.01,
+        "us_n": 84,
         "prc": 43269035868.26999,
         "prc_n": 72,
         "allied": 109114813694.80006,
@@ -362,14 +362,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 125,
-        "prc": 121,
+        "us": 127,
+        "prc": 123,
         "allied": 368,
-        "n": 614
+        "n": 618
       },
       "usd": {
-        "us": 21086943097.899994,
-        "us_n": 63,
+        "us": 21088175739.799995,
+        "us_n": 65,
         "prc": 42011016838.479996,
         "prc_n": 61,
         "allied": 161717904868.31,
@@ -377,8 +377,8 @@
       },
       "by_layer": {
         "energy": {
-          "us": 32,
-          "prc": 86,
+          "us": 34,
+          "prc": 88,
           "allied": 159
         },
         "infrastructure": {
@@ -2751,7 +2751,11 @@
       "aes_brasil_2024e_cap_interest_93p8m_brl",
       "aes_brasil_2025e_cap_interest_101p1m_brl",
       "aes_brasil_2026e_cap_interest_49p9m_brl",
-      "motiva_2026_highways_plan_72bn_brl"
+      "motiva_2026_highways_plan_72bn_brl",
+      "aes_brasil_2027e_cap_interest_2p9m_brl",
+      "aes_brasil_2028e_cap_interest_3p5m_brl",
+      "cpfl_ceee_t_acquisition_267bn_brl_2021",
+      "cpfl_ceee_t_improvements_16bn_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
