@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1518,
+    "n_rows": 1520,
     "counts": {
-      "total": 1518,
-      "active": 1319,
+      "total": 1520,
+      "active": 1321,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1257,
-      "on_map": 1184
+      "documented": 1259,
+      "on_map": 1186
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 155,
         "prc": 184,
-        "allied": 188,
-        "n": 527
+        "allied": 190,
+        "n": 529
       },
       "usd": {
         "us": 23626161117.969997,
         "us_n": 51,
         "prc": 32921064912.409996,
         "prc_n": 52,
-        "allied": 85727444595.62999,
-        "allied_n": 120
+        "allied": 86119443979.31,
+        "allied_n": 122
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 108,
         "prc": 99,
-        "allied": 200,
-        "n": 407
+        "allied": 202,
+        "n": 409
       },
       "usd": {
         "us": 19450402391.829998,
         "us_n": 46,
         "prc": 31663045882.620003,
         "prc_n": 41,
-        "allied": 114608072083.93004,
-        "allied_n": 121
+        "allied": 115000071467.61005,
+        "allied_n": 123
       },
       "by_layer": {
         "energy": {
           "us": 19,
           "prc": 65,
-          "allied": 86
+          "allied": 88
         },
         "infrastructure": {
           "us": 63,
@@ -2507,7 +2507,9 @@
       "sabesp_1h26_capex_7458m_brl",
       "sabesp_2026_capex_plan_20bn_brl",
       "equatorial_2t26_capex_2p6bn_brl",
-      "cpfl_2t26_capex_1p5bn_brl"
+      "cpfl_2t26_capex_1p5bn_brl",
+      "taesa_6m26_capex_445p3m_brl",
+      "eneva_2t26_capex_1p59bn_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

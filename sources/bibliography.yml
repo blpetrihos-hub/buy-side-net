@@ -12504,3 +12504,19 @@
   supports:
   - cpfl_2t26_capex_1p5bn_brl
   - hunt_cycle254
+- id: taesa_2t26_release_20260811
+  type: company
+  chicago: Transmissora Aliança de Energia Elétrica S.A. (TAESA). “Divulgação de Resultados 2T26.” August 11, 2026. https://ri.taesa.com.br/wp-content/uploads/2018/11/TAESA_Release-2T26.pdf.
+  url: https://ri.taesa.com.br/wp-content/uploads/2018/11/TAESA_Release-2T26.pdf
+  annotation: TAESA 6M26 NEW R$445.3m ~USD 85.76m via Fed H.10. Supports taesa_6m26_capex_445p3m_brl.
+  supports:
+  - taesa_6m26_capex_445p3m_brl
+  - hunt_cycle255
+- id: eneva_2t26_cvm_1556832
+  type: company
+  chicago: Eneva S.A. “Resultados 2T26” presentation (CVM IPE protocol 1556832). August 2026. https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1556832.
+  url: https://www.rad.cvm.gov.br/ENETWeb/frmDownloadDocumento.aspx?CodigoInstituicao=1&Tela=ext&descTipo=IPE&numProtocolo=1556832
+  annotation: Eneva 2T26 NEW R$1.59bn ~USD 306.23m via Fed H.10. Supports eneva_2t26_capex_1p59bn_brl.
+  supports:
+  - eneva_2t26_capex_1p59bn_brl
+  - hunt_cycle255
