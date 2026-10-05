@@ -22690,17 +22690,20 @@
   {
     "id": "sabesp_2q26_sec_6k_2026",
     "type": "company",
-    "chicago": "Companhia de Saneamento Básico do Estado de São Paulo — SABESP. “Earnings Release 2Q26” (Form 6-K). 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.",
+    "chicago": "Companhia de Saneamento Básico do Estado de São Paulo — Sabesp. “Form 6-K — Earnings Release 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.",
     "url": "https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm",
-    "annotation": "Sabesp FY2026 plan NEW ~R$20bn ~USD 3852.01m via Fed H.10. Supports sabesp_2026_capex_plan_20bn_brl.",
+    "annotation": "Sabesp 2Q26/1H26/FY2026 CapEx via Fed H.10. Supports sabesp_1h26_capex_7458m_brl; sabesp_2026_capex_plan_20bn_brl; sabesp_2q26_capex_3731m_brl.",
     "supports": [
       "sabesp_1h26_capex_7458m_brl",
       "hunt_cycle254",
-      "sabesp_2026_capex_plan_20bn_brl"
+      "sabesp_2026_capex_plan_20bn_brl",
+      "sabesp_2q26_capex_3731m_brl",
+      "hunt_cycle260"
     ],
     "map_supports": [
       "sabesp_1h26_capex_7458m_brl",
-      "sabesp_2026_capex_plan_20bn_brl"
+      "sabesp_2026_capex_plan_20bn_brl",
+      "sabesp_2q26_capex_3731m_brl"
     ],
     "layers": [
       "resources"
@@ -23021,6 +23024,80 @@
     ],
     "layers": [
       "infrastructure"
+    ]
+  },
+  {
+    "id": "enel_sp_2t26_6m26_release",
+    "type": "company",
+    "chicago": "Enel Distribuição São Paulo. “Earnings Release 2T26 / 6M26.” 2026. https://ri.enel.com/Documento/DownloadPublicFile?fileNameKey=c57a6f7a-0337-48b3-9ebd-2519fd6c332f.pdf&tipoPath=2.",
+    "url": "https://ri.enel.com/Documento/DownloadPublicFile?fileNameKey=c57a6f7a-0337-48b3-9ebd-2519fd6c332f.pdf&tipoPath=2",
+    "annotation": "Enel SP 2T26/6M26 CapEx via Fed H.10. Supports enel_sp_2t26_capex_807p657m_brl; enel_sp_6m26_capex_1497p932m_brl.",
+    "supports": [
+      "enel_sp_2t26_capex_807p657m_brl",
+      "hunt_cycle260",
+      "enel_sp_6m26_capex_1497p932m_brl"
+    ],
+    "map_supports": [
+      "enel_sp_2t26_capex_807p657m_brl",
+      "enel_sp_6m26_capex_1497p932m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "enel_americas_q2_h1_2026_presentation",
+    "type": "company",
+    "chicago": "Enel Américas S.A. “Q2 & H1 2026 Results Presentation.” 2026. https://www.enelamericas.com/content/dam/enel-americas/investor/presentaciones-de-resultados/resultados-trimestrales/presentaciones/2026/Enel-Americas-Q2-2026-Results-Presentation.pdf.",
+    "url": "https://www.enelamericas.com/content/dam/enel-americas/investor/presentaciones-de-resultados/resultados-trimestrales/presentaciones/2026/Enel-Americas-Q2-2026-Results-Presentation.pdf",
+    "annotation": "Enel Américas H1 Gross CapEx USD 983m / Brazil H1 USD 678m. Supports enel_americas_h1_26_gross_capex_983m; enel_americas_brazil_h1_26_gross_capex_678m.",
+    "supports": [
+      "enel_americas_h1_26_gross_capex_983m",
+      "hunt_cycle260",
+      "enel_americas_brazil_h1_26_gross_capex_678m"
+    ],
+    "map_supports": [
+      "enel_americas_brazil_h1_26_gross_capex_678m",
+      "enel_americas_h1_26_gross_capex_983m"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "rumo_2t26_release_20260812",
+    "type": "company",
+    "chicago": "Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2",
+    "annotation": "Rumo 2T26/6M26 CapEx via Fed H.10. Supports rumo_2t26_capex_1597m_brl; rumo_6m26_capex_3371m_brl.",
+    "supports": [
+      "rumo_2t26_capex_1597m_brl",
+      "hunt_cycle260",
+      "rumo_6m26_capex_3371m_brl"
+    ],
+    "map_supports": [
+      "rumo_2t26_capex_1597m_brl",
+      "rumo_6m26_capex_3371m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "alupar_2t26_release_20260806",
+    "type": "company",
+    "chicago": "Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.",
+    "url": "https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip",
+    "annotation": "Alupar 2T26 company release (ZIP) Lot 7 TESP R$1,089m ANEEL CapEx via Fed H.10. Supports alupar_lote7_tesp_1089m_brl_2026.",
+    "supports": [
+      "alupar_lote7_tesp_1089m_brl_2026",
+      "hunt_cycle260"
+    ],
+    "map_supports": [
+      "alupar_lote7_tesp_1089m_brl_2026"
+    ],
+    "layers": [
+      "energy"
     ]
   }
 ]
