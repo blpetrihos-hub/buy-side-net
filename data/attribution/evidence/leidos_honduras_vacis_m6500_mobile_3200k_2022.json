@@ -1,0 +1,10 @@
+{
+  "id": "leidos_honduras_vacis_m6500_mobile_3200k_2022",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_leidos_honduras_vacis_m6500_mobile_3200k_2022",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE22P0038_1900_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "MOBILE SCANNER VACIS M6500",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 3200194.0; date_signed 2022-06-03."
+}
