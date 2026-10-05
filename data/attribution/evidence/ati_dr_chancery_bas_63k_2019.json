@@ -1,0 +1,10 @@
+{
+  "id": "ati_dr_chancery_bas_63k_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_ati_dr_chancery_bas_63k_2019",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8620P0046_1900_-NONE-_-NONE-/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "BME BUILDING AUTOMATION SYSTEM (BAS) CHANCERY BUILDING",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 62919; date_signed 2019-11-23."
+}
