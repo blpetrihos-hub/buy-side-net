@@ -5450,12 +5450,15 @@
   - hunt_energy_other_renewables
 - id: aes_chile_atacama_solar_20250109
   type: company
-  chicago: AES Andes. “AES Chile acquires Atacama Solar photovoltaic plant.” 9 January 2025.
+  chicago: AES Andes. “AES Chile acquires Atacama Solar photovoltaic plant.” January 9, 2025. https://www.aesandes.com/en/press-release/aes-chile-acquires-atacama-solar-photovoltaic-plant.
   url: https://www.aesandes.com/en/press-release/aes-chile-acquires-atacama-solar-photovoltaic-plant
-  annotation: AES Pacífico acquires Sonnedix Atacama Solar 171 MWp (Tarapacá). Supports aes_atacama_solar_acquisition_2025.
+  annotation: AES Andes Chile >US$2bn CapEx 2024–2027. Supports aes_andes_chile_capex_2bn_2024_2027.
   supports:
   - aes_atacama_solar_acquisition_2025
   - hunt_energy_solar
+  - aes_andes_sea_package_3bn_2024
+  - hunt_cycle275
+  - aes_andes_chile_capex_2bn_2024_2027
 - id: powerchina_honduras_enee_20250526
   type: company
   chicago: POWERCHINA. “POWERCHINA secures Honduras transmission project.” 26 May 2025.
@@ -12601,7 +12604,7 @@
   type: company
   chicago: Neoenergia S.A. “Results as of June 30, 2026” (2Q26/6M26 earnings release). July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia Gen+Customers 6M26 CapEx R$57m via Fed H.10. Supports neoenergia_gen_customers_6m26_57m_brl.
+  annotation: Neoenergia Customers 6M26 CapEx R$19m via Fed H.10. Supports neoenergia_customers_6m26_19m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12615,6 +12618,9 @@
   - neoenergia_tx_2q26_80m_brl
   - hunt_cycle273
   - neoenergia_gen_customers_6m26_57m_brl
+  - neoenergia_hydro_6m26_6m_brl
+  - hunt_cycle275
+  - neoenergia_customers_6m26_19m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
@@ -12708,7 +12714,7 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo Operação Sul 2T26 CapEx R$183m via Fed H.10. Supports rumo_sul_2t26_183m_brl.
+  annotation: Rumo Capacitação Malha 2T26 CapEx R$483m via Fed H.10. Supports rumo_capacitacao_2t26_483m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
@@ -12716,6 +12722,8 @@
   - rumo_norte_2t26_1393m_brl
   - hunt_cycle274
   - rumo_sul_2t26_183m_brl
+  - rumo_capacitacao_2t26_483m_brl
+  - hunt_cycle275
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -12753,7 +12761,7 @@
   type: company
   chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea PPPs 2T26 Capex R$237m via Fed H.10. Supports aegea_ppps_2t26_237m_brl.
+  annotation: Aegea Demais Concessões 2T26 Capex R$356m via Fed H.10. Supports aegea_demais_2t26_356m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12765,6 +12773,10 @@
   - aegea_manaus_2t26_91m_brl
   - hunt_cycle274
   - aegea_ppps_2t26_237m_brl
+  - aegea_guariroba_2t26_49m_brl
+  - hunt_cycle275
+  - aegea_novas_operacoes_2t26_186m_brl
+  - aegea_demais_2t26_356m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13022,14 +13034,16 @@
   - hunt_cycle270
 - id: copel_2026_3bn_program_news
   type: company
-  chicago: Copel. “Copel investe R$ 3 bilhões em obras de geração, transmissão e distribuição de energia em todo o Paraná.” Company news. https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/.
+  chicago: Copel. “Copel investe R$ 3 bilhões em obras de geração, transmissão e distribuição de energia em todo o Paraná.” Company Portuguese news. https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/.
   url: https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/
-  annotation: Copel LRCAP Segredo R$541m via Fed H.10. Supports copel_lrcap_segredo_541m_brl_2026.
+  annotation: Copel gen+TX 2026 CapEx plan R$971.6m via Fed H.10. Supports copel_gen_tx_2026_971p6m_brl.
   supports:
   - copel_disco_2026_plan_1940m_brl
   - hunt_cycle270
   - copel_lrcap_foz_areia_190m_brl_2026
   - copel_lrcap_segredo_541m_brl_2026
+  - copel_gen_tx_2026_971p6m_brl
+  - hunt_cycle275
 - id: motiva_1t26_company_news_20260430
   type: company
   chicago: Motiva. “Motiva avança eficiência operacional e lucro ajustado no 1T26.” April 30, 2026. https://www.motiva.com.br/noticias/motiva-avanca-eficiencia-operacional-lucro-ajustado-1t26/.
@@ -13087,3 +13101,11 @@
   - aes_andes_green_wind_colombia_2p9m
   - aes_andes_green_purchases_chile_87p8m
   - hunt_cycle274
+- id: ctg_brasil_crescimento_sustentavel_2025
+  type: company
+  chicago: CTG Brasil. “CTG Brasil se prepara para novo ciclo de crescimento sustentável.” Company Portuguese. https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/.
+  url: https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/
+  annotation: CTG Brasil PDI CapEx >R$19m via Fed H.10. Supports ctg_brasil_pdi_19m_brl_2025.
+  supports:
+  - ctg_brasil_pdi_19m_brl_2025
+  - hunt_cycle275

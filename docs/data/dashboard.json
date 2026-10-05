@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1651,
+    "n_rows": 1661,
     "counts": {
-      "total": 1651,
-      "active": 1452,
+      "total": 1661,
+      "active": 1462,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 179,
       "exclude": 18,
-      "documented": 1387,
-      "on_map": 1315
+      "documented": 1397,
+      "on_map": 1325
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 126,
-        "allied": 216,
-        "n": 523
+        "allied": 217,
+        "n": 524
       },
       "usd": {
         "us": 46234647492.65,
         "us_n": 113,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 63375714823.53002,
-        "allied_n": 142
+        "allied": 63468740766.79002,
+        "allied_n": 143
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 88,
         "prc": 70,
-        "allied": 168,
-        "n": 326
+        "allied": 171,
+        "n": 329
       },
       "usd": {
         "us": 35648237410.93,
         "us_n": 44,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 112113024851.61,
-        "allied_n": 99
+        "allied": 112226851626.9,
+        "allied_n": 102
       },
       "matched_gaps": {
         "n": 3,
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 165,
-        "prc": 194,
-        "allied": 242,
-        "n": 601
+        "us": 167,
+        "prc": 195,
+        "allied": 245,
+        "n": 607
       },
       "usd": {
-        "us": 27829583889.969997,
-        "us_n": 60,
-        "prc": 42392569698.49999,
-        "prc_n": 64,
-        "allied": 106573888057.80006,
-        "allied_n": 171
+        "us": 32829583889.969997,
+        "us_n": 62,
+        "prc": 42396229104.13999,
+        "prc_n": 65,
+        "allied": 106765833513.40005,
+        "allied_n": 174
       },
       "matched_gaps": {
         "n": 1,
@@ -363,47 +363,47 @@
       "country": "Brazil",
       "counts": {
         "us": 112,
-        "prc": 109,
-        "allied": 299,
-        "n": 520
+        "prc": 110,
+        "allied": 306,
+        "n": 528
       },
       "usd": {
         "us": 20568020118.759995,
         "us_n": 50,
-        "prc": 41134550668.71,
-        "prc_n": 53,
-        "allied": 151603357767.94003,
-        "allied_n": 218
+        "prc": 41138210074.35,
+        "prc_n": 54,
+        "allied": 152002155942.09006,
+        "allied_n": 225
       },
       "by_layer": {
         "energy": {
           "us": 19,
-          "prc": 75,
-          "allied": 136
+          "prc": 76,
+          "allied": 139
         },
         "infrastructure": {
           "us": 67,
           "prc": 25,
-          "allied": 93
+          "allied": 94
         },
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 70
+          "allied": 73
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 70,
+        "us": 72,
         "prc": 43,
         "allied": 98,
-        "n": 211
+        "n": 213
       },
       "usd": {
-        "us": 47658521480.0,
-        "us_n": 35,
+        "us": 52658521480.0,
+        "us_n": 37,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 53160762361.0,
@@ -411,7 +411,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 47,
+          "us": 49,
           "prc": 34,
           "allied": 34
         },
@@ -2640,7 +2640,17 @@
       "aegea_manaus_2t26_91m_brl",
       "aegea_ppps_2t26_237m_brl",
       "equatorial_saneamento_2t26_12m_brl",
-      "cemig_gen_1s26_30m_brl"
+      "cemig_gen_1s26_30m_brl",
+      "aes_andes_sea_package_3bn_2024",
+      "aes_andes_chile_capex_2bn_2024_2027",
+      "ctg_brasil_pdi_19m_brl_2025",
+      "neoenergia_hydro_6m26_6m_brl",
+      "neoenergia_customers_6m26_19m_brl",
+      "copel_gen_tx_2026_971p6m_brl",
+      "aegea_guariroba_2t26_49m_brl",
+      "aegea_novas_operacoes_2t26_186m_brl",
+      "aegea_demais_2t26_356m_brl",
+      "rumo_capacitacao_2t26_483m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
