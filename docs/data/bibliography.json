@@ -43674,5 +43674,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_bonatti_san_marcos_trujillo_clinics_1p22m_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0584_9700_W9127816D0099_9700 (Bonatti San Marcos/Trujillo clinics). Signed 2019-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0584_9700_W9127816D0099_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0584_9700_W9127816D0099_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bonatti San Marcos/Trujillo clinics USD 1.221m. Supports bonatti_san_marcos_trujillo_clinics_1p22m_2019.",
+    "supports": [
+      "bonatti_san_marcos_trujillo_clinics_1p22m_2019",
+      "hunt_cycle966"
+    ],
+    "map_supports": [
+      "bonatti_san_marcos_trujillo_clinics_1p22m_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_p03_p04_1p25m_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0513_9700_W9127816D0102_9700 (Eterna Soto Cano P-03/P-04). Signed 2018-09-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0513_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0513_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano P-03/P-04 USD 1.254m. Supports eterna_soto_cano_p03_p04_1p25m_2018.",
+    "supports": [
+      "eterna_soto_cano_p03_p04_1p25m_2018",
+      "hunt_cycle966"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_p03_p04_1p25m_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_olgoonik_montevideo_materials_1p23m_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM26F1398_1900_19AQMM25D0612_1900 (Olgoonik Montevideo materials). Signed 2026-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F1398_1900_19AQMM25D0612_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F1398_1900_19AQMM25D0612_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Olgoonik Montevideo materials USD 1.230m. Supports olgoonik_montevideo_materials_1p23m_2026.",
+    "supports": [
+      "olgoonik_montevideo_materials_1p23m_2026",
+      "hunt_cycle966"
+    ],
+    "map_supports": [
+      "olgoonik_montevideo_materials_1p23m_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_infraestructuras_peru_steel_towers_1p17m_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL12C0022_9700_-NONE-_-NONE- (Infraestructuras Peru steel towers). Signed 2012-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0022_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0022_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Infraestructuras Peru steel towers USD 1.172m. Supports infraestructuras_peru_steel_towers_1p17m_2012.",
+    "supports": [
+      "infraestructuras_peru_steel_towers_1p17m_2012",
+      "hunt_cycle966"
+    ],
+    "map_supports": [
+      "infraestructuras_peru_steel_towers_1p17m_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_san_lorenzo_eoc_drw_1p15m_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0762_9700_W9127816D0102_9700 (Eterna San Lorenzo EOC/DRW). Signed 2018-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0762_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0762_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna San Lorenzo EOC/DRW USD 1.151m. Supports eterna_san_lorenzo_eoc_drw_1p15m_2018.",
+    "supports": [
+      "eterna_san_lorenzo_eoc_drw_1p15m_2018",
+      "hunt_cycle966"
+    ],
+    "map_supports": [
+      "eterna_san_lorenzo_eoc_drw_1p15m_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_marago_siart_cenop_1p14m_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F1768_1900_19AQMM21D0036_1900 (Marago SIART CENOP). Signed 2024-09-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F1768_1900_19AQMM21D0036_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F1768_1900_19AQMM21D0036_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Marago SIART CENOP USD 1.141m. Supports marago_siart_cenop_1p14m_2024.",
+    "supports": [
+      "marago_siart_cenop_1p14m_2024",
+      "hunt_cycle967"
+    ],
+    "map_supports": [
+      "marago_siart_cenop_1p14m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_narino_fire_station_1p13m_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0099_9700_W9127823D0059_9700 (Eterna Nariño fire station). Signed 2024-05-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0099_9700_W9127823D0059_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0099_9700_W9127823D0059_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Nariño fire station USD 1.130m. Supports eterna_narino_fire_station_1p13m_2024.",
+    "supports": [
+      "eterna_narino_fire_station_1p13m_2024",
+      "hunt_cycle967"
+    ],
+    "map_supports": [
+      "eterna_narino_fire_station_1p13m_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_roof_1p11m_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127820F0543_9700_W9127816D0102_9700 (Eterna Soto Cano roof). Signed 2020-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0543_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0543_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano roof USD 1.109m. Supports eterna_soto_cano_roof_1p11m_2020.",
+    "supports": [
+      "eterna_soto_cano_roof_1p11m_2020",
+      "hunt_cycle967"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_roof_1p11m_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_copeco_santa_barbara_1p08m_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0364_9700_W9127821D0075_9700 (Eterna COPECO Santa Bárbara). Signed 2022-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0364_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0364_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna COPECO Santa Bárbara USD 1.077m. Supports eterna_copeco_santa_barbara_1p08m_2022.",
+    "supports": [
+      "eterna_copeco_santa_barbara_1p08m_2022",
+      "hunt_cycle967"
+    ],
+    "map_supports": [
+      "eterna_copeco_santa_barbara_1p08m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_kuk_suriname_post_security_1p14m_2005",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SALMEC02D0051O104_1900_SALMEC02D0051_1900 (KUK Suriname post security). Signed 2005-08-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC02D0051O104_1900_SALMEC02D0051_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SALMEC02D0051O104_1900_SALMEC02D0051_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: KUK Suriname post security USD 1.136m. Supports kuk_suriname_post_security_1p14m_2005.",
+    "supports": [
+      "kuk_suriname_post_security_1p14m_2005",
+      "hunt_cycle967"
+    ],
+    "map_supports": [
+      "kuk_suriname_post_security_1p14m_2005"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bonatti_soto_cano_aob_8mile_1p06m_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0219_9700_W9127816D0099_9700 (Bonatti Soto Cano AOB 8 Mile). Signed 2019-05-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0219_9700_W9127816D0099_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0219_9700_W9127816D0099_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bonatti Soto Cano AOB 8 Mile USD 1.062m. Supports bonatti_soto_cano_aob_8mile_1p06m_2019.",
+    "supports": [
+      "bonatti_soto_cano_aob_8mile_1p06m_2019",
+      "hunt_cycle968"
+    ],
+    "map_supports": [
+      "bonatti_soto_cano_aob_8mile_1p06m_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_soto_cano_12plex_1p06m_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0312_9700_W9127816D0102_9700 (Eterna Soto Cano 12-plex). Signed 2019-08-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0312_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0312_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Soto Cano 12-plex USD 1.061m. Supports eterna_soto_cano_12plex_1p06m_2019.",
+    "supports": [
+      "eterna_soto_cano_12plex_1p06m_2019",
+      "hunt_cycle968"
+    ],
+    "map_supports": [
+      "eterna_soto_cano_12plex_1p06m_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_scab_road_phase3_1p06m_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0402_9700_W9127821D0075_9700 (Eterna SCAB road Phase III). Signed 2022-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0402_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0402_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna SCAB road Phase III USD 1.059m. Supports eterna_scab_road_phase3_1p06m_2022.",
+    "supports": [
+      "eterna_scab_road_phase3_1p06m_2022",
+      "hunt_cycle968"
+    ],
+    "map_supports": [
+      "eterna_scab_road_phase3_1p06m_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_castillo_dr_erc_barracks_1p04m_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945023C0027_9700_-NONE-_-NONE- (Castillo DR ERC barracks). Signed 2023-08-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945023C0027_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945023C0027_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Castillo DR ERC barracks USD 1.038m. Supports castillo_dr_erc_barracks_1p04m_2023.",
+    "supports": [
+      "castillo_dr_erc_barracks_1p04m_2023",
+      "hunt_cycle968"
+    ],
+    "map_supports": [
+      "castillo_dr_erc_barracks_1p04m_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_isla_gallinazo_clinic_1p02m_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0204_9700_W9127817D0095_9700 (Eterna Isla El Gallinazo clinic). Signed 2021-06-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0204_9700_W9127817D0095_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0204_9700_W9127817D0095_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Eterna Isla El Gallinazo clinic USD 1.017m. Supports eterna_isla_gallinazo_clinic_1p02m_2021.",
+    "supports": [
+      "eterna_isla_gallinazo_clinic_1p02m_2021",
+      "hunt_cycle968"
+    ],
+    "map_supports": [
+      "eterna_isla_gallinazo_clinic_1p02m_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

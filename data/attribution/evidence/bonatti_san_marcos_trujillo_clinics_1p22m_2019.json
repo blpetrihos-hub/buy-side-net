@@ -1,0 +1,10 @@
+{
+  "id": "bonatti_san_marcos_trujillo_clinics_1p22m_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_bonatti_san_marcos_trujillo_clinics_1p22m_2019",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0584_9700_W9127816D0099_9700/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "DESIGN AND CONSTRUCTION OF HAP #37570 CLINIC RENOVATION SAN MARCOS DE COLON, HONDURAS (CADD NO. SBA19005)&HAP #34876 HIV TREATMENT FACILITY TRUJILLO, HONDURAS (CADD NO. SEA19011)",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1220565.34; date_signed 2019-09-28."
+}
