@@ -13,7 +13,7 @@ dry_streak: 0
 # ≥1/3 U.S. hunt budget spent (7 US CapEx this batch).
 
 # === Cycle 947 (seed 20261947) ===
-# Shuffled: (computed seed 20261947).
+# Shuffled: graphite, water, niobium, power_plants_grid, port_cranes, balsa, nickel, fission_smr, port_ownership, building_materials, solar, engineering_epc, rail, copper, bridges_roads, lithium, other_renewables, wind.
 # Logged 5 NEW (4 US / 0 PRC / 0 allied / 1 other):
 #   comp_roof_guatemala_1p17m_2008 falcon_panama_hvac_1p03m_2010 tidewater_guayaquil_construction_586k_2018 serrano_galapagos_eoc_551k_2010 oeg_san_salvador_electrical_1p90m_2010.
 # Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
@@ -21,6 +21,7 @@ dry_streak: 0
 # Active after cycle 947: us609 / prc409 / allied1558 / other5861 (n=8437).
 
 # === Cycle 946 (seed 20261946) ===
+# Shuffled: wind, building_materials, power_plants_grid, nickel, engineering_epc, bridges_roads, balsa, solar, graphite, rail, fission_smr, port_ownership, water, niobium, other_renewables, copper, port_cranes, lithium.
 # Logged 5 NEW (3 US / 0 PRC / 0 allied / 2 other):
 #   edifice_haiti_construction_4p71m_2016 tseng_haiti_clinics_4p82m_2018 kunkel_culebra_fire_1p44m_2019 colibri_peru_school_1p38m_2015 pem_guatemala_pnc_barracks_781k_2022.
 # Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
@@ -28,6 +29,7 @@ dry_streak: 0
 # Active after cycle 946: us605 / prc409 / allied1558 / other5860 (n=8432).
 
 # === Cycle 945 (seed 20261945) ===
+# Shuffled: port_ownership, copper, bridges_roads, solar, graphite, other_renewables, balsa, rail, nickel, wind, port_cranes, power_plants_grid, water, engineering_epc, fission_smr, niobium, lithium, building_materials.
 # Logged 5 NEW (0 US / 0 PRC / 0 allied / 5 other):
 #   bonatti_gt_medical_clinic_1p29m_2025 bonatti_gt_drw_962k_2025 eterna_soto_cano_chapel_2p46m_2017 brasilia_nec_power_infra_754k_2026 bonatti_honduras_clinic_fire_1p91m_2021.
 # Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank. Note: cycle spent ≥1/3 U.S. hunt budget searching USASpending/company; rows landed other.
