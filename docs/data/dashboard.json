@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1773,
+    "n_rows": 1785,
     "counts": {
-      "total": 1773,
-      "active": 1574,
+      "total": 1785,
+      "active": 1586,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1500,
-      "on_map": 1436
+      "documented": 1512,
+      "on_map": 1448
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 267,
-        "n": 668
+        "allied": 279,
+        "n": 680
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 109575706204.58006,
-        "allied_n": 196
+        "allied": 111330025266.22006,
+        "allied_n": 208
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 129,
         "prc": 125,
-        "allied": 370,
-        "n": 624
+        "allied": 382,
+        "n": 636
       },
       "usd": {
         "us": 21129430723.329994,
         "us_n": 67,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 162178797378.09,
-        "allied_n": 289
+        "allied": 163933116439.73,
+        "allied_n": 301
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 161
+          "allied": 173
         },
         "infrastructure": {
           "us": 67,
@@ -2762,7 +2762,19 @@
       "cpfl_cidade_industrial_162m_brl_2025",
       "cpfl_live_line_trucks_52m_brl_2025",
       "equatorial_ativos_eletricos_2t26_1933m_brl",
-      "equatorial_obrigacoes_especiais_2t26_460m_brl"
+      "equatorial_obrigacoes_especiais_2t26_460m_brl",
+      "neoenergia_novas_ligacoes_6m26_1278m_brl",
+      "neoenergia_novas_ses_rds_6m26_831m_brl",
+      "neoenergia_renovacao_ativos_6m26_674m_brl",
+      "neoenergia_melhoria_rede_6m26_276m_brl",
+      "isa_energia_1s26_capex_2275p9m_brl",
+      "isa_energia_1s26_licitados_1460p4m_brl",
+      "isa_energia_serra_dourada_2t26_455p7m_brl",
+      "isa_energia_piraque_2t26_84p4m_brl",
+      "isa_energia_itatiaia_2t26_52p2m_brl",
+      "equatorial_pa_2t26_716m_brl",
+      "equatorial_go_2t26_675m_brl",
+      "equatorial_ma_2t26_330m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
