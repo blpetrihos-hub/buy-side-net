@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8290,
+    "n_rows": 8295,
     "counts": {
-      "total": 8290,
-      "active": 8091,
+      "total": 8295,
+      "active": 8096,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8017,
-      "on_map": 7921
+      "documented": 8022,
+      "on_map": 7926
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3975,
-        "n": 4376
+        "allied": 3980,
+        "n": 4381
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383489641170.7708,
-        "allied_n": 3904
+        "allied": 383500237878.8508,
+        "allied_n": 3909
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6858,
-        "n": 7113
+        "allied": 6863,
+        "n": 7118
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527358347146.57043,
-        "allied_n": 6777
+        "allied": 527368943854.65045,
+        "allied_n": 6782
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3841
+          "allied": 3846
         },
         "infrastructure": {
           "us": 68,
@@ -9279,7 +9279,12 @@
       "axia_txproj_reforco_na_se_campinas_substituicao_do_autotr_12m_brl",
       "axia_txproj_melhoria_na_se_campos_substituicao_do_reator__12m_brl",
       "axia_txproj_melhoria_na_se_bras_sul_substituicao_do_trans_11m_brl",
-      "axia_txproj_melhoria_na_se_bandeirantes_substituicao_de_r_11m_brl"
+      "axia_txproj_melhoria_na_se_bandeirantes_substituicao_de_r_11m_brl",
+      "axia_txproj_melhoria_na_se_camacari_ii_substituicao_do_tr_11m_brl",
+      "axia_txproj_melhoria_na_se_c_paulista_substituicao_do_rea_11m_brl",
+      "axia_txproj_melhoria_na_se_bandeirantes_substituicao_de_t_11m_brl",
+      "axia_txproj_melhoria_na_se_curitiba_substituicao_do_reato_11m_brl",
+      "axia_txproj_se_angra_remanejamento_de_vaos_500_kv_conclui_11m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
