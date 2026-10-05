@@ -1,0 +1,10 @@
+{
+  "id": "federal_contracts_mexico_semar_light_towers_72k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_federal_contracts_mexico_semar_light_towers_72k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53012M1169_1900_-NONE-_-NONE-/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "NAS - MI - 01281202 (SEMAR)- COMPACT HEAVY DUTY LIGHT TOWERS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 72482.85; date_signed 2012-06-21."
+}
