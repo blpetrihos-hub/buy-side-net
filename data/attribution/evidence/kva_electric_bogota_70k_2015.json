@@ -1,0 +1,10 @@
+{
+  "id": "kva_electric_bogota_70k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_kva_electric_bogota_70k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F0439_1900_SAQMMA13D0022_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "ELECTRICAL WORK BOGOTA, COLUMBIA  IGF::CL::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 69882.99; date_signed 2015-12-28."
+}

@@ -50424,5 +50424,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_tabcon_guyana_roof_hatch_60k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM25F0298_1900_19AQMM19D0084_1900 (Tabcon Guyana roof hatch). Signed 2025-02-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM25F0298_1900_19AQMM19D0084_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM25F0298_1900_19AQMM19D0084_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tabcon Guyana roof hatch USD 0.060m. Supports tabcon_guyana_roof_hatch_60k_2025.",
+    "supports": [
+      "tabcon_guyana_roof_hatch_60k_2025",
+      "hunt_cycle1041"
+    ],
+    "map_supports": [
+      "tabcon_guyana_roof_hatch_60k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_western_extralite_panama_nec_lighting_72k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPM07014M0872_1900_-NONE-_-NONE- (Western Extralite Panama NEC lighting). Signed 2014-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0872_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPM07014M0872_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Western Extralite Panama NEC lighting USD 0.072m. Supports western_extralite_panama_nec_lighting_72k_2014.",
+    "supports": [
+      "western_extralite_panama_nec_lighting_72k_2014",
+      "hunt_cycle1041"
+    ],
+    "map_supports": [
+      "western_extralite_panama_nec_lighting_72k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_aureliano_brazil_sliding_gates_72k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2525P0557_1900_-NONE-_-NONE- (Aureliano Brazil sliding gates). Signed 2025-04-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P0557_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2525P0557_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Aureliano Brazil sliding gates USD 0.072m. Supports aureliano_brazil_sliding_gates_72k_2025.",
+    "supports": [
+      "aureliano_brazil_sliding_gates_72k_2025",
+      "hunt_cycle1041"
+    ],
+    "map_supports": [
+      "aureliano_brazil_sliding_gates_72k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_belize_police_generator_ats_72k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBH20014M0040_1900_-NONE-_-NONE- (Belize police generator ATS). Signed 2013-12-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20014M0040_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBH20014M0040_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Belize police generator ATS USD 0.072m. Supports misc_belize_police_generator_ats_72k_2013.",
+    "supports": [
+      "misc_belize_police_generator_ats_72k_2013",
+      "hunt_cycle1041"
+    ],
+    "map_supports": [
+      "misc_belize_police_generator_ats_72k_2013"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_romero_peru_sand_filter_72k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50015C0017_1900_-NONE-_-NONE- (Romero Peru sand filter). Signed 2015-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50015C0017_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50015C0017_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Romero Peru sand filter USD 0.072m. Supports romero_peru_sand_filter_72k_2015.",
+    "supports": [
+      "romero_peru_sand_filter_72k_2015",
+      "hunt_cycle1041"
+    ],
+    "map_supports": [
+      "romero_peru_sand_filter_72k_2015"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_applied_security_brasilia_72k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F0176_1900_SAQMMA07D0030_1900 (Applied Security Brasília). Signed 2012-11-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F0176_1900_SAQMMA07D0030_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F0176_1900_SAQMMA07D0030_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Applied Security Brasília USD 0.072m. Supports applied_security_brasilia_72k_2012.",
+    "supports": [
+      "applied_security_brasilia_72k_2012",
+      "hunt_cycle1042"
+    ],
+    "map_supports": [
+      "applied_security_brasilia_72k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_usmax_dr_security_install_70k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA13F2269_1900_SAQMMA13D0055_1900 (USMAX DR security). Signed 2013-08-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F2269_1900_SAQMMA13D0055_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA13F2269_1900_SAQMMA13D0055_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: USMAX DR security USD 0.070m. Supports usmax_dr_security_install_70k_2013.",
+    "supports": [
+      "usmax_dr_security_install_70k_2013",
+      "hunt_cycle1042"
+    ],
+    "map_supports": [
+      "usmax_dr_security_install_70k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_forte_barbados_residence_51k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BB2123C0001_1900_-NONE-_-NONE- (Forte Barbados residence). Signed 2022-12-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2123C0001_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2123C0001_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Forte Barbados residence USD 0.051m. Supports forte_barbados_residence_51k_2022.",
+    "supports": [
+      "forte_barbados_residence_51k_2022",
+      "hunt_cycle1042"
+    ],
+    "map_supports": [
+      "forte_barbados_residence_51k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_insaso_suriname_roof_71k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19NS5022P0606_1900_-NONE-_-NONE- (Insaso Suriname roof). Signed 2022-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NS5022P0606_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NS5022P0606_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Insaso Suriname roof USD 0.071m. Supports insaso_suriname_roof_71k_2022.",
+    "supports": [
+      "insaso_suriname_roof_71k_2022",
+      "hunt_cycle1042"
+    ],
+    "map_supports": [
+      "insaso_suriname_roof_71k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bolanos_ecuador_msgq_kitchen_72k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7522C0010_1900_-NONE-_-NONE- (Bolaños Ecuador MSGQ kitchen). Signed 2022-05-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0010_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0010_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bolaños Ecuador MSGQ kitchen USD 0.072m. Supports bolanos_ecuador_msgq_kitchen_72k_2022.",
+    "supports": [
+      "bolanos_ecuador_msgq_kitchen_72k_2022",
+      "hunt_cycle1042"
+    ],
+    "map_supports": [
+      "bolanos_ecuador_msgq_kitchen_72k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_kva_electric_bogota_70k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16F0439_1900_SAQMMA13D0022_1900 (KVA Electric Bogotá). Signed 2015-12-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F0439_1900_SAQMMA13D0022_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F0439_1900_SAQMMA13D0022_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: KVA Electric Bogotá USD 0.070m. Supports kva_electric_bogota_70k_2015.",
+    "supports": [
+      "kva_electric_bogota_70k_2015",
+      "hunt_cycle1043"
+    ],
+    "map_supports": [
+      "kva_electric_bogota_70k_2015"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_ge_jamaica_nec_breakers_62k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37016M0460_1900_-NONE-_-NONE- (GE Jamaica NEC breakers). Signed 2016-02-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37016M0460_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37016M0460_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: GE Jamaica NEC breakers USD 0.062m. Supports ge_jamaica_nec_breakers_62k_2016.",
+    "supports": [
+      "ge_jamaica_nec_breakers_62k_2016",
+      "hunt_cycle1043"
+    ],
+    "map_supports": [
+      "ge_jamaica_nec_breakers_62k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_nicaragua_fence_71k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SNU70017M0187_1900_-NONE-_-NONE- (Nicaragua fence). Signed 2017-05-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70017M0187_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70017M0187_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Nicaragua fence USD 0.071m. Supports misc_nicaragua_fence_71k_2017.",
+    "supports": [
+      "misc_nicaragua_fence_71k_2017",
+      "hunt_cycle1043"
+    ],
+    "map_supports": [
+      "misc_nicaragua_fence_71k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_bahamas_perimeter_fence_71k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50017C0002_1900_-NONE-_-NONE- (Bahamas NEC perimeter fence). Signed 2017-06-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0002_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0002_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bahamas NEC perimeter fence USD 0.071m. Supports misc_bahamas_perimeter_fence_71k_2017.",
+    "supports": [
+      "misc_bahamas_perimeter_fence_71k_2017",
+      "hunt_cycle1043"
+    ],
+    "map_supports": [
+      "misc_bahamas_perimeter_fence_71k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_temi_caracas_switchgear_71k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0256_1900_-NONE-_-NONE- (TEMI Caracas switchgear). Signed 2018-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0256_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0256_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: TEMI Caracas switchgear USD 0.071m. Supports temi_caracas_switchgear_71k_2018.",
+    "supports": [
+      "temi_caracas_switchgear_71k_2018",
+      "hunt_cycle1043"
+    ],
+    "map_supports": [
+      "temi_caracas_switchgear_71k_2018"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]

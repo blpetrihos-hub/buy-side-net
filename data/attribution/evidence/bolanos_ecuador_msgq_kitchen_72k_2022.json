@@ -1,0 +1,10 @@
+{
+  "id": "bolanos_ecuador_msgq_kitchen_72k_2022",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_bolanos_ecuador_msgq_kitchen_72k_2022",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0010_1900_-NONE-_-NONE-/",
+  "price_year": "2022",
+  "evidence": "documented",
+  "quote": "1900.0-7903-R-PR10398406-FWP#283-RESTAURATION OF MSGQ KITCHEN",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 71670.01; date_signed 2022-05-19."
+}
