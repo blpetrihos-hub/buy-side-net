@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1520,
+    "n_rows": 1522,
     "counts": {
-      "total": 1520,
-      "active": 1321,
+      "total": 1522,
+      "active": 1323,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1259,
-      "on_map": 1186
+      "documented": 1261,
+      "on_map": 1188
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 173,
         "prc": 126,
-        "allied": 175,
-        "n": 474
+        "allied": 176,
+        "n": 475
       },
       "usd": {
         "us": 43582029765.72001,
         "us_n": 106,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 48834195110.89002,
-        "allied_n": 102
+        "allied": 48988853149.06002,
+        "allied_n": 103
       },
       "matched_gaps": {
         "n": 1,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 155,
         "prc": 184,
-        "allied": 190,
-        "n": 529
+        "allied": 191,
+        "n": 530
       },
       "usd": {
         "us": 23626161117.969997,
         "us_n": 51,
         "prc": 32921064912.409996,
         "prc_n": 52,
-        "allied": 86119443979.31,
-        "allied_n": 122
+        "allied": 86751172952.17,
+        "allied_n": 123
       },
       "matched_gaps": {
         "n": 1,
@@ -364,27 +364,27 @@
       "counts": {
         "us": 108,
         "prc": 99,
-        "allied": 202,
-        "n": 409
+        "allied": 204,
+        "n": 411
       },
       "usd": {
         "us": 19450402391.829998,
         "us_n": 46,
         "prc": 31663045882.620003,
         "prc_n": 41,
-        "allied": 115000071467.61005,
-        "allied_n": 123
+        "allied": 115786458478.64005,
+        "allied_n": 125
       },
       "by_layer": {
         "energy": {
           "us": 19,
           "prc": 65,
-          "allied": 88
+          "allied": 89
         },
         "infrastructure": {
           "us": 63,
           "prc": 25,
-          "allied": 54
+          "allied": 55
         },
         "resources": {
           "us": 26,
@@ -2509,7 +2509,9 @@
       "equatorial_2t26_capex_2p6bn_brl",
       "cpfl_2t26_capex_1p5bn_brl",
       "taesa_6m26_capex_445p3m_brl",
-      "eneva_2t26_capex_1p59bn_brl"
+      "eneva_2t26_capex_1p59bn_brl",
+      "cemig_1s26_capex_3p28bn_brl",
+      "votorantim_cimentos_2t26_capex_803m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

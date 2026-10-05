@@ -12520,3 +12520,19 @@
   supports:
   - eneva_2t26_capex_1p59bn_brl
   - hunt_cycle255
+- id: cemig_1s26_results_presentation_20260630
+  type: company
+  chicago: Cemig. “Teleconferência / Apresentação de Resultados” (1S26 / 2T26). June 30, 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
+  url: https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf
+  annotation: Cemig 1S26 NEW R$3.28bn ~USD 631.73m via Fed H.10. Supports cemig_1s26_capex_3p28bn_brl.
+  supports:
+  - cemig_1s26_capex_3p28bn_brl
+  - hunt_cycle256
+- id: votorantim_cimentos_2t26_results_2026
+  type: company
+  chicago: Votorantim Cimentos. “Nossos resultados financeiros no segundo trimestre de 2026.” 2026. https://www.votorantimcimentos.com.br/noticia/nossos-resultados-financeiros-no-segundo-trimestre-de-2026/.
+  url: https://www.votorantimcimentos.com.br/noticia/nossos-resultados-financeiros-no-segundo-trimestre-de-2026/
+  annotation: Votorantim Cimentos 2T26 NEW R$803m ~USD 154.66m via Fed H.10. Supports votorantim_cimentos_2t26_capex_803m_brl.
+  supports:
+  - votorantim_cimentos_2t26_capex_803m_brl
+  - hunt_cycle256
