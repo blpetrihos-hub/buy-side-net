@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 8516,
+    "n_rows": 8531,
     "counts": {
-      "total": 8516,
-      "active": 8317,
+      "total": 8531,
+      "active": 8332,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8243,
-      "on_map": 8129
+      "documented": 8258,
+      "on_map": 8144
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 239,
+        "us": 254,
         "prc": 129,
         "allied": 3022,
-        "n": 3390
+        "n": 3405
       },
       "usd": {
-        "us": 46820886831.60997,
-        "us_n": 172,
+        "us": 46943959986.669975,
+        "us_n": 187,
         "prc": 17322325919.350002,
         "prc_n": 40,
         "allied": 144660484764.13977,
@@ -207,14 +207,14 @@
     {
       "country": "Argentina",
       "counts": {
-        "us": 21,
+        "us": 23,
         "prc": 35,
         "allied": 34,
-        "n": 90
+        "n": 92
       },
       "usd": {
-        "us": 9370869147.0,
-        "us_n": 5,
+        "us": 9375761018.85,
+        "us_n": 7,
         "prc": 3894732659.07,
         "prc_n": 14,
         "allied": 33445356187.2,
@@ -227,7 +227,7 @@
           "allied": 13
         },
         "infrastructure": {
-          "us": 11,
+          "us": 13,
           "prc": 5,
           "allied": 4
         },
@@ -367,14 +367,14 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 130,
+        "us": 133,
         "prc": 125,
         "allied": 6951,
-        "n": 7206
+        "n": 7209
       },
       "usd": {
-        "us": 21244990901.289993,
-        "us_n": 68,
+        "us": 21307200642.219994,
+        "us_n": 71,
         "prc": 42011016838.479996,
         "prc_n": 61,
         "allied": 527457104463.6001,
@@ -387,7 +387,7 @@
           "allied": 3934
         },
         "infrastructure": {
-          "us": 68,
+          "us": 71,
           "prc": 26,
           "allied": 2850
         },
@@ -401,14 +401,14 @@
     {
       "country": "Chile",
       "counts": {
-        "us": 80,
+        "us": 84,
         "prc": 43,
         "allied": 106,
-        "n": 229
+        "n": 233
       },
       "usd": {
-        "us": 55996583350.0,
-        "us_n": 46,
+        "us": 56014227436.3,
+        "us_n": 50,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 53374532361.0,
@@ -421,7 +421,7 @@
           "allied": 42
         },
         "infrastructure": {
-          "us": 11,
+          "us": 15,
           "prc": 7,
           "allied": 22
         },
@@ -852,14 +852,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 53,
+        "us": 58,
         "prc": 19,
         "allied": 40,
-        "n": 112
+        "n": 117
       },
       "usd": {
-        "us": 11158173888.83,
-        "us_n": 38,
+        "us": 11194402573.889997,
+        "us_n": 43,
         "prc": 312365273.57,
         "prc_n": 4,
         "allied": 11839667116.179998,
@@ -872,7 +872,7 @@
           "allied": 8
         },
         "infrastructure": {
-          "us": 29,
+          "us": 34,
           "prc": 12,
           "allied": 25
         },
@@ -1138,14 +1138,14 @@
     {
       "country": "Uruguay",
       "counts": {
-        "us": 6,
+        "us": 7,
         "prc": 2,
         "allied": 4,
-        "n": 12
+        "n": 13
       },
       "usd": {
-        "us": 975880217.37,
-        "us_n": 2,
+        "us": 977978988.29,
+        "us_n": 3,
         "prc": 191000000.0,
         "prc_n": 1,
         "allied": 212000000.0,
@@ -1158,7 +1158,7 @@
           "allied": 0
         },
         "infrastructure": {
-          "us": 2,
+          "us": 3,
           "prc": 1,
           "allied": 3
         },
@@ -9515,7 +9515,22 @@
       "kgn_callao_navy_infra_22p2m_2025",
       "machado_silvetti_bogota_design_5p01m_2024",
       "falcon_asuncion_electrical_1p60m_2010",
-      "oes_quito_fe_br_1p27m_2012"
+      "oes_quito_fe_br_1p27m_2012",
+      "cts_montevideo_psu_2p10m_2011",
+      "arkel_tijuana_msgr_14p5m_2021",
+      "framaco_buenos_aires_dcmr_3p78m_2023",
+      "american_roofing_buenos_aires_1p11m_2010",
+      "copper_river_santiago_msgr_6p63m_2023",
+      "roofing_resources_santiago_obc_3p85m_2019",
+      "oes_santiago_fe_br_3p60m_2011",
+      "studio_ma_santiago_design_3p57m_2025",
+      "beltsville_brasilia_psu_10p2m_2010",
+      "studio_gang_brasilia_nec_design_43p6m_2017",
+      "venesco_ciudad_juarez_msgr_16p5m_2017",
+      "markon_brasilia_nec_eng_8p41m_2021",
+      "versar_guadalajara_eng_1p70m_2019",
+      "src_hermosillo_ncc_eng_2p60m_2019",
+      "wsp_ciudad_juarez_cm_929k_2018"
     ],
     "hunt": [
       "hunt_br_power_equip",
