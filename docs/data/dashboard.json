@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 1486,
+    "n_rows": 1490,
     "counts": {
-      "total": 1486,
-      "active": 1287,
+      "total": 1490,
+      "active": 1291,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1225,
-      "on_map": 1157
+      "documented": 1229,
+      "on_map": 1159
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 166,
+        "us": 167,
         "prc": 126,
         "allied": 171,
-        "n": 463
+        "n": 464
       },
       "usd": {
-        "us": 33506005998.850002,
-        "us_n": 99,
+        "us": 38506005998.850006,
+        "us_n": 100,
         "prc": 17053401133.600002,
         "prc_n": 38,
         "allied": 43854111907.56002,
@@ -154,17 +154,17 @@
       "layer": "energy",
       "counts": {
         "us": 153,
-        "prc": 181,
-        "allied": 175,
-        "n": 509
+        "prc": 182,
+        "allied": 177,
+        "n": 512
       },
       "usd": {
         "us": 23173858581.43,
         "us_n": 49,
-        "prc": 26314874738.879993,
-        "prc_n": 49,
-        "allied": 64270929351.31,
-        "allied_n": 107
+        "prc": 32092883637.009995,
+        "prc_n": 50,
+        "allied": 76212147740.79001,
+        "allied_n": 109
       },
       "matched_gaps": {
         "n": 1,
@@ -363,23 +363,23 @@
       "country": "Brazil",
       "counts": {
         "us": 101,
-        "prc": 96,
-        "allied": 183,
-        "n": 380
+        "prc": 97,
+        "allied": 185,
+        "n": 383
       },
       "usd": {
         "us": 15122076088.419998,
         "us_n": 39,
-        "prc": 25056855709.09,
-        "prc_n": 38,
-        "allied": 84790811245.34006,
-        "allied_n": 104
+        "prc": 30834864607.22,
+        "prc_n": 39,
+        "allied": 96732029634.82007,
+        "allied_n": 106
       },
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 62,
-          "allied": 75
+          "prc": 63,
+          "allied": 77
         },
         "infrastructure": {
           "us": 58,
@@ -842,14 +842,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 50,
+        "us": 51,
         "prc": 19,
         "allied": 38,
-        "n": 107
+        "n": 108
       },
       "usd": {
-        "us": 4769173888.83,
-        "us_n": 35,
+        "us": 9769173888.83,
+        "us_n": 36,
         "prc": 312365273.57,
         "prc_n": 4,
         "allied": 10915667116.179998,
@@ -862,7 +862,7 @@
           "allied": 8
         },
         "infrastructure": {
-          "us": 26,
+          "us": 27,
           "prc": 12,
           "allied": 23
         },
@@ -2475,7 +2475,11 @@
       "equatorial_quantum_170m_brl_2026",
       "cpfl_tx_lote3_1p1bn_brl_2025",
       "engie_grauna_tx_2p93bn_brl_2024",
-      "neoenergia_elektro_8p2bn_brl_2026_2030"
+      "neoenergia_elektro_8p2bn_brl_2026_2030",
+      "aws_mexico_5bn_2025",
+      "sgbh_cumulative_30bn_brl_2010_2025",
+      "cemig_capex_plan_44bn_brl_2026_2030",
+      "energisa_4states_18bn_brl_2026_2030"
     ],
     "hunt": [
       "hunt_br_power_equip",
