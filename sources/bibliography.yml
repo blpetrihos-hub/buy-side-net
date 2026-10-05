@@ -12368,12 +12368,14 @@
   type: company
   chicago: CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26.” August 13, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.
   url: https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213
-  annotation: CPFL 1H26 Dist soft CapEx ~R$2.24bn via Fed H.10. Supports cpfl_1h26_dist_2240m_brl; cpfl_1h26_capex_2p8bn_brl.
+  annotation: CPFL 1H26 non-Dist soft ~R$560m via Fed H.10. Supports cpfl_1h26_nondist_soft_560m_brl.
   supports:
   - cpfl_1h26_capex_2p8bn_brl
   - hunt_cycle251
   - cpfl_1h26_dist_2240m_brl
   - hunt_cycle273
+  - cpfl_1h26_nondist_soft_560m_brl
+  - hunt_cycle276
 - id: taesa_4t25_greenfield_4p3bn
   type: company
   chicago: TAESA. “Earnings Release 4Q25 and 2025.” March 2026. https://ri.taesa.com.br/wp-content/uploads/2026/03/Release-4T25_ing.pdf.
@@ -12604,7 +12606,7 @@
   type: company
   chicago: Neoenergia S.A. “Results as of June 30, 2026” (2Q26/6M26 earnings release). July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia Customers 6M26 CapEx R$19m via Fed H.10. Supports neoenergia_customers_6m26_19m_brl.
+  annotation: Neoenergia Wind Farms 2Q26 CapEx R$17m via Fed H.10. Supports neoenergia_wind_2q26_17m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12621,6 +12623,9 @@
   - neoenergia_hydro_6m26_6m_brl
   - hunt_cycle275
   - neoenergia_customers_6m26_19m_brl
+  - neoenergia_network_expansion_6m26_2265m_brl
+  - hunt_cycle276
+  - neoenergia_wind_2q26_17m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
@@ -12714,7 +12719,7 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo Capacitação Malha 2T26 CapEx R$483m via Fed H.10. Supports rumo_capacitacao_2t26_483m_brl.
+  annotation: Rumo Porto e Terminais 2T26 CapEx R$39m via Fed H.10. Supports rumo_porto_terminais_2t26_39m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
@@ -12724,6 +12729,9 @@
   - rumo_sul_2t26_183m_brl
   - rumo_capacitacao_2t26_483m_brl
   - hunt_cycle275
+  - rumo_expansao_norte_2t26_979m_brl
+  - hunt_cycle276
+  - rumo_porto_terminais_2t26_39m_brl
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -12761,7 +12769,7 @@
   type: company
   chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea Demais Concessões 2T26 Capex R$356m via Fed H.10. Supports aegea_demais_2t26_356m_brl.
+  annotation: Aegea Outorgas 2T26 R$73m via Fed H.10. Supports aegea_outorgas_2t26_73m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12777,6 +12785,10 @@
   - hunt_cycle275
   - aegea_novas_operacoes_2t26_186m_brl
   - aegea_demais_2t26_356m_brl
+  - aegea_prolagos_2t26_39m_brl
+  - hunt_cycle276
+  - aegea_teresina_2t26_38m_brl
+  - aegea_outorgas_2t26_73m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13089,7 +13101,7 @@
   type: company
   chicago: AES Andes S.A. “US$ 530 million 8.150% Junior Notes due 2055 Green Bond Impact Report.” June 2026. https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf.
   url: https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf
-  annotation: AES Andes Energy Purchases Chile green allocation US$87.80m. Supports aes_andes_green_purchases_chile_87p8m.
+  annotation: AES Andes June 2026 green allocation window US$138.67m. Supports aes_andes_green_window_138p7m_2026.
   supports:
   - aes_andes_green_bond_530m_20240610
   - hunt_cycle272
@@ -13101,6 +13113,9 @@
   - aes_andes_green_wind_colombia_2p9m
   - aes_andes_green_purchases_chile_87p8m
   - hunt_cycle274
+  - aes_andes_green_pending_198p3m
+  - hunt_cycle276
+  - aes_andes_green_window_138p7m_2026
 - id: ctg_brasil_crescimento_sustentavel_2025
   type: company
   chicago: CTG Brasil. “CTG Brasil se prepara para novo ciclo de crescimento sustentável.” Company Portuguese. https://www.ctgbr.com.br/ctg-brasil-se-prepara-para-novo-ciclo-de-crescimento-sustentavel/.
