@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8275,
+    "n_rows": 8280,
     "counts": {
-      "total": 8275,
-      "active": 8076,
+      "total": 8280,
+      "active": 8081,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8002,
-      "on_map": 7906
+      "documented": 8007,
+      "on_map": 7911
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3960,
-        "n": 4361
+        "allied": 3965,
+        "n": 4366
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383453424387.0108,
-        "allied_n": 3889
+        "allied": 383466462595.2608,
+        "allied_n": 3894
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6843,
-        "n": 7098
+        "allied": 6848,
+        "n": 7103
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527322130362.8104,
-        "allied_n": 6762
+        "allied": 527335168571.0604,
+        "allied_n": 6767
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3826
+          "allied": 3831
         },
         "infrastructure": {
           "us": 68,
@@ -9264,7 +9264,12 @@
       "axia_txproj_reforco_na_se_s_joao_do_piaui_substituicao_do_14m_brl",
       "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl",
       "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl_v2",
-      "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl_v3"
+      "axia_txproj_melhoria_na_se_dourados_substituicao_do_autot_14m_brl_v3",
+      "axia_txproj_reforco_na_se_caxias_do_sul_5_instalacao_do_3_14m_brl",
+      "axia_txproj_melhoria_na_se_imperatriz_substituicao_do_rea_14m_brl",
+      "axia_txproj_melhoria_na_se_serra_da_mesa_substituicao_do__13m_brl",
+      "axia_txproj_melhoria_na_se_j_lacerda_a_substituicao_do_tr_13m_brl",
+      "axia_txproj_melhoria_na_se_sto_ant_jesus_substituicao_de__13m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
