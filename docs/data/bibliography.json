@@ -22889,13 +22889,18 @@
     "type": "company",
     "chicago": "ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.",
     "url": "https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/",
-    "annotation": "ENGIE Brasil 2T26 NEW R$329m ~USD 63.37m via Fed H.10. Supports engie_brasil_2t26_capex_329m_brl.",
+    "annotation": "ENGIE Brasil 2T26 Asa Branca/Graúna nested CapEx via Fed H.10. Supports engie_asa_branca_2t26_capex_111m_brl; engie_grauna_2t26_capex_104m_brl.",
     "supports": [
       "engie_brasil_2t26_capex_329m_brl",
-      "hunt_cycle257"
+      "hunt_cycle257",
+      "engie_asa_branca_2t26_capex_111m_brl",
+      "hunt_cycle264",
+      "engie_grauna_2t26_capex_104m_brl"
     ],
     "map_supports": [
-      "engie_brasil_2t26_capex_329m_brl"
+      "engie_asa_branca_2t26_capex_111m_brl",
+      "engie_brasil_2t26_capex_329m_brl",
+      "engie_grauna_2t26_capex_104m_brl"
     ],
     "layers": [
       "energy"
@@ -23091,17 +23096,20 @@
     "type": "company",
     "chicago": "Alupar Investimento S.A. “Release de Resultados 2T26.” August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.",
     "url": "https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip",
-    "annotation": "Alupar 2T26 company release (ZIP): Lot 7 TESP R$1,089m; TAP/TPC/TCN CapEx previsto R$498.52m / R$2,597.23m / R$1,390.64m via Fed H.10.",
+    "annotation": "Alupar 2T26 company ZIP: Palca Peru CapEx USD 220m; also supports prior Lot 7/TAP/TPC/TCN rows.",
     "supports": [
       "alupar_lote7_tesp_1089m_brl_2026",
       "hunt_cycle260",
       "alupar_tap_capex_previsto_498p52m_brl",
       "hunt_cycle261",
       "alupar_tpc_capex_previsto_2597p23m_brl",
-      "alupar_tcn_capex_previsto_1390p64m_brl"
+      "alupar_tcn_capex_previsto_1390p64m_brl",
+      "alupar_palca_peru_capex_220m_usd",
+      "hunt_cycle264"
     ],
     "map_supports": [
       "alupar_lote7_tesp_1089m_brl_2026",
+      "alupar_palca_peru_capex_220m_usd",
       "alupar_tap_capex_previsto_498p52m_brl",
       "alupar_tcn_capex_previsto_1390p64m_brl",
       "alupar_tpc_capex_previsto_2597p23m_brl"
@@ -23198,6 +23206,93 @@
     ],
     "map_supports": [
       "motiva_2026_highways_plan_7167m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "copel_2t26_investidor10_1s26",
+    "type": "company",
+    "chicago": "Copel (Companhia Paranaense de Energia). “Destaques 2T26” CapEx table (RI republication). 2026. https://investidor10.com.br/acoes/link_comunicado/CPLE3/46836/.",
+    "url": "https://investidor10.com.br/acoes/link_comunicado/CPLE3/46836/",
+    "annotation": "Copel 1S26 CapEx R$1,538.8m via Fed H.10. Supports copel_1s26_capex_1538p8m_brl.",
+    "supports": [
+      "copel_1s26_capex_1538p8m_brl",
+      "hunt_cycle264"
+    ],
+    "map_supports": [
+      "copel_1s26_capex_1538p8m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "engie_brasil_1t26_pr_20260507",
+    "type": "company",
+    "chicago": "ENGIE Brasil Energia. “ENGIE Brasil Energia registra receita operacional líquida de R$ 3,4 bilhões no primeiro trimestre de 2026.” May 7, 2026. https://www.engie.com.br/imprensa/press-releases/receita-operacional-liquida-de-r-34-bilhoes-no-1t26/.",
+    "url": "https://www.engie.com.br/imprensa/press-releases/receita-operacional-liquida-de-r-34-bilhoes-no-1t26/",
+    "annotation": "ENGIE Brasil 1T26 CapEx R$219m via Fed H.10. Supports engie_brasil_1t26_capex_219m_brl.",
+    "supports": [
+      "engie_brasil_1t26_capex_219m_brl",
+      "hunt_cycle264"
+    ],
+    "map_supports": [
+      "engie_brasil_1t26_capex_219m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cenarioenergia_alupar_2t26_20260807",
+    "type": "press",
+    "chicago": "Cenário Energia. “Alupar amplia receita regulatória em 10,3% no 2T26 e acelera expansão com R$ 10 bilhões em projetos de transmissão.” August 7, 2026. https://cenarioenergia.com.br/2026/08/07/alupar-receita-regulatoria-2t26-projetos-transmissao-tecp/.",
+    "url": "https://cenarioenergia.com.br/2026/08/07/alupar-receita-regulatoria-2t26-projetos-transmissao-tecp/",
+    "annotation": "Alupar 2T26 CapEx desembolsado R$354m via Fed H.10 (UNVERIFIED proxy). Supports alupar_2t26_capex_354m_brl.",
+    "supports": [
+      "alupar_2t26_capex_354m_brl",
+      "hunt_cycle264"
+    ],
+    "map_supports": [
+      "alupar_2t26_capex_354m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mrs_baixada_santista_ccoi_20260630",
+    "type": "company",
+    "chicago": "MRS Logística. “Ferrovias inauguram Centro de Controle Operacional Integrado e MRS entrega obras da Baixada Santista com investimento de R$ 2 bilhões.” June 30, 2026. https://www.mrs.com.br/wp-content/uploads/2026/03/07-2026_Ferrovias-Inauguram-CCOI-e-MRS-oficializa-investimentos-na-ferrovia-de-acesso-a-Santos.pdf.",
+    "url": "https://www.mrs.com.br/wp-content/uploads/2026/03/07-2026_Ferrovias-Inauguram-CCOI-e-MRS-oficializa-investimentos-na-ferrovia-de-acesso-a-Santos.pdf",
+    "annotation": "MRS Baixada Santista CapEx cycle R$2bn via Fed H.10. Supports mrs_baixada_santista_2bn_brl_2026.",
+    "supports": [
+      "mrs_baixada_santista_2bn_brl_2026",
+      "hunt_cycle264"
+    ],
+    "map_supports": [
+      "mrs_baixada_santista_2bn_brl_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "rumo_2026_capex_plan_20260402",
+    "type": "company",
+    "chicago": "Rumo Logística. “Rumo deve investir R$ 6 bi em 2026 e prevê estreia de ferrovia até setembro.” April 2, 2026. https://rumolog.com/sala-de-imprensa/rumo-deve-investir-r-6-bi-em-2026-e-preve-estreia-de-ferrovia-ate-setembro/.",
+    "url": "https://rumolog.com/sala-de-imprensa/rumo-deve-investir-r-6-bi-em-2026-e-preve-estreia-de-ferrovia-ate-setembro/",
+    "annotation": "Rumo 2026 CapEx plan R$5.5bn floor + Ferrovia MT R$1bn via Fed H.10. Supports rumo_2026_capex_plan_55bn_brl; rumo_ferrovia_mt_1bn_brl_2026.",
+    "supports": [
+      "rumo_2026_capex_plan_55bn_brl",
+      "hunt_cycle264",
+      "rumo_ferrovia_mt_1bn_brl_2026"
+    ],
+    "map_supports": [
+      "rumo_2026_capex_plan_55bn_brl",
+      "rumo_ferrovia_mt_1bn_brl_2026"
     ],
     "layers": [
       "infrastructure"
