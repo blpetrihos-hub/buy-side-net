@@ -18116,7 +18116,7 @@
   type: company
   chicago: ISA Energia Brasil S.A. “Kit Investidor 2T26 — CapEx (planilha RI).” Retrieved October 5, 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6756-Kit-Investidor-2T26.xlsx.
   url: https://ri.isaenergiabrasil.com.br/pt/documentos/6756-Kit-Investidor-2T26.xlsx
-  annotation: ISA Energia TOTAL (consolidado + coligadas) 4T25 CapEx via Fed H.10. Supports isa_energia_4t25_capex_1699m_brl.
+  annotation: ISA Energia TOTAL (consolidado + coligadas) 3T25 CapEx via Fed H.10. Supports isa_energia_3t25_capex_1195m_brl.
   supports:
   - isa_energia_rm_isa_fy2025_1661m_brl
   - hunt_cycle574
@@ -18259,3 +18259,15 @@
   - isa_energia_gf_total_4t25_1132m_brl
   - isa_energia_consolidado_4t25_1688m_brl
   - isa_energia_4t25_capex_1699m_brl
+  - isa_energia_rm_isa_3t25_428m_brl
+  - hunt_cycle586
+  - isa_energia_rm_total_3t25_438m_brl
+  - isa_energia_piraque_gf_3t25_504m_brl
+  - isa_energia_serra_dourada_3t25_124m_brl
+  - isa_energia_riacho_grande_3t25_70m_brl
+  - isa_energia_itatiaia_3t25_30m_brl
+  - isa_energia_jacaranda_3t25_30m_brl
+  - isa_energia_gf_controladas_3t25_757m_brl
+  - isa_energia_gf_total_3t25_757m_brl
+  - isa_energia_consolidado_3t25_1195m_brl
+  - isa_energia_3t25_capex_1195m_brl
