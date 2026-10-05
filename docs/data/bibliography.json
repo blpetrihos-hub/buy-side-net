@@ -22225,5 +22225,73 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "amazon_aws_mexico_region_20250114",
+    "type": "company",
+    "chicago": "Amazon Web Services. “AWS Launches Infrastructure Region in Mexico.” January 14, 2025. https://press.aboutamazon.com/2025/1/aws-launches-infrastructure-region-in-mexico.",
+    "url": "https://press.aboutamazon.com/2025/1/aws-launches-infrastructure-region-in-mexico",
+    "annotation": "AWS Mexico NEW >USD 5bn floor. Supports aws_mexico_5bn_2025.",
+    "supports": [
+      "aws_mexico_5bn_2025",
+      "hunt_cycle249"
+    ],
+    "map_supports": [
+      "aws_mexico_5bn_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "sgbh_rs2025_cumulative_30bn",
+    "type": "company",
+    "chicago": "State Grid Brazil Holding. “Sustentabilidade 2025.” 2026. https://stategrid.com.br/wp-content/uploads/2026/04/SGBH_RS25_VFb.pdf.",
+    "url": "https://stategrid.com.br/wp-content/uploads/2026/04/SGBH_RS25_VFb.pdf",
+    "annotation": "SGBH cumulative NEW >R$30bn floor ~USD 5776.85m via Fed H.10. Supports sgbh_cumulative_30bn_brl_2010_2025.",
+    "supports": [
+      "sgbh_cumulative_30bn_brl_2010_2025",
+      "hunt_cycle249"
+    ],
+    "map_supports": [
+      "sgbh_cumulative_30bn_brl_2010_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "cemig_fr_44bn_20251212",
+    "type": "company",
+    "chicago": "Companhia Energética de Minas Gerais – Cemig. “Fato Relevante: CEMIG divulga plano de investimentos de R$ 44 bilhões para 2026/2030.” December 12, 2025. https://ri.cemig.com.br/docs/Fato-Relevante-Cemig-2025-12-12-9T8zwtDm.pdf.",
+    "url": "https://ri.cemig.com.br/docs/Fato-Relevante-Cemig-2025-12-12-9T8zwtDm.pdf",
+    "annotation": "Cemig NEW R$44bn ~USD 8474.41m via Fed H.10. Supports cemig_capex_plan_44bn_brl_2026_2030.",
+    "supports": [
+      "cemig_capex_plan_44bn_brl_2026_2030",
+      "hunt_cycle249"
+    ],
+    "map_supports": [
+      "cemig_capex_plan_44bn_brl_2026_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "energisa_4states_18bn_20260508",
+    "type": "company",
+    "chicago": "Grupo Energisa. “Grupo Energisa renova concessões em MT, MS, PB e SE.” May 8, 2026. https://www.energisa.com.br/noticias/energia-que-transforma/grupo-energisa-renova-concessoes-em-mt-ms-pb-e-se.",
+    "url": "https://www.energisa.com.br/noticias/energia-que-transforma/grupo-energisa-renova-concessoes-em-mt-ms-pb-e-se",
+    "annotation": "Energisa NEW ~R$18bn floor ~USD 3466.81m via Fed H.10. Supports energisa_4states_18bn_brl_2026_2030.",
+    "supports": [
+      "energisa_4states_18bn_brl_2026_2030",
+      "hunt_cycle249"
+    ],
+    "map_supports": [
+      "energisa_4states_18bn_brl_2026_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
