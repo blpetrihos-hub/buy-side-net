@@ -19763,16 +19763,19 @@
     "type": "company",
     "chicago": "CPFL Energia. “CPFL Energia registra EBITDA de R$ 13,5 bilhões em 2025 e investimento recorde de R$ 6,1 bilhões.” March 6, 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61.",
     "url": "https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-ebitda-de-r-135-bilhoes-em-2025-e-investimento-recorde-de-r-61",
-    "annotation": "CPFL 2026–2030 CapEx-fill ~USD 5990.28m via Fed H.10. Supports cpfl_capex_plan_31p1bn_2026_2030.",
+    "annotation": "CPFL Distribuição R$25.3bn 2026–2030 via Fed H.10. Supports cpfl_dist_25p3bn_2026_2030; cpfl_capex_plan_31p1bn_2026_2030.",
     "supports": [
       "cpfl_fy2025_capex_6p1bn_brl",
       "hunt_cycle196",
       "cpfl_capex_plan_31p1bn_2026_2030",
       "hunt_cycle222",
-      "hunt_cycle223"
+      "hunt_cycle223",
+      "cpfl_dist_25p3bn_2026_2030",
+      "hunt_cycle269"
     ],
     "map_supports": [
       "cpfl_capex_plan_31p1bn_2026_2030",
+      "cpfl_dist_25p3bn_2026_2030",
       "cpfl_fy2025_capex_6p1bn_brl"
     ],
     "layers": [
@@ -23543,6 +23546,110 @@
     ],
     "layers": [
       "energy"
+    ]
+  },
+  {
+    "id": "scala_dfs_2025_fy_capex_1823m",
+    "type": "company",
+    "chicago": "Scala Data Centers S.A. “Demonstrações Financeiras 2025.” March 26, 2026. https://scaladatacenters.com/wp-content/uploads/2026/04/2025-Demonstracoes-Financeiras.pdf.",
+    "url": "https://scaladatacenters.com/wp-content/uploads/2026/04/2025-Demonstracoes-Financeiras.pdf",
+    "annotation": "Scala FY2025 CapEx R$1.822783bn via Fed H.10. Supports scala_fy2025_capex_1823m_brl.",
+    "supports": [
+      "scala_fy2025_capex_1823m_brl",
+      "hunt_cycle269"
+    ],
+    "map_supports": [
+      "scala_fy2025_capex_1823m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "aes_andes_cristales_rca_20240327",
+    "type": "company",
+    "chicago": "AES Andes. “AES Andes obtains environmental approval for its Cristales project.” March 27, 2024. https://www.aeschile.com/en/press-release/aes-andes-obtains-environmental-approval-its-cristales-project.",
+    "url": "https://www.aeschile.com/en/press-release/aes-andes-obtains-environmental-approval-its-cristales-project",
+    "annotation": "AES Andes Cristales RCA CapEx up to USD 710m. Supports aes_andes_cristales_710m_rca_2024.",
+    "supports": [
+      "aes_andes_cristales_710m_rca_2024",
+      "hunt_cycle269"
+    ],
+    "map_supports": [
+      "aes_andes_cristales_710m_rca_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "mrs_1t26_capex_20260514",
+    "type": "company",
+    "chicago": "MRS Logística. “MRS investe R$753,6 milhões e transporta 46,3 milhões de toneladas no 1° trimestre de 2026.” May 14, 2026. https://www.mrs.com.br/noticia/mrs-investe-r7536-milhoes-e-transporta-463-milhoes-de-toneladas-no-1-trimestre-de-2026/.",
+    "url": "https://www.mrs.com.br/noticia/mrs-investe-r7536-milhoes-e-transporta-463-milhoes-de-toneladas-no-1-trimestre-de-2026/",
+    "annotation": "MRS 1T26 CapEx R$753.6m via Fed H.10. Supports mrs_1t26_capex_753p6m_brl.",
+    "supports": [
+      "mrs_1t26_capex_753p6m_brl",
+      "hunt_cycle269"
+    ],
+    "map_supports": [
+      "mrs_1t26_capex_753p6m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "mrs_2t26_capex_20260813",
+    "type": "company",
+    "chicago": "MRS Logística. “MRS Logística registra EBITDA de R$ 1,1 bilhão e Receita Líquida de R$ 1,9 bilhão no 2T26.” August 13, 2026. https://www.mrs.com.br/wp-content/uploads/2026/03/2026_08_MRS-Logistica-registra-EBITDA-de-R-11-bilhao-e-Receita-Liquida-de-R-19-bilhao-no-2T26.pdf.",
+    "url": "https://www.mrs.com.br/wp-content/uploads/2026/03/2026_08_MRS-Logistica-registra-EBITDA-de-R-11-bilhao-e-Receita-Liquida-de-R-19-bilhao-no-2T26.pdf",
+    "annotation": "MRS 2T26 CapEx R$643m via Fed H.10. Supports mrs_2t26_capex_643m_brl.",
+    "supports": [
+      "mrs_2t26_capex_643m_brl",
+      "hunt_cycle269"
+    ],
+    "map_supports": [
+      "mrs_2t26_capex_643m_brl"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "equipav_aegea_dfs_2025_capex_7304m",
+    "type": "company",
+    "chicago": "Equipav Saneamento S.A. “Demonstrações Financeiras — Resultados 2025.” April 20, 2026. https://www.equipav.com.br/wp-content/uploads/2026/04/DFs-Equipav-Saneamento-Dez.25_vf.pdf.",
+    "url": "https://www.equipav.com.br/wp-content/uploads/2026/04/DFs-Equipav-Saneamento-Dez.25_vf.pdf",
+    "annotation": "Aegea FY2025 CapEx R$7.304bn via Fed H.10. Supports aegea_fy2025_capex_7304m_brl.",
+    "supports": [
+      "aegea_fy2025_capex_7304m_brl",
+      "hunt_cycle269"
+    ],
+    "map_supports": [
+      "aegea_fy2025_capex_7304m_brl"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "rumo_hortolandia_viaduct_20260413",
+    "type": "company",
+    "chicago": "Rumo Logística. “Rumo entrega viaduto em Hortolândia (SP) e avança em obras da renovação da Malha Paulista.” April 13, 2026. https://www.rumolog.com/sala-de-imprensa/rumo-entrega-viaduto-em-hortolandia-sp-e-avanca-em-obras-da-renovacao-da-malha-paulista/.",
+    "url": "https://www.rumolog.com/sala-de-imprensa/rumo-entrega-viaduto-em-hortolandia-sp-e-avanca-em-obras-da-renovacao-da-malha-paulista/",
+    "annotation": "Rumo Malha Paulista >R$8bn spent via Fed H.10. Supports rumo_malha_paulista_8bn_spent_brl; rumo_hortolandia_viaduct_57m_brl_2026.",
+    "supports": [
+      "rumo_hortolandia_viaduct_57m_brl_2026",
+      "hunt_cycle269",
+      "rumo_malha_paulista_8bn_spent_brl"
+    ],
+    "map_supports": [
+      "rumo_hortolandia_viaduct_57m_brl_2026",
+      "rumo_malha_paulista_8bn_spent_brl"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   }
 ]
