@@ -1,10 +1,10 @@
 {
   "id": "mota_engil_rota_dos_sertoes_43bn_2026",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "estradas_rota_dos_sertoes_antt_20260929",
   "url": "https://estradas.com.br/antt-assina-concessao-da-rota-dos-sertoes-por-30-anos-entre-bahia-e-pernambuco/",
   "price_year": "2026",
   "evidence": "proxy",
-  "quote": "A Agência Nacional de Transportes Terrestres (ANTT) assinou em 29 de setembro de 2026 o contrato de concessão da Rota dos Sertões, sistema rodoviário formado por trechos das BR-116 na Bahia e em Pernambuco e da BR-324 na Bahia. A concessão terá duração de 30 anos, contados a partir da assunção das rodovias pela nova operadora, a Concessionária 116 Sertões S.A.. O sistema concedido possui cerca de 502 quilômetros de extensão. … A página atual do projeto na ANTT indica aproximadamente R$ 4,3 bilhões em investimentos em infraestrutura (Capex) e R$ 4,4 bilhões em custos de operação e manutenção (Opex) ao longo da concessão.",
-  "note": "Opened Estradas Portuguese page 2026-10-04 citing ANTT 29 Sep 2026 contract signing and ANTT CapEx/Opex split; ANTT HTML primary partially retrieved."
+  "quote": "A Agência Nacional de Transportes Terrestres (ANTT) assinou em 29 de setembro de 2026 o contrato de concessão da Rota dos Sertões, sistema rodoviário formado por trechos das BR-116 na Bahia e em Pernambuco e da BR-324 na Bahia.",
+  "note": "Opened Estradas Portuguese; ANTT 29 Sep 2026 Rota dos Sertões signing confirmed; retain stored R$4.3bn CapEx. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
