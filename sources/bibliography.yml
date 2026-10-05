@@ -18596,7 +18596,7 @@
   type: company
   chicago: Companhia de Saneamento Básico do Estado de São Paulo (Sabesp). “Planilha de Resultados 2T26 — Investimentos CAPEX / Reconciliação Capex (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/9e47ee51-f833-4a23-af98-2bac9e54e0b3/eb218c60-13a0-8dbc-2220-48fdd1abf99a?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9e47ee51-f833-4a23-af98-2bac9e54e0b3/eb218c60-13a0-8dbc-2220-48fdd1abf99a?origin=2
-  annotation: Sabesp Total CapEx 1T26 CapEx via Fed H.10. Supports sabesp_total_capex_1t26_3728m_brl.
+  annotation: Sabesp Total CapEx 4T25 CapEx via Fed H.10. Supports sabesp_total_capex_4t25_4771m_brl.
   supports:
   - sabesp_agua_capex_2t26_1050m_brl
   - hunt_cycle614
@@ -18605,3 +18605,7 @@
   - hunt_cycle615
   - sabesp_esgoto_capex_1t26_2485m_brl
   - sabesp_total_capex_1t26_3728m_brl
+  - sabesp_agua_capex_4t25_2106m_brl
+  - hunt_cycle616
+  - sabesp_esgoto_capex_4t25_2665m_brl
+  - sabesp_total_capex_4t25_4771m_brl
