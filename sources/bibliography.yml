@@ -31290,3 +31290,138 @@
   supports:
   - misc_nicaragua_ltc_gonzalez_power_generator_11k_2011
   - hunt_cycle1142
+- id: usaspending_automation_aids_mexico_inl_21st_floor_ups_units_12k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX9019F0027_1900_47QSEA19D0074_4732 (automation_aids_mexico_inl_21st_floor_ups_units_12k_2019). Signed 2019-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX9019F0027_1900_47QSEA19D0074_4732/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX9019F0027_1900_47QSEA19D0074_4732/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: automation_aids_mexico_inl_21st_floor_ups_units_12k_2019 USD 0.012m. Supports automation_aids_mexico_inl_21st_floor_ups_units_12k_2019.'
+  supports:
+  - automation_aids_mexico_inl_21st_floor_ups_units_12k_2019
+  - hunt_cycle1143
+- id: usaspending_harden_mexico_metal_door_screen_8k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22P0489_1900_-NONE-_-NONE- (harden_mexico_metal_door_screen_8k_2022). Signed 2022-05-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0489_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22P0489_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: harden_mexico_metal_door_screen_8k_2022 USD 0.008m. Supports harden_mexico_metal_door_screen_8k_2022.'
+  supports:
+  - harden_mexico_metal_door_screen_8k_2022
+  - hunt_cycle1143
+- id: usaspending_automatica_el_salvador_transformer_33k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6020P0915_1900_-NONE-_-NONE- (automatica_el_salvador_transformer_33k_2020). Signed 2020-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6020P0915_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6020P0915_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: automatica_el_salvador_transformer_33k_2020 USD 0.033m. Supports automatica_el_salvador_transformer_33k_2020.'
+  supports:
+  - automatica_el_salvador_transformer_33k_2020
+  - hunt_cycle1143
+- id: usaspending_misc_haiti_ups_purchasing_12k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7022P0086_1900_-NONE-_-NONE- (misc_haiti_ups_purchasing_12k_2021). Signed 2021-12-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7022P0086_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7022P0086_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_haiti_ups_purchasing_12k_2021 USD 0.012m. Supports misc_haiti_ups_purchasing_12k_2021.'
+  supports:
+  - misc_haiti_ups_purchasing_12k_2021
+  - hunt_cycle1143
+- id: usaspending_misc_chile_rso_grills_installation_14k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCI80016L0129_1900_SCI80015A0006_1900 (misc_chile_rso_grills_installation_14k_2016). Signed 2016-06-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCI80016L0129_1900_SCI80015A0006_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCI80016L0129_1900_SCI80015A0006_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_chile_rso_grills_installation_14k_2016 USD 0.014m. Supports misc_chile_rso_grills_installation_14k_2016.'
+  supports:
+  - misc_chile_rso_grills_installation_14k_2016
+  - hunt_cycle1143
+- id: usaspending_montage_colombia_chiller_upgrade_8k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16M2952_1900_-NONE-_-NONE- (montage_colombia_chiller_upgrade_8k_2016). Signed 2016-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M2952_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M2952_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: montage_colombia_chiller_upgrade_8k_2016 USD 0.008m. Supports montage_colombia_chiller_upgrade_8k_2016.'
+  supports:
+  - montage_colombia_chiller_upgrade_8k_2016
+  - hunt_cycle1144
+- id: usaspending_supplies_services_venezuela_hvac_variable_frequency_drivers_11k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30014M0640_1900_-NONE-_-NONE- (supplies_services_venezuela_hvac_variable_frequency_drivers_11k_2014). Signed 2014-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0640_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0640_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: supplies_services_venezuela_hvac_variable_frequency_drivers_11k_2014 USD 0.011m. Supports supplies_services_venezuela_hvac_variable_frequency_drivers_11k_2014.'
+  supports:
+  - supplies_services_venezuela_hvac_variable_frequency_drivers_11k_2014
+  - hunt_cycle1144
+- id: usaspending_misc_honduras_caratasca_navy_base_generator_30k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80011M0413_1900_-NONE-_-NONE- (misc_honduras_caratasca_navy_base_generator_30k_2011). Signed 2011-08-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80011M0413_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80011M0413_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_honduras_caratasca_navy_base_generator_30k_2011 USD 0.030m. Supports misc_honduras_caratasca_navy_base_generator_30k_2011.'
+  supports:
+  - misc_honduras_caratasca_navy_base_generator_30k_2011
+  - hunt_cycle1144
+- id: usaspending_misc_ecuador_dea_five_generators_glqs_install_30k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC30011M0388_1900_-NONE-_-NONE- (misc_ecuador_dea_five_generators_glqs_install_30k_2011). Signed 2011-08-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC30011M0388_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC30011M0388_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_ecuador_dea_five_generators_glqs_install_30k_2011 USD 0.030m. Supports misc_ecuador_dea_five_generators_glqs_install_30k_2011.'
+  supports:
+  - misc_ecuador_dea_five_generators_glqs_install_30k_2011
+  - hunt_cycle1144
+- id: usaspending_misc_costa_rica_sng_drake_perimeter_security_fence_30k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8024P0652_1900_-NONE-_-NONE- (misc_costa_rica_sng_drake_perimeter_security_fence_30k_2024). Signed 2024-04-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8024P0652_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8024P0652_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_sng_drake_perimeter_security_fence_30k_2024 USD 0.030m. Supports misc_costa_rica_sng_drake_perimeter_security_fence_30k_2024.'
+  supports:
+  - misc_costa_rica_sng_drake_perimeter_security_fence_30k_2024
+  - hunt_cycle1144
+- id: usaspending_bh_foto_haiti_pap_pd_cameras_12k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7024P1303_1900_-NONE-_-NONE- (bh_foto_haiti_pap_pd_cameras_12k_2024). Signed 2024-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7024P1303_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7024P1303_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: bh_foto_haiti_pap_pd_cameras_12k_2024 USD 0.012m. Supports bh_foto_haiti_pap_pd_cameras_12k_2024.'
+  supports:
+  - bh_foto_haiti_pap_pd_cameras_12k_2024
+  - hunt_cycle1145
+- id: usaspending_global_integration_colombia_hsi_camera_13k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01523P0234_1900_-NONE-_-NONE- (global_integration_colombia_hsi_camera_13k_2023). Signed 2023-05-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01523P0234_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01523P0234_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: global_integration_colombia_hsi_camera_13k_2023 USD 0.013m. Supports global_integration_colombia_hsi_camera_13k_2023.'
+  supports:
+  - global_integration_colombia_hsi_camera_13k_2023
+  - hunt_cycle1145
+- id: usaspending_misc_brazil_dcmr_generator_30k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2524P0290_1900_-NONE-_-NONE- (misc_brazil_dcmr_generator_30k_2024). Signed 2024-02-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2524P0290_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2524P0290_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_dcmr_generator_30k_2024 USD 0.030m. Supports misc_brazil_dcmr_generator_30k_2024.'
+  supports:
+  - misc_brazil_dcmr_generator_30k_2024
+  - hunt_cycle1145
+- id: usaspending_misc_costa_rica_obc_switchgear_15ton_ac_install_29k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCS80013C0059_1900_-NONE-_-NONE- (misc_costa_rica_obc_switchgear_15ton_ac_install_29k_2013). Signed 2013-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80013C0059_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80013C0059_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_obc_switchgear_15ton_ac_install_29k_2013 USD 0.029m. Supports misc_costa_rica_obc_switchgear_15ton_ac_install_29k_2013.'
+  supports:
+  - misc_costa_rica_obc_switchgear_15ton_ac_install_29k_2013
+  - hunt_cycle1145
+- id: usaspending_misc_jamaica_police_college_office_renovation_29k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19JM3721C0003_1900_-NONE-_-NONE- (misc_jamaica_police_college_office_renovation_29k_2021). Signed 2021-08-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3721C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19JM3721C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_jamaica_police_college_office_renovation_29k_2021 USD 0.029m. Supports misc_jamaica_police_college_office_renovation_29k_2021.'
+  supports:
+  - misc_jamaica_police_college_office_renovation_29k_2021
+  - hunt_cycle1145
