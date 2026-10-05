@@ -34642,7 +34642,7 @@
     "type": "company",
     "chicago": "AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2",
-    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_melhoria_na_se_ji_parana_substituicao_do_banc_2m_brl.",
+    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v4.",
     "supports": [
       "axia_consol_imob_intang_2t26_2212m_brl",
       "hunt_cycle632",
@@ -35364,7 +35364,13 @@
       "axia_txproj_melhoria_na_se_campo_grande_substituicao_de_b_3m_brl",
       "axia_txproj_melhoria_na_se_ji_parana_substituicao_do_banc_3m_brl",
       "axia_txproj_melhoria_na_se_b_esperanca_substituicao_de_re_3m_brl",
-      "axia_txproj_melhoria_na_se_ji_parana_substituicao_do_banc_2m_brl"
+      "axia_txproj_melhoria_na_se_ji_parana_substituicao_do_banc_2m_brl",
+      "axia_txproj_melhoria_na_se_teresina_substituicao_do_reato_2m_brl",
+      "hunt_cycle895",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v2",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v3",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v4"
     ],
     "map_supports": [
       "axia_consol_ambiental_infra_1t22_41m_brl",
@@ -35726,6 +35732,10 @@
       "axia_txproj_melhoria_na_se_campo_grande_substituicao_de_b_3m_brl",
       "axia_txproj_melhoria_na_se_campos_substituicao_do_reator__12m_brl",
       "axia_txproj_melhoria_na_se_campos_substituicao_do_reator__4m_brl",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v2",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v3",
+      "axia_txproj_melhoria_na_se_caxias_do_sul_5_substituicao_d_2m_brl_v4",
       "axia_txproj_melhoria_na_se_colinas_substituicao_do_reator_5m_brl",
       "axia_txproj_melhoria_na_se_couto_magalhaes_substituicao_d_6m_brl",
       "axia_txproj_melhoria_na_se_coxipo_substituicao_do_reator__8m_brl",
@@ -35822,6 +35832,7 @@
       "axia_txproj_melhoria_na_se_serra_da_mesa_substituicao_do__13m_brl",
       "axia_txproj_melhoria_na_se_sinop_substituicao_do_reator_d_6m_brl",
       "axia_txproj_melhoria_na_se_sto_ant_jesus_substituicao_de__13m_brl",
+      "axia_txproj_melhoria_na_se_teresina_substituicao_do_reato_2m_brl",
       "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_b_5m_brl",
       "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_r_18m_brl",
       "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_de_r_5m_brl",
