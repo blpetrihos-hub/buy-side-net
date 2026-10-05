@@ -1,0 +1,10 @@
+{
+  "id": "misc_cr_parking_pavement_90k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_cr_parking_pavement_90k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCS80015C0038_1900_-NONE-_-NONE-/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "FAC-ST 1900.0 7901.C RE-PAVEMENT EE PARKING LOT EAST SIDE IGF::CL",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 90382.94; date_signed 2015-09-28."
+}
