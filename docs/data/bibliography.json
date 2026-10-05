@@ -57714,5 +57714,275 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_hy_security_colombia_barrier_gate_equipment_25k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20015M1575_1900_-NONE-_-NONE- (hy_security_colombia_barrier_gate_equipment_25k_2015). Signed 2015-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20015M1575_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20015M1575_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: hy_security_colombia_barrier_gate_equipment_25k_2015 USD 0.025m. Supports hy_security_colombia_barrier_gate_equipment_25k_2015.",
+    "supports": [
+      "hy_security_colombia_barrier_gate_equipment_25k_2015",
+      "hunt_cycle1122"
+    ],
+    "map_supports": [
+      "hy_security_colombia_barrier_gate_equipment_25k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bentley_mills_mexico_dea_office_carpet_tiles_24k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53015F0700_1900_SMX53015D0016_1900 (bentley_mills_mexico_dea_office_carpet_tiles_24k_2015). Signed 2015-08-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53015F0700_1900_SMX53015D0016_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53015F0700_1900_SMX53015D0016_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: bentley_mills_mexico_dea_office_carpet_tiles_24k_2015 USD 0.024m. Supports bentley_mills_mexico_dea_office_carpet_tiles_24k_2015.",
+    "supports": [
+      "bentley_mills_mexico_dea_office_carpet_tiles_24k_2015",
+      "hunt_cycle1122"
+    ],
+    "map_supports": [
+      "bentley_mills_mexico_dea_office_carpet_tiles_24k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_perez_romo_mexico_ccs_carpet_tile_replace_38k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX1123P0071_1900_-NONE-_-NONE- (perez_romo_mexico_ccs_carpet_tile_replace_38k_2023). Signed 2023-03-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1123P0071_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1123P0071_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: perez_romo_mexico_ccs_carpet_tile_replace_38k_2023 USD 0.038m. Supports perez_romo_mexico_ccs_carpet_tile_replace_38k_2023.",
+    "supports": [
+      "perez_romo_mexico_ccs_carpet_tile_replace_38k_2023",
+      "hunt_cycle1122"
+    ],
+    "map_supports": [
+      "perez_romo_mexico_ccs_carpet_tile_replace_38k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proyectos_civiles_panama_escobal_clinic_roof_37k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL13C0012_9700_-NONE-_-NONE- (proyectos_civiles_panama_escobal_clinic_roof_37k_2013). Signed 2013-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0012_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0012_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: proyectos_civiles_panama_escobal_clinic_roof_37k_2013 USD 0.037m. Supports proyectos_civiles_panama_escobal_clinic_roof_37k_2013.",
+    "supports": [
+      "proyectos_civiles_panama_escobal_clinic_roof_37k_2013",
+      "hunt_cycle1122"
+    ],
+    "map_supports": [
+      "proyectos_civiles_panama_escobal_clinic_roof_37k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_gordon_gordons_panama_tupper_meeting_rooms_renovation_37k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33312925P00529454_3300_-NONE-_-NONE- (gordon_gordons_panama_tupper_meeting_rooms_renovation_37k_2025). Signed 2025-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33312925P00529454_3300_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33312925P00529454_3300_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: gordon_gordons_panama_tupper_meeting_rooms_renovation_37k_2025 USD 0.037m. Supports gordon_gordons_panama_tupper_meeting_rooms_renovation_37k_2025.",
+    "supports": [
+      "gordon_gordons_panama_tupper_meeting_rooms_renovation_37k_2025",
+      "hunt_cycle1122"
+    ],
+    "map_supports": [
+      "gordon_gordons_panama_tupper_meeting_rooms_renovation_37k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_international_power_bolivia_la_paz_ups_electrical_22k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA10M0411_1900_-NONE-_-NONE- (international_power_bolivia_la_paz_ups_electrical_22k_2010). Signed 2010-02-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10M0411_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA10M0411_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: international_power_bolivia_la_paz_ups_electrical_22k_2010 USD 0.022m. Supports international_power_bolivia_la_paz_ups_electrical_22k_2010.",
+    "supports": [
+      "international_power_bolivia_la_paz_ups_electrical_22k_2010",
+      "hunt_cycle1123"
+    ],
+    "map_supports": [
+      "international_power_bolivia_la_paz_ups_electrical_22k_2010"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_continental_flooring_peru_chancery_ceiling_tiles_22k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PE5022F0408_1900_47QSWA19D009U_4732 (continental_flooring_peru_chancery_ceiling_tiles_22k_2022). Signed 2022-09-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5022F0408_1900_47QSWA19D009U_4732/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5022F0408_1900_47QSWA19D009U_4732/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: continental_flooring_peru_chancery_ceiling_tiles_22k_2022 USD 0.022m. Supports continental_flooring_peru_chancery_ceiling_tiles_22k_2022.",
+    "supports": [
+      "continental_flooring_peru_chancery_ceiling_tiles_22k_2022",
+      "hunt_cycle1123"
+    ],
+    "map_supports": [
+      "continental_flooring_peru_chancery_ceiling_tiles_22k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_altamirano_mexico_tres_canadas_gas_tank_replacement_37k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5323C0003_1900_-NONE-_-NONE- (altamirano_mexico_tres_canadas_gas_tank_replacement_37k_2023). Signed 2023-03-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5323C0003_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5323C0003_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: altamirano_mexico_tres_canadas_gas_tank_replacement_37k_2023 USD 0.037m. Supports altamirano_mexico_tres_canadas_gas_tank_replacement_37k_2023.",
+    "supports": [
+      "altamirano_mexico_tres_canadas_gas_tank_replacement_37k_2023",
+      "hunt_cycle1123"
+    ],
+    "map_supports": [
+      "altamirano_mexico_tres_canadas_gas_tank_replacement_37k_2023"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_wkl_arquitectos_panama_cmr_guests_bathrooms_repair_37k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0719P0971_1900_-NONE-_-NONE- (wkl_arquitectos_panama_cmr_guests_bathrooms_repair_37k_2019). Signed 2019-08-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0971_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0971_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: wkl_arquitectos_panama_cmr_guests_bathrooms_repair_37k_2019 USD 0.037m. Supports wkl_arquitectos_panama_cmr_guests_bathrooms_repair_37k_2019.",
+    "supports": [
+      "wkl_arquitectos_panama_cmr_guests_bathrooms_repair_37k_2019",
+      "hunt_cycle1123"
+    ],
+    "map_supports": [
+      "wkl_arquitectos_panama_cmr_guests_bathrooms_repair_37k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_sarti_guatemala_restroom_renovation_37k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM14C0002_9700_-NONE-_-NONE- (sarti_guatemala_restroom_renovation_37k_2014). Signed 2014-01-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM14C0002_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM14C0002_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: sarti_guatemala_restroom_renovation_37k_2014 USD 0.037m. Supports sarti_guatemala_restroom_renovation_37k_2014.",
+    "supports": [
+      "sarti_guatemala_restroom_renovation_37k_2014",
+      "hunt_cycle1123"
+    ],
+    "map_supports": [
+      "sarti_guatemala_restroom_renovation_37k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_absolute_storage_nicaragua_cantilever_parking_space_22k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SNU70011F0020_1900_GS07F9481S_4730 (absolute_storage_nicaragua_cantilever_parking_space_22k_2011). Signed 2011-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70011F0020_1900_GS07F9481S_4730/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SNU70011F0020_1900_GS07F9481S_4730/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: absolute_storage_nicaragua_cantilever_parking_space_22k_2011 USD 0.022m. Supports absolute_storage_nicaragua_cantilever_parking_space_22k_2011.",
+    "supports": [
+      "absolute_storage_nicaragua_cantilever_parking_space_22k_2011",
+      "hunt_cycle1124"
+    ],
+    "map_supports": [
+      "absolute_storage_nicaragua_cantilever_parking_space_22k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fast_access_venezuela_chancery_gate_operators_22k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30014M0242_1900_-NONE-_-NONE- (fast_access_venezuela_chancery_gate_operators_22k_2014). Signed 2014-05-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0242_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30014M0242_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: fast_access_venezuela_chancery_gate_operators_22k_2014 USD 0.022m. Supports fast_access_venezuela_chancery_gate_operators_22k_2014.",
+    "supports": [
+      "fast_access_venezuela_chancery_gate_operators_22k_2014",
+      "hunt_cycle1124"
+    ],
+    "map_supports": [
+      "fast_access_venezuela_chancery_gate_operators_22k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_miscelaneos_security_costa_rica_obc_hallways_painting_37k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8019C0004_1900_-NONE-_-NONE- (miscelaneos_security_costa_rica_obc_hallways_painting_37k_2019). Signed 2019-05-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8019C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8019C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: miscelaneos_security_costa_rica_obc_hallways_painting_37k_2019 USD 0.037m. Supports miscelaneos_security_costa_rica_obc_hallways_painting_37k_2019.",
+    "supports": [
+      "miscelaneos_security_costa_rica_obc_hallways_painting_37k_2019",
+      "hunt_cycle1124"
+    ],
+    "map_supports": [
+      "miscelaneos_security_costa_rica_obc_hallways_painting_37k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_casa_planas_mexico_tents_flooring_installation_foj_37k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5325P0874_1900_-NONE-_-NONE- (casa_planas_mexico_tents_flooring_installation_foj_37k_2025). Signed 2025-05-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5325P0874_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5325P0874_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: casa_planas_mexico_tents_flooring_installation_foj_37k_2025 USD 0.037m. Supports casa_planas_mexico_tents_flooring_installation_foj_37k_2025.",
+    "supports": [
+      "casa_planas_mexico_tents_flooring_installation_foj_37k_2025",
+      "hunt_cycle1124"
+    ],
+    "map_supports": [
+      "casa_planas_mexico_tents_flooring_installation_foj_37k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_containers_supply_installation_37k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15012M1172_1900_-NONE-_-NONE- (misc_colombia_containers_supply_installation_37k_2012). Signed 2012-06-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15012M1172_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15012M1172_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_colombia_containers_supply_installation_37k_2012 USD 0.037m. Supports misc_colombia_containers_supply_installation_37k_2012.",
+    "supports": [
+      "misc_colombia_containers_supply_installation_37k_2012",
+      "hunt_cycle1124"
+    ],
+    "map_supports": [
+      "misc_colombia_containers_supply_installation_37k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
