@@ -24490,3 +24490,153 @@
   supports:
   - oeg_san_salvador_electrical_1p90m_2010
   - hunt_cycle947
+- id: usaspending_hsu_sao_paulo_fire_alarm_642k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F1434_1900_SAQMMA14D0058_1900
+    (HSU São Paulo fire alarm). Signed 2018-04-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1434_1900_SAQMMA14D0058_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1434_1900_SAQMMA14D0058_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: HSU São Paulo fire alarm USD 0.642m. Supports hsu_sao_paulo_fire_alarm_642k_2018.'
+  supports:
+  - hsu_sao_paulo_fire_alarm_642k_2018
+  - hunt_cycle948
+- id: usaspending_pono_aina_haiti_chiller_3p94m_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0234_1900_-NONE-_-NONE-
+    (Pono Aina Haiti chiller). Signed 2020-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0234_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0234_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Pono Aina Haiti chiller USD 3.941m. Supports pono_aina_haiti_chiller_3p94m_2020.'
+  supports:
+  - pono_aina_haiti_chiller_3p94m_2020
+  - hunt_cycle948
+- id: usaspending_solustart_haiti_clinics_3p22m_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521TO1600003_7200_AID521I1500002_7200
+    (Solustart Haiti clinics). Signed 2016-05-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1600003_7200_AID521I1500002_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521TO1600003_7200_AID521I1500002_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Solustart Haiti clinics USD 3.219m. Supports solustart_haiti_clinics_3p22m_2016.'
+  supports:
+  - solustart_haiti_clinics_3p22m_2016
+  - hunt_cycle948
+- id: usaspending_taft_gamboa_fire_983k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330226FF0010391_3300_33330226DF0010119_3300
+    (Taft Gamboa fire). Signed 2026-08-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330226FF0010391_3300_33330226DF0010119_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330226FF0010391_3300_33330226DF0010119_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Taft Gamboa fire USD 0.983m. Supports taft_gamboa_fire_983k_2026.'
+  supports:
+  - taft_gamboa_fire_983k_2026
+  - hunt_cycle948
+- id: usaspending_bonatti_puerto_barrios_clinic_780k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825FA203_9700_W9127823D0072_9700
+    (Bonatti Puerto Barrios clinic). Signed 2025-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA203_9700_W9127823D0072_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA203_9700_W9127823D0072_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti Puerto Barrios clinic USD 0.780m. Supports bonatti_puerto_barrios_clinic_780k_2025.'
+  supports:
+  - bonatti_puerto_barrios_clinic_780k_2025
+  - hunt_cycle948
+- id: usaspending_tecpro_guatemala_school_824k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0516_9700_W9127816D0103_9700
+    (TecPro Guatemala school). Signed 2017-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0516_9700_W9127816D0103_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0516_9700_W9127816D0103_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: TecPro Guatemala school USD 0.824m. Supports tecpro_guatemala_school_824k_2017.'
+  supports:
+  - tecpro_guatemala_school_824k_2017
+  - hunt_cycle949
+- id: usaspending_iap_soto_cano_power_1p92m_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819C0015_9700_-NONE-_-NONE-
+    (IAP Soto Cano power). Signed 2019-05-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819C0015_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819C0015_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: IAP Soto Cano power USD 1.916m. Supports iap_soto_cano_power_1p92m_2019.'
+  supports:
+  - iap_soto_cano_power_1p92m_2019
+  - hunt_cycle949
+- id: usaspending_bonatti_la_paz_hn_clinic_1p48m_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0157_9700_W9127821D0076_9700
+    (Bonatti La Paz HN clinic). Signed 2022-06-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0157_9700_W9127821D0076_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0157_9700_W9127821D0076_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti La Paz HN clinic USD 1.485m. Supports bonatti_la_paz_hn_clinic_1p48m_2022.'
+  supports:
+  - bonatti_la_paz_hn_clinic_1p48m_2022
+  - hunt_cycle949
+- id: usaspending_bonatti_es_firefighter_house_1p72m_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0519_9700_W9127816D0099_9700
+    (Bonatti ES firefighter house). Signed 2019-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0519_9700_W9127816D0099_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0519_9700_W9127816D0099_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti ES firefighter house USD 1.718m. Supports bonatti_es_firefighter_house_1p72m_2019.'
+  supports:
+  - bonatti_es_firefighter_house_1p72m_2019
+  - hunt_cycle949
+- id: usaspending_arco_san_ildefonso_clinic_1p13m_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID519C1500001_7200_-NONE-_-NONE-
+    (Arco San Ildefonso clinic). Signed 2014-12-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID519C1500001_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID519C1500001_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Arco San Ildefonso clinic USD 1.134m. Supports arco_san_ildefonso_clinic_1p13m_2014.'
+  supports:
+  - arco_san_ildefonso_clinic_1p13m_2014
+  - hunt_cycle949
+- id: usaspending_rio_blanco_cr_school_524k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0031_9700_-NONE-_-NONE-
+    (Río Blanco CR school). Signed 2010-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0031_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0031_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Río Blanco CR school USD 0.524m. Supports rio_blanco_cr_school_524k_2010.'
+  supports:
+  - rio_blanco_cr_school_524k_2010
+  - hunt_cycle950
+- id: usaspending_misc_cr_clinic_531k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0021_9700_-NONE-_-NONE-
+    (CR clinic construction). Signed 2010-08-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0021_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0021_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CR clinic construction USD 0.531m. Supports misc_cr_clinic_531k_2010.'
+  supports:
+  - misc_cr_clinic_531k_2010
+  - hunt_cycle950
+- id: usaspending_misc_guayaquil_canine_523k_2007
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC07C0007_1900_-NONE-_-NONE-
+    (Guayaquil canine unit). Signed 2007-06-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC07C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC07C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Guayaquil canine unit USD 0.523m. Supports misc_guayaquil_canine_523k_2007.'
+  supports:
+  - misc_guayaquil_canine_523k_2007
+  - hunt_cycle950
+- id: usaspending_ics_brazil_construction_932k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F3206_1900_19AQMM22D0053_1900
+    (ICS Brazil construction). Signed 2023-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F3206_1900_19AQMM22D0053_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F3206_1900_19AQMM22D0053_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ICS Brazil construction USD 0.932m. Supports ics_brazil_construction_932k_2023.'
+  supports:
+  - ics_brazil_construction_932k_2023
+  - hunt_cycle950
+- id: usaspending_cobos_ecuador_construction_546k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5023C0016_1900_-NONE-_-NONE-
+    (Cobos Ecuador construction). Signed 2023-06-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0016_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5023C0016_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Cobos Ecuador construction USD 0.546m. Supports cobos_ecuador_construction_546k_2023.'
+  supports:
+  - cobos_ecuador_construction_546k_2023
+  - hunt_cycle950

@@ -1,0 +1,10 @@
+{
+  "id": "iap_soto_cano_power_1p92m_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_iap_soto_cano_power_1p92m_2019",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819C0015_9700_-NONE-_-NONE-/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "PROVIDE PRIME/STANDBY POWER, SOTO CANO AB,HONDURAS",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1915872.89; date_signed 2019-05-03."
+}
