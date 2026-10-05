@@ -73914,5 +73914,455 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_alutiiq_mexico_fiu_database_infra_10466k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16C0004_1900_-NONE-_-NONE- (alutiiq_mexico_fiu_database_infra_10466k_2016). Signed 2016-04-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0004_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16C0004_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_mexico_fiu_database_infra_10466k_2016 USD 10.466m. Supports alutiiq_mexico_fiu_database_infra_10466k_2016.",
+    "supports": [
+      "alutiiq_mexico_fiu_database_infra_10466k_2016",
+      "hunt_cycle1302"
+    ],
+    "map_supports": [
+      "alutiiq_mexico_fiu_database_infra_10466k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_mexico_questioned_docs_lab_2483k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE18P0045_1900_-NONE-_-NONE- (alutiiq_mexico_questioned_docs_lab_2483k_2018). Signed 2018-05-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE18P0045_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE18P0045_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_mexico_questioned_docs_lab_2483k_2018 USD 2.483m. Supports alutiiq_mexico_questioned_docs_lab_2483k_2018.",
+    "supports": [
+      "alutiiq_mexico_questioned_docs_lab_2483k_2018",
+      "hunt_cycle1302"
+    ],
+    "map_supports": [
+      "alutiiq_mexico_questioned_docs_lab_2483k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_flores_serrano_ecuador_design_build_1386k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5025C0141_1900_-NONE-_-NONE- (flores_serrano_ecuador_design_build_1386k_2025). Signed 2025-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025C0141_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025C0141_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: flores_serrano_ecuador_design_build_1386k_2025 USD 1.386m. Supports flores_serrano_ecuador_design_build_1386k_2025.",
+    "supports": [
+      "flores_serrano_ecuador_design_build_1386k_2025",
+      "hunt_cycle1302"
+    ],
+    "map_supports": [
+      "flores_serrano_ecuador_design_build_1386k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_panama_hospital_608k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0050_9700_-NONE-_-NONE- (misc_panama_hospital_608k_2010). Signed 2010-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0050_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0050_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_panama_hospital_608k_2010 USD 0.608m. Supports misc_panama_hospital_608k_2010.",
+    "supports": [
+      "misc_panama_hospital_608k_2010",
+      "hunt_cycle1302"
+    ],
+    "map_supports": [
+      "misc_panama_hospital_608k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_fuel_storage_facility_587k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12C0018_9700_-NONE-_-NONE- (misc_colombia_fuel_storage_facility_587k_2012). Signed 2012-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0018_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12C0018_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_colombia_fuel_storage_facility_587k_2012 USD 0.587m. Supports misc_colombia_fuel_storage_facility_587k_2012.",
+    "supports": [
+      "misc_colombia_fuel_storage_facility_587k_2012",
+      "hunt_cycle1302"
+    ],
+    "map_supports": [
+      "misc_colombia_fuel_storage_facility_587k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_aimcon_mexico_consular_audio_1985k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F4480_1900_19AQMM22D0051_1900 (aimcon_mexico_consular_audio_1985k_2022). Signed 2022-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F4480_1900_19AQMM22D0051_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F4480_1900_19AQMM22D0051_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: aimcon_mexico_consular_audio_1985k_2022 USD 1.985m. Supports aimcon_mexico_consular_audio_1985k_2022.",
+    "supports": [
+      "aimcon_mexico_consular_audio_1985k_2022",
+      "hunt_cycle1303"
+    ],
+    "map_supports": [
+      "aimcon_mexico_consular_audio_1985k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_ecuador_quito_it_install_893k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5025P0149_1900_-NONE-_-NONE- (alutiiq_ecuador_quito_it_install_893k_2025). Signed 2025-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025P0149_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025P0149_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_ecuador_quito_it_install_893k_2025 USD 0.893m. Supports alutiiq_ecuador_quito_it_install_893k_2025.",
+    "supports": [
+      "alutiiq_ecuador_quito_it_install_893k_2025",
+      "hunt_cycle1303"
+    ],
+    "map_supports": [
+      "alutiiq_ecuador_quito_it_install_893k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_tecnologia_honduras_facilities_db_993k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0527_9700_W9127816D0103_9700 (tecnologia_honduras_facilities_db_993k_2019). Signed 2019-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0527_9700_W9127816D0103_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0527_9700_W9127816D0103_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: tecnologia_honduras_facilities_db_993k_2019 USD 0.993m. Supports tecnologia_honduras_facilities_db_993k_2019.",
+    "supports": [
+      "tecnologia_honduras_facilities_db_993k_2019",
+      "hunt_cycle1303"
+    ],
+    "map_supports": [
+      "tecnologia_honduras_facilities_db_993k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mfg_colombia_mariquita_lodging_559k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0102_1900_-NONE-_-NONE- (mfg_colombia_mariquita_lodging_559k_2020). Signed 2020-06-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0102_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0102_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: mfg_colombia_mariquita_lodging_559k_2020 USD 0.559m. Supports mfg_colombia_mariquita_lodging_559k_2020.",
+    "supports": [
+      "mfg_colombia_mariquita_lodging_559k_2020",
+      "hunt_cycle1303"
+    ],
+    "map_supports": [
+      "mfg_colombia_mariquita_lodging_559k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_haiti_construction_services_483k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL10C0015_9700_-NONE-_-NONE- (misc_haiti_construction_services_483k_2010). Signed 2010-04-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0015_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL10C0015_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_haiti_construction_services_483k_2010 USD 0.483m. Supports misc_haiti_construction_services_483k_2010.",
+    "supports": [
+      "misc_haiti_construction_services_483k_2010",
+      "hunt_cycle1303"
+    ],
+    "map_supports": [
+      "misc_haiti_construction_services_483k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_dfs_ecuador_floating_dock_800k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026C0051_1900_-NONE-_-NONE- (dfs_ecuador_floating_dock_800k_2026). Signed 2026-06-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0051_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0051_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: dfs_ecuador_floating_dock_800k_2026 USD 0.800m. Supports dfs_ecuador_floating_dock_800k_2026.",
+    "supports": [
+      "dfs_ecuador_floating_dock_800k_2026",
+      "hunt_cycle1304"
+    ],
+    "map_supports": [
+      "dfs_ecuador_floating_dock_800k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_lakeshore_haiti_housing_design_build_672k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11C0272_1900_-NONE-_-NONE- (lakeshore_haiti_housing_design_build_672k_2011). Signed 2011-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11C0272_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11C0272_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: lakeshore_haiti_housing_design_build_672k_2011 USD 0.672m. Supports lakeshore_haiti_housing_design_build_672k_2011.",
+    "supports": [
+      "lakeshore_haiti_housing_design_build_672k_2011",
+      "hunt_cycle1304"
+    ],
+    "map_supports": [
+      "lakeshore_haiti_housing_design_build_672k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_estudios_ecuador_floating_dock_744k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026C0031_1900_-NONE-_-NONE- (estudios_ecuador_floating_dock_744k_2026). Signed 2026-04-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0031_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026C0031_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: estudios_ecuador_floating_dock_744k_2026 USD 0.744m. Supports estudios_ecuador_floating_dock_744k_2026.",
+    "supports": [
+      "estudios_ecuador_floating_dock_744k_2026",
+      "hunt_cycle1304"
+    ],
+    "map_supports": [
+      "estudios_ecuador_floating_dock_744k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_marforsouth_ops_677k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0585_9700_W9127816D0102_9700 (eterna_honduras_marforsouth_ops_677k_2018). Signed 2018-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0585_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0585_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_marforsouth_ops_677k_2018 USD 0.677m. Supports eterna_honduras_marforsouth_ops_677k_2018.",
+    "supports": [
+      "eterna_honduras_marforsouth_ops_677k_2018",
+      "hunt_cycle1304"
+    ],
+    "map_supports": [
+      "eterna_honduras_marforsouth_ops_677k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_seobra_colombia_scan_eagle_db_536k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0704_9700_W9127817D0097_9700 (seobra_colombia_scan_eagle_db_536k_2018). Signed 2018-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0704_9700_W9127817D0097_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0704_9700_W9127817D0097_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: seobra_colombia_scan_eagle_db_536k_2018 USD 0.536m. Supports seobra_colombia_scan_eagle_db_536k_2018.",
+    "supports": [
+      "seobra_colombia_scan_eagle_db_536k_2018",
+      "hunt_cycle1304"
+    ],
+    "map_supports": [
+      "seobra_colombia_scan_eagle_db_536k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_williams_scotsman_haiti_modular_564k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14C0121_1900_-NONE-_-NONE- (williams_scotsman_haiti_modular_564k_2014). Signed 2014-07-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0121_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0121_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: williams_scotsman_haiti_modular_564k_2014 USD 0.564m. Supports williams_scotsman_haiti_modular_564k_2014.",
+    "supports": [
+      "williams_scotsman_haiti_modular_564k_2014",
+      "hunt_cycle1305"
+    ],
+    "map_supports": [
+      "williams_scotsman_haiti_modular_564k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_powerbilt_colombia_prefab_hangar_doors_376k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SINLEC17M0079_1900_-NONE-_-NONE- (powerbilt_colombia_prefab_hangar_doors_376k_2017). Signed 2017-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SINLEC17M0079_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SINLEC17M0079_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: powerbilt_colombia_prefab_hangar_doors_376k_2017 USD 0.376m. Supports powerbilt_colombia_prefab_hangar_doors_376k_2017.",
+    "supports": [
+      "powerbilt_colombia_prefab_hangar_doors_376k_2017",
+      "hunt_cycle1305"
+    ],
+    "map_supports": [
+      "powerbilt_colombia_prefab_hangar_doors_376k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_tecnologia_honduras_transient_db_532k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0635_9700_W9127816D0103_9700 (tecnologia_honduras_transient_db_532k_2019). Signed 2019-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0635_9700_W9127816D0103_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0635_9700_W9127816D0103_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: tecnologia_honduras_transient_db_532k_2019 USD 0.532m. Supports tecnologia_honduras_transient_db_532k_2019.",
+    "supports": [
+      "tecnologia_honduras_transient_db_532k_2019",
+      "hunt_cycle1305"
+    ],
+    "map_supports": [
+      "tecnologia_honduras_transient_db_532k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mfg_colombia_jurado_radar_tower_485k_2018",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0053_1900_-NONE-_-NONE- (mfg_colombia_jurado_radar_tower_485k_2018). Signed 2018-04-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0053_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0053_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: mfg_colombia_jurado_radar_tower_485k_2018 USD 0.485m. Supports mfg_colombia_jurado_radar_tower_485k_2018.",
+    "supports": [
+      "mfg_colombia_jurado_radar_tower_485k_2018",
+      "hunt_cycle1305"
+    ],
+    "map_supports": [
+      "mfg_colombia_jurado_radar_tower_485k_2018"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_construction_447k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11C0022_9700_-NONE-_-NONE- (misc_colombia_construction_447k_2011). Signed 2011-09-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0022_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0022_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_colombia_construction_447k_2011 USD 0.447m. Supports misc_colombia_construction_447k_2011.",
+    "supports": [
+      "misc_colombia_construction_447k_2011",
+      "hunt_cycle1305"
+    ],
+    "map_supports": [
+      "misc_colombia_construction_447k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_mexico_canine_kennels_371k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F3221_1900_19AQMM20D0072_1900 (alutiiq_mexico_canine_kennels_371k_2021). Signed 2021-08-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F3221_1900_19AQMM20D0072_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F3221_1900_19AQMM20D0072_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_mexico_canine_kennels_371k_2021 USD 0.371m. Supports alutiiq_mexico_canine_kennels_371k_2021.",
+    "supports": [
+      "alutiiq_mexico_canine_kennels_371k_2021",
+      "hunt_cycle1306"
+    ],
+    "map_supports": [
+      "alutiiq_mexico_canine_kennels_371k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_isobox_panama_chu_298k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_H9228125PE005_9700_-NONE-_-NONE- (isobox_panama_chu_298k_2025). Signed 2025-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125PE005_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125PE005_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: isobox_panama_chu_298k_2025 USD 0.298m. Supports isobox_panama_chu_298k_2025.",
+    "supports": [
+      "isobox_panama_chu_298k_2025",
+      "hunt_cycle1306"
+    ],
+    "map_supports": [
+      "isobox_panama_chu_298k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_almeida_franca_brazil_cmr_storage_384k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5025C0115_1900_-NONE-_-NONE- (almeida_franca_brazil_cmr_storage_384k_2025). Signed 2025-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025C0115_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5025C0115_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: almeida_franca_brazil_cmr_storage_384k_2025 USD 0.384m. Supports almeida_franca_brazil_cmr_storage_384k_2025.",
+    "supports": [
+      "almeida_franca_brazil_cmr_storage_384k_2025",
+      "hunt_cycle1306"
+    ],
+    "map_supports": [
+      "almeida_franca_brazil_cmr_storage_384k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_dr_foundation_site_prep_360k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA470416C2001_9700_-NONE-_-NONE- (misc_dr_foundation_site_prep_360k_2016). Signed 2016-01-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470416C2001_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470416C2001_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_dr_foundation_site_prep_360k_2016 USD 0.360m. Supports misc_dr_foundation_site_prep_360k_2016.",
+    "supports": [
+      "misc_dr_foundation_site_prep_360k_2016",
+      "hunt_cycle1306"
+    ],
+    "map_supports": [
+      "misc_dr_foundation_site_prep_360k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_vehicle_maint_building_346k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT13C0020_9700_-NONE-_-NONE- (misc_colombia_vehicle_maint_building_346k_2013). Signed 2013-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT13C0020_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT13C0020_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: misc_colombia_vehicle_maint_building_346k_2013 USD 0.346m. Supports misc_colombia_vehicle_maint_building_346k_2013.",
+    "supports": [
+      "misc_colombia_vehicle_maint_building_346k_2013",
+      "hunt_cycle1306"
+    ],
+    "map_supports": [
+      "misc_colombia_vehicle_maint_building_346k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
