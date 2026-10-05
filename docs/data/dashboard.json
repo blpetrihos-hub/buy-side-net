@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1980,
+    "n_rows": 1995,
     "counts": {
-      "total": 1980,
-      "active": 1781,
+      "total": 1995,
+      "active": 1796,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1707,
-      "on_map": 1627
+      "documented": 1722,
+      "on_map": 1642
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 399,
-        "n": 800
+        "allied": 414,
+        "n": 815
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 121028501501.81001,
-        "allied_n": 328
+        "allied": 122642684587.66002,
+        "allied_n": 343
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 562,
-        "n": 817
+        "allied": 577,
+        "n": 832
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 175790191611.58994,
-        "allied_n": 481
+        "allied": 177404374697.43994,
+        "allied_n": 496
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 279
+          "allied": 294
         },
         "infrastructure": {
           "us": 68,
@@ -2969,7 +2969,22 @@
       "neoenergia_pe_outros_dist_6m26_120m_brl",
       "neoenergia_cosern_outros_dist_6m26_22m_brl",
       "neoenergia_elektro_outros_dist_6m26_87m_brl",
-      "neoenergia_brasilia_outros_dist_6m26_43m_brl"
+      "neoenergia_brasilia_outros_dist_6m26_43m_brl",
+      "neoenergia_coelba_material_6m26_175m_brl",
+      "neoenergia_pe_material_6m26_66m_brl",
+      "neoenergia_cosern_material_6m26_26m_brl",
+      "neoenergia_elektro_material_6m26_23m_brl",
+      "neoenergia_brasilia_material_6m26_21m_brl",
+      "neoenergia_coelba_investimento_bruto_6m26_2092m_brl",
+      "neoenergia_pe_investimento_bruto_6m26_815m_brl",
+      "neoenergia_cosern_investimento_bruto_6m26_271m_brl",
+      "neoenergia_elektro_investimento_bruto_6m26_626m_brl",
+      "neoenergia_brasilia_investimento_bruto_6m26_262m_brl",
+      "neoenergia_coelba_investimento_liquido_6m26_2093m_brl",
+      "neoenergia_pe_investimento_liquido_6m26_811m_brl",
+      "neoenergia_cosern_investimento_liquido_6m26_266m_brl",
+      "neoenergia_elektro_investimento_liquido_6m26_586m_brl",
+      "neoenergia_brasilia_investimento_liquido_6m26_248m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
