@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8120,
+    "n_rows": 8125,
     "counts": {
-      "total": 8120,
-      "active": 7921,
+      "total": 8125,
+      "active": 7926,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7847,
-      "on_map": 7753
+      "documented": 7852,
+      "on_map": 7758
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3805,
-        "n": 4206
+        "allied": 3810,
+        "n": 4211
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 382557744647.4205,
-        "allied_n": 3734
+        "allied": 382611944260.5004,
+        "allied_n": 3739
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6688,
-        "n": 6943
+        "allied": 6693,
+        "n": 6948
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526426450623.2201,
-        "allied_n": 6607
+        "allied": 526480650236.30005,
+        "allied_n": 6612
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3671
+          "allied": 3676
         },
         "infrastructure": {
           "us": 68,
@@ -9109,7 +9109,12 @@
       "axia_txproj_melhoria_na_se_tijuco_preto_substituicao_do_b_69m_brl",
       "axia_txproj_melhoria_na_se_campinas_substituicao_do_trans_64m_brl",
       "axia_txproj_se_campinas_instalacao_do_1_reator_de_barra_5_58m_brl",
-      "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_tr_58m_brl"
+      "axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_do_tr_58m_brl",
+      "axia_txproj_reforco_na_se_itabaiana_substituicao_do_1_e_2_58m_brl",
+      "axia_txproj_reforco_na_se_teresina_ii_instalacao_do_2_ban_58m_brl",
+      "axia_txproj_melhoria_na_se_vila_do_conde_substituicao_ban_57m_brl",
+      "axia_txproj_melhoria_na_se_londrina_substituicao_de_banco_55m_brl",
+      "axia_txproj_reforco_na_se_irece_substituicao_do_tr2_e_tr3_54m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
