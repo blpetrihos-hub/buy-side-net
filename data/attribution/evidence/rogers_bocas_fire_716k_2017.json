@@ -1,0 +1,10 @@
+{
+  "id": "rogers_bocas_fire_716k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_rogers_bocas_fire_716k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_F17CW10481_3300_F15CC10192_3300/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "WORK ORDER FOR BOCAS FIRE PROTECTION PHASE II PROJECT - CONSTRUCTION PHASE; SF PROJECT NO 0679802.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 716036.09; date_signed 2017-08-15."
+}

@@ -25690,3 +25690,153 @@
   supports:
   - eterna_hap_medical_clinic_1p15m_2021
   - hunt_cycle971
+- id: usaspending_boland_trane_caracas_chiller_902k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16M2941_1900_-NONE-_-NONE-
+    (Boland Trane Caracas chiller). Signed 2016-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M2941_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16M2941_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Boland Trane Caracas chiller USD 0.902m. Supports boland_trane_caracas_chiller_902k_2016.'
+  supports:
+  - boland_trane_caracas_chiller_902k_2016
+  - hunt_cycle972
+- id: usaspending_hulke_freeport_warehouse_895k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945012C0048_9700_-NONE-_-NONE-
+    (Hulke Freeport warehouse). Signed 2012-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945012C0048_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945012C0048_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Hulke Freeport warehouse USD 0.895m. Supports hulke_freeport_warehouse_895k_2012.'
+  supports:
+  - hulke_freeport_warehouse_895k_2012
+  - hunt_cycle972
+- id: usaspending_misc_managua_power_feeder_892k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11M1699_1900_-NONE-_-NONE-
+    (Managua power feeder). Signed 2011-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11M1699_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11M1699_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Managua dedicated power feeder USD 0.892m. Supports misc_managua_power_feeder_892k_2011.'
+  supports:
+  - misc_managua_power_feeder_892k_2011
+  - hunt_cycle972
+- id: usaspending_mesan_kingston_avr_887k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F3644_1900_SAQMMA11D0062_1900
+    (Mesan Kingston AVR). Signed 2011-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3644_1900_SAQMMA11D0062_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3644_1900_SAQMMA11D0062_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Mesan Kingston AVR USD 0.887m. Supports mesan_kingston_avr_887k_2011.'
+  supports:
+  - mesan_kingston_avr_887k_2011
+  - hunt_cycle972
+- id: usaspending_marago_santa_marta_lodging_847k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20C0036_1900_-NONE-_-NONE-
+    (Marago Santa Marta lodging). Signed 2020-02-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0036_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0036_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marago Santa Marta lodging USD 0.847m. Supports marago_santa_marta_lodging_847k_2020.'
+  supports:
+  - marago_santa_marta_lodging_847k_2020
+  - hunt_cycle972
+- id: usaspending_akj_mexico_seneca_reno_799k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5024C0022_1900_-NONE-_-NONE-
+    (AKJ Seneca renovation). Signed 2024-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024C0022_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024C0022_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: AKJ Seneca renovation USD 0.799m. Supports akj_mexico_seneca_reno_799k_2024.'
+  supports:
+  - akj_mexico_seneca_reno_799k_2024
+  - hunt_cycle973
+- id: usaspending_proyectos_rio_sidra_clinic_759k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0033_9700_-NONE-_-NONE-
+    (Proyectos Rio Sidra clinic). Signed 2011-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0033_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0033_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proyectos Rio Sidra clinic USD 0.759m. Supports proyectos_rio_sidra_clinic_759k_2011.'
+  supports:
+  - proyectos_rio_sidra_clinic_759k_2011
+  - hunt_cycle973
+- id: usaspending_tmc_teacapan_aircraft_750k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489021F0076_9700_FA489016D0015_9700
+    (TMC Teacapan). Signed 2021-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489021F0076_9700_FA489016D0015_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489021F0076_9700_FA489016D0015_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: TMC Teacapan aircraft structure USD 0.750m. Supports tmc_teacapan_aircraft_750k_2021.'
+  supports:
+  - tmc_teacapan_aircraft_750k_2021
+  - hunt_cycle973
+- id: usaspending_proyectos_caucasia_cefop_lodging_750k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0202_1900_-NONE-_-NONE-
+    (Proyectos Caucasia CEFOP lodging). Signed 2017-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0202_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0202_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proyectos Caucasia CEFOP lodging USD 0.750m. Supports proyectos_caucasia_cefop_lodging_750k_2017.'
+  supports:
+  - proyectos_caucasia_cefop_lodging_750k_2017
+  - hunt_cycle973
+- id: usaspending_equipos_comayagua_reno_747k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16C0193_1900_-NONE-_-NONE-
+    (Equipos Comayagua renovation). Signed 2016-08-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0193_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16C0193_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Equipos Comayagua renovation USD 0.747m. Supports equipos_comayagua_reno_747k_2016.'
+  supports:
+  - equipos_comayagua_reno_747k_2016
+  - hunt_cycle973
+- id: usaspending_consolidated_mexico_scanner_747k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0136_1900_-NONE-_-NONE-
+    (Consolidated Mexico scanner). Signed 2017-06-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0136_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0136_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Consolidated Mexico scanner site USD 0.747m. Supports consolidated_mexico_scanner_747k_2017.'
+  supports:
+  - consolidated_mexico_scanner_747k_2017
+  - hunt_cycle974
+- id: usaspending_cg_tto_police_academy_745k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0042_1900_-NONE-_-NONE-
+    (CG TTO Police Academy). Signed 2019-04-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0042_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0042_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: CG TTO Police Academy USD 0.745m. Supports cg_tto_police_academy_745k_2019.'
+  supports:
+  - cg_tto_police_academy_745k_2019
+  - hunt_cycle974
+- id: usaspending_eei_cnp_utilities_740k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17C0210_1900_-NONE-_-NONE-
+    (EEI CNP utilities). Signed 2017-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0210_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17C0210_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EEI CNP utilities USD 0.740m. Supports eei_cnp_utilities_740k_2017.'
+  supports:
+  - eei_cnp_utilities_740k_2017
+  - hunt_cycle974
+- id: usaspending_rogers_bocas_fire_716k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F17CW10481_3300_F15CC10192_3300
+    (Rogers Bocas fire Phase II). Signed 2017-08-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F17CW10481_3300_F15CC10192_3300/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_F17CW10481_3300_F15CC10192_3300/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Rogers Bocas fire Phase II USD 0.716m. Supports rogers_bocas_fire_716k_2017.'
+  supports:
+  - rogers_bocas_fire_716k_2017
+  - hunt_cycle974
+- id: usaspending_mfg_turbo_lodging_702k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18C0016_1900_-NONE-_-NONE-
+    (MFG Turbo lodging). Signed 2018-01-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0016_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18C0016_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: MFG Turbo lodging USD 0.702m. Supports mfg_turbo_lodging_702k_2018.'
+  supports:
+  - mfg_turbo_lodging_702k_2018
+  - hunt_cycle974
