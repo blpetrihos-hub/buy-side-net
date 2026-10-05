@@ -46104,5 +46104,275 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_tss_building_remodel_248k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6025P0006_1900_-NONE-_-NONE- (TSS building remodel). Signed 2024-10-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6025P0006_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6025P0006_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: TSS building remodel USD 0.248m. Supports tss_building_remodel_248k_2024.",
+    "supports": [
+      "tss_building_remodel_248k_2024",
+      "hunt_cycle993"
+    ],
+    "map_supports": [
+      "tss_building_remodel_248k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_community_center_248k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT13C0018_9700_-NONE-_-NONE- (Colombia community center). Signed 2013-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT13C0018_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT13C0018_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Colombia community center USD 0.248m. Supports misc_community_center_248k_2013.",
+    "supports": [
+      "misc_community_center_248k_2013",
+      "hunt_cycle993"
+    ],
+    "map_supports": [
+      "misc_community_center_248k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_pijaos_barracks_247k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15011CN014_1900_-NONE-_-NONE- (Pijaos barracks). Signed 2011-07-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15011CN014_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15011CN014_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Pijaos barracks USD 0.247m. Supports misc_pijaos_barracks_247k_2011.",
+    "supports": [
+      "misc_pijaos_barracks_247k_2011",
+      "hunt_cycle993"
+    ],
+    "map_supports": [
+      "misc_pijaos_barracks_247k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_isobox_corozal_este_237k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_H9228125CE002_9700_-NONE-_-NONE- (Isobox Corozal Este). Signed 2025-09-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125CE002_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125CE002_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Isobox Corozal Este USD 0.237m. Supports isobox_corozal_este_237k_2025.",
+    "supports": [
+      "isobox_corozal_este_237k_2025",
+      "hunt_cycle993"
+    ],
+    "map_supports": [
+      "isobox_corozal_este_237k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_tobar_donoso_barracks_227k_2009",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC09C0003_1900_-NONE-_-NONE- (Tobar Donoso barracks). Signed 2009-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09C0003_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC09C0003_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Tobar Donoso barracks USD 0.227m. Supports misc_tobar_donoso_barracks_227k_2009.",
+    "supports": [
+      "misc_tobar_donoso_barracks_227k_2009",
+      "hunt_cycle993"
+    ],
+    "map_supports": [
+      "misc_tobar_donoso_barracks_227k_2009"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_trison_nassau_chiller_226k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA14F0355_1900_SAQMMA08D0019_1900 (Trison Nassau chiller). Signed 2013-12-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F0355_1900_SAQMMA08D0019_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14F0355_1900_SAQMMA08D0019_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Trison Nassau chiller USD 0.226m. Supports trison_nassau_chiller_226k_2013.",
+    "supports": [
+      "trison_nassau_chiller_226k_2013",
+      "hunt_cycle994"
+    ],
+    "map_supports": [
+      "trison_nassau_chiller_226k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brasilia_cmr_road_pool_225k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2519P0884_1900_-NONE-_-NONE- (Brasília CMR road/pool). Signed 2019-06-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P0884_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P0884_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Brasília CMR road/pool USD 0.225m. Supports misc_brasilia_cmr_road_pool_225k_2019.",
+    "supports": [
+      "misc_brasilia_cmr_road_pool_225k_2019",
+      "hunt_cycle994"
+    ],
+    "map_supports": [
+      "misc_brasilia_cmr_road_pool_225k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_kunkel_gamboa_refurb_224k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330223CF0010230_3300_-NONE-_-NONE- (Kunkel Gamboa refurb). Signed 2023-05-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330223CF0010230_3300_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330223CF0010230_3300_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Kunkel Gamboa refurb USD 0.224m. Supports kunkel_gamboa_refurb_224k_2023.",
+    "supports": [
+      "kunkel_gamboa_refurb_224k_2023",
+      "hunt_cycle994"
+    ],
+    "map_supports": [
+      "kunkel_gamboa_refurb_224k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_palgag_dr_atfp_gates_220k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0070_9700_-NONE-_-NONE- (Palgag DR ATFP gates). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0070_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0070_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Palgag DR ATFP gates USD 0.220m. Supports palgag_dr_atfp_gates_220k_2010.",
+    "supports": [
+      "palgag_dr_atfp_gates_220k_2010",
+      "hunt_cycle994"
+    ],
+    "map_supports": [
+      "palgag_dr_atfp_gates_220k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_bolanos_manta_port_dorms_219k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC11C0002_1900_-NONE-_-NONE- (Bolaños Manta Port dorms). Signed 2011-01-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11C0002_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11C0002_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bolaños Manta Port dorms USD 0.219m. Supports bolanos_manta_port_dorms_219k_2011.",
+    "supports": [
+      "bolanos_manta_port_dorms_219k_2011",
+      "hunt_cycle994"
+    ],
+    "map_supports": [
+      "bolanos_manta_port_dorms_219k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_kunkel_bci_dorm_d_216k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330223CF0010526_3300_-NONE-_-NONE- (Kunkel BCI Dorm D). Signed 2023-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330223CF0010526_3300_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330223CF0010526_3300_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Kunkel BCI Dorm D USD 0.216m. Supports kunkel_bci_dorm_d_216k_2023.",
+    "supports": [
+      "kunkel_bci_dorm_d_216k_2023",
+      "hunt_cycle995"
+    ],
+    "map_supports": [
+      "kunkel_bci_dorm_d_216k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_peru_cmu_living_214k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA441713C6000_9700_-NONE-_-NONE- (Peru CMU living quarters). Signed 2013-09-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA441713C6000_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA441713C6000_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Peru CMU living quarters USD 0.214m. Supports misc_peru_cmu_living_214k_2013.",
+    "supports": [
+      "misc_peru_cmu_living_214k_2013",
+      "hunt_cycle995"
+    ],
+    "map_supports": [
+      "misc_peru_cmu_living_214k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_serrano_emergency_water_211k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0475_9700_W9127816D0109_9700 (Serrano emergency water). Signed 2017-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0475_9700_W9127816D0109_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0475_9700_W9127816D0109_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Serrano emergency water USD 0.211m. Supports serrano_emergency_water_211k_2017.",
+    "supports": [
+      "serrano_emergency_water_211k_2017",
+      "hunt_cycle995"
+    ],
+    "map_supports": [
+      "serrano_emergency_water_211k_2017"
+    ],
+    "layers": [
+      "resources"
+    ]
+  },
+  {
+    "id": "usaspending_bendig_msp_joc_210k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8026P0956_1900_-NONE-_-NONE- (Bendig MSP/JOC). Signed 2026-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8026P0956_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8026P0956_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bendig MSP/JOC USD 0.210m. Supports bendig_msp_joc_210k_2026.",
+    "supports": [
+      "bendig_msp_joc_210k_2026",
+      "hunt_cycle995"
+    ],
+    "map_supports": [
+      "bendig_msp_joc_210k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fuduric_ceopaz_warehouse_209k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL19C0004_9700_-NONE-_-NONE- (Fudurić CEOPAZ warehouse). Signed 2019-04-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL19C0004_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL19C0004_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Fudurić CEOPAZ warehouse USD 0.209m. Supports fuduric_ceopaz_warehouse_209k_2019.",
+    "supports": [
+      "fuduric_ceopaz_warehouse_209k_2019",
+      "hunt_cycle995"
+    ],
+    "map_supports": [
+      "fuduric_ceopaz_warehouse_209k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
