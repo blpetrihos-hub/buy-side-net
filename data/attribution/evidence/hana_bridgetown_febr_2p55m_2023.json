@@ -1,0 +1,10 @@
+{
+  "id": "hana_bridgetown_febr_2p55m_2023",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hana_bridgetown_febr_2p55m_2023",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1749_1900_19AQMM21D0065_1900/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "FE/BR II WORLDWIDE PROGRAM CONSISTING OF DESIGN-BUILD AND/OR CONSTRUCTION SERVICES FOR THE INSTALLATION, MAINTENANCE, AND REPAIR & REPLACEMENT (R&R) OF FORCED ENTRY/ BALLISTIC RESISTANT (FE/BR) DOORS, WINDOWS AND ANTI-RAM BARRIERS (ARB).",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 2551619.92; date_signed 2023-07-10."
+}
