@@ -49884,5 +49884,275 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_pinnacle_guyana_tower_lights_94k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL21P0015_9700_-NONE-_-NONE- (Pinnacle Guyana tower lights). Signed 2021-06-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL21P0015_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL21P0015_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Pinnacle Guyana tower lights USD 0.094m. Supports pinnacle_guyana_tower_lights_94k_2021.",
+    "supports": [
+      "pinnacle_guyana_tower_lights_94k_2021",
+      "hunt_cycle1035"
+    ],
+    "map_supports": [
+      "pinnacle_guyana_tower_lights_94k_2021"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_colombia_warehouse_structure_87k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20017M0651_1900_-NONE-_-NONE- (Colombia warehouse structure). Signed 2017-08-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20017M0651_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20017M0651_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Colombia warehouse structure USD 0.087m. Supports misc_colombia_warehouse_structure_87k_2017.",
+    "supports": [
+      "misc_colombia_warehouse_structure_87k_2017",
+      "hunt_cycle1035"
+    ],
+    "map_supports": [
+      "misc_colombia_warehouse_structure_87k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_wkl_panama_cdc_office_87k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0724P0446_1900_-NONE-_-NONE- (WKL CDC office). Signed 2024-04-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0724P0446_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0724P0446_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: WKL CDC office USD 0.087m. Supports wkl_panama_cdc_office_87k_2024.",
+    "supports": [
+      "wkl_panama_cdc_office_87k_2024",
+      "hunt_cycle1035"
+    ],
+    "map_supports": [
+      "wkl_panama_cdc_office_87k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_hermosillo_generator_88k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5720P0051_1900_-NONE-_-NONE- (Hermosillo generator). Signed 2020-03-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5720P0051_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5720P0051_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Hermosillo generator USD 0.088m. Supports misc_hermosillo_generator_88k_2020.",
+    "supports": [
+      "misc_hermosillo_generator_88k_2020",
+      "hunt_cycle1035"
+    ],
+    "map_supports": [
+      "misc_hermosillo_generator_88k_2020"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_belle_grove_naos_wet_lab_86k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_F16CC10530_3300_-NONE-_-NONE- (Belle Grove Naos wet lab). Signed 2016-08-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CC10530_3300_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_F16CC10530_3300_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Belle Grove Naos wet lab USD 0.086m. Supports belle_grove_naos_wet_lab_86k_2016.",
+    "supports": [
+      "belle_grove_naos_wet_lab_86k_2016",
+      "hunt_cycle1035"
+    ],
+    "map_supports": [
+      "belle_grove_naos_wet_lab_86k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_atria_brazil_cmr_ae_86k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR2519P0394_1900_-NONE-_-NONE- (Atria Brazil CMR A&E). Signed 2019-03-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P0394_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR2519P0394_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Atria Brazil CMR A&E USD 0.086m. Supports atria_brazil_cmr_ae_86k_2019.",
+    "supports": [
+      "atria_brazil_cmr_ae_86k_2019",
+      "hunt_cycle1036"
+    ],
+    "map_supports": [
+      "atria_brazil_cmr_ae_86k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mfg_gaitanias_shelter_86k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT12P0339_9700_-NONE-_-NONE- (MFG Gaitanias shelter). Signed 2012-09-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12P0339_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT12P0339_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: MFG Gaitanias shelter USD 0.086m. Supports mfg_gaitanias_shelter_86k_2012.",
+    "supports": [
+      "mfg_gaitanias_shelter_86k_2012",
+      "hunt_cycle1036"
+    ],
+    "map_supports": [
+      "mfg_gaitanias_shelter_86k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_atlas_haiti_attalaye_86k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521BC1300002_7200_AID521E1200002_7200 (Atlas Attalaye). Signed 2013-08-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1300002_7200_AID521E1200002_7200/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1300002_7200_AID521E1200002_7200/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Atlas Attalaye USD 0.086m. Supports atlas_haiti_attalaye_86k_2013.",
+    "supports": [
+      "atlas_haiti_attalaye_86k_2013",
+      "hunt_cycle1036"
+    ],
+    "map_supports": [
+      "atlas_haiti_attalaye_86k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_dts_guyana_generators_88k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W569QE23P0041_9700_-NONE-_-NONE- (DTS Guyana generators). Signed 2023-06-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W569QE23P0041_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W569QE23P0041_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: DTS Guyana generators USD 0.088m. Supports dts_guyana_generators_88k_2023.",
+    "supports": [
+      "dts_guyana_generators_88k_2023",
+      "hunt_cycle1036"
+    ],
+    "map_supports": [
+      "dts_guyana_generators_88k_2023"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_air_charter_chile_generators_69k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AIDTRNC001000063_7200_-NONE-_-NONE- (Air Charter Chile generators). Signed 2010-03-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AIDTRNC001000063_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AIDTRNC001000063_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Air Charter Chile generators USD 0.069m. Supports air_charter_chile_generators_69k_2010.",
+    "supports": [
+      "air_charter_chile_generators_69k_2010",
+      "hunt_cycle1036"
+    ],
+    "map_supports": [
+      "air_charter_chile_generators_69k_2010"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_bolivia_generator_86k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBL40013M0372_1900_-NONE-_-NONE- (Bolivia RDTF generator). Signed 2013-06-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40013M0372_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40013M0372_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Bolivia RDTF generator USD 0.086m. Supports misc_bolivia_generator_86k_2013.",
+    "supports": [
+      "misc_bolivia_generator_86k_2013",
+      "hunt_cycle1037"
+    ],
+    "map_supports": [
+      "misc_bolivia_generator_86k_2013"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_misc_peru_msgq_kitchen_78k_2013",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50013C0032_1900_-NONE-_-NONE- (Peru MSGQ kitchen). Signed 2013-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50013C0032_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50013C0032_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Peru MSGQ kitchen USD 0.078m. Supports misc_peru_msgq_kitchen_78k_2013.",
+    "supports": [
+      "misc_peru_msgq_kitchen_78k_2013",
+      "hunt_cycle1037"
+    ],
+    "map_supports": [
+      "misc_peru_msgq_kitchen_78k_2013"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_embassy_renovation_77k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX53011C0047_1900_-NONE-_-NONE- (Mexico Embassy renovation). Signed 2011-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53011C0047_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53011C0047_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico Embassy renovation USD 0.077m. Supports misc_mexico_embassy_renovation_77k_2011.",
+    "supports": [
+      "misc_mexico_embassy_renovation_77k_2011",
+      "hunt_cycle1037"
+    ],
+    "map_supports": [
+      "misc_mexico_embassy_renovation_77k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_urbanus_panama_nec_fence_74k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PM0719P0969_1900_-NONE-_-NONE- (Urbanus NEC fence). Signed 2019-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0969_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0969_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Urbanus NEC fence USD 0.074m. Supports urbanus_panama_nec_fence_74k_2019.",
+    "supports": [
+      "urbanus_panama_nec_fence_74k_2019",
+      "hunt_cycle1037"
+    ],
+    "map_supports": [
+      "urbanus_panama_nec_fence_74k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_york_barbados_chiller_67k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBB21016M0618_1900_-NONE-_-NONE- (York Barbados chiller). Signed 2016-07-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21016M0618_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBB21016M0618_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: York Barbados chiller USD 0.067m. Supports york_barbados_chiller_67k_2016.",
+    "supports": [
+      "york_barbados_chiller_67k_2016",
+      "hunt_cycle1037"
+    ],
+    "map_supports": [
+      "york_barbados_chiller_67k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
