@@ -11889,3 +11889,51 @@
   supports:
   - danasun_choloma_solar_honduras_2024
   - hunt_cycle236
+- id: edp_brazil_tx_3p7bn_20260915
+  type: company
+  chicago: EDP. “EDP energiza maior linha e subestação de sua história 34 meses antes do prazo.” September 15, 2026. https://edp.com/pt-br/america-do-sul/brasil/imprensa/noticias/edp-energiza-maior-linha-e-subestacao-de-sua-historia-34.
+  url: https://edp.com/pt-br/america-do-sul/brasil/imprensa/noticias/edp-energiza-maior-linha-e-subestacao-de-sua-historia-34
+  annotation: EDP Brazil tx NEW ~USD 712.62m via Fed H.10. Supports edp_brazil_tx_3p7bn_brl_2026_2028.
+  supports:
+  - edp_brazil_tx_3p7bn_brl_2026_2028
+  - hunt_cycle237
+- id: edp_goias_tx_450m_20260825
+  type: company
+  chicago: EDP. “EDP investe R$ 450 milhões e consolida Goiás como centro estratégico da Transmissão de energia.” August 25, 2026. https://edp.com/pt-br/america-do-sul/brasil/imprensa/noticias/edp-investe-r-450-milhoes-e-consolida-goias.
+  url: https://edp.com/pt-br/america-do-sul/brasil/imprensa/noticias/edp-investe-r-450-milhoes-e-consolida-goias
+  annotation: EDP Goiás tx NEW ~USD 86.67m via Fed H.10 (nested). Supports edp_goias_tx_450m_brl_2026_2028.
+  supports:
+  - edp_goias_tx_450m_brl_2026_2028
+  - hunt_cycle237
+- id: edp_sp_dist_5bn_20260508
+  type: company
+  chicago: EDP Brasil. “EDP assina renovação da sua concessão de Distribuição no estado de São Paulo e investirá R$ 5 bilhões até 2030.” May 8, 2026. https://www.edp.com.br/noticias/artigo/edp-assina-renovacao-da-sua-concessao-de-distribuicao-no-estado-de-sao-paulo-e-investira-r-5-bilhoes-ate-2030/.
+  url: https://www.edp.com.br/noticias/artigo/edp-assina-renovacao-da-sua-concessao-de-distribuicao-no-estado-de-sao-paulo-e-investira-r-5-bilhoes-ate-2030/
+  annotation: EDP SP dist NEW ~USD 962.99m via Fed H.10. Supports edp_sp_dist_5bn_brl_2025_2030.
+  supports:
+  - edp_sp_dist_5bn_brl_2025_2030
+  - hunt_cycle237
+- id: andritz_copel_foz_segredo_20260527
+  type: company
+  chicago: 'ANDRITZ. “Powering Brazil’s clean energy future: ANDRITZ secures major hydropower capacity expansion contracts with COPEL.” May 27, 2026. https://www.andritz.com/newsroom-en/hydro/2026-05-27-copel-group.'
+  url: https://www.andritz.com/newsroom-en/hydro/2026-05-27-copel-group
+  annotation: ANDRITZ COPEL NEW USD 342.00m via Fed H.10 (EUR 300m floor). Supports andritz_copel_foz_segredo_2026.
+  supports:
+  - andritz_copel_foz_segredo_2026
+  - hunt_cycle237
+- id: nencol_powerchina_lstk_2026
+  type: company
+  chicago: 'Nencol Energia. “TermoInduEnergy – NENCOL 5: Colombia’s Only Firm Energy Awarded LNG-to-Power Project.” 2026. https://nencolenergia.com/.'
+  url: https://nencolenergia.com/
+  annotation: PowerChina NENCOL LSTK NEW USD 195.2m. Supports powerchina_nencol5_lstk_195p2m_2026.
+  supports:
+  - powerchina_nencol5_lstk_195p2m_2026
+  - hunt_cycle237
+- id: aes_andes_greentegra_4bn_20260123
+  type: company
+  chicago: AES Andes. “AES Andes Focuses on Renewables and Discontinues Green Hydrogen Development.” January 23, 2026. https://www.aesandes.com/en/press-release/aes-andes-focus-renewables-and-storage-discontinues-green-hydrogen-development.
+  url: https://www.aesandes.com/en/press-release/aes-andes-focus-renewables-and-storage-discontinues-green-hydrogen-development
+  annotation: AES Andes Greentegra NEW USD 4bn floor. Supports aes_andes_greentegra_4bn_chile_2026.
+  supports:
+  - aes_andes_greentegra_4bn_chile_2026
+  - hunt_cycle237
