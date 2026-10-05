@@ -7133,12 +7133,13 @@
   {
     "id": "inn_atlas_neves_71pct_20260909",
     "type": "company",
-    "chicago": "Atlas Lithium Corporation. “Atlas Lithium Materially De-Risks Neves Project with 71% of Direct Capital Budget Already Contracted.” Investing News Network, 9 September 2026.",
+    "chicago": "Atlas Lithium Corporation. “Atlas Lithium Materially De-Risks Neves Project with 71% of Direct Capital Budget Already Contracted.” Investing News Network (Newsfile), September 9, 2026. https://investingnews.com/atlas-lithium-materially-de-risks-neves-project-with-71-of-direct-capital-budget-already-contracted/.",
     "url": "https://investingnews.com/atlas-lithium-materially-de-risks-neves-project-with-71-of-direct-capital-budget-already-contracted/",
-    "annotation": "Opened Atlas Neves 71% CapEx contracting release via INN. Supports atlas_lithium_neves_71pct_capex_2026.",
+    "annotation": "Atlas Neves 71% CapEx-fill ~USD 34.31m contracted. Supports atlas_lithium_neves_71pct_capex_2026.",
     "supports": [
       "atlas_lithium_neves_71pct_capex_2026",
-      "hunt_res_lithium"
+      "hunt_res_lithium",
+      "hunt_cycle240"
     ],
     "map_supports": [
       "atlas_lithium_neves_71pct_capex_2026",
@@ -19943,24 +19944,6 @@
     ]
   },
   {
-    "id": "spic_brasil_sao_simao_ug7_20260319",
-    "type": "company",
-    "chicago": "SPIC Brasil. “SPIC Brasil expandirá a UHE São Simão em 310 MW via Leilão de Reserva de Capacidade, com mais de R$ 1 bilhão em investimentos.” March 19, 2026. https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/.",
-    "url": "https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/",
-    "annotation": "SPIC São Simão UG7 CapEx-fill ~USD 192.60m via Fed H.10. Supports spic_sao_simao_ug7_lrcap_2026.",
-    "supports": [
-      "spic_sao_simao_ug7_lrcap_2026",
-      "hunt_cycle197",
-      "hunt_cycle223"
-    ],
-    "map_supports": [
-      "spic_sao_simao_ug7_lrcap_2026"
-    ],
-    "layers": [
-      "energy"
-    ]
-  },
-  {
     "id": "amazon_brasil_invest_20260804",
     "type": "company",
     "chicago": "Amazon. “Amazon reforça compromisso com o Brasil com operação crescente alinhada à estratégia global.” About Amazon Brasil, August 4, 2026. https://www.aboutamazon.com.br/noticias/noticias-da-empresa/amazon-reforca-compromisso-com-o-brasil-com-operacao-crescente-alinhada-a-estrategia-global.",
@@ -21699,6 +21682,40 @@
     ],
     "layers": [
       "energy"
+    ]
+  },
+  {
+    "id": "brasilenergia_spic_sao_simao_1p4bn_20260910",
+    "type": "press",
+    "chicago": "Melloni, Eugenio. “Spic Brasil contrata consórcio para expandir São Simão.” Brasil Energia, September 10, 2026. https://brasilenergia.azurewebsites.net/energia/hidrica/spic-brasil-contrata-consorcio-para-a-expansao-da-uhe-sao-simao.",
+    "url": "https://brasilenergia.azurewebsites.net/energia/hidrica/spic-brasil-contrata-consorcio-para-a-expansao-da-uhe-sao-simao",
+    "annotation": "SPIC São Simão CapEx-upgrade R$1.4bn ~USD 269.64m via Fed H.10. Supports spic_sao_simao_ug7_lrcap_2026.",
+    "supports": [
+      "spic_sao_simao_ug7_lrcap_2026",
+      "hunt_cycle240"
+    ],
+    "map_supports": [
+      "spic_sao_simao_ug7_lrcap_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "portonave_ertg_complete_20260727",
+    "type": "company",
+    "chicago": "Portonave. “Portonave recebe mais sete unidades e completa a chegada dos 14 novos guindastes elétricos de pátio.” July 27, 2026. https://www.portonave.com.br/pt/todas-as-noticias/portonave-recebe-mais-sete-unidades-e-completa-a-chegada-dos-14-novos-guindastes-eletricos-de-patio.",
+    "url": "https://www.portonave.com.br/pt/todas-as-noticias/portonave-recebe-mais-sete-unidades-e-completa-a-chegada-dos-14-novos-guindastes-eletricos-de-patio",
+    "annotation": "Portonave electric package NEW >R$500m ~USD 96.30m via Fed H.10. Supports portonave_electric_equip_500m_brl_2026.",
+    "supports": [
+      "portonave_electric_equip_500m_brl_2026",
+      "hunt_cycle240"
+    ],
+    "map_supports": [
+      "portonave_electric_equip_500m_brl_2026"
+    ],
+    "layers": [
+      "infrastructure"
     ]
   }
 ]
