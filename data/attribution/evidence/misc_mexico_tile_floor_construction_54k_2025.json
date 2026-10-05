@@ -1,0 +1,10 @@
+{
+  "id": "misc_mexico_tile_floor_construction_54k_2025",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_mexico_tile_floor_construction_54k_2025",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX1125P0113_1900_-NONE-_-NONE-/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "IGT::OT::IGT TILE FLOOR CONSTRUCTION AND IMPROVEMENT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 53985.29; date_signed 2025-04-28."
+}
