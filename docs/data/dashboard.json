@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6929,
+    "n_rows": 6934,
     "counts": {
-      "total": 6929,
-      "active": 6730,
+      "total": 6934,
+      "active": 6735,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6656,
-      "on_map": 6562
+      "documented": 6661,
+      "on_map": 6567
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2614,
-        "n": 3015
+        "allied": 2619,
+        "n": 3020
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 325812085631.7203,
-        "allied_n": 2543
+        "allied": 326088250679.4003,
+        "allied_n": 2548
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5497,
-        "n": 5752
+        "allied": 5502,
+        "n": 5757
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 469680791607.5199,
-        "allied_n": 5416
+        "allied": 469956956655.19995,
+        "allied_n": 5421
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2480
+          "allied": 2485
         },
         "infrastructure": {
           "us": 68,
@@ -7918,7 +7918,12 @@
       "axia_hold_ambiental_infra_4t23_171m_brl",
       "axia_hold_empresas_investidas_4t23_13m_brl",
       "axia_hold_aquisicoes_4t23_1675m_brl",
-      "axia_hold_total_4t23_2641m_brl"
+      "axia_hold_total_4t23_2641m_brl",
+      "axia_hold_imob_intang_3t23_478m_brl",
+      "axia_hold_geracao_3t23_71m_brl",
+      "axia_hold_transmissao_3t23_358m_brl",
+      "axia_hold_ambiental_infra_3t23_49m_brl",
+      "axia_hold_total_3t23_478m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
