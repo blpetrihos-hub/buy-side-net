@@ -16531,7 +16531,7 @@
   type: company
   chicago: Equatorial Energia S.A. “Dados Financeiros e Operacionais — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/6bcd16a6-10be-b7ae-ffcb-21629649017f?origin=2
-  annotation: Equatorial Saneamento 2T25 CapEx via Fed H.10. Supports equatorial_saneamento_2t25_13m_brl.
+  annotation: Equatorial Saneamento 1T25 CapEx via Fed H.10. Supports equatorial_saneamento_1t25_35m_brl.
   supports:
   - equatorial_ma_1t26_273m_brl
   - hunt_cycle491
@@ -16687,3 +16687,41 @@
   - equatorial_tx_2t25_13m_brl
   - equatorial_echo_2t25_11m_brl
   - equatorial_saneamento_2t25_13m_brl
+  - equatorial_ma_1t25_307m_brl
+  - hunt_cycle495
+  - equatorial_ma_eletricos_1t25_275m_brl
+  - equatorial_ma_oe_1t25_11m_brl
+  - equatorial_ma_nonelectric_1t25_20m_brl
+  - equatorial_ma_pe_1t25_4m_brl
+  - equatorial_pa_1t25_720m_brl
+  - equatorial_pa_eletricos_1t25_433m_brl
+  - equatorial_pa_oe_1t25_253m_brl
+  - equatorial_pa_nonelectric_1t25_34m_brl
+  - equatorial_pa_pe_1t25_8m_brl
+  - equatorial_pi_1t25_190m_brl
+  - equatorial_pi_eletricos_1t25_161m_brl
+  - equatorial_pi_oe_1t25_19m_brl
+  - equatorial_pi_nonelectric_1t25_11m_brl
+  - equatorial_pi_pe_1t25_2m_brl
+  - equatorial_al_1t25_160m_brl
+  - equatorial_al_eletricos_1t25_151m_brl
+  - equatorial_al_oe_1t25_2m_brl
+  - equatorial_al_nonelectric_1t25_7m_brl
+  - equatorial_al_pe_1t25_1m_brl
+  - equatorial_rs_1t25_308m_brl
+  - equatorial_rs_eletricos_1t25_287m_brl
+  - equatorial_rs_nonelectric_1t25_21m_brl
+  - equatorial_rs_pe_1t25_9m_brl
+  - equatorial_ap_1t25_82m_brl
+  - equatorial_ap_eletricos_1t25_51m_brl
+  - equatorial_ap_oe_1t25_24m_brl
+  - equatorial_ap_nonelectric_1t25_7m_brl
+  - equatorial_ap_pe_1t25_5m_brl
+  - equatorial_go_1t25_486m_brl
+  - equatorial_go_eletricos_1t25_448m_brl
+  - equatorial_go_oe_1t25_8m_brl
+  - equatorial_go_nonelectric_1t25_30m_brl
+  - equatorial_go_pe_1t25_9m_brl
+  - equatorial_tx_1t25_7m_brl
+  - equatorial_echo_1t25_8m_brl
+  - equatorial_saneamento_1t25_35m_brl
