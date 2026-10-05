@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1483,
+    "n_rows": 1486,
     "counts": {
-      "total": 1483,
-      "active": 1284,
+      "total": 1486,
+      "active": 1287,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1222,
-      "on_map": 1154
+      "documented": 1225,
+      "on_map": 1157
     }
   },
   "layer_readouts": [
@@ -154,17 +154,17 @@
       "layer": "energy",
       "counts": {
         "us": 153,
-        "prc": 180,
-        "allied": 173,
-        "n": 506
+        "prc": 181,
+        "allied": 175,
+        "n": 509
       },
       "usd": {
         "us": 23173858581.43,
         "us_n": 49,
-        "prc": 26103014412.619995,
-        "prc_n": 48,
-        "allied": 62126594689.02999,
-        "allied_n": 105
+        "prc": 26314874738.879993,
+        "prc_n": 49,
+        "allied": 64270929351.31,
+        "allied_n": 107
       },
       "matched_gaps": {
         "n": 1,
@@ -363,23 +363,23 @@
       "country": "Brazil",
       "counts": {
         "us": 101,
-        "prc": 95,
-        "allied": 181,
-        "n": 377
+        "prc": 96,
+        "allied": 183,
+        "n": 380
       },
       "usd": {
         "us": 15122076088.419998,
         "us_n": 39,
-        "prc": 24844995382.83,
-        "prc_n": 37,
-        "allied": 82646476583.06006,
-        "allied_n": 102
+        "prc": 25056855709.09,
+        "prc_n": 38,
+        "allied": 84790811245.34006,
+        "allied_n": 104
       },
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 61,
-          "allied": 73
+          "prc": 62,
+          "allied": 75
         },
         "infrastructure": {
           "us": 58,
@@ -2472,7 +2472,10 @@
       "equinix_brazil_234m_ai_2026",
       "cpfl_smart_meters_1p2bn_brl_2025_2029",
       "engie_fy2025_capex_6bn_brl",
-      "equatorial_quantum_170m_brl_2026"
+      "equatorial_quantum_170m_brl_2026",
+      "cpfl_tx_lote3_1p1bn_brl_2025",
+      "engie_grauna_tx_2p93bn_brl_2024",
+      "neoenergia_elektro_8p2bn_brl_2026_2030"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -22174,5 +22174,56 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "cpfl_tx_lote3_1p1bn_20251031",
+    "type": "company",
+    "chicago": "CPFL Energia. “CPFL Energia arremata lote do Leilão da ANEEL com foco na estratégia de expansão do negócio Transmissão.” October 31, 2025. https://www.grupocpfl.com.br/noticia/cpfl-energia-arremata-lote-do-leilao-da-aneel-com-foco-na-estrategia-de-expansao-do-negocio.",
+    "url": "https://www.grupocpfl.com.br/noticia/cpfl-energia-arremata-lote-do-leilao-da-aneel-com-foco-na-estrategia-de-expansao-do-negocio",
+    "annotation": "CPFL TX Lote 3 NEW ~R$1.1bn ~USD 211.86m via Fed H.10. Supports cpfl_tx_lote3_1p1bn_brl_2025.",
+    "supports": [
+      "cpfl_tx_lote3_1p1bn_brl_2025",
+      "hunt_cycle248"
+    ],
+    "map_supports": [
+      "cpfl_tx_lote3_1p1bn_brl_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "engie_grauna_capex_2933m_4q25",
+    "type": "company",
+    "chicago": "ENGIE Brasil Energia. “Earnings Release 4Q25.” February 25, 2026. https://www.engie.com.br/wp-content/uploads/2026/02/260225-Earnings-Release-4Q25.pdf.",
+    "url": "https://www.engie.com.br/wp-content/uploads/2026/02/260225-Earnings-Release-4Q25.pdf",
+    "annotation": "ENGIE Graúna NEW R$2.9336bn ~USD 565.01m via Fed H.10. Supports engie_grauna_tx_2p93bn_brl_2024.",
+    "supports": [
+      "engie_grauna_tx_2p93bn_brl_2024",
+      "hunt_cycle248"
+    ],
+    "map_supports": [
+      "engie_grauna_tx_2p93bn_brl_2024"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_elektro_8p2bn_20260511",
+    "type": "company",
+    "chicago": "Neoenergia Elektro. “Neoenergia Elektro tem concessão renovada por mais 30 anos e anuncia R$ 8,2 bilhões em investimentos.” May 11, 2026. https://www.neoenergia.com/web/sp/w/renovacao-concessao-30-anos-bilhoes-investimentos-elektro.",
+    "url": "https://www.neoenergia.com/web/sp/w/renovacao-concessao-30-anos-bilhoes-investimentos-elektro",
+    "annotation": "Neoenergia Elektro NEW >R$8.2bn floor ~USD 1579.32m via Fed H.10. Supports neoenergia_elektro_8p2bn_brl_2026_2030.",
+    "supports": [
+      "neoenergia_elektro_8p2bn_brl_2026_2030",
+      "hunt_cycle248"
+    ],
+    "map_supports": [
+      "neoenergia_elektro_8p2bn_brl_2026_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
   }
 ]
