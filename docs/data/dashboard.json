@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1671,
+    "n_rows": 1681,
     "counts": {
-      "total": 1671,
-      "active": 1472,
+      "total": 1681,
+      "active": 1482,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 179,
       "exclude": 18,
-      "documented": 1407,
-      "on_map": 1335
+      "documented": 1417,
+      "on_map": 1344
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 126,
-        "allied": 219,
-        "n": 526
+        "allied": 222,
+        "n": 529
       },
       "usd": {
         "us": 46234647492.65,
         "us_n": 113,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 63664807868.74002,
-        "allied_n": 145
+        "allied": 63832755327.38002,
+        "allied_n": 148
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 88,
         "prc": 70,
-        "allied": 174,
-        "n": 332
+        "allied": 175,
+        "n": 333
       },
       "usd": {
         "us": 35648237410.93,
         "us_n": 44,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 112255741671.39,
-        "allied_n": 105
+        "allied": 112310632755.92,
+        "allied_n": 106
       },
       "matched_gaps": {
         "n": 3,
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 169,
-        "prc": 196,
-        "allied": 247,
-        "n": 612
+        "us": 171,
+        "prc": 197,
+        "allied": 250,
+        "n": 618
       },
       "usd": {
-        "us": 33166552709.969997,
-        "us_n": 64,
-        "prc": 42504085270.23999,
-        "prc_n": 66,
-        "allied": 107205347390.25005,
-        "allied_n": 176
+        "us": 33547708408.969997,
+        "us_n": 66,
+        "prc": 42505760892.81999,
+        "prc_n": 67,
+        "allied": 107233513257.63005,
+        "allied_n": 179
       },
       "matched_gaps": {
         "n": 1,
@@ -363,47 +363,47 @@
       "country": "Brazil",
       "counts": {
         "us": 112,
-        "prc": 111,
-        "allied": 313,
-        "n": 536
+        "prc": 112,
+        "allied": 320,
+        "n": 544
       },
       "usd": {
         "us": 20568020118.759995,
         "us_n": 50,
-        "prc": 41246066240.45,
-        "prc_n": 55,
-        "allied": 152666626965.38007,
-        "allied_n": 232
+        "prc": 41247741863.03,
+        "prc_n": 56,
+        "allied": 152917631375.93005,
+        "allied_n": 239
       },
       "by_layer": {
         "energy": {
           "us": 19,
-          "prc": 77,
-          "allied": 141
+          "prc": 78,
+          "allied": 144
         },
         "infrastructure": {
           "us": 67,
           "prc": 25,
-          "allied": 96
+          "allied": 99
         },
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 76
+          "allied": 77
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 74,
+        "us": 76,
         "prc": 43,
         "allied": 98,
-        "n": 215
+        "n": 217
       },
       "usd": {
-        "us": 52995490300.0,
-        "us_n": 39,
+        "us": 53376645999.0,
+        "us_n": 41,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 53160762361.0,
@@ -411,7 +411,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 51,
+          "us": 53,
           "prc": 34,
           "allied": 34
         },
@@ -2660,7 +2660,17 @@
       "aegea_teresina_2t26_38m_brl",
       "aegea_outorgas_2t26_73m_brl",
       "rumo_expansao_norte_2t26_979m_brl",
-      "rumo_porto_terminais_2t26_39m_brl"
+      "rumo_porto_terminais_2t26_39m_brl",
+      "aes_andes_green_alloc_jun2025_193p0m",
+      "aes_andes_green_solar_bess_jun2025_188p1m",
+      "sgbh_pd_8p7m_brl_2025",
+      "neoenergia_hydro_2q26_5m_brl",
+      "neoenergia_customers_2q26_7m_brl",
+      "equatorial_dist_nonelectric_2t26_134m_brl",
+      "rumo_material_rodante_2t26_115m_brl",
+      "rumo_fmt_2t26_342m_brl",
+      "rumo_norte_recorrente_2t26_415m_brl",
+      "aegea_para_outorga_6m26_285m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
