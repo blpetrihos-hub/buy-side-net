@@ -1,0 +1,10 @@
+{
+  "id": "vinpar_colombia_facatativa_warehouse_731k_2019",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_vinpar_colombia_facatativa_warehouse_731k_2019",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0127_1900_-NONE-_-NONE-/",
+  "price_year": "2019",
+  "evidence": "documented",
+  "quote": "FACATATIVA WAREHOUSE",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 731427.85; date_signed 2019-09-11."
+}

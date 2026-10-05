@@ -41190,3 +41190,228 @@
   supports:
   - proyectos_colombia_construction_27k_2011
   - hunt_cycle1362
+- id: usaspending_faac_mexico_firearms_training_simulators_497k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F1343_1900_SWHARC16D0002_1900 (faac_mexico_firearms_training_simulators_497k_2020). Signed 2020-04-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1343_1900_SWHARC16D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1343_1900_SWHARC16D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: faac_mexico_firearms_training_simulators_497k_2020 USD 0.497m. Supports faac_mexico_firearms_training_simulators_497k_2020.'
+  supports:
+  - faac_mexico_firearms_training_simulators_497k_2020
+  - hunt_cycle1363
+- id: usaspending_obera_bahamas_hq_ops_center_comms_equipment_354k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489021F0072_9700_FA489016D0013_9700 (obera_bahamas_hq_ops_center_comms_equipment_354k_2021). Signed 2021-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489021F0072_9700_FA489016D0013_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489021F0072_9700_FA489016D0013_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: obera_bahamas_hq_ops_center_comms_equipment_354k_2021 USD 0.354m. Supports obera_bahamas_hq_ops_center_comms_equipment_354k_2021.'
+  supports:
+  - obera_bahamas_hq_ops_center_comms_equipment_354k_2021
+  - hunt_cycle1363
+- id: usaspending_seobra_belize_crooked_tree_school_2275k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127813D0023_9700 (seobra_belize_crooked_tree_school_2275k_2013). Signed 2013-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0023_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127813D0023_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_belize_crooked_tree_school_2275k_2013 USD 2.275m. Supports seobra_belize_crooked_tree_school_2275k_2013.'
+  supports:
+  - seobra_belize_crooked_tree_school_2275k_2013
+  - hunt_cycle1363
+- id: usaspending_seobra_peru_sofa_hap_construction_1747k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0008_9700_W9127813D0009_9700 (seobra_peru_sofa_hap_construction_1747k_2016). Signed 2016-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127813D0009_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127813D0009_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_peru_sofa_hap_construction_1747k_2016 USD 1.747m. Supports seobra_peru_sofa_hap_construction_1747k_2016.'
+  supports:
+  - seobra_peru_sofa_hap_construction_1747k_2016
+  - hunt_cycle1363
+- id: usaspending_seobra_panama_summit_maintenance_facility_1199k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0009_9700_W9127809D0081_9700 (seobra_panama_summit_maintenance_facility_1199k_2012). Signed 2012-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127809D0081_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127809D0081_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_panama_summit_maintenance_facility_1199k_2012 USD 1.199m. Supports seobra_panama_summit_maintenance_facility_1199k_2012.'
+  supports:
+  - seobra_panama_summit_maintenance_facility_1199k_2012
+  - hunt_cycle1363
+- id: usaspending_virtra_costa_rica_equipment_upgrade_347k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F0523_1900_GS02F0214P_4730 (virtra_costa_rica_equipment_upgrade_347k_2020). Signed 2020-01-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0523_1900_GS02F0214P_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0523_1900_GS02F0214P_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_costa_rica_equipment_upgrade_347k_2020 USD 0.347m. Supports virtra_costa_rica_equipment_upgrade_347k_2020.'
+  supports:
+  - virtra_costa_rica_equipment_upgrade_347k_2020
+  - hunt_cycle1364
+- id: usaspending_faac_mexico_pgr_firearms_simulators_334k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16F0040_1900_SWHARC16D0002_1900 (faac_mexico_pgr_firearms_simulators_334k_2016). Signed 2016-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0040_1900_SWHARC16D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0040_1900_SWHARC16D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: faac_mexico_pgr_firearms_simulators_334k_2016 USD 0.334m. Supports faac_mexico_pgr_firearms_simulators_334k_2016.'
+  supports:
+  - faac_mexico_pgr_firearms_simulators_334k_2016
+  - hunt_cycle1364
+- id: usaspending_seobra_peru_tarapoto_warehouse_sar_facility_1084k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0008_9700_W9127809D0081_9700 (seobra_peru_tarapoto_warehouse_sar_facility_1084k_2012). Signed 2012-09-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127809D0081_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127809D0081_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_peru_tarapoto_warehouse_sar_facility_1084k_2012 USD 1.084m. Supports seobra_peru_tarapoto_warehouse_sar_facility_1084k_2012.'
+  supports:
+  - seobra_peru_tarapoto_warehouse_sar_facility_1084k_2012
+  - hunt_cycle1364
+- id: usaspending_seobra_honduras_hap_21515_drw_1047k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127813D0023_9700 (seobra_honduras_hap_21515_drw_1047k_2013). Signed 2013-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127813D0023_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127813D0023_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_honduras_hap_21515_drw_1047k_2013 USD 1.047m. Supports seobra_honduras_hap_21515_drw_1047k_2013.'
+  supports:
+  - seobra_honduras_hap_21515_drw_1047k_2013
+  - hunt_cycle1364
+- id: usaspending_seobra_colombia_pasto_eoc_859k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0558_9700_W9127817D0097_9700 (seobra_colombia_pasto_eoc_859k_2019). Signed 2019-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0558_9700_W9127817D0097_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0558_9700_W9127817D0097_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_colombia_pasto_eoc_859k_2019 USD 0.859m. Supports seobra_colombia_pasto_eoc_859k_2019.'
+  supports:
+  - seobra_colombia_pasto_eoc_859k_2019
+  - hunt_cycle1364
+- id: usaspending_virtra_mexico_guanajuato_firearms_simulators_319k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC17F0003_1900_SWHARC16D0003_1900 (virtra_mexico_guanajuato_firearms_simulators_319k_2017). Signed 2017-03-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0003_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0003_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_mexico_guanajuato_firearms_simulators_319k_2017 USD 0.319m. Supports virtra_mexico_guanajuato_firearms_simulators_319k_2017.'
+  supports:
+  - virtra_mexico_guanajuato_firearms_simulators_319k_2017
+  - hunt_cycle1365
+- id: usaspending_tsymmetry_colombia_gis_drug_interdiction_equipment_306k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F1218_1900_SAQMMA15D0080_1900 (tsymmetry_colombia_gis_drug_interdiction_equipment_306k_2022). Signed 2022-03-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1218_1900_SAQMMA15D0080_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F1218_1900_SAQMMA15D0080_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: tsymmetry_colombia_gis_drug_interdiction_equipment_306k_2022 USD 0.306m. Supports tsymmetry_colombia_gis_drug_interdiction_equipment_306k_2022.'
+  supports:
+  - tsymmetry_colombia_gis_drug_interdiction_equipment_306k_2022
+  - hunt_cycle1365
+- id: usaspending_seobra_peru_piura_eoc_concepcion_warehouse_854k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0006_9700_W9127809D0081_9700 (seobra_peru_piura_eoc_concepcion_warehouse_854k_2012). Signed 2012-07-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127809D0081_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127809D0081_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_peru_piura_eoc_concepcion_warehouse_854k_2012 USD 0.854m. Supports seobra_peru_piura_eoc_concepcion_warehouse_854k_2012.'
+  supports:
+  - seobra_peru_piura_eoc_concepcion_warehouse_854k_2012
+  - hunt_cycle1365
+- id: usaspending_seobra_colombia_hap_42210_school_843k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0437_9700_W9127817D0097_9700 (seobra_colombia_hap_42210_school_843k_2022). Signed 2022-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0437_9700_W9127817D0097_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0437_9700_W9127817D0097_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_colombia_hap_42210_school_843k_2022 USD 0.843m. Supports seobra_colombia_hap_42210_school_843k_2022.'
+  supports:
+  - seobra_colombia_hap_42210_school_843k_2022
+  - hunt_cycle1365
+- id: usaspending_seobra_colombia_hangar_upgrade_737k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127809D0081_9700 (seobra_colombia_hangar_upgrade_737k_2010). Signed 2010-07-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127809D0081_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127809D0081_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_colombia_hangar_upgrade_737k_2010 USD 0.737m. Supports seobra_colombia_hangar_upgrade_737k_2010.'
+  supports:
+  - seobra_colombia_hangar_upgrade_737k_2010
+  - hunt_cycle1365
+- id: usaspending_virtra_mexico_durango_tamaulipas_simulators_286k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16F0011_1900_SWHARC16D0003_1900 (virtra_mexico_durango_tamaulipas_simulators_286k_2016). Signed 2016-05-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0011_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0011_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_mexico_durango_tamaulipas_simulators_286k_2016 USD 0.286m. Supports virtra_mexico_durango_tamaulipas_simulators_286k_2016.'
+  supports:
+  - virtra_mexico_durango_tamaulipas_simulators_286k_2016
+  - hunt_cycle1366
+- id: usaspending_virtra_mexico_training_simulators_280k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM18F1056_1900_SWHARC16D0003_1900 (virtra_mexico_training_simulators_280k_2018). Signed 2018-03-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1056_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1056_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_mexico_training_simulators_280k_2018 USD 0.280m. Supports virtra_mexico_training_simulators_280k_2018.'
+  supports:
+  - virtra_mexico_training_simulators_280k_2018
+  - hunt_cycle1366
+- id: usaspending_vinpar_colombia_facatativa_warehouse_731k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0127_1900_-NONE-_-NONE- (vinpar_colombia_facatativa_warehouse_731k_2019). Signed 2019-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0127_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0127_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: vinpar_colombia_facatativa_warehouse_731k_2019 USD 0.731m. Supports vinpar_colombia_facatativa_warehouse_731k_2019.'
+  supports:
+  - vinpar_colombia_facatativa_warehouse_731k_2019
+  - hunt_cycle1366
+- id: usaspending_qa_colombia_hap_37842_base_bid_699k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0471_9700_W9127821D0081_9700 (qa_colombia_hap_37842_base_bid_699k_2022). Signed 2022-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0471_9700_W9127821D0081_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0471_9700_W9127821D0081_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: qa_colombia_hap_37842_base_bid_699k_2022 USD 0.699m. Supports qa_colombia_hap_37842_base_bid_699k_2022.'
+  supports:
+  - qa_colombia_hap_37842_base_bid_699k_2022
+  - hunt_cycle1366
+- id: usaspending_seobra_colombia_tumaco_police_station_588k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC12C0003_1900_-NONE-_-NONE- (seobra_colombia_tumaco_police_station_588k_2012). Signed 2012-06-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC12C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC12C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_colombia_tumaco_police_station_588k_2012 USD 0.588m. Supports seobra_colombia_tumaco_police_station_588k_2012.'
+  supports:
+  - seobra_colombia_tumaco_police_station_588k_2012
+  - hunt_cycle1366
+- id: usaspending_terrestris_peru_hap_eoc_warehouse_equipment_254k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL24F0014_9700_W912CL23D0109_9700 (terrestris_peru_hap_eoc_warehouse_equipment_254k_2024). Signed 2024-03-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL24F0014_9700_W912CL23D0109_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL24F0014_9700_W912CL23D0109_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: terrestris_peru_hap_eoc_warehouse_equipment_254k_2024 USD 0.254m. Supports terrestris_peru_hap_eoc_warehouse_equipment_254k_2024.'
+  supports:
+  - terrestris_peru_hap_eoc_warehouse_equipment_254k_2024
+  - hunt_cycle1367
+- id: usaspending_virtra_peru_lima_virtual_range_simulator_251k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F1475_1900_SWHARC16D0003_1900 (virtra_peru_lima_virtual_range_simulator_251k_2021). Signed 2021-04-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F1475_1900_SWHARC16D0003_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F1475_1900_SWHARC16D0003_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: virtra_peru_lima_virtual_range_simulator_251k_2021 USD 0.251m. Supports virtra_peru_lima_virtual_range_simulator_251k_2021.'
+  supports:
+  - virtra_peru_lima_virtual_range_simulator_251k_2021
+  - hunt_cycle1367
+- id: usaspending_seobra_colombia_tumaco_defensive_walls_towers_559k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0644_9700_W9127817D0097_9700 (seobra_colombia_tumaco_defensive_walls_towers_559k_2018). Signed 2018-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0644_9700_W9127817D0097_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0644_9700_W9127817D0097_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_colombia_tumaco_defensive_walls_towers_559k_2018 USD 0.559m. Supports seobra_colombia_tumaco_defensive_walls_towers_559k_2018.'
+  supports:
+  - seobra_colombia_tumaco_defensive_walls_towers_559k_2018
+  - hunt_cycle1367
+- id: usaspending_seobra_uruguay_hap_community_center_555k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127809D0081_9700 (seobra_uruguay_hap_community_center_555k_2010). Signed 2010-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127809D0081_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127809D0081_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_uruguay_hap_community_center_555k_2010 USD 0.555m. Supports seobra_uruguay_hap_community_center_555k_2010.'
+  supports:
+  - seobra_uruguay_hap_community_center_555k_2010
+  - hunt_cycle1367
+- id: usaspending_seobra_colombia_classrooms_1_4_549k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0332_9700_W9127813D0009_9700 (seobra_colombia_classrooms_1_4_549k_2017). Signed 2017-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0332_9700_W9127813D0009_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0332_9700_W9127813D0009_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: seobra_colombia_classrooms_1_4_549k_2017 USD 0.549m. Supports seobra_colombia_classrooms_1_4_549k_2017.'
+  supports:
+  - seobra_colombia_classrooms_1_4_549k_2017
+  - hunt_cycle1367
