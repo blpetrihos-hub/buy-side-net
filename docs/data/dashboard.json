@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8300,
+    "n_rows": 8305,
     "counts": {
-      "total": 8300,
-      "active": 8101,
+      "total": 8305,
+      "active": 8106,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8027,
-      "on_map": 7931
+      "documented": 8032,
+      "on_map": 7936
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3985,
-        "n": 4386
+        "allied": 3990,
+        "n": 4391
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383510300695.6209,
-        "allied_n": 3914
+        "allied": 383519115584.79083,
+        "allied_n": 3919
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6868,
-        "n": 7123
+        "allied": 6873,
+        "n": 7128
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527379006671.42053,
-        "allied_n": 6787
+        "allied": 527387821560.59045,
+        "allied_n": 6792
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3851
+          "allied": 3856
         },
         "infrastructure": {
           "us": 68,
@@ -9289,7 +9289,12 @@
       "axia_txproj_melhoria_na_se_samambaia_substituicao_do_tran_10m_brl_v2",
       "axia_txproj_reforco_na_se_joinville_substituicao_do_tf_2__10m_brl",
       "axia_txproj_melhoria_na_se_sao_luis_i_substituicao_do_tra_10m_brl",
-      "axia_txproj_melhoria_na_se_imperatriz_substituicao_do_rea_10m_brl"
+      "axia_txproj_melhoria_na_se_imperatriz_substituicao_do_rea_10m_brl",
+      "axia_txproj_melhoria_na_se_samambaia_substituicao_do_tran_10m_brl",
+      "axia_txproj_reforco_na_se_s_da_mesa_substituicao_do_atf_r_9m_brl",
+      "axia_txproj_melhoria_na_se_brasilia_sul_substituicao_da_f_9m_brl",
+      "axia_txproj_melhoria_na_se_p_dutra_substituicao_do_reator_9m_brl",
+      "axia_txproj_reforco_na_se_ivaipora_instalacao_da_fase_res_9m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

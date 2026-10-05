@@ -18673,7 +18673,7 @@
   type: company
   chicago: AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2
-  annotation: AXIA TX project CapEx via Fed H.10. Supports axia_txproj_melhoria_na_se_imperatriz_substituicao_do_rea_10m_brl.
+  annotation: AXIA TX project CapEx via Fed H.10. Supports axia_txproj_reforco_na_se_ivaipora_instalacao_da_fase_res_9m_brl.
   supports:
   - axia_consol_imob_intang_2t26_2212m_brl
   - hunt_cycle632
@@ -19306,6 +19306,12 @@
   - axia_txproj_reforco_na_se_joinville_substituicao_do_tf_2__10m_brl
   - axia_txproj_melhoria_na_se_sao_luis_i_substituicao_do_tra_10m_brl
   - axia_txproj_melhoria_na_se_imperatriz_substituicao_do_rea_10m_brl
+  - axia_txproj_melhoria_na_se_samambaia_substituicao_do_tran_10m_brl
+  - hunt_cycle880
+  - axia_txproj_reforco_na_se_s_da_mesa_substituicao_do_atf_r_9m_brl
+  - axia_txproj_melhoria_na_se_brasilia_sul_substituicao_da_f_9m_brl
+  - axia_txproj_melhoria_na_se_p_dutra_substituicao_do_reator_9m_brl
+  - axia_txproj_reforco_na_se_ivaipora_instalacao_da_fase_res_9m_brl
 - id: energisa_base_historica_jun26_xlsx
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
