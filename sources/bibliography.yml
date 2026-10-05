@@ -26590,3 +26590,153 @@
   supports:
   - serrano_callao_water_pump_279k_2025
   - hunt_cycle989
+- id: usaspending_cocis_quito_police_265k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC11C0003_1900_-NONE-_-NONE-
+    (COCIS Quito police). Signed 2011-05-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11C0003_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC11C0003_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: COCIS Quito police USD 0.265m. Supports cocis_quito_police_265k_2011.'
+  supports:
+  - cocis_quito_police_265k_2011
+  - hunt_cycle990
+- id: usaspending_misc_belize_school_medical_siteprep_264k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA470414C0001_9700_-NONE-_-NONE-
+    (Belize school/medical site prep). Signed 2014-01-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470414C0001_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA470414C0001_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Belize school/medical site prep USD 0.264m. Supports misc_belize_school_medical_siteprep_264k_2014.'
+  supports:
+  - misc_belize_school_medical_siteprep_264k_2014
+  - hunt_cycle990
+- id: usaspending_sima_iquitos_floating_facility_263k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127810C0038_9700_-NONE-_-NONE-
+    (SIMA Iquitos floating facility). Signed 2010-03-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810C0038_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127810C0038_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: SIMA Iquitos floating facility USD 0.263m. Supports sima_iquitos_floating_facility_263k_2010.'
+  supports:
+  - sima_iquitos_floating_facility_263k_2010
+  - hunt_cycle990
+- id: usaspending_aei_gualaca_site_260k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026P0059_1900_-NONE-_-NONE-
+    (AEI Gualaca). Signed 2026-07-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026P0059_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026P0059_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: AEI Gualaca site USD 0.260m. Supports aei_gualaca_site_260k_2026.'
+  supports:
+  - aei_gualaca_site_260k_2026
+  - hunt_cycle990
+- id: usaspending_solano_calabash_solar_wind_260k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL12C0012_9700_-NONE-_-NONE-
+    (Solano Calabash solar/wind). Signed 2012-09-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0012_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL12C0012_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Solano Calabash solar/wind USD 0.260m. Supports solano_calabash_solar_wind_260k_2012.'
+  supports:
+  - solano_calabash_solar_wind_260k_2012
+  - hunt_cycle990
+- id: usaspending_eterna_soto_cano_dining_257k_2008
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0003_9700_W9127807D0098_9700
+    (Eterna Soto Cano dining). Signed 2008-07-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127807D0098_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127807D0098_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna Soto Cano dining USD 0.257m. Supports eterna_soto_cano_dining_257k_2008.'
+  supports:
+  - eterna_soto_cano_dining_257k_2008
+  - hunt_cycle991
+- id: usaspending_john_d_fort_sherman_barracks_253k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL13C0004_9700_-NONE-_-NONE-
+    (John D Fort Sherman barracks). Signed 2013-01-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0004_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL13C0004_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: John D Fort Sherman barracks USD 0.253m. Supports john_d_fort_sherman_barracks_253k_2013.'
+  supports:
+  - john_d_fort_sherman_barracks_253k_2013
+  - hunt_cycle991
+- id: usaspending_savart_tumaco_santa_marta_ramps_253k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C01518C0002_1900_-NONE-_-NONE-
+    (Savart Tumaco/Santa Marta ramps). Signed 2017-12-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01518C0002_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C01518C0002_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Savart Tumaco/Santa Marta ramps USD 0.253m. Supports savart_tumaco_santa_marta_ramps_253k_2017.'
+  supports:
+  - savart_tumaco_santa_marta_ramps_253k_2017
+  - hunt_cycle991
+- id: usaspending_milbau_ramp_pier_250k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17C0003_9700_-NONE-_-NONE-
+    (Milbau ramp pier). Signed 2017-03-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0003_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0003_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Milbau ramp pier USD 0.250m. Supports milbau_ramp_pier_250k_2017.'
+  supports:
+  - milbau_ramp_pier_250k_2017
+  - hunt_cycle991
+- id: usaspending_gerinco_health_center_250k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT18C0001_9700_-NONE-_-NONE-
+    (Gerinco health center). Signed 2018-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT18C0001_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT18C0001_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Gerinco health center USD 0.250m. Supports gerinco_health_center_250k_2018.'
+  supports:
+  - gerinco_health_center_250k_2018
+  - hunt_cycle991
+- id: usaspending_qmax_san_salvador_dcr_roof_246k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6019P0607_1900_-NONE-_-NONE-
+    (Q-Max San Salvador DCR roof). Signed 2019-07-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6019P0607_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6019P0607_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Q-Max San Salvador DCR roof USD 0.246m. Supports qmax_san_salvador_dcr_roof_246k_2019.'
+  supports:
+  - qmax_san_salvador_dcr_roof_246k_2019
+  - hunt_cycle992
+- id: usaspending_pono_haiti_chiller_247k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21C0099_1900_-NONE-_-NONE-
+    (Pono Haiti chiller). Signed 2021-06-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21C0099_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21C0099_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Pono Haiti chiller USD 0.247m. Supports pono_haiti_chiller_247k_2021.'
+  supports:
+  - pono_haiti_chiller_247k_2021
+  - hunt_cycle992
+- id: usaspending_baskerville_conchagua_clinic_238k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0094_9700_W9127814D0075_9700
+    (Baskerville Conchagua clinic). Signed 2019-02-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0094_9700_W9127814D0075_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0094_9700_W9127814D0075_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Baskerville Conchagua clinic USD 0.238m. Supports baskerville_conchagua_clinic_238k_2019.'
+  supports:
+  - baskerville_conchagua_clinic_238k_2019
+  - hunt_cycle992
+- id: usaspending_tropical_price_barracks_243k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM22P0008_9700_-NONE-_-NONE-
+    (Tropical Price Barracks). Signed 2022-01-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM22P0008_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM22P0008_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Tropical Price Barracks USD 0.243m. Supports tropical_price_barracks_243k_2022.'
+  supports:
+  - tropical_price_barracks_243k_2022
+  - hunt_cycle992
+- id: usaspending_chaco_paraguay_fuel_station_244k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL17C0008_9700_-NONE-_-NONE-
+    (Chaco Paraguay fuel station). Signed 2017-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0008_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0008_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Chaco Paraguay fuel station USD 0.244m. Supports chaco_paraguay_fuel_station_244k_2017.'
+  supports:
+  - chaco_paraguay_fuel_station_244k_2017
+  - hunt_cycle992
