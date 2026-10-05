@@ -1,0 +1,10 @@
+{
+  "id": "atlas_hueh_maternity_149k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_atlas_hueh_maternity_149k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521BC1300001_7200_AID521E1200002_7200/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "THE PURPOSE OF THIS BPA CALL IS TO REHABILITATE THE MATERNITY WARD OF HUEH BY WATERPROOFING THE ROOF, PAINTING THE CEILING AND WALLS OF THE ENTIRE BUILDING, REWIRING ELECTRICITY AS NEEDED, AND FIXING DOORS AND WINDOWS IN ORDER SUPPORT THE MINISTRY OF HEALTH AND POPULATION (MSPP) IN ITS EFFORTS TO PROVIDE COMFORTABLE HEALTHCARE.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 149403; date_signed 2012-10-18."
+}
