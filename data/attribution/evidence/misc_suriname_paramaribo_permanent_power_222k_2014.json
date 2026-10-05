@@ -1,0 +1,10 @@
+{
+  "id": "misc_suriname_paramaribo_permanent_power_222k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_suriname_paramaribo_permanent_power_222k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA14C0168_1900_-NONE-_-NONE-/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "CONTRACT FOR PERMANENT POWER FOR THE NEW EMBASSY PROJECT IN PARAMARIBO  IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 222194.03; date_signed 2014-08-28."
+}
