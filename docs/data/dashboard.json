@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8436,
+    "n_rows": 8441,
     "counts": {
-      "total": 8436,
-      "active": 8237,
+      "total": 8441,
+      "active": 8242,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8163,
-      "on_map": 8055
+      "documented": 8168,
+      "on_map": 8060
     }
   },
   "layer_readouts": [
@@ -107,8 +107,8 @@
       "counts": {
         "us": 192,
         "prc": 129,
-        "allied": 3002,
-        "n": 3323
+        "allied": 3007,
+        "n": 3328
       },
       "usd": {
         "us": 46419310896.69999,
@@ -752,8 +752,8 @@
       "counts": {
         "us": 17,
         "prc": 0,
-        "allied": 46,
-        "n": 63
+        "allied": 51,
+        "n": 68
       },
       "usd": {
         "us": 265986722.71000004,
@@ -772,7 +772,7 @@
         "infrastructure": {
           "us": 12,
           "prc": 0,
-          "allied": 32
+          "allied": 37
         },
         "resources": {
           "us": 1,
@@ -9425,7 +9425,12 @@
       "cbgg_cap_haitien_port_prefab_2p2m_2021",
       "haiti_pip_place_armes_ouanaminthe_40m_htg_fy2526",
       "haiti_pip_sainte_suzanne_76m_htg_fy2526",
-      "haiti_pip_route_trou_du_nord_20m_htg_fy2526"
+      "haiti_pip_route_trou_du_nord_20m_htg_fy2526",
+      "haiti_pip_route_pignon_bois_laurence_20m_htg_fy2526",
+      "haiti_pip_urbaine_miragoane_40m_htg_fy2526",
+      "haiti_pip_urbaine_hinche_50m_htg_fy2526",
+      "haiti_pip_urbaine_jacmel_30m_htg_fy2526",
+      "haiti_pip_urbaine_gonaives_41m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -38344,7 +38344,7 @@
     "chicago": "République d'Haïti, Ministère de la Planification et de la Coopération Externe. “Programmes d'Investissements Publics — Exercice 2025-2026.” Budget Général de la République d'Haïti. Retrieved October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.",
     "url": "https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf",
     "accessed": "2026-10-05",
-    "annotation": "Haiti PIP: Trou-du-Nord 20m HTG. Supports haiti_pip_route_trou_du_nord_20m_htg_fy2526.",
+    "annotation": "Haiti PIP FY2025–26. Supports haiti_pip_urbaine_gonaives_41m_htg_fy2526.",
     "supports": [
       "haiti_pip_maillage_routier_9625m_htg_fy2526",
       "hunt_cycle898",
@@ -38392,7 +38392,13 @@
       "haiti_pip_place_armes_ouanaminthe_40m_htg_fy2526",
       "hunt_cycle907",
       "haiti_pip_sainte_suzanne_76m_htg_fy2526",
-      "haiti_pip_route_trou_du_nord_20m_htg_fy2526"
+      "haiti_pip_route_trou_du_nord_20m_htg_fy2526",
+      "haiti_pip_route_pignon_bois_laurence_20m_htg_fy2526",
+      "hunt_cycle908",
+      "haiti_pip_urbaine_miragoane_40m_htg_fy2526",
+      "haiti_pip_urbaine_hinche_50m_htg_fy2526",
+      "haiti_pip_urbaine_jacmel_30m_htg_fy2526",
+      "haiti_pip_urbaine_gonaives_41m_htg_fy2526"
     ],
     "map_supports": [
       "haiti_pip_afd_hinche_straphael_304m_htg_fy2526",
@@ -38426,12 +38432,17 @@
       "haiti_pip_rn2_etang_miragoane_60m_htg_fy2526",
       "haiti_pip_route_carrefour_joute_100m_htg_fy2526",
       "haiti_pip_route_deviation_peligre_147m_htg_fy2526",
+      "haiti_pip_route_pignon_bois_laurence_20m_htg_fy2526",
       "haiti_pip_route_port_saint_louis_120m_htg_fy2526",
       "haiti_pip_route_tabarre39_100m_htg_fy2526",
       "haiti_pip_route_trou_du_nord_20m_htg_fy2526",
       "haiti_pip_rutap_4020m_htg_fy2526",
       "haiti_pip_sainte_suzanne_76m_htg_fy2526",
-      "haiti_pip_ue_st_raphael_contournement_250m_htg_fy2526"
+      "haiti_pip_ue_st_raphael_contournement_250m_htg_fy2526",
+      "haiti_pip_urbaine_gonaives_41m_htg_fy2526",
+      "haiti_pip_urbaine_hinche_50m_htg_fy2526",
+      "haiti_pip_urbaine_jacmel_30m_htg_fy2526",
+      "haiti_pip_urbaine_miragoane_40m_htg_fy2526"
     ],
     "layers": [
       "infrastructure",
