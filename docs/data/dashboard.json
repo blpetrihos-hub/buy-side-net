@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8210,
+    "n_rows": 8215,
     "counts": {
-      "total": 8210,
-      "active": 8011,
+      "total": 8215,
+      "active": 8016,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7937,
-      "on_map": 7842
+      "documented": 7942,
+      "on_map": 7847
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3895,
-        "n": 4296
+        "allied": 3900,
+        "n": 4301
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383212595202.68054,
-        "allied_n": 3824
+        "allied": 383238714220.2306,
+        "allied_n": 3829
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6778,
-        "n": 7033
+        "allied": 6783,
+        "n": 7038
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527081301178.48016,
-        "allied_n": 6697
+        "allied": 527107420196.0302,
+        "allied_n": 6702
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3761
+          "allied": 3766
         },
         "infrastructure": {
           "us": 68,
@@ -9199,7 +9199,12 @@
       "axia_txproj_reforco_na_se_zebu_instalacao_do_4_tf_230_69_28m_brl",
       "axia_txproj_reforco_na_se_serra_da_mesa_substituicao_do_a_28m_brl_v2",
       "axia_txproj_reforco_na_se_serra_da_mesa_substituicao_do_a_28m_brl",
-      "axia_txproj_reforco_na_se_sorriso_substituicao_do_tf_230__28m_brl"
+      "axia_txproj_reforco_na_se_sorriso_substituicao_do_tf_230__28m_brl",
+      "axia_txproj_reforco_na_se_arapiraca_iii_instalacao_do_3_t_27m_brl",
+      "axia_txproj_reforco_na_se_imperatriz_instalacao_do_4_tr23_27m_brl",
+      "axia_txproj_melhoria_na_se_itabera_substituicao_do_banco__27m_brl",
+      "axia_txproj_reforco_na_se_porto_franco_substituicao_do_tr_27m_brl",
+      "axia_txproj_reforco_se_nova_mutum_substituicao_tf1_230_69_27m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
