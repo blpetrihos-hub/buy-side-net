@@ -12693,7 +12693,7 @@
   type: company
   chicago: Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia 6M26 Movimentação Material (Estoque x Obra) via Fed H.10. Supports neoenergia_material_6m26_310m_brl.
+  annotation: Neoenergia Brasília Renovação de Ativos 6M26 via Fed H.10. Supports neoenergia_brasilia_renovacao_ativos_6m26_67m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12738,6 +12738,28 @@
   - neoenergia_perdas_6m26_137m_brl
   - neoenergia_outros_dist_6m26_405m_brl
   - neoenergia_material_6m26_310m_brl
+  - neoenergia_2t26_capex_2095m_brl
+  - hunt_cycle301
+  - neoenergia_coelba_expansao_rede_6m26_1415m_brl
+  - neoenergia_pe_expansao_rede_6m26_299m_brl
+  - neoenergia_cosern_expansao_rede_6m26_137m_brl
+  - neoenergia_elektro_expansao_rede_6m26_349m_brl
+  - neoenergia_brasilia_expansao_rede_6m26_65m_brl
+  - neoenergia_coelba_novas_ligacoes_6m26_707m_brl
+  - neoenergia_pe_novas_ligacoes_6m26_219m_brl
+  - neoenergia_cosern_novas_ligacoes_6m26_101m_brl
+  - neoenergia_elektro_novas_ligacoes_6m26_219m_brl
+  - neoenergia_brasilia_novas_ligacoes_6m26_32m_brl
+  - neoenergia_coelba_novas_ses_rds_6m26_552m_brl
+  - neoenergia_pe_novas_ses_rds_6m26_79m_brl
+  - neoenergia_cosern_novas_ses_rds_6m26_37m_brl
+  - neoenergia_elektro_novas_ses_rds_6m26_130m_brl
+  - neoenergia_brasilia_novas_ses_rds_6m26_33m_brl
+  - neoenergia_coelba_renovacao_ativos_6m26_223m_brl
+  - neoenergia_pe_renovacao_ativos_6m26_232m_brl
+  - neoenergia_cosern_renovacao_ativos_6m26_37m_brl
+  - neoenergia_elektro_renovacao_ativos_6m26_115m_brl
+  - neoenergia_brasilia_renovacao_ativos_6m26_67m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
