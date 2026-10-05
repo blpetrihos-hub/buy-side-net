@@ -34642,7 +34642,7 @@
     "type": "company",
     "chicago": "AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2",
-    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_se_p_dutra_substituicao_do_bc1_500_kv_390mvar_107m_brl.",
+    "annotation": "AXIA TX project CapEx via Fed H.10. Supports axia_txproj_se_pocos_de_caldas_instalacao_do_novo_transfo_89m_brl.",
     "supports": [
       "axia_consol_imob_intang_2t26_2212m_brl",
       "hunt_cycle632",
@@ -35034,7 +35034,13 @@
       "axia_txproj_se_230_138_kv_chapecoense_e_seccionamento_de__191m_brl",
       "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_banco_151m_brl",
       "axia_txproj_se_230_138_kv_iguatemi_2_e_seccionamento_em_2_151m_brl",
-      "axia_txproj_se_p_dutra_substituicao_do_bc1_500_kv_390mvar_107m_brl"
+      "axia_txproj_se_p_dutra_substituicao_do_bc1_500_kv_390mvar_107m_brl",
+      "axia_txproj_se_imperatriz_substituicao_bc1_500_kv_390mvar_107m_brl",
+      "hunt_cycle840",
+      "axia_txproj_se_sao_joao_do_piaui_instalacao_do_terceiro_a_98m_brl",
+      "axia_txproj_melhoria_na_se_f_iguacu_60hz_substituicao_do__95m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_trafo_93m_brl",
+      "axia_txproj_se_pocos_de_caldas_instalacao_do_novo_transfo_89m_brl"
     ],
     "map_supports": [
       "axia_consol_ambiental_infra_1t22_41m_brl",
@@ -35362,7 +35368,9 @@
       "axia_tx_growth_tne_3300m_brl_2t26",
       "axia_tx_growth_total_tx_18841m_brl_2t26",
       "axia_txproj_lt_500_kv_janauba_6_presidente_juscelino_c1_787m_brl",
+      "axia_txproj_melhoria_na_se_f_iguacu_60hz_substituicao_do__95m_brl",
       "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_banco_151m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_substituicao_de_trafo_93m_brl",
       "axia_txproj_revitalizacao_completa_das_instalacoes_do_bip_2184m_brl",
       "axia_txproj_se_230_138_kv_chapecoense_e_seccionamento_de__191m_brl",
       "axia_txproj_se_230_138_kv_iguatemi_2_e_seccionamento_em_2_151m_brl",
@@ -35372,10 +35380,13 @@
       "axia_txproj_se_500_230_kv_zebu_iii_se_500_230_138_kv_bom__2650m_brl",
       "axia_txproj_se_500_kv_teresina_iv_se_500_kv_crateus_diver_1769m_brl",
       "axia_txproj_se_acu_iii_compensacoes_sincronas_2_x_200_300_536m_brl",
+      "axia_txproj_se_imperatriz_substituicao_bc1_500_kv_390mvar_107m_brl",
       "axia_txproj_se_joao_camara_iii_compensacao_sincrona_1_x_2_269m_brl",
       "axia_txproj_se_nova_ponte_3_compensacoes_sincronas_2_x_20_542m_brl",
       "axia_txproj_se_p_dutra_substituicao_do_bc1_500_kv_390mvar_107m_brl",
-      "axia_txproj_se_paracatu_4_compensacao_sincrona_1_x_200_30_283m_brl"
+      "axia_txproj_se_paracatu_4_compensacao_sincrona_1_x_200_30_283m_brl",
+      "axia_txproj_se_pocos_de_caldas_instalacao_do_novo_transfo_89m_brl",
+      "axia_txproj_se_sao_joao_do_piaui_instalacao_do_terceiro_a_98m_brl"
     ],
     "layers": [
       "energy"
