@@ -12741,7 +12741,7 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo Expansão Norte 6M26 CapEx R$2,207m via Fed H.10. Supports rumo_expansao_norte_6m26_2207m_brl.
+  annotation: Rumo Sul 6M26 CapEx R$343m via Fed H.10. Supports rumo_sul_6m26_343m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
@@ -12763,6 +12763,11 @@
   - rumo_norte_6m26_2988m_brl
   - hunt_cycle280
   - rumo_expansao_norte_6m26_2207m_brl
+  - rumo_material_rodante_6m26_547m_brl
+  - hunt_cycle281
+  - rumo_capacitacao_6m26_949m_brl
+  - rumo_fmt_6m26_671m_brl
+  - rumo_sul_6m26_343m_brl
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (company ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -12802,7 +12807,7 @@
   type: company
   chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea Guariroba 6M26 Capex R$87m via Fed H.10. Supports aegea_guariroba_6m26_87m_brl.
+  annotation: Aegea PPPs 6M26 Capex R$475m via Fed H.10. Supports aegea_ppps_6m26_475m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
@@ -12832,6 +12837,11 @@
   - aegea_demais_outorga_2t26_3m_brl
   - aegea_guariroba_6m26_87m_brl
   - hunt_cycle280
+  - aegea_corsan_6m26_845m_brl
+  - hunt_cycle281
+  - aegea_aguas_do_rio_6m26_663m_brl
+  - aegea_novas_operacoes_6m26_339m_brl
+  - aegea_ppps_6m26_475m_brl
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13187,3 +13197,21 @@
   supports:
   - ctg_brasil_pdi_19m_brl_2025
   - hunt_cycle275
+- id: fcx_cerro_verde_trs_20250131
+  type: company
+  chicago: Freeport-McMoRan Inc. “Technical Report Summary of Mineral Reserves and Mineral Resources for Cerro Verde Mine, Arequipa, Peru.” Effective date December 31, 2024; report date January 31, 2025. https://www.fcx.com/sites/fcx/files/documents/operations/TRS-CerroVerde.pdf.
+  url: https://www.fcx.com/sites/fcx/files/documents/operations/TRS-CerroVerde.pdf
+  annotation: Freeport Cerro Verde Supporting Infra/Env CapEx USD2.4bn TRS nested. Supports fcx_cerro_verde_infra_env_capex_2p4bn_2024.
+  supports:
+  - fcx_cerro_verde_lom_sustaining_5p2bn_2024
+  - hunt_cycle281
+  - fcx_cerro_verde_mine_capex_1p7bn_2024
+  - fcx_cerro_verde_infra_env_capex_2p4bn_2024
+- id: folha_cofco_sts11_20250305
+  type: press
+  chicago: Sá, Nelson de. “Chinesa investe R$ 2,84 bi em novo terminal em Santos.” Folha de S.Paulo, March 5, 2025. https://www1.folha.uol.com.br/mercado/2025/03/chinesa-investe-r-284-bi-e-abre-em-marco-novo-terminal-em-santos.shtml.
+  url: https://www1.folha.uol.com.br/mercado/2025/03/chinesa-investe-r-284-bi-e-abre-em-marco-novo-terminal-em-santos.shtml
+  annotation: COFCO STS11 CapEx-fill R$1.64bn direct via Fed H.10 (UNVERIFIED Folha). Supports cofco_sts11_santos_port_2023.
+  supports:
+  - cofco_sts11_santos_port_2023
+  - hunt_cycle281

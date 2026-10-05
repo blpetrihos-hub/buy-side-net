@@ -1,10 +1,10 @@
 {
   "id": "cofco_sts11_santos_port_2023",
-  "retrieved": "2026-10-02",
-  "source_id": "cofco_sts11_construction_start_2023",
-  "url": "https://www.cofcointernational.com/newsroom/cofco-international-starts-construction-on-santos-port-terminal-expansion/",
-  "price_year": "2023",
-  "evidence": "documented",
-  "quote": "COFCO International has marked the start of construction on the STS11 agriculture terminal at the Port of Santos in Brazil at a groundbreaking ceremony. The new terminal will expand the company’s own port capacity in Brazil from 3 to 14 million tonnes with operations scheduled to commence in phases between 2025 and 2026.",
-  "note": "Opened COFCO International English newsroom construction-start page; Brazilian Stories page cross-check for site specs."
+  "retrieved": "2026-10-05",
+  "source_id": "folha_cofco_sts11_20250305",
+  "url": "https://www1.folha.uol.com.br/mercado/2025/03/chinesa-investe-r-284-bi-e-abre-em-marco-novo-terminal-em-santos.shtml",
+  "price_year": "2025",
+  "evidence": "proxy",
+  "quote": "O terminal consumiu R$ 1,64 bilhão em investimento direto e outro R$ 1,2 bilhão em investimento complementar, em logística, para a compra de 979 vagões e 23 locomotivas.",
+  "note": "Opened Folha 5 Mar 2025; R$1.64bn direct STS11 CapEx quote confirmed for CapEx-fill (company host 403)."
 }
