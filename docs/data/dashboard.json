@@ -87,17 +87,17 @@
     }
   },
   "meta": {
-    "n_rows": 10566,
+    "n_rows": 10591,
     "counts": {
-      "total": 10566,
-      "active": 10367,
+      "total": 10591,
+      "active": 10392,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 10293,
+      "documented": 10318,
       "on_map": 8548
     }
   },
@@ -105,18 +105,18 @@
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 820,
+        "us": 830,
         "prc": 129,
-        "allied": 4036,
-        "n": 4985
+        "allied": 4051,
+        "n": 5010
       },
       "usd": {
-        "us": 47830311915.15004,
-        "us_n": 753,
+        "us": 47842531561.810036,
+        "us_n": 763,
         "prc": 17322325919.350002,
         "prc_n": 40,
-        "allied": 145170904820.30972,
-        "allied_n": 3923
+        "allied": 145186082704.4797,
+        "allied_n": 3938
       },
       "matched_gaps": {
         "n": 1,
@@ -440,18 +440,18 @@
     {
       "country": "Colombia",
       "counts": {
-        "us": 86,
+        "us": 90,
         "prc": 29,
-        "allied": 211,
-        "n": 326
+        "allied": 215,
+        "n": 334
       },
       "usd": {
-        "us": 2922253549.669999,
-        "us_n": 72,
+        "us": 2926648440.7699995,
+        "us_n": 76,
         "prc": 5971656357.0,
         "prc_n": 6,
-        "allied": 2420111037.459998,
-        "allied_n": 192
+        "allied": 2423767460.9299984,
+        "allied_n": 196
       },
       "by_layer": {
         "energy": {
@@ -460,9 +460,9 @@
           "allied": 31
         },
         "infrastructure": {
-          "us": 48,
+          "us": 52,
           "prc": 7,
-          "allied": 174
+          "allied": 178
         },
         "resources": {
           "us": 3,
@@ -476,16 +476,16 @@
       "counts": {
         "us": 19,
         "prc": 5,
-        "allied": 67,
-        "n": 91
+        "allied": 69,
+        "n": 93
       },
       "usd": {
         "us": 32473731.8,
         "us_n": 17,
         "prc": 465593387.0,
         "prc_n": 1,
-        "allied": 869580092.5599998,
-        "allied_n": 65
+        "allied": 871403356.1599998,
+        "allied_n": 67
       },
       "by_layer": {
         "energy": {
@@ -496,7 +496,7 @@
         "infrastructure": {
           "us": 14,
           "prc": 3,
-          "allied": 48
+          "allied": 50
         },
         "resources": {
           "us": 0,
@@ -607,16 +607,16 @@
       "counts": {
         "us": 42,
         "prc": 17,
-        "allied": 83,
-        "n": 142
+        "allied": 84,
+        "n": 143
       },
       "usd": {
         "us": 1475168121.1599996,
         "us_n": 34,
         "prc": 2385909740.0,
         "prc_n": 8,
-        "allied": 933147436.8599998,
-        "allied_n": 71
+        "allied": 934084421.4199997,
+        "allied_n": 72
       },
       "by_layer": {
         "energy": {
@@ -627,7 +627,7 @@
         "infrastructure": {
           "us": 19,
           "prc": 3,
-          "allied": 53
+          "allied": 54
         },
         "resources": {
           "us": 11,
@@ -704,16 +704,16 @@
       "counts": {
         "us": 31,
         "prc": 0,
-        "allied": 45,
-        "n": 76
+        "allied": 46,
+        "n": 77
       },
       "usd": {
         "us": 351042560.09000003,
         "us_n": 24,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 289627678.03999984,
-        "allied_n": 42
+        "allied": 291634160.69999987,
+        "allied_n": 43
       },
       "by_layer": {
         "energy": {
@@ -724,7 +724,7 @@
         "infrastructure": {
           "us": 24,
           "prc": 0,
-          "allied": 31
+          "allied": 32
         },
         "resources": {
           "us": 1,
@@ -770,14 +770,14 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 80,
+        "us": 81,
         "prc": 0,
         "allied": 105,
-        "n": 185
+        "n": 186
       },
       "usd": {
-        "us": 496568664.2300001,
-        "us_n": 80,
+        "us": 497994513.0300001,
+        "us_n": 81,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 893581200.08,
@@ -790,7 +790,7 @@
           "allied": 24
         },
         "infrastructure": {
-          "us": 66,
+          "us": 67,
           "prc": 0,
           "allied": 75
         },
@@ -806,16 +806,16 @@
       "counts": {
         "us": 54,
         "prc": 4,
-        "allied": 106,
-        "n": 164
+        "allied": 111,
+        "n": 169
       },
       "usd": {
         "us": 467297410.17,
         "us_n": 51,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 263523751.4499999,
-        "allied_n": 106
+        "allied": 267716902.79999992,
+        "allied_n": 111
       },
       "by_layer": {
         "energy": {
@@ -826,7 +826,7 @@
         "infrastructure": {
           "us": 34,
           "prc": 0,
-          "allied": 80
+          "allied": 85
         },
         "resources": {
           "us": 1,
@@ -867,14 +867,14 @@
     {
       "country": "Mexico",
       "counts": {
-        "us": 187,
+        "us": 188,
         "prc": 19,
         "allied": 173,
-        "n": 379
+        "n": 380
       },
       "usd": {
-        "us": 11459422786.419996,
-        "us_n": 172,
+        "us": 11465689704.079996,
+        "us_n": 173,
         "prc": 312365273.57,
         "prc_n": 4,
         "allied": 11869011957.399994,
@@ -887,7 +887,7 @@
           "allied": 34
         },
         "infrastructure": {
-          "us": 141,
+          "us": 142,
           "prc": 12,
           "allied": 128
         },
@@ -935,18 +935,18 @@
     {
       "country": "Panama",
       "counts": {
-        "us": 56,
+        "us": 60,
         "prc": 5,
-        "allied": 105,
-        "n": 166
+        "allied": 106,
+        "n": 171
       },
       "usd": {
-        "us": 156218272.44000003,
-        "us_n": 48,
+        "us": 156350261.54000002,
+        "us_n": 52,
         "prc": 1521000000.0,
         "prc_n": 2,
-        "allied": 451766944.8199997,
-        "allied_n": 103
+        "allied": 453430691.4799997,
+        "allied_n": 104
       },
       "by_layer": {
         "energy": {
@@ -955,9 +955,9 @@
           "allied": 15
         },
         "infrastructure": {
-          "us": 37,
+          "us": 41,
           "prc": 3,
-          "allied": 89
+          "allied": 90
         },
         "resources": {
           "us": 3,
@@ -1005,16 +1005,16 @@
       "counts": {
         "us": 53,
         "prc": 44,
-        "allied": 138,
-        "n": 235
+        "allied": 139,
+        "n": 236
       },
       "usd": {
         "us": 17933142791.339985,
         "us_n": 43,
         "prc": 13270705448.15,
         "prc_n": 13,
-        "allied": 25578630273.929993,
-        "allied_n": 122
+        "allied": 25579528105.79999,
+        "allied_n": 123
       },
       "by_layer": {
         "energy": {
@@ -1025,7 +1025,7 @@
         "infrastructure": {
           "us": 28,
           "prc": 20,
-          "allied": 73
+          "allied": 74
         },
         "resources": {
           "us": 15,
@@ -11609,7 +11609,32 @@
       "isobox_panama_container_living_units_67k_2024",
       "eterna_honduras_booster_pump_1318k_2016",
       "eterna_honduras_guanaja_cn_facility_1253k_2010",
-      "eterna_costarica_cn_pier_boat_ramp_1214k_2012"
+      "eterna_costarica_cn_pier_boat_ramp_1214k_2012",
+      "ceepco_haiti_ucref_rehab_1426k_2014",
+      "alutiiq_mexico_chemistry_equipment_6267k_2018",
+      "eterna_guatemala_ops_center_barracks_2006k_2016",
+      "eterna_panama_medical_facility_1664k_2014",
+      "eterna_colombia_hap_67205_1143k_2023",
+      "human_tech_colombia_computer_equipment_649k_2022",
+      "alutiiq_colombia_prefab_containers_do25_627k_2020",
+      "estudios_costarica_cnt_checkpoint_golfito_1089k_2011",
+      "eterna_colombia_hap_20209_1000k_2013",
+      "estudios_ecuador_hap_latines_pucara_937k_2010",
+      "alutiiq_colombia_forensics_equipment_2484k_2021",
+      "alutiiq_colombia_emcar_field_equipment_636k_2019",
+      "estudios_peru_hap_river_school_898k_2011",
+      "eterna_honduras_lrc_facility_877k_2020",
+      "eterna_honduras_hap_copan_844k_2015",
+      "isobox_panama_office_dormitory_containers_46k_2024",
+      "isobox_panama_workspace_modules_43k_2017",
+      "eterna_honduras_construction_warehouse_838k_2024",
+      "eterna_honduras_juliet_taxiway_835k_2021",
+      "eterna_honduras_marforsouth_hq_799k_2016",
+      "isobox_panama_modular_shower_laundry_14k_2020",
+      "isobox_panama_window_fabrication_install_30k_2023",
+      "proyectos_colombia_tumaco_buildings_772k_2022",
+      "estudios_colombia_jamundi_fire_protection_741k_2023",
+      "eterna_costarica_taxiway_apron_734k_2010"
     ],
     "hunt": [
       "hunt_br_power_equip",

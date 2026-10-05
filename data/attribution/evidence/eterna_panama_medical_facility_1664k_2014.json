@@ -1,0 +1,10 @@
+{
+  "id": "eterna_panama_medical_facility_1664k_2014",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_eterna_panama_medical_facility_1664k_2014",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0003_9700_W9127813D0011_9700/",
+  "price_year": "2014",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF MEDICAL FACILITY CONSTRUCTION",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1663746.66; date_signed 2014-09-30."
+}
