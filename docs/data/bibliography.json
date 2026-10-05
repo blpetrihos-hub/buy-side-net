@@ -35353,7 +35353,7 @@
     "type": "company",
     "chicago": "Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2",
-    "annotation": "Energisa Ativo Elétrico Total 3T20 CapEx via Fed H.10. Supports energisa_ae_total_3t20_504m_brl.",
+    "annotation": "Energisa Ativo Elétrico Total 2T20 CapEx via Fed H.10. Supports energisa_ae_total_2t20_548m_brl.",
     "supports": [
       "energisa_dist_total_2t26_1567m_brl",
       "hunt_cycle681",
@@ -36511,7 +36511,11 @@
       "energisa_ae_dist_total_3t20_441m_brl",
       "hunt_cycle821",
       "energisa_ae_tx_total_3t20_63m_brl",
-      "energisa_ae_total_3t20_504m_brl"
+      "energisa_ae_total_3t20_504m_brl",
+      "energisa_ae_dist_total_2t20_465m_brl",
+      "hunt_cycle822",
+      "energisa_ae_tx_total_2t20_82m_brl",
+      "energisa_ae_total_2t20_548m_brl"
     ],
     "map_supports": [
       "energisa_ae_dist_total_1t21_497m_brl",
@@ -36520,6 +36524,7 @@
       "energisa_ae_dist_total_1t24_1039m_brl",
       "energisa_ae_dist_total_1t25_1024m_brl",
       "energisa_ae_dist_total_1t26_1298m_brl",
+      "energisa_ae_dist_total_2t20_465m_brl",
       "energisa_ae_dist_total_2t21_652m_brl",
       "energisa_ae_dist_total_2t22_996m_brl",
       "energisa_ae_dist_total_2t23_978m_brl",
@@ -36550,6 +36555,7 @@
       "energisa_ae_total_1t24_1135m_brl",
       "energisa_ae_total_1t25_1088m_brl",
       "energisa_ae_total_1t26_1352m_brl",
+      "energisa_ae_total_2t20_548m_brl",
       "energisa_ae_total_2t21_774m_brl",
       "energisa_ae_total_2t22_1152m_brl",
       "energisa_ae_total_2t23_1112m_brl",
@@ -36574,6 +36580,7 @@
       "energisa_ae_tx_total_1t24_88m_brl",
       "energisa_ae_tx_total_1t25_40m_brl",
       "energisa_ae_tx_total_1t26_37m_brl",
+      "energisa_ae_tx_total_2t20_82m_brl",
       "energisa_ae_tx_total_2t21_122m_brl",
       "energisa_ae_tx_total_2t22_156m_brl",
       "energisa_ae_tx_total_2t23_134m_brl",
