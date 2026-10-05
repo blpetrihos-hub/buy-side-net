@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6164,
+    "n_rows": 6171,
     "counts": {
-      "total": 6164,
-      "active": 5965,
+      "total": 6171,
+      "active": 5972,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 5891,
-      "on_map": 5797
+      "documented": 5898,
+      "on_map": 5804
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 1902,
-        "n": 2303
+        "allied": 1909,
+        "n": 2310
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 236643915681.6801,
-        "allied_n": 1831
+        "allied": 236685132145.15012,
+        "allied_n": 1838
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 4732,
-        "n": 4987
+        "allied": 4739,
+        "n": 4994
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 365343654616.39923,
-        "allied_n": 4651
+        "allied": 365384871079.8692,
+        "allied_n": 4658
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 1768
+          "allied": 1775
         },
         "infrastructure": {
           "us": 68,
@@ -7153,7 +7153,14 @@
       "taesa_ivai_fy2018_12m_brl",
       "taesa_este_fy2018_4m_brl",
       "taesa_edte_fy2018_14m_brl",
-      "taesa_projetos_fy2018_capex_208m_brl"
+      "taesa_projetos_fy2018_capex_208m_brl",
+      "taesa_mariana_fy2017_38m_brl",
+      "taesa_miracema_fy2017_41m_brl",
+      "taesa_janauba_fy2017_10m_brl",
+      "taesa_aimores_fy2017_3m_brl",
+      "taesa_paraguacu_fy2017_5m_brl",
+      "taesa_ivai_fy2017_8m_brl",
+      "taesa_projetos_fy2017_capex_109m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
