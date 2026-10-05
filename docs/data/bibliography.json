@@ -22741,7 +22741,7 @@
     "type": "company",
     "chicago": "Equatorial S.A. “Release de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2",
-    "annotation": "Equatorial MA 2T26 Total R$330m via Fed H.10. Supports equatorial_ma_2t26_330m_brl.",
+    "annotation": "Equatorial Amapá (CEA) 2T26 Total via Fed H.10. Supports equatorial_ap_2t26_97m_brl.",
     "supports": [
       "equatorial_2t26_capex_2p6bn_brl",
       "hunt_cycle254",
@@ -22763,10 +22763,17 @@
       "equatorial_pa_2t26_716m_brl",
       "hunt_cycle289",
       "equatorial_go_2t26_675m_brl",
-      "equatorial_ma_2t26_330m_brl"
+      "equatorial_ma_2t26_330m_brl",
+      "equatorial_pi_2t26_239m_brl",
+      "hunt_cycle290",
+      "equatorial_al_2t26_188m_brl",
+      "equatorial_rs_2t26_282m_brl",
+      "equatorial_ap_2t26_97m_brl"
     ],
     "map_supports": [
       "equatorial_2t26_capex_2p6bn_brl",
+      "equatorial_al_2t26_188m_brl",
+      "equatorial_ap_2t26_97m_brl",
       "equatorial_ativos_eletricos_2t26_1933m_brl",
       "equatorial_dist_2t26_2527m_brl",
       "equatorial_dist_nonelectric_2t26_134m_brl",
@@ -22775,8 +22782,10 @@
       "equatorial_obrigacoes_especiais_2t26_460m_brl",
       "equatorial_outros_2t26_13m_brl",
       "equatorial_pa_2t26_716m_brl",
+      "equatorial_pi_2t26_239m_brl",
       "equatorial_projetos_estrategicos_2t26_46m_brl",
       "equatorial_renovaveis_2t26_48m_brl",
+      "equatorial_rs_2t26_282m_brl",
       "equatorial_saneamento_2t26_12m_brl"
     ],
     "layers": [
@@ -22838,9 +22847,9 @@
   {
     "id": "cemig_1s26_results_presentation_20260630",
     "type": "company",
-    "chicago": "Cemig. “Resultados 1S26 / 2T26” (company RI presentation PDF). https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.",
+    "chicago": "Companhia Energética de Minas Gerais — CEMIG. “Resultados 2T26” materials. August 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.",
     "url": "https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf",
-    "annotation": "Cemig Gen 1S26 CapEx R$30m via Fed H.10. Supports cemig_gen_1s26_30m_brl.",
+    "annotation": "Cemig 2026 GD plan R$375m via Fed H.10. Supports cemig_2026_gd_plan_375m_brl.",
     "supports": [
       "cemig_1s26_capex_3p28bn_brl",
       "hunt_cycle256",
@@ -22855,10 +22864,21 @@
       "hunt_cycle273",
       "cemig_tx_2t26_165p9m_brl",
       "cemig_gen_1s26_30m_brl",
-      "hunt_cycle274"
+      "hunt_cycle274",
+      "cemig_2026_capex_plan_6725m_brl",
+      "hunt_cycle290",
+      "cemig_2026_dist_plan_5269m_brl",
+      "cemig_2026_tx_plan_632m_brl",
+      "cemig_2026_gen_plan_197m_brl",
+      "cemig_2026_gd_plan_375m_brl"
     ],
     "map_supports": [
       "cemig_1s26_capex_3p28bn_brl",
+      "cemig_2026_capex_plan_6725m_brl",
+      "cemig_2026_dist_plan_5269m_brl",
+      "cemig_2026_gd_plan_375m_brl",
+      "cemig_2026_gen_plan_197m_brl",
+      "cemig_2026_tx_plan_632m_brl",
       "cemig_2t26_capex_1805p3m_brl",
       "cemig_dist_1s26_2640m_brl",
       "cemig_dist_2t26_1360m_brl",
@@ -22951,7 +22971,7 @@
     "type": "company",
     "chicago": "Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
-    "annotation": "Neoenergia 6M26 Melhoria da Rede R$276m via Fed H.10. Supports neoenergia_melhoria_rede_6m26_276m_brl.",
+    "annotation": "Neoenergia Brasília 6M26 CapEx via Fed H.10. Supports neoenergia_brasilia_capex_6m26_228m_brl.",
     "supports": [
       "neoenergia_6m26_capex_4bn_brl",
       "hunt_cycle257",
@@ -22983,14 +23003,24 @@
       "hunt_cycle289",
       "neoenergia_novas_ses_rds_6m26_831m_brl",
       "neoenergia_renovacao_ativos_6m26_674m_brl",
-      "neoenergia_melhoria_rede_6m26_276m_brl"
+      "neoenergia_melhoria_rede_6m26_276m_brl",
+      "neoenergia_coelba_capex_6m26_1919m_brl",
+      "hunt_cycle290",
+      "neoenergia_pe_capex_6m26_746m_brl",
+      "neoenergia_cosern_capex_6m26_240m_brl",
+      "neoenergia_elektro_capex_6m26_564m_brl",
+      "neoenergia_brasilia_capex_6m26_228m_brl"
     ],
     "map_supports": [
       "neoenergia_6m26_capex_4bn_brl",
+      "neoenergia_brasilia_capex_6m26_228m_brl",
+      "neoenergia_coelba_capex_6m26_1919m_brl",
+      "neoenergia_cosern_capex_6m26_240m_brl",
       "neoenergia_customers_2q26_7m_brl",
       "neoenergia_customers_6m26_19m_brl",
       "neoenergia_dist_2q26_1984m_brl",
       "neoenergia_dist_6m26_3696m_brl",
+      "neoenergia_elektro_capex_6m26_564m_brl",
       "neoenergia_gen_customers_2q26_29m_brl",
       "neoenergia_gen_customers_6m26_57m_brl",
       "neoenergia_hydro_2q26_5m_brl",
@@ -23001,6 +23031,7 @@
       "neoenergia_networks_6m26_3913m_brl",
       "neoenergia_novas_ligacoes_6m26_1278m_brl",
       "neoenergia_novas_ses_rds_6m26_831m_brl",
+      "neoenergia_pe_capex_6m26_746m_brl",
       "neoenergia_renovacao_ativos_6m26_674m_brl",
       "neoenergia_tx_2q26_80m_brl",
       "neoenergia_tx_6m26_218m_brl",
@@ -24324,18 +24355,21 @@
     "type": "company",
     "chicago": "ISA Energia Brasil. “Earnings Release 2T26.” 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.",
     "url": "https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf",
-    "annotation": "ISA Itatiaia 2T26 spend R$52.2m via Fed H.10. Supports isa_energia_itatiaia_2t26_52p2m_brl.",
+    "annotation": "ISA 2T26 R&M energized R$290.8m via Fed H.10. Supports isa_energia_2t26_rm_energized_290p8m_brl.",
     "supports": [
       "isa_energia_1s26_capex_2275p9m_brl",
       "hunt_cycle289",
       "isa_energia_1s26_licitados_1460p4m_brl",
       "isa_energia_serra_dourada_2t26_455p7m_brl",
       "isa_energia_piraque_2t26_84p4m_brl",
-      "isa_energia_itatiaia_2t26_52p2m_brl"
+      "isa_energia_itatiaia_2t26_52p2m_brl",
+      "isa_energia_2t26_rm_energized_290p8m_brl",
+      "hunt_cycle290"
     ],
     "map_supports": [
       "isa_energia_1s26_capex_2275p9m_brl",
       "isa_energia_1s26_licitados_1460p4m_brl",
+      "isa_energia_2t26_rm_energized_290p8m_brl",
       "isa_energia_itatiaia_2t26_52p2m_brl",
       "isa_energia_piraque_2t26_84p4m_brl",
       "isa_energia_serra_dourada_2t26_455p7m_brl"
