@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 4943,
+    "n_rows": 4981,
     "counts": {
-      "total": 4943,
-      "active": 4744,
+      "total": 4981,
+      "active": 4782,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 4670,
-      "on_map": 4576
+      "documented": 4708,
+      "on_map": 4614
     }
   },
   "layer_readouts": [
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 207,
-        "n": 369
+        "allied": 208,
+        "n": 370
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 118238530019.24,
-        "allied_n": 138
+        "allied": 118246377247.14,
+        "allied_n": 139
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 690,
-        "n": 1091
+        "allied": 727,
+        "n": 1128
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 139797987683.10013,
-        "allied_n": 619
+        "allied": 140712798867.62018,
+        "allied_n": 656
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 3511,
-        "n": 3766
+        "allied": 3549,
+        "n": 3804
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 268452812747.70947,
-        "allied_n": 3430
+        "allied": 269375471160.12952,
+        "allied_n": 3468
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 556
+          "allied": 593
         },
         "infrastructure": {
           "us": 68,
@@ -389,7 +389,7 @@
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 105
+          "allied": 106
         }
       }
     },
@@ -5932,7 +5932,45 @@
       "equatorial_go_pe_4t24_4m_brl",
       "equatorial_tx_4t24_6m_brl",
       "equatorial_echo_4t24_4m_brl",
-      "equatorial_saneamento_4t24_57m_brl"
+      "equatorial_saneamento_4t24_57m_brl",
+      "equatorial_ma_3t24_300m_brl",
+      "equatorial_ma_eletricos_3t24_271m_brl",
+      "equatorial_ma_oe_3t24_6m_brl",
+      "equatorial_ma_nonelectric_3t24_23m_brl",
+      "equatorial_ma_pe_3t24_3m_brl",
+      "equatorial_pa_3t24_691m_brl",
+      "equatorial_pa_eletricos_3t24_251m_brl",
+      "equatorial_pa_oe_3t24_409m_brl",
+      "equatorial_pa_nonelectric_3t24_31m_brl",
+      "equatorial_pa_pe_3t24_7m_brl",
+      "equatorial_pi_3t24_191m_brl",
+      "equatorial_pi_eletricos_3t24_154m_brl",
+      "equatorial_pi_oe_3t24_23m_brl",
+      "equatorial_pi_nonelectric_3t24_14m_brl",
+      "equatorial_pi_pe_3t24_3m_brl",
+      "equatorial_al_3t24_150m_brl",
+      "equatorial_al_eletricos_3t24_127m_brl",
+      "equatorial_al_oe_3t24_1m_brl",
+      "equatorial_al_nonelectric_3t24_22m_brl",
+      "equatorial_al_pe_3t24_8m_brl",
+      "equatorial_rs_3t24_225m_brl",
+      "equatorial_rs_eletricos_3t24_182m_brl",
+      "equatorial_rs_oe_3t24_3m_brl",
+      "equatorial_rs_nonelectric_3t24_40m_brl",
+      "equatorial_rs_pe_3t24_12m_brl",
+      "equatorial_ap_3t24_64m_brl",
+      "equatorial_ap_eletricos_3t24_40m_brl",
+      "equatorial_ap_oe_3t24_18m_brl",
+      "equatorial_ap_nonelectric_3t24_7m_brl",
+      "equatorial_ap_pe_3t24_4m_brl",
+      "equatorial_go_3t24_708m_brl",
+      "equatorial_go_eletricos_3t24_582m_brl",
+      "equatorial_go_oe_3t24_69m_brl",
+      "equatorial_go_nonelectric_3t24_57m_brl",
+      "equatorial_go_pe_3t24_6m_brl",
+      "equatorial_tx_3t24_8m_brl",
+      "equatorial_echo_3t24_38m_brl",
+      "equatorial_saneamento_3t24_41m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
