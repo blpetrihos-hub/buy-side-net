@@ -12070,3 +12070,35 @@
   supports:
   - isa_energia_rm_carteira_7p2bn_2026
   - hunt_cycle242
+- id: aes_andes_solar_iv_cod_1p9bn_capex_20241022
+  type: company
+  chicago: AES Andes. “AES Andes inicia operación comercial de Andes Solar IV y ratifica su liderazgo en almacenamiento en baterías en Latinoamérica.” October 22, 2024. https://www.aesandes.com/es/press-release/aes-andes-inicia-operacion-comercial-de-andes-solar-iv-y-ratifica-su-liderazgo-en.
+  url: https://www.aesandes.com/es/press-release/aes-andes-inicia-operacion-comercial-de-andes-solar-iv-y-ratifica-su-liderazgo-en
+  annotation: AES Chile CapEx NEW >USD 1.9bn 2024–2027. Supports aes_andes_chile_capex_1p9bn_2024_2027.
+  supports:
+  - aes_andes_chile_capex_1p9bn_2024_2027
+  - hunt_cycle243
+- id: datagro_envision_saf_1bn_20250512
+  type: press
+  chicago: DATAGRO. “China to invest US$1 billion in Brazil to produce sustainable aviation fuel (SAF) from sugarcane.” May 12, 2025. https://portal.datagro.com/en/12/agribusiness/979254/china-to-invest-usdollar1-billion-in-brazil-to-produce-sustainable-aviation-fuel-saf-from-sugarcane.
+  url: https://portal.datagro.com/en/12/agribusiness/979254/china-to-invest-usdollar1-billion-in-brazil-to-produce-sustainable-aviation-fuel-saf-from-sugarcane
+  annotation: Envision Brazil SAF NEW USD 1bn (press citing Planalto). Supports envision_brazil_saf_1bn_2025.
+  supports:
+  - envision_brazil_saf_1bn_2025
+  - hunt_cycle243
+- id: neoenergia_coelba_oeste_baiano_2bn_20260508
+  type: company
+  chicago: Neoenergia. “Neoenergia renova mais três concessões e anuncia investimentos de R$ 50 bilhões em distribuição no país.” May 8, 2026. https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia.
+  url: https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia
+  annotation: Neoenergia Oeste Baiano NEW ~R$2bn ~USD 385.20m via Fed H.10. Supports neoenergia_oeste_baiano_2bn_brl_2026.
+  supports:
+  - neoenergia_oeste_baiano_2bn_brl_2026
+  - hunt_cycle243
+- id: latham_gen_metro_dune_plus_629m_20251121
+  type: company
+  chicago: Latham & Watkins LLP. “Latham & Watkins Advises Generadora Metropolitana on Construction Financing for Dune Plus Energy Storage Project.” November 21, 2025. https://www.lw.com/en/news/2025/11/latham-watkins-advises-generadora-metropolitana-on-construction-financing-for-dune-plus-energy.
+  url: https://www.lw.com/en/news/2025/11/latham-watkins-advises-generadora-metropolitana-on-construction-financing-for-dune-plus-energy
+  annotation: Generadora Metropolitana Dune Plus NEW USD 629m. Supports gen_metro_dune_plus_629m_2025.
+  supports:
+  - gen_metro_dune_plus_629m_2025
+  - hunt_cycle243
