@@ -1,16 +1,56 @@
 updated: 2026-10-05
-cycle: 1362
+cycle: 1367
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1363 shuffle_seed=20262363; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1362/prc410/allied1565); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending CapEx continuing after FAAC/Virtra/Obera + Eterna/MFG/Proyectos residual; residual EPC stock thinning; company/PRC/DFC/Spanish-Portuguese still needed for thin. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1363 shuffled_order)
+next_query: Cycle 1368 shuffle_seed=20262368; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1372/prc410/allied1565); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending CapEx continuing after FAAC/Virtra/Obera/Tsymmetry/Terrestris + SEOBRA/Vinpar/QA; residual EPC stock; company/PRC/DFC/Spanish-Portuguese still needed for thin. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1368 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1362) ===
-# Filled this batch: US FAAC/Virtra Mexico/El Salvador/Honduras simulators; Obera Panama LPR; other Eterna Honduras LZ/taxiways/helo pads/GCA/fence/search pit + Guatemala Chiquimula school + Costa Rica educational; MFG Colombia antenna towers; Proyectos Colombia construction.
+# === Country×subcategory sweep cells touched (session continuing from 1367) ===
+# Filled this batch: US FAAC/Virtra/Obera/Tsymmetry/Terrestris Mexico/Bahamas/Costa Rica/Colombia/Peru CapEx; other SEOBRA Belize/Peru/Panama/Honduras/Colombia/Uruguay schools/EOCs/warehouses/hangar/police; Vinpar Facatativa warehouse; QA HAP 37842.
 # Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (10 US CapEx across 1358-1362).
+# ≥1/3 U.S. hunt budget spent (10 US CapEx across 1363-1367).
+
+# === Cycle 1367 (seed 20262367) ===
+# Shuffled: balsa, water, port_ownership, building_materials, fission_smr, niobium, copper, wind, engineering_epc, nickel, solar, other_renewables, rail, port_cranes, lithium, power_plants_grid, bridges_roads, graphite
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   terrestris_peru_hap_eoc_warehouse_equipment_254k_2024 virtra_peru_lima_virtual_range_simulator_251k_2021 seobra_colombia_tumaco_defensive_walls_towers_559k_2018 seobra_uruguay_hap_community_center_555k_2010 seobra_colombia_classrooms_1_4_549k_2017.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1367: us1372 / prc410 / allied1565 / other7190 (n=10537).
+
+# === Cycle 1366 (seed 20262366) ===
+# Shuffled: power_plants_grid, building_materials, lithium, bridges_roads, graphite, rail, copper, engineering_epc, fission_smr, wind, balsa, port_cranes, niobium, water, port_ownership, nickel, other_renewables, solar
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   virtra_mexico_durango_tamaulipas_simulators_286k_2016 virtra_mexico_training_simulators_280k_2018 vinpar_colombia_facatativa_warehouse_731k_2019 qa_colombia_hap_37842_base_bid_699k_2022 seobra_colombia_tumaco_police_station_588k_2012.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1366: us1370 / prc410 / allied1565 / other7187 (n=10532).
+
+# === Cycle 1365 (seed 20262365) ===
+# Shuffled: building_materials, lithium, balsa, other_renewables, engineering_epc, copper, niobium, port_ownership, wind, rail, solar, nickel, fission_smr, water, bridges_roads, power_plants_grid, graphite, port_cranes
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   virtra_mexico_guanajuato_firearms_simulators_319k_2017 tsymmetry_colombia_gis_drug_interdiction_equipment_306k_2022 seobra_peru_piura_eoc_concepcion_warehouse_854k_2012 seobra_colombia_hap_42210_school_843k_2022 seobra_colombia_hangar_upgrade_737k_2010.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1365: us1368 / prc410 / allied1565 / other7184 (n=10527).
+
+# === Cycle 1364 (seed 20262364) ===
+# Shuffled: port_cranes, port_ownership, copper, other_renewables, engineering_epc, niobium, bridges_roads, graphite, fission_smr, power_plants_grid, water, nickel, balsa, building_materials, wind, solar, lithium, rail
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   virtra_costa_rica_equipment_upgrade_347k_2020 faac_mexico_pgr_firearms_simulators_334k_2016 seobra_peru_tarapoto_warehouse_sar_facility_1084k_2012 seobra_honduras_hap_21515_drw_1047k_2013 seobra_colombia_pasto_eoc_859k_2019.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1364: us1366 / prc410 / allied1565 / other7181 (n=10522).
+
+# === Cycle 1363 (seed 20262363) ===
+# Shuffled: fission_smr, engineering_epc, building_materials, water, bridges_roads, graphite, power_plants_grid, lithium, balsa, solar, other_renewables, rail, niobium, wind, copper, nickel, port_ownership, port_cranes
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   faac_mexico_firearms_training_simulators_497k_2020 obera_bahamas_hq_ops_center_comms_equipment_354k_2021 seobra_belize_crooked_tree_school_2275k_2013 seobra_peru_sofa_hap_construction_1747k_2016 seobra_panama_summit_maintenance_facility_1199k_2012.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx thinning; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1363: us1364 / prc410 / allied1565 / other7178 (n=10517).
 
 # === Cycle 1362 (seed 20262362) ===
 # Shuffled: lithium, rail, port_ownership, engineering_epc, building_materials, wind, solar, power_plants_grid, nickel, graphite, fission_smr, water, port_cranes, other_renewables, copper, niobium, bridges_roads, balsa
