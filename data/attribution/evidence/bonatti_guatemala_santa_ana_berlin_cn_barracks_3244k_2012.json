@@ -1,0 +1,10 @@
+{
+  "id": "bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_bonatti_guatemala_santa_ana_berlin_cn_barracks_3244k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0011_9700_W9127811D0044_9700/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF CN BARRACKS, C2, DINING, VEHICLE MAINTENANCE AND LATRINES AT SANTA ANA DE BERLIN, GUATEMALA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 3243641.92; date_signed 2012-09-29."
+}

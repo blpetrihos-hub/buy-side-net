@@ -1,0 +1,10 @@
+{
+  "id": "bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_bonatti_el_salvador_hap_37867_zacatecoluca_699k_2021",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0398_9700_W9127821D0076_9700/",
+  "price_year": "2021",
+  "evidence": "documented",
+  "quote": "D/B HAP 37867, ZACATECOLUCA, EL SALVADOR",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 698506.57; date_signed 2021-09-24."
+}
