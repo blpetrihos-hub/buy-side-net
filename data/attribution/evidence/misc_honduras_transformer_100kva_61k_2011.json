@@ -1,0 +1,10 @@
+{
+  "id": "misc_honduras_transformer_100kva_61k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_honduras_transformer_100kva_61k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM11P0052_9700_-NONE-_-NONE-/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "TRANSFORMER 100 KVA 34500 120/240V",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 61438.15; date_signed 2011-08-17."
+}
