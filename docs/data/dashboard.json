@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1737,
+    "n_rows": 1746,
     "counts": {
-      "total": 1737,
-      "active": 1538,
+      "total": 1746,
+      "active": 1547,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 184,
       "exclude": 18,
-      "documented": 1468,
-      "on_map": 1400
+      "documented": 1477,
+      "on_map": 1409
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 127,
-        "allied": 233,
-        "n": 541
+        "allied": 235,
+        "n": 543
       },
       "usd": {
         "us": 46248647492.65,
         "us_n": 114,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 65492777283.81002,
-        "allied_n": 159
+        "allied": 65503948101.010025,
+        "allied_n": 161
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 191,
-        "n": 353
+        "allied": 193,
+        "n": 355
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 114280323006.49,
-        "allied_n": 122
+        "allied": 115309323006.49,
+        "allied_n": 124
       },
       "matched_gaps": {
         "n": 3,
@@ -153,16 +153,16 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 175,
-        "prc": 202,
+        "us": 178,
+        "prc": 204,
         "allied": 265,
-        "n": 642
+        "n": 647
       },
       "usd": {
-        "us": 33588974220.519997,
-        "us_n": 70,
-        "prc": 42794661337.729996,
-        "prc_n": 69,
+        "us": 33685120288.579998,
+        "us_n": 73,
+        "prc": 43152512688.81999,
+        "prc_n": 71,
         "allied": 109114813694.80006,
         "allied_n": 194
       },
@@ -362,29 +362,29 @@
     {
       "country": "Brazil",
       "counts": {
-        "us": 113,
-        "prc": 118,
-        "allied": 360,
-        "n": 591
+        "us": 116,
+        "prc": 120,
+        "allied": 362,
+        "n": 598
       },
       "usd": {
-        "us": 20594348579.309994,
-        "us_n": 51,
-        "prc": 41536642307.94,
-        "prc_n": 58,
-        "allied": 157141144020.10004,
-        "allied_n": 279
+        "us": 20690494647.369995,
+        "us_n": 54,
+        "prc": 41894493659.03,
+        "prc_n": 60,
+        "allied": 157152314837.30002,
+        "allied_n": 281
       },
       "by_layer": {
         "energy": {
-          "us": 20,
-          "prc": 83,
+          "us": 23,
+          "prc": 85,
           "allied": 159
         },
         "infrastructure": {
           "us": 67,
           "prc": 26,
-          "allied": 110
+          "allied": 112
         },
         "resources": {
           "us": 26,
@@ -980,16 +980,16 @@
       "counts": {
         "us": 23,
         "prc": 43,
-        "allied": 47,
-        "n": 113
+        "allied": 49,
+        "n": 115
       },
       "usd": {
         "us": 17866000000.0,
         "us_n": 13,
         "prc": 13270524416.0,
         "prc_n": 12,
-        "allied": 23940871379.0,
-        "allied_n": 32
+        "allied": 24969871379.0,
+        "allied_n": 34
       },
       "by_layer": {
         "energy": {
@@ -1005,7 +1005,7 @@
         "resources": {
           "us": 14,
           "prc": 16,
-          "allied": 18
+          "allied": 20
         }
       }
     },
@@ -2726,7 +2726,16 @@
       "cpfl_nova_prata_2_78m_brl_2025",
       "southern_copper_2q26_capex_422p8m_usd",
       "rumo_conteiner_expansao_6m26_32m_brl",
-      "aegea_corsan_outorga_6m26_41m_brl"
+      "aegea_corsan_outorga_6m26_41m_brl",
+      "motiva_frota_eletrificada_50m_brl_2026",
+      "antamina_its_300m_2025",
+      "antamina_its2_729m_2026",
+      "rumo_conteiner_recorrente_6m26_8m_brl",
+      "aes_brasil_2025e_capex_214p2m_brl",
+      "aes_brasil_2027e_capex_125p5m_brl",
+      "aes_brasil_2028e_capex_159p5m_brl",
+      "cpfl_tx_2028_capex_1059m_brl",
+      "cpfl_tx_2029_capex_799m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -12501,12 +12501,16 @@
   type: company
   chicago: AES Brasil Energia S.A. “Material Fact” (investment projections 2024–2028). February 26, 2024. https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1.
   url: https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1
-  annotation: AES Brasil CapEx plan + 2026E nested R$136.7m via Fed H.10. Supports aes_brasil_capex_plan_1348m_brl_2024_2028; aes_brasil_2026e_capex_136p7m_brl.
+  annotation: AES Brasil 2028E CapEx R$159.5m via Fed H.10. Supports aes_brasil_2028e_capex_159p5m_brl.
   supports:
   - aes_brasil_capex_plan_1348m_brl_2024_2028
   - hunt_cycle254
   - aes_brasil_2026e_capex_136p7m_brl
   - hunt_cycle283
+  - aes_brasil_2025e_capex_214p2m_brl
+  - hunt_cycle284
+  - aes_brasil_2027e_capex_125p5m_brl
+  - aes_brasil_2028e_capex_159p5m_brl
 - id: sabesp_2q26_sec_6k_2026
   type: company
   chicago: Companhia de Saneamento Básico do Estado de São Paulo — Sabesp. “Form 6-K — Earnings Release 2Q26.” 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.
@@ -12743,7 +12747,7 @@
   type: company
   chicago: Rumo S.A. “Relatório de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/019d7c48-331a-e6fa-90fc-1a0f01dcccd5?origin=2
-  annotation: Rumo Contêiner Expansão 6M26 CapEx R$32m via Fed H.10. Supports rumo_conteiner_expansao_6m26_32m_brl.
+  annotation: Rumo Contêiner Recorrente 6M26 CapEx R$8m via Fed H.10. Supports rumo_conteiner_recorrente_6m26_8m_brl.
   supports:
   - rumo_2t26_capex_1597m_brl
   - hunt_cycle260
@@ -12776,6 +12780,8 @@
   - rumo_porto_terminais_6m26_41m_brl
   - rumo_conteiner_expansao_6m26_32m_brl
   - hunt_cycle283
+  - rumo_conteiner_recorrente_6m26_8m_brl
+  - hunt_cycle284
 - id: alupar_2t26_release_20260806
   type: company
   chicago: Alupar Investimento S.A. “Release de Resultados 2T26” (company ZIP). August 6, 2026. https://cdn-sites-assets.mziq.com/wp-content/uploads/sites/4/2026/08/2T26-1.zip.
@@ -13061,12 +13067,15 @@
   type: company
   chicago: CPFL Transmissão. “Formulário de Referência 2026” (FR_CPFL Transmissão 2026). May 28, 2026. https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D.
   url: https://ri.cpfl.com.br/Download.aspx?Arquivo=CAx5uyIsFGKmXBS6mHTr9A%3D%3D
-  annotation: CPFL Transmissão 2026 R$856m / 2027 R$1.221bn / 2026–2030 R$4.540bn via Fed H.10. Supports cpfl_tx_2026_capex_856m_brl; cpfl_tx_2027_capex_1221m_brl; cpfl_tx_2026_2030_4540m_brl.
+  annotation: CPFL TX 2029 CapEx R$799m via Fed H.10. Supports cpfl_tx_2029_capex_799m_brl.
   supports:
   - cpfl_tx_2026_capex_856m_brl
   - hunt_cycle268
   - cpfl_tx_2027_capex_1221m_brl
   - cpfl_tx_2026_2030_4540m_brl
+  - cpfl_tx_2028_capex_1059m_brl
+  - hunt_cycle284
+  - cpfl_tx_2029_capex_799m_brl
 - id: scala_dfs_2025_fy_capex_1823m
   type: company
   chicago: Scala Data Centers S.A. “Demonstrações Financeiras 2025.” March 26, 2026. https://scaladatacenters.com/wp-content/uploads/2026/04/2025-Demonstracoes-Financeiras.pdf.
@@ -13255,3 +13264,27 @@
   - hunt_cycle282
   - southern_copper_2q26_capex_422p8m_usd
   - hunt_cycle283
+- id: motiva_frota_eletrificada_20260817
+  type: company
+  chicago: Motiva S.A. “Motiva investe R$ 50 milhões para ampliar a frota operacional de veículos eletrificados em suas rodovias e ativos de trilhos.” August 17, 2026. https://www.motiva.com.br/noticias/motiva-investe-frota-eletrificada-rodovias-trilhos/.
+  url: https://www.motiva.com.br/noticias/motiva-investe-frota-eletrificada-rodovias-trilhos/
+  annotation: Motiva frota eletrificada ~R$50m via Fed H.10. Supports motiva_frota_eletrificada_50m_brl_2026.
+  supports:
+  - motiva_frota_eletrificada_50m_brl_2026
+  - hunt_cycle284
+- id: antamina_its_senace_20250328
+  type: company
+  chicago: Compañía Minera Antamina. “SENACE aprueba nuevo Informe Técnico Sustentatorio (ITS).” March 28, 2025. https://www.antamina.com/noticias/senace-aprueba-nuevo-informe-tecnico-sustentatorio-its/.
+  url: https://www.antamina.com/noticias/senace-aprueba-nuevo-informe-tecnico-sustentatorio-its/
+  annotation: Antamina ITS CapEx ~USD300m company Spanish. Supports antamina_its_300m_2025.
+  supports:
+  - antamina_its_300m_2025
+  - hunt_cycle284
+- id: antamina_its2_presented_20260102
+  type: company
+  chicago: Compañía Minera Antamina. “Antamina presentó ITS ante el Senace.” January 2, 2026. https://www.antamina.com/noticias/antaminapresento-its-ante-senace/.
+  url: https://www.antamina.com/noticias/antaminapresento-its-ante-senace/
+  annotation: Antamina Segundo ITS proposed CapEx ~USD729m (pending). Supports antamina_its2_729m_2026.
+  supports:
+  - antamina_its2_729m_2026
+  - hunt_cycle284
