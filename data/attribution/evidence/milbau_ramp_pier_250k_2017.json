@@ -1,0 +1,10 @@
+{
+  "id": "milbau_ramp_pier_250k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_milbau_ramp_pier_250k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL17C0003_9700_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF RAMP PIER CONSTRUCTION",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 249781; date_signed 2017-03-07."
+}
