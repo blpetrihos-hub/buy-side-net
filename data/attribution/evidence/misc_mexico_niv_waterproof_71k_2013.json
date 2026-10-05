@@ -1,0 +1,10 @@
+{
+  "id": "misc_mexico_niv_waterproof_71k_2013",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_mexico_niv_waterproof_71k_2013",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX53013M1227_1900_-NONE-_-NONE-/",
+  "price_year": "2013",
+  "evidence": "documented",
+  "quote": "MEX-FAC 7901 WATERPROOF OF THE NIV BUILDING IGF::OT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 71315.07; date_signed 2013-08-26."
+}

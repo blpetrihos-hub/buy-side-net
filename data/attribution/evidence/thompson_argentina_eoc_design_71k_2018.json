@@ -1,0 +1,10 @@
+{
+  "id": "thompson_argentina_eoc_design_71k_2018",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_thompson_argentina_eoc_design_71k_2018",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0662_9700_W9127814D0067_9700/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "DESIGN SERVICES (EOC, DRW)",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 71238.86; date_signed 2018-09-24."
+}
