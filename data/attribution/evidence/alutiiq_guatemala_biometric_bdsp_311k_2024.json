@@ -1,0 +1,10 @@
+{
+  "id": "alutiiq_guatemala_biometric_bdsp_311k_2024",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_alutiiq_guatemala_biometric_bdsp_311k_2024",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0065_1900_19AQMM20D0010_1900/",
+  "price_year": "2024",
+  "evidence": "documented",
+  "quote": "NEW DELIVERY ORDER IN THE AMOUNT OF $310,814.75 FOR BIOMETRIC EQUIPMENT BDSP SYSTEM WITH A DELIVERY DATE OF 11/14/2024. THIS REQUIREMENT IS IN SUPPORT OF THE INL SECTION AT THE U.S. EMBASSY GUATEMALA CITY.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 310814.75; date_signed 2024-09-26."
+}

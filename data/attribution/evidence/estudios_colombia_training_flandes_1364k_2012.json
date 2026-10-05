@@ -1,0 +1,10 @@
+{
+  "id": "estudios_colombia_training_flandes_1364k_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_estudios_colombia_training_flandes_1364k_2012",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0012_9700_W9127809D0077_9700/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "TRAINING FACILITY FLANDES, COLOMBIA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 1363942.93; date_signed 2012-09-21."
+}
