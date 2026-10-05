@@ -1,10 +1,10 @@
 {
   "id": "spic_sao_simao_ug7_lrcap_2026",
-  "retrieved": "2026-10-04",
-  "source_id": "spic_brasil_sao_simao_ug7_20260319",
-  "url": "https://www.spicbrasil.com.br/destaque/spic-brasil-expandira-a-uhe-sao-simao-em-310-mw-via-leilao-de-reserva-de-capacidade-com-mais-de-r-1-bilhao-em-investimentos/",
+  "retrieved": "2026-10-05",
+  "source_id": "brasilenergia_spic_sao_simao_1p4bn_20260910",
+  "url": "https://brasilenergia.azurewebsites.net/energia/hidrica/spic-brasil-contrata-consorcio-para-a-expansao-da-uhe-sao-simao",
   "price_year": "2026",
   "evidence": "documented",
-  "quote": "O projeto representa um investimento de mais de R$ 1 bilhão e reforça o papel estratégico da fonte hidrelétrica para a segurança elétrica, modicidade tarifária, sustentabilidade ambiental e desenvolvimento regional.",
-  "note": "Opened SPIC Brasil Portuguese; >R$1bn / 310 MW LRCAP confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
+  "quote": "Companhia investirá R$ 1,4 bilhão para implantar uma nova unidade geradora e ampliar a capacidade instalada da hidrelétrica em 310 MW.",
+  "note": "Opened Brasil Energia Portuguese; R$1.4bn / 310 MW / Dongfang+CGGC / COD 2030 confirmed (SPIC announcement). CapEx-upgrade USD via Fed H.10 Sep 25 2026 5.1921."
 }

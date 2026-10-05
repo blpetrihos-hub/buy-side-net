@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1455,
+    "n_rows": 1456,
     "counts": {
-      "total": 1455,
-      "active": 1256,
+      "total": 1456,
+      "active": 1257,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 174,
       "exclude": 18,
-      "documented": 1204,
-      "on_map": 1128
+      "documented": 1205,
+      "on_map": 1129
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 163,
         "prc": 126,
-        "allied": 170,
-        "n": 459
+        "allied": 171,
+        "n": 460
       },
       "usd": {
         "us": 32963485939.530003,
         "us_n": 96,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 43757811759.26002,
-        "allied_n": 97
+        "allied": 43854111907.56002,
+        "allied_n": 98
       },
       "matched_gaps": {
         "n": 1,
@@ -134,8 +134,8 @@
         "n": 312
       },
       "usd": {
-        "us": 35613908626.93,
-        "us_n": 43,
+        "us": 35648237410.93,
+        "us_n": 44,
         "prc": 15219856772.0,
         "prc_n": 35,
         "allied": 103009039951.47,
@@ -161,7 +161,7 @@
       "usd": {
         "us": 20283858581.43,
         "us_n": 47,
-        "prc": 24000782175.170002,
+        "prc": 24077822293.819996,
         "prc_n": 45,
         "allied": 49950166865.99999,
         "allied_n": 94
@@ -364,16 +364,16 @@
       "counts": {
         "us": 98,
         "prc": 88,
-        "allied": 169,
-        "n": 355
+        "allied": 170,
+        "n": 356
       },
       "usd": {
-        "us": 14545227245.099998,
-        "us_n": 35,
-        "prc": 22742763145.38,
+        "us": 14579556029.099998,
+        "us_n": 36,
+        "prc": 22819803264.030003,
         "prc_n": 34,
-        "allied": 71002748611.73003,
-        "allied_n": 91
+        "allied": 71099048760.03003,
+        "allied_n": 92
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 55,
           "prc": 25,
-          "allied": 50
+          "allied": 51
         },
         "resources": {
           "us": 26,
@@ -2444,7 +2444,8 @@
       "equinix_latam_419m_2025_2026",
       "vicuna_stage1_capex_7p1bn_2026",
       "arcelormittal_babilonia_centro_wind_4p2bn_2025",
-      "arcelormittal_babilonia_centro_solar_700m_2025"
+      "arcelormittal_babilonia_centro_solar_700m_2025",
+      "portonave_electric_equip_500m_brl_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",
