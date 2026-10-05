@@ -50154,5 +50154,275 @@
     "layers": [
       "energy"
     ]
+  },
+  {
+    "id": "usaspending_misc_argentina_oro_bathrooms_75k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2021C0016_1900_-NONE-_-NONE- (Argentina Oro bathrooms). Signed 2021-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2021C0016_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2021C0016_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Argentina Oro bathrooms USD 0.075m. Supports misc_argentina_oro_bathrooms_75k_2021.",
+    "supports": [
+      "misc_argentina_oro_bathrooms_75k_2021",
+      "hunt_cycle1038"
+    ],
+    "map_supports": [
+      "misc_argentina_oro_bathrooms_75k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_brazil_hr_renovation_75k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BR7224P0117_1900_-NONE-_-NONE- (Brazil HR renovation). Signed 2024-07-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR7224P0117_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BR7224P0117_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Brazil HR renovation USD 0.075m. Supports misc_brazil_hr_renovation_75k_2024.",
+    "supports": [
+      "misc_brazil_hr_renovation_75k_2024",
+      "hunt_cycle1038"
+    ],
+    "map_supports": [
+      "misc_brazil_hr_renovation_75k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_morera_cr_hazmat_75k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8020P0732_1900_-NONE-_-NONE- (Morera CR hazmat). Signed 2020-07-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8020P0732_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8020P0732_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Morera CR hazmat USD 0.075m. Supports morera_cr_hazmat_75k_2020.",
+    "supports": [
+      "morera_cr_hazmat_75k_2020",
+      "hunt_cycle1038"
+    ],
+    "map_supports": [
+      "morera_cr_hazmat_75k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_rogers_punta_culebra_butterfly_75k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330223FF0010425_3300_F15CC10192_3300 (Rogers Punta Culebra butterfly). Signed 2023-08-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330223FF0010425_3300_F15CC10192_3300/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330223FF0010425_3300_F15CC10192_3300/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Rogers Punta Culebra butterfly USD 0.075m. Supports rogers_punta_culebra_butterfly_75k_2023.",
+    "supports": [
+      "rogers_punta_culebra_butterfly_75k_2023",
+      "hunt_cycle1038"
+    ],
+    "map_supports": [
+      "rogers_punta_culebra_butterfly_75k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alban_bolivia_generators_74k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA16F1054_1900_SAQMMA15D0050_1900 (Alban Bolivia generators). Signed 2016-03-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F1054_1900_SAQMMA15D0050_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA16F1054_1900_SAQMMA15D0050_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Alban Bolivia generators USD 0.074m. Supports alban_bolivia_generators_74k_2016.",
+    "supports": [
+      "alban_bolivia_generators_74k_2016",
+      "hunt_cycle1038"
+    ],
+    "map_supports": [
+      "alban_bolivia_generators_74k_2016"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_flores_ecuador_bathrooms_74k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7522C0014_1900_-NONE-_-NONE- (Flores Ecuador bathrooms). Signed 2022-07-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0014_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522C0014_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Flores Ecuador bathrooms USD 0.074m. Supports flores_ecuador_bathrooms_74k_2022.",
+    "supports": [
+      "flores_ecuador_bathrooms_74k_2022",
+      "hunt_cycle1039"
+    ],
+    "map_supports": [
+      "flores_ecuador_bathrooms_74k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_iscar_colombia_warehouse_deck_74k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C02024P1978_1900_-NONE-_-NONE- (Iscar Colombia warehouse deck). Signed 2024-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024P1978_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C02024P1978_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Iscar Colombia warehouse deck USD 0.074m. Supports iscar_colombia_warehouse_deck_74k_2024.",
+    "supports": [
+      "iscar_colombia_warehouse_deck_74k_2024",
+      "hunt_cycle1039"
+    ],
+    "map_supports": [
+      "iscar_colombia_warehouse_deck_74k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_argentina_dcmr_ae_74k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2021C0008_1900_-NONE-_-NONE- (Argentina DCMR A&E). Signed 2021-08-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2021C0008_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2021C0008_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Argentina DCMR A&E USD 0.074m. Supports misc_argentina_dcmr_ae_74k_2021.",
+    "supports": [
+      "misc_argentina_dcmr_ae_74k_2021",
+      "hunt_cycle1039"
+    ],
+    "map_supports": [
+      "misc_argentina_dcmr_ae_74k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_chang_salvador_barracks_74k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127811P0154_9700_-NONE-_-NONE- (Chang Salvador barracks). Signed 2011-03-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0154_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127811P0154_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Chang Salvador barracks USD 0.074m. Supports chang_salvador_barracks_74k_2011.",
+    "supports": [
+      "chang_salvador_barracks_74k_2011",
+      "hunt_cycle1039"
+    ],
+    "map_supports": [
+      "chang_salvador_barracks_74k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_peru_asphalt_road_74k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50011C0059_1900_-NONE-_-NONE- (Peru asphalt road). Signed 2011-08-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50011C0059_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50011C0059_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Peru asphalt road USD 0.074m. Supports misc_peru_asphalt_road_74k_2011.",
+    "supports": [
+      "misc_peru_asphalt_road_74k_2011",
+      "hunt_cycle1039"
+    ],
+    "map_supports": [
+      "misc_peru_asphalt_road_74k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_peru_chancery_roof_74k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014C0021_1900_-NONE-_-NONE- (Peru chancery roof). Signed 2014-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0021_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0021_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Peru chancery roof USD 0.074m. Supports misc_peru_chancery_roof_74k_2014.",
+    "supports": [
+      "misc_peru_chancery_roof_74k_2014",
+      "hunt_cycle1040"
+    ],
+    "map_supports": [
+      "misc_peru_chancery_roof_74k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_mexico_canadas_roof_73k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5319C0009_1900_-NONE-_-NONE- (Mexico Cañadas roof). Signed 2019-06-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5319C0009_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5319C0009_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Mexico Cañadas roof USD 0.073m. Supports misc_mexico_canadas_roof_73k_2019.",
+    "supports": [
+      "misc_mexico_canadas_roof_73k_2019",
+      "hunt_cycle1040"
+    ],
+    "map_supports": [
+      "misc_mexico_canadas_roof_73k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_misc_chile_chancery_bathrooms_73k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19C18024P0584_1900_-NONE-_-NONE- (Chile chancery bathrooms). Signed 2024-04-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C18024P0584_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19C18024P0584_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Chile chancery bathrooms USD 0.073m. Supports misc_chile_chancery_bathrooms_73k_2024.",
+    "supports": [
+      "misc_chile_chancery_bathrooms_73k_2024",
+      "hunt_cycle1040"
+    ],
+    "map_supports": [
+      "misc_chile_chancery_bathrooms_73k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_jj_soto_cano_electric_gate_72k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0009_9700_W9127809D0068_9700 (J&J Soto Cano electric gate). Signed 2010-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127809D0068_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0009_9700_W9127809D0068_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: J&J Soto Cano electric gate USD 0.072m. Supports jj_soto_cano_electric_gate_72k_2010.",
+    "supports": [
+      "jj_soto_cano_electric_gate_72k_2010",
+      "hunt_cycle1040"
+    ],
+    "map_supports": [
+      "jj_soto_cano_electric_gate_72k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_siegel_guatemala_roof_ae_72k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F0063_1900_19AQMM19D0046_1900 (Siegel Guatemala roof A&E). Signed 2020-11-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0063_1900_19AQMM19D0046_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F0063_1900_19AQMM19D0046_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: Siegel Guatemala roof A&E USD 0.072m. Supports siegel_guatemala_roof_ae_72k_2020.",
+    "supports": [
+      "siegel_guatemala_roof_ae_72k_2020",
+      "hunt_cycle1040"
+    ],
+    "map_supports": [
+      "siegel_guatemala_roof_ae_72k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
