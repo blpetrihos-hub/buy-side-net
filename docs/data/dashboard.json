@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8225,
+    "n_rows": 8230,
     "counts": {
-      "total": 8225,
-      "active": 8026,
+      "total": 8230,
+      "active": 8031,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7952,
-      "on_map": 7857
+      "documented": 7957,
+      "on_map": 7861
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3910,
-        "n": 4311
+        "allied": 3915,
+        "n": 4316
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383288124413.21063,
-        "allied_n": 3839
+        "allied": 383310737172.40063,
+        "allied_n": 3844
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6793,
-        "n": 7048
+        "allied": 6798,
+        "n": 7053
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 527156830389.01025,
-        "allied_n": 6712
+        "allied": 527179443148.20026,
+        "allied_n": 6717
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3776
+          "allied": 3781
         },
         "infrastructure": {
           "us": 68,
@@ -9214,7 +9214,12 @@
       "axia_txproj_reforco_na_se_ibicoara_instalacao_do_3_atf_23_25m_brl",
       "axia_txproj_melhoria_na_se_camacari_ii_substituicao_do_tr_25m_brl",
       "axia_txproj_recondutoramento_da_lt_230_kv_recife_ii_mirue_25m_brl",
-      "axia_txproj_melhoria_na_se_passo_fundo_substituicao_do_au_25m_brl"
+      "axia_txproj_melhoria_na_se_passo_fundo_substituicao_do_au_25m_brl",
+      "axia_txproj_melhoria_na_se_rio_verde_furnas_substituicao__24m_brl",
+      "axia_txproj_reforco_na_se_boa_vista_substituicao_do_bvtf6_24m_brl",
+      "axia_txproj_se_olindina_instalacao_do_segundo_banco_de_re_24m_brl",
+      "axia_txproj_reforco_na_se_ibiuna_instalacao_das_fases_pri_23m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_t_23m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
