@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1621,
+    "n_rows": 1631,
     "counts": {
-      "total": 1621,
-      "active": 1422,
+      "total": 1631,
+      "active": 1432,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 179,
       "exclude": 18,
-      "documented": 1357,
-      "on_map": 1285
+      "documented": 1367,
+      "on_map": 1295
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 181,
         "prc": 126,
-        "allied": 212,
-        "n": 519
+        "allied": 214,
+        "n": 521
       },
       "usd": {
         "us": 46234647492.65,
         "us_n": 113,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 62790402522.150024,
-        "allied_n": 138
+        "allied": 63072176756.080025,
+        "allied_n": 140
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 88,
         "prc": 70,
-        "allied": 163,
-        "n": 321
+        "allied": 164,
+        "n": 322
       },
       "usd": {
         "us": 35648237410.93,
         "us_n": 44,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 111887489904.28,
-        "allied_n": 94
+        "allied": 111954322207.2,
+        "allied_n": 95
       },
       "matched_gaps": {
         "n": 3,
@@ -153,18 +153,18 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 158,
-        "prc": 191,
-        "allied": 231,
-        "n": 580
+        "us": 161,
+        "prc": 192,
+        "allied": 234,
+        "n": 587
       },
       "usd": {
-        "us": 26636161117.969997,
-        "us_n": 53,
-        "prc": 41894890532.079994,
-        "prc_n": 61,
-        "allied": 105617743145.33005,
-        "allied_n": 160
+        "us": 27690527192.969997,
+        "us_n": 56,
+        "prc": 41946892612.159996,
+        "prc_n": 62,
+        "allied": 106035685788.95006,
+        "allied_n": 163
       },
       "matched_gaps": {
         "n": 1,
@@ -363,47 +363,47 @@
       "country": "Brazil",
       "counts": {
         "us": 112,
-        "prc": 106,
-        "allied": 279,
-        "n": 497
+        "prc": 107,
+        "allied": 285,
+        "n": 504
       },
       "usd": {
         "us": 20568020118.759995,
         "us_n": 50,
-        "prc": 40636871502.29,
-        "prc_n": 50,
-        "allied": 149836365606.76007,
-        "allied_n": 198
+        "prc": 40688873582.37,
+        "prc_n": 51,
+        "allied": 150602914787.23007,
+        "allied_n": 204
       },
       "by_layer": {
         "energy": {
           "us": 19,
-          "prc": 72,
-          "allied": 125
+          "prc": 73,
+          "allied": 128
         },
         "infrastructure": {
           "us": 67,
           "prc": 25,
-          "allied": 89
+          "allied": 91
         },
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 65
+          "allied": 66
         }
       }
     },
     {
       "country": "Chile",
       "counts": {
-        "us": 64,
+        "us": 67,
         "prc": 43,
         "allied": 98,
-        "n": 205
+        "n": 208
       },
       "usd": {
-        "us": 46468000000.0,
-        "us_n": 29,
+        "us": 47522366075.0,
+        "us_n": 32,
         "prc": 3089563959.6699996,
         "prc_n": 16,
         "allied": 53160762361.0,
@@ -411,7 +411,7 @@
       },
       "by_layer": {
         "energy": {
-          "us": 41,
+          "us": 44,
           "prc": 34,
           "allied": 34
         },
@@ -2610,7 +2610,17 @@
       "neoenergia_tx_6m26_218m_brl",
       "vli_tiplam_38m_brl_2026",
       "vli_tpsl_80m_brl_2026",
-      "equatorial_dist_2t26_2527m_brl"
+      "equatorial_dist_2t26_2527m_brl",
+      "aes_andes_green_bond_530m_20240610",
+      "aes_andes_green_alloc_331p7m_20260331",
+      "aes_andes_green_solar_bess_chile_192p7m",
+      "cpfl_fy2025_gen_270m_brl",
+      "neoenergia_dist_2q26_1984m_brl",
+      "neoenergia_wind_6m26_31m_brl",
+      "motiva_1t26_roads_1370m_brl",
+      "motiva_1t26_rails_93m_brl",
+      "aegea_aguas_do_rio_2t26_347m_brl",
+      "cemig_sim_ufv_155m_brl_2t26"
     ],
     "hunt": [
       "hunt_br_power_equip",

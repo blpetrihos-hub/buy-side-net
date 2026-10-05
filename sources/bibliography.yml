@@ -12537,9 +12537,9 @@
   - hunt_cycle255
 - id: cemig_1s26_results_presentation_20260630
   type: company
-  chicago: Cemig. “Resultados 1S26 / 2T26” (company RI presentation PDF). June 30, 2026. https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
+  chicago: Cemig. “Resultados 1S26 / 2T26” (company RI presentation PDF). https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf.
   url: https://ri.cemig.com.br/docs/Cemig-2026-06-30-THtJzCB9.pdf
-  annotation: Cemig TX 1S26 CapEx R$275.2m via Fed H.10. Supports cemig_tx_1s26_275p2m_brl; cemig_1s26_capex_3p28bn_brl.
+  annotation: Cemig Sim 11-UFV acquisition R$155m via Fed H.10. Supports cemig_sim_ufv_155m_brl_2t26.
   supports:
   - cemig_1s26_capex_3p28bn_brl
   - hunt_cycle256
@@ -12548,6 +12548,8 @@
   - cemig_dist_1s26_2640m_brl
   - hunt_cycle270
   - cemig_tx_1s26_275p2m_brl
+  - cemig_sim_ufv_155m_brl_2t26
+  - hunt_cycle272
 - id: votorantim_cimentos_2t26_results_2026
   type: company
   chicago: Votorantim Cimentos. “Nossos resultados financeiros no segundo trimestre de 2026.” 2026. https://www.votorantimcimentos.com.br/noticia/nossos-resultados-financeiros-no-segundo-trimestre-de-2026/.
@@ -12585,7 +12587,7 @@
   type: company
   chicago: Neoenergia S.A. “Results as of June 30, 2026” (2Q26/6M26 earnings release). July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia TX 6M26 CapEx R$218m via Fed H.10. Supports neoenergia_tx_6m26_218m_brl; neoenergia_6m26_capex_4bn_brl.
+  annotation: Neoenergia Wind Farms 6M26 CapEx R$31m via Fed H.10. Supports neoenergia_wind_6m26_31m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12593,6 +12595,9 @@
   - hunt_cycle270
   - neoenergia_tx_6m26_218m_brl
   - hunt_cycle271
+  - neoenergia_dist_2q26_1984m_brl
+  - hunt_cycle272
+  - neoenergia_wind_6m26_31m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
@@ -12726,13 +12731,15 @@
   - ecorodovias_1s26_capex_2520p9m_brl
 - id: aegea_2t26_6m26_release_mziq
   type: company
-  chicago: Aegea Saneamento e Participações S.A. “Aegea 2T26 & 6M26.” August 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
+  chicago: Aegea Saneamento. “Resultados 2T26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/9aa4d8c5-604a-4097-acc9-2d8be8f71593/059c8a63-d6dc-b073-bb33-76e316044799?origin=2
-  annotation: Aegea ecosystem 2T26/6M26 CapEx via Fed H.10. Supports aegea_2t26_ecosystem_capex_1828m_brl; aegea_6m26_ecosystem_capex_3407m_brl.
+  annotation: Aegea Águas do Rio 2T26 Capex R$347m via Fed H.10. Supports aegea_aguas_do_rio_2t26_347m_brl.
   supports:
   - aegea_2t26_ecosystem_capex_1828m_brl
   - hunt_cycle262
   - aegea_6m26_ecosystem_capex_3407m_brl
+  - aegea_aguas_do_rio_2t26_347m_brl
+  - hunt_cycle272
 - id: motiva_2t26_company_news_20260729
   type: company
   chicago: Motiva. “Motiva amplia resultado em 57,5% e mantém trajetória de crescimento” (2T26). July 29, 2026. https://www.motiva.com.br/noticias/motiva-lucro-liquido-2-trimestre-2026/.
@@ -13000,12 +13007,15 @@
   - copel_lrcap_segredo_541m_brl_2026
 - id: motiva_1t26_company_news_20260430
   type: company
-  chicago: Motiva. “Motiva tem alta de 16,3% no Lucro Líquido Ajustado no 1T26.” April 30, 2026. https://www.motiva.com.br/noticias/motiva-avanca-eficiencia-operacional-lucro-ajustado-1t26/.
+  chicago: Motiva. “Motiva avança eficiência operacional e lucro ajustado no 1T26.” April 30, 2026. https://www.motiva.com.br/noticias/motiva-avanca-eficiencia-operacional-lucro-ajustado-1t26/.
   url: https://www.motiva.com.br/noticias/motiva-avanca-eficiencia-operacional-lucro-ajustado-1t26/
-  annotation: Motiva 1T26 CapEx R$1.473bn via Fed H.10. Supports motiva_1t26_capex_1473m_brl.
+  annotation: Motiva 1T26 rails CapEx R$93m via Fed H.10. Supports motiva_1t26_rails_93m_brl.
   supports:
   - motiva_1t26_capex_1473m_brl
   - hunt_cycle270
+  - motiva_1t26_roads_1370m_brl
+  - hunt_cycle272
+  - motiva_1t26_rails_93m_brl
 - id: equinix_st2_pudahuel_46m_20250407
   type: company
   chicago: Equinix. “Con una inversión de US$ 50 millones, Equinix inaugura la segunda expansión de su centro de datos en Pudahuel.” April 7, 2025. https://newsroom.equinix.com/2025-04-07-Con-una-inversion-de-US-50-millones,-Equinix-inaugura-la-segunda-expansion-de-su-centro-de-datos-en-Pudahuel.
@@ -13018,11 +13028,13 @@
   type: company
   chicago: CPFL Energia S.A. “Relatório de Administração e Demonstrações Financeiras” (2025). Company RI PDF. https://ri.cpfl.com.br/Download.aspx?Arquivo=xGWXwO4pmQpCskEpHHDQQg%3D%3D.
   url: https://ri.cpfl.com.br/Download.aspx?Arquivo=xGWXwO4pmQpCskEpHHDQQg%3D%3D
-  annotation: CPFL FY2025 TX CapEx R$804m via Fed H.10. Supports cpfl_fy2025_tx_804m_brl; cpfl_fy2025_capex_6p1bn_brl.
+  annotation: CPFL FY2025 generation CapEx R$270m via Fed H.10. Supports cpfl_fy2025_gen_270m_brl; cpfl_fy2025_capex_6p1bn_brl.
   supports:
   - cpfl_fy2025_dist_4964m_brl
   - hunt_cycle271
   - cpfl_fy2025_tx_804m_brl
+  - cpfl_fy2025_gen_270m_brl
+  - hunt_cycle272
 - id: vli_2t26_dcs_20260630
   type: company
   chicago: VLI S.A. “Demonstrações Contábeis 2T26” (as of June 30, 2026). https://www.vli-logistica.com.br/wp-content/uploads/2026/08/VLISA_DCs_2T_30062026.pdf.
@@ -13032,3 +13044,13 @@
   - vli_tiplam_38m_brl_2026
   - hunt_cycle271
   - vli_tpsl_80m_brl_2026
+- id: aes_andes_green_impact_530m_202606
+  type: company
+  chicago: AES Andes S.A. “US$ 530 million 8.150% Junior Notes due 2055 Green Bond Impact Report.” June 2026. https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf.
+  url: https://www.aesandes.com/sites/aesandes.com/files/2026-07/AES-Andes-Green-Impact-Report-US530M-June-2026.pdf
+  annotation: AES Andes Solar+BESS Chile green allocation US$192.65m. Supports aes_andes_green_solar_bess_chile_192p7m.
+  supports:
+  - aes_andes_green_bond_530m_20240610
+  - hunt_cycle272
+  - aes_andes_green_alloc_331p7m_20260331
+  - aes_andes_green_solar_bess_chile_192p7m
