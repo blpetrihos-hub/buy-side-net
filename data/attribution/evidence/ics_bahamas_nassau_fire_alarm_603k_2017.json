@@ -1,0 +1,10 @@
+{
+  "id": "ics_bahamas_nassau_fire_alarm_603k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_ics_bahamas_nassau_fire_alarm_603k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F2638_1900_SAQMMA14D0059_1900/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "NASSAU FIRE DETECTION/ALARM SYSTEM REPLACEMENT PROJECT # XJ-04-0008. THIS PR6622971 IS FOR PHASE I (SITE SURVEY), PHASE II (DESIGN&PLANNING), PHASE III (CONSTRUCTION) AT THE U. S. EMBASSY IN NASSAU, THE BAHAMAS - TO INCLUDE OPTION 1 - NEW FIRE ALARM SYSTEM IN THE MSGQ. POC IS MIKE BRYCE: 703-875-5099. CONTRACT # IS SAQMMA-14-D-0059.   IGF::CT::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 603944.0; date_signed 2017-08-21."
+}

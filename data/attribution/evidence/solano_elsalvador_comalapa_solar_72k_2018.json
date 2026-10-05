@@ -1,0 +1,10 @@
+{
+  "id": "solano_elsalvador_comalapa_solar_72k_2018",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_solano_elsalvador_comalapa_solar_72k_2018",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6018P0996_1900_-NONE-_-NONE-/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "SUPPLY AND INSTALLATION OF SOLAR PANELS AT COMALAPA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 72769.96; date_signed 2018-09-25."
+}
