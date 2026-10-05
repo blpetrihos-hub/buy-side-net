@@ -1,0 +1,10 @@
+{
+  "id": "misc_argentina_cervino_remodel_55k_2018",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_argentina_cervino_remodel_55k_2018",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2018C0009_1900_-NONE-_-NONE-/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "REMODEL CERVINO 4616/24 6 A, C.A.B.A.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 55000.01; date_signed 2018-09-29."
+}

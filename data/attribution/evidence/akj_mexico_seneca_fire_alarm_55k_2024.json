@@ -1,0 +1,10 @@
+{
+  "id": "akj_mexico_seneca_fire_alarm_55k_2024",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_akj_mexico_seneca_fire_alarm_55k_2024",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5324P0451_1900_-NONE-_-NONE-/",
+  "price_year": "2024",
+  "evidence": "documented",
+  "quote": "MEX-FAC-7902-MCI-SENECA FIRE ALARM INSTALLATION-FY24",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 55195.03; date_signed 2024-02-09."
+}
