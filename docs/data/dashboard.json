@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 8195,
+    "n_rows": 8200,
     "counts": {
-      "total": 8195,
-      "active": 7996,
+      "total": 8200,
+      "active": 8001,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 7922,
-      "on_map": 7827
+      "documented": 7927,
+      "on_map": 7832
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 3880,
-        "n": 4281
+        "allied": 3885,
+        "n": 4286
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 383129913411.31055,
-        "allied_n": 3809
+        "allied": 383158231020.94055,
+        "allied_n": 3814
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 6763,
-        "n": 7018
+        "allied": 6768,
+        "n": 7023
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 526998619387.11017,
-        "allied_n": 6682
+        "allied": 527026936996.7402,
+        "allied_n": 6687
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 3746
+          "allied": 3751
         },
         "infrastructure": {
           "us": 68,
@@ -9184,7 +9184,12 @@
       "axia_txproj_reforco_na_se_230_69_kv_mirueira_substituicao_31m_brl",
       "axia_txproj_reforco_na_se_230_69_kv_mirueira_substituicao_31m_brl_v2",
       "axia_txproj_reforco_na_se_mirueira_ii_instalacao_do_3_tf__30m_brl",
-      "axia_txproj_reforco_na_se_irece_substituicao_do_04t5_55_m_30m_brl"
+      "axia_txproj_reforco_na_se_irece_substituicao_do_04t5_55_m_30m_brl",
+      "axia_txproj_reforco_na_se_resende_instalacao_do_1_rtb_500_30m_brl",
+      "axia_txproj_reforco_na_se_sorriso_instalacao_do_5_tf_230__29m_brl",
+      "axia_txproj_reforco_na_se_mussure_ii_substituicao_do_04t1_29m_brl",
+      "axia_txproj_reforco_na_se_mussure_ii_substituicao_do_04t3_29m_brl",
+      "axia_txproj_melhoria_na_se_ivaipora_fur_substituicao_de_t_29m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
