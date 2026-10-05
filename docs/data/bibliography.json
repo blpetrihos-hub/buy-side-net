@@ -38344,7 +38344,7 @@
     "chicago": "République d'Haïti, Ministère de la Planification et de la Coopération Externe. “Programmes d'Investissements Publics — Exercice 2025-2026.” Budget Général de la République d'Haïti. Retrieved October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.",
     "url": "https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf",
     "accessed": "2026-10-05",
-    "annotation": "Haiti PIP FY2025–26. Supports haiti_pip_bm_wash_rural_2210m_htg_fy2526.",
+    "annotation": "Haiti PIP FY2025–26: CDB mini-réseau 55,400,000 HTG. Supports haiti_pip_minireseau_cdb_55p4m_htg_fy2526.",
     "supports": [
       "haiti_pip_maillage_routier_9625m_htg_fy2526",
       "hunt_cycle898",
@@ -38369,7 +38369,9 @@
       "haiti_pip_rutap_4020m_htg_fy2526",
       "haiti_pip_hal1104_transport_3394m_htg_fy2526",
       "haiti_pip_cap_haitien_urbain_3762m_htg_fy2526",
-      "haiti_pip_bm_wash_rural_2210m_htg_fy2526"
+      "haiti_pip_bm_wash_rural_2210m_htg_fy2526",
+      "haiti_pip_minireseau_cdb_55p4m_htg_fy2526",
+      "hunt_cycle902"
     ],
     "map_supports": [
       "haiti_pip_bm_renewables_access_1564m_htg_fy2526",
@@ -38384,6 +38386,7 @@
       "haiti_pip_hal1104_transport_3394m_htg_fy2526",
       "haiti_pip_hal1135_wash_grand_nord_1608m_htg_fy2526",
       "haiti_pip_maillage_routier_9625m_htg_fy2526",
+      "haiti_pip_minireseau_cdb_55p4m_htg_fy2526",
       "haiti_pip_peligre_hal1140_1388m_htg_fy2526",
       "haiti_pip_pont_cote_de_fer_100m_htg_fy2526",
       "haiti_pip_pont_digue_riviere_55m_htg_fy2526",
@@ -38396,6 +38399,78 @@
     "layers": [
       "infrastructure",
       "resources",
+      "energy"
+    ]
+  },
+  {
+    "id": "usaspending_gdg_cap_haitien_drw_20100831",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0036_9700_-NONE-_-NONE- (GDG Beton & Construction S.A.; Cap-Haïtien DRW). Signed 31 August 2010. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: GDG Cap-Haïtien DRW USD 1.275m. Supports gdg_cap_haitien_drw_1p27m_2010.",
+    "supports": [
+      "gdg_cap_haitien_drw_1p27m_2010",
+      "hunt_cycle902"
+    ],
+    "map_supports": [
+      "gdg_cap_haitien_drw_1p27m_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_cce_lapointe_caracol_20120517",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA12F1738_1900_SAQMMA08D0003_1900 (Contracting, Consulting, Engineering LLC; La Pointe/Caracol design-build). Signed 17 May 2012. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F1738_1900_SAQMMA08D0003_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F1738_1900_SAQMMA08D0003_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: CCE La Pointe/Caracol USD 6.803m. Supports cce_lapointe_caracol_infra_6p8m_2012.",
+    "supports": [
+      "cce_lapointe_caracol_infra_6p8m_2012",
+      "hunt_cycle902"
+    ],
+    "map_supports": [
+      "cce_lapointe_caracol_infra_6p8m_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_dfs_caracol_drainage_20150926",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521C1500013_7200_-NONE-_-NONE- (DFS Construction, LLC; Cap-Haïtien corridor drainage). Signed 26 September 2015. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1500013_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1500013_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: DFS Cap-Haïtien drainage USD 13.618m. Supports dfs_caracol_drainage_13p6m_2015.",
+    "supports": [
+      "dfs_caracol_drainage_13p6m_2015",
+      "hunt_cycle902"
+    ],
+    "map_supports": [
+      "dfs_caracol_drainage_13p6m_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_ute_ppseld_td_20141208",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521O1500005_7200_-NONE-_-NONE- (Universal Trading & Engineering; PPSELD T&D). Signed 8 December 2014. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O1500005_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O1500005_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: UTE PPSELD T&D USD 2.334m. Supports ute_ppseld_td_materials_2p33m_2014.",
+    "supports": [
+      "ute_ppseld_td_materials_2p33m_2014",
+      "hunt_cycle902"
+    ],
+    "map_supports": [
+      "ute_ppseld_td_materials_2p33m_2014"
+    ],
+    "layers": [
       "energy"
     ]
   }

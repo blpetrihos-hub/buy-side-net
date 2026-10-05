@@ -87,32 +87,32 @@
     }
   },
   "meta": {
-    "n_rows": 8406,
+    "n_rows": 8411,
     "counts": {
-      "total": 8406,
-      "active": 8207,
+      "total": 8411,
+      "active": 8212,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8133,
-      "on_map": 8029
+      "documented": 8138,
+      "on_map": 8033
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 182,
+        "us": 185,
         "prc": 129,
         "allied": 2985,
-        "n": 3296
+        "n": 3299
       },
       "usd": {
-        "us": 46364207670.61,
-        "us_n": 115,
+        "us": 46385903391.09,
+        "us_n": 118,
         "prc": 17322325919.350002,
         "prc_n": 40,
         "allied": 144615835010.3698,
@@ -153,14 +153,14 @@
     {
       "layer": "energy",
       "counts": {
-        "us": 192,
+        "us": 193,
         "prc": 209,
-        "allied": 4074,
-        "n": 4475
+        "allied": 4075,
+        "n": 4477
       },
       "usd": {
-        "us": 36729056364.53999,
-        "us_n": 88,
+        "us": 36731390096.229996,
+        "us_n": 89,
         "prc": 43269035868.26999,
         "prc_n": 72,
         "allied": 383588398487.8005,
@@ -750,14 +750,14 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 5,
+        "us": 9,
         "prc": 0,
-        "allied": 28,
-        "n": 33
+        "allied": 29,
+        "n": 38
       },
       "usd": {
-        "us": 208147801.58,
-        "us_n": 5,
+        "us": 232177253.75,
+        "us_n": 9,
         "prc": 0.0,
         "prc_n": 0,
         "allied": 837600000.0,
@@ -765,12 +765,12 @@
       },
       "by_layer": {
         "energy": {
-          "us": 2,
+          "us": 3,
           "prc": 0,
-          "allied": 10
+          "allied": 11
         },
         "infrastructure": {
-          "us": 2,
+          "us": 5,
           "prc": 0,
           "allied": 15
         },
@@ -9395,7 +9395,12 @@
       "haiti_pip_rutap_4020m_htg_fy2526",
       "haiti_pip_hal1104_transport_3394m_htg_fy2526",
       "haiti_pip_cap_haitien_urbain_3762m_htg_fy2526",
-      "haiti_pip_bm_wash_rural_2210m_htg_fy2526"
+      "haiti_pip_bm_wash_rural_2210m_htg_fy2526",
+      "gdg_cap_haitien_drw_1p27m_2010",
+      "cce_lapointe_caracol_infra_6p8m_2012",
+      "dfs_caracol_drainage_13p6m_2015",
+      "ute_ppseld_td_materials_2p33m_2014",
+      "haiti_pip_minireseau_cdb_55p4m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",
