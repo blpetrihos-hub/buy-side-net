@@ -35353,7 +35353,7 @@
     "type": "company",
     "chicago": "Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.",
     "url": "https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2",
-    "annotation": "Energisa Total CapEx 3T15 CapEx via Fed H.10. Supports energisa_total_3t15_460m_brl.",
+    "annotation": "Energisa Total CapEx 2T15 CapEx via Fed H.10. Supports energisa_total_2t15_400m_brl.",
     "supports": [
       "energisa_dist_total_2t26_1567m_brl",
       "hunt_cycle681",
@@ -35575,7 +35575,10 @@
       "energisa_total_4t15_570m_brl",
       "energisa_dist_total_3t15_460m_brl",
       "hunt_cycle724",
-      "energisa_total_3t15_460m_brl"
+      "energisa_total_3t15_460m_brl",
+      "energisa_dist_total_2t15_400m_brl",
+      "hunt_cycle725",
+      "energisa_total_2t15_400m_brl"
     ],
     "map_supports": [
       "energisa_dist_total_1t16_346m_brl",
@@ -35589,6 +35592,7 @@
       "energisa_dist_total_1t24_1180m_brl",
       "energisa_dist_total_1t25_1159m_brl",
       "energisa_dist_total_1t26_1454m_brl",
+      "energisa_dist_total_2t15_400m_brl",
       "energisa_dist_total_2t16_517m_brl",
       "energisa_dist_total_2t17_682m_brl",
       "energisa_dist_total_2t18_466m_brl",
@@ -35686,6 +35690,7 @@
       "energisa_total_1t24_1337m_brl",
       "energisa_total_1t25_1328m_brl",
       "energisa_total_1t26_1553m_brl",
+      "energisa_total_2t15_400m_brl",
       "energisa_total_2t16_517m_brl",
       "energisa_total_2t17_682m_brl",
       "energisa_total_2t18_546m_brl",
