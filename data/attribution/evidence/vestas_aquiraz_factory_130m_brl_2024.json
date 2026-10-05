@@ -1,10 +1,10 @@
 {
   "id": "vestas_aquiraz_factory_130m_brl_2024",
-  "retrieved": "2026-10-04",
+  "retrieved": "2026-10-05",
   "source_id": "terra_vestas_aquiraz_130m_20240809",
   "url": "https://www.terra.com.br/economia/vestas-investira-r130-mi-para-fabricar-nova-turbina-eolica-no-ceara,f9d1fbc4a6527698ae571e35682da9c8wlp8f5rc.html",
   "price_year": "2024",
   "evidence": "proxy",
-  "quote": "A dinamarquesa Vestas anunciou nesta sexta-feira que investirá 130 milhões de reais para produzir um novo modelo de turbina eólica em sua fábrica de montagem de hubs e naceles em Aquiraz, no Ceará.",
-  "note": "Opened Terra Portuguese press 2026-10-04; R$130m / Aquiraz hubs-nacelles / V163-4.5 MW / Pecém blades confirmed. UNVERIFIED proxy vs company press-room (MME page unreachable)."
+  "quote": "A dinamarquesa Vestas anunciou nesta sexta-feira que investirá 130 milhões de reais para produzir um novo modelo de turbina eólica em sua fábrica",
+  "note": "Opened Terra Portuguese; R$130m Aquiraz factory CapEx confirmed as press paraphrase (proxy). CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
