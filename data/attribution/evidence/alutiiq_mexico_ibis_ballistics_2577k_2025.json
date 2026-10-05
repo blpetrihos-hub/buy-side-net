@@ -1,0 +1,10 @@
+{
+  "id": "alutiiq_mexico_ibis_ballistics_2577k_2025",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_alutiiq_mexico_ibis_ballistics_2577k_2025",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0001_1900_19AQMM21D0040_1900/",
+  "price_year": "2025",
+  "evidence": "documented",
+  "quote": "IBIS BALLISTICS HARDWARE AND SOFTWARE FOR MEXICAN STATE ATTORNEYS GENERAL OFFICES",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 2577613.0; date_signed 2025-11-25."
+}

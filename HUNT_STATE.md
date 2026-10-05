@@ -1,16 +1,64 @@
 updated: 2026-10-05
-cycle: 1261
+cycle: 1267
 remote: present
 active_layer: infrastructure
 active_subcategory: building_materials
-next_query: Cycle 1262 shuffle_seed=20262262; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1160/prc410/allied1565); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending fire-alarm CapEx tranche largely logged 1256-1261 — residual US: GE Jamaica switchgear parts, Spectrum Uruguay fire alarm, Daikin Panama chiller driver; residual other make-ready still available; company/PRC/DFC/Spanish-Portuguese still needed for thin. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
-next_row_id: (follow cycle-1262 shuffled_order)
+next_query: Cycle 1268 shuffle_seed=20262268; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us1172/prc410/allied1565); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (26), balsa (26), fission_smr (29), niobium (30), graphite (30). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; Hardline/Alutiiq security CapEx tranche logged 1262-1267; residual other make-ready still available; company/PRC/DFC/Spanish-Portuguese still needed for thin. Thin/PRC dry. No U.S. territories. Exclude TCA/Curaçao/Aruba.
+next_row_id: (follow cycle-1268 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 1261) ===
-# Filled this batch: US fire-alarm CapEx tranche (HSU/FDC/ICS/Greenway/Futron/EMR/Spectrum/Monaco across Peru/Chile/Jamaica/Bolivia/Bahamas/Costa Rica/Honduras/Paraguay/Venezuela); US electrical CapEx (KVA Kingston switchgear; Grainger Peru transformers); allied Schneider Panama switchgear breaker; other Enel Colombia transformer, Carvajal renovation, AKJ Musset fire, AdvTech Ecuador CCTV, Solano Comalapa solar, Polo Coibita solar; residual other make-ready Mexico/Dominican/Ecuador/Venezuela/Argentina.
-# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank. DFC active-projects page opens but project CapEx still thin-dry; Bechtel QB2 Cloudflare/403.
-# ≥1/3 U.S. hunt budget spent (12 US CapEx across 1256-1261).
+# === Country×subcategory sweep cells touched (session continuing from 1267) ===
+# Filled this batch: US Hardline PSU/FE-BR (Mexico/Uruguay/Guyana); Alutiiq FGR/IBIS ballistics (Mexico); Human Technologies Haiti ballistic equipment; Meltech Nassau chancery roof; Hollingsworth El Salvador roof A+E; GE Jamaica switchgear parts; Perimeter Security Exuma gates; Daikin Panama chiller driver; other fire/roof/elevator/access (Empresa Construcción, TecPro, TSS ILEA, KONE, Gamma, TAS) + residual Dominican/Argentina make-ready.
+# Still thin: nickel/balsa/fission_smr/niobium/graphite; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (12 US CapEx across 1262-1267).
+
+# === Cycle 1267 (seed 20262267) ===
+# Shuffled: copper, building_materials, bridges_roads, fission_smr, water, lithium, solar, niobium, nickel, port_cranes, engineering_epc, graphite, wind, power_plants_grid, balsa, other_renewables, port_ownership, rail.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   perimeter_security_bahamas_exuma_gates_85k_2011 daikin_panama_chiller_driver_install_4k_2019 misc_dominican_flores_make_ready_22k_2015 misc_dominican_daboville_make_ready_22k_2015 misc_argentina_guemes_martinez_make_ready_21k_2014.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx/make-ready; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1267: us1172 / prc410 / allied1565 / other6890 (n=10037).
+
+# === Cycle 1266 (seed 20262266) ===
+# Shuffled: engineering_epc, wind, lithium, power_plants_grid, other_renewables, nickel, graphite, water, bridges_roads, copper, building_materials, port_cranes, rail, niobium, fission_smr, balsa, solar, port_ownership.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   hollingsworth_elsalvador_roof_ae_632k_2024 ge_jamaica_switchgear_parts_135k_2016 empresa_construccion_honduras_soto_cano_roof_389k_2022 misc_argentina_guemes_make_ready_21k_2015 misc_dominican_steckler_make_ready_23k_2014.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx/make-ready; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1266: us1170 / prc410 / allied1565 / other6887 (n=10032).
+
+# === Cycle 1265 (seed 20262265) ===
+# Shuffled: bridges_roads, fission_smr, port_cranes, building_materials, solar, rail, port_ownership, water, wind, balsa, other_renewables, lithium, nickel, graphite, power_plants_grid, engineering_epc, copper, niobium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   alutiiq_mexico_ibis_ballistics_2577k_2025 meltech_bahamas_nassau_chancery_roof_301k_2014 empresa_construccion_honduras_soto_cano_roof_1109k_2020 gamma_mexico_musset_elevator_modernization_63k_2019 misc_dominican_lbb13_make_ready_22k_2025.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx/make-ready; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1265: us1168 / prc410 / allied1565 / other6884 (n=10027).
+
+# === Cycle 1264 (seed 20262264) ===
+# Shuffled: engineering_epc, lithium, port_ownership, nickel, copper, power_plants_grid, balsa, graphite, rail, fission_smr, wind, solar, bridges_roads, building_materials, port_cranes, other_renewables, water, niobium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   hardline_guyana_febr_replacement_2638k_2010 human_tech_haiti_ballistic_equipment_3386k_2026 tecpro_honduras_fire_design_construct_368k_2019 tas_elsalvador_access_control_residence_hall_86k_2020 misc_dominican_maupin_make_ready_25k_2014.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx/make-ready; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1264: us1166 / prc410 / allied1565 / other6881 (n=10022).
+
+# === Cycle 1263 (seed 20262263) ===
+# Shuffled: power_plants_grid, building_materials, fission_smr, port_ownership, water, niobium, port_cranes, rail, bridges_roads, graphite, balsa, wind, other_renewables, engineering_epc, lithium, copper, solar, nickel.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   hardline_uruguay_montevideo_psu_2098k_2011 alutiiq_mexico_fgr_ballistics_equip_3846k_2021 tecpro_honduras_sofa_fire_hvac_1617k_2016 kone_mexico_elevator_replacement_149k_2025 misc_dominican_pulido_make_ready_27k_2014.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx/make-ready; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1263: us1164 / prc410 / allied1565 / other6878 (n=10017).
+
+# === Cycle 1262 (seed 20262262) ===
+# Shuffled: port_ownership, solar, niobium, power_plants_grid, building_materials, water, other_renewables, copper, nickel, fission_smr, engineering_epc, balsa, wind, port_cranes, rail, bridges_roads, graphite, lithium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   hardline_mexico_psu_febr_4585k_2011 alutiiq_mexico_fgr_ballistics_lab_5519k_2023 empresa_construccion_elsalvador_fire_suppression_651k_2017 tss_elsalvador_ilea_fire_suppression_alarm_244k_2023 misc_dominican_espinosa_make_ready_27k_2015.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: residual CapEx/make-ready; thin/PRC dry; company/PRC/DFC sources.
+# Active after cycle 1262: us1162 / prc410 / allied1565 / other6875 (n=10012).
 
 # === Cycle 1261 (seed 20262261) ===
 # Shuffled: graphite, bridges_roads, rail, building_materials, solar, wind, nickel, water, port_ownership, balsa, fission_smr, power_plants_grid, engineering_epc, other_renewables, lithium, copper, port_cranes, niobium.
