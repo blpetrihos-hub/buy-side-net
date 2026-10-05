@@ -13499,7 +13499,7 @@
   type: company
   chicago: ISA Energia Brasil. “Earnings Release 2T26.” August 3, 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.
   url: https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf
-  annotation: ISA Ivaí (JV share) 2T26 spend via Fed H.10. Supports isa_energia_ivai_2t26_0p2m_brl.
+  annotation: ISA Greenfield portfolio CapEx ISA Total até 30/06/2026 via Fed H.10. Supports isa_energia_greenfield_capex_30jun26_total_12083p7m_brl.
   supports:
   - isa_energia_1s26_capex_2275p9m_brl
   - hunt_cycle289
@@ -13519,6 +13519,22 @@
   - isa_energia_minuano_2t26_1p9m_brl
   - hunt_cycle294
   - isa_energia_ivai_2t26_0p2m_brl
+  - isa_energia_agua_vermelha_capex_aneel_94p2m_brl
+  - hunt_cycle305
+  - isa_energia_agua_vermelha_capex_30jun26_87p1m_brl
+  - isa_energia_riacho_grande_capex_aneel_1140p6m_brl
+  - isa_energia_riacho_grande_capex_30jun26_922p1m_brl
+  - isa_energia_piraque_capex_aneel_3653p6m_brl
+  - isa_energia_piraque_capex_30jun26_3866p1m_brl
+  - isa_energia_minuano_capex_aneel_681p6m_brl
+  - isa_energia_minuano_capex_30jun26_737p6m_brl
+  - isa_energia_ivai_capex_aneel_968p2m_brl
+  - isa_energia_ivai_capex_30jun26_1064p4m_brl
+  - isa_energia_serra_dourada_capex_aneel_3156p8m_brl
+  - isa_energia_itatiaia_capex_aneel_2300p6m_brl
+  - isa_energia_jacaranda_capex_aneel_232p3m_brl
+  - isa_energia_greenfield_capex_aneel_total_15742p9m_brl
+  - isa_energia_greenfield_capex_30jun26_total_12083p7m_brl
 - id: motiva_capex_proforma_xlsx_2026
   type: company
   chicago: Motiva Infraestrutura de Mobilidade S.A. “Fundamentos — Capex Proforma (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/8516d569-e11b-4864-a777-68eca8245423/3d12e316-e0e9-ec78-cfdc-d60e5189d2db?origin=2.
