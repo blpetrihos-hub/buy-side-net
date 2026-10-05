@@ -12471,3 +12471,36 @@
   supports:
   - aegea_6m26_capex_832m_brl
   - hunt_cycle253
+- id: aes_brasil_mf_capex_20240226
+  type: company
+  chicago: AES Brasil Energia S.A. “Material Fact” (investment projections 2024–2028). February 26, 2024. https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1.
+  url: https://api.mziq.com/mzfilemanager/v2/d/e498993c-3cba-4d72-b30c-36dab672b462/d1fcd476-a595-8eb6-5212-a19e494bc3e0?origin=1
+  annotation: AES Brasil NEW R$1,348.4m CapEx plan ~USD 259.70m via Fed H.10. Supports aes_brasil_capex_plan_1348m_brl_2024_2028.
+  supports:
+  - aes_brasil_capex_plan_1348m_brl_2024_2028
+  - hunt_cycle254
+- id: sabesp_2q26_sec_6k_2026
+  type: company
+  chicago: Companhia de Saneamento Básico do Estado de São Paulo — SABESP. “Earnings Release 2Q26” (Form 6-K). 2026. https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm.
+  url: https://www.sec.gov/Archives/edgar/data/1170858/000129281426004252/sbsitr2q26_6k.htm
+  annotation: Sabesp FY2026 plan NEW ~R$20bn ~USD 3852.01m via Fed H.10. Supports sabesp_2026_capex_plan_20bn_brl.
+  supports:
+  - sabesp_1h26_capex_7458m_brl
+  - hunt_cycle254
+  - sabesp_2026_capex_plan_20bn_brl
+- id: equatorial_2t26_release_20260812
+  type: company
+  chicago: Equatorial S.A. “Resultados do segundo trimestre de 2026 (2T26).” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.
+  url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2
+  annotation: Equatorial 2T26 NEW ~R$2.6bn ~USD 500.76m via Fed H.10. Supports equatorial_2t26_capex_2p6bn_brl.
+  supports:
+  - equatorial_2t26_capex_2p6bn_brl
+  - hunt_cycle254
+- id: cpfl_2t26_results_20260813
+  type: company
+  chicago: CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26, alta de 21,3%.” August 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.
+  url: https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213
+  annotation: CPFL 2T26 NEW R$1.5bn ~USD 288.90m via Fed H.10. Supports cpfl_2t26_capex_1p5bn_brl.
+  supports:
+  - cpfl_2t26_capex_1p5bn_brl
+  - hunt_cycle254
