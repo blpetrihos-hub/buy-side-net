@@ -1,0 +1,10 @@
+{
+  "id": "hsu_sao_paulo_fire_alarm_642k_2018",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_hsu_sao_paulo_fire_alarm_642k_2018",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM18F1434_1900_SAQMMA14D0058_1900/",
+  "price_year": "2018",
+  "evidence": "documented",
+  "quote": "SAO PAULO FIRE DETECTION/ALARM SYSTEM REPLACEMENT PROJECT # XJ-0K-0004. THIS PR7263644 IS FOR PHASE I (SITE SU",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 641835.76; date_signed 2018-04-23."
+}
