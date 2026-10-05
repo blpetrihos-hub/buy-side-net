@@ -12545,7 +12545,7 @@
   type: company
   chicago: Equatorial S.A. “Release de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2
-  annotation: Equatorial Maranhão 2T26 Obrigações especiais via Fed H.10. Supports equatorial_ma_oe_2t26_30m_brl.
+  annotation: Equatorial 2T26 Ativos Operacionais via Fed H.10. Supports equatorial_ativos_operacionais_2t26_48m_brl.
   supports:
   - equatorial_2t26_capex_2p6bn_brl
   - hunt_cycle254
@@ -12582,6 +12582,27 @@
   - equatorial_pi_oe_2t26_49m_brl
   - equatorial_rs_eletricos_2t26_262m_brl
   - equatorial_ma_oe_2t26_30m_brl
+  - equatorial_al_eletricos_2t26_169m_brl
+  - hunt_cycle293
+  - equatorial_al_oe_2t26_10m_brl
+  - equatorial_ap_eletricos_2t26_71m_brl
+  - equatorial_ap_oe_2t26_23m_brl
+  - equatorial_go_oe_2t26_20m_brl
+  - equatorial_ma_nonelectric_2t26_21m_brl
+  - equatorial_pa_nonelectric_2t26_25m_brl
+  - equatorial_pi_nonelectric_2t26_11m_brl
+  - equatorial_al_nonelectric_2t26_10m_brl
+  - equatorial_rs_nonelectric_2t26_20m_brl
+  - equatorial_ap_nonelectric_2t26_3m_brl
+  - equatorial_go_nonelectric_2t26_44m_brl
+  - equatorial_ma_projetos_2t26_7m_brl
+  - equatorial_pa_projetos_2t26_8m_brl
+  - equatorial_pi_projetos_2t26_3m_brl
+  - equatorial_al_projetos_2t26_3m_brl
+  - equatorial_rs_projetos_2t26_6m_brl
+  - equatorial_ap_projetos_2t26_1m_brl
+  - equatorial_go_projetos_2t26_18m_brl
+  - equatorial_ativos_operacionais_2t26_48m_brl
 - id: cpfl_2t26_results_20260813
   type: company
   chicago: CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26, alta de 21,3%.” August 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.
@@ -13380,9 +13401,9 @@
   - cpfl_live_line_trucks_52m_brl_2025
 - id: isa_energia_2t26_earnings_release
   type: company
-  chicago: ISA Energia Brasil. “Earnings Release 2T26.” 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.
+  chicago: ISA Energia Brasil. “Earnings Release 2T26.” August 3, 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.
   url: https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf
-  annotation: ISA 1S26 R&M energized ~R$475m via Fed H.10. Supports isa_energia_1s26_rm_energized_475m_brl.
+  annotation: ISA Jacarandá 2T26 spend via Fed H.10. Supports isa_energia_jacaranda_2t26_13p5m_brl.
   supports:
   - isa_energia_1s26_capex_2275p9m_brl
   - hunt_cycle289
@@ -13394,3 +13415,8 @@
   - hunt_cycle290
   - isa_energia_1s26_rm_energized_475m_brl
   - hunt_cycle291
+  - isa_energia_serra_dourada_realized_1844p5m_brl
+  - hunt_cycle293
+  - isa_energia_itatiaia_realized_549p7m_brl
+  - isa_energia_jacaranda_188p8m_brl
+  - isa_energia_jacaranda_2t26_13p5m_brl

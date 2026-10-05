@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1816,
+    "n_rows": 1840,
     "counts": {
-      "total": 1816,
-      "active": 1617,
+      "total": 1840,
+      "active": 1641,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1543,
-      "on_map": 1479
+      "documented": 1567,
+      "on_map": 1501
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 308,
-        "n": 709
+        "allied": 332,
+        "n": 733
       },
       "usd": {
         "us": 36624056364.53999,
         "us_n": 87,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 117009962093.30003,
-        "allied_n": 237
+        "allied": 117610393517.98001,
+        "allied_n": 261
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 129,
         "prc": 125,
-        "allied": 413,
-        "n": 667
+        "allied": 437,
+        "n": 691
       },
       "usd": {
         "us": 21129430723.329994,
         "us_n": 67,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 170712800960.43002,
-        "allied_n": 332
+        "allied": 171313232385.11005,
+        "allied_n": 356
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 202
+          "allied": 226
         },
         "infrastructure": {
           "us": 67,
@@ -2805,7 +2805,31 @@
       "equatorial_pi_eletricos_2t26_179m_brl",
       "equatorial_pi_oe_2t26_49m_brl",
       "equatorial_rs_eletricos_2t26_262m_brl",
-      "equatorial_ma_oe_2t26_30m_brl"
+      "equatorial_ma_oe_2t26_30m_brl",
+      "equatorial_al_eletricos_2t26_169m_brl",
+      "equatorial_al_oe_2t26_10m_brl",
+      "equatorial_ap_eletricos_2t26_71m_brl",
+      "equatorial_ap_oe_2t26_23m_brl",
+      "equatorial_go_oe_2t26_20m_brl",
+      "equatorial_ma_nonelectric_2t26_21m_brl",
+      "equatorial_pa_nonelectric_2t26_25m_brl",
+      "equatorial_pi_nonelectric_2t26_11m_brl",
+      "equatorial_al_nonelectric_2t26_10m_brl",
+      "equatorial_rs_nonelectric_2t26_20m_brl",
+      "equatorial_ap_nonelectric_2t26_3m_brl",
+      "equatorial_go_nonelectric_2t26_44m_brl",
+      "equatorial_ma_projetos_2t26_7m_brl",
+      "equatorial_pa_projetos_2t26_8m_brl",
+      "equatorial_pi_projetos_2t26_3m_brl",
+      "equatorial_al_projetos_2t26_3m_brl",
+      "equatorial_rs_projetos_2t26_6m_brl",
+      "equatorial_ap_projetos_2t26_1m_brl",
+      "equatorial_go_projetos_2t26_18m_brl",
+      "equatorial_ativos_operacionais_2t26_48m_brl",
+      "isa_energia_serra_dourada_realized_1844p5m_brl",
+      "isa_energia_itatiaia_realized_549p7m_brl",
+      "isa_energia_jacaranda_188p8m_brl",
+      "isa_energia_jacaranda_2t26_13p5m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
