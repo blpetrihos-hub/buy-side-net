@@ -19052,7 +19052,7 @@
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2
-  annotation: Energisa Ativo Elétrico Total 3T22 CapEx via Fed H.10. Supports energisa_ae_total_3t22_1396m_brl.
+  annotation: Energisa Ativo Elétrico Total 2T22 CapEx via Fed H.10. Supports energisa_ae_total_2t22_1152m_brl.
   supports:
   - energisa_dist_total_2t26_1567m_brl
   - hunt_cycle681
@@ -20179,6 +20179,10 @@
   - hunt_cycle813
   - energisa_ae_tx_total_3t22_177m_brl
   - energisa_ae_total_3t22_1396m_brl
+  - energisa_ae_dist_total_2t22_996m_brl
+  - hunt_cycle814
+  - energisa_ae_tx_total_2t22_156m_brl
+  - energisa_ae_total_2t22_1152m_brl
 - id: cemig_resultados_2t26_xlsx
   type: company
   chicago: Cemig. “Planilha de Resultados 2T26 / 1S26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://media.sumaq.report/cemig-39dnnuek/docs/Cemig-2026-06-30-r7GLBrCc.xlsx.
