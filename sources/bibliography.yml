@@ -1596,13 +1596,14 @@
   - posco_sal_de_oro_lioh_2024
   - hunt_res_lithium
 - id: acciona_line6_milestones_20260112
-  type: official
-  chicago: ACCIONA. “São Paulo Metro Line 6 project reaches key milestones.” 12 January 2026.
+  type: company
+  chicago: ACCIONA. “São Paulo Metro Line 6 project reaches key milestones.” January 12, 2026. https://www.acciona.com/updates/articles/sao-paulo-metro-line-6-project-reaches-key-milestones.
   url: https://www.acciona.com/updates/articles/sao-paulo-metro-line-6-project-reaches-key-milestones
-  annotation: Company primary Line 6 civil-works progress notice. Supports acciona_sp_line6_epc_2025.
+  annotation: ACCIONA SP Line 6 CapEx-fill ~USD 3659.41m via Fed H.10. Supports acciona_sp_line6_epc_2025.
   supports:
   - acciona_sp_line6_epc_2025
   - hunt_infra_engineering_epc
+  - hunt_cycle231
 - id: cancilleria_first_20250919
   type: official
   chicago: Ministerio de Relaciones Exteriores, Comercio Internacional y Culto (Argentina). “Argentina ingresa al Programa … (FIRST) de Estados Unidos.” 19 September 2025.
@@ -2623,12 +2624,13 @@
   - hunt_infra_bridges_roads
 - id: siemens_mexico_etcs_20260326
   type: company
-  chicago: Siemens Mobility. “Siemens Mobility and Sonda win ETCS signaling project in Mexico.” 26 March 2026.
-  url: https://press.siemens.com/global/en/pressrelease/siemens-mobility-and-sonda-win-etcs-signaling-project-mexico
-  annotation: Company primary on first Mexico ETCS L1 award for CDMX–Querétaro–Irapuato. Supports siemens_sonda_mexico_etcs_2026.
+  chicago: Sonda. “SONDA y Siemens Mobility ganan el proyecto de señalización ETCS en México.” March 26, 2026. https://www.sonda.com/detalle-noticia/2026/03/26/sonda-impulsa-la-transformacion-ferroviaria-en-mexico-con-tecnologia-para-el-corredor-mexico-queretaro-irapuato.
+  url: https://www.sonda.com/detalle-noticia/2026/03/26/sonda-impulsa-la-transformacion-ferroviaria-en-mexico-con-tecnologia-para-el-corredor-mexico-queretaro-irapuato
+  annotation: Siemens/Sonda ETCS CapEx-fill company dual US$192m. Supports siemens_sonda_mexico_etcs_2026.
   supports:
   - siemens_sonda_mexico_etcs_2026
   - hunt_latam_rail_telecom
+  - hunt_cycle231
 - id: diario_comercio_cbmm_13bn_20260918
   type: press
   chicago: Diário do Comércio. “Mineira CBMM planeja investimentos de R$ 13 bilhões até 2031.” September 18, 2026. https://diariodocomercio.com.br/economia/cbmm-niobio-investimentos/.
@@ -4027,12 +4029,13 @@
   - hunt_cycle219
 - id: aldesa_queretaro_irapuato_20260305
   type: company
-  chicago: Aldesa Construcción. “Aldesa Participará en el Desarrollo de Infraestructuras Clave del Tren de Pasajeros Querétaro–Irapuato en México.” 5 March 2026.
+  chicago: Aldesa. “Aldesa Participará en el Desarrollo de Infraestructuras Clave del Tren de Pasajeros Querétaro–Irapuato en México.” March 5, 2026. https://aldesa.com/aldesa-participara-en-el-desarrollo-de-infraestructuras-clave-del-tren-de-pasajeros-queretaro-irapuato-en-mexico/.
   url: https://aldesa.com/aldesa-participara-en-el-desarrollo-de-infraestructuras-clave-del-tren-de-pasajeros-queretaro-irapuato-en-mexico/
-  annotation: Aldesa primary on ATTRAPI award of MXN 3,279m Querétaro–Irapuato auxiliary rail facilities (CCECC/Aldesa consortium). Supports ccecc_aldesa_queretaro_irapuato_2026.
+  annotation: CCECC/Aldesa Querétaro CapEx-fill ~USD 185.33m via Fed H.10. Supports ccecc_aldesa_queretaro_irapuato_2026.
   supports:
   - ccecc_aldesa_queretaro_irapuato_2026
   - hunt_latam_rail_telecom
+  - hunt_cycle231
 - id: contourglobal_quillagua_20250408
   type: company
   chicago: ContourGlobal. “ContourGlobal Inaugurates Latin America’s Largest Solar Plant with Battery Storage in Chile.” 8 April 2025.
@@ -6387,12 +6390,13 @@
   - hunt_cycle222
 - id: gs_inima_espirito_santo_20251009
   type: company
-  chicago: GS Inima. “GS Inima Has Signed the Contract for the Integrated Sanitation Service in the Brazilian State of Espírito Santo.” 9 October 2025.
+  chicago: GS Inima. “GS Inima has signed the contract for the Integrated Sanitation Service in the Brazilian State of Espírito Santo.” October 9, 2025. https://inima.com/en/gs-inima-signs-contract-the-integrated-sanitation-service-in-thestate-of-espirito-santo/.
   url: https://inima.com/en/gs-inima-signs-contract-the-integrated-sanitation-service-in-thestate-of-espirito-santo/
-  annotation: GS Inima/Forte Ambiental Lot A 24-year sanitation concession (>EUR 150m; 35 municipalities). Supports gs_inima_espirito_santo_lot_a_2025.
+  annotation: GS Inima ES CapEx-fill ~USD 171.00m via Fed H.10. Supports gs_inima_espirito_santo_lot_a_2025.
   supports:
   - gs_inima_espirito_santo_lot_a_2025
   - hunt_res_water
+  - hunt_cycle231
 - id: scco_notes_1p25bn_20260625
   type: filing
   chicago: Southern Copper Corporation. “Southern Copper Corporation Issued $1,250,000,000 Unsecured Notes Due 2036.” Exhibit 99 to Form 8-K, 25 June 2026. SEC EDGAR.
@@ -10311,12 +10315,13 @@
   - hunt_cycle180
 - id: redeia_strategic_plan_latam_20260226
   type: company
-  chicago: Redeia. “Redeia increases its average annual investment in Red Eléctrica by 70% to implement the next Plan.” February 26, 2026. https://www.redeia.com/en/press-office/news/press-release/2026/02/redeia-increases-its-average-annual-investment-red-electrica-70-implement-next-plan.
+  chicago: Redeia. “Redeia increases its average annual investment in Red Eléctrica by 70% to implement the next plan.” February 26, 2026. https://www.redeia.com/en/press-office/news/press-release/2026/02/redeia-increases-its-average-annual-investment-red-electrica-70-implement-next-plan.
   url: https://www.redeia.com/en/press-office/news/press-release/2026/02/redeia-increases-its-average-annual-investment-red-electrica-70-implement-next-plan
-  annotation: 'Redeia: ~€150m Redinter LatAm grid plan BR/CL/PE. Supports redeia_redinter_latam_150m_eur_2026.'
+  annotation: Redeia LatAm CapEx-fill ~USD 171.00m via Fed H.10. Supports redeia_redinter_latam_150m_eur_2026.
   supports:
   - redeia_redinter_latam_150m_eur_2026
   - hunt_cycle181
+  - hunt_cycle231
 - id: weg_brazil_xfmr_20240925
   type: company
   chicago: WEG. “WEG announces investments to expand transformer production capacity in Brazil.” September 25, 2024. https://www.weg.net/institutional/GE/en/news/result-and-investiments/weg-announces-investments-to-expand-transformer-production-capacity-in-brazil.
@@ -10612,12 +10617,13 @@
   - hunt_cycle227
 - id: copel_fr_15_25_capex_20251119
   type: company
-  chicago: Companhia Paranaense de Energia (Copel). “Fato Relevante | 15/25 — CAPEX de R$ 17,8 bilhões para os próximos 5 anos.” November 19, 2025. https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd35ad?origin=1.
-  url: https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd35ad?origin=1
-  annotation: 'Copel: 2026 CapEx plan R$3,021.3m. Supports copel_capex_2026_plan_3021m_brl.'
+  chicago: Copel. Material Fact / CapEx plan disclosure (FR 15/25). November 19, 2025. https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd3b3d.
+  url: https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/b4fe8c81-c5ea-c309-59d7-a14974bd3b3d
+  annotation: Copel 2026 CapEx-fill ~USD 581.90m via Fed H.10. Supports copel_capex_2026_plan_3021m_brl.
   supports:
   - copel_capex_2026_plan_3021m_brl
   - hunt_cycle187
+  - hunt_cycle231
 - id: unacem_q2_2026_results_20260819
   type: company
   chicago: Grupo UNACEM. “Grupo UNACEM’s net income grew 65.5% in the second quarter, reaching S/175.4 million.” August 19, 2026. https://grupounacem.com/en/noticias/grupo-unacems-net-income-grew-65-5-in-the-second-quarter-reaching-s-175-4-million/.
@@ -10630,13 +10636,14 @@
   type: company
   chicago: Votorantim Cimentos. “Our 2025 financial results.” March 18, 2026. https://www.votorantimcimentos.com/news/our-2025-financial-results/.
   url: https://www.votorantimcimentos.com/news/our-2025-financial-results/
-  annotation: Votorantim FY2025 CapEx-fill ~USD 712.62m via Fed H.10. Supports votorantim_fy2025_capex_3p7bn_brl.
+  annotation: Votorantim Brazil plan R$2.7bn CapEx-fill ~USD 520.02m via Fed H.10. Supports votorantim_brazil_plan_2p7bn_invested_2025.
   supports:
   - votorantim_brazil_plan_2p7bn_invested_2025
   - hunt_cycle188
   - votorantim_fy2025_capex_3p7bn_brl
   - hunt_cycle197
   - hunt_cycle228
+  - hunt_cycle231
 - id: impsa_tocoma_macagua_20260812
   type: company
   chicago: IMPSA. “IMPSA reactivates the Tocoma and Macagua projects.” August 13, 2026. https://www.impsa.com/en/impsa-restarts-the-tocoma-and-macagua-projects/.
@@ -11203,12 +11210,13 @@
   - hunt_cycle199
 - id: azevedo_rota_mogiana_20260227
   type: company
-  chicago: Azevedo & Travassos S.A. “Azevedo & Travassos Investimentos vence leilão da concessão Rota Mogiana, com 520 km de rodovias.” February 27, 2026. https://azevedotravassos.com.br/noticias/2026/02/27/azevedo-travassos-investimentos-vence-leilao-da-concessao-rota-mogiana-com-520-km-de-rodovias/.
+  chicago: Azevedo Travassos. “Azevedo Travassos Investimentos vence leilão da concessão Rota Mogiana com 520 km de rodovias.” February 27, 2026. https://azevedotravassos.com.br/noticias/2026/02/27/azevedo-travassos-investimentos-vence-leilao-da-concessao-rota-mogiana-com-520-km-de-rodovias/.
   url: https://azevedotravassos.com.br/noticias/2026/02/27/azevedo-travassos-investimentos-vence-leilao-da-concessao-rota-mogiana-com-520-km-de-rodovias/
-  annotation: 'Rota Mogiana: R$9.4bn CapEx. Supports azevedo_rota_mogiana_9p4bn_brl_2026.'
+  annotation: Azevedo Rota Mogiana CapEx-fill ~USD 1810.44m via Fed H.10. Supports azevedo_rota_mogiana_9p4bn_brl_2026.
   supports:
   - azevedo_rota_mogiana_9p4bn_brl_2026
   - hunt_cycle200
+  - hunt_cycle231
 - id: ositran_carreteras_2026_0408
   type: government
   chicago: Organismo Supervisor de la Inversión en Infraestructura de Transporte (OSITRAN). “Principales inversiones en carreteras proyectan más de USD 400 millones en el 2026.” April 8, 2026. https://www.gob.pe/institucion/ositran/noticias/1375740-principales-inversiones-en-carreteras-proyectan-mas-de-usd-400-millones-en-el-2026.
@@ -11263,12 +11271,13 @@
   type: company
   chicago: Neoenergia. “Neoenergia renova mais três concessões e anuncia investimentos de R$ 50 bilhões em distribuição no país.” May 8, 2026. https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia.
   url: https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia
-  annotation: 'Neoenergia Coelba coastal: >R$7bn. Supports neoenergia_coelba_litoral_7bn_brl_2026.'
+  annotation: Neoenergia R$50bn CapEx-fill ~USD 9629.92m via Fed H.10. Supports neoenergia_dist_50bn_brl_2026_2030.
   supports:
   - neoenergia_dist_50bn_brl_2026_2030
   - hunt_cycle201
   - neoenergia_ilhabela_200m_brl_2026
   - neoenergia_coelba_litoral_7bn_brl_2026
+  - hunt_cycle231
 - id: neoenergia_brasilia_3p1bn_20260806
   type: company
   chicago: Neoenergia. “Neoenergia anuncia plano recorde de R$ 3,1 bilhões para fortalecer a infraestrutura elétrica do DF.” August 6, 2026. https://www.neoenergia.com/w/plano-recorde-de-3bi-para-fortalecer-infraestrutura-df.
