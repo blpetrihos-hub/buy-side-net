@@ -1,0 +1,10 @@
+{
+  "id": "spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1576_1900_SAQMMA12D0194_1900/",
+  "price_year": "2015",
+  "evidence": "documented",
+  "quote": "ELECTRICAL WORK RIO DE JANEIRO, BRAZIL IGF::CL::IGF",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 361791.07; date_signed 2015-05-29."
+}

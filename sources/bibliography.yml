@@ -32010,3 +32010,138 @@
   supports:
   - misc_honduras_new_property_acs_supply_install_7k_2017
   - hunt_cycle1158
+- id: usaspending_cummins_haiti_embassy_generator_purchase_install_129k_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19HA7019P0498_1900_-NONE-_-NONE- (cummins_haiti_embassy_generator_purchase_install_129k_2019). Signed 2019-09-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7019P0498_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19HA7019P0498_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cummins_haiti_embassy_generator_purchase_install_129k_2019 USD 0.129m. Supports cummins_haiti_embassy_generator_purchase_install_129k_2019.'
+  supports:
+  - cummins_haiti_embassy_generator_purchase_install_129k_2019
+  - hunt_cycle1159
+- id: usaspending_norshield_panama_metal_door_screen_84k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23P0041_1900_-NONE-_-NONE- (norshield_panama_metal_door_screen_84k_2022). Signed 2022-11-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23P0041_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23P0041_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: norshield_panama_metal_door_screen_84k_2022 USD 0.084m. Supports norshield_panama_metal_door_screen_84k_2022.'
+  supports:
+  - norshield_panama_metal_door_screen_84k_2022
+  - hunt_cycle1159
+- id: usaspending_misc_costa_rica_fire_control_equipment_install_15k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19CS8018P0662_1900_-NONE-_-NONE- (misc_costa_rica_fire_control_equipment_install_15k_2018). Signed 2018-09-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8018P0662_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19CS8018P0662_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_costa_rica_fire_control_equipment_install_15k_2018 USD 0.015m. Supports misc_costa_rica_fire_control_equipment_install_15k_2018.'
+  supports:
+  - misc_costa_rica_fire_control_equipment_install_15k_2018
+  - hunt_cycle1159
+- id: usaspending_misc_el_salvador_two_75kva_transformers_supply_install_15k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6022P0062_1900_-NONE-_-NONE- (misc_el_salvador_two_75kva_transformers_supply_install_15k_2021). Signed 2021-11-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6022P0062_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6022P0062_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_el_salvador_two_75kva_transformers_supply_install_15k_2021 USD 0.015m. Supports misc_el_salvador_two_75kva_transformers_supply_install_15k_2021.'
+  supports:
+  - misc_el_salvador_two_75kva_transformers_supply_install_15k_2021
+  - hunt_cycle1159
+- id: usaspending_misc_ecuador_armored_doors_15k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7522P0809_1900_-NONE-_-NONE- (misc_ecuador_armored_doors_15k_2022). Signed 2022-07-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522P0809_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7522P0809_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_ecuador_armored_doors_15k_2022 USD 0.015m. Supports misc_ecuador_armored_doors_15k_2022.'
+  supports:
+  - misc_ecuador_armored_doors_15k_2022
+  - hunt_cycle1159
+- id: usaspending_cummins_ecuador_residential_generators_136k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC30010M0721_1900_-NONE-_-NONE- (cummins_ecuador_residential_generators_136k_2010). Signed 2010-08-12. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC30010M0721_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC30010M0721_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cummins_ecuador_residential_generators_136k_2010 USD 0.136m. Supports cummins_ecuador_residential_generators_136k_2010.'
+  supports:
+  - cummins_ecuador_residential_generators_136k_2010
+  - hunt_cycle1160
+- id: usaspending_hy_security_el_salvador_compound_sliding_gate_hydraulic_drivers_101k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19ES6022P0159_1900_-NONE-_-NONE- (hy_security_el_salvador_compound_sliding_gate_hydraulic_drivers_101k_2022). Signed 2022-01-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6022P0159_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19ES6022P0159_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: hy_security_el_salvador_compound_sliding_gate_hydraulic_drivers_101k_2022 USD 0.101m. Supports hy_security_el_salvador_compound_sliding_gate_hydraulic_drivers_101k_2022.'
+  supports:
+  - hy_security_el_salvador_compound_sliding_gate_hydraulic_drivers_101k_2022
+  - hunt_cycle1160
+- id: usaspending_misc_peru_cmr_soundproof_windows_15k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50015M2538_1900_-NONE-_-NONE- (misc_peru_cmr_soundproof_windows_15k_2015). Signed 2015-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50015M2538_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50015M2538_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_cmr_soundproof_windows_15k_2015 USD 0.015m. Supports misc_peru_cmr_soundproof_windows_15k_2015.'
+  supports:
+  - misc_peru_cmr_soundproof_windows_15k_2015
+  - hunt_cycle1160
+- id: usaspending_misc_peru_dcr_pool_bathrooms_upgrade_15k_2014
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SPE50014C0019_1900_-NONE-_-NONE- (misc_peru_dcr_pool_bathrooms_upgrade_15k_2014). Signed 2014-09-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0019_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE50014C0019_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_dcr_pool_bathrooms_upgrade_15k_2014 USD 0.015m. Supports misc_peru_dcr_pool_bathrooms_upgrade_15k_2014.'
+  supports:
+  - misc_peru_dcr_pool_bathrooms_upgrade_15k_2014
+  - hunt_cycle1160
+- id: usaspending_misc_brazil_cmr_external_lighting_electric_cables_15k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBR25015M1784_1900_-NONE-_-NONE- (misc_brazil_cmr_external_lighting_electric_cables_15k_2015). Signed 2015-09-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25015M1784_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBR25015M1784_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_brazil_cmr_external_lighting_electric_cables_15k_2015 USD 0.015m. Supports misc_brazil_cmr_external_lighting_electric_cables_15k_2015.'
+  supports:
+  - misc_brazil_cmr_external_lighting_electric_cables_15k_2015
+  - hunt_cycle1160
+- id: usaspending_ross_technology_dominican_republic_consular_frame_doors_138k_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19DR8620P1226_1900_-NONE-_-NONE- (ross_technology_dominican_republic_consular_frame_doors_138k_2020). Signed 2020-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8620P1226_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19DR8620P1226_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ross_technology_dominican_republic_consular_frame_doors_138k_2020 USD 0.138m. Supports ross_technology_dominican_republic_consular_frame_doors_138k_2020.'
+  supports:
+  - ross_technology_dominican_republic_consular_frame_doors_138k_2020
+  - hunt_cycle1161
+- id: usaspending_spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA15F1576_1900_SAQMMA12D0194_1900 (spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015). Signed 2015-05-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1576_1900_SAQMMA12D0194_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA15F1576_1900_SAQMMA12D0194_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015 USD 0.362m. Supports spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015.'
+  supports:
+  - spectrum_electrical_brazil_rio_de_janeiro_electrical_work_362k_2015
+  - hunt_cycle1161
+- id: usaspending_misc_peru_callao_forensic_lab_glass_doors_15k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19PE5019P0121_1900_-NONE-_-NONE- (misc_peru_callao_forensic_lab_glass_doors_15k_2018). Signed 2018-11-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019P0121_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PE5019P0121_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_peru_callao_forensic_lab_glass_doors_15k_2018 USD 0.015m. Supports misc_peru_callao_forensic_lab_glass_doors_15k_2018.'
+  supports:
+  - misc_peru_callao_forensic_lab_glass_doors_15k_2018
+  - hunt_cycle1161
+- id: usaspending_misc_bolivia_heat_pump_15k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBL40012M0461_1900_-NONE-_-NONE- (misc_bolivia_heat_pump_15k_2012). Signed 2012-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40012M0461_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBL40012M0461_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_bolivia_heat_pump_15k_2012 USD 0.015m. Supports misc_bolivia_heat_pump_15k_2012.'
+  supports:
+  - misc_bolivia_heat_pump_15k_2012
+  - hunt_cycle1161
+- id: usaspending_misc_mexico_ipc_ups_contingency_15k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19MX5318P0102_1900_-NONE-_-NONE- (misc_mexico_ipc_ups_contingency_15k_2017). Signed 2017-11-07. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5318P0102_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19MX5318P0102_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_mexico_ipc_ups_contingency_15k_2017 USD 0.015m. Supports misc_mexico_ipc_ups_contingency_15k_2017.'
+  supports:
+  - misc_mexico_ipc_ups_contingency_15k_2017
+  - hunt_cycle1161
