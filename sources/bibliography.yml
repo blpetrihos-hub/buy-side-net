@@ -22431,7 +22431,7 @@
     October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.
   url: https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf
   accessed: '2026-10-05'
-  annotation: Haiti PIP FY2025–26. Supports haiti_pip_urbaine_gonaives_41m_htg_fy2526.
+  annotation: 'Haiti PIP FY2025–26: PAP metro streets 100,000,000 HTG. Supports haiti_pip_rues_pap_metro_100m_htg_fy2526.'
   supports:
   - haiti_pip_maillage_routier_9625m_htg_fy2526
   - hunt_cycle898
@@ -22486,6 +22486,9 @@
   - haiti_pip_urbaine_hinche_50m_htg_fy2526
   - haiti_pip_urbaine_jacmel_30m_htg_fy2526
   - haiti_pip_urbaine_gonaives_41m_htg_fy2526
+  - haiti_pip_rehab_urbaine_national_262m_htg_fy2526
+  - hunt_cycle909
+  - haiti_pip_rues_pap_metro_100m_htg_fy2526
 - id: usaspending_gdg_cap_haitien_drw_20100831
   type: government
   chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-
@@ -22616,3 +22619,33 @@
   supports:
   - cbgg_cap_haitien_port_prefab_2p2m_2021
   - hunt_cycle907
+- id: usaspending_aecom_haiti_ae_20180222
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_72052118F00004_7200_AIDOAAI1500045_7200
+    (AECOM Technical Services, Inc.; USAID Haiti multi-sector A&E). Signed 22 February 2018. https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052118F00004_7200_AIDOAAI1500045_7200/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052118F00004_7200_AIDOAAI1500045_7200/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: AECOM Haiti A&E USD 6.550m. Supports aecom_haiti_ae_portfolio_6p55m_2018.'
+  supports:
+  - aecom_haiti_ae_portfolio_6p55m_2018
+  - hunt_cycle909
+- id: usaspending_phs_chdc_settlement_20111208
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521C1200002_7200_-NONE-_-NONE-
+    (PHS Group Inc.; CHDC permanent settlement design/CM). Signed 8 December 2011. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1200002_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521C1200002_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: PHS CHDC settlement CM USD 6.285m. Supports phs_chdc_settlement_cm_6p28m_2011.'
+  supports:
+  - phs_chdc_settlement_cm_6p28m_2011
+  - hunt_cycle909
+- id: usaspending_uep_chp_electrical_20230830
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_72052123C00003_7200_-NONE-_-NONE-
+    (UnitedEngineParts Inc.; Cap-Haïtien Port electrical renewal). Signed 30 August 2023. https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052123C00003_7200_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_72052123C00003_7200_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: UEP CHP electrical USD 4.674m. Supports uep_chp_electrical_renewal_4p67m_2023.'
+  supports:
+  - uep_chp_electrical_renewal_4p67m_2023
+  - hunt_cycle909
