@@ -1,0 +1,10 @@
+{
+  "id": "cfe_nec_mexico_city_electrical_5p33m_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_cfe_nec_mexico_city_electrical_5p33m_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5021C0002_1900_-NONE-_-NONE-/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "DB ELECTRICAL CONNECTION NEC MEXICO CITY MEXICO",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 5326053.88; date_signed 2020-12-16."
+}

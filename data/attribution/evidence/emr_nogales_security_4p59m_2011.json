@@ -1,0 +1,10 @@
+{
+  "id": "emr_nogales_security_4p59m_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_emr_nogales_security_4p59m_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F4553_1900_SAQMMA08D0010_1900/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "DESIGN/BUILD SERVICES FOR PHYSICAL SECURITY UPGRADES AT THE U.S CONSULATE IN NOGALES, MEXICO.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 4594072.25; date_signed 2011-09-27."
+}
