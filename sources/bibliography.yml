@@ -17986,7 +17986,7 @@
   type: company
   chicago: TAESA — Transmissora Aliança de Energia Elétrica S.A. “Auxiliar Release Site 2T26 — Capex Projetos.” Retrieved October 5, 2026. https://ri.taesa.com.br/wp-content/uploads/2018/11/Auxiliar-Release_TAESA_Site_2T26.xlsx.
   url: https://ri.taesa.com.br/wp-content/uploads/2018/11/Auxiliar-Release_TAESA_Site_2T26.xlsx
-  annotation: TAESA Total 6M26 CapEx via Fed H.10. Supports taesa_projetos_6m26_capex_445m_brl.
+  annotation: TAESA Total LIFETIME CapEx via Fed H.10. Supports taesa_projetos_lifetime_capex_9373m_brl.
   supports:
   - taesa_ananai_fy2025_651m_brl
   - hunt_cycle562
@@ -18091,3 +18091,24 @@
   - taesa_ate_6m26_72m_brl
   - taesa_ate_iii_6m26_11m_brl
   - taesa_projetos_6m26_capex_445m_brl
+  - taesa_mariana_lifetime_176m_brl
+  - hunt_cycle573
+  - taesa_miracema_lifetime_268m_brl
+  - taesa_janauba_lifetime_974m_brl
+  - taesa_aimores_lifetime_208m_brl
+  - taesa_paraguacu_lifetime_363m_brl
+  - taesa_ivai_lifetime_1174m_brl
+  - taesa_este_lifetime_303m_brl
+  - taesa_edte_lifetime_191m_brl
+  - taesa_santana_lifetime_694m_brl
+  - taesa_ananai_lifetime_1868m_brl
+  - taesa_pitiguari_lifetime_235m_brl
+  - taesa_tangara_lifetime_1018m_brl
+  - taesa_saira_lifetime_1243m_brl
+  - taesa_jurua_lifetime_13m_brl
+  - taesa_novatrans_lifetime_236m_brl
+  - taesa_tsn_lifetime_107m_brl
+  - taesa_sao_pedro_lifetime_94m_brl
+  - taesa_ate_lifetime_145m_brl
+  - taesa_ate_iii_lifetime_54m_brl
+  - taesa_projetos_lifetime_capex_9373m_brl
