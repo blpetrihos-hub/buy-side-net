@@ -12545,7 +12545,7 @@
   type: company
   chicago: Equatorial S.A. “Release de Resultados 2T26.” August 12, 2026. https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/62b21cba-838c-49a4-aaef-e0fb2350c169/b1f651f0-9cd8-d2e0-87f0-498cd4b24f8b?origin=2
-  annotation: Equatorial 2T26 Obrigações especiais R$460m via Fed H.10. Supports equatorial_obrigacoes_especiais_2t26_460m_brl.
+  annotation: Equatorial MA 2T26 Total R$330m via Fed H.10. Supports equatorial_ma_2t26_330m_brl.
   supports:
   - equatorial_2t26_capex_2p6bn_brl
   - hunt_cycle254
@@ -12564,6 +12564,10 @@
   - equatorial_ativos_eletricos_2t26_1933m_brl
   - hunt_cycle288
   - equatorial_obrigacoes_especiais_2t26_460m_brl
+  - equatorial_pa_2t26_716m_brl
+  - hunt_cycle289
+  - equatorial_go_2t26_675m_brl
+  - equatorial_ma_2t26_330m_brl
 - id: cpfl_2t26_results_20260813
   type: company
   chicago: CPFL Energia. “CPFL Energia registra lucro de R$ 1,4 bilhão no 2T26, alta de 21,3%.” August 2026. https://www.grupocpfl.com.br/noticia/cpfl-energia-registra-lucro-de-r-14-bilhao-no-2t26-alta-de-213.
@@ -12648,7 +12652,7 @@
   type: company
   chicago: Neoenergia S.A. “Earnings Release 2Q26 / 6M26” (company MZ IQ PDF). https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2
-  annotation: Neoenergia Networks 6M26 CapEx R$3,913m via Fed H.10. Supports neoenergia_networks_6m26_3913m_brl.
+  annotation: Neoenergia 6M26 Melhoria da Rede R$276m via Fed H.10. Supports neoenergia_melhoria_rede_6m26_276m_brl.
   supports:
   - neoenergia_6m26_capex_4bn_brl
   - hunt_cycle257
@@ -12676,6 +12680,11 @@
   - neoenergia_gen_customers_2q26_29m_brl
   - neoenergia_networks_6m26_3913m_brl
   - hunt_cycle279
+  - neoenergia_novas_ligacoes_6m26_1278m_brl
+  - hunt_cycle289
+  - neoenergia_novas_ses_rds_6m26_831m_brl
+  - neoenergia_renovacao_ativos_6m26_674m_brl
+  - neoenergia_melhoria_rede_6m26_276m_brl
 - id: engie_brasil_2t26_pr_20260805
   type: company
   chicago: ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.
@@ -13334,3 +13343,15 @@
   - cpfl_cidade_industrial_162m_brl_2025
   - hunt_cycle288
   - cpfl_live_line_trucks_52m_brl_2025
+- id: isa_energia_2t26_earnings_release
+  type: company
+  chicago: ISA Energia Brasil. “Earnings Release 2T26.” 2026. https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf.
+  url: https://ri.isaenergiabrasil.com.br/pt/documentos/6758-Earnings-Release-2T26-vfinal.pdf
+  annotation: ISA Itatiaia 2T26 spend R$52.2m via Fed H.10. Supports isa_energia_itatiaia_2t26_52p2m_brl.
+  supports:
+  - isa_energia_1s26_capex_2275p9m_brl
+  - hunt_cycle289
+  - isa_energia_1s26_licitados_1460p4m_brl
+  - isa_energia_serra_dourada_2t26_455p7m_brl
+  - isa_energia_piraque_2t26_84p4m_brl
+  - isa_energia_itatiaia_2t26_52p2m_brl
