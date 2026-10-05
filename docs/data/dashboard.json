@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 2091,
+    "n_rows": 2100,
     "counts": {
-      "total": 2091,
-      "active": 1892,
+      "total": 2100,
+      "active": 1901,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 1818,
-      "on_map": 1724
+      "documented": 1827,
+      "on_map": 1733
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 350,
-        "n": 659
+        "allied": 354,
+        "n": 663
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 76021129395.60999,
-        "allied_n": 276
+        "allied": 76086900085.70999,
+        "allied_n": 280
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 92,
         "prc": 70,
-        "allied": 196,
-        "n": 358
+        "allied": 201,
+        "n": 363
       },
       "usd": {
         "us": 46048237410.93,
         "us_n": 48,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 116409648501.00002,
-        "allied_n": 127
+        "allied": 118205646266.82002,
+        "allied_n": 132
       },
       "matched_gaps": {
         "n": 3,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 659,
-        "n": 914
+        "allied": 668,
+        "n": 923
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 192419615351.44986,
-        "allied_n": 578
+        "allied": 194281383807.3699,
+        "allied_n": 587
       },
       "by_layer": {
         "energy": {
@@ -384,12 +384,12 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 227
+          "allied": 231
         },
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 94
+          "allied": 99
         }
       }
     },
@@ -3080,7 +3080,16 @@
       "motiva_vlt_carioca_exmaint_fy2025_39m_brl",
       "motiva_metro_bahia_exmaint_fy2025_89m_brl",
       "motiva_viamobilidade_exmaint_fy2025_95m_brl",
-      "motiva_viamobilidade_l89_exmaint_fy2025_830m_brl"
+      "motiva_viamobilidade_l89_exmaint_fy2025_830m_brl",
+      "motiva_outros_fy2025_116m_brl",
+      "motiva_sa_fy2025_78m_brl",
+      "motiva_outros_exmaint_fy2025_69m_brl",
+      "motiva_sa_exmaint_fy2025_78m_brl",
+      "aegea_societario_capex_2t26_1480m_brl",
+      "aegea_societario_capex_6m26_2744m_brl",
+      "aegea_societario_investimentos_2t26_1554m_brl",
+      "aegea_societario_investimentos_6m26_3145m_brl",
+      "aegea_outorgas_6m26_402m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
