@@ -1,0 +1,10 @@
+{
+  "id": "faac_mexico_hidalgo_firearm_simulator_154k_2016",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_faac_mexico_hidalgo_firearm_simulator_154k_2016",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0020_1900_SWHARC16D0002_1900/",
+  "price_year": "2016",
+  "evidence": "documented",
+  "quote": "INL MEXICO - FIXED FIREARM TRAINING SIMULATOR FOR THE HIDALGO STATE POLICE ACADEMY. INCLUDES INSTALLATION AND 3-YEAR IN-COUNTRY WARRANTY.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 154051.90; date_signed 2016-06-24."
+}
