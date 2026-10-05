@@ -1,0 +1,10 @@
+{
+  "id": "siegel_jamaica_roof_ae_79k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_siegel_jamaica_roof_ae_79k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F0433_1900_19AQMM19D0046_1900/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "KINGSTON, JAMAICA A&E CHANCERY COMPOUND ROOF SAFETY HANDRAIL ASSESSMENT&DESIGN SERVICES.",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 79346.5; date_signed 2020-01-08."
+}
