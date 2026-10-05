@@ -75444,5 +75444,455 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_viken_costarica_mobile_scanners_3088k_2025",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE25C0033_1900_-NONE-_-NONE- (viken_costarica_mobile_scanners_3088k_2025). Signed 2025-08-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE25C0033_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE25C0033_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: viken_costarica_mobile_scanners_3088k_2025 USD 3.088m. Supports viken_costarica_mobile_scanners_3088k_2025.",
+    "supports": [
+      "viken_costarica_mobile_scanners_3088k_2025",
+      "hunt_cycle1319"
+    ],
+    "map_supports": [
+      "viken_costarica_mobile_scanners_3088k_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_alutiiq_ecuador_it_equipment_install_566k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24F0018_1900_19AQMM20D0010_1900 (alutiiq_ecuador_it_equipment_install_566k_2024). Signed 2024-04-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0018_1900_19AQMM20D0010_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24F0018_1900_19AQMM20D0010_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: alutiiq_ecuador_it_equipment_install_566k_2024 USD 0.566m. Supports alutiiq_ecuador_it_equipment_install_566k_2024.",
+    "supports": [
+      "alutiiq_ecuador_it_equipment_install_566k_2024",
+      "hunt_cycle1319"
+    ],
+    "map_supports": [
+      "alutiiq_ecuador_it_equipment_install_566k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_ueph_housing_18977k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819C0019_9700_-NONE-_-NONE- (eterna_honduras_ueph_housing_18977k_2019). Signed 2019-06-13. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819C0019_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819C0019_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_ueph_housing_18977k_2019 USD 18.977m. Supports eterna_honduras_ueph_housing_18977k_2019.",
+    "supports": [
+      "eterna_honduras_ueph_housing_18977k_2019",
+      "hunt_cycle1319"
+    ],
+    "map_supports": [
+      "eterna_honduras_ueph_housing_18977k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_palgag_haiti_les_cayes_community_clusters_3089k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0028_9700_-NONE-_-NONE- (palgag_haiti_les_cayes_community_clusters_3089k_2010). Signed 2010-12-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0028_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0028_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: palgag_haiti_les_cayes_community_clusters_3089k_2010 USD 3.089m. Supports palgag_haiti_les_cayes_community_clusters_3089k_2010.",
+    "supports": [
+      "palgag_haiti_les_cayes_community_clusters_3089k_2010",
+      "hunt_cycle1319"
+    ],
+    "map_supports": [
+      "palgag_haiti_les_cayes_community_clusters_3089k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_panama_pier_repair_2796k_2015",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127815C0024_9700_-NONE-_-NONE- (eterna_panama_pier_repair_2796k_2015). Signed 2015-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127815C0024_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127815C0024_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_panama_pier_repair_2796k_2015 USD 2.796m. Supports eterna_panama_pier_repair_2796k_2015.",
+    "supports": [
+      "eterna_panama_pier_repair_2796k_2015",
+      "hunt_cycle1319"
+    ],
+    "map_supports": [
+      "eterna_panama_pier_repair_2796k_2015"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_dre_mexico_chihuahua_xray_177k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SMX90016M0264_1900_-NONE-_-NONE- (dre_mexico_chihuahua_xray_177k_2016). Signed 2016-07-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX90016M0264_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SMX90016M0264_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: dre_mexico_chihuahua_xray_177k_2016 USD 0.177m. Supports dre_mexico_chihuahua_xray_177k_2016.",
+    "supports": [
+      "dre_mexico_chihuahua_xray_177k_2016",
+      "hunt_cycle1320"
+    ],
+    "map_supports": [
+      "dre_mexico_chihuahua_xray_177k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_fidelitad_colombia_intel_fusion_center_138k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11C0018_9700_-NONE-_-NONE- (fidelitad_colombia_intel_fusion_center_138k_2011). Signed 2011-08-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0018_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0018_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: fidelitad_colombia_intel_fusion_center_138k_2011 USD 0.138m. Supports fidelitad_colombia_intel_fusion_center_138k_2011.",
+    "supports": [
+      "fidelitad_colombia_intel_fusion_center_138k_2011",
+      "hunt_cycle1320"
+    ],
+    "map_supports": [
+      "fidelitad_colombia_intel_fusion_center_138k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_peru_relocate_gate_2749k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823F0018_9700_W9127817D0095_9700 (eterna_peru_relocate_gate_2749k_2022). Signed 2022-12-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0018_9700_W9127817D0095_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0018_9700_W9127817D0095_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_peru_relocate_gate_2749k_2022 USD 2.749m. Supports eterna_peru_relocate_gate_2749k_2022.",
+    "supports": [
+      "eterna_peru_relocate_gate_2749k_2022",
+      "hunt_cycle1320"
+    ],
+    "map_supports": [
+      "eterna_peru_relocate_gate_2749k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_colombia_miraflores_police_station_2679k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127823F0081_9700_W9127817D0095_9700 (eterna_colombia_miraflores_police_station_2679k_2023). Signed 2023-02-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0081_9700_W9127817D0095_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0081_9700_W9127817D0095_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_colombia_miraflores_police_station_2679k_2023 USD 2.679m. Supports eterna_colombia_miraflores_police_station_2679k_2023.",
+    "supports": [
+      "eterna_colombia_miraflores_police_station_2679k_2023",
+      "hunt_cycle1320"
+    ],
+    "map_supports": [
+      "eterna_colombia_miraflores_police_station_2679k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_panama_firehouse_drw_2564k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0403_9700_W9127821D0075_9700 (eterna_panama_firehouse_drw_2564k_2022). Signed 2022-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0403_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0403_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_panama_firehouse_drw_2564k_2022 USD 2.564m. Supports eterna_panama_firehouse_drw_2564k_2022.",
+    "supports": [
+      "eterna_panama_firehouse_drw_2564k_2022",
+      "hunt_cycle1320"
+    ],
+    "map_supports": [
+      "eterna_panama_firehouse_drw_2564k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_wrigglesworth_honduras_drive_in_containment_115k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM17F0005_9700_GS21F0015X_4732 (wrigglesworth_honduras_drive_in_containment_115k_2017). Signed 2017-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM17F0005_9700_GS21F0015X_4732/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM17F0005_9700_GS21F0015X_4732/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: wrigglesworth_honduras_drive_in_containment_115k_2017 USD 0.115m. Supports wrigglesworth_honduras_drive_in_containment_115k_2017.",
+    "supports": [
+      "wrigglesworth_honduras_drive_in_containment_115k_2017",
+      "hunt_cycle1321"
+    ],
+    "map_supports": [
+      "wrigglesworth_honduras_drive_in_containment_115k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_redguard_colombia_mail_screening_109k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5026F0491_1900_19GE5023D0037_1900 (redguard_colombia_mail_screening_109k_2026). Signed 2026-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026F0491_1900_19GE5023D0037_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026F0491_1900_19GE5023D0037_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: redguard_colombia_mail_screening_109k_2026 USD 0.109m. Supports redguard_colombia_mail_screening_109k_2026.",
+    "supports": [
+      "redguard_colombia_mail_screening_109k_2026",
+      "hunt_cycle1321"
+    ],
+    "map_supports": [
+      "redguard_colombia_mail_screening_109k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_maternity_ward_1890k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0477_9700_W9127816D0102_9700 (eterna_honduras_maternity_ward_1890k_2017). Signed 2017-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0477_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0477_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_maternity_ward_1890k_2017 USD 1.890m. Supports eterna_honduras_maternity_ward_1890k_2017.",
+    "supports": [
+      "eterna_honduras_maternity_ward_1890k_2017",
+      "hunt_cycle1321"
+    ],
+    "map_supports": [
+      "eterna_honduras_maternity_ward_1890k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_soto_cano_roads_phase5_1855k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0408_9700_W9127823D0073_9700 (eterna_honduras_soto_cano_roads_phase5_1855k_2024). Signed 2024-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0408_9700_W9127823D0073_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0408_9700_W9127823D0073_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_soto_cano_roads_phase5_1855k_2024 USD 1.855m. Supports eterna_honduras_soto_cano_roads_phase5_1855k_2024.",
+    "supports": [
+      "eterna_honduras_soto_cano_roads_phase5_1855k_2024",
+      "hunt_cycle1321"
+    ],
+    "map_supports": [
+      "eterna_honduras_soto_cano_roads_phase5_1855k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_argentina_eoc_drw_1757k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0528_9700_W9127817D0095_9700 (eterna_argentina_eoc_drw_1757k_2019). Signed 2019-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0528_9700_W9127817D0095_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0528_9700_W9127817D0095_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_argentina_eoc_drw_1757k_2019 USD 1.757m. Supports eterna_argentina_eoc_drw_1757k_2019.",
+    "supports": [
+      "eterna_argentina_eoc_drw_1757k_2019",
+      "hunt_cycle1321"
+    ],
+    "map_supports": [
+      "eterna_argentina_eoc_drw_1757k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_smiths_colombia_xray_unit_107k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO20012M3156_1900_-NONE-_-NONE- (smiths_colombia_xray_unit_107k_2012). Signed 2012-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20012M3156_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO20012M3156_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: smiths_colombia_xray_unit_107k_2012 USD 0.107m. Supports smiths_colombia_xray_unit_107k_2012.",
+    "supports": [
+      "smiths_colombia_xray_unit_107k_2012",
+      "hunt_cycle1322"
+    ],
+    "map_supports": [
+      "smiths_colombia_xray_unit_107k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_american_warehouse_haiti_pallet_rack_100k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_AID521O1300010_7200_-NONE-_-NONE- (american_warehouse_haiti_pallet_rack_100k_2012). Signed 2012-12-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O1300010_7200_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_AID521O1300010_7200_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: american_warehouse_haiti_pallet_rack_100k_2012 USD 0.100m. Supports american_warehouse_haiti_pallet_rack_100k_2012.",
+    "supports": [
+      "american_warehouse_haiti_pallet_rack_100k_2012",
+      "hunt_cycle1322"
+    ],
+    "map_supports": [
+      "american_warehouse_haiti_pallet_rack_100k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_marago_colombia_facatativa_kennels_1640k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F0079_1900_19AQMM21D0036_1900 (marago_colombia_facatativa_kennels_1640k_2022). Signed 2022-04-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0079_1900_19AQMM21D0036_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F0079_1900_19AQMM21D0036_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: marago_colombia_facatativa_kennels_1640k_2022 USD 1.640m. Supports marago_colombia_facatativa_kennels_1640k_2022.",
+    "supports": [
+      "marago_colombia_facatativa_kennels_1640k_2022",
+      "hunt_cycle1322"
+    ],
+    "map_supports": [
+      "marago_colombia_facatativa_kennels_1640k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_marago_colombia_muzu_athenea_intel_lab_1526k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F1153_1900_19AQMM21D0036_1900 (marago_colombia_muzu_athenea_intel_lab_1526k_2023). Signed 2023-06-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1153_1900_19AQMM21D0036_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1153_1900_19AQMM21D0036_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: marago_colombia_muzu_athenea_intel_lab_1526k_2023 USD 1.526m. Supports marago_colombia_muzu_athenea_intel_lab_1526k_2023.",
+    "supports": [
+      "marago_colombia_muzu_athenea_intel_lab_1526k_2023",
+      "hunt_cycle1322"
+    ],
+    "map_supports": [
+      "marago_colombia_muzu_athenea_intel_lab_1526k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_panama_health_center_1409k_2021",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0462_9700_W9127821D0075_9700 (eterna_panama_health_center_1409k_2021). Signed 2021-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0462_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0462_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_panama_health_center_1409k_2021 USD 1.409m. Supports eterna_panama_health_center_1409k_2021.",
+    "supports": [
+      "eterna_panama_health_center_1409k_2021",
+      "hunt_cycle1322"
+    ],
+    "map_supports": [
+      "eterna_panama_health_center_1409k_2021"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_edifice_honduras_febr_windows_install_98k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19F2032_1900_SAQMMA14D0083_1900 (edifice_honduras_febr_windows_install_98k_2019). Signed 2019-06-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F2032_1900_SAQMMA14D0083_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F2032_1900_SAQMMA14D0083_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: edifice_honduras_febr_windows_install_98k_2019 USD 0.098m. Supports edifice_honduras_febr_windows_install_98k_2019.",
+    "supports": [
+      "edifice_honduras_febr_windows_install_98k_2019",
+      "hunt_cycle1323"
+    ],
+    "map_supports": [
+      "edifice_honduras_febr_windows_install_98k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_isobox_panama_mobile_offices_panamax_90k_2026",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912QM26PA018_9700_-NONE-_-NONE- (isobox_panama_mobile_offices_panamax_90k_2026). Signed 2026-06-05. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM26PA018_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912QM26PA018_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: isobox_panama_mobile_offices_panamax_90k_2026 USD 0.090m. Supports isobox_panama_mobile_offices_panamax_90k_2026.",
+    "supports": [
+      "isobox_panama_mobile_offices_panamax_90k_2026",
+      "hunt_cycle1323"
+    ],
+    "map_supports": [
+      "isobox_panama_mobile_offices_panamax_90k_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_estudios_colombia_cnp_rural_station_1322k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19C0093_1900_-NONE-_-NONE- (estudios_colombia_cnp_rural_station_1322k_2019). Signed 2019-07-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0093_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19C0093_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: estudios_colombia_cnp_rural_station_1322k_2019 USD 1.322m. Supports estudios_colombia_cnp_rural_station_1322k_2019.",
+    "supports": [
+      "estudios_colombia_cnp_rural_station_1322k_2019",
+      "hunt_cycle1323"
+    ],
+    "map_supports": [
+      "estudios_colombia_cnp_rural_station_1322k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_estudios_colombia_corozal_modular_lodging_1202k_2023",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM23F1721_1900_19AQMM21D0037_1900 (estudios_colombia_corozal_modular_lodging_1202k_2023). Signed 2023-08-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1721_1900_19AQMM21D0037_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM23F1721_1900_19AQMM21D0037_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: estudios_colombia_corozal_modular_lodging_1202k_2023 USD 1.202m. Supports estudios_colombia_corozal_modular_lodging_1202k_2023.",
+    "supports": [
+      "estudios_colombia_corozal_modular_lodging_1202k_2023",
+      "hunt_cycle1323"
+    ],
+    "map_supports": [
+      "estudios_colombia_corozal_modular_lodging_1202k_2023"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_latrine_november_block_1151k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0321_9700_W9127816D0102_9700 (eterna_honduras_latrine_november_block_1151k_2017). Signed 2017-09-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0321_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0321_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_latrine_november_block_1151k_2017 USD 1.151m. Supports eterna_honduras_latrine_november_block_1151k_2017.",
+    "supports": [
+      "eterna_honduras_latrine_november_block_1151k_2017",
+      "hunt_cycle1323"
+    ],
+    "map_supports": [
+      "eterna_honduras_latrine_november_block_1151k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]

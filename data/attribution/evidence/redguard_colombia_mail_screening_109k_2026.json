@@ -1,0 +1,10 @@
+{
+  "id": "redguard_colombia_mail_screening_109k_2026",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_redguard_colombia_mail_screening_109k_2026",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5026F0491_1900_19GE5023D0037_1900/",
+  "price_year": "2026",
+  "evidence": "documented",
+  "quote": "MAIL SCREENING FACILITY",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 109278.0; date_signed 2026-09-15."
+}
