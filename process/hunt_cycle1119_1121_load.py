@@ -165,7 +165,7 @@ row_doc(
     "25062.92", "2019-08-19", "2019", "", "",
     '19PM0719P0884 ANNEX BUILDING GENERATOR FUEL TANK REPLACEMENT / 7901',
     "usaspending_tidewater_panama_annex_generator_fuel_tank_25k_2019",
-    '19PM0719P0884 ANNEX BUILDING GENERATOR FUEL TANK REPLACEMENT / 7901C',
+    '19PM0719P0884 ANNEX BUILDING GENERATOR FUEL TANK REPLACEMENT / 7901',
     "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0719P0884_1900_-NONE-_-NONE-/",
     'Actor: Tidewater, Inc. (U.S.) — us. Official USASpending Award API. Shuffle water; ≥1/3 U.S. hunt CapEx.',
     "hunt_cycle1120",
