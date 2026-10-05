@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1467,
+    "n_rows": 1470,
     "counts": {
-      "total": 1467,
-      "active": 1268,
+      "total": 1470,
+      "active": 1271,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1209,
-      "on_map": 1138
+      "documented": 1211,
+      "on_map": 1141
     }
   },
   "layer_readouts": [
@@ -111,8 +111,8 @@
         "n": 460
       },
       "usd": {
-        "us": 32963485939.530003,
-        "us_n": 96,
+        "us": 33002005998.850002,
+        "us_n": 97,
         "prc": 17053401133.600002,
         "prc_n": 38,
         "allied": 43854111907.56002,
@@ -154,17 +154,17 @@
       "layer": "energy",
       "counts": {
         "us": 153,
-        "prc": 176,
-        "allied": 164,
-        "n": 493
+        "prc": 177,
+        "allied": 166,
+        "n": 496
       },
       "usd": {
         "us": 23173858581.43,
         "us_n": 49,
         "prc": 24077822293.819996,
         "prc_n": 45,
-        "allied": 52351089594.759995,
-        "allied_n": 97
+        "allied": 53333351107.439995,
+        "allied_n": 99
       },
       "matched_gaps": {
         "n": 1,
@@ -363,23 +363,23 @@
       "country": "Brazil",
       "counts": {
         "us": 98,
-        "prc": 91,
-        "allied": 172,
-        "n": 361
+        "prc": 92,
+        "allied": 174,
+        "n": 364
       },
       "usd": {
-        "us": 14579556029.099998,
-        "us_n": 36,
+        "us": 14618076088.419998,
+        "us_n": 37,
         "prc": 22819803264.030003,
         "prc_n": 34,
-        "allied": 72870971488.79004,
-        "allied_n": 94
+        "allied": 73853233001.47005,
+        "allied_n": 96
       },
       "by_layer": {
         "energy": {
           "us": 17,
-          "prc": 57,
-          "allied": 64
+          "prc": 58,
+          "allied": 66
         },
         "infrastructure": {
           "us": 55,
@@ -2456,7 +2456,10 @@
       "aes_andes_chile_capex_1p9bn_2024_2027",
       "envision_brazil_saf_1bn_2025",
       "neoenergia_oeste_baiano_2bn_brl_2026",
-      "gen_metro_dune_plus_629m_2025"
+      "gen_metro_dune_plus_629m_2025",
+      "byd_manaus_bus_battery_50m_brl_2026",
+      "edp_es_dist_5bn_brl_2025_2030",
+      "neoenergia_cosern_estivas_100m_brl_2026"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -8592,24 +8592,6 @@
     ]
   },
   {
-    "id": "progress_rail_vli_20260210",
-    "type": "company",
-    "chicago": "Progress Rail. “VLI and Progress Rail Celebrate Delivery of New EMD Locomotives to Strengthen Operations on the Centro-Atlântica Railway.” Press release, 10 February 2026.",
-    "url": "https://www.progressrail.com/en/company/news/press-releases/2026-vli-and-progress-rail-celebrate",
-    "annotation": "Progress Rail/Caterpillar eight SD70ACe-BB + 10-year MSA for VLI. Supports progress_rail_vli_sd70_2026.",
-    "supports": [
-      "progress_rail_vli_sd70_2026",
-      "hunt_latam_rail_telecom"
-    ],
-    "map_supports": [
-      "hunt_latam_rail_telecom",
-      "progress_rail_vli_sd70_2026"
-    ],
-    "layers": [
-      "infrastructure"
-    ]
-  },
-  {
     "id": "wabtec_vale_50_locos_2026",
     "type": "company",
     "chicago": "Wabtec Corporation. “Vale and Wabtec Finalize Locomotive Purchase Agreement.” Press release, 2026.",
@@ -21899,6 +21881,74 @@
     ],
     "map_supports": [
       "gen_metro_dune_plus_629m_2025"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "vli_progress_rail_sd70_200m_20260210",
+    "type": "company",
+    "chicago": "VLI Logística. “VLI e Progress Rail celebram recebimento de locomotivas para operação na Ferrovia Centro-Atlântica.” February 10, 2026. https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/.",
+    "url": "https://www.vli-logistica.com.br/vli-e-progress-rail-celebram-recebimento-de-locomotivas-para-operacao-na-ferrovia-centro-atlantica/",
+    "annotation": "Progress Rail VLI SD70 CapEx-fill ~R$200m ~USD 38.52m via Fed H.10. Supports progress_rail_vli_sd70_2026.",
+    "supports": [
+      "progress_rail_vli_sd70_2026",
+      "hunt_cycle244"
+    ],
+    "map_supports": [
+      "progress_rail_vli_sd70_2026"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "folha_byd_manaus_battery_50m_20260616",
+    "type": "press",
+    "chicago": "Magalhães, Luciana. “BYD acelera investimento em produção de baterias no Brasil.” Folha de S.Paulo, June 16, 2026. https://www1.folha.uol.com.br/mercado/2026/06/byd-acelera-investimento-em-producao-de-baterias-no-brasil.shtml.",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/06/byd-acelera-investimento-em-producao-de-baterias-no-brasil.shtml",
+    "annotation": "BYD Manaus bus-battery NEW R$50m floor ~USD 9.63m via Fed H.10 (press). Supports byd_manaus_bus_battery_50m_brl_2026.",
+    "supports": [
+      "byd_manaus_bus_battery_50m_brl_2026",
+      "hunt_cycle244"
+    ],
+    "map_supports": [
+      "byd_manaus_bus_battery_50m_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "edp_es_dist_5bn_renewal_20250716",
+    "type": "company",
+    "chicago": "EDP Brasil. “EDP assina renovação da concessão de Distribuição e amplia em 40% os investimentos no Espírito Santo.” July 16, 2025. https://www.edp.com.br/noticias/artigo/edp-assina-renovacao-da-concessao-de-distribuicao-e-amplia-em-40-os-investimentos-no-espirito-santo/.",
+    "url": "https://www.edp.com.br/noticias/artigo/edp-assina-renovacao-da-concessao-de-distribuicao-e-amplia-em-40-os-investimentos-no-espirito-santo/",
+    "annotation": "EDP ES dist NEW ~R$5bn ~USD 962.99m via Fed H.10. Supports edp_es_dist_5bn_brl_2025_2030.",
+    "supports": [
+      "edp_es_dist_5bn_brl_2025_2030",
+      "hunt_cycle244"
+    ],
+    "map_supports": [
+      "edp_es_dist_5bn_brl_2025_2030"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_cosern_estivas_100m_20260508",
+    "type": "company",
+    "chicago": "Neoenergia. “Neoenergia renova mais três concessões e anuncia investimentos de R$ 50 bilhões em distribuição no país.” May 8, 2026. https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia.",
+    "url": "https://www.neoenergia.com/w/renovacao-concessao-coelba-cosern-elektro-50-bilhoes-distribuicao-energia",
+    "annotation": "Neoenergia Cosern Estivas NEW >R$100m floor ~USD 19.26m via Fed H.10. Supports neoenergia_cosern_estivas_100m_brl_2026.",
+    "supports": [
+      "neoenergia_cosern_estivas_100m_brl_2026",
+      "hunt_cycle244"
+    ],
+    "map_supports": [
+      "neoenergia_cosern_estivas_100m_brl_2026"
     ],
     "layers": [
       "energy"
