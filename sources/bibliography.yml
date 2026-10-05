@@ -18673,7 +18673,7 @@
   type: company
   chicago: AXIA Energia. “Guia de Modelagem 2T26 — Capex de Transmissão (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/abb77a17-3348-4bc7-849a-154998e06ca3/1f1677c5-6079-48f0-493e-b97cb4ecf23f?origin=2
-  annotation: AXIA TX project CapEx via Fed H.10. Supports axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl.
+  annotation: AXIA TX project CapEx via Fed H.10. Supports axia_txproj_reforco_na_se_presidente_dutra_instalacao_do__48m_brl.
   supports:
   - axia_consol_imob_intang_2t26_2212m_brl
   - hunt_cycle632
@@ -19102,6 +19102,12 @@
   - axia_txproj_melhoria_na_se_camacari_ii_substituicao_do_tr_53m_brl
   - axia_txproj_melhoria_na_se_p_afonso_iv_substituicao_do_tr_53m_brl
   - axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl
+  - axia_txproj_reforco_recondutoramento_lt_230_kv_itapebi_eu_51m_brl_v2
+  - hunt_cycle846
+  - axia_txproj_melhoria_na_se_sao_luis_ii_substituicao_dos_a_51m_brl
+  - axia_txproj_reforco_na_se_b_fluminense_instalacao_das_fas_50m_brl
+  - axia_txproj_seccionamento_da_lt_500_kv_luiz_gonzaga_milag_48m_brl
+  - axia_txproj_reforco_na_se_presidente_dutra_instalacao_do__48m_brl
 - id: energisa_base_historica_jun26_xlsx
   type: company
   chicago: Energisa S.A. “Base histórica de dados do Grupo Energisa | jun26 — Investimentos (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/60f49a2d-bd8c-4fd9-95ab-bdf833097a83/f624ea3b-57a8-dcad-5710-de653b0592cc?origin=2.
