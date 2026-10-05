@@ -22431,7 +22431,7 @@
     October 5, 2026. https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf.
   url: https://docs.haitidocs.org/mpce-pip-2025-2026-adopte-cdm.pdf
   accessed: '2026-10-05'
-  annotation: 'Haiti PIP: Haut-du-Cap berges 91.74m HTG. Supports haiti_pip_haut_du_cap_berges_92m_htg_fy2526.'
+  annotation: Haiti PIP FY2025–26. Supports haiti_pip_integration_routiere_locale_527m_htg_fy2526.
   supports:
   - haiti_pip_maillage_routier_9625m_htg_fy2526
   - hunt_cycle898
@@ -22464,6 +22464,18 @@
   - haiti_pip_route_carrefour_joute_100m_htg_fy2526
   - haiti_pip_haut_du_cap_berges_92m_htg_fy2526
   - hunt_cycle904
+  - haiti_pip_lavictoire_urbaine_127m_htg_fy2526
+  - hunt_cycle905
+  - haiti_pip_carrefour44_cotes_de_fer_67m_htg_fy2526
+  - haiti_pip_betonnage_ouanaminthe_100m_htg_fy2526
+  - haiti_pip_gare_ouanaminthe_50m_htg_fy2526
+  - haiti_pip_gonaives_anse_rouge_50m_htg_fy2526
+  - haiti_pip_afd_hinche_straphael_304m_htg_fy2526
+  - hunt_cycle906
+  - haiti_pip_fer_routes_interurbaines_1100m_htg_fy2526
+  - haiti_pip_fer_routes_urbaines_430m_htg_fy2526
+  - haiti_pip_ue_st_raphael_contournement_250m_htg_fy2526
+  - haiti_pip_integration_routiere_locale_527m_htg_fy2526
 - id: usaspending_gdg_cap_haitien_drw_20100831
   type: government
   chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945010C0036_9700_-NONE-_-NONE-
