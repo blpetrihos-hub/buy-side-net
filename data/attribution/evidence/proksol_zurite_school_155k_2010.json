@@ -1,0 +1,10 @@
+{
+  "id": "proksol_zurite_school_155k_2010",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_proksol_zurite_school_155k_2010",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127809D0078_9700/",
+  "price_year": "2010",
+  "evidence": "documented",
+  "quote": "D/B ZURITE SCHOOL, CUSCO, PERU",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 154728.64; date_signed 2010-09-30."
+}

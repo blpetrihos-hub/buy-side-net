@@ -27340,3 +27340,153 @@
   supports:
   - mckinney_gamboa_ae_161k_2016
   - hunt_cycle1004
+- id: usaspending_beachfront_bahamas_facilities_179k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL18P0803_9700_-NONE-_-NONE-
+    (Beachfront Bahamas facilities). Signed 2018-05-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL18P0803_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL18P0803_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Beachfront Bahamas facilities USD 0.179m. Supports beachfront_bahamas_facilities_179k_2018.'
+  supports:
+  - beachfront_bahamas_facilities_179k_2018
+  - hunt_cycle1005
+- id: usaspending_misc_argentina_obc_domes_164k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAR20017M0838_1900_-NONE-_-NONE-
+    (Argentina OBC domes). Signed 2017-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20017M0838_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAR20017M0838_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Argentina OBC domes USD 0.164m. Supports misc_argentina_obc_domes_164k_2017.'
+  supports:
+  - misc_argentina_obc_domes_164k_2017
+  - hunt_cycle1005
+- id: usaspending_seobra_macarena_water_162k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127813D0009_9700
+    (SEOBRA Macarena water). Signed 2013-08-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127813D0009_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127813D0009_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: SEOBRA Macarena water USD 0.162m. Supports seobra_macarena_water_162k_2013.'
+  supports:
+  - seobra_macarena_water_162k_2013
+  - hunt_cycle1005
+- id: usaspending_eterna_covered_storage_160k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0452_9700_W9127816D0102_9700
+    (Eterna covered storage). Signed 2017-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0452_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0452_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna covered storage USD 0.160m. Supports eterna_covered_storage_160k_2017.'
+  supports:
+  - eterna_covered_storage_160k_2017
+  - hunt_cycle1005
+- id: usaspending_proksol_von_humboldt_clinic_160k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0002_9700_W9127809D0078_9700
+    (Proksol Von Humboldt clinic). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127809D0078_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0002_9700_W9127809D0078_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proksol Von Humboldt clinic USD 0.160m. Supports proksol_von_humboldt_clinic_160k_2010.'
+  supports:
+  - proksol_von_humboldt_clinic_160k_2010
+  - hunt_cycle1005
+- id: usaspending_misc_santa_marta_rapel_159k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15012CN011_1900_-NONE-_-NONE-
+    (Santa Marta rapel tower). Signed 2012-07-11. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15012CN011_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15012CN011_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Santa Marta rapel tower USD 0.159m. Supports misc_santa_marta_rapel_159k_2012.'
+  supports:
+  - misc_santa_marta_rapel_159k_2012
+  - hunt_cycle1006
+- id: usaspending_dice_bci_handrail_157k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_33330221CF0010409_3300_-NONE-_-NONE-
+    (DICE BCI handrail). Signed 2021-08-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330221CF0010409_3300_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_33330221CF0010409_3300_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: DICE BCI handrail USD 0.157m. Supports dice_bci_handrail_157k_2021.'
+  supports:
+  - dice_bci_handrail_157k_2021
+  - hunt_cycle1006
+- id: usaspending_misc_bahamas_cmr_roof_156k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50017C0007_1900_-NONE-_-NONE-
+    (Bahamas CMR roof). Signed 2017-06-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bahamas CMR roof USD 0.156m. Supports misc_bahamas_cmr_roof_156k_2017.'
+  supports:
+  - misc_bahamas_cmr_roof_156k_2017
+  - hunt_cycle1006
+- id: usaspending_misc_ecuador_ziba_electrical_156k_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7526C0007_1900_-NONE-_-NONE-
+    (Ecuador ZIBA electrical). Signed 2026-09-17. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7526C0007_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7526C0007_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Ecuador ZIBA electrical USD 0.156m. Supports misc_ecuador_ziba_electrical_156k_2026.'
+  supports:
+  - misc_ecuador_ziba_electrical_156k_2026
+  - hunt_cycle1006
+- id: usaspending_misc_guatemala_nec_fence_156k_2016
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SGT50016C0011_1900_-NONE-_-NONE-
+    (Guatemala NEC fence). Signed 2016-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGT50016C0011_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SGT50016C0011_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Guatemala NEC fence USD 0.156m. Supports misc_guatemala_nec_fence_156k_2016.'
+  supports:
+  - misc_guatemala_nec_fence_156k_2016
+  - hunt_cycle1006
+- id: usaspending_psi_cucuta_twall_155k_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SCO15017C0012_1900_-NONE-_-NONE-
+    (PSI Cúcuta T-wall). Signed 2017-08-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017C0012_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SCO15017C0012_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: PSI Cúcuta T-wall USD 0.155m. Supports psi_cucuta_twall_155k_2017.'
+  supports:
+  - psi_cucuta_twall_155k_2017
+  - hunt_cycle1007
+- id: usaspending_proksol_zurite_school_155k_2010
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0001_9700_W9127809D0078_9700
+    (Proksol Zurite school). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127809D0078_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_0001_9700_W9127809D0078_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Proksol Zurite school USD 0.155m. Supports proksol_zurite_school_155k_2010.'
+  supports:
+  - proksol_zurite_school_155k_2010
+  - hunt_cycle1007
+- id: usaspending_dictores_obstacle_154k_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_H9228125C0002_9700_-NONE-_-NONE-
+    (Dictores obstacle course). Signed 2025-03-14. https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125C0002_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_H9228125C0002_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Dictores obstacle course USD 0.154m. Supports dictores_obstacle_154k_2025.'
+  supports:
+  - dictores_obstacle_154k_2025
+  - hunt_cycle1007
+- id: usaspending_hermosa_belize_family_care_127k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W912CL11C0034_9700_-NONE-_-NONE-
+    (Hermosa Belize family care). Signed 2011-09-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0034_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CL11C0034_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Hermosa Belize family care USD 0.127m. Supports hermosa_belize_family_care_127k_2011.'
+  supports:
+  - hermosa_belize_family_care_127k_2011
+  - hunt_cycle1007
+- id: usaspending_ml_engineering_kingston_hvac_117k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F3419_1900_SALMEC07D0001_1900
+    (ML Engineering Kingston HVAC). Signed 2011-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3419_1900_SALMEC07D0001_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F3419_1900_SALMEC07D0001_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ML Engineering Kingston HVAC USD 0.117m. Supports ml_engineering_kingston_hvac_117k_2011.'
+  supports:
+  - ml_engineering_kingston_hvac_117k_2011
+  - hunt_cycle1007

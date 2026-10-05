@@ -1,0 +1,10 @@
+{
+  "id": "misc_bahamas_cmr_roof_156k_2017",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_misc_bahamas_cmr_roof_156k_2017",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50017C0007_1900_-NONE-_-NONE-/",
+  "price_year": "2017",
+  "evidence": "documented",
+  "quote": "IGF::OT::IGF CMR ROOF REPLACEMENT",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 156358.75; date_signed 2017-06-21."
+}
