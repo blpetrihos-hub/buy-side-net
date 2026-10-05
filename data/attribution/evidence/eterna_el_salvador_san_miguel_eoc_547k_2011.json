@@ -1,0 +1,10 @@
+{
+  "id": "eterna_el_salvador_san_miguel_eoc_547k_2011",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_eterna_el_salvador_san_miguel_eoc_547k_2011",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0010_9700_W9127811D0046_9700/",
+  "price_year": "2011",
+  "evidence": "documented",
+  "quote": "TAS::21 2050::TAS HAP 11037 EOC, SAN MIGUEL",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 546808.45; date_signed 2011-09-29."
+}
