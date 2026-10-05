@@ -1,0 +1,10 @@
+{
+  "id": "technic_panama_pool_electrical_87k_2020",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_technic_panama_pool_electrical_87k_2020",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19PM0720P0895_1900_-NONE-_-NONE-/",
+  "price_year": "2020",
+  "evidence": "documented",
+  "quote": "CMR - POOL ELECTRICAL CONSTRUCTION DEFICIENCY REPAIR FWP#293",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 87177.63; date_signed 2020-09-30."
+}
