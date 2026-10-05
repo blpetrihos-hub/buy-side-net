@@ -87,36 +87,36 @@
     }
   },
   "meta": {
-    "n_rows": 8416,
+    "n_rows": 8421,
     "counts": {
-      "total": 8416,
-      "active": 8217,
+      "total": 8421,
+      "active": 8222,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 8143,
-      "on_map": 8038
+      "documented": 8148,
+      "on_map": 8043
     }
   },
   "layer_readouts": [
     {
       "layer": "infrastructure",
       "counts": {
-        "us": 187,
+        "us": 190,
         "prc": 129,
-        "allied": 2987,
-        "n": 3303
+        "allied": 2989,
+        "n": 3308
       },
       "usd": {
-        "us": 46389392967.439995,
-        "us_n": 120,
+        "us": 46414179314.06999,
+        "us_n": 123,
         "prc": 17322325919.350002,
         "prc_n": 40,
-        "allied": 144615835010.3698,
-        "allied_n": 2900
+        "allied": 144622841755.1098,
+        "allied_n": 2901
       },
       "matched_gaps": {
         "n": 1,
@@ -750,18 +750,18 @@
     {
       "country": "Haiti",
       "counts": {
-        "us": 12,
+        "us": 15,
         "prc": 0,
-        "allied": 31,
-        "n": 43
+        "allied": 33,
+        "n": 48
       },
       "usd": {
-        "us": 236068793.45000002,
-        "us_n": 12,
+        "us": 260855140.08,
+        "us_n": 15,
         "prc": 0.0,
         "prc_n": 0,
-        "allied": 837600000.0,
-        "allied_n": 7
+        "allied": 844606744.74,
+        "allied_n": 8
       },
       "by_layer": {
         "energy": {
@@ -770,9 +770,9 @@
           "allied": 11
         },
         "infrastructure": {
-          "us": 7,
+          "us": 10,
           "prc": 0,
-          "allied": 17
+          "allied": 19
         },
         "resources": {
           "us": 1,
@@ -9405,7 +9405,12 @@
       "haiti_pip_route_carrefour_joute_100m_htg_fy2526",
       "wsp_cap_haitien_port_cm_2p3m_2016",
       "gdg_les_cayes_drw_1p19m_2010",
-      "peco_ppseld_td_materials_402k_2014"
+      "peco_ppseld_td_materials_402k_2014",
+      "cce_presidential_barracks_pap_9p3m_2012",
+      "cherokee_usembassy_pap_hvac_7p4m_2021",
+      "crowley_haiti_docking_barges_8p1m_2010",
+      "cemex_haiti_dla_houses_7p0m_2012",
+      "haiti_pip_haut_du_cap_berges_92m_htg_fy2526"
     ],
     "hunt": [
       "hunt_br_power_equip",

@@ -1,0 +1,10 @@
+{
+  "id": "cce_presidential_barracks_pap_9p3m_2012",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_cce_presidential_barracks_20120723",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA12F2414_1900_SAQMMA08D0003_1900/",
+  "price_year": "2012",
+  "evidence": "documented",
+  "quote": "DESIGN/BUILD SERVICES NEW PRESIDENTIAL BARRACKS IN PORT AU PRINCE, HAITI",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 9,255,696.81; date_signed 2012-07-23."
+}
