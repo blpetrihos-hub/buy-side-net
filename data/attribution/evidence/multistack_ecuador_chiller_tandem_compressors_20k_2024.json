@@ -1,0 +1,10 @@
+{
+  "id": "multistack_ecuador_chiller_tandem_compressors_20k_2024",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_multistack_ecuador_chiller_tandem_compressors_20k_2024",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC3024P0124_1900_-NONE-_-NONE-/",
+  "price_year": "2024",
+  "evidence": "documented",
+  "quote": "TANDEM COMPRESSORS FOR CHILLER",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 20108.82; date_signed 2024-01-31."
+}
