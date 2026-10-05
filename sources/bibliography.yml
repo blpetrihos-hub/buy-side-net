@@ -12585,3 +12585,29 @@
   supports:
   - scala_bndes_380m_brl_2025
   - hunt_cycle257
+- id: isa_q2_2026_financial_results
+  type: company
+  chicago: 'Interconexión Eléctrica S.A. E.S.P. (ISA). “ISA Reports Strong Q2 2026 Results” / Second Quarter of 2026 Financial Results. August 3, 2026. https://www.otcmarkets.com/file/company/financial-report/591730/content (company landing: https://isa.co/en/informacion/isa-q2-2026-financial-results/).'
+  url: https://www.otcmarkets.com/file/company/financial-report/591730/content
+  annotation: ISA 2Q26/1H26 CapEx and Río Bueno USD 821m via company English report. Supports isa_2q26_capex_1p7tn_cop; isa_1h26_capex_3p1tn_cop; isa_vias_rio_bueno_puerto_montt_821m_2026.
+  supports:
+  - isa_2q26_capex_1p7tn_cop
+  - hunt_cycle258
+  - isa_1h26_capex_3p1tn_cop
+  - isa_vias_rio_bueno_puerto_montt_821m_2026
+- id: copel_news_17p8bn_20260917
+  type: company
+  chicago: Companhia Paranaense de Energia (Copel). “Copel investe R$ 3 bilhões em obras de geração, transmissão e distribuição de energia em todo o Paraná.” September 17, 2026. https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/.
+  url: https://www.copel.com/site/noticias/copel-investe-r-3-bilhoes-em-obras-de-geracao-transmissao-e-distribuicao-de-energia-em-todo-o-parana/
+  annotation: Copel 2026–2030 NEW R$17.8bn ~USD 3428.29m via Fed H.10. Supports copel_2026_2030_capex_17p8bn_brl.
+  supports:
+  - copel_2026_2030_capex_17p8bn_brl
+  - hunt_cycle258
+- id: copasa_2t26_release_20260812
+  type: company
+  chicago: Companhia de Saneamento de Minas Gerais (COPASA MG). “Release de Resultados 2T26.” August 12, 2026. https://investidor10.com.br/acoes/link_comunicado/CSMG3/47519/.
+  url: https://investidor10.com.br/acoes/link_comunicado/CSMG3/47519/
+  annotation: COPASA 1S26 NEW R$1,537.8m ~USD 296.18m via Fed H.10. Supports copasa_1s26_capex_1537p8m_brl.
+  supports:
+  - copasa_1s26_capex_1537p8m_brl
+  - hunt_cycle258

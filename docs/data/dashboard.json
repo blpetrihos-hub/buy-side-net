@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 1529,
+    "n_rows": 1534,
     "counts": {
-      "total": 1529,
-      "active": 1330,
+      "total": 1534,
+      "active": 1335,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 176,
       "exclude": 18,
-      "documented": 1268,
-      "on_map": 1195
+      "documented": 1273,
+      "on_map": 1200
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 174,
         "prc": 126,
-        "allied": 176,
-        "n": 476
+        "allied": 177,
+        "n": 477
       },
       "usd": {
         "us": 43655217878.43001,
         "us_n": 107,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 48988853149.06002,
-        "allied_n": 103
+        "allied": 49809853149.06002,
+        "allied_n": 104
       },
       "matched_gaps": {
         "n": 1,
@@ -130,16 +130,16 @@
       "counts": {
         "us": 88,
         "prc": 70,
-        "allied": 158,
-        "n": 316
+        "allied": 159,
+        "n": 317
       },
       "usd": {
         "us": 35648237410.93,
         "us_n": 44,
         "prc": 15219856772.0,
         "prc_n": 35,
-        "allied": 108457702342.41,
-        "allied_n": 89
+        "allied": 108753883078.53,
+        "allied_n": 90
       },
       "matched_gaps": {
         "n": 3,
@@ -155,16 +155,16 @@
       "counts": {
         "us": 155,
         "prc": 184,
-        "allied": 197,
-        "n": 536
+        "allied": 200,
+        "n": 539
       },
       "usd": {
         "us": 23626161117.969997,
         "us_n": 51,
         "prc": 32921064912.409996,
         "prc_n": 52,
-        "allied": 90106828659.87,
-        "allied_n": 129
+        "allied": 93535113939.43,
+        "allied_n": 130
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 109,
         "prc": 99,
-        "allied": 210,
-        "n": 418
+        "allied": 212,
+        "n": 420
       },
       "usd": {
         "us": 19523590504.539997,
         "us_n": 47,
         "prc": 31663045882.620003,
         "prc_n": 41,
-        "allied": 119142114186.34004,
-        "allied_n": 131
+        "allied": 122866580202.02003,
+        "allied_n": 133
       },
       "by_layer": {
         "energy": {
           "us": 19,
           "prc": 65,
-          "allied": 95
+          "allied": 96
         },
         "infrastructure": {
           "us": 64,
@@ -389,7 +389,7 @@
         "resources": {
           "us": 26,
           "prc": 9,
-          "allied": 60
+          "allied": 61
         }
       }
     },
@@ -398,16 +398,16 @@
       "counts": {
         "us": 59,
         "prc": 43,
-        "allied": 96,
-        "n": 198
+        "allied": 97,
+        "n": 199
       },
       "usd": {
         "us": 43412000000.0,
         "us_n": 26,
         "prc": 3089563959.6699996,
         "prc_n": 16,
-        "allied": 51356762361.0,
-        "allied_n": 60
+        "allied": 52177762361.0,
+        "allied_n": 61
       },
       "by_layer": {
         "energy": {
@@ -418,7 +418,7 @@
         "infrastructure": {
           "us": 9,
           "prc": 7,
-          "allied": 21
+          "allied": 22
         },
         "resources": {
           "us": 12,
@@ -432,8 +432,8 @@
       "counts": {
         "us": 24,
         "prc": 29,
-        "allied": 28,
-        "n": 81
+        "allied": 30,
+        "n": 83
       },
       "usd": {
         "us": 1556506908.27,
@@ -447,7 +447,7 @@
         "energy": {
           "us": 17,
           "prc": 17,
-          "allied": 10
+          "allied": 12
         },
         "infrastructure": {
           "us": 4,
@@ -2518,7 +2518,12 @@
       "energisa_2026_capex_plan_7p091bn_brl",
       "neoenergia_6m26_capex_4bn_brl",
       "engie_brasil_2t26_capex_329m_brl",
-      "scala_bndes_380m_brl_2025"
+      "scala_bndes_380m_brl_2025",
+      "isa_2q26_capex_1p7tn_cop",
+      "isa_1h26_capex_3p1tn_cop",
+      "isa_vias_rio_bueno_puerto_montt_821m_2026",
+      "copel_2026_2030_capex_17p8bn_brl",
+      "copasa_1s26_capex_1537p8m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
