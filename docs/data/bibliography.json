@@ -78954,5 +78954,455 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "usaspending_faac_mexico_firearms_training_simulators_725k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F1333_1900_SWHARC16D0002_1900 (faac_mexico_firearms_training_simulators_725k_2020). Signed 2020-04-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1333_1900_SWHARC16D0002_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1333_1900_SWHARC16D0002_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: faac_mexico_firearms_training_simulators_725k_2020 USD 0.725m. Supports faac_mexico_firearms_training_simulators_725k_2020.",
+    "supports": [
+      "faac_mexico_firearms_training_simulators_725k_2020",
+      "hunt_cycle1358"
+    ],
+    "map_supports": [
+      "faac_mexico_firearms_training_simulators_725k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_virtra_mexico_firearms_training_simulators_593k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F1326_1900_SWHARC16D0003_1900 (virtra_mexico_firearms_training_simulators_593k_2020). Signed 2020-04-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1326_1900_SWHARC16D0003_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1326_1900_SWHARC16D0003_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: virtra_mexico_firearms_training_simulators_593k_2020 USD 0.593m. Supports virtra_mexico_firearms_training_simulators_593k_2020.",
+    "supports": [
+      "virtra_mexico_firearms_training_simulators_593k_2020",
+      "hunt_cycle1358"
+    ],
+    "map_supports": [
+      "virtra_mexico_firearms_training_simulators_593k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_resurface_landing_zone_phase1_806k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0015_9700_W9127809D0071_9700 (eterna_honduras_resurface_landing_zone_phase1_806k_2010). Signed 2010-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0015_9700_W9127809D0071_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0015_9700_W9127809D0071_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_resurface_landing_zone_phase1_806k_2010 USD 0.806m. Supports eterna_honduras_resurface_landing_zone_phase1_806k_2010.",
+    "supports": [
+      "eterna_honduras_resurface_landing_zone_phase1_806k_2010",
+      "hunt_cycle1358"
+    ],
+    "map_supports": [
+      "eterna_honduras_resurface_landing_zone_phase1_806k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_taxiway_charlie_shoulders_400k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825F0023_9700_W9127823D0073_9700 (eterna_honduras_taxiway_charlie_shoulders_400k_2024). Signed 2024-11-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825F0023_9700_W9127823D0073_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825F0023_9700_W9127823D0073_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_taxiway_charlie_shoulders_400k_2024 USD 0.400m. Supports eterna_honduras_taxiway_charlie_shoulders_400k_2024.",
+    "supports": [
+      "eterna_honduras_taxiway_charlie_shoulders_400k_2024",
+      "hunt_cycle1358"
+    ],
+    "map_supports": [
+      "eterna_honduras_taxiway_charlie_shoulders_400k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_construction_project_448516_395k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0015_9700_W9127813D0020_9700 (eterna_honduras_construction_project_448516_395k_2014). Signed 2014-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0015_9700_W9127813D0020_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0015_9700_W9127813D0020_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_construction_project_448516_395k_2014 USD 0.395m. Supports eterna_honduras_construction_project_448516_395k_2014.",
+    "supports": [
+      "eterna_honduras_construction_project_448516_395k_2014",
+      "hunt_cycle1358"
+    ],
+    "map_supports": [
+      "eterna_honduras_construction_project_448516_395k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_virtra_mexico_firearms_training_simulators_579k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F1330_1900_SWHARC16D0003_1900 (virtra_mexico_firearms_training_simulators_579k_2020). Signed 2020-04-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1330_1900_SWHARC16D0003_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1330_1900_SWHARC16D0003_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: virtra_mexico_firearms_training_simulators_579k_2020 USD 0.579m. Supports virtra_mexico_firearms_training_simulators_579k_2020.",
+    "supports": [
+      "virtra_mexico_firearms_training_simulators_579k_2020",
+      "hunt_cycle1359"
+    ],
+    "map_supports": [
+      "virtra_mexico_firearms_training_simulators_579k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_faac_mexico_firearms_training_simulators_573k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F1325_1900_SWHARC16D0002_1900 (faac_mexico_firearms_training_simulators_573k_2020). Signed 2020-04-02. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1325_1900_SWHARC16D0002_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1325_1900_SWHARC16D0002_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: faac_mexico_firearms_training_simulators_573k_2020 USD 0.573m. Supports faac_mexico_firearms_training_simulators_573k_2020.",
+    "supports": [
+      "faac_mexico_firearms_training_simulators_573k_2020",
+      "hunt_cycle1359"
+    ],
+    "map_supports": [
+      "faac_mexico_firearms_training_simulators_573k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_taxiway_hotel_392k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0306_9700_W9127821D0075_9700 (eterna_honduras_taxiway_hotel_392k_2022). Signed 2022-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0306_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0306_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_taxiway_hotel_392k_2022 USD 0.392m. Supports eterna_honduras_taxiway_hotel_392k_2022.",
+    "supports": [
+      "eterna_honduras_taxiway_hotel_392k_2022",
+      "hunt_cycle1359"
+    ],
+    "map_supports": [
+      "eterna_honduras_taxiway_hotel_392k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_puerto_castilla_helo_pads_375k_2012",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0014_9700_W9127811D0046_9700 (eterna_honduras_puerto_castilla_helo_pads_375k_2012). Signed 2012-03-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0014_9700_W9127811D0046_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0014_9700_W9127811D0046_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_puerto_castilla_helo_pads_375k_2012 USD 0.375m. Supports eterna_honduras_puerto_castilla_helo_pads_375k_2012.",
+    "supports": [
+      "eterna_honduras_puerto_castilla_helo_pads_375k_2012",
+      "hunt_cycle1359"
+    ],
+    "map_supports": [
+      "eterna_honduras_puerto_castilla_helo_pads_375k_2012"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_taxiway_golf_356k_2022",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127822F0312_9700_W9127821D0075_9700 (eterna_honduras_taxiway_golf_356k_2022). Signed 2022-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0312_9700_W9127821D0075_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127822F0312_9700_W9127821D0075_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_taxiway_golf_356k_2022 USD 0.356m. Supports eterna_honduras_taxiway_golf_356k_2022.",
+    "supports": [
+      "eterna_honduras_taxiway_golf_356k_2022",
+      "hunt_cycle1359"
+    ],
+    "map_supports": [
+      "eterna_honduras_taxiway_golf_356k_2022"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_virtra_mexico_sidepol_slp_juarez_simulators_567k_2016",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC16F0041_1900_SWHARC16D0003_1900 (virtra_mexico_sidepol_slp_juarez_simulators_567k_2016). Signed 2016-09-26. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0041_1900_SWHARC16D0003_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC16F0041_1900_SWHARC16D0003_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: virtra_mexico_sidepol_slp_juarez_simulators_567k_2016 USD 0.567m. Supports virtra_mexico_sidepol_slp_juarez_simulators_567k_2016.",
+    "supports": [
+      "virtra_mexico_sidepol_slp_juarez_simulators_567k_2016",
+      "hunt_cycle1360"
+    ],
+    "map_supports": [
+      "virtra_mexico_sidepol_slp_juarez_simulators_567k_2016"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_virtra_el_salvador_virtual_shooting_simulator_521k_2024",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_191NLE24P0066_1900_-NONE-_-NONE- (virtra_el_salvador_virtual_shooting_simulator_521k_2024). Signed 2024-07-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24P0066_1900_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_191NLE24P0066_1900_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: virtra_el_salvador_virtual_shooting_simulator_521k_2024 USD 0.521m. Supports virtra_el_salvador_virtual_shooting_simulator_521k_2024.",
+    "supports": [
+      "virtra_el_salvador_virtual_shooting_simulator_521k_2024",
+      "hunt_cycle1360"
+    ],
+    "map_supports": [
+      "virtra_el_salvador_virtual_shooting_simulator_521k_2024"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_guatemala_chiquimula_elementary_school_326k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0507_9700_W9127816D0102_9700 (eterna_guatemala_chiquimula_elementary_school_326k_2017). Signed 2017-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0507_9700_W9127816D0102_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0507_9700_W9127816D0102_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_guatemala_chiquimula_elementary_school_326k_2017 USD 0.326m. Supports eterna_guatemala_chiquimula_elementary_school_326k_2017.",
+    "supports": [
+      "eterna_guatemala_chiquimula_elementary_school_326k_2017",
+      "hunt_cycle1360"
+    ],
+    "map_supports": [
+      "eterna_guatemala_chiquimula_elementary_school_326k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_gca_facility_r34_278k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127817F0044_9700_W9127813D0020_9700 (eterna_honduras_gca_facility_r34_278k_2017). Signed 2017-06-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0044_9700_W9127813D0020_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127817F0044_9700_W9127813D0020_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_gca_facility_r34_278k_2017 USD 0.278m. Supports eterna_honduras_gca_facility_r34_278k_2017.",
+    "supports": [
+      "eterna_honduras_gca_facility_r34_278k_2017",
+      "hunt_cycle1360"
+    ],
+    "map_supports": [
+      "eterna_honduras_gca_facility_r34_278k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_perimeter_fence_269k_2014",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0008_9700_W9127813D0020_9700 (eterna_honduras_perimeter_fence_269k_2014). Signed 2014-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127813D0020_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0008_9700_W9127813D0020_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_perimeter_fence_269k_2014 USD 0.269m. Supports eterna_honduras_perimeter_fence_269k_2014.",
+    "supports": [
+      "eterna_honduras_perimeter_fence_269k_2014",
+      "hunt_cycle1360"
+    ],
+    "map_supports": [
+      "eterna_honduras_perimeter_fence_269k_2014"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_faac_mexico_aguascalientes_guerrero_michoacan_simulators_518k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SWHARC17F0034_1900_SWHARC16D0002_1900 (faac_mexico_aguascalientes_guerrero_michoacan_simulators_518k_2017). Signed 2017-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0034_1900_SWHARC16D0002_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SWHARC17F0034_1900_SWHARC16D0002_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: faac_mexico_aguascalientes_guerrero_michoacan_simulators_518k_2017 USD 0.518m. Supports faac_mexico_aguascalientes_guerrero_michoacan_simulators_518k_2017.",
+    "supports": [
+      "faac_mexico_aguascalientes_guerrero_michoacan_simulators_518k_2017",
+      "hunt_cycle1361"
+    ],
+    "map_supports": [
+      "faac_mexico_aguascalientes_guerrero_michoacan_simulators_518k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_virtra_mexico_firearms_training_simulators_509k_2020",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM20F1340_1900_SWHARC16D0003_1900 (virtra_mexico_firearms_training_simulators_509k_2020). Signed 2020-04-03. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1340_1900_SWHARC16D0003_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20F1340_1900_SWHARC16D0003_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: virtra_mexico_firearms_training_simulators_509k_2020 USD 0.509m. Supports virtra_mexico_firearms_training_simulators_509k_2020.",
+    "supports": [
+      "virtra_mexico_firearms_training_simulators_509k_2020",
+      "hunt_cycle1361"
+    ],
+    "map_supports": [
+      "virtra_mexico_firearms_training_simulators_509k_2020"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_costa_rica_educational_building_254k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0022_9700_W9127809D0071_9700 (eterna_costa_rica_educational_building_254k_2010). Signed 2010-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0022_9700_W9127809D0071_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0022_9700_W9127809D0071_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_costa_rica_educational_building_254k_2010 USD 0.254m. Supports eterna_costa_rica_educational_building_254k_2010.",
+    "supports": [
+      "eterna_costa_rica_educational_building_254k_2010",
+      "hunt_cycle1361"
+    ],
+    "map_supports": [
+      "eterna_costa_rica_educational_building_254k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_eterna_honduras_rejection_lane_search_pit_245k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_0006_9700_W9127811D0046_9700 (eterna_honduras_rejection_lane_search_pit_245k_2011). Signed 2011-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127811D0046_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_0006_9700_W9127811D0046_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: eterna_honduras_rejection_lane_search_pit_245k_2011 USD 0.245m. Supports eterna_honduras_rejection_lane_search_pit_245k_2011.",
+    "supports": [
+      "eterna_honduras_rejection_lane_search_pit_245k_2011",
+      "hunt_cycle1361"
+    ],
+    "map_supports": [
+      "eterna_honduras_rejection_lane_search_pit_245k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mfg_colombia_antenna_tower_puerto_rico_74k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11C0035_9700_-NONE-_-NONE- (mfg_colombia_antenna_tower_puerto_rico_74k_2011). Signed 2011-09-15. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0035_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0035_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: mfg_colombia_antenna_tower_puerto_rico_74k_2011 USD 0.074m. Supports mfg_colombia_antenna_tower_puerto_rico_74k_2011.",
+    "supports": [
+      "mfg_colombia_antenna_tower_puerto_rico_74k_2011",
+      "hunt_cycle1361"
+    ],
+    "map_supports": [
+      "mfg_colombia_antenna_tower_puerto_rico_74k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_obera_panama_license_plate_recognition_install_480k_2017",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA489017F3056_9700_FA489016D0013_9700 (obera_panama_license_plate_recognition_install_480k_2017). Signed 2017-09-18. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489017F3056_9700_FA489016D0013_9700/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489017F3056_9700_FA489016D0013_9700/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: obera_panama_license_plate_recognition_install_480k_2017 USD 0.480m. Supports obera_panama_license_plate_recognition_install_480k_2017.",
+    "supports": [
+      "obera_panama_license_plate_recognition_install_480k_2017",
+      "hunt_cycle1362"
+    ],
+    "map_supports": [
+      "obera_panama_license_plate_recognition_install_480k_2017"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_faac_honduras_training_simulators_347k_2019",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM19F0826_1900_SWHARC16D0002_1900 (faac_honduras_training_simulators_347k_2019). Signed 2019-02-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F0826_1900_SWHARC16D0002_1900/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM19F0826_1900_SWHARC16D0002_1900/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: faac_honduras_training_simulators_347k_2019 USD 0.347m. Supports faac_honduras_training_simulators_347k_2019.",
+    "supports": [
+      "faac_honduras_training_simulators_347k_2019",
+      "hunt_cycle1362"
+    ],
+    "map_supports": [
+      "faac_honduras_training_simulators_347k_2019"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_mfg_colombia_scaffold_antenna_tower_48k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11C0037_9700_-NONE-_-NONE- (mfg_colombia_scaffold_antenna_tower_48k_2011). Signed 2011-09-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0037_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11C0037_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: mfg_colombia_scaffold_antenna_tower_48k_2011 USD 0.048m. Supports mfg_colombia_scaffold_antenna_tower_48k_2011.",
+    "supports": [
+      "mfg_colombia_scaffold_antenna_tower_48k_2011",
+      "hunt_cycle1362"
+    ],
+    "map_supports": [
+      "mfg_colombia_scaffold_antenna_tower_48k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proyectos_colombia_construction_47k_2010",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT10P0236_9700_-NONE-_-NONE- (proyectos_colombia_construction_47k_2010). Signed 2010-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10P0236_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT10P0236_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: proyectos_colombia_construction_47k_2010 USD 0.047m. Supports proyectos_colombia_construction_47k_2010.",
+    "supports": [
+      "proyectos_colombia_construction_47k_2010",
+      "hunt_cycle1362"
+    ],
+    "map_supports": [
+      "proyectos_colombia_construction_47k_2010"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "usaspending_proyectos_colombia_construction_27k_2011",
+    "type": "government",
+    "chicago": "U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W913FT11P0236_9700_-NONE-_-NONE- (proyectos_colombia_construction_27k_2011). Signed 2011-09-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0236_9700_-NONE-_-NONE-/.",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W913FT11P0236_9700_-NONE-_-NONE-/",
+    "accessed": "2026-10-05",
+    "annotation": "USASpending: proyectos_colombia_construction_27k_2011 USD 0.027m. Supports proyectos_colombia_construction_27k_2011.",
+    "supports": [
+      "proyectos_colombia_construction_27k_2011",
+      "hunt_cycle1362"
+    ],
+    "map_supports": [
+      "proyectos_colombia_construction_27k_2011"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
