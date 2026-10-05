@@ -22807,5 +22807,109 @@
     "layers": [
       "infrastructure"
     ]
+  },
+  {
+    "id": "isa_energia_2t26_news_20260803",
+    "type": "company",
+    "chicago": "ISA Energia Brasil. “Com energização de grandes projetos, ISA ENERGIA BRASIL amplia receita líquida em 21% no trimestre.” August 3, 2026. https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/com-energizacao-de-grandes-projetos-isa-energia-brasil-amplia-receita-liquida-em-21-no-trimestre/.",
+    "url": "https://www.isaenergiabrasil.com.br/centro-de-midia/noticias/com-energizacao-de-grandes-projetos-isa-energia-brasil-amplia-receita-liquida-em-21-no-trimestre/",
+    "annotation": "ISA remanescente NEW ~R$4.6bn ~USD 885.96m via Fed H.10. Supports isa_energia_remanescente_4p6bn_brl_2026.",
+    "supports": [
+      "isa_energia_2t26_capex_1053p5m_brl",
+      "hunt_cycle257",
+      "isa_energia_remanescente_4p6bn_brl_2026"
+    ],
+    "map_supports": [
+      "isa_energia_2t26_capex_1053p5m_brl",
+      "isa_energia_remanescente_4p6bn_brl_2026"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "light_1t26_release_mziq",
+    "type": "company",
+    "chicago": "Light S.A. “Release de Resultados 1T26.” 2026. https://api.mziq.com/mzfilemanager/v2/d/50b51302-4c48-4351-b296-bfcbe65fd70a/586839ac-be1f-07e6-6fdb-c67da0fac283?origin=2.",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/50b51302-4c48-4351-b296-bfcbe65fd70a/586839ac-be1f-07e6-6fdb-c67da0fac283?origin=2",
+    "annotation": "Light 1T26 NEW R$349m ~USD 67.22m via Fed H.10. Supports light_1t26_capex_349m_brl.",
+    "supports": [
+      "light_1t26_capex_349m_brl",
+      "hunt_cycle257"
+    ],
+    "map_supports": [
+      "light_1t26_capex_349m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "energisa_ri_investimentos_2026",
+    "type": "company",
+    "chicago": "Energisa S.A. “Investimentos” (RI). Accessed October 5, 2026. https://ri.energisa.com.br/divulgacoes-e-resultados/investimentos/.",
+    "url": "https://ri.energisa.com.br/divulgacoes-e-resultados/investimentos/",
+    "annotation": "Energisa 2026 plan NEW R$7.0914bn ~USD 1365.81m via Fed H.10. Supports energisa_2026_capex_plan_7p091bn_brl.",
+    "supports": [
+      "energisa_2026_capex_plan_7p091bn_brl",
+      "hunt_cycle257"
+    ],
+    "map_supports": [
+      "energisa_2026_capex_plan_7p091bn_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "neoenergia_2q26_release_mziq",
+    "type": "company",
+    "chicago": "Neoenergia S.A. “Release 2Q26 / 6M26.” July 21, 2026. https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2.",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/2aec7c3f-0df1-4df1-967a-66ab1030fc14/145001e6-59ad-7b1b-90fd-dc40064b1382?origin=2",
+    "annotation": "Neoenergia 6M26 NEW R$4.0bn ~USD 770.40m via Fed H.10. Supports neoenergia_6m26_capex_4bn_brl.",
+    "supports": [
+      "neoenergia_6m26_capex_4bn_brl",
+      "hunt_cycle257"
+    ],
+    "map_supports": [
+      "neoenergia_6m26_capex_4bn_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "engie_brasil_2t26_pr_20260805",
+    "type": "company",
+    "chicago": "ENGIE Brasil Energia. “ENGIE Brasil Energia registra lucro líquido de R$ 1,9 bilhão (+246%) no segundo trimestre de 2026.” August 5, 2026. https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/.",
+    "url": "https://www.engie.com.br/imprensa/press-releases/engie-brasil-energia-registra-lucro-liquido-de-r-19-bilhao-246-no-segundo-trimestre-de-2026/",
+    "annotation": "ENGIE Brasil 2T26 NEW R$329m ~USD 63.37m via Fed H.10. Supports engie_brasil_2t26_capex_329m_brl.",
+    "supports": [
+      "engie_brasil_2t26_capex_329m_brl",
+      "hunt_cycle257"
+    ],
+    "map_supports": [
+      "engie_brasil_2t26_capex_329m_brl"
+    ],
+    "layers": [
+      "energy"
+    ]
+  },
+  {
+    "id": "scala_bndes_380m_20251127",
+    "type": "company",
+    "chicago": "Scala Data Centers. “Scala Data Centers e BNDES concluem segunda etapa do maior financiamento do banco no setor, totalizando R$ 380 milhões até o momento.” November 27, 2025. https://scaladatacenters.com/scala_na_midia/scala-data-centers-e-bndes-concluem-segunda-etapa-do-maior-financiamento-do-banco-no-setor-totalizando-r-380-milhoes-ate-o-momento/.",
+    "url": "https://scaladatacenters.com/scala_na_midia/scala-data-centers-e-bndes-concluem-segunda-etapa-do-maior-financiamento-do-banco-no-setor-totalizando-r-380-milhoes-ate-o-momento/",
+    "annotation": "Scala BNDES NEW R$380m ~USD 73.19m via Fed H.10. Supports scala_bndes_380m_brl_2025.",
+    "supports": [
+      "scala_bndes_380m_brl_2025",
+      "hunt_cycle257"
+    ],
+    "map_supports": [
+      "scala_bndes_380m_brl_2025"
+    ],
+    "layers": [
+      "infrastructure"
+    ]
   }
 ]
