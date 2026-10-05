@@ -32280,3 +32280,138 @@
   supports:
   - misc_costa_rica_bedroom_closets_install_15k_2017
   - hunt_cycle1164
+- id: usaspending_cummins_honduras_six_diesel_prime_generators_107k_2015
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SHO80015F0355_1900_GS07F9004D_4730 (cummins_honduras_six_diesel_prime_generators_107k_2015). Signed 2015-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80015F0355_1900_GS07F9004D_4730/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SHO80015F0355_1900_GS07F9004D_4730/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cummins_honduras_six_diesel_prime_generators_107k_2015 USD 0.107m. Supports cummins_honduras_six_diesel_prime_generators_107k_2015.'
+  supports:
+  - cummins_honduras_six_diesel_prime_generators_107k_2015
+  - hunt_cycle1165
+- id: usaspending_cummins_ecuador_obo_residential_generator_99k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SEC30012M0506_1900_-NONE-_-NONE- (cummins_ecuador_obo_residential_generator_99k_2012). Signed 2012-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC30012M0506_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SEC30012M0506_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: cummins_ecuador_obo_residential_generator_99k_2012 USD 0.099m. Supports cummins_ecuador_obo_residential_generator_99k_2012.'
+  supports:
+  - cummins_ecuador_obo_residential_generator_99k_2012
+  - hunt_cycle1165
+- id: usaspending_misc_dominican_republic_nas_dncd_k9_generator_15k_2012
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SDR86012M0825M001_1900_-NONE-_-NONE- (misc_dominican_republic_nas_dncd_k9_generator_15k_2012). Signed 2012-06-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86012M0825M001_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SDR86012M0825M001_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_dominican_republic_nas_dncd_k9_generator_15k_2012 USD 0.015m. Supports misc_dominican_republic_nas_dncd_k9_generator_15k_2012.'
+  supports:
+  - misc_dominican_republic_nas_dncd_k9_generator_15k_2012
+  - hunt_cycle1165
+- id: usaspending_misc_ecuador_swowboda_house_security_upgrades_15k_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19EC7518P0329_1900_-NONE-_-NONE- (misc_ecuador_swowboda_house_security_upgrades_15k_2018). Signed 2018-05-04. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7518P0329_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19EC7518P0329_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_ecuador_swowboda_house_security_upgrades_15k_2018 USD 0.015m. Supports misc_ecuador_swowboda_house_security_upgrades_15k_2018.'
+  supports:
+  - misc_ecuador_swowboda_house_security_upgrades_15k_2018
+  - hunt_cycle1165
+- id: usaspending_misc_argentina_pas_office_renovation_15k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AR2021C0013_1900_-NONE-_-NONE- (misc_argentina_pas_office_renovation_15k_2021). Signed 2021-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2021C0013_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AR2021C0013_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_argentina_pas_office_renovation_15k_2021 USD 0.015m. Supports misc_argentina_pas_office_renovation_15k_2021.'
+  supports:
+  - misc_argentina_pas_office_renovation_15k_2021
+  - hunt_cycle1165
+- id: usaspending_applied_security_mexico_pcc_high_level_alarms_install_88k_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM22F2060_1900_19AQMM19D0002_1900 (applied_security_mexico_pcc_high_level_alarms_install_88k_2022). Signed 2022-06-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2060_1900_19AQMM19D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM22F2060_1900_19AQMM19D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_mexico_pcc_high_level_alarms_install_88k_2022 USD 0.088m. Supports applied_security_mexico_pcc_high_level_alarms_install_88k_2022.'
+  supports:
+  - applied_security_mexico_pcc_high_level_alarms_install_88k_2022
+  - hunt_cycle1166
+- id: usaspending_applied_security_bahamas_pcc_hla_system_install_86k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F0479_1900_19AQMM19D0002_1900 (applied_security_bahamas_pcc_hla_system_install_86k_2024). Signed 2024-02-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0479_1900_19AQMM19D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F0479_1900_19AQMM19D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_bahamas_pcc_hla_system_install_86k_2024 USD 0.086m. Supports applied_security_bahamas_pcc_hla_system_install_86k_2024.'
+  supports:
+  - applied_security_bahamas_pcc_hla_system_install_86k_2024
+  - hunt_cycle1166
+- id: usaspending_misc_jamaica_vetted_unit_security_fence_wall_15k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SJM37011M1161_1900_-NONE-_-NONE- (misc_jamaica_vetted_unit_security_fence_wall_15k_2011). Signed 2011-09-24. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37011M1161_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SJM37011M1161_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_jamaica_vetted_unit_security_fence_wall_15k_2011 USD 0.015m. Supports misc_jamaica_vetted_unit_security_fence_wall_15k_2011.'
+  supports:
+  - misc_jamaica_vetted_unit_security_fence_wall_15k_2011
+  - hunt_cycle1166
+- id: usaspending_misc_guyana_generator_installation_15k_2023
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GY2023P0201_1900_-NONE-_-NONE- (misc_guyana_generator_installation_15k_2023). Signed 2023-05-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2023P0201_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GY2023P0201_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_guyana_generator_installation_15k_2023 USD 0.015m. Supports misc_guyana_generator_installation_15k_2023.'
+  supports:
+  - misc_guyana_generator_installation_15k_2023
+  - hunt_cycle1166
+- id: usaspending_misc_venezuela_chancery_restroom_renovation_14k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SVE30011M0917_1900_-NONE-_-NONE- (misc_venezuela_chancery_restroom_renovation_14k_2011). Signed 2011-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30011M0917_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SVE30011M0917_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_venezuela_chancery_restroom_renovation_14k_2011 USD 0.014m. Supports misc_venezuela_chancery_restroom_renovation_14k_2011.'
+  supports:
+  - misc_venezuela_chancery_restroom_renovation_14k_2011
+  - hunt_cycle1166
+- id: usaspending_applied_security_peru_lima_tss_security_installation_84k_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA11F1525_1900_SAQMMA07D0030_1900 (applied_security_peru_lima_tss_security_installation_84k_2011). Signed 2011-05-10. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F1525_1900_SAQMMA07D0030_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA11F1525_1900_SAQMMA07D0030_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_peru_lima_tss_security_installation_84k_2011 USD 0.084m. Supports applied_security_peru_lima_tss_security_installation_84k_2011.'
+  supports:
+  - applied_security_peru_lima_tss_security_installation_84k_2011
+  - hunt_cycle1167
+- id: usaspending_applied_security_mexico_core_high_level_alarms_install_86k_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM24F1373_1900_19AQMM19D0002_1900 (applied_security_mexico_core_high_level_alarms_install_86k_2024). Signed 2024-07-21. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F1373_1900_19AQMM19D0002_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM24F1373_1900_19AQMM19D0002_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: applied_security_mexico_core_high_level_alarms_install_86k_2024 USD 0.086m. Supports applied_security_mexico_core_high_level_alarms_install_86k_2024.'
+  supports:
+  - applied_security_mexico_core_high_level_alarms_install_86k_2024
+  - hunt_cycle1167
+- id: usaspending_misc_barbados_gov_building_ac_units_replace_15k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19BB2121P0980_1900_-NONE-_-NONE- (misc_barbados_gov_building_ac_units_replace_15k_2021). Signed 2021-07-19. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2121P0980_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19BB2121P0980_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_barbados_gov_building_ac_units_replace_15k_2021 USD 0.015m. Supports misc_barbados_gov_building_ac_units_replace_15k_2021.'
+  supports:
+  - misc_barbados_gov_building_ac_units_replace_15k_2021
+  - hunt_cycle1167
+- id: usaspending_misc_bahamas_security_grills_fabricate_install_15k_2013
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SBF50013M0474_1900_-NONE-_-NONE- (misc_bahamas_security_grills_fabricate_install_15k_2013). Signed 2013-04-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50013M0474_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SBF50013M0474_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_bahamas_security_grills_fabricate_install_15k_2013 USD 0.015m. Supports misc_bahamas_security_grills_fabricate_install_15k_2013.'
+  supports:
+  - misc_bahamas_security_grills_fabricate_install_15k_2013
+  - hunt_cycle1167
+- id: usaspending_misc_nicaragua_hvac_variable_frequency_drivers_replace_15k_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19NU7021P0562_1900_-NONE-_-NONE- (misc_nicaragua_hvac_variable_frequency_drivers_replace_15k_2021). Signed 2021-08-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NU7021P0562_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19NU7021P0562_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: misc_nicaragua_hvac_variable_frequency_drivers_replace_15k_2021 USD 0.015m. Supports misc_nicaragua_hvac_variable_frequency_drivers_replace_15k_2021.'
+  supports:
+  - misc_nicaragua_hvac_variable_frequency_drivers_replace_15k_2021
+  - hunt_cycle1167
