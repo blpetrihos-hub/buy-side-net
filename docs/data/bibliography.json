@@ -2257,13 +2257,14 @@
   },
   {
     "id": "wnn_brazil_microreactor_20251113",
-    "type": "secondary",
-    "chicago": "World Nuclear News. “Brazil’s microreactor project under way.” 13 November 2025.",
+    "type": "press",
+    "chicago": "World Nuclear News. “Brazil’s microreactor project under way.” November 13, 2025. https://www.world-nuclear-news.org/articles/brazils-microreactor-project-under-way.",
     "url": "https://www.world-nuclear-news.org/articles/brazils-microreactor-project-under-way",
-    "annotation": "Industry press summarizing CNEN/INB microreactor program. Supports brazil_microreactor_cnen_2025.",
+    "annotation": "Brazil microreactor CapEx-fill company dual US$9.1m. Supports brazil_microreactor_cnen_2025.",
     "supports": [
       "brazil_microreactor_cnen_2025",
-      "hunt_energy_fission_smr"
+      "hunt_energy_fission_smr",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "brazil_microreactor_cnen_2025",
@@ -4452,12 +4453,13 @@
   {
     "id": "portonave_electric_fleet_20260803",
     "type": "company",
-    "chicago": "Portonave. “Portonave Invests R$61 Million in New Electrically Powered Equipment.” 3 August 2026.",
-    "url": "https://www.portonave.com.br/en/todas-as-noticias/portonave-invests-rusd61-million-in-new-electrically-powered-equipment",
-    "annotation": "Company primary on BRL 61m electric yard equipment package at Navegantes. Supports portonave_electric_fleet_61m_2026.",
+    "chicago": "Portonave. “Portonave invests R$61 million in new electrical equipment.” August 3, 2026. https://www.portonave.com.br/en/todas-as-noticias/portonave-invests-rusd61-million-in-new-electrical.",
+    "url": "https://www.portonave.com.br/en/todas-as-noticias/portonave-invests-rusd61-million-in-new-electrical",
+    "annotation": "Portonave electric fleet CapEx-fill ~USD 11.75m via Fed H.10. Supports portonave_electric_fleet_61m_2026.",
     "supports": [
       "portonave_electric_fleet_61m_2026",
-      "hunt_infra_port_cranes"
+      "hunt_infra_port_cranes",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "hunt_infra_port_cranes",
@@ -4739,13 +4741,14 @@
   },
   {
     "id": "epoca_powerchina_intrepid_20230526",
-    "type": "trade_press",
-    "chicago": "Reuters. “Pontoon e PowerChina fecham acordo em energia solar no Brasil.” Época Negócios, 26 May 2023.",
+    "type": "press",
+    "chicago": "Época Negócios. “Pontoon e PowerChina fecham acordo em energia solar no Brasil.” May 26, 2023. https://epocanegocios.globo.com/futuro-da-industria/noticia/2023/05/pontoon-e-powerchina-fecham-acordo-em-energia-solar-no-brasil.ghtml.",
     "url": "https://epocanegocios.globo.com/futuro-da-industria/noticia/2023/05/pontoon-e-powerchina-fecham-acordo-em-energia-solar-no-brasil.ghtml",
-    "annotation": "Reuters/Época on PowerChina Intrepid/Mauriti R$1.8bn EPC. Supports powerchina_intrepid_mauriti_1p8bn_2023.",
+    "annotation": "PowerChina Intrepid CapEx-fill ~USD 346.68m via Fed H.10. Supports powerchina_intrepid_mauriti_1p8bn_2023.",
     "supports": [
       "powerchina_intrepid_mauriti_1p8bn_2023",
-      "hunt_energy_solar"
+      "hunt_energy_solar",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "hunt_energy_solar",
@@ -5082,13 +5085,14 @@
   },
   {
     "id": "g1_santos_guaruja_20260128",
-    "type": "trade_press",
-    "chicago": "Simonato, Sabina. “Governo de SP assina contrato para construir o Túnel Santos-Guarujá.” g1 / TV Globo, 28 January 2026.",
+    "type": "press",
+    "chicago": "G1. “Governo de SP assina contrato para construir o túnel Santos-Guarujá.” January 28, 2026. https://g1.globo.com/sp/sao-paulo/noticia/2026/01/28/governo-de-sp-assina-contrato-para-construir-o-tunel-santos-guaruja.ghtml.",
     "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/01/28/governo-de-sp-assina-contrato-para-construir-o-tunel-santos-guaruja.ghtml",
-    "annotation": "Press on Mota-Engil Santos–Guarujá tunnel PPP R$6.8bn. Supports mota_engil_santos_guaruja_6p8bn_2026.",
+    "annotation": "Santos–Guarujá CapEx-fill ~USD 1309.68m via Fed H.10. Supports mota_engil_santos_guaruja_6p8bn_2026.",
     "supports": [
       "mota_engil_santos_guaruja_6p8bn_2026",
-      "hunt_infra_bridges_roads"
+      "hunt_infra_bridges_roads",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "hunt_infra_bridges_roads",
@@ -11142,12 +11146,13 @@
   {
     "id": "movimento_goldwind_camacari_20240828",
     "type": "press",
-    "chicago": "Movimento Econômico. “Goldwind inaugura fábrica de turbinas na BA com investimento de R$ 100 mi.” 28 August 2024.",
+    "chicago": "Movimento Econômico. “Goldwind inaugura fábrica de turbinas na BA com investimento de R$ 100 mi.” August 28, 2024. https://movimentoeconomico.com.br/estados/bahia/2024/08/28/goldwind-inaugura-fabrica-de-turbinas-na-ba-com-investimento-de-r-100-mi/.",
     "url": "https://movimentoeconomico.com.br/estados/bahia/2024/08/28/goldwind-inaugura-fabrica-de-turbinas-na-ba-com-investimento-de-r-100-mi/",
-    "annotation": "UNVERIFIED proxy for Goldwind Camaçari wind-turbine factory CapEx ~R$100m. Supports goldwind_camacari_turbine_factory_2024.",
+    "annotation": "Goldwind Camaçari CapEx-fill ~USD 19.26m via Fed H.10. Supports goldwind_camacari_turbine_factory_2024.",
     "supports": [
       "goldwind_camacari_turbine_factory_2024",
-      "hunt_energy_wind"
+      "hunt_energy_wind",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "goldwind_camacari_turbine_factory_2024",
@@ -19878,10 +19883,11 @@
     "type": "company",
     "chicago": "Holcim México. “Holcim inaugura la primera planta de concreto 100% eléctrica en México.” November 26, 2025. https://www.holcim.com.mx/holcim-inaugura-la-primera-planta-de-concreto-100-electrica-en-mexico.",
     "url": "https://www.holcim.com.mx/holcim-inaugura-la-primera-planta-de-concreto-100-electrica-en-mexico",
-    "annotation": "Holcim MX: Zapopan electric plant ~MXN 51m. Supports holcim_zapopan_electric_51m_mxn_2025.",
+    "annotation": "Holcim Zapopan CapEx-fill ~USD 2.88m via Fed H.10. Supports holcim_zapopan_electric_51m_mxn_2025.",
     "supports": [
       "holcim_zapopan_electric_51m_mxn_2025",
-      "hunt_cycle195"
+      "hunt_cycle195",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "holcim_zapopan_electric_51m_mxn_2025"
@@ -20130,10 +20136,11 @@
     "type": "company",
     "chicago": "CBMM. Relatório de Sustentabilidade 2025. https://cbmm.com/relatorio-sustentabilidade/pdf/CBMM_RS25_D16_02.pdf.",
     "url": "https://cbmm.com/relatorio-sustentabilidade/pdf/CBMM_RS25_D16_02.pdf",
-    "annotation": "CBMM: CapEx/growth plan R$11bn to 2030. Supports cbmm_capex_plan_11bn_2030.",
+    "annotation": "CBMM to-2030 CapEx-fill ~USD 2118.60m via Fed H.10. Supports cbmm_capex_plan_11bn_2030.",
     "supports": [
       "cbmm_capex_plan_11bn_2030",
-      "hunt_cycle198"
+      "hunt_cycle198",
+      "hunt_cycle225"
     ],
     "map_supports": [
       "cbmm_capex_plan_11bn_2030"

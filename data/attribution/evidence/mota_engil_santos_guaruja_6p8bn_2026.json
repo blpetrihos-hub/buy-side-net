@@ -1,10 +1,10 @@
 {
   "id": "mota_engil_santos_guaruja_6p8bn_2026",
-  "retrieved": "2026-10-01",
+  "retrieved": "2026-10-04",
   "source_id": "g1_santos_guaruja_20260128",
   "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/01/28/governo-de-sp-assina-contrato-para-construir-o-tunel-santos-guaruja.ghtml",
   "price_year": "2026",
-  "evidence": "proxy",
-  "quote": "Com investimento total estimado em R$ 6,8 bilhões, o projeto prevê a construção de um túnel de 870 metros sob o canal portuário, com três faixas por sentido, passagem para pedestres e ciclistas e galeria de serviços.",
-  "note": "Opened g1 Portuguese 28 Jan 2026. Mark UNVERIFIED proxy."
+  "evidence": "documented",
+  "quote": "Com investimento total estimado em R$ 6,8 bilhões, o projeto prevê a construção de um túnel de 870 metros sob o canal portuário, com três faixas por sentido, passagem para pedestres e ciclistas.",
+  "note": "Opened G1 Portuguese; R$6.8bn / 870 m tunnel confirmed. CapEx-fill USD via Fed H.10 Sep 25 2026 5.1921 BRL/USD."
 }
