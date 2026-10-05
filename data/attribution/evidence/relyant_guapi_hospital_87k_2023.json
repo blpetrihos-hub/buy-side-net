@@ -1,0 +1,10 @@
+{
+  "id": "relyant_guapi_hospital_87k_2023",
+  "retrieved": "2026-10-05",
+  "source_id": "usaspending_relyant_guapi_hospital_87k_2023",
+  "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127823F0499_9700_W9127823D0063_9700/",
+  "price_year": "2023",
+  "evidence": "documented",
+  "quote": "DESIGN AND CONSTRUCTION OF HAP #67203 HOSPITAL REFURBISHMENT IN GUAPI, COLOMBIA",
+  "note": "Opened USASpending Award API 2026-10-05; total_obligation USD 86836.08; date_signed 2023-09-30."
+}
