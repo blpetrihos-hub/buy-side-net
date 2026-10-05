@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 6915,
+    "n_rows": 6922,
     "counts": {
-      "total": 6915,
-      "active": 6716,
+      "total": 6922,
+      "active": 6723,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 6642,
-      "on_map": 6548
+      "documented": 6649,
+      "on_map": 6555
     }
   },
   "layer_readouts": [
@@ -155,16 +155,16 @@
       "counts": {
         "us": 192,
         "prc": 209,
-        "allied": 2600,
-        "n": 3001
+        "allied": 2607,
+        "n": 3008
       },
       "usd": {
         "us": 36729056364.53999,
         "us_n": 88,
         "prc": 43269035868.26999,
         "prc_n": 72,
-        "allied": 324456636172.9301,
-        "allied_n": 2529
+        "allied": 324611437238.40015,
+        "allied_n": 2536
       },
       "matched_gaps": {
         "n": 1,
@@ -364,22 +364,22 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 5483,
-        "n": 5738
+        "allied": 5490,
+        "n": 5745
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 468325342148.72974,
-        "allied_n": 5402
+        "allied": 468480143214.19977,
+        "allied_n": 5409
       },
       "by_layer": {
         "energy": {
           "us": 36,
           "prc": 90,
-          "allied": 2466
+          "allied": 2473
         },
         "infrastructure": {
           "us": 68,
@@ -7904,7 +7904,14 @@
       "axia_hold_ambiental_infra_2t24_68m_brl",
       "axia_hold_empresas_investidas_2t24_128m_brl",
       "axia_hold_hvdc_itaipu_2t24_161m_brl",
-      "axia_hold_total_2t24_619m_brl"
+      "axia_hold_total_2t24_619m_brl",
+      "axia_hold_imob_intang_1t24_244m_brl",
+      "axia_hold_geracao_1t24_32m_brl",
+      "axia_hold_transmissao_1t24_151m_brl",
+      "axia_hold_ambiental_infra_1t24_62m_brl",
+      "axia_hold_empresas_investidas_1t24_5m_brl",
+      "axia_hold_hvdc_itaipu_1t24_31m_brl",
+      "axia_hold_total_1t24_280m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
