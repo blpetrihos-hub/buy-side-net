@@ -25240,3 +25240,153 @@
   supports:
   - serfor_peru_balsa_tornillo_chain_2025
   - hunt_cycle962
+- id: usaspending_eterna_jardin_tama_police_1p55m_2019
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127819F0253_9700_W9127817D0095_9700
+    (Eterna Jardín de Tamana police). Signed 2019-06-25. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0253_9700_W9127817D0095_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127819F0253_9700_W9127817D0095_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna Jardín de Tamana police USD 1.549m. Supports eterna_jardin_tama_police_1p55m_2019.'
+  supports:
+  - eterna_jardin_tama_police_1p55m_2019
+  - hunt_cycle963
+- id: usaspending_palgag_gonaives_hatte_school_1p55m_2011
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_N6945011C0016_9700_-NONE-_-NONE-
+    (Palgag Gonaïves-Hatte school). Signed 2011-02-01. https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0016_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6945011C0016_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Palgag Gonaïves-Hatte school USD 1.547m. Supports palgag_gonaives_hatte_school_1p55m_2011.'
+  supports:
+  - palgag_gonaives_hatte_school_1p55m_2011
+  - hunt_cycle963
+- id: usaspending_eei_ccopi_office_1p52m_2026
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM26F0993_1900_19AQMM21D0037_1900
+    (EEI CCOPI office). Signed 2026-07-31. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0993_1900_19AQMM21D0037_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM26F0993_1900_19AQMM21D0037_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EEI CCOPI office USD 1.516m. Supports eei_ccopi_office_1p52m_2026.'
+  supports:
+  - eei_ccopi_office_1p52m_2026
+  - hunt_cycle963
+- id: usaspending_ect_chile_elevator_1p44m_2022
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5022C0043_1900_-NONE-_-NONE-
+    (ECT Chile elevator). Signed 2022-09-23. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0043_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5022C0043_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: ECT Chile elevator USD 1.436m. Supports ect_chile_elevator_1p44m_2022.'
+  supports:
+  - ect_chile_elevator_1p44m_2022
+  - hunt_cycle963
+- id: usaspending_sea_pac_kingston_powell_elevator_1p39m_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19GE5024C0038_1900_-NONE-_-NONE-
+    (Sea Pac Kingston Powell elevator). Signed 2024-09-16. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024C0038_1900_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19GE5024C0038_1900_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Sea Pac Kingston Powell elevator USD 1.391m. Supports sea_pac_kingston_powell_elevator_1p39m_2024.'
+  supports:
+  - sea_pac_kingston_powell_elevator_1p39m_2024
+  - hunt_cycle963
+- id: usaspending_eterna_hap_warehouse_wells_1p39m_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127821F0210_9700_W9127816D0102_9700
+    (Eterna HAP warehouses/wells). Signed 2021-07-06. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0210_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127821F0210_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna HAP warehouses/wells USD 1.392m. Supports eterna_hap_warehouse_wells_1p39m_2021.'
+  supports:
+  - eterna_hap_warehouse_wells_1p39m_2021
+  - hunt_cycle964
+- id: usaspending_marago_tumaco_utilities_1p38m_2021
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMM21F3269_1900_19AQMM21D0036_1900
+    (Marago Tumaco utilities). Signed 2021-09-09. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F3269_1900_19AQMM21D0036_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM21F3269_1900_19AQMM21D0036_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Marago Tumaco utilities USD 1.384m. Supports marago_tumaco_utilities_1p38m_2021.'
+  supports:
+  - marago_tumaco_utilities_1p38m_2021
+  - hunt_cycle964
+- id: usaspending_greenway_colombia_fire_alarm_1p37m_2017
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_SAQMMA17F4122_1900_SAQMMA14D0050_1900
+    (Greenway Colombia fire alarm). Signed 2017-08-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F4122_1900_SAQMMA14D0050_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_SAQMMA17F4122_1900_SAQMMA14D0050_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Greenway Colombia fire alarm USD 1.370m. Supports greenway_colombia_fire_alarm_1p37m_2017.'
+  supports:
+  - greenway_colombia_fire_alarm_1p37m_2017
+  - hunt_cycle964
+- id: usaspending_eterna_soto_cano_arfor_hq_1p35m_2018
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127818F0739_9700_W9127816D0102_9700
+    (Eterna Soto Cano ARFOR HQ). Signed 2018-09-28. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0739_9700_W9127816D0102_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127818F0739_9700_W9127816D0102_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Eterna Soto Cano ARFOR HQ USD 1.351m. Supports eterna_soto_cano_arfor_hq_1p35m_2018.'
+  supports:
+  - eterna_soto_cano_arfor_hq_1p35m_2018
+  - hunt_cycle964
+- id: usaspending_bonatti_soto_cano_warehouse_atcals_1p35m_2020
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127820F0489_9700_W9127816D0099_9700
+    (Bonatti Soto Cano warehouse/ATCALS). Signed 2020-09-27. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0489_9700_W9127816D0099_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127820F0489_9700_W9127816D0099_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti Soto Cano warehouse/ATCALS USD 1.346m. Supports bonatti_soto_cano_warehouse_atcals_1p35m_2020.'
+  supports:
+  - bonatti_soto_cano_warehouse_atcals_1p35m_2020
+  - hunt_cycle964
+- id: usaspending_global_vision_mexico_clinics_1p34m_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_FA251824P0002_9700_-NONE-_-NONE-
+    (Global Vision Mexico clinics). Signed 2024-03-20. https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA251824P0002_9700_-NONE-_-NONE-/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA251824P0002_9700_-NONE-_-NONE-/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Global Vision Mexico clinics USD 1.343m. Supports global_vision_mexico_clinics_1p34m_2024.'
+  supports:
+  - global_vision_mexico_clinics_1p34m_2024
+  - hunt_cycle965
+- id: usaspending_eei_sur_bolivar_health_1p33m_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0393_9700_W9127823D0058_9700
+    (EEI Sur de Bolívar health). Signed 2024-09-29. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0393_9700_W9127823D0058_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0393_9700_W9127823D0058_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: EEI Sur de Bolívar health USD 1.328m. Supports eei_sur_bolivar_health_1p33m_2024.'
+  supports:
+  - eei_sur_bolivar_health_1p33m_2024
+  - hunt_cycle965
+- id: usaspending_olgoonik_semar_materials_3p75m_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_19AQMR24F5009_1900_19AQMM20D0098_1900
+    (Olgoonik SEMAR materials). Signed 2024-07-08. https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR24F5009_1900_19AQMM20D0098_1900/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMR24F5009_1900_19AQMM20D0098_1900/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Olgoonik SEMAR materials USD 3.745m. Supports olgoonik_semar_materials_3p75m_2024.'
+  supports:
+  - olgoonik_semar_materials_3p75m_2024
+  - hunt_cycle965
+- id: usaspending_bonatti_soto_cano_arms_room_1p28m_2024
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127824F0381_9700_W9127823D0072_9700
+    (Bonatti Soto Cano arms room). Signed 2024-09-30. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0381_9700_W9127823D0072_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127824F0381_9700_W9127823D0072_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti Soto Cano arms room USD 1.276m. Supports bonatti_soto_cano_arms_room_1p28m_2024.'
+  supports:
+  - bonatti_soto_cano_arms_room_1p28m_2024
+  - hunt_cycle965
+- id: usaspending_bonatti_siquirres_warehouse_1p21m_2025
+  type: government
+  chicago: U.S. Department of the Treasury, USAspending.gov. Award CONT_AWD_W9127825FA173_9700_W9127823D0072_9700
+    (Bonatti Siquirres warehouse). Signed 2025-09-22. https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA173_9700_W9127823D0072_9700/.
+  url: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9127825FA173_9700_W9127823D0072_9700/
+  accessed: '2026-10-05'
+  annotation: 'USASpending: Bonatti Siquirres warehouse USD 1.214m. Supports bonatti_siquirres_warehouse_1p21m_2025.'
+  supports:
+  - bonatti_siquirres_warehouse_1p21m_2025
+  - hunt_cycle965

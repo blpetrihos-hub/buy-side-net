@@ -1,16 +1,40 @@
 updated: 2026-10-05
-cycle: 962
+cycle: 965
 remote: present
-active_layer: resources
-active_subcategory: balsa
-next_query: Cycle 963 shuffle_seed=20261963; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us640/prc409/allied1559); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (27), fission_smr (30), niobium (31), balsa (27). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual (Jardín de Tamá; Gonaïves-Hatte school; Chile elevator; Kingston Powell elevator; Tumaco utilities; Greenway fire; Soto Cano warehouse/HQ). No U.S. territories.
-next_row_id: (follow cycle-963 shuffled_order)
+active_layer: infrastructure
+active_subcategory: building_materials
+next_query: Cycle 966 shuffle_seed=20261966; reshuffle all 18; equal budget_per_subcategory=1_source_family_min; within each subcategory split budget evenly between U.S. and PRC sources (sides ~us645/prc409/allied1560); log rows_by_side_this_cycle; after shuffled pass give 3 thinnest active-row subcats one half-budget top-up each (recompute); Prefer thin: nickel (27), balsa (27), fission_smr (30), niobium (31). Country×subcategory sweep both sides + regulators. Weight under-covered: Colombia graphite, Nicaragua rail past MoU. Holdovers: CRBC Corentyne; AES Arenales CapEx blank; Bechtel QB2 desal CapEx blank; USASpending residual (San Marcos clinic; Siquirres done; P-03/P-04 Soto Cano; Montevideo materials; Nariño fire; steel towers Peru). No U.S. territories.
+next_row_id: (follow cycle-966 shuffled_order)
 dry_streak: 0
 
-# === Country×subcategory sweep cells touched (session continuing from 962) ===
-# Filled this batch: Mexico×building_materials NEW×2 (NEC fence/basin other; Meptek HVAC other); Bahamas×building_materials NEW×1 us (Olgoonik Nassau FE/BR); Colombia×building_materials NEW×5 (Mansilla kennels; Muzu lodging; DIRAN/DICAR base; Florencia police; Bogotá canopy); Ecuador×building_materials NEW×2 other (Galápagos indigenous school; Catamayo police); Brazil×building_materials NEW×1 us (Falcon Spectrum fire alarm); Uruguay×building_materials NEW×1 other (Chapicuy clinic); Haiti×building_materials NEW×1 us (Palgag US Terrier Rouge); Trinidad×building_materials NEW×1 us (Mesan consular waiting); Peru×balsa NEW×1 other (SERFOR tornillo y balsa chain presence — thin top-up).
-# Still thin: nickel, fission_smr, niobium, graphite; Nicaragua rail. PRC CapEx-blank.
-# ≥1/3 U.S. hunt budget spent (4 US CapEx this batch). Thin top-up: Peru balsa SERFOR presence.
+# === Country×subcategory sweep cells touched (session continuing from 965) ===
+# Filled this batch: Colombia×building_materials NEW×5 (Jardín de Tamana police other; CCOPI office other; Tumaco utilities other; Greenway fire us; Sur de Bolívar health other); Haiti×building_materials NEW×1 allied (Palgag Gonaïves-Hatte school); Chile×building_materials NEW×1 us (ECT elevator); Jamaica×building_materials NEW×1 us (Sea Pac Powell elevator); Honduras×building_materials NEW×4 other (HAP warehouses; ARFOR HQ; Bonatti warehouse/ATCALS; Bonatti arms room); Mexico×building_materials NEW×2 us (Global Vision clinics; Olgoonik SEMAR materials); Costa Rica×building_materials NEW×1 other (Bonatti Siquirres warehouse).
+# Still thin: nickel/balsa/fission_smr/niobium; Colombia graphite; Nicaragua rail. PRC CapEx-blank.
+# ≥1/3 U.S. hunt budget spent (5 US CapEx this batch).
+
+# === Cycle 965 (seed 20261965) ===
+# Shuffled: port_cranes, fission_smr, bridges_roads, graphite, copper, nickel, port_ownership, balsa, power_plants_grid, rail, engineering_epc, wind, water, other_renewables, niobium, building_materials, solar, lithium.
+# Logged 5 NEW (2 US / 0 PRC / 0 allied / 3 other):
+#   global_vision_mexico_clinics_1p34m_2024 eei_sur_bolivar_health_1p33m_2024 olgoonik_semar_materials_3p75m_2024 bonatti_soto_cano_arms_room_1p28m_2024 bonatti_siquirres_warehouse_1p21m_2025.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: San Marcos clinic; Soto Cano P-03/P-04; Montevideo materials; Nariño fire; thin.
+# Active after cycle 965: us645 / prc409 / allied1560 / other5933 (n=8547).
+
+# === Cycle 964 (seed 20261964) ===
+# Shuffled: bridges_roads, rail, niobium, port_ownership, power_plants_grid, solar, engineering_epc, water, lithium, fission_smr, wind, building_materials, graphite, port_cranes, balsa, copper, nickel, other_renewables.
+# Logged 5 NEW (1 US / 0 PRC / 0 allied / 4 other):
+#   eterna_hap_warehouse_wells_1p39m_2021 marago_tumaco_utilities_1p38m_2021 greenway_colombia_fire_alarm_1p37m_2017 eterna_soto_cano_arfor_hq_1p35m_2018 bonatti_soto_cano_warehouse_atcals_1p35m_2020.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: Global Vision clinics; Sur de Bolívar; Olgoonik SEMAR; Bonatti arms room; Siquirres; thin.
+# Active after cycle 964: us643 / prc409 / allied1560 / other5930 (n=8542).
+
+# === Cycle 963 (seed 20261963) ===
+# Shuffled: port_ownership, other_renewables, solar, niobium, balsa, nickel, port_cranes, copper, engineering_epc, wind, rail, bridges_roads, fission_smr, power_plants_grid, water, building_materials, lithium, graphite.
+# Logged 5 NEW (2 US / 0 PRC / 1 allied / 2 other):
+#   eterna_jardin_tama_police_1p55m_2019 palgag_gonaives_hatte_school_1p55m_2011 eei_ccopi_office_1p52m_2026 ect_chile_elevator_1p44m_2022 sea_pac_kingston_powell_elevator_1p39m_2024.
+# Thin top-up dry. Equal-budget misses: thin dry; PRC CapEx-blank.
+# Holdovers: HAP warehouses; Tumaco; Greenway fire; ARFOR HQ; Bonatti warehouse; thin.
+# Active after cycle 963: us642 / prc409 / allied1560 / other5926 (n=8537).
 
 # === Cycle 962 (seed 20261962) ===
 # Shuffled: port_ownership, other_renewables, balsa, port_cranes, engineering_epc, water, bridges_roads, niobium, power_plants_grid, nickel, fission_smr, wind, solar, graphite, building_materials, lithium, copper, rail.
