@@ -87,18 +87,18 @@
     }
   },
   "meta": {
-    "n_rows": 4023,
+    "n_rows": 4036,
     "counts": {
-      "total": 4023,
-      "active": 3824,
+      "total": 4036,
+      "active": 3837,
       "hunt": 42,
       "archived": 179,
       "paired": 7,
       "one_sided": 27,
       "proxy": 188,
       "exclude": 18,
-      "documented": 3750,
-      "on_map": 3656
+      "documented": 3763,
+      "on_map": 3669
     }
   },
   "layer_readouts": [
@@ -107,16 +107,16 @@
       "counts": {
         "us": 182,
         "prc": 127,
-        "allied": 2277,
-        "n": 2586
+        "allied": 2290,
+        "n": 2599
       },
       "usd": {
         "us": 46364207670.61,
         "us_n": 115,
         "prc": 17053401133.600002,
         "prc_n": 38,
-        "allied": 123205286018.66966,
-        "allied_n": 2203
+        "allied": 123618877436.40968,
+        "allied_n": 2216
       },
       "matched_gaps": {
         "n": 1,
@@ -364,16 +364,16 @@
       "counts": {
         "us": 130,
         "prc": 125,
-        "allied": 2591,
-        "n": 2846
+        "allied": 2604,
+        "n": 2859
       },
       "usd": {
         "us": 21244990901.289993,
         "us_n": 68,
         "prc": 42011016838.479996,
         "prc_n": 61,
-        "allied": 241399769740.32883,
-        "allied_n": 2510
+        "allied": 241813361158.06882,
+        "allied_n": 2523
       },
       "by_layer": {
         "energy": {
@@ -384,7 +384,7 @@
         "infrastructure": {
           "us": 68,
           "prc": 26,
-          "allied": 2154
+          "allied": 2167
         },
         "resources": {
           "us": 26,
@@ -5012,7 +5012,20 @@
       "motiva_viaquatro_exmaint_1t14_1m_brl",
       "motiva_vlt_carioca_exmaint_1t14_1m_brl",
       "motiva_metro_bahia_exmaint_1t14_6m_brl",
-      "motiva_outros_exmaint_1t14_19m_brl"
+      "motiva_outros_exmaint_1t14_19m_brl",
+      "motiva_roads_fy2013_1195m_brl",
+      "motiva_vialagos_fy2013_40m_brl",
+      "motiva_autoban_fy2013_359m_brl",
+      "motiva_viaoeste_fy2013_63m_brl",
+      "motiva_rodoanel_oeste_fy2013_31m_brl",
+      "motiva_spvias_fy2013_173m_brl",
+      "motiva_viario_fy2013_70m_brl",
+      "motiva_renovias_fy2013_11m_brl",
+      "motiva_rails_fy2013_80m_brl",
+      "motiva_viaquatro_fy2013_13m_brl",
+      "motiva_vlt_carioca_fy2013_10m_brl",
+      "motiva_metro_bahia_fy2013_18m_brl",
+      "motiva_outros_fy2013_85m_brl"
     ],
     "hunt": [
       "hunt_br_power_equip",
