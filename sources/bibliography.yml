@@ -10430,12 +10430,13 @@
   - hunt_cycle235
 - id: axia_ie_madeira_unwind_20260731
   type: company
-  chicago: AXIA Energia S.A. / AXIA Energia Nordeste S.A. “Material Fact — Unwinding of cross-holdings in transmission assets.” July 31, 2026. https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Material%20Fact%20-%20Unwinding%20of%20cross-holdings%20in%20transmission%20assets.pdf.
+  chicago: AXIA Energia. “Material Fact — Unwinding of cross-holdings in transmission assets.” July 31, 2026. https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Material%20Fact%20-%20Unwinding%20of%20cross-holdings%20in%20transmission%20assets.pdf.
   url: https://www.latibex.com/docs/Documentos/esp/hechosrelev/2026/Material%20Fact%20-%20Unwinding%20of%20cross-holdings%20in%20transmission%20assets.pdf
-  annotation: 'AXIA: ISA acquires remaining 49% IE Madeira for net R$1.167bn. Supports isa_energia_ie_madeira_49pct_1167m_2026.'
+  annotation: ISA IE Madeira CapEx-fill ~USD 224.76m via Fed H.10. Supports isa_energia_ie_madeira_49pct_1167m_2026.
   supports:
   - isa_energia_ie_madeira_49pct_1167m_2026
   - hunt_cycle183
+  - hunt_cycle236
 - id: bnamericas_caf_dorada_chiriguana_20261001
   type: press
   chicago: BNamericas. “CAF approves US$200mn for the Colombian railway corridor La Dorada–Chiriguaná.” October 1, 2026 (reprint of CAF press release). https://www.bnamericas.com/en/news/caf-approves-us200mn-for-the-colombian-railway-corridor-la-doradachiriguana.
@@ -11856,3 +11857,35 @@
   supports:
   - aes_panama_pese_10mw_2021
   - hunt_cycle235
+- id: colas_santiago_l9_electrical_20260624
+  type: company
+  chicago: Colas. “Colas has secured a new railway contract in Chile.” June 24, 2026. https://www.colas.com/en/press-releases/colas-has-secured-new-railway-contract-chile.
+  url: https://www.colas.com/en/press-releases/colas-has-secured-new-railway-contract-chile
+  annotation: Colas Santiago L9 electrical NEW ~USD 118.56m via Fed H.10. Supports colas_santiago_l9_electrical_scada_104m_eur_2026.
+  supports:
+  - colas_santiago_l9_electrical_scada_104m_eur_2026
+  - hunt_cycle236
+- id: colas_vinci_alameda_melipilla_20250702
+  type: company
+  chicago: Colas. “A consortium of VINCI Construction and Colas wins a new railway contract in Chile.” July 2, 2025. https://www.colas.com/en/press-releases/consortium-vinci-construction-and-colas-wins-new-railway-contract-chile.
+  url: https://www.colas.com/en/press-releases/consortium-vinci-construction-and-colas-wins-new-railway-contract-chile
+  annotation: Colas/VINCI Alameda–Melipilla S2 NEW USD 114.00m via Fed H.10. Supports colas_vinci_alameda_melipilla_s2_100m_eur_2025.
+  supports:
+  - colas_vinci_alameda_melipilla_s2_100m_eur_2025
+  - hunt_cycle236
+- id: holcim_pacasmayo_acquire_20251216
+  type: company
+  chicago: Holcim. “Holcim to acquire majority stake in Cementos Pacasmayo.” December 16, 2025. https://www.holcim.com/media/media-releases/holcim-to-acquire-majority-stake-cementos-pacasmayo.
+  url: https://www.holcim.com/media/media-releases/holcim-to-acquire-majority-stake-cementos-pacasmayo
+  annotation: Holcim Pacasmayo CapEx-fill USD 1.5bn EV. Supports holcim_pacasmayo_complete_2026.
+  supports:
+  - holcim_pacasmayo_complete_2026
+  - hunt_cycle236
+- id: expediente_danasun_choloma_2024
+  type: press
+  chicago: Expediente Público. “Asfura government withholds key details of Chinese solar megaproject amid transparency concerns.” 2024. https://www.expedientepublico.org/asfura-government-withholds-key-details-of-chinese-solar-megaproject-amid-transparency-concerns/.
+  url: https://www.expedientepublico.org/asfura-government-withholds-key-details-of-chinese-solar-megaproject-amid-transparency-concerns/
+  annotation: Danasun Choloma CapEx-fill USD 400m (proxy). Supports danasun_choloma_solar_honduras_2024.
+  supports:
+  - danasun_choloma_solar_honduras_2024
+  - hunt_cycle236
