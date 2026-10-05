@@ -16219,7 +16219,7 @@
   type: company
   chicago: Rumo S.A. “Fundamentos e Planilhas — CAPEX (planilha RI).” Retrieved October 5, 2026. https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/db676633-8692-378e-7462-7b7d01e308b3?origin=2.
   url: https://api.mziq.com/mzfilemanager/v2/d/003f6029-d45a-44ac-9c9e-869fe5df83fc/db676633-8692-378e-7462-7b7d01e308b3?origin=2
-  annotation: Rumo Brado Expansão 4T24 CapEx via Fed H.10. Supports rumo_conteiner_expansao_4t24_35m_brl.
+  annotation: Rumo Brado Expansão 3T24 CapEx via Fed H.10. Supports rumo_conteiner_expansao_3t24_6m_brl.
   supports:
   - rumo_1t26_capex_1774m_brl
   - hunt_cycle470
@@ -16306,3 +16306,18 @@
   - rumo_conteiner_4t24_41m_brl
   - rumo_conteiner_recorrente_4t24_6m_brl
   - rumo_conteiner_expansao_4t24_35m_brl
+  - rumo_3t24_capex_1468m_brl
+  - hunt_cycle476
+  - rumo_norte_3t24_1281m_brl
+  - rumo_norte_recorrente_3t24_286m_brl
+  - rumo_expansao_norte_3t24_995m_brl
+  - rumo_material_rodante_3t24_91m_brl
+  - rumo_capacitacao_3t24_341m_brl
+  - rumo_porto_terminais_3t24_79m_brl
+  - rumo_fmt_3t24_485m_brl
+  - rumo_sul_3t24_175m_brl
+  - rumo_sul_recorrente_3t24_164m_brl
+  - rumo_expansao_sul_3t24_11m_brl
+  - rumo_conteiner_3t24_12m_brl
+  - rumo_conteiner_recorrente_3t24_6m_brl
+  - rumo_conteiner_expansao_3t24_6m_brl
