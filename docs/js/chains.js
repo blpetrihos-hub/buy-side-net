@@ -608,8 +608,8 @@ function renderMap(fit) {
     const line = L.polyline(g.latlngs, {
       pane: "flows",
       color,
-      weight: 4.5,
-      opacity: dim ? 0.2 : 0.85,
+      weight: 5.5,
+      opacity: dim ? 0.2 : 0.9,
       lineCap: "round",
     }).bindTooltip(`<strong>${esc(CHAIN_BY_ID[fl.chain].long)}</strong><br>${esc(fl.label)}`, { sticky: true });
     webLayer.addLayer(line);
@@ -644,21 +644,13 @@ function renderMap(fit) {
         L.polyline(g.latlngs, {
           pane: "strands",
           color,
-          weight: strong ? 1.3 : 1,
-          opacity: strong ? 0.75 : 0.12,
+          weight: strong ? 1.2 : 0.9,
+          opacity: strong ? 0.7 : 0.12,
+          dashArray: "3 5",
+          lineCap: "butt",
           interactive: false,
         })
       );
-      if (g.length > 1.2) {
-        webLayer.addLayer(
-          L.marker(g.mid, {
-            pane: "arrows",
-            icon: arrowIcon(color, g.angle, 10),
-            interactive: false,
-            opacity: strong ? 0.9 : 0.15,
-          })
-        );
-      }
     });
   });
 
@@ -765,7 +757,7 @@ function renderSummary() {
       `<div class="summary-card">` +
       `<p class="summary-kicker">Team 2 brief · Capture Pathways</p>` +
       `<h2>Capture Pathways</h2>` +
-      `<p>Thick arrows trace each pathway from the brief: from the mine, through the port, out to the PRC across the Pacific, and back into Latin American power. Thin strands tie each step to the existing map plots that fit it, found by searching the codebook.</p>` +
+      `<p>Solid arrows are the pathway between hubs. Dashed lines link each hub to the map plots that fit that step.</p>` +
       `<p class="layer-line">${rows.length} distinct plots: ${countLine(rows)}</p>` +
       `</div>`;
     return;
@@ -964,8 +956,9 @@ function renderLegend() {
     "<span>·</span>" +
     sides +
     "<span>·</span>" +
-    `<span class="legend-item"><span class="hub-square legend-hub"></span>Chain hub</span>` +
-    `<span class="legend-item">Thick arrow: chain flow · thin strand: plot that fits a step</span>`;
+    `<span class="legend-item"><span class="hub-square legend-hub"></span>Hub</span>` +
+    `<span class="legend-item"><span class="legend-flow" aria-hidden="true"></span>Pathway</span>` +
+    `<span class="legend-item"><span class="legend-strand" aria-hidden="true"></span>Plot link</span>`;
 }
 
 async function boot() {

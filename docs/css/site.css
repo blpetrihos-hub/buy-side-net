@@ -523,6 +523,29 @@ code { font-size: 0.86em; }
   width: 1.1rem;
   height: 3px;
 }
+.legend-flow {
+  position: relative;
+  display: inline-block;
+  width: 1.55rem;
+  height: 0;
+  border-top: 4px solid var(--navy);
+  vertical-align: middle;
+}
+.legend-flow::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -6px;
+  border: 5px solid transparent;
+  border-left: 7px solid var(--navy);
+}
+.legend-strand {
+  display: inline-block;
+  width: 1.4rem;
+  height: 0;
+  border-top: 1.5px dashed var(--navy);
+  vertical-align: middle;
+}
 .legend-ring {
   display: inline-block;
   width: 0.8rem;
