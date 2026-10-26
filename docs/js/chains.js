@@ -958,7 +958,7 @@ function renderLegend() {
     "<span>·</span>" +
     `<span class="legend-item"><span class="hub-square legend-hub"></span>Hub</span>` +
     `<span class="legend-item"><span class="legend-flow" aria-hidden="true"></span>Hub-to-hub route</span>` +
-    `<span class="legend-item" title="Dashed line from a hub to a mapped observation that fits that step"><span class="legend-strand" aria-hidden="true"></span>Plot that fits this step</span>`;
+    `<span class="legend-item" title="Dashed line from a hub to a mapped observation that fits that step"><span class="legend-strand" aria-hidden="true"></span>Linked to hub</span>`;
 }
 
 async function boot() {
