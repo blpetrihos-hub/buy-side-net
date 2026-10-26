@@ -370,7 +370,7 @@ let MEMBERSHIP = {};
 let map = null;
 let webLayer = null;
 let pinById = {};
-const state = { chain: "all", node: null, side: "all", q: "", plot: null };
+const state = { chain: "all", node: null, side: "us_prc", q: "", plot: null };
 
 function $(id) {
   return document.getElementById(id);
@@ -453,6 +453,12 @@ function indexRows(rows) {
 function sideRows(node) {
   if (!node.rows) return [];
   if (state.side === "all") return node.rows;
+  if (state.side === "us_prc") {
+    return node.rows.filter((r) => {
+      const b = sideBucket(r.side);
+      return b === "us" || b === "prc";
+    });
+  }
   return node.rows.filter((r) => sideBucket(r.side) === state.side);
 }
 
@@ -955,6 +961,7 @@ function renderLegend() {
 
 async function boot() {
   readHash();
+  $("sideFilter").value = state.side;
   renderLegend();
   initMap();
   $("plotList").innerHTML = '<p class="empty">Searching the codebook for plots that fit each chain…</p>';
