@@ -326,17 +326,48 @@ main.page { max-width: 1100px; margin: 0 auto; padding: 1.25rem 1.5rem 2rem; }
 .page h3 { color: var(--rule); font-size: 1.02rem; margin-top: 1.4rem; }
 .page p, .page li { font-size: 0.98rem; }
 .bib-jump {
+  position: sticky;
+  top: 0;
+  z-index: 40;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem 0.15rem;
   margin: 0.75rem 0 1.25rem;
-  padding: 0.55rem 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-left: 0;
+  border-right: 0;
+  background: rgba(247, 244, 238, 0.97);
+  box-shadow: 0 6px 16px rgba(27, 58, 75, 0.08);
   font-size: 0.92rem;
 }
-.bib-jump a { color: var(--rule); text-decoration: none; }
-.bib-jump a:hover { text-decoration: underline; }
+.bib-jump-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 0.45rem;
+}
+.bib-jump a {
+  color: var(--rule);
+  text-decoration: none;
+  padding: 0.2rem 0.55rem;
+}
+.bib-jump a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.bib-jump a.is-active,
+.bib-jump a[aria-current="location"] {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.bib-jump-sep { color: var(--line); user-select: none; }
+.page h3[id^="layer-"],
+.page h4[id^="sub-"] {
+  scroll-margin-top: 3.75rem;
+}
 .page h4 {
   color: var(--muted);
   font-size: 0.92rem;

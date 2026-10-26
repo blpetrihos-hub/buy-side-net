@@ -20,7 +20,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from site_assets import css_href, stamp_docs_html  # noqa: E402
+from site_assets import css_href, js_src, stamp_docs_html  # noqa: E402
 SRC = ROOT / "sources" / "bibliography.yml"
 CODEBOOK_YML = ROOT / "data" / "codebook" / "codebook.yml"
 OBS_CSV = ROOT / "data" / "codebook" / "observations.csv"
@@ -138,6 +138,7 @@ def page(body: str, title: str, site_title: str, subtitle: str) -> str:
 <main class="page">
 {body}
 </main>
+<script src="{js_src("js/bibliography.js")}"></script>
 </body>
 </html>
 """
@@ -171,14 +172,17 @@ def render_entry(e: dict, anchor_id: str | None = None) -> str:
 
 
 def jump_nav(labels: dict[str, str]) -> str:
-    links = []
-    for key in MAP_LAYERS:
-        links.append(
-            f'<a href="#layer-{html.escape(key)}">{html.escape(labels[key])}</a>'
+    parts = ['<span class="bib-jump-label">Jump to</span>']
+    for i, key in enumerate(MAP_LAYERS):
+        if i:
+            parts.append('<span class="bib-jump-sep" aria-hidden="true">·</span>')
+        parts.append(
+            f'<a href="#layer-{html.escape(key)}" data-layer="{html.escape(key)}">'
+            f"{html.escape(labels[key])}</a>"
         )
     return (
         '<nav class="bib-jump" aria-label="Bibliography layers">'
-        + " · ".join(links)
+        + "".join(parts)
         + "</nav>"
     )
 
