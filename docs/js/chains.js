@@ -757,7 +757,7 @@ function renderSummary() {
       `<div class="summary-card">` +
       `<p class="summary-kicker">Team 2 brief · Capture Pathways</p>` +
       `<h2>Capture Pathways</h2>` +
-      `<p>Solid arrows are the pathway between hubs. Dashed lines link each hub to the map plots that fit that step.</p>` +
+      `<p>Solid arrows are the hub-to-hub route. Dashed lines show which mapped plots fit each step.</p>` +
       `<p class="layer-line">${rows.length} distinct plots: ${countLine(rows)}</p>` +
       `</div>`;
     return;
@@ -957,8 +957,8 @@ function renderLegend() {
     sides +
     "<span>·</span>" +
     `<span class="legend-item"><span class="hub-square legend-hub"></span>Hub</span>` +
-    `<span class="legend-item"><span class="legend-flow" aria-hidden="true"></span>Pathway</span>` +
-    `<span class="legend-item"><span class="legend-strand" aria-hidden="true"></span>Plot link</span>`;
+    `<span class="legend-item"><span class="legend-flow" aria-hidden="true"></span>Hub-to-hub route</span>` +
+    `<span class="legend-item" title="Dashed line from a hub to a mapped observation that fits that step"><span class="legend-strand" aria-hidden="true"></span>Plot that fits this step</span>`;
 }
 
 async function boot() {

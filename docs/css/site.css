@@ -523,28 +523,44 @@ code { font-size: 0.86em; }
   width: 1.1rem;
   height: 3px;
 }
+.legend-flow,
+.legend-strand {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 0.9rem;
+  margin-right: 0.15rem;
+}
 .legend-flow {
+  width: 1.85rem;
   position: relative;
-  display: inline-block;
-  width: 1.55rem;
-  height: 0;
-  border-top: 4px solid var(--navy);
-  vertical-align: middle;
+}
+.legend-flow::before {
+  content: "";
+  display: block;
+  width: 1.15rem;
+  height: 4px;
+  margin-right: 0.05rem;
+  background: var(--navy);
+  border-radius: 1px;
 }
 .legend-flow::after {
   content: "";
-  position: absolute;
-  right: -1px;
-  top: -6px;
-  border: 5px solid transparent;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
   border-left: 7px solid var(--navy);
 }
 .legend-strand {
-  display: inline-block;
-  width: 1.4rem;
-  height: 0;
-  border-top: 1.5px dashed var(--navy);
-  vertical-align: middle;
+  width: 1.55rem;
+}
+.legend-strand::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 2px dashed var(--navy);
 }
 .legend-ring {
   display: inline-block;
