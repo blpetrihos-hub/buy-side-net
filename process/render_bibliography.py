@@ -193,7 +193,7 @@ def main() -> None:
     site_title = site.get("title", "Commanding Heights of Latin America")
     subtitle = site.get(
         "subtitle",
-        "PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy.",
+        "U.S. versus PRC presence across infrastructure, scarce natural resources, and energy.",
     )
     labels = layer_labels(meta)
     sub_order = subcategory_order(meta)
