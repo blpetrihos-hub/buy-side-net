@@ -25,7 +25,7 @@ def nav(title: str, subtitle: str) -> str:
   <div class="inner">
     <nav aria-label="Site">
       <a href="index.html">Interactive map</a>
-      <a href="chains.html">Switch chains</a>
+      <a href="chains.html">Capture Pathways</a>
       <a href="methods.html" aria-current="page">Methods</a>
       <a href="bibliography.html">Bibliography</a>
     </nav>
@@ -47,6 +47,37 @@ def main() -> None:
     subtitle = site.get("subtitle", "")
 
     blocks: list[str] = []
+    blocks.append("<h2>Capture Pathways</h2>")
+    blocks.append(
+        "<p>A <strong>Capture Pathway</strong> is a named junction that runs across all three "
+        "layers at once: Scarce Natural Resources, Infrastructure, and Energy. It is not a "
+        "single-commodity brief and not a country inventory. One pathway stays on the map only "
+        "when a named fact in one layer changes the U.S.–PRC comparison in the other two at the "
+        "same time—for example, a mine, a port or crane package, and a power plant or turbine "
+        "line on the same flow.</p>"
+    )
+    blocks.append(
+        "<p>The <a href=\"chains.html\">Capture Pathways</a> tab draws that web. Thick arrows "
+        "trace the pathway from the brief (mine → dock or road → power equipment, often out to "
+        "the PRC across the Pacific and sometimes back into Latin American generation). Thin "
+        "strands tie each step to matching plots already on the interactive map, found by "
+        "searching the codebook. Side colors stay the same as the main map: PRC, U.S., and "
+        "allied/other.</p>"
+    )
+    blocks.append(
+        "<p>Inclusion rules match the rest of the site. Every figure on a pathway must come "
+        "from a page that was opened. Press-only numbers stay UNVERIFIED. Allied kit is labeled "
+        "allied, not American. The pathway is descriptive: it shows where ownership, equipment, "
+        "finance, or offtake can act as a choke point. It does not recommend a response. The "
+        "house term replaced an earlier working label (“switch chains”).</p>"
+    )
+    blocks.append(
+        "<p>Current pathways on the tab: copper (concentrate → Chancay → power and solar), "
+        "balsa (Ecuador blade wood → Guayaquil–Chancay Asia route → wind blades / Goldwind "
+        "Brazil), lithium (mining → refinement → export and manufacturing), and Marcona iron "
+        "ore (mine → San Nicolás port → thermal plant). New pathways are added only when the "
+        "three-layer test holds.</p>"
+    )
     blocks.append("<h2>What this measures</h2>")
     blocks.append(
         "<p>This site is a <strong>net assessment</strong> of the commanding heights of "
