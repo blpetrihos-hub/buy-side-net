@@ -12,7 +12,8 @@ const LAYER_LABEL = {
 
 let DATA = null;
 let ROWS = null;
-let COLORS = { us: "#2f5d73", prc: "#8c3a2b", allied: "#6b7c3c", hunt: "#8a9096" };
+let COLORS = { us: "#2f5d73", prc: "#8c3a2b", allied: "#6b7c3c" };
+const SHAPE_SWATCH = "#8a9096";
 let map = null;
 let layerGroup = null;
 let markersById = {};
@@ -39,11 +40,14 @@ function sideBucket(side) {
 }
 
 function pinColor(row) {
-  if (row.status === "hunt" || row.evidence === "hunt") return COLORS.hunt;
   const b = sideBucket(row.side);
   if (b === "us") return COLORS.us;
   if (b === "prc") return COLORS.prc;
   return COLORS.allied;
+}
+
+function isHunt(row) {
+  return row.status === "hunt" || row.evidence === "hunt";
 }
 
 function filterRows() {
@@ -52,6 +56,7 @@ function filterRows() {
     if (r.status === "archived") return false;
     if (r.evidence === "exclude") return false;
     if (r.layer === "archived") return false;
+    if (isHunt(r)) return false;
     if (!activeLayers[r.layer]) return false;
     if (s.subcategory !== "all" && r.subcategory !== s.subcategory) return false;
     if (s.country !== "all" && (r.country || "(unspecified)") !== s.country) return false;
@@ -60,7 +65,6 @@ function filterRows() {
       const b = sideBucket(r.side);
       if (s.side === "us_prc") {
         if (b !== "us" && b !== "prc") return false;
-        if (r.status === "hunt" || r.evidence === "hunt") return false;
       } else if (s.side === "allied") {
         if (b !== "allied") return false;
       } else if (b !== s.side) return false;
@@ -147,14 +151,13 @@ function renderLegend() {
     ["us", "U.S."],
     ["prc", "PRC"],
     ["allied", "Allied / other"],
-    ["hunt", "Hunt / unpriced"],
   ];
   const shapeHtml = shapes
     .map(([sh, label]) => {
       if (sh === "triangle") {
-        return `<span class="legend-item"><span class="legend-swatch triangle" style="border-bottom-color:${COLORS.hunt}"></span>${label}</span>`;
+        return `<span class="legend-item"><span class="legend-swatch triangle" style="border-bottom-color:${SHAPE_SWATCH}"></span>${label}</span>`;
       }
-      return `<span class="legend-item"><span class="legend-swatch ${sh}" style="background:${COLORS.hunt}"></span>${label}</span>`;
+      return `<span class="legend-item"><span class="legend-swatch ${sh}" style="background:${SHAPE_SWATCH}"></span>${label}</span>`;
     })
     .join("");
   const sideHtml = sides
@@ -452,7 +455,6 @@ function updateCountBox(rows) {
   let us = 0;
   let prc = 0;
   rows.forEach((r) => {
-    if (r.status === "hunt" || r.evidence === "hunt") return;
     const b = sideBucket(r.side);
     if (b === "us") us += 1;
     else if (b === "prc") prc += 1;
@@ -485,10 +487,9 @@ function renderMap(rows) {
   markersById = {};
   layerGroup = L.layerGroup();
   rows.forEach((r) => {
+    if (isHunt(r)) return;
     if (r.lat == null || r.lon == null) return;
-    if (!r.on_map && r.status !== "hunt") return;
-    // Hunt pins only when in-region with coords
-    if (r.status === "hunt" && (r.lat == null || r.lon == null)) return;
+    if (!r.on_map) return;
     const m = L.marker([r.lat, r.lon], { icon: markerIcon(r) });
     m.bindPopup(popupHtml(r));
     layerGroup.addLayer(m);

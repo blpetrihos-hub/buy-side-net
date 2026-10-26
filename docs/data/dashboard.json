@@ -2,7 +2,7 @@
   "generated_from": "commanding-heights codebook",
   "title": "Commanding Heights of Latin America",
   "subtitle": "PRC versus U.S. investment and presence across infrastructure, scarce natural resources, and energy.",
-  "caption": "Toggle layers and subcategories. Side colors mark U.S., PRC, allied/other, and hunt pins. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation.",
+  "caption": "Toggle layers and subcategories. Actor colors mark U.S., PRC, and allied/other. Counts and disclosed USD sums are descriptive; matched buy-side gaps appear only where a pair already exists. Nothing here is a recommendation.",
   "geography": {
     "region": "Latin America and the Caribbean",
     "rule": "Mapped and readout-eligible rows require country in latin_america_caribbean. Out-of-region countries are forced to status=archived (layer may become archived if not already) and are never placed on the map. Hunt seeds may leave country blank until a named site exists; blank-country rows are not mapped. Excludes U.S. territories: Puerto Rico, USVI (archive us_territory_out_of_scope).",
@@ -45,8 +45,7 @@
   "colors": {
     "us": "#2f5d73",
     "prc": "#8c3a2b",
-    "allied": "#6b7c3c",
-    "hunt": "#8a9096"
+    "allied": "#6b7c3c"
   },
   "taxonomy": {
     "infrastructure": {
