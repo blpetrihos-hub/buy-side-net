@@ -529,6 +529,11 @@ code { font-size: 0.86em; }
 }
 .chain-pin.picked .pin-ring { border-width: 3px; box-shadow: 0 0 0 3px rgba(27,58,75,0.35); }
 .legend-pin { width: 0.85rem; height: 0.85rem; }
+/* Keep hover tooltips above permanent hub nameplates (Leaflet defaults both near 650). */
+.leaflet-hubs-pane { z-index: 640; }
+.leaflet-tooltip-pane { z-index: 680; }
+.leaflet-popup-pane { z-index: 700; }
+
 .hub-icon { background: transparent; border: 0; }
 .hub-square, .legend-hub {
   display: block;
