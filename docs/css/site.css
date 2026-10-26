@@ -427,7 +427,7 @@ code { font-size: 0.86em; }
 .count-box .count-swatch { width: 0.7rem; height: 0.7rem; display: inline-block; }
 .count-box .count-sub { font-size: 0.68rem; color: var(--muted); margin-top: 0.2rem; }
 
-/* Switch chains web */
+/* Capture Pathways web */
 .chains-page { max-width: none; margin: 0; padding: 0; }
 .chains-layout {
   display: grid;

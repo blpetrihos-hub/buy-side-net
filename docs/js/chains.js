@@ -35,7 +35,7 @@ const CHAINS = [
   {
     id: "copper",
     title: "Copper",
-    long: "Copper switch chain",
+    long: "Copper capture pathway",
     color: "#b5651d",
     stages: ["Copper concentrate", "Chancay port", "Power and solar"],
     tagline:
@@ -46,7 +46,7 @@ const CHAINS = [
   {
     id: "balsa",
     title: "Balsa",
-    long: "Balsa switch chain",
+    long: "Balsa capture pathway",
     color: "#b8901c",
     stages: ["Balsa wood", "Guayaquil to Chancay", "Wind blades"],
     tagline:
@@ -57,7 +57,7 @@ const CHAINS = [
   {
     id: "lithium",
     title: "Lithium",
-    long: "Lithium switch chain",
+    long: "Lithium capture pathway",
     color: "#2a8c86",
     stages: ["Mining", "Refinement", "Export and manufacturing"],
     tagline:
@@ -68,7 +68,7 @@ const CHAINS = [
   {
     id: "marcona",
     title: "Marcona iron ore",
-    long: "Marcona iron ore switch chain",
+    long: "Marcona iron ore capture pathway",
     color: "#6e5a8a",
     stages: ["Marcona iron ore", "San Nicolás port", "Thermal energy plant"],
     tagline:
@@ -699,7 +699,7 @@ function renderMap(fit) {
 function renderChips() {
   const all = uniqueRows(NODES);
   const chips = [
-    `<button type="button" class="chip${state.chain === "all" ? " on" : ""}" data-chain="all">All chains <span class="chip-n">${all.length}</span></button>`,
+    `<button type="button" class="chip${state.chain === "all" ? " on" : ""}" data-chain="all">All pathways <span class="chip-n">${all.length}</span></button>`,
   ];
   CHAINS.forEach((c) => {
     const n = uniqueRows(NODES.filter((nd) => nd.chains.includes(c.id))).length;
@@ -739,7 +739,7 @@ function renderSummary() {
         ? `<p class="summary-note">${esc(node.context)}</p>`
         : `<p class="layer-line">${rows.length} matching plot${rows.length === 1 ? "" : "s"}: ${countLine(rows)}</p>`) +
       `<button type="button" class="link-btn" data-clear-node>Back to ${
-        state.chain === "all" ? "all chains" : esc(CHAIN_BY_ID[state.chain].long)
+        state.chain === "all" ? "all pathways" : esc(CHAIN_BY_ID[state.chain].long)
       }</button>` +
       `</div>`;
     return;
@@ -748,9 +748,9 @@ function renderSummary() {
     const rows = uniqueRows(NODES);
     box.innerHTML =
       `<div class="summary-card">` +
-      `<p class="summary-kicker">Team 2 brief · Switch chains</p>` +
-      `<h2>Four switch chains, one web</h2>` +
-      `<p>Thick arrows trace each chain from the brief: from the mine, through the port, out to the PRC across the Pacific, and back into Latin American power. Thin strands tie each step to the existing map plots that fit it, found by searching the codebook.</p>` +
+      `<p class="summary-kicker">Team 2 brief · Capture Pathways</p>` +
+      `<h2>Capture Pathways</h2>` +
+      `<p>Thick arrows trace each pathway from the brief: from the mine, through the port, out to the PRC across the Pacific, and back into Latin American power. Thin strands tie each step to the existing map plots that fit it, found by searching the codebook.</p>` +
       `<p class="layer-line">${rows.length} distinct plots: ${countLine(rows)}</p>` +
       `</div>`;
     return;
@@ -769,7 +769,7 @@ function renderSummary() {
     .join("");
   box.innerHTML =
     `<div class="summary-card" style="border-top-color:${c.color}">` +
-    `<p class="summary-kicker" style="color:${c.color}">Switch chain</p>` +
+    `<p class="summary-kicker" style="color:${c.color}">Capture pathway</p>` +
     `<h2>${esc(c.long)}</h2>` +
     `<p>${esc(c.tagline)}</p>` +
     `<ol class="stage-list">${steps}</ol>` +
