@@ -577,7 +577,11 @@ function initMap() {
   map.createPane("strands").style.zIndex = 410;
   map.createPane("flows").style.zIndex = 420;
   map.createPane("arrows").style.zIndex = 615;
-  map.createPane("hubs").style.zIndex = 650;
+  // Hubs above pins/arrows (600/615) but below Leaflet tooltips (default 650)
+  // so hover boxes are never buried under hub nameplates.
+  map.createPane("hubs").style.zIndex = 640;
+  map.getPane("tooltipPane").style.zIndex = 680;
+  map.getPane("popupPane").style.zIndex = 700;
 }
 
 function visibleNodes() {

@@ -554,6 +554,8 @@ code { font-size: 0.86em; }
   border: 1px solid var(--line);
   padding: 1px 6px 2px;
   line-height: 1.25;
+  /* Nameplate is decorative; hit-testing stays on the diamond so nearby pin tooltips work. */
+  pointer-events: none;
 }
 .hub-icon.off-map .hub-label { color: var(--accent); font-style: italic; }
 .hub-icon.label-left .hub-label { left: auto; right: 20px; }
