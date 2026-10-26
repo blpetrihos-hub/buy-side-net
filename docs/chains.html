@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Switch chains · Commanding Heights of Latin America</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/site.css?v=1dd39661">
+</head>
+<body>
+<header class="site-header site-header-compact">
+  <div class="inner">
+    <nav aria-label="Site">
+      <a href="index.html">Interactive map</a>
+      <a href="chains.html" aria-current="page">Switch chains</a>
+      <a href="methods.html">Methods</a>
+      <a href="bibliography.html">Bibliography</a>
+    </nav>
+    <div class="header-brand">
+      <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
+      <h1>Commanding Heights of Latin America</h1>
+      <p class="sub">Switch chains: how scarce natural resources, infrastructure, and energy link into one PRC supply web.</p>
+    </div>
+  </div>
+</header>
+
+<main class="chains-page">
+  <div class="chains-layout">
+    <section class="web-stage" aria-label="Switch chain map">
+      <div class="chain-chips" id="chainChips" role="toolbar" aria-label="Filter by chain"></div>
+      <div id="chainMap"></div>
+      <div class="map-legend-bar web-legend" id="webLegend"></div>
+    </section>
+    <aside class="chain-panel" id="chainPanel">
+      <div class="panel-filters">
+        <label class="ctl">Search plots in view
+          <input type="search" id="plotSearch" placeholder="Company, place, or project" autocomplete="off">
+        </label>
+        <label class="ctl">Side
+          <select id="sideFilter">
+            <option value="all">All sides</option>
+            <option value="prc">PRC</option>
+            <option value="us">U.S.</option>
+            <option value="allied">Allied / other</option>
+          </select>
+        </label>
+      </div>
+      <div id="chainSummary"></div>
+      <div class="plot-detail" id="plotDetail" hidden></div>
+      <div id="plotList"></div>
+    </aside>
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/chains.js?v=1dd39661"></script>
+</body>
+</html>

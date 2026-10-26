@@ -25,6 +25,7 @@ def nav(title: str, subtitle: str) -> str:
   <div class="inner">
     <nav aria-label="Site">
       <a href="index.html">Interactive map</a>
+      <a href="chains.html">Switch chains</a>
       <a href="methods.html" aria-current="page">Methods</a>
       <a href="bibliography.html">Bibliography</a>
     </nav>

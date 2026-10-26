@@ -552,6 +552,8 @@ async function boot() {
     $(id).addEventListener("change", render)
   );
   render();
+  const focus = new URLSearchParams(window.location.search).get("focus");
+  if (focus) focusRow(focus);
 }
 
 boot().catch((err) => {
