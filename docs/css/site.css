@@ -574,18 +574,22 @@ code { font-size: 0.86em; }
   overflow: auto;
   padding: 0.75rem 0.95rem 2rem;
   background: var(--paper);
+  text-align: center;
 }
 .panel-filters {
   display: grid;
   grid-template-columns: 1fr 9.5rem;
   gap: 0.5rem;
+  text-align: center;
 }
-.ctl input[type="search"] {
+.ctl input[type="search"],
+.ctl select {
   display: block;
   width: 100%;
   margin-top: 0.2rem;
   font-family: inherit;
   padding: 0.25rem 0.4rem;
+  text-align: center;
 }
 .summary-card {
   background: var(--card);
@@ -593,6 +597,7 @@ code { font-size: 0.86em; }
   border-top: 3px solid var(--navy);
   padding: 0.65rem 0.8rem 0.75rem;
   margin: 0.25rem 0 0.75rem;
+  text-align: center;
 }
 .summary-card h2 { font-size: 1.08rem; color: var(--navy); margin: 0 0 0.35rem; }
 .summary-card p { font-size: 0.88rem; margin: 0 0 0.45rem; }
@@ -605,10 +610,11 @@ code { font-size: 0.86em; }
 }
 .summary-note { font-size: 0.8rem; color: var(--muted); font-style: italic; }
 .security-read {
-  border-left: 3px solid var(--accent);
-  padding-left: 0.55rem;
+  border-left: 0;
+  border-top: 3px solid var(--accent);
+  padding: 0.45rem 0 0;
 }
-.stage-list { margin: 0.2rem 0 0.55rem; padding-left: 0; list-style: none; font-size: 0.86rem; }
+.stage-list { margin: 0.2rem 0 0.55rem; padding-left: 0; list-style: none; font-size: 0.86rem; text-align: center; }
 .stage-list li { margin-bottom: 0.25rem; }
 .link-btn {
   font-family: inherit;
@@ -628,20 +634,33 @@ code { font-size: 0.86em; }
   padding: 0.6rem 0.8rem 0.7rem;
   margin-bottom: 0.75rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
 }
 .plot-detail[hidden] { display: none; }
-.detail-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+.detail-head {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  position: relative;
+}
+.plot-detail .overlay-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 .plot-detail h3 { font-size: 0.95rem; color: var(--navy); margin: 0.1rem 0 0.35rem; }
 .detail-note { font-size: 0.82rem; color: #333; margin: 0.4rem 0; }
 .detail-links { font-size: 0.86rem; margin: 0.3rem 0; }
 .detail-links a { color: var(--rule); font-weight: 700; }
-.plot-group { margin-bottom: 0.85rem; }
+.plot-group { margin-bottom: 0.85rem; text-align: center; }
 .plot-group h3 {
   font-size: 0.92rem;
   color: var(--navy);
   margin: 0 0 0.3rem;
   padding-bottom: 0.2rem;
   border-bottom: 1px solid var(--line);
+  text-align: center;
 }
 .group-swatch {
   display: inline-block;
@@ -658,8 +677,9 @@ code { font-size: 0.86em; }
   display: flex;
   gap: 0.45rem;
   align-items: flex-start;
+  justify-content: center;
   width: 100%;
-  text-align: left;
+  text-align: center;
   font-family: inherit;
   background: none;
   border: 0;
@@ -669,7 +689,7 @@ code { font-size: 0.86em; }
   color: #1a1a1a;
 }
 .plot-item:hover, .plot-item.on { background: #fff; }
-.plot-item.on { box-shadow: inset 3px 0 0 var(--navy); }
+.plot-item.on { box-shadow: inset 0 -3px 0 var(--navy); }
 .plot-swatch {
   flex: 0 0 auto;
   display: inline-block;
@@ -679,9 +699,10 @@ code { font-size: 0.86em; }
   margin-top: 0.3rem;
   margin-right: 0.3rem;
 }
-.plot-text { min-width: 0; }
+.plot-text { min-width: 0; text-align: center; }
 .plot-asset { display: block; font-size: 0.82rem; line-height: 1.3; }
 .plot-item .meta { display: block; color: var(--muted); font-size: 0.74rem; margin-top: 0.1rem; }
+.plot-group .empty { text-align: center; }
 
 @media (max-width: 960px) {
   .chains-layout { grid-template-columns: 1fr; }

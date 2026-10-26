@@ -723,10 +723,15 @@ function renderChips() {
 
 function countLine(rows) {
   const c = sideCounts(rows);
-  return (
-    `<span class="side-prc">PRC ${c.prc}</span> · <span class="side-us">U.S. ${c.us}</span> · ` +
-    `<span class="side-allied">Allied / other ${c.allied}</span>`
-  );
+  const parts = [
+    `<span class="side-prc">PRC ${c.prc}</span>`,
+    `<span class="side-us">U.S. ${c.us}</span>`,
+  ];
+  // U.S. vs PRC view already drops allied plots — don't show Allied / other 0.
+  if (state.side !== "us_prc") {
+    parts.push(`<span class="side-allied">Allied / other ${c.allied}</span>`);
+  }
+  return parts.join(" · ");
 }
 
 function scopeNodes() {
