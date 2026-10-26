@@ -515,6 +515,7 @@ function setupOverlay() {
     else shut();
   });
   close.addEventListener("click", shut);
+  open();
 }
 
 function render() {
