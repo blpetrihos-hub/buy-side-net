@@ -57,12 +57,13 @@ def main() -> None:
         "line on the same flow.</p>"
     )
     blocks.append(
-        "<p>The <a href=\"chains.html\">Capture Pathways</a> tab draws that web. Thick arrows "
-        "trace the pathway from the brief (mine → dock or road → power equipment, often out to "
-        "the PRC across the Pacific and sometimes back into Latin American generation). Thin "
-        "strands tie each step to matching plots already on the interactive map, found by "
-        "searching the codebook. Side colors stay the same as the main map: PRC, U.S., and "
-        "allied/other.</p>"
+        "<p>The <a href=\"chains.html\">Capture Pathways</a> tab draws that web. A <strong>hub</strong> "
+        "is a named place on the map where a pathway step is anchored—a port, mine complex, "
+        "factory site, or the off-map PRC stand-in across the Pacific. Solid arrows are the "
+        "hub-to-hub route from the brief (mine → dock or road → power equipment, often out to "
+        "the PRC and sometimes back into Latin American generation). Dashed lines show which "
+        "mapped plots are linked to that hub, found by searching the codebook. Actor colors "
+        "stay the same as the main map: PRC, U.S., and allied/other.</p>"
     )
     blocks.append(
         "<p>Inclusion rules match the rest of the site. Every figure on a pathway must come "
