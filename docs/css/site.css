@@ -458,6 +458,113 @@ code { font-size: 0.86em; }
 .count-box .count-swatch { width: 0.7rem; height: 0.7rem; display: inline-block; }
 .count-box .count-sub { font-size: 0.68rem; color: var(--muted); margin-top: 0.2rem; }
 
+/* Play-over-time bar (map bottom) */
+.time-bar {
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+  align-items: stretch;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid var(--line);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  padding: 0.55rem 0.75rem;
+  color: var(--navy);
+  pointer-events: auto;
+}
+.time-bar[hidden] { display: none; }
+.time-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.time-play {
+  flex: 0 0 auto;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: var(--navy);
+  color: #fff;
+  border: 1px solid var(--navy);
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  min-width: 4.25rem;
+}
+.time-play[aria-pressed="true"] {
+  background: var(--card);
+  color: var(--navy);
+}
+.time-year {
+  flex: 0 0 auto;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  min-width: 3.25rem;
+}
+.time-scrubber {
+  flex: 1 1 auto;
+  min-width: 0;
+  accent-color: var(--navy);
+  cursor: pointer;
+}
+.time-rate {
+  flex: 1 1 260px;
+  min-width: 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+.time-rate .rate-title {
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+.time-rate .rate-line { margin: 0.05rem 0; }
+.time-rate .rate-line strong { font-variant-numeric: tabular-nums; }
+.time-rate .rate-caveat {
+  margin: 0.25rem 0 0;
+  font-size: 0.65rem;
+  color: var(--muted);
+  line-height: 1.3;
+}
+.time-spark {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: 28px;
+  margin-top: 0.3rem;
+}
+.time-spark rect.us { fill: var(--us); }
+.time-spark rect.prc { fill: var(--prc); }
+.time-spark .spark-now {
+  stroke: var(--navy);
+  stroke-width: 1;
+  fill: none;
+  opacity: 0.55;
+}
+
+@media (max-width: 640px) {
+  .time-bar {
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    padding: 0.45rem 0.55rem;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .time-controls { flex: 1 1 auto; width: 100%; }
+  .time-rate { flex: 1 1 auto; width: 100%; }
+}
+
 /* Capture Pathways web */
 .chains-page { max-width: none; margin: 0; padding: 0; }
 .chains-layout {

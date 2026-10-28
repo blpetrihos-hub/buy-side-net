@@ -79,6 +79,15 @@ def main() -> None:
         "ore (mine → San Nicolás port → thermal plant). New pathways are added only when the "
         "three-layer test holds.</p>"
     )
+    blocks.append("<h2>Interactive map over time</h2>")
+    blocks.append(
+        "<p>The <a href=\"index.html\">Interactive map</a> can play observation years "
+        "cumulatively: pins land as the playhead advances, and the rate strip shows new "
+        "plots and documented USD for that year by side. Pin counts are not an unbiased "
+        "stock measure—more U.S. than PRC markers can reflect source coverage and hunt "
+        "effort as much as capital presence. Documented USD for a year is a codebook "
+        "sum, not a clean investment-flow series (CapEx rows can nest).</p>"
+    )
     blocks.append("<h2>What this measures</h2>")
     blocks.append(
         "<p>This site is a <strong>net assessment</strong> of the commanding heights of "

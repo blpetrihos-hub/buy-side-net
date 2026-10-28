@@ -14,10 +14,18 @@ let DATA = null;
 let ROWS = null;
 let COLORS = { us: "#2f5d73", prc: "#8c3a2b", allied: "#6b7c3c" };
 const SHAPE_SWATCH = "#8a9096";
+const PLAY_MS = 700;
 let map = null;
 let layerGroup = null;
 let markersById = {};
 let activeLayers = { infrastructure: true, resources: true, energy: true };
+const timeState = {
+  year: null,
+  playing: false,
+  years: [],
+  timer: null,
+  ready: false,
+};
 
 function $(id) {
   return document.getElementById(id);
@@ -50,7 +58,16 @@ function isHunt(row) {
   return row.status === "hunt" || row.evidence === "hunt";
 }
 
-function filterRows() {
+function rowYear(r) {
+  const y = Number(r.year);
+  return Number.isFinite(y) ? y : null;
+}
+
+function isMappable(r) {
+  return r.on_map && r.lat != null && r.lon != null && !isHunt(r);
+}
+
+function filterRowsBase() {
   const s = selected();
   return ROWS.filter((r) => {
     if (r.status === "archived") return false;
@@ -70,6 +87,226 @@ function filterRows() {
       } else if (b !== s.side) return false;
     }
     return true;
+  });
+}
+
+function filterRows() {
+  const rows = filterRowsBase();
+  if (timeState.year == null) return rows;
+  return rows.filter((r) => {
+    const y = rowYear(r);
+    return y != null && y <= timeState.year;
+  });
+}
+
+function yearsFromRows(rows) {
+  let min = Infinity;
+  let max = -Infinity;
+  rows.forEach((r) => {
+    if (!isMappable(r)) return;
+    const y = rowYear(r);
+    if (y == null) return;
+    if (y < min) min = y;
+    if (y > max) max = y;
+  });
+  if (!Number.isFinite(min)) return [];
+  const out = [];
+  for (let y = min; y <= max; y++) out.push(y);
+  return out;
+}
+
+function syncTimeDomain(baseRows) {
+  const years = yearsFromRows(baseRows);
+  timeState.years = years;
+  if (!years.length) {
+    timeState.year = null;
+    stopPlay();
+    return;
+  }
+  const minY = years[0];
+  const maxY = years[years.length - 1];
+  if (!timeState.ready || timeState.year == null) {
+    timeState.year = maxY;
+    timeState.ready = true;
+  } else if (timeState.year < minY) {
+    timeState.year = minY;
+  } else if (timeState.year > maxY) {
+    timeState.year = maxY;
+  }
+}
+
+function stopPlay() {
+  if (timeState.timer != null) {
+    clearInterval(timeState.timer);
+    timeState.timer = null;
+  }
+  timeState.playing = false;
+  const btn = $("timePlay");
+  if (btn) {
+    btn.textContent = "Play";
+    btn.setAttribute("aria-pressed", "false");
+  }
+}
+
+function setPlayhead(year, opts) {
+  const options = opts || {};
+  if (!timeState.years.length) {
+    timeState.year = null;
+  } else {
+    const minY = timeState.years[0];
+    const maxY = timeState.years[timeState.years.length - 1];
+    timeState.year = Math.max(minY, Math.min(maxY, year));
+  }
+  if (options.pause) stopPlay();
+  if (!options.skipRender) render();
+}
+
+function advancePlay() {
+  if (!timeState.years.length || timeState.year == null) {
+    stopPlay();
+    return;
+  }
+  const maxY = timeState.years[timeState.years.length - 1];
+  if (timeState.year >= maxY) {
+    stopPlay();
+    return;
+  }
+  setPlayhead(timeState.year + 1);
+}
+
+function togglePlay() {
+  if (timeState.playing) {
+    stopPlay();
+    return;
+  }
+  if (!timeState.years.length) return;
+  const minY = timeState.years[0];
+  const maxY = timeState.years[timeState.years.length - 1];
+  if (timeState.year == null || timeState.year >= maxY) {
+    timeState.year = minY;
+  }
+  timeState.playing = true;
+  const btn = $("timePlay");
+  if (btn) {
+    btn.textContent = "Pause";
+    btn.setAttribute("aria-pressed", "true");
+  }
+  render();
+  timeState.timer = setInterval(advancePlay, PLAY_MS);
+}
+
+function sparkSvg(seriesUs, seriesPrc, years, playhead) {
+  const n = years.length;
+  if (!n) return "";
+  const w = 280;
+  const h = 28;
+  const gap = 1;
+  const pairW = Math.max(2, (w - gap * (n - 1)) / n);
+  const barW = Math.max(1, (pairW - 1) / 2);
+  let peak = 1;
+  for (let i = 0; i < n; i++) {
+    peak = Math.max(peak, seriesUs[i] || 0, seriesPrc[i] || 0);
+  }
+  const bars = [];
+  years.forEach((y, i) => {
+    const x0 = i * (pairW + gap);
+    const usH = Math.max(0, ((seriesUs[i] || 0) / peak) * (h - 2));
+    const prcH = Math.max(0, ((seriesPrc[i] || 0) / peak) * (h - 2));
+    bars.push(
+      `<rect class="us" x="${x0.toFixed(2)}" y="${(h - usH).toFixed(2)}" width="${barW.toFixed(
+        2
+      )}" height="${usH.toFixed(2)}"></rect>`
+    );
+    bars.push(
+      `<rect class="prc" x="${(x0 + barW + 1).toFixed(2)}" y="${(h - prcH).toFixed(
+        2
+      )}" width="${barW.toFixed(2)}" height="${prcH.toFixed(2)}"></rect>`
+    );
+  });
+  let cursor = "";
+  const idx = years.indexOf(playhead);
+  if (idx >= 0) {
+    const x = idx * (pairW + gap) + pairW / 2;
+    cursor = `<line class="spark-now" x1="${x.toFixed(2)}" y1="0" x2="${x.toFixed(2)}" y2="${h}"></line>`;
+  }
+  return (
+    `<svg class="time-spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="Observation rate by year, U.S. and PRC">` +
+    bars.join("") +
+    cursor +
+    "</svg>"
+  );
+}
+
+function updateTimeControls() {
+  const bar = $("timeBar");
+  const scrubber = $("timeScrubber");
+  const label = $("timeYearLabel");
+  if (!bar || !scrubber || !label) return;
+  const years = timeState.years;
+  if (!years.length || timeState.year == null) {
+    bar.hidden = true;
+    return;
+  }
+  bar.hidden = false;
+  scrubber.min = String(years[0]);
+  scrubber.max = String(years[years.length - 1]);
+  scrubber.value = String(timeState.year);
+  label.textContent = String(timeState.year);
+}
+
+function updateRatePanel(baseRows, playhead) {
+  const box = $("timeRate");
+  if (!box) return;
+  if (playhead == null) {
+    box.innerHTML = "";
+    return;
+  }
+  const mapped = baseRows.filter(isMappable);
+  let newUs = 0;
+  let newPrc = 0;
+  let usdUs = 0;
+  let usdPrc = 0;
+  const years = timeState.years;
+  const seriesUs = years.map(() => 0);
+  const seriesPrc = years.map(() => 0);
+  const yearIndex = Object.fromEntries(years.map((y, i) => [y, i]));
+  mapped.forEach((r) => {
+    const y = rowYear(r);
+    if (y == null) return;
+    const b = sideBucket(r.side);
+    const i = yearIndex[y];
+    if (i != null) {
+      if (b === "us") seriesUs[i] += 1;
+      else if (b === "prc") seriesPrc[i] += 1;
+    }
+    if (y !== playhead) return;
+    if (b === "us") {
+      newUs += 1;
+      if (r.on_usd_sum && r.value_usd != null) usdUs += r.value_usd;
+    } else if (b === "prc") {
+      newPrc += 1;
+      if (r.on_usd_sum && r.value_usd != null) usdPrc += r.value_usd;
+    }
+  });
+  box.innerHTML =
+    `<div class="rate-title">Investment rate · ${playhead}</div>` +
+    `<p class="rate-line">New plots: <span class="side-us">U.S. <strong>${newUs}</strong></span> · ` +
+    `<span class="side-prc">PRC <strong>${newPrc}</strong></span></p>` +
+    `<p class="rate-line">Documented USD: <span class="side-us">U.S. <strong>${fmtMoney(
+      usdUs
+    )}</strong></span> · ` +
+    `<span class="side-prc">PRC <strong>${fmtMoney(usdPrc)}</strong></span></p>` +
+    sparkSvg(seriesUs, seriesPrc, years, playhead) +
+    '<p class="rate-caveat">Pin counts can reflect source coverage, not capital stock. USD uses documented codebook rows for that year only.</p>';
+}
+
+function setupTimeBar() {
+  const play = $("timePlay");
+  const scrubber = $("timeScrubber");
+  if (!play || !scrubber) return;
+  play.addEventListener("click", togglePlay);
+  scrubber.addEventListener("input", () => {
+    setPlayhead(Number(scrubber.value), { pause: true });
   });
 }
 
@@ -455,15 +692,20 @@ function updateCountBox(rows) {
   let us = 0;
   let prc = 0;
   rows.forEach((r) => {
+    if (!isMappable(r)) return;
     const b = sideBucket(r.side);
     if (b === "us") us += 1;
     else if (b === "prc") prc += 1;
   });
+  const asOf =
+    timeState.year != null
+      ? `As of ${timeState.year} · updates with filters`
+      : "Updates with filters";
   countBox.innerHTML =
     '<div class="count-title">LatAm observations</div>' +
     `<div class="count-row"><span class="count-swatch" style="background:${COLORS.us}"></span>U.S. <strong>${us.toLocaleString()}</strong></div>` +
     `<div class="count-row"><span class="count-swatch" style="background:${COLORS.prc}"></span>PRC <strong>${prc.toLocaleString()}</strong></div>` +
-    '<div class="count-sub">Updates with filters</div>';
+    `<div class="count-sub">${asOf}</div>`;
 }
 
 function renderMap(rows) {
@@ -521,6 +763,10 @@ function setupOverlay() {
 
 function render() {
   if (!DATA || !ROWS) return;
+  const baseRows = filterRowsBase();
+  syncTimeDomain(baseRows);
+  updateTimeControls();
+  updateRatePanel(baseRows, timeState.year);
   const rows = filterRows();
   renderLayerReadouts(rows);
   renderCountryReadouts(rows);
@@ -529,8 +775,10 @@ function render() {
   renderMap(rows);
   if (map) setTimeout(() => map.invalidateSize(), 80);
   const counts = DATA.meta.counts || {};
+  const yearBit =
+    timeState.year != null ? ` Cumulative through ${timeState.year}.` : "";
   $("note").textContent =
-    `${rows.length} row(s) with current filters. ` +
+    `${rows.length} row(s) with current filters.${yearBit} ` +
     `${counts.on_map || 0} mapped across the codebook. ` +
     `${counts.archived || 0} archived (out of region or legacy lanes). ` +
     `Descriptive only — no recommendations.`;
@@ -550,6 +798,7 @@ async function boot() {
   fillSubcategorySelect();
   fillCountrySelect();
   setupOverlay();
+  setupTimeBar();
   ["subcategory", "country", "evidence", "side"].forEach((id) =>
     $(id).addEventListener("change", render)
   );
