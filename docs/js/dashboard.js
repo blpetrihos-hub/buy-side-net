@@ -378,16 +378,26 @@ function markerIcon(row) {
   });
 }
 
+function legendSides() {
+  const side = ($("side") && $("side").value) || "us_prc";
+  const all = [
+    ["us", "U.S."],
+    ["prc", "PRC"],
+    ["allied", "Allied / other"],
+  ];
+  if (side === "all") return all;
+  if (side === "us_prc") return all.filter(([k]) => k === "us" || k === "prc");
+  if (side === "us" || side === "prc" || side === "allied") {
+    return all.filter(([k]) => k === side);
+  }
+  return all.filter(([k]) => k !== "allied");
+}
+
 function renderLegend() {
   const shapes = [
     ["square", "Infrastructure"],
     ["circle", "Scarce Natural Resources"],
     ["triangle", "Energy"],
-  ];
-  const sides = [
-    ["us", "U.S."],
-    ["prc", "PRC"],
-    ["allied", "Allied / other"],
   ];
   const shapeHtml = shapes
     .map(([sh, label]) => {
@@ -397,7 +407,7 @@ function renderLegend() {
       return `<span class="legend-item"><span class="legend-swatch ${sh}" style="background:${SHAPE_SWATCH}"></span>${label}</span>`;
     })
     .join("");
-  const sideHtml = sides
+  const sideHtml = legendSides()
     .map(
       ([k, label]) =>
         `<span class="legend-item"><span class="legend-swatch circle" style="background:${COLORS[k]}"></span>${label}</span>`
@@ -763,6 +773,7 @@ function setupOverlay() {
 
 function render() {
   if (!DATA || !ROWS) return;
+  renderLegend();
   const baseRows = filterRowsBase();
   syncTimeDomain(baseRows);
   updateTimeControls();

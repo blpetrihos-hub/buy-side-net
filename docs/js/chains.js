@@ -713,14 +713,19 @@ function renderChips() {
   $("chainChips").innerHTML = chips.join("");
 }
 
+function sideFilterShows(bucket) {
+  if (state.side === "all") return true;
+  if (state.side === "us_prc") return bucket === "us" || bucket === "prc";
+  return state.side === bucket;
+}
+
 function countLine(rows) {
   const c = sideCounts(rows);
-  const parts = [
-    `<span class="side-prc">PRC ${c.prc}</span>`,
-    `<span class="side-us">U.S. ${c.us}</span>`,
-  ];
-  // U.S. vs PRC view already drops allied plots — don't show Allied / other 0.
-  if (state.side !== "us_prc") {
+  const parts = [];
+  if (sideFilterShows("prc")) parts.push(`<span class="side-prc">PRC ${c.prc}</span>`);
+  if (sideFilterShows("us")) parts.push(`<span class="side-us">U.S. ${c.us}</span>`);
+  // Allied / other only when the Actors filter can show those plots.
+  if (sideFilterShows("allied")) {
     parts.push(`<span class="side-allied">Allied / other ${c.allied}</span>`);
   }
   return parts.join(" · ");
@@ -860,6 +865,7 @@ function renderPanel() {
 }
 
 function render(fit) {
+  renderLegend();
   renderMap(fit);
   renderPanel();
   writeHash();
@@ -941,11 +947,15 @@ function bindEvents() {
   });
 }
 
+function legendSideKeys() {
+  return ["prc", "us", "allied"].filter((k) => sideFilterShows(k));
+}
+
 function renderLegend() {
   const chains = CHAINS.map(
     (c) => `<span class="legend-item"><span class="legend-line" style="background:${c.color}"></span>${esc(c.title)}</span>`
   ).join("");
-  const sides = ["prc", "us", "allied"]
+  const sides = legendSideKeys()
     .map(
       (k) =>
         `<span class="legend-item"><span class="pin-ring legend-pin" style="--pin:${SIDE_COLORS[k]}"><span class="pin-dot"></span></span>${SIDE_LABEL[k]} plot</span>`
