@@ -82,11 +82,14 @@ def main() -> None:
     blocks.append("<h2>Interactive map over time</h2>")
     blocks.append(
         "<p>The <a href=\"index.html\">Interactive map</a> can play observation years "
-        "cumulatively: pins land as the playhead advances, and the rate strip shows new "
-        "plots and documented USD for that year by side. Pin counts are not an unbiased "
+        "cumulatively: pins land as the playhead advances. Tracker numbers are the "
+        "cumulative stock on the map (plot counts and documented USD through that year); "
+        "a second line shows what was added in the playhead year, and the chart plots "
+        "cumulative documented USD so the slope reads as investment pace. Rows without a "
+        "coded year stay on the map at every playhead. Pin counts are not an unbiased "
         "stock measure—more U.S. than PRC markers can reflect source coverage and hunt "
-        "effort as much as capital presence. Documented USD for a year is a codebook "
-        "sum, not a clean investment-flow series (CapEx rows can nest).</p>"
+        "effort as much as capital presence. Documented USD is a codebook sum, not a "
+        "clean investment-flow series (CapEx rows can nest).</p>"
     )
     blocks.append("<h2>What this measures</h2>")
     blocks.append(

@@ -530,6 +530,7 @@ code { font-size: 0.86em; }
 }
 .time-rate .rate-line { margin: 0.05rem 0; }
 .time-rate .rate-line strong { font-variant-numeric: tabular-nums; }
+.time-rate .rate-change { color: var(--muted); }
 .time-rate .rate-caveat {
   margin: 0.25rem 0 0;
   font-size: 0.65rem;
@@ -539,17 +540,39 @@ code { font-size: 0.86em; }
 .time-spark {
   display: block;
   width: 100%;
-  max-width: 280px;
-  height: 28px;
-  margin-top: 0.3rem;
+  max-width: 300px;
+  height: 52px;
+  margin-top: 0.35rem;
+  overflow: visible;
 }
-.time-spark rect.us { fill: var(--us); }
-.time-spark rect.prc { fill: var(--prc); }
+.time-spark .spark-line {
+  fill: none;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.time-spark .spark-line.us { stroke: var(--us); }
+.time-spark .spark-line.prc { stroke: var(--prc); }
+.time-spark .spark-ghost {
+  fill: none;
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+  opacity: 0.35;
+}
+.time-spark .spark-ghost.us { stroke: var(--us); }
+.time-spark .spark-ghost.prc { stroke: var(--prc); }
+.time-spark .spark-dot.us { fill: var(--us); }
+.time-spark .spark-dot.prc { fill: var(--prc); }
 .time-spark .spark-now {
   stroke: var(--navy);
   stroke-width: 1;
   fill: none;
-  opacity: 0.55;
+  opacity: 0.45;
+}
+.time-spark .spark-caption {
+  font-size: 7px;
+  fill: var(--muted);
+  letter-spacing: 0.02em;
 }
 
 @media (max-width: 640px) {

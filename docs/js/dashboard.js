@@ -93,9 +93,10 @@ function filterRowsBase() {
 function filterRows() {
   const rows = filterRowsBase();
   if (timeState.year == null) return rows;
+  // Undated rows stay visible — they must not vanish when the playhead moves.
   return rows.filter((r) => {
     const y = rowYear(r);
-    return y != null && y <= timeState.year;
+    return y == null || y <= timeState.year;
   });
 }
 
@@ -195,44 +196,61 @@ function togglePlay() {
   timeState.timer = setInterval(advancePlay, PLAY_MS);
 }
 
-function sparkSvg(seriesUs, seriesPrc, years, playhead) {
+function fmtDeltaMoney(n) {
+  if (n == null || Number.isNaN(n) || n === 0) return "$0";
+  const sign = n > 0 ? "+" : "−";
+  return sign + fmtMoney(Math.abs(n)).replace(/^\$/, "");
+}
+
+function cumUsdSparkSvg(cumUs, cumPrc, years, playhead) {
   const n = years.length;
   if (!n) return "";
-  const w = 280;
-  const h = 28;
-  const gap = 1;
-  const pairW = Math.max(2, (w - gap * (n - 1)) / n);
-  const barW = Math.max(1, (pairW - 1) / 2);
+  const w = 300;
+  const h = 52;
+  const padL = 2;
+  const padR = 2;
+  const padT = 4;
+  const padB = 4;
+  const idx = Math.max(0, years.indexOf(playhead));
   let peak = 1;
   for (let i = 0; i < n; i++) {
-    peak = Math.max(peak, seriesUs[i] || 0, seriesPrc[i] || 0);
+    peak = Math.max(peak, cumUs[i] || 0, cumPrc[i] || 0);
   }
-  const bars = [];
-  years.forEach((y, i) => {
-    const x0 = i * (pairW + gap);
-    const usH = Math.max(0, ((seriesUs[i] || 0) / peak) * (h - 2));
-    const prcH = Math.max(0, ((seriesPrc[i] || 0) / peak) * (h - 2));
-    bars.push(
-      `<rect class="us" x="${x0.toFixed(2)}" y="${(h - usH).toFixed(2)}" width="${barW.toFixed(
-        2
-      )}" height="${usH.toFixed(2)}"></rect>`
-    );
-    bars.push(
-      `<rect class="prc" x="${(x0 + barW + 1).toFixed(2)}" y="${(h - prcH).toFixed(
-        2
-      )}" width="${barW.toFixed(2)}" height="${prcH.toFixed(2)}"></rect>`
-    );
-  });
-  let cursor = "";
-  const idx = years.indexOf(playhead);
-  if (idx >= 0) {
-    const x = idx * (pairW + gap) + pairW / 2;
-    cursor = `<line class="spark-now" x1="${x.toFixed(2)}" y1="0" x2="${x.toFixed(2)}" y2="${h}"></line>`;
+  const xAt = (i) => padL + (i / Math.max(1, n - 1)) * (w - padL - padR);
+  const yAt = (v) => padT + (1 - (v || 0) / peak) * (h - padT - padB);
+  function pathTo(series, through) {
+    const pts = [];
+    for (let i = 0; i <= through; i++) {
+      pts.push(`${i === 0 ? "M" : "L"}${xAt(i).toFixed(2)} ${yAt(series[i]).toFixed(2)}`);
+    }
+    return pts.join(" ");
   }
+  function ghostPath(series) {
+    if (idx >= n - 1) return "";
+    const pts = [];
+    for (let i = idx; i < n; i++) {
+      pts.push(`${i === idx ? "M" : "L"}${xAt(i).toFixed(2)} ${yAt(series[i]).toFixed(2)}`);
+    }
+    return pts.join(" ");
+  }
+  const cursorX = xAt(idx);
   return (
-    `<svg class="time-spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="Observation rate by year, U.S. and PRC">` +
-    bars.join("") +
-    cursor +
+    `<svg class="time-spark" viewBox="0 0 ${w} ${h}" role="img" ` +
+    `aria-label="Cumulative documented USD through ${playhead}, U.S. and PRC">` +
+    `<path class="spark-ghost us" d="${ghostPath(cumUs)}"></path>` +
+    `<path class="spark-ghost prc" d="${ghostPath(cumPrc)}"></path>` +
+    `<path class="spark-line us" d="${pathTo(cumUs, idx)}"></path>` +
+    `<path class="spark-line prc" d="${pathTo(cumPrc, idx)}"></path>` +
+    `<circle class="spark-dot us" cx="${cursorX.toFixed(2)}" cy="${yAt(cumUs[idx]).toFixed(
+      2
+    )}" r="2.4"></circle>` +
+    `<circle class="spark-dot prc" cx="${cursorX.toFixed(2)}" cy="${yAt(cumPrc[idx]).toFixed(
+      2
+    )}" r="2.4"></circle>` +
+    `<line class="spark-now" x1="${cursorX.toFixed(2)}" y1="${padT}" x2="${cursorX.toFixed(
+      2
+    )}" y2="${h - padB}"></line>` +
+    `<text class="spark-caption" x="${padL}" y="${h - 1}">Cumulative documented USD · slope = pace</text>` +
     "</svg>"
   );
 }
@@ -262,42 +280,78 @@ function updateRatePanel(baseRows, playhead) {
     return;
   }
   const mapped = baseRows.filter(isMappable);
-  let newUs = 0;
-  let newPrc = 0;
-  let usdUs = 0;
-  let usdPrc = 0;
   const years = timeState.years;
-  const seriesUs = years.map(() => 0);
-  const seriesPrc = years.map(() => 0);
   const yearIndex = Object.fromEntries(years.map((y, i) => [y, i]));
+  const annualUsdUs = years.map(() => 0);
+  const annualUsdPrc = years.map(() => 0);
+  const annualNUs = years.map(() => 0);
+  const annualNPrc = years.map(() => 0);
+  let undatedUs = 0;
+  let undatedPrc = 0;
+
   mapped.forEach((r) => {
-    const y = rowYear(r);
-    if (y == null) return;
     const b = sideBucket(r.side);
-    const i = yearIndex[y];
-    if (i != null) {
-      if (b === "us") seriesUs[i] += 1;
-      else if (b === "prc") seriesPrc[i] += 1;
+    if (b !== "us" && b !== "prc") return;
+    const y = rowYear(r);
+    if (y == null) {
+      if (b === "us") undatedUs += 1;
+      else undatedPrc += 1;
+      return;
     }
-    if (y !== playhead) return;
+    const i = yearIndex[y];
+    if (i == null) return;
     if (b === "us") {
-      newUs += 1;
-      if (r.on_usd_sum && r.value_usd != null) usdUs += r.value_usd;
-    } else if (b === "prc") {
-      newPrc += 1;
-      if (r.on_usd_sum && r.value_usd != null) usdPrc += r.value_usd;
+      annualNUs[i] += 1;
+      if (r.on_usd_sum && r.value_usd != null) annualUsdUs[i] += r.value_usd;
+    } else {
+      annualNPrc[i] += 1;
+      if (r.on_usd_sum && r.value_usd != null) annualUsdPrc[i] += r.value_usd;
     }
   });
+
+  const cumNUs = [];
+  const cumNPrc = [];
+  const cumUsdUs = [];
+  const cumUsdPrc = [];
+  let nUs = undatedUs;
+  let nPrc = undatedPrc;
+  let uUs = 0;
+  let uPrc = 0;
+  years.forEach((y, i) => {
+    nUs += annualNUs[i];
+    nPrc += annualNPrc[i];
+    uUs += annualUsdUs[i];
+    uPrc += annualUsdPrc[i];
+    cumNUs.push(nUs);
+    cumNPrc.push(nPrc);
+    cumUsdUs.push(uUs);
+    cumUsdPrc.push(uPrc);
+  });
+
+  const idx = Math.max(0, years.indexOf(playhead));
+  const addNUs = annualNUs[idx] || 0;
+  const addNPrc = annualNPrc[idx] || 0;
+  const addUsdUs = annualUsdUs[idx] || 0;
+  const addUsdPrc = annualUsdPrc[idx] || 0;
+
   box.innerHTML =
-    `<div class="rate-title">Investment rate · ${playhead}</div>` +
-    `<p class="rate-line">New plots: <span class="side-us">U.S. <strong>${newUs}</strong></span> · ` +
-    `<span class="side-prc">PRC <strong>${newPrc}</strong></span></p>` +
+    `<div class="rate-title">Through ${playhead}</div>` +
+    `<p class="rate-line">On map: <span class="side-us">U.S. <strong>${cumNUs[idx].toLocaleString()}</strong></span> · ` +
+    `<span class="side-prc">PRC <strong>${cumNPrc[idx].toLocaleString()}</strong></span></p>` +
     `<p class="rate-line">Documented USD: <span class="side-us">U.S. <strong>${fmtMoney(
-      usdUs
+      cumUsdUs[idx]
     )}</strong></span> · ` +
-    `<span class="side-prc">PRC <strong>${fmtMoney(usdPrc)}</strong></span></p>` +
-    sparkSvg(seriesUs, seriesPrc, years, playhead) +
-    '<p class="rate-caveat">Pin counts can reflect source coverage, not capital stock. USD uses documented codebook rows for that year only.</p>';
+    `<span class="side-prc">PRC <strong>${fmtMoney(cumUsdPrc[idx])}</strong></span></p>` +
+    `<p class="rate-line rate-change">Added in ${playhead}: ` +
+    `<span class="side-us">U.S. <strong>+${addNUs}</strong> · <strong>${fmtDeltaMoney(
+      addUsdUs
+    )}</strong></span> · ` +
+    `<span class="side-prc">PRC <strong>+${addNPrc}</strong> · <strong>${fmtDeltaMoney(
+      addUsdPrc
+    )}</strong></span></p>` +
+    cumUsdSparkSvg(cumUsdUs, cumUsdPrc, years, playhead) +
+    '<p class="rate-caveat">Cumulative stock matches pins on the map. Chart slope is the investment pace. ' +
+    "Pin counts can reflect source coverage; CapEx rows can nest in USD sums.</p>";
 }
 
 function setupTimeBar() {
