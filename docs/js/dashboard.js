@@ -250,7 +250,6 @@ function cumUsdSparkSvg(cumUs, cumPrc, years, playhead) {
     `<line class="spark-now" x1="${cursorX.toFixed(2)}" y1="${padT}" x2="${cursorX.toFixed(
       2
     )}" y2="${h - padB}"></line>` +
-    `<text class="spark-caption" x="${padL}" y="${h - 1}">Cumulative documented USD · slope = pace</text>` +
     "</svg>"
   );
 }
@@ -349,6 +348,7 @@ function updateRatePanel(baseRows, playhead) {
     `<span class="side-prc">PRC <strong>+${addNPrc}</strong> · <strong>${fmtDeltaMoney(
       addUsdPrc
     )}</strong></span></p>` +
+    '<p class="spark-caption">Cumulative documented USD · slope = pace</p>' +
     cumUsdSparkSvg(cumUsdUs, cumUsdPrc, years, playhead) +
     '<p class="rate-caveat">Cumulative stock matches pins on the map. Chart slope is the investment pace. ' +
     "Pin counts can reflect source coverage; CapEx rows can nest in USD sums.</p>";
