@@ -169,12 +169,13 @@ body {
   border-bottom-color: inherit;
 }
 
-/* Fullscreen floating key — SE ocean corner, above the play bar */
+/* Fullscreen floating key — SE ocean corner, clear above the play bar */
 .map-float-key {
   display: none;
   position: absolute;
   right: 1.1rem;
-  bottom: 7.5rem;
+  /* Time bar carries rate copy + 52px spark; sit above that strip with a gap */
+  bottom: 13.5rem;
   z-index: 1100;
   flex-direction: column;
   align-items: flex-start;
@@ -202,7 +203,7 @@ body {
 @media (max-width: 640px) {
   .map-float-key {
     right: 0.65rem;
-    bottom: 12rem;
+    bottom: 17rem;
     max-width: min(14rem, calc(100% - 1.2rem));
     font-size: 0.68rem;
     padding: 0.45rem 0.55rem;
