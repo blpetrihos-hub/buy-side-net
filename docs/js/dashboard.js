@@ -457,27 +457,58 @@ function legendSides() {
   return all.filter(([k]) => k !== "allied");
 }
 
-function renderLegend() {
-  const shapes = [
-    ["square", "Infrastructure"],
-    ["circle", "Scarce Natural Resources"],
-    ["triangle", "Energy"],
-  ];
-  const shapeHtml = shapes
-    .map(([sh, label]) => {
-      if (sh === "triangle") {
-        return `<span class="legend-item"><span class="legend-swatch triangle" style="border-bottom-color:${SHAPE_SWATCH}"></span>${label}</span>`;
-      }
-      return `<span class="legend-item"><span class="legend-swatch ${sh}" style="background:${SHAPE_SWATCH}"></span>${label}</span>`;
-    })
+function legendLayers() {
+  // Only layers currently toggled on — matches pins that can appear on the map.
+  return [
+    ["infrastructure", "square", "Infrastructure"],
+    ["resources", "circle", "Scarce Natural Resources"],
+    ["energy", "triangle", "Energy"],
+  ].filter(([layer]) => activeLayers[layer]);
+}
+
+function legendItemHtml(shape, label, color) {
+  if (shape === "triangle") {
+    return (
+      `<span class="legend-item"><span class="legend-swatch triangle" ` +
+      `style="border-bottom-color:${color}"></span>${label}</span>`
+    );
+  }
+  return (
+    `<span class="legend-item"><span class="legend-swatch ${shape}" ` +
+    `style="background:${color}"></span>${label}</span>`
+  );
+}
+
+function legendMarkup(opts) {
+  const options = opts || {};
+  const stacked = !!options.stacked;
+  const sep = stacked ? "" : "<span class=\"legend-sep\">·</span>";
+  const shapeHtml = legendLayers()
+    .map(([, sh, label]) => legendItemHtml(sh, label, SHAPE_SWATCH))
     .join("");
   const sideHtml = legendSides()
-    .map(
-      ([k, label]) =>
-        `<span class="legend-item"><span class="legend-swatch circle" style="background:${COLORS[k]}"></span>${label}</span>`
-    )
+    .map(([k, label]) => legendItemHtml("circle", label, COLORS[k]))
     .join("");
-  $("mapLegend").innerHTML = shapeHtml + "<span>·</span>" + sideHtml;
+  if (!shapeHtml && !sideHtml) {
+    return '<span class="legend-item legend-empty">No plots visible</span>';
+  }
+  if (!shapeHtml || !sideHtml) return shapeHtml + sideHtml;
+  return shapeHtml + sep + sideHtml;
+}
+
+function renderLegend() {
+  const top = $("mapLegend");
+  if (top) top.innerHTML = legendMarkup({ stacked: false });
+  const floatKey = $("mapFloatKey");
+  if (floatKey) {
+    floatKey.innerHTML = legendMarkup({ stacked: true });
+    // Keep the floating key in sync with fullscreen state without waiting for a
+    // fullscreen event (filters can change while already fullscreen).
+    const stage = floatKey.closest(".map-stage");
+    const on = stage && mapIsFullscreen(stage);
+    floatKey.hidden = !on;
+    floatKey.setAttribute("aria-hidden", on ? "false" : "true");
+  }
 }
 
 function renderLayerToggles() {
@@ -707,6 +738,14 @@ function revealFullscreenChrome(stage, opts) {
   }, 2800);
 }
 
+function syncFloatKey(stage) {
+  const floatKey = $("mapFloatKey");
+  if (!floatKey) return;
+  const on = stage && mapIsFullscreen(stage);
+  floatKey.hidden = !on;
+  floatKey.setAttribute("aria-hidden", on ? "false" : "true");
+}
+
 function syncFullscreenChrome(stage) {
   if (!stage) return;
   const on = mapIsFullscreen(stage);
@@ -714,6 +753,7 @@ function syncFullscreenChrome(stage) {
     if (!stage.classList.contains("is-map-fullscreen")) {
       stage.classList.add("is-map-fullscreen");
     }
+    syncFloatKey(stage);
     revealFullscreenChrome(stage);
     return;
   }
@@ -729,6 +769,7 @@ function syncFullscreenChrome(stage) {
       "time-chrome-hold"
     );
   }
+  syncFloatKey(stage);
 }
 
 function enterMapFullscreen(el, after) {
@@ -799,6 +840,19 @@ function wireFullscreenChrome(stage) {
           revealFullscreenChrome(stage);
         }
       }, 0);
+    });
+  }
+  const floatKey = stage.querySelector(".map-float-key");
+  if (floatKey) {
+    // Keep map drag/zoom from eating clicks on the key.
+    floatKey.addEventListener("mousedown", function (e) {
+      e.stopPropagation();
+    });
+    floatKey.addEventListener("dblclick", function (e) {
+      e.stopPropagation();
+    });
+    floatKey.addEventListener("wheel", function (e) {
+      e.stopPropagation();
     });
   }
 }
