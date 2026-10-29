@@ -604,7 +604,7 @@ code { font-size: 0.86em; }
 .time-rate .rate-caveat {
   margin: 0.25rem 0 0;
   max-width: 300px;
-  font-size: 0.65rem;
+  font-size: calc(0.65rem + 1pt);
   font-weight: 700;
   color: var(--muted);
   line-height: 1.3;
