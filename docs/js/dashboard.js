@@ -127,7 +127,7 @@ function syncTimeDomain(baseRows) {
   const minY = years[0];
   const maxY = years[years.length - 1];
   if (!timeState.ready || timeState.year == null) {
-    timeState.year = maxY;
+    timeState.year = minY;
     timeState.ready = true;
   } else if (timeState.year < minY) {
     timeState.year = minY;
