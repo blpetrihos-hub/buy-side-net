@@ -147,6 +147,10 @@ function stopPlay() {
     btn.textContent = "Play";
     btn.setAttribute("aria-pressed", "false");
   }
+  const bar = $("timeBar");
+  if (bar) bar.classList.remove("is-playing");
+  const stage = bar && bar.closest(".map-stage");
+  if (stage && mapIsFullscreen(stage)) revealFullscreenChrome(stage);
 }
 
 function setPlayhead(year, opts) {
@@ -191,6 +195,12 @@ function togglePlay() {
   if (btn) {
     btn.textContent = "Pause";
     btn.setAttribute("aria-pressed", "true");
+  }
+  const bar = $("timeBar");
+  if (bar) bar.classList.add("is-playing");
+  const stage = bar && bar.closest(".map-stage");
+  if (stage && mapIsFullscreen(stage)) {
+    revealFullscreenChrome(stage, { sticky: true });
   }
   render();
   timeState.timer = setInterval(advancePlay, PLAY_MS);
@@ -657,6 +667,11 @@ const FS_EXPAND =
 const FS_COLLAPSE =
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3v5H3M16 3v5h5M8 21v-5H3M16 21v-5h5"/></svg>';
 
+function mapStageEl(leafletMap) {
+  const mapEl = leafletMap.getContainer();
+  return (mapEl && mapEl.closest(".map-stage")) || mapEl;
+}
+
 function mapIsFullscreen(el) {
   const fs = document.fullscreenElement || document.webkitFullscreenElement;
   return fs === el || el.classList.contains("map-windowed-full");
@@ -670,26 +685,122 @@ function updateFullscreenButton(el, btn) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
 }
 
-function enterMapFullscreen(el) {
+function clearFullscreenChromeTimer(stage) {
+  if (stage && stage._chromeTimer != null) {
+    clearTimeout(stage._chromeTimer);
+    stage._chromeTimer = null;
+  }
+}
+
+function revealFullscreenChrome(stage, opts) {
+  if (!stage || !mapIsFullscreen(stage)) return;
+  const options = opts || {};
+  stage.classList.add("time-chrome-visible");
+  clearFullscreenChromeTimer(stage);
+  // Stay up while playing or while the pointer is on the play bar itself.
+  if (options.sticky || timeState.playing || stage.classList.contains("time-chrome-hold")) {
+    return;
+  }
+  stage._chromeTimer = setTimeout(function () {
+    stage.classList.remove("time-chrome-visible");
+    stage._chromeTimer = null;
+  }, 2800);
+}
+
+function syncFullscreenChrome(stage) {
+  if (!stage) return;
+  const on = mapIsFullscreen(stage);
+  if (on) {
+    if (!stage.classList.contains("is-map-fullscreen")) {
+      stage.classList.add("is-map-fullscreen");
+    }
+    revealFullscreenChrome(stage);
+    return;
+  }
+  if (
+    stage.classList.contains("is-map-fullscreen") ||
+    stage.classList.contains("time-chrome-visible") ||
+    stage.classList.contains("time-chrome-hold")
+  ) {
+    clearFullscreenChromeTimer(stage);
+    stage.classList.remove(
+      "is-map-fullscreen",
+      "time-chrome-visible",
+      "time-chrome-hold"
+    );
+  }
+}
+
+function enterMapFullscreen(el, after) {
+  const done = typeof after === "function" ? after : function () {};
   const req = el.requestFullscreen || el.webkitRequestFullscreen;
   if (req) {
     const p = req.call(el);
-    if (p && typeof p.catch === "function") {
-      p.catch(() => el.classList.add("map-windowed-full"));
+    if (p && typeof p.then === "function") {
+      p.then(done).catch(function () {
+        el.classList.add("map-windowed-full");
+        done();
+      });
+      return;
     }
+    done();
     return;
   }
   el.classList.add("map-windowed-full");
+  done();
 }
 
-function exitMapFullscreen(el) {
+function exitMapFullscreen(el, after) {
+  const done = typeof after === "function" ? after : function () {};
   const cur = document.fullscreenElement || document.webkitFullscreenElement;
   if (cur === el) {
     const exit = document.exitFullscreen || document.webkitExitFullscreen;
-    if (exit) exit.call(document);
+    if (exit) {
+      const p = exit.call(document);
+      if (p && typeof p.then === "function") {
+        p.then(done).catch(done);
+        return;
+      }
+    }
+    done();
     return;
   }
   el.classList.remove("map-windowed-full");
+  done();
+}
+
+function wireFullscreenChrome(stage) {
+  if (!stage || stage._chromeWired) return;
+  stage._chromeWired = true;
+  const bump = function () {
+    revealFullscreenChrome(stage);
+  };
+  stage.addEventListener("mousemove", bump);
+  stage.addEventListener("pointerdown", bump);
+  const bar = stage.querySelector(".time-bar");
+  if (bar) {
+    bar.addEventListener("mouseenter", function () {
+      stage.classList.add("time-chrome-hold");
+      revealFullscreenChrome(stage, { sticky: true });
+    });
+    bar.addEventListener("mouseleave", function () {
+      stage.classList.remove("time-chrome-hold");
+      revealFullscreenChrome(stage);
+    });
+    bar.addEventListener("focusin", function () {
+      stage.classList.add("time-chrome-hold");
+      revealFullscreenChrome(stage, { sticky: true });
+    });
+    bar.addEventListener("focusout", function () {
+      // Defer so focus moving within the bar does not flicker.
+      setTimeout(function () {
+        if (!bar.contains(document.activeElement)) {
+          stage.classList.remove("time-chrome-hold");
+          revealFullscreenChrome(stage);
+        }
+      }, 0);
+    });
+  }
 }
 
 function addFullscreenControl(leafletMap) {
@@ -706,27 +817,26 @@ function addFullscreenControl(leafletMap) {
       btn.setAttribute("aria-pressed", "false");
       L.DomEvent.disableClickPropagation(bar);
       L.DomEvent.disableScrollPropagation(bar);
-      L.DomEvent.on(btn, "click", L.DomEvent.stop).on(btn, "click", function () {
-        const el = leafletMap.getContainer();
-        if (mapIsFullscreen(el)) exitMapFullscreen(el);
-        else enterMapFullscreen(el);
-      });
+      const stage = mapStageEl(leafletMap);
+      wireFullscreenChrome(stage);
       const sync = function () {
-        updateFullscreenButton(leafletMap.getContainer(), btn);
+        syncFullscreenChrome(stage);
+        updateFullscreenButton(stage, btn);
         setTimeout(function () {
           leafletMap.invalidateSize();
         }, 80);
       };
+      L.DomEvent.on(btn, "click", L.DomEvent.stop).on(btn, "click", function () {
+        if (mapIsFullscreen(stage)) exitMapFullscreen(stage, sync);
+        else enterMapFullscreen(stage, sync);
+      });
       document.addEventListener("fullscreenchange", sync);
       document.addEventListener("webkitfullscreenchange", sync);
       window.addEventListener("keydown", function (e) {
-        if (e.key === "Escape" && leafletMap.getContainer().classList.contains("map-windowed-full")) {
-          exitMapFullscreen(leafletMap.getContainer());
-          sync();
+        if (e.key === "Escape" && stage.classList.contains("map-windowed-full")) {
+          exitMapFullscreen(stage, sync);
         }
       });
-      const mo = new MutationObserver(sync);
-      mo.observe(leafletMap.getContainer(), { attributes: true, attributeFilter: ["class"] });
       return bar;
     },
   });
