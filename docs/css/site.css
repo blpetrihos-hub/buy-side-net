@@ -529,31 +529,8 @@ code { font-size: 0.86em; }
   padding: 0.55rem 0.85rem 0.65rem;
   color: var(--navy);
   pointer-events: auto;
-  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 .time-bar[hidden] { display: none; }
-
-/* Fullscreen: hide play bar until mouse/focus activity (video-chrome style) */
-.map-stage.is-map-fullscreen .time-bar:not([hidden]) {
-  opacity: 0;
-  transform: translateY(110%);
-  pointer-events: none;
-}
-.map-stage.is-map-fullscreen.time-chrome-visible .time-bar:not([hidden]),
-.map-stage.is-map-fullscreen .time-bar.is-playing:not([hidden]),
-.map-stage.is-map-fullscreen .time-bar:focus-within:not([hidden]) {
-  opacity: 1;
-  transform: none;
-  pointer-events: auto;
-}
-@media (hover: none) {
-  /* Touch / no-hover: keep the play bar reachable in fullscreen */
-  .map-stage.is-map-fullscreen .time-bar:not([hidden]) {
-    opacity: 1;
-    transform: none;
-    pointer-events: auto;
-  }
-}
 
 /* Keep Leaflet attribution above the edge-flush time bar */
 .map-stage .leaflet-bottom {
