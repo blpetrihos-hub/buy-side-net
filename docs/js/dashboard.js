@@ -362,6 +362,19 @@ function setupTimeBar() {
   scrubber.addEventListener("input", () => {
     setPlayhead(Number(scrubber.value), { pause: true });
   });
+  // Space plays/pauses in normal and fullscreen views; skip when typing in fields.
+  window.addEventListener("keydown", function (e) {
+    if (e.code !== "Space" && e.key !== " ") return;
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    const t = e.target;
+    if (t) {
+      const tag = (t.tagName || "").toLowerCase();
+      if (tag === "input" || tag === "textarea" || tag === "select") return;
+      if (t.isContentEditable) return;
+    }
+    e.preventDefault();
+    togglePlay();
+  });
 }
 
 function fmtPct(gap) {
