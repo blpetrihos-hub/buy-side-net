@@ -583,6 +583,11 @@ code { font-size: 0.86em; }
 .time-rate {
   flex: 1 1 260px;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-size: 0.78rem;
   line-height: 1.35;
 }
@@ -611,13 +616,14 @@ code { font-size: 0.86em; }
   letter-spacing: 0.02em;
   color: var(--muted);
   line-height: 1.2;
+  text-align: center;
 }
 .time-spark {
   display: block;
   width: 100%;
   max-width: 300px;
   height: 52px;
-  margin-top: 0.15rem;
+  margin: 0.15rem auto 0;
   overflow: visible;
 }
 .time-spark .spark-line {
