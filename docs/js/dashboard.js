@@ -205,8 +205,8 @@ function fmtDeltaMoney(n) {
 function cumUsdSparkSvg(cumUs, cumPrc, years, playhead) {
   const n = years.length;
   if (!n) return "";
-  const w = 300;
-  const h = 52;
+  const w = 340;
+  const h = 72;
   const padL = 2;
   const padR = 2;
   const padT = 4;
@@ -262,6 +262,7 @@ function updateTimeControls() {
   const years = timeState.years;
   if (!years.length || timeState.year == null) {
     bar.hidden = true;
+    positionChromeAboveTimeBar();
     return;
   }
   bar.hidden = false;
@@ -269,6 +270,7 @@ function updateTimeControls() {
   scrubber.max = String(years[years.length - 1]);
   scrubber.value = String(timeState.year);
   label.textContent = String(timeState.year);
+  positionChromeAboveTimeBar();
 }
 
 function updateRatePanel(baseRows, playhead) {
@@ -334,6 +336,8 @@ function updateRatePanel(baseRows, playhead) {
   const addUsdPrc = annualUsdPrc[idx] || 0;
 
   box.innerHTML =
+    `<div class="rate-main">` +
+    `<div class="rate-stats">` +
     `<div class="rate-title">Through ${playhead}</div>` +
     `<p class="rate-line">On map: <span class="side-us">U.S. <strong>${cumNUs[idx].toLocaleString()}</strong></span> · ` +
     `<span class="side-prc">PRC <strong>${cumNPrc[idx].toLocaleString()}</strong></span></p>` +
@@ -348,10 +352,15 @@ function updateRatePanel(baseRows, playhead) {
     `<span class="side-prc">PRC <strong>+${addNPrc}</strong> · <strong>${fmtDeltaMoney(
       addUsdPrc
     )}</strong></span></p>` +
+    `</div>` +
+    `<div class="rate-viz">` +
     '<p class="spark-caption">Cumulative documented USD · slope = pace</p>' +
     cumUsdSparkSvg(cumUsdUs, cumUsdPrc, years, playhead) +
+    `</div>` +
+    `</div>` +
     '<p class="rate-caveat">Cumulative stock matches pins on the map. Chart slope is the investment pace. ' +
     "Pin counts can reflect source coverage; CapEx rows can nest in USD sums.</p>";
+  positionChromeAboveTimeBar();
 }
 
 function setupTimeBar() {
@@ -375,6 +384,11 @@ function setupTimeBar() {
     e.preventDefault();
     togglePlay();
   });
+  window.addEventListener("resize", positionChromeAboveTimeBar);
+  const bar = $("timeBar");
+  if (bar && typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(positionChromeAboveTimeBar).observe(bar);
+  }
 }
 
 function fmtPct(gap) {
@@ -719,12 +733,22 @@ function updateFullscreenButton(el, btn) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
 }
 
+function positionChromeAboveTimeBar() {
+  const stage = document.querySelector(".map-stage");
+  const bar = $("timeBar");
+  if (!stage) return;
+  const h = bar && !bar.hidden ? bar.offsetHeight : 0;
+  const gap = 12;
+  stage.style.setProperty("--time-bar-clearance", `${h + gap}px`);
+}
+
 function syncFloatKey(stage) {
   const floatKey = $("mapFloatKey");
   if (!floatKey) return;
   const on = stage && mapIsFullscreen(stage);
   floatKey.hidden = !on;
   floatKey.setAttribute("aria-hidden", on ? "false" : "true");
+  positionChromeAboveTimeBar();
 }
 
 function syncFullscreenChrome(stage) {

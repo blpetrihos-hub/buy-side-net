@@ -169,13 +169,12 @@ body {
   border-bottom-color: inherit;
 }
 
-/* Fullscreen floating key — SE ocean corner, clear above the play bar */
+/* Fullscreen floating key — SE ocean corner, always above measured play bar */
 .map-float-key {
   display: none;
   position: absolute;
   right: 1.1rem;
-  /* Time bar carries rate copy + 52px spark; sit above that strip with a gap */
-  bottom: 13.5rem;
+  bottom: max(0.75rem, var(--time-bar-clearance, 8rem));
   z-index: 1100;
   flex-direction: column;
   align-items: flex-start;
@@ -203,7 +202,6 @@ body {
 @media (max-width: 640px) {
   .map-float-key {
     right: 0.65rem;
-    bottom: 17rem;
     max-width: min(14rem, calc(100% - 1.2rem));
     font-size: 0.68rem;
     padding: 0.45rem 0.55rem;
@@ -532,14 +530,9 @@ code { font-size: 0.86em; }
 }
 .time-bar[hidden] { display: none; }
 
-/* Keep Leaflet attribution above the edge-flush time bar */
+/* Keep Leaflet attribution above the measured time bar */
 .map-stage .leaflet-bottom {
-  bottom: 6.75rem;
-}
-@media (max-width: 640px) {
-  .map-stage .leaflet-bottom {
-    bottom: 11rem;
-  }
+  bottom: var(--time-bar-clearance, 6.75rem);
 }
 
 .time-controls {
@@ -581,29 +574,54 @@ code { font-size: 0.86em; }
   cursor: pointer;
 }
 .time-rate {
-  flex: 1 1 260px;
+  flex: 1 1 320px;
   min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.3rem;
   text-align: center;
-  font-size: 0.78rem;
-  line-height: 1.35;
+  font-size: 0.88rem;
+  line-height: 1.3;
+}
+.time-rate .rate-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem 1.15rem;
+  width: 100%;
+  max-width: 44rem;
+  min-height: 0;
+}
+.time-rate .rate-stats {
+  flex: 0 1 auto;
+  text-align: left;
+  min-width: 0;
+}
+.time-rate .rate-viz {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
 }
 .time-rate .rate-title {
-  font-size: 0.68rem;
+  font-size: 0.78rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.12rem;
 }
-.time-rate .rate-line { margin: 0.05rem 0; }
+.time-rate .rate-line { margin: 0.08rem 0; }
 .time-rate .rate-line strong { font-variant-numeric: tabular-nums; }
 .time-rate .rate-change { color: var(--muted); }
 .time-rate .rate-caveat {
-  margin: 0.25rem 0 0;
-  max-width: 300px;
+  margin: 0;
+  max-width: 44rem;
+  width: 100%;
   font-size: calc(0.65rem + 1pt);
   font-weight: 700;
   color: var(--muted);
@@ -611,8 +629,8 @@ code { font-size: 0.86em; }
   text-align: center;
 }
 .time-rate .spark-caption {
-  margin: 0.35rem 0 0.1rem;
-  font-size: 0.65rem;
+  margin: 0 0 0.1rem;
+  font-size: 0.72rem;
   letter-spacing: 0.02em;
   color: var(--muted);
   line-height: 1.2;
@@ -620,10 +638,10 @@ code { font-size: 0.86em; }
 }
 .time-spark {
   display: block;
-  width: 100%;
-  max-width: 300px;
-  height: 52px;
-  margin: 0.15rem auto 0;
+  width: min(100%, 340px);
+  max-width: 340px;
+  height: 72px;
+  margin: 0;
   overflow: visible;
 }
 .time-spark .spark-line {
@@ -662,6 +680,11 @@ code { font-size: 0.86em; }
   }
   .time-controls { flex: 1 1 auto; width: 100%; }
   .time-rate { flex: 1 1 auto; width: 100%; }
+  .time-rate .rate-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .time-rate .rate-stats { text-align: center; }
 }
 
 /* Capture Pathways web */
