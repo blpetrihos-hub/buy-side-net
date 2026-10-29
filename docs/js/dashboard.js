@@ -147,10 +147,6 @@ function stopPlay() {
     btn.textContent = "Play";
     btn.setAttribute("aria-pressed", "false");
   }
-  const bar = $("timeBar");
-  if (bar) bar.classList.remove("is-playing");
-  const stage = bar && bar.closest(".map-stage");
-  if (stage && mapIsFullscreen(stage)) revealFullscreenChrome(stage);
 }
 
 function setPlayhead(year, opts) {
@@ -195,12 +191,6 @@ function togglePlay() {
   if (btn) {
     btn.textContent = "Pause";
     btn.setAttribute("aria-pressed", "true");
-  }
-  const bar = $("timeBar");
-  if (bar) bar.classList.add("is-playing");
-  const stage = bar && bar.closest(".map-stage");
-  if (stage && mapIsFullscreen(stage)) {
-    revealFullscreenChrome(stage, { sticky: true });
   }
   render();
   timeState.timer = setInterval(advancePlay, PLAY_MS);
@@ -716,28 +706,6 @@ function updateFullscreenButton(el, btn) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
 }
 
-function clearFullscreenChromeTimer(stage) {
-  if (stage && stage._chromeTimer != null) {
-    clearTimeout(stage._chromeTimer);
-    stage._chromeTimer = null;
-  }
-}
-
-function revealFullscreenChrome(stage, opts) {
-  if (!stage || !mapIsFullscreen(stage)) return;
-  const options = opts || {};
-  stage.classList.add("time-chrome-visible");
-  clearFullscreenChromeTimer(stage);
-  // Stay up while playing or while the pointer is on the play bar itself.
-  if (options.sticky || timeState.playing || stage.classList.contains("time-chrome-hold")) {
-    return;
-  }
-  stage._chromeTimer = setTimeout(function () {
-    stage.classList.remove("time-chrome-visible");
-    stage._chromeTimer = null;
-  }, 2800);
-}
-
 function syncFloatKey(stage) {
   const floatKey = $("mapFloatKey");
   if (!floatKey) return;
@@ -753,21 +721,8 @@ function syncFullscreenChrome(stage) {
     if (!stage.classList.contains("is-map-fullscreen")) {
       stage.classList.add("is-map-fullscreen");
     }
-    syncFloatKey(stage);
-    revealFullscreenChrome(stage);
-    return;
-  }
-  if (
-    stage.classList.contains("is-map-fullscreen") ||
-    stage.classList.contains("time-chrome-visible") ||
-    stage.classList.contains("time-chrome-hold")
-  ) {
-    clearFullscreenChromeTimer(stage);
-    stage.classList.remove(
-      "is-map-fullscreen",
-      "time-chrome-visible",
-      "time-chrome-hold"
-    );
+  } else if (stage.classList.contains("is-map-fullscreen")) {
+    stage.classList.remove("is-map-fullscreen");
   }
   syncFloatKey(stage);
 }
@@ -813,35 +768,6 @@ function exitMapFullscreen(el, after) {
 function wireFullscreenChrome(stage) {
   if (!stage || stage._chromeWired) return;
   stage._chromeWired = true;
-  const bump = function () {
-    revealFullscreenChrome(stage);
-  };
-  stage.addEventListener("mousemove", bump);
-  stage.addEventListener("pointerdown", bump);
-  const bar = stage.querySelector(".time-bar");
-  if (bar) {
-    bar.addEventListener("mouseenter", function () {
-      stage.classList.add("time-chrome-hold");
-      revealFullscreenChrome(stage, { sticky: true });
-    });
-    bar.addEventListener("mouseleave", function () {
-      stage.classList.remove("time-chrome-hold");
-      revealFullscreenChrome(stage);
-    });
-    bar.addEventListener("focusin", function () {
-      stage.classList.add("time-chrome-hold");
-      revealFullscreenChrome(stage, { sticky: true });
-    });
-    bar.addEventListener("focusout", function () {
-      // Defer so focus moving within the bar does not flicker.
-      setTimeout(function () {
-        if (!bar.contains(document.activeElement)) {
-          stage.classList.remove("time-chrome-hold");
-          revealFullscreenChrome(stage);
-        }
-      }, 0);
-    });
-  }
   const floatKey = stage.querySelector(".map-float-key");
   if (floatKey) {
     // Keep map drag/zoom from eating clicks on the key.
