@@ -336,12 +336,85 @@ function initMap() {
       maxZoom: 20,
     }
   ).addTo(map);
+  addFullscreenControl();
   map.createPane("strands").style.zIndex = 410;
   map.createPane("flows").style.zIndex = 420;
   map.createPane("arrows").style.zIndex = 615;
   map.createPane("hubs").style.zIndex = 640;
   map.createPane("triad").style.zIndex = 645;
   map.getPane("tooltipPane").style.zIndex = 680;
+}
+
+// ---------- Full screen ----------
+
+const FS_EXPAND =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>';
+const FS_COLLAPSE =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3v5H3M16 3v5h5M8 21v-5H3M16 21v-5h5"/></svg>';
+let fsButton = null;
+
+// The whole dashboard (step bar, map, panel) goes full screen so the steps stay clickable.
+function isFullscreen() {
+  const page = $("lithiumPage");
+  const fs = document.fullscreenElement || document.webkitFullscreenElement;
+  return fs === page || page.classList.contains("li-windowed-full");
+}
+
+function updateFullscreenButton() {
+  const on = isFullscreen();
+  fsButton.innerHTML = on ? FS_COLLAPSE : FS_EXPAND;
+  fsButton.title = on ? "Exit full screen (F)" : "Full screen (F)";
+  fsButton.setAttribute("aria-label", fsButton.title);
+  fsButton.setAttribute("aria-pressed", on ? "true" : "false");
+}
+
+function syncFullscreen() {
+  $("lithiumPage").classList.toggle("is-fullscreen", isFullscreen());
+  updateFullscreenButton();
+  setTimeout(() => renderMap(true), 120);
+}
+
+function toggleFullscreen() {
+  const page = $("lithiumPage");
+  if (isFullscreen()) {
+    const cur = document.fullscreenElement || document.webkitFullscreenElement;
+    const exit = document.exitFullscreen || document.webkitExitFullscreen;
+    if (cur === page && exit) {
+      Promise.resolve(exit.call(document)).catch(() => {}).then(syncFullscreen);
+      return;
+    }
+    page.classList.remove("li-windowed-full");
+    syncFullscreen();
+    return;
+  }
+  const req = page.requestFullscreen || page.webkitRequestFullscreen;
+  if (!req) {
+    page.classList.add("li-windowed-full");
+    syncFullscreen();
+    return;
+  }
+  Promise.resolve(req.call(page))
+    .catch(() => page.classList.add("li-windowed-full"))
+    .then(syncFullscreen);
+}
+
+function addFullscreenControl() {
+  const Fullscreen = L.Control.extend({
+    options: { position: "topleft" },
+    onAdd() {
+      const bar = L.DomUtil.create("div", "leaflet-bar leaflet-control");
+      fsButton = L.DomUtil.create("a", "map-fs-btn", bar);
+      fsButton.href = "#";
+      fsButton.setAttribute("role", "button");
+      L.DomEvent.disableClickPropagation(bar);
+      L.DomEvent.on(fsButton, "click", L.DomEvent.stop).on(fsButton, "click", toggleFullscreen);
+      return bar;
+    },
+  });
+  map.addControl(new Fullscreen());
+  document.addEventListener("fullscreenchange", syncFullscreen);
+  document.addEventListener("webkitfullscreenchange", syncFullscreen);
+  updateFullscreenButton();
 }
 
 function drawFlow(step, fl, achieved) {
@@ -567,7 +640,7 @@ function renderCards() {
         `<p class="summary-kicker">Team 2 brief · Slide 10</p>` +
         `<h2>From mines to microchips</h2>` +
         `<p>Click steps 1, 2, and 3 (or press the 1, 2, 3 keys) to build the chain. Each step lights one commanding height: ` +
-        `Scarce Natural Resources, Infrastructure, and Energy. Turn on all three to see the full chain.</p>` +
+        `Scarce Natural Resources, Infrastructure, and Energy. Turn on all three to see the full chain. Press F for full screen.</p>` +
         `</div>`
     );
   }
@@ -711,6 +784,8 @@ function bindEvents() {
     if (STEP_BY_N[Number(e.key)]) toggleStep(Number(e.key));
     else if (e.key === "a" || e.key === "A") showAll();
     else if (e.key === "r" || e.key === "R") reset();
+    else if (e.key === "f" || e.key === "F") toggleFullscreen();
+    else if (e.key === "Escape" && $("lithiumPage").classList.contains("li-windowed-full")) toggleFullscreen();
     else if (e.key === "Escape" && state.plot) {
       state.plot = null;
       render(false);

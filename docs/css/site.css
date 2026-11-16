@@ -1313,6 +1313,26 @@ path.li-flow-gold {
 .li-achieved-card { animation-name: li-fade; }
 @keyframes li-fade { from { opacity: 0; } to { opacity: 1; } }
 
+.lithium-page.is-fullscreen {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--paper);
+}
+.lithium-page.li-windowed-full { position: fixed; inset: 0; z-index: 4000; }
+.lithium-page.is-fullscreen .li-layout {
+  flex: 1 1 auto;
+  min-height: 0;
+  grid-template-rows: minmax(0, 1fr);
+  align-items: stretch;
+  border-bottom: 0;
+}
+.lithium-page.is-fullscreen .li-stage { display: flex; flex-direction: column; min-height: 0; }
+.lithium-page.is-fullscreen #lithiumMap { flex: 1 1 auto; height: auto; min-height: 0; }
+.lithium-page.is-fullscreen .li-panel { position: static; max-height: none; height: 100%; }
+
 @media (prefers-reduced-motion: reduce) {
   path.li-draw, path.li-flow-gold, .li-triad-inner, .li-triad-inner svg,
   .li-meter.achieved .li-seg, .li-banner, .li-achieved-card { animation: none; }
