@@ -1255,14 +1255,6 @@ path.li-flow-gold {
   border-color: var(--li-gold);
   box-shadow: 0 0 0 1px var(--li-gold), 0 0 22px rgba(201,162,74,0.55);
 }
-.li-lights-title {
-  margin-bottom: 0.3rem;
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #c8ccd2;
-}
 .li-bulbs { display: flex; gap: 0.6rem; justify-content: center; }
 .li-bulb {
   --glow: var(--li-gold);
@@ -1295,11 +1287,12 @@ path.li-flow-gold {
   animation: li-flicker 0.7s linear both, li-glow 1.8s ease-in-out 0.7s infinite;
 }
 .li-lights-sign {
-  margin-top: 0.35rem;
-  padding: 0.12rem 0.5rem;
-  font-size: 0.78rem;
+  margin-top: 0.4rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.14em;
+  white-space: nowrap;
   text-transform: uppercase;
   color: #4a5059;
   border: 1px solid #3a4049;

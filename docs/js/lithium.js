@@ -336,10 +336,7 @@ function renderLights() {
   }).join("");
   const signCls = "li-lights-sign" + (achieved ? " on" : "") + (achieved && !achievedBefore ? " flick" : "");
   lightsBox.className = "leaflet-control li-lights" + (achieved ? " achieved" : "");
-  lightsBox.innerHTML =
-    `<div class="li-lights-title">Commanding heights</div>` +
-    `<div class="li-bulbs">${bulbs}</div>` +
-    `<div class="${signCls}">Achieved</div>`;
+  lightsBox.innerHTML = `<div class="li-bulbs">${bulbs}</div><div class="${signCls}">Commanding heights</div>`;
   litBefore = new Set(state.on);
   achievedBefore = achieved;
 }
