@@ -710,25 +710,10 @@ function render(fit) {
   renderMap(fit);
   renderDetail();
   renderCards();
-  writeHash();
   state.fresh = null;
 }
 
 // ---------- State and events ----------
-
-function writeHash() {
-  const on = [...state.on].sort().join(",");
-  history.replaceState(null, "", on ? "#steps=" + on : location.pathname + location.search);
-}
-
-function readHash() {
-  const p = new URLSearchParams(location.hash.slice(1));
-  (p.get("steps") || "")
-    .split(",")
-    .map(Number)
-    .filter((n) => STEP_BY_N[n])
-    .forEach((n) => state.on.add(n));
-}
 
 function toggleStep(n) {
   if (state.on.has(n)) {
@@ -794,7 +779,7 @@ function bindEvents() {
 }
 
 async function boot() {
-  readHash();
+  if (location.hash) history.replaceState(null, "", location.pathname + location.search);
   renderLegend();
   initMap();
   bindEvents();
