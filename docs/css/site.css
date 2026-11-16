@@ -1018,3 +1018,312 @@ code { font-size: 0.86em; }
   #chainMap { height: 70vh; min-height: 380px; }
   .chain-panel { position: static; max-height: none; }
 }
+
+/* Lithium Chain (slide 10) */
+.lithium-page {
+  --li-gold: #c9a24a;
+  --li-dark: #1d2026;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+.li-stepbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.75rem 1.25rem;
+  padding: 0.7rem 1rem;
+  background: var(--li-dark);
+  border-bottom: 1px solid #000;
+}
+.li-steps {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.li-step {
+  --step: var(--li-gold);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  min-width: 12.5rem;
+  padding: 0.45rem 0.85rem 0.5rem 0.8rem;
+  font-family: inherit;
+  text-align: left;
+  color: #e9e6df;
+  background: #262a31;
+  border: 1px solid #343a43;
+  border-left: 4px solid var(--li-gold);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.li-step:hover { background: #2d323a; }
+.li-step.on {
+  background: #2f343c;
+  border-color: var(--step);
+  border-left-color: var(--step);
+  box-shadow: inset 0 -3px 0 var(--step), 0 0 0 1px var(--step);
+}
+.li-step-kicker {
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--li-gold);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.li-step-title { font-size: 1.05rem; font-weight: 700; color: #fff; }
+.li-step-layer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.74rem;
+  color: #b9bec6;
+}
+.li-step.on .li-step-layer { color: #fff; }
+.li-step-arrow { color: var(--li-gold); font-size: 1.05rem; }
+.li-shape {
+  --shape: var(--step, var(--navy));
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: var(--shape);
+}
+.li-shape.circle { border-radius: 50%; }
+.li-shape.triangle {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-left: 0.4rem solid transparent;
+  border-right: 0.4rem solid transparent;
+  border-bottom: 0.7rem solid var(--shape);
+}
+.li-step:not(.on) .li-shape { opacity: 0.55; }
+.li-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.li-meter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  color: #e9e6df;
+}
+.li-meter-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.li-segs { display: flex; gap: 3px; }
+.li-seg {
+  --seg: var(--li-gold);
+  min-width: 5.6rem;
+  padding: 0.18rem 0.4rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #8e949c;
+  background: #2a2e35;
+  border: 1px solid #3a4049;
+  transition: background 0.3s, color 0.3s;
+}
+.li-seg.on { background: var(--seg); border-color: var(--seg); color: #fff; }
+.li-meter.achieved .li-meter-label { color: var(--li-gold); font-weight: 700; }
+.li-meter.achieved .li-seg {
+  background: var(--li-gold);
+  border-color: var(--li-gold);
+  color: var(--li-dark);
+  font-weight: 700;
+  animation: li-pulse 1.8s ease-in-out infinite;
+}
+.li-actions { display: flex; gap: 0.4rem; }
+.li-action {
+  font-family: inherit;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.6rem;
+  color: #e9e6df;
+  background: transparent;
+  border: 1px solid #4a515b;
+  cursor: pointer;
+}
+.li-action:hover { border-color: var(--li-gold); color: var(--li-gold); }
+
+.li-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+}
+.li-stage {
+  position: relative;
+  min-width: 0;
+  border-right: 1px solid var(--line);
+}
+#lithiumMap {
+  width: 100%;
+  height: calc(100vh - 15rem);
+  min-height: 480px;
+  background: #dde4e8;
+}
+.li-legend { border-top: 1px solid var(--line); border-bottom: 0; }
+.li-legend .li-shape { width: 0.75rem; height: 0.75rem; }
+.li-legend .li-shape.triangle { width: 0; height: 0; }
+
+.li-panel .li-card { text-align: left; }
+.li-panel .li-card h2 { font-size: 1.2rem; }
+.li-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.2rem 0 0.5rem;
+}
+.li-stat {
+  flex: 1 1 6.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem 0.5rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.li-stat strong { font-size: 1.15rem; color: var(--navy); }
+.li-stat span { font-size: 0.72rem; color: var(--muted); line-height: 1.25; }
+.li-sources { font-size: 0.78rem; margin: 0 0 0.35rem; }
+.li-sources a { color: var(--rule); }
+.li-plots summary { cursor: pointer; font-size: 0.82rem; color: var(--rule); margin: 0.3rem 0; }
+.li-plots ul { list-style: none; margin: 0; padding: 0; }
+.li-plots .plot-item, .li-plots .plot-text { justify-content: flex-start; text-align: left; }
+.li-card-off {
+  --step: var(--navy);
+  display: block;
+  width: 100%;
+  margin: 0 0 0.6rem;
+  padding: 0.55rem 0.8rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  text-align: left;
+  color: var(--muted);
+  background: transparent;
+  border: 1px dashed var(--line);
+  border-left: 4px solid var(--step);
+  cursor: pointer;
+}
+.li-card-off:hover { background: #fff; color: var(--navy); }
+.li-card-off .li-step-kicker { color: var(--step); }
+.li-card-off-hint { display: block; font-size: 0.75rem; font-style: italic; }
+.li-achieved-card {
+  background: var(--li-dark);
+  border-color: var(--li-dark);
+  border-top: 3px solid var(--li-gold);
+  color: #e9e6df;
+  animation: li-rise 0.6s ease-out both;
+}
+.li-achieved-card .summary-kicker { color: var(--li-gold); }
+.li-achieved-card h2 { color: #fff; }
+
+.li-pin .ch-shape.circle, .li-pin .ch-shape.square { width: 100%; height: 100%; }
+.li-pin.picked .ch-shape { box-shadow: 0 0 0 3px rgba(27,58,75,0.35); }
+
+path.li-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: li-draw 1.1s ease-out forwards;
+}
+path.li-flow-gold {
+  stroke-dasharray: 14 10;
+  animation: li-flow 1.4s linear infinite;
+}
+
+.li-triad { background: transparent; border: 0; pointer-events: none; }
+.li-triad-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: li-pop 0.7s cubic-bezier(.2,1.4,.4,1) both;
+}
+.li-triad-inner svg {
+  filter: drop-shadow(0 0 6px rgba(201,162,74,0.85));
+  animation: li-spin-glow 2.4s ease-in-out infinite;
+}
+.li-triad-label {
+  margin-top: 2px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--li-dark);
+  background: var(--li-gold);
+  border: 1px solid #a8843a;
+}
+
+.li-banner {
+  position: absolute;
+  left: 50%;
+  bottom: 3.6rem;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: min(760px, calc(100% - 2rem));
+  padding: 0.6rem 1rem 0.7rem;
+  text-align: center;
+  color: var(--li-gold);
+  background: rgba(29, 32, 38, 0.94);
+  border: 1px solid var(--li-gold);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  animation: li-rise 0.7s ease-out both;
+}
+.li-banner[hidden] { display: none; }
+.li-banner p { margin: 0; }
+.li-banner .li-banner-kicker {
+  margin-bottom: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@keyframes li-draw { to { stroke-dashoffset: 0; } }
+@keyframes li-flow { to { stroke-dashoffset: -24; } }
+@keyframes li-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201,162,74,0.0); }
+  50% { box-shadow: 0 0 0 4px rgba(201,162,74,0.35); }
+}
+@keyframes li-pop {
+  from { transform: scale(0.3); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes li-spin-glow {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(201,162,74,0.6)); }
+  50% { filter: drop-shadow(0 0 12px rgba(201,162,74,1)); }
+}
+@keyframes li-rise {
+  from { transform: translate(-50%, 12px); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
+}
+.li-achieved-card { animation-name: li-fade; }
+@keyframes li-fade { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  path.li-draw, path.li-flow-gold, .li-triad-inner, .li-triad-inner svg,
+  .li-meter.achieved .li-seg, .li-banner, .li-achieved-card { animation: none; }
+  path.li-draw { stroke-dashoffset: 0; }
+}
+
+@media (max-width: 960px) {
+  .li-layout { grid-template-columns: 1fr; }
+  .li-stage { border-right: 0; }
+  #lithiumMap { height: 70vh; min-height: 380px; }
+  .li-panel { position: static; max-height: none; }
+  .li-step-arrow { display: none; }
+  .li-step { min-width: 0; flex: 1 1 10rem; }
+}

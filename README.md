@@ -4,6 +4,8 @@ Net assessment of PRC versus U.S. investment and presence across **Infrastructur
 
 **Live site:** [https://blpetrihos-hub.github.io/buy-side-net/](https://blpetrihos-hub.github.io/buy-side-net/)
 
+**Lithium Chain (slide 10):** [https://blpetrihos-hub.github.io/buy-side-net/lithium.html](https://blpetrihos-hub.github.io/buy-side-net/lithium.html) — click steps 1, 2, 3 (or press the keys) to build the Cauchari-Olaroz → Xinyu → BYD chain; all three on shows "commanding heights achieved." `lithium.html#steps=1,2,3` opens straight to the full chain.
+
 Team 2, William & Mary GIAS Futures Group. Hunt instructions: `BRIEF.md`.
 
 ## Preview locally

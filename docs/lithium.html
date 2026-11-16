@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lithium Chain · Commanding Heights of Latin America</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/site.css?v=ea08231">
+</head>
+<body>
+<header class="site-header site-header-compact">
+  <div class="inner">
+    <nav aria-label="Site">
+      <a href="index.html">Interactive map</a>
+      <a href="chains.html">Capture Pathways</a>
+      <a href="lithium.html" aria-current="page">Lithium Chain</a>
+      <a href="methods.html">Methods</a>
+      <a href="bibliography.html">Bibliography</a>
+    </nav>
+    <div class="header-brand">
+      <p class="kicker">William &amp; Mary · GIAS Futures Group · Team 2</p>
+      <h1>From Mines to Microchips: the Lithium Chain</h1>
+      <p class="sub">Lithium is mined, refined, and manufactured by Chinese companies in a process dominated by the Lithium Triangle.</p>
+    </div>
+  </div>
+</header>
+
+<main class="lithium-page" id="lithiumPage">
+  <div class="li-stepbar">
+    <div class="li-steps" id="liSteps" role="toolbar" aria-label="Lithium chain steps"></div>
+    <div class="li-side">
+      <div class="li-meter" id="liMeter" aria-live="polite"></div>
+      <div class="li-actions">
+        <button type="button" class="li-action" id="liAll">Show all three</button>
+        <button type="button" class="li-action" id="liReset">Reset</button>
+      </div>
+    </div>
+  </div>
+  <div class="li-layout">
+    <section class="li-stage" aria-label="Lithium chain map">
+      <div id="lithiumMap"></div>
+      <div class="li-banner" id="liBanner" hidden>
+        <p class="li-banner-kicker">Commanding heights achieved · Security implications</p>
+        <p>A pathway illustrative of Chinese diffuse international vertical integration. We're seeing this across products, sectors, and countries, and the process continues to accelerate.</p>
+      </div>
+      <div class="map-legend-bar li-legend" id="liLegend"></div>
+    </section>
+    <aside class="chain-panel li-panel" id="liPanel">
+      <div class="plot-detail" id="liDetail" hidden></div>
+      <div id="liCards"></div>
+    </aside>
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/lithium.js?v=ea08231"></script>
+</body>
+</html>
