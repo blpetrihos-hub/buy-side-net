@@ -297,22 +297,51 @@ function hubIcon(hub, colors) {
   });
 }
 
-function triadIcon() {
-  const ring = (cx, cy, color) =>
-    `<circle cx="${cx}" cy="${cy}" r="17" fill="${color}" fill-opacity="0.18" stroke="${color}" stroke-width="3"/>`;
-  return L.divIcon({
-    className: "li-triad",
-    html:
-      `<div class="li-triad-inner">` +
-      `<svg width="86" height="78" viewBox="0 0 86 78" aria-hidden="true">` +
-      ring(31, 27, STEPS[0].color) +
-      ring(55, 27, STEPS[1].color) +
-      ring(43, 48, STEPS[2].color) +
-      `</svg>` +
-      `<span class="li-triad-label">All three commanding heights</span></div>`,
-    iconSize: [180, 110],
-    iconAnchor: [90, 55],
+// ---------- Commanding-heights lights ----------
+
+const BULB_SVG =
+  '<svg class="li-bulb-svg" viewBox="0 0 24 32" aria-hidden="true">' +
+  '<circle class="li-bulb-glass" cx="12" cy="11" r="9"/>' +
+  '<path class="li-bulb-filament" d="M8.5 12l1.2 2.6 1.2-2.6 1.2 2.6 1.2-2.6 1.2 2.6"/>' +
+  '<path class="li-bulb-base" d="M8 20h8v2.5H8zM8.5 23.5h7v2h-7zM9.5 26.5h5v2h-5z"/>' +
+  "</svg>";
+let lightsBox = null;
+let litBefore = new Set();
+let achievedBefore = false;
+
+function addLightsControl() {
+  const Lights = L.Control.extend({
+    options: { position: "topright" },
+    onAdd() {
+      lightsBox = L.DomUtil.create("div", "leaflet-control li-lights");
+      lightsBox.setAttribute("aria-live", "polite");
+      L.DomEvent.disableClickPropagation(lightsBox);
+      return lightsBox;
+    },
   });
+  map.addControl(new Lights());
+}
+
+// Bulbs that just switched on (and the sign, on first reaching 3 of 3) flicker once.
+function renderLights() {
+  if (!lightsBox) return;
+  const achieved = isAchieved();
+  const bulbs = STEPS.map((s) => {
+    const on = state.on.has(s.n);
+    const cls = "li-bulb" + (on ? " on" : "") + (on && !litBefore.has(s.n) ? " flick" : "");
+    return (
+      `<div class="${cls}" style="--glow:${s.color}">${BULB_SVG}` +
+      `<span class="li-bulb-label">${esc(LAYER_LABEL[s.layer].replace("Scarce Natural ", ""))}</span></div>`
+    );
+  }).join("");
+  const signCls = "li-lights-sign" + (achieved ? " on" : "") + (achieved && !achievedBefore ? " flick" : "");
+  lightsBox.className = "leaflet-control li-lights" + (achieved ? " achieved" : "");
+  lightsBox.innerHTML =
+    `<div class="li-lights-title">Commanding heights</div>` +
+    `<div class="li-bulbs">${bulbs}</div>` +
+    `<div class="${signCls}">Achieved</div>`;
+  litBefore = new Set(state.on);
+  achievedBefore = achieved;
 }
 
 // ---------- Map rendering ----------
@@ -337,11 +366,11 @@ function initMap() {
     }
   ).addTo(map);
   addFullscreenControl();
+  addLightsControl();
   map.createPane("strands").style.zIndex = 410;
   map.createPane("flows").style.zIndex = 420;
   map.createPane("arrows").style.zIndex = 615;
   map.createPane("hubs").style.zIndex = 640;
-  map.createPane("triad").style.zIndex = 645;
   map.getPane("tooltipPane").style.zIndex = 680;
 }
 
@@ -519,10 +548,6 @@ function renderMap(fit) {
     webLayer.addLayer(marker);
     bounds.push(hub.latlng);
   });
-
-  if (achieved) {
-    webLayer.addLayer(L.marker(cn(4, 140), { pane: "triad", icon: triadIcon(), interactive: false }));
-  }
 
   if (fit) {
     const pts = bounds.length ? bounds : Object.values(HUBS).map((h) => h.latlng);
@@ -707,6 +732,7 @@ function render(fit) {
   $("liBanner").hidden = !achieved;
   renderSteps();
   renderMeter();
+  renderLights();
   renderMap(fit);
   renderDetail();
   renderCards();

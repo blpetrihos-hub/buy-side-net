@@ -1241,27 +1241,77 @@ path.li-flow-gold {
   animation: li-flow 1.4s linear infinite;
 }
 
-.li-triad { background: transparent; border: 0; pointer-events: none; }
-.li-triad-inner {
+.li-lights {
+  padding: 0.5rem 0.7rem 0.55rem;
+  text-align: center;
+  color: #9aa0a8;
+  background: rgba(29, 32, 38, 0.95);
+  border: 1px solid #3a4049;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+  font-family: "Segoe UI", Arial, sans-serif;
+  transition: border-color 0.4s, box-shadow 0.4s;
+}
+.li-lights.achieved {
+  border-color: var(--li-gold);
+  box-shadow: 0 0 0 1px var(--li-gold), 0 0 22px rgba(201,162,74,0.55);
+}
+.li-lights-title {
+  margin-bottom: 0.3rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #c8ccd2;
+}
+.li-bulbs { display: flex; gap: 0.6rem; justify-content: center; }
+.li-bulb {
+  --glow: var(--li-gold);
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: li-pop 0.7s cubic-bezier(.2,1.4,.4,1) both;
+  gap: 0.15rem;
+  width: 5.2rem;
 }
-.li-triad-inner svg {
-  filter: drop-shadow(0 0 6px rgba(201,162,74,0.85));
-  animation: li-spin-glow 2.4s ease-in-out infinite;
+.li-bulb-svg { width: 40px; height: 52px; overflow: visible; }
+.li-bulb-glass {
+  fill: #2c3038;
+  stroke: #575e68;
+  stroke-width: 1.2;
+  transition: fill 0.25s;
 }
-.li-triad-label {
-  margin-top: 2px;
-  padding: 2px 8px;
-  font-size: 12px;
+.li-bulb-filament { fill: none; stroke: #6b717a; stroke-width: 1.1; stroke-linejoin: round; }
+.li-bulb-base { fill: #6b717a; }
+.li-bulb-label { font-size: 0.74rem; line-height: 1.1; }
+.li-bulb.on .li-bulb-glass { fill: var(--glow); stroke: #fff; stroke-opacity: 0.6; }
+.li-bulb.on .li-bulb-filament { stroke: #fff6cf; stroke-width: 1.4; }
+.li-bulb.on .li-bulb-base { fill: #a9aeb5; }
+.li-bulb.on .li-bulb-svg {
+  filter: drop-shadow(0 0 5px var(--glow)) drop-shadow(0 0 12px var(--glow));
+}
+.li-bulb.on .li-bulb-label { color: #fff; font-weight: 700; }
+.li-bulb.flick .li-bulb-svg { animation: li-flicker 0.7s linear both; }
+.li-lights.achieved .li-bulb.on .li-bulb-svg { animation: li-glow 1.8s ease-in-out infinite; }
+.li-lights.achieved .li-bulb.flick .li-bulb-svg {
+  animation: li-flicker 0.7s linear both, li-glow 1.8s ease-in-out 0.7s infinite;
+}
+.li-lights-sign {
+  margin-top: 0.35rem;
+  padding: 0.12rem 0.5rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  white-space: nowrap;
-  color: var(--li-dark);
-  background: var(--li-gold);
-  border: 1px solid #a8843a;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #4a5059;
+  border: 1px solid #3a4049;
+  transition: color 0.3s;
 }
+.li-lights-sign.on {
+  color: #ffe7a8;
+  border-color: var(--li-gold);
+  text-shadow: 0 0 4px var(--li-gold), 0 0 12px var(--li-gold);
+  box-shadow: inset 0 0 10px rgba(201,162,74,0.35), 0 0 10px rgba(201,162,74,0.45);
+}
+.li-lights-sign.flick { animation: li-flicker 0.9s linear 0.35s both; }
 
 .li-banner {
   position: absolute;
@@ -1298,13 +1348,17 @@ path.li-flow-gold {
   0%, 100% { box-shadow: 0 0 0 0 rgba(201,162,74,0.0); }
   50% { box-shadow: 0 0 0 4px rgba(201,162,74,0.35); }
 }
-@keyframes li-pop {
-  from { transform: scale(0.3); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+@keyframes li-flicker {
+  0% { opacity: 0.15; }
+  12% { opacity: 1; }
+  20% { opacity: 0.25; }
+  32% { opacity: 1; }
+  40% { opacity: 0.5; }
+  52%, 100% { opacity: 1; }
 }
-@keyframes li-spin-glow {
-  0%, 100% { filter: drop-shadow(0 0 4px rgba(201,162,74,0.6)); }
-  50% { filter: drop-shadow(0 0 12px rgba(201,162,74,1)); }
+@keyframes li-glow {
+  0%, 100% { filter: drop-shadow(0 0 5px var(--glow)) drop-shadow(0 0 12px var(--glow)); }
+  50% { filter: drop-shadow(0 0 9px var(--glow)) drop-shadow(0 0 22px var(--li-gold)); }
 }
 @keyframes li-rise {
   from { transform: translate(-50%, 12px); opacity: 0; }
@@ -1334,7 +1388,7 @@ path.li-flow-gold {
 .lithium-page.is-fullscreen .li-panel { position: static; max-height: none; height: 100%; }
 
 @media (prefers-reduced-motion: reduce) {
-  path.li-draw, path.li-flow-gold, .li-triad-inner, .li-triad-inner svg,
+  path.li-draw, path.li-flow-gold, .li-bulb-svg, .li-lights-sign,
   .li-meter.achieved .li-seg, .li-banner, .li-achieved-card { animation: none; }
   path.li-draw { stroke-dashoffset: 0; }
 }
